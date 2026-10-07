@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "양지7지구1단지지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-10-15",
+  "CNTRCT_CNCLS_ENDDE": "2026-10-15",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.오남역서희스타힐스1단지.com",
+  "HOUSE_MANAGE_NO": "2026910253",
+  "HOUSE_NM": "오남역 서희스타힐스 여의재 1단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 남양주시 오남읍 양지리 101번지 일원",
+  "HSSPLY_ZIP": "12036",
+  "MDHS_TELNO": "15550074",
+  "MVN_PREARNGE_YM": "203008",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910253",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910253&pblancNo=2026910253",
+  "PRZWNER_PRESNATN_DE": "2026-10-13",
+  "RCRIT_PBLANC_DE": "2026-10-01",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-10-06",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-10-06",
+  "TOT_SUPLY_HSHLDCO": 12
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910253",
+   "HOUSE_TY": "084.9596 ",
+   "LTTOT_TOP_AMOUNT": "71900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910253",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 12
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "3.92",
+   "HOUSE_MANAGE_NO": "2026910253",
+   "HOUSE_TY": "084.9596 ",
+   "PBLANC_NO": "2026910253",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "47",
+   "SUPLY_HSHLDCO": 12
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:12:18.668752+09:00"
+}

@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)이노디앤씨",
+  "CNTRCT_CNCLS_BGNDE": "2026-10-17",
+  "CNTRCT_CNCLS_ENDDE": "2026-10-17",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://충정로역자이르네.com",
+  "HOUSE_MANAGE_NO": "2026910251",
+  "HOUSE_NM": "충정로역자이르네",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 중구 중림동 157-2번지 일원",
+  "HSSPLY_ZIP": "04504",
+  "MDHS_TELNO": "16601245",
+  "MVN_PREARNGE_YM": "203005",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910251",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910251&pblancNo=2026910251",
+  "PRZWNER_PRESNATN_DE": "2026-10-12",
+  "RCRIT_PBLANC_DE": "2026-09-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-10-06",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-10-06",
+  "TOT_SUPLY_HSHLDCO": 35
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910251",
+   "HOUSE_TY": "084.9972A",
+   "LTTOT_TOP_AMOUNT": "243300",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 21
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910251",
+   "HOUSE_TY": "084.9965B",
+   "LTTOT_TOP_AMOUNT": "229500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 14
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "10.64",
+   "HOUSE_MANAGE_NO": "2026910251",
+   "HOUSE_TY": "084.9965B",
+   "PBLANC_NO": "2026910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "149",
+   "SUPLY_HSHLDCO": 14
+  },
+  {
+   "CMPET_RATE": "12.86",
+   "HOUSE_MANAGE_NO": "2026910251",
+   "HOUSE_TY": "084.9972A",
+   "PBLANC_NO": "2026910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "270",
+   "SUPLY_HSHLDCO": 21
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:12:22.697044+09:00"
+}

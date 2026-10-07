@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "철산주공8,9단지주택재건축정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-10-07",
+  "CNTRCT_CNCLS_ENDDE": "2026-10-07",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://xi.co.kr/csh",
+  "HOUSE_MANAGE_NO": "2026910236",
+  "HOUSE_NM": "철산자이 더 헤리티지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 광명시 철산동 235번지 일원",
+  "HSSPLY_ZIP": "14214",
+  "MDHS_TELNO": "0220520180",
+  "MVN_PREARNGE_YM": "202610",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910236",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910236&pblancNo=2026910236",
+  "PRZWNER_PRESNATN_DE": "2026-09-29",
+  "RCRIT_PBLANC_DE": "2026-09-17",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-09-22",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-09-22",
+  "TOT_SUPLY_HSHLDCO": 4
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910236",
+   "HOUSE_TY": "059.9626 ",
+   "LTTOT_TOP_AMOUNT": "80800",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910236",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910236",
+   "HOUSE_TY": "059.9353 ",
+   "LTTOT_TOP_AMOUNT": "75700",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910236",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "12,343.00",
+   "HOUSE_MANAGE_NO": "2026910236",
+   "HOUSE_TY": "059.9353 ",
+   "PBLANC_NO": "2026910236",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12343",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "14,094.33",
+   "HOUSE_MANAGE_NO": "2026910236",
+   "HOUSE_TY": "059.9626 ",
+   "PBLANC_NO": "2026910236",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "42283",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:12:35.340037+09:00"
+}

@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "문현마루지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-09-29",
+  "CNTRCT_CNCLS_ENDDE": "2026-09-29",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.더샵트리센트.kr",
+  "HOUSE_MANAGE_NO": "2026910239",
+  "HOUSE_NM": "더샵 트리센트",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 남구 문현동 334번지 일원",
+  "HSSPLY_ZIP": "48464",
+  "MDHS_TELNO": "16003384",
+  "MVN_PREARNGE_YM": "202912",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910239",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910239&pblancNo=2026910239",
+  "PRZWNER_PRESNATN_DE": "2026-09-18",
+  "RCRIT_PBLANC_DE": "2026-09-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-09-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-09-15",
+  "TOT_SUPLY_HSHLDCO": 28
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910239",
+   "HOUSE_TY": "075.4145 ",
+   "LTTOT_TOP_AMOUNT": "74300",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910239",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910239",
+   "HOUSE_TY": "084.4817 ",
+   "LTTOT_TOP_AMOUNT": "84900",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910239",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 21
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "5.57",
+   "HOUSE_MANAGE_NO": "2026910239",
+   "HOUSE_TY": "075.4145 ",
+   "PBLANC_NO": "2026910239",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "39",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "2.86",
+   "HOUSE_MANAGE_NO": "2026910239",
+   "HOUSE_TY": "084.4817 ",
+   "PBLANC_NO": "2026910239",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "60",
+   "SUPLY_HSHLDCO": 21
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:12:44.713383+09:00"
+}

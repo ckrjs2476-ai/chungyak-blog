@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "첨단678피에프브이 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-10-02",
+  "CNTRCT_CNCLS_ENDDE": "2026-10-02",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://첨단3지구제일풍경채.com",
+  "HOUSE_MANAGE_NO": "2026910248",
+  "HOUSE_NM": "제일풍경채 첨단3지구(A6BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "광주연구개발특구 첨단3지구 A6블록(전남광주통합특별시 북구 월출동) ",
+  "HSSPLY_ZIP": "61003",
+  "MDHS_TELNO": "16442344",
+  "MVN_PREARNGE_YM": "202908",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910248",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910248&pblancNo=2026910248",
+  "PRZWNER_PRESNATN_DE": "2026-10-01",
+  "RCRIT_PBLANC_DE": "2026-09-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "500",
+  "SUBSCRPT_AREA_CODE_NM": "광주",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-09-28",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-09-28",
+  "TOT_SUPLY_HSHLDCO": 187
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910248",
+   "HOUSE_TY": "084.9900A",
+   "LTTOT_TOP_AMOUNT": "51800",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910248",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 167
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910248",
+   "HOUSE_TY": "084.9900B",
+   "LTTOT_TOP_AMOUNT": "51460",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910248",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 20
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△147)",
+   "HOUSE_MANAGE_NO": "2026910248",
+   "HOUSE_TY": "084.9900A",
+   "PBLANC_NO": "2026910248",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "20",
+   "SUPLY_HSHLDCO": 167
+  },
+  {
+   "CMPET_RATE": "(△18)",
+   "HOUSE_MANAGE_NO": "2026910248",
+   "HOUSE_TY": "084.9900B",
+   "PBLANC_NO": "2026910248",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 20
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:12:28.897792+09:00"
+}

@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 한강시네폴리스개발",
+  "CNTRCT_CNCLS_BGNDE": "2026-09-18",
+  "CNTRCT_CNCLS_ENDDE": "2026-09-18",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://prugio-riverfront.com/",
+  "HOUSE_MANAGE_NO": "2026910227",
+  "HOUSE_NM": "한강 푸르지오 리버프론트",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 김포시 고촌읍 향산리 588-45번지 일원",
+  "HSSPLY_ZIP": "10094",
+  "MDHS_TELNO": "16680552",
+  "MVN_PREARNGE_YM": "203101",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910227",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910227&pblancNo=2026910227",
+  "PRZWNER_PRESNATN_DE": "2026-09-17",
+  "RCRIT_PBLANC_DE": "2026-09-09",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-09-14",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-09-14",
+  "TOT_SUPLY_HSHLDCO": 832
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "084.7402A",
+   "LTTOT_TOP_AMOUNT": "77300",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910227",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 705
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "084.7060E",
+   "LTTOT_TOP_AMOUNT": "75200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910227",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 70
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "106.9778B",
+   "LTTOT_TOP_AMOUNT": "93700",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910227",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 55
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "180.9387B",
+   "LTTOT_TOP_AMOUNT": "292200",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910227",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△45)",
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "084.7060E",
+   "PBLANC_NO": "2026910227",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "25",
+   "SUPLY_HSHLDCO": 70
+  },
+  {
+   "CMPET_RATE": "(△586)",
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "084.7402A",
+   "PBLANC_NO": "2026910227",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "119",
+   "SUPLY_HSHLDCO": 705
+  },
+  {
+   "CMPET_RATE": "(△33)",
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "106.9778B",
+   "PBLANC_NO": "2026910227",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "22",
+   "SUPLY_HSHLDCO": 55
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910227",
+   "HOUSE_TY": "180.9387B",
+   "PBLANC_NO": "2026910227",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:12:51.391385+09:00"
+}
