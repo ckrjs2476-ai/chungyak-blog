@@ -5,6 +5,8 @@ Blogger는 글 안의 <style> 태그를 지우는 경우가 있어 모든 꾸밈
 """
 from __future__ import annotations
 
+import re
+
 import json
 from html import escape
 from pathlib import Path
@@ -44,6 +46,15 @@ def _int(v) -> int:
         return 0
 
 
+def house_ty(v) -> str:
+    """'084.0000A' -> '84A', '084.9500C' -> '84.95C'"""
+    m = re.match(r"0*(\d+)(?:\.(\d+))?([A-Za-z]*)", str(v or ""))
+    if not m:
+        return str(v or "")
+    frac = (m.group(2) or "").rstrip("0")
+    return m.group(1) + (f".{frac}" if frac else "") + m.group(3)
+
+
 def _rows_notice(unit: dict) -> list[tuple[str, str]]:
     d = unit.get("detail", {})
     rows = []
@@ -74,7 +85,7 @@ def _rows_competition(unit: dict) -> list[tuple[str, str]]:
         return _rows_notice(unit)
     best_rate, best = max(rates, key=lambda x: x[0])
     req = sum(_int(r.get("REQ_CNT")) for _, r in rates)
-    rows = [("최고 경쟁률", f"{best.get('CMPET_RATE')} 대 1 ({str(best.get('HOUSE_TY', '')).lstrip('0')})")]
+    rows = [("최고 경쟁률", f"{best.get('CMPET_RATE')} 대 1 ({house_ty(best.get('HOUSE_TY'))})")]
     if req:
         rows.append(("총 접수", f"{req:,}건"))
     d = unit.get("detail", {})
@@ -89,7 +100,7 @@ def _rows_score(unit: dict) -> list[tuple[str, str]]:
         return _rows_notice(unit)
     lo, lo_row = min(lows, key=lambda x: x[0])
     hi = max(_int(s.get("TOP_SCORE")) for s in unit.get("score", []))
-    rows = [("최저 당첨 가점", f"{lo}점 ({str(lo_row.get('HOUSE_TY', '')).lstrip('0')})")]
+    rows = [("최저 당첨 가점", f"{lo}점 ({house_ty(lo_row.get('HOUSE_TY'))})")]
     if hi:
         rows.append(("최고 당첨 가점", f"{hi}점"))
     d = unit.get("detail", {})

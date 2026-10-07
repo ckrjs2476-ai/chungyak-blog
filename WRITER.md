@@ -26,6 +26,16 @@
 1. data/units/<HOUSE_MANAGE_NO>.json만을 숫자의 근거로 쓴다. 데이터에 없는 숫자는 쓰지 않는다.
    (주변 시세처럼 데이터에 없는 정보가 필요하면 그 문단을 빼고 다른 선택 요소를 쓴다.)
 2. 금액 필드(…AMOUNT)는 만원 단위다. 62000이면 "6억 2,000만 원"으로 쓴다.
+   데이터 읽는 법 (2026-10-07 실제 응답으로 확인):
+   - HOUSE_TY "084.0000A"는 "84A 타입"(전용 84㎡), "084.9500C"는 "84.95C 타입"으로 쓴다.
+   - SUPLY_AR는 공급면적(㎡)이다. 전용면적과 헷갈리지 않게 "공급면적"이라고 밝힌다.
+   - 주택형별 일반공급은 SUPLY_HSHLDCO, 특별공급은 SPSPLY_HSHLDCO다. 특공 세부(NWBB 신생아, NWWDS 신혼부부,
+     LFE_FRST 생애최초, MNYCH 다자녀, OLD_PARNTS_SUPORT 노부모, INSTT_RECOMEND 기관추천)도 쓸 수 있다.
+   - CMPET_RATE가 "(△123)"처럼 나오면 경쟁률이 아니라 **미달 123세대**라는 뜻이다. "123세대가 미달됐다고 해요"로 쓴다.
+   - 경쟁률 데이터의 RESIDE_SENM은 해당지역/기타경기/기타지역, SUBSCRPT_RANK_CODE는 1순위·2순위다.
+   - MVN_PREARNGE_YM "202906"은 2029년 6월 입주 예정이다.
+   - 가점(LWET_SCORE 등)이 "-"면 가점제가 아닌 공급(공공분양 등)이다. 숫자를 지어내지 않는다.
+   - CNSTRCT_ENTRPS_NM(시공사), BSNS_MBY_NM(시행사), MDHS_TELNO(분양 문의 전화), HMPG_ADRES(분양 홈페이지)도 쓸 수 있다.
 3. 규칙 파일대로 쓴다: 해요체·합니다체, 모바일 문단, 직전 글과 다른 시작 방식(opening A~D), 새 소제목.
 4. 청약홈 원문 링크는 데이터의 PBLANC_URL을 쓰고, 없으면 https://www.applyhome.co.kr 을 쓴다.
 5. 같은 단지의 이전 글(published.json의 url)이 있으면 본문에 설명적인 문구로 링크한다.

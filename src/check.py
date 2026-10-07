@@ -93,6 +93,11 @@ def allowed_numbers(unit_nos: list[str]) -> set[str]:
                for m in unit.get("models", []) if str(m.get("SUPLY_HSHLDCO", "0")).isdigit()]
         if sup:
             allowed.add(str(sum(sup)))
+        # 주택형을 합친 세대수(일반공급 합계, 신혼부부 특공 합계 등)도 원본에서 계산한 값으로 허용
+        for field in {k for m in unit.get("models", []) for k in m if k.endswith("HSHLDCO")}:
+            vals = [str(m.get(field, "")).strip() for m in unit.get("models", [])]
+            if all(v.isdigit() for v in vals if v):
+                allowed.add(str(sum(int(v) for v in vals if v)))
         allowed.add(str(len(unit.get("models", []))))
     return allowed
 

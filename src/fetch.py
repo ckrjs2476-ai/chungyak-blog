@@ -143,8 +143,8 @@ def main(days: int = 30) -> None:
                 cand.append(("notice", base + max(0, 20 - age * 3)))
                 if unit["competition"]:
                     cand.append(("competition", base + 15))
-                if unit["score"]:
-                    cand.append(("score", base + 10))
+                if any(str(x.get("LWET_SCORE", "")).replace(".", "").isdigit() for x in unit["score"]):
+                    cand.append(("score", base + 10))  # 공공분양처럼 가점이 '-'뿐이면 글감이 아니다
             for typ, sc in cand:
                 if f"{no}:{typ}" in published:
                     continue
