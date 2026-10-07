@@ -38,7 +38,7 @@
 ```
 ---
 house_manage_no: "2026000123"
-type: notice            # notice | competition | score | remainder | monthly | region
+type: notice            # notice | competition | score | remainder | monthly | region | guide
 title: "OO단지 청약 일정·분양가 총정리 (10월 공고)"
 slug: "oo-danji-cheongyak-schedule-2026-10"   # 영문 소문자·숫자·하이픈
 description: "검색 결과에 보일 설명 50~160자. 날짜와 가격을 모아서."
@@ -64,7 +64,12 @@ opening: B              # A 분양가 / B 접수일 / C 시세 차이 / D 신청
 ## 6. 예비 글 채우기 (저녁 실행에서만)
 data/queue/의 예비 글이 14편보다 적으면, 데이터로 만들 수 있는 예비 글 1편을 더 써서
 data/queue/에 넣는다(지역 모음, 단지 비교, 지난달 결산). 같은 검수를 통과해야 한다.
-기초 가이드(제도 설명)는 자동으로 쓰지 않는다. 사람이 확인한 뒤 넣는다.
+기초 가이드(type: guide, 제도 설명)도 자동으로 쓴다. 단, 다음을 지킨다.
+- 주 1편 정도. 이미 쓴 가이드 주제(published.json)는 다시 쓰지 않는다.
+- 제도 숫자(가점 항목, 소득·자산 기준 등)는 바뀔 수 있으니 확실하지 않은 숫자는 쓰지 않고
+  "정확한 기준은 청약홈 홈페이지에서 확인해 주세요"로 안내한다.
+- 본문 첫 부분과 끝에 청약홈(https://www.applyhome.co.kr) 링크와 아래 문구를 넣는다:
+  > 제도 기준은 바뀔 수 있어요. 정확한 내용은 청약홈 홈페이지를 참고해 주세요.
 
 ## 하지 않는 것
 - 규칙 파일 수정, config.json의 mode 변경, 다른 파일 삭제

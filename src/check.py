@@ -21,6 +21,7 @@ ALLOWED_LABELS = {"청약일정", "경쟁률", "당첨가점", "무순위", "서
 BANNED = ("주목할 점은", "중요한 것은", "도움이 되었", "궁금한 점", "무조건 오른", "당첨 보장",
           "전문가들은", "많은 연구에 따르면", "독자 여러분")
 DISCLOSURE = "청약홈 공고 데이터를 바탕으로 자동 정리했어요"
+GUIDE_NOTICE = "청약홈 홈페이지를 참고해 주세요"
 MIN_CHARS = 1500
 MAX_TITLE = 60
 MAX_PARA_SENTENCES = 4
@@ -137,7 +138,10 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         errs.append(f"본문이 {chars}자로 짧습니다 ({MIN_CHARS}자 이상).")
     if "applyhome.co.kr" not in body:
         errs.append("청약홈 원문 링크(applyhome.co.kr)가 없습니다.")
-    if DISCLOSURE not in body:
+    if typ == "guide":
+        if GUIDE_NOTICE not in body:
+            errs.append("가이드 글에 '청약홈 홈페이지를 참고해 주세요' 안내가 없습니다.")
+    elif DISCLOSURE not in body:
         errs.append("자동 정리 안내 문구가 없습니다.")
     for b in BANNED:
         if b in body:
