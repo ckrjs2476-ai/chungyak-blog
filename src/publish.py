@@ -196,6 +196,29 @@ def rerender() -> int:
     return 0
 
 
+def publish_drafts() -> int:
+    """임시저장으로 올린 글을 공개한다. 주소를 영문으로 만들려고 제목을 slug로 바꿔 공개한 뒤 한글 제목으로 되돌린다."""
+    if not PUBLISHED.exists():
+        return 0
+    token = access_token()
+    blog = os.environ["BLOGGER_BLOG_ID"]
+    h = {"Authorization": f"Bearer {token}"}
+    data = json.loads(PUBLISHED.read_text("utf-8"))
+    for p in data["posts"]:
+        if p.get("status") != "DRAFT" or not p.get("blogger_id") or not p.get("file"):
+            continue
+        meta, _ = split_post((DONE / p["file"]).read_text("utf-8"))
+        url = f"{API}/blogs/{blog}/posts/{p['blogger_id']}"
+        _ok(requests.patch(url, json={"title": meta["slug"].replace("-", " ")}, headers=h, timeout=60), "slug 제목")
+        _ok(requests.post(f"{url}/publish", headers=h, timeout=60), "공개")
+        post = _ok(requests.patch(url, json={"title": meta["title"]}, headers=h, timeout=60), "한글 제목").json()
+        p.update({"status": post.get("status"), "url": post.get("url", ""), "title": meta["title"],
+                  "published_at": datetime.now(KST).isoformat()})
+        print(f"::notice::공개: {meta['title']} → {post.get('url')}")
+    PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
+    return 0
+
+
 def main() -> int:
     files = sorted(PENDING.glob("*.md"))
     if not files:
@@ -245,7 +268,11 @@ def main() -> int:
 
 if __name__ == "__main__":
     try:
-        sys.exit(rerender() if "--rerender" in sys.argv else main())
+        if "--rerender" in sys.argv:
+            sys.exit(rerender())
+        if "--publish-drafts" in sys.argv:
+            sys.exit(publish_drafts())
+        sys.exit(main())
     except SystemExit:
         raise
     except Exception as e:  # noqa: BLE001

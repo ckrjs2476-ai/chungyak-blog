@@ -24,8 +24,15 @@ ALL_TYPES = UNIT_TYPES + MULTI_TYPES
 ALLOWED_LABELS = {"청약일정", "경쟁률", "당첨가점", "무순위", "서울", "경기", "인천", "지방", "청약가이드",
                   "월간정리", "청약통계"}
 MIN_ANALYSIS_NUMBERS = 2  # 원본에 없고 분석(data/analysis, data/stats)에만 있는 숫자가 최소 이만큼 있어야 한다
-BANNED = ("주목할 점은", "중요한 것은", "도움이 되었", "궁금한 점", "무조건 오른", "당첨 보장",
-          "전문가들은", "많은 연구에 따르면", "독자 여러분")
+# 사람말투-글쓰기 규칙(위키피디아 'Signs of AI writing' 기반)에서 자동으로 잡을 수 있는 AI 말투
+BANNED = ("주목할 점은", "중요한 것은", "눈여겨볼", "도움이 되었", "도움이 되셨", "궁금한 점", "궁금하신",
+          "무조건 오른", "당첨 보장", "전문가들은", "많은 연구에 따르면", "업계에서는", "독자 여러분",
+          "중요한 역할", "상징한다", "상징합니다", "전환점", "깊이 뿌리내린", "발자취", "숨 막히는", "꼭 가봐야",
+          "눈부신", "다채로운", "명실상부", "밀접한 관련", "혁신적인", "심도 있게", "함양", "아우르",
+          "시사합니다", "시사해요", "보여줍니다", "그럼에도 불구하고", "다양한", "살펴보겠습니다",
+          "알아보겠습니다", "알아볼까요", "정리해 보겠습니다", "마무리하며", "결론적으로", "요약하자면",
+          "한마디로", "놓치지 마세요", "필수 체크", "꿀팁")
+CONNECTORS = ("또한", "게다가", "뿐만 아니라", "그러나", "한편", "더불어")
 DISCLOSURE = "청약홈 공고 데이터를 바탕으로 자동 정리했어요"
 GUIDE_NOTICE = "청약홈 홈페이지를 참고해 주세요"
 MIN_CHARS = 1500
@@ -188,6 +195,28 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     for b in BANNED:
         if b in body:
             errs.append(f"금지 표현: '{b}'")
+
+    # AI 말투 구조 점검
+    paras = [b.strip() for b in re.split(r"\n\s*\n", body)
+             if b.strip() and not b.strip().startswith(("|", "#", ">", "-", "*", "1."))]
+    if paras and sentences(paras[0])[0].rstrip().endswith("?"):
+        errs.append("첫 문장을 질문으로 시작하지 않습니다. 가장 구체적인 숫자·날짜로 시작해 주세요.")
+    if body.count("아니라") > 1:
+        errs.append(f"'~이 아니라 ~' 구조가 {body.count('아니라')}번입니다 (1번까지).")
+    if body.count("**") // 2 > 2:
+        errs.append(f"굵은 글씨가 {body.count('**') // 2}곳입니다 (2곳까지).")
+    run = 0
+    for b in paras:
+        run = run + 1 if b.startswith(CONNECTORS) else 0
+        if run >= 3:
+            errs.append("'또한·게다가·그러나' 같은 접속사로 시작하는 문단이 3번 연속입니다.")
+            break
+    all_sents = [x.rstrip(" .!?\"')") for b in paras for x in sentences(b.replace("\n", " "))]
+    for i in range(len(all_sents) - 2):
+        tails = {x[-3:] for x in all_sents[i:i + 3]}
+        if len(tails) == 1 and len(all_sents[i]) >= 3:
+            errs.append(f"같은 어미('{all_sents[i][-3:]}')가 세 문장 연속입니다: '{all_sents[i][:15]}…'")
+            break
 
     # 표: 개수와 열 수
     tables = 0
