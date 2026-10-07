@@ -87,6 +87,21 @@
    "stage": "1순위 기타지역"
   }
  },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.989A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.989A": 0
+  },
+  "avg_min": 13.5,
+  "max": {
+   "score": 27,
+   "ty": "84.989A"
+  }
+ },
  "region_price": {
   "scope": "천안시",
   "supply_kind": "민영",
@@ -145,5 +160,18 @@
   "peer_avg_rate": 2.94,
   "rank": 7,
   "of": 14
+ },
+ "region_score": {
+  "scope": "천안시",
+  "peer_count": 5,
+  "peers": [
+   "업성 푸르지오 레이크시티",
+   "엘리프 성성호수공원 1BL",
+   "엘리프 성성호수공원 2BL",
+   "백석시그니처자이 1단지",
+   "천안 아이파크 시티 1단지(2회차)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
  }
 }

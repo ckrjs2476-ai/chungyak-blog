@@ -112,6 +112,21 @@
    "stage": "1순위 기타지역"
   }
  },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9596",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.9596": 0
+  },
+  "avg_min": 19.5,
+  "max": {
+   "score": 39,
+   "ty": "84.9596"
+  }
+ },
  "region_price": {
   "scope": "남양주시",
   "supply_kind": "민영",
@@ -160,5 +175,15 @@
   "peer_avg_rate": 1.63,
   "rank": 4,
   "of": 4
+ },
+ "region_score": {
+  "scope": "남양주시",
+  "peer_count": 2,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "남양주 진접 서한이다음(S1BL)"
+  ],
+  "peer_avg_min": 12.5,
+  "diff": -12.5
  }
 }

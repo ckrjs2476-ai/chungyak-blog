@@ -1,21 +1,6 @@
 {
- "date": "2026-10-07",
- "weekly_competition": [
-  {
-   "no": "2026000453",
-   "name": "광명 시티프라디움 에듀하임",
-   "region": "경기",
-   "rank1_avg_rate": 1.68,
-   "best": {
-    "ty": "84.9796D",
-    "rate": 5.0,
-    "stage": "2순위 기타지역"
-   },
-   "final_shortfall_total": 75,
-   "rank1_closed_types": 2,
-   "type_count": 7
-  }
- ],
+ "date": "2026-10-08",
+ "weekly_competition": [],
  "weekly_remainder": [
   {
    "no": "2026910249",
@@ -244,6 +229,21 @@
      "ty": "84.9811C",
      "price": 122202,
      "pyeong_price": 3815
+    }
+   ]
+  },
+  {
+   "no": "2026930041",
+   "name": "세종 리더스포레 나릿재마을 1단지",
+   "region": "세종",
+   "households": 1,
+   "rcept_date": "2026-10-12",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930041&pblancNo=2026930041",
+   "types": [
+    {
+     "ty": "84.9649D",
+     "price": 34320,
+     "pyeong_price": 1007
     }
    ]
   }
@@ -1464,20 +1464,6 @@
  },
  "score_cutoffs_90d": [
   {
-   "no": "2026000310",
-   "name": "남양주 진접 서한이다음(S1BL)",
-   "region": "경기",
-   "min": {
-    "score": 25,
-    "ty": "95.3102B",
-    "reside": "기타지역"
-   },
-   "max": {
-    "score": 75,
-    "ty": "72.4726A"
-   }
-  },
-  {
    "no": "2026000103",
    "name": "더샵 분당하이스트",
    "region": "경기",
@@ -1573,34 +1559,6 @@
    "max": {
     "score": 50,
     "ty": "74.9988A"
-   }
-  },
-  {
-   "no": "2026000329",
-   "name": "호반써밋 풍무Ⅲ",
-   "region": "경기",
-   "min": {
-    "score": 0,
-    "ty": "59.9813B",
-    "reside": "기타지역"
-   },
-   "max": {
-    "score": 63,
-    "ty": "84.9897A"
-   }
-  },
-  {
-   "no": "2026000336",
-   "name": "평택역 더센트럴45",
-   "region": "경기",
-   "min": {
-    "score": 0,
-    "ty": "84.7673P",
-    "reside": "해당지역"
-   },
-   "max": {
-    "score": 45,
-    "ty": "84.7673P"
    }
   },
   {
@@ -1856,6 +1814,20 @@
    }
   },
   {
+   "no": "2026000431",
+   "name": "오남역 서희스타힐스 여의재 3단지 (조합원 취소분)",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "84.9596",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 39,
+    "ty": "84.9596"
+   }
+  },
+  {
    "no": "2026000441",
    "name": "문수로 비스타 더파크",
    "region": "울산",
@@ -1881,6 +1853,20 @@
    "max": {
     "score": 64,
     "ty": "84.9663D"
+   }
+  },
+  {
+   "no": "2026000454",
+   "name": "천안 용곡 두산위브(조합원 취소분)",
+   "region": "충남",
+   "min": {
+    "score": 0,
+    "ty": "84.989A",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 27,
+    "ty": "84.989A"
    }
   }
  ]
