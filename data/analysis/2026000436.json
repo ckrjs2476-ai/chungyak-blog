@@ -1,0 +1,132 @@
+{
+ "no": "2026000436",
+ "name": "더샵 시에르네(조합원취소분)(2회차)",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-09-18",
+ "rank1_date": "2026-09-29",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000436&pblancNo=2026000436",
+ "households": 29,
+ "types": [
+  {
+   "ty": "74.9469",
+   "size": 74,
+   "price": 68400,
+   "area_m2": 103.4214,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2186,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "75.9849",
+   "size": 75,
+   "price": 68600,
+   "area_m2": 105.7979,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2144,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.963A",
+   "size": 84,
+   "price": 74900,
+   "area_m2": 108.4411,
+   "general": 6,
+   "special": 8,
+   "pyeong_price": 2283,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.965B",
+   "size": 84,
+   "price": 75100,
+   "area_m2": 108.7147,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 2284,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.8968C",
+   "size": 84,
+   "price": 74000,
+   "area_m2": 109.3721,
+   "general": 3,
+   "special": 5,
+   "pyeong_price": 2237,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 13,
+ "special_total": 16,
+ "special_share_pct": 55,
+ "pyeong_min": 2144,
+ "pyeong_max": 2284,
+ "pyeong_avg": 2262,
+ "price_84_min": 74000,
+ "price_84_max": 75100,
+ "special_kinds": {
+  "신혼부부": 4,
+  "생애최초": 2,
+  "신생아": 3,
+  "다자녀": 3,
+  "노부모 부양": 1,
+  "기관추천": 3
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9469",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 52.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.9849",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 37.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.963A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 147.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.965B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 58.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8968C",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 48.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1284,
+  "rank1_req": 1284,
+  "supply_total": 13,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 98.77,
+  "best": {
+   "ty": "84.963A",
+   "rate": 147.0,
+   "stage": "1순위 해당지역"
+  }
+ }
+}

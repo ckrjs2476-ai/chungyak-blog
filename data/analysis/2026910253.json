@@ -1,0 +1,52 @@
+{
+ "no": "2026910253",
+ "name": "오남역 서희스타힐스 여의재 1단지",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-10-01",
+ "rank1_date": "2026-10-06",
+ "city": "남양주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910253&pblancNo=2026910253",
+ "households": 12,
+ "types": [
+  {
+   "ty": "84.9596",
+   "size": 84,
+   "price": 71900,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 12,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 71900,
+ "price_84_max": 71900,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9596",
+    "supply": 12,
+    "closed_at": "None순위 None",
+    "rate": 3.92,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 47,
+  "rank1_req": 0,
+  "supply_total": 12,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9596",
+   "rate": 3.92,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "no": "2026910240",
+ "name": "아야진 라메르 데시앙",
+ "kind": "remndr",
+ "region": "강원",
+ "notice_date": "2026-09-15",
+ "rank1_date": "2026-09-21",
+ "city": "고성군",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910240&pblancNo=2026910240",
+ "households": 3,
+ "types": [
+  {
+   "ty": "84.3589A",
+   "size": 84,
+   "price": 36460,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9235B",
+   "size": 84,
+   "price": 38570,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 36460,
+ "price_84_max": 38570,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.3589A",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "84.9235B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 0,
+  "rank1_req": 0,
+  "supply_total": 3,
+  "final_shortfall_total": 3,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

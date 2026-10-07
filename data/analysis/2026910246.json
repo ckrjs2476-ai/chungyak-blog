@@ -1,0 +1,116 @@
+{
+ "no": "2026910246",
+ "name": "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-09-16",
+ "rank1_date": "2026-09-21",
+ "city": "용인시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910246&pblancNo=2026910246",
+ "households": 126,
+ "types": [
+  {
+   "ty": "59.939A",
+   "size": 59,
+   "price": 41600,
+   "area_m2": null,
+   "general": 38,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.5027C",
+   "size": 59,
+   "price": 39700,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "71.2889A",
+   "size": 71,
+   "price": 47800,
+   "area_m2": null,
+   "general": 15,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "71.8211B",
+   "size": 71,
+   "price": 47600,
+   "area_m2": null,
+   "general": 38,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7577A",
+   "size": 84,
+   "price": 53400,
+   "area_m2": null,
+   "general": 23,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 126,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 53400,
+ "price_84_max": 53400,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.5027C",
+    "supply": 12,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "59.939A",
+    "supply": 38,
+    "closed_at": "None순위 None",
+    "rate": 1.29,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "71.2889A",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 10
+   },
+   {
+    "ty": "71.8211B",
+    "supply": 38,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "84.7577A",
+    "supply": 23,
+    "closed_at": "None순위 None",
+    "rate": 1.74,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 116,
+  "rank1_req": 0,
+  "supply_total": 126,
+  "final_shortfall_total": 38,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.7577A",
+   "rate": 1.74,
+   "stage": "None순위 None"
+  }
+ }
+}

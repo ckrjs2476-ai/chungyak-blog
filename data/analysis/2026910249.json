@@ -1,0 +1,84 @@
+{
+ "no": "2026910249",
+ "name": "세종 우미 린 센터파크(행정중심복합도시 5-2생활권 S1블록, 글미마을 9단지)",
+ "kind": "remndr",
+ "region": "세종",
+ "notice_date": "2026-10-01",
+ "rank1_date": "2026-10-06",
+ "city": "다솜동",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910249&pblancNo=2026910249",
+ "households": 5,
+ "types": [
+  {
+   "ty": "84.9165A",
+   "size": 84,
+   "price": 63600,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9418D",
+   "size": 84,
+   "price": 57550,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9942E",
+   "size": 84,
+   "price": 60000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 5,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 57550,
+ "price_84_max": 63600,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9165A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 204.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9418D",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 63.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9942E",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 104.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 640,
+  "rank1_req": 0,
+  "supply_total": 5,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9165A",
+   "rate": 204.5,
+   "stage": "None순위 None"
+  }
+ }
+}

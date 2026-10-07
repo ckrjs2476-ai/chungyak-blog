@@ -1,0 +1,132 @@
+{
+ "no": "2026000446",
+ "name": "진주 판문지구 레이크써밋 웰가",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-09-18",
+ "rank1_date": "2026-09-29",
+ "city": "진주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000446&pblancNo=2026000446",
+ "households": 690,
+ "types": [
+  {
+   "ty": "78.8382",
+   "size": 78,
+   "price": 50300,
+   "area_m2": 101.2645,
+   "general": 58,
+   "special": 72,
+   "pyeong_price": 1642,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9115A",
+   "size": 84,
+   "price": 55600,
+   "area_m2": 111.1935,
+   "general": 91,
+   "special": 112,
+   "pyeong_price": 1653,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9519B",
+   "size": 84,
+   "price": 55300,
+   "area_m2": 113.1335,
+   "general": 125,
+   "special": 152,
+   "pyeong_price": 1616,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "119.6206",
+   "size": 119,
+   "price": 72200,
+   "area_m2": 145.2968,
+   "general": 66,
+   "special": 10,
+   "pyeong_price": 1643,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "182.9263",
+   "size": 182,
+   "price": 139500,
+   "area_m2": 236.6537,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 1949,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 344,
+ "special_total": 346,
+ "special_share_pct": 50,
+ "pyeong_min": 1616,
+ "pyeong_max": 1949,
+ "pyeong_avg": 1637,
+ "price_84_min": 55300,
+ "price_84_max": 55600,
+ "special_kinds": {
+  "신혼부부": 93,
+  "생애최초": 42,
+  "신생아": 62,
+  "다자녀": 69,
+  "노부모 부양": 20,
+  "기관추천": 60
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "78.8382",
+    "supply": 60,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.27,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9115A",
+    "supply": 91,
+    "closed_at": "1순위 해당지역",
+    "rate": 61.69,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9519B",
+    "supply": 125,
+    "closed_at": "1순위 해당지역",
+    "rate": 20.54,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "119.6206",
+    "supply": 66,
+    "closed_at": "1순위 해당지역",
+    "rate": 28.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "182.9263",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 43.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 12091,
+  "rank1_req": 12091,
+  "supply_total": 346,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 34.95,
+  "best": {
+   "ty": "84.9115A",
+   "rate": 61.69,
+   "stage": "1순위 해당지역"
+  }
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "no": "2026000454",
+ "name": "천안 용곡 두산위브(조합원 취소분)",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-09-17",
+ "rank1_date": "2026-09-28",
+ "city": "천안시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000454&pblancNo=2026000454",
+ "households": 7,
+ "types": [
+  {
+   "ty": "84.989A",
+   "size": 84,
+   "price": 45050,
+   "area_m2": 109.4722,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 1360,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.974B",
+   "size": 84,
+   "price": 45550,
+   "area_m2": 110.4235,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1364,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "114.8419",
+   "size": 114,
+   "price": 61100,
+   "area_m2": 147.4613,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1370,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 7,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1360,
+ "pyeong_max": 1370,
+ "pyeong_avg": 1362,
+ "price_84_min": 45050,
+ "price_84_max": 45550,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.989A",
+    "supply": 5,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.974B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "114.8419",
+    "supply": 1,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 8,
+  "rank1_req": 6,
+  "supply_total": 7,
+  "final_shortfall_total": 1,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 3,
+  "rank1_avg_rate": 0.86,
+  "best": {
+   "ty": "84.989A",
+   "rate": 2.0,
+   "stage": "1순위 기타지역"
+  }
+ }
+}

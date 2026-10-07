@@ -1,0 +1,68 @@
+{
+ "no": "2026910251",
+ "name": "충정로역자이르네",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-09-28",
+ "rank1_date": "2026-10-06",
+ "city": "중구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910251&pblancNo=2026910251",
+ "households": 35,
+ "types": [
+  {
+   "ty": "84.9972A",
+   "size": 84,
+   "price": 243300,
+   "area_m2": null,
+   "general": 21,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9965B",
+   "size": 84,
+   "price": 229500,
+   "area_m2": null,
+   "general": 14,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 35,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 229500,
+ "price_84_max": 243300,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9965B",
+    "supply": 14,
+    "closed_at": "None순위 None",
+    "rate": 10.64,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9972A",
+    "supply": 21,
+    "closed_at": "None순위 None",
+    "rate": 12.86,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 419,
+  "rank1_req": 0,
+  "supply_total": 35,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9972A",
+   "rate": 12.86,
+   "stage": "None순위 None"
+  }
+ }
+}

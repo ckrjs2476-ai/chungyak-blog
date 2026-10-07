@@ -1,0 +1,321 @@
+{
+ "no": "2026000103",
+ "name": "더샵 분당하이스트",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-09-11",
+ "rank1_date": "2026-09-22",
+ "city": "성남시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000103&pblancNo=2026000103",
+ "households": 143,
+ "types": [
+  {
+   "ty": "66A",
+   "size": 66,
+   "price": 216300,
+   "area_m2": 91.66,
+   "general": 28,
+   "special": 24,
+   "pyeong_price": 7801,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "74A",
+   "size": 74,
+   "price": 238200,
+   "area_m2": 102.04,
+   "general": 3,
+   "special": 5,
+   "pyeong_price": 7717,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "74B",
+   "size": 74,
+   "price": 238200,
+   "area_m2": 102.7,
+   "general": 3,
+   "special": 3,
+   "pyeong_price": 7667,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74C",
+   "size": 74,
+   "price": 240200,
+   "area_m2": 101.84,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 7797,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.44D",
+   "size": 74,
+   "price": 235200,
+   "area_m2": 102.3,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 7600,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 298100,
+   "area_m2": 116.44,
+   "general": 8,
+   "special": 13,
+   "pyeong_price": 8463,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 295800,
+   "area_m2": 116.37,
+   "general": 4,
+   "special": 5,
+   "pyeong_price": 8403,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84C",
+   "size": 84,
+   "price": 273900,
+   "area_m2": 116.11,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 7798,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.09D",
+   "size": 84,
+   "price": 276200,
+   "area_m2": 115.56,
+   "general": 3,
+   "special": 3,
+   "pyeong_price": 7901,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84E",
+   "size": 84,
+   "price": 291100,
+   "area_m2": 116.01,
+   "general": 4,
+   "special": 10,
+   "pyeong_price": 8295,
+   "special_share_pct": 71
+  },
+  {
+   "ty": "84.72F",
+   "size": 84,
+   "price": 290100,
+   "area_m2": 116.43,
+   "general": 3,
+   "special": 3,
+   "pyeong_price": 8237,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.64G",
+   "size": 84,
+   "price": 292000,
+   "area_m2": 116.32,
+   "general": 2,
+   "special": 11,
+   "pyeong_price": 8299,
+   "special_share_pct": 85
+  },
+  {
+   "ty": "84.78H",
+   "size": 84,
+   "price": 290600,
+   "area_m2": 116.51,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 8245,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 66,
+ "special_total": 77,
+ "special_share_pct": 54,
+ "pyeong_min": 7600,
+ "pyeong_max": 8463,
+ "pyeong_avg": 8041,
+ "price_84_min": 273900,
+ "price_84_max": 298100,
+ "special_kinds": {
+  "신혼부부": 21,
+  "생애최초": 10,
+  "신생아": 14,
+  "다자녀": 14,
+  "노부모 부양": 4,
+  "기관추천": 14
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "66A",
+    "supply": 28,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.36,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74A",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74C",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.44D",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84A",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.13,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84B",
+    "supply": 5,
+    "closed_at": "1순위 기타지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84C",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.09D",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84E",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.72F",
+    "supply": 4,
+    "closed_at": "1순위 기타지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.64G",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.78H",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 790,
+  "rank1_req": 618,
+  "supply_total": 68,
+  "final_shortfall_total": 0,
+  "closed_types": 13,
+  "rank1_closed_types": 13,
+  "type_count": 13,
+  "rank1_avg_rate": 9.09,
+  "best": {
+   "ty": "84.72F",
+   "rate": 10.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "66A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "66A": 0,
+   "74A": 0,
+   "74B": 0,
+   "74C": 0,
+   "74.44D": 0,
+   "84A": 0,
+   "84B": 0,
+   "84.72F": 0,
+   "84.64G": 0,
+   "84.78H": 0
+  },
+  "avg_min": 23.8,
+  "max": {
+   "score": 69,
+   "ty": "74A"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "중동역 다채로움 더원",
+   "화서역 호수공원 아너스빌",
+   "광명 시티프라디움 에듀하임",
+   "향남역 그로브 스위첸",
+   "쌍용 더 플래티넘 한강"
+  ],
+  "peer_avg_pyeong": 2467,
+  "diff": 5574,
+  "diff_pct": 226,
+  "rank": 1,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 3,
+  "peers": [
+   "중동역 다채로움 더원",
+   "화서역 호수공원 아너스빌",
+   "광명 시티프라디움 에듀하임"
+  ],
+  "peer_avg_rate": 1.45,
+  "rank": 1,
+  "of": 4
+ }
+}

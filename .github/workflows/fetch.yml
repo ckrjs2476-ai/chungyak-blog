@@ -5,6 +5,10 @@ on:
     - cron: "20 22 * * *"
     - cron: "20 9 * * *"
   workflow_dispatch:
+    inputs:
+      days:
+        description: "며칠 전 공고까지 받을지 (처음 한 번은 400으로 과거 데이터 받기)"
+        default: "30"
 permissions:
   contents: write
 concurrency:
@@ -19,7 +23,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - run: python src/fetch.py 30
+      - run: python src/fetch.py ${{ github.event.inputs.days || '30' }}
+      - run: python src/analysis.py
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
       - name: 저장
@@ -27,5 +32,6 @@ jobs:
           git config user.name "fetch-bot"
           git config user.email "fetch-bot@users.noreply.github.com"
           git add data
+          git add -A data
           git diff --cached --quiet || git commit -m "data: $(date -u +%F) 청약홈 데이터"
           git pull --rebase && git push

@@ -1,0 +1,96 @@
+{
+ "no": "2026000445",
+ "name": "삼천 하늘채 라비엘",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-09-18",
+ "rank1_date": "2026-09-29",
+ "city": "전주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000445&pblancNo=2026000445",
+ "households": 116,
+ "types": [
+  {
+   "ty": "59.9831",
+   "size": 59,
+   "price": 38827,
+   "area_m2": 79.6228,
+   "general": 31,
+   "special": 39,
+   "pyeong_price": 1612,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "74.9225A",
+   "size": 74,
+   "price": 49307,
+   "area_m2": 99.1134,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1645,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9823B",
+   "size": 74,
+   "price": 49392,
+   "area_m2": 100.2759,
+   "general": 19,
+   "special": 26,
+   "pyeong_price": 1628,
+   "special_share_pct": 58
+  }
+ ],
+ "general_total": 51,
+ "special_total": 65,
+ "special_share_pct": 56,
+ "pyeong_min": 1612,
+ "pyeong_max": 1645,
+ "pyeong_avg": 1618,
+ "special_kinds": {
+  "신혼부부": 18,
+  "생애최초": 8,
+  "신생아": 12,
+  "다자녀": 12,
+  "노부모 부양": 3,
+  "기관추천": 12
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9831",
+    "supply": 31,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.29,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9225A",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 111.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9823B",
+    "supply": 19,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.58,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 754,
+  "rank1_req": 754,
+  "supply_total": 51,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 14.78,
+  "best": {
+   "ty": "74.9225A",
+   "rate": 111.0,
+   "stage": "1순위 해당지역"
+  }
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "no": "2026000468",
+ "name": "쌍용 더 플래티넘 한강",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-02",
+ "rank1_date": "2026-10-13",
+ "city": "양평군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000468&pblancNo=2026000468",
+ "households": 333,
+ "types": [
+  {
+   "ty": "74.9845",
+   "size": 74,
+   "price": 61400,
+   "area_m2": 100.3061,
+   "general": 32,
+   "special": 38,
+   "pyeong_price": 2024,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9947A",
+   "size": 84,
+   "price": 74800,
+   "area_m2": 113.9648,
+   "general": 69,
+   "special": 80,
+   "pyeong_price": 2170,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.8542B",
+   "size": 84,
+   "price": 74600,
+   "area_m2": 114.5454,
+   "general": 18,
+   "special": 22,
+   "pyeong_price": 2153,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8894C",
+   "size": 84,
+   "price": 67800,
+   "area_m2": 113.6177,
+   "general": 18,
+   "special": 19,
+   "pyeong_price": 1973,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "123.7781",
+   "size": 123,
+   "price": 109500,
+   "area_m2": 164.6002,
+   "general": 30,
+   "special": 5,
+   "pyeong_price": 2199,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "146.8598P",
+   "size": 146,
+   "price": 165000,
+   "area_m2": 197.3056,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2765,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 169,
+ "special_total": 164,
+ "special_share_pct": 49,
+ "pyeong_min": 1973,
+ "pyeong_max": 2765,
+ "pyeong_avg": 2122,
+ "price_84_min": 67800,
+ "price_84_max": 74800,
+ "special_kinds": {
+  "신혼부부": 44,
+  "생애최초": 20,
+  "신생아": 29,
+  "다자녀": 33,
+  "노부모 부양": 9,
+  "기관추천": 29
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "더샵 분당하이스트",
+   "중동역 다채로움 더원",
+   "화서역 호수공원 아너스빌",
+   "광명 시티프라디움 에듀하임",
+   "향남역 그로브 스위첸"
+  ],
+  "peer_avg_pyeong": 3651,
+  "diff": -1529,
+  "diff_pct": -42,
+  "rank": 5,
+  "of": 6
+ }
+}

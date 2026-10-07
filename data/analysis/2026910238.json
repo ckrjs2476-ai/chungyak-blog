@@ -1,0 +1,50 @@
+{
+ "no": "2026910238",
+ "name": "북오산자이 드포레",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-09-10",
+ "rank1_date": "2026-09-15",
+ "city": "오산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910238&pblancNo=2026910238",
+ "households": 2,
+ "types": [
+  {
+   "ty": "124.4008P",
+   "size": 124,
+   "price": 148640,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 2,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "124.4008P",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 12,
+  "rank1_req": 0,
+  "supply_total": 2,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "124.4008P",
+   "rate": 6.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "no": "2026000463",
+ "name": "향남역 그로브 스위첸",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-02",
+ "rank1_date": "2026-10-13",
+ "city": "화성특례시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000463&pblancNo=2026000463",
+ "households": 933,
+ "types": [
+  {
+   "ty": "71.8178",
+   "size": 71,
+   "price": 47030,
+   "area_m2": 93.4493,
+   "general": 21,
+   "special": 28,
+   "pyeong_price": 1664,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.9592A",
+   "size": 84,
+   "price": 55750,
+   "area_m2": 109.7877,
+   "general": 164,
+   "special": 207,
+   "pyeong_price": 1679,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9767B",
+   "size": 84,
+   "price": 55720,
+   "area_m2": 110.1318,
+   "general": 61,
+   "special": 77,
+   "pyeong_price": 1673,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9221C",
+   "size": 84,
+   "price": 55970,
+   "area_m2": 110.814,
+   "general": 61,
+   "special": 77,
+   "pyeong_price": 1670,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.914D",
+   "size": 84,
+   "price": 55450,
+   "area_m2": 109.7898,
+   "general": 54,
+   "special": 71,
+   "pyeong_price": 1670,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "107.9722A",
+   "size": 107,
+   "price": 67850,
+   "area_m2": 139.4518,
+   "general": 50,
+   "special": 8,
+   "pyeong_price": 1608,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "107.8263B",
+   "size": 107,
+   "price": 67903,
+   "area_m2": 138.2513,
+   "general": 45,
+   "special": 7,
+   "pyeong_price": 1624,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "147.9931P",
+   "size": 147,
+   "price": 124758,
+   "area_m2": 193.4147,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2132,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 458,
+ "special_total": 475,
+ "special_share_pct": 51,
+ "pyeong_min": 1608,
+ "pyeong_max": 2132,
+ "pyeong_avg": 1668,
+ "price_84_min": 55450,
+ "price_84_max": 55970,
+ "special_kinds": {
+  "신혼부부": 125,
+  "생애최초": 59,
+  "신생아": 84,
+  "다자녀": 95,
+  "노부모 부양": 28,
+  "기관추천": 84
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "더샵 분당하이스트",
+   "중동역 다채로움 더원",
+   "화서역 호수공원 아너스빌",
+   "광명 시티프라디움 에듀하임",
+   "쌍용 더 플래티넘 한강"
+  ],
+  "peer_avg_pyeong": 3742,
+  "diff": -2074,
+  "diff_pct": -55,
+  "rank": 6,
+  "of": 6
+ }
+}

@@ -13,11 +13,17 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 UNITS = ROOT / "data" / "units"
+ANALYSIS = ROOT / "data" / "analysis"
+STATS = ROOT / "data" / "stats" / "latest.json"
 PUBLISHED = ROOT / "data" / "published.json"
 
 REQUIRED_FIELDS = ("type", "title", "slug", "description", "labels", "keyword", "opening")
-UNIT_TYPES = ("notice", "competition", "score", "remainder")
-ALLOWED_LABELS = {"청약일정", "경쟁률", "당첨가점", "무순위", "서울", "경기", "인천", "지방", "청약가이드", "월간정리"}
+UNIT_TYPES = ("notice", "competition", "score")                  # 단지 1곳: house_manage_no
+MULTI_TYPES = ("remainder", "region", "monthly", "stats", "guide")  # 여러 단지·통계: house_manage_nos
+ALL_TYPES = UNIT_TYPES + MULTI_TYPES
+ALLOWED_LABELS = {"청약일정", "경쟁률", "당첨가점", "무순위", "서울", "경기", "인천", "지방", "청약가이드",
+                  "월간정리", "청약통계"}
+MIN_ANALYSIS_NUMBERS = 2  # 원본에 없고 분석(data/analysis, data/stats)에만 있는 숫자가 최소 이만큼 있어야 한다
 BANNED = ("주목할 점은", "중요한 것은", "도움이 되었", "궁금한 점", "무조건 오른", "당첨 보장",
           "전문가들은", "많은 연구에 따르면", "독자 여러분")
 DISCLOSURE = "청약홈 공고 데이터를 바탕으로 자동 정리했어요"
@@ -63,6 +69,29 @@ def _amount_forms(manwon: int) -> set[str]:
         forms |= {str(rest // 1000), f"{manwon / 10000:.1f}".rstrip("0").rstrip("."),
                   f"{manwon / 10000:.2f}".rstrip("0").rstrip(".")}
     return forms
+
+
+def _walk_nums(x, out: set[str]) -> None:
+    if isinstance(x, dict):
+        for v in x.values():
+            _walk_nums(v, out)
+    elif isinstance(x, list):
+        for v in x:
+            _walk_nums(v, out)
+    elif x is not None and not isinstance(x, bool):
+        out.update(_nums_from(x))
+
+
+def analysis_numbers(unit_nos: list[str], with_stats: bool) -> set[str]:
+    """data/analysis·data/stats에서 계산한 분석 숫자"""
+    out: set[str] = {"3.3"}  # '3.3㎡당' 표기
+    for no in unit_nos:
+        p = ANALYSIS / f"{no}.json"
+        if p.exists():
+            _walk_nums(json.loads(p.read_text("utf-8")), out)
+    if with_stats and STATS.exists():
+        _walk_nums(json.loads(STATS.read_text("utf-8")), out)
+    return out
 
 
 def allowed_numbers(unit_nos: list[str]) -> set[str]:
@@ -121,8 +150,12 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     typ = meta.get("type")
     unit_nos = [str(x) for x in (meta.get("house_manage_nos") or
                                  ([meta["house_manage_no"]] if meta.get("house_manage_no") else []))]
+    if typ not in ALL_TYPES:
+        errs.append(f"알 수 없는 type: {typ}")
     if typ in UNIT_TYPES and not unit_nos:
         errs.append("단지 글인데 house_manage_no가 없습니다.")
+    if typ in ("remainder", "region", "monthly") and not unit_nos:
+        errs.append("여러 단지 글인데 house_manage_nos가 없습니다.")
     title = str(meta.get("title", ""))
     if len(title) > MAX_TITLE:
         errs.append(f"제목이 {len(title)}자로 깁니다 ({MAX_TITLE}자 이하).")
@@ -181,20 +214,30 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
             if s2.endswith("다") and not s2.endswith("니다"):
                 errs.append(f"딱딱한 말투: '…{s2[-15:]}.'")
 
-    # 숫자 대조
-    if unit_nos:
-        allowed = allowed_numbers(unit_nos)
-        for tok, unit in re.findall(r"(\d[\d,]*(?:\.\d+)?)\s*(억|만|천|세대|㎡|%|대\s*1|점)?", plain):
-            t = tok.replace(",", "")
-            try:
-                v = float(t)
-            except ValueError:
-                continue
-            # 작은 수와 연도는 넘어가되, 금액·세대·면적·비율·가점 단위가 붙은 수는 항상 대조
-            if not unit and (v <= 12 or 2020 <= v <= 2035):
-                continue
-            if t not in allowed and str(int(v)) not in allowed:
-                errs.append(f"원본 데이터에 없는 숫자: {tok}")
+    # 숫자 대조: 원본 데이터 또는 분석 데이터에 있는 숫자만 쓴다
+    with_stats = typ in MULTI_TYPES
+    raw = allowed_numbers(unit_nos)
+    extra = analysis_numbers(unit_nos, with_stats)
+    allowed = raw | extra
+    analysis_only = extra - raw
+    used_analysis: set[str] = set()
+    for tok, unit in re.findall(r"(\d[\d,]*(?:\.\d+)?)\s*(억|만|천|세대|㎡|%|대\s*1|점|건|곳|개)?", plain):
+        t = tok.replace(",", "")
+        try:
+            v = float(t)
+        except ValueError:
+            continue
+        forms = {t, str(int(v))}
+        if forms & analysis_only and (unit or v > 12):
+            used_analysis |= forms & analysis_only
+        # 작은 수와 연도는 넘어가되, 금액·세대·면적·비율·가점 단위가 붙은 수는 항상 대조
+        if not unit and (v <= 12 or 2020 <= v <= 2035):
+            continue
+        if not (forms & allowed):
+            errs.append(f"원본·분석 데이터에 없는 숫자: {tok}")
+    if len(used_analysis) < MIN_ANALYSIS_NUMBERS:
+        errs.append(f"분석 숫자가 {len(used_analysis)}개입니다 ({MIN_ANALYSIS_NUMBERS}개 이상). "
+                    "data/analysis 또는 data/stats의 평당가·비교·순위 같은 숫자를 넣어 주세요.")
 
     # 직전 글과 구조 비교
     recent = recent or []

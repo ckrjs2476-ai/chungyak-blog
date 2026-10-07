@@ -1,0 +1,68 @@
+{
+ "no": "2026910243",
+ "name": "더샵 청주그리니티",
+ "kind": "remndr",
+ "region": "충북",
+ "notice_date": "2026-09-21",
+ "rank1_date": "2026-09-28",
+ "city": "청주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910243&pblancNo=2026910243",
+ "households": 2,
+ "types": [
+  {
+   "ty": "84.7214B",
+   "size": 84,
+   "price": 35400,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "99.8624A",
+   "size": 99,
+   "price": 39338,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 2,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 35400,
+ "price_84_max": 35400,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7214B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1157.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "99.8624A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 380.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1537,
+  "rank1_req": 0,
+  "supply_total": 2,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.7214B",
+   "rate": 1157.0,
+   "stage": "None순위 None"
+  }
+ }
+}

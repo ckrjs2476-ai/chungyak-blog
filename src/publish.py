@@ -26,7 +26,7 @@ TYPE_NAME = {"notice": "청약 일정·분양가", "competition": "경쟁률 결
              "remainder": "무순위·잔여 세대"}
 
 ROOT = Path(__file__).resolve().parent.parent
-PENDING, DONE, HELD = (ROOT / "posts" / d for d in ("pending", "published", "held"))
+PENDING, DONE, HELD, REVIEW = (ROOT / "posts" / d for d in ("pending", "published", "held", "review"))
 PUBLISHED = ROOT / "data" / "published.json"
 CONFIG = json.loads((ROOT / "config.json").read_text("utf-8"))
 KST = timezone(timedelta(hours=9))
@@ -144,6 +144,12 @@ def main() -> int:
     summary, failed = [], 0
     for f in files:
         meta, body = split_post(f.read_text("utf-8"))
+        if meta.get("type") == "guide" and meta.get("approved") is not True:
+            # 청약 가이드는 사람이 한 번 보고 approved: true를 붙여야 발행한다
+            REVIEW.mkdir(parents=True, exist_ok=True)
+            shutil.move(str(f), REVIEW / f.name)
+            summary.append(f"- 검토 대기: {meta.get('title')} (posts/review/)")
+            continue
         errs = check_text(meta, body, recent_posts())
         if errs:
             failed += 1

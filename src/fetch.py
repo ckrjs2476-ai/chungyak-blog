@@ -112,6 +112,7 @@ def main(days: int = 30) -> None:
     UNITS.mkdir(parents=True, exist_ok=True)
     today = today_kst()
     since = (today - timedelta(days=days)).isoformat()
+    job_since = (today - timedelta(days=30)).isoformat()
     published = load_published()
     jobs: list[dict] = []
 
@@ -135,9 +136,11 @@ def main(days: int = 30) -> None:
 
             base = score_unit(d)
             notice_day = ymd(d.get("RCRIT_PBLANC_DE"))
+            if notice_day and notice_day < job_since:
+                continue  # 과거 데이터는 통계용으로만 저장하고 글 후보로는 쓰지 않는다
             cand = []
             if kind == "remndr":
-                cand.append(("remainder", base + 10))
+                continue  # 무순위는 단지별 글 대신 주간 모음 글(remainder, house_manage_nos)로 쓴다
             else:
                 age = (today - date.fromisoformat(notice_day)).days if notice_day else 99
                 cand.append(("notice", base + max(0, 20 - age * 3)))

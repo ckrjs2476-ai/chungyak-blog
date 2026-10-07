@@ -1,0 +1,68 @@
+{
+ "no": "2026910233",
+ "name": "드파인 아르티아(2차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-09-08",
+ "rank1_date": "2026-09-14",
+ "city": "동작구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910233&pblancNo=2026910233",
+ "households": 7,
+ "types": [
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 266000,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "109.8652A",
+   "size": 109,
+   "price": 306000,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 7,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 266000,
+ "price_84_max": 266000,
+ "competition": {
+  "types": [
+   {
+    "ty": "84B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 111.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "109.8652A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 6.6,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 256,
+  "rank1_req": 0,
+  "supply_total": 7,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84B",
+   "rate": 111.5,
+   "stage": "None순위 None"
+  }
+ }
+}

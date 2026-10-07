@@ -1,0 +1,50 @@
+{
+ "no": "2026000498",
+ "name": "천안 아이파크 시티 2단지(2회차)",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-10-02",
+ "rank1_date": "2026-10-13",
+ "city": "천안시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000498&pblancNo=2026000498",
+ "households": 61,
+ "types": [
+  {
+   "ty": "84.98A",
+   "size": 84,
+   "price": 57020,
+   "area_m2": 113.12,
+   "general": 16,
+   "special": 21,
+   "pyeong_price": 1666,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.97B",
+   "size": 84,
+   "price": 55630,
+   "area_m2": 114.24,
+   "general": 12,
+   "special": 12,
+   "pyeong_price": 1610,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 28,
+ "special_total": 33,
+ "special_share_pct": 54,
+ "pyeong_min": 1610,
+ "pyeong_max": 1666,
+ "pyeong_avg": 1644,
+ "price_84_min": 55630,
+ "price_84_max": 57020,
+ "special_kinds": {
+  "신혼부부": 9,
+  "생애최초": 4,
+  "신생아": 6,
+  "다자녀": 6,
+  "노부모 부양": 2,
+  "기관추천": 6
+ }
+}

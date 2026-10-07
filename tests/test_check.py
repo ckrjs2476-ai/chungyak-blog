@@ -3,21 +3,27 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 import check  # noqa
+import analysis  # noqa
 
 
 def setup_module():
     check.UNITS.mkdir(parents=True, exist_ok=True)
+    check.ANALYSIS.mkdir(parents=True, exist_ok=True)
     shutil.copy(ROOT / "tests/fixtures/unit.json", check.UNITS / "2026999001.json")
+    unit = json.loads((ROOT / "tests/fixtures/unit.json").read_text("utf-8"))
+    (check.ANALYSIS / "2026999001.json").write_text(json.dumps(analysis.analyze_unit(unit)), "utf-8")
 
 def teardown_module():
     (check.UNITS / "2026999001.json").unlink()
+    (check.ANALYSIS / "2026999001.json").unlink()
 
 META = {"house_manage_no": "2026999001", "type": "notice", "title": "테스트파크 시티 청약 일정·분양가 총정리 (10월 공고)",
         "slug": "test-park-city-cheongyak-2026-10", "description": "1순위 10월 14일, 84㎡ 최고가 6억 2,000만 원, 총 812세대 공급하는 테스트파크 시티 청약 일정을 정리했어요.",
         "labels": ["청약일정", "경기"], "keyword": "테스트파크 시티 청약 일정", "opening": "B"}
 
 GOOD_PARA = ("테스트파크 시티 1순위 접수는 10월 14일에 해요. 특별공급은 하루 앞선 10월 13일이라고 합니다.\n\n"
-             "84㎡ 최고 분양가는 6억 2,000만 원으로 나왔어요. 59㎡는 4억 8,500만 원이라고 해요.\n\n")
+             "84㎡ 최고 분양가는 6억 2,000만 원으로 나왔어요. 59㎡는 4억 8,500만 원이라고 해요.\n\n"
+             "공급면적 3.3㎡당으로 바꾸면 84㎡는 1,825만 원, 59㎡는 1,906만 원이에요.\n\n")
 TABLES = ("| 구분 | 날짜 |\n| --- | --- |\n| 1순위 | 10월 14일 |\n| 발표 | 10월 21일 |\n\n"
           "| 타입 | 최고가 |\n| --- | --- |\n| 59㎡ | 4억 8,500만 원 |\n| 84㎡ | 6억 2,000만 원 |\n\n")
 END = ("[청약홈 공고 원문](https://www.applyhome.co.kr/x)에서 확인할 수 있어요.\n\n"
@@ -47,3 +53,8 @@ def test_wrong_number_and_tone_fail():
 def test_same_opening_as_previous_fails():
     errs = check.check_text(META, body(), [{"opening": "B", "title": "직전 글"}])
     assert any("시작 방식" in e for e in errs), errs
+
+def test_no_analysis_numbers_fails():
+    plain = body().replace("공급면적 3.3㎡당으로 바꾸면 84㎡는 1,825만 원, 59㎡는 1,906만 원이에요.\n\n", "")
+    errs = check.check_text(META, plain, [])
+    assert any("분석 숫자" in e for e in errs), errs

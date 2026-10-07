@@ -1,0 +1,115 @@
+{
+ "no": "2026000424",
+ "name": "쌍용 더 플래티넘 센텀",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-09-18",
+ "rank1_date": "2026-09-29",
+ "city": "수영구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000424&pblancNo=2026000424",
+ "households": 53,
+ "types": [
+  {
+   "ty": "63.1378A",
+   "size": 63,
+   "price": 93820,
+   "area_m2": 85.9124,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 3610,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "63.0513B",
+   "size": 63,
+   "price": 91630,
+   "area_m2": 86.5401,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3500,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.3998B",
+   "size": 74,
+   "price": 110210,
+   "area_m2": 101.2013,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 3600,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.0948",
+   "size": 84,
+   "price": 132100,
+   "area_m2": 113.4211,
+   "general": 21,
+   "special": 22,
+   "pyeong_price": 3850,
+   "special_share_pct": 51
+  }
+ ],
+ "general_total": 31,
+ "special_total": 22,
+ "special_share_pct": 42,
+ "pyeong_min": 3500,
+ "pyeong_max": 3850,
+ "pyeong_avg": 3800,
+ "price_84_min": 132100,
+ "price_84_max": 132100,
+ "special_kinds": {
+  "신혼부부": 6,
+  "생애최초": 3,
+  "신생아": 4,
+  "다자녀": 4,
+  "노부모 부양": 1,
+  "기관추천": 4
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "63.1378A",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "63.0513B",
+    "supply": 2,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.3998B",
+    "supply": 3,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.0948",
+    "supply": 36,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 56,
+  "rank1_req": 27,
+  "supply_total": 46,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 1,
+  "type_count": 4,
+  "rank1_avg_rate": 0.59,
+  "best": {
+   "ty": "84.0948",
+   "rate": 1.5,
+   "stage": "2순위 기타지역"
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "no": "2026000437",
+ "name": "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-09-11",
+ "rank1_date": "2026-09-22",
+ "city": "평택시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000437&pblancNo=2026000437",
+ "households": 942,
+ "types": [
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 58420,
+   "area_m2": 108.9879,
+   "general": 87,
+   "special": 490,
+   "pyeong_price": 1772,
+   "special_share_pct": 85
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 57755,
+   "area_m2": 109.3401,
+   "general": 30,
+   "special": 171,
+   "pyeong_price": 1746,
+   "special_share_pct": 85
+  },
+  {
+   "ty": "84.95C",
+   "size": 84,
+   "price": 57440,
+   "area_m2": 109.6677,
+   "general": 24,
+   "special": 140,
+   "pyeong_price": 1731,
+   "special_share_pct": 85
+  }
+ ],
+ "general_total": 141,
+ "special_total": 801,
+ "special_share_pct": 85,
+ "pyeong_min": 1731,
+ "pyeong_max": 1772,
+ "pyeong_avg": 1759,
+ "price_84_min": 57440,
+ "price_84_max": 58420,
+ "special_kinds": {
+  "신혼부부": 94,
+  "생애최초": 141,
+  "신생아": 189,
+  "다자녀": 94,
+  "노부모 부양": 47,
+  "기관추천": 142
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84A",
+    "supply": 532,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 211
+   },
+   {
+    "ty": "84B",
+    "supply": 198,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 88
+   },
+   {
+    "ty": "84.95C",
+    "supply": 162,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 72
+   }
+  ],
+  "req_total": 141,
+  "rank1_req": 114,
+  "supply_total": 892,
+  "final_shortfall_total": 371,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.13
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택",
+   "시흥하중지구 A-4블록 신혼희망타운(공공분양) 추가입주자모집"
+  ],
+  "peer_avg_pyeong": 1612,
+  "diff": 147,
+  "diff_pct": 9,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 5,
+  "peers": [
+   "더샵 분당하이스트",
+   "중동역 다채로움 더원",
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택",
+   "화서역 호수공원 아너스빌",
+   "광명 시티프라디움 에듀하임"
+  ],
+  "peer_avg_rate": 2.71,
+  "rank": 5,
+  "of": 6
+ }
+}

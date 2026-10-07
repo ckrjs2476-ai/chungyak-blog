@@ -1,0 +1,95 @@
+{
+ "no": "2026910227",
+ "name": "한강 푸르지오 리버프론트",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-09-09",
+ "rank1_date": "2026-09-14",
+ "city": "김포시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910227&pblancNo=2026910227",
+ "households": 832,
+ "types": [
+  {
+   "ty": "84.7402A",
+   "size": 84,
+   "price": 77300,
+   "area_m2": null,
+   "general": 705,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.706E",
+   "size": 84,
+   "price": 75200,
+   "area_m2": null,
+   "general": 70,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "106.9778B",
+   "size": 106,
+   "price": 93700,
+   "area_m2": null,
+   "general": 55,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "180.9387B",
+   "size": 180,
+   "price": 292200,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 832,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 75200,
+ "price_84_max": 77300,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.706E",
+    "supply": 70,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 45
+   },
+   {
+    "ty": "84.7402A",
+    "supply": 705,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 586
+   },
+   {
+    "ty": "106.9778B",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   },
+   {
+    "ty": "180.9387B",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   }
+  ],
+  "req_total": 166,
+  "rank1_req": 0,
+  "supply_total": 832,
+  "final_shortfall_total": 666,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0
+ }
+}

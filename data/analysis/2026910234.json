@@ -1,0 +1,100 @@
+{
+ "no": "2026910234",
+ "name": "두산위브더제니스 대연",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-09-09",
+ "rank1_date": "2026-09-14",
+ "city": "남구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910234&pblancNo=2026910234",
+ "households": 107,
+ "types": [
+  {
+   "ty": "59.76",
+   "size": 59,
+   "price": 73650,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.95A",
+   "size": 74,
+   "price": 95920,
+   "area_m2": null,
+   "general": 36,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.85A",
+   "size": 84,
+   "price": 109378,
+   "area_m2": null,
+   "general": 15,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.98B",
+   "size": 84,
+   "price": 109367,
+   "area_m2": null,
+   "general": 48,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 107,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 109367,
+ "price_84_max": 109378,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.76",
+    "supply": 8,
+    "closed_at": "None순위 None",
+    "rate": 6.13,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.95A",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "84.85A",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "84.98B",
+    "supply": 48,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 39
+   }
+  ],
+  "req_total": 84,
+  "rank1_req": 0,
+  "supply_total": 107,
+  "final_shortfall_total": 64,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.76",
+   "rate": 6.13,
+   "stage": "None순위 None"
+  }
+ }
+}

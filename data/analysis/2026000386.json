@@ -1,0 +1,127 @@
+{
+ "no": "2026000386",
+ "name": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-02",
+ "rank1_date": "2026-10-13",
+ "city": "용인시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000386&pblancNo=2026000386",
+ "households": 48,
+ "types": [
+  {
+   "ty": "59.9671A",
+   "size": 59,
+   "price": 44500,
+   "area_m2": 82.4639,
+   "general": 7,
+   "special": 6,
+   "pyeong_price": 1784,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "59.996B",
+   "size": 59,
+   "price": 42900,
+   "area_m2": 83.0805,
+   "general": 2,
+   "special": 4,
+   "pyeong_price": 1707,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "59.9759C",
+   "size": 59,
+   "price": 44000,
+   "area_m2": 83.31,
+   "general": 3,
+   "special": 4,
+   "pyeong_price": 1746,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "69.9865A",
+   "size": 69,
+   "price": 49000,
+   "area_m2": 95.6338,
+   "general": 5,
+   "special": 6,
+   "pyeong_price": 1694,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "74.9936A",
+   "size": 74,
+   "price": 53200,
+   "area_m2": 102.5345,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 1715,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.998B",
+   "size": 74,
+   "price": 50900,
+   "area_m2": 102.7434,
+   "general": 3,
+   "special": 1,
+   "pyeong_price": 1638,
+   "special_share_pct": 25
+  },
+  {
+   "ty": "84.9999A",
+   "size": 84,
+   "price": 57900,
+   "area_m2": 115.7877,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 1653,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9989B",
+   "size": 84,
+   "price": 55300,
+   "area_m2": 115.8004,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1579,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 27,
+ "special_total": 21,
+ "special_share_pct": 44,
+ "pyeong_min": 1579,
+ "pyeong_max": 1784,
+ "pyeong_avg": 1719,
+ "price_84_min": 55300,
+ "price_84_max": 57900,
+ "special_kinds": {
+  "신혼부부": 7,
+  "생애최초": 2,
+  "신생아": 4,
+  "다자녀": 4,
+  "기관추천": 4
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "더샵 분당하이스트",
+   "중동역 다채로움 더원",
+   "화서역 호수공원 아너스빌",
+   "광명 시티프라디움 에듀하임",
+   "향남역 그로브 스위첸",
+   "쌍용 더 플래티넘 한강"
+  ],
+  "peer_avg_pyeong": 3396,
+  "diff": -1677,
+  "diff_pct": -49,
+  "rank": 6,
+  "of": 7
+ }
+}

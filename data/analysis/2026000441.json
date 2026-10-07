@@ -1,0 +1,132 @@
+{
+ "no": "2026000441",
+ "name": "문수로 비스타 더파크",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-09-11",
+ "rank1_date": "2026-09-22",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000441&pblancNo=2026000441",
+ "households": 700,
+ "types": [
+  {
+   "ty": "68.472A",
+   "size": 68,
+   "price": 65900,
+   "area_m2": 91.5397,
+   "general": 38,
+   "special": 48,
+   "pyeong_price": 2380,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "68.472B",
+   "size": 68,
+   "price": 62400,
+   "area_m2": 91.6032,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2252,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9937A",
+   "size": 84,
+   "price": 83200,
+   "area_m2": 113.3337,
+   "general": 183,
+   "special": 221,
+   "pyeong_price": 2427,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.989B",
+   "size": 84,
+   "price": 81600,
+   "area_m2": 113.4247,
+   "general": 95,
+   "special": 114,
+   "pyeong_price": 2378,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 317,
+ "special_total": 383,
+ "special_share_pct": 55,
+ "pyeong_min": 2252,
+ "pyeong_max": 2427,
+ "pyeong_avg": 2406,
+ "price_84_min": 81600,
+ "price_84_max": 83200,
+ "special_kinds": {
+  "신혼부부": 70,
+  "생애최초": 49,
+  "신생아": 70,
+  "다자녀": 105,
+  "노부모 부양": 21,
+  "기관추천": 68
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "68.472A",
+    "supply": 61,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.9,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "68.472B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9937A",
+    "supply": 374,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.05,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.989B",
+    "supply": 205,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 129
+   }
+  ],
+  "req_total": 791,
+  "rank1_req": 628,
+  "supply_total": 641,
+  "final_shortfall_total": 129,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 4,
+  "rank1_avg_rate": 0.98,
+  "best": {
+   "ty": "68.472B",
+   "rate": 8.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "68.472A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "68.472A": 0,
+   "68.472B": 0,
+   "84.9937A": 0
+  },
+  "avg_min": 18.3,
+  "max": {
+   "score": 79,
+   "ty": "68.472A"
+  }
+ }
+}

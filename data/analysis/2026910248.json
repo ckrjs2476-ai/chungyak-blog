@@ -1,0 +1,63 @@
+{
+ "no": "2026910248",
+ "name": "제일풍경채 첨단3지구(A6BL)",
+ "kind": "remndr",
+ "region": "광주",
+ "notice_date": "2026-09-22",
+ "rank1_date": "2026-09-28",
+ "city": "첨단3지구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910248&pblancNo=2026910248",
+ "households": 187,
+ "types": [
+  {
+   "ty": "84.99A",
+   "size": 84,
+   "price": 51800,
+   "area_m2": null,
+   "general": 167,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.99B",
+   "size": 84,
+   "price": 51460,
+   "area_m2": null,
+   "general": 20,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 187,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 51460,
+ "price_84_max": 51800,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.99A",
+    "supply": 167,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 147
+   },
+   {
+    "ty": "84.99B",
+    "supply": 20,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   }
+  ],
+  "req_total": 22,
+  "rank1_req": 0,
+  "supply_total": 187,
+  "final_shortfall_total": 165,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

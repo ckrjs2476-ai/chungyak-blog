@@ -1,0 +1,195 @@
+{
+ "no": "2026000453",
+ "name": "광명 시티프라디움 에듀하임",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-09-18",
+ "rank1_date": "2026-09-30",
+ "city": "광명시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000453&pblancNo=2026000453",
+ "households": 426,
+ "types": [
+  {
+   "ty": "59.9742A",
+   "size": 59,
+   "price": 87900,
+   "area_m2": 78.5038,
+   "general": 10,
+   "special": 11,
+   "pyeong_price": 3701,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.7421B",
+   "size": 59,
+   "price": 87700,
+   "area_m2": 78.3014,
+   "general": 42,
+   "special": 45,
+   "pyeong_price": 3703,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8481A",
+   "size": 84,
+   "price": 118500,
+   "area_m2": 109.1804,
+   "general": 36,
+   "special": 50,
+   "pyeong_price": 3588,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "84.9648B",
+   "size": 84,
+   "price": 119700,
+   "area_m2": 109.1521,
+   "general": 10,
+   "special": 11,
+   "pyeong_price": 3625,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9558C",
+   "size": 84,
+   "price": 118000,
+   "area_m2": 109.1838,
+   "general": 44,
+   "special": 61,
+   "pyeong_price": 3573,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "84.9796D",
+   "size": 84,
+   "price": 119800,
+   "area_m2": 109.5564,
+   "general": 10,
+   "special": 11,
+   "pyeong_price": 3615,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9149E",
+   "size": 84,
+   "price": 118000,
+   "area_m2": 110.275,
+   "general": 38,
+   "special": 47,
+   "pyeong_price": 3537,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 190,
+ "special_total": 236,
+ "special_share_pct": 55,
+ "pyeong_min": 3537,
+ "pyeong_max": 3703,
+ "pyeong_avg": 3606,
+ "price_84_min": 118000,
+ "price_84_max": 119800,
+ "special_kinds": {
+  "신혼부부": 64,
+  "생애최초": 30,
+  "신생아": 43,
+  "다자녀": 43,
+  "노부모 부양": 13,
+  "기관추천": 43
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9742A",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.7421B",
+    "supply": 42,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8481A",
+    "supply": 60,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.9648B",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "84.9558C",
+    "supply": 63,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "84.9796D",
+    "supply": 13,
+    "closed_at": "2순위 기타지역",
+    "rate": 5.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9149E",
+    "supply": 67,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 50
+   }
+  ],
+  "req_total": 654,
+  "rank1_req": 460,
+  "supply_total": 273,
+  "final_shortfall_total": 75,
+  "closed_types": 3,
+  "rank1_closed_types": 2,
+  "type_count": 7,
+  "rank1_avg_rate": 1.68,
+  "best": {
+   "ty": "84.9796D",
+   "rate": 5.0,
+   "stage": "2순위 기타지역"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "더샵 분당하이스트",
+   "중동역 다채로움 더원",
+   "화서역 호수공원 아너스빌",
+   "향남역 그로브 스위첸",
+   "쌍용 더 플래티넘 한강"
+  ],
+  "peer_avg_pyeong": 3354,
+  "diff": 252,
+  "diff_pct": 8,
+  "rank": 2,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 3,
+  "peers": [
+   "더샵 분당하이스트",
+   "중동역 다채로움 더원",
+   "화서역 호수공원 아너스빌"
+  ],
+  "peer_avg_rate": 3.92,
+  "rank": 3,
+  "of": 4
+ }
+}

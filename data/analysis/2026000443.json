@@ -1,0 +1,74 @@
+{
+ "no": "2026000443",
+ "name": "에코델타시티 금강펜테리움 에코리버",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-09-18",
+ "rank1_date": "2026-09-29",
+ "city": "강서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000443&pblancNo=2026000443",
+ "households": 358,
+ "types": [
+  {
+   "ty": "59.9986A",
+   "size": 59,
+   "price": 51100,
+   "area_m2": 83.9158,
+   "general": 64,
+   "special": 119,
+   "pyeong_price": 2013,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "59.9992B",
+   "size": 59,
+   "price": 53200,
+   "area_m2": 84.4484,
+   "general": 63,
+   "special": 112,
+   "pyeong_price": 2083,
+   "special_share_pct": 64
+  }
+ ],
+ "general_total": 127,
+ "special_total": 231,
+ "special_share_pct": 65,
+ "pyeong_min": 2013,
+ "pyeong_max": 2083,
+ "pyeong_avg": 2047,
+ "special_kinds": {
+  "신혼부부": 54,
+  "생애최초": 61,
+  "신생아": 36,
+  "다자녀": 35,
+  "노부모 부양": 10,
+  "기관추천": 35
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9986A",
+    "supply": 179,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 173
+   },
+   {
+    "ty": "59.9992B",
+    "supply": 169,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 162
+   }
+  ],
+  "req_total": 13,
+  "rank1_req": 8,
+  "supply_total": 348,
+  "final_shortfall_total": 335,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.02
+ }
+}
