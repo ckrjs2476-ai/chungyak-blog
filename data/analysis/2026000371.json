@@ -165,6 +165,7 @@
  },
  "region_price": {
   "scope": "용인시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -177,6 +178,27 @@
   "diff_pct": -20,
   "rank": 3,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 51,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에"
+  ],
+  "peer_avg_pyeong": 2433,
+  "diff": -789,
+  "diff_pct": -32,
+  "rank": 46,
+  "of": 52
  },
  "region_competition": {
   "scope": "용인시",

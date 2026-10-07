@@ -108,6 +108,7 @@
  },
  "region_price": {
   "scope": "전주시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -120,6 +121,24 @@
   "diff_pct": 12,
   "rank": 1,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "전북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "송천 아르티엠 더 숲",
+   "대상 웰라움 순창",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처",
+   "익산 펠리피아"
+  ],
+  "peer_avg_pyeong": 1409,
+  "diff": 315,
+  "diff_pct": 22,
+  "rank": 1,
+  "of": 6
  },
  "region_competition": {
   "scope": "전주시",

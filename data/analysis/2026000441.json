@@ -131,6 +131,7 @@
  },
  "region_price": {
   "scope": "남구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -143,6 +144,23 @@
   "diff_pct": 1,
   "rank": 2,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "울산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "센텀 엘카사",
+   "그랑라크 에일린의 뜰"
+  ],
+  "peer_avg_pyeong": 2086,
+  "diff": 320,
+  "diff_pct": 15,
+  "rank": 2,
+  "of": 5
  },
  "region_competition": {
   "scope": "남구",

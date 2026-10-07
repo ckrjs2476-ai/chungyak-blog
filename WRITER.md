@@ -37,7 +37,7 @@
 ### 3-2. 분석 숫자 (필수, 2개 이상. check.py가 확인한다)
 | 글 유형 | 꼭 넣을 분석 (data/analysis 필드) |
 | --- | --- |
-| notice | 공급면적 3.3㎡당 분양가(types[].pyeong_price, pyeong_avg), 비슷한 단지 비교(region_price: scope·peer_avg_pyeong·diff_pct·rank/of), 특공 비중(special_share_pct) |
+| notice | 공급면적 3.3㎡당 분양가(types[].pyeong_price, pyeong_avg), 비슷한 단지 비교(region_price = 같은 시, region_price_wide = 같은 시·도: scope·peer_avg_pyeong·diff_pct·rank/of), 특공 비중(special_share_pct) |
 | competition | 1순위 평균 경쟁률(competition.rank1_avg_rate), 마감 단계(types[].closed_at), 최종 미달(final_shortfall), 비슷한 단지 비교(region_competition) |
 | score | 타입별 최저 가점(score.type_min), 비슷한 단지 커트라인 비교(region_score: peer_avg_min·diff) |
 | remainder | stats.weekly_remainder의 단지별 세대수·가격·3.3㎡당 가격 비교 |

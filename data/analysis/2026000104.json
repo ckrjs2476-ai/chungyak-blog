@@ -111,6 +111,7 @@
  },
  "region_price": {
   "scope": "유성구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -122,6 +123,25 @@
   "diff_pct": -33,
   "rank": 3,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "대전",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "도룡자이 라피크",
+   "대전 하늘채 루시에르(2회차)",
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테",
+   "대전 경남아너스빌 센텀스카이"
+  ],
+  "peer_avg_pyeong": 2372,
+  "diff": -124,
+  "diff_pct": -5,
+  "rank": 3,
+  "of": 7
  },
  "region_competition": {
   "scope": "유성구",

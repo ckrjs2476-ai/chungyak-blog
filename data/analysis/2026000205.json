@@ -95,6 +95,7 @@
  },
  "region_price": {
   "scope": "수원시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 4,
   "peers": [
@@ -108,6 +109,27 @@
   "diff_pct": -4,
   "rank": 3,
   "of": 5
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 64,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "용인 푸르지오 원클러스터파크",
+   "이천 증포5지구 칸타빌 에듀파크",
+   "서수원 에피트 센트럴마크(M2BL)",
+   "서수원 에피트 센트럴마크(M1BL)",
+   "여월 중앙하이츠 아르비채",
+   "이천 중리지구 B3블록 금성백조 예미지"
+  ],
+  "peer_avg_pyeong": 2458,
+  "diff": 34,
+  "diff_pct": 1,
+  "rank": 20,
+  "of": 65
  },
  "region_competition": {
   "scope": "수원시",

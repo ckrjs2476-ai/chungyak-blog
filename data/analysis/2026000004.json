@@ -147,6 +147,7 @@
  },
  "region_price": {
   "scope": "울주군",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -159,6 +160,27 @@
   "diff_pct": 2,
   "rank": 2,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "울산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 12,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_pyeong": 2128,
+  "diff": -744,
+  "diff_pct": -35,
+  "rank": 11,
+  "of": 13
  },
  "region_competition": {
   "scope": "울주군",

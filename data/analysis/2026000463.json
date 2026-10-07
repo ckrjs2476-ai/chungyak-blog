@@ -108,7 +108,23 @@
   "기관추천": 84
  },
  "region_price": {
+  "scope": "화성특례시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "야목역 서희스타힐스 그랜드힐",
+   "동탄 그웬 160 (동탄2 B11BL)"
+  ],
+  "peer_avg_pyeong": 2058,
+  "diff": -390,
+  "diff_pct": -19,
+  "rank": 2,
+  "of": 3
+ },
+ "region_price_wide": {
   "scope": "경기",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 40,
   "peers": [

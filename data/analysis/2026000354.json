@@ -268,6 +268,7 @@
  },
  "region_price": {
   "scope": "부천시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 6,
   "peers": [
@@ -283,6 +284,27 @@
   "diff_pct": 72,
   "rank": 1,
   "of": 7
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 48,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "썬밸리 오드카운티 가평설악",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "시흥거모B1 호반써밋",
+   "의정부역 센트럴 아이파크"
+  ],
+  "peer_avg_pyeong": 2330,
+  "diff": 2265,
+  "diff_pct": 97,
+  "rank": 2,
+  "of": 49
  },
  "region_competition": {
   "scope": "부천시",

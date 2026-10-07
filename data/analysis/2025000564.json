@@ -78,7 +78,23 @@
   }
  },
  "region_price": {
+  "scope": "화성시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "야목역 서희스타힐스 그랜드힐",
+   "동탄 그웬 160 (동탄2 B11BL)"
+  ],
+  "peer_avg_pyeong": 2058,
+  "diff": -715,
+  "diff_pct": -35,
+  "rank": 3,
+  "of": 3
+ },
+ "region_price_wide": {
   "scope": "경기",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 64,
   "peers": [
@@ -98,20 +114,14 @@
   "of": 65
  },
  "region_competition": {
-  "scope": "경기",
-  "peer_count": 64,
+  "scope": "화성시",
+  "peer_count": 2,
   "peers": [
-   "엘리프 한신더휴 수원 C3블록(본청약)",
-   "엘리프 한신더휴 수원 D3블록(본청약)",
-   "식사 푸르지오 파크센트",
-   "오산 세교 우미 린 레이크시티",
-   "오남역 서희스타힐스 여의재 3단지",
-   "안양자이 헤리티온",
-   "철산역자이",
-   "안성 아양지구 B-2블록 금성백조 예미지"
+   "야목역 서희스타힐스 그랜드힐",
+   "동탄 그웬 160 (동탄2 B11BL)"
   ],
-  "peer_avg_rate": 6.67,
-  "rank": 36,
-  "of": 65
+  "peer_avg_rate": 1.85,
+  "rank": 2,
+  "of": 3
  }
 }

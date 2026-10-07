@@ -167,6 +167,7 @@
  },
  "region_price": {
   "scope": "부평구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -178,6 +179,27 @@
   "diff_pct": -1,
   "rank": 2,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "인천",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 27,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버"
+  ],
+  "peer_avg_pyeong": 2346,
+  "diff": -48,
+  "diff_pct": -2,
+  "rank": 11,
+  "of": 28
  },
  "region_competition": {
   "scope": "부평구",

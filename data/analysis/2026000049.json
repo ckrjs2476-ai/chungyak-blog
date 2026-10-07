@@ -128,6 +128,7 @@
  },
  "region_price": {
   "scope": "양주시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -139,6 +140,27 @@
   "diff_pct": -1,
   "rank": 2,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 84,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "김포 풍무역세권 B5블록 호반써밋"
+  ],
+  "peer_avg_pyeong": 2507,
+  "diff": -845,
+  "diff_pct": -34,
+  "rank": 73,
+  "of": 85
  },
  "region_competition": {
   "scope": "양주시",

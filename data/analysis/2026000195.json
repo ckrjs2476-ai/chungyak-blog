@@ -147,6 +147,7 @@
  },
  "region_price": {
   "scope": "서구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -159,6 +160,27 @@
   "diff_pct": 5,
   "rank": 1,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "인천",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 20,
+  "peers": [
+   "포레나더샵 인천시청역",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)",
+   "연수 월드메르디앙 어반포레",
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_pyeong": 2463,
+  "diff": -487,
+  "diff_pct": -20,
+  "rank": 10,
+  "of": 21
  },
  "region_competition": {
   "scope": "서구",

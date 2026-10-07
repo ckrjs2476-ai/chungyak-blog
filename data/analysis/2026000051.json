@@ -236,6 +236,7 @@
  },
  "region_price": {
   "scope": "아산시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -247,6 +248,27 @@
   "diff_pct": 30,
   "rank": 1,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "충남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 23,
+  "peers": [
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "공주월송 진아레히"
+  ],
+  "peer_avg_pyeong": 1568,
+  "diff": 70,
+  "diff_pct": 4,
+  "rank": 12,
+  "of": 24
  },
  "region_competition": {
   "scope": "아산시",

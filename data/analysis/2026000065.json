@@ -95,6 +95,7 @@
  },
  "region_price": {
   "scope": "서구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -107,6 +108,27 @@
   "diff_pct": 1,
   "rank": 3,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "인천",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 24,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)"
+  ],
+  "peer_avg_pyeong": 2398,
+  "diff": -477,
+  "diff_pct": -20,
+  "rank": 18,
+  "of": 25
  },
  "region_competition": {
   "scope": "서구",

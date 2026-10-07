@@ -158,7 +158,24 @@
   }
  },
  "region_price": {
+  "scope": "화성특례시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "화성 남양뉴타운 우미 린 에듀하이",
+   "야목역 서희스타힐스 그랜드힐",
+   "향남역 그로브 스위첸"
+  ],
+  "peer_avg_pyeong": 1555,
+  "diff": 908,
+  "diff_pct": 58,
+  "rank": 1,
+  "of": 4
+ },
+ "region_price_wide": {
   "scope": "경기",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 83,
   "peers": [
@@ -178,20 +195,14 @@
   "of": 84
  },
  "region_competition": {
-  "scope": "경기",
-  "peer_count": 81,
+  "scope": "화성특례시",
+  "peer_count": 2,
   "peers": [
-   "엘리프 한신더휴 수원 C3블록(본청약)",
-   "엘리프 한신더휴 수원 D3블록(본청약)",
-   "오남역 서희스타힐스 여의재 3단지",
-   "안양자이 헤리티온",
-   "효성해링턴 플레이스 양평",
-   "만안역 중앙하이츠 포레",
-   "운정 아이파크 시티",
-   "더샵 분당티에르원"
+   "화성 남양뉴타운 우미 린 에듀하이",
+   "야목역 서희스타힐스 그랜드힐"
   ],
-  "peer_avg_rate": 5.25,
-  "rank": 22,
-  "of": 82
+  "peer_avg_rate": 0.55,
+  "rank": 1,
+  "of": 3
  }
 }

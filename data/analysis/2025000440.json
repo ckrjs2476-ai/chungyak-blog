@@ -202,6 +202,7 @@
  },
  "region_price": {
   "scope": "동래구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -214,6 +215,27 @@
   "diff_pct": 14,
   "rank": 1,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 13,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "퀸즈이즈카운티",
+   "베뉴브 해운대",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안"
+  ],
+  "peer_avg_pyeong": 2510,
+  "diff": 33,
+  "diff_pct": 1,
+  "rank": 5,
+  "of": 14
  },
  "region_competition": {
   "scope": "동래구",

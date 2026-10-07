@@ -197,6 +197,7 @@
  },
  "region_price": {
   "scope": "천안시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 15,
   "peers": [
@@ -214,6 +215,27 @@
   "diff_pct": 3,
   "rank": 7,
   "of": 16
+ },
+ "region_price_wide": {
+  "scope": "충남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 19,
+  "peers": [
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "아산탕정자이 메트로시티(A3BL)",
+   "공주월송 진아레히",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "아산경남아너스빌 랜드마크49"
+  ],
+  "peer_avg_pyeong": 1599,
+  "diff": 116,
+  "diff_pct": 7,
+  "rank": 7,
+  "of": 20
  },
  "region_competition": {
   "scope": "천안시",

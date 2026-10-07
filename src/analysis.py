@@ -186,15 +186,16 @@ def _within(a: str, b: str, days: int) -> bool:
         return False
 
 
-def _peers(a: dict, apt: list[dict], need) -> tuple[str, list[dict]]:
+def _peers(a: dict, apt: list[dict], need, start: int = 0) -> tuple[str, list[dict]]:
     """비교 대상: 같은 시·구 + 같은 공급 구분(민영/국민) → 같은 시·도 + 같은 공급 구분 → 같은 시·도 전체.
     공고일 앞뒤 180일 안, 비교값이 있는 단지가 2곳 이상일 때만 쓴다."""
     near = [b for b in apt if b["no"] != a["no"] and _within(a["notice_date"], b["notice_date"], COMPARE_DAYS)
             and b["households"] >= MIN_PEER_HOUSEHOLDS and "취소분" not in str(b["name"]) and need(b)]
-    for scope, pick in ((a["city"], lambda b: b["city"] == a["city"] and b["region"] == a["region"]
+    # 시 이름은 앞 두 글자로 비교한다 (화성시 → 화성특례시처럼 이름이 바뀐 경우)
+    for scope, pick in ((a["city"], lambda b: b["city"][:2] == a["city"][:2] and b["region"] == a["region"]
                          and b["supply_kind"] == a["supply_kind"]),
                         (a["region"], lambda b: b["region"] == a["region"] and b["supply_kind"] == a["supply_kind"]),
-                        (a["region"], lambda b: b["region"] == a["region"])):
+                        (a["region"], lambda b: b["region"] == a["region"]))[start:]:
         peers = [b for b in near if pick(b)]
         if len(peers) >= 2 and scope:
             return scope, peers
@@ -206,16 +207,20 @@ def add_region_compare(all_: list[dict]) -> None:
     apt = [a for a in all_ if a["kind"] == "apt"]
     for a in apt:
         if a.get("pyeong_avg"):
-            scope, peers = _peers(a, apt, lambda b: b.get("pyeong_avg"))
-            if peers:
+            # region_price: 가장 가까운 비교(같은 시), region_price_wide: 같은 시·도 같은 공급 구분
+            for key, start in (("region_price", 0), ("region_price_wide", 1)):
+                scope, peers = _peers(a, apt, lambda b: b.get("pyeong_avg"), start)
+                if not peers or (key == "region_price_wide" and scope == a.get("region_price", {}).get("scope")
+                                 and len(peers) == a.get("region_price", {}).get("peer_count")):
+                    continue
                 ps = [b["pyeong_avg"] for b in peers]
                 avg = round(sum(ps) / len(ps))
                 ranked = sorted(ps + [a["pyeong_avg"]], reverse=True)
-                a["region_price"] = {"scope": scope, "days": COMPARE_DAYS, "peer_count": len(ps),
-                                     "peers": [b["name"] for b in peers][:8],
-                                     "peer_avg_pyeong": avg, "diff": a["pyeong_avg"] - avg,
-                                     "diff_pct": round((a["pyeong_avg"] - avg) * 100 / avg),
-                                     "rank": ranked.index(a["pyeong_avg"]) + 1, "of": len(ranked)}
+                a[key] = {"scope": scope, "supply_kind": a["supply_kind"], "days": COMPARE_DAYS,
+                          "peer_count": len(ps), "peers": [b["name"] for b in peers][:8],
+                          "peer_avg_pyeong": avg, "diff": a["pyeong_avg"] - avg,
+                          "diff_pct": round((a["pyeong_avg"] - avg) * 100 / avg),
+                          "rank": ranked.index(a["pyeong_avg"]) + 1, "of": len(ranked)}
         rate = (a.get("competition") or {}).get("rank1_avg_rate")
         if rate is not None:
             scope, peers = _peers(a, apt, lambda b: (b.get("competition") or {}).get("rank1_avg_rate") is not None)

@@ -113,6 +113,7 @@
  },
  "region_price": {
   "scope": "김포시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 4,
   "peers": [
@@ -126,6 +127,27 @@
   "diff_pct": 0,
   "rank": 4,
   "of": 5
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 60,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
+  ],
+  "peer_avg_pyeong": 2487,
+  "diff": -385,
+  "diff_pct": -15,
+  "rank": 36,
+  "of": 61
  },
  "region_competition": {
   "scope": "김포시",

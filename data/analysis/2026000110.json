@@ -113,6 +113,7 @@
  },
  "region_price": {
   "scope": "창원시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 5,
   "peers": [
@@ -127,6 +128,27 @@
   "diff_pct": -12,
   "rank": 4,
   "of": 6
+ },
+ "region_price_wide": {
+  "scope": "경남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 18,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지"
+  ],
+  "peer_avg_pyeong": 1724,
+  "diff": 60,
+  "diff_pct": 3,
+  "rank": 5,
+  "of": 19
  },
  "region_competition": {
   "scope": "창원시",

@@ -131,6 +131,7 @@
  },
  "region_price": {
   "scope": "남구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 7,
   "peers": [
@@ -147,6 +148,27 @@
   "diff_pct": -16,
   "rank": 8,
   "of": 8
+ },
+ "region_price_wide": {
+  "scope": "울산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지",
+   "태화강 센트럴 아이파크"
+  ],
+  "peer_avg_pyeong": 2228,
+  "diff": -181,
+  "diff_pct": -8,
+  "rank": 9,
+  "of": 11
  },
  "region_competition": {
   "scope": "남구",

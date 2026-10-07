@@ -108,6 +108,7 @@
  },
  "region_price": {
   "scope": "강릉시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -119,6 +120,24 @@
   "diff_pct": 11,
   "rank": 1,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "강원",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "르네오션 고성 퍼스트뷰",
+   "강릉 우미 린 더 프리미어",
+   "더 리치먼드 리버센트 소양",
+   "리쉐스302",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_pyeong": 1599,
+  "diff": 187,
+  "diff_pct": 12,
+  "rank": 1,
+  "of": 6
  },
  "region_competition": {
   "scope": "강릉시",

@@ -130,6 +130,7 @@
  },
  "region_price": {
   "scope": "남양주시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -141,6 +142,27 @@
   "diff_pct": 1,
   "rank": 2,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 72,
+  "peers": [
+   "안양자이 헤리티온",
+   "두산위브 더센트럴 수원",
+   "용인 푸르지오 원클러스터파크",
+   "성남복정1지구 B1블록 복정역 에피트",
+   "이천 증포5지구 칸타빌 에듀파크",
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+   "의왕시청역 SK VIEW IPARK"
+  ],
+  "peer_avg_pyeong": 2463,
+  "diff": -410,
+  "diff_pct": -17,
+  "rank": 43,
+  "of": 73
  },
  "region_competition": {
   "scope": "남양주시",

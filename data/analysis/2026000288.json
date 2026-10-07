@@ -223,6 +223,7 @@
  },
  "region_price": {
   "scope": "제주시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -235,6 +236,24 @@
   "diff_pct": 47,
   "rank": 2,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "제주",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "서귀포시 서홍동 형남아파트6차",
+   "리첸시아 표선 IB EDU",
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅱ",
+   "제주시 이도이동 아이린8차 아파트"
+  ],
+  "peer_avg_pyeong": 2184,
+  "diff": 1378,
+  "diff_pct": 63,
+  "rank": 2,
+  "of": 6
  },
  "region_competition": {
   "scope": "제주시",

@@ -94,6 +94,7 @@
  },
  "region_price": {
   "scope": "김포시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 5,
   "peers": [
@@ -108,6 +109,27 @@
   "diff_pct": -1,
   "rank": 3,
   "of": 6
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 83,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "회천중앙역 파라곤",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티"
+  ],
+  "peer_avg_pyeong": 2505,
+  "diff": -401,
+  "diff_pct": -16,
+  "rank": 47,
+  "of": 84
  },
  "region_competition": {
   "scope": "김포시",

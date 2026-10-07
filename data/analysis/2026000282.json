@@ -272,6 +272,7 @@
  },
  "region_price": {
   "scope": "창원시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -284,6 +285,27 @@
   "diff_pct": -10,
   "rank": 2,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "경남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 14,
+  "peers": [
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "거제 푸르지오 마린피스",
+   "신문 대상 웰라움 라시엘"
+  ],
+  "peer_avg_pyeong": 1688,
+  "diff": 109,
+  "diff_pct": 6,
+  "rank": 3,
+  "of": 15
  },
  "region_competition": {
   "scope": "창원시",

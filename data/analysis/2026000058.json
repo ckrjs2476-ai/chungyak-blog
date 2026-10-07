@@ -275,6 +275,7 @@
  },
  "region_price": {
   "scope": "서초구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -286,6 +287,27 @@
   "diff_pct": -5,
   "rank": 3,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "서울",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 23,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_pyeong": 6242,
+  "diff": 1725,
+  "diff_pct": 28,
+  "rank": 5,
+  "of": 24
  },
  "region_competition": {
   "scope": "서초구",

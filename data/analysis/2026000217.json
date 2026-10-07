@@ -111,6 +111,7 @@
  },
  "region_price": {
   "scope": "동래구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -122,6 +123,27 @@
   "diff_pct": -18,
   "rank": 3,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 20,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리"
+  ],
+  "peer_avg_pyeong": 2505,
+  "diff": -514,
+  "diff_pct": -21,
+  "rank": 16,
+  "of": 21
  },
  "region_competition": {
   "scope": "동래구",

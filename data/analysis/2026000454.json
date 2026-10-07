@@ -89,6 +89,7 @@
  },
  "region_price": {
   "scope": "천안시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 14,
   "peers": [
@@ -106,6 +107,27 @@
   "diff_pct": -18,
   "rank": 14,
   "of": 15
+ },
+ "region_price_wide": {
+  "scope": "충남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 17,
+  "peers": [
+   "공주월송 진아레히",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "아산경남아너스빌 랜드마크49",
+   "천안 휴먼빌 퍼스트시티(2회차)",
+   "엘리프 성성호수공원 1BL",
+   "엘리프 성성호수공원 2BL"
+  ],
+  "peer_avg_pyeong": 1586,
+  "diff": -224,
+  "diff_pct": -14,
+  "rank": 14,
+  "of": 18
  },
  "region_competition": {
   "scope": "천안시",

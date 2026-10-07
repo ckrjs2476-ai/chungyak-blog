@@ -95,6 +95,7 @@
  },
  "region_price": {
   "scope": "전주시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -107,6 +108,23 @@
   "diff_pct": 10,
   "rank": 1,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "전북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처",
+   "익산 펠리피아",
+   "아르티엠 라 테라스"
+  ],
+  "peer_avg_pyeong": 1413,
+  "diff": 205,
+  "diff_pct": 15,
+  "rank": 1,
+  "of": 5
  },
  "region_competition": {
   "scope": "전주시",

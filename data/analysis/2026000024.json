@@ -72,6 +72,7 @@
  },
  "region_price": {
   "scope": "남구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -83,6 +84,22 @@
   "diff_pct": -4,
   "rank": 3,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "광주",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "힐스테이트 지석",
+   "더 퍼스트 데시앙",
+   "호반써밋 첨단3지구(A7BL)"
+  ],
+  "peer_avg_pyeong": 1841,
+  "diff": 66,
+  "diff_pct": 4,
+  "rank": 3,
+  "of": 4
  },
  "region_competition": {
   "scope": "남구",

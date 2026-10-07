@@ -147,6 +147,7 @@
  },
  "region_price": {
   "scope": "여수시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -159,6 +160,25 @@
   "diff_pct": -10,
   "rank": 3,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "전남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "효성해링턴 플레이스 여수",
+   "나주영산 윤슬의아침 더정원",
+   "해남 남외리 정하 에코프라임",
+   "e편한세상 여수 글렌츠",
+   "소제지구 A3BL 중흥S-클래스 우미린",
+   "호반써밋 첨단3지구(A8BL)"
+  ],
+  "peer_avg_pyeong": 1435,
+  "diff": 11,
+  "diff_pct": 1,
+  "rank": 4,
+  "of": 7
  },
  "region_competition": {
   "scope": "여수시",

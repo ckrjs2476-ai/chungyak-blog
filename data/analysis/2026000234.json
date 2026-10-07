@@ -73,6 +73,7 @@
  },
  "region_price": {
   "scope": "강서구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -84,6 +85,27 @@
   "diff_pct": -11,
   "rank": 3,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 18,
+  "peers": [
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리",
+   "엄궁역 트라비스 하늘채",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_pyeong": 2478,
+  "diff": -777,
+  "diff_pct": -31,
+  "rank": 16,
+  "of": 19
  },
  "region_competition": {
   "scope": "강서구",

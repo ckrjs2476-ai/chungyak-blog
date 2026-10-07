@@ -87,6 +87,7 @@
  },
  "region_price": {
   "scope": "울주군",
+  "supply_kind": "국민",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -98,6 +99,22 @@
   "diff_pct": -46,
   "rank": 3,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "울산",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "울산태화강변지구 A-2블록 공공분양주택",
+   "울산다운2지구 A-10블록 공공분양주택",
+   "울산 우정혁신도시 B1블록(골드클래스) 분양전환 후 잔여세대"
+  ],
+  "peer_avg_pyeong": 1397,
+  "diff": -571,
+  "diff_pct": -41,
+  "rank": 4,
+  "of": 4
  },
  "region_competition": {
   "scope": "울산",

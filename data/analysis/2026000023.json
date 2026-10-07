@@ -203,6 +203,7 @@
  },
  "region_price": {
   "scope": "영등포구",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
@@ -214,6 +215,27 @@
   "diff_pct": -20,
   "rank": 3,
   "of": 3
+ },
+ "region_price_wide": {
+  "scope": "서울",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 24,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_pyeong": 6261,
+  "diff": -1129,
+  "diff_pct": -18,
+  "rank": 18,
+  "of": 25
  },
  "region_competition": {
   "scope": "영등포구",

@@ -249,6 +249,7 @@
  },
  "region_price": {
   "scope": "오산시",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 3,
   "peers": [
@@ -261,6 +262,27 @@
   "diff_pct": -8,
   "rank": 3,
   "of": 4
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 57,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "더샵 분당센트로",
+   "수지자이 에디시온",
+   "북오산자이 리버블시티",
+   "용인 푸르지오 클루센트",
+   "안양역 센트럴 아이파크 수자인",
+   "사우역 지엔하임"
+  ],
+  "peer_avg_pyeong": 2529,
+  "diff": -485,
+  "diff_pct": -19,
+  "rank": 37,
+  "of": 58
  },
  "region_competition": {
   "scope": "오산시",

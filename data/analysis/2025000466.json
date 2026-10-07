@@ -164,6 +164,22 @@
  },
  "region_price": {
   "scope": "청주시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "청주 롯데캐슬 시그니처",
+   "청주 푸르지오 씨엘리체"
+  ],
+  "peer_avg_pyeong": 1542,
+  "diff": -66,
+  "diff_pct": -4,
+  "rank": 3,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "충북",
+  "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
