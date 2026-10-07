@@ -30,6 +30,7 @@ DISCLOSURE = "청약홈 공고 데이터를 바탕으로 자동 정리했어요"
 GUIDE_NOTICE = "청약홈 홈페이지를 참고해 주세요"
 MIN_CHARS = 1500
 MAX_TITLE = 60
+TITLE_KEYWORD_WITHIN = 25  # 모바일 검색 결과에서 잘리지 않는 앞부분 안에 메인 키워드
 MAX_PARA_SENTENCES = 4
 MAX_TABLE_COLS = 4
 
@@ -157,6 +158,9 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     if typ in ("remainder", "region", "monthly") and not unit_nos:
         errs.append("여러 단지 글인데 house_manage_nos가 없습니다.")
     title = str(meta.get("title", ""))
+    kw = str(meta.get("keyword", ""))
+    if kw and kw.split()[0] not in title[:TITLE_KEYWORD_WITHIN]:
+        errs.append(f"제목 앞 {TITLE_KEYWORD_WITHIN}자 안에 메인 키워드('{kw}')의 첫 단어가 없습니다.")
     if len(title) > MAX_TITLE:
         errs.append(f"제목이 {len(title)}자로 깁니다 ({MAX_TITLE}자 이하).")
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", str(meta.get("slug", ""))):

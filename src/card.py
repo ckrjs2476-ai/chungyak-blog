@@ -18,8 +18,8 @@ BOX = ("border:1px solid #d9dee7;border-radius:12px;padding:16px 18px;margin:0 0
        "background:#f7f9fc;font-size:15px;line-height:1.6;color:#1f2933;")
 TITLE = "font-size:17px;font-weight:700;margin:0 0 4px;"
 SUB = "font-size:13px;color:#52606d;margin:0 0 12px;"
-ROW_L = "padding:6px 8px 6px 0;color:#52606d;white-space:nowrap;vertical-align:top;border:0;"
-ROW_R = "padding:6px 0;font-weight:600;border:0;"
+ROW_L = "padding:6px 12px 6px 0;color:#52606d;white-space:nowrap;vertical-align:top;border:0;"
+ROW_R = "padding:6px 0;font-weight:600;border:0;color:#111111;"
 NOTE = "font-size:12px;color:#7b8794;margin:10px 0 0;"
 
 

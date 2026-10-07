@@ -52,8 +52,42 @@ def access_token() -> str:
     return res.json()["access_token"]
 
 
+# 본문 꾸밈. Blogger 테마의 회색 글자·좁은 문단 간격을 덮어쓰려고 태그마다 style 속성으로 넣는다
+# (Blogger는 글 안의 <style> 태그를 지우는 경우가 있다). 바꾸면 publish.py --rerender로 기존 글에도 반영한다.
+TEXT = "#111111"
+WRAP = (f"color:{TEXT};font-size:16px;line-height:1.85;word-break:keep-all;overflow-wrap:break-word;")
+TAG_STYLE = {
+    "p": f"margin:0 0 1.5em;color:{TEXT};line-height:1.85;",
+    "h2": (f"margin:2.8em 0 1.1em;padding-top:1.3em;border-top:1px solid #e5e7eb;font-size:21px;"
+           f"line-height:1.45;font-weight:700;color:{TEXT};"),
+    "h3": f"margin:2.2em 0 0.9em;font-size:18px;line-height:1.5;font-weight:700;color:{TEXT};",
+    "ul": f"margin:0 0 1.6em;padding-left:1.3em;color:{TEXT};",
+    "ol": f"margin:0 0 1.6em;padding-left:1.3em;color:{TEXT};",
+    "li": f"margin:0 0 0.7em;line-height:1.8;color:{TEXT};",
+    "table": "border-collapse:collapse;width:100%;margin:1.6em 0 2em;font-size:15px;",
+    "th": f"padding:10px 8px;border:1px solid #e5e7eb;background:#f3f4f6;color:{TEXT};text-align:left;font-weight:700;",
+    "td": f"padding:10px 8px;border:1px solid #e5e7eb;color:{TEXT};",
+    "blockquote": ("margin:2.4em 0 0;padding:14px 16px;background:#f7f9fc;border-left:4px solid #cbd2d9;"
+                   "color:#333333;font-size:14px;"),
+    "a": "color:#1a56db;text-decoration:underline;",
+    "strong": f"color:{TEXT};",
+}
+
+
+def style_html(html: str) -> str:
+    def add(m: re.Match) -> str:
+        tag, attrs = m.group(1), m.group(2) or ""
+        if "style=" in attrs:
+            return m.group(0)
+        return f'<{tag}{attrs} style="{TAG_STYLE[tag]}">'
+    html = re.sub(r"<(%s)(\s[^>]*)?>" % "|".join(TAG_STYLE), add, html)
+    # 인용문 안의 문단은 아래 여백을 없앤다
+    html = re.sub(r'(<blockquote[^>]*>\s*<p style=")margin:0 0 1.5em;', r"\1margin:0;", html)
+    return f'<div style="{WRAP}">{html}</div>'
+
+
 def to_html(body: str) -> str:
-    return markdown.markdown(body, extensions=["tables", "sane_lists"])
+    return style_html(markdown.markdown(body, extensions=["tables", "sane_lists"]))
 
 
 def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
@@ -121,17 +155,45 @@ def refresh_siblings(token: str, no: str) -> int:
     return n
 
 
-def record(meta: dict, body: str, post: dict) -> None:
+def record(meta: dict, body: str, post: dict, file_name: str = "") -> None:
     data = json.loads(PUBLISHED.read_text("utf-8")) if PUBLISHED.exists() else {"posts": []}
     heads = [l.strip("# ").strip() for l in body.splitlines() if l.startswith("## ")]
     data["posts"].append({
         "house_manage_no": str(meta.get("house_manage_no") or ""),
-        "type": meta["type"], "title": meta["title"], "keyword": meta["keyword"],
+        "type": meta["type"], "title": meta["title"], "keyword": meta["keyword"], "file": file_name,
         "opening": meta["opening"], "url": post.get("url", ""), "blogger_id": post.get("id"),
         "status": post.get("status"), "published_at": datetime.now(KST).isoformat(),
         "headings_pattern": sorted({re.sub(r"[\d,.]+", "N", x) for x in heads}),
     })
     PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
+
+
+def rerender() -> int:
+    """이미 올린 글을 posts/published/의 원고로 다시 만들어 내용만 바꾼다 (꾸밈·카드 수정 반영용).
+    제목·주소·날짜는 건드리지 않는다."""
+    if not PUBLISHED.exists():
+        return 0
+    token = access_token()
+    blog = os.environ["BLOGGER_BLOG_ID"]
+    h = {"Authorization": f"Bearer {token}"}
+    n = 0
+    data = json.loads(PUBLISHED.read_text("utf-8"))
+    for p in data["posts"]:
+        src = DONE / p["file"] if p.get("file") else None
+        if not src or not src.exists() or not p.get("blogger_id"):
+            print(f"::warning::원고를 찾지 못해 건너뜀: {p.get('title')}")
+            continue
+        meta, body = split_post(src.read_text("utf-8"))
+        no = str(meta.get("house_manage_no") or "")
+        html = build_card(meta) + to_html(body) + related_block(no, exclude_id=p["blogger_id"])
+        _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}",
+                           json={"content": html, "title": meta["title"]},
+                           headers=h, timeout=60), f"다시 만들기 {p.get('title')}")
+        p["title"] = meta["title"]
+        n += 1
+    PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
+    print(f"::notice::{n}편 다시 만듦")
+    return 0
 
 
 def main() -> int:
@@ -162,7 +224,7 @@ def main() -> int:
         no = str(meta.get("house_manage_no") or "")
         html = build_card(meta) + to_html(body) + related_block(no)
         post = post_to_blogger(token, meta, html, draft)
-        record(meta, body, post)
+        record(meta, body, post, f.name)
         if not draft:
             refreshed = refresh_siblings(token, no)
             if refreshed:
@@ -183,7 +245,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     try:
-        sys.exit(main())
+        sys.exit(rerender() if "--rerender" in sys.argv else main())
     except SystemExit:
         raise
     except Exception as e:  # noqa: BLE001

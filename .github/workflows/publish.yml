@@ -5,6 +5,10 @@ on:
     paths:
       - "posts/pending/**"
   workflow_dispatch:
+    inputs:
+      rerender:
+        description: "이미 올린 글의 본문 꾸밈을 다시 반영 (yes)"
+        default: "no"
 permissions:
   contents: write
 concurrency:
@@ -21,7 +25,7 @@ jobs:
       - run: pip install requests markdown pyyaml
       - name: 검수와 발행
         id: run
-        run: python src/publish.py
+        run: python src/publish.py ${{ github.event.inputs.rerender == 'yes' && '--rerender' || '' }}
         continue-on-error: true
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
