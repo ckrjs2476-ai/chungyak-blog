@@ -9,3 +9,7 @@
 BLOGGER_REFRESH_TOKEN, BLOGGER_BLOG_ID
 
 테스트: `python -m pytest tests` (pytest 필요)
+
+글 맨 위 요약 카드: src/card.py (원본 데이터로 HTML 카드 생성, 이미지 파일 없음)
+같은 단지 글 연결: src/publish.py가 '이 단지 다른 글' 목록을 새 글에 넣고 이전 글도 갱신
+기본 페이지 초안: pages/ (소개, 개인정보처리방침, 문의) → Blogger '페이지'에 직접 붙여넣기. [ ] 부분을 채워야 함

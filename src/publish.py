@@ -18,7 +18,12 @@ import markdown
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from card import build_card  # noqa: E402
 from check import check_text, recent_posts, split_post  # noqa: E402
+
+REL_START, REL_END = "<!--related-start-->", "<!--related-end-->"
+TYPE_NAME = {"notice": "청약 일정·분양가", "competition": "경쟁률 결과", "score": "당첨 가점",
+             "remainder": "무순위·잔여 세대"}
 
 ROOT = Path(__file__).resolve().parent.parent
 PENDING, DONE, HELD = (ROOT / "posts" / d for d in ("pending", "published", "held"))
@@ -60,6 +65,51 @@ def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
     return res.json()
 
 
+def related_block(no: str, exclude_id: str | None = None, extra: list[dict] | None = None) -> str:
+    """같은 단지의 다른 글 목록. 공개된 글(url 있는 LIVE)만 링크한다."""
+    if not no:
+        return ""
+    posts = json.loads(PUBLISHED.read_text("utf-8"))["posts"] if PUBLISHED.exists() else []
+    posts = posts + (extra or [])
+    items = [p for p in posts if p.get("house_manage_no") == no and p.get("url")
+             and p.get("status") == "LIVE" and p.get("blogger_id") != exclude_id]
+    if not items:
+        return ""
+    lis = "".join(f'<li><a href="{p["url"]}">{p["title"]}</a></li>' for p in items)
+    return (f'{REL_START}<div style="margin:24px 0 0;"><p style="font-weight:700;margin:0 0 6px;">'
+            f'이 단지 다른 글</p><ul style="margin:0;padding-left:20px;">{lis}</ul></div>{REL_END}')
+
+
+def replace_related(html: str, block: str) -> str:
+    if REL_START in html and REL_END in html:
+        a, rest = html.split(REL_START, 1)
+        _, b = rest.split(REL_END, 1)
+        return a + block + b
+    return html + block
+
+
+def refresh_siblings(token: str, no: str) -> int:
+    """새 글이 생긴 뒤 같은 단지의 이전 공개 글들의 '이 단지 다른 글' 목록을 갱신한다."""
+    if not no or not PUBLISHED.exists():
+        return 0
+    blog = os.environ["BLOGGER_BLOG_ID"]
+    h = {"Authorization": f"Bearer {token}"}
+    n = 0
+    for p in json.loads(PUBLISHED.read_text("utf-8"))["posts"]:
+        if p.get("house_manage_no") != no or p.get("status") != "LIVE" or not p.get("blogger_id"):
+            continue
+        res = requests.get(f"{API}/blogs/{blog}/posts/{p['blogger_id']}", headers=h, timeout=60)
+        if not res.ok:
+            continue
+        html = res.json().get("content", "")
+        new_html = replace_related(html, related_block(no, exclude_id=p["blogger_id"]))
+        if new_html != html:
+            requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}", json={"content": new_html},
+                           headers=h, timeout=60).raise_for_status()
+            n += 1
+    return n
+
+
 def record(meta: dict, body: str, post: dict) -> None:
     data = json.loads(PUBLISHED.read_text("utf-8")) if PUBLISHED.exists() else {"posts": []}
     heads = [l.strip("# ").strip() for l in body.splitlines() if l.startswith("## ")]
@@ -92,8 +142,14 @@ def main() -> int:
             summary.append(f"- 보류: {meta.get('title')} ({len(errs)}건)")
             continue
         token = token or access_token()
-        post = post_to_blogger(token, meta, to_html(body), draft)
+        no = str(meta.get("house_manage_no") or "")
+        html = build_card(meta) + to_html(body) + related_block(no)
+        post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post)
+        if not draft:
+            refreshed = refresh_siblings(token, no)
+            if refreshed:
+                summary.append(f"  · 같은 단지 이전 글 {refreshed}편에 링크 추가")
         DONE.mkdir(parents=True, exist_ok=True)
         shutil.move(str(f), DONE / f.name)
         summary.append(f"- {'임시저장' if draft else '발행'}: {meta['title']} {post.get('url', '')}")
