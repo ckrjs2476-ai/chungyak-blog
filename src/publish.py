@@ -33,6 +33,14 @@ KST = timezone(timedelta(hours=9))
 API = "https://www.googleapis.com/blogger/v3"
 
 
+def _ok(res: requests.Response, what: str) -> requests.Response:
+    """실패하면 원인을 Actions 주석(annotation)으로 남긴다. 로그를 못 열어도 원인이 보이게."""
+    if not res.ok:
+        print(f"::error::{what} HTTP {res.status_code}: {res.text[:400].replace(chr(10), ' ')}")
+        res.raise_for_status()
+    return res
+
+
 def access_token() -> str:
     res = requests.post("https://oauth2.googleapis.com/token", data={
         "client_id": os.environ["BLOGGER_CLIENT_ID"],
@@ -40,7 +48,7 @@ def access_token() -> str:
         "refresh_token": os.environ["BLOGGER_REFRESH_TOKEN"],
         "grant_type": "refresh_token",
     }, timeout=30)
-    res.raise_for_status()
+    _ok(res, "토큰 발급")
     return res.json()["access_token"]
 
 
@@ -57,12 +65,15 @@ def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
             "content": html, "labels": meta.get("labels", [])}
     res = requests.post(f"{API}/blogs/{blog}/posts", params={"isDraft": str(draft).lower()},
                         json=body, headers=h, timeout=60)
-    res.raise_for_status()
+    _ok(res, "글 만들기")
     post = res.json()
+    print(f"::notice::만든 직후 주소: {post.get('url', '')} / 상태: {post.get('status', '')}")
     res = requests.patch(f"{API}/blogs/{blog}/posts/{post['id']}", json={"title": meta["title"]},
                          headers=h, timeout=60)
-    res.raise_for_status()
-    return res.json()
+    _ok(res, "제목 바꾸기")
+    post = res.json()
+    print(f"::notice::제목 바꾼 뒤 주소: {post.get('url', '')} / 상태: {post.get('status', '')}")
+    return post
 
 
 def related_block(no: str, exclude_id: str | None = None, extra: list[dict] | None = None) -> str:
@@ -165,4 +176,10 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except SystemExit:
+        raise
+    except Exception as e:  # noqa: BLE001
+        print(f"::error::{type(e).__name__}: {str(e)[:400]}")
+        raise
