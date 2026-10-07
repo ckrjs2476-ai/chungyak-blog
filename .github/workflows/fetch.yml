@@ -24,14 +24,13 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python src/fetch.py ${{ github.event.inputs.days || '30' }}
-      - run: python src/analysis.py
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+      - run: python src/analysis.py
       - name: 저장
         run: |
           git config user.name "fetch-bot"
           git config user.email "fetch-bot@users.noreply.github.com"
-          git add data
           git add -A data
           git diff --cached --quiet || git commit -m "data: $(date -u +%F) 청약홈 데이터"
           git pull --rebase && git push

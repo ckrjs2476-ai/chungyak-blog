@@ -54,7 +54,8 @@ def today_kst() -> date:
 def call(endpoint: str, cond: dict[str, str], per_page: int = 100, max_pages: int = 10) -> list[dict]:
     key = os.environ.get("DATA_GO_KR_KEY", "")
     if not key:
-        raise SystemExit("DATA_GO_KR_KEY 환경변수가 없습니다.")
+        print("::error::DATA_GO_KR_KEY 환경변수가 없습니다.")
+        raise SystemExit(1)
     service_key = key if "%" in key else urllib.parse.quote(key, safe="")
     rows: list[dict] = []
     for page in range(1, max_pages + 1):
