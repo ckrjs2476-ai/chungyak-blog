@@ -1,0 +1,130 @@
+{
+ "no": "2026000291",
+ "name": "이천 휴먼빌 클래스원",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-16",
+ "rank1_date": "2026-07-28",
+ "city": "이천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000291&pblancNo=2026000291",
+ "households": 536,
+ "types": [
+  {
+   "ty": "84.9649A",
+   "size": 84,
+   "price": 57440,
+   "area_m2": 113.063,
+   "general": 100,
+   "special": 121,
+   "pyeong_price": 1679,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9611B",
+   "size": 84,
+   "price": 57370,
+   "area_m2": 112.9319,
+   "general": 59,
+   "special": 72,
+   "pyeong_price": 1679,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9404C",
+   "size": 84,
+   "price": 56360,
+   "area_m2": 113.2033,
+   "general": 82,
+   "special": 102,
+   "pyeong_price": 1646,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 241,
+ "special_total": 295,
+ "special_share_pct": 55,
+ "pyeong_min": 1646,
+ "pyeong_max": 1679,
+ "pyeong_avg": 1668,
+ "price_84_min": 56360,
+ "price_84_max": 57440,
+ "special_kinds": {
+  "신혼부부": 80,
+  "생애최초": 37,
+  "신생아": 54,
+  "다자녀": 54,
+  "노부모 부양": 16,
+  "기관추천": 54
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9649A",
+    "supply": 218,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 205
+   },
+   {
+    "ty": "84.9611B",
+    "supply": 130,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 123
+   },
+   {
+    "ty": "84.9404C",
+    "supply": 184,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 177
+   }
+  ],
+  "req_total": 27,
+  "rank1_req": 13,
+  "supply_total": 532,
+  "final_shortfall_total": 505,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 52,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉"
+  ],
+  "peer_avg_pyeong": 2454,
+  "diff": -786,
+  "diff_pct": -32,
+  "rank": 43,
+  "of": 53
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 50,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉"
+  ],
+  "peer_avg_rate": 2.93,
+  "rank": 49,
+  "of": 51
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 이레에이치앤씨",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-05",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-06",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://천왕역모아엘가.com",
+  "HOUSE_MANAGE_NO": "2025910233",
+  "HOUSE_NM": "천왕역 모아엘가 트레뷰 (9차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 구로구 오리로 1165",
+  "HSSPLY_ZIP": "08363",
+  "MDHS_TELNO": "0269511232",
+  "MVN_PREARNGE_YM": "202512",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910233",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910233&pblancNo=2025910233",
+  "PRZWNER_PRESNATN_DE": "2025-12-04",
+  "RCRIT_PBLANC_DE": "2025-11-25",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-01",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-01",
+  "TOT_SUPLY_HSHLDCO": 10
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910233",
+   "HOUSE_TY": "084.5396A",
+   "LTTOT_TOP_AMOUNT": "108700",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910233",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910233",
+   "HOUSE_TY": "084.8949B",
+   "LTTOT_TOP_AMOUNT": "108600",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910233",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "57.40",
+   "HOUSE_MANAGE_NO": "2025910233",
+   "HOUSE_TY": "084.5396A",
+   "PBLANC_NO": "2025910233",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "287",
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "CMPET_RATE": "26.40",
+   "HOUSE_MANAGE_NO": "2025910233",
+   "HOUSE_TY": "084.8949B",
+   "PBLANC_NO": "2025910233",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "132",
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:22.233885+09:00"
+}

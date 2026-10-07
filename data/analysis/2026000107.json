@@ -1,0 +1,390 @@
+{
+ "no": "2026000107",
+ "name": "경기광주역 롯데캐슬 시그니처 1단지",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-17",
+ "rank1_date": "2026-04-28",
+ "city": "광주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000107&pblancNo=2026000107",
+ "households": 1077,
+ "types": [
+  {
+   "ty": "59.9299A",
+   "size": 59,
+   "price": 63900,
+   "area_m2": 81.884,
+   "general": 28,
+   "special": 29,
+   "pyeong_price": 2580,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "59.8802B",
+   "size": 59,
+   "price": 62900,
+   "area_m2": 82.5094,
+   "general": 25,
+   "special": 26,
+   "pyeong_price": 2520,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "59.9281C",
+   "size": 59,
+   "price": 61900,
+   "area_m2": 81.8749,
+   "general": 46,
+   "special": 50,
+   "pyeong_price": 2499,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9099A",
+   "size": 84,
+   "price": 88200,
+   "area_m2": 114.0893,
+   "general": 39,
+   "special": 43,
+   "pyeong_price": 2556,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9326B",
+   "size": 84,
+   "price": 87200,
+   "area_m2": 115.1822,
+   "general": 218,
+   "special": 259,
+   "pyeong_price": 2503,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9481C",
+   "size": 84,
+   "price": 86200,
+   "area_m2": 115.5694,
+   "general": 38,
+   "special": 41,
+   "pyeong_price": 2466,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8671D",
+   "size": 84,
+   "price": 87200,
+   "area_m2": 114.8204,
+   "general": 53,
+   "special": 61,
+   "pyeong_price": 2511,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "114.9276A",
+   "size": 114,
+   "price": 115800,
+   "area_m2": 153.3787,
+   "general": 51,
+   "special": 6,
+   "pyeong_price": 2496,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "114.9574B",
+   "size": 114,
+   "price": 111800,
+   "area_m2": 155.1239,
+   "general": 50,
+   "special": 6,
+   "pyeong_price": 2383,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "162.7498A",
+   "size": 162,
+   "price": 239000,
+   "area_m2": 223.2451,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3539,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "162.3499B",
+   "size": 162,
+   "price": 241000,
+   "area_m2": 222.8422,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3575,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "170.5257A",
+   "size": 170,
+   "price": 249000,
+   "area_m2": 231.917,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3549,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "170.3095B",
+   "size": 170,
+   "price": 120500,
+   "area_m2": 232.4173,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1714,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "225.6083",
+   "size": 225,
+   "price": 158500,
+   "area_m2": 304.8833,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1719,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "250.5785",
+   "size": 250,
+   "price": 199000,
+   "area_m2": 341.1008,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1929,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "260.5379",
+   "size": 260,
+   "price": 207100,
+   "area_m2": 354.9439,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1929,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 556,
+ "special_total": 521,
+ "special_share_pct": 48,
+ "pyeong_min": 1714,
+ "pyeong_max": 3575,
+ "pyeong_avg": 2504,
+ "price_84_min": 86200,
+ "price_84_max": 88200,
+ "special_kinds": {
+  "신혼부부": 217,
+  "생애최초": 83,
+  "다자녀": 102,
+  "노부모 부양": 27,
+  "기관추천": 92
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9299A",
+    "supply": 28,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8802B",
+    "supply": 25,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.84,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9281C",
+    "supply": 46,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.48,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9099A",
+    "supply": 47,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.32,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9326B",
+    "supply": 400,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 60
+   },
+   {
+    "ty": "84.9481C",
+    "supply": 63,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "84.8671D",
+    "supply": 85,
+    "closed_at": "1순위 기타지역",
+    "rate": 3.92,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "114.9276A",
+    "supply": 57,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   },
+   {
+    "ty": "114.9574B",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 41
+   },
+   {
+    "ty": "162.7498A",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "162.3499B",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "170.5257A",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "170.3095B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "225.6083",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "250.5785",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "260.5379",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 2012,
+  "rank1_req": 1717,
+  "supply_total": 814,
+  "final_shortfall_total": 136,
+  "closed_types": 9,
+  "rank1_closed_types": 9,
+  "type_count": 16,
+  "rank1_avg_rate": 2.11,
+  "best": {
+   "ty": "59.9299A",
+   "rate": 8.25,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.8802B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9299A": 0,
+   "59.8802B": 0,
+   "59.9281C": 0,
+   "84.9099A": 0,
+   "84.8671D": 0
+  },
+  "avg_min": 22.8,
+  "max": {
+   "score": 69,
+   "ty": "84.8671D"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 83,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "더샵 분당티에르원"
+  ],
+  "peer_avg_pyeong": 2503,
+  "diff": 1,
+  "diff_pct": 0,
+  "rank": 25,
+  "of": 84
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 81,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "더샵 분당티에르원"
+  ],
+  "peer_avg_rate": 5.26,
+  "rank": 29,
+  "of": 82
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 50,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "더샵 분당티에르원",
+   "엠타워 디루체"
+  ],
+  "peer_avg_min": 2.5,
+  "diff": -2.5
+ }
+}

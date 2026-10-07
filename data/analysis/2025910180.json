@@ -1,0 +1,52 @@
+{
+ "no": "2025910180",
+ "name": "익산자이 그랜드파크",
+ "kind": "remndr",
+ "region": "전북",
+ "notice_date": "2025-10-01",
+ "rank1_date": "2025-10-10",
+ "city": "익산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910180&pblancNo=2025910180",
+ "households": 2,
+ "types": [
+  {
+   "ty": "84.9797A",
+   "size": 84,
+   "price": 40800,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 2,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 40800,
+ "price_84_max": 40800,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9797A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 131.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 263,
+  "rank1_req": 0,
+  "supply_total": 2,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9797A",
+   "rate": 131.5,
+   "stage": "None순위 None"
+  }
+ }
+}

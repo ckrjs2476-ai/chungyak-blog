@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "고운건설주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-18",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025910228",
+  "HOUSE_NM": "오산 SK VIEW 1차",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 오산시 삼국마을로 29(오산 SK VIEW 1차)",
+  "HSSPLY_ZIP": "18125",
+  "MDHS_TELNO": "0625288100",
+  "MVN_PREARNGE_YM": "202601",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910228",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910228&pblancNo=2025910228",
+  "PRZWNER_PRESNATN_DE": "2025-12-08",
+  "RCRIT_PBLANC_DE": "2025-11-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-03",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910228",
+   "HOUSE_TY": "071.8068A",
+   "LTTOT_TOP_AMOUNT": "39840",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910228",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910228",
+   "HOUSE_TY": "084.9823A",
+   "LTTOT_TOP_AMOUNT": "46850",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910228",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "50.00",
+   "HOUSE_MANAGE_NO": "2025910228",
+   "HOUSE_TY": "071.8068A",
+   "PBLANC_NO": "2025910228",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "50",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "17.00",
+   "HOUSE_MANAGE_NO": "2025910228",
+   "HOUSE_TY": "084.9823A",
+   "PBLANC_NO": "2025910228",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "17",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:09.899316+09:00"
+}

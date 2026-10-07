@@ -1,0 +1,50 @@
+{
+ "no": "2025910157",
+ "name": "대전 씨엘리오 스위첸(5차)",
+ "kind": "remndr",
+ "region": "대전",
+ "notice_date": "2025-09-04",
+ "rank1_date": "2025-09-09",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910157&pblancNo=2025910157",
+ "households": 1,
+ "types": [
+  {
+   "ty": "81.912A",
+   "size": 81,
+   "price": 53200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "81.912A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 34.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 34,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "81.912A",
+   "rate": 34.0,
+   "stage": "None순위 None"
+  }
+ }
+}

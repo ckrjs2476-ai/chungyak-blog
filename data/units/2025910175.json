@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 하나자산신탁(제기1 재건축)",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-27",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://jegidongstation-ipark.com",
+  "HOUSE_MANAGE_NO": "2025910175",
+  "HOUSE_NM": "제기동역 아이파크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 동대문구 제기동 892-68번지 일원",
+  "HSSPLY_ZIP": "02568",
+  "MDHS_TELNO": "029573411",
+  "MVN_PREARNGE_YM": "202809",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910175",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910175&pblancNo=2025910175",
+  "PRZWNER_PRESNATN_DE": "2025-09-22",
+  "RCRIT_PBLANC_DE": "2025-09-12",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-17",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-17",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910175",
+   "HOUSE_TY": "059.9200B",
+   "LTTOT_TOP_AMOUNT": "106810",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910175",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "3,233.00",
+   "HOUSE_MANAGE_NO": "2025910175",
+   "HOUSE_TY": "059.9200B",
+   "PBLANC_NO": "2025910175",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3233",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:08.302524+09:00"
+}

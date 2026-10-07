@@ -1,0 +1,132 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "코리아신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-05-01",
+  "CNTRCT_CNCLS_ENDDE": "2026-05-01",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.yp-raon.com",
+  "HOUSE_MANAGE_NO": "2026910095",
+  "HOUSE_NM": "용인 플랫폼시티 라온프라이빗 아르디에",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 용인시 기흥구 영덕동 55-1번지 일원",
+  "HSSPLY_ZIP": "16949",
+  "MDHS_TELNO": "15334077",
+  "MVN_PREARNGE_YM": "202803",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910095",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910095&pblancNo=2026910095",
+  "PRZWNER_PRESNATN_DE": "2026-04-30",
+  "RCRIT_PBLANC_DE": "2026-04-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-27",
+  "TOT_SUPLY_HSHLDCO": 98
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "084.6802A",
+   "LTTOT_TOP_AMOUNT": "79800",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910095",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 55
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "084.6968B",
+   "LTTOT_TOP_AMOUNT": "82800",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910095",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 26
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "084.6402C",
+   "LTTOT_TOP_AMOUNT": "78800",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910095",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 10
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "103.8844A",
+   "LTTOT_TOP_AMOUNT": "90800",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910095",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "103.8844B",
+   "LTTOT_TOP_AMOUNT": "82800",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2026910095",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.20",
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "084.6402C",
+   "PBLANC_NO": "2026910095",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 10
+  },
+  {
+   "CMPET_RATE": "1.22",
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "084.6802A",
+   "PBLANC_NO": "2026910095",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "67",
+   "SUPLY_HSHLDCO": 55
+  },
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "084.6968B",
+   "PBLANC_NO": "2026910095",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "23",
+   "SUPLY_HSHLDCO": 26
+  },
+  {
+   "CMPET_RATE": "1.67",
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "103.8844A",
+   "PBLANC_NO": "2026910095",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "CMPET_RATE": "5.00",
+   "HOUSE_MANAGE_NO": "2026910095",
+   "HOUSE_TY": "103.8844B",
+   "PBLANC_NO": "2026910095",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:55.272082+09:00"
+}

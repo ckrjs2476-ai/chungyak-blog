@@ -1,0 +1,68 @@
+{
+ "no": "2026910229",
+ "name": "호반써밋 풍무Ⅲ",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-08-26",
+ "rank1_date": "2026-08-31",
+ "city": "풍무역세권",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910229&pblancNo=2026910229",
+ "households": 4,
+ "types": [
+  {
+   "ty": "84.981B",
+   "size": 84,
+   "price": 72210,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9795D",
+   "size": 84,
+   "price": 68440,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 4,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 68440,
+ "price_84_max": 72210,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9795D",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 66.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.981B",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 112.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 402,
+  "rank1_req": 0,
+  "supply_total": 4,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.981B",
+   "rate": 112.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "광주광역시도시공사",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-13",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-15",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.gmcc.co.kr",
+  "HOUSE_MANAGE_NO": "2025910176",
+  "HOUSE_NM": "선운지구다사로움 공가세대 일반공급",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "광주광역시 광산구 선운로 34 (선암동, 선운지구다사로움아파트)",
+  "HSSPLY_ZIP": "62400",
+  "MDHS_TELNO": "0622252280",
+  "MVN_PREARNGE_YM": "202512",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910176",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910176&pblancNo=2025910176",
+  "PRZWNER_PRESNATN_DE": "2025-09-29",
+  "RCRIT_PBLANC_DE": "2025-09-15",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "500",
+  "SUBSCRPT_AREA_CODE_NM": "광주",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-22",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-24",
+  "TOT_SUPLY_HSHLDCO": 4
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910176",
+   "HOUSE_TY": "076.8786A",
+   "LTTOT_TOP_AMOUNT": "27850",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910176",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "6.50",
+   "HOUSE_MANAGE_NO": "2025910176",
+   "HOUSE_TY": "076.8786A",
+   "PBLANC_NO": "2025910176",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "26",
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:02.230324+09:00"
+}

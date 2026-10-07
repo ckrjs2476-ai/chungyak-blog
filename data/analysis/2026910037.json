@@ -1,0 +1,132 @@
+{
+ "no": "2026910037",
+ "name": "수지자이 에디시온(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-02-13",
+ "rank1_date": "2026-02-23",
+ "city": "용인시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910037&pblancNo=2026910037",
+ "households": 214,
+ "types": [
+  {
+   "ty": "84.9772A",
+   "size": 84,
+   "price": 156500,
+   "area_m2": null,
+   "general": 55,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9892B",
+   "size": 84,
+   "price": 149200,
+   "area_m2": null,
+   "general": 28,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9875C",
+   "size": 84,
+   "price": 154900,
+   "area_m2": null,
+   "general": 102,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9671D",
+   "size": 84,
+   "price": 151300,
+   "area_m2": null,
+   "general": 27,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "144.8653P",
+   "size": 144,
+   "price": 500000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "155.7575P",
+   "size": 155,
+   "price": 520000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 214,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 149200,
+ "price_84_max": 156500,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9671D",
+    "supply": 27,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "84.9772A",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "84.9875C",
+    "supply": 102,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   },
+   {
+    "ty": "84.9892B",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "144.8653P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "155.7575P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 143,
+  "rank1_req": 0,
+  "supply_total": 214,
+  "final_shortfall_total": 73,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "155.7575P",
+   "rate": 3.0,
+   "stage": "None순위 None"
+  }
+ }
+}

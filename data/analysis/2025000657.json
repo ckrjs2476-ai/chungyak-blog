@@ -1,0 +1,158 @@
+{
+ "no": "2025000657",
+ "name": "평택화양 서희스타힐스 센트럴파크(조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-01-23",
+ "rank1_date": "2026-02-04",
+ "city": "평택시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000657&pblancNo=2025000657",
+ "households": 47,
+ "types": [
+  {
+   "ty": "59.7713A",
+   "size": 59,
+   "price": 34200,
+   "area_m2": 82.648,
+   "general": 13,
+   "special": 16,
+   "pyeong_price": 1368,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "59.9927B",
+   "size": 59,
+   "price": 34200,
+   "area_m2": 83.8919,
+   "general": 2,
+   "special": 1,
+   "pyeong_price": 1348,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "84.6048",
+   "size": 84,
+   "price": 45200,
+   "area_m2": 106.7768,
+   "general": 6,
+   "special": 9,
+   "pyeong_price": 1399,
+   "special_share_pct": 60
+  }
+ ],
+ "general_total": 21,
+ "special_total": 26,
+ "special_share_pct": 55,
+ "pyeong_min": 1348,
+ "pyeong_max": 1399,
+ "pyeong_avg": 1377,
+ "price_84_min": 45200,
+ "price_84_max": 45200,
+ "special_kinds": {
+  "신혼부부": 11,
+  "생애최초": 4,
+  "다자녀": 5,
+  "노부모 부양": 1,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7713A",
+    "supply": 20,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9927B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6048",
+    "supply": 11,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.11,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 50,
+  "rank1_req": 34,
+  "supply_total": 34,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 2,
+  "type_count": 3,
+  "rank1_avg_rate": 1.0,
+  "best": {
+   "ty": "59.9927B",
+   "rate": 2.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9927B",
+   "reside": "기타경기"
+  },
+  "type_min": {
+   "59.9927B": 0,
+   "84.6048": 0
+  },
+  "avg_min": 23.0,
+  "max": {
+   "score": 63,
+   "ty": "84.6048"
+  }
+ },
+ "region_price": {
+  "scope": "평택시",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "브레인시티 비스타동원",
+   "더 플래티넘 파인애비뉴",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디",
+   "평택역 더센트럴45"
+  ],
+  "peer_avg_pyeong": 1666,
+  "diff": -289,
+  "diff_pct": -17,
+  "rank": 8,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "평택시",
+  "peer_count": 7,
+  "peers": [
+   "브레인시티 비스타동원",
+   "더 플래티넘 파인애비뉴",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디",
+   "평택역 더센트럴45"
+  ],
+  "peer_avg_rate": 0.37,
+  "rank": 2,
+  "of": 8
+ },
+ "region_score": {
+  "scope": "평택시",
+  "peer_count": 2,
+  "peers": [
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "평택역 더센트럴45"
+  ],
+  "peer_avg_min": 16.0,
+  "diff": -16.0
+ }
+}

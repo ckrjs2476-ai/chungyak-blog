@@ -1,0 +1,66 @@
+{
+ "no": "2026910048",
+ "name": "사우역 지엔하임",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-02-26",
+ "rank1_date": "2026-03-03",
+ "city": "김포시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910048&pblancNo=2026910048",
+ "households": 3,
+ "types": [
+  {
+   "ty": "141.1034P",
+   "size": 141,
+   "price": 142030,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "151.8897P",
+   "size": 151,
+   "price": 153240,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "141.1034P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 9.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "151.8897P",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 21,
+  "rank1_req": 0,
+  "supply_total": 3,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "141.1034P",
+   "rate": 9.0,
+   "stage": "None순위 None"
+  }
+ }
+}

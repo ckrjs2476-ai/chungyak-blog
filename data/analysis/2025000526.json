@@ -1,0 +1,176 @@
+{
+ "no": "2025000526",
+ "name": "김해율하 더스카이시티 제니스앤프라우(조합원취소분)",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-24",
+ "city": "김해시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000526&pblancNo=2025000526",
+ "households": 27,
+ "types": [
+  {
+   "ty": "64.9409",
+   "size": 64,
+   "price": 37760,
+   "area_m2": 89.5653,
+   "general": 9,
+   "special": 0,
+   "pyeong_price": 1394,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.7351",
+   "size": 74,
+   "price": 42080,
+   "area_m2": 100.8805,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 1379,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7942A",
+   "size": 84,
+   "price": 48430,
+   "area_m2": 114.8633,
+   "general": 9,
+   "special": 0,
+   "pyeong_price": 1394,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9432B",
+   "size": 84,
+   "price": 48370,
+   "area_m2": 114.7095,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 1394,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 27,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1379,
+ "pyeong_max": 1394,
+ "pyeong_avg": 1392,
+ "price_84_min": 48370,
+ "price_84_max": 48430,
+ "competition": {
+  "types": [
+   {
+    "ty": "64.9409",
+    "supply": 9,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.7351",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7942A",
+    "supply": 9,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9432B",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.6,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 83,
+  "rank1_req": 66,
+  "supply_total": 27,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 2,
+  "type_count": 4,
+  "rank1_avg_rate": 2.44,
+  "best": {
+   "ty": "84.9432B",
+   "rate": 7.6,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.7351",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "74.7351": 0,
+   "84.9432B": 0
+  },
+  "avg_min": 16.5,
+  "max": {
+   "score": 47,
+   "ty": "84.9432B"
+  }
+ },
+ "region_price": {
+  "scope": "경남",
+  "days": 180,
+  "peer_count": 8,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_pyeong": 1914,
+  "diff": -522,
+  "diff_pct": -27,
+  "rank": 9,
+  "of": 9
+ },
+ "region_competition": {
+  "scope": "경남",
+  "peer_count": 8,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_rate": 97.11,
+  "rank": 6,
+  "of": 9
+ },
+ "region_score": {
+  "scope": "경남",
+  "peer_count": 8,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

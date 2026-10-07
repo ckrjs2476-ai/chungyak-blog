@@ -1,0 +1,42 @@
+{
+ "no": "2025930055",
+ "name": "아라역 금강펜테리움 더 시글로 1차",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2025-11-28",
+ "rank1_date": "2025-12-03",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025930055&pblancNo=2025930055",
+ "households": 2,
+ "types": [
+  {
+   "ty": "84.9811C",
+   "size": 84,
+   "price": 45400,
+   "area_m2": 115.2023,
+   "general": 0,
+   "special": 1,
+   "pyeong_price": 1303,
+   "special_share_pct": 100
+  },
+  {
+   "ty": "84.9679D",
+   "size": 84,
+   "price": 46000,
+   "area_m2": 115.6052,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1315,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 1,
+ "special_share_pct": 50,
+ "pyeong_min": 1303,
+ "pyeong_max": 1315,
+ "pyeong_avg": 1309,
+ "price_84_min": 45400,
+ "price_84_max": 46000
+}

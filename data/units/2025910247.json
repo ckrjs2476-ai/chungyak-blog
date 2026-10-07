@@ -1,0 +1,132 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)한국토지신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-18",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-18",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.trivn-doosan-seosan.com",
+  "HOUSE_MANAGE_NO": "2025910247",
+  "HOUSE_NM": "트리븐 서산",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청남도 서산시 예천동 688번지 일원",
+  "HSSPLY_ZIP": "31998",
+  "MDHS_TELNO": "15664829",
+  "MVN_PREARNGE_YM": "202901",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910247",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910247&pblancNo=2025910247",
+  "PRZWNER_PRESNATN_DE": "2025-12-11",
+  "RCRIT_PBLANC_DE": "2025-12-03",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "312",
+  "SUBSCRPT_AREA_CODE_NM": "충남",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-08",
+  "TOT_SUPLY_HSHLDCO": 472
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "084.9851A",
+   "LTTOT_TOP_AMOUNT": "53338",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910247",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 209
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "084.9803B",
+   "LTTOT_TOP_AMOUNT": "52450",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910247",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 92
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "098.8709 ",
+   "LTTOT_TOP_AMOUNT": "58759",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910247",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 87
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "110.9923 ",
+   "LTTOT_TOP_AMOUNT": "67578",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910247",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 53
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "128.1583 ",
+   "LTTOT_TOP_AMOUNT": "78070",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910247",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 31
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△92)",
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "084.9803B",
+   "PBLANC_NO": "2025910247",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 92
+  },
+  {
+   "CMPET_RATE": "(△202)",
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "084.9851A",
+   "PBLANC_NO": "2025910247",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 209
+  },
+  {
+   "CMPET_RATE": "(△87)",
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "098.8709 ",
+   "PBLANC_NO": "2025910247",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 87
+  },
+  {
+   "CMPET_RATE": "(△53)",
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "110.9923 ",
+   "PBLANC_NO": "2025910247",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 53
+  },
+  {
+   "CMPET_RATE": "(△29)",
+   "HOUSE_MANAGE_NO": "2025910247",
+   "HOUSE_TY": "128.1583 ",
+   "PBLANC_NO": "2025910247",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 31
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:54.162516+09:00"
+}

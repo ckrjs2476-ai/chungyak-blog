@@ -1,0 +1,117 @@
+{
+ "no": "2025000441",
+ "name": "힐스테이트 가야 1단지",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2025-09-19",
+ "rank1_date": "2025-09-30",
+ "city": "부산진구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000441&pblancNo=2025000441",
+ "households": 406,
+ "types": [
+  {
+   "ty": "84.0012A",
+   "size": 84,
+   "price": 89900,
+   "area_m2": 109.6822,
+   "general": 93,
+   "special": 110,
+   "pyeong_price": 2710,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.1917B",
+   "size": 84,
+   "price": 89770,
+   "area_m2": 112.6719,
+   "general": 81,
+   "special": 94,
+   "pyeong_price": 2634,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.0652C",
+   "size": 84,
+   "price": 88970,
+   "area_m2": 111.231,
+   "general": 16,
+   "special": 12,
+   "pyeong_price": 2644,
+   "special_share_pct": 43
+  }
+ ],
+ "general_total": 190,
+ "special_total": 216,
+ "special_share_pct": 53,
+ "pyeong_min": 2634,
+ "pyeong_max": 2710,
+ "pyeong_avg": 2673,
+ "price_84_min": 88970,
+ "price_84_max": 89900,
+ "special_kinds": {
+  "신혼부부": 51,
+  "생애최초": 35,
+  "다자녀": 80,
+  "노부모 부양": 11,
+  "기관추천": 39
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.0012A",
+    "supply": 191,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 83
+   },
+   {
+    "ty": "84.1917B",
+    "supply": 166,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 113
+   },
+   {
+    "ty": "84.0652C",
+    "supply": 27,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   }
+  ],
+  "req_total": 174,
+  "rank1_req": 137,
+  "supply_total": 384,
+  "final_shortfall_total": 210,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.36
+ },
+ "region_price": {
+  "scope": "부산진구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "힐스테이트 가야 2단지"
+  ],
+  "peer_avg_pyeong": 2443,
+  "diff": 230,
+  "diff_pct": 9,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "부산진구",
+  "peer_count": 2,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "힐스테이트 가야 2단지"
+  ],
+  "peer_avg_rate": 1.08,
+  "rank": 3,
+  "of": 3
+ }
+}

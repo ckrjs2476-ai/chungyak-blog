@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "교보자산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-12",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.i-park.com/sinmuncentral/",
+  "HOUSE_MANAGE_NO": "2026910193",
+  "HOUSE_NM": "김해 신문 센트럴 아이파크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상남도 김해시 신문동 장유신문지구 A34-1블럭 일원",
+  "HSSPLY_ZIP": "51008",
+  "MDHS_TELNO": "16001171",
+  "MVN_PREARNGE_YM": "202903",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910193",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910193&pblancNo=2026910193",
+  "PRZWNER_PRESNATN_DE": "2026-08-06",
+  "RCRIT_PBLANC_DE": "2026-07-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "621",
+  "SUBSCRPT_AREA_CODE_NM": "경남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-03",
+  "TOT_SUPLY_HSHLDCO": 865
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "084.7419A",
+   "LTTOT_TOP_AMOUNT": "55170",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910193",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 625
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "084.8435B",
+   "LTTOT_TOP_AMOUNT": "56270",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910193",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 139
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "113.7613 ",
+   "LTTOT_TOP_AMOUNT": "66480",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910193",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 95
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "128.8099 ",
+   "LTTOT_TOP_AMOUNT": "69480",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910193",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△575)",
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "084.7419A",
+   "PBLANC_NO": "2026910193",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "50",
+   "SUPLY_HSHLDCO": 625
+  },
+  {
+   "CMPET_RATE": "(△123)",
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "084.8435B",
+   "PBLANC_NO": "2026910193",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "16",
+   "SUPLY_HSHLDCO": 139
+  },
+  {
+   "CMPET_RATE": "(△90)",
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "113.7613 ",
+   "PBLANC_NO": "2026910193",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5",
+   "SUPLY_HSHLDCO": 95
+  },
+  {
+   "CMPET_RATE": "1.67",
+   "HOUSE_MANAGE_NO": "2026910193",
+   "HOUSE_TY": "128.8099 ",
+   "PBLANC_NO": "2026910193",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:39.983178+09:00"
+}

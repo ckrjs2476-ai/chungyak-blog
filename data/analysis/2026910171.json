@@ -1,0 +1,82 @@
+{
+ "no": "2026910171",
+ "name": "메트로시티 자산 데시앙",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-06-29",
+ "rank1_date": "2026-07-06",
+ "city": "창원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910171&pblancNo=2026910171",
+ "households": 9,
+ "types": [
+  {
+   "ty": "59.8844A",
+   "size": 59,
+   "price": 39380,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "72.7669A",
+   "size": 72,
+   "price": 42630,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "72.4631B",
+   "size": 72,
+   "price": 42360,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 9,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.8844A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 8.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "72.4631B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 7.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "72.7669A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 16.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 87,
+  "rank1_req": 0,
+  "supply_total": 9,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "72.7669A",
+   "rate": 16.0,
+   "stage": "None순위 None"
+  }
+ }
+}

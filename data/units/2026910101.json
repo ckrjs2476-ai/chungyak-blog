@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "한국토지주택공사, 우미건설(주),신동아건설(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-05-19",
+  "CNTRCT_CNCLS_ENDDE": "2026-05-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.lynn.co.kr",
+  "HOUSE_MANAGE_NO": "2026910101",
+  "HOUSE_NM": "양주 옥정 린 파밀리에(6차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 양주시 옥정동 옥정택지개발지구 A-1BL (경기도 양주시 옥정동 868)",
+  "HSSPLY_ZIP": "11473",
+  "MDHS_TELNO": "0318587400",
+  "MVN_PREARNGE_YM": "202608",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910101",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910101&pblancNo=2026910101",
+  "PRZWNER_PRESNATN_DE": "2026-05-08",
+  "RCRIT_PBLANC_DE": "2026-04-27",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-05-04",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-05-04",
+  "TOT_SUPLY_HSHLDCO": 11
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910101",
+   "HOUSE_TY": "074.8800C",
+   "LTTOT_TOP_AMOUNT": "33000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910101",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910101",
+   "HOUSE_TY": "084.9600A",
+   "LTTOT_TOP_AMOUNT": "40200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910101",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910101",
+   "HOUSE_TY": "084.8600B",
+   "LTTOT_TOP_AMOUNT": "39000",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910101",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "8.00",
+   "HOUSE_MANAGE_NO": "2026910101",
+   "HOUSE_TY": "074.8800C",
+   "PBLANC_NO": "2026910101",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910101",
+   "HOUSE_TY": "084.8600B",
+   "PBLANC_NO": "2026910101",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "CMPET_RATE": "3.50",
+   "HOUSE_MANAGE_NO": "2026910101",
+   "HOUSE_TY": "084.9600A",
+   "PBLANC_NO": "2026910101",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "14",
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:51.779980+09:00"
+}

@@ -1,0 +1,165 @@
+{
+ "no": "2026000028",
+ "name": "해링턴플레이스 노원 센트럴",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-02-20",
+ "rank1_date": "2026-03-04",
+ "city": "노원구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000028&pblancNo=2026000028",
+ "households": 61,
+ "types": [
+  {
+   "ty": "59.7419B",
+   "size": 59,
+   "price": 87000,
+   "area_m2": 90.6796,
+   "general": 11,
+   "special": 16,
+   "pyeong_price": 3172,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "59.6793C",
+   "size": 59,
+   "price": 87000,
+   "area_m2": 90.7895,
+   "general": 12,
+   "special": 5,
+   "pyeong_price": 3168,
+   "special_share_pct": 29
+  },
+  {
+   "ty": "59.6793D",
+   "size": 59,
+   "price": 87000,
+   "area_m2": 91.1584,
+   "general": 6,
+   "special": 11,
+   "pyeong_price": 3155,
+   "special_share_pct": 65
+  }
+ ],
+ "general_total": 29,
+ "special_total": 32,
+ "special_share_pct": 52,
+ "pyeong_min": 3155,
+ "pyeong_max": 3172,
+ "pyeong_avg": 3166,
+ "special_kinds": {
+  "신혼부부": 13,
+  "생애최초": 6,
+  "다자녀": 6,
+  "노부모 부양": 2,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7419B",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.64,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.6793C",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.42,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.6793D",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 222,
+  "rank1_req": 222,
+  "supply_total": 29,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 7.66,
+  "best": {
+   "ty": "59.7419B",
+   "rate": 8.64,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.6793C",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.7419B": 0,
+   "59.6793C": 0,
+   "59.6793D": 0
+  },
+  "avg_min": 26.8,
+  "max": {
+   "score": 67,
+   "ty": "59.6793D"
+  }
+ },
+ "region_price": {
+  "scope": "서울",
+  "days": 180,
+  "peer_count": 23,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_pyeong": 6462,
+  "diff": -3296,
+  "diff_pct": -51,
+  "rank": 24,
+  "of": 24
+ },
+ "region_competition": {
+  "scope": "서울",
+  "peer_count": 23,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_rate": 161.13,
+  "rank": 23,
+  "of": 24
+ },
+ "region_score": {
+  "scope": "서울",
+  "peer_count": 23,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

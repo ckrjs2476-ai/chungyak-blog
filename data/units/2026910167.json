@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "양지7지구 3단지 지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-13",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-13",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.오남역서희스타힐스여의재.com",
+  "HOUSE_MANAGE_NO": "2026910167",
+  "HOUSE_NM": "오남역 서희스타힐스 여의재 3단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 남양주시 오남읍 양지리 186-10 일원",
+  "HSSPLY_ZIP": "12036",
+  "MDHS_TELNO": "15550074",
+  "MVN_PREARNGE_YM": "202901",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910167",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910167&pblancNo=2026910167",
+  "PRZWNER_PRESNATN_DE": "2026-07-09",
+  "RCRIT_PBLANC_DE": "2026-07-01",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-06",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-06",
+  "TOT_SUPLY_HSHLDCO": 58
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910167",
+   "HOUSE_TY": "059.7153A",
+   "LTTOT_TOP_AMOUNT": "53400",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910167",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 29
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910167",
+   "HOUSE_TY": "075.4603 ",
+   "LTTOT_TOP_AMOUNT": "64900",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910167",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 18
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910167",
+   "HOUSE_TY": "084.9596 ",
+   "LTTOT_TOP_AMOUNT": "70900",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910167",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 11
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.03",
+   "HOUSE_MANAGE_NO": "2026910167",
+   "HOUSE_TY": "059.7153A",
+   "PBLANC_NO": "2026910167",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "30",
+   "SUPLY_HSHLDCO": 29
+  },
+  {
+   "CMPET_RATE": "(△9)",
+   "HOUSE_MANAGE_NO": "2026910167",
+   "HOUSE_TY": "075.4603 ",
+   "PBLANC_NO": "2026910167",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 18
+  },
+  {
+   "CMPET_RATE": "1.82",
+   "HOUSE_MANAGE_NO": "2026910167",
+   "HOUSE_TY": "084.9596 ",
+   "PBLANC_NO": "2026910167",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "20",
+   "SUPLY_HSHLDCO": 11
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:15.847830+09:00"
+}

@@ -1,0 +1,84 @@
+{
+ "no": "2026910008",
+ "name": "엘리프 세종 스마트시티",
+ "kind": "remndr",
+ "region": "세종",
+ "notice_date": "2026-01-15",
+ "rank1_date": "2026-01-21",
+ "city": "합강동",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910008&pblancNo=2026910008",
+ "households": 35,
+ "types": [
+  {
+   "ty": "80.128A",
+   "size": 80,
+   "price": 57200,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "80.2425B",
+   "size": 80,
+   "price": 59600,
+   "area_m2": null,
+   "general": 10,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 61900,
+   "area_m2": null,
+   "general": 18,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 35,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 61900,
+ "price_84_max": 61900,
+ "competition": {
+  "types": [
+   {
+    "ty": "80.128A",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 13.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "80.2425B",
+    "supply": 10,
+    "closed_at": "None순위 None",
+    "rate": 18.7,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84B",
+    "supply": 18,
+    "closed_at": "None순위 None",
+    "rate": 31.72,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 852,
+  "rank1_req": 0,
+  "supply_total": 35,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84B",
+   "rate": 31.72,
+   "stage": "None순위 None"
+  }
+ }
+}

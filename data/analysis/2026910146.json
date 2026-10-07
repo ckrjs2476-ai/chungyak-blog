@@ -1,0 +1,98 @@
+{
+ "no": "2026910146",
+ "name": "동탄 그웬 160 (동탄2 B11BL)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-06-02",
+ "rank1_date": "2026-06-08",
+ "city": "화성특례시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910146&pblancNo=2026910146",
+ "households": 78,
+ "types": [
+  {
+   "ty": "102.7378",
+   "size": 102,
+   "price": 107000,
+   "area_m2": null,
+   "general": 23,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "102.7378P",
+   "size": 102,
+   "price": 109200,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "108.7178",
+   "size": 108,
+   "price": 87000,
+   "area_m2": null,
+   "general": 30,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.1988",
+   "size": 115,
+   "price": 115080,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 78,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "102.7378",
+    "supply": 23,
+    "closed_at": "None순위 None",
+    "rate": 1.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "102.7378P",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "108.7178",
+    "supply": 30,
+    "closed_at": "None순위 None",
+    "rate": 1.23,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.1988",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 79,
+  "rank1_req": 0,
+  "supply_total": 78,
+  "final_shortfall_total": 12,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "115.1988",
+   "rate": 2.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "강서2지구지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-29",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-29",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.lottecastle.co.kr/APT/AT00425/main/index.do",
+  "HOUSE_MANAGE_NO": "2025910222",
+  "HOUSE_NM": "청주 롯데캐슬 시그니처",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청북도 청주시 흥덕구 강서동40-41번지 일원",
+  "HSSPLY_ZIP": "28376",
+  "MDHS_TELNO": "0432336665",
+  "MVN_PREARNGE_YM": "202903",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910222",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910222&pblancNo=2025910222",
+  "PRZWNER_PRESNATN_DE": "2025-11-25",
+  "RCRIT_PBLANC_DE": "2025-11-14",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "360",
+  "SUBSCRPT_AREA_CODE_NM": "충북",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-19",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-19",
+  "TOT_SUPLY_HSHLDCO": 178
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "067.8115A",
+   "LTTOT_TOP_AMOUNT": "40090",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910222",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 43
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "067.8746B",
+   "LTTOT_TOP_AMOUNT": "41904",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910222",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 89
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "076.9439 ",
+   "LTTOT_TOP_AMOUNT": "44599",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910222",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "084.9209 ",
+   "LTTOT_TOP_AMOUNT": "50719",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910222",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 37
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.19",
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "067.8115A",
+   "PBLANC_NO": "2025910222",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "51",
+   "SUPLY_HSHLDCO": 43
+  },
+  {
+   "CMPET_RATE": "(△19)",
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "067.8746B",
+   "PBLANC_NO": "2025910222",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "70",
+   "SUPLY_HSHLDCO": 89
+  },
+  {
+   "CMPET_RATE": "3.11",
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "076.9439 ",
+   "PBLANC_NO": "2025910222",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "28",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "5.51",
+   "HOUSE_MANAGE_NO": "2025910222",
+   "HOUSE_TY": "084.9209 ",
+   "PBLANC_NO": "2025910222",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "204",
+   "SUPLY_HSHLDCO": 37
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:34.772282+09:00"
+}

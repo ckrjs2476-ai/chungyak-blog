@@ -1,0 +1,107 @@
+{
+ "no": "2025000546",
+ "name": "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-25",
+ "city": "시흥시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000546&pblancNo=2025000546",
+ "households": 382,
+ "types": [
+  {
+   "ty": "84.9584",
+   "size": 84,
+   "price": 62157,
+   "area_m2": 110.1894,
+   "general": 90,
+   "special": 170,
+   "pyeong_price": 1865,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "122.0901",
+   "size": 122,
+   "price": 82499,
+   "area_m2": 149.7789,
+   "general": 105,
+   "special": 17,
+   "pyeong_price": 1821,
+   "special_share_pct": 14
+  }
+ ],
+ "general_total": 195,
+ "special_total": 187,
+ "special_share_pct": 49,
+ "pyeong_min": 1821,
+ "pyeong_max": 1865,
+ "pyeong_avg": 1851,
+ "price_84_min": 62157,
+ "price_84_max": 62157,
+ "special_kinds": {
+  "신혼부부": 60,
+  "생애최초": 50,
+  "다자녀": 39,
+  "노부모 부양": 12,
+  "기관추천": 26
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9584",
+    "supply": 188,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "122.0901",
+    "supply": 118,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   }
+  ],
+  "req_total": 253,
+  "rank1_req": 188,
+  "supply_total": 306,
+  "final_shortfall_total": 35,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 2,
+  "rank1_avg_rate": 0.61,
+  "best": {
+   "ty": "84.9584",
+   "rate": 1.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "시흥시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+   "시흥거모 엘가 로제비앙",
+   "시흥거모B1 호반써밋"
+  ],
+  "peer_avg_pyeong": 1828,
+  "diff": 23,
+  "diff_pct": 1,
+  "rank": 2,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "시흥시",
+  "peer_count": 3,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+   "시흥거모 엘가 로제비앙",
+   "시흥거모B1 호반써밋"
+  ],
+  "peer_avg_rate": 0.67,
+  "rank": 3,
+  "of": 4
+ }
+}

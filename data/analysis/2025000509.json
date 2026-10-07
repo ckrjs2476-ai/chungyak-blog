@@ -1,0 +1,142 @@
+{
+ "no": "2025000509",
+ "name": "천안 휴먼빌 퍼스트시티",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2025-10-17",
+ "rank1_date": "2025-10-28",
+ "city": "천안시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000509&pblancNo=2025000509",
+ "households": 1232,
+ "types": [
+  {
+   "ty": "84.9935A",
+   "size": 84,
+   "price": 54570,
+   "area_m2": 114.8332,
+   "general": 143,
+   "special": 167,
+   "pyeong_price": 1571,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9964B",
+   "size": 84,
+   "price": 54660,
+   "area_m2": 115.037,
+   "general": 126,
+   "special": 149,
+   "pyeong_price": 1571,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9982C",
+   "size": 84,
+   "price": 51910,
+   "area_m2": 115.4931,
+   "general": 13,
+   "special": 13,
+   "pyeong_price": 1486,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9915D",
+   "size": 84,
+   "price": 55630,
+   "area_m2": 115.914,
+   "general": 282,
+   "special": 339,
+   "pyeong_price": 1587,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 564,
+ "special_total": 668,
+ "special_share_pct": 54,
+ "pyeong_min": 1486,
+ "pyeong_max": 1587,
+ "pyeong_avg": 1577,
+ "price_84_min": 51910,
+ "price_84_max": 55630,
+ "special_kinds": {
+  "신혼부부": 282,
+  "생애최초": 109,
+  "다자녀": 121,
+  "노부모 부양": 35,
+  "기관추천": 121
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9935A",
+    "supply": 306,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 275
+   },
+   {
+    "ty": "84.9964B",
+    "supply": 274,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 257
+   },
+   {
+    "ty": "84.9982C",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "84.9915D",
+    "supply": 616,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 571
+   }
+  ],
+  "req_total": 99,
+  "rank1_req": 72,
+  "supply_total": 1222,
+  "final_shortfall_total": 1123,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.06
+ },
+ "region_price": {
+  "scope": "천안시",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티"
+  ],
+  "peer_avg_pyeong": 1556,
+  "diff": 21,
+  "diff_pct": 1,
+  "rank": 4,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "천안시",
+  "peer_count": 6,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티"
+  ],
+  "peer_avg_rate": 3.5,
+  "rank": 6,
+  "of": 7
+ }
+}

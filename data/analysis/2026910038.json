@@ -1,0 +1,98 @@
+{
+ "no": "2026910038",
+ "name": "전주 에코시티 더 클래스",
+ "kind": "remndr",
+ "region": "전북",
+ "notice_date": "2026-02-12",
+ "rank1_date": "2026-02-19",
+ "city": "전주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910038&pblancNo=2026910038",
+ "households": 44,
+ "types": [
+  {
+   "ty": "127.534B",
+   "size": 127,
+   "price": 78100,
+   "area_m2": null,
+   "general": 18,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "128.375A",
+   "size": 128,
+   "price": 78100,
+   "area_m2": null,
+   "general": 19,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "131.626A",
+   "size": 131,
+   "price": 79750,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "158.118A",
+   "size": 158,
+   "price": 97800,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 44,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "127.534B",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "128.375A",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "131.626A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "158.118A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 40,
+  "rank1_req": 0,
+  "supply_total": 44,
+  "final_shortfall_total": 4,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "131.626A",
+   "rate": 1.0,
+   "stage": "None순위 None"
+  }
+ }
+}

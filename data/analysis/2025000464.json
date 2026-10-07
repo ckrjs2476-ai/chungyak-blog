@@ -1,0 +1,332 @@
+{
+ "no": "2025000464",
+ "name": "김해 안동 에피트",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2025-11-07",
+ "rank1_date": "2025-11-18",
+ "city": "김해시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000464&pblancNo=2025000464",
+ "households": 765,
+ "types": [
+  {
+   "ty": "59.9722",
+   "size": 59,
+   "price": 38012,
+   "area_m2": 83.3473,
+   "general": 4,
+   "special": 1,
+   "pyeong_price": 1508,
+   "special_share_pct": 20
+  },
+  {
+   "ty": "68.839A",
+   "size": 68,
+   "price": 45466,
+   "area_m2": 93.5062,
+   "general": 28,
+   "special": 28,
+   "pyeong_price": 1607,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "68.9016B",
+   "size": 68,
+   "price": 42522,
+   "area_m2": 93.6717,
+   "general": 5,
+   "special": 1,
+   "pyeong_price": 1501,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "77.9854",
+   "size": 77,
+   "price": 49931,
+   "area_m2": 102.6978,
+   "general": 24,
+   "special": 26,
+   "pyeong_price": 1607,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9542A",
+   "size": 84,
+   "price": 53400,
+   "area_m2": 109.8627,
+   "general": 114,
+   "special": 138,
+   "pyeong_price": 1607,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9852B",
+   "size": 84,
+   "price": 53400,
+   "area_m2": 109.811,
+   "general": 20,
+   "special": 22,
+   "pyeong_price": 1608,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8992C",
+   "size": 84,
+   "price": 53400,
+   "area_m2": 110.091,
+   "general": 18,
+   "special": 18,
+   "pyeong_price": 1603,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9542D",
+   "size": 84,
+   "price": 53400,
+   "area_m2": 109.8627,
+   "general": 13,
+   "special": 15,
+   "pyeong_price": 1607,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "110.9716A",
+   "size": 110,
+   "price": 72240,
+   "area_m2": 138.7933,
+   "general": 113,
+   "special": 17,
+   "pyeong_price": 1721,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "110.8623B",
+   "size": 110,
+   "price": 72240,
+   "area_m2": 138.8774,
+   "general": 49,
+   "special": 8,
+   "pyeong_price": 1720,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "110.7222C",
+   "size": 110,
+   "price": 72240,
+   "area_m2": 138.7035,
+   "general": 49,
+   "special": 7,
+   "pyeong_price": 1722,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "110.9716D",
+   "size": 110,
+   "price": 72240,
+   "area_m2": 138.7933,
+   "general": 24,
+   "special": 4,
+   "pyeong_price": 1721,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "135.8916",
+   "size": 135,
+   "price": 88388,
+   "area_m2": 171.181,
+   "general": 17,
+   "special": 2,
+   "pyeong_price": 1707,
+   "special_share_pct": 11
+  }
+ ],
+ "general_total": 478,
+ "special_total": 287,
+ "special_share_pct": 38,
+ "pyeong_min": 1501,
+ "pyeong_max": 1722,
+ "pyeong_avg": 1648,
+ "price_84_min": 53400,
+ "price_84_max": 53400,
+ "special_kinds": {
+  "신혼부부": 106,
+  "생애최초": 41,
+  "다자녀": 74,
+  "노부모 부양": 21,
+  "기관추천": 45
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9722",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "68.839A",
+    "supply": 56,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 37
+   },
+   {
+    "ty": "68.9016B",
+    "supply": 6,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "77.9854",
+    "supply": 50,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 38
+   },
+   {
+    "ty": "84.9542A",
+    "supply": 248,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 162
+   },
+   {
+    "ty": "84.9852B",
+    "supply": 41,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 36
+   },
+   {
+    "ty": "84.8992C",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 36
+   },
+   {
+    "ty": "84.9542D",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "110.9716A",
+    "supply": 129,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 117
+   },
+   {
+    "ty": "110.8623B",
+    "supply": 57,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 55
+   },
+   {
+    "ty": "110.7222C",
+    "supply": 56,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 56
+   },
+   {
+    "ty": "110.9716D",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   },
+   {
+    "ty": "135.8916",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   }
+  ],
+  "req_total": 171,
+  "rank1_req": 129,
+  "supply_total": 759,
+  "final_shortfall_total": 606,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 13,
+  "rank1_avg_rate": 0.17,
+  "best": {
+   "ty": "59.9722",
+   "rate": 1.8,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9722",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9722": 0
+  },
+  "avg_min": 18.5,
+  "max": {
+   "score": 49,
+   "ty": "59.9722"
+  }
+ },
+ "region_price": {
+  "scope": "경남",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "성산 더리브 포레스트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_pyeong": 1952,
+  "diff": -304,
+  "diff_pct": -16,
+  "rank": 5,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "경남",
+  "peer_count": 7,
+  "peers": [
+   "성산 더리브 포레스트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_rate": 110.95,
+  "rank": 8,
+  "of": 8
+ },
+ "region_score": {
+  "scope": "경남",
+  "peer_count": 7,
+  "peers": [
+   "성산 더리브 포레스트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

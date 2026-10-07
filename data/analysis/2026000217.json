@@ -1,0 +1,153 @@
+{
+ "no": "2026000217",
+ "name": "동래사적공원 오네뜨",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-05-15",
+ "rank1_date": "2026-05-27",
+ "city": "동래구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000217&pblancNo=2026000217",
+ "households": 110,
+ "types": [
+  {
+   "ty": "72.6854A",
+   "size": 72,
+   "price": 56000,
+   "area_m2": 93.0094,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1990,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9124A",
+   "size": 84,
+   "price": 65000,
+   "area_m2": 107.4241,
+   "general": 41,
+   "special": 35,
+   "pyeong_price": 2000,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "84.8252B",
+   "size": 84,
+   "price": 63800,
+   "area_m2": 107.1542,
+   "general": 19,
+   "special": 13,
+   "pyeong_price": 1968,
+   "special_share_pct": 41
+  }
+ ],
+ "general_total": 61,
+ "special_total": 49,
+ "special_share_pct": 45,
+ "pyeong_min": 1968,
+ "pyeong_max": 2000,
+ "pyeong_avg": 1991,
+ "price_84_min": 63800,
+ "price_84_max": 65000,
+ "special_kinds": {
+  "신혼부부": 24,
+  "생애최초": 7,
+  "다자녀": 7,
+  "노부모 부양": 4,
+  "기관추천": 7
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "72.6854A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9124A",
+    "supply": 75,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "84.8252B",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 24
+   }
+  ],
+  "req_total": 95,
+  "rank1_req": 23,
+  "supply_total": 109,
+  "final_shortfall_total": 35,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 3,
+  "rank1_avg_rate": 0.21,
+  "best": {
+   "ty": "72.6854A",
+   "rate": 1.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "72.6854A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "72.6854A": 0
+  },
+  "avg_min": 26.5,
+  "max": {
+   "score": 53,
+   "ty": "72.6854A"
+  }
+ },
+ "region_price": {
+  "scope": "동래구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "동래 푸르지오 에듀포레",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_pyeong": 2432,
+  "diff": -441,
+  "diff_pct": -18,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "동래구",
+  "peer_count": 2,
+  "peers": [
+   "동래 푸르지오 에듀포레",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_rate": 0.6,
+  "rank": 3,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "부산",
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "엄궁역 트라비스 하늘채",
+   "두산위브 트리니뷰 구명역",
+   "해운대 마티안 디 에디션"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,220 @@
+{
+ "no": "2026000364",
+ "name": "써밋 클라비온",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-08-07",
+ "rank1_date": "2026-08-19",
+ "city": "영등포구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000364&pblancNo=2026000364",
+ "households": 176,
+ "types": [
+  {
+   "ty": "44.9631A",
+   "size": 44,
+   "price": 132510,
+   "area_m2": 68.3143,
+   "general": 7,
+   "special": 4,
+   "pyeong_price": 6412,
+   "special_share_pct": 36
+  },
+  {
+   "ty": "44.5894B",
+   "size": 44,
+   "price": 130370,
+   "area_m2": 67.8879,
+   "general": 4,
+   "special": 3,
+   "pyeong_price": 6348,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "49.9779",
+   "size": 49,
+   "price": 146600,
+   "area_m2": 67.2775,
+   "general": 5,
+   "special": 3,
+   "pyeong_price": 7203,
+   "special_share_pct": 38
+  },
+  {
+   "ty": "59.9025A",
+   "size": 59,
+   "price": 172900,
+   "area_m2": 80.8783,
+   "general": 5,
+   "special": 7,
+   "pyeong_price": 7067,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "59.903B",
+   "size": 59,
+   "price": 183790,
+   "area_m2": 80.9371,
+   "general": 12,
+   "special": 20,
+   "pyeong_price": 7507,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "59.889C",
+   "size": 59,
+   "price": 186630,
+   "area_m2": 81.284,
+   "general": 20,
+   "special": 21,
+   "pyeong_price": 7590,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "59.9245D",
+   "size": 59,
+   "price": 185080,
+   "area_m2": 80.7724,
+   "general": 30,
+   "special": 35,
+   "pyeong_price": 7575,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 83,
+ "special_total": 93,
+ "special_share_pct": 53,
+ "pyeong_min": 6348,
+ "pyeong_max": 7590,
+ "pyeong_avg": 7393,
+ "special_kinds": {
+  "신혼부부": 26,
+  "생애최초": 12,
+  "신생아": 17,
+  "다자녀": 16,
+  "노부모 부양": 5,
+  "기관추천": 17
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "44.9631A",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 106.86,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "44.5894B",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 70.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "49.9779",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 183.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9025A",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 74.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.903B",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 39.92,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.889C",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 51.45,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9245D",
+    "supply": 30,
+    "closed_at": "1순위 해당지역",
+    "rate": 57.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 5543,
+  "rank1_req": 5543,
+  "supply_total": 83,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 7,
+  "type_count": 7,
+  "rank1_avg_rate": 66.78,
+  "best": {
+   "ty": "49.9779",
+   "rate": 183.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "44.5894B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "44.9631A": 0,
+   "44.5894B": 0,
+   "49.9779": 0,
+   "59.9025A": 0,
+   "59.903B": 0,
+   "59.889C": 0,
+   "59.9245D": 0
+  },
+  "avg_min": 32.5,
+  "max": {
+   "score": 69,
+   "ty": "59.9245D"
+  }
+ },
+ "region_price": {
+  "scope": "영등포구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더샵 프리엘라",
+   "더샵 신길센트럴시티"
+  ],
+  "peer_avg_pyeong": 5316,
+  "diff": 2077,
+  "diff_pct": 39,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "영등포구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 프리엘라",
+   "더샵 신길센트럴시티"
+  ],
+  "peer_avg_rate": 60.55,
+  "rank": 2,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "영등포구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 프리엘라",
+   "더샵 신길센트럴시티"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

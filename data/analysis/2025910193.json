@@ -1,0 +1,84 @@
+{
+ "no": "2025910193",
+ "name": "엘리프 검단 포레듀(AA32블록)",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2025-10-14",
+ "rank1_date": "2025-10-20",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910193&pblancNo=2025910193",
+ "households": 43,
+ "types": [
+  {
+   "ty": "64.78C",
+   "size": 64,
+   "price": 50200,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.78A",
+   "size": 84,
+   "price": 60900,
+   "area_m2": null,
+   "general": 34,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "110S",
+   "size": 110,
+   "price": 98000,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 43,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 60900,
+ "price_84_max": 60900,
+ "competition": {
+  "types": [
+   {
+    "ty": "64.78C",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.78A",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "110S",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 1.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 38,
+  "rank1_req": 0,
+  "supply_total": 43,
+  "final_shortfall_total": 13,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "64.78C",
+   "rate": 2.0,
+   "stage": "None순위 None"
+  }
+ }
+}

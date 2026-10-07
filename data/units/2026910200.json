@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "고잔연립9구역 주택재건축 정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-11",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-11",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2026910200",
+  "HOUSE_NM": "한화포레나 안산고잔2차",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 안산시 단원구 고잔동 648번지 일원",
+  "HSSPLY_ZIP": "15262",
+  "MDHS_TELNO": "0314117775",
+  "MVN_PREARNGE_YM": "202609",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910200",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910200&pblancNo=2026910200",
+  "PRZWNER_PRESNATN_DE": "2026-08-06",
+  "RCRIT_PBLANC_DE": "2026-07-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-03",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910200",
+   "HOUSE_TY": "053.9927 ",
+   "LTTOT_TOP_AMOUNT": "48520",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910200",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910200",
+   "HOUSE_TY": "059.9765 ",
+   "LTTOT_TOP_AMOUNT": "52900",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910200",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "159.00",
+   "HOUSE_MANAGE_NO": "2026910200",
+   "HOUSE_TY": "053.9927 ",
+   "PBLANC_NO": "2026910200",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "159",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "308.00",
+   "HOUSE_MANAGE_NO": "2026910200",
+   "HOUSE_TY": "059.9765 ",
+   "PBLANC_NO": "2026910200",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "308",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:38.804633+09:00"
+}

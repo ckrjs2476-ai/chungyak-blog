@@ -1,0 +1,178 @@
+{
+ "no": "2025910159",
+ "name": "써밋 리미티드 남천",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2025-09-10",
+ "rank1_date": "2025-09-15",
+ "city": "수영구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910159&pblancNo=2025910159",
+ "households": 200,
+ "types": [
+  {
+   "ty": "142.0904A",
+   "size": 142,
+   "price": 299360,
+   "area_m2": null,
+   "general": 79,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "144.3369A",
+   "size": 144,
+   "price": 330430,
+   "area_m2": null,
+   "general": 46,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "182.0396A",
+   "size": 182,
+   "price": 437550,
+   "area_m2": null,
+   "general": 21,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "182.0455B",
+   "size": 182,
+   "price": 423820,
+   "area_m2": null,
+   "general": 48,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "227.8195A",
+   "size": 227,
+   "price": 945430,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "243.6838B",
+   "size": 243,
+   "price": 1150830,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "243.2681C",
+   "size": 243,
+   "price": 1141780,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "243.1634D",
+   "size": 243,
+   "price": 1148450,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "243.4533E",
+   "size": 243,
+   "price": 1071410,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 200,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "142.0904A",
+    "supply": 79,
+    "closed_at": "None순위 None",
+    "rate": 2.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "144.3369A",
+    "supply": 46,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "182.0396A",
+    "supply": 21,
+    "closed_at": "None순위 None",
+    "rate": 2.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "182.0455B",
+    "supply": 48,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   },
+   {
+    "ty": "227.8195A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "243.1634D",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "243.2681C",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "243.4533E",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "243.6838B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 289,
+  "rank1_req": 0,
+  "supply_total": 200,
+  "final_shortfall_total": 56,
+  "closed_types": 6,
+  "rank1_closed_types": 0,
+  "type_count": 9,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "142.0904A",
+   "rate": 2.43,
+   "stage": "None순위 None"
+  }
+ }
+}

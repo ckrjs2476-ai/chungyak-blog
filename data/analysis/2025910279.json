@@ -1,0 +1,68 @@
+{
+ "no": "2025910279",
+ "name": "서수원 에피트 센트럴마크(M2BL)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-09",
+ "rank1_date": "2026-01-14",
+ "city": "수원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910279&pblancNo=2025910279",
+ "households": 62,
+ "types": [
+  {
+   "ty": "84.91A",
+   "size": 84,
+   "price": 81000,
+   "area_m2": null,
+   "general": 61,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "117.98",
+   "size": 117,
+   "price": 126600,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 62,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 81000,
+ "price_84_max": 81000,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.91A",
+    "supply": 61,
+    "closed_at": "None순위 None",
+    "rate": 1.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "117.98",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 8.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 75,
+  "rank1_req": 0,
+  "supply_total": 62,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "117.98",
+   "rate": 8.0,
+   "stage": "None순위 None"
+  }
+ }
+}

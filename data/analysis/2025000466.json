@@ -1,0 +1,200 @@
+{
+ "no": "2025000466",
+ "name": "두산위브더제니스 청주 센트럴파크",
+ "kind": "apt",
+ "region": "충북",
+ "notice_date": "2025-10-17",
+ "rank1_date": "2025-10-28",
+ "city": "청주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000466&pblancNo=2025000466",
+ "households": 705,
+ "types": [
+  {
+   "ty": "59.7861A",
+   "size": 59,
+   "price": 36400,
+   "area_m2": 83.4907,
+   "general": 52,
+   "special": 66,
+   "pyeong_price": 1441,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "59.9447B",
+   "size": 59,
+   "price": 37100,
+   "area_m2": 84.6673,
+   "general": 7,
+   "special": 8,
+   "pyeong_price": 1449,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "74.8409",
+   "size": 74,
+   "price": 44100,
+   "area_m2": 99.2707,
+   "general": 74,
+   "special": 90,
+   "pyeong_price": 1469,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.3782A",
+   "size": 84,
+   "price": 49100,
+   "area_m2": 108.3001,
+   "general": 125,
+   "special": 160,
+   "pyeong_price": 1499,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9628B",
+   "size": 84,
+   "price": 48600,
+   "area_m2": 109.1003,
+   "general": 51,
+   "special": 59,
+   "pyeong_price": 1473,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "114.9006",
+   "size": 114,
+   "price": 62800,
+   "area_m2": 142.7501,
+   "general": 12,
+   "special": 1,
+   "pyeong_price": 1454,
+   "special_share_pct": 8
+  }
+ ],
+ "general_total": 321,
+ "special_total": 384,
+ "special_share_pct": 54,
+ "pyeong_min": 1441,
+ "pyeong_max": 1499,
+ "pyeong_avg": 1476,
+ "price_84_min": 48600,
+ "price_84_max": 49100,
+ "special_kinds": {
+  "신혼부부": 159,
+  "생애최초": 63,
+  "다자녀": 71,
+  "노부모 부양": 21,
+  "기관추천": 70
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7861A",
+    "supply": 52,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.96,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9447B",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.71,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.8409",
+    "supply": 149,
+    "closed_at": "2순위 해당지역",
+    "rate": 6.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.3782A",
+    "supply": 224,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.96,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9628B",
+    "supply": 101,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.08,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "114.9006",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.83,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1146,
+  "rank1_req": 905,
+  "supply_total": 545,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 4,
+  "type_count": 6,
+  "rank1_avg_rate": 1.66,
+  "best": {
+   "ty": "74.8409",
+   "rate": 6.6,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.7861A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.7861A": 0,
+   "59.9447B": 0,
+   "84.3782A": 0
+  },
+  "avg_min": 16.0,
+  "max": {
+   "score": 66,
+   "ty": "84.3782A"
+  }
+ },
+ "region_price": {
+  "scope": "청주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "청주 롯데캐슬 시그니처",
+   "청주 푸르지오 씨엘리체"
+  ],
+  "peer_avg_pyeong": 1542,
+  "diff": -66,
+  "diff_pct": -4,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "청주시",
+  "peer_count": 2,
+  "peers": [
+   "청주 롯데캐슬 시그니처",
+   "청주 푸르지오 씨엘리체"
+  ],
+  "peer_avg_rate": 5.84,
+  "rank": 3,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "청주시",
+  "peer_count": 2,
+  "peers": [
+   "청주 롯데캐슬 시그니처",
+   "청주 푸르지오 씨엘리체"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

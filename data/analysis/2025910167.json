@@ -1,0 +1,84 @@
+{
+ "no": "2025910167",
+ "name": "동탄 꿈의숲 자연앤 데시앙(A78BL)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-09-17",
+ "rank1_date": "2025-09-22",
+ "city": "화성시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910167&pblancNo=2025910167",
+ "households": 6,
+ "types": [
+  {
+   "ty": "84.953B",
+   "size": 84,
+   "price": 51970,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8448C",
+   "size": 84,
+   "price": 54400,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7828D",
+   "size": 84,
+   "price": 54380,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 51970,
+ "price_84_max": 54400,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7828D",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 360.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8448C",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 1185.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.953B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 556.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 4833,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8448C",
+   "rate": 1185.33,
+   "stage": "None순위 None"
+  }
+ }
+}

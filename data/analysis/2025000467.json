@@ -1,0 +1,154 @@
+{
+ "no": "2025000467",
+ "name": "오룡2지구 지엔하임 37블록",
+ "kind": "apt",
+ "region": "전남",
+ "notice_date": "2025-10-17",
+ "rank1_date": "2025-10-28",
+ "city": "무안군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000467&pblancNo=2025000467",
+ "households": 371,
+ "types": [
+  {
+   "ty": "84.9933A",
+   "size": 84,
+   "price": 41980,
+   "area_m2": 113.0203,
+   "general": 96,
+   "special": 177,
+   "pyeong_price": 1228,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9226B",
+   "size": 84,
+   "price": 41910,
+   "area_m2": 112.8174,
+   "general": 15,
+   "special": 33,
+   "pyeong_price": 1228,
+   "special_share_pct": 69
+  },
+  {
+   "ty": "84.8918D",
+   "size": 84,
+   "price": 42350,
+   "area_m2": 114.0225,
+   "general": 17,
+   "special": 33,
+   "pyeong_price": 1228,
+   "special_share_pct": 66
+  }
+ ],
+ "general_total": 128,
+ "special_total": 243,
+ "special_share_pct": 65,
+ "pyeong_min": 1228,
+ "pyeong_max": 1228,
+ "pyeong_avg": 1228,
+ "price_84_min": 41910,
+ "price_84_max": 42350,
+ "special_kinds": {
+  "신혼부부": 86,
+  "생애최초": 71,
+  "다자녀": 37,
+  "노부모 부양": 12,
+  "기관추천": 37
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9933A",
+    "supply": 213,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.03,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9226B",
+    "supply": 43,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8918D",
+    "supply": 17,
+    "closed_at": "1순위 해당지역",
+    "rate": 15.65,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1397,
+  "rank1_req": 1238,
+  "supply_total": 273,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 2,
+  "type_count": 3,
+  "rank1_avg_rate": 4.53,
+  "best": {
+   "ty": "84.8918D",
+   "rate": 15.65,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.8918D",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9933A": 0,
+   "84.8918D": 0
+  },
+  "avg_min": 18.0,
+  "max": {
+   "score": 63,
+   "ty": "84.9933A"
+  }
+ },
+ "region_price": {
+  "scope": "전남",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "효성해링턴 플레이스 여수",
+   "오룡2지구 지엔하임 38블록",
+   "나주영산 윤슬의아침 더정원",
+   "해남 남외리 정하 에코프라임",
+   "e편한세상 여수 글렌츠"
+  ],
+  "peer_avg_pyeong": 1372,
+  "diff": -144,
+  "diff_pct": -10,
+  "rank": 4,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "전남",
+  "peer_count": 5,
+  "peers": [
+   "효성해링턴 플레이스 여수",
+   "오룡2지구 지엔하임 38블록",
+   "나주영산 윤슬의아침 더정원",
+   "해남 남외리 정하 에코프라임",
+   "e편한세상 여수 글렌츠"
+  ],
+  "peer_avg_rate": 1.07,
+  "rank": 1,
+  "of": 6
+ },
+ "region_score": {
+  "scope": "전남",
+  "peer_count": 2,
+  "peers": [
+   "오룡2지구 지엔하임 38블록",
+   "e편한세상 여수 글렌츠"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

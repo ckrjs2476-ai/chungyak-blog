@@ -1,0 +1,100 @@
+{
+ "no": "2026910212",
+ "name": "장위 푸르지오 마크원",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-08-05",
+ "rank1_date": "2026-08-10",
+ "city": "성북구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910212&pblancNo=2026910212",
+ "households": 39,
+ "types": [
+  {
+   "ty": "39.77A",
+   "size": 39,
+   "price": 73220,
+   "area_m2": null,
+   "general": 21,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.86A",
+   "size": 84,
+   "price": 174970,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9C",
+   "size": 84,
+   "price": 176350,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "101.74",
+   "size": 101,
+   "price": 194570,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 39,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 174970,
+ "price_84_max": 176350,
+ "competition": {
+  "types": [
+   {
+    "ty": "39.77A",
+    "supply": 21,
+    "closed_at": "None순위 None",
+    "rate": 24.81,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.86A",
+    "supply": 8,
+    "closed_at": "None순위 None",
+    "rate": 98.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9C",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 49.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "101.74",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 9.75,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1647,
+  "rank1_req": 0,
+  "supply_total": 39,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.86A",
+   "rate": 98.5,
+   "stage": "None순위 None"
+  }
+ }
+}

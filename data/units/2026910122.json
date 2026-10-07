@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)한국토지신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-04",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-04",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.문수로라티에르673.com",
+  "HOUSE_MANAGE_NO": "2026910122",
+  "HOUSE_NM": "문수로 라티에르 673",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "울산광역시 남구 신정동 673-1번지 외 14필지",
+  "HSSPLY_ZIP": "44678",
+  "MDHS_TELNO": "0522568253",
+  "MVN_PREARNGE_YM": "202908",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910122",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910122&pblancNo=2026910122",
+  "PRZWNER_PRESNATN_DE": "2026-05-29",
+  "RCRIT_PBLANC_DE": "2026-05-21",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "680",
+  "SUBSCRPT_AREA_CODE_NM": "울산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-05-26",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-05-26",
+  "TOT_SUPLY_HSHLDCO": 12
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910122",
+   "HOUSE_TY": "084.8550B",
+   "LTTOT_TOP_AMOUNT": "91500",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910122",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 12
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2026910122",
+   "HOUSE_TY": "084.8550B",
+   "PBLANC_NO": "2026910122",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 12
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:19.498387+09:00"
+}

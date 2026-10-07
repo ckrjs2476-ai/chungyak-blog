@@ -1,0 +1,63 @@
+{
+ "no": "2025910207",
+ "name": "힐스테이트 가야 2단지",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2025-11-07",
+ "rank1_date": "2025-11-12",
+ "city": "부산진구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910207&pblancNo=2025910207",
+ "households": 51,
+ "types": [
+  {
+   "ty": "76.9083A",
+   "size": 76,
+   "price": 84340,
+   "area_m2": null,
+   "general": 21,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9238D",
+   "size": 84,
+   "price": 89630,
+   "area_m2": null,
+   "general": 30,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 51,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 89630,
+ "price_84_max": 89630,
+ "competition": {
+  "types": [
+   {
+    "ty": "76.9083A",
+    "supply": 21,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "84.9238D",
+    "supply": 30,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   }
+  ],
+  "req_total": 25,
+  "rank1_req": 0,
+  "supply_total": 51,
+  "final_shortfall_total": 26,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

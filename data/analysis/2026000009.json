@@ -1,0 +1,208 @@
+{
+ "no": "2026000009",
+ "name": "대전 하늘채 루시에르(2회차)",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2026-01-26",
+ "rank1_date": "2026-02-06",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000009&pblancNo=2026000009",
+ "households": 341,
+ "types": [
+  {
+   "ty": "105.9866A",
+   "size": 105,
+   "price": 87000,
+   "area_m2": 145.6411,
+   "general": 111,
+   "special": 17,
+   "pyeong_price": 1975,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "105.9836B",
+   "size": 105,
+   "price": 86000,
+   "area_m2": 145.5551,
+   "general": 55,
+   "special": 9,
+   "pyeong_price": 1953,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "105.9664C",
+   "size": 105,
+   "price": 86800,
+   "area_m2": 145.002,
+   "general": 38,
+   "special": 6,
+   "pyeong_price": 1979,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "105.9789D",
+   "size": 105,
+   "price": 86700,
+   "area_m2": 147.6434,
+   "general": 38,
+   "special": 6,
+   "pyeong_price": 1941,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "105.9698E",
+   "size": 105,
+   "price": 87600,
+   "area_m2": 146.1842,
+   "general": 38,
+   "special": 6,
+   "pyeong_price": 1981,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "119.1374A",
+   "size": 119,
+   "price": 91000,
+   "area_m2": 162.5362,
+   "general": 6,
+   "special": 0,
+   "pyeong_price": 1851,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "119.98B",
+   "size": 119,
+   "price": 91000,
+   "area_m2": 163.4193,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 1841,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "119.8374C",
+   "size": 119,
+   "price": 91000,
+   "area_m2": 163.442,
+   "general": 6,
+   "special": 0,
+   "pyeong_price": 1841,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 297,
+ "special_total": 44,
+ "special_share_pct": 13,
+ "pyeong_min": 1841,
+ "pyeong_max": 1981,
+ "pyeong_avg": 1961,
+ "special_kinds": {
+  "다자녀": 35,
+  "노부모 부양": 9
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "105.9866A",
+    "supply": 128,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 100
+   },
+   {
+    "ty": "105.9836B",
+    "supply": 64,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 57
+   },
+   {
+    "ty": "105.9664C",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 37
+   },
+   {
+    "ty": "105.9789D",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 39
+   },
+   {
+    "ty": "105.9698E",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 39
+   },
+   {
+    "ty": "119.1374A",
+    "supply": 6,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "119.98B",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "119.8374C",
+    "supply": 6,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   }
+  ],
+  "req_total": 66,
+  "rank1_req": 31,
+  "supply_total": 341,
+  "final_shortfall_total": 277,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 8,
+  "rank1_avg_rate": 0.09,
+  "best": {
+   "ty": "119.1374A",
+   "rate": 2.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "대전",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "도룡자이 라피크",
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_pyeong": 2565,
+  "diff": -604,
+  "diff_pct": -24,
+  "rank": 5,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "대전",
+  "peer_count": 5,
+  "peers": [
+   "도룡자이 라피크",
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_rate": 5.4,
+  "rank": 6,
+  "of": 6
+ }
+}

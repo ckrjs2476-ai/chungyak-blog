@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "한국투자부동산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-10",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-10",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.xi.co.kr/osan",
+  "HOUSE_MANAGE_NO": "2026910072",
+  "HOUSE_NM": "북오산자이 리버블시티 (2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 오산시 내삼미동 905 일원",
+  "HSSPLY_ZIP": "18112",
+  "MDHS_TELNO": "16602792",
+  "MVN_PREARNGE_YM": "202903",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910072",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910072&pblancNo=2026910072",
+  "PRZWNER_PRESNATN_DE": "2026-04-07",
+  "RCRIT_PBLANC_DE": "2026-03-24",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-02",
+  "TOT_SUPLY_HSHLDCO": 72
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910072",
+   "HOUSE_TY": "059.9984B",
+   "LTTOT_TOP_AMOUNT": "48170",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910072",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 71
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910072",
+   "HOUSE_TY": "126.2497P",
+   "LTTOT_TOP_AMOUNT": "142140",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910072",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.04",
+   "HOUSE_MANAGE_NO": "2026910072",
+   "HOUSE_TY": "059.9984B",
+   "PBLANC_NO": "2026910072",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "74",
+   "SUPLY_HSHLDCO": 71
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910072",
+   "HOUSE_TY": "126.2497P",
+   "PBLANC_NO": "2026910072",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:28.444602+09:00"
+}

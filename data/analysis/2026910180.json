@@ -1,0 +1,116 @@
+{
+ "no": "2026910180",
+ "name": "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-07-16",
+ "rank1_date": "2026-07-21",
+ "city": "평택시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910180&pblancNo=2026910180",
+ "households": 192,
+ "types": [
+  {
+   "ty": "84.9343A",
+   "size": 84,
+   "price": 58730,
+   "area_m2": null,
+   "general": 114,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "94.3143A",
+   "size": 94,
+   "price": 55250,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "94.2875B",
+   "size": 94,
+   "price": 57680,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "94.3805D",
+   "size": 94,
+   "price": 58800,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "101.8311A",
+   "size": 101,
+   "price": 67800,
+   "area_m2": null,
+   "general": 68,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 192,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 58730,
+ "price_84_max": 58730,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9343A",
+    "supply": 114,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "94.2875B",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "94.3143A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "94.3805D",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "101.8311A",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 51
+   }
+  ],
+  "req_total": 125,
+  "rank1_req": 0,
+  "supply_total": 192,
+  "final_shortfall_total": 68,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "94.3143A",
+   "rate": 2.0,
+   "stage": "None순위 None"
+  }
+ }
+}

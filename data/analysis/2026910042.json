@@ -1,0 +1,66 @@
+{
+ "no": "2026910042",
+ "name": "북오산자이 리버블시티",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-02-20",
+ "rank1_date": "2026-02-25",
+ "city": "오산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910042&pblancNo=2026910042",
+ "households": 90,
+ "types": [
+  {
+   "ty": "59.9984B",
+   "size": 59,
+   "price": 48170,
+   "area_m2": null,
+   "general": 89,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "126.2497P",
+   "size": 126,
+   "price": 142140,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 90,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9984B",
+    "supply": 89,
+    "closed_at": "None순위 None",
+    "rate": 1.84,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "126.2497P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 4.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 168,
+  "rank1_req": 0,
+  "supply_total": 90,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "126.2497P",
+   "rate": 4.0,
+   "stage": "None순위 None"
+  }
+ }
+}

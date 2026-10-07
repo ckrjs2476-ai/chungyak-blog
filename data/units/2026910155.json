@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "우리자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-01",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-01",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.더리치먼드미아.com",
+  "HOUSE_MANAGE_NO": "2026910155",
+  "HOUSE_NM": "더 리치먼드 미아",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 강북구 미아동 703-13번지",
+  "HSSPLY_ZIP": "01174",
+  "MDHS_TELNO": "15516264",
+  "MVN_PREARNGE_YM": "202809",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910155",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910155&pblancNo=2026910155",
+  "PRZWNER_PRESNATN_DE": "2026-06-26",
+  "RCRIT_PBLANC_DE": "2026-06-18",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-23",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-23",
+  "TOT_SUPLY_HSHLDCO": 98
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910155",
+   "HOUSE_TY": "049.7500A",
+   "LTTOT_TOP_AMOUNT": "80200",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910155",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 84
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910155",
+   "HOUSE_TY": "059.8400A",
+   "LTTOT_TOP_AMOUNT": "95300",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910155",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 14
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△23)",
+   "HOUSE_MANAGE_NO": "2026910155",
+   "HOUSE_TY": "049.7500A",
+   "PBLANC_NO": "2026910155",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "61",
+   "SUPLY_HSHLDCO": 84
+  },
+  {
+   "CMPET_RATE": "5.79",
+   "HOUSE_MANAGE_NO": "2026910155",
+   "HOUSE_TY": "059.8400A",
+   "PBLANC_NO": "2026910155",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "81",
+   "SUPLY_HSHLDCO": 14
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:33.083243+09:00"
+}

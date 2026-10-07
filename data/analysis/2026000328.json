@@ -1,0 +1,137 @@
+{
+ "no": "2026000328",
+ "name": "센텀 엘카사",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-07-03",
+ "rank1_date": "2026-07-14",
+ "city": "울주군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000328&pblancNo=2026000328",
+ "households": 74,
+ "types": [
+  {
+   "ty": "69.3887",
+   "size": 69,
+   "price": 36000,
+   "area_m2": 97.6364,
+   "general": 6,
+   "special": 12,
+   "pyeong_price": 1219,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "73.1083",
+   "size": 73,
+   "price": 37500,
+   "area_m2": 102.6034,
+   "general": 7,
+   "special": 12,
+   "pyeong_price": 1208,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "74.9812",
+   "size": 74,
+   "price": 38000,
+   "area_m2": 104.5494,
+   "general": 6,
+   "special": 12,
+   "pyeong_price": 1202,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "76.9842",
+   "size": 76,
+   "price": 39000,
+   "area_m2": 107.1608,
+   "general": 7,
+   "special": 12,
+   "pyeong_price": 1203,
+   "special_share_pct": 63
+  }
+ ],
+ "general_total": 26,
+ "special_total": 48,
+ "special_share_pct": 65,
+ "pyeong_min": 1202,
+ "pyeong_max": 1219,
+ "pyeong_avg": 1208,
+ "special_kinds": {
+  "신혼부부": 12,
+  "생애최초": 8,
+  "신생아": 8,
+  "다자녀": 8,
+  "노부모 부양": 4,
+  "기관추천": 8
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "69.3887",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "73.1083",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "74.9812",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "76.9842",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   }
+  ],
+  "req_total": 4,
+  "rank1_req": 2,
+  "supply_total": 72,
+  "final_shortfall_total": 68,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.03
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_pyeong": 2386,
+  "diff": -1178,
+  "diff_pct": -49,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 4,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_rate": 0.64,
+  "rank": 5,
+  "of": 5
+ }
+}

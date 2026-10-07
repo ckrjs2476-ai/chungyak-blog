@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "대방건설주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-05-28",
+  "CNTRCT_CNCLS_ENDDE": "2026-05-28",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.detre-oj.co.kr/",
+  "HOUSE_MANAGE_NO": "2026910115",
+  "HOUSE_NM": "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 양주시 옥정동 962-9, 962-8번지(옥정지구 중상1, 복합1블럭)",
+  "HSSPLY_ZIP": "11473",
+  "MDHS_TELNO": "16887002",
+  "MVN_PREARNGE_YM": "203006",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910115",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910115&pblancNo=2026910115",
+  "PRZWNER_PRESNATN_DE": "2026-05-27",
+  "RCRIT_PBLANC_DE": "2026-05-18",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-05-21",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-05-21",
+  "TOT_SUPLY_HSHLDCO": 379
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910115",
+   "HOUSE_TY": "084.7277A",
+   "LTTOT_TOP_AMOUNT": "61597",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910115",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 379
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△163)",
+   "HOUSE_MANAGE_NO": "2026910115",
+   "HOUSE_TY": "084.7277A",
+   "PBLANC_NO": "2026910115",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "216",
+   "SUPLY_HSHLDCO": 379
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:28.063100+09:00"
+}

@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "대방이엔씨 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-26",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-26",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://detre-eg.co.kr",
+  "HOUSE_MANAGE_NO": "2026910124",
+  "HOUSE_NM": "의왕고천지구 대방 디에트르 센트럴(B1BL)(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 의왕시 고천동 공공주택지구 B1블록(경기도 의왕시 고천동 190-1일원)",
+  "HSSPLY_ZIP": "16077",
+  "MDHS_TELNO": "16881551",
+  "MVN_PREARNGE_YM": "202609",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910124",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910124&pblancNo=2026910124",
+  "PRZWNER_PRESNATN_DE": "2026-06-19",
+  "RCRIT_PBLANC_DE": "2026-06-08",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-16",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910124",
+   "HOUSE_TY": "084.9705A",
+   "LTTOT_TOP_AMOUNT": "79325",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910124",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "3,321.00",
+   "HOUSE_MANAGE_NO": "2026910124",
+   "HOUSE_TY": "084.9705A",
+   "PBLANC_NO": "2026910124",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3321",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:48.856537+09:00"
+}

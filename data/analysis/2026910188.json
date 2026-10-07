@@ -1,0 +1,63 @@
+{
+ "no": "2026910188",
+ "name": "백석시그니처자이 2단지",
+ "kind": "remndr",
+ "region": "충남",
+ "notice_date": "2026-07-14",
+ "rank1_date": "2026-07-20",
+ "city": "천안시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910188&pblancNo=2026910188",
+ "households": 261,
+ "types": [
+  {
+   "ty": "84.9915A",
+   "size": 84,
+   "price": 58390,
+   "area_m2": null,
+   "general": 246,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9981E",
+   "size": 84,
+   "price": 58300,
+   "area_m2": null,
+   "general": 15,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 261,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 58300,
+ "price_84_max": 58390,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9915A",
+    "supply": 246,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 242
+   },
+   {
+    "ty": "84.9981E",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 0,
+  "supply_total": 261,
+  "final_shortfall_total": 255,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

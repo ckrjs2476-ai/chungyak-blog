@@ -1,0 +1,151 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "신한자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-12",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.lottecastle.co.kr/APT/AT00427/main/index.do",
+  "HOUSE_MANAGE_NO": "2026910130",
+  "HOUSE_NM": "경기광주역 롯데캐슬 시그니처 1단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 광주시 양벌동 산54-3번지",
+  "HSSPLY_ZIP": "12793",
+  "MDHS_TELNO": "18992340",
+  "MVN_PREARNGE_YM": "203010",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910130",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910130&pblancNo=2026910130",
+  "PRZWNER_PRESNATN_DE": "2026-06-11",
+  "RCRIT_PBLANC_DE": "2026-06-02",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-08",
+  "TOT_SUPLY_HSHLDCO": 83
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "084.9099A",
+   "LTTOT_TOP_AMOUNT": "88200",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910130",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 26
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "084.8671D",
+   "LTTOT_TOP_AMOUNT": "87200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910130",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 52
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "162.7498A",
+   "LTTOT_TOP_AMOUNT": "239000",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910130",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "162.3499B",
+   "LTTOT_TOP_AMOUNT": "241000",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910130",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "170.5257A",
+   "LTTOT_TOP_AMOUNT": "249000",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2026910130",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "170.3095B",
+   "LTTOT_TOP_AMOUNT": "120500",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2026910130",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "084.8671D",
+   "PBLANC_NO": "2026910130",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "49",
+   "SUPLY_HSHLDCO": 52
+  },
+  {
+   "CMPET_RATE": "2.38",
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "084.9099A",
+   "PBLANC_NO": "2026910130",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "62",
+   "SUPLY_HSHLDCO": 26
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "162.3499B",
+   "PBLANC_NO": "2026910130",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "2.00",
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "162.7498A",
+   "PBLANC_NO": "2026910130",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "170.3095B",
+   "PBLANC_NO": "2026910130",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910130",
+   "HOUSE_TY": "170.5257A",
+   "PBLANC_NO": "2026910130",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:06.726098+09:00"
+}

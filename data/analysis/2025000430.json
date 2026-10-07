@@ -1,0 +1,329 @@
+{
+ "no": "2025000430",
+ "name": "힐스테이트 이수역센트럴",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2025-10-02",
+ "rank1_date": "2025-10-15",
+ "city": "동작구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000430&pblancNo=2025000430",
+ "households": 170,
+ "types": [
+  {
+   "ty": "44.7578A",
+   "size": 44,
+   "price": 106850,
+   "area_m2": 61.7589,
+   "general": 12,
+   "special": 15,
+   "pyeong_price": 5719,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "44.7578B",
+   "size": 44,
+   "price": 112760,
+   "area_m2": 61.7589,
+   "general": 3,
+   "special": 5,
+   "pyeong_price": 6036,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "49.5998A",
+   "size": 49,
+   "price": 121500,
+   "area_m2": 68.1296,
+   "general": 24,
+   "special": 29,
+   "pyeong_price": 5895,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "49.5998B",
+   "size": 49,
+   "price": 130080,
+   "area_m2": 68.1296,
+   "general": 10,
+   "special": 12,
+   "pyeong_price": 6312,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "49.0506C",
+   "size": 49,
+   "price": 135600,
+   "area_m2": 67.3996,
+   "general": 2,
+   "special": 4,
+   "pyeong_price": 6651,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "59.8988A",
+   "size": 59,
+   "price": 174300,
+   "area_m2": 82.447,
+   "general": 3,
+   "special": 1,
+   "pyeong_price": 6989,
+   "special_share_pct": 25
+  },
+  {
+   "ty": "59.4198B",
+   "size": 59,
+   "price": 172380,
+   "area_m2": 82.0019,
+   "general": 3,
+   "special": 2,
+   "pyeong_price": 6949,
+   "special_share_pct": 40
+  },
+  {
+   "ty": "74.8268",
+   "size": 74,
+   "price": 194200,
+   "area_m2": 101.2273,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 6342,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.8178A",
+   "size": 84,
+   "price": 224460,
+   "area_m2": 114.7243,
+   "general": 10,
+   "special": 19,
+   "pyeong_price": 6468,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "84.828B",
+   "size": 84,
+   "price": 215690,
+   "area_m2": 115.5847,
+   "general": 3,
+   "special": 1,
+   "pyeong_price": 6169,
+   "special_share_pct": 25
+  },
+  {
+   "ty": "84.3466C",
+   "size": 84,
+   "price": 213280,
+   "area_m2": 114.1613,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 6176,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8937D",
+   "size": 84,
+   "price": 227850,
+   "area_m2": 114.8339,
+   "general": 3,
+   "special": 3,
+   "pyeong_price": 6559,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 76,
+ "special_total": 94,
+ "special_share_pct": 55,
+ "pyeong_min": 5719,
+ "pyeong_max": 6989,
+ "pyeong_avg": 6154,
+ "price_84_min": 213280,
+ "price_84_max": 227850,
+ "special_kinds": {
+  "신혼부부": 46,
+  "생애최초": 19,
+  "다자녀": 6,
+  "노부모 부양": 6,
+  "기관추천": 17
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "44.7578A",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 181.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "44.7578B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 132.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "49.5998A",
+    "supply": 24,
+    "closed_at": "1순위 해당지역",
+    "rate": 265.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "49.5998B",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 182.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "49.0506C",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 685.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8988A",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 732.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.4198B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 477.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.8268",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 301.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8178A",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 447.9,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.828B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 89.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.3466C",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 160.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8937D",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 155.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 24832,
+  "rank1_req": 24832,
+  "supply_total": 76,
+  "final_shortfall_total": 0,
+  "closed_types": 12,
+  "rank1_closed_types": 12,
+  "type_count": 12,
+  "rank1_avg_rate": 326.74,
+  "best": {
+   "ty": "59.8988A",
+   "rate": 732.67,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "44.7578A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "44.7578A": 0,
+   "44.7578B": 0,
+   "49.5998A": 0,
+   "49.5998B": 0,
+   "49.0506C": 0,
+   "59.8988A": 0,
+   "59.4198B": 0,
+   "74.8268": 0,
+   "84.8178A": 0,
+   "84.828B": 0,
+   "84.3466C": 0,
+   "84.8937D": 0
+  },
+  "avg_min": 35.0,
+  "max": {
+   "score": 74,
+   "ty": "84.8178A"
+  }
+ },
+ "region_price": {
+  "scope": "서울",
+  "days": 180,
+  "peer_count": 11,
+  "peers": [
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_pyeong": 6202,
+  "diff": -48,
+  "diff_pct": -1,
+  "rank": 6,
+  "of": 12
+ },
+ "region_competition": {
+  "scope": "서울",
+  "peer_count": 11,
+  "peers": [
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_rate": 261.73,
+  "rank": 4,
+  "of": 12
+ },
+ "region_score": {
+  "scope": "서울",
+  "peer_count": 11,
+  "peers": [
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

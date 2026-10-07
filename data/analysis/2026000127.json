@@ -1,0 +1,95 @@
+{
+ "no": "2026000127",
+ "name": "천안 휴먼빌 퍼스트시티(2회차)",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-04-24",
+ "rank1_date": "2026-05-06",
+ "city": "천안시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000127&pblancNo=2026000127",
+ "households": 309,
+ "types": [
+  {
+   "ty": "84.9982C",
+   "size": 84,
+   "price": 52960,
+   "area_m2": 115.4931,
+   "general": 142,
+   "special": 167,
+   "pyeong_price": 1516,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 142,
+ "special_total": 167,
+ "special_share_pct": 54,
+ "pyeong_min": 1516,
+ "pyeong_max": 1516,
+ "pyeong_avg": 1516,
+ "price_84_min": 52960,
+ "price_84_max": 52960,
+ "special_kinds": {
+  "신혼부부": 71,
+  "생애최초": 27,
+  "다자녀": 30,
+  "노부모 부양": 9,
+  "기관추천": 30
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9982C",
+    "supply": 307,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 280
+   }
+  ],
+  "req_total": 27,
+  "rank1_req": 12,
+  "supply_total": 307,
+  "final_shortfall_total": 280,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.04
+ },
+ "region_price": {
+  "scope": "천안시",
+  "days": 180,
+  "peer_count": 17,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "엘리프 성성호수공원 1BL"
+  ],
+  "peer_avg_pyeong": 1645,
+  "diff": -129,
+  "diff_pct": -8,
+  "rank": 15,
+  "of": 18
+ },
+ "region_competition": {
+  "scope": "천안시",
+  "peer_count": 16,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "엘리프 성성호수공원 1BL"
+  ],
+  "peer_avg_rate": 3.63,
+  "rank": 15,
+  "of": 17
+ }
+}

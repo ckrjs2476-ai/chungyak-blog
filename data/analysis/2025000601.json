@@ -1,0 +1,117 @@
+{
+ "no": "2025000601",
+ "name": "창원 센트럴 아이파크",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2025-11-28",
+ "rank1_date": "2025-12-09",
+ "city": "창원시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000601&pblancNo=2025000601",
+ "households": 36,
+ "types": [
+  {
+   "ty": "59.604C",
+   "size": 59,
+   "price": 68530,
+   "area_m2": 84.5393,
+   "general": 18,
+   "special": 18,
+   "pyeong_price": 2680,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 18,
+ "special_total": 18,
+ "special_share_pct": 50,
+ "pyeong_min": 2680,
+ "pyeong_max": 2680,
+ "pyeong_avg": 2680,
+ "special_kinds": {
+  "신혼부부": 8,
+  "생애최초": 3,
+  "다자녀": 3,
+  "노부모 부양": 1,
+  "기관추천": 3
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.604C",
+    "supply": 18,
+    "closed_at": "1순위 해당지역",
+    "rate": 643.67,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 12719,
+  "rank1_req": 12719,
+  "supply_total": 18,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 1,
+  "rank1_avg_rate": 706.61,
+  "best": {
+   "ty": "59.604C",
+   "rate": 643.67,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.604C",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.604C": 0
+  },
+  "avg_min": 36.5,
+  "max": {
+   "score": 84,
+   "ty": "59.604C"
+  }
+ },
+ "region_price": {
+  "scope": "창원시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "성산 더리브 포레스트",
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_pyeong": 1872,
+  "diff": 808,
+  "diff_pct": 43,
+  "rank": 2,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "창원시",
+  "peer_count": 4,
+  "peers": [
+   "성산 더리브 포레스트",
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_rate": 12.16,
+  "rank": 1,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "창원시",
+  "peer_count": 4,
+  "peers": [
+   "성산 더리브 포레스트",
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "no": "2025000413",
+ "name": "퀸즈이즈카운티",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2025-09-12",
+ "rank1_date": "2025-09-18",
+ "city": "동구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000413&pblancNo=2025000413",
+ "households": 268,
+ "types": [
+  {
+   "ty": "61.8564",
+   "size": 61,
+   "price": 59600,
+   "area_m2": 88.8968,
+   "general": 25,
+   "special": 29,
+   "pyeong_price": 2216,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "62.0058",
+   "size": 62,
+   "price": 59200,
+   "area_m2": 89.2627,
+   "general": 24,
+   "special": 29,
+   "pyeong_price": 2192,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "76.9923",
+   "size": 76,
+   "price": 73800,
+   "area_m2": 110.1437,
+   "general": 12,
+   "special": 15,
+   "pyeong_price": 2215,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.906A",
+   "size": 84,
+   "price": 81000,
+   "area_m2": 121.9839,
+   "general": 25,
+   "special": 29,
+   "pyeong_price": 2195,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9645B",
+   "size": 84,
+   "price": 81900,
+   "area_m2": 121.0605,
+   "general": 12,
+   "special": 15,
+   "pyeong_price": 2236,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9738C",
+   "size": 84,
+   "price": 81500,
+   "area_m2": 121.5424,
+   "general": 11,
+   "special": 15,
+   "pyeong_price": 2217,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "84.9151D",
+   "size": 84,
+   "price": 81600,
+   "area_m2": 121.8065,
+   "general": 12,
+   "special": 15,
+   "pyeong_price": 2215,
+   "special_share_pct": 56
+  }
+ ],
+ "general_total": 121,
+ "special_total": 147,
+ "special_share_pct": 55,
+ "pyeong_min": 2192,
+ "pyeong_max": 2236,
+ "pyeong_avg": 2209,
+ "price_84_min": 81000,
+ "price_84_max": 81900,
+ "special_kinds": {
+  "신혼부부": 60,
+  "생애최초": 23,
+  "다자녀": 27,
+  "노부모 부양": 10,
+  "기관추천": 27
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "61.8564",
+    "supply": 54,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 48
+   },
+   {
+    "ty": "62.0058",
+    "supply": 52,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 49
+   },
+   {
+    "ty": "76.9923",
+    "supply": 27,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   },
+   {
+    "ty": "84.906A",
+    "supply": 54,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 42
+   },
+   {
+    "ty": "84.9645B",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 24
+   },
+   {
+    "ty": "84.9738C",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   },
+   {
+    "ty": "84.9151D",
+    "supply": 27,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   }
+  ],
+  "req_total": 24,
+  "rank1_req": 17,
+  "supply_total": 266,
+  "final_shortfall_total": 242,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.06
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 12,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안"
+  ],
+  "peer_avg_pyeong": 2599,
+  "diff": -390,
+  "diff_pct": -15,
+  "rank": 11,
+  "of": 13
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 12,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안"
+  ],
+  "peer_avg_rate": 5.4,
+  "rank": 13,
+  "of": 13
+ }
+}

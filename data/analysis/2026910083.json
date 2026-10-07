@@ -1,0 +1,100 @@
+{
+ "no": "2026910083",
+ "name": "두산위브 더센트럴 수원",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-04-09",
+ "rank1_date": "2026-04-14",
+ "city": "수원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910083&pblancNo=2026910083",
+ "households": 25,
+ "types": [
+  {
+   "ty": "59.9371A",
+   "size": 59,
+   "price": 79090,
+   "area_m2": null,
+   "general": 16,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9137B",
+   "size": 59,
+   "price": 77090,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.4545B",
+   "size": 84,
+   "price": 94820,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.808C",
+   "size": 84,
+   "price": 95640,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 25,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 94820,
+ "price_84_max": 95640,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9137B",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 13.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9371A",
+    "supply": 16,
+    "closed_at": "None순위 None",
+    "rate": 45.19,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.4545B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 48.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.808C",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 39.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 901,
+  "rank1_req": 0,
+  "supply_total": 25,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.4545B",
+   "rate": 48.0,
+   "stage": "None순위 None"
+  }
+ }
+}

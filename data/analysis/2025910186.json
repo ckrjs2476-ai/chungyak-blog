@@ -1,0 +1,50 @@
+{
+ "no": "2025910186",
+ "name": "브라운스톤 여월(5차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-09-30",
+ "rank1_date": "2025-10-10",
+ "city": "부천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910186&pblancNo=2025910186",
+ "households": 1,
+ "types": [
+  {
+   "ty": "59.95A",
+   "size": 59,
+   "price": 48015,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.95A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 41.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 41,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.95A",
+   "rate": 41.0,
+   "stage": "None순위 None"
+  }
+ }
+}

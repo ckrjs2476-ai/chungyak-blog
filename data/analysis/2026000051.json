@@ -1,0 +1,278 @@
+{
+ "no": "2026000051",
+ "name": "아산탕정자이 메트로시티(A3BL)",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-03-20",
+ "rank1_date": "2026-04-01",
+ "city": "아산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000051&pblancNo=2026000051",
+ "households": 1638,
+ "types": [
+  {
+   "ty": "59.9941A",
+   "size": 59,
+   "price": 43200,
+   "area_m2": 85.1306,
+   "general": 62,
+   "special": 70,
+   "pyeong_price": 1678,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "59.9843B",
+   "size": 59,
+   "price": 42100,
+   "area_m2": 86.3821,
+   "general": 17,
+   "special": 17,
+   "pyeong_price": 1611,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9905A",
+   "size": 84,
+   "price": 55900,
+   "area_m2": 112.8425,
+   "general": 436,
+   "special": 527,
+   "pyeong_price": 1638,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9923B",
+   "size": 84,
+   "price": 55900,
+   "area_m2": 114.489,
+   "general": 152,
+   "special": 182,
+   "pyeong_price": 1614,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9921C",
+   "size": 84,
+   "price": 55200,
+   "area_m2": 113.1764,
+   "general": 33,
+   "special": 33,
+   "pyeong_price": 1612,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9921D",
+   "size": 84,
+   "price": 56100,
+   "area_m2": 113.1764,
+   "general": 33,
+   "special": 33,
+   "pyeong_price": 1639,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9409E",
+   "size": 84,
+   "price": 55900,
+   "area_m2": 114.4244,
+   "general": 16,
+   "special": 15,
+   "pyeong_price": 1615,
+   "special_share_pct": 48
+  },
+  {
+   "ty": "125.6353A",
+   "size": 125,
+   "price": 109300,
+   "area_m2": 168.0677,
+   "general": 6,
+   "special": 0,
+   "pyeong_price": 2150,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "125.9654B",
+   "size": 125,
+   "price": 109200,
+   "area_m2": 168.4621,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 2143,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "125.8495C",
+   "size": 125,
+   "price": 109000,
+   "area_m2": 168.3166,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2141,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 761,
+ "special_total": 877,
+ "special_share_pct": 54,
+ "pyeong_min": 1611,
+ "pyeong_max": 2150,
+ "pyeong_avg": 1638,
+ "price_84_min": 55200,
+ "price_84_max": 56100,
+ "special_kinds": {
+  "신혼부부": 371,
+  "생애최초": 142,
+  "다자녀": 160,
+  "노부모 부양": 44,
+  "기관추천": 160
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9941A",
+    "supply": 62,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.97,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9843B",
+    "supply": 20,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9905A",
+    "supply": 580,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.38,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9923B",
+    "supply": 286,
+    "closed_at": "1순위 기타지역",
+    "rate": 10.84,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9921C",
+    "supply": 46,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.63,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9921D",
+    "supply": 57,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9409E",
+    "supply": 27,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "125.6353A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 52.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "125.9654B",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 19.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "125.8495C",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 33.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 6969,
+  "rank1_req": 6509,
+  "supply_total": 1090,
+  "final_shortfall_total": 0,
+  "closed_types": 10,
+  "rank1_closed_types": 10,
+  "type_count": 10,
+  "rank1_avg_rate": 5.97,
+  "best": {
+   "ty": "125.6353A",
+   "rate": 52.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9843B",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.9941A": 0,
+   "59.9843B": 0,
+   "84.9905A": 0,
+   "84.9923B": 0,
+   "84.9921C": 0,
+   "84.9921D": 0,
+   "84.9409E": 0
+  },
+  "avg_min": 16.1,
+  "max": {
+   "score": 69,
+   "ty": "84.9905A"
+  }
+ },
+ "region_price": {
+  "scope": "아산시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "아산경남아너스빌 랜드마크49",
+   "아산테크노밸리 더원 7차 (Ab4BL)"
+  ],
+  "peer_avg_pyeong": 1257,
+  "diff": 381,
+  "diff_pct": 30,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "아산시",
+  "peer_count": 2,
+  "peers": [
+   "아산경남아너스빌 랜드마크49",
+   "아산테크노밸리 더원 7차 (Ab4BL)"
+  ],
+  "peer_avg_rate": 0.01,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "충남",
+  "peer_count": 9,
+  "peers": [
+   "트리븐 서산",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "공주월송 진아레히",
+   "업성 푸르지오 레이크시티",
+   "엘리프 성성호수공원 1BL",
+   "엘리프 성성호수공원 2BL",
+   "백석시그니처자이 1단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

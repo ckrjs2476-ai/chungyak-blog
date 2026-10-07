@@ -1,0 +1,183 @@
+{
+ "no": "2025000605",
+ "name": "힐스테이트 선암호수공원 1단지",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2025-12-19",
+ "rank1_date": "2025-12-30",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000605&pblancNo=2025000605",
+ "households": 438,
+ "types": [
+  {
+   "ty": "84.2012A",
+   "size": 84,
+   "price": 92540,
+   "area_m2": 111.3255,
+   "general": 46,
+   "special": 73,
+   "pyeong_price": 2748,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.2326B",
+   "size": 84,
+   "price": 93490,
+   "area_m2": 112.9291,
+   "general": 51,
+   "special": 67,
+   "pyeong_price": 2737,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.2593C",
+   "size": 84,
+   "price": 93140,
+   "area_m2": 112.5034,
+   "general": 46,
+   "special": 73,
+   "pyeong_price": 2737,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.4517D",
+   "size": 84,
+   "price": 93950,
+   "area_m2": 113.0286,
+   "general": 33,
+   "special": 47,
+   "pyeong_price": 2748,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "172.8751",
+   "size": 172,
+   "price": 247945,
+   "area_m2": 232.482,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3526,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "176.3716",
+   "size": 176,
+   "price": 248445,
+   "area_m2": 237.7944,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3454,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 178,
+ "special_total": 260,
+ "special_share_pct": 59,
+ "pyeong_min": 2737,
+ "pyeong_max": 3526,
+ "pyeong_avg": 2745,
+ "price_84_min": 92540,
+ "price_84_max": 93950,
+ "special_kinds": {
+  "신혼부부": 100,
+  "생애최초": 39,
+  "다자녀": 65,
+  "노부모 부양": 13,
+  "기관추천": 43
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.2012A",
+    "supply": 112,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.23,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.2326B",
+    "supply": 113,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 43
+   },
+   {
+    "ty": "84.2593C",
+    "supply": 118,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 85
+   },
+   {
+    "ty": "84.4517D",
+    "supply": 78,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 51
+   },
+   {
+    "ty": "172.8751",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "176.3716",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 291,
+  "rank1_req": 247,
+  "supply_total": 423,
+  "final_shortfall_total": 180,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 6,
+  "rank1_avg_rate": 0.58,
+  "best": {
+   "ty": "84.2012A",
+   "rate": 1.23,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "한화포레나 울산무거",
+   "문수로 코아루 에듀스카이",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 2단지",
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673"
+  ],
+  "peer_avg_pyeong": 2334,
+  "diff": 411,
+  "diff_pct": 18,
+  "rank": 1,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 7,
+  "peers": [
+   "한화포레나 울산무거",
+   "문수로 코아루 에듀스카이",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 2단지",
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673"
+  ],
+  "peer_avg_rate": 4.84,
+  "rank": 5,
+  "of": 8
+ }
+}

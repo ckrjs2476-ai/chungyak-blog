@@ -1,0 +1,200 @@
+{
+ "no": "2026000069",
+ "name": "야목역 서희스타힐스 그랜드힐",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-06",
+ "rank1_date": "2026-04-17",
+ "city": "화성시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000069&pblancNo=2026000069",
+ "households": 241,
+ "types": [
+  {
+   "ty": "59.9567A",
+   "size": 59,
+   "price": 41900,
+   "area_m2": 81.9664,
+   "general": 31,
+   "special": 37,
+   "pyeong_price": 1690,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.9649B",
+   "size": 59,
+   "price": 41700,
+   "area_m2": 82.3747,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 1673,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "59.9747C",
+   "size": 59,
+   "price": 42500,
+   "area_m2": 82.3378,
+   "general": 2,
+   "special": 1,
+   "pyeong_price": 1706,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "84.9501A",
+   "size": 84,
+   "price": 57600,
+   "area_m2": 115.0729,
+   "general": 32,
+   "special": 35,
+   "pyeong_price": 1655,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9553B",
+   "size": 84,
+   "price": 56600,
+   "area_m2": 115.2722,
+   "general": 43,
+   "special": 55,
+   "pyeong_price": 1623,
+   "special_share_pct": 56
+  }
+ ],
+ "general_total": 110,
+ "special_total": 131,
+ "special_share_pct": 54,
+ "pyeong_min": 1623,
+ "pyeong_max": 1706,
+ "pyeong_avg": 1653,
+ "price_84_min": 56600,
+ "price_84_max": 57600,
+ "special_kinds": {
+  "신혼부부": 55,
+  "생애최초": 21,
+  "다자녀": 24,
+  "노부모 부양": 7,
+  "기관추천": 24
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9567A",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "59.9649B",
+    "supply": 5,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9747C",
+    "supply": 3,
+    "closed_at": "1순위 기타지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9501A",
+    "supply": 62,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 45
+   },
+   {
+    "ty": "84.9553B",
+    "supply": 94,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 75
+   }
+  ],
+  "req_total": 85,
+  "rank1_req": 63,
+  "supply_total": 219,
+  "final_shortfall_total": 143,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 5,
+  "rank1_avg_rate": 0.29,
+  "best": {
+   "ty": "59.9747C",
+   "rate": 3.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9649B",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.9649B": 0,
+   "59.9747C": 0
+  },
+  "avg_min": 25.5,
+  "max": {
+   "score": 55,
+   "ty": "59.9649B"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 85,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "회천중앙역 파라곤",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티"
+  ],
+  "peer_avg_pyeong": 2496,
+  "diff": -843,
+  "diff_pct": -34,
+  "rank": 74,
+  "of": 86
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 83,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "회천중앙역 파라곤",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티"
+  ],
+  "peer_avg_rate": 5.25,
+  "rank": 66,
+  "of": 84
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 51,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "김포 풍무역세권 B5블록 호반써밋",
+   "더샵 분당티에르원"
+  ],
+  "peer_avg_min": 2.4,
+  "diff": -2.4
+ }
+}

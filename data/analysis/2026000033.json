@@ -1,0 +1,168 @@
+{
+ "no": "2026000033",
+ "name": "해링턴플레이스 오룡역",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2026-03-13",
+ "rank1_date": "2026-03-24",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000033&pblancNo=2026000033",
+ "households": 427,
+ "types": [
+  {
+   "ty": "84.988A",
+   "size": 84,
+   "price": 69493,
+   "area_m2": 114.541,
+   "general": 66,
+   "special": 81,
+   "pyeong_price": 2006,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.899B",
+   "size": 84,
+   "price": 68441,
+   "area_m2": 113.374,
+   "general": 74,
+   "special": 90,
+   "pyeong_price": 1996,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.946C",
+   "size": 84,
+   "price": 67428,
+   "area_m2": 113.931,
+   "general": 34,
+   "special": 42,
+   "pyeong_price": 1956,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.931D",
+   "size": 84,
+   "price": 65856,
+   "area_m2": 112.932,
+   "general": 8,
+   "special": 6,
+   "pyeong_price": 1928,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "84.938E",
+   "size": 84,
+   "price": 67488,
+   "area_m2": 113.461,
+   "general": 8,
+   "special": 6,
+   "pyeong_price": 1966,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "84.906F",
+   "size": 84,
+   "price": 67185,
+   "area_m2": 112.953,
+   "general": 6,
+   "special": 6,
+   "pyeong_price": 1966,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 196,
+ "special_total": 231,
+ "special_share_pct": 54,
+ "pyeong_min": 1928,
+ "pyeong_max": 2006,
+ "pyeong_avg": 1988,
+ "price_84_min": 65856,
+ "price_84_max": 69493,
+ "special_kinds": {
+  "신혼부부": 98,
+  "생애최초": 38,
+  "다자녀": 42,
+  "노부모 부양": 11,
+  "기관추천": 42
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.988A",
+    "supply": 139,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 86
+   },
+   {
+    "ty": "84.899B",
+    "supply": 159,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 124
+   },
+   {
+    "ty": "84.946C",
+    "supply": 73,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 60
+   },
+   {
+    "ty": "84.931D",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.938E",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "84.906F",
+    "supply": 12,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   }
+  ],
+  "req_total": 116,
+  "rank1_req": 80,
+  "supply_total": 411,
+  "final_shortfall_total": 295,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.19
+ },
+ "region_price": {
+  "scope": "중구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "대전 하늘채 루시에르(2회차)",
+   "대전 경남아너스빌 센텀스카이"
+  ],
+  "peer_avg_pyeong": 1827,
+  "diff": 161,
+  "diff_pct": 9,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "중구",
+  "peer_count": 2,
+  "peers": [
+   "대전 하늘채 루시에르(2회차)",
+   "대전 경남아너스빌 센텀스카이"
+  ],
+  "peer_avg_rate": 0.15,
+  "rank": 2,
+  "of": 3
+ }
+}

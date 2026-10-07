@@ -1,0 +1,239 @@
+{
+ "no": "2026000023",
+ "name": "더샵 프리엘라",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-03-12",
+ "rank1_date": "2026-03-24",
+ "city": "영등포구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000023&pblancNo=2026000023",
+ "households": 138,
+ "types": [
+  {
+   "ty": "44.98",
+   "size": 44,
+   "price": 88500,
+   "area_m2": 60.608,
+   "general": 8,
+   "special": 6,
+   "pyeong_price": 4827,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "59.97A",
+   "size": 59,
+   "price": 130039,
+   "area_m2": 80.337,
+   "general": 1,
+   "special": 14,
+   "pyeong_price": 5351,
+   "special_share_pct": 93
+  },
+  {
+   "ty": "59.99B",
+   "size": 59,
+   "price": 124982,
+   "area_m2": 80.162,
+   "general": 5,
+   "special": 5,
+   "pyeong_price": 5154,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.99C",
+   "size": 59,
+   "price": 126491,
+   "area_m2": 80.562,
+   "general": 8,
+   "special": 4,
+   "pyeong_price": 5190,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "74.99A",
+   "size": 74,
+   "price": 150760,
+   "area_m2": 99.083,
+   "general": 15,
+   "special": 15,
+   "pyeong_price": 5030,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.99B",
+   "size": 74,
+   "price": 147265,
+   "area_m2": 100.483,
+   "general": 8,
+   "special": 5,
+   "pyeong_price": 4845,
+   "special_share_pct": 38
+  },
+  {
+   "ty": "84.99A",
+   "size": 84,
+   "price": 179888,
+   "area_m2": 111.804,
+   "general": 15,
+   "special": 18,
+   "pyeong_price": 5319,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.98B",
+   "size": 84,
+   "price": 176639,
+   "area_m2": 112.501,
+   "general": 3,
+   "special": 8,
+   "pyeong_price": 5190,
+   "special_share_pct": 73
+  }
+ ],
+ "general_total": 63,
+ "special_total": 75,
+ "special_share_pct": 54,
+ "pyeong_min": 4827,
+ "pyeong_max": 5351,
+ "pyeong_avg": 5132,
+ "price_84_min": 176639,
+ "price_84_max": 179888,
+ "special_kinds": {
+  "신혼부부": 31,
+  "생애최초": 12,
+  "다자녀": 14,
+  "노부모 부양": 4,
+  "기관추천": 14
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "44.98",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 145.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.97A",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 896.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.99B",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 130.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.99C",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 142.38,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.99A",
+    "supply": 15,
+    "closed_at": "1순위 해당지역",
+    "rate": 52.47,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.99B",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 29.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99A",
+    "supply": 15,
+    "closed_at": "1순위 해당지역",
+    "rate": 43.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.98B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 32.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 5622,
+  "rank1_req": 5622,
+  "supply_total": 63,
+  "final_shortfall_total": 0,
+  "closed_types": 8,
+  "rank1_closed_types": 8,
+  "type_count": 8,
+  "rank1_avg_rate": 89.24,
+  "best": {
+   "ty": "59.97A",
+   "rate": 896.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "44.98",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "44.98": 0,
+   "59.97A": 0,
+   "59.99B": 0,
+   "59.99C": 0,
+   "74.99A": 0,
+   "74.99B": 0,
+   "84.99A": 0,
+   "84.98B": 0
+  },
+  "avg_min": 32.8,
+  "max": {
+   "score": 70,
+   "ty": "84.99A"
+  }
+ },
+ "region_price": {
+  "scope": "영등포구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더샵 신길센트럴시티",
+   "써밋 클라비온"
+  ],
+  "peer_avg_pyeong": 6447,
+  "diff": -1315,
+  "diff_pct": -20,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "영등포구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 신길센트럴시티",
+   "써밋 클라비온"
+  ],
+  "peer_avg_rate": 49.32,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "영등포구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 신길센트럴시티",
+   "써밋 클라비온"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

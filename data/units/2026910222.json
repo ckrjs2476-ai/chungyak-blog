@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-09-05",
+  "CNTRCT_CNCLS_ENDDE": "2026-09-05",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.xi.co.kr/osxi",
+  "HOUSE_MANAGE_NO": "2026910222",
+  "HOUSE_NM": "오산헤리티지자이 1단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 오산시 양산동 223번지 일원",
+  "HSSPLY_ZIP": "18105",
+  "MDHS_TELNO": "16611783",
+  "MVN_PREARNGE_YM": "202909",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910222",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910222&pblancNo=2026910222",
+  "PRZWNER_PRESNATN_DE": "2026-09-03",
+  "RCRIT_PBLANC_DE": "2026-08-25",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-31",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-31",
+  "TOT_SUPLY_HSHLDCO": 256
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910222",
+   "HOUSE_TY": "075.4736 ",
+   "LTTOT_TOP_AMOUNT": "73380",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910222",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 36
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910222",
+   "HOUSE_TY": "084.9796A",
+   "LTTOT_TOP_AMOUNT": "78300",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910222",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 220
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△11)",
+   "HOUSE_MANAGE_NO": "2026910222",
+   "HOUSE_TY": "075.4736 ",
+   "PBLANC_NO": "2026910222",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "25",
+   "SUPLY_HSHLDCO": 36
+  },
+  {
+   "CMPET_RATE": "(△142)",
+   "HOUSE_MANAGE_NO": "2026910222",
+   "HOUSE_TY": "084.9796A",
+   "PBLANC_NO": "2026910222",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "78",
+   "SUPLY_HSHLDCO": 220
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:10.676244+09:00"
+}

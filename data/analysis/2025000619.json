@@ -1,0 +1,167 @@
+{
+ "no": "2025000619",
+ "name": "안동리첼스카이파크",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2025-12-19",
+ "rank1_date": "2025-12-26",
+ "city": "안동시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000619&pblancNo=2025000619",
+ "households": 264,
+ "types": [
+  {
+   "ty": "74.9973A",
+   "size": 74,
+   "price": 41840,
+   "area_m2": 99.3762,
+   "general": 33,
+   "special": 24,
+   "pyeong_price": 1392,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "84.9639A",
+   "size": 84,
+   "price": 47330,
+   "area_m2": 113.238,
+   "general": 43,
+   "special": 31,
+   "pyeong_price": 1382,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "84.7618B",
+   "size": 84,
+   "price": 45050,
+   "area_m2": 115.358,
+   "general": 47,
+   "special": 33,
+   "pyeong_price": 1291,
+   "special_share_pct": 41
+  },
+  {
+   "ty": "84.9639C",
+   "size": 84,
+   "price": 46090,
+   "area_m2": 113.238,
+   "general": 30,
+   "special": 22,
+   "pyeong_price": 1346,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "158.2518P",
+   "size": 158,
+   "price": 108748,
+   "area_m2": 213.9866,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1680,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 154,
+ "special_total": 110,
+ "special_share_pct": 42,
+ "pyeong_min": 1291,
+ "pyeong_max": 1680,
+ "pyeong_avg": 1351,
+ "price_84_min": 45050,
+ "price_84_max": 47330,
+ "special_kinds": {
+  "신혼부부": 52,
+  "생애최초": 24,
+  "다자녀": 26,
+  "노부모 부양": 8
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9973A",
+    "supply": 53,
+    "closed_at": "2순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9639A",
+    "supply": 71,
+    "closed_at": "2순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7618B",
+    "supply": 79,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 66
+   },
+   {
+    "ty": "84.9639C",
+    "supply": 51,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   },
+   {
+    "ty": "158.2518P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 171,
+  "rank1_req": 128,
+  "supply_total": 255,
+  "final_shortfall_total": 100,
+  "closed_types": 3,
+  "rank1_closed_types": 1,
+  "type_count": 5,
+  "rank1_avg_rate": 0.5,
+  "best": {
+   "ty": "74.9973A",
+   "rate": 3.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "경북",
+  "days": 180,
+  "peer_count": 9,
+  "peers": [
+   "다산 월드메르디앙 센텀하이",
+   "마린시티",
+   "두산위브더제니스 구미",
+   "김천혁신도시 동일하이빌 파크레인",
+   "효성해링턴 플레이스 영주 더리버",
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트"
+  ],
+  "peer_avg_pyeong": 1371,
+  "diff": -20,
+  "diff_pct": -1,
+  "rank": 7,
+  "of": 10
+ },
+ "region_competition": {
+  "scope": "경북",
+  "peer_count": 9,
+  "peers": [
+   "다산 월드메르디앙 센텀하이",
+   "마린시티",
+   "두산위브더제니스 구미",
+   "김천혁신도시 동일하이빌 파크레인",
+   "효성해링턴 플레이스 영주 더리버",
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트"
+  ],
+  "peer_avg_rate": 2.48,
+  "rank": 6,
+  "of": 10
+ }
+}

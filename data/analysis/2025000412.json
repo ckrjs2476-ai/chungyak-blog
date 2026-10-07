@@ -1,0 +1,167 @@
+{
+ "no": "2025000412",
+ "name": "식사 푸르지오 파크센트",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-09-26",
+ "rank1_date": "2025-10-13",
+ "city": "고양시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000412&pblancNo=2025000412",
+ "households": 36,
+ "types": [
+  {
+   "ty": "74.9682",
+   "size": 74,
+   "price": 72500,
+   "area_m2": 102.6336,
+   "general": 16,
+   "special": 18,
+   "pyeong_price": 2335,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.8777A",
+   "size": 84,
+   "price": 81200,
+   "area_m2": 116.1193,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2312,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.3593B",
+   "size": 84,
+   "price": 81200,
+   "area_m2": 116.0836,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2312,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 18,
+ "special_total": 18,
+ "special_share_pct": 50,
+ "pyeong_min": 2312,
+ "pyeong_max": 2335,
+ "pyeong_avg": 2334,
+ "price_84_min": 81200,
+ "price_84_max": 81200,
+ "special_kinds": {
+  "신혼부부": 8,
+  "생애최초": 3,
+  "다자녀": 3,
+  "노부모 부양": 1,
+  "기관추천": 3
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9682",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8777A",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.3593B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 210,
+  "rank1_req": 144,
+  "supply_total": 18,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 8.0,
+  "best": {
+   "ty": "84.8777A",
+   "rate": 10.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.9682",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "74.9682": 0,
+   "84.8777A": 0,
+   "84.3593B": 0
+  },
+  "avg_min": 20.2,
+  "max": {
+   "score": 56,
+   "ty": "74.9682"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 46,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤",
+   "중흥S-클래스 힐더포레"
+  ],
+  "peer_avg_pyeong": 2572,
+  "diff": -238,
+  "diff_pct": -9,
+  "rank": 18,
+  "of": 47
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 46,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤",
+   "중흥S-클래스 힐더포레"
+  ],
+  "peer_avg_rate": 8.15,
+  "rank": 10,
+  "of": 47
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 29,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "중흥S-클래스 힐더포레",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티"
+  ],
+  "peer_avg_min": 1.2,
+  "diff": -1.2
+ }
+}

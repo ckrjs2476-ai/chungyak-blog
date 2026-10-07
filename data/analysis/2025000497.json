@@ -1,0 +1,147 @@
+{
+ "no": "2025000497",
+ "name": "아크로 드 서초",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-03-20",
+ "rank1_date": "2026-04-01",
+ "city": "서초구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000497&pblancNo=2025000497",
+ "households": 56,
+ "types": [
+  {
+   "ty": "59.37",
+   "size": 59,
+   "price": 179415,
+   "area_m2": 76.57,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 7746,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.37A",
+   "size": 59,
+   "price": 186490,
+   "area_m2": 76.61,
+   "general": 26,
+   "special": 21,
+   "pyeong_price": 8047,
+   "special_share_pct": 45
+  },
+  {
+   "ty": "59.21C",
+   "size": 59,
+   "price": 179340,
+   "area_m2": 76.9,
+   "general": 2,
+   "special": 5,
+   "pyeong_price": 7710,
+   "special_share_pct": 71
+  }
+ ],
+ "general_total": 30,
+ "special_total": 26,
+ "special_share_pct": 46,
+ "pyeong_min": 7710,
+ "pyeong_max": 8047,
+ "pyeong_avg": 7994,
+ "special_kinds": {
+  "신혼부부": 10,
+  "생애최초": 5,
+  "다자녀": 5,
+  "노부모 부양": 1,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.37",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 646.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.37A",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 1135.96,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.21C",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1072.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 32973,
+  "rank1_req": 32973,
+  "supply_total": 30,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 1099.1,
+  "best": {
+   "ty": "59.37A",
+   "rate": 1135.96,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.21C",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.37": 0,
+   "59.37A": 0,
+   "59.21C": 0
+  },
+  "avg_min": 37.8,
+  "max": {
+   "score": 84,
+   "ty": "59.21C"
+  }
+ },
+ "region_price": {
+  "scope": "서초구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "반포 래미안 트리니원",
+   "오티에르 반포"
+  ],
+  "peer_avg_pyeong": 8348,
+  "diff": -354,
+  "diff_pct": -4,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "서초구",
+  "peer_count": 2,
+  "peers": [
+   "반포 래미안 트리니원",
+   "오티에르 반포"
+  ],
+  "peer_avg_rate": 473.88,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "서초구",
+  "peer_count": 2,
+  "peers": [
+   "반포 래미안 트리니원",
+   "오티에르 반포"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

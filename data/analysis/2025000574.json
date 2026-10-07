@@ -1,0 +1,112 @@
+{
+ "no": "2025000574",
+ "name": "무등산 더힐(조합원 취소분)",
+ "kind": "apt",
+ "region": "광주",
+ "notice_date": "2026-03-13",
+ "rank1_date": "2026-03-23",
+ "city": "동구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000574&pblancNo=2025000574",
+ "households": 33,
+ "types": [
+  {
+   "ty": "59.9895",
+   "size": 59,
+   "price": 51840,
+   "area_m2": 80.0542,
+   "general": 16,
+   "special": 0,
+   "pyeong_price": 2141,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9693A",
+   "size": 84,
+   "price": 74280,
+   "area_m2": 112.507,
+   "general": 9,
+   "special": 0,
+   "pyeong_price": 2183,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9457B",
+   "size": 84,
+   "price": 73800,
+   "area_m2": 112.5035,
+   "general": 8,
+   "special": 0,
+   "pyeong_price": 2169,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 33,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 2141,
+ "pyeong_max": 2183,
+ "pyeong_avg": 2159,
+ "price_84_min": 73800,
+ "price_84_max": 74280,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9895",
+    "supply": 16,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "84.9693A",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "84.9457B",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   }
+  ],
+  "req_total": 12,
+  "rank1_req": 7,
+  "supply_total": 33,
+  "final_shortfall_total": 21,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.21
+ },
+ "region_price": {
+  "scope": "광주",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "호반써밋 첨단3지구(A7BL)",
+   "제일풍경채 첨단3지구(A6BL)",
+   "올 뉴 챔피언스시티 1차"
+  ],
+  "peer_avg_pyeong": 1866,
+  "diff": 293,
+  "diff_pct": 16,
+  "rank": 2,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "광주",
+  "peer_count": 3,
+  "peers": [
+   "호반써밋 첨단3지구(A7BL)",
+   "제일풍경채 첨단3지구(A6BL)",
+   "올 뉴 챔피언스시티 1차"
+  ],
+  "peer_avg_rate": 2.68,
+  "rank": 4,
+  "of": 4
+ }
+}

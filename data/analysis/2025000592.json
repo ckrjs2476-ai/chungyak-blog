@@ -1,0 +1,110 @@
+{
+ "no": "2025000592",
+ "name": "이안 연동스퀘어",
+ "kind": "apt",
+ "region": "제주",
+ "notice_date": "2025-11-27",
+ "rank1_date": "2025-12-08",
+ "city": "제주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000592&pblancNo=2025000592",
+ "households": 96,
+ "types": [
+  {
+   "ty": "84.0626A",
+   "size": 84,
+   "price": 86400,
+   "area_m2": 105.2878,
+   "general": 68,
+   "special": 0,
+   "pyeong_price": 2713,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.0501B",
+   "size": 84,
+   "price": 86300,
+   "area_m2": 105.9843,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 2692,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.0654C",
+   "size": 84,
+   "price": 84600,
+   "area_m2": 106.5475,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 2625,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 96,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 2625,
+ "pyeong_max": 2713,
+ "pyeong_avg": 2697,
+ "price_84_min": 84600,
+ "price_84_max": 86400,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.0626A",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 55
+   },
+   {
+    "ty": "84.0501B",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 10
+   },
+   {
+    "ty": "84.0654C",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   }
+  ],
+  "req_total": 24,
+  "rank1_req": 10,
+  "supply_total": 96,
+  "final_shortfall_total": 72,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.1
+ },
+ "region_price": {
+  "scope": "제주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "PH159"
+  ],
+  "peer_avg_pyeong": 1678,
+  "diff": 1019,
+  "diff_pct": 61,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "제주시",
+  "peer_count": 2,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "PH159"
+  ],
+  "peer_avg_rate": 0.13,
+  "rank": 3,
+  "of": 3
+ }
+}

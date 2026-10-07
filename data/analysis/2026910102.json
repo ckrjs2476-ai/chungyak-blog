@@ -1,0 +1,111 @@
+{
+ "no": "2026910102",
+ "name": "창원자이 더 스카이",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-04-29",
+ "rank1_date": "2026-05-04",
+ "city": "창원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910102&pblancNo=2026910102",
+ "households": 431,
+ "types": [
+  {
+   "ty": "84.9951A",
+   "size": 84,
+   "price": 93610,
+   "area_m2": null,
+   "general": 196,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9016B",
+   "size": 84,
+   "price": 89940,
+   "area_m2": null,
+   "general": 80,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9771C",
+   "size": 84,
+   "price": 91450,
+   "area_m2": null,
+   "general": 71,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8846D",
+   "size": 84,
+   "price": 91220,
+   "area_m2": null,
+   "general": 42,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "106.5247A",
+   "size": 106,
+   "price": 124100,
+   "area_m2": null,
+   "general": 42,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 431,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 89940,
+ "price_84_max": 93610,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8846D",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   },
+   {
+    "ty": "84.9016B",
+    "supply": 80,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 70
+   },
+   {
+    "ty": "84.9771C",
+    "supply": 71,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 62
+   },
+   {
+    "ty": "84.9951A",
+    "supply": 196,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 116
+   },
+   {
+    "ty": "106.5247A",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 29
+   }
+  ],
+  "req_total": 121,
+  "rank1_req": 0,
+  "supply_total": 431,
+  "final_shortfall_total": 310,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0
+ }
+}

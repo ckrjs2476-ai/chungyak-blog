@@ -1,0 +1,222 @@
+{
+ "no": "2025000622",
+ "name": "수지자이 에디시온",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-12-19",
+ "rank1_date": "2025-12-30",
+ "city": "용인시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000622&pblancNo=2025000622",
+ "households": 480,
+ "types": [
+  {
+   "ty": "84.9772A",
+   "size": 84,
+   "price": 156500,
+   "area_m2": 111.7521,
+   "general": 50,
+   "special": 57,
+   "pyeong_price": 4630,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9892B",
+   "size": 84,
+   "price": 149200,
+   "area_m2": 113.1625,
+   "general": 17,
+   "special": 21,
+   "pyeong_price": 4359,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9875C",
+   "size": 84,
+   "price": 154900,
+   "area_m2": 112.2221,
+   "general": 102,
+   "special": 122,
+   "pyeong_price": 4563,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9671D",
+   "size": 84,
+   "price": 151300,
+   "area_m2": 113.0816,
+   "general": 32,
+   "special": 38,
+   "pyeong_price": 4423,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "120.8061",
+   "size": 120,
+   "price": 219800,
+   "area_m2": 157.3839,
+   "general": 34,
+   "special": 5,
+   "pyeong_price": 4617,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "144.8653P",
+   "size": 144,
+   "price": 500000,
+   "area_m2": 191.7351,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 8621,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "155.7575P",
+   "size": 155,
+   "price": 520000,
+   "area_m2": 206.2159,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 8336,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 237,
+ "special_total": 243,
+ "special_share_pct": 51,
+ "pyeong_min": 4359,
+ "pyeong_max": 8621,
+ "pyeong_avg": 4562,
+ "price_84_min": 149200,
+ "price_84_max": 156500,
+ "special_kinds": {
+  "신혼부부": 100,
+  "생애최초": 39,
+  "다자녀": 47,
+  "노부모 부양": 14,
+  "기관추천": 43
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9772A",
+    "supply": 50,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.18,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9892B",
+    "supply": 17,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.53,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9875C",
+    "supply": 102,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.92,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9671D",
+    "supply": 38,
+    "closed_at": "1순위 기타지역",
+    "rate": 68.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.8061",
+    "supply": 34,
+    "closed_at": "2순위 기타지역",
+    "rate": 2.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "144.8653P",
+    "supply": 1,
+    "closed_at": "2순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "155.7575P",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1018,
+  "rank1_req": 789,
+  "supply_total": 243,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 5,
+  "type_count": 7,
+  "rank1_avg_rate": 3.25,
+  "best": {
+   "ty": "84.9671D",
+   "rate": 68.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9671D",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.9671D": 0
+  },
+  "avg_min": 25.5,
+  "max": {
+   "score": 59,
+   "ty": "84.9671D"
+  }
+ },
+ "region_price": {
+  "scope": "용인시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "용인 푸르지오 클루센트",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인 고림 동문 디 이스트"
+  ],
+  "peer_avg_pyeong": 2004,
+  "diff": 2558,
+  "diff_pct": 128,
+  "rank": 1,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "용인시",
+  "peer_count": 5,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "용인 푸르지오 클루센트",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인 고림 동문 디 이스트"
+  ],
+  "peer_avg_rate": 0.49,
+  "rank": 1,
+  "of": 6
+ },
+ "region_score": {
+  "scope": "용인시",
+  "peer_count": 3,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 고림 동문 디 이스트"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

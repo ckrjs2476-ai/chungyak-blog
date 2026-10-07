@@ -1,0 +1,82 @@
+{
+ "no": "2026910063",
+ "name": "포레나더샵 인천시청역",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-03-12",
+ "rank1_date": "2026-03-17",
+ "city": "남동구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910063&pblancNo=2026910063",
+ "households": 466,
+ "types": [
+  {
+   "ty": "49.9664",
+   "size": 49,
+   "price": 50440,
+   "area_m2": null,
+   "general": 16,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9954A",
+   "size": 59,
+   "price": 66560,
+   "area_m2": null,
+   "general": 286,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.98B",
+   "size": 59,
+   "price": 66440,
+   "area_m2": null,
+   "general": 164,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 466,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "49.9664",
+    "supply": 16,
+    "closed_at": "None순위 None",
+    "rate": 1.94,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.98B",
+    "supply": 164,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 87
+   },
+   {
+    "ty": "59.9954A",
+    "supply": 286,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 162
+   }
+  ],
+  "req_total": 232,
+  "rank1_req": 0,
+  "supply_total": 466,
+  "final_shortfall_total": 249,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "49.9664",
+   "rate": 1.94,
+   "stage": "None순위 None"
+  }
+ }
+}

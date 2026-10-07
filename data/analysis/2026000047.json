@@ -1,0 +1,139 @@
+{
+ "no": "2026000047",
+ "name": "범어역 파크드림 디아르",
+ "kind": "apt",
+ "region": "대구",
+ "notice_date": "2026-03-27",
+ "rank1_date": "2026-04-07",
+ "city": "수성구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000047&pblancNo=2026000047",
+ "households": 47,
+ "types": [
+  {
+   "ty": "73.1594",
+   "size": 73,
+   "price": 83210,
+   "area_m2": 93.6199,
+   "general": 12,
+   "special": 13,
+   "pyeong_price": 2938,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "74.8544",
+   "size": 74,
+   "price": 84490,
+   "area_m2": 95.4861,
+   "general": 6,
+   "special": 9,
+   "pyeong_price": 2925,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.9453A",
+   "size": 84,
+   "price": 97350,
+   "area_m2": 107.8634,
+   "general": 3,
+   "special": 4,
+   "pyeong_price": 2984,
+   "special_share_pct": 57
+  }
+ ],
+ "general_total": 21,
+ "special_total": 26,
+ "special_share_pct": 55,
+ "pyeong_min": 2925,
+ "pyeong_max": 2984,
+ "pyeong_avg": 2941,
+ "price_84_min": 97350,
+ "price_84_max": 97350,
+ "special_kinds": {
+  "신혼부부": 11,
+  "생애최초": 4,
+  "다자녀": 5,
+  "노부모 부양": 1,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "73.1594",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 42.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.8544",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 78.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9453A",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 339.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2131,
+  "rank1_req": 2131,
+  "supply_total": 21,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 101.48,
+  "best": {
+   "ty": "84.9453A",
+   "rate": 339.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "73.1594",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "73.1594": 0,
+   "74.8544": 0,
+   "84.9453A": 0
+  },
+  "avg_min": 28.8,
+  "max": {
+   "score": 67,
+   "ty": "84.9453A"
+  }
+ },
+ "region_price": {
+  "scope": "대구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더샵 중앙로역센터폴",
+   "달서자이 제니크"
+  ],
+  "peer_avg_pyeong": 1964,
+  "diff": 977,
+  "diff_pct": 50,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "대구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 중앙로역센터폴",
+   "달서자이 제니크"
+  ],
+  "peer_avg_rate": 0.18,
+  "rank": 1,
+  "of": 3
+ }
+}

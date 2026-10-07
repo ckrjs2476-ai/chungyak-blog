@@ -1,0 +1,184 @@
+{
+ "no": "2026000399",
+ "name": "브라운스톤 월곡 센트럴",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-08-28",
+ "rank1_date": "2026-09-08",
+ "city": "성북구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000399&pblancNo=2026000399",
+ "households": 62,
+ "types": [
+  {
+   "ty": "59.9442A",
+   "size": 59,
+   "price": 91000,
+   "area_m2": 81.6956,
+   "general": 7,
+   "special": 21,
+   "pyeong_price": 3682,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.9442B",
+   "size": 59,
+   "price": 89200,
+   "area_m2": 81.6956,
+   "general": 6,
+   "special": 5,
+   "pyeong_price": 3609,
+   "special_share_pct": 45
+  },
+  {
+   "ty": "59.9293C",
+   "size": 59,
+   "price": 86200,
+   "area_m2": 81.5083,
+   "general": 9,
+   "special": 9,
+   "pyeong_price": 3496,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.961",
+   "size": 74,
+   "price": 107500,
+   "area_m2": 102.5132,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 3467,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 27,
+ "special_total": 35,
+ "special_share_pct": 56,
+ "pyeong_min": 3467,
+ "pyeong_max": 3682,
+ "pyeong_avg": 3598,
+ "special_kinds": {
+  "신혼부부": 10,
+  "생애최초": 4,
+  "신생아": 6,
+  "다자녀": 6,
+  "노부모 부양": 2,
+  "기관추천": 7
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9442A",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 68.71,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9442B",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 36.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9293C",
+    "supply": 9,
+    "closed_at": "1순위 해당지역",
+    "rate": 79.78,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.961",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 51.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1672,
+  "rank1_req": 1672,
+  "supply_total": 27,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 61.93,
+  "best": {
+   "ty": "59.9293C",
+   "rate": 79.78,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9293C",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9442A": 0,
+   "59.9442B": 0,
+   "59.9293C": 0,
+   "74.961": 0
+  },
+  "avg_min": 32.9,
+  "max": {
+   "score": 69,
+   "ty": "74.961"
+  }
+ },
+ "region_price": {
+  "scope": "서울",
+  "days": 180,
+  "peer_count": 18,
+  "peers": [
+   "아크로 드 서초",
+   "더샵 프리엘라",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티",
+   "라클라체자이드파인",
+   "공덕역자이르네"
+  ],
+  "peer_avg_pyeong": 6486,
+  "diff": -2888,
+  "diff_pct": -45,
+  "rank": 18,
+  "of": 19
+ },
+ "region_competition": {
+  "scope": "서울",
+  "peer_count": 18,
+  "peers": [
+   "아크로 드 서초",
+   "더샵 프리엘라",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티",
+   "라클라체자이드파인",
+   "공덕역자이르네"
+  ],
+  "peer_avg_rate": 144.37,
+  "rank": 8,
+  "of": 19
+ },
+ "region_score": {
+  "scope": "서울",
+  "peer_count": 18,
+  "peers": [
+   "아크로 드 서초",
+   "더샵 프리엘라",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티",
+   "라클라체자이드파인",
+   "공덕역자이르네"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "계룡건설산업(주), (주)대흥",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-21",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-21",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025910185",
+  "HOUSE_NM": "엘리프 세종(3차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "세종특별자치시 조치원읍 봉산리 379번지 일원",
+  "HSSPLY_ZIP": "30015",
+  "MDHS_TELNO": "07044708172",
+  "MVN_PREARNGE_YM": "202511",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910185",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910185&pblancNo=2025910185",
+  "PRZWNER_PRESNATN_DE": "2025-10-16",
+  "RCRIT_PBLANC_DE": "2025-09-30",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "338",
+  "SUBSCRPT_AREA_CODE_NM": "세종",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-13",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-13",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910185",
+   "HOUSE_TY": "059.9901A",
+   "LTTOT_TOP_AMOUNT": "25806",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910185",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910185",
+   "HOUSE_TY": "084.9976A",
+   "LTTOT_TOP_AMOUNT": "34914",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910185",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "69.00",
+   "HOUSE_MANAGE_NO": "2025910185",
+   "HOUSE_TY": "059.9901A",
+   "PBLANC_NO": "2025910185",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "69",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "84.50",
+   "HOUSE_MANAGE_NO": "2025910185",
+   "HOUSE_TY": "084.9976A",
+   "PBLANC_NO": "2025910185",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "169",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:47.134235+09:00"
+}

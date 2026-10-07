@@ -1,0 +1,47 @@
+{
+ "no": "2025910238",
+ "name": "더파크 비스타동원",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2025-11-26",
+ "rank1_date": "2025-12-01",
+ "city": "사상구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910238&pblancNo=2025910238",
+ "households": 20,
+ "types": [
+  {
+   "ty": "84.9852T",
+   "size": 84,
+   "price": 60730,
+   "area_m2": null,
+   "general": 20,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 20,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 60730,
+ "price_84_max": 60730,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9852T",
+    "supply": 20,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   }
+  ],
+  "req_total": 14,
+  "rank1_req": 0,
+  "supply_total": 20,
+  "final_shortfall_total": 6,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

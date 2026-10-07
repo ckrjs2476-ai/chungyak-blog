@@ -1,0 +1,311 @@
+{
+ "no": "2026000282",
+ "name": "창원 한신더휴 메가센텀",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-07-16",
+ "rank1_date": "2026-07-28",
+ "city": "창원시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000282&pblancNo=2026000282",
+ "households": 1139,
+ "types": [
+  {
+   "ty": "38.0314A",
+   "size": 38,
+   "price": 27100,
+   "area_m2": 50.5513,
+   "general": 9,
+   "special": 7,
+   "pyeong_price": 1772,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "46.907A",
+   "size": 46,
+   "price": 33990,
+   "area_m2": 61.7248,
+   "general": 6,
+   "special": 7,
+   "pyeong_price": 1820,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.9783A",
+   "size": 59,
+   "price": 43600,
+   "area_m2": 79.9937,
+   "general": 6,
+   "special": 8,
+   "pyeong_price": 1802,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "74.973A",
+   "size": 74,
+   "price": 53080,
+   "area_m2": 98.0497,
+   "general": 95,
+   "special": 122,
+   "pyeong_price": 1790,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "74.9705B",
+   "size": 74,
+   "price": 52080,
+   "area_m2": 98.433,
+   "general": 31,
+   "special": 45,
+   "pyeong_price": 1749,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "84.9692A",
+   "size": 84,
+   "price": 61150,
+   "area_m2": 111.3885,
+   "general": 156,
+   "special": 200,
+   "pyeong_price": 1815,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9734B",
+   "size": 84,
+   "price": 58100,
+   "area_m2": 111.1783,
+   "general": 7,
+   "special": 19,
+   "pyeong_price": 1728,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "84.9704C",
+   "size": 84,
+   "price": 60840,
+   "area_m2": 112.4817,
+   "general": 114,
+   "special": 154,
+   "pyeong_price": 1788,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "101.9695A",
+   "size": 101,
+   "price": 72080,
+   "area_m2": 132.4938,
+   "general": 66,
+   "special": 10,
+   "pyeong_price": 1798,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "101.9772B",
+   "size": 101,
+   "price": 71320,
+   "area_m2": 132.5471,
+   "general": 64,
+   "special": 9,
+   "pyeong_price": 1779,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "136.5534A",
+   "size": 136,
+   "price": 150340,
+   "area_m2": 181.0037,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 2746,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "136.9291B",
+   "size": 136,
+   "price": 150050,
+   "area_m2": 181.0314,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2740,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 558,
+ "special_total": 581,
+ "special_share_pct": 51,
+ "pyeong_min": 1728,
+ "pyeong_max": 2746,
+ "pyeong_avg": 1797,
+ "price_84_min": 58100,
+ "price_84_max": 61150,
+ "special_kinds": {
+  "신혼부부": 156,
+  "생애최초": 75,
+  "신생아": 99,
+  "다자녀": 114,
+  "노부모 부양": 33,
+  "기관추천": 104
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "38.0314A",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "46.907A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9783A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 32.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.973A",
+    "supply": 95,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.08,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9705B",
+    "supply": 61,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9692A",
+    "supply": 156,
+    "closed_at": "1순위 해당지역",
+    "rate": 15.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9734B",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.31,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9704C",
+    "supply": 181,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "101.9695A",
+    "supply": 66,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.64,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "101.9772B",
+    "supply": 72,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.35,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "136.5534A",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "136.9291B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 19.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 5725,
+  "rank1_req": 5178,
+  "supply_total": 676,
+  "final_shortfall_total": 0,
+  "closed_types": 12,
+  "rank1_closed_types": 11,
+  "type_count": 12,
+  "rank1_avg_rate": 7.66,
+  "best": {
+   "ty": "59.9783A",
+   "rate": 32.83,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "38.0314A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "38.0314A": 0,
+   "46.907A": 0,
+   "59.9783A": 0,
+   "74.973A": 0,
+   "74.9705B": 0,
+   "84.9692A": 0,
+   "84.9734B": 0,
+   "84.9704C": 0
+  },
+  "avg_min": 24.0,
+  "max": {
+   "score": 74,
+   "ty": "59.9783A"
+  }
+ },
+ "region_price": {
+  "scope": "창원시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_pyeong": 2006,
+  "diff": -209,
+  "diff_pct": -10,
+  "rank": 2,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "창원시",
+  "peer_count": 3,
+  "peers": [
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_rate": 16.08,
+  "rank": 3,
+  "of": 4
+ },
+ "region_score": {
+  "scope": "창원시",
+  "peer_count": 3,
+  "peers": [
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

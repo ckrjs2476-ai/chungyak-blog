@@ -1,0 +1,50 @@
+{
+ "no": "2025910179",
+ "name": "송파 위례 리슈빌 FIRST CLASS",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2025-09-23",
+ "rank1_date": "2025-09-29",
+ "city": "송파구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910179&pblancNo=2025910179",
+ "households": 1,
+ "types": [
+  {
+   "ty": "105.4624",
+   "size": 105,
+   "price": 89508,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "105.4624",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 113874.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 113874,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "105.4624",
+   "rate": 113874.0,
+   "stage": "None순위 None"
+  }
+ }
+}

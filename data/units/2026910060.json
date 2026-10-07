@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "신영부동산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-03-27",
+  "CNTRCT_CNCLS_ENDDE": "2026-03-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://cantaviltheedition.com",
+  "HOUSE_MANAGE_NO": "2026910060",
+  "HOUSE_NM": "김포 칸타빌 에디션",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 김포시 북변동 224-67 일원",
+  "HSSPLY_ZIP": "10106",
+  "MDHS_TELNO": "0313768111",
+  "MVN_PREARNGE_YM": "202912",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910060",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910060&pblancNo=2026910060",
+  "PRZWNER_PRESNATN_DE": "2026-03-23",
+  "RCRIT_PBLANC_DE": "2026-03-13",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-18",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-18",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910060",
+   "HOUSE_TY": "127.7132 ",
+   "LTTOT_TOP_AMOUNT": "119000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910060",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "18.00",
+   "HOUSE_MANAGE_NO": "2026910060",
+   "HOUSE_TY": "127.7132 ",
+   "PBLANC_NO": "2026910060",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "36",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:39.812166+09:00"
+}

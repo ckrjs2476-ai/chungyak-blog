@@ -1,0 +1,194 @@
+{
+ "no": "2026910141",
+ "name": "힐스테이트 안양펠루스",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-05-29",
+ "rank1_date": "2026-06-04",
+ "city": "안양시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910141&pblancNo=2026910141",
+ "households": 54,
+ "types": [
+  {
+   "ty": "40.58",
+   "size": 40,
+   "price": 54140,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "42.66",
+   "size": 42,
+   "price": 55750,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "43.6",
+   "size": 43,
+   "price": 56990,
+   "area_m2": null,
+   "general": 10,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "44.33",
+   "size": 44,
+   "price": 57850,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "50.04",
+   "size": 50,
+   "price": 62550,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "61.14",
+   "size": 61,
+   "price": 82370,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "65",
+   "size": 65,
+   "price": 82350,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "66.28A",
+   "size": 66,
+   "price": 83910,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "66.49B",
+   "size": 66,
+   "price": 84150,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "68.39",
+   "size": 68,
+   "price": 86350,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 54,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "40.58",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 1.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "42.66",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "43.6",
+    "supply": 10,
+    "closed_at": "None순위 None",
+    "rate": 1.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "44.33",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "50.04",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 1.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "61.14",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "65",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "66.28A",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "66.49B",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 1.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "68.39",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 2.4,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 55,
+  "rank1_req": 0,
+  "supply_total": 54,
+  "final_shortfall_total": 14,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 10,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "68.39",
+   "rate": 2.4,
+   "stage": "None순위 None"
+  }
+ }
+}

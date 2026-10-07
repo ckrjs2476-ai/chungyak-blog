@@ -1,0 +1,151 @@
+{
+ "no": "2026000066",
+ "name": "한화포레나 부산당리",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-03-20",
+ "rank1_date": "2026-03-31",
+ "city": "사하구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000066&pblancNo=2026000066",
+ "households": 209,
+ "types": [
+  {
+   "ty": "59.9714",
+   "size": 59,
+   "price": 56700,
+   "area_m2": 83.3251,
+   "general": 67,
+   "special": 78,
+   "pyeong_price": 2249,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9995",
+   "size": 84,
+   "price": 78700,
+   "area_m2": 113.8005,
+   "general": 26,
+   "special": 30,
+   "pyeong_price": 2286,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "101.6522",
+   "size": 101,
+   "price": 98800,
+   "area_m2": 136.2613,
+   "general": 7,
+   "special": 0,
+   "pyeong_price": 2397,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.835",
+   "size": 115,
+   "price": 112900,
+   "area_m2": 154.1875,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2421,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 101,
+ "special_total": 108,
+ "special_share_pct": 52,
+ "pyeong_min": 2249,
+ "pyeong_max": 2421,
+ "pyeong_avg": 2265,
+ "price_84_min": 78700,
+ "price_84_max": 78700,
+ "special_kinds": {
+  "신혼부부": 45,
+  "생애최초": 18,
+  "다자녀": 20,
+  "노부모 부양": 5,
+  "기관추천": 20
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9714",
+    "supply": 127,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 85
+   },
+   {
+    "ty": "84.9995",
+    "supply": 49,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "101.6522",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.835",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 115,
+  "rank1_req": 83,
+  "supply_total": 184,
+  "final_shortfall_total": 86,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 4,
+  "rank1_avg_rate": 0.45,
+  "best": {
+   "ty": "115.835",
+   "rate": 6.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 21,
+  "peers": [
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘"
+  ],
+  "peer_avg_pyeong": 2380,
+  "diff": -115,
+  "diff_pct": -5,
+  "rank": 11,
+  "of": 22
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 21,
+  "peers": [
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘"
+  ],
+  "peer_avg_rate": 2.31,
+  "rank": 10,
+  "of": 22
+ }
+}

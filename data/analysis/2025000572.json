@@ -1,0 +1,165 @@
+{
+ "no": "2025000572",
+ "name": "포레나더샵 인천시청역",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-01-30",
+ "rank1_date": "2026-02-10",
+ "city": "남동구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000572&pblancNo=2025000572",
+ "households": 735,
+ "types": [
+  {
+   "ty": "49.9664",
+   "size": 49,
+   "price": 50440,
+   "area_m2": 74.0546,
+   "general": 23,
+   "special": 23,
+   "pyeong_price": 2252,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.9954A",
+   "size": 59,
+   "price": 66560,
+   "area_m2": 85.101,
+   "general": 174,
+   "special": 209,
+   "pyeong_price": 2586,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "59.98B",
+   "size": 59,
+   "price": 66440,
+   "area_m2": 86.0027,
+   "general": 140,
+   "special": 166,
+   "pyeong_price": 2554,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 337,
+ "special_total": 398,
+ "special_share_pct": 54,
+ "pyeong_min": 2252,
+ "pyeong_max": 2586,
+ "pyeong_avg": 2552,
+ "special_kinds": {
+  "신혼부부": 168,
+  "생애최초": 65,
+  "다자녀": 72,
+  "노부모 부양": 21,
+  "기관추천": 72
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "49.9664",
+    "supply": 23,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.96,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9954A",
+    "supply": 174,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.03,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.98B",
+    "supply": 140,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.46,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1184,
+  "rank1_req": 972,
+  "supply_total": 337,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 2.88,
+  "best": {
+   "ty": "49.9664",
+   "rate": 2.96,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "49.9664",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "49.9664": 0,
+   "59.9954A": 0,
+   "59.98B": 0
+  },
+  "avg_min": 15.3,
+  "max": {
+   "score": 69,
+   "ty": "59.98B"
+  }
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 26,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "시티오씨엘 8단지",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)"
+  ],
+  "peer_avg_pyeong": 2338,
+  "diff": 214,
+  "diff_pct": 9,
+  "rank": 8,
+  "of": 27
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 26,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "시티오씨엘 8단지",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)"
+  ],
+  "peer_avg_rate": 8.4,
+  "rank": 12,
+  "of": 27
+ },
+ "region_score": {
+  "scope": "인천",
+  "peer_count": 18,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "시티오씨엘 8단지",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_min": 33.9,
+  "diff": -33.9
+ }
+}

@@ -1,0 +1,383 @@
+{
+ "no": "2026000064",
+ "name": "더샵 신길센트럴시티",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-03-20",
+ "rank1_date": "2026-03-31",
+ "city": "영등포구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000064&pblancNo=2026000064",
+ "households": 477,
+ "types": [
+  {
+   "ty": "51.9981A",
+   "size": 51,
+   "price": 124000,
+   "area_m2": 73.9159,
+   "general": 8,
+   "special": 0,
+   "pyeong_price": 5546,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "51.9931B",
+   "size": 51,
+   "price": 125000,
+   "area_m2": 74.1669,
+   "general": 16,
+   "special": 24,
+   "pyeong_price": 5572,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "51.9927C",
+   "size": 51,
+   "price": 123000,
+   "area_m2": 73.4069,
+   "general": 34,
+   "special": 24,
+   "pyeong_price": 5539,
+   "special_share_pct": 41
+  },
+  {
+   "ty": "51.9909D",
+   "size": 51,
+   "price": 125000,
+   "area_m2": 74.2516,
+   "general": 20,
+   "special": 16,
+   "pyeong_price": 5565,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "51.9953E",
+   "size": 51,
+   "price": 124000,
+   "area_m2": 73.8748,
+   "general": 8,
+   "special": 0,
+   "pyeong_price": 5549,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9973A",
+   "size": 59,
+   "price": 145000,
+   "area_m2": 84.6386,
+   "general": 16,
+   "special": 11,
+   "pyeong_price": 5663,
+   "special_share_pct": 41
+  },
+  {
+   "ty": "59.9945B",
+   "size": 59,
+   "price": 145000,
+   "area_m2": 85.0896,
+   "general": 54,
+   "special": 70,
+   "pyeong_price": 5633,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "59.9903C",
+   "size": 59,
+   "price": 146000,
+   "area_m2": 84.7477,
+   "general": 15,
+   "special": 11,
+   "pyeong_price": 5695,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "59.9987D",
+   "size": 59,
+   "price": 145000,
+   "area_m2": 85.4616,
+   "general": 14,
+   "special": 11,
+   "pyeong_price": 5609,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "74.9939A",
+   "size": 74,
+   "price": 168000,
+   "area_m2": 106.6876,
+   "general": 7,
+   "special": 18,
+   "pyeong_price": 5206,
+   "special_share_pct": 72
+  },
+  {
+   "ty": "74.9944B",
+   "size": 74,
+   "price": 168000,
+   "area_m2": 105.4237,
+   "general": 12,
+   "special": 11,
+   "pyeong_price": 5268,
+   "special_share_pct": 48
+  },
+  {
+   "ty": "74.992C",
+   "size": 74,
+   "price": 166000,
+   "area_m2": 104.9328,
+   "general": 11,
+   "special": 11,
+   "pyeong_price": 5230,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.9992D",
+   "size": 74,
+   "price": 167000,
+   "area_m2": 104.7523,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 5270,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9992E",
+   "size": 74,
+   "price": 167000,
+   "area_m2": 105.0419,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 5256,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9993A",
+   "size": 84,
+   "price": 186000,
+   "area_m2": 118.98,
+   "general": 9,
+   "special": 43,
+   "pyeong_price": 5168,
+   "special_share_pct": 83
+  },
+  {
+   "ty": "84.9977B",
+   "size": 84,
+   "price": 188000,
+   "area_m2": 119.517,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 5200,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 227,
+ "special_total": 250,
+ "special_share_pct": 52,
+ "pyeong_min": 5168,
+ "pyeong_max": 5695,
+ "pyeong_avg": 5501,
+ "price_84_min": 186000,
+ "price_84_max": 188000,
+ "special_kinds": {
+  "신혼부부": 105,
+  "생애최초": 41,
+  "다자녀": 46,
+  "노부모 부양": 11,
+  "기관추천": 47
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "51.9981A",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 24.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "51.9931B",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 30.94,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "51.9927C",
+    "supply": 34,
+    "closed_at": "1순위 해당지역",
+    "rate": 25.47,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "51.9909D",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 23.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "51.9953E",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9973A",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 41.44,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9945B",
+    "supply": 54,
+    "closed_at": "1순위 해당지역",
+    "rate": 50.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9903C",
+    "supply": 15,
+    "closed_at": "1순위 해당지역",
+    "rate": 29.27,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9987D",
+    "supply": 14,
+    "closed_at": "1순위 해당지역",
+    "rate": 21.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9939A",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.14,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9944B",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.992C",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.91,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9992D",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 20.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9992E",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9993A",
+    "supply": 9,
+    "closed_at": "1순위 해당지역",
+    "rate": 53.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9977B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 102.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 7233,
+  "rank1_req": 7233,
+  "supply_total": 227,
+  "final_shortfall_total": 0,
+  "closed_types": 16,
+  "rank1_closed_types": 16,
+  "type_count": 16,
+  "rank1_avg_rate": 31.86,
+  "best": {
+   "ty": "84.9977B",
+   "rate": 102.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "51.9909D",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "51.9981A": 0,
+   "51.9931B": 0,
+   "51.9927C": 0,
+   "51.9909D": 0,
+   "51.9953E": 0,
+   "59.9973A": 0,
+   "59.9945B": 0,
+   "59.9903C": 0,
+   "59.9987D": 0,
+   "74.9939A": 0,
+   "74.9944B": 0,
+   "74.992C": 0,
+   "74.9992D": 0,
+   "74.9992E": 0,
+   "84.9993A": 0,
+   "84.9977B": 0
+  },
+  "avg_min": 32.4,
+  "max": {
+   "score": 79,
+   "ty": "84.9977B"
+  }
+ },
+ "region_price": {
+  "scope": "영등포구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더샵 프리엘라",
+   "써밋 클라비온"
+  ],
+  "peer_avg_pyeong": 6262,
+  "diff": -761,
+  "diff_pct": -12,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "영등포구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 프리엘라",
+   "써밋 클라비온"
+  ],
+  "peer_avg_rate": 78.01,
+  "rank": 3,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "영등포구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 프리엘라",
+   "써밋 클라비온"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

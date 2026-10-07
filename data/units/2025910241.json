@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)무궁화신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-17",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.여의도더로드캐슬.com",
+  "HOUSE_MANAGE_NO": "2025910241",
+  "HOUSE_NM": "대방역 여의도 더로드캐슬",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 영등포구 신길동 449-11",
+  "HSSPLY_ZIP": "07354",
+  "MDHS_TELNO": "18778079",
+  "MVN_PREARNGE_YM": "202512",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910241",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910241&pblancNo=2025910241",
+  "PRZWNER_PRESNATN_DE": "2025-12-10",
+  "RCRIT_PBLANC_DE": "2025-11-27",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-05",
+  "TOT_SUPLY_HSHLDCO": 36
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910241",
+   "HOUSE_TY": "024.9100 ",
+   "LTTOT_TOP_AMOUNT": "48860",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910241",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 11
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910241",
+   "HOUSE_TY": "025.3700 ",
+   "LTTOT_TOP_AMOUNT": "48860",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910241",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910241",
+   "HOUSE_TY": "027.7600 ",
+   "LTTOT_TOP_AMOUNT": "50860",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910241",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 16
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "17.55",
+   "HOUSE_MANAGE_NO": "2025910241",
+   "HOUSE_TY": "024.9100 ",
+   "PBLANC_NO": "2025910241",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "193",
+   "SUPLY_HSHLDCO": 11
+  },
+  {
+   "CMPET_RATE": "11.67",
+   "HOUSE_MANAGE_NO": "2025910241",
+   "HOUSE_TY": "025.3700 ",
+   "PBLANC_NO": "2025910241",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "105",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "31.00",
+   "HOUSE_MANAGE_NO": "2025910241",
+   "HOUSE_TY": "027.7600 ",
+   "PBLANC_NO": "2025910241",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "496",
+   "SUPLY_HSHLDCO": 16
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:11.002641+09:00"
+}

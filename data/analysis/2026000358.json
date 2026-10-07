@@ -1,0 +1,204 @@
+{
+ "no": "2026000358",
+ "name": "충정로역자이르네",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-08-07",
+ "rank1_date": "2026-08-19",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000358&pblancNo=2026000358",
+ "households": 186,
+ "types": [
+  {
+   "ty": "39.9972A",
+   "size": 39,
+   "price": 103500,
+   "area_m2": 56.6227,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 6043,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "39.9814B",
+   "size": 39,
+   "price": 100400,
+   "area_m2": 56.9654,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 5826,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9882",
+   "size": 59,
+   "price": 188500,
+   "area_m2": 84.9586,
+   "general": 35,
+   "special": 45,
+   "pyeong_price": 7335,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9972A",
+   "size": 84,
+   "price": 245500,
+   "area_m2": 118.2405,
+   "general": 12,
+   "special": 21,
+   "pyeong_price": 6864,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.9965B",
+   "size": 84,
+   "price": 229500,
+   "area_m2": 118.6745,
+   "general": 32,
+   "special": 36,
+   "pyeong_price": 6393,
+   "special_share_pct": 53
+  }
+ ],
+ "general_total": 84,
+ "special_total": 102,
+ "special_share_pct": 55,
+ "pyeong_min": 5826,
+ "pyeong_max": 7335,
+ "pyeong_avg": 6869,
+ "price_84_min": 229500,
+ "price_84_max": 245500,
+ "special_kinds": {
+  "신혼부부": 27,
+  "생애최초": 13,
+  "신생아": 19,
+  "다자녀": 19,
+  "노부모 부양": 5,
+  "기관추천": 19
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "39.9972A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 146.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "39.9814B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 202.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9882",
+    "supply": 35,
+    "closed_at": "1순위 해당지역",
+    "rate": 64.74,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9972A",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 19.92,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9965B",
+    "supply": 32,
+    "closed_at": "1순위 해당지역",
+    "rate": 10.47,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 3740,
+  "rank1_req": 3740,
+  "supply_total": 84,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 44.52,
+  "best": {
+   "ty": "39.9814B",
+   "rate": 202.67,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "39.9814B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "39.9972A": 0,
+   "39.9814B": 0,
+   "59.9882": 0,
+   "84.9972A": 0,
+   "84.9965B": 0
+  },
+  "avg_min": 30.1,
+  "max": {
+   "score": 69,
+   "ty": "84.9965B"
+  }
+ },
+ "region_price": {
+  "scope": "서울",
+  "days": 180,
+  "peer_count": 19,
+  "peers": [
+   "아크로 드 서초",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티",
+   "라클라체자이드파인"
+  ],
+  "peer_avg_pyeong": 6139,
+  "diff": 730,
+  "diff_pct": 12,
+  "rank": 9,
+  "of": 20
+ },
+ "region_competition": {
+  "scope": "서울",
+  "peer_count": 19,
+  "peers": [
+   "아크로 드 서초",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티",
+   "라클라체자이드파인"
+  ],
+  "peer_avg_rate": 138.1,
+  "rank": 10,
+  "of": 20
+ },
+ "region_score": {
+  "scope": "서울",
+  "peer_count": 19,
+  "peers": [
+   "아크로 드 서초",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티",
+   "라클라체자이드파인"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "no": "2025000545",
+ "name": "이천 증포5지구 칸타빌 에듀파크",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-28",
+ "rank1_date": "2025-12-09",
+ "city": "이천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000545&pblancNo=2025000545",
+ "households": 355,
+ "types": [
+  {
+   "ty": "84.9784A",
+   "size": 84,
+   "price": 59870,
+   "area_m2": 110.1846,
+   "general": 73,
+   "special": 95,
+   "pyeong_price": 1796,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.991B",
+   "size": 84,
+   "price": 59870,
+   "area_m2": 111.7573,
+   "general": 28,
+   "special": 38,
+   "pyeong_price": 1771,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "102.7011",
+   "size": 102,
+   "price": 74570,
+   "area_m2": 132.0254,
+   "general": 15,
+   "special": 3,
+   "pyeong_price": 1867,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "116.7297",
+   "size": 116,
+   "price": 86720,
+   "area_m2": 151.0262,
+   "general": 52,
+   "special": 9,
+   "pyeong_price": 1898,
+   "special_share_pct": 15
+  },
+  {
+   "ty": "118.1152",
+   "size": 118,
+   "price": 88310,
+   "area_m2": 153.7941,
+   "general": 35,
+   "special": 7,
+   "pyeong_price": 1898,
+   "special_share_pct": 17
+  }
+ ],
+ "general_total": 203,
+ "special_total": 152,
+ "special_share_pct": 43,
+ "pyeong_min": 1771,
+ "pyeong_max": 1898,
+ "pyeong_avg": 1825,
+ "price_84_min": 59870,
+ "price_84_max": 59870,
+ "special_kinds": {
+  "신혼부부": 55,
+  "생애최초": 22,
+  "다자녀": 38,
+  "노부모 부양": 13,
+  "기관추천": 24
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9784A",
+    "supply": 166,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 153
+   },
+   {
+    "ty": "84.991B",
+    "supply": 66,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 65
+   },
+   {
+    "ty": "102.7011",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   },
+   {
+    "ty": "116.7297",
+    "supply": 61,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 59
+   },
+   {
+    "ty": "118.1152",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 39
+   }
+  ],
+  "req_total": 21,
+  "rank1_req": 20,
+  "supply_total": 353,
+  "final_shortfall_total": 332,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.06
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 66,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지"
+  ],
+  "peer_avg_pyeong": 2477,
+  "diff": -652,
+  "diff_pct": -26,
+  "rank": 49,
+  "of": 67
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 66,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지"
+  ],
+  "peer_avg_rate": 6.63,
+  "rank": 64,
+  "of": 67
+ }
+}

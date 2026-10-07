@@ -1,0 +1,104 @@
+{
+ "no": "2026000052",
+ "name": "시흥거모B1 호반써밋",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-03-13",
+ "rank1_date": "2026-03-24",
+ "city": "시흥시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000052&pblancNo=2026000052",
+ "households": 310,
+ "types": [
+  {
+   "ty": "84.9979A",
+   "size": 84,
+   "price": 59760,
+   "area_m2": 111.2394,
+   "general": 76,
+   "special": 157,
+   "pyeong_price": 1776,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84.9313B",
+   "size": 84,
+   "price": 59690,
+   "area_m2": 111.8105,
+   "general": 34,
+   "special": 43,
+   "pyeong_price": 1765,
+   "special_share_pct": 56
+  }
+ ],
+ "general_total": 110,
+ "special_total": 200,
+ "special_share_pct": 65,
+ "pyeong_min": 1765,
+ "pyeong_max": 1776,
+ "pyeong_avg": 1773,
+ "price_84_min": 59690,
+ "price_84_max": 59760,
+ "special_kinds": {
+  "신혼부부": 71,
+  "생애최초": 58,
+  "다자녀": 31,
+  "노부모 부양": 9,
+  "기관추천": 31
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9979A",
+    "supply": 200,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   },
+   {
+    "ty": "84.9313B",
+    "supply": 70,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 24
+   }
+  ],
+  "req_total": 135,
+  "rank1_req": 91,
+  "supply_total": 270,
+  "final_shortfall_total": 59,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.34
+ },
+ "region_price": {
+  "scope": "시흥시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+   "시흥거모 엘가 로제비앙",
+   "힐스테이트 시흥더클래스"
+  ],
+  "peer_avg_pyeong": 2052,
+  "diff": -279,
+  "diff_pct": -14,
+  "rank": 4,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "시흥시",
+  "peer_count": 4,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+   "시흥거모 엘가 로제비앙",
+   "힐스테이트 시흥더클래스"
+  ],
+  "peer_avg_rate": 0.65,
+  "rank": 4,
+  "of": 5
+ }
+}

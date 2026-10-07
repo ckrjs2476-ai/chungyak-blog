@@ -1,0 +1,164 @@
+{
+ "no": "2025910251",
+ "name": "엘리프 한신더휴 수원 D3블록",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-12-11",
+ "rank1_date": "2025-12-16",
+ "city": "수원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910251&pblancNo=2025910251",
+ "households": 130,
+ "types": [
+  {
+   "ty": "74.92A",
+   "size": 74,
+   "price": 70900,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.99A",
+   "size": 84,
+   "price": 79500,
+   "area_m2": null,
+   "general": 27,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.99B",
+   "size": 84,
+   "price": 77600,
+   "area_m2": null,
+   "general": 75,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "92.99A",
+   "size": 92,
+   "price": 82300,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "92.99B",
+   "size": 92,
+   "price": 79800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "112.81A",
+   "size": 112,
+   "price": 89100,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "120.504A",
+   "size": 120,
+   "price": 140000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "120.9992B",
+   "size": 120,
+   "price": 139900,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 130,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 77600,
+ "price_84_max": 79500,
+ "competition": {
+  "types": [
+   {
+    "ty": "74.92A",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 2.89,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99A",
+    "supply": 27,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "84.99B",
+    "supply": 75,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 42
+   },
+   {
+    "ty": "92.99A",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "92.99B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "112.81A",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "120.504A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.9992B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 90,
+  "rank1_req": 0,
+  "supply_total": 130,
+  "final_shortfall_total": 58,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 8,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.92A",
+   "rate": 2.89,
+   "stage": "None순위 None"
+  }
+ }
+}

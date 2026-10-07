@@ -1,0 +1,251 @@
+{
+ "no": "2025000560",
+ "name": "시티오씨엘 8단지",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2025-11-21",
+ "rank1_date": "2025-12-02",
+ "city": "미추홀구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000560&pblancNo=2025000560",
+ "households": 1349,
+ "types": [
+  {
+   "ty": "59.9801",
+   "size": 59,
+   "price": 47770,
+   "area_m2": 83.3375,
+   "general": 73,
+   "special": 84,
+   "pyeong_price": 1895,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "75.9096",
+   "size": 75,
+   "price": 59980,
+   "area_m2": 103.1348,
+   "general": 71,
+   "special": 82,
+   "pyeong_price": 1923,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9771A",
+   "size": 84,
+   "price": 67080,
+   "area_m2": 114.883,
+   "general": 258,
+   "special": 311,
+   "pyeong_price": 1930,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9966B",
+   "size": 84,
+   "price": 64090,
+   "area_m2": 114.849,
+   "general": 114,
+   "special": 137,
+   "pyeong_price": 1845,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8478C",
+   "size": 84,
+   "price": 63140,
+   "area_m2": 114.9252,
+   "general": 38,
+   "special": 44,
+   "pyeong_price": 1816,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "101.9556",
+   "size": 101,
+   "price": 79440,
+   "area_m2": 136.5624,
+   "general": 80,
+   "special": 12,
+   "pyeong_price": 1923,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "110.7134",
+   "size": 110,
+   "price": 87640,
+   "area_m2": 149.1861,
+   "general": 37,
+   "special": 5,
+   "pyeong_price": 1942,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "136.003P",
+   "size": 136,
+   "price": 133750,
+   "area_m2": 188.0943,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 2351,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 674,
+ "special_total": 675,
+ "special_share_pct": 50,
+ "pyeong_min": 1816,
+ "pyeong_max": 2351,
+ "pyeong_avg": 1903,
+ "price_84_min": 63140,
+ "price_84_max": 67080,
+ "special_kinds": {
+  "신혼부부": 276,
+  "생애최초": 107,
+  "다자녀": 132,
+  "노부모 부양": 41,
+  "기관추천": 119
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9801",
+    "supply": 73,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.9096",
+    "supply": 87,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.13,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9771A",
+    "supply": 507,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 206
+   },
+   {
+    "ty": "84.9966B",
+    "supply": 247,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 195
+   },
+   {
+    "ty": "84.8478C",
+    "supply": 75,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 54
+   },
+   {
+    "ty": "101.9556",
+    "supply": 91,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 50
+   },
+   {
+    "ty": "110.7134",
+    "supply": 41,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   },
+   {
+    "ty": "136.003P",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1280,
+  "rank1_req": 1087,
+  "supply_total": 1124,
+  "final_shortfall_total": 531,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 8,
+  "rank1_avg_rate": 0.97,
+  "best": {
+   "ty": "59.9801",
+   "rate": 6.22,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9801",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9801": 0,
+   "75.9096": 0
+  },
+  "avg_min": 18.0,
+  "max": {
+   "score": 63,
+   "ty": "59.9801"
+  }
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 24,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)"
+  ],
+  "peer_avg_pyeong": 2396,
+  "diff": -493,
+  "diff_pct": -21,
+  "rank": 16,
+  "of": 25
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 24,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)"
+  ],
+  "peer_avg_rate": 8.6,
+  "rank": 13,
+  "of": 25
+ },
+ "region_score": {
+  "scope": "인천",
+  "peer_count": 16,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_min": 34.4,
+  "diff": -34.4
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)금강주택",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-18",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-18",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://대야미역금강펜테리움레이크포레.com",
+  "HOUSE_MANAGE_NO": "2025910160",
+  "HOUSE_NM": "대야미역 금강펜테리움 레이크포레(B1BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 군포시 군포대야미 공공주택지구 B1블럭(경기도 군포시 속달동 90-3번지 일원) ",
+  "HSSPLY_ZIP": "15890",
+  "MDHS_TELNO": "16007699",
+  "MVN_PREARNGE_YM": "202805",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910160",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910160&pblancNo=2025910160",
+  "PRZWNER_PRESNATN_DE": "2025-09-11",
+  "RCRIT_PBLANC_DE": "2025-09-03",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-08",
+  "TOT_SUPLY_HSHLDCO": 195
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910160",
+   "HOUSE_TY": "084.9966A",
+   "LTTOT_TOP_AMOUNT": "70340",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910160",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 88
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910160",
+   "HOUSE_TY": "084.9321B",
+   "LTTOT_TOP_AMOUNT": "70260",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910160",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 99
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910160",
+   "HOUSE_TY": "084.9964C",
+   "LTTOT_TOP_AMOUNT": "70310",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910160",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 8
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△77)",
+   "HOUSE_MANAGE_NO": "2025910160",
+   "HOUSE_TY": "084.9321B",
+   "PBLANC_NO": "2025910160",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "22",
+   "SUPLY_HSHLDCO": 99
+  },
+  {
+   "CMPET_RATE": "1.25",
+   "HOUSE_MANAGE_NO": "2025910160",
+   "HOUSE_TY": "084.9964C",
+   "PBLANC_NO": "2025910160",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "CMPET_RATE": "(△32)",
+   "HOUSE_MANAGE_NO": "2025910160",
+   "HOUSE_TY": "084.9966A",
+   "PBLANC_NO": "2025910160",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "56",
+   "SUPLY_HSHLDCO": 88
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:28.022218+09:00"
+}

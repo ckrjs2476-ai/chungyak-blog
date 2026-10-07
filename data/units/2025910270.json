@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "교보자산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-22",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.성산더리브포레스트.com",
+  "HOUSE_MANAGE_NO": "2025910270",
+  "HOUSE_NM": "성산 더리브 포레스트",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상남도 창원시 성산구 신촌동 34-1번지 일원 ",
+  "HSSPLY_ZIP": "51564",
+  "MDHS_TELNO": "0552771025",
+  "MVN_PREARNGE_YM": "202712",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910270",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910270&pblancNo=2025910270",
+  "PRZWNER_PRESNATN_DE": "2026-01-16",
+  "RCRIT_PBLANC_DE": "2026-01-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "621",
+  "SUBSCRPT_AREA_CODE_NM": "경남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-12",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-12",
+  "TOT_SUPLY_HSHLDCO": 21
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910270",
+   "HOUSE_TY": "059.3860A",
+   "LTTOT_TOP_AMOUNT": "38000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910270",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 13
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910270",
+   "HOUSE_TY": "059.3960B",
+   "LTTOT_TOP_AMOUNT": "36120",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910270",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 8
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△5)",
+   "HOUSE_MANAGE_NO": "2025910270",
+   "HOUSE_TY": "059.3860A",
+   "PBLANC_NO": "2025910270",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 13
+  },
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2025910270",
+   "HOUSE_TY": "059.3960B",
+   "PBLANC_NO": "2025910270",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 8
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:28.549747+09:00"
+}

@@ -1,0 +1,188 @@
+{
+ "no": "2026000085",
+ "name": "힐스테이트 평거 센트럴",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-04-10",
+ "rank1_date": "2026-04-21",
+ "city": "진주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000085&pblancNo=2026000085",
+ "households": 261,
+ "types": [
+  {
+   "ty": "84.3746A",
+   "size": 84,
+   "price": 66000,
+   "area_m2": 121.1632,
+   "general": 48,
+   "special": 54,
+   "pyeong_price": 1801,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9824B",
+   "size": 84,
+   "price": 66600,
+   "area_m2": 122.369,
+   "general": 12,
+   "special": 14,
+   "pyeong_price": 1799,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "105.9633A",
+   "size": 105,
+   "price": 90400,
+   "area_m2": 151.3355,
+   "general": 70,
+   "special": 9,
+   "pyeong_price": 1975,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "105.643B",
+   "size": 105,
+   "price": 89400,
+   "area_m2": 150.6206,
+   "general": 24,
+   "special": 3,
+   "pyeong_price": 1962,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "105.5065C",
+   "size": 105,
+   "price": 91200,
+   "area_m2": 151.5581,
+   "general": 24,
+   "special": 3,
+   "pyeong_price": 1989,
+   "special_share_pct": 11
+  }
+ ],
+ "general_total": 178,
+ "special_total": 83,
+ "special_share_pct": 32,
+ "pyeong_min": 1799,
+ "pyeong_max": 1989,
+ "pyeong_avg": 1890,
+ "price_84_min": 66000,
+ "price_84_max": 66600,
+ "special_kinds": {
+  "신혼부부": 29,
+  "생애최초": 11,
+  "다자녀": 23,
+  "노부모 부양": 8,
+  "기관추천": 12
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.3746A",
+    "supply": 48,
+    "closed_at": "1순위 해당지역",
+    "rate": 27.23,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9824B",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 118.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "105.9633A",
+    "supply": 75,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.03,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "105.643B",
+    "supply": 25,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.08,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "105.5065C",
+    "supply": 24,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.21,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 4093,
+  "rank1_req": 3753,
+  "supply_total": 184,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 20.4,
+  "best": {
+   "ty": "84.9824B",
+   "rate": 118.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.3746A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.3746A": 0,
+   "84.9824B": 0
+  },
+  "avg_min": 30.8,
+  "max": {
+   "score": 79,
+   "ty": "84.9824B"
+  }
+ },
+ "region_price": {
+  "scope": "진주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "포레나힐스테이트 진주",
+   "진주 판문지구 레이크써밋 웰가"
+  ],
+  "peer_avg_pyeong": 1623,
+  "diff": 267,
+  "diff_pct": 16,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "진주시",
+  "peer_count": 2,
+  "peers": [
+   "포레나힐스테이트 진주",
+   "진주 판문지구 레이크써밋 웰가"
+  ],
+  "peer_avg_rate": 28.05,
+  "rank": 3,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "경남",
+  "peer_count": 11,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

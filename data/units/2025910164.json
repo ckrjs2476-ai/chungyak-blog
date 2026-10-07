@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "우리자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-15",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-15",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.해링턴플레이스풍무.com",
+  "HOUSE_MANAGE_NO": "2025910164",
+  "HOUSE_NM": "해링턴플레이스 풍무(3BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 김포시 풍무동 370-37번지 일대 (경기도 김포시 풍무 양도지구 도시개발사업 공동주택 3단지)",
+  "HSSPLY_ZIP": "10113",
+  "MDHS_TELNO": "18779877",
+  "MVN_PREARNGE_YM": "202808",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910164",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910164&pblancNo=2025910164",
+  "PRZWNER_PRESNATN_DE": "2025-09-12",
+  "RCRIT_PBLANC_DE": "2025-09-04",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-09",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-09",
+  "TOT_SUPLY_HSHLDCO": 35
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910164",
+   "HOUSE_TY": "059.9584A",
+   "LTTOT_TOP_AMOUNT": "59600",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910164",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 35
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.11",
+   "HOUSE_MANAGE_NO": "2025910164",
+   "HOUSE_TY": "059.9584A",
+   "PBLANC_NO": "2025910164",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "74",
+   "SUPLY_HSHLDCO": 35
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:24.239399+09:00"
+}

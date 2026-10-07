@@ -1,0 +1,219 @@
+{
+ "no": "2025000469",
+ "name": "효성해링턴 플레이스 양평",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-07",
+ "rank1_date": "2025-11-18",
+ "city": "양평군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000469&pblancNo=2025000469",
+ "households": 455,
+ "types": [
+  {
+   "ty": "72.464",
+   "size": 72,
+   "price": 46570,
+   "area_m2": 94.0213,
+   "general": 16,
+   "special": 31,
+   "pyeong_price": 1637,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "74.0874",
+   "size": 74,
+   "price": 47110,
+   "area_m2": 96.0199,
+   "general": 66,
+   "special": 70,
+   "pyeong_price": 1622,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "84.9629A",
+   "size": 84,
+   "price": 55770,
+   "area_m2": 109.7614,
+   "general": 52,
+   "special": 60,
+   "pyeong_price": 1680,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.7345B",
+   "size": 84,
+   "price": 55030,
+   "area_m2": 109.4115,
+   "general": 38,
+   "special": 50,
+   "pyeong_price": 1663,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.9188C",
+   "size": 84,
+   "price": 55770,
+   "area_m2": 109.9523,
+   "general": 31,
+   "special": 35,
+   "pyeong_price": 1677,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "117.5352A",
+   "size": 117,
+   "price": 138430,
+   "area_m2": 154.7707,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2957,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "117.9557B",
+   "size": 117,
+   "price": 138430,
+   "area_m2": 155.4746,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2943,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "117.9547C",
+   "size": 117,
+   "price": 138430,
+   "area_m2": 153.3034,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 2985,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 209,
+ "special_total": 246,
+ "special_share_pct": 54,
+ "pyeong_min": 1622,
+ "pyeong_max": 2985,
+ "pyeong_avg": 1671,
+ "price_84_min": 55030,
+ "price_84_max": 55770,
+ "special_kinds": {
+  "신혼부부": 103,
+  "생애최초": 40,
+  "다자녀": 45,
+  "노부모 부양": 13,
+  "기관추천": 45
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "72.464",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 31
+   },
+   {
+    "ty": "74.0874",
+    "supply": 133,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 108
+   },
+   {
+    "ty": "84.9629A",
+    "supply": 106,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 37
+   },
+   {
+    "ty": "84.7345B",
+    "supply": 86,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 52
+   },
+   {
+    "ty": "84.9188C",
+    "supply": 64,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 49
+   },
+   {
+    "ty": "117.5352A",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "117.9557B",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "117.9547C",
+    "supply": 3,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 166,
+  "rank1_req": 84,
+  "supply_total": 439,
+  "final_shortfall_total": 278,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 8,
+  "rank1_avg_rate": 0.19,
+  "best": {
+   "ty": "117.9547C",
+   "rate": 1.5,
+   "stage": "2순위 기타지역"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 60,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
+  ],
+  "peer_avg_pyeong": 2495,
+  "diff": -824,
+  "diff_pct": -33,
+  "rank": 49,
+  "of": 61
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 60,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
+  ],
+  "peer_avg_rate": 7.04,
+  "rank": 51,
+  "of": 61
+ }
+}

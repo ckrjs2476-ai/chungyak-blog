@@ -1,0 +1,89 @@
+{
+ "no": "2026000307",
+ "name": "군포대야미지구 A-1블록 6년 분양전환공공임대주택(본청약)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-06-30",
+ "rank1_date": "2026-07-13",
+ "city": "군포시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000307&pblancNo=2026000307",
+ "households": 377,
+ "types": [
+  {
+   "ty": "55A",
+   "size": 55,
+   "price": 8561,
+   "area_m2": 77.858,
+   "general": 1,
+   "special": 21,
+   "pyeong_price": 363,
+   "special_share_pct": 95
+  },
+  {
+   "ty": "59A",
+   "size": 59,
+   "price": 9629,
+   "area_m2": 83.467,
+   "general": 4,
+   "special": 67,
+   "pyeong_price": 381,
+   "special_share_pct": 94
+  },
+  {
+   "ty": "59B",
+   "size": 59,
+   "price": 9589,
+   "area_m2": 83.2861,
+   "general": 1,
+   "special": 26,
+   "pyeong_price": 381,
+   "special_share_pct": 96
+  },
+  {
+   "ty": "59C",
+   "size": 59,
+   "price": 9581,
+   "area_m2": 83.4531,
+   "general": 1,
+   "special": 27,
+   "pyeong_price": 380,
+   "special_share_pct": 96
+  }
+ ],
+ "general_total": 7,
+ "special_total": 141,
+ "special_share_pct": 95,
+ "pyeong_min": 363,
+ "pyeong_max": 381,
+ "pyeong_avg": 378,
+ "special_kinds": {
+  "신혼부부": 15,
+  "생애최초": 15,
+  "신생아": 44,
+  "다자녀": 15,
+  "노부모 부양": 8,
+  "기관추천": 21,
+  "청년": 23
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 20,
+  "peers": [
+   "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
+   "고덕신도시 아테라 A-63블록 공공분양주택",
+   "안양 에버포레 자연앤 e편한세상(A2BL)",
+   "고양 창릉 우미 린 그레니티 공공분양주택(본청약)",
+   "왕숙 아테라 공공분양주택(본청약)",
+   "남양주왕숙2 A-3블록 공공분양주택(본청약)",
+   "화성동탄2지구 C-27블록 공공분양주택",
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 1915,
+  "diff": -1537,
+  "diff_pct": -80,
+  "rank": 21,
+  "of": 21
+ }
+}

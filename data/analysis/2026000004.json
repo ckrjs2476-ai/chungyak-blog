@@ -1,0 +1,175 @@
+{
+ "no": "2026000004",
+ "name": "남울산 노르웨이숲(조합원 취소분)",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-01-16",
+ "rank1_date": "2026-01-27",
+ "city": "울주군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000004&pblancNo=2026000004",
+ "households": 31,
+ "types": [
+  {
+   "ty": "59.9957A",
+   "size": 59,
+   "price": 34100,
+   "area_m2": 81.0764,
+   "general": 1,
+   "special": 5,
+   "pyeong_price": 1390,
+   "special_share_pct": 83
+  },
+  {
+   "ty": "59.9734B",
+   "size": 59,
+   "price": 33000,
+   "area_m2": 81.7591,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1334,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.5847A",
+   "size": 74,
+   "price": 41800,
+   "area_m2": 99.6395,
+   "general": 1,
+   "special": 4,
+   "pyeong_price": 1387,
+   "special_share_pct": 80
+  },
+  {
+   "ty": "74.9026B",
+   "size": 74,
+   "price": 41100,
+   "area_m2": 100.9108,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1346,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.935A",
+   "size": 84,
+   "price": 48000,
+   "area_m2": 113.0813,
+   "general": 2,
+   "special": 9,
+   "pyeong_price": 1403,
+   "special_share_pct": 82
+  },
+  {
+   "ty": "84.4955B",
+   "size": 84,
+   "price": 46600,
+   "area_m2": 113.0982,
+   "general": 3,
+   "special": 3,
+   "pyeong_price": 1362,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 9,
+ "special_total": 22,
+ "special_share_pct": 71,
+ "pyeong_min": 1334,
+ "pyeong_max": 1403,
+ "pyeong_avg": 1384,
+ "price_84_min": 46600,
+ "price_84_max": 48000,
+ "special_kinds": {
+  "신혼부부": 8,
+  "생애최초": 3,
+  "다자녀": 5,
+  "노부모 부양": 1,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9957A",
+    "supply": 5,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9734B",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "74.5847A",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "74.9026B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "84.935A",
+    "supply": 11,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "84.4955B",
+    "supply": 6,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   }
+  ],
+  "req_total": 10,
+  "rank1_req": 5,
+  "supply_total": 30,
+  "final_shortfall_total": 21,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.17,
+  "best": {
+   "ty": "59.9957A",
+   "rate": 2.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "울주군",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "울산역 폴리시아 아이유쉘",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "센텀 엘카사"
+  ],
+  "peer_avg_pyeong": 1356,
+  "diff": 28,
+  "diff_pct": 2,
+  "rank": 2,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "울주군",
+  "peer_count": 3,
+  "peers": [
+   "울산역 폴리시아 아이유쉘",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "센텀 엘카사"
+  ],
+  "peer_avg_rate": 0.09,
+  "rank": 2,
+  "of": 4
+ }
+}

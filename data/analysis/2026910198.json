@@ -1,0 +1,50 @@
+{
+ "no": "2026910198",
+ "name": "판교TH212",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-07-22",
+ "rank1_date": "2026-07-27",
+ "city": "성남시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910198&pblancNo=2026910198",
+ "households": 1,
+ "types": [
+  {
+   "ty": "135.4547T",
+   "size": 135,
+   "price": 171500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "135.4547T",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 244.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 244,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "135.4547T",
+   "rate": 244.0,
+   "stage": "None순위 None"
+  }
+ }
+}

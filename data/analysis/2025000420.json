@@ -1,0 +1,205 @@
+{
+ "no": "2025000420",
+ "name": "성산 더리브 포레스트",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-25",
+ "city": "창원시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000420&pblancNo=2025000420",
+ "households": 143,
+ "types": [
+  {
+   "ty": "59.386A",
+   "size": 59,
+   "price": 38000,
+   "area_m2": 88.1767,
+   "general": 7,
+   "special": 8,
+   "pyeong_price": 1425,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "59.396B",
+   "size": 59,
+   "price": 36120,
+   "area_m2": 86.0796,
+   "general": 5,
+   "special": 5,
+   "pyeong_price": 1387,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "72.8917A",
+   "size": 72,
+   "price": 47012,
+   "area_m2": 103.503,
+   "general": 16,
+   "special": 19,
+   "pyeong_price": 1502,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "72.4955B",
+   "size": 72,
+   "price": 46702,
+   "area_m2": 103.3397,
+   "general": 11,
+   "special": 13,
+   "pyeong_price": 1494,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.8783A",
+   "size": 84,
+   "price": 51300,
+   "area_m2": 115.1288,
+   "general": 11,
+   "special": 15,
+   "pyeong_price": 1473,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "84.3662B",
+   "size": 84,
+   "price": 51300,
+   "area_m2": 115.1086,
+   "general": 15,
+   "special": 18,
+   "pyeong_price": 1473,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 65,
+ "special_total": 78,
+ "special_share_pct": 55,
+ "pyeong_min": 1387,
+ "pyeong_max": 1502,
+ "pyeong_avg": 1473,
+ "price_84_min": 51300,
+ "price_84_max": 51300,
+ "special_kinds": {
+  "신혼부부": 33,
+  "생애최초": 13,
+  "다자녀": 14,
+  "노부모 부양": 4,
+  "기관추천": 14
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.386A",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.29,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.396B",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "72.8917A",
+    "supply": 33,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "72.4955B",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "84.8783A",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.3662B",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 29
+   }
+  ],
+  "req_total": 74,
+  "rank1_req": 48,
+  "supply_total": 123,
+  "final_shortfall_total": 73,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 6,
+  "rank1_avg_rate": 0.39,
+  "best": {
+   "ty": "59.386A",
+   "rate": 2.29,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.386A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.386A": 0,
+   "59.396B": 0
+  },
+  "avg_min": 16.8,
+  "max": {
+   "score": 57,
+   "ty": "59.386A"
+  }
+ },
+ "region_price": {
+  "scope": "창원시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "창원 센트럴 아이파크",
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_pyeong": 2174,
+  "diff": -701,
+  "diff_pct": -32,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "창원시",
+  "peer_count": 4,
+  "peers": [
+   "창원 센트럴 아이파크",
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_rate": 188.71,
+  "rank": 5,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "창원시",
+  "peer_count": 4,
+  "peers": [
+   "창원 센트럴 아이파크",
+   "창원자이 더 스카이",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

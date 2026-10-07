@@ -1,0 +1,181 @@
+{
+ "no": "2026000187",
+ "name": "엘리프 역곡",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-05-14",
+ "rank1_date": "2026-05-27",
+ "city": "부천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000187&pblancNo=2026000187",
+ "households": 44,
+ "types": [
+  {
+   "ty": "46.88",
+   "size": 46,
+   "price": 51700,
+   "area_m2": 63.86,
+   "general": 10,
+   "special": 5,
+   "pyeong_price": 2676,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "59.95",
+   "size": 59,
+   "price": 67260,
+   "area_m2": 81.42,
+   "general": 8,
+   "special": 11,
+   "pyeong_price": 2731,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "74.93A",
+   "size": 74,
+   "price": 83710,
+   "area_m2": 101.34,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2731,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.93B",
+   "size": 74,
+   "price": 86310,
+   "area_m2": 101.39,
+   "general": 1,
+   "special": 7,
+   "pyeong_price": 2814,
+   "special_share_pct": 88
+  }
+ ],
+ "general_total": 21,
+ "special_total": 23,
+ "special_share_pct": 52,
+ "pyeong_min": 2676,
+ "pyeong_max": 2814,
+ "pyeong_avg": 2727,
+ "special_kinds": {
+  "신혼부부": 9,
+  "생애최초": 4,
+  "다자녀": 4,
+  "노부모 부양": 2,
+  "기관추천": 4
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "46.88",
+    "supply": 10,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.95",
+    "supply": 8,
+    "closed_at": "1순위 기타지역",
+    "rate": 7.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.93A",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.93B",
+    "supply": 5,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 95,
+  "rank1_req": 62,
+  "supply_total": 25,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 2.48,
+  "best": {
+   "ty": "59.95",
+   "rate": 7.5,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "46.88",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "46.88": 0,
+   "59.95": 0,
+   "74.93A": 0,
+   "74.93B": 0
+  },
+  "avg_min": 20.9,
+  "max": {
+   "score": 59,
+   "ty": "74.93B"
+  }
+ },
+ "region_price": {
+  "scope": "부천시",
+  "days": 180,
+  "peer_count": 8,
+  "peers": [
+   "여월 중앙하이츠 아르비채",
+   "쌍용 더 플래티넘 온수역",
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "중동역 다채로움 더원",
+   "상동역 롯데캐슬 시그니처",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_pyeong": 2934,
+  "diff": -207,
+  "diff_pct": -7,
+  "rank": 5,
+  "of": 9
+ },
+ "region_competition": {
+  "scope": "부천시",
+  "peer_count": 8,
+  "peers": [
+   "여월 중앙하이츠 아르비채",
+   "쌍용 더 플래티넘 온수역",
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "중동역 다채로움 더원",
+   "상동역 롯데캐슬 시그니처",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_rate": 2.83,
+  "rank": 3,
+  "of": 9
+ },
+ "region_score": {
+  "scope": "부천시",
+  "peer_count": 6,
+  "peers": [
+   "쌍용 더 플래티넘 온수역",
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "상동역 롯데캐슬 시그니처",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

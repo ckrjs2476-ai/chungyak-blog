@@ -1,0 +1,98 @@
+{
+ "no": "2026910068",
+ "name": "금정산 하늘채 루미엘",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-03-25",
+ "rank1_date": "2026-03-30",
+ "city": "금정구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910068&pblancNo=2026910068",
+ "households": 30,
+ "types": [
+  {
+   "ty": "59.5222A",
+   "size": 59,
+   "price": 68250,
+   "area_m2": null,
+   "general": 19,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.3377B",
+   "size": 59,
+   "price": 67460,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.5582P",
+   "size": 115,
+   "price": 206890,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "128.3603P",
+   "size": 128,
+   "price": 232870,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 30,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.3377B",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "59.5222A",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   },
+   {
+    "ty": "115.5582P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "128.3603P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 7,
+  "rank1_req": 0,
+  "supply_total": 30,
+  "final_shortfall_total": 24,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "115.5582P",
+   "rate": 2.0,
+   "stage": "None순위 None"
+  }
+ }
+}

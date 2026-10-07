@@ -1,0 +1,63 @@
+{
+ "no": "2026910114",
+ "name": "의정부역 센트럴 아이파크",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-05-13",
+ "rank1_date": "2026-05-18",
+ "city": "의정부시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910114&pblancNo=2026910114",
+ "households": 141,
+ "types": [
+  {
+   "ty": "74.6029A",
+   "size": 74,
+   "price": 73700,
+   "area_m2": null,
+   "general": 46,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8422A",
+   "size": 84,
+   "price": 82600,
+   "area_m2": null,
+   "general": 95,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 141,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 82600,
+ "price_84_max": 82600,
+ "competition": {
+  "types": [
+   {
+    "ty": "74.6029A",
+    "supply": 46,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "84.8422A",
+    "supply": 95,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 83
+   }
+  ],
+  "req_total": 33,
+  "rank1_req": 0,
+  "supply_total": 141,
+  "final_shortfall_total": 108,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-13",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-13",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.urich.co.kr",
+  "HOUSE_MANAGE_NO": "2025910194",
+  "HOUSE_NM": "평택 고덕국제신도시 힐스테이트 고덕 스카이시티",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 평택시 고덕국제대로 99, 힐스테이트 고덕 스카이시티",
+  "HSSPLY_ZIP": "18018",
+  "MDHS_TELNO": "0316136313",
+  "MVN_PREARNGE_YM": "202511",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910194",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910194&pblancNo=2025910194",
+  "PRZWNER_PRESNATN_DE": "2025-11-06",
+  "RCRIT_PBLANC_DE": "2025-10-29",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-03",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910194",
+   "HOUSE_TY": "076.3622 ",
+   "LTTOT_TOP_AMOUNT": "43547",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910194",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910194",
+   "HOUSE_TY": "084.1820 ",
+   "LTTOT_TOP_AMOUNT": "50122",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910194",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "16,227.00",
+   "HOUSE_MANAGE_NO": "2025910194",
+   "HOUSE_TY": "076.3622 ",
+   "PBLANC_NO": "2025910194",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "16227",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "28,656.00",
+   "HOUSE_MANAGE_NO": "2025910194",
+   "HOUSE_TY": "084.1820 ",
+   "PBLANC_NO": "2025910194",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "28656",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:07.882355+09:00"
+}

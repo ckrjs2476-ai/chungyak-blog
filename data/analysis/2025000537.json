@@ -1,0 +1,149 @@
+{
+ "no": "2025000537",
+ "name": "성남복정1지구 B1블록 복정역 에피트",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-25",
+ "city": "성남시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000537&pblancNo=2025000537",
+ "households": 315,
+ "types": [
+  {
+   "ty": "84.4484A",
+   "size": 84,
+   "price": 124900,
+   "area_m2": 111.6991,
+   "general": 60,
+   "special": 114,
+   "pyeong_price": 3696,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "84.933B",
+   "size": 84,
+   "price": 119900,
+   "area_m2": 111.9714,
+   "general": 26,
+   "special": 48,
+   "pyeong_price": 3540,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.6066C",
+   "size": 84,
+   "price": 124300,
+   "area_m2": 112.4495,
+   "general": 24,
+   "special": 43,
+   "pyeong_price": 3654,
+   "special_share_pct": 64
+  }
+ ],
+ "general_total": 110,
+ "special_total": 205,
+ "special_share_pct": 65,
+ "pyeong_min": 3540,
+ "pyeong_max": 3696,
+ "pyeong_avg": 3650,
+ "price_84_min": 119900,
+ "price_84_max": 124900,
+ "special_kinds": {
+  "신혼부부": 71,
+  "생애최초": 58,
+  "다자녀": 31,
+  "노부모 부양": 9,
+  "기관추천": 34
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.4484A",
+    "supply": 60,
+    "closed_at": "1순위 해당지역",
+    "rate": 46.35,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.933B",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 24.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6066C",
+    "supply": 24,
+    "closed_at": "1순위 해당지역",
+    "rate": 25.21,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 4010,
+  "rank1_req": 4010,
+  "supply_total": 110,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 36.45,
+  "best": {
+   "ty": "84.4484A",
+   "rate": 46.35,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.4484A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.4484A": 0,
+   "84.933B": 0,
+   "84.6066C": 0
+  },
+  "avg_min": 32.7,
+  "max": {
+   "score": 76,
+   "ty": "84.4484A"
+  }
+ },
+ "region_price": {
+  "scope": "성남시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더샵 분당티에르원",
+   "더샵 분당센트로"
+  ],
+  "peer_avg_pyeong": 6584,
+  "diff": -2934,
+  "diff_pct": -45,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "성남시",
+  "peer_count": 2,
+  "peers": [
+   "더샵 분당티에르원",
+   "더샵 분당센트로"
+  ],
+  "peer_avg_rate": 75.88,
+  "rank": 3,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "성남시",
+  "peer_count": 2,
+  "peers": [
+   "더샵 분당티에르원",
+   "더샵 분당센트로"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

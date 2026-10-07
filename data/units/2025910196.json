@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-29",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-29",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.i-park.com/chuncheonlakecity2",
+  "HOUSE_MANAGE_NO": "2025910196",
+  "HOUSE_NM": "춘천 레이크시티 2차 아이파크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "강원특별자치도 춘천시 삼천동 22-1번지 일원",
+  "HSSPLY_ZIP": "24428",
+  "MDHS_TELNO": "16702180",
+  "MVN_PREARNGE_YM": "202809",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910196",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910196&pblancNo=2025910196",
+  "PRZWNER_PRESNATN_DE": "2025-10-27",
+  "RCRIT_PBLANC_DE": "2025-10-17",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "200",
+  "SUBSCRPT_AREA_CODE_NM": "강원",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-22",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-22",
+  "TOT_SUPLY_HSHLDCO": 7
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910196",
+   "HOUSE_TY": "084.5387A",
+   "LTTOT_TOP_AMOUNT": "51000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910196",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910196",
+   "HOUSE_TY": "144.5227A",
+   "LTTOT_TOP_AMOUNT": "93900",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910196",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "53.33",
+   "HOUSE_MANAGE_NO": "2025910196",
+   "HOUSE_TY": "084.5387A",
+   "PBLANC_NO": "2025910196",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "160",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "9.25",
+   "HOUSE_MANAGE_NO": "2025910196",
+   "HOUSE_TY": "144.5227A",
+   "PBLANC_NO": "2025910196",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "37",
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:30.356134+09:00"
+}

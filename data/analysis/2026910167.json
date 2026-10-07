@@ -1,0 +1,84 @@
+{
+ "no": "2026910167",
+ "name": "오남역 서희스타힐스 여의재 3단지",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-07-01",
+ "rank1_date": "2026-07-06",
+ "city": "남양주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910167&pblancNo=2026910167",
+ "households": 58,
+ "types": [
+  {
+   "ty": "59.7153A",
+   "size": 59,
+   "price": 53400,
+   "area_m2": null,
+   "general": 29,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "75.4603",
+   "size": 75,
+   "price": 64900,
+   "area_m2": null,
+   "general": 18,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9596",
+   "size": 84,
+   "price": 70900,
+   "area_m2": null,
+   "general": 11,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 58,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 70900,
+ "price_84_max": 70900,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7153A",
+    "supply": 29,
+    "closed_at": "None순위 None",
+    "rate": 1.03,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.4603",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "84.9596",
+    "supply": 11,
+    "closed_at": "None순위 None",
+    "rate": 1.82,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 59,
+  "rank1_req": 0,
+  "supply_total": 58,
+  "final_shortfall_total": 9,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9596",
+   "rate": 1.82,
+   "stage": "None순위 None"
+  }
+ }
+}

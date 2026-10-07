@@ -1,0 +1,66 @@
+{
+ "no": "2025910281",
+ "name": "수원 센트럴 아이파크 자이(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-23",
+ "rank1_date": "2026-01-28",
+ "city": "수원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910281&pblancNo=2025910281",
+ "households": 2,
+ "types": [
+  {
+   "ty": "39.77",
+   "size": 39,
+   "price": 27800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "73.94B",
+   "size": 73,
+   "price": 56300,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 2,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "39.77",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 3317.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "73.94B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 32784.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 36101,
+  "rank1_req": 0,
+  "supply_total": 2,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "73.94B",
+   "rate": 32784.0,
+   "stage": "None순위 None"
+  }
+ }
+}

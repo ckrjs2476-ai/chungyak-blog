@@ -1,0 +1,180 @@
+{
+ "no": "2026000293",
+ "name": "리쉐스302",
+ "kind": "apt",
+ "region": "강원",
+ "notice_date": "2026-07-24",
+ "rank1_date": "2026-08-04",
+ "city": "강릉시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000293&pblancNo=2026000293",
+ "households": 302,
+ "types": [
+  {
+   "ty": "128.9471",
+   "size": 128,
+   "price": 78226,
+   "area_m2": 164.1023,
+   "general": 109,
+   "special": 17,
+   "pyeong_price": 1576,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "142.9957",
+   "size": 142,
+   "price": 86897,
+   "area_m2": 182.2919,
+   "general": 17,
+   "special": 4,
+   "pyeong_price": 1576,
+   "special_share_pct": 19
+  },
+  {
+   "ty": "149.9413",
+   "size": 149,
+   "price": 92255,
+   "area_m2": 189.6604,
+   "general": 111,
+   "special": 17,
+   "pyeong_price": 1608,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "156.9185",
+   "size": 156,
+   "price": 97087,
+   "area_m2": 199.5936,
+   "general": 17,
+   "special": 4,
+   "pyeong_price": 1608,
+   "special_share_pct": 19
+  },
+  {
+   "ty": "220.9338P",
+   "size": 220,
+   "price": 166636,
+   "area_m2": 282.6513,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 1949,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "223.9727P",
+   "size": 223,
+   "price": 167888,
+   "area_m2": 287.6226,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1930,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "227.9618P",
+   "size": 227,
+   "price": 172530,
+   "area_m2": 295.5751,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1930,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 260,
+ "special_total": 42,
+ "special_share_pct": 14,
+ "pyeong_min": 1576,
+ "pyeong_max": 1949,
+ "pyeong_avg": 1599,
+ "special_kinds": {
+  "다자녀": 32,
+  "노부모 부양": 10
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "128.9471",
+    "supply": 126,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 122
+   },
+   {
+    "ty": "142.9957",
+    "supply": 21,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 19
+   },
+   {
+    "ty": "149.9413",
+    "supply": 128,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 127
+   },
+   {
+    "ty": "156.9185",
+    "supply": 21,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "220.9338P",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "223.9727P",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "227.9618P",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 7,
+  "rank1_req": 1,
+  "supply_total": 302,
+  "final_shortfall_total": 295,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.0
+ },
+ "region_price": {
+  "scope": "강릉시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "강릉 우미 린 더 프리미어",
+   "강릉 성보필리오 더센트럴힐즈"
+  ],
+  "peer_avg_pyeong": 1704,
+  "diff": -105,
+  "diff_pct": -6,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "강릉시",
+  "peer_count": 2,
+  "peers": [
+   "강릉 우미 린 더 프리미어",
+   "강릉 성보필리오 더센트럴힐즈"
+  ],
+  "peer_avg_rate": 0.15,
+  "rank": 3,
+  "of": 3
+ }
+}

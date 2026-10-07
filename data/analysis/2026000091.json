@@ -1,0 +1,175 @@
+{
+ "no": "2026000091",
+ "name": "소제지구 A4BL 중흥S-클래스 우미린",
+ "kind": "apt",
+ "region": "전남",
+ "notice_date": "2026-04-24",
+ "rank1_date": "2026-05-07",
+ "city": "여수시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000091&pblancNo=2026000091",
+ "households": 584,
+ "types": [
+  {
+   "ty": "84.9587A",
+   "size": 84,
+   "price": 49100,
+   "area_m2": 112.2159,
+   "general": 74,
+   "special": 211,
+   "pyeong_price": 1446,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "84.9965B",
+   "size": 84,
+   "price": 49000,
+   "area_m2": 111.8326,
+   "general": 35,
+   "special": 96,
+   "pyeong_price": 1448,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "84.9625C",
+   "size": 84,
+   "price": 49300,
+   "area_m2": 112.6864,
+   "general": 25,
+   "special": 66,
+   "pyeong_price": 1446,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "84.9538D",
+   "size": 84,
+   "price": 49000,
+   "area_m2": 111.9577,
+   "general": 13,
+   "special": 30,
+   "pyeong_price": 1447,
+   "special_share_pct": 70
+  },
+  {
+   "ty": "84.9531E",
+   "size": 84,
+   "price": 48800,
+   "area_m2": 112.6162,
+   "general": 8,
+   "special": 9,
+   "pyeong_price": 1433,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9923F",
+   "size": 84,
+   "price": 49100,
+   "area_m2": 113.2776,
+   "general": 8,
+   "special": 9,
+   "pyeong_price": 1433,
+   "special_share_pct": 53
+  }
+ ],
+ "general_total": 163,
+ "special_total": 421,
+ "special_share_pct": 72,
+ "pyeong_min": 1433,
+ "pyeong_max": 1448,
+ "pyeong_avg": 1446,
+ "price_84_min": 48800,
+ "price_84_max": 49300,
+ "special_kinds": {
+  "신혼부부": 130,
+  "생애최초": 109,
+  "다자녀": 56,
+  "노부모 부양": 14,
+  "기관추천": 56
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9587A",
+    "supply": 227,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9965B",
+    "supply": 117,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 72
+   },
+   {
+    "ty": "84.9625C",
+    "supply": 77,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "84.9538D",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "84.9531E",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "84.9923F",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.77,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 496,
+  "rank1_req": 404,
+  "supply_total": 491,
+  "final_shortfall_total": 102,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 6,
+  "rank1_avg_rate": 0.82,
+  "best": {
+   "ty": "84.9923F",
+   "rate": 1.77,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "여수시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "효성해링턴 플레이스 여수",
+   "e편한세상 여수 글렌츠",
+   "소제지구 A3BL 중흥S-클래스 우미린"
+  ],
+  "peer_avg_pyeong": 1614,
+  "diff": -168,
+  "diff_pct": -10,
+  "rank": 3,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "여수시",
+  "peer_count": 3,
+  "peers": [
+   "효성해링턴 플레이스 여수",
+   "e편한세상 여수 글렌츠",
+   "소제지구 A3BL 중흥S-클래스 우미린"
+  ],
+  "peer_avg_rate": 0.46,
+  "rank": 2,
+  "of": 4
+ }
+}

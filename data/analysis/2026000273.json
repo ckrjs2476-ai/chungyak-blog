@@ -1,0 +1,290 @@
+{
+ "no": "2026000273",
+ "name": "펜타힐즈 더블유 1단지",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2026-06-19",
+ "rank1_date": "2026-06-30",
+ "city": "경산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000273&pblancNo=2026000273",
+ "households": 1712,
+ "types": [
+  {
+   "ty": "84.8315A",
+   "size": 84,
+   "price": 69100,
+   "area_m2": 113.9,
+   "general": 108,
+   "special": 127,
+   "pyeong_price": 2006,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9186B",
+   "size": 84,
+   "price": 69930,
+   "area_m2": 113.2098,
+   "general": 104,
+   "special": 131,
+   "pyeong_price": 2042,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "115.5495A",
+   "size": 115,
+   "price": 88730,
+   "area_m2": 152.6652,
+   "general": 286,
+   "special": 43,
+   "pyeong_price": 1921,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "115.5735B",
+   "size": 115,
+   "price": 89940,
+   "area_m2": 153.5486,
+   "general": 122,
+   "special": 19,
+   "pyeong_price": 1936,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "123.7307A",
+   "size": 123,
+   "price": 98890,
+   "area_m2": 163.6066,
+   "general": 117,
+   "special": 18,
+   "pyeong_price": 1998,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "123.3693B",
+   "size": 123,
+   "price": 102810,
+   "area_m2": 163.4123,
+   "general": 118,
+   "special": 18,
+   "pyeong_price": 2080,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "132.9336A",
+   "size": 132,
+   "price": 107360,
+   "area_m2": 172.4037,
+   "general": 99,
+   "special": 14,
+   "pyeong_price": 2059,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "137.563B",
+   "size": 137,
+   "price": 119750,
+   "area_m2": 181.0645,
+   "general": 78,
+   "special": 12,
+   "pyeong_price": 2186,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "137.8565C",
+   "size": 137,
+   "price": 119910,
+   "area_m2": 181.3047,
+   "general": 160,
+   "special": 24,
+   "pyeong_price": 2186,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "152.3788A",
+   "size": 152,
+   "price": 134830,
+   "area_m2": 198.7251,
+   "general": 51,
+   "special": 6,
+   "pyeong_price": 2243,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "152.3629B",
+   "size": 152,
+   "price": 135980,
+   "area_m2": 198.4418,
+   "general": 51,
+   "special": 6,
+   "pyeong_price": 2265,
+   "special_share_pct": 11
+  }
+ ],
+ "general_total": 1294,
+ "special_total": 418,
+ "special_share_pct": 24,
+ "pyeong_min": 1921,
+ "pyeong_max": 2265,
+ "pyeong_avg": 2043,
+ "price_84_min": 69100,
+ "price_84_max": 69930,
+ "special_kinds": {
+  "신혼부부": 70,
+  "생애최초": 32,
+  "신생아": 47,
+  "다자녀": 171,
+  "노부모 부양": 51,
+  "기관추천": 47
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8315A",
+    "supply": 134,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.44,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9186B",
+    "supply": 104,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.62,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.5495A",
+    "supply": 329,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.9,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.5735B",
+    "supply": 140,
+    "closed_at": "2순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "123.7307A",
+    "supply": 134,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 112
+   },
+   {
+    "ty": "123.3693B",
+    "supply": 136,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 85
+   },
+   {
+    "ty": "132.9336A",
+    "supply": 112,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 84
+   },
+   {
+    "ty": "137.563B",
+    "supply": 90,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 46
+   },
+   {
+    "ty": "137.8565C",
+    "supply": 182,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 68
+   },
+   {
+    "ty": "152.3788A",
+    "supply": 57,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   },
+   {
+    "ty": "152.3629B",
+    "supply": 57,
+    "closed_at": "2순위 기타지역",
+    "rate": 5.25,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 3883,
+  "rank1_req": 3519,
+  "supply_total": 1475,
+  "final_shortfall_total": 421,
+  "closed_types": 5,
+  "rank1_closed_types": 2,
+  "type_count": 11,
+  "rank1_avg_rate": 2.39,
+  "best": {
+   "ty": "84.9186B",
+   "rate": 11.62,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.8315A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.8315A": 0,
+   "84.9186B": 0
+  },
+  "avg_min": 21.8,
+  "max": {
+   "score": 74,
+   "ty": "84.8315A"
+  }
+ },
+ "region_price": {
+  "scope": "경북",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트",
+   "상주북천 하늘채 파크원"
+  ],
+  "peer_avg_pyeong": 1432,
+  "diff": 611,
+  "diff_pct": 43,
+  "rank": 1,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "경북",
+  "peer_count": 4,
+  "peers": [
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트",
+   "상주북천 하늘채 파크원"
+  ],
+  "peer_avg_rate": 3.07,
+  "rank": 3,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "경북",
+  "peer_count": 3,
+  "peers": [
+   "상주자이르네",
+   "더샵 안동더퍼스트",
+   "상주북천 하늘채 파크원"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

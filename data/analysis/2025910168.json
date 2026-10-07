@@ -1,0 +1,84 @@
+{
+ "no": "2025910168",
+ "name": "파주운정 경남아너스빌 리버(A48블록)(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-09-05",
+ "rank1_date": "2025-09-10",
+ "city": "파주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910168&pblancNo=2025910168",
+ "households": 6,
+ "types": [
+  {
+   "ty": "59.5855A",
+   "size": 59,
+   "price": 39550,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9772B",
+   "size": 59,
+   "price": 37000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.234A",
+   "size": 84,
+   "price": 48460,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 48460,
+ "price_84_max": 48460,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.5855A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 118.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9772B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 81.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.234A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 148.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 762,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.234A",
+   "rate": 148.33,
+   "stage": "None순위 None"
+  }
+ }
+}

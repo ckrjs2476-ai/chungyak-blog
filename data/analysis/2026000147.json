@@ -1,0 +1,129 @@
+{
+ "no": "2026000147",
+ "name": "힐스테이트 구월아트파크",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-05-06",
+ "rank1_date": "2026-05-19",
+ "city": "남동구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000147&pblancNo=2026000147",
+ "households": 496,
+ "types": [
+  {
+   "ty": "84.9907A",
+   "size": 84,
+   "price": 88800,
+   "area_m2": 120.5018,
+   "general": 112,
+   "special": 136,
+   "pyeong_price": 2436,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9971B",
+   "size": 84,
+   "price": 91300,
+   "area_m2": 120.7436,
+   "general": 57,
+   "special": 67,
+   "pyeong_price": 2500,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "101.9965",
+   "size": 101,
+   "price": 112900,
+   "area_m2": 143.6164,
+   "general": 110,
+   "special": 14,
+   "pyeong_price": 2599,
+   "special_share_pct": 11
+  }
+ ],
+ "general_total": 279,
+ "special_total": 217,
+ "special_share_pct": 44,
+ "pyeong_min": 2436,
+ "pyeong_max": 2599,
+ "pyeong_avg": 2493,
+ "price_84_min": 88800,
+ "price_84_max": 91300,
+ "special_kinds": {
+  "신혼부부": 85,
+  "생애최초": 33,
+  "다자녀": 48,
+  "노부모 부양": 14,
+  "기관추천": 37
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9907A",
+    "supply": 219,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "84.9971B",
+    "supply": 109,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "101.9965",
+    "supply": 123,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 71
+   }
+  ],
+  "req_total": 345,
+  "rank1_req": 272,
+  "supply_total": 451,
+  "final_shortfall_total": 106,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.6
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 23,
+  "peers": [
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)"
+  ],
+  "peer_avg_pyeong": 2392,
+  "diff": 101,
+  "diff_pct": 4,
+  "rank": 9,
+  "of": 24
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 23,
+  "peers": [
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)"
+  ],
+  "peer_avg_rate": 9.44,
+  "rank": 16,
+  "of": 24
+ }
+}

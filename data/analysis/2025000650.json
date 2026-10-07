@@ -1,0 +1,153 @@
+{
+ "no": "2025000650",
+ "name": "힐스테이트 물금센트럴",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2025-12-31",
+ "rank1_date": "2026-01-13",
+ "city": "양산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000650&pblancNo=2025000650",
+ "households": 162,
+ "types": [
+  {
+   "ty": "76.9924",
+   "size": 76,
+   "price": 50900,
+   "area_m2": 102.7366,
+   "general": 12,
+   "special": 7,
+   "pyeong_price": 1638,
+   "special_share_pct": 37
+  },
+  {
+   "ty": "84.5625A",
+   "size": 84,
+   "price": 53900,
+   "area_m2": 111.459,
+   "general": 35,
+   "special": 38,
+   "pyeong_price": 1599,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8935B",
+   "size": 84,
+   "price": 54900,
+   "area_m2": 113.8826,
+   "general": 32,
+   "special": 38,
+   "pyeong_price": 1594,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 79,
+ "special_total": 83,
+ "special_share_pct": 51,
+ "pyeong_min": 1594,
+ "pyeong_max": 1638,
+ "pyeong_avg": 1601,
+ "price_84_min": 53900,
+ "price_84_max": 54900,
+ "special_kinds": {
+  "신혼부부": 36,
+  "생애최초": 13,
+  "다자녀": 15,
+  "노부모 부양": 4,
+  "기관추천": 15
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "76.9924",
+    "supply": 18,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.5625A",
+    "supply": 70,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.62,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8935B",
+    "supply": 61,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.11,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 240,
+  "rank1_req": 154,
+  "supply_total": 149,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 2,
+  "type_count": 3,
+  "rank1_avg_rate": 1.03,
+  "best": {
+   "ty": "84.5625A",
+   "rate": 1.62,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.8935B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.8935B": 0
+  },
+  "avg_min": 15.5,
+  "max": {
+   "score": 64,
+   "ty": "84.8935B"
+  }
+ },
+ "region_price": {
+  "scope": "양산시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지"
+  ],
+  "peer_avg_pyeong": 1588,
+  "diff": 13,
+  "diff_pct": 1,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "양산시",
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지"
+  ],
+  "peer_avg_rate": 0.81,
+  "rank": 2,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "경남",
+  "peer_count": 9,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

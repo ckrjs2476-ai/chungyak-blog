@@ -1,0 +1,98 @@
+{
+ "no": "2025910174",
+ "name": "청계 노르웨이숲(3차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2025-09-17",
+ "rank1_date": "2025-09-22",
+ "city": "중구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910174&pblancNo=2025910174",
+ "households": 42,
+ "types": [
+  {
+   "ty": "39.695",
+   "size": 39,
+   "price": 76112,
+   "area_m2": null,
+   "general": 38,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.986A",
+   "size": 59,
+   "price": 106395,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.985B",
+   "size": 59,
+   "price": 104195,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.842D",
+   "size": 59,
+   "price": 104195,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 42,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "39.695",
+    "supply": 38,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.842D",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 53.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.985B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 64.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.986A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 156.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 440,
+  "rank1_req": 0,
+  "supply_total": 42,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.986A",
+   "rate": 156.0,
+   "stage": "None순위 None"
+  }
+ }
+}

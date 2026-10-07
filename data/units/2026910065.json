@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-02",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-02",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.xi.co.kr/lajeune",
+  "HOUSE_MANAGE_NO": "2026910065",
+  "HOUSE_NM": "화성 봉담자이 라젠느(4차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 화성특례시 효행구 봉담읍 동화서북안길 70",
+  "HSSPLY_ZIP": "18298",
+  "MDHS_TELNO": "18335820",
+  "MVN_PREARNGE_YM": "202606",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910065",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910065&pblancNo=2026910065",
+  "PRZWNER_PRESNATN_DE": "2026-03-26",
+  "RCRIT_PBLANC_DE": "2026-03-16",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-23",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-23",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910065",
+   "HOUSE_TY": "059.9911A",
+   "LTTOT_TOP_AMOUNT": "41796",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910065",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910065",
+   "HOUSE_TY": "059.9911B",
+   "LTTOT_TOP_AMOUNT": "43485",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910065",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910065",
+   "HOUSE_TY": "084.9931D",
+   "LTTOT_TOP_AMOUNT": "54673",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910065",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "84.00",
+   "HOUSE_MANAGE_NO": "2026910065",
+   "HOUSE_TY": "059.9911A",
+   "PBLANC_NO": "2026910065",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "84",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "59.00",
+   "HOUSE_MANAGE_NO": "2026910065",
+   "HOUSE_TY": "059.9911B",
+   "PBLANC_NO": "2026910065",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "59",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "97.00",
+   "HOUSE_MANAGE_NO": "2026910065",
+   "HOUSE_TY": "084.9931D",
+   "PBLANC_NO": "2026910065",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "97",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:33.084272+09:00"
+}

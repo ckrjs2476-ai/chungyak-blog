@@ -1,0 +1,129 @@
+{
+ "no": "2026000062",
+ "name": "중앙하이츠 갈산역 센트럴",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-03-27",
+ "rank1_date": "2026-04-07",
+ "city": "부평구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000062&pblancNo=2026000062",
+ "households": 50,
+ "types": [
+  {
+   "ty": "59.7864",
+   "size": 59,
+   "price": 51150,
+   "area_m2": 80.8171,
+   "general": 21,
+   "special": 29,
+   "pyeong_price": 2092,
+   "special_share_pct": 58
+  }
+ ],
+ "general_total": 21,
+ "special_total": 29,
+ "special_share_pct": 58,
+ "pyeong_min": 2092,
+ "pyeong_max": 2092,
+ "pyeong_avg": 2092,
+ "special_kinds": {
+  "신혼부부": 12,
+  "생애최초": 5,
+  "다자녀": 5,
+  "노부모 부양": 2,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7864",
+    "supply": 29,
+    "closed_at": "1순위 기타지역",
+    "rate": 4.4,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 75,
+  "rank1_req": 46,
+  "supply_total": 29,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 1,
+  "rank1_avg_rate": 1.59,
+  "best": {
+   "ty": "59.7864",
+   "rate": 4.4,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.7864",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.7864": 0
+  },
+  "avg_min": 25.0,
+  "max": {
+   "score": 55,
+   "ty": "59.7864"
+  }
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 24,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)"
+  ],
+  "peer_avg_pyeong": 2391,
+  "diff": -299,
+  "diff_pct": -13,
+  "rank": 10,
+  "of": 25
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 24,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)"
+  ],
+  "peer_avg_rate": 9.03,
+  "rank": 13,
+  "of": 25
+ },
+ "region_score": {
+  "scope": "인천",
+  "peer_count": 17,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+   "오션포레베네스트하우스(미단시티 공동8BL)",
+   "검단호수공원역 파라곤(AA36BL)",
+   "검암역자이르네"
+  ],
+  "peer_avg_min": 34.1,
+  "diff": -34.1
+ }
+}

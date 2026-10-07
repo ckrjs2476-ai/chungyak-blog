@@ -1,0 +1,136 @@
+{
+ "no": "2025000500",
+ "name": "전주·완주 혁신도시 에코르 2단지 공가세대 일반공급",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2025-10-20",
+ "rank1_date": "2025-10-30",
+ "city": "완주군",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000500&pblancNo=2025000500",
+ "households": 27,
+ "types": [
+  {
+   "ty": "50.833A",
+   "size": 50,
+   "price": 11615,
+   "area_m2": 71.1103,
+   "general": 16,
+   "special": 0,
+   "pyeong_price": 540,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "50.542B",
+   "size": 50,
+   "price": 11230,
+   "area_m2": 71.1169,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 522,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "50.553C",
+   "size": 50,
+   "price": 11420,
+   "area_m2": 71.6115,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 527,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.751A",
+   "size": 59,
+   "price": 13270,
+   "area_m2": 83.9341,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 523,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 27,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 522,
+ "pyeong_max": 540,
+ "pyeong_avg": 534,
+ "competition": {
+  "types": [
+   {
+    "ty": "50.833A",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.88,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "50.542B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "50.553C",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.751A",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 45.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 362,
+  "rank1_req": 314,
+  "supply_total": 27,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 11.63,
+  "best": {
+   "ty": "59.751A",
+   "rate": 45.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "전북",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "송천 아르티엠 더 숲",
+   "대상 웰라움 순창",
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처"
+  ],
+  "peer_avg_pyeong": 1508,
+  "diff": -974,
+  "diff_pct": -65,
+  "rank": 6,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "전북",
+  "peer_count": 5,
+  "peers": [
+   "송천 아르티엠 더 숲",
+   "대상 웰라움 순창",
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처"
+  ],
+  "peer_avg_rate": 11.91,
+  "rank": 3,
+  "of": 6
+ }
+}

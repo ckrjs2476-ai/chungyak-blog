@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "코리아신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-09",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-09",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://cityociel8.com/",
+  "HOUSE_MANAGE_NO": "2025910275",
+  "HOUSE_NM": "시티오씨엘 8단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 미추홀구 학익동 인천 용현·학익 1블록 도시개발구역 공동2BL",
+  "HSSPLY_ZIP": "22197",
+  "MDHS_TELNO": "0328311141",
+  "MVN_PREARNGE_YM": "202907",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910275",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910275&pblancNo=2025910275",
+  "PRZWNER_PRESNATN_DE": "2026-02-05",
+  "RCRIT_PBLANC_DE": "2026-01-26",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-02",
+  "TOT_SUPLY_HSHLDCO": 36
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910275",
+   "HOUSE_TY": "075.9096 ",
+   "LTTOT_TOP_AMOUNT": "59980",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910275",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 35
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910275",
+   "HOUSE_TY": "136.0030P",
+   "LTTOT_TOP_AMOUNT": "133750",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910275",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "6.11",
+   "HOUSE_MANAGE_NO": "2025910275",
+   "HOUSE_TY": "075.9096 ",
+   "PBLANC_NO": "2025910275",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "214",
+   "SUPLY_HSHLDCO": 35
+  },
+  {
+   "CMPET_RATE": "10.00",
+   "HOUSE_MANAGE_NO": "2025910275",
+   "HOUSE_TY": "136.0030P",
+   "PBLANC_NO": "2025910275",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:49.716685+09:00"
+}

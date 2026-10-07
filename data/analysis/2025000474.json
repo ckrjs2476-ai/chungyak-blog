@@ -1,0 +1,82 @@
+{
+ "no": "2025000474",
+ "name": "울산태화강변지구 A-2블록 공공분양주택",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2025-09-26",
+ "rank1_date": "2025-10-13",
+ "city": "울주군",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000474&pblancNo=2025000474",
+ "households": 277,
+ "types": [
+  {
+   "ty": "59.61A",
+   "size": 59,
+   "price": 42542,
+   "area_m2": 83.8739,
+   "general": 34,
+   "special": 104,
+   "pyeong_price": 1677,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.73B",
+   "size": 59,
+   "price": 42627,
+   "area_m2": 84.0427,
+   "general": 19,
+   "special": 56,
+   "pyeong_price": 1677,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.93C",
+   "size": 59,
+   "price": 42770,
+   "area_m2": 84.3241,
+   "general": 10,
+   "special": 28,
+   "pyeong_price": 1677,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "59.77D",
+   "size": 59,
+   "price": 42656,
+   "area_m2": 84.099,
+   "general": 6,
+   "special": 20,
+   "pyeong_price": 1677,
+   "special_share_pct": 77
+  }
+ ],
+ "general_total": 69,
+ "special_total": 208,
+ "special_share_pct": 75,
+ "pyeong_min": 1677,
+ "pyeong_max": 1677,
+ "pyeong_avg": 1677,
+ "special_kinds": {
+  "신혼부부": 28,
+  "생애최초": 41,
+  "신생아": 55,
+  "다자녀": 28,
+  "노부모 부양": 14,
+  "기관추천": 42
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "울산다운2지구 A-10블록 공공분양주택",
+   "울산 우정혁신도시 B1블록(골드클래스) 분양전환 후 잔여세대"
+  ],
+  "peer_avg_pyeong": 1258,
+  "diff": 419,
+  "diff_pct": 33,
+  "rank": 1,
+  "of": 3
+ }
+}

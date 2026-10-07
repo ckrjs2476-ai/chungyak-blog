@@ -1,0 +1,116 @@
+{
+ "no": "2026910095",
+ "name": "용인 플랫폼시티 라온프라이빗 아르디에",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-04-22",
+ "rank1_date": "2026-04-27",
+ "city": "용인시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910095&pblancNo=2026910095",
+ "households": 98,
+ "types": [
+  {
+   "ty": "84.6802A",
+   "size": 84,
+   "price": 79800,
+   "area_m2": null,
+   "general": 55,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6968B",
+   "size": 84,
+   "price": 82800,
+   "area_m2": null,
+   "general": 26,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6402C",
+   "size": 84,
+   "price": 78800,
+   "area_m2": null,
+   "general": 10,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "103.8844A",
+   "size": 103,
+   "price": 90800,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "103.8844B",
+   "size": 103,
+   "price": 82800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 98,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 78800,
+ "price_84_max": 82800,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6402C",
+    "supply": 10,
+    "closed_at": "None순위 None",
+    "rate": 1.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6802A",
+    "supply": 55,
+    "closed_at": "None순위 None",
+    "rate": 1.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6968B",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "103.8844A",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 1.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "103.8844B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 5.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 117,
+  "rank1_req": 0,
+  "supply_total": 98,
+  "final_shortfall_total": 3,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "103.8844B",
+   "rate": 5.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)무궁화신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-03",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-03",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://xi.co.kr/SD2",
+  "HOUSE_MANAGE_NO": "2025910191",
+  "HOUSE_NM": "송도자이 더 스타(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 연수구 송도동 396-11 (A17블록)",
+  "HSSPLY_ZIP": "22009",
+  "MDHS_TELNO": "16602152",
+  "MVN_PREARNGE_YM": "202603",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910191",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910191&pblancNo=2025910191",
+  "PRZWNER_PRESNATN_DE": "2025-10-24",
+  "RCRIT_PBLANC_DE": "2025-10-13",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-21",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-21",
+  "TOT_SUPLY_HSHLDCO": 13
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.0000A",
+   "LTTOT_TOP_AMOUNT": "94600",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.7098B",
+   "LTTOT_TOP_AMOUNT": "94600",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.9964C",
+   "LTTOT_TOP_AMOUNT": "92690",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.9559D",
+   "LTTOT_TOP_AMOUNT": "90790",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "099.7748A",
+   "LTTOT_TOP_AMOUNT": "101410",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "13.71",
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.0000A",
+   "PBLANC_NO": "2025910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "96",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "7.00",
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.7098B",
+   "PBLANC_NO": "2025910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "14",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "5.00",
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.9559D",
+   "PBLANC_NO": "2025910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "7.50",
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "084.9964C",
+   "PBLANC_NO": "2025910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "15",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "13.00",
+   "HOUSE_MANAGE_NO": "2025910191",
+   "HOUSE_TY": "099.7748A",
+   "PBLANC_NO": "2025910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "13",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:38.883491+09:00"
+}

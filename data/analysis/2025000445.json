@@ -1,0 +1,158 @@
+{
+ "no": "2025000445",
+ "name": "청주 롯데캐슬 시그니처",
+ "kind": "apt",
+ "region": "충북",
+ "notice_date": "2025-09-26",
+ "rank1_date": "2025-10-15",
+ "city": "청주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000445&pblancNo=2025000445",
+ "households": 459,
+ "types": [
+  {
+   "ty": "67.8115A",
+   "size": 67,
+   "price": 42046,
+   "area_m2": 90.5831,
+   "general": 51,
+   "special": 56,
+   "pyeong_price": 1534,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "67.8746B",
+   "size": 67,
+   "price": 42140,
+   "area_m2": 92.16,
+   "general": 78,
+   "special": 90,
+   "pyeong_price": 1512,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "76.9439",
+   "size": 76,
+   "price": 47667,
+   "area_m2": 102.6977,
+   "general": 36,
+   "special": 39,
+   "pyeong_price": 1534,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9209",
+   "size": 84,
+   "price": 52577,
+   "area_m2": 113.0254,
+   "general": 52,
+   "special": 57,
+   "pyeong_price": 1538,
+   "special_share_pct": 52
+  }
+ ],
+ "general_total": 217,
+ "special_total": 242,
+ "special_share_pct": 53,
+ "pyeong_min": 1512,
+ "pyeong_max": 1538,
+ "pyeong_avg": 1527,
+ "price_84_min": 52577,
+ "price_84_max": 52577,
+ "special_kinds": {
+  "신혼부부": 104,
+  "생애최초": 39,
+  "다자녀": 43,
+  "노부모 부양": 13,
+  "기관추천": 43
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "67.8115A",
+    "supply": 84,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.39,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "67.8746B",
+    "supply": 133,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.68,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "76.9439",
+    "supply": 39,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.56,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9209",
+    "supply": 52,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.94,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1870,
+  "rank1_req": 1604,
+  "supply_total": 308,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 5.21,
+  "best": {
+   "ty": "84.9209",
+   "rate": 16.94,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "67.8115A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "67.8115A": 0,
+   "67.8746B": 0,
+   "76.9439": 0,
+   "84.9209": 0
+  },
+  "avg_min": 17.8,
+  "max": {
+   "score": 69,
+   "ty": "84.9209"
+  }
+ },
+ "region_price": {
+  "scope": "충북",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "두산위브더제니스 청주 센트럴파크",
+   "제천 신백 선광로즈웰아파트 우선 분양전환 후 잔여세대",
+   "청주지북지구 B1블록 공공분양주택"
+  ],
+  "peer_avg_pyeong": 1046,
+  "diff": 481,
+  "diff_pct": 46,
+  "rank": 1,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "충북",
+  "peer_count": 2,
+  "peers": [
+   "두산위브더제니스 청주 센트럴파크",
+   "제천 신백 선광로즈웰아파트 우선 분양전환 후 잔여세대"
+  ],
+  "peer_avg_rate": 0.84,
+  "rank": 1,
+  "of": 3
+ }
+}

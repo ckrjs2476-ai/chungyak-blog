@@ -1,0 +1,121 @@
+{
+ "no": "2025000551",
+ "name": "동래 에코팰리스 아시아드 리안",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2025-11-03",
+ "rank1_date": "2025-11-14",
+ "city": "동래구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000551&pblancNo=2025000551",
+ "households": 291,
+ "types": [
+  {
+   "ty": "84.4035A",
+   "size": 84,
+   "price": 74335,
+   "area_m2": 119.8715,
+   "general": 86,
+   "special": 82,
+   "pyeong_price": 2050,
+   "special_share_pct": 49
+  },
+  {
+   "ty": "84.4035B",
+   "size": 84,
+   "price": 73610,
+   "area_m2": 119.8715,
+   "general": 41,
+   "special": 41,
+   "pyeong_price": 2030,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9324C",
+   "size": 84,
+   "price": 71891,
+   "area_m2": 121.8764,
+   "general": 18,
+   "special": 23,
+   "pyeong_price": 1950,
+   "special_share_pct": 56
+  }
+ ],
+ "general_total": 145,
+ "special_total": 146,
+ "special_share_pct": 50,
+ "pyeong_min": 1950,
+ "pyeong_max": 2050,
+ "pyeong_avg": 2030,
+ "price_84_min": 71891,
+ "price_84_max": 74335,
+ "special_kinds": {
+  "신혼부부": 38,
+  "생애최초": 26,
+  "다자녀": 44,
+  "노부모 부양": 9,
+  "기관추천": 29
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.4035A",
+    "supply": 165,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 138
+   },
+   {
+    "ty": "84.4035B",
+    "supply": 78,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 67
+   },
+   {
+    "ty": "84.9324C",
+    "supply": 41,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   }
+  ],
+  "req_total": 45,
+  "rank1_req": 32,
+  "supply_total": 284,
+  "final_shortfall_total": 239,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.11
+ },
+ "region_price": {
+  "scope": "동래구",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "힐스테이트 사직 아시아드",
+   "해링턴플레이스 명륜역",
+   "동래 푸르지오 에듀포레",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_pyeong": 2407,
+  "diff": -377,
+  "diff_pct": -16,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "동래구",
+  "peer_count": 4,
+  "peers": [
+   "힐스테이트 사직 아시아드",
+   "해링턴플레이스 명륜역",
+   "동래 푸르지오 에듀포레",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_rate": 4.68,
+  "rank": 5,
+  "of": 5
+ }
+}

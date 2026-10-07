@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 평택고덕피에프브이",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-17",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-17",
+  "GNRL_RCEPT_BGNDE": "2026-04-07",
+  "GNRL_RCEPT_ENDDE": "2026-04-07",
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025930058",
+  "HOUSE_NM": "힐스테이트 고덕 센트럴",
+  "HOUSE_SECD": "06",
+  "HOUSE_SECD_NM": "불법행위 재공급",
+  "HSSPLY_ADRES": "경기도 평택시 고덕국제대로 77 (고덕동, 힐스테이트 고덕 센트럴)",
+  "HSSPLY_ZIP": "18018",
+  "MDHS_TELNO": "0316112667",
+  "MVN_PREARNGE_YM": "202604",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025930058",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025930058&pblancNo=2025930058",
+  "PRZWNER_PRESNATN_DE": "2026-04-10",
+  "RCRIT_PBLANC_DE": "2026-03-31",
+  "SPSPLY_RCEPT_BGNDE": "2026-04-06",
+  "SPSPLY_RCEPT_ENDDE": "2026-04-06",
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-06",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-07",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025930058",
+   "HOUSE_TY": "084.3909A",
+   "LTTOT_TOP_AMOUNT": "53100",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025930058",
+   "SPSPLY_HSHLDCO": 2,
+   "SUPLY_AR": "114.2989",
+   "SUPLY_HSHLDCO": 0
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025930058",
+   "HOUSE_TY": "084.3389B",
+   "LTTOT_TOP_AMOUNT": "51500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025930058",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": "115.2827",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:22.787351+09:00"
+}

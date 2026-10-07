@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "대신자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-27",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://forena-ulsan.com/",
+  "HOUSE_MANAGE_NO": "2025910224",
+  "HOUSE_NM": "한화포레나 울산무거",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "울산광역시 남구 무거동 1422-5번지 일원",
+  "HSSPLY_ZIP": "44641",
+  "MDHS_TELNO": "0522697771",
+  "MVN_PREARNGE_YM": "202811",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910224",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910224&pblancNo=2025910224",
+  "PRZWNER_PRESNATN_DE": "2025-11-20",
+  "RCRIT_PBLANC_DE": "2025-11-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "680",
+  "SUBSCRPT_AREA_CODE_NM": "울산",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-17",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-17",
+  "TOT_SUPLY_HSHLDCO": 8
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910224",
+   "HOUSE_TY": "084.9134C",
+   "LTTOT_TOP_AMOUNT": "75994",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910224",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 8
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "27.50",
+   "HOUSE_MANAGE_NO": "2025910224",
+   "HOUSE_TY": "084.9134C",
+   "PBLANC_NO": "2025910224",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "220",
+   "SUPLY_HSHLDCO": 8
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:40.062721+09:00"
+}

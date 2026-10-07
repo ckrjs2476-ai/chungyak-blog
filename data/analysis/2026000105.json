@@ -1,0 +1,122 @@
+{
+ "no": "2026000105",
+ "name": "도안자이 센텀리체 2단지",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2026-04-10",
+ "rank1_date": "2026-04-21",
+ "city": "유성구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000105&pblancNo=2026000105",
+ "households": 834,
+ "types": [
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 77690,
+   "area_m2": 113.855,
+   "general": 315,
+   "special": 311,
+   "pyeong_price": 2256,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "115A",
+   "size": 115,
+   "price": 106990,
+   "area_m2": 153.5981,
+   "general": 179,
+   "special": 27,
+   "pyeong_price": 2303,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "134.5594",
+   "size": 134,
+   "price": 216990,
+   "area_m2": 183.131,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3917,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 496,
+ "special_total": 338,
+ "special_share_pct": 41,
+ "pyeong_min": 2256,
+ "pyeong_max": 3917,
+ "pyeong_avg": 2272,
+ "price_84_min": 77690,
+ "price_84_max": 77690,
+ "special_kinds": {
+  "신혼부부": 112,
+  "생애최초": 56,
+  "다자녀": 83,
+  "노부모 부양": 25,
+  "기관추천": 62
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84A",
+    "supply": 406,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.84,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115A",
+    "supply": 197,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.05,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "134.5594",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 26.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1460,
+  "rank1_req": 1246,
+  "supply_total": 605,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 2.06,
+  "best": {
+   "ty": "134.5594",
+   "rate": 26.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "유성구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "도룡자이 라피크",
+   "도안자이 센텀리체 1단지"
+  ],
+  "peer_avg_pyeong": 3330,
+  "diff": -1058,
+  "diff_pct": -32,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "유성구",
+  "peer_count": 2,
+  "peers": [
+   "도룡자이 라피크",
+   "도안자이 센텀리체 1단지"
+  ],
+  "peer_avg_rate": 9.12,
+  "rank": 3,
+  "of": 3
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "no": "2025910242",
+ "name": "인하대역 수자인 로이센트",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2025-12-03",
+ "rank1_date": "2025-12-08",
+ "city": "미추홀구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910242&pblancNo=2025910242",
+ "households": 169,
+ "types": [
+  {
+   "ty": "84.9355A",
+   "size": 84,
+   "price": 69710,
+   "area_m2": null,
+   "general": 132,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9856G",
+   "size": 84,
+   "price": 69910,
+   "area_m2": null,
+   "general": 15,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9373H",
+   "size": 84,
+   "price": 69570,
+   "area_m2": null,
+   "general": 22,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 169,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 69570,
+ "price_84_max": 69910,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9355A",
+    "supply": 132,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 100
+   },
+   {
+    "ty": "84.9373H",
+    "supply": 22,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "84.9856G",
+    "supply": 15,
+    "closed_at": "None순위 None",
+    "rate": 1.93,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 65,
+  "rank1_req": 0,
+  "supply_total": 169,
+  "final_shortfall_total": 118,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9856G",
+   "rate": 1.93,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "no": "2025910224",
+ "name": "한화포레나 울산무거",
+ "kind": "remndr",
+ "region": "울산",
+ "notice_date": "2025-11-10",
+ "rank1_date": "2025-11-17",
+ "city": "남구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910224&pblancNo=2025910224",
+ "households": 8,
+ "types": [
+  {
+   "ty": "84.9134C",
+   "size": 84,
+   "price": 75994,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 8,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 75994,
+ "price_84_max": 75994,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9134C",
+    "supply": 8,
+    "closed_at": "None순위 None",
+    "rate": 27.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 220,
+  "rank1_req": 0,
+  "supply_total": 8,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9134C",
+   "rate": 27.5,
+   "stage": "None순위 None"
+  }
+ }
+}

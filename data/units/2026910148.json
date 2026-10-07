@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "우리자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-22",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://xi.co.kr/bdxi-thesky",
+  "HOUSE_MANAGE_NO": "2026910148",
+  "HOUSE_NM": "복대자이 더 스카이",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청북도 청주시 흥덕구 복대동 100-28번지 일원",
+  "HSSPLY_ZIP": "28428",
+  "MDHS_TELNO": "16601533",
+  "MVN_PREARNGE_YM": "202607",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910148",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910148&pblancNo=2026910148",
+  "PRZWNER_PRESNATN_DE": "2026-06-15",
+  "RCRIT_PBLANC_DE": "2026-06-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "360",
+  "SUBSCRPT_AREA_CODE_NM": "충북",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-10",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910148",
+   "HOUSE_TY": "084.9926C",
+   "LTTOT_TOP_AMOUNT": "39730",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910148",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2,350.00",
+   "HOUSE_MANAGE_NO": "2026910148",
+   "HOUSE_TY": "084.9926C",
+   "PBLANC_NO": "2026910148",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2350",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:52.153501+09:00"
+}

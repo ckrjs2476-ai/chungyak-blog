@@ -1,0 +1,101 @@
+{
+ "no": "2026000278",
+ "name": "양주 회천지구 A-8BL 로제비앙 엘가",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-06-22",
+ "rank1_date": "2026-07-03",
+ "city": "양주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000278&pblancNo=2026000278",
+ "households": 361,
+ "types": [
+  {
+   "ty": "84.9051A",
+   "size": 84,
+   "price": 52900,
+   "area_m2": 112.2281,
+   "general": 109,
+   "special": 213,
+   "pyeong_price": 1558,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "84.9386B",
+   "size": 84,
+   "price": 51900,
+   "area_m2": 113.5971,
+   "general": 12,
+   "special": 27,
+   "pyeong_price": 1510,
+   "special_share_pct": 69
+  }
+ ],
+ "general_total": 121,
+ "special_total": 240,
+ "special_share_pct": 66,
+ "pyeong_min": 1510,
+ "pyeong_max": 1558,
+ "pyeong_avg": 1553,
+ "price_84_min": 51900,
+ "price_84_max": 52900,
+ "special_kinds": {
+  "신혼부부": 55,
+  "생애최초": 62,
+  "신생아": 37,
+  "다자녀": 37,
+  "노부모 부양": 12,
+  "기관추천": 37
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9051A",
+    "supply": 319,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 153
+   },
+   {
+    "ty": "84.9386B",
+    "supply": 37,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   }
+  ],
+  "req_total": 13,
+  "rank1_req": 8,
+  "supply_total": 356,
+  "final_shortfall_total": 170,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "양주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더 플래티넘 센트럴포레",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)"
+  ],
+  "peer_avg_pyeong": 1734,
+  "diff": -181,
+  "diff_pct": -10,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "양주시",
+  "peer_count": 2,
+  "peers": [
+   "더 플래티넘 센트럴포레",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)"
+  ],
+  "peer_avg_rate": 0.46,
+  "rank": 3,
+  "of": 3
+ }
+}

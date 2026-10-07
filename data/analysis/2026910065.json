@@ -1,0 +1,84 @@
+{
+ "no": "2026910065",
+ "name": "화성 봉담자이 라젠느(4차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-03-16",
+ "rank1_date": "2026-03-23",
+ "city": "화성특례시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910065&pblancNo=2026910065",
+ "households": 3,
+ "types": [
+  {
+   "ty": "59.9911A",
+   "size": 59,
+   "price": 41796,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9911B",
+   "size": 59,
+   "price": 43485,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9931D",
+   "size": 84,
+   "price": 54673,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 54673,
+ "price_84_max": 54673,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9911A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 84.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9911B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 59.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9931D",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 97.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 240,
+  "rank1_req": 0,
+  "supply_total": 3,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9931D",
+   "rate": 97.0,
+   "stage": "None순위 None"
+  }
+ }
+}

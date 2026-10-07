@@ -1,0 +1,244 @@
+{
+ "no": "2025000259",
+ "name": "다산 월드메르디앙 센텀하이",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2025-09-05",
+ "rank1_date": "2025-09-16",
+ "city": "고령군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000259&pblancNo=2025000259",
+ "households": 463,
+ "types": [
+  {
+   "ty": "74.4881A",
+   "size": 74,
+   "price": 32770,
+   "area_m2": 101.1457,
+   "general": 35,
+   "special": 39,
+   "pyeong_price": 1071,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "74.9574B",
+   "size": 74,
+   "price": 33110,
+   "area_m2": 101.6748,
+   "general": 18,
+   "special": 18,
+   "pyeong_price": 1077,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "76.209",
+   "size": 76,
+   "price": 33600,
+   "area_m2": 103.7047,
+   "general": 18,
+   "special": 18,
+   "pyeong_price": 1071,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.5078A",
+   "size": 84,
+   "price": 38250,
+   "area_m2": 115.1453,
+   "general": 112,
+   "special": 131,
+   "pyeong_price": 1098,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.7634B",
+   "size": 84,
+   "price": 37620,
+   "area_m2": 114.4163,
+   "general": 33,
+   "special": 35,
+   "pyeong_price": 1087,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "103.4987",
+   "size": 103,
+   "price": 56530,
+   "area_m2": 141.7016,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1319,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.2714",
+   "size": 115,
+   "price": 62320,
+   "area_m2": 158.4255,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1300,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "121.7305A",
+   "size": 121,
+   "price": 64950,
+   "area_m2": 165.6976,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1296,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "121.5867B",
+   "size": 121,
+   "price": 66280,
+   "area_m2": 165.7932,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1322,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "121.1377C",
+   "size": 121,
+   "price": 66010,
+   "area_m2": 165.1181,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1322,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 222,
+ "special_total": 241,
+ "special_share_pct": 52,
+ "pyeong_min": 1071,
+ "pyeong_max": 1322,
+ "pyeong_avg": 1091,
+ "price_84_min": 37620,
+ "price_84_max": 38250,
+ "special_kinds": {
+  "신혼부부": 103,
+  "생애최초": 39,
+  "다자녀": 43,
+  "노부모 부양": 13,
+  "기관추천": 43
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.4881A",
+    "supply": 74,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 73
+   },
+   {
+    "ty": "74.9574B",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 36
+   },
+   {
+    "ty": "76.209",
+    "supply": 35,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   },
+   {
+    "ty": "84.5078A",
+    "supply": 242,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 240
+   },
+   {
+    "ty": "84.7634B",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 68
+   },
+   {
+    "ty": "103.4987",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "115.2714",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "121.7305A",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "121.5867B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "121.1377C",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 4,
+  "rank1_req": 2,
+  "supply_total": 461,
+  "final_shortfall_total": 457,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 10,
+  "rank1_avg_rate": 0.0
+ },
+ "region_price": {
+  "scope": "경북",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "마린시티",
+   "두산위브더제니스 구미",
+   "김천혁신도시 동일하이빌 파크레인",
+   "효성해링턴 플레이스 영주 더리버",
+   "안동리첼스카이파크",
+   "경산 상방공원 호반써밋 1단지"
+  ],
+  "peer_avg_pyeong": 1407,
+  "diff": -316,
+  "diff_pct": -22,
+  "rank": 7,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "경북",
+  "peer_count": 6,
+  "peers": [
+   "마린시티",
+   "두산위브더제니스 구미",
+   "김천혁신도시 동일하이빌 파크레인",
+   "효성해링턴 플레이스 영주 더리버",
+   "안동리첼스카이파크",
+   "경산 상방공원 호반써밋 1단지"
+  ],
+  "peer_avg_rate": 1.79,
+  "rank": 7,
+  "of": 7
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "no": "2026000403",
+ "name": "그랑라크 에일린의 뜰",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-09-02",
+ "rank1_date": "2026-09-15",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000403&pblancNo=2026000403",
+ "households": 1153,
+ "types": [
+  {
+   "ty": "59.83A",
+   "size": 59,
+   "price": 57600,
+   "area_m2": 83.71,
+   "general": 40,
+   "special": 49,
+   "pyeong_price": 2275,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "59.99B",
+   "size": 59,
+   "price": 57600,
+   "area_m2": 85.1,
+   "general": 53,
+   "special": 61,
+   "pyeong_price": 2238,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.97C",
+   "size": 59,
+   "price": 56600,
+   "area_m2": 83.55,
+   "general": 23,
+   "special": 29,
+   "pyeong_price": 2239,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "74.83",
+   "size": 74,
+   "price": 68700,
+   "area_m2": 100.57,
+   "general": 62,
+   "special": 77,
+   "pyeong_price": 2258,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9",
+   "size": 84,
+   "price": 76600,
+   "area_m2": 111.02,
+   "general": 319,
+   "special": 390,
+   "pyeong_price": 2281,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "102.88A",
+   "size": 102,
+   "price": 86900,
+   "area_m2": 130.66,
+   "general": 25,
+   "special": 4,
+   "pyeong_price": 2199,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "102.56B",
+   "size": 102,
+   "price": 85000,
+   "area_m2": 132.19,
+   "general": 18,
+   "special": 3,
+   "pyeong_price": 2126,
+   "special_share_pct": 14
+  }
+ ],
+ "general_total": 540,
+ "special_total": 613,
+ "special_share_pct": 53,
+ "pyeong_min": 2126,
+ "pyeong_max": 2281,
+ "pyeong_avg": 2267,
+ "price_84_min": 76600,
+ "price_84_max": 76600,
+ "special_kinds": {
+  "신혼부부": 165,
+  "생애최초": 78,
+  "신생아": 110,
+  "다자녀": 115,
+  "노부모 부양": 35,
+  "기관추천": 110
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.83A",
+    "supply": 40,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.99B",
+    "supply": 53,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.96,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.97C",
+    "supply": 36,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.83",
+    "supply": 119,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "84.9",
+    "supply": 669,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 384
+   },
+   {
+    "ty": "102.88A",
+    "supply": 29,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   },
+   {
+    "ty": "102.56B",
+    "supply": 21,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 19
+   }
+  ],
+  "req_total": 1115,
+  "rank1_req": 986,
+  "supply_total": 967,
+  "final_shortfall_total": 428,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 7,
+  "rank1_avg_rate": 1.02,
+  "best": {
+   "ty": "59.83A",
+   "rate": 6.83,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.83A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.83A": 0,
+   "59.99B": 0,
+   "59.97C": 0
+  },
+  "avg_min": 13.8,
+  "max": {
+   "score": 57,
+   "ty": "59.99B"
+  }
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_pyeong": 2426,
+  "diff": -159,
+  "diff_pct": -7,
+  "rank": 3,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 3,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_rate": 0.51,
+  "rank": 1,
+  "of": 4
+ }
+}

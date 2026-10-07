@@ -1,0 +1,128 @@
+{
+ "no": "2025000513",
+ "name": "대전대동2 1블록 공공분양주택",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2025-10-17",
+ "rank1_date": "2025-10-27",
+ "city": "동구",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000513&pblancNo=2025000513",
+ "households": 881,
+ "types": [
+  {
+   "ty": "59.89A",
+   "size": 59,
+   "price": 37550,
+   "area_m2": 80.2183,
+   "general": 13,
+   "special": 36,
+   "pyeong_price": 1547,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "59.91B",
+   "size": 59,
+   "price": 37560,
+   "area_m2": 80.2451,
+   "general": 63,
+   "special": 183,
+   "pyeong_price": 1547,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "59.68C",
+   "size": 59,
+   "price": 37410,
+   "area_m2": 79.937,
+   "general": 8,
+   "special": 24,
+   "pyeong_price": 1547,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.8D",
+   "size": 59,
+   "price": 37490,
+   "area_m2": 80.0977,
+   "general": 12,
+   "special": 38,
+   "pyeong_price": 1547,
+   "special_share_pct": 76
+  },
+  {
+   "ty": "84.66A",
+   "size": 84,
+   "price": 53610,
+   "area_m2": 113.3959,
+   "general": 57,
+   "special": 170,
+   "pyeong_price": 1563,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.97B",
+   "size": 84,
+   "price": 53810,
+   "area_m2": 113.8111,
+   "general": 21,
+   "special": 65,
+   "pyeong_price": 1563,
+   "special_share_pct": 76
+  },
+  {
+   "ty": "84.93C",
+   "size": 84,
+   "price": 53780,
+   "area_m2": 113.7575,
+   "general": 34,
+   "special": 103,
+   "pyeong_price": 1563,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.86D",
+   "size": 84,
+   "price": 55590,
+   "area_m2": 113.6638,
+   "general": 14,
+   "special": 40,
+   "pyeong_price": 1617,
+   "special_share_pct": 74
+  }
+ ],
+ "general_total": 222,
+ "special_total": 659,
+ "special_share_pct": 75,
+ "pyeong_min": 1547,
+ "pyeong_max": 1617,
+ "pyeong_avg": 1559,
+ "price_84_min": 53610,
+ "price_84_max": 55590,
+ "special_kinds": {
+  "신혼부부": 88,
+  "생애최초": 132,
+  "신생아": 176,
+  "다자녀": 88,
+  "노부모 부양": 44,
+  "기관추천": 131
+ },
+ "region_price": {
+  "scope": "대전",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "도룡자이 라피크",
+   "대전 하늘채 루시에르(2회차)",
+   "해링턴플레이스 오룡역",
+   "변동 동건아파트 우선분양전환 후 잔여세대",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지"
+  ],
+  "peer_avg_pyeong": 2218,
+  "diff": -659,
+  "diff_pct": -30,
+  "rank": 6,
+  "of": 7
+ }
+}

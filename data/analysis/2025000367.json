@@ -1,0 +1,205 @@
+{
+ "no": "2025000367",
+ "name": "서면 어반센트 데시앙",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2025-09-12",
+ "rank1_date": "2025-09-23",
+ "city": "부산진구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000367&pblancNo=2025000367",
+ "households": 211,
+ "types": [
+  {
+   "ty": "59.6796A",
+   "size": 59,
+   "price": 59500,
+   "area_m2": 82.6268,
+   "general": 8,
+   "special": 6,
+   "pyeong_price": 2381,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "59.8003B",
+   "size": 59,
+   "price": 62500,
+   "area_m2": 83.04,
+   "general": 19,
+   "special": 22,
+   "pyeong_price": 2488,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "74.9966A",
+   "size": 74,
+   "price": 76900,
+   "area_m2": 103.1778,
+   "general": 4,
+   "special": 5,
+   "pyeong_price": 2464,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "74.9909B",
+   "size": 74,
+   "price": 74100,
+   "area_m2": 102.989,
+   "general": 7,
+   "special": 5,
+   "pyeong_price": 2379,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "84.8995A",
+   "size": 84,
+   "price": 81400,
+   "area_m2": 116.5214,
+   "general": 35,
+   "special": 45,
+   "pyeong_price": 2309,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9951B",
+   "size": 84,
+   "price": 84300,
+   "area_m2": 117.7428,
+   "general": 24,
+   "special": 31,
+   "pyeong_price": 2367,
+   "special_share_pct": 56
+  }
+ ],
+ "general_total": 97,
+ "special_total": 114,
+ "special_share_pct": 54,
+ "pyeong_min": 2309,
+ "pyeong_max": 2488,
+ "pyeong_avg": 2374,
+ "price_84_min": 81400,
+ "price_84_max": 84300,
+ "special_kinds": {
+  "신혼부부": 48,
+  "생애최초": 19,
+  "다자녀": 21,
+  "노부모 부양": 5,
+  "기관추천": 21
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.6796A",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8003B",
+    "supply": 19,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.79,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9966A",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9909B",
+    "supply": 12,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8995A",
+    "supply": 75,
+    "closed_at": "2순위 해당지역",
+    "rate": 20.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9951B",
+    "supply": 48,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.44,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 475,
+  "rank1_req": 257,
+  "supply_total": 169,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 3,
+  "type_count": 6,
+  "rank1_avg_rate": 1.52,
+  "best": {
+   "ty": "84.8995A",
+   "rate": 20.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.6796A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.6796A": 0,
+   "59.8003B": 0,
+   "74.9966A": 0
+  },
+  "avg_min": 18.0,
+  "max": {
+   "score": 54,
+   "ty": "59.8003B"
+  }
+ },
+ "region_price": {
+  "scope": "부산진구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지"
+  ],
+  "peer_avg_pyeong": 2592,
+  "diff": -218,
+  "diff_pct": -8,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "부산진구",
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지"
+  ],
+  "peer_avg_rate": 0.5,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "부산",
+  "peer_count": 7,
+  "peers": [
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "더파크 비스타동원",
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "금정산 하늘채 루미엘"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

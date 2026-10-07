@@ -1,0 +1,82 @@
+{
+ "no": "2026910001",
+ "name": "에스아이팰리스 올림픽공원 (7차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-01-12",
+ "rank1_date": "2026-01-19",
+ "city": "강동구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910001&pblancNo=2026910001",
+ "households": 35,
+ "types": [
+  {
+   "ty": "52.5256A",
+   "size": 52,
+   "price": 120000,
+   "area_m2": null,
+   "general": 32,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "52.5256P",
+   "size": 52,
+   "price": 136000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "52.5256T",
+   "size": 52,
+   "price": 114000,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 35,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "52.5256A",
+    "supply": 32,
+    "closed_at": "None순위 None",
+    "rate": 11.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "52.5256P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 52.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "52.5256T",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 18.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 441,
+  "rank1_req": 0,
+  "supply_total": 35,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "52.5256P",
+   "rate": 52.0,
+   "stage": "None순위 None"
+  }
+ }
+}

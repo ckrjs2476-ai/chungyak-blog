@@ -1,0 +1,163 @@
+{
+ "no": "2026000057",
+ "name": "에코델타시티 엘가 로제비앙",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-03-16",
+ "rank1_date": "2026-03-27",
+ "city": "강서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000057&pblancNo=2026000057",
+ "households": 998,
+ "types": [
+  {
+   "ty": "84.9345A",
+   "size": 84,
+   "price": 60600,
+   "area_m2": 111.8559,
+   "general": 208,
+   "special": 390,
+   "pyeong_price": 1791,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9647B",
+   "size": 84,
+   "price": 54700,
+   "area_m2": 111.3352,
+   "general": 48,
+   "special": 84,
+   "pyeong_price": 1624,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.9444C",
+   "size": 84,
+   "price": 54700,
+   "area_m2": 111.3292,
+   "general": 23,
+   "special": 35,
+   "pyeong_price": 1624,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "104.9329A",
+   "size": 104,
+   "price": 77300,
+   "area_m2": 137.2694,
+   "general": 137,
+   "special": 20,
+   "pyeong_price": 1862,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "104.9521B",
+   "size": 104,
+   "price": 75900,
+   "area_m2": 138.9353,
+   "general": 47,
+   "special": 6,
+   "pyeong_price": 1806,
+   "special_share_pct": 11
+  }
+ ],
+ "general_total": 463,
+ "special_total": 535,
+ "special_share_pct": 54,
+ "pyeong_min": 1624,
+ "pyeong_max": 1862,
+ "pyeong_avg": 1771,
+ "price_84_min": 54700,
+ "price_84_max": 60600,
+ "special_kinds": {
+  "신혼부부": 180,
+  "생애최초": 149,
+  "다자녀": 99,
+  "노부모 부양": 29,
+  "기관추천": 78
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9345A",
+    "supply": 592,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 553
+   },
+   {
+    "ty": "84.9647B",
+    "supply": 131,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 122
+   },
+   {
+    "ty": "84.9444C",
+    "supply": 58,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 44
+   },
+   {
+    "ty": "104.9329A",
+    "supply": 157,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 146
+   },
+   {
+    "ty": "104.9521B",
+    "supply": 53,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 50
+   }
+  ],
+  "req_total": 76,
+  "rank1_req": 53,
+  "supply_total": 991,
+  "final_shortfall_total": 915,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.05
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 25,
+  "peers": [
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "한화포레나 부산대연"
+  ],
+  "peer_avg_pyeong": 2491,
+  "diff": -720,
+  "diff_pct": -29,
+  "rank": 21,
+  "of": 26
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 25,
+  "peers": [
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "한화포레나 부산대연"
+  ],
+  "peer_avg_rate": 3.53,
+  "rank": 25,
+  "of": 26
+ }
+}

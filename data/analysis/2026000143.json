@@ -1,0 +1,197 @@
+{
+ "no": "2026000143",
+ "name": "파주금촌 금호어울림(조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-24",
+ "rank1_date": "2026-05-06",
+ "city": "파주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000143&pblancNo=2026000143",
+ "households": 60,
+ "types": [
+  {
+   "ty": "26.9146",
+   "size": 26,
+   "price": 18170,
+   "area_m2": 38.7363,
+   "general": 3,
+   "special": 2,
+   "pyeong_price": 1551,
+   "special_share_pct": 40
+  },
+  {
+   "ty": "46.7967",
+   "size": 46,
+   "price": 31130,
+   "area_m2": 66.3645,
+   "general": 1,
+   "special": 5,
+   "pyeong_price": 1551,
+   "special_share_pct": 83
+  },
+  {
+   "ty": "59.8551A",
+   "size": 59,
+   "price": 39910,
+   "area_m2": 85.0849,
+   "general": 18,
+   "special": 21,
+   "pyeong_price": 1551,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.8387B",
+   "size": 59,
+   "price": 39890,
+   "area_m2": 85.903,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1535,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.9777",
+   "size": 74,
+   "price": 49730,
+   "area_m2": 106.0426,
+   "general": 3,
+   "special": 5,
+   "pyeong_price": 1550,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 26,
+ "special_total": 34,
+ "special_share_pct": 57,
+ "pyeong_min": 1535,
+ "pyeong_max": 1551,
+ "pyeong_avg": 1550,
+ "special_kinds": {
+  "신혼부부": 14,
+  "생애최초": 6,
+  "다자녀": 6,
+  "노부모 부양": 2,
+  "기관추천": 6
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "26.9146",
+    "supply": 4,
+    "closed_at": "2순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "46.7967",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8551A",
+    "supply": 35,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "59.8387B",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9777",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   }
+  ],
+  "req_total": 32,
+  "rank1_req": 19,
+  "supply_total": 50,
+  "final_shortfall_total": 25,
+  "closed_types": 3,
+  "rank1_closed_types": 2,
+  "type_count": 5,
+  "rank1_avg_rate": 0.38,
+  "best": {
+   "ty": "26.9146",
+   "rate": 3.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.8387B",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.8387B": 0
+  },
+  "avg_min": 15.0,
+  "max": {
+   "score": 30,
+   "ty": "59.8387B"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 81,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "효성해링턴 플레이스 양평",
+   "더샵 분당티에르원",
+   "엠타워 디루체",
+   "두산위브 더센트럴 수원"
+  ],
+  "peer_avg_pyeong": 2512,
+  "diff": -962,
+  "diff_pct": -38,
+  "rank": 78,
+  "of": 82
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 79,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "효성해링턴 플레이스 양평",
+   "더샵 분당티에르원",
+   "엠타워 디루체",
+   "두산위브 더센트럴 수원"
+  ],
+  "peer_avg_rate": 5.11,
+  "rank": 56,
+  "of": 80
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 48,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "더샵 분당티에르원",
+   "엠타워 디루체",
+   "두산위브 더센트럴 수원",
+   "용인 푸르지오 원클러스터파크"
+  ],
+  "peer_avg_min": 2.6,
+  "diff": -2.6
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "no": "2025000519",
+ "name": "해링턴플레이스 명륜역",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2025-10-31",
+ "rank1_date": "2025-11-11",
+ "city": "동래구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000519&pblancNo=2025000519",
+ "households": 242,
+ "types": [
+  {
+   "ty": "74.6797A",
+   "size": 74,
+   "price": 69680,
+   "area_m2": 103.3987,
+   "general": 22,
+   "special": 21,
+   "pyeong_price": 2228,
+   "special_share_pct": 49
+  },
+  {
+   "ty": "84.883A",
+   "size": 84,
+   "price": 79670,
+   "area_m2": 119.3374,
+   "general": 18,
+   "special": 18,
+   "pyeong_price": 2207,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.6971B",
+   "size": 84,
+   "price": 79340,
+   "area_m2": 118.8488,
+   "general": 17,
+   "special": 17,
+   "pyeong_price": 2207,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9819C",
+   "size": 84,
+   "price": 79860,
+   "area_m2": 118.5072,
+   "general": 24,
+   "special": 19,
+   "pyeong_price": 2228,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "84.8666D",
+   "size": 84,
+   "price": 79090,
+   "area_m2": 117.3636,
+   "general": 24,
+   "special": 19,
+   "pyeong_price": 2228,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "84.7247E",
+   "size": 84,
+   "price": 79530,
+   "area_m2": 118.0184,
+   "general": 24,
+   "special": 19,
+   "pyeong_price": 2228,
+   "special_share_pct": 44
+  }
+ ],
+ "general_total": 129,
+ "special_total": 113,
+ "special_share_pct": 47,
+ "pyeong_min": 2207,
+ "pyeong_max": 2228,
+ "pyeong_avg": 2222,
+ "price_84_min": 79090,
+ "price_84_max": 79860,
+ "special_kinds": {
+  "신혼부부": 25,
+  "생애최초": 22,
+  "다자녀": 37,
+  "노부모 부양": 6,
+  "기관추천": 23
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.6797A",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "84.883A",
+    "supply": 33,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "84.6971B",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 28
+   },
+   {
+    "ty": "84.9819C",
+    "supply": 39,
+    "closed_at": "2순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8666D",
+    "supply": 43,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "84.7247E",
+    "supply": 41,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   }
+  ],
+  "req_total": 118,
+  "rank1_req": 93,
+  "supply_total": 232,
+  "final_shortfall_total": 115,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.4,
+  "best": {
+   "ty": "84.9819C",
+   "rate": 2.0,
+   "stage": "2순위 기타지역"
+  }
+ },
+ "region_price": {
+  "scope": "동래구",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "힐스테이트 사직 아시아드",
+   "동래 에코팰리스 아시아드 리안",
+   "동래 푸르지오 에듀포레",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_pyeong": 2359,
+  "diff": -137,
+  "diff_pct": -6,
+  "rank": 4,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "동래구",
+  "peer_count": 4,
+  "peers": [
+   "힐스테이트 사직 아시아드",
+   "동래 에코팰리스 아시아드 리안",
+   "동래 푸르지오 에듀포레",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_rate": 4.61,
+  "rank": 3,
+  "of": 5
+ }
+}

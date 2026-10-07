@@ -1,0 +1,245 @@
+{
+ "no": "2025000440",
+ "name": "힐스테이트 사직 아시아드",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2025-09-19",
+ "rank1_date": "2025-09-30",
+ "city": "동래구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000440&pblancNo=2025000440",
+ "households": 302,
+ "types": [
+  {
+   "ty": "50.9871",
+   "size": 50,
+   "price": 49900,
+   "area_m2": 67.1865,
+   "general": 8,
+   "special": 15,
+   "pyeong_price": 2455,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "59.9648A",
+   "size": 59,
+   "price": 62900,
+   "area_m2": 79.0331,
+   "general": 11,
+   "special": 17,
+   "pyeong_price": 2631,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "59.976B",
+   "size": 59,
+   "price": 64500,
+   "area_m2": 81.0827,
+   "general": 15,
+   "special": 18,
+   "pyeong_price": 2630,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "59.974C",
+   "size": 59,
+   "price": 61800,
+   "area_m2": 79.5895,
+   "general": 4,
+   "special": 7,
+   "pyeong_price": 2567,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "78.9895",
+   "size": 78,
+   "price": 78000,
+   "area_m2": 103.0278,
+   "general": 27,
+   "special": 33,
+   "pyeong_price": 2503,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9012A",
+   "size": 84,
+   "price": 84400,
+   "area_m2": 110.8319,
+   "general": 4,
+   "special": 7,
+   "pyeong_price": 2517,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.9807B",
+   "size": 84,
+   "price": 85700,
+   "area_m2": 111.5037,
+   "general": 36,
+   "special": 43,
+   "pyeong_price": 2541,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.6669C",
+   "size": 84,
+   "price": 84400,
+   "area_m2": 110.321,
+   "general": 26,
+   "special": 31,
+   "pyeong_price": 2529,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 131,
+ "special_total": 171,
+ "special_share_pct": 57,
+ "pyeong_min": 2455,
+ "pyeong_max": 2631,
+ "pyeong_avg": 2543,
+ "price_84_min": 84400,
+ "price_84_max": 85700,
+ "special_kinds": {
+  "신혼부부": 72,
+  "생애최초": 30,
+  "다자녀": 30,
+  "노부모 부양": 9,
+  "기관추천": 30
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "50.9871",
+    "supply": 21,
+    "closed_at": "2순위 해당지역",
+    "rate": 7.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9648A",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 15.09,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.976B",
+    "supply": 15,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.87,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.974C",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "78.9895",
+    "supply": 27,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.74,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9012A",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 64.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9807B",
+    "supply": 36,
+    "closed_at": "1순위 해당지역",
+    "rate": 29.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6669C",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 13.62,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2530,
+  "rank1_req": 2466,
+  "supply_total": 144,
+  "final_shortfall_total": 0,
+  "closed_types": 8,
+  "rank1_closed_types": 7,
+  "type_count": 8,
+  "rank1_avg_rate": 17.12,
+  "best": {
+   "ty": "84.9012A",
+   "rate": 64.75,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9648A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9648A": 0,
+   "59.976B": 0,
+   "59.974C": 0,
+   "78.9895": 0,
+   "84.9012A": 0,
+   "84.9807B": 0,
+   "84.6669C": 0
+  },
+  "avg_min": 25.3,
+  "max": {
+   "score": 74,
+   "ty": "84.9807B"
+  }
+ },
+ "region_price": {
+  "scope": "동래구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "동래 푸르지오 에듀포레"
+  ],
+  "peer_avg_pyeong": 2240,
+  "diff": 303,
+  "diff_pct": 14,
+  "rank": 1,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "동래구",
+  "peer_count": 3,
+  "peers": [
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "동래 푸르지오 에듀포레"
+  ],
+  "peer_avg_rate": 0.45,
+  "rank": 1,
+  "of": 4
+ },
+ "region_score": {
+  "scope": "부산",
+  "peer_count": 7,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "베뉴브 해운대",
+   "더파크 비스타동원",
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "금정산 하늘채 루미엘"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

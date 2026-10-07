@@ -1,0 +1,100 @@
+{
+ "no": "2026910132",
+ "name": "인천 영종하늘도시 A25블록 대성베르힐(3차)",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-05-28",
+ "rank1_date": "2026-06-02",
+ "city": "중구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910132&pblancNo=2026910132",
+ "households": 5,
+ "types": [
+  {
+   "ty": "84.6853A",
+   "size": 84,
+   "price": 41750,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.3391C",
+   "size": 84,
+   "price": 42690,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.1579D",
+   "size": 84,
+   "price": 40040,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6853P",
+   "size": 84,
+   "price": 42580,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 5,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 40040,
+ "price_84_max": 42690,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.1579D",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 9.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.3391C",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 11.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6853A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 13.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6853P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 14.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 57,
+  "rank1_req": 0,
+  "supply_total": 5,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.6853P",
+   "rate": 14.0,
+   "stage": "None순위 None"
+  }
+ }
+}

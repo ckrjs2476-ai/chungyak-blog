@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "교보자산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-05-30",
+  "CNTRCT_CNCLS_ENDDE": "2026-05-30",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.xi.co.kr/DAX",
+  "HOUSE_MANAGE_NO": "2026910117",
+  "HOUSE_NM": "도안자이 센텀리체 1단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "대전광역시 유성구 도안 2-8지구 26블록(유성구 용계동 267-3번지 일원)",
+  "HSSPLY_ZIP": "34218",
+  "MDHS_TELNO": "15335400",
+  "MVN_PREARNGE_YM": "202910",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910117",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910117&pblancNo=2026910117",
+  "PRZWNER_PRESNATN_DE": "2026-05-29",
+  "RCRIT_PBLANC_DE": "2026-05-20",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "300",
+  "SUBSCRPT_AREA_CODE_NM": "대전",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-05-26",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-05-26",
+  "TOT_SUPLY_HSHLDCO": 660
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910117",
+   "HOUSE_TY": "084.0000A",
+   "LTTOT_TOP_AMOUNT": "77620",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910117",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 426
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910117",
+   "HOUSE_TY": "084.9913C",
+   "LTTOT_TOP_AMOUNT": "76920",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910117",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 159
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910117",
+   "HOUSE_TY": "099.0000A",
+   "LTTOT_TOP_AMOUNT": "99920",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910117",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 75
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△367)",
+   "HOUSE_MANAGE_NO": "2026910117",
+   "HOUSE_TY": "084.0000A",
+   "PBLANC_NO": "2026910117",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "59",
+   "SUPLY_HSHLDCO": 426
+  },
+  {
+   "CMPET_RATE": "(△150)",
+   "HOUSE_MANAGE_NO": "2026910117",
+   "HOUSE_TY": "084.9913C",
+   "PBLANC_NO": "2026910117",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 159
+  },
+  {
+   "CMPET_RATE": "(△72)",
+   "HOUSE_MANAGE_NO": "2026910117",
+   "HOUSE_TY": "099.0000A",
+   "PBLANC_NO": "2026910117",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 75
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:23.407265+09:00"
+}

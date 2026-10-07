@@ -1,0 +1,146 @@
+{
+ "no": "2025000486",
+ "name": "김천혁신도시 동일하이빌 파크레인",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2025-10-24",
+ "rank1_date": "2025-11-04",
+ "city": "김천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000486&pblancNo=2025000486",
+ "households": 349,
+ "types": [
+  {
+   "ty": "84.9197A",
+   "size": 84,
+   "price": 43800,
+   "area_m2": 108.506,
+   "general": 37,
+   "special": 65,
+   "pyeong_price": 1334,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.8903B",
+   "size": 84,
+   "price": 46300,
+   "area_m2": 109.0391,
+   "general": 28,
+   "special": 52,
+   "pyeong_price": 1404,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "113.8143A",
+   "size": 113,
+   "price": 58500,
+   "area_m2": 144.8714,
+   "general": 98,
+   "special": 14,
+   "pyeong_price": 1335,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "113.7967B",
+   "size": 113,
+   "price": 61600,
+   "area_m2": 145.2014,
+   "general": 48,
+   "special": 7,
+   "pyeong_price": 1402,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 211,
+ "special_total": 138,
+ "special_share_pct": 40,
+ "pyeong_min": 1334,
+ "pyeong_max": 1404,
+ "pyeong_avg": 1361,
+ "price_84_min": 43800,
+ "price_84_max": 46300,
+ "special_kinds": {
+  "신혼부부": 41,
+  "생애최초": 34,
+  "다자녀": 34,
+  "노부모 부양": 11,
+  "기관추천": 18
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9197A",
+    "supply": 97,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "84.8903B",
+    "supply": 76,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 28
+   },
+   {
+    "ty": "113.8143A",
+    "supply": 110,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 81
+   },
+   {
+    "ty": "113.7967B",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   }
+  ],
+  "req_total": 189,
+  "rank1_req": 159,
+  "supply_total": 338,
+  "final_shortfall_total": 149,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.47
+ },
+ "region_price": {
+  "scope": "경북",
+  "days": 180,
+  "peer_count": 8,
+  "peers": [
+   "다산 월드메르디앙 센텀하이",
+   "마린시티",
+   "두산위브더제니스 구미",
+   "효성해링턴 플레이스 영주 더리버",
+   "안동리첼스카이파크",
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트"
+  ],
+  "peer_avg_pyeong": 1375,
+  "diff": -14,
+  "diff_pct": -1,
+  "rank": 6,
+  "of": 9
+ },
+ "region_competition": {
+  "scope": "경북",
+  "peer_count": 8,
+  "peers": [
+   "다산 월드메르디앙 센텀하이",
+   "마린시티",
+   "두산위브더제니스 구미",
+   "효성해링턴 플레이스 영주 더리버",
+   "안동리첼스카이파크",
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트"
+  ],
+  "peer_avg_rate": 2.34,
+  "rank": 6,
+  "of": 9
+ }
+}

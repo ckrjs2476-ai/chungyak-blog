@@ -1,0 +1,68 @@
+{
+ "no": "2026910075",
+ "name": "울산 우정혁신도시 B1블록(골드클래스) 분양전환 후 잔여세대",
+ "kind": "remndr",
+ "region": "울산",
+ "notice_date": "2026-04-02",
+ "rank1_date": "2026-04-07",
+ "city": "중구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910075&pblancNo=2026910075",
+ "households": 2,
+ "types": [
+  {
+   "ty": "76.5143",
+   "size": 76,
+   "price": 32900,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.96",
+   "size": 84,
+   "price": 37650,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 2,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 37650,
+ "price_84_max": 37650,
+ "competition": {
+  "types": [
+   {
+    "ty": "76.5143",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 16.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.96",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 49.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 65,
+  "rank1_req": 0,
+  "supply_total": 2,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.96",
+   "rate": 49.0,
+   "stage": "None순위 None"
+  }
+ }
+}

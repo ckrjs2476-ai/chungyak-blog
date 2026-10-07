@@ -1,0 +1,285 @@
+{
+ "no": "2026000388",
+ "name": "시티오씨엘 9단지 오션파크뷰",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-08-21",
+ "rank1_date": "2026-09-01",
+ "city": "미추홀구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000388&pblancNo=2026000388",
+ "households": 1949,
+ "types": [
+  {
+   "ty": "59.9801",
+   "size": 59,
+   "price": 48560,
+   "area_m2": 84.5775,
+   "general": 88,
+   "special": 101,
+   "pyeong_price": 1898,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "75.9096",
+   "size": 75,
+   "price": 60090,
+   "area_m2": 104.7029,
+   "general": 64,
+   "special": 73,
+   "pyeong_price": 1897,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9771A",
+   "size": 84,
+   "price": 71290,
+   "area_m2": 116.6384,
+   "general": 444,
+   "special": 540,
+   "pyeong_price": 2021,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8878B",
+   "size": 84,
+   "price": 67590,
+   "area_m2": 116.9403,
+   "general": 168,
+   "special": 198,
+   "pyeong_price": 1911,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "95.374",
+   "size": 95,
+   "price": 77340,
+   "area_m2": 130.2224,
+   "general": 70,
+   "special": 10,
+   "pyeong_price": 1963,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "101.9303A",
+   "size": 101,
+   "price": 81790,
+   "area_m2": 138.5599,
+   "general": 40,
+   "special": 5,
+   "pyeong_price": 1951,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "101.9535B",
+   "size": 101,
+   "price": 81850,
+   "area_m2": 138.6657,
+   "general": 86,
+   "special": 11,
+   "pyeong_price": 1951,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "110.0371",
+   "size": 110,
+   "price": 88980,
+   "area_m2": 150.9379,
+   "general": 44,
+   "special": 5,
+   "pyeong_price": 1949,
+   "special_share_pct": 10
+  },
+  {
+   "ty": "133.7832P",
+   "size": 133,
+   "price": 166900,
+   "area_m2": 187.1128,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2949,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "136.2904P",
+   "size": 136,
+   "price": 170000,
+   "area_m2": 190.6487,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2948,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1006,
+ "special_total": 943,
+ "special_share_pct": 48,
+ "pyeong_min": 1897,
+ "pyeong_max": 2949,
+ "pyeong_avg": 1971,
+ "price_84_min": 67590,
+ "price_84_max": 71290,
+ "special_kinds": {
+  "신혼부부": 249,
+  "생애최초": 115,
+  "신생아": 165,
+  "다자녀": 190,
+  "노부모 부양": 59,
+  "기관추천": 165
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9801",
+    "supply": 88,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.9096",
+    "supply": 95,
+    "closed_at": "1순위 기타지역",
+    "rate": 4.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9771A",
+    "supply": 942,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 736
+   },
+   {
+    "ty": "84.8878B",
+    "supply": 362,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 347
+   },
+   {
+    "ty": "95.374",
+    "supply": 80,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 69
+   },
+   {
+    "ty": "101.9303A",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 38
+   },
+   {
+    "ty": "101.9535B",
+    "supply": 95,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 76
+   },
+   {
+    "ty": "110.0371",
+    "supply": 48,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 43
+   },
+   {
+    "ty": "133.7832P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "136.2904P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 890,
+  "rank1_req": 768,
+  "supply_total": 1756,
+  "final_shortfall_total": 1309,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 10,
+  "rank1_avg_rate": 0.44,
+  "best": {
+   "ty": "59.9801",
+   "rate": 4.2,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9801",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9801": 0
+  },
+  "avg_min": 21.5,
+  "max": {
+   "score": 64,
+   "ty": "59.9801"
+  }
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 15,
+  "peers": [
+   "연수 월드메르디앙 어반포레",
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)",
+   "검단호수공원역 파라곤(AA36BL)",
+   "힐스테이트 구월아트파크",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록"
+  ],
+  "peer_avg_pyeong": 2645,
+  "diff": -674,
+  "diff_pct": -25,
+  "rank": 11,
+  "of": 16
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 15,
+  "peers": [
+   "연수 월드메르디앙 어반포레",
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)",
+   "검단호수공원역 파라곤(AA36BL)",
+   "힐스테이트 구월아트파크",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록"
+  ],
+  "peer_avg_rate": 11.26,
+  "rank": 14,
+  "of": 16
+ },
+ "region_score": {
+  "scope": "인천",
+  "peer_count": 12,
+  "peers": [
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)",
+   "검단호수공원역 파라곤(AA36BL)",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록"
+  ],
+  "peer_avg_min": 40.2,
+  "diff": -40.2
+ }
+}

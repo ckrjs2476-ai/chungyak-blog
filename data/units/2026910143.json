@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-20",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.sangju-hanulche.com/",
+  "HOUSE_MANAGE_NO": "2026910143",
+  "HOUSE_NM": "상주북천 하늘채 파크원",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상북도 상주시 냉림동 53번지 일원",
+  "HSSPLY_ZIP": "37236",
+  "MDHS_TELNO": "15335008",
+  "MVN_PREARNGE_YM": "202904",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910143",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910143&pblancNo=2026910143",
+  "PRZWNER_PRESNATN_DE": "2026-06-18",
+  "RCRIT_PBLANC_DE": "2026-06-09",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "712",
+  "SUBSCRPT_AREA_CODE_NM": "경북",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-15",
+  "TOT_SUPLY_HSHLDCO": 42
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910143",
+   "HOUSE_TY": "084.9644A",
+   "LTTOT_TOP_AMOUNT": "44000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910143",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910143",
+   "HOUSE_TY": "084.9689C",
+   "LTTOT_TOP_AMOUNT": "43800",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910143",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910143",
+   "HOUSE_TY": "117.5756 ",
+   "LTTOT_TOP_AMOUNT": "62700",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910143",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 28
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "4.40",
+   "HOUSE_MANAGE_NO": "2026910143",
+   "HOUSE_TY": "084.9644A",
+   "PBLANC_NO": "2026910143",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "22",
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "CMPET_RATE": "2.89",
+   "HOUSE_MANAGE_NO": "2026910143",
+   "HOUSE_TY": "084.9689C",
+   "PBLANC_NO": "2026910143",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "26",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "(△14)",
+   "HOUSE_MANAGE_NO": "2026910143",
+   "HOUSE_TY": "117.5756 ",
+   "PBLANC_NO": "2026910143",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "14",
+   "SUPLY_HSHLDCO": 28
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:45.453072+09:00"
+}

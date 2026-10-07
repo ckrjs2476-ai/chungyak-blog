@@ -1,0 +1,122 @@
+{
+ "no": "2026000202",
+ "name": "대전 경남아너스빌 센텀스카이",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2026-09-03",
+ "rank1_date": "2026-09-09",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000202&pblancNo=2026000202",
+ "households": 142,
+ "types": [
+  {
+   "ty": "84.2259A",
+   "size": 84,
+   "price": 59600,
+   "area_m2": 116.4662,
+   "general": 33,
+   "special": 39,
+   "pyeong_price": 1692,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.5328B",
+   "size": 84,
+   "price": 59900,
+   "area_m2": 116.5674,
+   "general": 25,
+   "special": 29,
+   "pyeong_price": 1699,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.8209C",
+   "size": 84,
+   "price": 59400,
+   "area_m2": 117.1233,
+   "general": 9,
+   "special": 7,
+   "pyeong_price": 1677,
+   "special_share_pct": 44
+  }
+ ],
+ "general_total": 67,
+ "special_total": 75,
+ "special_share_pct": 53,
+ "pyeong_min": 1677,
+ "pyeong_max": 1699,
+ "pyeong_avg": 1693,
+ "price_84_min": 59400,
+ "price_84_max": 59900,
+ "special_kinds": {
+  "신혼부부": 20,
+  "생애최초": 10,
+  "신생아": 14,
+  "다자녀": 13,
+  "노부모 부양": 4,
+  "기관추천": 13
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.2259A",
+    "supply": 70,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 47
+   },
+   {
+    "ty": "84.5328B",
+    "supply": 54,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 43
+   },
+   {
+    "ty": "84.8209C",
+    "supply": 16,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   }
+  ],
+  "req_total": 42,
+  "rank1_req": 30,
+  "supply_total": 140,
+  "final_shortfall_total": 98,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.21
+ },
+ "region_price": {
+  "scope": "대전",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_pyeong": 2103,
+  "diff": -410,
+  "diff_pct": -19,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "대전",
+  "peer_count": 4,
+  "peers": [
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_rate": 2.77,
+  "rank": 4,
+  "of": 5
+ }
+}

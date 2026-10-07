@@ -1,0 +1,159 @@
+{
+ "no": "2026000281",
+ "name": "이천 서희스타힐스 SKY(조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-06-22",
+ "rank1_date": "2026-07-02",
+ "city": "이천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000281&pblancNo=2026000281",
+ "households": 8,
+ "types": [
+  {
+   "ty": "84.98A",
+   "size": 84,
+   "price": 65460,
+   "area_m2": 118.6263,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 1824,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.98B",
+   "size": 84,
+   "price": 61720,
+   "area_m2": 119.9563,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 1701,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.99C",
+   "size": 84,
+   "price": 63050,
+   "area_m2": 120.0892,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1736,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 8,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1701,
+ "pyeong_max": 1824,
+ "pyeong_avg": 1752,
+ "price_84_min": 61720,
+ "price_84_max": 65460,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.98A",
+    "supply": 3,
+    "closed_at": "1순위 기타지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.98B",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "84.99C",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 20,
+  "rank1_req": 11,
+  "supply_total": 8,
+  "final_shortfall_total": 2,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 3,
+  "rank1_avg_rate": 1.38,
+  "best": {
+   "ty": "84.98A",
+   "rate": 6.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.98A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.98A": 0,
+   "84.99C": 0
+  },
+  "avg_min": 15.0,
+  "max": {
+   "score": 40,
+   "ty": "84.98A"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 56,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "더샵 분당센트로",
+   "북오산자이 리버블시티",
+   "안양역 센트럴 아이파크 수자인",
+   "사우역 지엔하임",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크"
+  ],
+  "peer_avg_pyeong": 2489,
+  "diff": -737,
+  "diff_pct": -30,
+  "rank": 42,
+  "of": 57
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 54,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "더샵 분당센트로",
+   "북오산자이 리버블시티",
+   "안양역 센트럴 아이파크 수자인",
+   "사우역 지엔하임",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크"
+  ],
+  "peer_avg_rate": 3.68,
+  "rank": 26,
+  "of": 55
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 34,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "더샵 분당센트로",
+   "북오산자이 리버블시티",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "부천역 에피트 어바닉"
+  ],
+  "peer_avg_min": 2.6,
+  "diff": -2.6
+ }
+}

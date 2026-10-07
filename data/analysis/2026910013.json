@@ -1,0 +1,114 @@
+{
+ "no": "2026910013",
+ "name": "엘리프 원종",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-15",
+ "rank1_date": "2026-01-20",
+ "city": "부천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910013&pblancNo=2026910013",
+ "households": 64,
+ "types": [
+  {
+   "ty": "59.98C",
+   "size": 59,
+   "price": 52030,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.92C",
+   "size": 59,
+   "price": 50420,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.96C",
+   "size": 59,
+   "price": 50300,
+   "area_m2": null,
+   "general": 33,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "72.23B",
+   "size": 72,
+   "price": 62150,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.86B",
+   "size": 74,
+   "price": 62510,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 64,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.92C",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "59.96C",
+    "supply": 33,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "59.98C",
+    "supply": 12,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "72.23B",
+    "supply": 6,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "74.86B",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.75,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 39,
+  "rank1_req": 0,
+  "supply_total": 64,
+  "final_shortfall_total": 28,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.86B",
+   "rate": 1.75,
+   "stage": "None순위 None"
+  }
+ }
+}

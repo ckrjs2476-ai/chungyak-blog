@@ -1,0 +1,199 @@
+{
+ "no": "2025000581",
+ "name": "이천 중리지구 B3블록 금성백조 예미지",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-12-12",
+ "rank1_date": "2025-12-23",
+ "city": "이천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000581&pblancNo=2025000581",
+ "households": 1009,
+ "types": [
+  {
+   "ty": "59.987A",
+   "size": 59,
+   "price": 39800,
+   "area_m2": 80.1853,
+   "general": 107,
+   "special": 190,
+   "pyeong_price": 1641,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "59.987B",
+   "size": 59,
+   "price": 39800,
+   "area_m2": 80.1735,
+   "general": 25,
+   "special": 45,
+   "pyeong_price": 1641,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.7884A",
+   "size": 84,
+   "price": 54700,
+   "area_m2": 111.4967,
+   "general": 169,
+   "special": 307,
+   "pyeong_price": 1622,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.997B",
+   "size": 84,
+   "price": 53800,
+   "area_m2": 112.9281,
+   "general": 39,
+   "special": 67,
+   "pyeong_price": 1575,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.9665C",
+   "size": 84,
+   "price": 55600,
+   "area_m2": 112.2044,
+   "general": 23,
+   "special": 37,
+   "pyeong_price": 1638,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 363,
+ "special_total": 646,
+ "special_share_pct": 64,
+ "pyeong_min": 1575,
+ "pyeong_max": 1641,
+ "pyeong_avg": 1625,
+ "price_84_min": 53800,
+ "price_84_max": 55600,
+ "special_kinds": {
+  "신혼부부": 230,
+  "생애최초": 190,
+  "다자녀": 99,
+  "노부모 부양": 28,
+  "기관추천": 99
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.987A",
+    "supply": 167,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.12,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.987B",
+    "supply": 66,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   },
+   {
+    "ty": "84.7884A",
+    "supply": 444,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 307
+   },
+   {
+    "ty": "84.997B",
+    "supply": 66,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.48,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9665C",
+    "supply": 48,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 594,
+  "rank1_req": 509,
+  "supply_total": 791,
+  "final_shortfall_total": 340,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 5,
+  "rank1_avg_rate": 0.64,
+  "best": {
+   "ty": "84.997B",
+   "rate": 1.48,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.997B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.997B": 0
+  },
+  "avg_min": 16.0,
+  "max": {
+   "score": 69,
+   "ty": "84.997B"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 67,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지"
+  ],
+  "peer_avg_pyeong": 2469,
+  "diff": -844,
+  "diff_pct": -34,
+  "rank": 61,
+  "of": 68
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 67,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지"
+  ],
+  "peer_avg_rate": 6.54,
+  "rank": 47,
+  "of": 68
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 44,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "중흥S-클래스 힐더포레"
+  ],
+  "peer_avg_min": 2.2,
+  "diff": -2.2
+ }
+}

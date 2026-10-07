@@ -1,0 +1,100 @@
+{
+ "no": "2025910278",
+ "name": "둔산 더샵 엘리프",
+ "kind": "remndr",
+ "region": "대전",
+ "notice_date": "2026-01-09",
+ "rank1_date": "2026-01-14",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910278&pblancNo=2025910278",
+ "households": 9,
+ "types": [
+  {
+   "ty": "59.961A",
+   "size": 59,
+   "price": 45000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9879A",
+   "size": 84,
+   "price": 63740,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.987C",
+   "size": 84,
+   "price": 63360,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9877D",
+   "size": 84,
+   "price": 63740,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 9,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 63360,
+ "price_84_max": 63740,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.961A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1801.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.987C",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 883.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9877D",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 900.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9879A",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 1316.83,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 11485,
+  "rank1_req": 0,
+  "supply_total": 9,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.961A",
+   "rate": 1801.0,
+   "stage": "None순위 None"
+  }
+ }
+}

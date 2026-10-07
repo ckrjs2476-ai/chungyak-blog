@@ -1,0 +1,90 @@
+{
+ "no": "2025000547",
+ "name": "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-25",
+ "city": "시흥시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000547&pblancNo=2025000547",
+ "households": 270,
+ "types": [
+  {
+   "ty": "84.9584",
+   "size": 84,
+   "price": 64977,
+   "area_m2": 109.9357,
+   "general": 92,
+   "special": 178,
+   "pyeong_price": 1954,
+   "special_share_pct": 66
+  }
+ ],
+ "general_total": 92,
+ "special_total": 178,
+ "special_share_pct": 66,
+ "pyeong_min": 1954,
+ "pyeong_max": 1954,
+ "pyeong_avg": 1954,
+ "price_84_min": 64977,
+ "price_84_max": 64977,
+ "special_kinds": {
+  "신혼부부": 63,
+  "생애최초": 52,
+  "다자녀": 27,
+  "노부모 부양": 9,
+  "기관추천": 27
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9584",
+    "supply": 212,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.25,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 212,
+  "rank1_req": 150,
+  "supply_total": 212,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 1,
+  "rank1_avg_rate": 0.71,
+  "best": {
+   "ty": "84.9584",
+   "rate": 1.25,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "시흥시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모 엘가 로제비앙",
+   "시흥거모B1 호반써밋"
+  ],
+  "peer_avg_pyeong": 1793,
+  "diff": 161,
+  "diff_pct": 9,
+  "rank": 1,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "시흥시",
+  "peer_count": 3,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모 엘가 로제비앙",
+   "시흥거모B1 호반써밋"
+  ],
+  "peer_avg_rate": 0.64,
+  "rank": 2,
+  "of": 4
+ }
+}

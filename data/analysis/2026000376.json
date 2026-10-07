@@ -1,0 +1,102 @@
+{
+ "no": "2026000376",
+ "name": "달서자이 제니크",
+ "kind": "apt",
+ "region": "대구",
+ "notice_date": "2026-08-06",
+ "rank1_date": "2026-08-19",
+ "city": "달서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000376&pblancNo=2026000376",
+ "households": 360,
+ "types": [
+  {
+   "ty": "84.7506A",
+   "size": 84,
+   "price": 58660,
+   "area_m2": 116.3474,
+   "general": 82,
+   "special": 98,
+   "pyeong_price": 1667,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.8664B",
+   "size": 84,
+   "price": 59730,
+   "area_m2": 116.9898,
+   "general": 82,
+   "special": 98,
+   "pyeong_price": 1688,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 164,
+ "special_total": 196,
+ "special_share_pct": 54,
+ "pyeong_min": 1667,
+ "pyeong_max": 1688,
+ "pyeong_avg": 1678,
+ "price_84_min": 58660,
+ "price_84_max": 59730,
+ "special_kinds": {
+  "신혼부부": 54,
+  "생애최초": 24,
+  "신생아": 36,
+  "다자녀": 36,
+  "노부모 부양": 10,
+  "기관추천": 36
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7506A",
+    "supply": 160,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 64
+   },
+   {
+    "ty": "84.8664B",
+    "supply": 180,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 140
+   }
+  ],
+  "req_total": 136,
+  "rank1_req": 92,
+  "supply_total": 340,
+  "final_shortfall_total": 204,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.27
+ },
+ "region_price": {
+  "scope": "대구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "범어역 파크드림 디아르",
+   "더샵 중앙로역센터폴",
+   "더샵 동인센트리체"
+  ],
+  "peer_avg_pyeong": 2543,
+  "diff": -865,
+  "diff_pct": -34,
+  "rank": 4,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "대구",
+  "peer_count": 2,
+  "peers": [
+   "범어역 파크드림 디아르",
+   "더샵 중앙로역센터폴"
+  ],
+  "peer_avg_rate": 50.79,
+  "rank": 2,
+  "of": 3
+ }
+}

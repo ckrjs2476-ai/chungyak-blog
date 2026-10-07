@@ -1,0 +1,63 @@
+{
+ "no": "2026910118",
+ "name": "도안자이 센텀리체 2단지",
+ "kind": "remndr",
+ "region": "대전",
+ "notice_date": "2026-05-20",
+ "rank1_date": "2026-05-26",
+ "city": "유성구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910118&pblancNo=2026910118",
+ "households": 657,
+ "types": [
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 77690,
+   "area_m2": null,
+   "general": 503,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115A",
+   "size": 115,
+   "price": 106990,
+   "area_m2": null,
+   "general": 154,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 657,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 77690,
+ "price_84_max": 77690,
+ "competition": {
+  "types": [
+   {
+    "ty": "84A",
+    "supply": 503,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 468
+   },
+   {
+    "ty": "115A",
+    "supply": 154,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 148
+   }
+  ],
+  "req_total": 41,
+  "rank1_req": 0,
+  "supply_total": 657,
+  "final_shortfall_total": 616,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

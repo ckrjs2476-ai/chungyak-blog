@@ -1,0 +1,52 @@
+{
+ "no": "2026910005",
+ "name": "용인 경남아너스빌 디센트 H4BL(3단지)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-12",
+ "rank1_date": "2026-01-19",
+ "city": "용인시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910005&pblancNo=2026910005",
+ "households": 3,
+ "types": [
+  {
+   "ty": "84.6367A",
+   "size": 84,
+   "price": 42400,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 42400,
+ "price_84_max": 42400,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6367A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 14.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 42,
+  "rank1_req": 0,
+  "supply_total": 3,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.6367A",
+   "rate": 14.0,
+   "stage": "None순위 None"
+  }
+ }
+}

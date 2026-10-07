@@ -1,0 +1,160 @@
+{
+ "no": "2026000235",
+ "name": "북서울자이 폴라리스(보류지)",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-06-12",
+ "rank1_date": "2026-06-22",
+ "city": "강북구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000235&pblancNo=2026000235",
+ "households": 6,
+ "types": [
+  {
+   "ty": "59.6389B",
+   "size": 59,
+   "price": 92500,
+   "area_m2": 79.6556,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3839,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8654B",
+   "size": 84,
+   "price": 115400,
+   "area_m2": 110.9236,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 3439,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "112.9104",
+   "size": 112,
+   "price": 137000,
+   "area_m2": 148.3303,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3053,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 3053,
+ "pyeong_max": 3839,
+ "pyeong_avg": 3377,
+ "price_84_min": 115400,
+ "price_84_max": 115400,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.6389B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1040.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8654B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 470.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "112.9104",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 60.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2571,
+  "rank1_req": 2571,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 428.5,
+  "best": {
+   "ty": "59.6389B",
+   "rate": 1040.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "112.9104",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.6389B": 0,
+   "84.8654B": 0,
+   "112.9104": 0
+  },
+  "avg_min": 35.5,
+  "max": {
+   "score": 74,
+   "ty": "84.8654B"
+  }
+ },
+ "region_price": {
+  "scope": "서울",
+  "days": 180,
+  "peer_count": 21,
+  "peers": [
+   "아크로 드 서초",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티"
+  ],
+  "peer_avg_pyeong": 6107,
+  "diff": -2730,
+  "diff_pct": -45,
+  "rank": 21,
+  "of": 22
+ },
+ "region_competition": {
+  "scope": "서울",
+  "peer_count": 21,
+  "peers": [
+   "아크로 드 서초",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티"
+  ],
+  "peer_avg_rate": 129.16,
+  "rank": 3,
+  "of": 22
+ },
+ "region_score": {
+  "scope": "서울",
+  "peer_count": 21,
+  "peers": [
+   "아크로 드 서초",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "이촌 르엘",
+   "오티에르 반포",
+   "더샵 신길센트럴시티"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

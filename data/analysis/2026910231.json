@@ -1,0 +1,52 @@
+{
+ "no": "2026910231",
+ "name": "동대구역 더샵 센터시티(2차)",
+ "kind": "remndr",
+ "region": "대구",
+ "notice_date": "2026-09-04",
+ "rank1_date": "2026-09-09",
+ "city": "동구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910231&pblancNo=2026910231",
+ "households": 1,
+ "types": [
+  {
+   "ty": "84.9464B",
+   "size": 84,
+   "price": 49676,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 49676,
+ "price_84_max": 49676,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9464B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 80.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 80,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9464B",
+   "rate": 80.0,
+   "stage": "None순위 None"
+  }
+ }
+}

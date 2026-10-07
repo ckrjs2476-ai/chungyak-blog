@@ -1,0 +1,134 @@
+{
+ "no": "2026000065",
+ "name": "검단호수공원역 파라곤(AA36BL)",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-03-27",
+ "rank1_date": "2026-04-07",
+ "city": "서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000065&pblancNo=2026000065",
+ "households": 569,
+ "types": [
+  {
+   "ty": "84.7722A",
+   "size": 84,
+   "price": 64500,
+   "area_m2": 110.9646,
+   "general": 107,
+   "special": 190,
+   "pyeong_price": 1922,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.7572B",
+   "size": 84,
+   "price": 64400,
+   "area_m2": 110.9466,
+   "general": 97,
+   "special": 175,
+   "pyeong_price": 1919,
+   "special_share_pct": 64
+  }
+ ],
+ "general_total": 204,
+ "special_total": 365,
+ "special_share_pct": 64,
+ "pyeong_min": 1919,
+ "pyeong_max": 1922,
+ "pyeong_avg": 1921,
+ "price_84_min": 64400,
+ "price_84_max": 64500,
+ "special_kinds": {
+  "신혼부부": 130,
+  "생애최초": 107,
+  "다자녀": 56,
+  "노부모 부양": 16,
+  "기관추천": 56
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7722A",
+    "supply": 107,
+    "closed_at": "1순위 해당지역",
+    "rate": 35.56,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7572B",
+    "supply": 97,
+    "closed_at": "1순위 해당지역",
+    "rate": 43.1,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 6377,
+  "rank1_req": 6377,
+  "supply_total": 204,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 2,
+  "rank1_avg_rate": 31.26,
+  "best": {
+   "ty": "84.7572B",
+   "rate": 43.1,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 57,
+   "ty": "84.7722A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.7722A": 57,
+   "84.7572B": 59
+  },
+  "avg_min": 59.5,
+  "max": {
+   "score": 72,
+   "ty": "84.7572B"
+  }
+ },
+ "region_price": {
+  "scope": "서구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "검암역자이르네",
+   "더샵 검단레이크파크(AB22BL)",
+   "더샵 검단레이크파크(AB23BL)"
+  ],
+  "peer_avg_pyeong": 1899,
+  "diff": 22,
+  "diff_pct": 1,
+  "rank": 3,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "서구",
+  "peer_count": 3,
+  "peers": [
+   "검암역자이르네",
+   "더샵 검단레이크파크(AB22BL)",
+   "더샵 검단레이크파크(AB23BL)"
+  ],
+  "peer_avg_rate": 5.27,
+  "rank": 1,
+  "of": 4
+ },
+ "region_score": {
+  "scope": "서구",
+  "peer_count": 3,
+  "peers": [
+   "검암역자이르네",
+   "더샵 검단레이크파크(AB22BL)",
+   "더샵 검단레이크파크(AB23BL)"
+  ],
+  "peer_avg_min": 20.0,
+  "diff": 37.0
+ }
+}

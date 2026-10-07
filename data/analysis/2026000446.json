@@ -128,5 +128,30 @@
    "rate": 61.69,
    "stage": "1순위 해당지역"
   }
+ },
+ "region_price": {
+  "scope": "진주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 평거 센트럴",
+   "포레나힐스테이트 진주"
+  ],
+  "peer_avg_pyeong": 1750,
+  "diff": -113,
+  "diff_pct": -6,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "진주시",
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 평거 센트럴",
+   "포레나힐스테이트 진주"
+  ],
+  "peer_avg_rate": 20.77,
+  "rank": 1,
+  "of": 3
  }
 }

@@ -1,0 +1,66 @@
+{
+ "no": "2026910155",
+ "name": "더 리치먼드 미아",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-06-18",
+ "rank1_date": "2026-06-23",
+ "city": "강북구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910155&pblancNo=2026910155",
+ "households": 98,
+ "types": [
+  {
+   "ty": "49.75A",
+   "size": 49,
+   "price": 80200,
+   "area_m2": null,
+   "general": 84,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.84A",
+   "size": 59,
+   "price": 95300,
+   "area_m2": null,
+   "general": 14,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 98,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "49.75A",
+    "supply": 84,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "59.84A",
+    "supply": 14,
+    "closed_at": "None순위 None",
+    "rate": 5.79,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 142,
+  "rank1_req": 0,
+  "supply_total": 98,
+  "final_shortfall_total": 23,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.84A",
+   "rate": 5.79,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "no": "2026000409",
+ "name": "의정부우정 A2블록 공공분양주택(본청약)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-08-26",
+ "rank1_date": "2026-09-07",
+ "city": "의정부시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000409&pblancNo=2026000409",
+ "households": 463,
+ "types": [
+  {
+   "ty": "59.92A",
+   "size": 59,
+   "price": 40646,
+   "area_m2": 83.978,
+   "general": 20,
+   "special": 120,
+   "pyeong_price": 1600,
+   "special_share_pct": 86
+  },
+  {
+   "ty": "59.96B",
+   "size": 59,
+   "price": 40419,
+   "area_m2": 84.0341,
+   "general": 7,
+   "special": 38,
+   "pyeong_price": 1590,
+   "special_share_pct": 84
+  }
+ ],
+ "general_total": 27,
+ "special_total": 158,
+ "special_share_pct": 85,
+ "pyeong_min": 1590,
+ "pyeong_max": 1600,
+ "pyeong_avg": 1598,
+ "special_kinds": {
+  "신혼부부": 17,
+  "생애최초": 26,
+  "신생아": 35,
+  "다자녀": 17,
+  "노부모 부양": 9,
+  "기관추천": 26
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 19,
+  "peers": [
+   "고덕신도시 아테라 A-63블록 공공분양주택",
+   "안양 에버포레 자연앤 e편한세상(A2BL)",
+   "고양 창릉 우미 린 그레니티 공공분양주택(본청약)",
+   "왕숙 아테라 공공분양주택(본청약)",
+   "남양주왕숙2 A-3블록 공공분양주택(본청약)",
+   "화성동탄2지구 C-27블록 공공분양주택",
+   "군포대야미지구 A-1블록 6년 분양전환공공임대주택(본청약)",
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 1919,
+  "diff": -321,
+  "diff_pct": -17,
+  "rank": 16,
+  "of": 20
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "no": "2025000563",
+ "name": "엘리프 세종 스마트시티",
+ "kind": "apt",
+ "region": "세종",
+ "notice_date": "2025-11-21",
+ "rank1_date": "2025-12-02",
+ "city": "합강동",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000563&pblancNo=2025000563",
+ "households": 424,
+ "types": [
+  {
+   "ty": "59.9552A",
+   "size": 59,
+   "price": 46100,
+   "area_m2": 81.5042,
+   "general": 25,
+   "special": 9,
+   "pyeong_price": 1870,
+   "special_share_pct": 26
+  },
+  {
+   "ty": "59.9832B",
+   "size": 59,
+   "price": 45200,
+   "area_m2": 82.4052,
+   "general": 8,
+   "special": 21,
+   "pyeong_price": 1813,
+   "special_share_pct": 72
+  },
+  {
+   "ty": "74.8763A",
+   "size": 74,
+   "price": 57200,
+   "area_m2": 101.0989,
+   "general": 29,
+   "special": 18,
+   "pyeong_price": 1870,
+   "special_share_pct": 38
+  },
+  {
+   "ty": "80.128A",
+   "size": 80,
+   "price": 60500,
+   "area_m2": 108.5236,
+   "general": 16,
+   "special": 10,
+   "pyeong_price": 1843,
+   "special_share_pct": 38
+  },
+  {
+   "ty": "80.2425B",
+   "size": 80,
+   "price": 59600,
+   "area_m2": 107.5436,
+   "general": 4,
+   "special": 30,
+   "pyeong_price": 1832,
+   "special_share_pct": 88
+  },
+  {
+   "ty": "84.8262A",
+   "size": 84,
+   "price": 65500,
+   "area_m2": 114.0849,
+   "general": 44,
+   "special": 44,
+   "pyeong_price": 1898,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 62800,
+   "area_m2": 114.6366,
+   "general": 12,
+   "special": 91,
+   "pyeong_price": 1811,
+   "special_share_pct": 88
+  },
+  {
+   "ty": "84.806C",
+   "size": 84,
+   "price": 64200,
+   "area_m2": 114.0611,
+   "general": 25,
+   "special": 23,
+   "pyeong_price": 1861,
+   "special_share_pct": 48
+  },
+  {
+   "ty": "84D",
+   "size": 84,
+   "price": 62800,
+   "area_m2": 116.3534,
+   "general": 7,
+   "special": 6,
+   "pyeong_price": 1784,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "84.8616T",
+   "size": 84,
+   "price": 66750,
+   "area_m2": 116.1589,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1900,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 172,
+ "special_total": 252,
+ "special_share_pct": 59,
+ "pyeong_min": 1784,
+ "pyeong_max": 1900,
+ "pyeong_avg": 1849,
+ "price_84_min": 62800,
+ "price_84_max": 66750,
+ "special_kinds": {
+  "신혼부부": 91,
+  "생애최초": 75,
+  "다자녀": 37,
+  "노부모 부양": 9,
+  "기관추천": 40
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9552A",
+    "supply": 25,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9832B",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 10.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.8763A",
+    "supply": 29,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.24,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "80.128A",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "80.2425B",
+    "supply": 9,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8262A",
+    "supply": 44,
+    "closed_at": "1순위 해당지역",
+    "rate": 24.81,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84B",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 23.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.806C",
+    "supply": 29,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.65,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84D",
+    "supply": 7,
+    "closed_at": "1순위 해당지역",
+    "rate": 35.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8616T",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 117.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2712,
+  "rank1_req": 2409,
+  "supply_total": 181,
+  "final_shortfall_total": 0,
+  "closed_types": 10,
+  "rank1_closed_types": 10,
+  "type_count": 10,
+  "rank1_avg_rate": 13.31,
+  "best": {
+   "ty": "84.8616T",
+   "rate": 117.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 46,
+   "ty": "59.9832B",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.9552A": 54,
+   "59.9832B": 46,
+   "74.8763A": 55,
+   "80.128A": 49,
+   "80.2425B": 46,
+   "84.8262A": 64,
+   "84B": 63,
+   "84.806C": 50,
+   "84D": 65,
+   "84.8616T": 69
+  },
+  "avg_min": 58.0,
+  "max": {
+   "score": 75,
+   "ty": "84.8262A"
+  }
+ }
+}

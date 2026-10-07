@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사하이아트이앤씨",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-31",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-31",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://알티에로광안.com",
+  "HOUSE_MANAGE_NO": "2026910184",
+  "HOUSE_NM": "알티에로 광안",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 수영구 민락동 316-2번지 일원",
+  "HSSPLY_ZIP": "48276",
+  "MDHS_TELNO": "18000366",
+  "MVN_PREARNGE_YM": "202907",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910184",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910184&pblancNo=2026910184",
+  "PRZWNER_PRESNATN_DE": "2026-07-24",
+  "RCRIT_PBLANC_DE": "2026-07-16",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-21",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-21",
+  "TOT_SUPLY_HSHLDCO": 12
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "151.7340P",
+   "LTTOT_TOP_AMOUNT": "310200",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910184",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "154.8504P",
+   "LTTOT_TOP_AMOUNT": "340200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910184",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "160.2818P",
+   "LTTOT_TOP_AMOUNT": "347100",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910184",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "191.4609P",
+   "LTTOT_TOP_AMOUNT": "393400",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910184",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "151.7340P",
+   "PBLANC_NO": "2026910184",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "154.8504P",
+   "PBLANC_NO": "2026910184",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "160.2818P",
+   "PBLANC_NO": "2026910184",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910184",
+   "HOUSE_TY": "191.4609P",
+   "PBLANC_NO": "2026910184",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:55.736860+09:00"
+}

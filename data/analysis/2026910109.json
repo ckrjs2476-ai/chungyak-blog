@@ -1,0 +1,175 @@
+{
+ "no": "2026910109",
+ "name": "르네오션 고성 퍼스트뷰",
+ "kind": "remndr",
+ "region": "강원",
+ "notice_date": "2026-05-12",
+ "rank1_date": "2026-05-18",
+ "city": "고성군",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910109&pblancNo=2026910109",
+ "households": 63,
+ "types": [
+  {
+   "ty": "84.98A",
+   "size": 84,
+   "price": 48300,
+   "area_m2": null,
+   "general": 30,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "109.83",
+   "size": 109,
+   "price": 65200,
+   "area_m2": null,
+   "general": 26,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "117.15B",
+   "size": 117,
+   "price": 167000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "137.23A",
+   "size": 137,
+   "price": 196500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "137.23B",
+   "size": 137,
+   "price": 164000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "143.49",
+   "size": 143,
+   "price": 174200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "147.23",
+   "size": 147,
+   "price": 176800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "148.76",
+   "size": 148,
+   "price": 178500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "183.76",
+   "size": 183,
+   "price": 234600,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 63,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 48300,
+ "price_84_max": 48300,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.98A",
+    "supply": 30,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "109.83",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "117.15B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "137.23A",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "137.23B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "143.49",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "147.23",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "148.76",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "183.76",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 0,
+  "supply_total": 63,
+  "final_shortfall_total": 57,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 9,
+  "rank1_avg_rate": 0.0
+ }
+}

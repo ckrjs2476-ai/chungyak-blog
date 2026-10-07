@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "코리아신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-20",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://brand.hldni.com/suwon-efete/",
+  "HOUSE_MANAGE_NO": "2025910279",
+  "HOUSE_NM": "서수원 에피트 센트럴마크(M2BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 수원시 권선구 당수동 3002번지 일원 (수원당수 공공주택지구 M2BL)",
+  "HSSPLY_ZIP": "16373",
+  "MDHS_TELNO": "18992888",
+  "MVN_PREARNGE_YM": "202809",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910279",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910279&pblancNo=2025910279",
+  "PRZWNER_PRESNATN_DE": "2026-01-19",
+  "RCRIT_PBLANC_DE": "2026-01-09",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-14",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-14",
+  "TOT_SUPLY_HSHLDCO": 62
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910279",
+   "HOUSE_TY": "084.9100A",
+   "LTTOT_TOP_AMOUNT": "81000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910279",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 61
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910279",
+   "HOUSE_TY": "117.9800 ",
+   "LTTOT_TOP_AMOUNT": "126600",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910279",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.10",
+   "HOUSE_MANAGE_NO": "2025910279",
+   "HOUSE_TY": "084.9100A",
+   "PBLANC_NO": "2025910279",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "67",
+   "SUPLY_HSHLDCO": 61
+  },
+  {
+   "CMPET_RATE": "8.00",
+   "HOUSE_MANAGE_NO": "2025910279",
+   "HOUSE_TY": "117.9800 ",
+   "PBLANC_NO": "2025910279",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:18.240095+09:00"
+}

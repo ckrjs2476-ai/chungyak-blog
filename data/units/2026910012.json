@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 삼태사",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-06",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-06",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.안동리첼스카이파크.com",
+  "HOUSE_MANAGE_NO": "2026910012",
+  "HOUSE_NM": "안동리첼스카이파크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상북도 안동시 송현동 529-1번지 일원",
+  "HSSPLY_ZIP": "36631",
+  "MDHS_TELNO": "16603407",
+  "MVN_PREARNGE_YM": "202901",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910012",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910012&pblancNo=2026910012",
+  "PRZWNER_PRESNATN_DE": "2026-01-30",
+  "RCRIT_PBLANC_DE": "2026-01-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "712",
+  "SUBSCRPT_AREA_CODE_NM": "경북",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-27",
+  "TOT_SUPLY_HSHLDCO": 108
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910012",
+   "HOUSE_TY": "074.9973A",
+   "LTTOT_TOP_AMOUNT": "41840",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910012",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 44
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910012",
+   "HOUSE_TY": "084.9639A",
+   "LTTOT_TOP_AMOUNT": "47330",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910012",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 64
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△42)",
+   "HOUSE_MANAGE_NO": "2026910012",
+   "HOUSE_TY": "074.9973A",
+   "PBLANC_NO": "2026910012",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 44
+  },
+  {
+   "CMPET_RATE": "(△62)",
+   "HOUSE_MANAGE_NO": "2026910012",
+   "HOUSE_TY": "084.9639A",
+   "PBLANC_NO": "2026910012",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 64
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:53.172197+09:00"
+}

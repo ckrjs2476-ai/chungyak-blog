@@ -1,0 +1,144 @@
+{
+ "no": "2026000185",
+ "name": "덕진 거제의 봄 우선분양전환 후 공가세대",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-04-30",
+ "rank1_date": "2026-05-11",
+ "city": "거제시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000185&pblancNo=2026000185",
+ "households": 376,
+ "types": [
+  {
+   "ty": "67.7016A",
+   "size": 67,
+   "price": 14425,
+   "area_m2": 93.1853,
+   "general": 96,
+   "special": 0,
+   "pyeong_price": 512,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "67.8493B",
+   "size": 67,
+   "price": 14315,
+   "area_m2": 92.9847,
+   "general": 101,
+   "special": 0,
+   "pyeong_price": 509,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9785A",
+   "size": 84,
+   "price": 17563,
+   "area_m2": 111.0259,
+   "general": 77,
+   "special": 0,
+   "pyeong_price": 523,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9948B",
+   "size": 84,
+   "price": 17671,
+   "area_m2": 110.8278,
+   "general": 76,
+   "special": 0,
+   "pyeong_price": 527,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9134C",
+   "size": 84,
+   "price": 17360,
+   "area_m2": 111.3624,
+   "general": 26,
+   "special": 0,
+   "pyeong_price": 515,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 376,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 509,
+ "pyeong_max": 527,
+ "pyeong_avg": 517,
+ "price_84_min": 17360,
+ "price_84_max": 17671,
+ "competition": {
+  "types": [
+   {
+    "ty": "67.7016A",
+    "supply": 96,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 96
+   },
+   {
+    "ty": "67.8493B",
+    "supply": 101,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 99
+   },
+   {
+    "ty": "84.9785A",
+    "supply": 77,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 77
+   },
+   {
+    "ty": "84.9948B",
+    "supply": 76,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 76
+   },
+   {
+    "ty": "84.9134C",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   }
+  ],
+  "req_total": 2,
+  "rank1_req": 2,
+  "supply_total": 376,
+  "final_shortfall_total": 374,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.01
+ },
+ "region_price": {
+  "scope": "경남",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "밀양 수자인 더퍼스트 1단지 공공분양주택",
+   "밀양 수자인 더퍼스트 2단지 공공분양주택"
+  ],
+  "peer_avg_pyeong": 1104,
+  "diff": -587,
+  "diff_pct": -53,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "경남",
+  "peer_count": 2,
+  "peers": [
+   "밀양 수자인 더퍼스트 1단지 공공분양주택",
+   "밀양 수자인 더퍼스트 2단지 공공분양주택"
+  ],
+  "peer_avg_rate": 0.11,
+  "rank": 3,
+  "of": 3
+ }
+}

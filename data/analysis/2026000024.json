@@ -1,0 +1,98 @@
+{
+ "no": "2026000024",
+ "name": "힐스테이트 지석(조합원취소분)",
+ "kind": "apt",
+ "region": "광주",
+ "notice_date": "2026-02-05",
+ "rank1_date": "2026-02-19",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000024&pblancNo=2026000024",
+ "households": 9,
+ "types": [
+  {
+   "ty": "84.9892",
+   "size": 84,
+   "price": 64570,
+   "area_m2": 109.4514,
+   "general": 7,
+   "special": 0,
+   "pyeong_price": 1950,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.2492",
+   "size": 115,
+   "price": 76230,
+   "area_m2": 143.3857,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1758,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 9,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1758,
+ "pyeong_max": 1950,
+ "pyeong_avg": 1907,
+ "price_84_min": 64570,
+ "price_84_max": 64570,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9892",
+    "supply": 7,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.2492",
+    "supply": 2,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 17,
+  "rank1_req": 8,
+  "supply_total": 9,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 2,
+  "rank1_avg_rate": 0.89,
+  "best": {
+   "ty": "115.2492",
+   "rate": 2.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 지석",
+   "더 퍼스트 데시앙"
+  ],
+  "peer_avg_pyeong": 1987,
+  "diff": -80,
+  "diff_pct": -4,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 지석",
+   "더 퍼스트 데시앙"
+  ],
+  "peer_avg_rate": 0.1,
+  "rank": 1,
+  "of": 3
+ }
+}

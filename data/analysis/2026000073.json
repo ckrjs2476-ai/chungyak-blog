@@ -1,0 +1,137 @@
+{
+ "no": "2026000073",
+ "name": "풍무역세권 수자인 그라센트 2차",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-03",
+ "rank1_date": "2026-04-14",
+ "city": "김포시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000073&pblancNo=2026000073",
+ "households": 639,
+ "types": [
+  {
+   "ty": "84.9939",
+   "size": 84,
+   "price": 71150,
+   "area_m2": 110.7946,
+   "general": 178,
+   "special": 331,
+   "pyeong_price": 2123,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "105.2083",
+   "size": 105,
+   "price": 82530,
+   "area_m2": 134.4757,
+   "general": 112,
+   "special": 18,
+   "pyeong_price": 2029,
+   "special_share_pct": 14
+  }
+ ],
+ "general_total": 290,
+ "special_total": 349,
+ "special_share_pct": 55,
+ "pyeong_min": 2029,
+ "pyeong_max": 2123,
+ "pyeong_avg": 2104,
+ "price_84_min": 71150,
+ "price_84_max": 71150,
+ "special_kinds": {
+  "신혼부부": 117,
+  "생애최초": 97,
+  "다자녀": 64,
+  "노부모 부양": 20,
+  "기관추천": 51
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9939",
+    "supply": 337,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "105.2083",
+    "supply": 129,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   }
+  ],
+  "req_total": 762,
+  "rank1_req": 596,
+  "supply_total": 466,
+  "final_shortfall_total": 18,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 2,
+  "rank1_avg_rate": 1.28,
+  "best": {
+   "ty": "84.9939",
+   "rate": 2.43,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9939",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.9939": 0
+  },
+  "avg_min": 18.0,
+  "max": {
+   "score": 67,
+   "ty": "84.9939"
+  }
+ },
+ "region_price": {
+  "scope": "김포시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "풍무역 푸르지오 더 마크",
+   "풍무역세권 수자인 그라센트 1차",
+   "김포북변 칸타빌 디 에디션",
+   "사우역 지엔하임",
+   "한강 푸르지오 리버프론트"
+  ],
+  "peer_avg_pyeong": 2123,
+  "diff": -19,
+  "diff_pct": -1,
+  "rank": 3,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "김포시",
+  "peer_count": 5,
+  "peers": [
+   "풍무역 푸르지오 더 마크",
+   "풍무역세권 수자인 그라센트 1차",
+   "김포북변 칸타빌 디 에디션",
+   "사우역 지엔하임",
+   "한강 푸르지오 리버프론트"
+  ],
+  "peer_avg_rate": 5.03,
+  "rank": 3,
+  "of": 6
+ },
+ "region_score": {
+  "scope": "김포시",
+  "peer_count": 3,
+  "peers": [
+   "풍무역 푸르지오 더 마크",
+   "풍무역세권 수자인 그라센트 1차",
+   "한강 푸르지오 리버프론트"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

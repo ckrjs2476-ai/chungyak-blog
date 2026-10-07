@@ -1,0 +1,52 @@
+{
+ "no": "2025910219",
+ "name": "에코델타시티 푸르지오 트레파크(11BL)",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2025-11-11",
+ "rank1_date": "2025-11-17",
+ "city": "강서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910219&pblancNo=2025910219",
+ "households": 19,
+ "types": [
+  {
+   "ty": "84.8367A",
+   "size": 84,
+   "price": 59890,
+   "area_m2": null,
+   "general": 19,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 19,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 59890,
+ "price_84_max": 59890,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8367A",
+    "supply": 19,
+    "closed_at": "None순위 None",
+    "rate": 2.11,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 40,
+  "rank1_req": 0,
+  "supply_total": 19,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8367A",
+   "rate": 2.11,
+   "stage": "None순위 None"
+  }
+ }
+}

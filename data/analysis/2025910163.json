@@ -1,0 +1,82 @@
+{
+ "no": "2025910163",
+ "name": "오산 세교2지구 A12블록 공공분양주택(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-09-02",
+ "rank1_date": "2025-09-08",
+ "city": "오산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910163&pblancNo=2025910163",
+ "households": 40,
+ "types": [
+  {
+   "ty": "59.87A",
+   "size": 59,
+   "price": 34184,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.82C",
+   "size": 59,
+   "price": 34156,
+   "area_m2": null,
+   "general": 22,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.92D",
+   "size": 59,
+   "price": 34213,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 40,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.82C",
+    "supply": 22,
+    "closed_at": "None순위 None",
+    "rate": 3.73,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.87A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 12.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.92D",
+    "supply": 13,
+    "closed_at": "None순위 None",
+    "rate": 4.38,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 202,
+  "rank1_req": 0,
+  "supply_total": 40,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.87A",
+   "rate": 12.6,
+   "stage": "None순위 None"
+  }
+ }
+}

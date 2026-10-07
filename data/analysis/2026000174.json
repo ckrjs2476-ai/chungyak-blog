@@ -1,0 +1,152 @@
+{
+ "no": "2026000174",
+ "name": "더샵 중앙로역센터폴",
+ "kind": "apt",
+ "region": "대구",
+ "notice_date": "2026-05-04",
+ "rank1_date": "2026-05-15",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000174&pblancNo=2026000174",
+ "households": 299,
+ "types": [
+  {
+   "ty": "84.9627A",
+   "size": 84,
+   "price": 79831,
+   "area_m2": 117.2675,
+   "general": 51,
+   "special": 67,
+   "pyeong_price": 2250,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.9982B",
+   "size": 84,
+   "price": 79099,
+   "area_m2": 116.2428,
+   "general": 49,
+   "special": 66,
+   "pyeong_price": 2249,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.9651C",
+   "size": 84,
+   "price": 78493,
+   "area_m2": 116.5126,
+   "general": 26,
+   "special": 34,
+   "pyeong_price": 2227,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "142.5518",
+   "size": 142,
+   "price": 150508,
+   "area_m2": 198.3732,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2508,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "167.4697",
+   "size": 167,
+   "price": 173716,
+   "area_m2": 229.2154,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 2505,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 132,
+ "special_total": 167,
+ "special_share_pct": 56,
+ "pyeong_min": 2227,
+ "pyeong_max": 2508,
+ "pyeong_avg": 2250,
+ "price_84_min": 78493,
+ "price_84_max": 79831,
+ "special_kinds": {
+  "신혼부부": 69,
+  "생애최초": 28,
+  "다자녀": 30,
+  "노부모 부양": 10,
+  "기관추천": 30
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9627A",
+    "supply": 116,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 89
+   },
+   {
+    "ty": "84.9982B",
+    "supply": 114,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 109
+   },
+   {
+    "ty": "84.9651C",
+    "supply": 59,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 53
+   },
+   {
+    "ty": "142.5518",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "167.4697",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   }
+  ],
+  "req_total": 38,
+  "rank1_req": 26,
+  "supply_total": 295,
+  "final_shortfall_total": 257,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.09
+ },
+ "region_price": {
+  "scope": "대구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "범어역 파크드림 디아르",
+   "달서자이 제니크",
+   "더샵 동인센트리체"
+  ],
+  "peer_avg_pyeong": 2352,
+  "diff": -102,
+  "diff_pct": -4,
+  "rank": 3,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "대구",
+  "peer_count": 2,
+  "peers": [
+   "범어역 파크드림 디아르",
+   "달서자이 제니크"
+  ],
+  "peer_avg_rate": 50.88,
+  "rank": 3,
+  "of": 3
+ }
+}

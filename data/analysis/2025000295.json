@@ -1,0 +1,203 @@
+{
+ "no": "2025000295",
+ "name": "엘리프 한신더휴 수원 C3블록(본청약)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-10-31",
+ "rank1_date": "2025-11-11",
+ "city": "수원시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000295&pblancNo=2025000295",
+ "households": 440,
+ "types": [
+  {
+   "ty": "74.92A",
+   "size": 74,
+   "price": 70900,
+   "area_m2": 97.5993,
+   "general": 33,
+   "special": 57,
+   "pyeong_price": 2401,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.99A",
+   "size": 84,
+   "price": 79500,
+   "area_m2": 110.7176,
+   "general": 27,
+   "special": 47,
+   "pyeong_price": 2374,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.99B",
+   "size": 84,
+   "price": 77600,
+   "area_m2": 110.7176,
+   "general": 61,
+   "special": 116,
+   "pyeong_price": 2317,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "84.99C",
+   "size": 84,
+   "price": 75800,
+   "area_m2": 110.7176,
+   "general": 13,
+   "special": 22,
+   "pyeong_price": 2263,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.99D",
+   "size": 84,
+   "price": 79800,
+   "area_m2": 110.7176,
+   "general": 22,
+   "special": 40,
+   "pyeong_price": 2383,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.99E",
+   "size": 84,
+   "price": 103650,
+   "area_m2": 110.7176,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3095,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 158,
+ "special_total": 282,
+ "special_share_pct": 64,
+ "pyeong_min": 2263,
+ "pyeong_max": 3095,
+ "pyeong_avg": 2352,
+ "price_84_min": 75800,
+ "price_84_max": 103650,
+ "special_kinds": {
+  "신혼부부": 101,
+  "생애최초": 83,
+  "다자녀": 44,
+  "노부모 부양": 13,
+  "기관추천": 41
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.92A",
+    "supply": 47,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99A",
+    "supply": 40,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99B",
+    "supply": 141,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.12,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "84.99C",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.99D",
+    "supply": 60,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "84.99E",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 429,
+  "rank1_req": 330,
+  "supply_total": 322,
+  "final_shortfall_total": 33,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 6,
+  "rank1_avg_rate": 1.02,
+  "best": {
+   "ty": "84.99A",
+   "rate": 5.67,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.92A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "74.92A": 0,
+   "84.99E": 0
+  },
+  "avg_min": 11.0,
+  "max": {
+   "score": 65,
+   "ty": "74.92A"
+  }
+ },
+ "region_price": {
+  "scope": "수원시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M2BL)",
+   "서수원 에피트 센트럴마크(M1BL)"
+  ],
+  "peer_avg_pyeong": 2524,
+  "diff": -172,
+  "diff_pct": -7,
+  "rank": 2,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "수원시",
+  "peer_count": 4,
+  "peers": [
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M2BL)",
+   "서수원 에피트 센트럴마크(M1BL)"
+  ],
+  "peer_avg_rate": 4.15,
+  "rank": 2,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "수원시",
+  "peer_count": 2,
+  "peers": [
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "두산위브 더센트럴 수원"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

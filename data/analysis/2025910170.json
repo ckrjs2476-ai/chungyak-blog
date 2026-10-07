@@ -1,0 +1,82 @@
+{
+ "no": "2025910170",
+ "name": "어반클라쎄목동(8차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2025-09-08",
+ "rank1_date": "2025-09-15",
+ "city": "양천구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910170&pblancNo=2025910170",
+ "households": 8,
+ "types": [
+  {
+   "ty": "54.64",
+   "size": 54,
+   "price": 80956,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.86A",
+   "size": 59,
+   "price": 92279,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.97B",
+   "size": 59,
+   "price": 92279,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 8,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "54.64",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 53.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.86A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 50.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.97B",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 47.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 400,
+  "rank1_req": 0,
+  "supply_total": 8,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "54.64",
+   "rate": 53.5,
+   "stage": "None순위 None"
+  }
+ }
+}

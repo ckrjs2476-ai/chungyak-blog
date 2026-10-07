@@ -1,0 +1,84 @@
+{
+ "no": "2026910203",
+ "name": "더샵 송도그란테르 G5-1블록",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-07-30",
+ "rank1_date": "2026-08-04",
+ "city": "연수구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910203&pblancNo=2026910203",
+ "households": 35,
+ "types": [
+  {
+   "ty": "84.86A",
+   "size": 84,
+   "price": 130800,
+   "area_m2": null,
+   "general": 17,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.28B",
+   "size": 84,
+   "price": 130200,
+   "area_m2": null,
+   "general": 10,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "124.57A",
+   "size": 124,
+   "price": 187900,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 35,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 130200,
+ "price_84_max": 130800,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.28B",
+    "supply": 10,
+    "closed_at": "None순위 None",
+    "rate": 22.3,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.86A",
+    "supply": 17,
+    "closed_at": "None순위 None",
+    "rate": 27.59,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "124.57A",
+    "supply": 8,
+    "closed_at": "None순위 None",
+    "rate": 9.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 764,
+  "rank1_req": 0,
+  "supply_total": 35,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.86A",
+   "rate": 27.59,
+   "stage": "None순위 None"
+  }
+ }
+}

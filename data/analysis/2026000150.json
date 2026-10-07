@@ -1,0 +1,164 @@
+{
+ "no": "2026000150",
+ "name": "엘리프 성성호수공원 2BL",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-04-23",
+ "rank1_date": "2026-05-07",
+ "city": "천안시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000150&pblancNo=2026000150",
+ "households": 560,
+ "types": [
+  {
+   "ty": "84.9563A",
+   "size": 84,
+   "price": 57100,
+   "area_m2": 108.6249,
+   "general": 163,
+   "special": 83,
+   "pyeong_price": 1738,
+   "special_share_pct": 34
+  },
+  {
+   "ty": "84.9527B",
+   "size": 84,
+   "price": 55150,
+   "area_m2": 108.1583,
+   "general": 36,
+   "special": 124,
+   "pyeong_price": 1686,
+   "special_share_pct": 78
+  },
+  {
+   "ty": "111.1359",
+   "size": 111,
+   "price": 77560,
+   "area_m2": 140.5182,
+   "general": 120,
+   "special": 34,
+   "pyeong_price": 1825,
+   "special_share_pct": 22
+  }
+ ],
+ "general_total": 319,
+ "special_total": 241,
+ "special_share_pct": 43,
+ "pyeong_min": 1686,
+ "pyeong_max": 1825,
+ "pyeong_avg": 1747,
+ "price_84_min": 55150,
+ "price_84_max": 57100,
+ "special_kinds": {
+  "신혼부부": 93,
+  "생애최초": 36,
+  "다자녀": 56,
+  "노부모 부양": 16,
+  "기관추천": 40
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9563A",
+    "supply": 212,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.37,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9527B",
+    "supply": 149,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "111.1359",
+    "supply": 149,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.35,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2667,
+  "rank1_req": 2368,
+  "supply_total": 510,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 4.64,
+  "best": {
+   "ty": "84.9563A",
+   "rate": 5.37,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9527B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9563A": 0,
+   "84.9527B": 0
+  },
+  "avg_min": 16.0,
+  "max": {
+   "score": 57,
+   "ty": "84.9563A"
+  }
+ },
+ "region_price": {
+  "scope": "천안시",
+  "days": 180,
+  "peer_count": 17,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "천안 휴먼빌 퍼스트시티(2회차)"
+  ],
+  "peer_avg_pyeong": 1631,
+  "diff": 116,
+  "diff_pct": 7,
+  "rank": 3,
+  "of": 18
+ },
+ "region_competition": {
+  "scope": "천안시",
+  "peer_count": 16,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "천안 휴먼빌 퍼스트시티(2회차)"
+  ],
+  "peer_avg_rate": 3.34,
+  "rank": 4,
+  "of": 17
+ },
+ "region_score": {
+  "scope": "천안시",
+  "peer_count": 6,
+  "peers": [
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "업성 푸르지오 레이크시티",
+   "엘리프 성성호수공원 1BL",
+   "백석시그니처자이 1단지",
+   "천안 아이파크 시티 1단지(2회차)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

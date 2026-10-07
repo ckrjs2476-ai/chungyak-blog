@@ -1,0 +1,179 @@
+{
+ "no": "2025000553",
+ "name": "서수원 에피트 센트럴마크(M2BL)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-28",
+ "rank1_date": "2025-12-09",
+ "city": "수원시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000553&pblancNo=2025000553",
+ "households": 280,
+ "types": [
+  {
+   "ty": "74.98",
+   "size": 74,
+   "price": 73100,
+   "area_m2": 100.3479,
+   "general": 34,
+   "special": 57,
+   "pyeong_price": 2408,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.91A",
+   "size": 84,
+   "price": 81000,
+   "area_m2": 113.0247,
+   "general": 26,
+   "special": 45,
+   "pyeong_price": 2369,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.99B",
+   "size": 84,
+   "price": 79900,
+   "area_m2": 115.2232,
+   "general": 19,
+   "special": 29,
+   "pyeong_price": 2292,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "103.95A",
+   "size": 103,
+   "price": 90500,
+   "area_m2": 137.9677,
+   "general": 21,
+   "special": 2,
+   "pyeong_price": 2168,
+   "special_share_pct": 9
+  },
+  {
+   "ty": "103.65B",
+   "size": 103,
+   "price": 89500,
+   "area_m2": 138.578,
+   "general": 41,
+   "special": 5,
+   "pyeong_price": 2135,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "117.98",
+   "size": 117,
+   "price": 126600,
+   "area_m2": 158.0769,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2648,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 142,
+ "special_total": 138,
+ "special_share_pct": 49,
+ "pyeong_min": 2135,
+ "pyeong_max": 2648,
+ "pyeong_avg": 2315,
+ "price_84_min": 79900,
+ "price_84_max": 81000,
+ "special_kinds": {
+  "신혼부부": 47,
+  "생애최초": 39,
+  "다자녀": 26,
+  "노부모 부양": 6,
+  "기관추천": 20
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.98",
+    "supply": 74,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.14,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "84.91A",
+    "supply": 50,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99B",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "103.95A",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "103.65B",
+    "supply": 46,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "117.98",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 143,
+  "rank1_req": 105,
+  "supply_total": 238,
+  "final_shortfall_total": 45,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 6,
+  "rank1_avg_rate": 0.44,
+  "best": {
+   "ty": "84.91A",
+   "rate": 1.33,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "수원시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M1BL)",
+   "수원역 아너스빌 타임원"
+  ],
+  "peer_avg_pyeong": 2525,
+  "diff": -210,
+  "diff_pct": -8,
+  "rank": 5,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "수원시",
+  "peer_count": 5,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M1BL)",
+   "수원역 아너스빌 타임원"
+  ],
+  "peer_avg_rate": 4.28,
+  "rank": 6,
+  "of": 6
+ }
+}

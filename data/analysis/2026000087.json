@@ -1,0 +1,190 @@
+{
+ "no": "2026000087",
+ "name": "청주 푸르지오 씨엘리체",
+ "kind": "apt",
+ "region": "충북",
+ "notice_date": "2026-04-10",
+ "rank1_date": "2026-04-21",
+ "city": "청주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000087&pblancNo=2026000087",
+ "households": 1351,
+ "types": [
+  {
+   "ty": "84.9904A",
+   "size": 84,
+   "price": 52100,
+   "area_m2": 108.4053,
+   "general": 246,
+   "special": 245,
+   "pyeong_price": 1589,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9263B",
+   "size": 84,
+   "price": 51000,
+   "area_m2": 108.8719,
+   "general": 85,
+   "special": 79,
+   "pyeong_price": 1549,
+   "special_share_pct": 48
+  },
+  {
+   "ty": "84.9403C",
+   "size": 84,
+   "price": 51600,
+   "area_m2": 108.4551,
+   "general": 86,
+   "special": 82,
+   "pyeong_price": 1573,
+   "special_share_pct": 49
+  },
+  {
+   "ty": "114.9039A",
+   "size": 114,
+   "price": 67500,
+   "area_m2": 145.6152,
+   "general": 276,
+   "special": 40,
+   "pyeong_price": 1532,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "114.9508B",
+   "size": 114,
+   "price": 66100,
+   "area_m2": 146.2126,
+   "general": 91,
+   "special": 13,
+   "pyeong_price": 1494,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "114.7078C",
+   "size": 114,
+   "price": 66800,
+   "area_m2": 145.427,
+   "general": 95,
+   "special": 13,
+   "pyeong_price": 1518,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 879,
+ "special_total": 472,
+ "special_share_pct": 35,
+ "pyeong_min": 1494,
+ "pyeong_max": 1589,
+ "pyeong_avg": 1556,
+ "price_84_min": 51000,
+ "price_84_max": 52100,
+ "special_kinds": {
+  "신혼부부": 147,
+  "생애최초": 73,
+  "다자녀": 132,
+  "노부모 부양": 39,
+  "기관추천": 81
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9904A",
+    "supply": 246,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.71,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9263B",
+    "supply": 127,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.04,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9403C",
+    "supply": 138,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "114.9039A",
+    "supply": 297,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.73,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "114.9508B",
+    "supply": 102,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.31,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "114.7078C",
+    "supply": 105,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.38,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 7295,
+  "rank1_req": 6572,
+  "supply_total": 1015,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 6,
+  "type_count": 6,
+  "rank1_avg_rate": 6.47,
+  "best": {
+   "ty": "84.9904A",
+   "rate": 16.71,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9263B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9904A": 0,
+   "84.9263B": 0,
+   "84.9403C": 0
+  },
+  "avg_min": 20.3,
+  "max": {
+   "score": 69,
+   "ty": "84.9904A"
+  }
+ },
+ "region_price": {
+  "scope": "청주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "두산위브더제니스 청주 센트럴파크",
+   "청주 한양립스 더 벨루체"
+  ],
+  "peer_avg_pyeong": 1489,
+  "diff": 67,
+  "diff_pct": 4,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "청주시",
+  "peer_count": 2,
+  "peers": [
+   "두산위브더제니스 청주 센트럴파크",
+   "청주 한양립스 더 벨루체"
+  ],
+  "peer_avg_rate": 0.94,
+  "rank": 1,
+  "of": 3
+ }
+}

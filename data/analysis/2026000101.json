@@ -1,0 +1,143 @@
+{
+ "no": "2026000101",
+ "name": "온천장 하늘채 엘리시움",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-04-03",
+ "rank1_date": "2026-04-14",
+ "city": "동래구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000101&pblancNo=2026000101",
+ "households": 129,
+ "types": [
+  {
+   "ty": "73.9154",
+   "size": 73,
+   "price": 70190,
+   "area_m2": 99.1102,
+   "general": 11,
+   "special": 6,
+   "pyeong_price": 2341,
+   "special_share_pct": 35
+  },
+  {
+   "ty": "81.7466",
+   "size": 81,
+   "price": 77960,
+   "area_m2": 108.5828,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2373,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8637A",
+   "size": 84,
+   "price": 82000,
+   "area_m2": 112.6261,
+   "general": 40,
+   "special": 37,
+   "pyeong_price": 2407,
+   "special_share_pct": 48
+  },
+  {
+   "ty": "84.8927B",
+   "size": 84,
+   "price": 81580,
+   "area_m2": 112.4309,
+   "general": 17,
+   "special": 16,
+   "pyeong_price": 2399,
+   "special_share_pct": 48
+  }
+ ],
+ "general_total": 70,
+ "special_total": 59,
+ "special_share_pct": 46,
+ "pyeong_min": 2341,
+ "pyeong_max": 2407,
+ "pyeong_avg": 2396,
+ "price_84_min": 81580,
+ "price_84_max": 82000,
+ "special_kinds": {
+  "신혼부부": 23,
+  "생애최초": 11,
+  "다자녀": 12,
+  "노부모 부양": 3,
+  "기관추천": 10
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "73.9154",
+    "supply": 15,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "81.7466",
+    "supply": 2,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8637A",
+    "supply": 75,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 40
+   },
+   {
+    "ty": "84.8927B",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   }
+  ],
+  "req_total": 65,
+  "rank1_req": 43,
+  "supply_total": 124,
+  "final_shortfall_total": 63,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 4,
+  "rank1_avg_rate": 0.35,
+  "best": {
+   "ty": "73.9154",
+   "rate": 2.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "region_price": {
+  "scope": "동래구",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "동래 푸르지오 에듀포레",
+   "동래사적공원 오네뜨"
+  ],
+  "peer_avg_pyeong": 2178,
+  "diff": 218,
+  "diff_pct": 10,
+  "rank": 2,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "동래구",
+  "peer_count": 4,
+  "peers": [
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "동래 푸르지오 에듀포레",
+   "동래사적공원 오네뜨"
+  ],
+  "peer_avg_rate": 0.39,
+  "rank": 3,
+  "of": 5
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "no": "2026000377",
+ "name": "의왕역 한신더휴",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-08-13",
+ "rank1_date": "2026-08-25",
+ "city": "의왕시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000377&pblancNo=2026000377",
+ "households": 108,
+ "types": [
+  {
+   "ty": "49.9881",
+   "size": 49,
+   "price": 56300,
+   "area_m2": 70.2764,
+   "general": 25,
+   "special": 39,
+   "pyeong_price": 2648,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "59.992B",
+   "size": 59,
+   "price": 72500,
+   "area_m2": 84.0716,
+   "general": 6,
+   "special": 6,
+   "pyeong_price": 2851,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.993",
+   "size": 74,
+   "price": 85700,
+   "area_m2": 104.2502,
+   "general": 9,
+   "special": 5,
+   "pyeong_price": 2718,
+   "special_share_pct": 36
+  },
+  {
+   "ty": "84.9861B",
+   "size": 84,
+   "price": 94000,
+   "area_m2": 117.8964,
+   "general": 9,
+   "special": 9,
+   "pyeong_price": 2636,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 49,
+ "special_total": 59,
+ "special_share_pct": 55,
+ "pyeong_min": 2636,
+ "pyeong_max": 2851,
+ "pyeong_avg": 2678,
+ "price_84_min": 94000,
+ "price_84_max": 94000,
+ "special_kinds": {
+  "신혼부부": 17,
+  "생애최초": 8,
+  "신생아": 11,
+  "다자녀": 10,
+  "노부모 부양": 3,
+  "기관추천": 10
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "49.9881",
+    "supply": 25,
+    "closed_at": "1순위 기타지역",
+    "rate": 15.89,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.992B",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.993",
+    "supply": 9,
+    "closed_at": "1순위 기타지역",
+    "rate": 6.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9861B",
+    "supply": 9,
+    "closed_at": "1순위 기타지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 421,
+  "rank1_req": 320,
+  "supply_total": 49,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 6.53,
+  "best": {
+   "ty": "49.9881",
+   "rate": 15.89,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "49.9881",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "49.9881": 0,
+   "59.992B": 0,
+   "74.993": 0,
+   "84.9861B": 0
+  },
+  "avg_min": 23.1,
+  "max": {
+   "score": 69,
+   "ty": "84.9861B"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 48,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "썬밸리 오드카운티 가평설악",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "시흥거모B1 호반써밋",
+   "의정부역 센트럴 아이파크"
+  ],
+  "peer_avg_pyeong": 2370,
+  "diff": 308,
+  "diff_pct": 13,
+  "rank": 11,
+  "of": 49
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 46,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "썬밸리 오드카운티 가평설악",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "시흥거모B1 호반써밋",
+   "의정부역 센트럴 아이파크"
+  ],
+  "peer_avg_rate": 2.47,
+  "rank": 5,
+  "of": 47
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 28,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "의정부역 센트럴 아이파크",
+   "야목역 서희스타힐스 그랜드힐",
+   "힐스테이트 안양펠루스"
+  ],
+  "peer_avg_min": 3.2,
+  "diff": -3.2
+ }
+}

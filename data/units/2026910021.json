@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "교보자산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-12",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.hillstate.co.kr/s/seonam",
+  "HOUSE_MANAGE_NO": "2026910021",
+  "HOUSE_NM": "힐스테이트 선암호수공원 1단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "울산광역시 남구 야음동 830-1번지 일원",
+  "HSSPLY_ZIP": "44752",
+  "MDHS_TELNO": "0522578777",
+  "MVN_PREARNGE_YM": "202802",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910021",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910021&pblancNo=2026910021",
+  "PRZWNER_PRESNATN_DE": "2026-02-05",
+  "RCRIT_PBLANC_DE": "2026-01-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "680",
+  "SUBSCRPT_AREA_CODE_NM": "울산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-02",
+  "TOT_SUPLY_HSHLDCO": 110
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910021",
+   "HOUSE_TY": "084.2012A",
+   "LTTOT_TOP_AMOUNT": "92540",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910021",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 109
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910021",
+   "HOUSE_TY": "176.3716 ",
+   "LTTOT_TOP_AMOUNT": "248445",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910021",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△102)",
+   "HOUSE_MANAGE_NO": "2026910021",
+   "HOUSE_TY": "084.2012A",
+   "PBLANC_NO": "2026910021",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 109
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910021",
+   "HOUSE_TY": "176.3716 ",
+   "PBLANC_NO": "2026910021",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:45.189974+09:00"
+}

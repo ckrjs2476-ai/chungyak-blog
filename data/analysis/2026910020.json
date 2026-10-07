@@ -1,0 +1,82 @@
+{
+ "no": "2026910020",
+ "name": "용인 푸르지오 원클러스터파크",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-02-06",
+ "rank1_date": "2026-02-11",
+ "city": "용인시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910020&pblancNo=2026910020",
+ "households": 6,
+ "types": [
+  {
+   "ty": "80.9668A",
+   "size": 80,
+   "price": 52100,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "134.999A",
+   "size": 134,
+   "price": 103800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "134.9381B",
+   "size": 134,
+   "price": 103200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "80.9668A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 28.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "134.9381B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "134.999A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 7.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 124,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "80.9668A",
+   "rate": 28.5,
+   "stage": "None순위 None"
+  }
+ }
+}

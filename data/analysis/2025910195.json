@@ -1,0 +1,52 @@
+{
+ "no": "2025910195",
+ "name": "망포역 푸르지오 르마크",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-10-15",
+ "rank1_date": "2025-10-21",
+ "city": "수원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910195&pblancNo=2025910195",
+ "households": 24,
+ "types": [
+  {
+   "ty": "84.1327B",
+   "size": 84,
+   "price": 121290,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 24,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 121290,
+ "price_84_max": 121290,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.1327B",
+    "supply": 24,
+    "closed_at": "None순위 None",
+    "rate": 48.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1164,
+  "rank1_req": 0,
+  "supply_total": 24,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.1327B",
+   "rate": 48.5,
+   "stage": "None순위 None"
+  }
+ }
+}

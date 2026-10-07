@@ -1,0 +1,66 @@
+{
+ "no": "2026910168",
+ "name": "해운대 마티안 디 에디션",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-07-01",
+ "rank1_date": "2026-07-06",
+ "city": "해운대구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910168&pblancNo=2026910168",
+ "households": 26,
+ "types": [
+  {
+   "ty": "76.0622A",
+   "size": 76,
+   "price": 98780,
+   "area_m2": null,
+   "general": 25,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "76.0622B",
+   "size": 76,
+   "price": 82160,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 26,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "76.0622A",
+    "supply": 25,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "76.0622B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 20,
+  "rank1_req": 0,
+  "supply_total": 26,
+  "final_shortfall_total": 8,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "76.0622B",
+   "rate": 3.0,
+   "stage": "None순위 None"
+  }
+ }
+}

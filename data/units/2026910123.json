@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "신림 스카이 아파트",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-11",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2026910123",
+  "HOUSE_NM": "신림스카이아파트(19차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 관악구 신림로 185(신림동, 신림 스카이 아파트)",
+  "HSSPLY_ZIP": "08845",
+  "MDHS_TELNO": "028779273",
+  "MVN_PREARNGE_YM": "202606",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910123",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910123&pblancNo=2026910123",
+  "PRZWNER_PRESNATN_DE": "2026-06-02",
+  "RCRIT_PBLANC_DE": "2026-05-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-05-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-05-27",
+  "TOT_SUPLY_HSHLDCO": 4
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910123",
+   "HOUSE_TY": "035.7100 ",
+   "LTTOT_TOP_AMOUNT": "45000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910123",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910123",
+   "HOUSE_TY": "038.3400 ",
+   "LTTOT_TOP_AMOUNT": "45000",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910123",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910123",
+   "HOUSE_TY": "056.4500 ",
+   "LTTOT_TOP_AMOUNT": "59900",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910123",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "9.00",
+   "HOUSE_MANAGE_NO": "2026910123",
+   "HOUSE_TY": "035.7100 ",
+   "PBLANC_NO": "2026910123",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "7.00",
+   "HOUSE_MANAGE_NO": "2026910123",
+   "HOUSE_TY": "038.3400 ",
+   "PBLANC_NO": "2026910123",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "18.00",
+   "HOUSE_MANAGE_NO": "2026910123",
+   "HOUSE_TY": "056.4500 ",
+   "PBLANC_NO": "2026910123",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "36",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:18.087326+09:00"
+}

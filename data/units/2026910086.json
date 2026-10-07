@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "신기주공지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-24",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-24",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.elife.co.kr",
+  "HOUSE_MANAGE_NO": "2026910086",
+  "HOUSE_NM": "e편한세상 여수 글렌츠",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "전라남도 여수시 신기동 3번지 일원",
+  "HSSPLY_ZIP": "59684",
+  "MDHS_TELNO": "0616921365",
+  "MVN_PREARNGE_YM": "202706",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910086",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910086&pblancNo=2026910086",
+  "PRZWNER_PRESNATN_DE": "2026-04-23",
+  "RCRIT_PBLANC_DE": "2026-04-15",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "513",
+  "SUBSCRPT_AREA_CODE_NM": "전남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-20",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-20",
+  "TOT_SUPLY_HSHLDCO": 51
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "059.8613A",
+   "LTTOT_TOP_AMOUNT": "41993",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910086",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 14
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "059.9815B",
+   "LTTOT_TOP_AMOUNT": "41993",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910086",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "084.9516A",
+   "LTTOT_TOP_AMOUNT": "58867",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910086",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 28
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "129.8429A",
+   "LTTOT_TOP_AMOUNT": "88265",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910086",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△12)",
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "059.8613A",
+   "PBLANC_NO": "2026910086",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 14
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "059.9815B",
+   "PBLANC_NO": "2026910086",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "(△25)",
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "084.9516A",
+   "PBLANC_NO": "2026910086",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 28
+  },
+  {
+   "CMPET_RATE": "(△7)",
+   "HOUSE_MANAGE_NO": "2026910086",
+   "HOUSE_TY": "129.8429A",
+   "PBLANC_NO": "2026910086",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 7
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:05.295805+09:00"
+}

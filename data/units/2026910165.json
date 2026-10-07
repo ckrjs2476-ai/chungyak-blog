@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "한국토지주택공사,한신공영(주),우미건설(주),이수건설(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-21",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-21",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.hs-thehue.com",
+  "HOUSE_MANAGE_NO": "2026910165",
+  "HOUSE_NM": "영종하늘도시 한신더휴2차(3차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 영종구 중산동 1880-2",
+  "HSSPLY_ZIP": "23293",
+  "MDHS_TELNO": "0233933320",
+  "MVN_PREARNGE_YM": "202608",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910165",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910165&pblancNo=2026910165",
+  "PRZWNER_PRESNATN_DE": "2026-08-03",
+  "RCRIT_PBLANC_DE": "2026-07-24",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-29",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-29",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910165",
+   "HOUSE_TY": "084.7600C",
+   "LTTOT_TOP_AMOUNT": "36750",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910165",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "240.00",
+   "HOUSE_MANAGE_NO": "2026910165",
+   "HOUSE_TY": "084.7600C",
+   "PBLANC_NO": "2026910165",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "240",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:43.374206+09:00"
+}

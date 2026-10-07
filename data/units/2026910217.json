@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "아이파크현대산업개발주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-09-03",
+  "CNTRCT_CNCLS_ENDDE": "2026-09-03",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.i-park.com/chuncheon",
+  "HOUSE_MANAGE_NO": "2026910217",
+  "HOUSE_NM": "춘천 리버뷰 아이파크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "강원특별자치도 춘천시 동면 장학리 883번지 일원",
+  "HSSPLY_ZIP": "24210",
+  "MDHS_TELNO": "15770262",
+  "MVN_PREARNGE_YM": "202903",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910217",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910217&pblancNo=2026910217",
+  "PRZWNER_PRESNATN_DE": "2026-08-27",
+  "RCRIT_PBLANC_DE": "2026-08-19",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "200",
+  "SUBSCRPT_AREA_CODE_NM": "강원",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-24",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-24",
+  "TOT_SUPLY_HSHLDCO": 180
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "059.9840A",
+   "LTTOT_TOP_AMOUNT": "40400",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910217",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 18
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "059.9059B",
+   "LTTOT_TOP_AMOUNT": "39000",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910217",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 16
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "084.9534A",
+   "LTTOT_TOP_AMOUNT": "56800",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910217",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 75
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "084.8254B",
+   "LTTOT_TOP_AMOUNT": "55200",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910217",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 71
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△7)",
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "059.9059B",
+   "PBLANC_NO": "2026910217",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 16
+  },
+  {
+   "CMPET_RATE": "1.78",
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "059.9840A",
+   "PBLANC_NO": "2026910217",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "32",
+   "SUPLY_HSHLDCO": 18
+  },
+  {
+   "CMPET_RATE": "(△67)",
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "084.8254B",
+   "PBLANC_NO": "2026910217",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 71
+  },
+  {
+   "CMPET_RATE": "(△50)",
+   "HOUSE_MANAGE_NO": "2026910217",
+   "HOUSE_TY": "084.9534A",
+   "PBLANC_NO": "2026910217",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "25",
+   "SUPLY_HSHLDCO": 75
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:14.308487+09:00"
+}

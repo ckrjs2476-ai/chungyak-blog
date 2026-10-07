@@ -1,0 +1,88 @@
+{
+ "no": "2026000142",
+ "name": "왕숙 아테라 공공분양주택(본청약)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-30",
+ "rank1_date": "2026-05-18",
+ "city": "남양주시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000142&pblancNo=2026000142",
+ "households": 812,
+ "types": [
+  {
+   "ty": "59.95A",
+   "size": 59,
+   "price": 49304,
+   "area_m2": 82.4497,
+   "general": 20,
+   "special": 56,
+   "pyeong_price": 1977,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "59.95B",
+   "size": 59,
+   "price": 49304,
+   "area_m2": 82.4497,
+   "general": 9,
+   "special": 32,
+   "pyeong_price": 1977,
+   "special_share_pct": 78
+  },
+  {
+   "ty": "74.91A",
+   "size": 74,
+   "price": 61368,
+   "area_m2": 103.0243,
+   "general": 6,
+   "special": 25,
+   "pyeong_price": 1969,
+   "special_share_pct": 81
+  },
+  {
+   "ty": "84.67A",
+   "size": 84,
+   "price": 69363,
+   "area_m2": 116.4473,
+   "general": 8,
+   "special": 26,
+   "pyeong_price": 1969,
+   "special_share_pct": 76
+  }
+ ],
+ "general_total": 43,
+ "special_total": 139,
+ "special_share_pct": 76,
+ "pyeong_min": 1969,
+ "pyeong_max": 1977,
+ "pyeong_avg": 1974,
+ "price_84_min": 69363,
+ "price_84_max": 69363,
+ "special_kinds": {
+  "신혼부부": 17,
+  "생애최초": 25,
+  "신생아": 32,
+  "다자녀": 17,
+  "노부모 부양": 7,
+  "기관추천": 25
+ },
+ "region_price": {
+  "scope": "남양주시",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "남양주 별내리슈빌아파트 분양전환 후 잔여세대",
+   "남양주왕숙지구 B-17블록 공공분양주택(본청약)",
+   "남양주진접2지구 B-1블록 공공분양(본청약)",
+   "남양주왕숙 A-24블록 신혼희망타운(공공분양)(본청약)",
+   "남양주진접2 지구 A-3블록 신혼희망타운(공공분양)(본청약)",
+   "남양주왕숙2 A-3블록 공공분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 1778,
+  "diff": 196,
+  "diff_pct": 11,
+  "rank": 2,
+  "of": 7
+ }
+}

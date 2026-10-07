@@ -1,0 +1,116 @@
+{
+ "no": "2025910225",
+ "name": "상봉 센트럴 아이파크",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2025-11-11",
+ "rank1_date": "2025-11-17",
+ "city": "중랑구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910225&pblancNo=2025910225",
+ "households": 115,
+ "types": [
+  {
+   "ty": "84.8422A",
+   "size": 84,
+   "price": 137800,
+   "area_m2": null,
+   "general": 19,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7662B",
+   "size": 84,
+   "price": 138700,
+   "area_m2": null,
+   "general": 22,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6747C",
+   "size": 84,
+   "price": 137400,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7184D",
+   "size": 84,
+   "price": 138700,
+   "area_m2": null,
+   "general": 25,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9194E",
+   "size": 84,
+   "price": 137300,
+   "area_m2": null,
+   "general": 25,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 115,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 137300,
+ "price_84_max": 138700,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6747C",
+    "supply": 24,
+    "closed_at": "None순위 None",
+    "rate": 5.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7184D",
+    "supply": 25,
+    "closed_at": "None순위 None",
+    "rate": 4.04,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7662B",
+    "supply": 22,
+    "closed_at": "None순위 None",
+    "rate": 5.45,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8422A",
+    "supply": 19,
+    "closed_at": "None순위 None",
+    "rate": 9.32,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9194E",
+    "supply": 25,
+    "closed_at": "None순위 None",
+    "rate": 3.68,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 616,
+  "rank1_req": 0,
+  "supply_total": 115,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8422A",
+   "rate": 9.32,
+   "stage": "None순위 None"
+  }
+ }
+}

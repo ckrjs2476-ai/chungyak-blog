@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "여월동 광남복지 가로주택정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-27",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://중앙하이츠아르비채.com",
+  "HOUSE_MANAGE_NO": "2026910009",
+  "HOUSE_NM": "여월 중앙하이츠 아르비채",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 부천시 오정구 여월동 8-9번지 외 4필지",
+  "HSSPLY_ZIP": "14463",
+  "MDHS_TELNO": "0326762468",
+  "MVN_PREARNGE_YM": "202610",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910009",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910009&pblancNo=2026910009",
+  "PRZWNER_PRESNATN_DE": "2026-01-22",
+  "RCRIT_PBLANC_DE": "2026-01-13",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-19",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-19",
+  "TOT_SUPLY_HSHLDCO": 20
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910009",
+   "HOUSE_TY": "059.9900 ",
+   "LTTOT_TOP_AMOUNT": "51000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910009",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 13
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910009",
+   "HOUSE_TY": "084.9500 ",
+   "LTTOT_TOP_AMOUNT": "69300",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910009",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910009",
+   "HOUSE_TY": "108.6900 ",
+   "LTTOT_TOP_AMOUNT": "99900",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910009",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.46",
+   "HOUSE_MANAGE_NO": "2026910009",
+   "HOUSE_TY": "059.9900 ",
+   "PBLANC_NO": "2026910009",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "19",
+   "SUPLY_HSHLDCO": 13
+  },
+  {
+   "CMPET_RATE": "3.00",
+   "HOUSE_MANAGE_NO": "2026910009",
+   "HOUSE_TY": "084.9500 ",
+   "PBLANC_NO": "2026910009",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "18",
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "CMPET_RATE": "3.00",
+   "HOUSE_MANAGE_NO": "2026910009",
+   "HOUSE_TY": "108.6900 ",
+   "PBLANC_NO": "2026910009",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:09.191119+09:00"
+}

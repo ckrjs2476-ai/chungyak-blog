@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 이지건설",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-02",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-02",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://회천중앙역파라곤.com",
+  "HOUSE_MANAGE_NO": "2025910232",
+  "HOUSE_NM": "회천중앙역 파라곤",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 양주시 회천지구 A10-1BL",
+  "HSSPLY_ZIP": "11437",
+  "MDHS_TELNO": "15518450",
+  "MVN_PREARNGE_YM": "202802",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910232",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910232&pblancNo=2025910232",
+  "PRZWNER_PRESNATN_DE": "2025-11-28",
+  "RCRIT_PBLANC_DE": "2025-11-20",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-25",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-25",
+  "TOT_SUPLY_HSHLDCO": 22
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910232",
+   "HOUSE_TY": "072.8921 ",
+   "LTTOT_TOP_AMOUNT": "44500",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910232",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 22
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2025910232",
+   "HOUSE_TY": "072.8921 ",
+   "PBLANC_NO": "2025910232",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "19",
+   "SUPLY_HSHLDCO": 22
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:26.257737+09:00"
+}

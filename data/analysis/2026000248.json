@@ -1,0 +1,277 @@
+{
+ "no": "2026000248",
+ "name": "북오산자이 드포레",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-06-12",
+ "rank1_date": "2026-06-23",
+ "city": "오산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000248&pblancNo=2026000248",
+ "households": 1517,
+ "types": [
+  {
+   "ty": "59.9928A",
+   "size": 59,
+   "price": 50370,
+   "area_m2": 79.4711,
+   "general": 70,
+   "special": 79,
+   "pyeong_price": 2095,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "59.9984B",
+   "size": 59,
+   "price": 51750,
+   "area_m2": 79.387,
+   "general": 40,
+   "special": 44,
+   "pyeong_price": 2155,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "74.959A",
+   "size": 74,
+   "price": 60460,
+   "area_m2": 97.1014,
+   "general": 91,
+   "special": 105,
+   "pyeong_price": 2058,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "74.981B",
+   "size": 74,
+   "price": 61510,
+   "area_m2": 97.0533,
+   "general": 16,
+   "special": 12,
+   "pyeong_price": 2095,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "74.9604C",
+   "size": 74,
+   "price": 61120,
+   "area_m2": 97.6033,
+   "general": 39,
+   "special": 44,
+   "pyeong_price": 2070,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9121A",
+   "size": 84,
+   "price": 67200,
+   "area_m2": 109.594,
+   "general": 254,
+   "special": 306,
+   "pyeong_price": 2027,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9102B",
+   "size": 84,
+   "price": 68310,
+   "area_m2": 109.4914,
+   "general": 52,
+   "special": 60,
+   "pyeong_price": 2062,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9695C",
+   "size": 84,
+   "price": 67050,
+   "area_m2": 110.3467,
+   "general": 40,
+   "special": 44,
+   "pyeong_price": 2009,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "99.3455A",
+   "size": 99,
+   "price": 75860,
+   "area_m2": 127.7937,
+   "general": 143,
+   "special": 20,
+   "pyeong_price": 1962,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "99.3436B",
+   "size": 99,
+   "price": 77050,
+   "area_m2": 127.6849,
+   "general": 49,
+   "special": 6,
+   "pyeong_price": 1995,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "124.4008P",
+   "size": 124,
+   "price": 148640,
+   "area_m2": 163.3796,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3008,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "125.2247P",
+   "size": 125,
+   "price": 149430,
+   "area_m2": 164.7747,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2998,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 797,
+ "special_total": 720,
+ "special_share_pct": 47,
+ "pyeong_min": 1962,
+ "pyeong_max": 3008,
+ "pyeong_avg": 2044,
+ "price_84_min": 67050,
+ "price_84_max": 68310,
+ "special_kinds": {
+  "신혼부부": 295,
+  "생애최초": 113,
+  "다자녀": 147,
+  "노부모 부양": 39,
+  "기관추천": 126
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9928A",
+    "supply": 116,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 70
+   },
+   {
+    "ty": "59.9984B",
+    "supply": 46,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "74.959A",
+    "supply": 187,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 160
+   },
+   {
+    "ty": "74.981B",
+    "supply": 27,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "74.9604C",
+    "supply": 82,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 77
+   },
+   {
+    "ty": "84.9121A",
+    "supply": 535,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 450
+   },
+   {
+    "ty": "84.9102B",
+    "supply": 104,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 79
+   },
+   {
+    "ty": "84.9695C",
+    "supply": 83,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 77
+   },
+   {
+    "ty": "99.3455A",
+    "supply": 163,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 155
+   },
+   {
+    "ty": "99.3436B",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 50
+   },
+   {
+    "ty": "124.4008P",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "125.2247P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 266,
+  "rank1_req": 219,
+  "supply_total": 1401,
+  "final_shortfall_total": 1136,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 12,
+  "rank1_avg_rate": 0.16,
+  "best": {
+   "ty": "124.4008P",
+   "rate": 1.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "region_price": {
+  "scope": "오산시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "북오산자이 리버블시티",
+   "오산헤리티지자이 1단지",
+   "오산헤리티지자이 2단지"
+  ],
+  "peer_avg_pyeong": 2210,
+  "diff": -166,
+  "diff_pct": -8,
+  "rank": 3,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "오산시",
+  "peer_count": 3,
+  "peers": [
+   "북오산자이 리버블시티",
+   "오산헤리티지자이 1단지",
+   "오산헤리티지자이 2단지"
+  ],
+  "peer_avg_rate": 0.38,
+  "rank": 3,
+  "of": 4
+ }
+}

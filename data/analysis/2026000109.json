@@ -1,0 +1,117 @@
+{
+ "no": "2026000109",
+ "name": "아산경남아너스빌 랜드마크49",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-04-10",
+ "rank1_date": "2026-04-21",
+ "city": "아산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000109&pblancNo=2026000109",
+ "households": 467,
+ "types": [
+  {
+   "ty": "84.7557",
+   "size": 84,
+   "price": 46150,
+   "area_m2": 121.1337,
+   "general": 113,
+   "special": 137,
+   "pyeong_price": 1259,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "89.9089",
+   "size": 89,
+   "price": 47750,
+   "area_m2": 127.9654,
+   "general": 44,
+   "special": 6,
+   "pyeong_price": 1234,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "105.7905",
+   "size": 105,
+   "price": 55890,
+   "area_m2": 149.9554,
+   "general": 146,
+   "special": 21,
+   "pyeong_price": 1232,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 303,
+ "special_total": 164,
+ "special_share_pct": 35,
+ "pyeong_min": 1232,
+ "pyeong_max": 1259,
+ "pyeong_avg": 1247,
+ "price_84_min": 46150,
+ "price_84_max": 46150,
+ "special_kinds": {
+  "신혼부부": 57,
+  "생애최초": 22,
+  "다자녀": 46,
+  "노부모 부양": 14,
+  "기관추천": 25
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7557",
+    "supply": 248,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 244
+   },
+   {
+    "ty": "89.9089",
+    "supply": 50,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 49
+   },
+   {
+    "ty": "105.7905",
+    "supply": 167,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 166
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 5,
+  "supply_total": 465,
+  "final_shortfall_total": 459,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.01
+ },
+ "region_price": {
+  "scope": "아산시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "아산탕정자이 메트로시티(A3BL)",
+   "아산테크노밸리 더원 7차 (Ab4BL)"
+  ],
+  "peer_avg_pyeong": 1452,
+  "diff": -205,
+  "diff_pct": -14,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "아산시",
+  "peer_count": 2,
+  "peers": [
+   "아산탕정자이 메트로시티(A3BL)",
+   "아산테크노밸리 더원 7차 (Ab4BL)"
+  ],
+  "peer_avg_rate": 2.99,
+  "rank": 2,
+  "of": 3
+ }
+}

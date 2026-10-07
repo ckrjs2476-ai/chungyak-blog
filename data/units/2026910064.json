@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)덕원이앤씨",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-09",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-09",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://평택고덕대광로제비앙모아엘가.com",
+  "HOUSE_MANAGE_NO": "2026910064",
+  "HOUSE_NM": "평택 고덕 국제신도시 A-55 대광로제비앙 모아엘가(3차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 평택시 고덕국제8로 10(고덕동 2705-1)",
+  "HSSPLY_ZIP": "18016",
+  "MDHS_TELNO": "18118500",
+  "MVN_PREARNGE_YM": "202606",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910064",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910064&pblancNo=2026910064",
+  "PRZWNER_PRESNATN_DE": "2026-04-02",
+  "RCRIT_PBLANC_DE": "2026-03-24",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-30",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-30",
+  "TOT_SUPLY_HSHLDCO": 5
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910064",
+   "HOUSE_TY": "084.9452A",
+   "LTTOT_TOP_AMOUNT": "50600",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910064",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "29.60",
+   "HOUSE_MANAGE_NO": "2026910064",
+   "HOUSE_TY": "084.9452A",
+   "PBLANC_NO": "2026910064",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "148",
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:31.908662+09:00"
+}

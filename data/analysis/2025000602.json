@@ -1,0 +1,179 @@
+{
+ "no": "2025000602",
+ "name": "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2025-12-19",
+ "rank1_date": "2025-12-30",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000602&pblancNo=2025000602",
+ "households": 903,
+ "types": [
+  {
+   "ty": "84.967A",
+   "size": 84,
+   "price": 69292,
+   "area_m2": 114.0257,
+   "general": 29,
+   "special": 99,
+   "pyeong_price": 2009,
+   "special_share_pct": 77
+  },
+  {
+   "ty": "84.9966B",
+   "size": 84,
+   "price": 62720,
+   "area_m2": 115.6358,
+   "general": 30,
+   "special": 99,
+   "pyeong_price": 1793,
+   "special_share_pct": 77
+  },
+  {
+   "ty": "112.9721A",
+   "size": 112,
+   "price": 90683,
+   "area_m2": 149.8627,
+   "general": 61,
+   "special": 22,
+   "pyeong_price": 2000,
+   "special_share_pct": 27
+  },
+  {
+   "ty": "112.981B",
+   "size": 112,
+   "price": 82754,
+   "area_m2": 150.6178,
+   "general": 51,
+   "special": 17,
+   "pyeong_price": 1816,
+   "special_share_pct": 25
+  },
+  {
+   "ty": "104.994A",
+   "size": 104,
+   "price": 87895,
+   "area_m2": 139.2509,
+   "general": 188,
+   "special": 59,
+   "pyeong_price": 2087,
+   "special_share_pct": 24
+  },
+  {
+   "ty": "104.9695B",
+   "size": 104,
+   "price": 79751,
+   "area_m2": 139.127,
+   "general": 189,
+   "special": 59,
+   "pyeong_price": 1895,
+   "special_share_pct": 24
+  }
+ ],
+ "general_total": 548,
+ "special_total": 355,
+ "special_share_pct": 39,
+ "pyeong_min": 1793,
+ "pyeong_max": 2087,
+ "pyeong_avg": 1953,
+ "price_84_min": 62720,
+ "price_84_max": 69292,
+ "special_kinds": {
+  "신혼부부": 60,
+  "생애최초": 50,
+  "다자녀": 98,
+  "노부모 부양": 29,
+  "기관추천": 26
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.967A",
+    "supply": 117,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9966B",
+    "supply": 118,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 38
+   },
+   {
+    "ty": "112.9721A",
+    "supply": 82,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 57
+   },
+   {
+    "ty": "112.981B",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 57
+   },
+   {
+    "ty": "104.994A",
+    "supply": 246,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 226
+   },
+   {
+    "ty": "104.9695B",
+    "supply": 248,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 229
+   }
+  ],
+  "req_total": 275,
+  "rank1_req": 203,
+  "supply_total": 879,
+  "final_shortfall_total": 607,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 6,
+  "rank1_avg_rate": 0.23,
+  "best": {
+   "ty": "84.967A",
+   "rate": 1.25,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "중구",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_pyeong": 1613,
+  "diff": 340,
+  "diff_pct": 21,
+  "rank": 1,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "중구",
+  "peer_count": 5,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_rate": 0.1,
+  "rank": 1,
+  "of": 6
+ }
+}

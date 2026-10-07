@@ -1,0 +1,104 @@
+{
+ "no": "2026000022",
+ "name": "울산 우정혁신도시 B1블록(골드클래스) 분양전환 후 잔여세대",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-02-03",
+ "rank1_date": "2026-02-13",
+ "city": "중구",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000022&pblancNo=2026000022",
+ "households": 34,
+ "types": [
+  {
+   "ty": "76.5143",
+   "size": 76,
+   "price": 33200,
+   "area_m2": 99.3344,
+   "general": 12,
+   "special": 0,
+   "pyeong_price": 1105,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.96",
+   "size": 84,
+   "price": 37800,
+   "area_m2": 110.177,
+   "general": 22,
+   "special": 0,
+   "pyeong_price": 1134,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 34,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1105,
+ "pyeong_max": 1134,
+ "pyeong_avg": 1124,
+ "price_84_min": 37800,
+ "price_84_max": 37800,
+ "competition": {
+  "types": [
+   {
+    "ty": "76.5143",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.96",
+    "supply": 22,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.73,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 111,
+  "rank1_req": 86,
+  "supply_total": 34,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 2,
+  "rank1_avg_rate": 2.53,
+  "best": {
+   "ty": "84.96",
+   "rate": 2.73,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "울산태화강변지구 A-2블록 공공분양주택",
+   "울산다운2지구 A-10블록 공공분양주택"
+  ],
+  "peer_avg_pyeong": 1534,
+  "diff": -410,
+  "diff_pct": -27,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 12,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_rate": 3.18,
+  "rank": 5,
+  "of": 13
+ }
+}

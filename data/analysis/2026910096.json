@@ -1,0 +1,132 @@
+{
+ "no": "2026910096",
+ "name": "아산탕정자이 메트로시티(A3BL)",
+ "kind": "remndr",
+ "region": "충남",
+ "notice_date": "2026-04-29",
+ "rank1_date": "2026-05-04",
+ "city": "아산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910096&pblancNo=2026910096",
+ "households": 606,
+ "types": [
+  {
+   "ty": "59.9941A",
+   "size": 59,
+   "price": 42000,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9843B",
+   "size": 59,
+   "price": 42100,
+   "area_m2": null,
+   "general": 20,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9905A",
+   "size": 84,
+   "price": 55900,
+   "area_m2": null,
+   "general": 384,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9923B",
+   "size": 84,
+   "price": 55900,
+   "area_m2": null,
+   "general": 149,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9921D",
+   "size": 84,
+   "price": 55600,
+   "area_m2": null,
+   "general": 27,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9409E",
+   "size": 84,
+   "price": 55900,
+   "area_m2": null,
+   "general": 21,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 606,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 55600,
+ "price_84_max": 55900,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9843B",
+    "supply": 20,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "59.9941A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 3.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9409E",
+    "supply": 21,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "84.9905A",
+    "supply": 384,
+    "closed_at": "None순위 None",
+    "rate": 3.18,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9921D",
+    "supply": 27,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "84.9923B",
+    "supply": 149,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 121
+   }
+  ],
+  "req_total": 1292,
+  "rank1_req": 0,
+  "supply_total": 606,
+  "final_shortfall_total": 162,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.9941A",
+   "rate": 3.2,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "no": "2026000354",
+ "name": "상동역 롯데캐슬 시그니처",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-08-14",
+ "rank1_date": "2026-08-25",
+ "city": "부천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000354&pblancNo=2026000354",
+ "households": 1859,
+ "types": [
+  {
+   "ty": "84.9199A",
+   "size": 84,
+   "price": 163000,
+   "area_m2": 117.423,
+   "general": 103,
+   "special": 121,
+   "pyeong_price": 4589,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.7123B",
+   "size": 84,
+   "price": 149900,
+   "area_m2": 118.9543,
+   "general": 39,
+   "special": 45,
+   "pyeong_price": 4166,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9874C",
+   "size": 84,
+   "price": 159800,
+   "area_m2": 115.9778,
+   "general": 159,
+   "special": 194,
+   "pyeong_price": 4555,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9074D",
+   "size": 84,
+   "price": 159900,
+   "area_m2": 115.8792,
+   "general": 40,
+   "special": 49,
+   "pyeong_price": 4562,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9872E",
+   "size": 84,
+   "price": 163800,
+   "area_m2": 116.4833,
+   "general": 80,
+   "special": 98,
+   "pyeong_price": 4649,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9928F",
+   "size": 84,
+   "price": 159900,
+   "area_m2": 116.8367,
+   "general": 195,
+   "special": 247,
+   "pyeong_price": 4524,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "113.0966A",
+   "size": 113,
+   "price": 224200,
+   "area_m2": 154.8489,
+   "general": 196,
+   "special": 28,
+   "pyeong_price": 4786,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "113.0705B",
+   "size": 113,
+   "price": 224900,
+   "area_m2": 155.7619,
+   "general": 74,
+   "special": 10,
+   "pyeong_price": 4773,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "121.5813",
+   "size": 121,
+   "price": 234900,
+   "area_m2": 166.9972,
+   "general": 155,
+   "special": 23,
+   "pyeong_price": 4650,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "153.9148P",
+   "size": 153,
+   "price": 475000,
+   "area_m2": 209.3577,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 7500,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "187.5097P",
+   "size": 187,
+   "price": 572700,
+   "area_m2": 252.3946,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 7501,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "192.1528P",
+   "size": 192,
+   "price": 603800,
+   "area_m2": 266.1052,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 7501,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1044,
+ "special_total": 815,
+ "special_share_pct": 44,
+ "pyeong_min": 4166,
+ "pyeong_max": 7501,
+ "pyeong_avg": 4595,
+ "price_84_min": 149900,
+ "price_84_max": 163800,
+ "special_kinds": {
+  "신혼부부": 205,
+  "생애최초": 96,
+  "신생아": 137,
+  "다자녀": 185,
+  "노부모 부양": 55,
+  "기관추천": 137
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9199A",
+    "supply": 174,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.49,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7123B",
+    "supply": 59,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.37,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9874C",
+    "supply": 305,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.06,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9074D",
+    "supply": 72,
+    "closed_at": "2순위 해당지역",
+    "rate": 16.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9872E",
+    "supply": 128,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9928F",
+    "supply": 321,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.97,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "113.0966A",
+    "supply": 219,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 103
+   },
+   {
+    "ty": "113.0705B",
+    "supply": 84,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 46
+   },
+   {
+    "ty": "121.5813",
+    "supply": 171,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "153.9148P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "187.5097P",
+    "supply": 1,
+    "closed_at": "2순위 기타지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "192.1528P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 3028,
+  "rank1_req": 2576,
+  "supply_total": 1536,
+  "final_shortfall_total": 161,
+  "closed_types": 9,
+  "rank1_closed_types": 7,
+  "type_count": 12,
+  "rank1_avg_rate": 1.68,
+  "best": {
+   "ty": "84.9074D",
+   "rate": 16.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.7123B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9199A": 0,
+   "84.7123B": 0,
+   "84.9872E": 0,
+   "84.9928F": 0
+  },
+  "avg_min": 17.5,
+  "max": {
+   "score": 74,
+   "ty": "84.9928F"
+  }
+ },
+ "region_price": {
+  "scope": "부천시",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "중동역 다채로움 더원",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_pyeong": 2666,
+  "diff": 1929,
+  "diff_pct": 72,
+  "rank": 1,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "부천시",
+  "peer_count": 6,
+  "peers": [
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "중동역 다채로움 더원",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_rate": 1.76,
+  "rank": 5,
+  "of": 7
+ },
+ "region_score": {
+  "scope": "부천시",
+  "peer_count": 5,
+  "peers": [
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "no": "2026910105",
+ "name": "엄궁역 트라비스 하늘채",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-05-07",
+ "rank1_date": "2026-05-12",
+ "city": "사상구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910105&pblancNo=2026910105",
+ "households": 272,
+ "types": [
+  {
+   "ty": "74.9802A",
+   "size": 74,
+   "price": 60580,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9869A",
+   "size": 84,
+   "price": 69780,
+   "area_m2": null,
+   "general": 256,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "101.2177B",
+   "size": 101,
+   "price": 88030,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 272,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 69780,
+ "price_84_max": 69780,
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9802A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9869A",
+    "supply": 256,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 241
+   },
+   {
+    "ty": "101.2177B",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 10
+   }
+  ],
+  "req_total": 22,
+  "rank1_req": 0,
+  "supply_total": 272,
+  "final_shortfall_total": 251,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.9802A",
+   "rate": 1.33,
+   "stage": "None순위 None"
+  }
+ }
+}

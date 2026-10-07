@@ -1,0 +1,230 @@
+{
+ "no": "2025000401",
+ "name": "아산탕정 동일하이빌 파크레인",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2025-09-19",
+ "rank1_date": "2025-09-30",
+ "city": "아산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000401&pblancNo=2025000401",
+ "households": 738,
+ "types": [
+  {
+   "ty": "84.9865A",
+   "size": 84,
+   "price": 52070,
+   "area_m2": 111.6913,
+   "general": 217,
+   "special": 236,
+   "pyeong_price": 1541,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9767B",
+   "size": 84,
+   "price": 51370,
+   "area_m2": 111.3285,
+   "general": 61,
+   "special": 68,
+   "pyeong_price": 1525,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9735T",
+   "size": 84,
+   "price": 54090,
+   "area_m2": 111.1234,
+   "general": 6,
+   "special": 6,
+   "pyeong_price": 1609,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "99.4276A",
+   "size": 99,
+   "price": 63480,
+   "area_m2": 132.0372,
+   "general": 100,
+   "special": 11,
+   "pyeong_price": 1589,
+   "special_share_pct": 10
+  },
+  {
+   "ty": "99.8447B",
+   "size": 99,
+   "price": 63110,
+   "area_m2": 131.7625,
+   "general": 27,
+   "special": 3,
+   "pyeong_price": 1583,
+   "special_share_pct": 10
+  },
+  {
+   "ty": "150.7977P",
+   "size": 150,
+   "price": 109450,
+   "area_m2": 197.7965,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1829,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "152.8629P",
+   "size": 152,
+   "price": 109100,
+   "area_m2": 200.5068,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1799,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 414,
+ "special_total": 324,
+ "special_share_pct": 44,
+ "pyeong_min": 1525,
+ "pyeong_max": 1829,
+ "pyeong_avg": 1549,
+ "price_84_min": 51370,
+ "price_84_max": 54090,
+ "special_kinds": {
+  "신혼부부": 137,
+  "생애최초": 54,
+  "다자녀": 52,
+  "노부모 부양": 22,
+  "기관추천": 59
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9865A",
+    "supply": 429,
+    "closed_at": "1순위 기타지역",
+    "rate": 3.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9767B",
+    "supply": 125,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 62
+   },
+   {
+    "ty": "84.9735T",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 119.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "99.4276A",
+    "supply": 100,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "99.8447B",
+    "supply": 30,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "150.7977P",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "152.8629P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 27.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2766,
+  "rank1_req": 2638,
+  "supply_total": 693,
+  "final_shortfall_total": 62,
+  "closed_types": 6,
+  "rank1_closed_types": 6,
+  "type_count": 7,
+  "rank1_avg_rate": 3.81,
+  "best": {
+   "ty": "84.9735T",
+   "rate": 119.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9735T",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9865A": 0,
+   "84.9735T": 0
+  },
+  "avg_min": 22.0,
+  "max": {
+   "score": 64,
+   "ty": "84.9865A"
+  }
+ },
+ "region_price": {
+  "scope": "충남",
+  "days": 180,
+  "peer_count": 8,
+  "peers": [
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지"
+  ],
+  "peer_avg_pyeong": 1510,
+  "diff": 39,
+  "diff_pct": 3,
+  "rank": 5,
+  "of": 9
+ },
+ "region_competition": {
+  "scope": "충남",
+  "peer_count": 8,
+  "peers": [
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지"
+  ],
+  "peer_avg_rate": 3.21,
+  "rank": 4,
+  "of": 9
+ },
+ "region_score": {
+  "scope": "충남",
+  "peer_count": 4,
+  "peers": [
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

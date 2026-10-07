@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "팔달10구역 주택재개발 정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-09",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-09",
+  "GNRL_RCEPT_BGNDE": "2026-01-29",
+  "GNRL_RCEPT_ENDDE": "2026-01-29",
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025930061",
+  "HOUSE_NM": "수원 센트럴 아이파크 자이",
+  "HOUSE_SECD": "06",
+  "HOUSE_SECD_NM": "불법행위 재공급",
+  "HSSPLY_ADRES": "경기도 수원시 팔달구 인계동 1173",
+  "HSSPLY_ZIP": "16530",
+  "MDHS_TELNO": "15515459",
+  "MVN_PREARNGE_YM": "202603",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025930061",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025930061&pblancNo=2025930061",
+  "PRZWNER_PRESNATN_DE": "2026-02-03",
+  "RCRIT_PBLANC_DE": "2026-01-23",
+  "SPSPLY_RCEPT_BGNDE": "2026-01-28",
+  "SPSPLY_RCEPT_ENDDE": "2026-01-28",
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-28",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-29",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025930061",
+   "HOUSE_TY": "073.9700A",
+   "LTTOT_TOP_AMOUNT": "56000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025930061",
+   "SPSPLY_HSHLDCO": 1,
+   "SUPLY_AR": "100.6000",
+   "SUPLY_HSHLDCO": 0
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025930061",
+   "HOUSE_TY": "084.9900A",
+   "LTTOT_TOP_AMOUNT": "66200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025930061",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": "112.1100",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:50.969949+09:00"
+}

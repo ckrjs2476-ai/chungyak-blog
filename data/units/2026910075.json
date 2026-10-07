@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "골드클래스 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-17",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-17",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://goldclass.co.kr/",
+  "HOUSE_MANAGE_NO": "2026910075",
+  "HOUSE_NM": "울산 우정혁신도시 B1블록(골드클래스) 분양전환 후 잔여세대",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "울산광역시 중구 종가로 760 (장현동, 골드클래스)",
+  "HSSPLY_ZIP": "44551",
+  "MDHS_TELNO": "0622333999",
+  "MVN_PREARNGE_YM": "202605",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910075",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910075&pblancNo=2026910075",
+  "PRZWNER_PRESNATN_DE": "2026-04-10",
+  "RCRIT_PBLANC_DE": "2026-04-02",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "680",
+  "SUBSCRPT_AREA_CODE_NM": "울산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-07",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-07",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910075",
+   "HOUSE_TY": "076.5143 ",
+   "LTTOT_TOP_AMOUNT": "32900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910075",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910075",
+   "HOUSE_TY": "084.9600 ",
+   "LTTOT_TOP_AMOUNT": "37650",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910075",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "16.00",
+   "HOUSE_MANAGE_NO": "2026910075",
+   "HOUSE_TY": "076.5143 ",
+   "PBLANC_NO": "2026910075",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "16",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "49.00",
+   "HOUSE_MANAGE_NO": "2026910075",
+   "HOUSE_TY": "084.9600 ",
+   "PBLANC_NO": "2026910075",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "49",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:18.318466+09:00"
+}

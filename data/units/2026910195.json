@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 금강주택",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-06",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-06",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.penterium.kr/",
+  "HOUSE_MANAGE_NO": "2026910195",
+  "HOUSE_NM": "아산배방(2-A13BL) 금강펜테리움 센트럴파크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청남도 아산시 배방읍 세교리 1562(충청남도 아산시 배방읍 세교리 아산탕정지구 2-A13BL)",
+  "HSSPLY_ZIP": "31473",
+  "MDHS_TELNO": "0234687720",
+  "MVN_PREARNGE_YM": "202609",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910195",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910195&pblancNo=2026910195",
+  "PRZWNER_PRESNATN_DE": "2026-07-30",
+  "RCRIT_PBLANC_DE": "2026-07-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "312",
+  "SUBSCRPT_AREA_CODE_NM": "충남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-27",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910195",
+   "HOUSE_TY": "084.9316B",
+   "LTTOT_TOP_AMOUNT": "47200",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910195",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "158.00",
+   "HOUSE_MANAGE_NO": "2026910195",
+   "HOUSE_TY": "084.9316B",
+   "PBLANC_NO": "2026910195",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "158",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:48.959475+09:00"
+}

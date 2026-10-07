@@ -1,0 +1,151 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-12",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://unjeong-iparkcity.com",
+  "HOUSE_MANAGE_NO": "2025910246",
+  "HOUSE_NM": "운정 아이파크 포레스트",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "파주메디컬클러스터 도시개발구역 A2BL (경기도 파주시 서패동 432번지 일원)",
+  "HSSPLY_ZIP": "10883",
+  "MDHS_TELNO": "16603255",
+  "MVN_PREARNGE_YM": "202812",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910246",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910246&pblancNo=2025910246",
+  "PRZWNER_PRESNATN_DE": "2025-12-11",
+  "RCRIT_PBLANC_DE": "2025-12-03",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-08",
+  "TOT_SUPLY_HSHLDCO": 311
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "063.8043 ",
+   "LTTOT_TOP_AMOUNT": "48520",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910246",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 102
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "074.9086 ",
+   "LTTOT_TOP_AMOUNT": "57450",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910246",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 204
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "152.5880P",
+   "LTTOT_TOP_AMOUNT": "139770",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910246",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "171.7503P",
+   "LTTOT_TOP_AMOUNT": "156430",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910246",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "192.7418P",
+   "LTTOT_TOP_AMOUNT": "179200",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910246",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "197.1512P",
+   "LTTOT_TOP_AMOUNT": "182860",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2025910246",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△66)",
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "063.8043 ",
+   "PBLANC_NO": "2025910246",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "36",
+   "SUPLY_HSHLDCO": 102
+  },
+  {
+   "CMPET_RATE": "(△133)",
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "074.9086 ",
+   "PBLANC_NO": "2025910246",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "71",
+   "SUPLY_HSHLDCO": 204
+  },
+  {
+   "CMPET_RATE": "6.00",
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "152.5880P",
+   "PBLANC_NO": "2025910246",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "171.7503P",
+   "PBLANC_NO": "2025910246",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "192.7418P",
+   "PBLANC_NO": "2025910246",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2025910246",
+   "HOUSE_TY": "197.1512P",
+   "PBLANC_NO": "2025910246",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:55.411820+09:00"
+}

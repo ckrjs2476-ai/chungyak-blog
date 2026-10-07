@@ -1,0 +1,100 @@
+{
+ "no": "2026910163",
+ "name": "더샵 관저아르테",
+ "kind": "remndr",
+ "region": "대전",
+ "notice_date": "2026-06-29",
+ "rank1_date": "2026-07-06",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910163&pblancNo=2026910163",
+ "households": 223,
+ "types": [
+  {
+   "ty": "84.6688A",
+   "size": 84,
+   "price": 64100,
+   "area_m2": null,
+   "general": 34,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.4529B",
+   "size": 84,
+   "price": 63250,
+   "area_m2": null,
+   "general": 49,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "104.2229A",
+   "size": 104,
+   "price": 76850,
+   "area_m2": null,
+   "general": 114,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "119.6029A",
+   "size": 119,
+   "price": 85730,
+   "area_m2": null,
+   "general": 26,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 223,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 63250,
+ "price_84_max": 64100,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.4529B",
+    "supply": 49,
+    "closed_at": "None순위 None",
+    "rate": 1.53,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6688A",
+    "supply": 34,
+    "closed_at": "None순위 None",
+    "rate": 3.74,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "104.2229A",
+    "supply": 114,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 92
+   },
+   {
+    "ty": "119.6029A",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   }
+  ],
+  "req_total": 229,
+  "rank1_req": 0,
+  "supply_total": 223,
+  "final_shortfall_total": 113,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.6688A",
+   "rate": 3.74,
+   "stage": "None순위 None"
+  }
+ }
+}

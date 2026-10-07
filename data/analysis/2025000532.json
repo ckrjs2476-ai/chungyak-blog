@@ -1,0 +1,159 @@
+{
+ "no": "2025000532",
+ "name": "송천 아르티엠 더 숲",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-25",
+ "city": "전주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000532&pblancNo=2025000532",
+ "households": 244,
+ "types": [
+  {
+   "ty": "84.9968A",
+   "size": 84,
+   "price": 56990,
+   "area_m2": 110.4742,
+   "general": 56,
+   "special": 68,
+   "pyeong_price": 1705,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9578B",
+   "size": 84,
+   "price": 55200,
+   "area_m2": 111.3339,
+   "general": 5,
+   "special": 10,
+   "pyeong_price": 1639,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84.9807C",
+   "size": 84,
+   "price": 55990,
+   "area_m2": 110.7129,
+   "general": 13,
+   "special": 12,
+   "pyeong_price": 1672,
+   "special_share_pct": 48
+  },
+  {
+   "ty": "84.7759D",
+   "size": 84,
+   "price": 56290,
+   "area_m2": 110.2161,
+   "general": 36,
+   "special": 44,
+   "pyeong_price": 1688,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 110,
+ "special_total": 134,
+ "special_share_pct": 55,
+ "pyeong_min": 1639,
+ "pyeong_max": 1705,
+ "pyeong_avg": 1692,
+ "price_84_min": 55200,
+ "price_84_max": 56990,
+ "special_kinds": {
+  "신혼부부": 57,
+  "생애최초": 22,
+  "다자녀": 24,
+  "노부모 부양": 7,
+  "기관추천": 24
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9968A",
+    "supply": 56,
+    "closed_at": "1순위 해당지역",
+    "rate": 36.59,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9578B",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.09,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9807C",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 9.08,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7759D",
+    "supply": 55,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.91,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2857,
+  "rank1_req": 2857,
+  "supply_total": 135,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 21.16,
+  "best": {
+   "ty": "84.9968A",
+   "rate": 36.59,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.7759D",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9968A": 0,
+   "84.9578B": 0,
+   "84.9807C": 0,
+   "84.7759D": 0
+  },
+  "avg_min": 25.2,
+  "max": {
+   "score": 69,
+   "ty": "84.9968A"
+  }
+ },
+ "region_price": {
+  "scope": "전주시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처"
+  ],
+  "peer_avg_pyeong": 1555,
+  "diff": 137,
+  "diff_pct": 9,
+  "rank": 2,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "전주시",
+  "peer_count": 3,
+  "peers": [
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처"
+  ],
+  "peer_avg_rate": 12.8,
+  "rank": 2,
+  "of": 4
+ }
+}

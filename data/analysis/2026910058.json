@@ -1,0 +1,79 @@
+{
+ "no": "2026910058",
+ "name": "평택화양 서희스타힐스 센트럴파크(조합원 취소분)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-03-05",
+ "rank1_date": "2026-03-10",
+ "city": "평택시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910058&pblancNo=2026910058",
+ "households": 45,
+ "types": [
+  {
+   "ty": "59.7713A",
+   "size": 59,
+   "price": 34200,
+   "area_m2": null,
+   "general": 28,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9927B",
+   "size": 59,
+   "price": 34200,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6048",
+   "size": 84,
+   "price": 45200,
+   "area_m2": null,
+   "general": 14,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 45,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 45200,
+ "price_84_max": 45200,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7713A",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "59.9927B",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "84.6048",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   }
+  ],
+  "req_total": 22,
+  "rank1_req": 0,
+  "supply_total": 45,
+  "final_shortfall_total": 23,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0
+ }
+}

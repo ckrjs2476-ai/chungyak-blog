@@ -1,0 +1,106 @@
+{
+ "no": "2025000617",
+ "name": "영종하늘도시 대라수 어썸(A50BL)",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2025-12-22",
+ "rank1_date": "2026-01-05",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000617&pblancNo=2025000617",
+ "households": 297,
+ "types": [
+  {
+   "ty": "84.9779A",
+   "size": 84,
+   "price": 57100,
+   "area_m2": 111.6859,
+   "general": 52,
+   "special": 146,
+   "pyeong_price": 1690,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "84.986B",
+   "size": 84,
+   "price": 56400,
+   "area_m2": 112.6339,
+   "general": 28,
+   "special": 71,
+   "pyeong_price": 1655,
+   "special_share_pct": 72
+  }
+ ],
+ "general_total": 80,
+ "special_total": 217,
+ "special_share_pct": 73,
+ "pyeong_min": 1655,
+ "pyeong_max": 1690,
+ "pyeong_avg": 1678,
+ "price_84_min": 56400,
+ "price_84_max": 57100,
+ "special_kinds": {
+  "신혼부부": 67,
+  "생애최초": 55,
+  "다자녀": 29,
+  "노부모 부양": 8,
+  "기관추천": 29
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9779A",
+    "supply": 198,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 152
+   },
+   {
+    "ty": "84.986B",
+    "supply": 96,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 87
+   }
+  ],
+  "req_total": 55,
+  "rank1_req": 34,
+  "supply_total": 294,
+  "final_shortfall_total": 239,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.12
+ },
+ "region_price": {
+  "scope": "중구",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_pyeong": 1668,
+  "diff": 10,
+  "diff_pct": 1,
+  "rank": 4,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "중구",
+  "peer_count": 5,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_rate": 0.13,
+  "rank": 3,
+  "of": 6
+ }
+}

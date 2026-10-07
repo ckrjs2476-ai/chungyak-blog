@@ -1,0 +1,116 @@
+{
+ "no": "2026910097",
+ "name": "래미안 엘라비네",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-04-21",
+ "rank1_date": "2026-04-27",
+ "city": "강서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910097&pblancNo=2026910097",
+ "households": 56,
+ "types": [
+  {
+   "ty": "84.53A",
+   "size": 84,
+   "price": 183000,
+   "area_m2": null,
+   "general": 25,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.32B",
+   "size": 84,
+   "price": 180200,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.1C",
+   "size": 84,
+   "price": 180200,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.33D",
+   "size": 84,
+   "price": 178400,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.22",
+   "size": 115,
+   "price": 223700,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 56,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 178400,
+ "price_84_max": 183000,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.1C",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 18.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.32B",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 19.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.33D",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 15.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.53A",
+    "supply": 25,
+    "closed_at": "None순위 None",
+    "rate": 31.16,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.22",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 4.44,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1209,
+  "rank1_req": 0,
+  "supply_total": 56,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.53A",
+   "rate": 31.16,
+   "stage": "None순위 None"
+  }
+ }
+}

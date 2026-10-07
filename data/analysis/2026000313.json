@@ -1,0 +1,102 @@
+{
+ "no": "2026000313",
+ "name": "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-06-30",
+ "rank1_date": "2026-07-20",
+ "city": "고양시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000313&pblancNo=2026000313",
+ "households": 1282,
+ "types": [
+  {
+   "ty": "46A",
+   "size": 46,
+   "price": 39033,
+   "area_m2": 65.5948,
+   "general": 2,
+   "special": 9,
+   "pyeong_price": 1967,
+   "special_share_pct": 82
+  },
+  {
+   "ty": "55A",
+   "size": 55,
+   "price": 46667,
+   "area_m2": 78.4252,
+   "general": 14,
+   "special": 57,
+   "pyeong_price": 1967,
+   "special_share_pct": 80
+  },
+  {
+   "ty": "59A",
+   "size": 59,
+   "price": 50001,
+   "area_m2": 84.028,
+   "general": 30,
+   "special": 114,
+   "pyeong_price": 1967,
+   "special_share_pct": 79
+  },
+  {
+   "ty": "59B",
+   "size": 59,
+   "price": 49843,
+   "area_m2": 83.7619,
+   "general": 12,
+   "special": 47,
+   "pyeong_price": 1967,
+   "special_share_pct": 80
+  },
+  {
+   "ty": "74A",
+   "size": 74,
+   "price": 62249,
+   "area_m2": 104.6743,
+   "general": 6,
+   "special": 21,
+   "pyeong_price": 1966,
+   "special_share_pct": 78
+  },
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 70796,
+   "area_m2": 119.0455,
+   "general": 18,
+   "special": 72,
+   "pyeong_price": 1966,
+   "special_share_pct": 80
+  }
+ ],
+ "general_total": 82,
+ "special_total": 320,
+ "special_share_pct": 80,
+ "pyeong_min": 1966,
+ "pyeong_max": 1967,
+ "pyeong_avg": 1967,
+ "price_84_min": 70796,
+ "price_84_max": 70796,
+ "special_kinds": {
+  "신혼부부": 60,
+  "생애최초": 60,
+  "신생아": 140,
+  "청년": 60
+ },
+ "region_price": {
+  "scope": "고양시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "고양 창릉 우미 린 그레니티 공공분양주택(본청약)",
+   "고양창릉 S-4블록 공공분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 2388,
+  "diff": -421,
+  "diff_pct": -18,
+  "rank": 3,
+  "of": 3
+ }
+}

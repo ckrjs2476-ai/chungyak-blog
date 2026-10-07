@@ -1,0 +1,151 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "메디컬카운티지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-05",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-05",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.서면어반센트데시앙.com",
+  "HOUSE_MANAGE_NO": "2025910199",
+  "HOUSE_NM": "서면 어반센트 데시앙",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 부산진구 부암동 690-8번지 일원",
+  "HSSPLY_ZIP": "47194",
+  "MDHS_TELNO": "0518177787",
+  "MVN_PREARNGE_YM": "202709",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910199",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910199&pblancNo=2025910199",
+  "PRZWNER_PRESNATN_DE": "2025-10-30",
+  "RCRIT_PBLANC_DE": "2025-10-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-27",
+  "TOT_SUPLY_HSHLDCO": 153
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "059.6796A",
+   "LTTOT_TOP_AMOUNT": "59500",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910199",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "059.8003B",
+   "LTTOT_TOP_AMOUNT": "62500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910199",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "074.9966A",
+   "LTTOT_TOP_AMOUNT": "76900",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910199",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "074.9909B",
+   "LTTOT_TOP_AMOUNT": "74100",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910199",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "084.8995A",
+   "LTTOT_TOP_AMOUNT": "81400",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910199",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 71
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "084.9951B",
+   "LTTOT_TOP_AMOUNT": "84300",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2025910199",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 47
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.00",
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "059.6796A",
+   "PBLANC_NO": "2025910199",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "CMPET_RATE": "(△7)",
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "059.8003B",
+   "PBLANC_NO": "2025910199",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "074.9909B",
+   "PBLANC_NO": "2025910199",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "CMPET_RATE": "1.50",
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "074.9966A",
+   "PBLANC_NO": "2025910199",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "(△57)",
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "084.8995A",
+   "PBLANC_NO": "2025910199",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "14",
+   "SUPLY_HSHLDCO": 71
+  },
+  {
+   "CMPET_RATE": "(△41)",
+   "HOUSE_MANAGE_NO": "2025910199",
+   "HOUSE_TY": "084.9951B",
+   "PBLANC_NO": "2025910199",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 47
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:18.217225+09:00"
+}

@@ -249,24 +249,662 @@
   }
  ],
  "monthly_region_pyeong": {
+  "2025-11": {
+   "경북": {
+    "count": 1,
+    "avg_pyeong": 1195,
+    "max_pyeong": 1195,
+    "min_pyeong": 1195
+   },
+   "경남": {
+    "count": 4,
+    "avg_pyeong": 1798,
+    "max_pyeong": 2680,
+    "min_pyeong": 1392
+   },
+   "경기": {
+    "count": 20,
+    "avg_pyeong": 2265,
+    "max_pyeong": 4518,
+    "min_pyeong": 1343
+   },
+   "울산": {
+    "count": 4,
+    "avg_pyeong": 2002,
+    "max_pyeong": 2352,
+    "min_pyeong": 1550
+   },
+   "전북": {
+    "count": 2,
+    "avg_pyeong": 1438,
+    "max_pyeong": 1692,
+    "min_pyeong": 1183
+   },
+   "부산": {
+    "count": 2,
+    "avg_pyeong": 1392,
+    "max_pyeong": 2030,
+    "min_pyeong": 754
+   },
+   "충남": {
+    "count": 4,
+    "avg_pyeong": 1340,
+    "max_pyeong": 1457,
+    "min_pyeong": 1255
+   },
+   "인천": {
+    "count": 2,
+    "avg_pyeong": 1784,
+    "max_pyeong": 1903,
+    "min_pyeong": 1664
+   },
+   "세종": {
+    "count": 1,
+    "avg_pyeong": 1849,
+    "max_pyeong": 1849,
+    "min_pyeong": 1849
+   },
+   "제주": {
+    "count": 2,
+    "avg_pyeong": 2190,
+    "max_pyeong": 2697,
+    "min_pyeong": 1682
+   },
+   "전남": {
+    "count": 1,
+    "avg_pyeong": 1084,
+    "max_pyeong": 1084,
+    "min_pyeong": 1084
+   },
+   "충북": {
+    "count": 1,
+    "avg_pyeong": 1261,
+    "max_pyeong": 1261,
+    "min_pyeong": 1261
+   }
+  },
+  "2025-12": {
+   "경기": {
+    "count": 12,
+    "avg_pyeong": 2461,
+    "max_pyeong": 6013,
+    "min_pyeong": 389
+   },
+   "부산": {
+    "count": 2,
+    "avg_pyeong": 2896,
+    "max_pyeong": 3323,
+    "min_pyeong": 2468
+   },
+   "서울": {
+    "count": 1,
+    "avg_pyeong": 8397,
+    "max_pyeong": 8397,
+    "min_pyeong": 8397
+   },
+   "인천": {
+    "count": 6,
+    "avg_pyeong": 1854,
+    "max_pyeong": 2710,
+    "min_pyeong": 1379
+   },
+   "울산": {
+    "count": 4,
+    "avg_pyeong": 2300,
+    "max_pyeong": 2745,
+    "min_pyeong": 1391
+   },
+   "대전": {
+    "count": 2,
+    "avg_pyeong": 2229,
+    "max_pyeong": 2443,
+    "min_pyeong": 2015
+   },
+   "경북": {
+    "count": 1,
+    "avg_pyeong": 1351,
+    "max_pyeong": 1351,
+    "min_pyeong": 1351
+   },
+   "전북": {
+    "count": 1,
+    "avg_pyeong": 1724,
+    "max_pyeong": 1724,
+    "min_pyeong": 1724
+   },
+   "전남": {
+    "count": 1,
+    "avg_pyeong": 1133,
+    "max_pyeong": 1133,
+    "min_pyeong": 1133
+   },
+   "세종": {
+    "count": 1,
+    "avg_pyeong": 1663,
+    "max_pyeong": 1663,
+    "min_pyeong": 1663
+   },
+   "강원": {
+    "count": 1,
+    "avg_pyeong": 1700,
+    "max_pyeong": 1700,
+    "min_pyeong": 1700
+   },
+   "경남": {
+    "count": 1,
+    "avg_pyeong": 1601,
+    "max_pyeong": 1601,
+    "min_pyeong": 1601
+   }
+  },
+  "2026-01": {
+   "인천": {
+    "count": 2,
+    "avg_pyeong": 2425,
+    "max_pyeong": 2552,
+    "min_pyeong": 2298
+   },
+   "경기": {
+    "count": 4,
+    "avg_pyeong": 2259,
+    "max_pyeong": 3575,
+    "min_pyeong": 1377
+   },
+   "제주": {
+    "count": 1,
+    "avg_pyeong": 1572,
+    "max_pyeong": 1572,
+    "min_pyeong": 1572
+   },
+   "서울": {
+    "count": 1,
+    "avg_pyeong": 4733,
+    "max_pyeong": 4733,
+    "min_pyeong": 4733
+   },
+   "부산": {
+    "count": 1,
+    "avg_pyeong": 2421,
+    "max_pyeong": 2421,
+    "min_pyeong": 2421
+   },
+   "울산": {
+    "count": 1,
+    "avg_pyeong": 1384,
+    "max_pyeong": 1384,
+    "min_pyeong": 1384
+   },
+   "대전": {
+    "count": 1,
+    "avg_pyeong": 1961,
+    "max_pyeong": 1961,
+    "min_pyeong": 1961
+   }
+  },
+  "2026-02": {
+   "경기": {
+    "count": 6,
+    "avg_pyeong": 2438,
+    "max_pyeong": 4015,
+    "min_pyeong": 607
+   },
+   "경북": {
+    "count": 1,
+    "avg_pyeong": 1576,
+    "max_pyeong": 1576,
+    "min_pyeong": 1576
+   },
+   "충남": {
+    "count": 2,
+    "avg_pyeong": 1752,
+    "max_pyeong": 1762,
+    "min_pyeong": 1742
+   },
+   "제주": {
+    "count": 1,
+    "avg_pyeong": 2097,
+    "max_pyeong": 2097,
+    "min_pyeong": 2097
+   },
+   "부산": {
+    "count": 1,
+    "avg_pyeong": 2794,
+    "max_pyeong": 2794,
+    "min_pyeong": 2794
+   },
+   "울산": {
+    "count": 1,
+    "avg_pyeong": 1124,
+    "max_pyeong": 1124,
+    "min_pyeong": 1124
+   },
+   "광주": {
+    "count": 1,
+    "avg_pyeong": 1907,
+    "max_pyeong": 1907,
+    "min_pyeong": 1907
+   },
+   "전북": {
+    "count": 1,
+    "avg_pyeong": 534,
+    "max_pyeong": 534,
+    "min_pyeong": 534
+   },
+   "서울": {
+    "count": 2,
+    "avg_pyeong": 2266,
+    "max_pyeong": 3166,
+    "min_pyeong": 1367
+   }
+  },
+  "2026-03": {
+   "서울": {
+    "count": 6,
+    "avg_pyeong": 6555,
+    "max_pyeong": 7994,
+    "min_pyeong": 5132
+   },
+   "광주": {
+    "count": 2,
+    "avg_pyeong": 1528,
+    "max_pyeong": 2159,
+    "min_pyeong": 896
+   },
+   "부산": {
+    "count": 5,
+    "avg_pyeong": 2096,
+    "max_pyeong": 2788,
+    "min_pyeong": 1654
+   },
+   "경기": {
+    "count": 6,
+    "avg_pyeong": 2162,
+    "max_pyeong": 3045,
+    "min_pyeong": 1421
+   },
+   "대전": {
+    "count": 3,
+    "avg_pyeong": 1371,
+    "max_pyeong": 1988,
+    "min_pyeong": 426
+   },
+   "인천": {
+    "count": 4,
+    "avg_pyeong": 1834,
+    "max_pyeong": 2092,
+    "min_pyeong": 1350
+   },
+   "전남": {
+    "count": 1,
+    "avg_pyeong": 1744,
+    "max_pyeong": 1744,
+    "min_pyeong": 1744
+   },
+   "경북": {
+    "count": 1,
+    "avg_pyeong": 1374,
+    "max_pyeong": 1374,
+    "min_pyeong": 1374
+   },
+   "대구": {
+    "count": 1,
+    "avg_pyeong": 2941,
+    "max_pyeong": 2941,
+    "min_pyeong": 2941
+   },
+   "충남": {
+    "count": 2,
+    "avg_pyeong": 1450,
+    "max_pyeong": 1638,
+    "min_pyeong": 1261
+   },
+   "경남": {
+    "count": 1,
+    "avg_pyeong": 2709,
+    "max_pyeong": 2709,
+    "min_pyeong": 2709
+   }
+  },
+  "2026-04": {
+   "경기": {
+    "count": 19,
+    "avg_pyeong": 2056,
+    "max_pyeong": 3424,
+    "min_pyeong": 1548
+   },
+   "충남": {
+    "count": 7,
+    "avg_pyeong": 1584,
+    "max_pyeong": 1838,
+    "min_pyeong": 1247
+   },
+   "강원": {
+    "count": 2,
+    "avg_pyeong": 1546,
+    "max_pyeong": 1621,
+    "min_pyeong": 1472
+   },
+   "전북": {
+    "count": 2,
+    "avg_pyeong": 1470,
+    "max_pyeong": 1591,
+    "min_pyeong": 1349
+   },
+   "경남": {
+    "count": 4,
+    "avg_pyeong": 1429,
+    "max_pyeong": 1890,
+    "min_pyeong": 517
+   },
+   "충북": {
+    "count": 1,
+    "avg_pyeong": 1556,
+    "max_pyeong": 1556,
+    "min_pyeong": 1556
+   },
+   "전남": {
+    "count": 2,
+    "avg_pyeong": 1444,
+    "max_pyeong": 1446,
+    "min_pyeong": 1442
+   },
+   "경북": {
+    "count": 3,
+    "avg_pyeong": 1433,
+    "max_pyeong": 1518,
+    "min_pyeong": 1324
+   },
+   "서울": {
+    "count": 3,
+    "avg_pyeong": 6079,
+    "max_pyeong": 7905,
+    "min_pyeong": 3468
+   },
+   "부산": {
+    "count": 2,
+    "avg_pyeong": 1992,
+    "max_pyeong": 2396,
+    "min_pyeong": 1587
+   },
+   "울산": {
+    "count": 3,
+    "avg_pyeong": 2377,
+    "max_pyeong": 2653,
+    "min_pyeong": 2218
+   },
+   "대전": {
+    "count": 3,
+    "avg_pyeong": 2142,
+    "max_pyeong": 2272,
+    "min_pyeong": 1905
+   },
+   "제주": {
+    "count": 1,
+    "avg_pyeong": 1673,
+    "max_pyeong": 1673,
+    "min_pyeong": 1673
+   },
+   "인천": {
+    "count": 2,
+    "avg_pyeong": 1963,
+    "max_pyeong": 2071,
+    "min_pyeong": 1855
+   }
+  },
+  "2026-05": {
+   "경기": {
+    "count": 10,
+    "avg_pyeong": 2288,
+    "max_pyeong": 2727,
+    "min_pyeong": 1785
+   },
+   "강원": {
+    "count": 2,
+    "avg_pyeong": 1724,
+    "max_pyeong": 1786,
+    "min_pyeong": 1663
+   },
+   "서울": {
+    "count": 2,
+    "avg_pyeong": 8368,
+    "max_pyeong": 8872,
+    "min_pyeong": 7864
+   },
+   "충북": {
+    "count": 1,
+    "avg_pyeong": 1502,
+    "max_pyeong": 1502,
+    "min_pyeong": 1502
+   },
+   "인천": {
+    "count": 8,
+    "avg_pyeong": 3310,
+    "max_pyeong": 3784,
+    "min_pyeong": 1771
+   },
+   "부산": {
+    "count": 3,
+    "avg_pyeong": 2340,
+    "max_pyeong": 2830,
+    "min_pyeong": 1991
+   },
+   "대구": {
+    "count": 1,
+    "avg_pyeong": 2250,
+    "max_pyeong": 2250,
+    "min_pyeong": 2250
+   },
+   "전북": {
+    "count": 1,
+    "avg_pyeong": 1228,
+    "max_pyeong": 1228,
+    "min_pyeong": 1228
+   }
+  },
+  "2026-06": {
+   "부산": {
+    "count": 2,
+    "avg_pyeong": 3410,
+    "max_pyeong": 5119,
+    "min_pyeong": 1701
+   },
+   "인천": {
+    "count": 2,
+    "avg_pyeong": 1964,
+    "max_pyeong": 1976,
+    "min_pyeong": 1951
+   },
+   "경남": {
+    "count": 8,
+    "avg_pyeong": 1443,
+    "max_pyeong": 1652,
+    "min_pyeong": 1100
+   },
+   "충남": {
+    "count": 3,
+    "avg_pyeong": 1686,
+    "max_pyeong": 1724,
+    "min_pyeong": 1620
+   },
+   "서울": {
+    "count": 3,
+    "avg_pyeong": 5306,
+    "max_pyeong": 7400,
+    "min_pyeong": 3377
+   },
+   "경기": {
+    "count": 9,
+    "avg_pyeong": 1745,
+    "max_pyeong": 2488,
+    "min_pyeong": 378
+   },
+   "광주": {
+    "count": 2,
+    "avg_pyeong": 1935,
+    "max_pyeong": 2322,
+    "min_pyeong": 1548
+   },
+   "전남": {
+    "count": 1,
+    "avg_pyeong": 1551,
+    "max_pyeong": 1551,
+    "min_pyeong": 1551
+   },
+   "경북": {
+    "count": 1,
+    "avg_pyeong": 2043,
+    "max_pyeong": 2043,
+    "min_pyeong": 2043
+   },
+   "전북": {
+    "count": 1,
+    "avg_pyeong": 279,
+    "max_pyeong": 279,
+    "min_pyeong": 279
+   },
+   "제주": {
+    "count": 2,
+    "avg_pyeong": 3595,
+    "max_pyeong": 3628,
+    "min_pyeong": 3562
+   }
+  },
+  "2026-07": {
+   "서울": {
+    "count": 2,
+    "avg_pyeong": 5754,
+    "max_pyeong": 6587,
+    "min_pyeong": 4922
+   },
+   "경남": {
+    "count": 3,
+    "avg_pyeong": 1644,
+    "max_pyeong": 1797,
+    "min_pyeong": 1539
+   },
+   "충남": {
+    "count": 2,
+    "avg_pyeong": 1472,
+    "max_pyeong": 1678,
+    "min_pyeong": 1267
+   },
+   "경기": {
+    "count": 11,
+    "avg_pyeong": 2081,
+    "max_pyeong": 3273,
+    "min_pyeong": 1544
+   },
+   "강원": {
+    "count": 2,
+    "avg_pyeong": 1619,
+    "max_pyeong": 1639,
+    "min_pyeong": 1599
+   },
+   "부산": {
+    "count": 3,
+    "avg_pyeong": 2313,
+    "max_pyeong": 2916,
+    "min_pyeong": 1522
+   },
+   "세종": {
+    "count": 1,
+    "avg_pyeong": 1784,
+    "max_pyeong": 1784,
+    "min_pyeong": 1784
+   },
+   "울산": {
+    "count": 1,
+    "avg_pyeong": 1208,
+    "max_pyeong": 1208,
+    "min_pyeong": 1208
+   }
+  },
+  "2026-08": {
+   "광주": {
+    "count": 1,
+    "avg_pyeong": 1544,
+    "max_pyeong": 1544,
+    "min_pyeong": 1544
+   },
+   "경기": {
+    "count": 10,
+    "avg_pyeong": 2383,
+    "max_pyeong": 4595,
+    "min_pyeong": 1404
+   },
+   "서울": {
+    "count": 5,
+    "avg_pyeong": 5489,
+    "max_pyeong": 7393,
+    "min_pyeong": 3598
+   },
+   "전북": {
+    "count": 1,
+    "avg_pyeong": 1484,
+    "max_pyeong": 1484,
+    "min_pyeong": 1484
+   },
+   "대구": {
+    "count": 1,
+    "avg_pyeong": 1678,
+    "max_pyeong": 1678,
+    "min_pyeong": 1678
+   },
+   "경남": {
+    "count": 1,
+    "avg_pyeong": 1609,
+    "max_pyeong": 1609,
+    "min_pyeong": 1609
+   },
+   "인천": {
+    "count": 3,
+    "avg_pyeong": 1995,
+    "max_pyeong": 2126,
+    "min_pyeong": 1888
+   },
+   "울산": {
+    "count": 1,
+    "avg_pyeong": 826,
+    "max_pyeong": 826,
+    "min_pyeong": 826
+   }
+  },
   "2026-09": {
    "경기": {
-    "count": 8,
-    "avg_pyeong": 2955,
+    "count": 10,
+    "avg_pyeong": 2707,
     "max_pyeong": 8041,
     "min_pyeong": 1519
+   },
+   "대전": {
+    "count": 1,
+    "avg_pyeong": 1693,
+    "max_pyeong": 1693,
+    "min_pyeong": 1693
+   },
+   "울산": {
+    "count": 4,
+    "avg_pyeong": 2084,
+    "max_pyeong": 2406,
+    "min_pyeong": 1401
+   },
+   "광주": {
+    "count": 1,
+    "avg_pyeong": 2507,
+    "max_pyeong": 2507,
+    "min_pyeong": 2507
+   },
+   "충남": {
+    "count": 4,
+    "avg_pyeong": 1580,
+    "max_pyeong": 1708,
+    "min_pyeong": 1362
    },
    "부산": {
     "count": 2,
     "avg_pyeong": 2924,
     "max_pyeong": 3800,
     "min_pyeong": 2047
-   },
-   "울산": {
-    "count": 2,
-    "avg_pyeong": 2334,
-    "max_pyeong": 2406,
-    "min_pyeong": 2262
    },
    "전북": {
     "count": 1,
@@ -285,12 +923,6 @@
     "avg_pyeong": 2027,
     "max_pyeong": 2123,
     "min_pyeong": 1931
-   },
-   "충남": {
-    "count": 1,
-    "avg_pyeong": 1362,
-    "max_pyeong": 1362,
-    "min_pyeong": 1362
    }
   },
   "2026-10": {
@@ -490,6 +1122,22 @@
     }
    },
    {
+    "no": "2026000419",
+    "name": "올 뉴 챔피언스시티 1차",
+    "region": "광주",
+    "households": 3216,
+    "pyeong_avg": 2507,
+    "price_84_min": 84200,
+    "special_kinds": {
+     "신혼부부": 380,
+     "생애최초": 177,
+     "신생아": 253,
+     "다자녀": 321,
+     "노부모 부양": 96,
+     "기관추천": 253
+    }
+   },
+   {
     "no": "2026000441",
     "name": "문수로 비스타 더파크",
     "region": "울산",
@@ -518,6 +1166,22 @@
      "신생아": 4,
      "다자녀": 4,
      "기관추천": 4
+    }
+   },
+   {
+    "no": "2026000403",
+    "name": "그랑라크 에일린의 뜰",
+    "region": "울산",
+    "households": 1153,
+    "pyeong_avg": 2267,
+    "price_84_min": 76600,
+    "special_kinds": {
+     "신혼부부": 165,
+     "생애최초": 78,
+     "신생아": 110,
+     "다자녀": 115,
+     "노부모 부양": 35,
+     "기관추천": 110
     }
    },
    {
@@ -594,6 +1258,22 @@
     }
    },
    {
+    "no": "2026000393",
+    "name": "시흥 은계 에피트(조합원 취소분)",
+    "region": "경기",
+    "households": 24,
+    "pyeong_avg": 1900,
+    "price_84_min": null,
+    "special_kinds": {
+     "신혼부부": 4,
+     "생애최초": 1,
+     "신생아": 1,
+     "다자녀": 1,
+     "노부모 부양": 1,
+     "기관추천": 1
+    }
+   },
+   {
     "no": "2026000437",
     "name": "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
     "region": "경기",
@@ -610,6 +1290,38 @@
     }
    },
    {
+    "no": "2026000422",
+    "name": "천안 아이파크 시티 3단지",
+    "region": "충남",
+    "households": 851,
+    "pyeong_avg": 1708,
+    "price_84_min": 57550,
+    "special_kinds": {
+     "신혼부부": 74,
+     "생애최초": 35,
+     "신생아": 49,
+     "다자녀": 83,
+     "노부모 부양": 23,
+     "기관추천": 50
+    }
+   },
+   {
+    "no": "2026000426",
+    "name": "천안 아이파크 시티 4단지",
+    "region": "충남",
+    "households": 777,
+    "pyeong_avg": 1706,
+    "price_84_min": 57460,
+    "special_kinds": {
+     "신혼부부": 68,
+     "생애최초": 32,
+     "신생아": 46,
+     "다자녀": 75,
+     "노부모 부양": 21,
+     "기관추천": 46
+    }
+   },
+   {
     "no": "2026000438",
     "name": "힐스테이트 고덕엘리스트 A65BL 공공분양주택",
     "region": "경기",
@@ -623,6 +1335,22 @@
      "다자녀": 84,
      "노부모 부양": 42,
      "기관추천": 125
+    }
+   },
+   {
+    "no": "2026000202",
+    "name": "대전 경남아너스빌 센텀스카이",
+    "region": "대전",
+    "households": 142,
+    "pyeong_avg": 1693,
+    "price_84_min": 59400,
+    "special_kinds": {
+     "신혼부부": 20,
+     "생애최초": 10,
+     "신생아": 14,
+     "다자녀": 13,
+     "노부모 부양": 4,
+     "기관추천": 13
     }
    },
    {
@@ -658,6 +1386,38 @@
     }
    },
    {
+    "no": "2026000423",
+    "name": "두정역 푸르지오 그랑피크",
+    "region": "충남",
+    "households": 1438,
+    "pyeong_avg": 1545,
+    "price_84_min": 55300,
+    "special_kinds": {
+     "신혼부부": 169,
+     "생애최초": 78,
+     "신생아": 113,
+     "다자녀": 143,
+     "노부모 부양": 43,
+     "기관추천": 113
+    }
+   },
+   {
+    "no": "2026000394",
+    "name": "더샵 여주역더퍼스트",
+    "region": "경기",
+    "households": 696,
+    "pyeong_avg": 1525,
+    "price_84_min": 50786,
+    "special_kinds": {
+     "신혼부부": 105,
+     "생애최초": 49,
+     "신생아": 70,
+     "다자녀": 70,
+     "노부모 부양": 21,
+     "기관추천": 68
+    }
+   },
+   {
     "no": "2026820011",
     "name": "시흥하중지구 A-4블록 신혼희망타운(공공분양) 추가입주자모집",
     "region": "경기",
@@ -665,6 +1425,22 @@
     "pyeong_avg": 1519,
     "price_84_min": null,
     "special_kinds": {}
+   },
+   {
+    "no": "2026000420",
+    "name": "남울산 노르웨이숲(조합원 취소분)(2회차)",
+    "region": "울산",
+    "households": 52,
+    "pyeong_avg": 1401,
+    "price_84_min": 47500,
+    "special_kinds": {
+     "신혼부부": 8,
+     "생애최초": 4,
+     "신생아": 6,
+     "다자녀": 8,
+     "노부모 부양": 2,
+     "기관추천": 6
+    }
    },
    {
     "no": "2026000454",
@@ -677,16 +1453,30 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 572,
-   "생애최초": 501,
-   "신생아": 643,
-   "다자녀": 526,
-   "노부모 부양": 179,
-   "기관추천": 547
+   "신혼부부": 1565,
+   "생애최초": 965,
+   "신생아": 1305,
+   "다자녀": 1355,
+   "노부모 부양": 425,
+   "기관추천": 1207
   },
-  "households_total": 5354
+  "households_total": 13703
  },
  "score_cutoffs_90d": [
+  {
+   "no": "2026000310",
+   "name": "남양주 진접 서한이다음(S1BL)",
+   "region": "경기",
+   "min": {
+    "score": 25,
+    "ty": "95.3102B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 75,
+    "ty": "72.4726A"
+   }
+  },
   {
    "no": "2026000103",
    "name": "더샵 분당하이스트",
@@ -699,6 +1489,370 @@
    "max": {
     "score": 69,
     "ty": "74A"
+   }
+  },
+  {
+   "no": "2026000282",
+   "name": "창원 한신더휴 메가센텀",
+   "region": "경남",
+   "min": {
+    "score": 0,
+    "ty": "38.0314A",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 74,
+    "ty": "59.9783A"
+   }
+  },
+  {
+   "no": "2026000301",
+   "name": "의왕역 SK VIEW",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "36.9653",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.346B"
+   }
+  },
+  {
+   "no": "2026000312",
+   "name": "춘천 리버뷰 아이파크",
+   "region": "강원",
+   "min": {
+    "score": 0,
+    "ty": "59.9059B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.9534A"
+   }
+  },
+  {
+   "no": "2026000318",
+   "name": "더샵 트리센트",
+   "region": "부산",
+   "min": {
+    "score": 0,
+    "ty": "59.5981",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 66,
+    "ty": "59.5981"
+   }
+  },
+  {
+   "no": "2026000323",
+   "name": "세종 우미 린 센터파크(행정중심복합도시 5-2생활권 S1블록, 글미마을 9단지)",
+   "region": "세종",
+   "min": {
+    "score": 0,
+    "ty": "84.9942E",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 78,
+    "ty": "84.9738B"
+   }
+  },
+  {
+   "no": "2026000327",
+   "name": "역북 서희스타힐스 프라임시티(조합원 취소분)",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.9987B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 50,
+    "ty": "74.9988A"
+   }
+  },
+  {
+   "no": "2026000329",
+   "name": "호반써밋 풍무Ⅲ",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.9813B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 63,
+    "ty": "84.9897A"
+   }
+  },
+  {
+   "no": "2026000336",
+   "name": "평택역 더센트럴45",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "84.7673P",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 45,
+    "ty": "84.7673P"
+   }
+  },
+  {
+   "no": "2026000342",
+   "name": "제일풍경채 첨단3지구(A6BL)",
+   "region": "광주",
+   "min": {
+    "score": 0,
+    "ty": "84.99A",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.99A"
+   }
+  },
+  {
+   "no": "2026000354",
+   "name": "상동역 롯데캐슬 시그니처",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "84.7123B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 74,
+    "ty": "84.9928F"
+   }
+  },
+  {
+   "no": "2026000355",
+   "name": "월계 중흥S-클래스 리비에르",
+   "region": "서울",
+   "min": {
+    "score": 0,
+    "ty": "36.9533",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.9807A"
+   }
+  },
+  {
+   "no": "2026000356",
+   "name": "두산위브더제니스 대연",
+   "region": "부산",
+   "min": {
+    "score": 0,
+    "ty": "59.76",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 73,
+    "ty": "84.98B"
+   }
+  },
+  {
+   "no": "2026000358",
+   "name": "충정로역자이르네",
+   "region": "서울",
+   "min": {
+    "score": 0,
+    "ty": "39.9814B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.9965B"
+   }
+  },
+  {
+   "no": "2026000364",
+   "name": "써밋 클라비온",
+   "region": "서울",
+   "min": {
+    "score": 0,
+    "ty": "44.5894B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "59.9245D"
+   }
+  },
+  {
+   "no": "2026000367",
+   "name": "한강 푸르지오 리버프론트",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "84.706E",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 53,
+    "ty": "84.706E"
+   }
+  },
+  {
+   "no": "2026000371",
+   "name": "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.5027C",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 74,
+    "ty": "84.7577A"
+   }
+  },
+  {
+   "no": "2026000372",
+   "name": "쌍용 더 플래티넘 서대문",
+   "region": "서울",
+   "min": {
+    "score": 0,
+    "ty": "59.9883A",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.9722B"
+   }
+  },
+  {
+   "no": "2026000374",
+   "name": "더샵 신길센트럴시티(조합원 취소분)",
+   "region": "서울",
+   "min": {
+    "score": 0,
+    "ty": "51.9909D",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 74,
+    "ty": "84.9993A"
+   }
+  },
+  {
+   "no": "2026000377",
+   "name": "의왕역 한신더휴",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "49.9881",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.9861B"
+   }
+  },
+  {
+   "no": "2026000382",
+   "name": "두산위브더제니스 부천",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.94A",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 64,
+    "ty": "59.94A"
+   }
+  },
+  {
+   "no": "2026000383",
+   "name": "포레나힐스테이트 진주",
+   "region": "경남",
+   "min": {
+    "score": 0,
+    "ty": "59.6771A",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "59.6771A"
+   }
+  },
+  {
+   "no": "2026000388",
+   "name": "시티오씨엘 9단지 오션파크뷰",
+   "region": "인천",
+   "min": {
+    "score": 0,
+    "ty": "59.9801",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 64,
+    "ty": "59.9801"
+   }
+  },
+  {
+   "no": "2026000393",
+   "name": "시흥 은계 에피트(조합원 취소분)",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "52.185A",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 54,
+    "ty": "59.612A"
+   }
+  },
+  {
+   "no": "2026000399",
+   "name": "브라운스톤 월곡 센트럴",
+   "region": "서울",
+   "min": {
+    "score": 0,
+    "ty": "59.9293C",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "74.961"
+   }
+  },
+  {
+   "no": "2026000403",
+   "name": "그랑라크 에일린의 뜰",
+   "region": "울산",
+   "min": {
+    "score": 0,
+    "ty": "59.83A",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 57,
+    "ty": "59.99B"
+   }
+  },
+  {
+   "no": "2026000419",
+   "name": "올 뉴 챔피언스시티 1차",
+   "region": "광주",
+   "min": {
+    "score": 0,
+    "ty": "84.973A",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 79,
+    "ty": "84.973A"
    }
   },
   {

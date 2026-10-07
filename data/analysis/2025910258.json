@@ -1,0 +1,95 @@
+{
+ "no": "2025910258",
+ "name": "송천 아르티엠 더 숲",
+ "kind": "remndr",
+ "region": "전북",
+ "notice_date": "2025-12-24",
+ "rank1_date": "2025-12-29",
+ "city": "전주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910258&pblancNo=2025910258",
+ "households": 108,
+ "types": [
+  {
+   "ty": "84.9968A",
+   "size": 84,
+   "price": 56990,
+   "area_m2": null,
+   "general": 38,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9578B",
+   "size": 84,
+   "price": 55200,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9807C",
+   "size": 84,
+   "price": 55990,
+   "area_m2": null,
+   "general": 15,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7759D",
+   "size": 84,
+   "price": 56290,
+   "area_m2": null,
+   "general": 42,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 108,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 55200,
+ "price_84_max": 56990,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7759D",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 30
+   },
+   {
+    "ty": "84.9578B",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "84.9807C",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "84.9968A",
+    "supply": 38,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   }
+  ],
+  "req_total": 50,
+  "rank1_req": 0,
+  "supply_total": 108,
+  "final_shortfall_total": 58,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0
+ }
+}

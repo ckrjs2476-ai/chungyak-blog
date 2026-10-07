@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)무궁화신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-07",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-07",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://hillstate.co.kr/s/ysthesky",
+  "HOUSE_MANAGE_NO": "2026910191",
+  "HOUSE_NM": "힐스테이트 양산더스카이 1단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상남도 양산시 물금읍 가촌리 971번지 일원",
+  "HSSPLY_ZIP": "50601",
+  "MDHS_TELNO": "18992234",
+  "MVN_PREARNGE_YM": "202904",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910191",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910191&pblancNo=2026910191",
+  "PRZWNER_PRESNATN_DE": "2026-07-30",
+  "RCRIT_PBLANC_DE": "2026-07-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "621",
+  "SUBSCRPT_AREA_CODE_NM": "경남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-27",
+  "TOT_SUPLY_HSHLDCO": 239
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910191",
+   "HOUSE_TY": "068.9608A",
+   "LTTOT_TOP_AMOUNT": "44670",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 56
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910191",
+   "HOUSE_TY": "084.9836A",
+   "LTTOT_TOP_AMOUNT": "52950",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 145
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910191",
+   "HOUSE_TY": "084.9478B",
+   "LTTOT_TOP_AMOUNT": "50860",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910191",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 38
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△55)",
+   "HOUSE_MANAGE_NO": "2026910191",
+   "HOUSE_TY": "068.9608A",
+   "PBLANC_NO": "2026910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 56
+  },
+  {
+   "CMPET_RATE": "(△38)",
+   "HOUSE_MANAGE_NO": "2026910191",
+   "HOUSE_TY": "084.9478B",
+   "PBLANC_NO": "2026910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 38
+  },
+  {
+   "CMPET_RATE": "(△141)",
+   "HOUSE_MANAGE_NO": "2026910191",
+   "HOUSE_TY": "084.9836A",
+   "PBLANC_NO": "2026910191",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 145
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:51.274844+09:00"
+}

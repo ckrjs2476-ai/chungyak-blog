@@ -1,0 +1,98 @@
+{
+ "no": "2025000643",
+ "name": "김포고촌2지구 A1블록 공공분양주택",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-12-29",
+ "rank1_date": "2026-01-12",
+ "city": "김포시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000643&pblancNo=2025000643",
+ "households": 262,
+ "types": [
+  {
+   "ty": "59.64A",
+   "size": 59,
+   "price": 45253,
+   "area_m2": 84.4985,
+   "general": 18,
+   "special": 45,
+   "pyeong_price": 1770,
+   "special_share_pct": 71
+  },
+  {
+   "ty": "59.78B",
+   "size": 59,
+   "price": 45488,
+   "area_m2": 84.6969,
+   "general": 8,
+   "special": 16,
+   "pyeong_price": 1775,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "59.82C",
+   "size": 59,
+   "price": 45375,
+   "area_m2": 84.7535,
+   "general": 8,
+   "special": 19,
+   "pyeong_price": 1770,
+   "special_share_pct": 70
+  },
+  {
+   "ty": "74.46A",
+   "size": 74,
+   "price": 56824,
+   "area_m2": 105.4956,
+   "general": 32,
+   "special": 99,
+   "pyeong_price": 1781,
+   "special_share_pct": 76
+  },
+  {
+   "ty": "74.84B",
+   "size": 74,
+   "price": 57236,
+   "area_m2": 106.034,
+   "general": 5,
+   "special": 12,
+   "pyeong_price": 1784,
+   "special_share_pct": 71
+  }
+ ],
+ "general_total": 71,
+ "special_total": 191,
+ "special_share_pct": 73,
+ "pyeong_min": 1770,
+ "pyeong_max": 1784,
+ "pyeong_avg": 1777,
+ "special_kinds": {
+  "신혼부부": 26,
+  "생애최초": 37,
+  "신생아": 51,
+  "다자녀": 26,
+  "노부모 부양": 12,
+  "기관추천": 39
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 22,
+  "peers": [
+   "남양주진접2지구 A-7블록 공공분양주택 입주자모집(본청약)",
+   "남양주 별내리슈빌아파트 분양전환 후 잔여세대",
+   "남양주왕숙지구 B-17블록 공공분양주택(본청약)",
+   "남양주진접2지구 B-1블록 공공분양(본청약)",
+   "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
+   "구리갈매역세권 A-4블록 공공분양주택(본청약)",
+   "구리갈매역세권 A-4블록 6년 분양전환공공임대주택(본청약)",
+   "과천주암지구 C1블록 공공분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 1866,
+  "diff": -89,
+  "diff_pct": -5,
+  "rank": 13,
+  "of": 23
+ }
+}

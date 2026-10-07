@@ -1,0 +1,219 @@
+{
+ "no": "2025000585",
+ "name": "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2025-11-24",
+ "rank1_date": "2025-12-05",
+ "city": "검단신도시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000585&pblancNo=2025000585",
+ "households": 492,
+ "types": [
+  {
+   "ty": "84.9955A",
+   "size": 84,
+   "price": 55810,
+   "area_m2": 111.6286,
+   "general": 25,
+   "special": 39,
+   "pyeong_price": 1653,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.9697B",
+   "size": 84,
+   "price": 56590,
+   "area_m2": 111.2341,
+   "general": 59,
+   "special": 100,
+   "pyeong_price": 1682,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.9692C",
+   "size": 84,
+   "price": 56190,
+   "area_m2": 111.1767,
+   "general": 24,
+   "special": 38,
+   "pyeong_price": 1671,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.9328D",
+   "size": 84,
+   "price": 54290,
+   "area_m2": 111.7643,
+   "general": 20,
+   "special": 33,
+   "pyeong_price": 1606,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "97.9655",
+   "size": 97,
+   "price": 61680,
+   "area_m2": 124.9052,
+   "general": 70,
+   "special": 9,
+   "pyeong_price": 1632,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "97.9655P",
+   "size": 97,
+   "price": 64280,
+   "area_m2": 124.9052,
+   "general": 66,
+   "special": 9,
+   "pyeong_price": 1701,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 264,
+ "special_total": 228,
+ "special_share_pct": 46,
+ "pyeong_min": 1606,
+ "pyeong_max": 1701,
+ "pyeong_avg": 1664,
+ "price_84_min": 54290,
+ "price_84_max": 56590,
+ "special_kinds": {
+  "신혼부부": 76,
+  "생애최초": 63,
+  "다자녀": 46,
+  "노부모 부양": 11,
+  "기관추천": 32
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9955A",
+    "supply": 25,
+    "closed_at": "1순위 해당지역",
+    "rate": 76.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9697B",
+    "supply": 59,
+    "closed_at": "1순위 해당지역",
+    "rate": 73.27,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9692C",
+    "supply": 24,
+    "closed_at": "1순위 해당지역",
+    "rate": 47.92,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9328D",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 39.9,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "97.9655",
+    "supply": 70,
+    "closed_at": "1순위 해당지역",
+    "rate": 29.06,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "97.9655P",
+    "supply": 66,
+    "closed_at": "1순위 해당지역",
+    "rate": 29.73,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 11497,
+  "rank1_req": 11497,
+  "supply_total": 264,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 6,
+  "type_count": 6,
+  "rank1_avg_rate": 43.55,
+  "best": {
+   "ty": "84.9955A",
+   "rate": 76.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 54,
+   "ty": "84.9328D",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.9955A": 63,
+   "84.9697B": 63,
+   "84.9692C": 60,
+   "84.9328D": 54
+  },
+  "avg_min": 63.1,
+  "max": {
+   "score": 76,
+   "ty": "84.9955A"
+  }
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 24,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버"
+  ],
+  "peer_avg_pyeong": 2406,
+  "diff": -742,
+  "diff_pct": -31,
+  "rank": 23,
+  "of": 25
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 24,
+  "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버"
+  ],
+  "peer_avg_rate": 6.82,
+  "rank": 2,
+  "of": 25
+ },
+ "region_score": {
+  "scope": "인천",
+  "peer_count": 16,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "두산위브앤수자인 부평 더퍼스트",
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_min": 31.1,
+  "diff": 22.9
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)에코포르테",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-26",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-26",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://전주에코씨티더클래스.com",
+  "HOUSE_MANAGE_NO": "2026910038",
+  "HOUSE_NM": "전주 에코시티 더 클래스",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "전북특별자치도 전주시 덕진구 호성동2가 801-31번지 일원",
+  "HSSPLY_ZIP": "54814",
+  "MDHS_TELNO": "0632530010",
+  "MVN_PREARNGE_YM": "202705",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910038",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910038&pblancNo=2026910038",
+  "PRZWNER_PRESNATN_DE": "2026-02-24",
+  "RCRIT_PBLANC_DE": "2026-02-12",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "560",
+  "SUBSCRPT_AREA_CODE_NM": "전북",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-19",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-19",
+  "TOT_SUPLY_HSHLDCO": 44
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "127.5340B",
+   "LTTOT_TOP_AMOUNT": "78100",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910038",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 18
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "128.3750A",
+   "LTTOT_TOP_AMOUNT": "78100",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910038",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "131.6260A",
+   "LTTOT_TOP_AMOUNT": "79750",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910038",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "158.1180A",
+   "LTTOT_TOP_AMOUNT": "97800",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910038",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "127.5340B",
+   "PBLANC_NO": "2026910038",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "17",
+   "SUPLY_HSHLDCO": 18
+  },
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "128.3750A",
+   "PBLANC_NO": "2026910038",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "16",
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "131.6260A",
+   "PBLANC_NO": "2026910038",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910038",
+   "HOUSE_TY": "158.1180A",
+   "PBLANC_NO": "2026910038",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:22.862657+09:00"
+}

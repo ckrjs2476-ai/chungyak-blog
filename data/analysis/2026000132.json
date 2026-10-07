@@ -1,0 +1,157 @@
+{
+ "no": "2026000132",
+ "name": "청주 한양립스 더 벨루체",
+ "kind": "apt",
+ "region": "충북",
+ "notice_date": "2026-05-08",
+ "rank1_date": "2026-05-19",
+ "city": "청주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000132&pblancNo=2026000132",
+ "households": 417,
+ "types": [
+  {
+   "ty": "59.9815A",
+   "size": 59,
+   "price": 36444,
+   "area_m2": 80.2371,
+   "general": 59,
+   "special": 60,
+   "pyeong_price": 1502,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.9538B",
+   "size": 59,
+   "price": 37244,
+   "area_m2": 81.9997,
+   "general": 24,
+   "special": 23,
+   "pyeong_price": 1501,
+   "special_share_pct": 49
+  },
+  {
+   "ty": "75.9345A",
+   "size": 75,
+   "price": 45490,
+   "area_m2": 100.1527,
+   "general": 15,
+   "special": 12,
+   "pyeong_price": 1502,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "75.9813B",
+   "size": 75,
+   "price": 46503,
+   "area_m2": 102.3839,
+   "general": 10,
+   "special": 10,
+   "pyeong_price": 1502,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.2548A",
+   "size": 84,
+   "price": 50287,
+   "area_m2": 110.7144,
+   "general": 64,
+   "special": 61,
+   "pyeong_price": 1502,
+   "special_share_pct": 49
+  },
+  {
+   "ty": "84.6662B",
+   "size": 84,
+   "price": 51575,
+   "area_m2": 113.5512,
+   "general": 40,
+   "special": 39,
+   "pyeong_price": 1501,
+   "special_share_pct": 49
+  }
+ ],
+ "general_total": 212,
+ "special_total": 205,
+ "special_share_pct": 49,
+ "pyeong_min": 1501,
+ "pyeong_max": 1502,
+ "pyeong_avg": 1502,
+ "price_84_min": 50287,
+ "price_84_max": 51575,
+ "special_kinds": {
+  "신혼부부": 75,
+  "생애최초": 37,
+  "다자녀": 41,
+  "노부모 부양": 12,
+  "기관추천": 40
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9815A",
+    "supply": 96,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 62
+   },
+   {
+    "ty": "59.9538B",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   },
+   {
+    "ty": "75.9345A",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "75.9813B",
+    "supply": 20,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "84.2548A",
+    "supply": 118,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 72
+   },
+   {
+    "ty": "84.6662B",
+    "supply": 77,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 61
+   }
+  ],
+  "req_total": 129,
+  "rank1_req": 85,
+  "supply_total": 381,
+  "final_shortfall_total": 252,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.22
+ },
+ "region_price": {
+  "scope": "충북",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "청주지북지구 B1블록 공공분양주택",
+   "청주 푸르지오 씨엘리체"
+  ],
+  "peer_avg_pyeong": 1408,
+  "diff": 94,
+  "diff_pct": 7,
+  "rank": 2,
+  "of": 3
+ }
+}

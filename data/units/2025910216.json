@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "우미건설(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-20",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://ow2.lynn.co.kr",
+  "HOUSE_MANAGE_NO": "2025910216",
+  "HOUSE_NM": "오산 세교 우미 린 레이크시티(서2구역)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 오산시 서동 40-2번지 일원(서2구역)",
+  "HSSPLY_ZIP": "18104",
+  "MDHS_TELNO": "0312661800",
+  "MVN_PREARNGE_YM": "202907",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910216",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910216&pblancNo=2025910216",
+  "PRZWNER_PRESNATN_DE": "2025-11-13",
+  "RCRIT_PBLANC_DE": "2025-11-04",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-10",
+  "TOT_SUPLY_HSHLDCO": 272
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910216",
+   "HOUSE_TY": "084.9878A",
+   "LTTOT_TOP_AMOUNT": "50300",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910216",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 220
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910216",
+   "HOUSE_TY": "084.9855E",
+   "LTTOT_TOP_AMOUNT": "53820",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910216",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910216",
+   "HOUSE_TY": "101.9945 ",
+   "LTTOT_TOP_AMOUNT": "56890",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910216",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 28
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2025910216",
+   "HOUSE_TY": "084.9855E",
+   "PBLANC_NO": "2025910216",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "21",
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "CMPET_RATE": "(△144)",
+   "HOUSE_MANAGE_NO": "2025910216",
+   "HOUSE_TY": "084.9878A",
+   "PBLANC_NO": "2025910216",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "76",
+   "SUPLY_HSHLDCO": 220
+  },
+  {
+   "CMPET_RATE": "1.32",
+   "HOUSE_MANAGE_NO": "2025910216",
+   "HOUSE_TY": "101.9945 ",
+   "PBLANC_NO": "2025910216",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "37",
+   "SUPLY_HSHLDCO": 28
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:54.940865+09:00"
+}

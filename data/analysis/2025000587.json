@@ -1,0 +1,112 @@
+{
+ "no": "2025000587",
+ "name": "e편한세상 내포 에듀플라츠(민영주택)",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2025-11-28",
+ "rank1_date": "2025-12-09",
+ "city": "홍성군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000587&pblancNo=2025000587",
+ "households": 122,
+ "types": [
+  {
+   "ty": "119.7031A",
+   "size": 119,
+   "price": 58960,
+   "area_m2": 154.2777,
+   "general": 105,
+   "special": 15,
+   "pyeong_price": 1263,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "119.7199P",
+   "size": 119,
+   "price": 72000,
+   "area_m2": 158.8362,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1499,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 107,
+ "special_total": 15,
+ "special_share_pct": 12,
+ "pyeong_min": 1263,
+ "pyeong_max": 1499,
+ "pyeong_avg": 1267,
+ "special_kinds": {
+  "다자녀": 12,
+  "노부모 부양": 3
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "119.7031A",
+    "supply": 120,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 78
+   },
+   {
+    "ty": "119.7199P",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 12.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 69,
+  "rank1_req": 55,
+  "supply_total": 122,
+  "final_shortfall_total": 78,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 2,
+  "rank1_avg_rate": 0.45,
+  "best": {
+   "ty": "119.7199P",
+   "rate": 12.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "충남",
+  "days": 180,
+  "peer_count": 17,
+  "peers": [
+   "아산탕정 동일하이빌 파크레인",
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지"
+  ],
+  "peer_avg_pyeong": 1550,
+  "diff": -283,
+  "diff_pct": -18,
+  "rank": 16,
+  "of": 18
+ },
+ "region_competition": {
+  "scope": "충남",
+  "peer_count": 17,
+  "peers": [
+   "아산탕정 동일하이빌 파크레인",
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지"
+  ],
+  "peer_avg_rate": 4.0,
+  "rank": 11,
+  "of": 18
+ }
+}

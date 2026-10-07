@@ -1,0 +1,87 @@
+{
+ "no": "2026000135",
+ "name": "인천가정2지구 B2블록 공공분양주택(후속사업)",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-04-15",
+ "rank1_date": "2026-04-27",
+ "city": "서구",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000135&pblancNo=2026000135",
+ "households": 308,
+ "types": [
+  {
+   "ty": "74.95A",
+   "size": 74,
+   "price": 55131,
+   "area_m2": 98.6986,
+   "general": 11,
+   "special": 30,
+   "pyeong_price": 1847,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 62516,
+   "area_m2": 111.3141,
+   "general": 50,
+   "special": 136,
+   "pyeong_price": 1857,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 62516,
+   "area_m2": 111.3931,
+   "general": 15,
+   "special": 42,
+   "pyeong_price": 1855,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "84.98C",
+   "size": 84,
+   "price": 62508,
+   "area_m2": 111.9067,
+   "general": 8,
+   "special": 14,
+   "pyeong_price": 1847,
+   "special_share_pct": 64
+  }
+ ],
+ "general_total": 84,
+ "special_total": 222,
+ "special_share_pct": 73,
+ "pyeong_min": 1847,
+ "pyeong_max": 1857,
+ "pyeong_avg": 1855,
+ "price_84_min": 62508,
+ "price_84_max": 62516,
+ "special_kinds": {
+  "신혼부부": 30,
+  "생애최초": 45,
+  "신생아": 60,
+  "다자녀": 30,
+  "노부모 부양": 15,
+  "기관추천": 42
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "인천영종지구 A24블록 공공분양주택(본청약)",
+   "검암역 푸르지오 프라베뉴 (B-1BL) 공공분양주택",
+   "인천계양지구 A6블록 공공분양주택(본청약)",
+   "인천계양 A9블록 신혼희망타운(공공분양)(본청약)",
+   "인천계양 A17블록 신혼희망타운(공공분양)(본청약)"
+  ],
+  "peer_avg_pyeong": 1917,
+  "diff": -62,
+  "diff_pct": -3,
+  "rank": 5,
+  "of": 6
+ }
+}

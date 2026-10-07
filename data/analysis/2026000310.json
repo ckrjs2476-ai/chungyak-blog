@@ -1,0 +1,191 @@
+{
+ "no": "2026000310",
+ "name": "남양주 진접 서한이다음(S1BL)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-09",
+ "rank1_date": "2026-07-21",
+ "city": "남양주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000310&pblancNo=2026000310",
+ "households": 361,
+ "types": [
+  {
+   "ty": "72.4726A",
+   "size": 72,
+   "price": 58500,
+   "area_m2": 96.5554,
+   "general": 15,
+   "special": 33,
+   "pyeong_price": 2003,
+   "special_share_pct": 69
+  },
+  {
+   "ty": "84.4746A",
+   "size": 84,
+   "price": 66190,
+   "area_m2": 111.4215,
+   "general": 49,
+   "special": 84,
+   "pyeong_price": 1964,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.7614B",
+   "size": 84,
+   "price": 67370,
+   "area_m2": 112.3041,
+   "general": 13,
+   "special": 20,
+   "pyeong_price": 1983,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "95.2508A",
+   "size": 95,
+   "price": 71330,
+   "area_m2": 125.1022,
+   "general": 118,
+   "special": 19,
+   "pyeong_price": 1885,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "95.3102B",
+   "size": 95,
+   "price": 67430,
+   "area_m2": 125.3455,
+   "general": 10,
+   "special": 0,
+   "pyeong_price": 1778,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 205,
+ "special_total": 156,
+ "special_share_pct": 43,
+ "pyeong_min": 1778,
+ "pyeong_max": 2003,
+ "pyeong_avg": 1936,
+ "price_84_min": 66190,
+ "price_84_max": 67370,
+ "special_kinds": {
+  "신혼부부": 32,
+  "생애최초": 36,
+  "신생아": 21,
+  "다자녀": 36,
+  "노부모 부양": 10,
+  "기관추천": 21
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "72.4726A",
+    "supply": 15,
+    "closed_at": "1순위 해당지역",
+    "rate": 15.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.4746A",
+    "supply": 49,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.87,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7614B",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "95.2508A",
+    "supply": 123,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "95.3102B",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.67,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 767,
+  "rank1_req": 636,
+  "supply_total": 210,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 3.03,
+  "best": {
+   "ty": "72.4726A",
+   "rate": 15.4,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 25,
+   "ty": "95.3102B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "72.4726A": 54,
+   "84.4746A": 46,
+   "84.7614B": 39,
+   "95.3102B": 25
+  },
+  "avg_min": 43.9,
+  "max": {
+   "score": 75,
+   "ty": "72.4726A"
+  }
+ },
+ "region_price": {
+  "scope": "남양주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "오남역 서희스타힐스 여의재 1단지"
+  ],
+  "peer_avg_pyeong": 2096,
+  "diff": -160,
+  "diff_pct": -8,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "남양주시",
+  "peer_count": 2,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "오남역 서희스타힐스 여의재 1단지"
+  ],
+  "peer_avg_rate": 0.93,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 31,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)"
+  ],
+  "peer_avg_min": 2.1,
+  "diff": 22.9
+ }
+}

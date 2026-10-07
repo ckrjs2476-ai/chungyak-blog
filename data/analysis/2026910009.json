@@ -1,0 +1,84 @@
+{
+ "no": "2026910009",
+ "name": "여월 중앙하이츠 아르비채",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-13",
+ "rank1_date": "2026-01-19",
+ "city": "부천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910009&pblancNo=2026910009",
+ "households": 20,
+ "types": [
+  {
+   "ty": "59.99",
+   "size": 59,
+   "price": 51000,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.95",
+   "size": 84,
+   "price": 69300,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "108.69",
+   "size": 108,
+   "price": 99900,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 20,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 69300,
+ "price_84_max": 69300,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.99",
+    "supply": 13,
+    "closed_at": "None순위 None",
+    "rate": 1.46,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.95",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "108.69",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 40,
+  "rank1_req": 0,
+  "supply_total": 20,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.95",
+   "rate": 3.0,
+   "stage": "None순위 None"
+  }
+ }
+}

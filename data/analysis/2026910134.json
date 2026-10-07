@@ -1,0 +1,79 @@
+{
+ "no": "2026910134",
+ "name": "소제지구 A3BL 중흥S-클래스 우미린",
+ "kind": "remndr",
+ "region": "전남",
+ "notice_date": "2026-06-02",
+ "rank1_date": "2026-06-08",
+ "city": "여수시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910134&pblancNo=2026910134",
+ "households": 41,
+ "types": [
+  {
+   "ty": "84.9531E",
+   "size": 84,
+   "price": 48250,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9923F",
+   "size": 84,
+   "price": 48050,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "109.9697A",
+   "size": 109,
+   "price": 65200,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 41,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 48050,
+ "price_84_max": 48250,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9531E",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "84.9923F",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "109.9697A",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 0,
+  "supply_total": 41,
+  "final_shortfall_total": 35,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0
+ }
+}

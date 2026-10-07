@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "디비종합건설주식회사,디비주택주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-06",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-06",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.detre-yj1.co.kr",
+  "HOUSE_MANAGE_NO": "2026910027",
+  "HOUSE_NM": "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 중구 중산동 1958-8,9 (인천광역시 중구 중산동 RC4-1,2BL)",
+  "HSSPLY_ZIP": "22394",
+  "MDHS_TELNO": "16887377",
+  "MVN_PREARNGE_YM": "202910",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910027",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910027&pblancNo=2026910027",
+  "PRZWNER_PRESNATN_DE": "2026-02-05",
+  "RCRIT_PBLANC_DE": "2026-01-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-02",
+  "TOT_SUPLY_HSHLDCO": 118
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910027",
+   "HOUSE_TY": "084.9670A",
+   "LTTOT_TOP_AMOUNT": "69292",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910027",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 118
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△95)",
+   "HOUSE_MANAGE_NO": "2026910027",
+   "HOUSE_TY": "084.9670A",
+   "PBLANC_NO": "2026910027",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "23",
+   "SUPLY_HSHLDCO": 118
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:41.667324+09:00"
+}

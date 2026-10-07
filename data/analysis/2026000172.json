@@ -1,0 +1,199 @@
+{
+ "no": "2026000172",
+ "name": "두산위브 트리니뷰 구명역",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-05-08",
+ "rank1_date": "2026-05-19",
+ "city": "북구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000172&pblancNo=2026000172",
+ "households": 288,
+ "types": [
+  {
+   "ty": "74.9671A",
+   "size": 74,
+   "price": 68700,
+   "area_m2": 101.8298,
+   "general": 3,
+   "special": 21,
+   "pyeong_price": 2230,
+   "special_share_pct": 88
+  },
+  {
+   "ty": "74.9653B",
+   "size": 74,
+   "price": 67200,
+   "area_m2": 101.6949,
+   "general": 2,
+   "special": 16,
+   "pyeong_price": 2184,
+   "special_share_pct": 89
+  },
+  {
+   "ty": "84.9841A",
+   "size": 84,
+   "price": 75900,
+   "area_m2": 114.1556,
+   "general": 7,
+   "special": 173,
+   "pyeong_price": 2198,
+   "special_share_pct": 96
+  },
+  {
+   "ty": "84.9794B",
+   "size": 84,
+   "price": 75900,
+   "area_m2": 114.704,
+   "general": 1,
+   "special": 26,
+   "pyeong_price": 2187,
+   "special_share_pct": 96
+  },
+  {
+   "ty": "84.983C",
+   "size": 84,
+   "price": 75900,
+   "area_m2": 113.8823,
+   "general": 3,
+   "special": 36,
+   "pyeong_price": 2203,
+   "special_share_pct": 92
+  }
+ ],
+ "general_total": 16,
+ "special_total": 272,
+ "special_share_pct": 94,
+ "pyeong_min": 2184,
+ "pyeong_max": 2230,
+ "pyeong_avg": 2199,
+ "price_84_min": 75900,
+ "price_84_max": 75900,
+ "special_kinds": {
+  "신혼부부": 84,
+  "생애최초": 26,
+  "다자녀": 126,
+  "노부모 부양": 8,
+  "기관추천": 28
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9671A",
+    "supply": 17,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.88,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9653B",
+    "supply": 17,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9841A",
+    "supply": 160,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "84.9794B",
+    "supply": 25,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "84.983C",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   }
+  ],
+  "req_total": 259,
+  "rank1_req": 181,
+  "supply_total": 251,
+  "final_shortfall_total": 31,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 5,
+  "rank1_avg_rate": 0.72,
+  "best": {
+   "ty": "74.9671A",
+   "rate": 1.88,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.9671A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "74.9671A": 0
+  },
+  "avg_min": 16.0,
+  "max": {
+   "score": 59,
+   "ty": "74.9671A"
+  }
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 20,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리"
+  ],
+  "peer_avg_pyeong": 2495,
+  "diff": -296,
+  "diff_pct": -12,
+  "rank": 13,
+  "of": 21
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 20,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리"
+  ],
+  "peer_avg_rate": 2.41,
+  "rank": 6,
+  "of": 21
+ },
+ "region_score": {
+  "scope": "부산",
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "엄궁역 트라비스 하늘채",
+   "해운대 마티안 디 에디션",
+   "동래사적공원 오네뜨"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

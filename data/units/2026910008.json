@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "계룡건설산업(주),(주)원건설산업,(주)동광도시건설",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-31",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-31",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.엘리프세종스마트시티.com",
+  "HOUSE_MANAGE_NO": "2026910008",
+  "HOUSE_NM": "엘리프 세종 스마트시티",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "세종특별자치시 합강동 5101-9번지 일원(행정중심복합도시 5-1생활권 L9BL)",
+  "HSSPLY_ZIP": "30134",
+  "MDHS_TELNO": "0448645543",
+  "MVN_PREARNGE_YM": "202802",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910008",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910008&pblancNo=2026910008",
+  "PRZWNER_PRESNATN_DE": "2026-01-26",
+  "RCRIT_PBLANC_DE": "2026-01-15",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "338",
+  "SUBSCRPT_AREA_CODE_NM": "세종",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-21",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-21",
+  "TOT_SUPLY_HSHLDCO": 35
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910008",
+   "HOUSE_TY": "080.1280A",
+   "LTTOT_TOP_AMOUNT": "57200",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910008",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910008",
+   "HOUSE_TY": "080.2425B",
+   "LTTOT_TOP_AMOUNT": "59600",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910008",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 10
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910008",
+   "HOUSE_TY": "084.0000B",
+   "LTTOT_TOP_AMOUNT": "61900",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910008",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 18
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "13.43",
+   "HOUSE_MANAGE_NO": "2026910008",
+   "HOUSE_TY": "080.1280A",
+   "PBLANC_NO": "2026910008",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "94",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "18.70",
+   "HOUSE_MANAGE_NO": "2026910008",
+   "HOUSE_TY": "080.2425B",
+   "PBLANC_NO": "2026910008",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "187",
+   "SUPLY_HSHLDCO": 10
+  },
+  {
+   "CMPET_RATE": "31.72",
+   "HOUSE_MANAGE_NO": "2026910008",
+   "HOUSE_TY": "084.0000B",
+   "PBLANC_NO": "2026910008",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "571",
+   "SUPLY_HSHLDCO": 18
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:07.042652+09:00"
+}

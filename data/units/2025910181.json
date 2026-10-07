@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "코리아신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-23",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-23",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://sw2.lynn.co.kr/",
+  "HOUSE_MANAGE_NO": "2025910181",
+  "HOUSE_NM": "원주역 우미 린 더 스텔라 ",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "강원특별자치도 원주시 남원주역세권 AC-5블럭(무실동 2006번지)",
+  "HSSPLY_ZIP": "26397",
+  "MDHS_TELNO": "0337450700",
+  "MVN_PREARNGE_YM": "202905",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910181",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910181&pblancNo=2025910181",
+  "PRZWNER_PRESNATN_DE": "2025-10-20",
+  "RCRIT_PBLANC_DE": "2025-10-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "200",
+  "SUBSCRPT_AREA_CODE_NM": "강원",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-15",
+  "TOT_SUPLY_HSHLDCO": 20
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910181",
+   "HOUSE_TY": "084.9126D",
+   "LTTOT_TOP_AMOUNT": "48100",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910181",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 20
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "57.60",
+   "HOUSE_MANAGE_NO": "2025910181",
+   "HOUSE_TY": "084.9126D",
+   "PBLANC_NO": "2025910181",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1152",
+   "SUPLY_HSHLDCO": 20
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:41.232204+09:00"
+}

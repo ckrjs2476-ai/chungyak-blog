@@ -1,0 +1,68 @@
+{
+ "no": "2026910172",
+ "name": "수원역 아너스빌 타임원",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-07-06",
+ "rank1_date": "2026-07-13",
+ "city": "수원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910172&pblancNo=2026910172",
+ "households": 53,
+ "types": [
+  {
+   "ty": "84.6388A",
+   "size": 84,
+   "price": 79080,
+   "area_m2": null,
+   "general": 26,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8874B",
+   "size": 84,
+   "price": 78760,
+   "area_m2": null,
+   "general": 27,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 53,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 78760,
+ "price_84_max": 79080,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6388A",
+    "supply": 26,
+    "closed_at": "None순위 None",
+    "rate": 4.15,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8874B",
+    "supply": 27,
+    "closed_at": "None순위 None",
+    "rate": 1.78,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 156,
+  "rank1_req": 0,
+  "supply_total": 53,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.6388A",
+   "rate": 4.15,
+   "stage": "None순위 None"
+  }
+ }
+}

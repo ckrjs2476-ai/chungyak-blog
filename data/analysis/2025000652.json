@@ -1,0 +1,209 @@
+{
+ "no": "2025000652",
+ "name": "안양역 센트럴 아이파크 수자인",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-01-23",
+ "rank1_date": "2026-02-03",
+ "city": "안양시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000652&pblancNo=2025000652",
+ "households": 407,
+ "types": [
+  {
+   "ty": "39.2437A",
+   "size": 39,
+   "price": 55040,
+   "area_m2": 55.552,
+   "general": 6,
+   "special": 8,
+   "pyeong_price": 3275,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "43.2386A",
+   "size": 43,
+   "price": 65420,
+   "area_m2": 60.5049,
+   "general": 138,
+   "special": 171,
+   "pyeong_price": 3574,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "43.0681B",
+   "size": 43,
+   "price": 65980,
+   "area_m2": 60.664,
+   "general": 21,
+   "special": 25,
+   "pyeong_price": 3595,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.9208A",
+   "size": 59,
+   "price": 94970,
+   "area_m2": 83.9868,
+   "general": 3,
+   "special": 2,
+   "pyeong_price": 3738,
+   "special_share_pct": 40
+  },
+  {
+   "ty": "59.8628B",
+   "size": 59,
+   "price": 94240,
+   "area_m2": 84.9673,
+   "general": 16,
+   "special": 16,
+   "pyeong_price": 3667,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.3197A",
+   "size": 84,
+   "price": 126070,
+   "area_m2": 117.0658,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3560,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 185,
+ "special_total": 222,
+ "special_share_pct": 55,
+ "pyeong_min": 3275,
+ "pyeong_max": 3738,
+ "pyeong_avg": 3575,
+ "price_84_min": 126070,
+ "price_84_max": 126070,
+ "special_kinds": {
+  "신혼부부": 94,
+  "생애최초": 61,
+  "다자녀": 13,
+  "노부모 부양": 13,
+  "기관추천": 41
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "39.2437A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "43.2386A",
+    "supply": 138,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.14,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "43.0681B",
+    "supply": 21,
+    "closed_at": "1순위 기타지역",
+    "rate": 79.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9208A",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 20.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8628B",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.06,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.3197A",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 41.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2207,
+  "rank1_req": 1904,
+  "supply_total": 185,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 6,
+  "type_count": 6,
+  "rank1_avg_rate": 10.29,
+  "best": {
+   "ty": "43.0681B",
+   "rate": 79.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "39.2437A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "39.2437A": 0,
+   "43.2386A": 0,
+   "43.0681B": 0,
+   "59.9208A": 0,
+   "59.8628B": 0,
+   "84.3197A": 0
+  },
+  "avg_min": 25.7,
+  "max": {
+   "score": 71,
+   "ty": "59.9208A"
+  }
+ },
+ "region_price": {
+  "scope": "안양시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "힐스테이트 안양펠루스",
+   "안양 에버포레 자연앤 e편한세상(A1BL)"
+  ],
+  "peer_avg_pyeong": 3012,
+  "diff": 563,
+  "diff_pct": 19,
+  "rank": 1,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "안양시",
+  "peer_count": 4,
+  "peers": [
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "힐스테이트 안양펠루스",
+   "안양 에버포레 자연앤 e편한세상(A1BL)"
+  ],
+  "peer_avg_rate": 9.82,
+  "rank": 2,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "안양시",
+  "peer_count": 4,
+  "peers": [
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "힐스테이트 안양펠루스",
+   "안양 에버포레 자연앤 e편한세상(A1BL)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

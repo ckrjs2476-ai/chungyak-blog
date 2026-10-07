@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "새길지구주택재건축정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-24",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-24",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2026910173",
+  "HOUSE_NM": "힐스테이트 앞산 센트럴(6차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "대구광역시 남구 대덕로 162",
+  "HSSPLY_ZIP": "42510",
+  "MDHS_TELNO": "0534712341",
+  "MVN_PREARNGE_YM": "202607",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910173",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910173&pblancNo=2026910173",
+  "PRZWNER_PRESNATN_DE": "2026-07-16",
+  "RCRIT_PBLANC_DE": "2026-07-08",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "700",
+  "SUBSCRPT_AREA_CODE_NM": "대구",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-13",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-13",
+  "TOT_SUPLY_HSHLDCO": 7
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910173",
+   "HOUSE_TY": "069.5500 ",
+   "LTTOT_TOP_AMOUNT": "42900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910173",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910173",
+   "HOUSE_TY": "084.8900 ",
+   "LTTOT_TOP_AMOUNT": "51500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910173",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.50",
+   "HOUSE_MANAGE_NO": "2026910173",
+   "HOUSE_TY": "069.5500 ",
+   "PBLANC_NO": "2026910173",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "4.67",
+   "HOUSE_MANAGE_NO": "2026910173",
+   "HOUSE_TY": "084.8900 ",
+   "PBLANC_NO": "2026910173",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "14",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:06.920182+09:00"
+}

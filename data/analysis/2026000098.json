@@ -1,0 +1,166 @@
+{
+ "no": "2026000098",
+ "name": "식사 푸르지오 파크센트(조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-05-11",
+ "rank1_date": "2026-05-22",
+ "city": "고양시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000098&pblancNo=2026000098",
+ "households": 23,
+ "types": [
+  {
+   "ty": "74.9682",
+   "size": 74,
+   "price": 70400,
+   "area_m2": 102.6336,
+   "general": 5,
+   "special": 1,
+   "pyeong_price": 2268,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "84.8777A",
+   "size": 84,
+   "price": 80000,
+   "area_m2": 116.1193,
+   "general": 6,
+   "special": 10,
+   "pyeong_price": 2278,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.3593B",
+   "size": 84,
+   "price": 80000,
+   "area_m2": 116.0836,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2278,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 12,
+ "special_total": 11,
+ "special_share_pct": 48,
+ "pyeong_min": 2268,
+ "pyeong_max": 2278,
+ "pyeong_avg": 2275,
+ "price_84_min": 80000,
+ "price_84_max": 80000,
+ "special_kinds": {
+  "신혼부부": 5,
+  "생애최초": 2,
+  "다자녀": 2,
+  "기관추천": 2
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9682",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8777A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.3593B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 172,
+  "rank1_req": 92,
+  "supply_total": 12,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 7.67,
+  "best": {
+   "ty": "74.9682",
+   "rate": 3.2,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.9682",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "74.9682": 0,
+   "84.8777A": 0,
+   "84.3593B": 0
+  },
+  "avg_min": 23.7,
+  "max": {
+   "score": 52,
+   "ty": "84.8777A"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 73,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "두산위브 더센트럴 수원",
+   "용인 푸르지오 원클러스터파크",
+   "성남복정1지구 B1블록 복정역 에피트",
+   "이천 증포5지구 칸타빌 에듀파크",
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)"
+  ],
+  "peer_avg_pyeong": 2457,
+  "diff": -182,
+  "diff_pct": -7,
+  "rank": 31,
+  "of": 74
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 71,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "두산위브 더센트럴 수원",
+   "용인 푸르지오 원클러스터파크",
+   "성남복정1지구 B1블록 복정역 에피트",
+   "이천 증포5지구 칸타빌 에듀파크",
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)"
+  ],
+  "peer_avg_rate": 3.61,
+  "rank": 9,
+  "of": 72
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 42,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "두산위브 더센트럴 수원",
+   "용인 푸르지오 원클러스터파크",
+   "성남복정1지구 B1블록 복정역 에피트",
+   "의왕시청역 SK VIEW IPARK",
+   "엘리프 원종",
+   "이천 중리지구 B3블록 금성백조 예미지"
+  ],
+  "peer_avg_min": 3.0,
+  "diff": -3.0
+ }
+}

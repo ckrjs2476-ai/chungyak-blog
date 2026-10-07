@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "느티마을3단지 리모델링주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-30",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-30",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://더샵분당티에르원.kr",
+  "HOUSE_MANAGE_NO": "2025910259",
+  "HOUSE_NM": "더샵 분당티에르원",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 성남시 분당구 정자동 88번지 일원",
+  "HSSPLY_ZIP": "13611",
+  "MDHS_TELNO": "18006552",
+  "MVN_PREARNGE_YM": "202710",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910259",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910259&pblancNo=2025910259",
+  "PRZWNER_PRESNATN_DE": "2025-12-26",
+  "RCRIT_PBLANC_DE": "2025-12-15",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-22",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-22",
+  "TOT_SUPLY_HSHLDCO": 5
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910259",
+   "HOUSE_TY": "084.0000 ",
+   "LTTOT_TOP_AMOUNT": "252000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910259",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910259",
+   "HOUSE_TY": "084.9500 ",
+   "LTTOT_TOP_AMOUNT": "265300",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910259",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "371.67",
+   "HOUSE_MANAGE_NO": "2025910259",
+   "HOUSE_TY": "084.0000 ",
+   "PBLANC_NO": "2025910259",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1115",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "320.50",
+   "HOUSE_MANAGE_NO": "2025910259",
+   "HOUSE_TY": "084.9500 ",
+   "PBLANC_NO": "2025910259",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "641",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:44.134491+09:00"
+}

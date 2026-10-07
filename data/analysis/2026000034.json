@@ -1,0 +1,170 @@
+{
+ "no": "2026000034",
+ "name": "더 플래티넘 센트럴포레",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-02-13",
+ "rank1_date": "2026-02-24",
+ "city": "양주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000034&pblancNo=2026000034",
+ "households": 112,
+ "types": [
+  {
+   "ty": "59.9982A",
+   "size": 59,
+   "price": 45200,
+   "area_m2": 80.3996,
+   "general": 12,
+   "special": 15,
+   "pyeong_price": 1858,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "59.9988B",
+   "size": 59,
+   "price": 39100,
+   "area_m2": 80.3692,
+   "general": 7,
+   "special": 10,
+   "pyeong_price": 1608,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "59.9973C",
+   "size": 59,
+   "price": 45200,
+   "area_m2": 81.2257,
+   "general": 2,
+   "special": 1,
+   "pyeong_price": 1840,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "74.9963",
+   "size": 74,
+   "price": 56000,
+   "area_m2": 99.553,
+   "general": 8,
+   "special": 10,
+   "pyeong_price": 1860,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9988A",
+   "size": 84,
+   "price": 62900,
+   "area_m2": 112.1052,
+   "general": 19,
+   "special": 23,
+   "pyeong_price": 1855,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9993B",
+   "size": 84,
+   "price": 53200,
+   "area_m2": 112.8806,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 1558,
+   "special_share_pct": 60
+  }
+ ],
+ "general_total": 50,
+ "special_total": 62,
+ "special_share_pct": 55,
+ "pyeong_min": 1558,
+ "pyeong_max": 1860,
+ "pyeong_avg": 1805,
+ "price_84_min": 53200,
+ "price_84_max": 62900,
+ "special_kinds": {
+  "신혼부부": 26,
+  "생애최초": 10,
+  "다자녀": 11,
+  "노부모 부양": 4,
+  "기관추천": 11
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9982A",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "59.9988B",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "59.9973C",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "74.9963",
+    "supply": 17,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "84.9988A",
+    "supply": 40,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   },
+   {
+    "ty": "84.9993B",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   }
+  ],
+  "req_total": 25,
+  "rank1_req": 8,
+  "supply_total": 103,
+  "final_shortfall_total": 78,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.08
+ },
+ "region_price": {
+  "scope": "양주시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "회천중앙역 파라곤",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "양주 회천지구 A-8BL 로제비앙 엘가"
+  ],
+  "peer_avg_pyeong": 1570,
+  "diff": 235,
+  "diff_pct": 15,
+  "rank": 1,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "양주시",
+  "peer_count": 3,
+  "peers": [
+   "회천중앙역 파라곤",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "양주 회천지구 A-8BL 로제비앙 엘가"
+  ],
+  "peer_avg_rate": 0.35,
+  "rank": 3,
+  "of": 4
+ }
+}

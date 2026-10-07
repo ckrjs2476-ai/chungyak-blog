@@ -1,0 +1,127 @@
+{
+ "no": "2025000515",
+ "name": "문수로 코아루 에듀스카이",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2025-11-07",
+ "rank1_date": "2025-11-18",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000515&pblancNo=2025000515",
+ "households": 123,
+ "types": [
+  {
+   "ty": "84.5193A",
+   "size": 84,
+   "price": 82980,
+   "area_m2": 116.3248,
+   "general": 13,
+   "special": 22,
+   "pyeong_price": 2358,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.6071B",
+   "size": 84,
+   "price": 83980,
+   "area_m2": 117.1655,
+   "general": 13,
+   "special": 22,
+   "pyeong_price": 2369,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.6953C",
+   "size": 84,
+   "price": 82480,
+   "area_m2": 116.7271,
+   "general": 31,
+   "special": 22,
+   "pyeong_price": 2336,
+   "special_share_pct": 42
+  }
+ ],
+ "general_total": 57,
+ "special_total": 66,
+ "special_share_pct": 54,
+ "pyeong_min": 2336,
+ "pyeong_max": 2369,
+ "pyeong_avg": 2352,
+ "price_84_min": 82480,
+ "price_84_max": 83980,
+ "special_kinds": {
+  "신혼부부": 22,
+  "생애최초": 11,
+  "다자녀": 18,
+  "노부모 부양": 3,
+  "기관추천": 12
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.5193A",
+    "supply": 33,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 24
+   },
+   {
+    "ty": "84.6071B",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   },
+   {
+    "ty": "84.6953C",
+    "supply": 52,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 47
+   }
+  ],
+  "req_total": 21,
+  "rank1_req": 15,
+  "supply_total": 119,
+  "final_shortfall_total": 98,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.13
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지",
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673"
+  ],
+  "peer_avg_pyeong": 2390,
+  "diff": -38,
+  "diff_pct": -2,
+  "rank": 4,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 7,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지",
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673"
+  ],
+  "peer_avg_rate": 4.9,
+  "rank": 8,
+  "of": 8
+ }
+}

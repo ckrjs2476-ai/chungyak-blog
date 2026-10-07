@@ -1,0 +1,68 @@
+{
+ "no": "2026910159",
+ "name": "검암역자이르네",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-06-25",
+ "rank1_date": "2026-06-30",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910159&pblancNo=2026910159",
+ "households": 150,
+ "types": [
+  {
+   "ty": "84.612A",
+   "size": 84,
+   "price": 59410,
+   "area_m2": null,
+   "general": 61,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6297B",
+   "size": 84,
+   "price": 58750,
+   "area_m2": null,
+   "general": 89,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 150,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 58750,
+ "price_84_max": 59410,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.612A",
+    "supply": 61,
+    "closed_at": "None순위 None",
+    "rate": 1.52,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6297B",
+    "supply": 89,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   }
+  ],
+  "req_total": 159,
+  "rank1_req": 0,
+  "supply_total": 150,
+  "final_shortfall_total": 23,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.612A",
+   "rate": 1.52,
+   "stage": "None순위 None"
+  }
+ }
+}

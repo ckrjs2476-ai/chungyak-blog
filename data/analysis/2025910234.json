@@ -1,0 +1,132 @@
+{
+ "no": "2025910234",
+ "name": "두산위브더제니스 청주 센트럴파크",
+ "kind": "remndr",
+ "region": "충북",
+ "notice_date": "2025-11-26",
+ "rank1_date": "2025-12-01",
+ "city": "청주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910234&pblancNo=2025910234",
+ "households": 455,
+ "types": [
+  {
+   "ty": "59.7861A",
+   "size": 59,
+   "price": 36400,
+   "area_m2": null,
+   "general": 63,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9447B",
+   "size": 59,
+   "price": 36700,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.8409",
+   "size": 74,
+   "price": 44100,
+   "area_m2": null,
+   "general": 100,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.3782A",
+   "size": 84,
+   "price": 49100,
+   "area_m2": null,
+   "general": 199,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9628B",
+   "size": 84,
+   "price": 48600,
+   "area_m2": null,
+   "general": 83,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "114.9006",
+   "size": 114,
+   "price": 62800,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 455,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 48600,
+ "price_84_max": 49100,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7861A",
+    "supply": 63,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 42
+   },
+   {
+    "ty": "59.9447B",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 2.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.8409",
+    "supply": 100,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 81
+   },
+   {
+    "ty": "84.3782A",
+    "supply": 199,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 140
+   },
+   {
+    "ty": "84.9628B",
+    "supply": 83,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 75
+   },
+   {
+    "ty": "114.9006",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 1.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 127,
+  "rank1_req": 0,
+  "supply_total": 455,
+  "final_shortfall_total": 338,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.9447B",
+   "rate": 2.75,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -128,5 +128,32 @@
    "score": 79,
    "ty": "68.472A"
   }
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "그랑라크 에일린의 뜰"
+  ],
+  "peer_avg_pyeong": 2379,
+  "diff": 27,
+  "diff_pct": 1,
+  "rank": 2,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 3,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "그랑라크 에일린의 뜰"
+  ],
+  "peer_avg_rate": 0.52,
+  "rank": 2,
+  "of": 4
  }
 }

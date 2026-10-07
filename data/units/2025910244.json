@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "우리자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-17",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-17",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.해링턴플레이스명륜역.com",
+  "HOUSE_MANAGE_NO": "2025910244",
+  "HOUSE_NM": "해링턴 플레이스 명륜역",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 동래구 온천동 460-24번지 일원",
+  "HSSPLY_ZIP": "47711",
+  "MDHS_TELNO": "0518520101",
+  "MVN_PREARNGE_YM": "202901",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910244",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910244&pblancNo=2025910244",
+  "PRZWNER_PRESNATN_DE": "2025-12-15",
+  "RCRIT_PBLANC_DE": "2025-12-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-10",
+  "TOT_SUPLY_HSHLDCO": 24
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910244",
+   "HOUSE_TY": "084.9819C",
+   "LTTOT_TOP_AMOUNT": "79860",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910244",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 24
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2025910244",
+   "HOUSE_TY": "084.9819C",
+   "PBLANC_NO": "2025910244",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "23",
+   "SUPLY_HSHLDCO": 24
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:53.064719+09:00"
+}

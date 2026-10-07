@@ -1,0 +1,207 @@
+{
+ "no": "2025000364",
+ "name": "한화포레나 울산무거",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2025-09-19",
+ "rank1_date": "2025-09-30",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000364&pblancNo=2025000364",
+ "households": 816,
+ "types": [
+  {
+   "ty": "84.9025A",
+   "size": 84,
+   "price": 77882,
+   "area_m2": 109.1481,
+   "general": 111,
+   "special": 164,
+   "pyeong_price": 2359,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.9747B",
+   "size": 84,
+   "price": 76865,
+   "area_m2": 110.4951,
+   "general": 59,
+   "special": 92,
+   "pyeong_price": 2300,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.9134C",
+   "size": 84,
+   "price": 75994,
+   "area_m2": 109.3418,
+   "general": 66,
+   "special": 99,
+   "pyeong_price": 2298,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "99.8274",
+   "size": 99,
+   "price": 92054,
+   "area_m2": 128.7506,
+   "general": 55,
+   "special": 12,
+   "pyeong_price": 2364,
+   "special_share_pct": 18
+  },
+  {
+   "ty": "109.9121",
+   "size": 109,
+   "price": 98102,
+   "area_m2": 140.2926,
+   "general": 129,
+   "special": 27,
+   "pyeong_price": 2312,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "166.9637",
+   "size": 166,
+   "price": 175693,
+   "area_m2": 217.1261,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2675,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 422,
+ "special_total": 394,
+ "special_share_pct": 48,
+ "pyeong_min": 2298,
+ "pyeong_max": 2675,
+ "pyeong_avg": 2328,
+ "price_84_min": 75994,
+ "price_84_max": 77882,
+ "special_kinds": {
+  "신혼부부": 136,
+  "생애최초": 53,
+  "다자녀": 122,
+  "노부모 부양": 24,
+  "기관추천": 59
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9025A",
+    "supply": 111,
+    "closed_at": "1순위 해당지역",
+    "rate": 28.97,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9747B",
+    "supply": 94,
+    "closed_at": "1순위 해당지역",
+    "rate": 9.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9134C",
+    "supply": 132,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "99.8274",
+    "supply": 57,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.05,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "109.9121",
+    "supply": 153,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.41,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "166.9637",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 5863,
+  "rank1_req": 5427,
+  "supply_total": 549,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 6,
+  "type_count": 6,
+  "rank1_avg_rate": 9.89,
+  "best": {
+   "ty": "84.9025A",
+   "rate": 28.97,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9025A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9025A": 0,
+   "84.9747B": 0,
+   "84.9134C": 0
+  },
+  "avg_min": 21.7,
+  "max": {
+   "score": 69,
+   "ty": "84.9025A"
+  }
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "문수로 코아루 에듀스카이",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_pyeong": 2376,
+  "diff": -48,
+  "diff_pct": -2,
+  "rank": 4,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 5,
+  "peers": [
+   "문수로 코아루 에듀스카이",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_rate": 4.8,
+  "rank": 2,
+  "of": 6
+ },
+ "region_score": {
+  "scope": "남구",
+  "peer_count": 3,
+  "peers": [
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

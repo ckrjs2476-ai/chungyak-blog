@@ -1,0 +1,98 @@
+{
+ "no": "2025910255",
+ "name": "만안역 중앙하이츠 포레",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-12-10",
+ "rank1_date": "2025-12-15",
+ "city": "안양시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910255&pblancNo=2025910255",
+ "households": 39,
+ "types": [
+  {
+   "ty": "59.9241",
+   "size": 59,
+   "price": 66580,
+   "area_m2": null,
+   "general": 17,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "66.6115A",
+   "size": 66,
+   "price": 73850,
+   "area_m2": null,
+   "general": 10,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "66.6793B",
+   "size": 66,
+   "price": 75910,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "75.7005",
+   "size": 75,
+   "price": 78290,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 39,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9241",
+    "supply": 17,
+    "closed_at": "None순위 None",
+    "rate": 3.24,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "66.6115A",
+    "supply": 10,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "66.6793B",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 1.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.7005",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 4.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 85,
+  "rank1_req": 0,
+  "supply_total": 39,
+  "final_shortfall_total": 2,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "75.7005",
+   "rate": 4.0,
+   "stage": "None순위 None"
+  }
+ }
+}

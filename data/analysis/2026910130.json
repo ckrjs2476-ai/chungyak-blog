@@ -1,0 +1,132 @@
+{
+ "no": "2026910130",
+ "name": "경기광주역 롯데캐슬 시그니처 1단지",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-06-02",
+ "rank1_date": "2026-06-08",
+ "city": "광주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910130&pblancNo=2026910130",
+ "households": 83,
+ "types": [
+  {
+   "ty": "84.9099A",
+   "size": 84,
+   "price": 88200,
+   "area_m2": null,
+   "general": 26,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8671D",
+   "size": 84,
+   "price": 87200,
+   "area_m2": null,
+   "general": 52,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "162.7498A",
+   "size": 162,
+   "price": 239000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "162.3499B",
+   "size": 162,
+   "price": 241000,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "170.5257A",
+   "size": 170,
+   "price": 249000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "170.3095B",
+   "size": 170,
+   "price": 120500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 83,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 87200,
+ "price_84_max": 88200,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8671D",
+    "supply": 52,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "84.9099A",
+    "supply": 26,
+    "closed_at": "None순위 None",
+    "rate": 2.38,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "162.3499B",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "162.7498A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "170.3095B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "170.5257A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 115,
+  "rank1_req": 0,
+  "supply_total": 83,
+  "final_shortfall_total": 5,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9099A",
+   "rate": 2.38,
+   "stage": "None순위 None"
+  }
+ }
+}

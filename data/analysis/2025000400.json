@@ -1,0 +1,105 @@
+{
+ "no": "2025000400",
+ "name": "천안 백석 중흥S-클래스 우선 분양전환 후 잔여세대",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2025-09-26",
+ "rank1_date": "2025-10-13",
+ "city": "천안시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000400&pblancNo=2025000400",
+ "households": 116,
+ "types": [
+  {
+   "ty": "84.993A",
+   "size": 84,
+   "price": 28350,
+   "area_m2": 109.3579,
+   "general": 91,
+   "special": 0,
+   "pyeong_price": 857,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.993B",
+   "size": 84,
+   "price": 28150,
+   "area_m2": 109.1059,
+   "general": 25,
+   "special": 0,
+   "pyeong_price": 853,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 116,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 853,
+ "pyeong_max": 857,
+ "pyeong_avg": 856,
+ "price_84_min": 28150,
+ "price_84_max": 28350,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.993A",
+    "supply": 91,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 36
+   },
+   {
+    "ty": "84.993B",
+    "supply": 25,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   }
+  ],
+  "req_total": 68,
+  "rank1_req": 56,
+  "supply_total": 116,
+  "final_shortfall_total": 48,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.48
+ },
+ "region_price": {
+  "scope": "충남",
+  "days": 180,
+  "peer_count": 11,
+  "peers": [
+   "아산탕정 동일하이빌 파크레인",
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(공공주택)",
+   "e편한세상 내포 에듀플라츠(민영주택)"
+  ],
+  "peer_avg_pyeong": 1502,
+  "diff": -646,
+  "diff_pct": -43,
+  "rank": 12,
+  "of": 12
+ },
+ "region_competition": {
+  "scope": "충남",
+  "peer_count": 11,
+  "peers": [
+   "아산탕정 동일하이빌 파크레인",
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(공공주택)",
+   "e편한세상 내포 에듀플라츠(민영주택)"
+  ],
+  "peer_avg_rate": 3.23,
+  "rank": 7,
+  "of": 12
+ }
+}

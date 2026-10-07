@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "신한자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-11",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-11",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025910226",
+  "HOUSE_NM": "한화포레나 청주매봉",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청북도 청주시 서원구 매봉로 131",
+  "HSSPLY_ZIP": "28672",
+  "MDHS_TELNO": "0432666600",
+  "MVN_PREARNGE_YM": "202512",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910226",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910226&pblancNo=2025910226",
+  "PRZWNER_PRESNATN_DE": "2025-12-04",
+  "RCRIT_PBLANC_DE": "2025-11-26",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "360",
+  "SUBSCRPT_AREA_CODE_NM": "충북",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-01",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-01",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910226",
+   "HOUSE_TY": "084.9830A",
+   "LTTOT_TOP_AMOUNT": "37880",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910226",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "516.00",
+   "HOUSE_MANAGE_NO": "2025910226",
+   "HOUSE_TY": "084.9830A",
+   "PBLANC_NO": "2025910226",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "516",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:18.466119+09:00"
+}

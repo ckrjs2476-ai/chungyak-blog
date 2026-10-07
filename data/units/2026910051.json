@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "케이비부동산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-03-19",
+  "CNTRCT_CNCLS_ENDDE": "2026-03-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.hanulche-lucier.com/",
+  "HOUSE_MANAGE_NO": "2026910051",
+  "HOUSE_NM": "대전 하늘채 루시에르(2회차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "대전광역시 중구 선화동 95-3번지 일원",
+  "HSSPLY_ZIP": "34830",
+  "MDHS_TELNO": "18778884",
+  "MVN_PREARNGE_YM": "202907",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910051",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910051&pblancNo=2026910051",
+  "PRZWNER_PRESNATN_DE": "2026-03-12",
+  "RCRIT_PBLANC_DE": "2026-03-04",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "300",
+  "SUBSCRPT_AREA_CODE_NM": "대전",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-09",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-09",
+  "TOT_SUPLY_HSHLDCO": 6
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910051",
+   "HOUSE_TY": "119.1374A",
+   "LTTOT_TOP_AMOUNT": "91000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910051",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "5.00",
+   "HOUSE_MANAGE_NO": "2026910051",
+   "HOUSE_TY": "119.1374A",
+   "PBLANC_NO": "2026910051",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "30",
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:56.869502+09:00"
+}

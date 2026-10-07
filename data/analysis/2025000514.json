@@ -1,0 +1,189 @@
+{
+ "no": "2025000514",
+ "name": "풍무역 푸르지오 더 마크",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-10-24",
+ "rank1_date": "2025-11-04",
+ "city": "김포시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000514&pblancNo=2025000514",
+ "households": 1524,
+ "types": [
+  {
+   "ty": "74.0807A",
+   "size": 74,
+   "price": 63500,
+   "area_m2": 99.0066,
+   "general": 206,
+   "special": 388,
+   "pyeong_price": 2120,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "74.0362B",
+   "size": 74,
+   "price": 63300,
+   "area_m2": 99.4476,
+   "general": 77,
+   "special": 178,
+   "pyeong_price": 2104,
+   "special_share_pct": 70
+  },
+  {
+   "ty": "84.629A",
+   "size": 84,
+   "price": 71000,
+   "area_m2": 112.071,
+   "general": 179,
+   "special": 411,
+   "pyeong_price": 2094,
+   "special_share_pct": 70
+  },
+  {
+   "ty": "84.9946B",
+   "size": 84,
+   "price": 69100,
+   "area_m2": 113.4048,
+   "general": 40,
+   "special": 16,
+   "pyeong_price": 2014,
+   "special_share_pct": 29
+  },
+  {
+   "ty": "84.5088C",
+   "size": 84,
+   "price": 71000,
+   "area_m2": 111.3131,
+   "general": 22,
+   "special": 7,
+   "pyeong_price": 2109,
+   "special_share_pct": 24
+  }
+ ],
+ "general_total": 524,
+ "special_total": 1000,
+ "special_share_pct": 66,
+ "pyeong_min": 2014,
+ "pyeong_max": 2120,
+ "pyeong_avg": 2103,
+ "price_84_min": 69100,
+ "price_84_max": 71000,
+ "special_kinds": {
+  "신혼부부": 344,
+  "생애최초": 283,
+  "다자녀": 149,
+  "노부모 부양": 45,
+  "기관추천": 139
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.0807A",
+    "supply": 206,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.82,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.0362B",
+    "supply": 111,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.27,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.629A",
+    "supply": 179,
+    "closed_at": "1순위 해당지역",
+    "rate": 19.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9946B",
+    "supply": 40,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.03,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.5088C",
+    "supply": 22,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.32,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 9721,
+  "rank1_req": 9721,
+  "supply_total": 558,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 17.42,
+  "best": {
+   "ty": "84.629A",
+   "rate": 19.6,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.0362B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "74.0807A": 0,
+   "74.0362B": 0,
+   "84.629A": 0,
+   "84.9946B": 0,
+   "84.5088C": 0
+  },
+  "avg_min": 23.6,
+  "max": {
+   "score": 74,
+   "ty": "84.629A"
+  }
+ },
+ "region_price": {
+  "scope": "김포시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "풍무역세권 수자인 그라센트 1차",
+   "김포북변 칸타빌 디 에디션",
+   "사우역 지엔하임",
+   "풍무역세권 수자인 그라센트 2차"
+  ],
+  "peer_avg_pyeong": 2092,
+  "diff": 11,
+  "diff_pct": 1,
+  "rank": 3,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "김포시",
+  "peer_count": 4,
+  "peers": [
+   "풍무역세권 수자인 그라센트 1차",
+   "김포북변 칸타빌 디 에디션",
+   "사우역 지엔하임",
+   "풍무역세권 수자인 그라센트 2차"
+  ],
+  "peer_avg_rate": 2.09,
+  "rank": 1,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "김포시",
+  "peer_count": 2,
+  "peers": [
+   "풍무역세권 수자인 그라센트 1차",
+   "풍무역세권 수자인 그라센트 2차"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

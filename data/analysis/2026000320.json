@@ -1,0 +1,114 @@
+{
+ "no": "2026000320",
+ "name": "고양창릉 S-4블록 공공분양주택(본청약)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-06-30",
+ "rank1_date": "2026-07-20",
+ "city": "고양시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000320&pblancNo=2026000320",
+ "households": 1024,
+ "types": [
+  {
+   "ty": "59A",
+   "size": 59,
+   "price": 62771,
+   "area_m2": 82.9797,
+   "general": 31,
+   "special": 103,
+   "pyeong_price": 2501,
+   "special_share_pct": 77
+  },
+  {
+   "ty": "59B",
+   "size": 59,
+   "price": 62384,
+   "area_m2": 82.4456,
+   "general": 4,
+   "special": 14,
+   "pyeong_price": 2501,
+   "special_share_pct": 78
+  },
+  {
+   "ty": "59C",
+   "size": 59,
+   "price": 62468,
+   "area_m2": 82.5839,
+   "general": 9,
+   "special": 29,
+   "pyeong_price": 2501,
+   "special_share_pct": 76
+  },
+  {
+   "ty": "74A",
+   "size": 74,
+   "price": 76566,
+   "area_m2": 103.6656,
+   "general": 6,
+   "special": 19,
+   "pyeong_price": 2442,
+   "special_share_pct": 76
+  },
+  {
+   "ty": "74B",
+   "size": 74,
+   "price": 76249,
+   "area_m2": 103.2645,
+   "general": 2,
+   "special": 4,
+   "pyeong_price": 2441,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 86719,
+   "area_m2": 117.4435,
+   "general": 0,
+   "special": 12,
+   "pyeong_price": 2441,
+   "special_share_pct": 100
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 86402,
+   "area_m2": 117.0146,
+   "general": 3,
+   "special": 9,
+   "pyeong_price": 2441,
+   "special_share_pct": 75
+  }
+ ],
+ "general_total": 55,
+ "special_total": 190,
+ "special_share_pct": 78,
+ "pyeong_min": 2441,
+ "pyeong_max": 2501,
+ "pyeong_avg": 2488,
+ "price_84_min": 86402,
+ "price_84_max": 86719,
+ "special_kinds": {
+  "신혼부부": 21,
+  "생애최초": 34,
+  "신생아": 45,
+  "다자녀": 22,
+  "노부모 부양": 10,
+  "기관추천": 31
+ },
+ "region_price": {
+  "scope": "고양시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "고양 창릉 우미 린 그레니티 공공분양주택(본청약)",
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 2128,
+  "diff": 360,
+  "diff_pct": 17,
+  "rank": 1,
+  "of": 3
+ }
+}

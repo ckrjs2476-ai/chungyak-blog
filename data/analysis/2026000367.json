@@ -1,0 +1,319 @@
+{
+ "no": "2026000367",
+ "name": "한강 푸르지오 리버프론트",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-30",
+ "rank1_date": "2026-08-11",
+ "city": "김포시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000367&pblancNo=2026000367",
+ "households": 2432,
+ "types": [
+  {
+   "ty": "84.7402A",
+   "size": 84,
+   "price": 77300,
+   "area_m2": 113.021,
+   "general": 311,
+   "special": 577,
+   "pyeong_price": 2261,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.5605B",
+   "size": 84,
+   "price": 76800,
+   "area_m2": 113.2751,
+   "general": 23,
+   "special": 45,
+   "pyeong_price": 2241,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "84.9219C",
+   "size": 84,
+   "price": 74200,
+   "area_m2": 112.5506,
+   "general": 190,
+   "special": 347,
+   "pyeong_price": 2179,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.8168D",
+   "size": 84,
+   "price": 73700,
+   "area_m2": 113.9384,
+   "general": 55,
+   "special": 93,
+   "pyeong_price": 2138,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.706E",
+   "size": 84,
+   "price": 75200,
+   "area_m2": 112.9669,
+   "general": 37,
+   "special": 61,
+   "pyeong_price": 2201,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.9001F",
+   "size": 84,
+   "price": 74200,
+   "area_m2": 112.6296,
+   "general": 15,
+   "special": 21,
+   "pyeong_price": 2178,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "106.8713A",
+   "size": 106,
+   "price": 95100,
+   "area_m2": 141.6004,
+   "general": 250,
+   "special": 38,
+   "pyeong_price": 2220,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "106.9778B",
+   "size": 106,
+   "price": 95000,
+   "area_m2": 141.5485,
+   "general": 126,
+   "special": 18,
+   "pyeong_price": 2219,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "122.749",
+   "size": 122,
+   "price": 118600,
+   "area_m2": 163.08,
+   "general": 188,
+   "special": 28,
+   "pyeong_price": 2404,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "180.2607A",
+   "size": 180,
+   "price": 299600,
+   "area_m2": 237.3821,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 4172,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "180.9387B",
+   "size": 180,
+   "price": 292200,
+   "area_m2": 238.7052,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 4047,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "180.9315C",
+   "size": 180,
+   "price": 299900,
+   "area_m2": 237.6252,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 4172,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1204,
+ "special_total": 1228,
+ "special_share_pct": 50,
+ "pyeong_min": 2138,
+ "pyeong_max": 4172,
+ "pyeong_avg": 2244,
+ "price_84_min": 73700,
+ "price_84_max": 77300,
+ "special_kinds": {
+  "신혼부부": 266,
+  "생애최초": 301,
+  "신생아": 175,
+  "다자녀": 240,
+  "노부모 부양": 71,
+  "기관추천": 175
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7402A",
+    "supply": 667,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.52,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.5605B",
+    "supply": 63,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 32
+   },
+   {
+    "ty": "84.9219C",
+    "supply": 435,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 184
+   },
+   {
+    "ty": "84.8168D",
+    "supply": 140,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 114
+   },
+   {
+    "ty": "84.706E",
+    "supply": 66,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.58,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9001F",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 19
+   },
+   {
+    "ty": "106.8713A",
+    "supply": 275,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 89
+   },
+   {
+    "ty": "106.9778B",
+    "supply": 129,
+    "closed_at": "1순위 기타지역",
+    "rate": 4.88,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "122.749",
+    "supply": 212,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 100
+   },
+   {
+    "ty": "180.2607A",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "180.9387B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "180.9315C",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 1660,
+  "rank1_req": 1307,
+  "supply_total": 2030,
+  "final_shortfall_total": 541,
+  "closed_types": 4,
+  "rank1_closed_types": 3,
+  "type_count": 12,
+  "rank1_avg_rate": 0.64,
+  "best": {
+   "ty": "106.9778B",
+   "rate": 4.88,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.706E",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.706E": 0
+  },
+  "avg_min": 13.5,
+  "max": {
+   "score": 53,
+   "ty": "84.706E"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 51,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에"
+  ],
+  "peer_avg_pyeong": 2421,
+  "diff": -177,
+  "diff_pct": -7,
+  "rank": 24,
+  "of": 52
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 49,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에"
+  ],
+  "peer_avg_rate": 2.77,
+  "rank": 30,
+  "of": 50
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 30,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "의정부역 센트럴 아이파크"
+  ],
+  "peer_avg_min": 3.0,
+  "diff": -3.0
+ }
+}

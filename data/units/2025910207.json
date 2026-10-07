@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "우리자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-28",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-28",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://hillstate.co.kr/s/gy",
+  "HOUSE_MANAGE_NO": "2025910207",
+  "HOUSE_NM": "힐스테이트 가야 2단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 부산진구 가야동 197-3번지 일원",
+  "HSSPLY_ZIP": "47384",
+  "MDHS_TELNO": "16001511",
+  "MVN_PREARNGE_YM": "202612",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910207",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910207&pblancNo=2025910207",
+  "PRZWNER_PRESNATN_DE": "2025-11-18",
+  "RCRIT_PBLANC_DE": "2025-11-07",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-12",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-12",
+  "TOT_SUPLY_HSHLDCO": 51
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910207",
+   "HOUSE_TY": "076.9083A",
+   "LTTOT_TOP_AMOUNT": "84340",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910207",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 21
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910207",
+   "HOUSE_TY": "084.9238D",
+   "LTTOT_TOP_AMOUNT": "89630",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910207",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 30
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△13)",
+   "HOUSE_MANAGE_NO": "2025910207",
+   "HOUSE_TY": "076.9083A",
+   "PBLANC_NO": "2025910207",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 21
+  },
+  {
+   "CMPET_RATE": "(△13)",
+   "HOUSE_MANAGE_NO": "2025910207",
+   "HOUSE_TY": "084.9238D",
+   "PBLANC_NO": "2025910207",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "17",
+   "SUPLY_HSHLDCO": 30
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:44.506937+09:00"
+}

@@ -1,0 +1,148 @@
+{
+ "no": "2026910073",
+ "name": "천안 아이파크 시티 5단지",
+ "kind": "remndr",
+ "region": "충남",
+ "notice_date": "2026-04-01",
+ "rank1_date": "2026-04-06",
+ "city": "천안시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910073&pblancNo=2026910073",
+ "households": 334,
+ "types": [
+  {
+   "ty": "84.8786A",
+   "size": 84,
+   "price": 59160,
+   "area_m2": null,
+   "general": 141,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9323B",
+   "size": 84,
+   "price": 59110,
+   "area_m2": null,
+   "general": 30,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9587C",
+   "size": 84,
+   "price": 60030,
+   "area_m2": null,
+   "general": 21,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "102.888A",
+   "size": 102,
+   "price": 72140,
+   "area_m2": null,
+   "general": 65,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "102.7602B",
+   "size": 102,
+   "price": 72970,
+   "area_m2": null,
+   "general": 68,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "120.7345",
+   "size": 120,
+   "price": 80250,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "197.8303",
+   "size": 197,
+   "price": 246120,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 334,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 59110,
+ "price_84_max": 60030,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8786A",
+    "supply": 141,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 31
+   },
+   {
+    "ty": "84.9323B",
+    "supply": 30,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "84.9587C",
+    "supply": 21,
+    "closed_at": "None순위 None",
+    "rate": 44.19,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "102.7602B",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 64
+   },
+   {
+    "ty": "102.888A",
+    "supply": 65,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 29
+   },
+   {
+    "ty": "120.7345",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "197.8303",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1106,
+  "rank1_req": 0,
+  "supply_total": 334,
+  "final_shortfall_total": 137,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9587C",
+   "rate": 44.19,
+   "stage": "None순위 None"
+  }
+ }
+}

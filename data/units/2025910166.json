@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "아이비투자검단(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-22",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025910166",
+  "HOUSE_NM": "힐스테이트 불로 포레스트(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 서구 불로동 864번지",
+  "HSSPLY_ZIP": "22620",
+  "MDHS_TELNO": "0319925030",
+  "MVN_PREARNGE_YM": "202511",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910166",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910166&pblancNo=2025910166",
+  "PRZWNER_PRESNATN_DE": "2025-09-18",
+  "RCRIT_PBLANC_DE": "2025-09-08",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-15",
+  "TOT_SUPLY_HSHLDCO": 11
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910166",
+   "HOUSE_TY": "084.8616A",
+   "LTTOT_TOP_AMOUNT": "52900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910166",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910166",
+   "HOUSE_TY": "084.9857B",
+   "LTTOT_TOP_AMOUNT": "51800",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910166",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "7.14",
+   "HOUSE_MANAGE_NO": "2025910166",
+   "HOUSE_TY": "084.8616A",
+   "PBLANC_NO": "2025910166",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "50",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "3.00",
+   "HOUSE_MANAGE_NO": "2025910166",
+   "HOUSE_TY": "084.9857B",
+   "PBLANC_NO": "2025910166",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:17.159398+09:00"
+}

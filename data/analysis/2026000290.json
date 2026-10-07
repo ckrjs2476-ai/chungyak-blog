@@ -1,0 +1,147 @@
+{
+ "no": "2026000290",
+ "name": "야목역 서희스타힐스 그랜드힐(조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-02",
+ "rank1_date": "2026-07-14",
+ "city": "화성시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000290&pblancNo=2026000290",
+ "households": 83,
+ "types": [
+  {
+   "ty": "59.9567A",
+   "size": 59,
+   "price": 41900,
+   "area_m2": 81.9664,
+   "general": 20,
+   "special": 22,
+   "pyeong_price": 1690,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.9649B",
+   "size": 59,
+   "price": 41700,
+   "area_m2": 82.3747,
+   "general": 4,
+   "special": 5,
+   "pyeong_price": 1673,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9501A",
+   "size": 84,
+   "price": 57600,
+   "area_m2": 115.0729,
+   "general": 6,
+   "special": 11,
+   "pyeong_price": 1655,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9553B",
+   "size": 84,
+   "price": 56600,
+   "area_m2": 115.2722,
+   "general": 6,
+   "special": 9,
+   "pyeong_price": 1623,
+   "special_share_pct": 60
+  }
+ ],
+ "general_total": 36,
+ "special_total": 47,
+ "special_share_pct": 57,
+ "pyeong_min": 1623,
+ "pyeong_max": 1690,
+ "pyeong_avg": 1669,
+ "price_84_min": 56600,
+ "price_84_max": 57600,
+ "special_kinds": {
+  "신혼부부": 13,
+  "생애최초": 6,
+  "신생아": 9,
+  "다자녀": 9,
+  "노부모 부양": 2,
+  "기관추천": 8
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9567A",
+    "supply": 39,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "59.9649B",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "84.9501A",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "84.9553B",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   }
+  ],
+  "req_total": 30,
+  "rank1_req": 15,
+  "supply_total": 77,
+  "final_shortfall_total": 47,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.19
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 55,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "북오산자이 리버블시티",
+   "안양역 센트럴 아이파크 수자인",
+   "사우역 지엔하임",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악"
+  ],
+  "peer_avg_pyeong": 2425,
+  "diff": -756,
+  "diff_pct": -31,
+  "rank": 45,
+  "of": 56
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 53,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "북오산자이 리버블시티",
+   "안양역 센트럴 아이파크 수자인",
+   "사우역 지엔하임",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악"
+  ],
+  "peer_avg_rate": 2.78,
+  "rank": 45,
+  "of": 54
+ }
+}

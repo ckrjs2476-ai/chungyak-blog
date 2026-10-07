@@ -1,0 +1,132 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)아주",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-22",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.sangbong-ipark.com",
+  "HOUSE_MANAGE_NO": "2025910225",
+  "HOUSE_NM": "상봉 센트럴 아이파크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 중랑구 망우동 506-1",
+  "HSSPLY_ZIP": "02169",
+  "MDHS_TELNO": "15515061",
+  "MVN_PREARNGE_YM": "203003",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910225",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910225&pblancNo=2025910225",
+  "PRZWNER_PRESNATN_DE": "2025-11-20",
+  "RCRIT_PBLANC_DE": "2025-11-11",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-17",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-17",
+  "TOT_SUPLY_HSHLDCO": 115
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.8422A",
+   "LTTOT_TOP_AMOUNT": "137800",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910225",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.7662B",
+   "LTTOT_TOP_AMOUNT": "138700",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910225",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 22
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.6747C",
+   "LTTOT_TOP_AMOUNT": "137400",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910225",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.7184D",
+   "LTTOT_TOP_AMOUNT": "138700",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910225",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 25
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.9194E",
+   "LTTOT_TOP_AMOUNT": "137300",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910225",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 25
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "5.25",
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.6747C",
+   "PBLANC_NO": "2025910225",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "126",
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "CMPET_RATE": "4.04",
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.7184D",
+   "PBLANC_NO": "2025910225",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "101",
+   "SUPLY_HSHLDCO": 25
+  },
+  {
+   "CMPET_RATE": "5.45",
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.7662B",
+   "PBLANC_NO": "2025910225",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "120",
+   "SUPLY_HSHLDCO": 22
+  },
+  {
+   "CMPET_RATE": "9.32",
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.8422A",
+   "PBLANC_NO": "2025910225",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "177",
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "CMPET_RATE": "3.68",
+   "HOUSE_MANAGE_NO": "2025910225",
+   "HOUSE_TY": "084.9194E",
+   "PBLANC_NO": "2025910225",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "92",
+   "SUPLY_HSHLDCO": 25
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:35.945441+09:00"
+}

@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "아이월드 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-12",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://sujain-roicent.co.kr",
+  "HOUSE_MANAGE_NO": "2025910242",
+  "HOUSE_NM": "인하대역 수자인 로이센트",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 미추홀구 용현동 604-7번지 일원 (용현·학익 2-2블록 인하대역 1구역 내)",
+  "HSSPLY_ZIP": "22188",
+  "MDHS_TELNO": "0328750959",
+  "MVN_PREARNGE_YM": "202904",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910242",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910242&pblancNo=2025910242",
+  "PRZWNER_PRESNATN_DE": "2025-12-11",
+  "RCRIT_PBLANC_DE": "2025-12-03",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-08",
+  "TOT_SUPLY_HSHLDCO": 169
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910242",
+   "HOUSE_TY": "084.9355A",
+   "LTTOT_TOP_AMOUNT": "69710",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910242",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 132
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910242",
+   "HOUSE_TY": "084.9856G",
+   "LTTOT_TOP_AMOUNT": "69910",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910242",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 15
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910242",
+   "HOUSE_TY": "084.9373H",
+   "LTTOT_TOP_AMOUNT": "69570",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910242",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 22
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△100)",
+   "HOUSE_MANAGE_NO": "2025910242",
+   "HOUSE_TY": "084.9355A",
+   "PBLANC_NO": "2025910242",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "32",
+   "SUPLY_HSHLDCO": 132
+  },
+  {
+   "CMPET_RATE": "(△18)",
+   "HOUSE_MANAGE_NO": "2025910242",
+   "HOUSE_TY": "084.9373H",
+   "PBLANC_NO": "2025910242",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 22
+  },
+  {
+   "CMPET_RATE": "1.93",
+   "HOUSE_MANAGE_NO": "2025910242",
+   "HOUSE_TY": "084.9856G",
+   "PBLANC_NO": "2025910242",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "29",
+   "SUPLY_HSHLDCO": 15
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:57.536009+09:00"
+}

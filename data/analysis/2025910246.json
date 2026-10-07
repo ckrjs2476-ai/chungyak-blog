@@ -1,0 +1,130 @@
+{
+ "no": "2025910246",
+ "name": "운정 아이파크 포레스트",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-12-03",
+ "rank1_date": "2025-12-08",
+ "city": "도시개발구역",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910246&pblancNo=2025910246",
+ "households": 311,
+ "types": [
+  {
+   "ty": "63.8043",
+   "size": 63,
+   "price": 48520,
+   "area_m2": null,
+   "general": 102,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9086",
+   "size": 74,
+   "price": 57450,
+   "area_m2": null,
+   "general": 204,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "152.588P",
+   "size": 152,
+   "price": 139770,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "171.7503P",
+   "size": 171,
+   "price": 156430,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "192.7418P",
+   "size": 192,
+   "price": 179200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "197.1512P",
+   "size": 197,
+   "price": 182860,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 311,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "63.8043",
+    "supply": 102,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 66
+   },
+   {
+    "ty": "74.9086",
+    "supply": 204,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 133
+   },
+   {
+    "ty": "152.588P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 6.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "171.7503P",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "192.7418P",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "197.1512P",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   }
+  ],
+  "req_total": 113,
+  "rank1_req": 0,
+  "supply_total": 311,
+  "final_shortfall_total": 203,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "152.588P",
+   "rate": 6.0,
+   "stage": "None순위 None"
+  }
+ }
+}

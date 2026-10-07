@@ -1,0 +1,221 @@
+{
+ "no": "2026000173",
+ "name": "더 리치먼드 리버센트 소양",
+ "kind": "apt",
+ "region": "강원",
+ "notice_date": "2026-05-22",
+ "rank1_date": "2026-06-02",
+ "city": "춘천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000173&pblancNo=2026000173",
+ "households": 178,
+ "types": [
+  {
+   "ty": "84.9211A",
+   "size": 84,
+   "price": 58890,
+   "area_m2": 114.5091,
+   "general": 12,
+   "special": 14,
+   "pyeong_price": 1700,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.7112B",
+   "size": 84,
+   "price": 58120,
+   "area_m2": 113.0126,
+   "general": 12,
+   "special": 13,
+   "pyeong_price": 1700,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9304C",
+   "size": 84,
+   "price": 57110,
+   "area_m2": 114.3368,
+   "general": 11,
+   "special": 14,
+   "pyeong_price": 1651,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9891D",
+   "size": 84,
+   "price": 57810,
+   "area_m2": 115.7249,
+   "general": 12,
+   "special": 13,
+   "pyeong_price": 1651,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8973E",
+   "size": 84,
+   "price": 55510,
+   "area_m2": 112.8072,
+   "general": 12,
+   "special": 13,
+   "pyeong_price": 1627,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9725F",
+   "size": 84,
+   "price": 55600,
+   "area_m2": 112.9879,
+   "general": 12,
+   "special": 14,
+   "pyeong_price": 1627,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9826G",
+   "size": 84,
+   "price": 58360,
+   "area_m2": 114.5597,
+   "general": 12,
+   "special": 14,
+   "pyeong_price": 1684,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 83,
+ "special_total": 95,
+ "special_share_pct": 53,
+ "pyeong_min": 1627,
+ "pyeong_max": 1700,
+ "pyeong_avg": 1663,
+ "price_84_min": 55510,
+ "price_84_max": 58890,
+ "special_kinds": {
+  "신혼부부": 40,
+  "생애최초": 16,
+  "다자녀": 17,
+  "노부모 부양": 5,
+  "기관추천": 17
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9211A",
+    "supply": 22,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.36,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7112B",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "84.9304C",
+    "supply": 25,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "84.9891D",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "84.8973E",
+    "supply": 25,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "84.9725F",
+    "supply": 25,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "84.9826G",
+    "supply": 25,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   }
+  ],
+  "req_total": 96,
+  "rank1_req": 68,
+  "supply_total": 170,
+  "final_shortfall_total": 92,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 7,
+  "rank1_avg_rate": 0.4,
+  "best": {
+   "ty": "84.9211A",
+   "rate": 1.36,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9211A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9211A": 0
+  },
+  "avg_min": 13.0,
+  "max": {
+   "score": 63,
+   "ty": "84.9211A"
+  }
+ },
+ "region_price": {
+  "scope": "강원",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "르네오션 고성 퍼스트뷰",
+   "강릉 우미 린 더 프리미어",
+   "강릉 성보필리오 더센트럴힐즈",
+   "리쉐스302",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_pyeong": 1623,
+  "diff": 40,
+  "diff_pct": 2,
+  "rank": 2,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "강원",
+  "peer_count": 5,
+  "peers": [
+   "르네오션 고성 퍼스트뷰",
+   "강릉 우미 린 더 프리미어",
+   "강릉 성보필리오 더센트럴힐즈",
+   "리쉐스302",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_rate": 0.68,
+  "rank": 3,
+  "of": 6
+ },
+ "region_score": {
+  "scope": "강원",
+  "peer_count": 2,
+  "peers": [
+   "르네오션 고성 퍼스트뷰",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "no": "2026000404",
+ "name": "검암역 푸르지오 프라베뉴 (B-1BL) 공공분양주택",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-08-21",
+ "rank1_date": "2026-09-01",
+ "city": "서해구",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000404&pblancNo=2026000404",
+ "households": 441,
+ "types": [
+  {
+   "ty": "60.9495A",
+   "size": 60,
+   "price": 48630,
+   "area_m2": 81.2964,
+   "general": 2,
+   "special": 23,
+   "pyeong_price": 1977,
+   "special_share_pct": 92
+  },
+  {
+   "ty": "60.6527B",
+   "size": 60,
+   "price": 47930,
+   "area_m2": 81.6293,
+   "general": 11,
+   "special": 39,
+   "pyeong_price": 1941,
+   "special_share_pct": 78
+  },
+  {
+   "ty": "60.9646C",
+   "size": 60,
+   "price": 46250,
+   "area_m2": 81.858,
+   "general": 16,
+   "special": 59,
+   "pyeong_price": 1868,
+   "special_share_pct": 79
+  },
+  {
+   "ty": "84.9079A",
+   "size": 84,
+   "price": 63910,
+   "area_m2": 112.0261,
+   "general": 63,
+   "special": 153,
+   "pyeong_price": 1886,
+   "special_share_pct": 71
+  },
+  {
+   "ty": "84.4783B",
+   "size": 84,
+   "price": 62940,
+   "area_m2": 111.9587,
+   "general": 10,
+   "special": 40,
+   "pyeong_price": 1858,
+   "special_share_pct": 80
+  },
+  {
+   "ty": "84.9219C",
+   "size": 84,
+   "price": 62340,
+   "area_m2": 112.5411,
+   "general": 3,
+   "special": 22,
+   "pyeong_price": 1831,
+   "special_share_pct": 88
+  }
+ ],
+ "general_total": 105,
+ "special_total": 336,
+ "special_share_pct": 76,
+ "pyeong_min": 1831,
+ "pyeong_max": 1977,
+ "pyeong_avg": 1888,
+ "price_84_min": 62340,
+ "price_84_max": 63910,
+ "special_kinds": {
+  "신혼부부": 44,
+  "생애최초": 66,
+  "신생아": 88,
+  "다자녀": 44,
+  "노부모 부양": 22,
+  "기관추천": 65
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "60.9495A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 179.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "60.6527B",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 49.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "60.9646C",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 49.88,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9079A",
+    "supply": 63,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.97,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.4783B",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 9.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9219C",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2390,
+  "rank1_req": 2161,
+  "supply_total": 114,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 6,
+  "type_count": 6,
+  "rank1_avg_rate": 18.96,
+  "best": {
+   "ty": "60.9495A",
+   "rate": 179.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "인천가정2지구 B2블록 공공분양주택(후속사업)",
+   "인천계양지구 A6블록 공공분양주택(본청약)",
+   "인천계양 A9블록 신혼희망타운(공공분양)(본청약)",
+   "인천계양 A17블록 신혼희망타운(공공분양)(본청약)"
+  ],
+  "peer_avg_pyeong": 2044,
+  "diff": -156,
+  "diff_pct": -8,
+  "rank": 4,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 16,
+  "peers": [
+   "연수 월드메르디앙 어반포레",
+   "중앙하이츠 갈산역 센트럴",
+   "오션포레베네스트하우스(미단시티 공동8BL)",
+   "검단호수공원역 파라곤(AA36BL)",
+   "힐스테이트 구월아트파크",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록"
+  ],
+  "peer_avg_rate": 10.58,
+  "rank": 4,
+  "of": 17
+ }
+}

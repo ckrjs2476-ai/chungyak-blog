@@ -1,0 +1,52 @@
+{
+ "no": "2025910178",
+ "name": "신경주 더 퍼스트 데시앙",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2025-09-19",
+ "rank1_date": "2025-09-24",
+ "city": "경주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910178&pblancNo=2025910178",
+ "households": 1,
+ "types": [
+  {
+   "ty": "84.9249T",
+   "size": 84,
+   "price": 35500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 35500,
+ "price_84_max": 35500,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9249T",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 5.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 5,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9249T",
+   "rate": 5.0,
+   "stage": "None순위 None"
+  }
+ }
+}

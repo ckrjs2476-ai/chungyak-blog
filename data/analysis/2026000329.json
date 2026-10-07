@@ -1,0 +1,222 @@
+{
+ "no": "2026000329",
+ "name": "호반써밋 풍무Ⅲ",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-09",
+ "rank1_date": "2026-07-21",
+ "city": "풍무역세권",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000329&pblancNo=2026000329",
+ "households": 660,
+ "types": [
+  {
+   "ty": "59.9848A",
+   "size": 59,
+   "price": 59740,
+   "area_m2": 82.1354,
+   "general": 40,
+   "special": 90,
+   "pyeong_price": 2404,
+   "special_share_pct": 69
+  },
+  {
+   "ty": "59.9813B",
+   "size": 59,
+   "price": 58610,
+   "area_m2": 81.3722,
+   "general": 36,
+   "special": 72,
+   "pyeong_price": 2381,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84.9897A",
+   "size": 84,
+   "price": 76250,
+   "area_m2": 114.1037,
+   "general": 57,
+   "special": 121,
+   "pyeong_price": 2209,
+   "special_share_pct": 68
+  },
+  {
+   "ty": "84.981B",
+   "size": 84,
+   "price": 75220,
+   "area_m2": 114.222,
+   "general": 33,
+   "special": 70,
+   "pyeong_price": 2177,
+   "special_share_pct": 68
+  },
+  {
+   "ty": "84.9874C",
+   "size": 84,
+   "price": 74350,
+   "area_m2": 114.4705,
+   "general": 21,
+   "special": 44,
+   "pyeong_price": 2147,
+   "special_share_pct": 68
+  },
+  {
+   "ty": "84.9795D",
+   "size": 84,
+   "price": 73590,
+   "area_m2": 114.4026,
+   "general": 25,
+   "special": 51,
+   "pyeong_price": 2126,
+   "special_share_pct": 67
+  }
+ ],
+ "general_total": 212,
+ "special_total": 448,
+ "special_share_pct": 68,
+ "pyeong_min": 2126,
+ "pyeong_max": 2404,
+ "pyeong_avg": 2255,
+ "price_84_min": 73590,
+ "price_84_max": 76250,
+ "special_kinds": {
+  "신혼부부": 103,
+  "생애최초": 115,
+  "신생아": 70,
+  "다자녀": 70,
+  "노부모 부양": 19,
+  "기관추천": 70
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9848A",
+    "supply": 40,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9813B",
+    "supply": 36,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.42,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9897A",
+    "supply": 57,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.61,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.981B",
+    "supply": 48,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.58,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9874C",
+    "supply": 36,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.39,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9795D",
+    "supply": 49,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.12,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2737,
+  "rank1_req": 2443,
+  "supply_total": 266,
+  "final_shortfall_total": 0,
+  "closed_types": 6,
+  "rank1_closed_types": 6,
+  "type_count": 6,
+  "rank1_avg_rate": 9.18,
+  "best": {
+   "ty": "59.9848A",
+   "rate": 6.83,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9813B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9848A": 0,
+   "59.9813B": 0,
+   "84.9897A": 0,
+   "84.981B": 0,
+   "84.9874C": 0,
+   "84.9795D": 0
+  },
+  "avg_min": 16.5,
+  "max": {
+   "score": 63,
+   "ty": "84.9897A"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 52,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉"
+  ],
+  "peer_avg_pyeong": 2443,
+  "diff": -188,
+  "diff_pct": -8,
+  "rank": 24,
+  "of": 53
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 50,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉"
+  ],
+  "peer_avg_rate": 2.75,
+  "rank": 5,
+  "of": 51
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 31,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)"
+  ],
+  "peer_avg_min": 2.9,
+  "diff": -2.9
+ }
+}

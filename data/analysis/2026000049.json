@@ -1,0 +1,170 @@
+{
+ "no": "2026000049",
+ "name": "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-09",
+ "rank1_date": "2026-04-21",
+ "city": "양주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000049&pblancNo=2026000049",
+ "households": 2807,
+ "types": [
+  {
+   "ty": "84.7277A",
+   "size": 84,
+   "price": 61597,
+   "area_m2": 119.0273,
+   "general": 362,
+   "special": 672,
+   "pyeong_price": 1711,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9343B",
+   "size": 84,
+   "price": 56709,
+   "area_m2": 120.4483,
+   "general": 359,
+   "special": 668,
+   "pyeong_price": 1556,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "128.8451A",
+   "size": 128,
+   "price": 91703,
+   "area_m2": 165.3089,
+   "general": 321,
+   "special": 47,
+   "pyeong_price": 1834,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "128.6421B",
+   "size": 128,
+   "price": 82706,
+   "area_m2": 165.524,
+   "general": 329,
+   "special": 49,
+   "pyeong_price": 1652,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 1371,
+ "special_total": 1436,
+ "special_share_pct": 51,
+ "pyeong_min": 1556,
+ "pyeong_max": 1834,
+ "pyeong_avg": 1662,
+ "price_84_min": 56709,
+ "price_84_max": 61597,
+ "special_kinds": {
+  "신혼부부": 475,
+  "생애최초": 391,
+  "다자녀": 280,
+  "노부모 부양": 84,
+  "기관추천": 206
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7277A",
+    "supply": 748,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.93,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9343B",
+    "supply": 938,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "128.8451A",
+    "supply": 359,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 76
+   },
+   {
+    "ty": "128.6421B",
+    "supply": 376,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 137
+   }
+  ],
+  "req_total": 2638,
+  "rank1_req": 2047,
+  "supply_total": 2421,
+  "final_shortfall_total": 213,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 4,
+  "rank1_avg_rate": 0.85,
+  "best": {
+   "ty": "84.7277A",
+   "rate": 3.93,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 32,
+   "ty": "84.7277A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.7277A": 32
+  },
+  "avg_min": 35.3,
+  "max": {
+   "score": 72,
+   "ty": "84.7277A"
+  }
+ },
+ "region_price": {
+  "scope": "양주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더 플래티넘 센트럴포레",
+   "양주 회천지구 A-8BL 로제비앙 엘가"
+  ],
+  "peer_avg_pyeong": 1679,
+  "diff": -17,
+  "diff_pct": -1,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "양주시",
+  "peer_count": 2,
+  "peers": [
+   "더 플래티넘 센트럴포레",
+   "양주 회천지구 A-8BL 로제비앙 엘가"
+  ],
+  "peer_avg_rate": 0.05,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 51,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "김포 풍무역세권 B5블록 호반써밋",
+   "더샵 분당티에르원"
+  ],
+  "peer_avg_min": 1.8,
+  "diff": 30.2
+ }
+}

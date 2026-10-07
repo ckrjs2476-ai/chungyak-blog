@@ -1,0 +1,122 @@
+{
+ "no": "2026000138",
+ "name": "힐스테이트 시흥더클래스",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-05-15",
+ "rank1_date": "2026-05-28",
+ "city": "시흥시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000138&pblancNo=2026000138",
+ "households": 430,
+ "types": [
+  {
+   "ty": "74.6595A",
+   "size": 74,
+   "price": 77470,
+   "area_m2": 99.3357,
+   "general": 10,
+   "special": 14,
+   "pyeong_price": 2578,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "84.7599A",
+   "size": 84,
+   "price": 87850,
+   "area_m2": 109.3976,
+   "general": 172,
+   "special": 205,
+   "pyeong_price": 2655,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9615B",
+   "size": 84,
+   "price": 87550,
+   "area_m2": 110.5592,
+   "general": 12,
+   "special": 17,
+   "pyeong_price": 2618,
+   "special_share_pct": 59
+  }
+ ],
+ "general_total": 194,
+ "special_total": 236,
+ "special_share_pct": 55,
+ "pyeong_min": 2578,
+ "pyeong_max": 2655,
+ "pyeong_avg": 2648,
+ "price_84_min": 87550,
+ "price_84_max": 87850,
+ "special_kinds": {
+  "신혼부부": 99,
+  "생애최초": 38,
+  "다자녀": 43,
+  "노부모 부양": 13,
+  "기관추천": 43
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.6595A",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7599A",
+    "supply": 349,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 236
+   },
+   {
+    "ty": "84.9615B",
+    "supply": 27,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.08,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 207,
+  "rank1_req": 129,
+  "supply_total": 386,
+  "final_shortfall_total": 236,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 3,
+  "rank1_avg_rate": 0.33,
+  "best": {
+   "ty": "74.6595A",
+   "rate": 1.1,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "시흥시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "시흥거모 엘가 로제비앙",
+   "시흥거모B1 호반써밋"
+  ],
+  "peer_avg_pyeong": 1764,
+  "diff": 884,
+  "diff_pct": 50,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "시흥시",
+  "peer_count": 2,
+  "peers": [
+   "시흥거모 엘가 로제비앙",
+   "시흥거모B1 호반써밋"
+  ],
+  "peer_avg_rate": 0.65,
+  "rank": 3,
+  "of": 3
+ }
+}

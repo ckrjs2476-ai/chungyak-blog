@@ -1,0 +1,116 @@
+{
+ "no": "2026910069",
+ "name": "두산위브 더센트럴 부평(조합원 취소분)",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-03-24",
+ "rank1_date": "2026-03-30",
+ "city": "부평구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910069&pblancNo=2026910069",
+ "households": 27,
+ "types": [
+  {
+   "ty": "52.185",
+   "size": 52,
+   "price": 49670,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "63.8777",
+   "size": 63,
+   "price": 60890,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9952",
+   "size": 74,
+   "price": 69980,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.955A",
+   "size": 84,
+   "price": 76100,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8815B",
+   "size": 84,
+   "price": 76580,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 27,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 76100,
+ "price_84_max": 76580,
+ "competition": {
+  "types": [
+   {
+    "ty": "52.185",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 18.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "63.8777",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 2.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9952",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8815B",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 1.14,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.955A",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 2.17,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 66,
+  "rank1_req": 0,
+  "supply_total": 27,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "52.185",
+   "rate": 18.0,
+   "stage": "None순위 None"
+  }
+ }
+}

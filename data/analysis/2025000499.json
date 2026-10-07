@@ -1,0 +1,200 @@
+{
+ "no": "2025000499",
+ "name": "김포 풍무역세권 B5블록 호반써밋",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-10-17",
+ "rank1_date": "2025-10-28",
+ "city": "풍무역세권",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000499&pblancNo=2025000499",
+ "households": 956,
+ "types": [
+  {
+   "ty": "84.9371A",
+   "size": 84,
+   "price": 70860,
+   "area_m2": 110.3712,
+   "general": 110,
+   "special": 221,
+   "pyeong_price": 2122,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84.9284B",
+   "size": 84,
+   "price": 68900,
+   "area_m2": 110.3797,
+   "general": 62,
+   "special": 121,
+   "pyeong_price": 2064,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "112.9387A",
+   "size": 112,
+   "price": 88760,
+   "area_m2": 144.4325,
+   "general": 355,
+   "special": 53,
+   "pyeong_price": 2032,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "112.8889B",
+   "size": 112,
+   "price": 86130,
+   "area_m2": 144.0423,
+   "general": 24,
+   "special": 4,
+   "pyeong_price": 1977,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "186.8963P",
+   "size": 186,
+   "price": 165440,
+   "area_m2": 243.4426,
+   "general": 6,
+   "special": 0,
+   "pyeong_price": 2247,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 557,
+ "special_total": 399,
+ "special_share_pct": 42,
+ "pyeong_min": 1977,
+ "pyeong_max": 2247,
+ "pyeong_avg": 2069,
+ "price_84_min": 68900,
+ "price_84_max": 70860,
+ "special_kinds": {
+  "신혼부부": 118,
+  "생애최초": 97,
+  "다자녀": 95,
+  "노부모 부양": 28,
+  "기관추천": 51
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9371A",
+    "supply": 110,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.01,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9284B",
+    "supply": 62,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.74,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "112.9387A",
+    "supply": 368,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.58,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "112.8889B",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.08,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "186.8963P",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.67,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 4496,
+  "rank1_req": 4159,
+  "supply_total": 572,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 7.27,
+  "best": {
+   "ty": "84.9371A",
+   "rate": 14.01,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9284B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9371A": 0,
+   "84.9284B": 0
+  },
+  "avg_min": 21.2,
+  "max": {
+   "score": 64,
+   "ty": "84.9371A"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 52,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
+  ],
+  "peer_avg_pyeong": 2526,
+  "diff": -457,
+  "diff_pct": -18,
+  "rank": 33,
+  "of": 53
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 52,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
+  ],
+  "peer_avg_rate": 7.4,
+  "rank": 11,
+  "of": 53
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 35,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "중흥S-클래스 힐더포레",
+   "만안역 중앙하이츠 포레"
+  ],
+  "peer_avg_min": 1.9,
+  "diff": -1.9
+ }
+}

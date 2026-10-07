@@ -1,0 +1,100 @@
+{
+ "no": "2026000416",
+ "name": "양주회천지구 A-26블록 공공분양주택",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-08-27",
+ "rank1_date": "2026-09-14",
+ "city": "양주시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000416&pblancNo=2026000416",
+ "households": 792,
+ "types": [
+  {
+   "ty": "59.74A",
+   "size": 59,
+   "price": 35708,
+   "area_m2": 82.6719,
+   "general": 41,
+   "special": 221,
+   "pyeong_price": 1428,
+   "special_share_pct": 84
+  },
+  {
+   "ty": "59.91B",
+   "size": 59,
+   "price": 35093,
+   "area_m2": 82.9072,
+   "general": 20,
+   "special": 112,
+   "pyeong_price": 1399,
+   "special_share_pct": 85
+  },
+  {
+   "ty": "74.61A",
+   "size": 74,
+   "price": 43704,
+   "area_m2": 103.25,
+   "general": 13,
+   "special": 74,
+   "pyeong_price": 1399,
+   "special_share_pct": 85
+  },
+  {
+   "ty": "74.97B",
+   "size": 74,
+   "price": 43718,
+   "area_m2": 103.7482,
+   "general": 12,
+   "special": 69,
+   "pyeong_price": 1393,
+   "special_share_pct": 85
+  },
+  {
+   "ty": "84.86A",
+   "size": 84,
+   "price": 49201,
+   "area_m2": 117.4346,
+   "general": 33,
+   "special": 197,
+   "pyeong_price": 1385,
+   "special_share_pct": 86
+  }
+ ],
+ "general_total": 119,
+ "special_total": 673,
+ "special_share_pct": 85,
+ "pyeong_min": 1385,
+ "pyeong_max": 1428,
+ "pyeong_avg": 1404,
+ "price_84_min": 49201,
+ "price_84_max": 49201,
+ "special_kinds": {
+  "신혼부부": 79,
+  "생애최초": 119,
+  "신생아": 158,
+  "다자녀": 79,
+  "노부모 부양": 40,
+  "기관추천": 119
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 19,
+  "peers": [
+   "고덕신도시 아테라 A-63블록 공공분양주택",
+   "안양 에버포레 자연앤 e편한세상(A2BL)",
+   "고양 창릉 우미 린 그레니티 공공분양주택(본청약)",
+   "왕숙 아테라 공공분양주택(본청약)",
+   "남양주왕숙2 A-3블록 공공분양주택(본청약)",
+   "화성동탄2지구 C-27블록 공공분양주택",
+   "군포대야미지구 A-1블록 6년 분양전환공공임대주택(본청약)",
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 1929,
+  "diff": -525,
+  "diff_pct": -27,
+  "rank": 19,
+  "of": 20
+ }
+}

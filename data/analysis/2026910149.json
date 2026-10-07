@@ -1,0 +1,84 @@
+{
+ "no": "2026910149",
+ "name": "선운지구다사로움 공가세대 일반공급",
+ "kind": "remndr",
+ "region": "광주",
+ "notice_date": "2026-06-08",
+ "rank1_date": "2026-06-15",
+ "city": "광산구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910149&pblancNo=2026910149",
+ "households": 20,
+ "types": [
+  {
+   "ty": "49.7426A",
+   "size": 49,
+   "price": 19250,
+   "area_m2": null,
+   "general": 15,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "76.8786A",
+   "size": 76,
+   "price": 27850,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8497A",
+   "size": 84,
+   "price": 29550,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 20,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 29550,
+ "price_84_max": 29550,
+ "competition": {
+  "types": [
+   {
+    "ty": "49.7426A",
+    "supply": 15,
+    "closed_at": "None순위 None",
+    "rate": 2.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "76.8786A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 5.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8497A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 14.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 88,
+  "rank1_req": 0,
+  "supply_total": 20,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8497A",
+   "rate": 14.33,
+   "stage": "None순위 None"
+  }
+ }
+}

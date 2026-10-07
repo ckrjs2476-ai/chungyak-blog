@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)시너지밸류제2호",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-16",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-16",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.oceanforebenest.com",
+  "HOUSE_MANAGE_NO": "2026910156",
+  "HOUSE_NM": "오션포레베네스트하우스(미단시티 공동8BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 중구 자연대로 667(오션포레베네스트하우스)",
+  "HSSPLY_ZIP": "22355",
+  "MDHS_TELNO": "15551471",
+  "MVN_PREARNGE_YM": "202607",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910156",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910156&pblancNo=2026910156",
+  "PRZWNER_PRESNATN_DE": "2026-07-09",
+  "RCRIT_PBLANC_DE": "2026-07-01",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-06",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-06",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910156",
+   "HOUSE_TY": "084.9673 ",
+   "LTTOT_TOP_AMOUNT": "44200",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910156",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "3.33",
+   "HOUSE_MANAGE_NO": "2026910156",
+   "HOUSE_TY": "084.9673 ",
+   "PBLANC_NO": "2026910156",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:21.692990+09:00"
+}

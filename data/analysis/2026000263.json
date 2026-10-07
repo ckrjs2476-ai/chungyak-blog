@@ -1,0 +1,135 @@
+{
+ "no": "2026000263",
+ "name": "신문 대상 웰라움 라시엘",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-06-19",
+ "rank1_date": "2026-06-30",
+ "city": "김해시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000263&pblancNo=2026000263",
+ "households": 375,
+ "types": [
+  {
+   "ty": "84.8659A",
+   "size": 84,
+   "price": 49930,
+   "area_m2": 110.1874,
+   "general": 129,
+   "special": 154,
+   "pyeong_price": 1498,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.8215B",
+   "size": 84,
+   "price": 49890,
+   "area_m2": 111.2173,
+   "general": 39,
+   "special": 47,
+   "pyeong_price": 1483,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "135.2181",
+   "size": 135,
+   "price": 105990,
+   "area_m2": 180.0646,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1946,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "147.5507",
+   "size": 147,
+   "price": 115770,
+   "area_m2": 196.6855,
+   "general": 2,
+   "special": 2,
+   "pyeong_price": 1946,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 171,
+ "special_total": 204,
+ "special_share_pct": 54,
+ "pyeong_min": 1483,
+ "pyeong_max": 1946,
+ "pyeong_avg": 1502,
+ "price_84_min": 49890,
+ "price_84_max": 49930,
+ "special_kinds": {
+  "신혼부부": 55,
+  "생애최초": 26,
+  "신생아": 37,
+  "다자녀": 38,
+  "노부모 부양": 11,
+  "기관추천": 37
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8659A",
+    "supply": 283,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 278
+   },
+   {
+    "ty": "84.8215B",
+    "supply": 86,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 86
+   },
+   {
+    "ty": "135.2181",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "147.5507",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   }
+  ],
+  "req_total": 5,
+  "rank1_req": 3,
+  "supply_total": 375,
+  "final_shortfall_total": 370,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.01
+ },
+ "region_price": {
+  "scope": "김해시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "김해 신문 센트럴 아이파크",
+   "트리븐 김해"
+  ],
+  "peer_avg_pyeong": 1644,
+  "diff": -142,
+  "diff_pct": -9,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "김해시",
+  "peer_count": 2,
+  "peers": [
+   "김해 신문 센트럴 아이파크",
+   "트리븐 김해"
+  ],
+  "peer_avg_rate": 0.64,
+  "rank": 3,
+  "of": 3
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "오산시현대지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-12",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.osan-hillstate.co.kr",
+  "HOUSE_MANAGE_NO": "2025910239",
+  "HOUSE_NM": "힐스테이트 오산 더퍼스트(조합원 자격상실 및 제명세대)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 오산시 경기대로 24-27 (갈곶동, 힐스테이트오산더퍼스트)",
+  "HSSPLY_ZIP": "18145",
+  "MDHS_TELNO": "0313732999",
+  "MVN_PREARNGE_YM": "202601",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910239",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910239&pblancNo=2025910239",
+  "PRZWNER_PRESNATN_DE": "2025-12-04",
+  "RCRIT_PBLANC_DE": "2025-11-25",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-01",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-01",
+  "TOT_SUPLY_HSHLDCO": 12
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910239",
+   "HOUSE_TY": "059.9944 ",
+   "LTTOT_TOP_AMOUNT": "37655",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910239",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910239",
+   "HOUSE_TY": "064.9972 ",
+   "LTTOT_TOP_AMOUNT": "39990",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910239",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910239",
+   "HOUSE_TY": "084.9773 ",
+   "LTTOT_TOP_AMOUNT": "52684",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910239",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "9.75",
+   "HOUSE_MANAGE_NO": "2025910239",
+   "HOUSE_TY": "059.9944 ",
+   "PBLANC_NO": "2025910239",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "39",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "5.00",
+   "HOUSE_MANAGE_NO": "2025910239",
+   "HOUSE_TY": "064.9972 ",
+   "PBLANC_NO": "2025910239",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "15",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "7.40",
+   "HOUSE_MANAGE_NO": "2025910239",
+   "HOUSE_TY": "084.9773 ",
+   "PBLANC_NO": "2025910239",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "37",
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:20.952665+09:00"
+}

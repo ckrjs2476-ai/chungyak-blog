@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "황학동청계지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-03-13",
+  "CNTRCT_CNCLS_ENDDE": "2026-03-14",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://청계노르웨이숲.com",
+  "HOUSE_MANAGE_NO": "2026910041",
+  "HOUSE_NM": "청계 노르웨이숲(6차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 중구 황학동 1756번지 일원",
+  "HSSPLY_ZIP": "04574",
+  "MDHS_TELNO": "15550807",
+  "MVN_PREARNGE_YM": "202807",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910041",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910041&pblancNo=2026910041",
+  "PRZWNER_PRESNATN_DE": "2026-03-06",
+  "RCRIT_PBLANC_DE": "2026-02-25",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-03",
+  "TOT_SUPLY_HSHLDCO": 30
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910041",
+   "HOUSE_TY": "039.6950 ",
+   "LTTOT_TOP_AMOUNT": "76112",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910041",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 30
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "4.60",
+   "HOUSE_MANAGE_NO": "2026910041",
+   "HOUSE_TY": "039.6950 ",
+   "PBLANC_NO": "2026910041",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "138",
+   "SUPLY_HSHLDCO": 30
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:00.160438+09:00"
+}

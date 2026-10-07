@@ -1,0 +1,186 @@
+{
+ "no": "2026000316",
+ "name": "오산헤리티지자이 2단지",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-10",
+ "rank1_date": "2026-07-21",
+ "city": "오산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000316&pblancNo=2026000316",
+ "households": 714,
+ "types": [
+  {
+   "ty": "75.4736",
+   "size": 75,
+   "price": 73380,
+   "area_m2": 99.1407,
+   "general": 24,
+   "special": 23,
+   "pyeong_price": 2447,
+   "special_share_pct": 49
+  },
+  {
+   "ty": "84.9796A",
+   "size": 84,
+   "price": 78300,
+   "area_m2": 111.8083,
+   "general": 108,
+   "special": 131,
+   "pyeong_price": 2315,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9665B",
+   "size": 84,
+   "price": 78900,
+   "area_m2": 112.3861,
+   "general": 82,
+   "special": 94,
+   "pyeong_price": 2321,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.8237C",
+   "size": 84,
+   "price": 79400,
+   "area_m2": 111.4434,
+   "general": 84,
+   "special": 100,
+   "pyeong_price": 2355,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "102.6201",
+   "size": 102,
+   "price": 90710,
+   "area_m2": 130.8984,
+   "general": 38,
+   "special": 5,
+   "pyeong_price": 2291,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "124.8692",
+   "size": 124,
+   "price": 106300,
+   "area_m2": 157.5044,
+   "general": 20,
+   "special": 3,
+   "pyeong_price": 2231,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "166.2309P",
+   "size": 166,
+   "price": 207730,
+   "area_m2": 210.1771,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3267,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 358,
+ "special_total": 356,
+ "special_share_pct": 50,
+ "pyeong_min": 2231,
+ "pyeong_max": 3267,
+ "pyeong_avg": 2334,
+ "price_84_min": 78300,
+ "price_84_max": 79400,
+ "special_kinds": {
+  "신혼부부": 96,
+  "생애최초": 44,
+  "신생아": 63,
+  "다자녀": 69,
+  "노부모 부양": 21,
+  "기관추천": 63
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "75.4736",
+    "supply": 46,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 36
+   },
+   {
+    "ty": "84.9796A",
+    "supply": 237,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 222
+   },
+   {
+    "ty": "84.9665B",
+    "supply": 171,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 163
+   },
+   {
+    "ty": "84.8237C",
+    "supply": 184,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 179
+   },
+   {
+    "ty": "102.6201",
+    "supply": 43,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 40
+   },
+   {
+    "ty": "124.8692",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "166.2309P",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   }
+  ],
+  "req_total": 43,
+  "rank1_req": 35,
+  "supply_total": 706,
+  "final_shortfall_total": 663,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.05
+ },
+ "region_price": {
+  "scope": "오산시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "북오산자이 드포레",
+   "오산헤리티지자이 1단지"
+  ],
+  "peer_avg_pyeong": 2197,
+  "diff": 137,
+  "diff_pct": 6,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "오산시",
+  "peer_count": 2,
+  "peers": [
+   "북오산자이 드포레",
+   "오산헤리티지자이 1단지"
+  ],
+  "peer_avg_rate": 0.28,
+  "rank": 3,
+  "of": 3
+ }
+}

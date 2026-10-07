@@ -1,0 +1,140 @@
+{
+ "no": "2026000365",
+ "name": "오남역 서희스타힐스 여의재 1단지",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-08-13",
+ "rank1_date": "2026-08-25",
+ "city": "남양주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000365&pblancNo=2026000365",
+ "households": 180,
+ "types": [
+  {
+   "ty": "59.7153A",
+   "size": 59,
+   "price": 55400,
+   "area_m2": 83.9533,
+   "general": 40,
+   "special": 43,
+   "pyeong_price": 2181,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.9642B",
+   "size": 59,
+   "price": 54800,
+   "area_m2": 84.9886,
+   "general": 31,
+   "special": 32,
+   "pyeong_price": 2132,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "75.4603",
+   "size": 75,
+   "price": 65900,
+   "area_m2": 104.8271,
+   "general": 11,
+   "special": 8,
+   "pyeong_price": 2078,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "84.9596",
+   "size": 84,
+   "price": 71900,
+   "area_m2": 117.9293,
+   "general": 9,
+   "special": 6,
+   "pyeong_price": 2016,
+   "special_share_pct": 40
+  }
+ ],
+ "general_total": 91,
+ "special_total": 89,
+ "special_share_pct": 49,
+ "pyeong_min": 2016,
+ "pyeong_max": 2181,
+ "pyeong_avg": 2139,
+ "price_84_min": 71900,
+ "price_84_max": 71900,
+ "special_kinds": {
+  "신혼부부": 25,
+  "생애최초": 11,
+  "신생아": 16,
+  "다자녀": 17,
+  "노부모 부양": 3,
+  "기관추천": 17
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7153A",
+    "supply": 66,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   },
+   {
+    "ty": "59.9642B",
+    "supply": 56,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 39
+   },
+   {
+    "ty": "75.4603",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "84.9596",
+    "supply": 9,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.6,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 87,
+  "rank1_req": 56,
+  "supply_total": 146,
+  "final_shortfall_total": 69,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 4,
+  "rank1_avg_rate": 0.38,
+  "best": {
+   "ty": "84.9596",
+   "rate": 1.6,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "region_price": {
+  "scope": "남양주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "남양주 진접 서한이다음(S1BL)"
+  ],
+  "peer_avg_pyeong": 1994,
+  "diff": 145,
+  "diff_pct": 7,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "남양주시",
+  "peer_count": 2,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "남양주 진접 서한이다음(S1BL)"
+  ],
+  "peer_avg_rate": 2.25,
+  "rank": 3,
+  "of": 3
+ }
+}

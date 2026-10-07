@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "식사동지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-05",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-05",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://siksaprugio.com",
+  "HOUSE_MANAGE_NO": "2025910227",
+  "HOUSE_NM": "식사 푸르지오 파크센트",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 고양시 일산동구 식사동 1126번지 일대",
+  "HSSPLY_ZIP": "10304",
+  "MDHS_TELNO": "15332060",
+  "MVN_PREARNGE_YM": "202806",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910227",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910227&pblancNo=2025910227",
+  "PRZWNER_PRESNATN_DE": "2025-11-28",
+  "RCRIT_PBLANC_DE": "2025-11-20",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-25",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-25",
+  "TOT_SUPLY_HSHLDCO": 33
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910227",
+   "HOUSE_TY": "074.9682 ",
+   "LTTOT_TOP_AMOUNT": "72500",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910227",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 32
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910227",
+   "HOUSE_TY": "084.8777A",
+   "LTTOT_TOP_AMOUNT": "81200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910227",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.16",
+   "HOUSE_MANAGE_NO": "2025910227",
+   "HOUSE_TY": "074.9682 ",
+   "PBLANC_NO": "2025910227",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "37",
+   "SUPLY_HSHLDCO": 32
+  },
+  {
+   "CMPET_RATE": "13.00",
+   "HOUSE_MANAGE_NO": "2025910227",
+   "HOUSE_TY": "084.8777A",
+   "PBLANC_NO": "2025910227",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "13",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:27.487916+09:00"
+}

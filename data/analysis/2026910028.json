@@ -1,0 +1,63 @@
+{
+ "no": "2026910028",
+ "name": "태화강 센트럴 아이파크",
+ "kind": "remndr",
+ "region": "울산",
+ "notice_date": "2026-01-28",
+ "rank1_date": "2026-02-02",
+ "city": "중구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910028&pblancNo=2026910028",
+ "households": 300,
+ "types": [
+  {
+   "ty": "84.9714A",
+   "size": 84,
+   "price": 80700,
+   "area_m2": null,
+   "general": 175,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9447B",
+   "size": 84,
+   "price": 80100,
+   "area_m2": null,
+   "general": 125,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 300,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 80100,
+ "price_84_max": 80700,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9447B",
+    "supply": 125,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 112
+   },
+   {
+    "ty": "84.9714A",
+    "supply": 175,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 129
+   }
+  ],
+  "req_total": 59,
+  "rank1_req": 0,
+  "supply_total": 300,
+  "final_shortfall_total": 241,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

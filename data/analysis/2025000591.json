@@ -1,0 +1,157 @@
+{
+ "no": "2025000591",
+ "name": "시흥거모 엘가 로제비앙",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-28",
+ "rank1_date": "2025-12-09",
+ "city": "시흥시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000591&pblancNo=2025000591",
+ "households": 480,
+ "types": [
+  {
+   "ty": "61.9953",
+   "size": 61,
+   "price": 45880,
+   "area_m2": 82.0805,
+   "general": 44,
+   "special": 73,
+   "pyeong_price": 1848,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.9877A",
+   "size": 84,
+   "price": 58670,
+   "area_m2": 111.9606,
+   "general": 97,
+   "special": 171,
+   "pyeong_price": 1732,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.9909B",
+   "size": 84,
+   "price": 57890,
+   "area_m2": 111.8838,
+   "general": 36,
+   "special": 59,
+   "pyeong_price": 1710,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 177,
+ "special_total": 303,
+ "special_share_pct": 63,
+ "pyeong_min": 1710,
+ "pyeong_max": 1848,
+ "pyeong_avg": 1756,
+ "price_84_min": 57890,
+ "price_84_max": 58670,
+ "special_kinds": {
+  "신혼부부": 108,
+  "생애최초": 90,
+  "다자녀": 46,
+  "노부모 부양": 13,
+  "기관추천": 46
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "61.9953",
+    "supply": 58,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.29,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9877A",
+    "supply": 223,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.1,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "84.9909B",
+    "supply": 89,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 31
+   }
+  ],
+  "req_total": 451,
+  "rank1_req": 354,
+  "supply_total": 370,
+  "final_shortfall_total": 45,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 3,
+  "rank1_avg_rate": 0.96,
+  "best": {
+   "ty": "61.9953",
+   "rate": 6.29,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 35,
+   "ty": "61.9953",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "61.9953": 35
+  },
+  "avg_min": 46.3,
+  "max": {
+   "score": 69,
+   "ty": "61.9953"
+  }
+ },
+ "region_price": {
+  "scope": "시흥시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+   "시흥거모B1 호반써밋",
+   "힐스테이트 시흥더클래스"
+  ],
+  "peer_avg_pyeong": 2056,
+  "diff": -300,
+  "diff_pct": -15,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "시흥시",
+  "peer_count": 4,
+  "peers": [
+   "시흥거모지구 대방 엘리움 더 루체Ⅰ(S-2BL)",
+   "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+   "시흥거모B1 호반써밋",
+   "힐스테이트 시흥더클래스"
+  ],
+  "peer_avg_rate": 0.5,
+  "rank": 1,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 43,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "중흥S-클래스 힐더포레"
+  ],
+  "peer_avg_min": 0.7,
+  "diff": 34.3
+ }
+}

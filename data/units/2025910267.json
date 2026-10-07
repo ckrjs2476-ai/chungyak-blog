@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)한국토지신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-15",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-15",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.효성해링턴플레이스양평.com",
+  "HOUSE_MANAGE_NO": "2025910267",
+  "HOUSE_NM": "효성해링턴 플레이스 양평",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 양평군 양평읍 오빈리 140-1번지 일원",
+  "HSSPLY_ZIP": "12545",
+  "MDHS_TELNO": "15334429",
+  "MVN_PREARNGE_YM": "202804",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910267",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910267&pblancNo=2025910267",
+  "PRZWNER_PRESNATN_DE": "2026-01-12",
+  "RCRIT_PBLANC_DE": "2026-01-02",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-07",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-07",
+  "TOT_SUPLY_HSHLDCO": 4
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910267",
+   "HOUSE_TY": "117.5352A",
+   "LTTOT_TOP_AMOUNT": "138430",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910267",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910267",
+   "HOUSE_TY": "117.9547C",
+   "LTTOT_TOP_AMOUNT": "138430",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910267",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.00",
+   "HOUSE_MANAGE_NO": "2025910267",
+   "HOUSE_TY": "117.5352A",
+   "PBLANC_NO": "2025910267",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2025910267",
+   "HOUSE_TY": "117.9547C",
+   "PBLANC_NO": "2025910267",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:31.856663+09:00"
+}

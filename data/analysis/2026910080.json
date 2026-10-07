@@ -1,0 +1,148 @@
+{
+ "no": "2026910080",
+ "name": "구리역 하이니티 리버파크",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-04-13",
+ "rank1_date": "2026-04-20",
+ "city": "구리시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910080&pblancNo=2026910080",
+ "households": 341,
+ "types": [
+  {
+   "ty": "38.9104",
+   "size": 38,
+   "price": 71380,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "44.3798",
+   "size": 44,
+   "price": 81270,
+   "area_m2": null,
+   "general": 90,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9882A",
+   "size": 59,
+   "price": 101980,
+   "area_m2": null,
+   "general": 77,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9873B",
+   "size": 59,
+   "price": 104270,
+   "area_m2": null,
+   "general": 30,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "77.9949",
+   "size": 77,
+   "price": 124140,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9908",
+   "size": 84,
+   "price": 135070,
+   "area_m2": null,
+   "general": 66,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "110.9548",
+   "size": 110,
+   "price": 183650,
+   "area_m2": null,
+   "general": 56,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 341,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 135070,
+ "price_84_max": 135070,
+ "competition": {
+  "types": [
+   {
+    "ty": "38.9104",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 5.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "44.3798",
+    "supply": 90,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "59.9873B",
+    "supply": 30,
+    "closed_at": "None순위 None",
+    "rate": 10.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9882A",
+    "supply": 77,
+    "closed_at": "None순위 None",
+    "rate": 8.21,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "77.9949",
+    "supply": 13,
+    "closed_at": "None순위 None",
+    "rate": 2.62,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9908",
+    "supply": 66,
+    "closed_at": "None순위 None",
+    "rate": 1.98,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "110.9548",
+    "supply": 56,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 48
+   }
+  ],
+  "req_total": 1239,
+  "rank1_req": 0,
+  "supply_total": 341,
+  "final_shortfall_total": 52,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.9873B",
+   "rate": 10.0,
+   "stage": "None순위 None"
+  }
+ }
+}

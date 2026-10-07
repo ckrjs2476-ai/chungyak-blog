@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "안락1구역주택재건축정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-11",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-11",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://prugio.com/hb/2025/eduforet/",
+  "HOUSE_MANAGE_NO": "2026910026",
+  "HOUSE_NM": "동래 푸르지오 에듀포레",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 동래구 안락동 1230번지 일원",
+  "HSSPLY_ZIP": "47777",
+  "MDHS_TELNO": "0517316523",
+  "MVN_PREARNGE_YM": "203003",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910026",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910026&pblancNo=2026910026",
+  "PRZWNER_PRESNATN_DE": "2026-02-06",
+  "RCRIT_PBLANC_DE": "2026-01-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-02",
+  "TOT_SUPLY_HSHLDCO": 33
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910026",
+   "HOUSE_TY": "074.5107A",
+   "LTTOT_TOP_AMOUNT": "70390",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910026",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910026",
+   "HOUSE_TY": "076.9205A",
+   "LTTOT_TOP_AMOUNT": "72280",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910026",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 14
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△10)",
+   "HOUSE_MANAGE_NO": "2026910026",
+   "HOUSE_TY": "074.5107A",
+   "PBLANC_NO": "2026910026",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910026",
+   "HOUSE_TY": "076.9205A",
+   "PBLANC_NO": "2026910026",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "13",
+   "SUPLY_HSHLDCO": 14
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:42.856684+09:00"
+}

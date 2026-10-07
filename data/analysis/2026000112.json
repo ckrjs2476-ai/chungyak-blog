@@ -1,0 +1,191 @@
+{
+ "no": "2026000112",
+ "name": "용인 고림 동문 디 이스트",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-10",
+ "rank1_date": "2026-04-21",
+ "city": "용인시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000112&pblancNo=2026000112",
+ "households": 350,
+ "types": [
+  {
+   "ty": "59.901",
+   "size": 59,
+   "price": 56200,
+   "area_m2": 82.9297,
+   "general": 31,
+   "special": 43,
+   "pyeong_price": 2240,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "75.7753A",
+   "size": 75,
+   "price": 67770,
+   "area_m2": 105.4199,
+   "general": 57,
+   "special": 72,
+   "pyeong_price": 2125,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "75.7218B",
+   "size": 75,
+   "price": 66930,
+   "area_m2": 104.1299,
+   "general": 15,
+   "special": 26,
+   "pyeong_price": 2125,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.791A",
+   "size": 84,
+   "price": 71570,
+   "area_m2": 113.0052,
+   "general": 32,
+   "special": 38,
+   "pyeong_price": 2094,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.7677B",
+   "size": 84,
+   "price": 70570,
+   "area_m2": 112.5525,
+   "general": 15,
+   "special": 21,
+   "pyeong_price": 2073,
+   "special_share_pct": 58
+  }
+ ],
+ "general_total": 150,
+ "special_total": 200,
+ "special_share_pct": 57,
+ "pyeong_min": 2073,
+ "pyeong_max": 2240,
+ "pyeong_avg": 2138,
+ "price_84_min": 70570,
+ "price_84_max": 71570,
+ "special_kinds": {
+  "신혼부부": 81,
+  "생애최초": 32,
+  "다자녀": 37,
+  "노부모 부양": 13,
+  "기관추천": 37
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.901",
+    "supply": 43,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.7753A",
+    "supply": 125,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 104
+   },
+   {
+    "ty": "75.7218B",
+    "supply": 40,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "84.791A",
+    "supply": 64,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 44
+   },
+   {
+    "ty": "84.7677B",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   }
+  ],
+  "req_total": 146,
+  "rank1_req": 93,
+  "supply_total": 308,
+  "final_shortfall_total": 201,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 5,
+  "rank1_avg_rate": 0.3,
+  "best": {
+   "ty": "59.901",
+   "rate": 2.6,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.901",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.901": 0
+  },
+  "avg_min": 14.0,
+  "max": {
+   "score": 41,
+   "ty": "59.901"
+  }
+ },
+ "region_price": {
+  "scope": "용인시",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "수지자이 에디시온",
+   "용인 푸르지오 클루센트",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)"
+  ],
+  "peer_avg_pyeong": 2348,
+  "diff": -210,
+  "diff_pct": -9,
+  "rank": 4,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "용인시",
+  "peer_count": 6,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "수지자이 에디시온",
+   "용인 푸르지오 클루센트",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)"
+  ],
+  "peer_avg_rate": 1.26,
+  "rank": 5,
+  "of": 7
+ },
+ "region_score": {
+  "scope": "용인시",
+  "peer_count": 4,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "수지자이 에디시온",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

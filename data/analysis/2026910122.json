@@ -1,0 +1,47 @@
+{
+ "no": "2026910122",
+ "name": "문수로 라티에르 673",
+ "kind": "remndr",
+ "region": "울산",
+ "notice_date": "2026-05-21",
+ "rank1_date": "2026-05-26",
+ "city": "남구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910122&pblancNo=2026910122",
+ "households": 12,
+ "types": [
+  {
+   "ty": "84.855B",
+   "size": 84,
+   "price": 91500,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 12,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 91500,
+ "price_84_max": 91500,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.855B",
+    "supply": 12,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 0,
+  "supply_total": 12,
+  "final_shortfall_total": 6,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

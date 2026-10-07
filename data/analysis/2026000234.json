@@ -1,0 +1,99 @@
+{
+ "no": "2026000234",
+ "name": "에코델타시티 중흥S-클래스 리버시티",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-06-19",
+ "rank1_date": "2026-06-30",
+ "city": "강서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000234&pblancNo=2026000234",
+ "households": 501,
+ "types": [
+  {
+   "ty": "59.9627A",
+   "size": 59,
+   "price": 42100,
+   "area_m2": 80.7274,
+   "general": 140,
+   "special": 255,
+   "pyeong_price": 1724,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "59.9852B",
+   "size": 59,
+   "price": 39900,
+   "area_m2": 81.7206,
+   "general": 36,
+   "special": 70,
+   "pyeong_price": 1614,
+   "special_share_pct": 66
+  }
+ ],
+ "general_total": 176,
+ "special_total": 325,
+ "special_share_pct": 65,
+ "pyeong_min": 1614,
+ "pyeong_max": 1724,
+ "pyeong_avg": 1701,
+ "special_kinds": {
+  "신혼부부": 75,
+  "생애최초": 85,
+  "신생아": 50,
+  "다자녀": 50,
+  "노부모 부양": 15,
+  "기관추천": 50
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9627A",
+    "supply": 382,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 339
+   },
+   {
+    "ty": "59.9852B",
+    "supply": 102,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 86
+   }
+  ],
+  "req_total": 59,
+  "rank1_req": 38,
+  "supply_total": 484,
+  "final_shortfall_total": 425,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.08
+ },
+ "region_price": {
+  "scope": "강서구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "에코델타시티 엘가 로제비앙",
+   "에코델타시티 금강펜테리움 에코리버"
+  ],
+  "peer_avg_pyeong": 1909,
+  "diff": -208,
+  "diff_pct": -11,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "강서구",
+  "peer_count": 2,
+  "peers": [
+   "에코델타시티 엘가 로제비앙",
+   "에코델타시티 금강펜테리움 에코리버"
+  ],
+  "peer_avg_rate": 0.04,
+  "rank": 1,
+  "of": 3
+ }
+}

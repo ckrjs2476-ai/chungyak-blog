@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 남악오룡2피에프브이",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-12",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.오룡2지구지엔하임.com/",
+  "HOUSE_MANAGE_NO": "2025910236",
+  "HOUSE_NM": "오룡2지구 지엔하임 38블록",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "전라남도 무안군 일로읍 오룡리 290(오룡지구 38BL)",
+  "HSSPLY_ZIP": "58582",
+  "MDHS_TELNO": "18442800",
+  "MVN_PREARNGE_YM": "202812",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910236",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910236&pblancNo=2025910236",
+  "PRZWNER_PRESNATN_DE": "2025-12-05",
+  "RCRIT_PBLANC_DE": "2025-11-27",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "513",
+  "SUBSCRPT_AREA_CODE_NM": "전남",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-02",
+  "TOT_SUPLY_HSHLDCO": 135
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910236",
+   "HOUSE_TY": "084.9933A",
+   "LTTOT_TOP_AMOUNT": "42130",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910236",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 80
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910236",
+   "HOUSE_TY": "084.9226B",
+   "LTTOT_TOP_AMOUNT": "41840",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910236",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 55
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△48)",
+   "HOUSE_MANAGE_NO": "2025910236",
+   "HOUSE_TY": "084.9226B",
+   "PBLANC_NO": "2025910236",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 55
+  },
+  {
+   "CMPET_RATE": "(△4)",
+   "HOUSE_MANAGE_NO": "2025910236",
+   "HOUSE_TY": "084.9933A",
+   "PBLANC_NO": "2025910236",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "76",
+   "SUPLY_HSHLDCO": 80
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:12.026742+09:00"
+}

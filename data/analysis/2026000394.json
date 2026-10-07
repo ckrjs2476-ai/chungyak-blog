@@ -1,0 +1,130 @@
+{
+ "no": "2026000394",
+ "name": "더샵 여주역더퍼스트",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-09-03",
+ "rank1_date": "2026-09-15",
+ "city": "여주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000394&pblancNo=2026000394",
+ "households": 696,
+ "types": [
+  {
+   "ty": "84.6536A",
+   "size": 84,
+   "price": 51965,
+   "area_m2": 112.4076,
+   "general": 247,
+   "special": 299,
+   "pyeong_price": 1528,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.0452B",
+   "size": 84,
+   "price": 51860,
+   "area_m2": 113.0481,
+   "general": 56,
+   "special": 68,
+   "pyeong_price": 1517,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8414C",
+   "size": 84,
+   "price": 50786,
+   "area_m2": 112.3926,
+   "general": 10,
+   "special": 16,
+   "pyeong_price": 1494,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 313,
+ "special_total": 383,
+ "special_share_pct": 55,
+ "pyeong_min": 1494,
+ "pyeong_max": 1528,
+ "pyeong_avg": 1525,
+ "price_84_min": 50786,
+ "price_84_max": 51965,
+ "special_kinds": {
+  "신혼부부": 105,
+  "생애최초": 49,
+  "신생아": 70,
+  "다자녀": 70,
+  "노부모 부양": 21,
+  "기관추천": 68
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6536A",
+    "supply": 536,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 436
+   },
+   {
+    "ty": "84.0452B",
+    "supply": 123,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 114
+   },
+   {
+    "ty": "84.8414C",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   }
+  ],
+  "req_total": 121,
+  "rank1_req": 93,
+  "supply_total": 685,
+  "final_shortfall_total": 564,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.14
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 45,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "시흥거모B1 호반써밋",
+   "의정부역 센트럴 아이파크",
+   "야목역 서희스타힐스 그랜드힐",
+   "힐스테이트 안양펠루스",
+   "풍무역세권 수자인 그라센트 2차"
+  ],
+  "peer_avg_pyeong": 2401,
+  "diff": -876,
+  "diff_pct": -36,
+  "rank": 46,
+  "of": 46
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 43,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "시흥거모B1 호반써밋",
+   "의정부역 센트럴 아이파크",
+   "야목역 서희스타힐스 그랜드힐",
+   "힐스테이트 안양펠루스",
+   "풍무역세권 수자인 그라센트 2차"
+  ],
+  "peer_avg_rate": 2.39,
+  "rank": 39,
+  "of": 44
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "no": "2025000552",
+ "name": "한화포레나 부산대연",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2025-12-12",
+ "rank1_date": "2025-12-23",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000552&pblancNo=2025000552",
+ "households": 104,
+ "types": [
+  {
+   "ty": "59.8962",
+   "size": 59,
+   "price": 81400,
+   "area_m2": 80.9779,
+   "general": 55,
+   "special": 49,
+   "pyeong_price": 3323,
+   "special_share_pct": 47
+  }
+ ],
+ "general_total": 55,
+ "special_total": 49,
+ "special_share_pct": 47,
+ "pyeong_min": 3323,
+ "pyeong_max": 3323,
+ "pyeong_avg": 3323,
+ "special_kinds": {
+  "신혼부부": 20,
+  "생애최초": 8,
+  "다자녀": 9,
+  "노부모 부양": 3,
+  "기관추천": 9
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.8962",
+    "supply": 55,
+    "closed_at": "1순위 해당지역",
+    "rate": 18.75,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1155,
+  "rank1_req": 1155,
+  "supply_total": 55,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 1,
+  "rank1_avg_rate": 21.0,
+  "best": {
+   "ty": "59.8962",
+   "rate": 18.75,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.8962",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.8962": 0
+  },
+  "avg_min": 27.0,
+  "max": {
+   "score": 73,
+   "ty": "59.8962"
+  }
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 23,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "퀸즈이즈카운티",
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역"
+  ],
+  "peer_avg_pyeong": 2464,
+  "diff": 859,
+  "diff_pct": 35,
+  "rank": 3,
+  "of": 24
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 23,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "퀸즈이즈카운티",
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역"
+  ],
+  "peer_avg_rate": 2.07,
+  "rank": 2,
+  "of": 24
+ },
+ "region_score": {
+  "scope": "부산",
+  "peer_count": 12,
+  "peers": [
+   "서면 어반센트 데시앙",
+   "베뉴브 해운대",
+   "힐스테이트 사직 아시아드",
+   "더파크 비스타동원",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

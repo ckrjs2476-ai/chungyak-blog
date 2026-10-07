@@ -1,0 +1,228 @@
+{
+ "no": "2026000241",
+ "name": "드파인 아르티아",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-06-19",
+ "rank1_date": "2026-06-30",
+ "city": "동작구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000241&pblancNo=2026000241",
+ "households": 171,
+ "types": [
+  {
+   "ty": "59.8902A",
+   "size": 59,
+   "price": 224000,
+   "area_m2": 89.9361,
+   "general": 10,
+   "special": 11,
+   "pyeong_price": 8234,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.9055B",
+   "size": 59,
+   "price": 226200,
+   "area_m2": 90.1096,
+   "general": 10,
+   "special": 7,
+   "pyeong_price": 8298,
+   "special_share_pct": 41
+  },
+  {
+   "ty": "74.9117A",
+   "size": 74,
+   "price": 249000,
+   "area_m2": 111.3802,
+   "general": 11,
+   "special": 12,
+   "pyeong_price": 7390,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8554A",
+   "size": 84,
+   "price": 263000,
+   "area_m2": 126.8837,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 6852,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 276000,
+   "area_m2": 126.2619,
+   "general": 24,
+   "special": 32,
+   "pyeong_price": 7226,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84C",
+   "size": 84,
+   "price": 273200,
+   "area_m2": 124.7641,
+   "general": 15,
+   "special": 22,
+   "pyeong_price": 7239,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "109.8652A",
+   "size": 109,
+   "price": 306000,
+   "area_m2": 162.5899,
+   "general": 10,
+   "special": 2,
+   "pyeong_price": 6222,
+   "special_share_pct": 17
+  }
+ ],
+ "general_total": 85,
+ "special_total": 86,
+ "special_share_pct": 50,
+ "pyeong_min": 6222,
+ "pyeong_max": 8298,
+ "pyeong_avg": 7400,
+ "price_84_min": 263000,
+ "price_84_max": 276000,
+ "special_kinds": {
+  "신혼부부": 23,
+  "생애최초": 11,
+  "신생아": 15,
+  "다자녀": 17,
+  "노부모 부양": 5,
+  "기관추천": 15
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.8902A",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 50.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9055B",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 36.7,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9117A",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 9.09,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8554A",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84B",
+    "supply": 24,
+    "closed_at": "1순위 해당지역",
+    "rate": 9.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84C",
+    "supply": 15,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.93,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "109.8652A",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.83,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1753,
+  "rank1_req": 1638,
+  "supply_total": 87,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 7,
+  "type_count": 7,
+  "rank1_avg_rate": 18.83,
+  "best": {
+   "ty": "59.8902A",
+   "rate": 50.1,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "109.8652A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.8902A": 0,
+   "59.9055B": 0,
+   "74.9117A": 0,
+   "84.8554A": 0,
+   "84B": 0,
+   "84C": 0,
+   "109.8652A": 0
+  },
+  "avg_min": 25.5,
+  "max": {
+   "score": 68,
+   "ty": "84B"
+  }
+ },
+ "region_price": {
+  "scope": "동작구",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "라클라체자이드파인",
+   "아크로 리버스카이",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트"
+  ],
+  "peer_avg_pyeong": 7807,
+  "diff": -407,
+  "diff_pct": -5,
+  "rank": 4,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "동작구",
+  "peer_count": 4,
+  "peers": [
+   "라클라체자이드파인",
+   "아크로 리버스카이",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트"
+  ],
+  "peer_avg_rate": 48.53,
+  "rank": 5,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "동작구",
+  "peer_count": 4,
+  "peers": [
+   "라클라체자이드파인",
+   "아크로 리버스카이",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

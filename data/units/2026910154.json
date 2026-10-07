@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "간석성락아파트구역주택재개발정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-03",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-03",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.hs-thehue.com",
+  "HOUSE_MANAGE_NO": "2026910154",
+  "HOUSE_NM": "인천시청역 한신더휴",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 남동구 석산로62번길 35",
+  "HSSPLY_ZIP": "21552",
+  "MDHS_TELNO": "0233933320",
+  "MVN_PREARNGE_YM": "202607",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910154",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910154&pblancNo=2026910154",
+  "PRZWNER_PRESNATN_DE": "2026-06-25",
+  "RCRIT_PBLANC_DE": "2026-06-17",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-22",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-22",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910154",
+   "HOUSE_TY": "059.9842A",
+   "LTTOT_TOP_AMOUNT": "44143",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910154",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910154",
+   "HOUSE_TY": "059.9914B",
+   "LTTOT_TOP_AMOUNT": "45007",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910154",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910154",
+   "HOUSE_TY": "074.9560B",
+   "LTTOT_TOP_AMOUNT": "54511",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910154",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "36.00",
+   "HOUSE_MANAGE_NO": "2026910154",
+   "HOUSE_TY": "059.9842A",
+   "PBLANC_NO": "2026910154",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "36",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "252.00",
+   "HOUSE_MANAGE_NO": "2026910154",
+   "HOUSE_TY": "059.9914B",
+   "PBLANC_NO": "2026910154",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "252",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "69.00",
+   "HOUSE_MANAGE_NO": "2026910154",
+   "HOUSE_TY": "074.9560B",
+   "PBLANC_NO": "2026910154",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "69",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:34.248886+09:00"
+}

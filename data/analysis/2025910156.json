@@ -1,0 +1,180 @@
+{
+ "no": "2025910156",
+ "name": "청주 센텀 푸르지오 자이",
+ "kind": "remndr",
+ "region": "충북",
+ "notice_date": "2025-09-03",
+ "rank1_date": "2025-09-08",
+ "city": "청주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910156&pblancNo=2025910156",
+ "households": 700,
+ "types": [
+  {
+   "ty": "59.9698B",
+   "size": 59,
+   "price": 33080,
+   "area_m2": null,
+   "general": 38,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9951A",
+   "size": 84,
+   "price": 49680,
+   "area_m2": null,
+   "general": 261,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9989B",
+   "size": 84,
+   "price": 48190,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7495D",
+   "size": 84,
+   "price": 49050,
+   "area_m2": null,
+   "general": 294,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "99.6876A",
+   "size": 99,
+   "price": 59120,
+   "area_m2": null,
+   "general": 31,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "114.8979A",
+   "size": 114,
+   "price": 67800,
+   "area_m2": null,
+   "general": 61,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "114.8381B",
+   "size": 114,
+   "price": 63360,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "145.9895A",
+   "size": 145,
+   "price": 129240,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "145.9488B",
+   "size": 145,
+   "price": 129220,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 700,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 48190,
+ "price_84_max": 49680,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9698B",
+    "supply": 38,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7495D",
+    "supply": 294,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 238
+   },
+   {
+    "ty": "84.9951A",
+    "supply": 261,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 162
+   },
+   {
+    "ty": "84.9989B",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 1.57,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "99.6876A",
+    "supply": 31,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "114.8381B",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "114.8979A",
+    "supply": 61,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 55
+   },
+   {
+    "ty": "145.9488B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "145.9895A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 5.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 305,
+  "rank1_req": 0,
+  "supply_total": 700,
+  "final_shortfall_total": 479,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 9,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "145.9895A",
+   "rate": 5.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "no": "2026000170",
+ "name": "상주북천 하늘채 파크원",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2026-04-30",
+ "rank1_date": "2026-05-12",
+ "city": "상주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000170&pblancNo=2026000170",
+ "households": 466,
+ "types": [
+  {
+   "ty": "66.9412",
+   "size": 66,
+   "price": 36700,
+   "area_m2": 89.7412,
+   "general": 20,
+   "special": 22,
+   "pyeong_price": 1352,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9644A",
+   "size": 84,
+   "price": 45400,
+   "area_m2": 114.0591,
+   "general": 47,
+   "special": 51,
+   "pyeong_price": 1316,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9697B",
+   "size": 84,
+   "price": 45400,
+   "area_m2": 114.3423,
+   "general": 78,
+   "special": 94,
+   "pyeong_price": 1313,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9689C",
+   "size": 84,
+   "price": 44800,
+   "area_m2": 114.4586,
+   "general": 23,
+   "special": 25,
+   "pyeong_price": 1294,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "117.5756",
+   "size": 117,
+   "price": 63700,
+   "area_m2": 155.6668,
+   "general": 92,
+   "special": 14,
+   "pyeong_price": 1353,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 260,
+ "special_total": 206,
+ "special_share_pct": 44,
+ "pyeong_min": 1294,
+ "pyeong_max": 1353,
+ "pyeong_avg": 1324,
+ "price_84_min": 44800,
+ "price_84_max": 45400,
+ "special_kinds": {
+  "신혼부부": 81,
+  "생애최초": 30,
+  "다자녀": 44,
+  "노부모 부양": 17,
+  "기관추천": 34
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "66.9412",
+    "supply": 29,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9644A",
+    "supply": 65,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9697B",
+    "supply": 117,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.96,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9689C",
+    "supply": 38,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.84,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "117.5756",
+    "supply": 104,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.27,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2016,
+  "rank1_req": 1295,
+  "supply_total": 353,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 3.67,
+  "best": {
+   "ty": "84.9697B",
+   "rate": 4.96,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "66.9412",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "66.9412": 0,
+   "84.9644A": 0,
+   "84.9697B": 0,
+   "84.9689C": 0
+  },
+  "avg_min": 20.5,
+  "max": {
+   "score": 72,
+   "ty": "84.9697B"
+  }
+ },
+ "region_price": {
+  "scope": "경북",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "마린시티",
+   "안동리첼스카이파크",
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트",
+   "펜타힐즈 더블유 1단지"
+  ],
+  "peer_avg_pyeong": 1499,
+  "diff": -175,
+  "diff_pct": -12,
+  "rank": 6,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "경북",
+  "peer_count": 6,
+  "peers": [
+   "마린시티",
+   "안동리첼스카이파크",
+   "경산 상방공원 호반써밋 1단지",
+   "상주자이르네",
+   "더샵 안동더퍼스트",
+   "펜타힐즈 더블유 1단지"
+  ],
+  "peer_avg_rate": 1.93,
+  "rank": 2,
+  "of": 7
+ },
+ "region_score": {
+  "scope": "경북",
+  "peer_count": 3,
+  "peers": [
+   "상주자이르네",
+   "더샵 안동더퍼스트",
+   "펜타힐즈 더블유 1단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "no": "2026910223",
+ "name": "창원 한신더휴 메가센텀",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-08-27",
+ "rank1_date": "2026-09-01",
+ "city": "창원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910223&pblancNo=2026910223",
+ "households": 430,
+ "types": [
+  {
+   "ty": "38.0314A",
+   "size": 38,
+   "price": 27100,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "46.907A",
+   "size": 46,
+   "price": 33990,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.973A",
+   "size": 74,
+   "price": 53080,
+   "area_m2": null,
+   "general": 22,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9705B",
+   "size": 74,
+   "price": 52080,
+   "area_m2": null,
+   "general": 32,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9692A",
+   "size": 84,
+   "price": 61150,
+   "area_m2": null,
+   "general": 142,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9734B",
+   "size": 84,
+   "price": 58100,
+   "area_m2": null,
+   "general": 19,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9704C",
+   "size": 84,
+   "price": 60840,
+   "area_m2": null,
+   "general": 105,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "101.9695A",
+   "size": 101,
+   "price": 71380,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "101.9772B",
+   "size": 101,
+   "price": 71320,
+   "area_m2": null,
+   "general": 66,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "136.5534A",
+   "size": 136,
+   "price": 150340,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 430,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 58100,
+ "price_84_max": 61150,
+ "competition": {
+  "types": [
+   {
+    "ty": "38.0314A",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "46.907A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9705B",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "74.973A",
+    "supply": 22,
+    "closed_at": "None순위 None",
+    "rate": 4.23,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9692A",
+    "supply": 142,
+    "closed_at": "None순위 None",
+    "rate": 1.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9704C",
+    "supply": 105,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 60
+   },
+   {
+    "ty": "84.9734B",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "101.9695A",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "101.9772B",
+    "supply": 66,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 59
+   },
+   {
+    "ty": "136.5534A",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   }
+  ],
+  "req_total": 348,
+  "rank1_req": 0,
+  "supply_total": 430,
+  "final_shortfall_total": 172,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 10,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.973A",
+   "rate": 4.23,
+   "stage": "None순위 None"
+  }
+ }
+}

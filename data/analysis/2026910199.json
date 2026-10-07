@@ -1,0 +1,116 @@
+{
+ "no": "2026910199",
+ "name": "펜타힐즈 더블유 1단지",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2026-07-29",
+ "rank1_date": "2026-08-03",
+ "city": "경산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910199&pblancNo=2026910199",
+ "households": 486,
+ "types": [
+  {
+   "ty": "84.8315A",
+   "size": 84,
+   "price": 69100,
+   "area_m2": null,
+   "general": 71,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9186B",
+   "size": 84,
+   "price": 69930,
+   "area_m2": null,
+   "general": 25,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.5495A",
+   "size": 115,
+   "price": 88730,
+   "area_m2": null,
+   "general": 232,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.5735B",
+   "size": 115,
+   "price": 89940,
+   "area_m2": null,
+   "general": 122,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "152.3629B",
+   "size": 152,
+   "price": 135980,
+   "area_m2": null,
+   "general": 36,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 486,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 69100,
+ "price_84_max": 69930,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8315A",
+    "supply": 71,
+    "closed_at": "None순위 None",
+    "rate": 1.31,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9186B",
+    "supply": 25,
+    "closed_at": "None순위 None",
+    "rate": 4.04,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.5495A",
+    "supply": 232,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 223
+   },
+   {
+    "ty": "115.5735B",
+    "supply": 122,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 116
+   },
+   {
+    "ty": "152.3629B",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 32
+   }
+  ],
+  "req_total": 213,
+  "rank1_req": 0,
+  "supply_total": 486,
+  "final_shortfall_total": 371,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9186B",
+   "rate": 4.04,
+   "stage": "None순위 None"
+  }
+ }
+}

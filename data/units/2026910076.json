@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "더디시파크지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-11",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-11",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.더디시파크지역주택조합.com",
+  "HOUSE_MANAGE_NO": "2026910076",
+  "HOUSE_NM": "힐스테이트 지석(조합원취소분)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "광주광역시 남구 지석동 506번지 일원",
+  "HSSPLY_ZIP": "61751",
+  "MDHS_TELNO": "0624531500",
+  "MVN_PREARNGE_YM": "202604",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910076",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910076&pblancNo=2026910076",
+  "PRZWNER_PRESNATN_DE": "2026-04-09",
+  "RCRIT_PBLANC_DE": "2026-03-30",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "500",
+  "SUBSCRPT_AREA_CODE_NM": "광주",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-06",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-06",
+  "TOT_SUPLY_HSHLDCO": 9
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910076",
+   "HOUSE_TY": "084.9892 ",
+   "LTTOT_TOP_AMOUNT": "64570",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910076",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910076",
+   "HOUSE_TY": "115.2492 ",
+   "LTTOT_TOP_AMOUNT": "76230",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910076",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2026910076",
+   "HOUSE_TY": "084.9892 ",
+   "PBLANC_NO": "2026910076",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910076",
+   "HOUSE_TY": "115.2492 ",
+   "PBLANC_NO": "2026910076",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:23.987285+09:00"
+}

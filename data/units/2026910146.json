@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "코리아신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-15",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-15",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.동탄gwen160.co.kr",
+  "HOUSE_MANAGE_NO": "2026910146",
+  "HOUSE_NM": "동탄 그웬 160 (동탄2 B11BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 화성특례시 동탄2 택지개발지구 B11BL (신동 720)",
+  "HSSPLY_ZIP": "18491",
+  "MDHS_TELNO": "15510727",
+  "MVN_PREARNGE_YM": "202802",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910146",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910146&pblancNo=2026910146",
+  "PRZWNER_PRESNATN_DE": "2026-06-11",
+  "RCRIT_PBLANC_DE": "2026-06-02",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-08",
+  "TOT_SUPLY_HSHLDCO": 78
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "102.7378 ",
+   "LTTOT_TOP_AMOUNT": "107000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910146",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 23
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "102.7378P",
+   "LTTOT_TOP_AMOUNT": "109200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910146",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "108.7178 ",
+   "LTTOT_TOP_AMOUNT": "87000",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910146",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 30
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "115.1988 ",
+   "LTTOT_TOP_AMOUNT": "115080",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910146",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.22",
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "102.7378 ",
+   "PBLANC_NO": "2026910146",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "28",
+   "SUPLY_HSHLDCO": 23
+  },
+  {
+   "CMPET_RATE": "(△12)",
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "102.7378P",
+   "PBLANC_NO": "2026910146",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "CMPET_RATE": "1.23",
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "108.7178 ",
+   "PBLANC_NO": "2026910146",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "37",
+   "SUPLY_HSHLDCO": 30
+  },
+  {
+   "CMPET_RATE": "2.00",
+   "HOUSE_MANAGE_NO": "2026910146",
+   "HOUSE_TY": "115.1988 ",
+   "PBLANC_NO": "2026910146",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:58.919842+09:00"
+}

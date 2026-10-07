@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)금성백조주택",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-09",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-09",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://ic-yemizi.com/",
+  "HOUSE_MANAGE_NO": "2026910029",
+  "HOUSE_NM": "이천 중리지구 B3블록 금성백조 예미지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 이천시 중리지구 B3블록(중리동 518번지)",
+  "HSSPLY_ZIP": "17375",
+  "MDHS_TELNO": "0316380518",
+  "MVN_PREARNGE_YM": "202611",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910029",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910029&pblancNo=2026910029",
+  "PRZWNER_PRESNATN_DE": "2026-02-05",
+  "RCRIT_PBLANC_DE": "2026-01-27",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-02",
+  "TOT_SUPLY_HSHLDCO": 198
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910029",
+   "HOUSE_TY": "059.9870A",
+   "LTTOT_TOP_AMOUNT": "39800",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910029",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 122
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910029",
+   "HOUSE_TY": "084.9970B",
+   "LTTOT_TOP_AMOUNT": "53800",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910029",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 42
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910029",
+   "HOUSE_TY": "084.9665C",
+   "LTTOT_TOP_AMOUNT": "55600",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910029",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 34
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△90)",
+   "HOUSE_MANAGE_NO": "2026910029",
+   "HOUSE_TY": "059.9870A",
+   "PBLANC_NO": "2026910029",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "32",
+   "SUPLY_HSHLDCO": 122
+  },
+  {
+   "CMPET_RATE": "(△30)",
+   "HOUSE_MANAGE_NO": "2026910029",
+   "HOUSE_TY": "084.9665C",
+   "PBLANC_NO": "2026910029",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 34
+  },
+  {
+   "CMPET_RATE": "(△34)",
+   "HOUSE_MANAGE_NO": "2026910029",
+   "HOUSE_TY": "084.9970B",
+   "PBLANC_NO": "2026910029",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 42
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:47.391233+09:00"
+}

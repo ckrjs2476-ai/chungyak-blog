@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "수원당수피에프브이 주식회사,계룡건설산업(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-27",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.엘리프한신더휴수원.com",
+  "HOUSE_MANAGE_NO": "2025910250",
+  "HOUSE_NM": "엘리프 한신더휴 수원 C3블록",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 수원시 권선구 당수1지구 공공주택지구 내 C3블록",
+  "HSSPLY_ZIP": "16390",
+  "MDHS_TELNO": "0312987001",
+  "MVN_PREARNGE_YM": "202712",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910250",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910250&pblancNo=2025910250",
+  "PRZWNER_PRESNATN_DE": "2025-12-19",
+  "RCRIT_PBLANC_DE": "2025-12-11",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-16",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-16",
+  "TOT_SUPLY_HSHLDCO": 127
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910250",
+   "HOUSE_TY": "074.9200A",
+   "LTTOT_TOP_AMOUNT": "70900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910250",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 62
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910250",
+   "HOUSE_TY": "084.9900A",
+   "LTTOT_TOP_AMOUNT": "79500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910250",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 63
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910250",
+   "HOUSE_TY": "084.9900E",
+   "LTTOT_TOP_AMOUNT": "103650",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910250",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△30)",
+   "HOUSE_MANAGE_NO": "2025910250",
+   "HOUSE_TY": "074.9200A",
+   "PBLANC_NO": "2025910250",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "32",
+   "SUPLY_HSHLDCO": 62
+  },
+  {
+   "CMPET_RATE": "(△40)",
+   "HOUSE_MANAGE_NO": "2025910250",
+   "HOUSE_TY": "084.9900A",
+   "PBLANC_NO": "2025910250",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "23",
+   "SUPLY_HSHLDCO": 63
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2025910250",
+   "HOUSE_TY": "084.9900E",
+   "PBLANC_NO": "2025910250",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:47.449858+09:00"
+}

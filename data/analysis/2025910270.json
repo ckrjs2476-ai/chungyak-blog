@@ -1,0 +1,61 @@
+{
+ "no": "2025910270",
+ "name": "성산 더리브 포레스트",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-01-05",
+ "rank1_date": "2026-01-12",
+ "city": "창원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910270&pblancNo=2025910270",
+ "households": 21,
+ "types": [
+  {
+   "ty": "59.386A",
+   "size": 59,
+   "price": 38000,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.396B",
+   "size": 59,
+   "price": 36120,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 21,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.386A",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "59.396B",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   }
+  ],
+  "req_total": 10,
+  "rank1_req": 0,
+  "supply_total": 21,
+  "final_shortfall_total": 11,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

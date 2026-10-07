@@ -1,0 +1,79 @@
+{
+ "no": "2025910161",
+ "name": "정읍 상동 예다음2차",
+ "kind": "remndr",
+ "region": "전북",
+ "notice_date": "2025-09-04",
+ "rank1_date": "2025-09-09",
+ "city": "정읍시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910161&pblancNo=2025910161",
+ "households": 116,
+ "types": [
+  {
+   "ty": "84.9445",
+   "size": 84,
+   "price": 43700,
+   "area_m2": null,
+   "general": 112,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "104.8904T",
+   "size": 104,
+   "price": 48100,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "150.5917T",
+   "size": 150,
+   "price": 54500,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 116,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 43700,
+ "price_84_max": 43700,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9445",
+    "supply": 112,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 109
+   },
+   {
+    "ty": "104.8904T",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "150.5917T",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   }
+  ],
+  "req_total": 3,
+  "rank1_req": 0,
+  "supply_total": 116,
+  "final_shortfall_total": 113,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0
+ }
+}

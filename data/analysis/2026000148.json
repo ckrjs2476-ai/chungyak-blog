@@ -1,0 +1,248 @@
+{
+ "no": "2026000148",
+ "name": "알티에로 광안",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-06-05",
+ "rank1_date": "2026-06-16",
+ "city": "수영구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000148&pblancNo=2026000148",
+ "households": 366,
+ "types": [
+  {
+   "ty": "151.734",
+   "size": 151,
+   "price": 286000,
+   "area_m2": 192.6536,
+   "general": 62,
+   "special": 10,
+   "pyeong_price": 4908,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "151.734P",
+   "size": 151,
+   "price": 310200,
+   "area_m2": 192.6536,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 5323,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "153.2934",
+   "size": 153,
+   "price": 289500,
+   "area_m2": 193.0118,
+   "general": 57,
+   "special": 9,
+   "pyeong_price": 4958,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "153.2934P",
+   "size": 153,
+   "price": 314200,
+   "area_m2": 193.0118,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 5381,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "154.8504",
+   "size": 154,
+   "price": 315200,
+   "area_m2": 195.9041,
+   "general": 79,
+   "special": 13,
+   "pyeong_price": 5319,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "154.8504P",
+   "size": 154,
+   "price": 340200,
+   "area_m2": 195.9041,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 5741,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "160.2818",
+   "size": 160,
+   "price": 319700,
+   "area_m2": 204.7623,
+   "general": 82,
+   "special": 13,
+   "pyeong_price": 5161,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "160.2818P",
+   "size": 160,
+   "price": 347100,
+   "area_m2": 204.7623,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 5604,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "191.4609",
+   "size": 191,
+   "price": 365900,
+   "area_m2": 241.0371,
+   "general": 22,
+   "special": 4,
+   "pyeong_price": 5018,
+   "special_share_pct": 15
+  },
+  {
+   "ty": "191.4609P",
+   "size": 191,
+   "price": 393400,
+   "area_m2": 241.0371,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 5395,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 317,
+ "special_total": 49,
+ "special_share_pct": 13,
+ "pyeong_min": 4908,
+ "pyeong_max": 5741,
+ "pyeong_avg": 5119,
+ "special_kinds": {
+  "다자녀": 38,
+  "노부모 부양": 11
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "151.734",
+    "supply": 72,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 36
+   },
+   {
+    "ty": "151.734P",
+    "supply": 3,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "153.2934",
+    "supply": 66,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 63
+   },
+   {
+    "ty": "153.2934P",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "154.8504",
+    "supply": 91,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 53
+   },
+   {
+    "ty": "154.8504P",
+    "supply": 4,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "160.2818",
+    "supply": 95,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 88
+   },
+   {
+    "ty": "160.2818P",
+    "supply": 4,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "191.4609",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "191.4609P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 146,
+  "rank1_req": 49,
+  "supply_total": 365,
+  "final_shortfall_total": 260,
+  "closed_types": 4,
+  "rank1_closed_types": 1,
+  "type_count": 10,
+  "rank1_avg_rate": 0.13,
+  "best": {
+   "ty": "151.734P",
+   "rate": 2.67,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 20,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리"
+  ],
+  "peer_avg_pyeong": 2349,
+  "diff": 2770,
+  "diff_pct": 118,
+  "rank": 1,
+  "of": 21
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 20,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리"
+  ],
+  "peer_avg_rate": 2.44,
+  "rank": 15,
+  "of": 21
+ }
+}

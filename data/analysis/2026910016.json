@@ -1,0 +1,52 @@
+{
+ "no": "2026910016",
+ "name": "경산 하양 제일풍경채(2차)",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2026-01-20",
+ "rank1_date": "2026-01-26",
+ "city": "경산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910016&pblancNo=2026910016",
+ "households": 3,
+ "types": [
+  {
+   "ty": "84.8769A",
+   "size": 84,
+   "price": 34350,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 34350,
+ "price_84_max": 34350,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8769A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 3.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 10,
+  "rank1_req": 0,
+  "supply_total": 3,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8769A",
+   "rate": 3.33,
+   "stage": "None순위 None"
+  }
+ }
+}

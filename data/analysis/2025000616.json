@@ -1,0 +1,115 @@
+{
+ "no": "2025000616",
+ "name": "둔산 자이 아이파크(보류지)",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2025-12-19",
+ "rank1_date": "2025-12-29",
+ "city": "서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000616&pblancNo=2025000616",
+ "households": 18,
+ "types": [
+  {
+   "ty": "84.99A",
+   "size": 84,
+   "price": 82180,
+   "area_m2": 111.2151,
+   "general": 18,
+   "special": 0,
+   "pyeong_price": 2443,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 18,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 2443,
+ "pyeong_max": 2443,
+ "pyeong_avg": 2443,
+ "price_84_min": 82180,
+ "price_84_max": 82180,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.99A",
+    "supply": 18,
+    "closed_at": "1순위 해당지역",
+    "rate": 178.28,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 3583,
+  "rank1_req": 3583,
+  "supply_total": 18,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 1,
+  "rank1_avg_rate": 199.06,
+  "best": {
+   "ty": "84.99A",
+   "rate": 178.28,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.99A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.99A": 0
+  },
+  "avg_min": 34.5,
+  "max": {
+   "score": 70,
+   "ty": "84.99A"
+  }
+ },
+ "region_price": {
+  "scope": "대전",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "도룡자이 라피크",
+   "대전 하늘채 루시에르(2회차)",
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_pyeong": 2464,
+  "diff": -21,
+  "diff_pct": -1,
+  "rank": 2,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "대전",
+  "peer_count": 6,
+  "peers": [
+   "도룡자이 라피크",
+   "대전 하늘채 루시에르(2회차)",
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_rate": 4.52,
+  "rank": 1,
+  "of": 7
+ },
+ "region_score": {
+  "scope": "대전",
+  "peer_count": 3,
+  "peers": [
+   "도룡자이 라피크",
+   "도안자이 센텀리체 1단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "no": "2025910205",
+ "name": "홍대입구역 센트럴 아르떼 해모로",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2025-10-29",
+ "rank1_date": "2025-11-03",
+ "city": "마포구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910205&pblancNo=2025910205",
+ "households": 8,
+ "types": [
+  {
+   "ty": "32.981",
+   "size": 32,
+   "price": 62260,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "47.6237C",
+   "size": 47,
+   "price": 84950,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "47.2694D",
+   "size": 47,
+   "price": 89860,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 8,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "32.981",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 48.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "47.2694D",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 237.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "47.6237C",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 109.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 699,
+  "rank1_req": 0,
+  "supply_total": 8,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "47.2694D",
+   "rate": 237.0,
+   "stage": "None순위 None"
+  }
+ }
+}

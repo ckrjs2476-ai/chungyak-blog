@@ -1,0 +1,130 @@
+{
+ "no": "2026000272",
+ "name": "함안가야 휴니온아르떼",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-06-22",
+ "rank1_date": "2026-07-03",
+ "city": "함안군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000272&pblancNo=2026000272",
+ "households": 92,
+ "types": [
+  {
+   "ty": "84.4626",
+   "size": 84,
+   "price": 47800,
+   "area_m2": 113.9993,
+   "general": 20,
+   "special": 26,
+   "pyeong_price": 1386,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "113.7696A",
+   "size": 113,
+   "price": 60700,
+   "area_m2": 151.9037,
+   "general": 20,
+   "special": 3,
+   "pyeong_price": 1321,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "113.485B",
+   "size": 113,
+   "price": 64100,
+   "area_m2": 151.185,
+   "general": 20,
+   "special": 3,
+   "pyeong_price": 1402,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 60,
+ "special_total": 32,
+ "special_share_pct": 35,
+ "pyeong_min": 1321,
+ "pyeong_max": 1402,
+ "pyeong_avg": 1374,
+ "price_84_min": 47800,
+ "price_84_max": 47800,
+ "special_kinds": {
+  "신혼부부": 7,
+  "생애최초": 3,
+  "신생아": 5,
+  "다자녀": 9,
+  "노부모 부양": 3,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.4626",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 36
+   },
+   {
+    "ty": "113.7696A",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "113.485B",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   }
+  ],
+  "req_total": 8,
+  "rank1_req": 5,
+  "supply_total": 90,
+  "final_shortfall_total": 82,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.06
+ },
+ "region_price": {
+  "scope": "경남",
+  "days": 180,
+  "peer_count": 15,
+  "peers": [
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "거제 푸르지오 마린피스"
+  ],
+  "peer_avg_pyeong": 1710,
+  "diff": -336,
+  "diff_pct": -20,
+  "rank": 16,
+  "of": 16
+ },
+ "region_competition": {
+  "scope": "경남",
+  "peer_count": 15,
+  "peers": [
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "거제 푸르지오 마린피스"
+  ],
+  "peer_avg_rate": 9.1,
+  "rank": 14,
+  "of": 16
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "no": "2026000401",
+ "name": "문수데시앙2단지 공가세대 일반공급",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-08-28",
+ "rank1_date": "2026-09-07",
+ "city": "울주군",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000401&pblancNo=2026000401",
+ "households": 22,
+ "types": [
+  {
+   "ty": "59.8041A",
+   "size": 59,
+   "price": 22100,
+   "area_m2": 88.8022,
+   "general": 11,
+   "special": 0,
+   "pyeong_price": 823,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9289B",
+   "size": 59,
+   "price": 22350,
+   "area_m2": 89.2319,
+   "general": 9,
+   "special": 0,
+   "pyeong_price": 828,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.8096A",
+   "size": 74,
+   "price": 27900,
+   "area_m2": 110.1056,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 838,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 22,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 823,
+ "pyeong_max": 838,
+ "pyeong_avg": 826,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.8041A",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.91,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9289B",
+    "supply": 9,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.8096A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 10.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 155,
+  "rank1_req": 130,
+  "supply_total": 22,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 5.91,
+  "best": {
+   "ty": "74.8096A",
+   "rate": 10.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "센텀 엘카사",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_pyeong": 2150,
+  "diff": -1324,
+  "diff_pct": -62,
+  "rank": 6,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 5,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "센텀 엘카사",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_rate": 0.52,
+  "rank": 1,
+  "of": 6
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "no": "2026000420",
+ "name": "남울산 노르웨이숲(조합원 취소분)(2회차)",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-09-04",
+ "rank1_date": "2026-09-15",
+ "city": "울주군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000420&pblancNo=2026000420",
+ "households": 52,
+ "types": [
+  {
+   "ty": "59.9957A",
+   "size": 59,
+   "price": 34100,
+   "area_m2": 81.0764,
+   "general": 2,
+   "special": 10,
+   "pyeong_price": 1390,
+   "special_share_pct": 83
+  },
+  {
+   "ty": "59.9734B",
+   "size": 59,
+   "price": 33000,
+   "area_m2": 81.7591,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1334,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.5847A",
+   "size": 74,
+   "price": 41800,
+   "area_m2": 99.6395,
+   "general": 6,
+   "special": 7,
+   "pyeong_price": 1387,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "74.9026B",
+   "size": 74,
+   "price": 41100,
+   "area_m2": 100.9108,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1346,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.935A",
+   "size": 84,
+   "price": 48900,
+   "area_m2": 113.0813,
+   "general": 7,
+   "special": 12,
+   "pyeong_price": 1430,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.4955B",
+   "size": 84,
+   "price": 47500,
+   "area_m2": 113.0982,
+   "general": 1,
+   "special": 4,
+   "pyeong_price": 1388,
+   "special_share_pct": 80
+  }
+ ],
+ "general_total": 18,
+ "special_total": 34,
+ "special_share_pct": 65,
+ "pyeong_min": 1334,
+ "pyeong_max": 1430,
+ "pyeong_avg": 1401,
+ "price_84_min": 47500,
+ "price_84_max": 48900,
+ "special_kinds": {
+  "신혼부부": 8,
+  "생애최초": 4,
+  "신생아": 6,
+  "다자녀": 8,
+  "노부모 부양": 2,
+  "기관추천": 6
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9957A",
+    "supply": 12,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "59.9734B",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "74.5847A",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "74.9026B",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "84.935A",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 19
+   },
+   {
+    "ty": "84.4955B",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   }
+  ],
+  "req_total": 0,
+  "rank1_req": 0,
+  "supply_total": 52,
+  "final_shortfall_total": 52,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "센텀 엘카사",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_pyeong": 2150,
+  "diff": -749,
+  "diff_pct": -35,
+  "rank": 5,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 5,
+  "peers": [
+   "울산신복역 비스타 메트로",
+   "문수로 라티에르 673",
+   "센텀 엘카사",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_rate": 0.52,
+  "rank": 6,
+  "of": 6
+ }
+}

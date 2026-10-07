@@ -1,0 +1,69 @@
+{
+ "no": "2026000041",
+ "name": "마곡지구 17단지 토지임대부(본청약)",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-02-27",
+ "rank1_date": "2026-03-12",
+ "city": "강서구",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000041&pblancNo=2026000041",
+ "households": 381,
+ "types": [
+  {
+   "ty": "59H",
+   "size": 59,
+   "price": 34332,
+   "area_m2": 82.22,
+   "general": 37,
+   "special": 143,
+   "pyeong_price": 1380,
+   "special_share_pct": 79
+  },
+  {
+   "ty": "84H",
+   "size": 84,
+   "price": 45308,
+   "area_m2": 117.46,
+   "general": 7,
+   "special": 19,
+   "pyeong_price": 1275,
+   "special_share_pct": 73
+  }
+ ],
+ "general_total": 44,
+ "special_total": 162,
+ "special_share_pct": 79,
+ "pyeong_min": 1275,
+ "pyeong_max": 1380,
+ "pyeong_avg": 1367,
+ "price_84_min": 45308,
+ "price_84_max": 45308,
+ "special_kinds": {
+  "신혼부부": 30,
+  "생애최초": 30,
+  "신생아": 71,
+  "기관추천": 1,
+  "청년": 30
+ },
+ "region_price": {
+  "scope": "서울",
+  "days": 180,
+  "peer_count": 24,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴"
+  ],
+  "peer_avg_pyeong": 6325,
+  "diff": -4958,
+  "diff_pct": -78,
+  "rank": 25,
+  "of": 25
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "no": "2025910247",
+ "name": "트리븐 서산",
+ "kind": "remndr",
+ "region": "충남",
+ "notice_date": "2025-12-03",
+ "rank1_date": "2025-12-08",
+ "city": "서산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910247&pblancNo=2025910247",
+ "households": 472,
+ "types": [
+  {
+   "ty": "84.9851A",
+   "size": 84,
+   "price": 53338,
+   "area_m2": null,
+   "general": 209,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9803B",
+   "size": 84,
+   "price": 52450,
+   "area_m2": null,
+   "general": 92,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "98.8709",
+   "size": 98,
+   "price": 58759,
+   "area_m2": null,
+   "general": 87,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "110.9923",
+   "size": 110,
+   "price": 67578,
+   "area_m2": null,
+   "general": 53,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "128.1583",
+   "size": 128,
+   "price": 78070,
+   "area_m2": null,
+   "general": 31,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 472,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 52450,
+ "price_84_max": 53338,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9803B",
+    "supply": 92,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 92
+   },
+   {
+    "ty": "84.9851A",
+    "supply": 209,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 202
+   },
+   {
+    "ty": "98.8709",
+    "supply": 87,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 87
+   },
+   {
+    "ty": "110.9923",
+    "supply": 53,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 53
+   },
+   {
+    "ty": "128.1583",
+    "supply": 31,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 29
+   }
+  ],
+  "req_total": 9,
+  "rank1_req": 0,
+  "supply_total": 472,
+  "final_shortfall_total": 463,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0
+ }
+}

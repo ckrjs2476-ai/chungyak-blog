@@ -1,0 +1,100 @@
+{
+ "no": "2025910177",
+ "name": "서면 써밋 더뉴",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2025-09-17",
+ "rank1_date": "2025-09-22",
+ "city": "부산진구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910177&pblancNo=2025910177",
+ "households": 222,
+ "types": [
+  {
+   "ty": "84.3608A",
+   "size": 84,
+   "price": 112830,
+   "area_m2": null,
+   "general": 36,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7812B",
+   "size": 84,
+   "price": 113160,
+   "area_m2": null,
+   "general": 52,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "122.1085",
+   "size": 122,
+   "price": 168950,
+   "area_m2": null,
+   "general": 127,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "131.8835T",
+   "size": 131,
+   "price": 178800,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 222,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 112830,
+ "price_84_max": 113160,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.3608A",
+    "supply": 36,
+    "closed_at": "None순위 None",
+    "rate": 3.81,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7812B",
+    "supply": 52,
+    "closed_at": "None순위 None",
+    "rate": 1.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "122.1085",
+    "supply": 127,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 125
+   },
+   {
+    "ty": "131.8835T",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   }
+  ],
+  "req_total": 202,
+  "rank1_req": 0,
+  "supply_total": 222,
+  "final_shortfall_total": 130,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.3608A",
+   "rate": 3.81,
+   "stage": "None순위 None"
+  }
+ }
+}

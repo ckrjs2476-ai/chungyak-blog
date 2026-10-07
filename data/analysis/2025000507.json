@@ -1,0 +1,67 @@
+{
+ "no": "2025000507",
+ "name": "김해진례 C-1블록 공공분양주택",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2025-10-23",
+ "rank1_date": "2025-11-03",
+ "city": "김해시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000507&pblancNo=2025000507",
+ "households": 387,
+ "types": [
+  {
+   "ty": "59.92A",
+   "size": 59,
+   "price": 30763,
+   "area_m2": 84.8519,
+   "general": 57,
+   "special": 167,
+   "pyeong_price": 1199,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.96B",
+   "size": 59,
+   "price": 30784,
+   "area_m2": 84.9086,
+   "general": 40,
+   "special": 123,
+   "pyeong_price": 1199,
+   "special_share_pct": 75
+  }
+ ],
+ "general_total": 97,
+ "special_total": 290,
+ "special_share_pct": 75,
+ "pyeong_min": 1199,
+ "pyeong_max": 1199,
+ "pyeong_avg": 1199,
+ "special_kinds": {
+  "신혼부부": 39,
+  "생애최초": 58,
+  "신생아": 77,
+  "다자녀": 39,
+  "노부모 부양": 19,
+  "기관추천": 58
+ },
+ "region_price": {
+  "scope": "경남",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크",
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원"
+  ],
+  "peer_avg_pyeong": 1969,
+  "diff": -770,
+  "diff_pct": -39,
+  "rank": 8,
+  "of": 8
+ }
+}

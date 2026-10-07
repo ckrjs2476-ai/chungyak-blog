@@ -1,0 +1,96 @@
+{
+ "no": "2025000438",
+ "name": "송정공원역 대라수 우선 분양전환 후 잔여세대",
+ "kind": "apt",
+ "region": "광주",
+ "notice_date": "2025-10-02",
+ "rank1_date": "2025-10-13",
+ "city": "광산구",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000438&pblancNo=2025000438",
+ "households": 37,
+ "types": [
+  {
+   "ty": "59.9265",
+   "size": 59,
+   "price": 19050,
+   "area_m2": 80.9014,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 778,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9265A",
+   "size": 59,
+   "price": 20250,
+   "area_m2": 80.9004,
+   "general": 36,
+   "special": 0,
+   "pyeong_price": 827,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 37,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 778,
+ "pyeong_max": 827,
+ "pyeong_avg": 826,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9265",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9265A",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   }
+  ],
+  "req_total": 27,
+  "rank1_req": 20,
+  "supply_total": 37,
+  "final_shortfall_total": 16,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 2,
+  "rank1_avg_rate": 0.54,
+  "best": {
+   "ty": "59.9265",
+   "rate": 3.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "광주",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 지석",
+   "더 퍼스트 데시앙"
+  ],
+  "peer_avg_pyeong": 1987,
+  "diff": -1161,
+  "diff_pct": -58,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "광주",
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 지석",
+   "더 퍼스트 데시앙"
+  ],
+  "peer_avg_rate": 0.1,
+  "rank": 1,
+  "of": 3
+ }
+}

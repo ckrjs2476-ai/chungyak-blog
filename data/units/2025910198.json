@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 쓰리씨",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-05",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-09",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025910198",
+  "HOUSE_NM": "어반클라쎄목동(9차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 양천구 신목로2길 7-12 (신정동, 어반클라쎄 목동)",
+  "HSSPLY_ZIP": "08015",
+  "MDHS_TELNO": "0226461277",
+  "MVN_PREARNGE_YM": "202511",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910198",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910198&pblancNo=2025910198",
+  "PRZWNER_PRESNATN_DE": "2025-10-31",
+  "RCRIT_PBLANC_DE": "2025-10-17",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-24",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-28",
+  "TOT_SUPLY_HSHLDCO": 7
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "054.6400 ",
+   "LTTOT_TOP_AMOUNT": "80956",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910198",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "059.8600A",
+   "LTTOT_TOP_AMOUNT": "91028",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910198",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "059.9700B",
+   "LTTOT_TOP_AMOUNT": "92279",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910198",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "059.5700C",
+   "LTTOT_TOP_AMOUNT": "102723",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910198",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "46.00",
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "054.6400 ",
+   "PBLANC_NO": "2025910198",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "92",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "49.00",
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "059.5700C",
+   "PBLANC_NO": "2025910198",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "49",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "57.00",
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "059.8600A",
+   "PBLANC_NO": "2025910198",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "57",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "57.33",
+   "HOUSE_MANAGE_NO": "2025910198",
+   "HOUSE_TY": "059.9700B",
+   "PBLANC_NO": "2025910198",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "172",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:24.637179+09:00"
+}

@@ -1,0 +1,66 @@
+{
+ "no": "2026910200",
+ "name": "한화포레나 안산고잔2차",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-07-28",
+ "rank1_date": "2026-08-03",
+ "city": "안산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910200&pblancNo=2026910200",
+ "households": 2,
+ "types": [
+  {
+   "ty": "53.9927",
+   "size": 53,
+   "price": 48520,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9765",
+   "size": 59,
+   "price": 52900,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 2,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "53.9927",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 159.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9765",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 308.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 467,
+  "rank1_req": 0,
+  "supply_total": 2,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.9765",
+   "rate": 308.0,
+   "stage": "None순위 None"
+  }
+ }
+}

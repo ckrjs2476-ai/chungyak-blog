@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "코리아신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-09",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-09",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.동래사적공원오네뜨.com",
+  "HOUSE_MANAGE_NO": "2026910161",
+  "HOUSE_NM": "동래사적공원 오네뜨",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 동래구 명륜동 115-8번지 일원",
+  "HSSPLY_ZIP": "47756",
+  "MDHS_TELNO": "15223006",
+  "MVN_PREARNGE_YM": "202810",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910161",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910161&pblancNo=2026910161",
+  "PRZWNER_PRESNATN_DE": "2026-07-02",
+  "RCRIT_PBLANC_DE": "2026-06-24",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-29",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-29",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910161",
+   "HOUSE_TY": "072.6854A",
+   "LTTOT_TOP_AMOUNT": "56000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910161",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "4.50",
+   "HOUSE_MANAGE_NO": "2026910161",
+   "HOUSE_TY": "072.6854A",
+   "PBLANC_NO": "2026910161",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:28.419606+09:00"
+}

@@ -1,0 +1,226 @@
+{
+ "no": "2026000018",
+ "name": "리첸시아 표선 IB EDU",
+ "kind": "apt",
+ "region": "제주",
+ "notice_date": "2026-02-12",
+ "rank1_date": "2026-02-24",
+ "city": "서귀포시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000018&pblancNo=2026000018",
+ "households": 50,
+ "types": [
+  {
+   "ty": "81.2H",
+   "size": 81,
+   "price": 55500,
+   "area_m2": 87.04,
+   "general": 2,
+   "special": 2,
+   "pyeong_price": 2108,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "82.21D",
+   "size": 82,
+   "price": 57500,
+   "area_m2": 88.17,
+   "general": 4,
+   "special": 3,
+   "pyeong_price": 2156,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "82.65G",
+   "size": 82,
+   "price": 55500,
+   "area_m2": 89.23,
+   "general": 2,
+   "special": 2,
+   "pyeong_price": 2056,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "83.81A",
+   "size": 83,
+   "price": 58500,
+   "area_m2": 89.74,
+   "general": 5,
+   "special": 2,
+   "pyeong_price": 2155,
+   "special_share_pct": 29
+  },
+  {
+   "ty": "84.49B",
+   "size": 84,
+   "price": 57000,
+   "area_m2": 90.87,
+   "general": 3,
+   "special": 4,
+   "pyeong_price": 2074,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.14C",
+   "size": 84,
+   "price": 50500,
+   "area_m2": 89.63,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1863,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.41E",
+   "size": 84,
+   "price": 57500,
+   "area_m2": 90.11,
+   "general": 4,
+   "special": 3,
+   "pyeong_price": 2109,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "84.23F",
+   "size": 84,
+   "price": 57500,
+   "area_m2": 89.9,
+   "general": 5,
+   "special": 2,
+   "pyeong_price": 2114,
+   "special_share_pct": 29
+  },
+  {
+   "ty": "84.14K",
+   "size": 84,
+   "price": 55500,
+   "area_m2": 89.63,
+   "general": 1,
+   "special": 4,
+   "pyeong_price": 2047,
+   "special_share_pct": 80
+  }
+ ],
+ "general_total": 27,
+ "special_total": 23,
+ "special_share_pct": 46,
+ "pyeong_min": 1863,
+ "pyeong_max": 2156,
+ "pyeong_avg": 2097,
+ "price_84_min": 50500,
+ "price_84_max": 57500,
+ "special_kinds": {
+  "신혼부부": 12,
+  "생애최초": 5,
+  "다자녀": 5,
+  "노부모 부양": 1
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "81.2H",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "82.21D",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "82.65G",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "83.81A",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.49B",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.14C",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "84.41E",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.23F",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.14K",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   }
+  ],
+  "req_total": 0,
+  "rank1_req": 0,
+  "supply_total": 50,
+  "final_shortfall_total": 50,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 9,
+  "rank1_avg_rate": 0.0
+ },
+ "region_price": {
+  "scope": "제주",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "이안 연동스퀘어",
+   "서귀포시 서홍동 형남아파트6차",
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ"
+  ],
+  "peer_avg_pyeong": 2469,
+  "diff": -372,
+  "diff_pct": -15,
+  "rank": 4,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "제주",
+  "peer_count": 6,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "이안 연동스퀘어",
+   "서귀포시 서홍동 형남아파트6차",
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ"
+  ],
+  "peer_avg_rate": 0.26,
+  "rank": 7,
+  "of": 7
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 쓰리씨",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-25",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-30",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": " ",
+  "HOUSE_MANAGE_NO": "2025910170",
+  "HOUSE_NM": "어반클라쎄목동(8차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 양천구 신목로2길 7-12 (신정동, 어반클라쎄 목동)",
+  "HSSPLY_ZIP": "08015",
+  "MDHS_TELNO": "0226461277",
+  "MVN_PREARNGE_YM": "202509",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910170",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910170&pblancNo=2025910170",
+  "PRZWNER_PRESNATN_DE": "2025-09-19",
+  "RCRIT_PBLANC_DE": "2025-09-08",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-16",
+  "TOT_SUPLY_HSHLDCO": 8
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910170",
+   "HOUSE_TY": "054.6400 ",
+   "LTTOT_TOP_AMOUNT": "80956",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910170",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910170",
+   "HOUSE_TY": "059.8600A",
+   "LTTOT_TOP_AMOUNT": "92279",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910170",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910170",
+   "HOUSE_TY": "059.9700B",
+   "LTTOT_TOP_AMOUNT": "92279",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910170",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "53.50",
+   "HOUSE_MANAGE_NO": "2025910170",
+   "HOUSE_TY": "054.6400 ",
+   "PBLANC_NO": "2025910170",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "107",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "50.67",
+   "HOUSE_MANAGE_NO": "2025910170",
+   "HOUSE_TY": "059.8600A",
+   "PBLANC_NO": "2025910170",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "152",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "47.00",
+   "HOUSE_MANAGE_NO": "2025910170",
+   "HOUSE_TY": "059.9700B",
+   "PBLANC_NO": "2025910170",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "141",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:15.451559+09:00"
+}

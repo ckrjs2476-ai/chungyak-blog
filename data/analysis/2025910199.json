@@ -1,0 +1,132 @@
+{
+ "no": "2025910199",
+ "name": "서면 어반센트 데시앙",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2025-10-22",
+ "rank1_date": "2025-10-27",
+ "city": "부산진구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910199&pblancNo=2025910199",
+ "households": 153,
+ "types": [
+  {
+   "ty": "59.6796A",
+   "size": 59,
+   "price": 59500,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.8003B",
+   "size": 59,
+   "price": 62500,
+   "area_m2": null,
+   "general": 19,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9966A",
+   "size": 74,
+   "price": 76900,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9909B",
+   "size": 74,
+   "price": 74100,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8995A",
+   "size": 84,
+   "price": 81400,
+   "area_m2": null,
+   "general": 71,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9951B",
+   "size": 84,
+   "price": 84300,
+   "area_m2": null,
+   "general": 47,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 153,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 81400,
+ "price_84_max": 84300,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.6796A",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8003B",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "74.9909B",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "74.9966A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8995A",
+    "supply": 71,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 57
+   },
+   {
+    "ty": "84.9951B",
+    "supply": 47,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 41
+   }
+  ],
+  "req_total": 49,
+  "rank1_req": 0,
+  "supply_total": 153,
+  "final_shortfall_total": 111,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.6796A",
+   "rate": 2.0,
+   "stage": "None순위 None"
+  }
+ }
+}

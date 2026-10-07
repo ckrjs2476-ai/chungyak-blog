@@ -1,0 +1,47 @@
+{
+ "no": "2025910169",
+ "name": "전주 라온프라이빗 퍼스티브",
+ "kind": "remndr",
+ "region": "전북",
+ "notice_date": "2025-09-05",
+ "rank1_date": "2025-09-10",
+ "city": "전주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910169&pblancNo=2025910169",
+ "households": 226,
+ "types": [
+  {
+   "ty": "84.9974A",
+   "size": 84,
+   "price": 48900,
+   "area_m2": null,
+   "general": 226,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 226,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 48900,
+ "price_84_max": 48900,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9974A",
+    "supply": 226,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 191
+   }
+  ],
+  "req_total": 35,
+  "rank1_req": 0,
+  "supply_total": 226,
+  "final_shortfall_total": 191,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

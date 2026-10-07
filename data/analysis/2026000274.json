@@ -1,0 +1,87 @@
+{
+ "no": "2026000274",
+ "name": "군산 세경아파트 우선분양전환 후 잔여세대 ",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-06-24",
+ "rank1_date": "2026-07-07",
+ "city": "군산시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000274&pblancNo=2026000274",
+ "households": 153,
+ "types": [
+  {
+   "ty": "59.86",
+   "size": 59,
+   "price": 6265,
+   "area_m2": 74.2752,
+   "general": 45,
+   "special": 108,
+   "pyeong_price": 279,
+   "special_share_pct": 71
+  }
+ ],
+ "general_total": 45,
+ "special_total": 108,
+ "special_share_pct": 71,
+ "pyeong_min": 279,
+ "pyeong_max": 279,
+ "pyeong_avg": 279,
+ "special_kinds": {
+  "신혼부부": 35,
+  "생애최초": 38,
+  "다자녀": 15,
+  "노부모 부양": 5,
+  "기관추천": 15
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.86",
+    "supply": 153,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 147
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 6,
+  "supply_total": 153,
+  "final_shortfall_total": 147,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.04
+ },
+ "region_price": {
+  "scope": "전북",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처",
+   "익산 펠리피아",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_pyeong": 1454,
+  "diff": -1175,
+  "diff_pct": -81,
+  "rank": 6,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "전북",
+  "peer_count": 5,
+  "peers": [
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처",
+   "익산 펠리피아",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_rate": 10.09,
+  "rank": 5,
+  "of": 6
+ }
+}

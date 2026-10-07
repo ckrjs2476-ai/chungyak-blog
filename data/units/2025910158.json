@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "우리자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-20",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://chuncheon-dmapt.co.kr/",
+  "HOUSE_MANAGE_NO": "2025910158",
+  "HOUSE_NM": "춘천 동문 디 이스트 어반포레",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "강원특별자치도 춘천시 동면 만천리 811-21번지 외 10필지",
+  "HSSPLY_ZIP": "24216",
+  "MDHS_TELNO": "15880654",
+  "MVN_PREARNGE_YM": "202810",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910158",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910158&pblancNo=2025910158",
+  "PRZWNER_PRESNATN_DE": "2025-09-18",
+  "RCRIT_PBLANC_DE": "2025-09-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "200",
+  "SUBSCRPT_AREA_CODE_NM": "강원",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-15",
+  "TOT_SUPLY_HSHLDCO": 22
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910158",
+   "HOUSE_TY": "059.8077 ",
+   "LTTOT_TOP_AMOUNT": "39470",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910158",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 22
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△4)",
+   "HOUSE_MANAGE_NO": "2025910158",
+   "HOUSE_TY": "059.8077 ",
+   "PBLANC_NO": "2025910158",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "18",
+   "SUPLY_HSHLDCO": 22
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:12.131818+09:00"
+}

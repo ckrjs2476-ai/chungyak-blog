@@ -1,0 +1,316 @@
+{
+ "no": "2026000116",
+ "name": "아크로 리버스카이",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-05-13",
+ "rank1_date": "2026-05-27",
+ "city": "동작구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000116&pblancNo=2026000116",
+ "households": 285,
+ "types": [
+  {
+   "ty": "36.9596",
+   "size": 36,
+   "price": 116370,
+   "area_m2": 51.6683,
+   "general": 20,
+   "special": 23,
+   "pyeong_price": 7445,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "44.7166",
+   "size": 44,
+   "price": 138760,
+   "area_m2": 61.5864,
+   "general": 4,
+   "special": 5,
+   "pyeong_price": 7448,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "51.8088A",
+   "size": 51,
+   "price": 169590,
+   "area_m2": 70.252,
+   "general": 4,
+   "special": 5,
+   "pyeong_price": 7980,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "51.7802B",
+   "size": 51,
+   "price": 170080,
+   "area_m2": 70.4537,
+   "general": 3,
+   "special": 5,
+   "pyeong_price": 7980,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "51.7611C",
+   "size": 51,
+   "price": 171050,
+   "area_m2": 70.8559,
+   "general": 10,
+   "special": 12,
+   "pyeong_price": 7980,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "59.9912A",
+   "size": 59,
+   "price": 217940,
+   "area_m2": 82.3556,
+   "general": 6,
+   "special": 5,
+   "pyeong_price": 8748,
+   "special_share_pct": 45
+  },
+  {
+   "ty": "59.9866B",
+   "size": 59,
+   "price": 215280,
+   "area_m2": 82.1289,
+   "general": 4,
+   "special": 1,
+   "pyeong_price": 8665,
+   "special_share_pct": 20
+  },
+  {
+   "ty": "84.9549A",
+   "size": 84,
+   "price": 274640,
+   "area_m2": 115.6564,
+   "general": 32,
+   "special": 41,
+   "pyeong_price": 7850,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9645B",
+   "size": 84,
+   "price": 276470,
+   "area_m2": 115.2732,
+   "general": 26,
+   "special": 33,
+   "pyeong_price": 7929,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9145C",
+   "size": 84,
+   "price": 271190,
+   "area_m2": 114.8944,
+   "general": 17,
+   "special": 20,
+   "pyeong_price": 7803,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9898T",
+   "size": 84,
+   "price": 279580,
+   "area_m2": 115.2505,
+   "general": 3,
+   "special": 3,
+   "pyeong_price": 8019,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "140.856P",
+   "size": 140,
+   "price": 492800,
+   "area_m2": 191.5634,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 8504,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 132,
+ "special_total": 153,
+ "special_share_pct": 54,
+ "pyeong_min": 7445,
+ "pyeong_max": 8748,
+ "pyeong_avg": 7864,
+ "price_84_min": 271190,
+ "price_84_max": 279580,
+ "special_kinds": {
+  "신혼부부": 67,
+  "생애최초": 31,
+  "다자녀": 19,
+  "노부모 부양": 8,
+  "기관추천": 28
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "36.9596",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 13.65,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "44.7166",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 76.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "51.8088A",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 28.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "51.7802B",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 27.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "51.7611C",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 62.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9912A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 57.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9866B",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 19.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9549A",
+    "supply": 32,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.44,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9645B",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.85,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9145C",
+    "supply": 17,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.18,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9898T",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 12.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "140.856P",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2630,
+  "rank1_req": 2630,
+  "supply_total": 132,
+  "final_shortfall_total": 0,
+  "closed_types": 12,
+  "rank1_closed_types": 12,
+  "type_count": 12,
+  "rank1_avg_rate": 19.92,
+  "best": {
+   "ty": "44.7166",
+   "rate": 76.75,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "36.9596",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "36.9596": 0,
+   "44.7166": 0,
+   "51.8088A": 0,
+   "51.7802B": 0,
+   "51.7611C": 0,
+   "59.9912A": 0,
+   "59.9866B": 0,
+   "84.9549A": 0,
+   "84.9645B": 0,
+   "84.9145C": 0,
+   "84.9898T": 0
+  },
+  "avg_min": 30.1,
+  "max": {
+   "score": 69,
+   "ty": "84.9898T"
+  }
+ },
+ "region_price": {
+  "scope": "동작구",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "라클라체자이드파인",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아"
+  ],
+  "peer_avg_pyeong": 7691,
+  "diff": 173,
+  "diff_pct": 2,
+  "rank": 3,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "동작구",
+  "peer_count": 4,
+  "peers": [
+   "라클라체자이드파인",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아"
+  ],
+  "peer_avg_rate": 48.26,
+  "rank": 4,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "동작구",
+  "peer_count": 4,
+  "peers": [
+   "라클라체자이드파인",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

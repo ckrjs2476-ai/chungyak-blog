@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "금호건설(주),한국토지주택공사",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-19",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.arteraossg.co.kr",
+  "HOUSE_MANAGE_NO": "2025910163",
+  "HOUSE_NM": "오산 세교2지구 A12블록 공공분양주택(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 오산시 벌음동 382번지 (오산세교2 택지개발지구 A12BL) ",
+  "HSSPLY_ZIP": "18127",
+  "MDHS_TELNO": "15514330",
+  "MVN_PREARNGE_YM": "202711",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910163",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910163&pblancNo=2025910163",
+  "PRZWNER_PRESNATN_DE": "2025-09-11",
+  "RCRIT_PBLANC_DE": "2025-09-02",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-08",
+  "TOT_SUPLY_HSHLDCO": 40
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910163",
+   "HOUSE_TY": "059.8700A",
+   "LTTOT_TOP_AMOUNT": "34184",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910163",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910163",
+   "HOUSE_TY": "059.8200C",
+   "LTTOT_TOP_AMOUNT": "34156",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910163",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 22
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910163",
+   "HOUSE_TY": "059.9200D",
+   "LTTOT_TOP_AMOUNT": "34213",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910163",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 13
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "3.73",
+   "HOUSE_MANAGE_NO": "2025910163",
+   "HOUSE_TY": "059.8200C",
+   "PBLANC_NO": "2025910163",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "82",
+   "SUPLY_HSHLDCO": 22
+  },
+  {
+   "CMPET_RATE": "12.60",
+   "HOUSE_MANAGE_NO": "2025910163",
+   "HOUSE_TY": "059.8700A",
+   "PBLANC_NO": "2025910163",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "63",
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "CMPET_RATE": "4.38",
+   "HOUSE_MANAGE_NO": "2025910163",
+   "HOUSE_TY": "059.9200D",
+   "PBLANC_NO": "2025910163",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "57",
+   "SUPLY_HSHLDCO": 13
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:31.469505+09:00"
+}

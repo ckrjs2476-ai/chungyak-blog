@@ -1,0 +1,142 @@
+{
+ "no": "2026000035",
+ "name": "연수 월드메르디앙 어반포레",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-03-03",
+ "rank1_date": "2026-03-16",
+ "city": "연수구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000035&pblancNo=2026000035",
+ "households": 133,
+ "types": [
+  {
+   "ty": "60.9207A",
+   "size": 60,
+   "price": 49200,
+   "area_m2": 82.9266,
+   "general": 32,
+   "special": 35,
+   "pyeong_price": 1961,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "74.5984A",
+   "size": 74,
+   "price": 59900,
+   "area_m2": 97.7181,
+   "general": 15,
+   "special": 17,
+   "pyeong_price": 2026,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "74.3599B",
+   "size": 74,
+   "price": 59000,
+   "area_m2": 98.3264,
+   "general": 8,
+   "special": 9,
+   "pyeong_price": 1984,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "74.4921C",
+   "size": 74,
+   "price": 58400,
+   "area_m2": 100.5657,
+   "general": 8,
+   "special": 9,
+   "pyeong_price": 1920,
+   "special_share_pct": 53
+  }
+ ],
+ "general_total": 63,
+ "special_total": 70,
+ "special_share_pct": 53,
+ "pyeong_min": 1920,
+ "pyeong_max": 2026,
+ "pyeong_avg": 1974,
+ "special_kinds": {
+  "신혼부부": 30,
+  "생애최초": 11,
+  "다자녀": 13,
+  "노부모 부양": 3,
+  "기관추천": 13
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "60.9207A",
+    "supply": 65,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 31
+   },
+   {
+    "ty": "74.5984A",
+    "supply": 29,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "74.3599B",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "74.4921C",
+    "supply": 17,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   }
+  ],
+  "req_total": 63,
+  "rank1_req": 38,
+  "supply_total": 125,
+  "final_shortfall_total": 62,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.3
+ },
+ "region_price": {
+  "scope": "연수구",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "송도 한내들 센트럴리버",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-6블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_pyeong": 3561,
+  "diff": -1587,
+  "diff_pct": -45,
+  "rank": 8,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "연수구",
+  "peer_count": 7,
+  "peers": [
+   "송도 한내들 센트럴리버",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-6블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_rate": 17.0,
+  "rank": 8,
+  "of": 8
+ }
+}

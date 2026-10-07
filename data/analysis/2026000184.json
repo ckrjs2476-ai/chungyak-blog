@@ -1,0 +1,140 @@
+{
+ "no": "2026000184",
+ "name": "익산 펠리피아",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-05-29",
+ "rank1_date": "2026-06-09",
+ "city": "익산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000184&pblancNo=2026000184",
+ "households": 572,
+ "types": [
+  {
+   "ty": "84.9949A",
+   "size": 84,
+   "price": 41500,
+   "area_m2": 112.3343,
+   "general": 46,
+   "special": 48,
+   "pyeong_price": 1221,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "84.9973B",
+   "size": 84,
+   "price": 41800,
+   "area_m2": 112.1895,
+   "general": 145,
+   "special": 144,
+   "pyeong_price": 1232,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9964C",
+   "size": 84,
+   "price": 41200,
+   "area_m2": 112.5378,
+   "general": 54,
+   "special": 56,
+   "pyeong_price": 1210,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "104.9996",
+   "size": 104,
+   "price": 52000,
+   "area_m2": 137.9154,
+   "general": 69,
+   "special": 10,
+   "pyeong_price": 1246,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 314,
+ "special_total": 258,
+ "special_share_pct": 45,
+ "pyeong_min": 1210,
+ "pyeong_max": 1246,
+ "pyeong_avg": 1228,
+ "price_84_min": 41200,
+ "price_84_max": 41800,
+ "special_kinds": {
+  "신혼부부": 89,
+  "생애최초": 45,
+  "다자녀": 57,
+  "노부모 부양": 17,
+  "기관추천": 50
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9949A",
+    "supply": 94,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 88
+   },
+   {
+    "ty": "84.9973B",
+    "supply": 288,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 279
+   },
+   {
+    "ty": "84.9964C",
+    "supply": 110,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 109
+   },
+   {
+    "ty": "104.9996",
+    "supply": 79,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 78
+   }
+  ],
+  "req_total": 17,
+  "rank1_req": 7,
+  "supply_total": 571,
+  "final_shortfall_total": 554,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.01
+ },
+ "region_price": {
+  "scope": "전북",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_pyeong": 1553,
+  "diff": -325,
+  "diff_pct": -21,
+  "rank": 6,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "전북",
+  "peer_count": 5,
+  "peers": [
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_rate": 10.68,
+  "rank": 6,
+  "of": 6
+ }
+}

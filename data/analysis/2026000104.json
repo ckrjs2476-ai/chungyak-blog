@@ -1,0 +1,147 @@
+{
+ "no": "2026000104",
+ "name": "도안자이 센텀리체 1단지",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2026-04-10",
+ "rank1_date": "2026-04-21",
+ "city": "유성구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000104&pblancNo=2026000104",
+ "households": 946,
+ "types": [
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 77620,
+   "area_m2": 114.9268,
+   "general": 330,
+   "special": 326,
+   "pyeong_price": 2233,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9913C",
+   "size": 84,
+   "price": 76920,
+   "area_m2": 116.0905,
+   "general": 93,
+   "special": 92,
+   "pyeong_price": 2190,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "99A",
+   "size": 99,
+   "price": 99920,
+   "area_m2": 134.961,
+   "general": 91,
+   "special": 14,
+   "pyeong_price": 2447,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 514,
+ "special_total": 432,
+ "special_share_pct": 46,
+ "pyeong_min": 2190,
+ "pyeong_max": 2447,
+ "pyeong_avg": 2248,
+ "price_84_min": 76920,
+ "price_84_max": 77620,
+ "special_kinds": {
+  "신혼부부": 151,
+  "생애최초": 75,
+  "다자녀": 94,
+  "노부모 부양": 28,
+  "기관추천": 84
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84A",
+    "supply": 403,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.08,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9913C",
+    "supply": 154,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.12,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "99A",
+    "supply": 92,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.59,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1716,
+  "rank1_req": 1500,
+  "supply_total": 649,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 2.31,
+  "best": {
+   "ty": "99A",
+   "rate": 2.59,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84A": 0
+  },
+  "avg_min": 17.5,
+  "max": {
+   "score": 64,
+   "ty": "84A"
+  }
+ },
+ "region_price": {
+  "scope": "유성구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "도룡자이 라피크",
+   "도안자이 센텀리체 2단지"
+  ],
+  "peer_avg_pyeong": 3342,
+  "diff": -1094,
+  "diff_pct": -33,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "유성구",
+  "peer_count": 2,
+  "peers": [
+   "도룡자이 라피크",
+   "도안자이 센텀리체 2단지"
+  ],
+  "peer_avg_rate": 8.99,
+  "rank": 2,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "대전",
+  "peer_count": 2,
+  "peers": [
+   "도룡자이 라피크",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

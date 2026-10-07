@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "현대건설(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-30",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-30",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://동탄파크릭스.com/grand/index.asp",
+  "HOUSE_MANAGE_NO": "2026910182",
+  "HOUSE_NM": "동탄 파크릭스 A55BL(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 화성시 동탄구 동탄신리천로5길 43 (동탄파크릭스 A55BL 아파트)",
+  "HSSPLY_ZIP": "18465",
+  "MDHS_TELNO": "0313770727",
+  "MVN_PREARNGE_YM": "202610",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910182",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910182&pblancNo=2026910182",
+  "PRZWNER_PRESNATN_DE": "2026-07-23",
+  "RCRIT_PBLANC_DE": "2026-07-15",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-20",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-20",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910182",
+   "HOUSE_TY": "110.7034A",
+   "LTTOT_TOP_AMOUNT": "78130",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910182",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "502.50",
+   "HOUSE_MANAGE_NO": "2026910182",
+   "HOUSE_TY": "110.7034A",
+   "PBLANC_NO": "2026910182",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1005",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:59.259495+09:00"
+}

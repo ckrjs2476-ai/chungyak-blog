@@ -1,0 +1,68 @@
+{
+ "no": "2026910088",
+ "name": "천왕역 모아엘가 트레뷰(10차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-04-14",
+ "rank1_date": "2026-04-21",
+ "city": "구로구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910088&pblancNo=2026910088",
+ "households": 19,
+ "types": [
+  {
+   "ty": "84.5396A",
+   "size": 84,
+   "price": 108700,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8949B",
+   "size": 84,
+   "price": 108600,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 19,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 108600,
+ "price_84_max": 108700,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.5396A",
+    "supply": 13,
+    "closed_at": "None순위 None",
+    "rate": 10.85,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8949B",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 10.17,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 202,
+  "rank1_req": 0,
+  "supply_total": 19,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.5396A",
+   "rate": 10.85,
+   "stage": "None순위 None"
+  }
+ }
+}

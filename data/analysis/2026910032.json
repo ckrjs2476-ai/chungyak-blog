@@ -1,0 +1,100 @@
+{
+ "no": "2026910032",
+ "name": "힐스테이트 초곡 (2차)",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2026-01-30",
+ "rank1_date": "2026-02-04",
+ "city": "포항시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910032&pblancNo=2026910032",
+ "households": 10,
+ "types": [
+  {
+   "ty": "59.941B",
+   "size": 59,
+   "price": 26000,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.638A",
+   "size": 74,
+   "price": 32000,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.856A",
+   "size": 84,
+   "price": 36300,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.839B",
+   "size": 84,
+   "price": 36200,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 10,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 36200,
+ "price_84_max": 36300,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.941B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 6.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.638A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 2.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.839B",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 2.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.856A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 14.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 44,
+  "rank1_req": 0,
+  "supply_total": 10,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.856A",
+   "rate": 14.0,
+   "stage": "None순위 None"
+  }
+ }
+}

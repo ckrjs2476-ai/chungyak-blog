@@ -1,0 +1,232 @@
+{
+ "no": "2026000015",
+ "name": "천안 아이파크 시티 6단지",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-02-20",
+ "rank1_date": "2026-03-04",
+ "city": "천안시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000015&pblancNo=2026000015",
+ "households": 1012,
+ "types": [
+  {
+   "ty": "84.8786A",
+   "size": 84,
+   "price": 58940,
+   "area_m2": 112.5465,
+   "general": 102,
+   "special": 125,
+   "pyeong_price": 1731,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9323B",
+   "size": 84,
+   "price": 57720,
+   "area_m2": 113.6261,
+   "general": 47,
+   "special": 56,
+   "pyeong_price": 1679,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9587C",
+   "size": 84,
+   "price": 60660,
+   "area_m2": 112.4705,
+   "general": 130,
+   "special": 155,
+   "pyeong_price": 1783,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "102.888A",
+   "size": 102,
+   "price": 71130,
+   "area_m2": 135.8347,
+   "general": 106,
+   "special": 16,
+   "pyeong_price": 1731,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "102.7602B",
+   "size": 102,
+   "price": 69570,
+   "area_m2": 138.3385,
+   "general": 118,
+   "special": 18,
+   "pyeong_price": 1662,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "120.7345",
+   "size": 120,
+   "price": 86060,
+   "area_m2": 159.7026,
+   "general": 118,
+   "special": 18,
+   "pyeong_price": 1781,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "197.127",
+   "size": 197,
+   "price": 246330,
+   "area_m2": 261.9685,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 3108,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 624,
+ "special_total": 388,
+ "special_share_pct": 38,
+ "pyeong_min": 1662,
+ "pyeong_max": 3108,
+ "pyeong_avg": 1742,
+ "price_84_min": 57720,
+ "price_84_max": 60660,
+ "special_kinds": {
+  "신혼부부": 141,
+  "생애최초": 55,
+  "다자녀": 101,
+  "노부모 부양": 30,
+  "기관추천": 61
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8786A",
+    "supply": 161,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.42,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9323B",
+    "supply": 93,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.09,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9587C",
+    "supply": 130,
+    "closed_at": "1순위 해당지역",
+    "rate": 40.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "102.888A",
+    "supply": 118,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.08,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "102.7602B",
+    "supply": 134,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.82,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.7345",
+    "supply": 127,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.8,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "197.127",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 8437,
+  "rank1_req": 8077,
+  "supply_total": 766,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 7,
+  "type_count": 7,
+  "rank1_avg_rate": 10.54,
+  "best": {
+   "ty": "84.9587C",
+   "rate": 40.75,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.8786A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.8786A": 0,
+   "84.9587C": 0
+  },
+  "avg_min": 21.0,
+  "max": {
+   "score": 79,
+   "ty": "84.9587C"
+  }
+ },
+ "region_price": {
+  "scope": "천안시",
+  "days": 180,
+  "peer_count": 14,
+  "peers": [
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "천안 휴먼빌 퍼스트시티(2회차)"
+  ],
+  "peer_avg_pyeong": 1622,
+  "diff": 120,
+  "diff_pct": 7,
+  "rank": 4,
+  "of": 15
+ },
+ "region_competition": {
+  "scope": "천안시",
+  "peer_count": 14,
+  "peers": [
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "천안 아이파크 시티 5단지",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티",
+   "천안 동문 디 이스트 파크시티",
+   "천안 휴먼빌 퍼스트시티(2회차)"
+  ],
+  "peer_avg_rate": 3.36,
+  "rank": 2,
+  "of": 15
+ },
+ "region_score": {
+  "scope": "천안시",
+  "peer_count": 6,
+  "peers": [
+   "천안 아이파크 시티 5단지",
+   "업성 푸르지오 레이크시티",
+   "엘리프 성성호수공원 1BL",
+   "엘리프 성성호수공원 2BL",
+   "백석시그니처자이 1단지",
+   "천안 아이파크 시티 1단지(2회차)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

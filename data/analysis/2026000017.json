@@ -1,0 +1,166 @@
+{
+ "no": "2026000017",
+ "name": "쌍용 더 플래티넘 온수역",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-02-13",
+ "rank1_date": "2026-02-24",
+ "city": "부천시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000017&pblancNo=2026000017",
+ "households": 230,
+ "types": [
+  {
+   "ty": "59.9563A",
+   "size": 59,
+   "price": 89150,
+   "area_m2": 84.1575,
+   "general": 46,
+   "special": 50,
+   "pyeong_price": 3502,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.8585B",
+   "size": 59,
+   "price": 86830,
+   "area_m2": 83.6074,
+   "general": 59,
+   "special": 71,
+   "pyeong_price": 3433,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9174B",
+   "size": 84,
+   "price": 113760,
+   "area_m2": 117.1935,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 3209,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 109,
+ "special_total": 121,
+ "special_share_pct": 53,
+ "pyeong_min": 3209,
+ "pyeong_max": 3502,
+ "pyeong_avg": 3458,
+ "price_84_min": 113760,
+ "price_84_max": 113760,
+ "special_kinds": {
+  "신혼부부": 51,
+  "생애최초": 20,
+  "다자녀": 22,
+  "노부모 부양": 6,
+  "기관추천": 22
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9563A",
+    "supply": 46,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.98,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8585B",
+    "supply": 59,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9174B",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1317,
+  "rank1_req": 1317,
+  "supply_total": 109,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 12.08,
+  "best": {
+   "ty": "84.9174B",
+   "rate": 8.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.8585B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9563A": 0,
+   "59.8585B": 0,
+   "84.9174B": 0
+  },
+  "avg_min": 21.8,
+  "max": {
+   "score": 72,
+   "ty": "59.8585B"
+  }
+ },
+ "region_price": {
+  "scope": "부천시",
+  "days": 180,
+  "peer_count": 8,
+  "peers": [
+   "엠타워 디루체",
+   "엘리프 원종",
+   "여월 중앙하이츠 아르비채",
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_pyeong": 2555,
+  "diff": 903,
+  "diff_pct": 35,
+  "rank": 1,
+  "of": 9
+ },
+ "region_competition": {
+  "scope": "부천시",
+  "peer_count": 8,
+  "peers": [
+   "엠타워 디루체",
+   "엘리프 원종",
+   "여월 중앙하이츠 아르비채",
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_rate": 1.52,
+  "rank": 1,
+  "of": 9
+ },
+ "region_score": {
+  "scope": "부천시",
+  "peer_count": 7,
+  "peers": [
+   "엠타워 디루체",
+   "엘리프 원종",
+   "부천역 에피트 어바닉",
+   "e편한세상 부천 어반스퀘어",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

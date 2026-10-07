@@ -1,0 +1,68 @@
+{
+ "no": "2026910033",
+ "name": "강릉역 경남아너스빌 더 센트로(조합원 취소분)",
+ "kind": "remndr",
+ "region": "강원",
+ "notice_date": "2026-01-29",
+ "rank1_date": "2026-02-03",
+ "city": "강릉시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910033&pblancNo=2026910033",
+ "households": 7,
+ "types": [
+  {
+   "ty": "59.6657A",
+   "size": 59,
+   "price": 42415,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9907",
+   "size": 84,
+   "price": 59721,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 7,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 59721,
+ "price_84_max": 59721,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.6657A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9907",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 0,
+  "supply_total": 7,
+  "final_shortfall_total": 1,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.6657A",
+   "rate": 1.0,
+   "stage": "None순위 None"
+  }
+ }
+}

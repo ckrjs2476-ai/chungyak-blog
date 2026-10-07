@@ -1,0 +1,68 @@
+{
+ "no": "2025910260",
+ "name": "화성 비봉지구 B3블록 예미지 센트럴에듀",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-12-17",
+ "rank1_date": "2025-12-22",
+ "city": "화성시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910260&pblancNo=2025910260",
+ "households": 2,
+ "types": [
+  {
+   "ty": "76.981",
+   "size": 76,
+   "price": 33230,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9967",
+   "size": 84,
+   "price": 38922,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 2,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 38922,
+ "price_84_max": 38922,
+ "competition": {
+  "types": [
+   {
+    "ty": "76.981",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 103.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9967",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 125.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 228,
+  "rank1_req": 0,
+  "supply_total": 2,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9967",
+   "rate": 125.0,
+   "stage": "None순위 None"
+  }
+ }
+}

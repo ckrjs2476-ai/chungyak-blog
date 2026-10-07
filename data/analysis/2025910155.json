@@ -1,0 +1,84 @@
+{
+ "no": "2025910155",
+ "name": "에코델타시티 대성베르힐 17블록",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2025-09-03",
+ "rank1_date": "2025-09-08",
+ "city": "강서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910155&pblancNo=2025910155",
+ "households": 3,
+ "types": [
+  {
+   "ty": "84.428B",
+   "size": 84,
+   "price": 48500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.953P",
+   "size": 84,
+   "price": 48700,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "106.4226P",
+   "size": 106,
+   "price": 61600,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 48500,
+ "price_84_max": 48700,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.428B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 13.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.953P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "106.4226P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 43.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 58,
+  "rank1_req": 0,
+  "supply_total": 3,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "106.4226P",
+   "rate": 43.0,
+   "stage": "None순위 None"
+  }
+ }
+}

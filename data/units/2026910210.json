@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)호반자산개발",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-24",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-24",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.ihoban.co.kr/web",
+  "HOUSE_MANAGE_NO": "2026910210",
+  "HOUSE_NM": "오산세교2지구 A-13블록 호반써밋(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 오산시 오산세교2지구 A-13블록 호반써밋 라프리미어(경기도 오산시 초평중앙로 65)",
+  "HSSPLY_ZIP": "18104",
+  "MDHS_TELNO": "15889798",
+  "MVN_PREARNGE_YM": "202610",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910210",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910210&pblancNo=2026910210",
+  "PRZWNER_PRESNATN_DE": "2026-08-18",
+  "RCRIT_PBLANC_DE": "2026-08-07",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-12",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-12",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910210",
+   "HOUSE_TY": "059.8303P",
+   "LTTOT_TOP_AMOUNT": "36110",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910210",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910210",
+   "HOUSE_TY": "084.9800P",
+   "LTTOT_TOP_AMOUNT": "47920",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910210",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "259.00",
+   "HOUSE_MANAGE_NO": "2026910210",
+   "HOUSE_TY": "059.8303P",
+   "PBLANC_NO": "2026910210",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "259",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "167.00",
+   "HOUSE_MANAGE_NO": "2026910210",
+   "HOUSE_TY": "084.9800P",
+   "PBLANC_NO": "2026910210",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "167",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:23.261880+09:00"
+}

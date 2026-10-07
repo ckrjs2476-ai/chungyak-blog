@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "코리아신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-22",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.jj-raon.com/",
+  "HOUSE_MANAGE_NO": "2025910169",
+  "HOUSE_NM": "전주 라온프라이빗 퍼스티브",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "전북특별자치도 전주시 완산구 평화동2가 409-10번지 일대",
+  "HSSPLY_ZIP": "55126",
+  "MDHS_TELNO": "16600507",
+  "MVN_PREARNGE_YM": "202803",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910169",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910169&pblancNo=2025910169",
+  "PRZWNER_PRESNATN_DE": "2025-09-15",
+  "RCRIT_PBLANC_DE": "2025-09-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "560",
+  "SUBSCRPT_AREA_CODE_NM": "전북",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-10",
+  "TOT_SUPLY_HSHLDCO": 226
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910169",
+   "HOUSE_TY": "084.9974A",
+   "LTTOT_TOP_AMOUNT": "48900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910169",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 226
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△191)",
+   "HOUSE_MANAGE_NO": "2025910169",
+   "HOUSE_TY": "084.9974A",
+   "PBLANC_NO": "2025910169",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "35",
+   "SUPLY_HSHLDCO": 226
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:18.397803+09:00"
+}

@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "구미중앙숲지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-12",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-12",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://두산위브더제니스구미.com",
+  "HOUSE_MANAGE_NO": "2026910126",
+  "HOUSE_NM": "두산위브더제니스 구미(조합원취소분)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상북도 구미시 광평동 227번지 일원",
+  "HSSPLY_ZIP": "39345",
+  "MDHS_TELNO": "0546028000",
+  "MVN_PREARNGE_YM": "202905",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910126",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910126&pblancNo=2026910126",
+  "PRZWNER_PRESNATN_DE": "2026-06-05",
+  "RCRIT_PBLANC_DE": "2026-05-27",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "712",
+  "SUBSCRPT_AREA_CODE_NM": "경북",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-01",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-01",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910126",
+   "HOUSE_TY": "084.7657A",
+   "LTTOT_TOP_AMOUNT": "50870",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910126",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910126",
+   "HOUSE_TY": "084.7696B",
+   "LTTOT_TOP_AMOUNT": "50710",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910126",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "19.00",
+   "HOUSE_MANAGE_NO": "2026910126",
+   "HOUSE_TY": "084.7657A",
+   "PBLANC_NO": "2026910126",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "19",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "9.00",
+   "HOUSE_MANAGE_NO": "2026910126",
+   "HOUSE_TY": "084.7696B",
+   "PBLANC_NO": "2026910126",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "18",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:12.718951+09:00"
+}

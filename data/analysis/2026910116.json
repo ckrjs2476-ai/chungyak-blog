@@ -1,0 +1,84 @@
+{
+ "no": "2026910116",
+ "name": "더샵 안동더퍼스트",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2026-05-21",
+ "rank1_date": "2026-05-26",
+ "city": "안동시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910116&pblancNo=2026910116",
+ "households": 70,
+ "types": [
+  {
+   "ty": "84.9785A",
+   "size": 84,
+   "price": 48820,
+   "area_m2": null,
+   "general": 39,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9702B",
+   "size": 84,
+   "price": 47390,
+   "area_m2": null,
+   "general": 23,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9571C",
+   "size": 84,
+   "price": 48530,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 70,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 47390,
+ "price_84_max": 48820,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9571C",
+    "supply": 8,
+    "closed_at": "None순위 None",
+    "rate": 2.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9702B",
+    "supply": 23,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9785A",
+    "supply": 39,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   }
+  ],
+  "req_total": 124,
+  "rank1_req": 0,
+  "supply_total": 70,
+  "final_shortfall_total": 6,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9702B",
+   "rate": 3.0,
+   "stage": "None순위 None"
+  }
+ }
+}

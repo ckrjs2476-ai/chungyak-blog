@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "현대건설(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-05-11",
+  "CNTRCT_CNCLS_ENDDE": "2026-05-11",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://동탄파크릭스.com/grand/index.asp",
+  "HOUSE_MANAGE_NO": "2026910094",
+  "HOUSE_NM": "동탄 파크릭스 A51-1BL",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 화성시 동탄구 동탄신리천로5길 130 (동탄 파크릭스 A51-1BL 아파트)",
+  "HSSPLY_ZIP": "18484",
+  "MDHS_TELNO": "0313770727",
+  "MVN_PREARNGE_YM": "202605",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910094",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910094&pblancNo=2026910094",
+  "PRZWNER_PRESNATN_DE": "2026-04-30",
+  "RCRIT_PBLANC_DE": "2026-04-21",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-27",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910094",
+   "HOUSE_TY": "097.8720B",
+   "LTTOT_TOP_AMOUNT": "62750",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910094",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910094",
+   "HOUSE_TY": "110.6914B",
+   "LTTOT_TOP_AMOUNT": "82060",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910094",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "79.00",
+   "HOUSE_MANAGE_NO": "2026910094",
+   "HOUSE_TY": "097.8720B",
+   "PBLANC_NO": "2026910094",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "158",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "65.00",
+   "HOUSE_MANAGE_NO": "2026910094",
+   "HOUSE_TY": "110.6914B",
+   "PBLANC_NO": "2026910094",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "65",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:58.564666+09:00"
+}

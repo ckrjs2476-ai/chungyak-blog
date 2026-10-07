@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)레드씨플래닝",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-22",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025910182",
+  "HOUSE_NM": "양평 우방아이유쉘 에코리버(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 양평군 강상면 병산2지구 공동주택용지 C블록 2롯트",
+  "HSSPLY_ZIP": "12571",
+  "MDHS_TELNO": "0317736667",
+  "MVN_PREARNGE_YM": "202511",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910182",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910182&pblancNo=2025910182",
+  "PRZWNER_PRESNATN_DE": "2025-10-15",
+  "RCRIT_PBLANC_DE": "2025-09-29",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-10",
+  "TOT_SUPLY_HSHLDCO": 11
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910182",
+   "HOUSE_TY": "077.9189A",
+   "LTTOT_TOP_AMOUNT": "40800",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910182",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910182",
+   "HOUSE_TY": "077.8676B",
+   "LTTOT_TOP_AMOUNT": "40500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910182",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△4)",
+   "HOUSE_MANAGE_NO": "2025910182",
+   "HOUSE_TY": "077.8676B",
+   "PBLANC_NO": "2025910182",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2025910182",
+   "HOUSE_TY": "077.9189A",
+   "PBLANC_NO": "2025910182",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:49.444248+09:00"
+}

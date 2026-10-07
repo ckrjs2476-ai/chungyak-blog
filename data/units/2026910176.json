@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "오정613가로주택정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-22",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.오정해모로스마트시티.com",
+  "HOUSE_MANAGE_NO": "2026910176",
+  "HOUSE_NM": "오정 해모로 스마트시티(조합원 취소분)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 부천시 오정구 오정동 613번지 일원",
+  "HSSPLY_ZIP": "14440",
+  "MDHS_TELNO": "0323256055",
+  "MVN_PREARNGE_YM": "202707",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910176",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910176&pblancNo=2026910176",
+  "PRZWNER_PRESNATN_DE": "2026-07-16",
+  "RCRIT_PBLANC_DE": "2026-07-08",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-13",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-13",
+  "TOT_SUPLY_HSHLDCO": 10
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910176",
+   "HOUSE_TY": "042.9802A",
+   "LTTOT_TOP_AMOUNT": "39100",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910176",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910176",
+   "HOUSE_TY": "042.9802B",
+   "LTTOT_TOP_AMOUNT": "39100",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910176",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910176",
+   "HOUSE_TY": "071.9700 ",
+   "LTTOT_TOP_AMOUNT": "67140",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910176",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "6.00",
+   "HOUSE_MANAGE_NO": "2026910176",
+   "HOUSE_TY": "042.9802A",
+   "PBLANC_NO": "2026910176",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910176",
+   "HOUSE_TY": "042.9802B",
+   "PBLANC_NO": "2026910176",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "CMPET_RATE": "3.00",
+   "HOUSE_MANAGE_NO": "2026910176",
+   "HOUSE_TY": "071.9700 ",
+   "PBLANC_NO": "2026910176",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:05.837366+09:00"
+}

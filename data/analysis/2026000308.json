@@ -1,0 +1,147 @@
+{
+ "no": "2026000308",
+ "name": "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-07-10",
+ "rank1_date": "2026-07-21",
+ "city": "기장군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000308&pblancNo=2026000308",
+ "households": 488,
+ "types": [
+  {
+   "ty": "59.943A",
+   "size": 59,
+   "price": 39360,
+   "area_m2": 82.0295,
+   "general": 41,
+   "special": 78,
+   "pyeong_price": 1586,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "59.9706B",
+   "size": 59,
+   "price": 38520,
+   "area_m2": 82.4673,
+   "general": 36,
+   "special": 71,
+   "pyeong_price": 1544,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "84.8719A",
+   "size": 84,
+   "price": 51370,
+   "area_m2": 114.0177,
+   "general": 79,
+   "special": 144,
+   "pyeong_price": 1489,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9706B",
+   "size": 84,
+   "price": 51370,
+   "area_m2": 116.1986,
+   "general": 15,
+   "special": 24,
+   "pyeong_price": 1461,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 171,
+ "special_total": 317,
+ "special_share_pct": 65,
+ "pyeong_min": 1461,
+ "pyeong_max": 1586,
+ "pyeong_avg": 1522,
+ "price_84_min": 51370,
+ "price_84_max": 51370,
+ "special_kinds": {
+  "신혼부부": 73,
+  "생애최초": 82,
+  "신생아": 48,
+  "다자녀": 48,
+  "노부모 부양": 17,
+  "기관추천": 49
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.943A",
+    "supply": 119,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 111
+   },
+   {
+    "ty": "59.9706B",
+    "supply": 103,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 101
+   },
+   {
+    "ty": "84.8719A",
+    "supply": 223,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 220
+   },
+   {
+    "ty": "84.9706B",
+    "supply": 39,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 38
+   }
+  ],
+  "req_total": 14,
+  "rank1_req": 11,
+  "supply_total": 484,
+  "final_shortfall_total": 470,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 18,
+  "peers": [
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리",
+   "엄궁역 트라비스 하늘채",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_pyeong": 2488,
+  "diff": -966,
+  "diff_pct": -39,
+  "rank": 19,
+  "of": 19
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 18,
+  "peers": [
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리",
+   "엄궁역 트라비스 하늘채",
+   "온천장 하늘채 엘리시움"
+  ],
+  "peer_avg_rate": 1.5,
+  "rank": 18,
+  "of": 19
+ }
+}

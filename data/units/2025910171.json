@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "지에스건설(주), (주)태영건설, 한신공영(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-25",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-25",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://xi.co.kr/sejong",
+  "HOUSE_MANAGE_NO": "2025910171",
+  "HOUSE_NM": "세종자이 더 시티(산울마을2단지)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "세종특별자치시 산울동 259번지 일원(행정중심복합도시 6-3생활권 L1블록)",
+  "HSSPLY_ZIP": "30090",
+  "MDHS_TELNO": "0447157793",
+  "MVN_PREARNGE_YM": "202510",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910171",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910171&pblancNo=2025910171",
+  "PRZWNER_PRESNATN_DE": "2025-09-18",
+  "RCRIT_PBLANC_DE": "2025-09-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "338",
+  "SUBSCRPT_AREA_CODE_NM": "세종",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-15",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910171",
+   "HOUSE_TY": "084.9369C",
+   "LTTOT_TOP_AMOUNT": "42500",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910171",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910171",
+   "HOUSE_TY": "101.8207B",
+   "LTTOT_TOP_AMOUNT": "50000",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910171",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "5,218.00",
+   "HOUSE_MANAGE_NO": "2025910171",
+   "HOUSE_TY": "084.9369C",
+   "PBLANC_NO": "2025910171",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5218",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "5,380.00",
+   "HOUSE_MANAGE_NO": "2025910171",
+   "HOUSE_TY": "101.8207B",
+   "PBLANC_NO": "2025910171",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5380",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:09.670265+09:00"
+}

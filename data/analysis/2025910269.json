@@ -1,0 +1,47 @@
+{
+ "no": "2025910269",
+ "name": "시흥거모지구 대방 엘리움 더 루체Ⅱ(B-2BL)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-12-29",
+ "rank1_date": "2026-01-05",
+ "city": "시흥시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910269&pblancNo=2025910269",
+ "households": 263,
+ "types": [
+  {
+   "ty": "84.9584",
+   "size": 84,
+   "price": 64977,
+   "area_m2": null,
+   "general": 263,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 263,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 64977,
+ "price_84_max": 64977,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9584",
+    "supply": 263,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 240
+   }
+  ],
+  "req_total": 23,
+  "rank1_req": 0,
+  "supply_total": 263,
+  "final_shortfall_total": 240,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

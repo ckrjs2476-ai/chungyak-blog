@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)대승글로벌,(주)삼승개발,(주)삼승건설",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-06",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-06",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.yemizi.co.kr/",
+  "HOUSE_MANAGE_NO": "2025910260",
+  "HOUSE_NM": "화성 비봉지구 B3블록 예미지 센트럴에듀",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 화성시 비봉면 새비봉서로 20 (화성비봉지구 B-3블록 예미지 센트럴 에듀)",
+  "HSSPLY_ZIP": "18283",
+  "MDHS_TELNO": "0415459750",
+  "MVN_PREARNGE_YM": "202602",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910260",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910260&pblancNo=2025910260",
+  "PRZWNER_PRESNATN_DE": "2025-12-26",
+  "RCRIT_PBLANC_DE": "2025-12-17",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-22",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-22",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910260",
+   "HOUSE_TY": "076.9810 ",
+   "LTTOT_TOP_AMOUNT": "33230",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910260",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910260",
+   "HOUSE_TY": "084.9967 ",
+   "LTTOT_TOP_AMOUNT": "38922",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910260",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "103.00",
+   "HOUSE_MANAGE_NO": "2025910260",
+   "HOUSE_TY": "076.9810 ",
+   "PBLANC_NO": "2025910260",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "103",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "125.00",
+   "HOUSE_MANAGE_NO": "2025910260",
+   "HOUSE_TY": "084.9967 ",
+   "PBLANC_NO": "2025910260",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "125",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:43.060389+09:00"
+}

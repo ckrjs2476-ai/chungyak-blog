@@ -1,0 +1,121 @@
+{
+ "no": "2025000530",
+ "name": "남양주 별내리슈빌아파트 분양전환 후 잔여세대",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-11-10",
+ "rank1_date": "2025-11-20",
+ "city": "남양주시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000530&pblancNo=2025000530",
+ "households": 34,
+ "types": [
+  {
+   "ty": "84.88A",
+   "size": 84,
+   "price": 51700,
+   "area_m2": 110.64,
+   "general": 18,
+   "special": 0,
+   "pyeong_price": 1545,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.96B",
+   "size": 84,
+   "price": 50700,
+   "area_m2": 110.67,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1514,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.97C",
+   "size": 84,
+   "price": 52530,
+   "area_m2": 110.9,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 1566,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 34,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1514,
+ "pyeong_max": 1566,
+ "pyeong_avg": 1552,
+ "price_84_min": 50700,
+ "price_84_max": 52530,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.88A",
+    "supply": 18,
+    "closed_at": "1순위 해당지역",
+    "rate": 22.94,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.96B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 28.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.97C",
+    "supply": 14,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.21,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2311,
+  "rank1_req": 2311,
+  "supply_total": 34,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 67.97,
+  "best": {
+   "ty": "84.96B",
+   "rate": 28.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "남양주시",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "남양주진접2지구 A-7블록 공공분양주택 입주자모집(본청약)",
+   "남양주왕숙지구 B-17블록 공공분양주택(본청약)",
+   "남양주진접2지구 B-1블록 공공분양(본청약)",
+   "남양주왕숙 A-24블록 신혼희망타운(공공분양)(본청약)",
+   "남양주진접2 지구 A-3블록 신혼희망타운(공공분양)(본청약)",
+   "왕숙 아테라 공공분양주택(본청약)",
+   "남양주왕숙2 A-3블록 공공분양주택(본청약)"
+  ],
+  "peer_avg_pyeong": 1815,
+  "diff": -263,
+  "diff_pct": -14,
+  "rank": 8,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 3,
+  "peers": [
+   "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
+   "고덕신도시 아테라 A-63블록 공공분양주택",
+   "안양 에버포레 자연앤 e편한세상(A2BL)"
+  ],
+  "peer_avg_rate": 19.12,
+  "rank": 1,
+  "of": 4
+ }
+}

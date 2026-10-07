@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "삼성물산(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-30",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-30",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.raemian.co.kr",
+  "HOUSE_MANAGE_NO": "2025910188",
+  "HOUSE_NM": "래미안 센트리폴(1BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 연수구 옥련동 송도역세권 도시개발구역 A1블록 ",
+  "HSSPLY_ZIP": "21900",
+  "MDHS_TELNO": "024071097",
+  "MVN_PREARNGE_YM": "202801",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910188",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910188&pblancNo=2025910188",
+  "PRZWNER_PRESNATN_DE": "2025-10-23",
+  "RCRIT_PBLANC_DE": "2025-10-14",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-20",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-20",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910188",
+   "HOUSE_TY": "084.9100A",
+   "LTTOT_TOP_AMOUNT": "70300",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910188",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "239.00",
+   "HOUSE_MANAGE_NO": "2025910188",
+   "HOUSE_TY": "084.9100A",
+   "PBLANC_NO": "2025910188",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "239",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:36.603862+09:00"
+}

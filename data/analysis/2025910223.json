@@ -1,0 +1,66 @@
+{
+ "no": "2025910223",
+ "name": "검단 센트레빌 에듀시티(AB8BL)",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-19",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910223&pblancNo=2025910223",
+ "households": 94,
+ "types": [
+  {
+   "ty": "74.89A",
+   "size": 74,
+   "price": 54850,
+   "area_m2": null,
+   "general": 87,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "120.5868",
+   "size": 120,
+   "price": 114340,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 94,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "74.89A",
+    "supply": 87,
+    "closed_at": "None순위 None",
+    "rate": 1.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.5868",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 113,
+  "rank1_req": 0,
+  "supply_total": 94,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.89A",
+   "rate": 1.22,
+   "stage": "None순위 None"
+  }
+ }
+}

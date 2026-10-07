@@ -1,0 +1,221 @@
+{
+ "no": "2025000527",
+ "name": "반포 래미안 트리니원",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2025-10-31",
+ "rank1_date": "2025-11-11",
+ "city": "서초구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000527&pblancNo=2025000527",
+ "households": 506,
+ "types": [
+  {
+   "ty": "59.94A",
+   "size": 59,
+   "price": 208800,
+   "area_m2": 78.2624,
+   "general": 103,
+   "special": 120,
+   "pyeong_price": 8820,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.98B",
+   "size": 59,
+   "price": 213100,
+   "area_m2": 79.4706,
+   "general": 58,
+   "special": 71,
+   "pyeong_price": 8864,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "59.85C",
+   "size": 59,
+   "price": 200600,
+   "area_m2": 78.3139,
+   "general": 13,
+   "special": 13,
+   "pyeong_price": 8468,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.91D",
+   "size": 59,
+   "price": 206700,
+   "area_m2": 78.4862,
+   "general": 34,
+   "special": 44,
+   "pyeong_price": 8706,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.91A",
+   "size": 84,
+   "price": 268400,
+   "area_m2": 110.8474,
+   "general": 6,
+   "special": 8,
+   "pyeong_price": 8004,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.96B",
+   "size": 84,
+   "price": 274900,
+   "area_m2": 110.5676,
+   "general": 14,
+   "special": 15,
+   "pyeong_price": 8219,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.96C",
+   "size": 84,
+   "price": 270700,
+   "area_m2": 111.1676,
+   "general": 2,
+   "special": 5,
+   "pyeong_price": 8050,
+   "special_share_pct": 71
+  }
+ ],
+ "general_total": 230,
+ "special_total": 276,
+ "special_share_pct": 55,
+ "pyeong_min": 8004,
+ "pyeong_max": 8864,
+ "pyeong_avg": 8728,
+ "price_84_min": 268400,
+ "price_84_max": 274900,
+ "special_kinds": {
+  "신혼부부": 116,
+  "생애최초": 45,
+  "다자녀": 50,
+  "노부모 부양": 15,
+  "기관추천": 50
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.94A",
+    "supply": 103,
+    "closed_at": "1순위 해당지역",
+    "rate": 245.16,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.98B",
+    "supply": 58,
+    "closed_at": "1순위 해당지역",
+    "rate": 198.59,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.85C",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 152.31,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.91D",
+    "supply": 34,
+    "closed_at": "1순위 해당지역",
+    "rate": 143.26,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.91A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 457.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.96B",
+    "supply": 14,
+    "closed_at": "1순위 해당지역",
+    "rate": 531.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.96C",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 413.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 54631,
+  "rank1_req": 54631,
+  "supply_total": 230,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 7,
+  "type_count": 7,
+  "rank1_avg_rate": 237.53,
+  "best": {
+   "ty": "84.96B",
+   "rate": 531.43,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.85C",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.94A": 0,
+   "59.98B": 0,
+   "59.85C": 0,
+   "59.91D": 0,
+   "84.91A": 0,
+   "84.96B": 0,
+   "84.96C": 0
+  },
+  "avg_min": 36.6,
+  "max": {
+   "score": 82,
+   "ty": "84.91A"
+  }
+ },
+ "region_price": {
+  "scope": "서초구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "아크로 드 서초",
+   "오티에르 반포"
+  ],
+  "peer_avg_pyeong": 7980,
+  "diff": 748,
+  "diff_pct": 9,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "서초구",
+  "peer_count": 2,
+  "peers": [
+   "아크로 드 서초",
+   "오티에르 반포"
+  ],
+  "peer_avg_rate": 904.66,
+  "rank": 3,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "서초구",
+  "peer_count": 2,
+  "peers": [
+   "아크로 드 서초",
+   "오티에르 반포"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

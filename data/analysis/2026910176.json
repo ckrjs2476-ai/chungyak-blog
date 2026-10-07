@@ -1,0 +1,82 @@
+{
+ "no": "2026910176",
+ "name": "오정 해모로 스마트시티(조합원 취소분)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-07-08",
+ "rank1_date": "2026-07-13",
+ "city": "부천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910176&pblancNo=2026910176",
+ "households": 10,
+ "types": [
+  {
+   "ty": "42.9802A",
+   "size": 42,
+   "price": 39100,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "42.9802B",
+   "size": 42,
+   "price": 39100,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "71.97",
+   "size": 71,
+   "price": 67140,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 10,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "42.9802A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 6.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "42.9802B",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "71.97",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 21,
+  "rank1_req": 0,
+  "supply_total": 10,
+  "final_shortfall_total": 2,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "42.9802A",
+   "rate": 6.0,
+   "stage": "None순위 None"
+  }
+ }
+}

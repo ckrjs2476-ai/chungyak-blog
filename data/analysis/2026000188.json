@@ -1,0 +1,182 @@
+{
+ "no": "2026000188",
+ "name": "해운대 마티안 디 에디션",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-05-14",
+ "rank1_date": "2026-05-27",
+ "city": "해운대구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000188&pblancNo=2026000188",
+ "households": 99,
+ "types": [
+  {
+   "ty": "76.0622A",
+   "size": 76,
+   "price": 98780,
+   "area_m2": 107.7785,
+   "general": 11,
+   "special": 14,
+   "pyeong_price": 3030,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "76.0622B",
+   "size": 76,
+   "price": 82160,
+   "area_m2": 107.7791,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2520,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "81.7692",
+   "size": 81,
+   "price": 95730,
+   "area_m2": 115.9282,
+   "general": 10,
+   "special": 11,
+   "pyeong_price": 2730,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8599",
+   "size": 84,
+   "price": 100490,
+   "area_m2": 119.4974,
+   "general": 24,
+   "special": 28,
+   "pyeong_price": 2780,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 46,
+ "special_total": 53,
+ "special_share_pct": 54,
+ "pyeong_min": 2520,
+ "pyeong_max": 3030,
+ "pyeong_avg": 2830,
+ "price_84_min": 100490,
+ "price_84_max": 100490,
+ "special_kinds": {
+  "신혼부부": 20,
+  "생애최초": 9,
+  "다자녀": 10,
+  "노부모 부양": 4,
+  "기관추천": 10
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "76.0622A",
+    "supply": 25,
+    "closed_at": "2순위 기타지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "76.0622B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "81.7692",
+    "supply": 20,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "84.8599",
+    "supply": 47,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   }
+  ],
+  "req_total": 74,
+  "rank1_req": 43,
+  "supply_total": 93,
+  "final_shortfall_total": 34,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 4,
+  "rank1_avg_rate": 0.46,
+  "best": {
+   "ty": "76.0622B",
+   "rate": 8.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "76.0622B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "76.0622B": 0
+  },
+  "avg_min": 26.5,
+  "max": {
+   "score": 53,
+   "ty": "76.0622B"
+  }
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 20,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리"
+  ],
+  "peer_avg_pyeong": 2463,
+  "diff": 367,
+  "diff_pct": 15,
+  "rank": 5,
+  "of": 21
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 20,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리"
+  ],
+  "peer_avg_rate": 2.42,
+  "rank": 10,
+  "of": 21
+ },
+ "region_score": {
+  "scope": "부산",
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘",
+   "엄궁역 트라비스 하늘채",
+   "두산위브 트리니뷰 구명역",
+   "동래사적공원 오네뜨"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

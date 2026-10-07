@@ -1,0 +1,217 @@
+{
+ "no": "2026000130",
+ "name": "PH159",
+ "kind": "apt",
+ "region": "제주",
+ "notice_date": "2026-04-20",
+ "rank1_date": "2026-04-30",
+ "city": "제주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000130&pblancNo=2026000130",
+ "households": 49,
+ "types": [
+  {
+   "ty": "69.7157A",
+   "size": 69,
+   "price": 45000,
+   "area_m2": 90.0662,
+   "general": 8,
+   "special": 0,
+   "pyeong_price": 1652,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9163A",
+   "size": 84,
+   "price": 54600,
+   "area_m2": 109.2686,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 1652,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7589B",
+   "size": 84,
+   "price": 54600,
+   "area_m2": 110.4091,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 1635,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.1386C",
+   "size": 84,
+   "price": 53600,
+   "area_m2": 108.3051,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 1636,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9333D",
+   "size": 84,
+   "price": 54800,
+   "area_m2": 109.8124,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 1650,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.83E",
+   "size": 84,
+   "price": 55200,
+   "area_m2": 109.4271,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1668,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.114F",
+   "size": 84,
+   "price": 54500,
+   "area_m2": 109.0342,
+   "general": 6,
+   "special": 0,
+   "pyeong_price": 1652,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "99.9896A",
+   "size": 99,
+   "price": 67500,
+   "area_m2": 127.9686,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 1744,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "99.298D",
+   "size": 99,
+   "price": 61600,
+   "area_m2": 127.3492,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 1599,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 49,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1599,
+ "pyeong_max": 1744,
+ "pyeong_avg": 1673,
+ "price_84_min": 53600,
+ "price_84_max": 55200,
+ "competition": {
+  "types": [
+   {
+    "ty": "69.7157A",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "84.9163A",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "84.7589B",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "84.1386C",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "84.9333D",
+    "supply": 4,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "84.83E",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "84.114F",
+    "supply": 6,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "99.9896A",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "99.298D",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 12,
+  "rank1_req": 6,
+  "supply_total": 49,
+  "final_shortfall_total": 37,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 9,
+  "rank1_avg_rate": 0.12
+ },
+ "region_price": {
+  "scope": "제주시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "이안 연동스퀘어",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ",
+   "제주시 이도이동 아이린8차 아파트"
+  ],
+  "peer_avg_pyeong": 2704,
+  "diff": -1031,
+  "diff_pct": -38,
+  "rank": 6,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "제주시",
+  "peer_count": 4,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "이안 연동스퀘어",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ"
+  ],
+  "peer_avg_rate": 0.08,
+  "rank": 2,
+  "of": 5
+ }
+}

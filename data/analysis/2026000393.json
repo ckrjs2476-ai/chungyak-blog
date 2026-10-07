@@ -1,0 +1,239 @@
+{
+ "no": "2026000393",
+ "name": "시흥 은계 에피트(조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-09-04",
+ "rank1_date": "2026-09-16",
+ "city": "시흥시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000393&pblancNo=2026000393",
+ "households": 24,
+ "types": [
+  {
+   "ty": "39.157",
+   "size": 39,
+   "price": 30760,
+   "area_m2": 54.899,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1852,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "48.819",
+   "size": 48,
+   "price": 37900,
+   "area_m2": 68.714,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1823,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "52.185A",
+   "size": 52,
+   "price": 42500,
+   "area_m2": 72.525,
+   "general": 3,
+   "special": 7,
+   "pyeong_price": 1937,
+   "special_share_pct": 70
+  },
+  {
+   "ty": "52.784B",
+   "size": 52,
+   "price": 42400,
+   "area_m2": 73.33,
+   "general": 2,
+   "special": 1,
+   "pyeong_price": 1911,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "52.43C",
+   "size": 52,
+   "price": 41400,
+   "area_m2": 74.413,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1839,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.612A",
+   "size": 59,
+   "price": 48500,
+   "area_m2": 82.714,
+   "general": 2,
+   "special": 1,
+   "pyeong_price": 1938,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "59.005B",
+   "size": 59,
+   "price": 46400,
+   "area_m2": 83.546,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1836,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.057C",
+   "size": 59,
+   "price": 45900,
+   "area_m2": 83.381,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1820,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 15,
+ "special_total": 9,
+ "special_share_pct": 38,
+ "pyeong_min": 1820,
+ "pyeong_max": 1938,
+ "pyeong_avg": 1900,
+ "special_kinds": {
+  "신혼부부": 4,
+  "생애최초": 1,
+  "신생아": 1,
+  "다자녀": 1,
+  "노부모 부양": 1,
+  "기관추천": 1
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "39.157",
+    "supply": 2,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "48.819",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "52.185A",
+    "supply": 3,
+    "closed_at": "1순위 기타지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "52.784B",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "52.43C",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "59.612A",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.005B",
+    "supply": 1,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.057C",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 43,
+  "rank1_req": 25,
+  "supply_total": 17,
+  "final_shortfall_total": 2,
+  "closed_types": 6,
+  "rank1_closed_types": 4,
+  "type_count": 8,
+  "rank1_avg_rate": 1.47,
+  "best": {
+   "ty": "52.185A",
+   "rate": 4.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "52.185A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "52.185A": 0,
+   "59.612A": 0,
+   "59.057C": 0
+  },
+  "avg_min": 19.8,
+  "max": {
+   "score": 54,
+   "ty": "59.612A"
+  }
+ },
+ "region_price": {
+  "scope": "시흥시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "시흥거모B1 호반써밋",
+   "힐스테이트 시흥더클래스"
+  ],
+  "peer_avg_pyeong": 2210,
+  "diff": -310,
+  "diff_pct": -14,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "시흥시",
+  "peer_count": 2,
+  "peers": [
+   "시흥거모B1 호반써밋",
+   "힐스테이트 시흥더클래스"
+  ],
+  "peer_avg_rate": 0.34,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 27,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "의정부역 센트럴 아이파크",
+   "야목역 서희스타힐스 그랜드힐",
+   "힐스테이트 안양펠루스",
+   "풍무역세권 수자인 그라센트 2차",
+   "더샵 분당하이스트"
+  ],
+  "peer_avg_min": 3.3,
+  "diff": -3.3
+ }
+}

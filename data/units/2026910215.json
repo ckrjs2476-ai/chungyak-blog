@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "한국자산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-23",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-24",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://더샵검단레이크파크.kr",
+  "HOUSE_MANAGE_NO": "2026910215",
+  "HOUSE_NM": "더샵 검단레이크파크(AB22BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 검단구 검단신도시 AB22BL(인천광역시 검단구 불로동 696번지 일원)",
+  "HSSPLY_ZIP": "23431",
+  "MDHS_TELNO": "16002857",
+  "MVN_PREARNGE_YM": "202912",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910215",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910215&pblancNo=2026910215",
+  "PRZWNER_PRESNATN_DE": "2026-08-18",
+  "RCRIT_PBLANC_DE": "2026-08-07",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-12",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-12",
+  "TOT_SUPLY_HSHLDCO": 116
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910215",
+   "HOUSE_TY": "084.5181A",
+   "LTTOT_TOP_AMOUNT": "65330",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910215",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 23
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910215",
+   "HOUSE_TY": "084.0342B",
+   "LTTOT_TOP_AMOUNT": "64660",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910215",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 45
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910215",
+   "HOUSE_TY": "084.1796C",
+   "LTTOT_TOP_AMOUNT": "63680",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910215",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 48
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.33",
+   "HOUSE_MANAGE_NO": "2026910215",
+   "HOUSE_TY": "084.0342B",
+   "PBLANC_NO": "2026910215",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "105",
+   "SUPLY_HSHLDCO": 45
+  },
+  {
+   "CMPET_RATE": "2.23",
+   "HOUSE_MANAGE_NO": "2026910215",
+   "HOUSE_TY": "084.1796C",
+   "PBLANC_NO": "2026910215",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "107",
+   "SUPLY_HSHLDCO": 48
+  },
+  {
+   "CMPET_RATE": "10.91",
+   "HOUSE_MANAGE_NO": "2026910215",
+   "HOUSE_TY": "084.5181A",
+   "PBLANC_NO": "2026910215",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "251",
+   "SUPLY_HSHLDCO": 23
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:19.893620+09:00"
+}

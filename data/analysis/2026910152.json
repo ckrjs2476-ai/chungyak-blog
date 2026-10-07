@@ -1,0 +1,127 @@
+{
+ "no": "2026910152",
+ "name": "e편한세상 부천 어반스퀘어",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-06-09",
+ "rank1_date": "2026-06-15",
+ "city": "부천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910152&pblancNo=2026910152",
+ "households": 485,
+ "types": [
+  {
+   "ty": "59.9A",
+   "size": 59,
+   "price": 86640,
+   "area_m2": null,
+   "general": 186,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.77B",
+   "size": 59,
+   "price": 85610,
+   "area_m2": null,
+   "general": 45,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.63A",
+   "size": 74,
+   "price": 101960,
+   "area_m2": null,
+   "general": 117,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.3B",
+   "size": 74,
+   "price": 100850,
+   "area_m2": null,
+   "general": 68,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.34A",
+   "size": 84,
+   "price": 113900,
+   "area_m2": null,
+   "general": 45,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6B",
+   "size": 84,
+   "price": 110190,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 485,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 110190,
+ "price_84_max": 113900,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.77B",
+    "supply": 45,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 22
+   },
+   {
+    "ty": "59.9A",
+    "supply": 186,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 90
+   },
+   {
+    "ty": "74.3B",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 51
+   },
+   {
+    "ty": "74.63A",
+    "supply": 117,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 90
+   },
+   {
+    "ty": "84.34A",
+    "supply": 45,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "84.6B",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   }
+  ],
+  "req_total": 202,
+  "rank1_req": 0,
+  "supply_total": 485,
+  "final_shortfall_total": 283,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0
+ }
+}

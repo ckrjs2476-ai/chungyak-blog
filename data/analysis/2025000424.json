@@ -1,0 +1,100 @@
+{
+ "no": "2025000424",
+ "name": "힐스테이트 지석",
+ "kind": "apt",
+ "region": "광주",
+ "notice_date": "2025-09-12",
+ "rank1_date": "2025-09-23",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000424&pblancNo=2025000424",
+ "households": 53,
+ "types": [
+  {
+   "ty": "84.9892",
+   "size": 84,
+   "price": 64570,
+   "area_m2": 109.4514,
+   "general": 21,
+   "special": 25,
+   "pyeong_price": 1950,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "115.2492",
+   "size": 115,
+   "price": 85800,
+   "area_m2": 143.3857,
+   "general": 3,
+   "special": 4,
+   "pyeong_price": 1978,
+   "special_share_pct": 57
+  }
+ ],
+ "general_total": 24,
+ "special_total": 29,
+ "special_share_pct": 55,
+ "pyeong_min": 1950,
+ "pyeong_max": 1978,
+ "pyeong_avg": 1954,
+ "price_84_min": 64570,
+ "price_84_max": 64570,
+ "special_kinds": {
+  "신혼부부": 11,
+  "생애최초": 5,
+  "다자녀": 6,
+  "노부모 부양": 2,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9892",
+    "supply": 45,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 42
+   },
+   {
+    "ty": "115.2492",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   }
+  ],
+  "req_total": 4,
+  "rank1_req": 1,
+  "supply_total": 52,
+  "final_shortfall_total": 48,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "광주",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더 퍼스트 데시앙",
+   "송정공원역 대라수 우선 분양전환 후 잔여세대"
+  ],
+  "peer_avg_pyeong": 1423,
+  "diff": 531,
+  "diff_pct": 37,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "광주",
+  "peer_count": 2,
+  "peers": [
+   "더 퍼스트 데시앙",
+   "송정공원역 대라수 우선 분양전환 후 잔여세대"
+  ],
+  "peer_avg_rate": 0.36,
+  "rank": 3,
+  "of": 3
+ }
+}

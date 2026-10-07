@@ -1,0 +1,134 @@
+{
+ "no": "2026000097",
+ "name": "강릉 성보필리오 더센트럴힐즈",
+ "kind": "apt",
+ "region": "강원",
+ "notice_date": "2026-05-27",
+ "rank1_date": "2026-06-09",
+ "city": "강릉시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000097&pblancNo=2026000097",
+ "households": 148,
+ "types": [
+  {
+   "ty": "59.673A",
+   "size": 59,
+   "price": 42430,
+   "area_m2": 79.3355,
+   "general": 7,
+   "special": 6,
+   "pyeong_price": 1768,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "59.9798B",
+   "size": 59,
+   "price": 46559,
+   "area_m2": 85.8544,
+   "general": 23,
+   "special": 29,
+   "pyeong_price": 1793,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "74.9678",
+   "size": 74,
+   "price": 54175,
+   "area_m2": 100.7908,
+   "general": 23,
+   "special": 26,
+   "pyeong_price": 1777,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.5203",
+   "size": 84,
+   "price": 60248,
+   "area_m2": 111.0629,
+   "general": 16,
+   "special": 18,
+   "pyeong_price": 1793,
+   "special_share_pct": 53
+  }
+ ],
+ "general_total": 69,
+ "special_total": 79,
+ "special_share_pct": 53,
+ "pyeong_min": 1768,
+ "pyeong_max": 1793,
+ "pyeong_avg": 1786,
+ "price_84_min": 60248,
+ "price_84_max": 60248,
+ "special_kinds": {
+  "신혼부부": 34,
+  "생애최초": 13,
+  "다자녀": 14,
+  "노부모 부양": 4,
+  "기관추천": 14
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.673A",
+    "supply": 12,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "59.9798B",
+    "supply": 51,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 51
+   },
+   {
+    "ty": "74.9678",
+    "supply": 49,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 48
+   },
+   {
+    "ty": "84.5203",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 31
+   }
+  ],
+  "req_total": 5,
+  "rank1_req": 3,
+  "supply_total": 146,
+  "final_shortfall_total": 141,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "강릉시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "강릉 우미 린 더 프리미어",
+   "리쉐스302"
+  ],
+  "peer_avg_pyeong": 1610,
+  "diff": 176,
+  "diff_pct": 11,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "강릉시",
+  "peer_count": 2,
+  "peers": [
+   "강릉 우미 린 더 프리미어",
+   "리쉐스302"
+  ],
+  "peer_avg_rate": 0.14,
+  "rank": 2,
+  "of": 3
+ }
+}

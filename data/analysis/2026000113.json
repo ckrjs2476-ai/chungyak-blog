@@ -1,0 +1,197 @@
+{
+ "no": "2026000113",
+ "name": "동탄 그웬 160 (동탄2 B11BL)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-16",
+ "rank1_date": "2026-04-28",
+ "city": "화성특례시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000113&pblancNo=2026000113",
+ "households": 160,
+ "types": [
+  {
+   "ty": "102.7378",
+   "size": 102,
+   "price": 107000,
+   "area_m2": 124.5898,
+   "general": 28,
+   "special": 5,
+   "pyeong_price": 2839,
+   "special_share_pct": 15
+  },
+  {
+   "ty": "102.7378P",
+   "size": 102,
+   "price": 109200,
+   "area_m2": 124.5898,
+   "general": 30,
+   "special": 4,
+   "pyeong_price": 2897,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "108.7178",
+   "size": 108,
+   "price": 87000,
+   "area_m2": 131.7872,
+   "general": 58,
+   "special": 9,
+   "pyeong_price": 2182,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "115.1988",
+   "size": 115,
+   "price": 115080,
+   "area_m2": 139.5802,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2726,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "115.1988P",
+   "size": 115,
+   "price": 120580,
+   "area_m2": 139.5802,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2856,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "116.4757T",
+   "size": 116,
+   "price": 88000,
+   "area_m2": 139.7277,
+   "general": 19,
+   "special": 3,
+   "pyeong_price": 2082,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "118.1488",
+   "size": 118,
+   "price": 94530,
+   "area_m2": 143.4715,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2178,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 139,
+ "special_total": 21,
+ "special_share_pct": 13,
+ "pyeong_min": 2082,
+ "pyeong_max": 2897,
+ "pyeong_avg": 2463,
+ "special_kinds": {
+  "다자녀": 16,
+  "노부모 부양": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "102.7378",
+    "supply": 30,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "102.7378P",
+    "supply": 32,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.3,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "108.7178",
+    "supply": 59,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.39,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.1988",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.1988P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 12.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "116.4757T",
+    "supply": 19,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "118.1488",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 12.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 648,
+  "rank1_req": 492,
+  "supply_total": 144,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 7,
+  "type_count": 7,
+  "rank1_avg_rate": 3.42,
+  "best": {
+   "ty": "116.4757T",
+   "rate": 14.83,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 83,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "더샵 분당티에르원"
+  ],
+  "peer_avg_pyeong": 2503,
+  "diff": -40,
+  "diff_pct": -2,
+  "rank": 27,
+  "of": 84
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 81,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "효성해링턴 플레이스 양평",
+   "만안역 중앙하이츠 포레",
+   "운정 아이파크 시티",
+   "더샵 분당티에르원"
+  ],
+  "peer_avg_rate": 5.25,
+  "rank": 22,
+  "of": 82
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "no": "2026910224",
+ "name": "장위 푸르지오 마크원(2차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-08-27",
+ "rank1_date": "2026-09-01",
+ "city": "성북구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910224&pblancNo=2026910224",
+ "households": 4,
+ "types": [
+  {
+   "ty": "39.77A",
+   "size": 39,
+   "price": 73220,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 4,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "39.77A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 109.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 438,
+  "rank1_req": 0,
+  "supply_total": 4,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "39.77A",
+   "rate": 109.5,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "no": "2026000342",
+ "name": "제일풍경채 첨단3지구(A6BL)",
+ "kind": "apt",
+ "region": "광주",
+ "notice_date": "2026-08-14",
+ "rank1_date": "2026-08-25",
+ "city": "첨단3지구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000342&pblancNo=2026000342",
+ "households": 638,
+ "types": [
+  {
+   "ty": "84.99A",
+   "size": 84,
+   "price": 51800,
+   "area_m2": 111.0549,
+   "general": 100,
+   "special": 182,
+   "pyeong_price": 1542,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.99B",
+   "size": 84,
+   "price": 51460,
+   "area_m2": 111.4449,
+   "general": 16,
+   "special": 19,
+   "pyeong_price": 1526,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "115.99A",
+   "size": 115,
+   "price": 69810,
+   "area_m2": 150.8314,
+   "general": 112,
+   "special": 15,
+   "pyeong_price": 1530,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "129.99A",
+   "size": 129,
+   "price": 79600,
+   "area_m2": 168.8305,
+   "general": 170,
+   "special": 24,
+   "pyeong_price": 1559,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 398,
+ "special_total": 240,
+ "special_share_pct": 38,
+ "pyeong_min": 1526,
+ "pyeong_max": 1559,
+ "pyeong_avg": 1544,
+ "price_84_min": 51460,
+ "price_84_max": 51800,
+ "special_kinds": {
+  "신혼부부": 46,
+  "생애최초": 52,
+  "신생아": 31,
+  "다자녀": 62,
+  "노부모 부양": 17,
+  "기관추천": 32
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.99A",
+    "supply": 225,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.26,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99B",
+    "supply": 28,
+    "closed_at": "1순위 기타지역",
+    "rate": 3.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.99A",
+    "supply": 127,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 100
+   },
+   {
+    "ty": "129.99A",
+    "supply": 194,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 181
+   }
+  ],
+  "req_total": 576,
+  "rank1_req": 441,
+  "supply_total": 574,
+  "final_shortfall_total": 281,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 4,
+  "rank1_avg_rate": 0.77,
+  "best": {
+   "ty": "84.99B",
+   "rate": 3.25,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.99A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.99A": 0,
+   "84.99B": 0
+  },
+  "avg_min": 13.8,
+  "max": {
+   "score": 69,
+   "ty": "84.99A"
+  }
+ },
+ "region_price": {
+  "scope": "광주",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "호반써밋 첨단3지구(A7BL)",
+   "올 뉴 챔피언스시티 1차"
+  ],
+  "peer_avg_pyeong": 2028,
+  "diff": -484,
+  "diff_pct": -24,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "광주",
+  "peer_count": 2,
+  "peers": [
+   "호반써밋 첨단3지구(A7BL)",
+   "올 뉴 챔피언스시티 1차"
+  ],
+  "peer_avg_rate": 3.63,
+  "rank": 3,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "광주",
+  "peer_count": 2,
+  "peers": [
+   "호반써밋 첨단3지구(A7BL)",
+   "올 뉴 챔피언스시티 1차"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

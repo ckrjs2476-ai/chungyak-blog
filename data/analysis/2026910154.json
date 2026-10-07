@@ -1,0 +1,82 @@
+{
+ "no": "2026910154",
+ "name": "인천시청역 한신더휴",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-06-17",
+ "rank1_date": "2026-06-22",
+ "city": "남동구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910154&pblancNo=2026910154",
+ "households": 3,
+ "types": [
+  {
+   "ty": "59.9842A",
+   "size": 59,
+   "price": 44143,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9914B",
+   "size": 59,
+   "price": 45007,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.956B",
+   "size": 74,
+   "price": 54511,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9842A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 36.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9914B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 252.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.956B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 69.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 357,
+  "rank1_req": 0,
+  "supply_total": 3,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.9914B",
+   "rate": 252.0,
+   "stage": "None순위 None"
+  }
+ }
+}

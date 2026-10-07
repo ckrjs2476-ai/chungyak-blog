@@ -1,0 +1,84 @@
+{
+ "no": "2025910172",
+ "name": "고덕 자연앤 하우스디(A4BL)(국민)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-09-24",
+ "rank1_date": "2025-09-29",
+ "city": "평택시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910172&pblancNo=2025910172",
+ "households": 89,
+ "types": [
+  {
+   "ty": "84.8941A",
+   "size": 84,
+   "price": 52960,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8325B",
+   "size": 84,
+   "price": 52980,
+   "area_m2": null,
+   "general": 51,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8977C",
+   "size": 84,
+   "price": 51960,
+   "area_m2": null,
+   "general": 29,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 89,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 51960,
+ "price_84_max": 52980,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8325B",
+    "supply": 51,
+    "closed_at": "None순위 None",
+    "rate": 3.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8941A",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 10.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8977C",
+    "supply": 29,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   }
+  ],
+  "req_total": 271,
+  "rank1_req": 0,
+  "supply_total": 89,
+  "final_shortfall_total": 9,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8941A",
+   "rate": 10.33,
+   "stage": "None순위 None"
+  }
+ }
+}

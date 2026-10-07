@@ -1,0 +1,278 @@
+{
+ "no": "2026000336",
+ "name": "평택역 더센트럴45",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-09",
+ "rank1_date": "2026-07-21",
+ "city": "평택시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000336&pblancNo=2026000336",
+ "households": 99,
+ "types": [
+  {
+   "ty": "79.9213",
+   "size": 79,
+   "price": 55000,
+   "area_m2": 120.8133,
+   "general": 12,
+   "special": 7,
+   "pyeong_price": 1505,
+   "special_share_pct": 37
+  },
+  {
+   "ty": "84.5994A",
+   "size": 84,
+   "price": 59500,
+   "area_m2": 126.733,
+   "general": 7,
+   "special": 12,
+   "pyeong_price": 1552,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.6767B",
+   "size": 84,
+   "price": 60300,
+   "area_m2": 127.3111,
+   "general": 9,
+   "special": 10,
+   "pyeong_price": 1566,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.7673C",
+   "size": 84,
+   "price": 60900,
+   "area_m2": 127.1958,
+   "general": 9,
+   "special": 10,
+   "pyeong_price": 1583,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9764D",
+   "size": 84,
+   "price": 56300,
+   "area_m2": 126.9835,
+   "general": 1,
+   "special": 7,
+   "pyeong_price": 1466,
+   "special_share_pct": 88
+  },
+  {
+   "ty": "84.7673P",
+   "size": 84,
+   "price": 70200,
+   "area_m2": 127.1958,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1824,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "110.9626P",
+   "size": 110,
+   "price": 88700,
+   "area_m2": 166.23,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1764,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "125.2266",
+   "size": 125,
+   "price": 83000,
+   "area_m2": 185.2432,
+   "general": 11,
+   "special": 0,
+   "pyeong_price": 1481,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "125.2266P",
+   "size": 125,
+   "price": 92300,
+   "area_m2": 185.2444,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1647,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "152.0764P",
+   "size": 152,
+   "price": 116900,
+   "area_m2": 227.1267,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1701,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 53,
+ "special_total": 46,
+ "special_share_pct": 46,
+ "pyeong_min": 1466,
+ "pyeong_max": 1824,
+ "pyeong_avg": 1544,
+ "price_84_min": 56300,
+ "price_84_max": 70200,
+ "special_kinds": {
+  "신혼부부": 17,
+  "생애최초": 10,
+  "신생아": 6,
+  "다자녀": 10,
+  "노부모 부양": 3
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "79.9213",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.5994A",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "84.6767B",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "84.7673C",
+    "supply": 19,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "84.9764D",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "84.7673P",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "110.9626P",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "125.2266",
+    "supply": 11,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "125.2266P",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "152.0764P",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 26,
+  "rank1_req": 20,
+  "supply_total": 95,
+  "final_shortfall_total": 70,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 10,
+  "rank1_avg_rate": 0.21,
+  "best": {
+   "ty": "84.7673P",
+   "rate": 2.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.7673P",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.7673P": 0
+  },
+  "avg_min": 22.5,
+  "max": {
+   "score": 45,
+   "ty": "84.7673P"
+  }
+ },
+ "region_price": {
+  "scope": "평택시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "더 플래티넘 파인애비뉴",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디"
+  ],
+  "peer_avg_pyeong": 1702,
+  "diff": -158,
+  "diff_pct": -9,
+  "rank": 6,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "평택시",
+  "peer_count": 5,
+  "peers": [
+   "더 플래티넘 파인애비뉴",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디"
+  ],
+  "peer_avg_rate": 0.47,
+  "rank": 4,
+  "of": 6
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 31,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)"
+  ],
+  "peer_avg_min": 2.9,
+  "diff": -2.9
+ }
+}

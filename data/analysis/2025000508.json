@@ -1,0 +1,77 @@
+{
+ "no": "2025000508",
+ "name": "제천 신백 선광로즈웰아파트 우선 분양전환 후 잔여세대",
+ "kind": "apt",
+ "region": "충북",
+ "notice_date": "2025-10-21",
+ "rank1_date": "2025-10-31",
+ "city": "제천시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000508&pblancNo=2025000508",
+ "households": 182,
+ "types": [
+  {
+   "ty": "33.205B",
+   "size": 33,
+   "price": 5770,
+   "area_m2": 47.4487,
+   "general": 182,
+   "special": 0,
+   "pyeong_price": 402,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 182,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 402,
+ "pyeong_max": 402,
+ "pyeong_avg": 402,
+ "competition": {
+  "types": [
+   {
+    "ty": "33.205B",
+    "supply": 182,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 176
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 4,
+  "supply_total": 182,
+  "final_shortfall_total": 176,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "충북",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "청주 롯데캐슬 시그니처",
+   "두산위브더제니스 청주 센트럴파크",
+   "청주지북지구 B1블록 공공분양주택",
+   "청주 푸르지오 씨엘리체"
+  ],
+  "peer_avg_pyeong": 1455,
+  "diff": -1053,
+  "diff_pct": -72,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "충북",
+  "peer_count": 3,
+  "peers": [
+   "청주 롯데캐슬 시그니처",
+   "두산위브더제니스 청주 센트럴파크",
+   "청주 푸르지오 씨엘리체"
+  ],
+  "peer_avg_rate": 4.45,
+  "rank": 4,
+  "of": 4
+ }
+}

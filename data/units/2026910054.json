@@ -1,0 +1,151 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)승미주택",
+  "CNTRCT_CNCLS_BGNDE": "2026-03-18",
+  "CNTRCT_CNCLS_ENDDE": "2026-03-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://형남아파트6차.com",
+  "HOUSE_MANAGE_NO": "2026910054",
+  "HOUSE_NM": "서귀포시 서홍동 형남아파트6차",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "제주특별자치도 서귀포시 서홍동 384-5번지 일원",
+  "HSSPLY_ZIP": "63584",
+  "MDHS_TELNO": "0647327338",
+  "MVN_PREARNGE_YM": "202610",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910054",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910054&pblancNo=2026910054",
+  "PRZWNER_PRESNATN_DE": "2026-03-13",
+  "RCRIT_PBLANC_DE": "2026-03-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "690",
+  "SUBSCRPT_AREA_CODE_NM": "제주",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-10",
+  "TOT_SUPLY_HSHLDCO": 45
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.5162A",
+   "LTTOT_TOP_AMOUNT": "49000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910054",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.5162B",
+   "LTTOT_TOP_AMOUNT": "45400",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910054",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.5162C",
+   "LTTOT_TOP_AMOUNT": "49000",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910054",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.9008D",
+   "LTTOT_TOP_AMOUNT": "50600",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910054",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.8387E",
+   "LTTOT_TOP_AMOUNT": "48500",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2026910054",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.8387F",
+   "LTTOT_TOP_AMOUNT": "47000",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2026910054",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△16)",
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.5162A",
+   "PBLANC_NO": "2026910054",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 24
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.5162B",
+   "PBLANC_NO": "2026910054",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "CMPET_RATE": "1.40",
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.5162C",
+   "PBLANC_NO": "2026910054",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "CMPET_RATE": "1.50",
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.8387E",
+   "PBLANC_NO": "2026910054",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.8387F",
+   "PBLANC_NO": "2026910054",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "1.60",
+   "HOUSE_MANAGE_NO": "2026910054",
+   "HOUSE_TY": "084.9008D",
+   "PBLANC_NO": "2026910054",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:55.694381+09:00"
+}

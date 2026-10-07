@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "신한자산신탁 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-11",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-11",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.힐스테이트평거.kr",
+  "HOUSE_MANAGE_NO": "2026910125",
+  "HOUSE_NM": "힐스테이트 평거 센트럴",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상남도 진주시 평거동 148번지 외 4필지",
+  "HSSPLY_ZIP": "52677",
+  "MDHS_TELNO": "0557473330",
+  "MVN_PREARNGE_YM": "203003",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910125",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910125&pblancNo=2026910125",
+  "PRZWNER_PRESNATN_DE": "2026-06-08",
+  "RCRIT_PBLANC_DE": "2026-05-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "621",
+  "SUBSCRPT_AREA_CODE_NM": "경남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-02",
+  "TOT_SUPLY_HSHLDCO": 129
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "084.3746A",
+   "LTTOT_TOP_AMOUNT": "64600",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910125",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 55
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "105.9633A",
+   "LTTOT_TOP_AMOUNT": "90400",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910125",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 59
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "105.6430B",
+   "LTTOT_TOP_AMOUNT": "87700",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910125",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 12
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "105.5065C",
+   "LTTOT_TOP_AMOUNT": "86000",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910125",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.56",
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "084.3746A",
+   "PBLANC_NO": "2026910125",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "86",
+   "SUPLY_HSHLDCO": 55
+  },
+  {
+   "CMPET_RATE": "1.33",
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "105.5065C",
+   "PBLANC_NO": "2026910125",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "(△8)",
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "105.6430B",
+   "PBLANC_NO": "2026910125",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 12
+  },
+  {
+   "CMPET_RATE": "(△49)",
+   "HOUSE_MANAGE_NO": "2026910125",
+   "HOUSE_TY": "105.9633A",
+   "PBLANC_NO": "2026910125",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 59
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:11.149742+09:00"
+}

@@ -1,0 +1,68 @@
+{
+ "no": "2026910011",
+ "name": "의왕시청역 SK VIEW IPARK",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-13",
+ "rank1_date": "2026-01-19",
+ "city": "의왕시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910011&pblancNo=2026910011",
+ "households": 6,
+ "types": [
+  {
+   "ty": "46.9755",
+   "size": 46,
+   "price": 49640,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7665B",
+   "size": 84,
+   "price": 97480,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 97480,
+ "price_84_max": 97480,
+ "competition": {
+  "types": [
+   {
+    "ty": "46.9755",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 111.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7665B",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 117.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 687,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.7665B",
+   "rate": 117.33,
+   "stage": "None순위 None"
+  }
+ }
+}

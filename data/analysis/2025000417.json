@@ -1,0 +1,119 @@
+{
+ "no": "2025000417",
+ "name": "문수데시앙2단지 공가세대 일반공급",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2025-09-05",
+ "rank1_date": "2025-09-15",
+ "city": "울주군",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000417&pblancNo=2025000417",
+ "households": 27,
+ "types": [
+  {
+   "ty": "59.8041A",
+   "size": 59,
+   "price": 22100,
+   "area_m2": 88.8022,
+   "general": 15,
+   "special": 0,
+   "pyeong_price": 823,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9289B",
+   "size": 59,
+   "price": 22350,
+   "area_m2": 89.2319,
+   "general": 11,
+   "special": 0,
+   "pyeong_price": 828,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.8096A",
+   "size": 74,
+   "price": 27900,
+   "area_m2": 110.1056,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 838,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 27,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 823,
+ "pyeong_max": 838,
+ "pyeong_avg": 826,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.8041A",
+    "supply": 15,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9289B",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.36,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.8096A",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 45.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 223,
+  "rank1_req": 191,
+  "supply_total": 27,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 7.07,
+  "best": {
+   "ty": "74.8096A",
+   "rate": 45.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "울주군",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "울산태화강변지구 A-2블록 공공분양주택",
+   "울산다운2지구 A-10블록 공공분양주택"
+  ],
+  "peer_avg_pyeong": 1534,
+  "diff": -708,
+  "diff_pct": -46,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_rate": 4.01,
+  "rank": 4,
+  "of": 11
+ }
+}

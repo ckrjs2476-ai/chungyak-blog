@@ -1,0 +1,227 @@
+{
+ "no": "2026000094",
+ "name": "라클라체자이드파인",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-04-03",
+ "rank1_date": "2026-04-14",
+ "city": "동작구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000094&pblancNo=2026000094",
+ "households": 369,
+ "types": [
+  {
+   "ty": "59.9116A",
+   "size": 59,
+   "price": 215010,
+   "area_m2": 86.0898,
+   "general": 60,
+   "special": 72,
+   "pyeong_price": 8256,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "59.8054B",
+   "size": 59,
+   "price": 218990,
+   "area_m2": 86.5559,
+   "general": 5,
+   "special": 4,
+   "pyeong_price": 8364,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "59.9537C",
+   "size": 59,
+   "price": 220880,
+   "area_m2": 86.1125,
+   "general": 16,
+   "special": 12,
+   "pyeong_price": 8479,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "84.9634A",
+   "size": 84,
+   "price": 258510,
+   "area_m2": 110.5586,
+   "general": 28,
+   "special": 37,
+   "pyeong_price": 7730,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.9995B",
+   "size": 84,
+   "price": 251350,
+   "area_m2": 110.9623,
+   "general": 40,
+   "special": 51,
+   "pyeong_price": 7488,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9712C",
+   "size": 84,
+   "price": 258320,
+   "area_m2": 110.4839,
+   "general": 10,
+   "special": 10,
+   "pyeong_price": 7729,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "106.9502A",
+   "size": 106,
+   "price": 301310,
+   "area_m2": 135.8696,
+   "general": 21,
+   "special": 3,
+   "pyeong_price": 7331,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 180,
+ "special_total": 189,
+ "special_share_pct": 51,
+ "pyeong_min": 7331,
+ "pyeong_max": 8479,
+ "pyeong_avg": 7905,
+ "price_84_min": 251350,
+ "price_84_max": 258510,
+ "special_kinds": {
+  "신혼부부": 79,
+  "생애최초": 31,
+  "다자녀": 37,
+  "노부모 부양": 11,
+  "기관추천": 31
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9116A",
+    "supply": 60,
+    "closed_at": "1순위 해당지역",
+    "rate": 40.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8054B",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 42.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9537C",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 37.31,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9634A",
+    "supply": 28,
+    "closed_at": "1순위 해당지역",
+    "rate": 21.36,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9995B",
+    "supply": 40,
+    "closed_at": "1순위 해당지역",
+    "rate": 18.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9712C",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "106.9502A",
+    "supply": 21,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.14,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 4843,
+  "rank1_req": 4843,
+  "supply_total": 180,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 7,
+  "type_count": 7,
+  "rank1_avg_rate": 26.91,
+  "best": {
+   "ty": "59.8054B",
+   "rate": 42.4,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "106.9502A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9116A": 0,
+   "59.8054B": 0,
+   "59.9537C": 0,
+   "84.9634A": 0,
+   "84.9995B": 0,
+   "84.9712C": 0,
+   "106.9502A": 0
+  },
+  "avg_min": 31.3,
+  "max": {
+   "score": 74,
+   "ty": "59.9537C"
+  }
+ },
+ "region_price": {
+  "scope": "동작구",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "아크로 리버스카이",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아"
+  ],
+  "peer_avg_pyeong": 7681,
+  "diff": 224,
+  "diff_pct": 3,
+  "rank": 2,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "동작구",
+  "peer_count": 4,
+  "peers": [
+   "아크로 리버스카이",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아"
+  ],
+  "peer_avg_rate": 46.51,
+  "rank": 3,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "동작구",
+  "peer_count": 4,
+  "peers": [
+   "아크로 리버스카이",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

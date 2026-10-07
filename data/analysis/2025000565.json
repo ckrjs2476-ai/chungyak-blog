@@ -1,0 +1,104 @@
+{
+ "no": "2025000565",
+ "name": "대상 웰라움 순창",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-20",
+ "city": "순창군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000565&pblancNo=2025000565",
+ "households": 264,
+ "types": [
+  {
+   "ty": "84.8114",
+   "size": 84,
+   "price": 38460,
+   "area_m2": 107.5636,
+   "general": 76,
+   "special": 133,
+   "pyeong_price": 1182,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "112.3732",
+   "size": 112,
+   "price": 51011,
+   "area_m2": 142.1034,
+   "general": 49,
+   "special": 6,
+   "pyeong_price": 1187,
+   "special_share_pct": 11
+  }
+ ],
+ "general_total": 125,
+ "special_total": 139,
+ "special_share_pct": 53,
+ "pyeong_min": 1182,
+ "pyeong_max": 1187,
+ "pyeong_avg": 1183,
+ "price_84_min": 38460,
+ "price_84_max": 38460,
+ "special_kinds": {
+  "신혼부부": 48,
+  "생애최초": 39,
+  "다자녀": 25,
+  "노부모 부양": 7,
+  "기관추천": 20
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8114",
+    "supply": 207,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 204
+   },
+   {
+    "ty": "112.3732",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 55
+   }
+  ],
+  "req_total": 3,
+  "rank1_req": 2,
+  "supply_total": 262,
+  "final_shortfall_total": 259,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.01
+ },
+ "region_price": {
+  "scope": "전북",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "송천 아르티엠 더 숲",
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처"
+  ],
+  "peer_avg_pyeong": 1589,
+  "diff": -406,
+  "diff_pct": -26,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "전북",
+  "peer_count": 4,
+  "peers": [
+   "송천 아르티엠 더 숲",
+   "전주 에코시티 더 클래스",
+   "북전주 광신프로그레스",
+   "골드클래스 시그니처"
+  ],
+  "peer_avg_rate": 14.89,
+  "rank": 5,
+  "of": 5
+ }
+}

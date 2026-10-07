@@ -1,0 +1,172 @@
+{
+ "no": "2025000422",
+ "name": "오남역 서희스타힐스 여의재 3단지",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-05-13",
+ "rank1_date": "2026-05-27",
+ "city": "남양주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000422&pblancNo=2025000422",
+ "households": 117,
+ "types": [
+  {
+   "ty": "59.7153A",
+   "size": 59,
+   "price": 53400,
+   "area_m2": 84.1528,
+   "general": 14,
+   "special": 15,
+   "pyeong_price": 2098,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.9642B",
+   "size": 59,
+   "price": 52800,
+   "area_m2": 85.189,
+   "general": 30,
+   "special": 24,
+   "pyeong_price": 2049,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "75.4603",
+   "size": 75,
+   "price": 64900,
+   "area_m2": 105.0792,
+   "general": 8,
+   "special": 13,
+   "pyeong_price": 2042,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.9596",
+   "size": 84,
+   "price": 70900,
+   "area_m2": 118.213,
+   "general": 1,
+   "special": 12,
+   "pyeong_price": 1983,
+   "special_share_pct": 92
+  }
+ ],
+ "general_total": 53,
+ "special_total": 64,
+ "special_share_pct": 55,
+ "pyeong_min": 1983,
+ "pyeong_max": 2098,
+ "pyeong_avg": 2053,
+ "price_84_min": 70900,
+ "price_84_max": 70900,
+ "special_kinds": {
+  "신혼부부": 27,
+  "생애최초": 10,
+  "다자녀": 12,
+  "노부모 부양": 4,
+  "기관추천": 11
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7153A",
+    "supply": 14,
+    "closed_at": "1순위 기타지역",
+    "rate": 3.71,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9642B",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "75.4603",
+    "supply": 11,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.57,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9596",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 169,
+  "rank1_req": 91,
+  "supply_total": 62,
+  "final_shortfall_total": 3,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 4,
+  "rank1_avg_rate": 1.47,
+  "best": {
+   "ty": "84.9596",
+   "rate": 10.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.7153A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.7153A": 0,
+   "75.4603": 0,
+   "84.9596": 0
+  },
+  "avg_min": 24.2,
+  "max": {
+   "score": 59,
+   "ty": "59.7153A"
+  }
+ },
+ "region_price": {
+  "scope": "남양주시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "남양주 진접 서한이다음(S1BL)",
+   "오남역 서희스타힐스 여의재 1단지"
+  ],
+  "peer_avg_pyeong": 2038,
+  "diff": 15,
+  "diff_pct": 1,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "남양주시",
+  "peer_count": 2,
+  "peers": [
+   "남양주 진접 서한이다음(S1BL)",
+   "오남역 서희스타힐스 여의재 1단지"
+  ],
+  "peer_avg_rate": 1.7,
+  "rank": 2,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 41,
+  "peers": [
+   "안양자이 헤리티온",
+   "두산위브 더센트럴 수원",
+   "용인 푸르지오 원클러스터파크",
+   "성남복정1지구 B1블록 복정역 에피트",
+   "의왕시청역 SK VIEW IPARK",
+   "엘리프 원종",
+   "이천 중리지구 B3블록 금성백조 예미지",
+   "시흥거모 엘가 로제비앙"
+  ],
+  "peer_avg_min": 3.0,
+  "diff": -3.0
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "no": "2026910029",
+ "name": "이천 중리지구 B3블록 금성백조 예미지",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-27",
+ "rank1_date": "2026-02-02",
+ "city": "이천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910029&pblancNo=2026910029",
+ "households": 198,
+ "types": [
+  {
+   "ty": "59.987A",
+   "size": 59,
+   "price": 39800,
+   "area_m2": null,
+   "general": 122,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.997B",
+   "size": 84,
+   "price": 53800,
+   "area_m2": null,
+   "general": 42,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9665C",
+   "size": 84,
+   "price": 55600,
+   "area_m2": null,
+   "general": 34,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 198,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 53800,
+ "price_84_max": 55600,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.987A",
+    "supply": 122,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 90
+   },
+   {
+    "ty": "84.9665C",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 30
+   },
+   {
+    "ty": "84.997B",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   }
+  ],
+  "req_total": 44,
+  "rank1_req": 0,
+  "supply_total": 198,
+  "final_shortfall_total": 154,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0
+ }
+}

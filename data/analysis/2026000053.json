@@ -1,0 +1,199 @@
+{
+ "no": "2026000053",
+ "name": "공주월송 진아레히",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-04-30",
+ "rank1_date": "2026-05-12",
+ "city": "공주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000053&pblancNo=2026000053",
+ "households": 811,
+ "types": [
+  {
+   "ty": "84.9584A",
+   "size": 84,
+   "price": 43900,
+   "area_m2": 111.7593,
+   "general": 164,
+   "special": 241,
+   "pyeong_price": 1299,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.9739B",
+   "size": 84,
+   "price": 42800,
+   "area_m2": 111.104,
+   "general": 61,
+   "special": 86,
+   "pyeong_price": 1273,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "104.9424",
+   "size": 104,
+   "price": 54000,
+   "area_m2": 132.2623,
+   "general": 44,
+   "special": 8,
+   "pyeong_price": 1350,
+   "special_share_pct": 15
+  },
+  {
+   "ty": "116.9709",
+   "size": 116,
+   "price": 58800,
+   "area_m2": 144.0895,
+   "general": 87,
+   "special": 18,
+   "pyeong_price": 1349,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "132.8427",
+   "size": 132,
+   "price": 65700,
+   "area_m2": 160.774,
+   "general": 84,
+   "special": 18,
+   "pyeong_price": 1351,
+   "special_share_pct": 18
+  }
+ ],
+ "general_total": 440,
+ "special_total": 371,
+ "special_share_pct": 46,
+ "pyeong_min": 1273,
+ "pyeong_max": 1351,
+ "pyeong_avg": 1311,
+ "price_84_min": 42800,
+ "price_84_max": 43900,
+ "special_kinds": {
+  "신혼부부": 126,
+  "생애최초": 49,
+  "다자녀": 119,
+  "노부모 부양": 23,
+  "기관추천": 54
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9584A",
+    "supply": 324,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.03,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9739B",
+    "supply": 139,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 56
+   },
+   {
+    "ty": "104.9424",
+    "supply": 51,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "116.9709",
+    "supply": 103,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 59
+   },
+   {
+    "ty": "132.8427",
+    "supply": 100,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 69
+   }
+  ],
+  "req_total": 652,
+  "rank1_req": 551,
+  "supply_total": 717,
+  "final_shortfall_total": 202,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 5,
+  "rank1_avg_rate": 0.77,
+  "best": {
+   "ty": "84.9584A",
+   "rate": 1.03,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9584A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.9584A": 0
+  },
+  "avg_min": 18.0,
+  "max": {
+   "score": 59,
+   "ty": "84.9584A"
+  }
+ },
+ "region_price": {
+  "scope": "충남",
+  "days": 180,
+  "peer_count": 22,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "아산탕정자이 메트로시티(A3BL)",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티"
+  ],
+  "peer_avg_pyeong": 1586,
+  "diff": -275,
+  "diff_pct": -17,
+  "rank": 19,
+  "of": 23
+ },
+ "region_competition": {
+  "scope": "충남",
+  "peer_count": 21,
+  "peers": [
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "아산탕정자이 메트로시티(A3BL)",
+   "천안 동일하이빌 파크레인",
+   "업성 푸르지오 레이크시티"
+  ],
+  "peer_avg_rate": 3.07,
+  "rank": 10,
+  "of": 22
+ },
+ "region_score": {
+  "scope": "충남",
+  "peer_count": 8,
+  "peers": [
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지",
+   "아산탕정자이 메트로시티(A3BL)",
+   "업성 푸르지오 레이크시티",
+   "엘리프 성성호수공원 1BL",
+   "엘리프 성성호수공원 2BL",
+   "백석시그니처자이 1단지",
+   "천안 아이파크 시티 1단지(2회차)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

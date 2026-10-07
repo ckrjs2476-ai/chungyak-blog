@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)문장건설,(주)아크스톤디",
+  "CNTRCT_CNCLS_BGNDE": "2026-03-11",
+  "CNTRCT_CNCLS_ENDDE": "2026-03-11",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://사우역지엔하임.com",
+  "HOUSE_MANAGE_NO": "2026910048",
+  "HOUSE_NM": "사우역 지엔하임",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 김포시 사우동 사우4구역 공동1블록",
+  "HSSPLY_ZIP": "10110",
+  "MDHS_TELNO": "15332022",
+  "MVN_PREARNGE_YM": "202904",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910048",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910048&pblancNo=2026910048",
+  "PRZWNER_PRESNATN_DE": "2026-03-06",
+  "RCRIT_PBLANC_DE": "2026-02-26",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-03",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910048",
+   "HOUSE_TY": "141.1034P",
+   "LTTOT_TOP_AMOUNT": "142030",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910048",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910048",
+   "HOUSE_TY": "151.8897P",
+   "LTTOT_TOP_AMOUNT": "153240",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910048",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "9.00",
+   "HOUSE_MANAGE_NO": "2026910048",
+   "HOUSE_TY": "141.1034P",
+   "PBLANC_NO": "2026910048",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "6.00",
+   "HOUSE_MANAGE_NO": "2026910048",
+   "HOUSE_TY": "151.8897P",
+   "PBLANC_NO": "2026910048",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:58.049696+09:00"
+}

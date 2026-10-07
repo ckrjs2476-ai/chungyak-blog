@@ -1,0 +1,110 @@
+{
+ "no": "2026000040",
+ "name": "구서 다움포레",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-03-30",
+ "rank1_date": "2026-04-10",
+ "city": "금정구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000040&pblancNo=2026000040",
+ "households": 68,
+ "types": [
+  {
+   "ty": "63.7407",
+   "size": 63,
+   "price": 42731,
+   "area_m2": 86.426,
+   "general": 15,
+   "special": 15,
+   "pyeong_price": 1634,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "78.6851",
+   "size": 78,
+   "price": 53695,
+   "area_m2": 106.3785,
+   "general": 19,
+   "special": 19,
+   "pyeong_price": 1669,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 34,
+ "special_total": 34,
+ "special_share_pct": 50,
+ "pyeong_min": 1634,
+ "pyeong_max": 1669,
+ "pyeong_avg": 1654,
+ "special_kinds": {
+  "신혼부부": 13,
+  "생애최초": 5,
+  "다자녀": 7,
+  "노부모 부양": 2,
+  "기관추천": 7
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "63.7407",
+    "supply": 30,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "78.6851",
+    "supply": 37,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   }
+  ],
+  "req_total": 8,
+  "rank1_req": 5,
+  "supply_total": 67,
+  "final_shortfall_total": 59,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.07
+ },
+ "region_price": {
+  "scope": "부산",
+  "days": 180,
+  "peer_count": 23,
+  "peers": [
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘"
+  ],
+  "peer_avg_pyeong": 2454,
+  "diff": -800,
+  "diff_pct": -33,
+  "rank": 22,
+  "of": 24
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 23,
+  "peers": [
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역",
+   "동래 에코팰리스 아시아드 리안",
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레",
+   "e편한세상 센텀 하이베뉴",
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "금정산 하늘채 루미엘"
+  ],
+  "peer_avg_rate": 2.15,
+  "rank": 21,
+  "of": 24
+ }
+}

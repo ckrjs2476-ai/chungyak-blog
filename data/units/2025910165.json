@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "대한토지신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-22",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://trivn-doosan-samcheok.com",
+  "HOUSE_MANAGE_NO": "2025910165",
+  "HOUSE_NM": "트리븐 삼척",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "강원특별자치도 삼척시 교동 205-6번지 일원",
+  "HSSPLY_ZIP": "25911",
+  "MDHS_TELNO": "0335735003",
+  "MVN_PREARNGE_YM": "202808",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910165",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910165&pblancNo=2025910165",
+  "PRZWNER_PRESNATN_DE": "2025-09-15",
+  "RCRIT_PBLANC_DE": "2025-09-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "200",
+  "SUBSCRPT_AREA_CODE_NM": "강원",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-10",
+  "TOT_SUPLY_HSHLDCO": 11
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910165",
+   "HOUSE_TY": "099.9034 ",
+   "LTTOT_TOP_AMOUNT": "56750",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910165",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 11
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△11)",
+   "HOUSE_MANAGE_NO": "2025910165",
+   "HOUSE_TY": "099.9034 ",
+   "PBLANC_NO": "2025910165",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 11
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:20.787313+09:00"
+}

@@ -1,0 +1,231 @@
+{
+ "no": "2025000319",
+ "name": "인천 힐스테이트 숭의역",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2025-09-11",
+ "rank1_date": "2025-09-23",
+ "city": "미추홀구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000319&pblancNo=2025000319",
+ "households": 17,
+ "types": [
+  {
+   "ty": "59.968A",
+   "size": 59,
+   "price": 46500,
+   "area_m2": 87.4487,
+   "general": 1,
+   "special": 2,
+   "pyeong_price": 1758,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "59.968B",
+   "size": 59,
+   "price": 50810,
+   "area_m2": 87.4487,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1921,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.9945C",
+   "size": 59,
+   "price": 49860,
+   "area_m2": 87.5621,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1882,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.983D",
+   "size": 59,
+   "price": 50810,
+   "area_m2": 87.939,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1910,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.9833E",
+   "size": 59,
+   "price": 47460,
+   "area_m2": 87.9421,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1784,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.983F",
+   "size": 59,
+   "price": 48900,
+   "area_m2": 87.9668,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1838,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.983G",
+   "size": 59,
+   "price": 47940,
+   "area_m2": 87.9668,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1802,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9709",
+   "size": 74,
+   "price": 60300,
+   "area_m2": 104.4748,
+   "general": 3,
+   "special": 1,
+   "pyeong_price": 1908,
+   "special_share_pct": 25
+  }
+ ],
+ "general_total": 10,
+ "special_total": 7,
+ "special_share_pct": 41,
+ "pyeong_min": 1758,
+ "pyeong_max": 1921,
+ "pyeong_avg": 1855,
+ "special_kinds": {
+  "신혼부부": 3,
+  "생애최초": 1,
+  "다자녀": 1,
+  "노부모 부양": 1,
+  "기관추천": 1
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.968A",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.968B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9945C",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.983D",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9833E",
+    "supply": 1,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.983F",
+    "supply": 1,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.983G",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9709",
+    "supply": 3,
+    "closed_at": "2순위 해당지역",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 56,
+  "rank1_req": 25,
+  "supply_total": 11,
+  "final_shortfall_total": 0,
+  "closed_types": 8,
+  "rank1_closed_types": 5,
+  "type_count": 8,
+  "rank1_avg_rate": 2.27,
+  "best": {
+   "ty": "59.968A",
+   "rate": 7.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.968A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.968A": 0,
+   "59.968B": 0
+  },
+  "avg_min": 23.8,
+  "max": {
+   "score": 63,
+   "ty": "59.968A"
+  }
+ },
+ "region_price": {
+  "scope": "미추홀구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "시티오씨엘 8단지"
+  ],
+  "peer_avg_pyeong": 1934,
+  "diff": -79,
+  "diff_pct": -4,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "미추홀구",
+  "peer_count": 2,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "시티오씨엘 8단지"
+  ],
+  "peer_avg_rate": 0.84,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "미추홀구",
+  "peer_count": 2,
+  "peers": [
+   "인하대역 수자인 로이센트",
+   "시티오씨엘 8단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

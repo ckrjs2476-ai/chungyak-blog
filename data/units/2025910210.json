@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)한국토지신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-20",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://아산탕정동일하이빌파크레인.com",
+  "HOUSE_MANAGE_NO": "2025910210",
+  "HOUSE_NM": "아산탕정 동일하이빌 파크레인",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청남도 아산시 탕정면 갈산리 183-1 일원",
+  "HSSPLY_ZIP": "31461",
+  "MDHS_TELNO": "0415770014",
+  "MVN_PREARNGE_YM": "202901",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910210",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910210&pblancNo=2025910210",
+  "PRZWNER_PRESNATN_DE": "2025-11-13",
+  "RCRIT_PBLANC_DE": "2025-11-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "312",
+  "SUBSCRPT_AREA_CODE_NM": "충남",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-10",
+  "TOT_SUPLY_HSHLDCO": 392
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910210",
+   "HOUSE_TY": "084.9865A",
+   "LTTOT_TOP_AMOUNT": "52070",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910210",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 383
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910210",
+   "HOUSE_TY": "099.8447B",
+   "LTTOT_TOP_AMOUNT": "62690",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910210",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△344)",
+   "HOUSE_MANAGE_NO": "2025910210",
+   "HOUSE_TY": "084.9865A",
+   "PBLANC_NO": "2025910210",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "39",
+   "SUPLY_HSHLDCO": 383
+  },
+  {
+   "CMPET_RATE": "5.00",
+   "HOUSE_MANAGE_NO": "2025910210",
+   "HOUSE_TY": "099.8447B",
+   "PBLANC_NO": "2025910210",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "45",
+   "SUPLY_HSHLDCO": 9
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:51.617326+09:00"
+}

@@ -1,0 +1,325 @@
+{
+ "no": "2025000307",
+ "name": "엘리프 한신더휴 수원 D3블록(본청약)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-10-31",
+ "rank1_date": "2025-11-11",
+ "city": "수원시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000307&pblancNo=2025000307",
+ "households": 640,
+ "types": [
+  {
+   "ty": "74.92A",
+   "size": 74,
+   "price": 70900,
+   "area_m2": 96.1258,
+   "general": 10,
+   "special": 16,
+   "pyeong_price": 2438,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.99A",
+   "size": 84,
+   "price": 79500,
+   "area_m2": 109.0504,
+   "general": 13,
+   "special": 20,
+   "pyeong_price": 2410,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.99B",
+   "size": 84,
+   "price": 77600,
+   "area_m2": 109.0504,
+   "general": 34,
+   "special": 69,
+   "pyeong_price": 2352,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84.99C",
+   "size": 84,
+   "price": 75800,
+   "area_m2": 109.0504,
+   "general": 31,
+   "special": 53,
+   "pyeong_price": 2298,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.99D",
+   "size": 84,
+   "price": 79500,
+   "area_m2": 109.0504,
+   "general": 33,
+   "special": 52,
+   "pyeong_price": 2410,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.99E",
+   "size": 84,
+   "price": 77600,
+   "area_m2": 109.0504,
+   "general": 18,
+   "special": 21,
+   "pyeong_price": 2352,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "92.99",
+   "size": 92,
+   "price": 82300,
+   "area_m2": 119.3132,
+   "general": 8,
+   "special": 0,
+   "pyeong_price": 2280,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "92.99A",
+   "size": 92,
+   "price": 82300,
+   "area_m2": 119.3132,
+   "general": 8,
+   "special": 0,
+   "pyeong_price": 2280,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "92.99B",
+   "size": 92,
+   "price": 79800,
+   "area_m2": 119.3132,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2211,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "106.99A",
+   "size": 106,
+   "price": 85000,
+   "area_m2": 137.2804,
+   "general": 187,
+   "special": 36,
+   "pyeong_price": 2047,
+   "special_share_pct": 16
+  },
+  {
+   "ty": "112.81A",
+   "size": 112,
+   "price": 89100,
+   "area_m2": 144.7491,
+   "general": 22,
+   "special": 3,
+   "pyeong_price": 2035,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "120.504A",
+   "size": 120,
+   "price": 140000,
+   "area_m2": 155.9476,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2968,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "120.9992B",
+   "size": 120,
+   "price": 139900,
+   "area_m2": 157.3727,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2939,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 370,
+ "special_total": 270,
+ "special_share_pct": 42,
+ "pyeong_min": 2035,
+ "pyeong_max": 2968,
+ "pyeong_avg": 2242,
+ "price_84_min": 75800,
+ "price_84_max": 79500,
+ "special_kinds": {
+  "신혼부부": 85,
+  "생애최초": 70,
+  "다자녀": 64,
+  "노부모 부양": 19,
+  "기관추천": 32
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.92A",
+    "supply": 10,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99A",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99B",
+    "supply": 63,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.05,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99C",
+    "supply": 76,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 19
+   },
+   {
+    "ty": "84.99D",
+    "supply": 74,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "84.99E",
+    "supply": 37,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "92.99",
+    "supply": 8,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "92.99A",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "92.99B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "106.99A",
+    "supply": 217,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 54
+   },
+   {
+    "ty": "112.81A",
+    "supply": 22,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.14,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.504A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.9992B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 603,
+  "rank1_req": 425,
+  "supply_total": 534,
+  "final_shortfall_total": 92,
+  "closed_types": 9,
+  "rank1_closed_types": 8,
+  "type_count": 13,
+  "rank1_avg_rate": 0.8,
+  "best": {
+   "ty": "74.92A",
+   "rate": 14.33,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "112.81A",
+   "reside": "기타경기"
+  },
+  "type_min": {
+   "74.92A": 48,
+   "84.99A": 34,
+   "84.99B": 0,
+   "92.99A": 0,
+   "112.81A": 0
+  },
+  "avg_min": 23.6,
+  "max": {
+   "score": 65,
+   "ty": "84.99B"
+  }
+ },
+ "region_price": {
+  "scope": "수원시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M2BL)",
+   "서수원 에피트 센트럴마크(M1BL)"
+  ],
+  "peer_avg_pyeong": 2551,
+  "diff": -309,
+  "diff_pct": -12,
+  "rank": 5,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "수원시",
+  "peer_count": 4,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M2BL)",
+   "서수원 에피트 센트럴마크(M1BL)"
+  ],
+  "peer_avg_rate": 4.21,
+  "rank": 3,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "수원시",
+  "peer_count": 2,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "두산위브 더센트럴 수원"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

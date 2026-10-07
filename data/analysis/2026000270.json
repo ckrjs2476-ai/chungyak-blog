@@ -1,0 +1,171 @@
+{
+ "no": "2026000270",
+ "name": "김해 신문 센트럴 아이파크",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-06-19",
+ "rank1_date": "2026-06-30",
+ "city": "김해시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000270&pblancNo=2026000270",
+ "households": 1379,
+ "types": [
+  {
+   "ty": "84.7419A",
+   "size": 84,
+   "price": 55170,
+   "area_m2": 109.5257,
+   "general": 411,
+   "special": 505,
+   "pyeong_price": 1665,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8435B",
+   "size": 84,
+   "price": 56270,
+   "area_m2": 110.8749,
+   "general": 101,
+   "special": 123,
+   "pyeong_price": 1678,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "113.7613",
+   "size": 113,
+   "price": 67820,
+   "area_m2": 140.2267,
+   "general": 165,
+   "special": 26,
+   "pyeong_price": 1599,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "128.8099",
+   "size": 128,
+   "price": 70430,
+   "area_m2": 155.1783,
+   "general": 42,
+   "special": 6,
+   "pyeong_price": 1500,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 719,
+ "special_total": 660,
+ "special_share_pct": 48,
+ "pyeong_min": 1500,
+ "pyeong_max": 1678,
+ "pyeong_avg": 1652,
+ "price_84_min": 55170,
+ "price_84_max": 56270,
+ "special_kinds": {
+  "신혼부부": 171,
+  "생애최초": 80,
+  "신생아": 114,
+  "다자녀": 139,
+  "노부모 부양": 42,
+  "기관추천": 114
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7419A",
+    "supply": 794,
+    "closed_at": "1순위 기타지역",
+    "rate": 4.86,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8435B",
+    "supply": 190,
+    "closed_at": "2순위 해당지역",
+    "rate": 3.36,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "113.7613",
+    "supply": 185,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.26,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "128.8099",
+    "supply": 47,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.36,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1786,
+  "rank1_req": 1458,
+  "supply_total": 1216,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 3,
+  "type_count": 4,
+  "rank1_avg_rate": 1.2,
+  "best": {
+   "ty": "84.7419A",
+   "rate": 4.86,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.7419A",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.7419A": 0
+  },
+  "avg_min": 16.5,
+  "max": {
+   "score": 56,
+   "ty": "84.7419A"
+  }
+ },
+ "region_price": {
+  "scope": "김해시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "신문 대상 웰라움 라시엘",
+   "트리븐 김해"
+  ],
+  "peer_avg_pyeong": 1568,
+  "diff": 84,
+  "diff_pct": 5,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "김해시",
+  "peer_count": 2,
+  "peers": [
+   "신문 대상 웰라움 라시엘",
+   "트리븐 김해"
+  ],
+  "peer_avg_rate": 0.04,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "경남",
+  "peer_count": 8,
+  "peers": [
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "창원 한신더휴 메가센텀",
+   "포레나힐스테이트 진주"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

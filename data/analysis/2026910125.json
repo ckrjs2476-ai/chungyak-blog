@@ -1,0 +1,100 @@
+{
+ "no": "2026910125",
+ "name": "힐스테이트 평거 센트럴",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-05-28",
+ "rank1_date": "2026-06-02",
+ "city": "진주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910125&pblancNo=2026910125",
+ "households": 129,
+ "types": [
+  {
+   "ty": "84.3746A",
+   "size": 84,
+   "price": 64600,
+   "area_m2": null,
+   "general": 55,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "105.9633A",
+   "size": 105,
+   "price": 90400,
+   "area_m2": null,
+   "general": 59,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "105.643B",
+   "size": 105,
+   "price": 87700,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "105.5065C",
+   "size": 105,
+   "price": 86000,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 129,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 64600,
+ "price_84_max": 64600,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.3746A",
+    "supply": 55,
+    "closed_at": "None순위 None",
+    "rate": 1.56,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "105.5065C",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "105.643B",
+    "supply": 12,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "105.9633A",
+    "supply": 59,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 49
+   }
+  ],
+  "req_total": 104,
+  "rank1_req": 0,
+  "supply_total": 129,
+  "final_shortfall_total": 57,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.3746A",
+   "rate": 1.56,
+   "stage": "None순위 None"
+  }
+ }
+}

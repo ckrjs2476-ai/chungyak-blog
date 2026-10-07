@@ -1,0 +1,84 @@
+{
+ "no": "2026910143",
+ "name": "상주북천 하늘채 파크원",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2026-06-09",
+ "rank1_date": "2026-06-15",
+ "city": "상주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910143&pblancNo=2026910143",
+ "households": 42,
+ "types": [
+  {
+   "ty": "84.9644A",
+   "size": 84,
+   "price": 44000,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9689C",
+   "size": 84,
+   "price": 43800,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "117.5756",
+   "size": 117,
+   "price": 62700,
+   "area_m2": null,
+   "general": 28,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 42,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 43800,
+ "price_84_max": 44000,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9644A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 4.4,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9689C",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 2.89,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "117.5756",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   }
+  ],
+  "req_total": 62,
+  "rank1_req": 0,
+  "supply_total": 42,
+  "final_shortfall_total": 14,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9644A",
+   "rate": 4.4,
+   "stage": "None순위 None"
+  }
+ }
+}

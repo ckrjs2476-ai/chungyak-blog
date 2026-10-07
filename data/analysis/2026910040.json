@@ -1,0 +1,84 @@
+{
+ "no": "2026910040",
+ "name": "창원 포레힐스 데시앙(구 창원 감계 데시앙)(2차)",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-02-25",
+ "rank1_date": "2026-03-03",
+ "city": "창원시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910040&pblancNo=2026910040",
+ "households": 7,
+ "types": [
+  {
+   "ty": "72.9082A",
+   "size": 72,
+   "price": 29900,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "72.8787B",
+   "size": 72,
+   "price": 28200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9332A",
+   "size": 84,
+   "price": 35300,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 7,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 35300,
+ "price_84_max": 35300,
+ "competition": {
+  "types": [
+   {
+    "ty": "72.8787B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "72.9082A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 4.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9332A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 10.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 32,
+  "rank1_req": 0,
+  "supply_total": 7,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9332A",
+   "rate": 10.0,
+   "stage": "None순위 None"
+  }
+ }
+}

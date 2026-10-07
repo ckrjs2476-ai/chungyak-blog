@@ -1,0 +1,165 @@
+{
+ "no": "2026000327",
+ "name": "역북 서희스타힐스 프라임시티(조합원 취소분)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-16",
+ "rank1_date": "2026-07-27",
+ "city": "용인시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000327&pblancNo=2026000327",
+ "households": 5,
+ "types": [
+  {
+   "ty": "59.9987B",
+   "size": 59,
+   "price": 45700,
+   "area_m2": 82.6751,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1827,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9988A",
+   "size": 74,
+   "price": 58700,
+   "area_m2": 101.1988,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 1918,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9947A",
+   "size": 84,
+   "price": 64600,
+   "area_m2": 114.1421,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1871,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9956B",
+   "size": 84,
+   "price": 65500,
+   "area_m2": 114.9255,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 1884,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 5,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1827,
+ "pyeong_max": 1918,
+ "pyeong_avg": 1884,
+ "price_84_min": 64600,
+ "price_84_max": 65500,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9987B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9988A",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9947A",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9956B",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 96,
+  "rank1_req": 39,
+  "supply_total": 5,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 7.8,
+  "best": {
+   "ty": "74.9988A",
+   "rate": 10.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9987B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.9987B": 0,
+   "74.9988A": 0,
+   "84.9947A": 0,
+   "84.9956B": 0
+  },
+  "avg_min": 17.2,
+  "max": {
+   "score": 50,
+   "ty": "74.9988A"
+  }
+ },
+ "region_price": {
+  "scope": "용인시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인 고림 동문 디 이스트",
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)"
+  ],
+  "peer_avg_pyeong": 1949,
+  "diff": -65,
+  "diff_pct": -3,
+  "rank": 3,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "용인시",
+  "peer_count": 4,
+  "peers": [
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인 고림 동문 디 이스트",
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)"
+  ],
+  "peer_avg_rate": 0.95,
+  "rank": 1,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "용인시",
+  "peer_count": 3,
+  "peers": [
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 고림 동문 디 이스트",
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

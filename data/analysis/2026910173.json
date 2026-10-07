@@ -1,0 +1,68 @@
+{
+ "no": "2026910173",
+ "name": "힐스테이트 앞산 센트럴(6차)",
+ "kind": "remndr",
+ "region": "대구",
+ "notice_date": "2026-07-08",
+ "rank1_date": "2026-07-13",
+ "city": "남구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910173&pblancNo=2026910173",
+ "households": 7,
+ "types": [
+  {
+   "ty": "69.55",
+   "size": 69,
+   "price": 42900,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.89",
+   "size": 84,
+   "price": 51500,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 7,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 51500,
+ "price_84_max": 51500,
+ "competition": {
+  "types": [
+   {
+    "ty": "69.55",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 2.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.89",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 4.67,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 24,
+  "rank1_req": 0,
+  "supply_total": 7,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.89",
+   "rate": 4.67,
+   "stage": "None순위 None"
+  }
+ }
+}

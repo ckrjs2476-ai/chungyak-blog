@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "111다시3구역 주택재개발정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-25",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-25",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://두산위브더센트럴수원.com",
+  "HOUSE_MANAGE_NO": "2026910083",
+  "HOUSE_NM": "두산위브 더센트럴 수원",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 수원시 장안구 영화동 93-6번지 일원",
+  "HSSPLY_ZIP": "16267",
+  "MDHS_TELNO": "0312241119",
+  "MVN_PREARNGE_YM": "202809",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910083",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910083&pblancNo=2026910083",
+  "PRZWNER_PRESNATN_DE": "2026-04-20",
+  "RCRIT_PBLANC_DE": "2026-04-09",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-14",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-14",
+  "TOT_SUPLY_HSHLDCO": 25
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "059.9371A",
+   "LTTOT_TOP_AMOUNT": "79090",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910083",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 16
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "059.9137B",
+   "LTTOT_TOP_AMOUNT": "77090",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910083",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "084.4545B",
+   "LTTOT_TOP_AMOUNT": "94820",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910083",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "084.8080C",
+   "LTTOT_TOP_AMOUNT": "95640",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910083",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "13.00",
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "059.9137B",
+   "PBLANC_NO": "2026910083",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "91",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "45.19",
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "059.9371A",
+   "PBLANC_NO": "2026910083",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "723",
+   "SUPLY_HSHLDCO": 16
+  },
+  {
+   "CMPET_RATE": "48.00",
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "084.4545B",
+   "PBLANC_NO": "2026910083",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "48",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "39.00",
+   "HOUSE_MANAGE_NO": "2026910083",
+   "HOUSE_TY": "084.8080C",
+   "PBLANC_NO": "2026910083",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "39",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:13.283793+09:00"
+}

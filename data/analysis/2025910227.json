@@ -1,0 +1,68 @@
+{
+ "no": "2025910227",
+ "name": "식사 푸르지오 파크센트",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-11-20",
+ "rank1_date": "2025-11-25",
+ "city": "고양시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910227&pblancNo=2025910227",
+ "households": 33,
+ "types": [
+  {
+   "ty": "74.9682",
+   "size": 74,
+   "price": 72500,
+   "area_m2": null,
+   "general": 32,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8777A",
+   "size": 84,
+   "price": 81200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 33,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 81200,
+ "price_84_max": 81200,
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9682",
+    "supply": 32,
+    "closed_at": "None순위 None",
+    "rate": 1.16,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8777A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 13.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 50,
+  "rank1_req": 0,
+  "supply_total": 33,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8777A",
+   "rate": 13.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "no": "2026000253",
+ "name": "거제 푸르지오 마린피스",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-07-07",
+ "rank1_date": "2026-07-21",
+ "city": "거제시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000253&pblancNo=2026000253",
+ "households": 423,
+ "types": [
+  {
+   "ty": "84.6886",
+   "size": 84,
+   "price": 51400,
+   "area_m2": 112.2001,
+   "general": 120,
+   "special": 148,
+   "pyeong_price": 1514,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "105.1765",
+   "size": 105,
+   "price": 63300,
+   "area_m2": 134.6108,
+   "general": 29,
+   "special": 4,
+   "pyeong_price": 1555,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "107.4383",
+   "size": 107,
+   "price": 65600,
+   "area_m2": 136.3024,
+   "general": 106,
+   "special": 16,
+   "pyeong_price": 1591,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 255,
+ "special_total": 168,
+ "special_share_pct": 40,
+ "pyeong_min": 1514,
+ "pyeong_max": 1591,
+ "pyeong_avg": 1539,
+ "price_84_min": 51400,
+ "price_84_max": 51400,
+ "special_kinds": {
+  "신혼부부": 40,
+  "생애최초": 19,
+  "신생아": 27,
+  "다자녀": 42,
+  "노부모 부양": 13,
+  "기관추천": 27
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6886",
+    "supply": 263,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 234
+   },
+   {
+    "ty": "105.1765",
+    "supply": 33,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 31
+   },
+   {
+    "ty": "107.4383",
+    "supply": 122,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 118
+   }
+  ],
+  "req_total": 35,
+  "rank1_req": 23,
+  "supply_total": 418,
+  "final_shortfall_total": 383,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.06
+ },
+ "region_price": {
+  "scope": "경남",
+  "days": 180,
+  "peer_count": 14,
+  "peers": [
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "신문 대상 웰라움 라시엘",
+   "김해 신문 센트럴 아이파크"
+  ],
+  "peer_avg_pyeong": 1706,
+  "diff": -167,
+  "diff_pct": -10,
+  "rank": 12,
+  "of": 15
+ },
+ "region_competition": {
+  "scope": "경남",
+  "peer_count": 14,
+  "peers": [
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "신문 대상 웰라움 라시엘",
+   "김해 신문 센트럴 아이파크"
+  ],
+  "peer_avg_rate": 9.68,
+  "rank": 13,
+  "of": 15
+ }
+}

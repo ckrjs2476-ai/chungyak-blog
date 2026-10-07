@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "케이비부동산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-03-26",
+  "CNTRCT_CNCLS_ENDDE": "2026-03-26",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://도안푸르지오디아델.com",
+  "HOUSE_MANAGE_NO": "2026910053",
+  "HOUSE_NM": "도안 푸르지오 디아델 31블록",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "대전광역시 유성구 용계동 73-48번지 일원",
+  "HSSPLY_ZIP": "34218",
+  "MDHS_TELNO": "0424776565",
+  "MVN_PREARNGE_YM": "202709",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910053",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910053&pblancNo=2026910053",
+  "PRZWNER_PRESNATN_DE": "2026-03-19",
+  "RCRIT_PBLANC_DE": "2026-03-11",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "300",
+  "SUBSCRPT_AREA_CODE_NM": "대전",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-16",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-16",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910053",
+   "HOUSE_TY": "059.9800 ",
+   "LTTOT_TOP_AMOUNT": "51100",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910053",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "837.00",
+   "HOUSE_MANAGE_NO": "2026910053",
+   "HOUSE_TY": "059.9800 ",
+   "PBLANC_NO": "2026910053",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "837",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:46.570421+09:00"
+}

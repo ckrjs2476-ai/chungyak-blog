@@ -1,0 +1,116 @@
+{
+ "no": "2026910039",
+ "name": "루원시티 대성베르힐 더 센트로",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-02-13",
+ "rank1_date": "2026-02-19",
+ "city": "서구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910039&pblancNo=2026910039",
+ "households": 9,
+ "types": [
+  {
+   "ty": "84.8036A",
+   "size": 84,
+   "price": 45500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.6059B",
+   "size": 84,
+   "price": 43500,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "159.0584A",
+   "size": 159,
+   "price": 83400,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "159.2562B",
+   "size": 159,
+   "price": 82800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "159.1851C",
+   "size": 159,
+   "price": 83300,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 9,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 43500,
+ "price_84_max": 45500,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6059B",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 4159.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8036A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 12001.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "159.0584A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 753.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "159.1851C",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 398.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "159.2562B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 519.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 31062,
+  "rank1_req": 0,
+  "supply_total": 9,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.8036A",
+   "rate": 12001.0,
+   "stage": "None순위 None"
+  }
+ }
+}

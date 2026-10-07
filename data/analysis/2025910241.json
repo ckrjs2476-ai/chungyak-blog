@@ -1,0 +1,82 @@
+{
+ "no": "2025910241",
+ "name": "대방역 여의도 더로드캐슬",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2025-11-27",
+ "rank1_date": "2025-12-02",
+ "city": "영등포구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910241&pblancNo=2025910241",
+ "households": 36,
+ "types": [
+  {
+   "ty": "24.91",
+   "size": 24,
+   "price": 48860,
+   "area_m2": null,
+   "general": 11,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "25.37",
+   "size": 25,
+   "price": 48860,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "27.76",
+   "size": 27,
+   "price": 50860,
+   "area_m2": null,
+   "general": 16,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 36,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "24.91",
+    "supply": 11,
+    "closed_at": "None순위 None",
+    "rate": 17.55,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "25.37",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 11.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "27.76",
+    "supply": 16,
+    "closed_at": "None순위 None",
+    "rate": 31.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 794,
+  "rank1_req": 0,
+  "supply_total": 36,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "27.76",
+   "rate": 31.0,
+   "stage": "None순위 None"
+  }
+ }
+}

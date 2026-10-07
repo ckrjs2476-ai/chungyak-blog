@@ -1,0 +1,79 @@
+{
+ "no": "2026910145",
+ "name": "엘리프 성성호수공원 2BL",
+ "kind": "remndr",
+ "region": "충남",
+ "notice_date": "2026-06-04",
+ "rank1_date": "2026-06-09",
+ "city": "천안시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910145&pblancNo=2026910145",
+ "households": 485,
+ "types": [
+  {
+   "ty": "84.9563A",
+   "size": 84,
+   "price": 57100,
+   "area_m2": null,
+   "general": 204,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9527B",
+   "size": 84,
+   "price": 55150,
+   "area_m2": null,
+   "general": 143,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "111.1359",
+   "size": 111,
+   "price": 77560,
+   "area_m2": null,
+   "general": 138,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 485,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 55150,
+ "price_84_max": 57100,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9527B",
+    "supply": 143,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 134
+   },
+   {
+    "ty": "84.9563A",
+    "supply": 204,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 162
+   },
+   {
+    "ty": "111.1359",
+    "supply": 138,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 116
+   }
+  ],
+  "req_total": 73,
+  "rank1_req": 0,
+  "supply_total": 485,
+  "final_shortfall_total": 412,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "no": "2025000542",
+ "name": "울산 다운2지구 유승한내들 에듀포레",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-25",
+ "city": "울주군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000542&pblancNo=2025000542",
+ "households": 507,
+ "types": [
+  {
+   "ty": "83.1404A",
+   "size": 83,
+   "price": 50957,
+   "area_m2": 108.6275,
+   "general": 142,
+   "special": 329,
+   "pyeong_price": 1551,
+   "special_share_pct": 70
+  },
+  {
+   "ty": "83.1679B",
+   "size": 83,
+   "price": 50614,
+   "area_m2": 108.9878,
+   "general": 12,
+   "special": 24,
+   "pyeong_price": 1535,
+   "special_share_pct": 67
+  }
+ ],
+ "general_total": 154,
+ "special_total": 353,
+ "special_share_pct": 70,
+ "pyeong_min": 1535,
+ "pyeong_max": 1551,
+ "pyeong_avg": 1550,
+ "special_kinds": {
+  "신혼부부": 116,
+  "생애최초": 95,
+  "다자녀": 77,
+  "노부모 부양": 15,
+  "기관추천": 50
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "83.1404A",
+    "supply": 447,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 318
+   },
+   {
+    "ty": "83.1679B",
+    "supply": 35,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   }
+  ],
+  "req_total": 137,
+  "rank1_req": 109,
+  "supply_total": 482,
+  "final_shortfall_total": 345,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.23
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지",
+   "태화강 센트럴 아이파크"
+  ],
+  "peer_avg_pyeong": 2278,
+  "diff": -728,
+  "diff_pct": -32,
+  "rank": 10,
+  "of": 11
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지",
+   "태화강 센트럴 아이파크"
+  ],
+  "peer_avg_rate": 3.79,
+  "rank": 8,
+  "of": 11
+ }
+}

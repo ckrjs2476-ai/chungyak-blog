@@ -1,0 +1,98 @@
+{
+ "no": "2025910217",
+ "name": "양평 우방아이유쉘 에코리버(3차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-11-03",
+ "rank1_date": "2025-11-10",
+ "city": "양평군",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910217&pblancNo=2025910217",
+ "households": 10,
+ "types": [
+  {
+   "ty": "77.9189A",
+   "size": 77,
+   "price": 40800,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "77.8676B",
+   "size": 77,
+   "price": 40500,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "108.396A",
+   "size": 108,
+   "price": 101300,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "108.7421B",
+   "size": 108,
+   "price": 101800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 10,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "77.8676B",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "77.9189A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "108.396A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "108.7421B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 10,
+  "rank1_req": 0,
+  "supply_total": 10,
+  "final_shortfall_total": 2,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "108.396A",
+   "rate": 2.0,
+   "stage": "None순위 None"
+  }
+ }
+}

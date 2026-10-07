@@ -1,0 +1,184 @@
+{
+ "no": "2026000012",
+ "name": "경성대부경대역 비스타동원 더 프리미엄",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-03-27",
+ "rank1_date": "2026-04-07",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000012&pblancNo=2026000012",
+ "households": 103,
+ "types": [
+  {
+   "ty": "59.9041A",
+   "size": 59,
+   "price": 66000,
+   "area_m2": 77.5167,
+   "general": 10,
+   "special": 15,
+   "pyeong_price": 2815,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "59.888B",
+   "size": 59,
+   "price": 64700,
+   "area_m2": 79.076,
+   "general": 14,
+   "special": 12,
+   "pyeong_price": 2705,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "84.974A",
+   "size": 84,
+   "price": 96600,
+   "area_m2": 110.0429,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2902,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8376B",
+   "size": 84,
+   "price": 94400,
+   "area_m2": 110.9701,
+   "general": 10,
+   "special": 15,
+   "pyeong_price": 2812,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.8873C",
+   "size": 84,
+   "price": 93400,
+   "area_m2": 109.7565,
+   "general": 10,
+   "special": 15,
+   "pyeong_price": 2813,
+   "special_share_pct": 60
+  }
+ ],
+ "general_total": 46,
+ "special_total": 57,
+ "special_share_pct": 55,
+ "pyeong_min": 2705,
+ "pyeong_max": 2902,
+ "pyeong_avg": 2788,
+ "price_84_min": 93400,
+ "price_84_max": 96600,
+ "special_kinds": {
+  "신혼부부": 24,
+  "생애최초": 3,
+  "다자녀": 16,
+  "노부모 부양": 3,
+  "기관추천": 11
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9041A",
+    "supply": 13,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.888B",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "84.974A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8376B",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   },
+   {
+    "ty": "84.8873C",
+    "supply": 23,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   }
+  ],
+  "req_total": 59,
+  "rank1_req": 43,
+  "supply_total": 87,
+  "final_shortfall_total": 44,
+  "closed_types": 2,
+  "rank1_closed_types": 1,
+  "type_count": 5,
+  "rank1_avg_rate": 0.49,
+  "best": {
+   "ty": "84.974A",
+   "rate": 5.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.974A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.974A": 0
+  },
+  "avg_min": 28.5,
+  "max": {
+   "score": 57,
+   "ty": "84.974A"
+  }
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "한화포레나 부산대연",
+   "더샵 트리센트",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_pyeong": 2913,
+  "diff": -125,
+  "diff_pct": -4,
+  "rank": 3,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 3,
+  "peers": [
+   "한화포레나 부산대연",
+   "더샵 트리센트",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_rate": 14.05,
+  "rank": 4,
+  "of": 4
+ },
+ "region_score": {
+  "scope": "남구",
+  "peer_count": 3,
+  "peers": [
+   "한화포레나 부산대연",
+   "더샵 트리센트",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

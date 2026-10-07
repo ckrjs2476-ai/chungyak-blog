@@ -1,0 +1,84 @@
+{
+ "no": "2026910215",
+ "name": "더샵 검단레이크파크(AB22BL)",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-08-07",
+ "rank1_date": "2026-08-12",
+ "city": "검단구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910215&pblancNo=2026910215",
+ "households": 116,
+ "types": [
+  {
+   "ty": "84.5181A",
+   "size": 84,
+   "price": 65330,
+   "area_m2": null,
+   "general": 23,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.0342B",
+   "size": 84,
+   "price": 64660,
+   "area_m2": null,
+   "general": 45,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.1796C",
+   "size": 84,
+   "price": 63680,
+   "area_m2": null,
+   "general": 48,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 116,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 63680,
+ "price_84_max": 65330,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.0342B",
+    "supply": 45,
+    "closed_at": "None순위 None",
+    "rate": 2.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.1796C",
+    "supply": 48,
+    "closed_at": "None순위 None",
+    "rate": 2.23,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.5181A",
+    "supply": 23,
+    "closed_at": "None순위 None",
+    "rate": 10.91,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 463,
+  "rank1_req": 0,
+  "supply_total": 116,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.5181A",
+   "rate": 10.91,
+   "stage": "None순위 None"
+  }
+ }
+}

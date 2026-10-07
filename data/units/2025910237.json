@@ -1,0 +1,151 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "구미중앙숲지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-08",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-08",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://두산위브더제니스구미.com",
+  "HOUSE_MANAGE_NO": "2025910237",
+  "HOUSE_NM": "두산위브더제니스 구미",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경상북도 구미시 광평동 227번지 일원",
+  "HSSPLY_ZIP": "39323",
+  "MDHS_TELNO": "0546028000",
+  "MVN_PREARNGE_YM": "202905",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910237",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910237&pblancNo=2025910237",
+  "PRZWNER_PRESNATN_DE": "2025-12-04",
+  "RCRIT_PBLANC_DE": "2025-11-26",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "712",
+  "SUBSCRPT_AREA_CODE_NM": "경북",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-01",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-01",
+  "TOT_SUPLY_HSHLDCO": 114
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "059.9037 ",
+   "LTTOT_TOP_AMOUNT": "37180",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910237",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "074.9524A",
+   "LTTOT_TOP_AMOUNT": "46960",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910237",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "074.5915B",
+   "LTTOT_TOP_AMOUNT": "46740",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910237",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "084.7657A",
+   "LTTOT_TOP_AMOUNT": "52870",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910237",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 48
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "084.7696B",
+   "LTTOT_TOP_AMOUNT": "52950",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910237",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 47
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "108.6080 ",
+   "LTTOT_TOP_AMOUNT": "67860",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2025910237",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.33",
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "059.9037 ",
+   "PBLANC_NO": "2025910237",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "074.5915B",
+   "PBLANC_NO": "2025910237",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 3
+  },
+  {
+   "CMPET_RATE": "1.75",
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "074.9524A",
+   "PBLANC_NO": "2025910237",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "1.90",
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "084.7657A",
+   "PBLANC_NO": "2025910237",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "91",
+   "SUPLY_HSHLDCO": 48
+  },
+  {
+   "CMPET_RATE": "(△41)",
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "084.7696B",
+   "PBLANC_NO": "2025910237",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 47
+  },
+  {
+   "CMPET_RATE": "1.56",
+   "HOUSE_MANAGE_NO": "2025910237",
+   "HOUSE_TY": "108.6080 ",
+   "PBLANC_NO": "2025910237",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "14",
+   "SUPLY_HSHLDCO": 9
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:16.175964+09:00"
+}

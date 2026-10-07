@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)케이씨엠글로벌",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-30",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-30",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://blog.naver.com/shinbw100",
+  "HOUSE_MANAGE_NO": "2026910183",
+  "HOUSE_NM": "순천금호어울림더파크2차",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "전라남도 순천시 서면 선평리 613번지 일원",
+  "HSSPLY_ZIP": "57905",
+  "MDHS_TELNO": "025551689",
+  "MVN_PREARNGE_YM": "202608",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910183",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910183&pblancNo=2026910183",
+  "PRZWNER_PRESNATN_DE": "2026-07-23",
+  "RCRIT_PBLANC_DE": "2026-07-15",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "513",
+  "SUBSCRPT_AREA_CODE_NM": "전남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-20",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-20",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910183",
+   "HOUSE_TY": "084.9896A",
+   "LTTOT_TOP_AMOUNT": "30920",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910183",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "10.00",
+   "HOUSE_MANAGE_NO": "2026910183",
+   "HOUSE_TY": "084.9896A",
+   "PBLANC_NO": "2026910183",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:58.010442+09:00"
+}

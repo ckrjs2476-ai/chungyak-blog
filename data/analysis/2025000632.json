@@ -1,0 +1,128 @@
+{
+ "no": "2025000632",
+ "name": "용인 푸르지오 클루센트",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-12-19",
+ "rank1_date": "2025-12-30",
+ "city": "용인시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000632&pblancNo=2025000632",
+ "households": 784,
+ "types": [
+  {
+   "ty": "84.991A",
+   "size": 84,
+   "price": 75890,
+   "area_m2": 111.087,
+   "general": 259,
+   "special": 310,
+   "pyeong_price": 2258,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9797B",
+   "size": 84,
+   "price": 76520,
+   "area_m2": 112.3154,
+   "general": 76,
+   "special": 87,
+   "pyeong_price": 2252,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9824C",
+   "size": 84,
+   "price": 74320,
+   "area_m2": 111.1761,
+   "general": 26,
+   "special": 26,
+   "pyeong_price": 2210,
+   "special_share_pct": 50
+  }
+ ],
+ "general_total": 361,
+ "special_total": 423,
+ "special_share_pct": 54,
+ "pyeong_min": 2210,
+ "pyeong_max": 2258,
+ "pyeong_avg": 2254,
+ "price_84_min": 74320,
+ "price_84_max": 76520,
+ "special_kinds": {
+  "신혼부부": 178,
+  "생애최초": 69,
+  "다자녀": 77,
+  "노부모 부양": 22,
+  "기관추천": 77
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.991A",
+    "supply": 502,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 87
+   },
+   {
+    "ty": "84.9797B",
+    "supply": 137,
+    "closed_at": "2순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9824C",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   }
+  ],
+  "req_total": 583,
+  "rank1_req": 450,
+  "supply_total": 683,
+  "final_shortfall_total": 100,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.66,
+  "best": {
+   "ty": "84.9797B",
+   "rate": 1.0,
+   "stage": "2순위 기타지역"
+  }
+ },
+ "region_price": {
+  "scope": "용인시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "수지자이 에디시온",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인 고림 동문 디 이스트"
+  ],
+  "peer_avg_pyeong": 2465,
+  "diff": -211,
+  "diff_pct": -9,
+  "rank": 3,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "용인시",
+  "peer_count": 5,
+  "peers": [
+   "용인 푸르지오 원클러스터파크",
+   "수지자이 에디시온",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인 고림 동문 디 이스트"
+  ],
+  "peer_avg_rate": 1.01,
+  "rank": 3,
+  "of": 6
+ }
+}

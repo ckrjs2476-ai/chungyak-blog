@@ -1,0 +1,251 @@
+{
+ "no": "2025000541",
+ "name": "도룡자이 라피크",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2025-10-30",
+ "rank1_date": "2025-11-11",
+ "city": "유성구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000541&pblancNo=2025000541",
+ "households": 299,
+ "types": [
+  {
+   "ty": "84.731A",
+   "size": 84,
+   "price": 140600,
+   "area_m2": 109.1799,
+   "general": 11,
+   "special": 12,
+   "pyeong_price": 4257,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8316B",
+   "size": 84,
+   "price": 143500,
+   "area_m2": 109.2498,
+   "general": 31,
+   "special": 38,
+   "pyeong_price": 4342,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8634C",
+   "size": 84,
+   "price": 140400,
+   "area_m2": 110.1596,
+   "general": 22,
+   "special": 26,
+   "pyeong_price": 4213,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "115.4724",
+   "size": 115,
+   "price": 199900,
+   "area_m2": 148.6886,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 4444,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "120.9972A",
+   "size": 120,
+   "price": 211800,
+   "area_m2": 154.8642,
+   "general": 66,
+   "special": 9,
+   "pyeong_price": 4521,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "120.1491B",
+   "size": 120,
+   "price": 209300,
+   "area_m2": 154.6186,
+   "general": 28,
+   "special": 4,
+   "pyeong_price": 4475,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "136.2908A",
+   "size": 136,
+   "price": 238900,
+   "area_m2": 174.7152,
+   "general": 18,
+   "special": 2,
+   "pyeong_price": 4520,
+   "special_share_pct": 10
+  },
+  {
+   "ty": "136.966B",
+   "size": 136,
+   "price": 240100,
+   "area_m2": 175.6937,
+   "general": 23,
+   "special": 3,
+   "pyeong_price": 4518,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "175.3866P",
+   "size": 175,
+   "price": 399000,
+   "area_m2": 228.1996,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 5780,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 205,
+ "special_total": 94,
+ "special_share_pct": 31,
+ "pyeong_min": 4213,
+ "pyeong_max": 5780,
+ "pyeong_avg": 4412,
+ "price_84_min": 140400,
+ "price_84_max": 143500,
+ "special_kinds": {
+  "신혼부부": 32,
+  "생애최초": 12,
+  "다자녀": 28,
+  "노부모 부양": 8,
+  "기관추천": 14
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.731A",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 23.64,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8316B",
+    "supply": 31,
+    "closed_at": "1순위 해당지역",
+    "rate": 52.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8634C",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 11.19,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.4724",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 17.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.9972A",
+    "supply": 66,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.7,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "120.1491B",
+    "supply": 28,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.18,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "136.2908A",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "136.966B",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.19,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "175.3866P",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 18.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 3636,
+  "rank1_req": 3407,
+  "supply_total": 214,
+  "final_shortfall_total": 0,
+  "closed_types": 9,
+  "rank1_closed_types": 9,
+  "type_count": 9,
+  "rank1_avg_rate": 15.92,
+  "best": {
+   "ty": "84.8316B",
+   "rate": 52.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.731A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.731A": 0,
+   "84.8316B": 0,
+   "84.8634C": 0
+  },
+  "avg_min": 29.0,
+  "max": {
+   "score": 74,
+   "ty": "84.8316B"
+  }
+ },
+ "region_price": {
+  "scope": "유성구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지"
+  ],
+  "peer_avg_pyeong": 2260,
+  "diff": 2152,
+  "diff_pct": 95,
+  "rank": 1,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "유성구",
+  "peer_count": 2,
+  "peers": [
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지"
+  ],
+  "peer_avg_rate": 2.19,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "대전",
+  "peer_count": 2,
+  "peers": [
+   "도안자이 센텀리체 1단지",
+   "더샵 관저아르테"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

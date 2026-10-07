@@ -1,0 +1,69 @@
+{
+ "no": "2025000535",
+ "name": "두류센트레빌 더 파크(조합원 취소분)(2회차)",
+ "kind": "apt",
+ "region": "대구",
+ "notice_date": "2025-10-31",
+ "rank1_date": "2025-11-10",
+ "city": "달서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000535&pblancNo=2025000535",
+ "households": 1,
+ "types": [
+  {
+   "ty": "78.3408",
+   "size": 78,
+   "price": 71000,
+   "area_m2": 102.2026,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2297,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 2297,
+ "pyeong_max": 2297,
+ "pyeong_avg": 2297,
+ "competition": {
+  "types": [
+   {
+    "ty": "78.3408",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 18,
+  "rank1_req": 3,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 1,
+  "rank1_avg_rate": 3.0,
+  "best": {
+   "ty": "78.3408",
+   "rate": 3.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "78.3408",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "78.3408": 0
+  },
+  "avg_min": 19.5,
+  "max": {
+   "score": 39,
+   "ty": "78.3408"
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "no": "2025910189",
+ "name": "래미안 센트리폴(2BL)",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2025-10-14",
+ "rank1_date": "2025-10-20",
+ "city": "연수구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910189&pblancNo=2025910189",
+ "households": 1,
+ "types": [
+  {
+   "ty": "59.92A",
+   "size": 59,
+   "price": 55500,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.92A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 681.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 681,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.92A",
+   "rate": 681.0,
+   "stage": "None순위 None"
+  }
+ }
+}

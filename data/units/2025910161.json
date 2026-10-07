@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 와이엠개발",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-19",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.정읍상동예다음2차.com",
+  "HOUSE_MANAGE_NO": "2025910161",
+  "HOUSE_NM": "정읍 상동 예다음2차",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "전북특별자치도 정읍시 상동 90-5번지 일원",
+  "HSSPLY_ZIP": "56192",
+  "MDHS_TELNO": "0635330053",
+  "MVN_PREARNGE_YM": "202811",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910161",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910161&pblancNo=2025910161",
+  "PRZWNER_PRESNATN_DE": "2025-09-12",
+  "RCRIT_PBLANC_DE": "2025-09-04",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "560",
+  "SUBSCRPT_AREA_CODE_NM": "전북",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-09",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-09",
+  "TOT_SUPLY_HSHLDCO": 116
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910161",
+   "HOUSE_TY": "084.9445 ",
+   "LTTOT_TOP_AMOUNT": "43700",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910161",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 112
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910161",
+   "HOUSE_TY": "104.8904T",
+   "LTTOT_TOP_AMOUNT": "48100",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910161",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910161",
+   "HOUSE_TY": "150.5917T",
+   "LTTOT_TOP_AMOUNT": "54500",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910161",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△109)",
+   "HOUSE_MANAGE_NO": "2025910161",
+   "HOUSE_TY": "084.9445 ",
+   "PBLANC_NO": "2025910161",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 112
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2025910161",
+   "HOUSE_TY": "104.8904T",
+   "PBLANC_NO": "2025910161",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2025910161",
+   "HOUSE_TY": "150.5917T",
+   "PBLANC_NO": "2025910161",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "0",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:25.419822+09:00"
+}

@@ -1,0 +1,151 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)한국토지신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-20",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://xi.co.kr/DRD",
+  "HOUSE_MANAGE_NO": "2025910253",
+  "HOUSE_NM": "도룡자이 라피크",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "대전광역시 유성구 도룡동 382번지 일원",
+  "HSSPLY_ZIP": "34055",
+  "MDHS_TELNO": "16603299",
+  "MVN_PREARNGE_YM": "202812",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910253",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910253&pblancNo=2025910253",
+  "PRZWNER_PRESNATN_DE": "2025-12-18",
+  "RCRIT_PBLANC_DE": "2025-12-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "300",
+  "SUBSCRPT_AREA_CODE_NM": "대전",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-15",
+  "TOT_SUPLY_HSHLDCO": 83
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "084.7310A",
+   "LTTOT_TOP_AMOUNT": "139900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910253",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "084.8634C",
+   "LTTOT_TOP_AMOUNT": "140400",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910253",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 12
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "120.9972A",
+   "LTTOT_TOP_AMOUNT": "211800",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910253",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 27
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "120.1491B",
+   "LTTOT_TOP_AMOUNT": "208300",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910253",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 11
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "136.2908A",
+   "LTTOT_TOP_AMOUNT": "238900",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910253",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 16
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "136.9660B",
+   "LTTOT_TOP_AMOUNT": "240100",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2025910253",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 10
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "10.86",
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "084.7310A",
+   "PBLANC_NO": "2025910253",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "76",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "3.25",
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "084.8634C",
+   "PBLANC_NO": "2025910253",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "39",
+   "SUPLY_HSHLDCO": 12
+  },
+  {
+   "CMPET_RATE": "(△5)",
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "120.1491B",
+   "PBLANC_NO": "2025910253",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 11
+  },
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "120.9972A",
+   "PBLANC_NO": "2025910253",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "21",
+   "SUPLY_HSHLDCO": 27
+  },
+  {
+   "CMPET_RATE": "(△11)",
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "136.2908A",
+   "PBLANC_NO": "2025910253",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5",
+   "SUPLY_HSHLDCO": 16
+  },
+  {
+   "CMPET_RATE": "(△8)",
+   "HOUSE_MANAGE_NO": "2025910253",
+   "HOUSE_TY": "136.9660B",
+   "PBLANC_NO": "2025910253",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 10
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:49.812839+09:00"
+}

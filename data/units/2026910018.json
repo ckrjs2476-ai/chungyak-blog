@@ -1,0 +1,170 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "한국자산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-10",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-10",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.xi.co.kr/SJX",
+  "HOUSE_MANAGE_NO": "2026910018",
+  "HOUSE_NM": "수지자이 에디시온",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 용인시 수지구 풍덕천동 71-1번지 일원",
+  "HSSPLY_ZIP": "16831",
+  "MDHS_TELNO": "18336480",
+  "MVN_PREARNGE_YM": "202902",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910018",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910018&pblancNo=2026910018",
+  "PRZWNER_PRESNATN_DE": "2026-02-05",
+  "RCRIT_PBLANC_DE": "2026-01-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-02",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-02",
+  "TOT_SUPLY_HSHLDCO": 258
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9772A",
+   "LTTOT_TOP_AMOUNT": "156500",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910018",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 58
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9892B",
+   "LTTOT_TOP_AMOUNT": "149200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910018",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 28
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9875C",
+   "LTTOT_TOP_AMOUNT": "154900",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910018",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 106
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9671D",
+   "LTTOT_TOP_AMOUNT": "151300",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910018",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 29
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "120.8061 ",
+   "LTTOT_TOP_AMOUNT": "219800",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2026910018",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 35
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "144.8653P",
+   "LTTOT_TOP_AMOUNT": "500000",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2026910018",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "155.7575P",
+   "LTTOT_TOP_AMOUNT": "520000",
+   "MODEL_NO": "07",
+   "PBLANC_NO": "2026910018",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.03",
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9671D",
+   "PBLANC_NO": "2026910018",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "30",
+   "SUPLY_HSHLDCO": 29
+  },
+  {
+   "CMPET_RATE": "1.50",
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9772A",
+   "PBLANC_NO": "2026910018",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "87",
+   "SUPLY_HSHLDCO": 58
+  },
+  {
+   "CMPET_RATE": "1.19",
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9875C",
+   "PBLANC_NO": "2026910018",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "126",
+   "SUPLY_HSHLDCO": 106
+  },
+  {
+   "CMPET_RATE": "1.07",
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "084.9892B",
+   "PBLANC_NO": "2026910018",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "30",
+   "SUPLY_HSHLDCO": 28
+  },
+  {
+   "CMPET_RATE": "(△24)",
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "120.8061 ",
+   "PBLANC_NO": "2026910018",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "11",
+   "SUPLY_HSHLDCO": 35
+  },
+  {
+   "CMPET_RATE": "2.00",
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "144.8653P",
+   "PBLANC_NO": "2026910018",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "5.00",
+   "HOUSE_MANAGE_NO": "2026910018",
+   "HOUSE_TY": "155.7575P",
+   "PBLANC_NO": "2026910018",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:46.298783+09:00"
+}

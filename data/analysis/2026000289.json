@@ -1,0 +1,213 @@
+{
+ "no": "2026000289",
+ "name": "신제주 동문디이스트 시그니처원Ⅱ",
+ "kind": "apt",
+ "region": "제주",
+ "notice_date": "2026-06-23",
+ "rank1_date": "2026-07-03",
+ "city": "제주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000289&pblancNo=2026000289",
+ "households": 196,
+ "types": [
+  {
+   "ty": "75.6023",
+   "size": 75,
+   "price": 106300,
+   "area_m2": 96.1084,
+   "general": 26,
+   "special": 0,
+   "pyeong_price": 3656,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "76.3401",
+   "size": 76,
+   "price": 106000,
+   "area_m2": 97.333,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 3600,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "80.6995",
+   "size": 80,
+   "price": 113600,
+   "area_m2": 102.9562,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 3648,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8616A",
+   "size": 84,
+   "price": 116200,
+   "area_m2": 108.5348,
+   "general": 80,
+   "special": 0,
+   "pyeong_price": 3539,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7182B",
+   "size": 84,
+   "price": 113100,
+   "area_m2": 108.862,
+   "general": 7,
+   "special": 0,
+   "pyeong_price": 3434,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "92.0594",
+   "size": 92,
+   "price": 131875,
+   "area_m2": 116.736,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 3735,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "105.2719",
+   "size": 105,
+   "price": 152342,
+   "area_m2": 133.5341,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 3771,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "122.5925",
+   "size": 122,
+   "price": 180194,
+   "area_m2": 154.8417,
+   "general": 14,
+   "special": 0,
+   "pyeong_price": 3847,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "140.9658",
+   "size": 140,
+   "price": 200028,
+   "area_m2": 177.0344,
+   "general": 13,
+   "special": 0,
+   "pyeong_price": 3735,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 196,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 3434,
+ "pyeong_max": 3847,
+ "pyeong_avg": 3628,
+ "price_84_min": 113100,
+ "price_84_max": 116200,
+ "competition": {
+  "types": [
+   {
+    "ty": "75.6023",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "76.3401",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "80.6995",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "84.8616A",
+    "supply": 80,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 80
+   },
+   {
+    "ty": "84.7182B",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "92.0594",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "105.2719",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "122.5925",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "140.9658",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 3,
+  "supply_total": 196,
+  "final_shortfall_total": 190,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 9,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "제주시",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "제주시 이도이동 아이린8차 아파트"
+  ],
+  "peer_avg_pyeong": 2395,
+  "diff": 1233,
+  "diff_pct": 51,
+  "rank": 1,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "제주시",
+  "peer_count": 2,
+  "peers": [
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅰ"
+  ],
+  "peer_avg_rate": 0.1,
+  "rank": 3,
+  "of": 3
+ }
+}

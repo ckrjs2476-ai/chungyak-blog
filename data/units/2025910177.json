@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)대우건설",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-02",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-02",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.prugio.com/summit/thenew",
+  "HOUSE_MANAGE_NO": "2025910177",
+  "HOUSE_NM": "서면 써밋 더뉴",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 부산진구 전포동 668-1번지 일원",
+  "HSSPLY_ZIP": "47293",
+  "MDHS_TELNO": "18000919",
+  "MVN_PREARNGE_YM": "203104",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910177",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910177&pblancNo=2025910177",
+  "PRZWNER_PRESNATN_DE": "2025-09-25",
+  "RCRIT_PBLANC_DE": "2025-09-17",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-22",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-22",
+  "TOT_SUPLY_HSHLDCO": 222
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "084.3608A",
+   "LTTOT_TOP_AMOUNT": "112830",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910177",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 36
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "084.7812B",
+   "LTTOT_TOP_AMOUNT": "113160",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910177",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 52
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "122.1085 ",
+   "LTTOT_TOP_AMOUNT": "168950",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910177",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 127
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "131.8835T",
+   "LTTOT_TOP_AMOUNT": "178800",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910177",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "3.81",
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "084.3608A",
+   "PBLANC_NO": "2025910177",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "137",
+   "SUPLY_HSHLDCO": 36
+  },
+  {
+   "CMPET_RATE": "1.17",
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "084.7812B",
+   "PBLANC_NO": "2025910177",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "61",
+   "SUPLY_HSHLDCO": 52
+  },
+  {
+   "CMPET_RATE": "(△125)",
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "122.1085 ",
+   "PBLANC_NO": "2025910177",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 127
+  },
+  {
+   "CMPET_RATE": "(△5)",
+   "HOUSE_MANAGE_NO": "2025910177",
+   "HOUSE_TY": "131.8835T",
+   "PBLANC_NO": "2025910177",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 7
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:57.649478+09:00"
+}

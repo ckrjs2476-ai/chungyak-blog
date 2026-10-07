@@ -1,0 +1,47 @@
+{
+ "no": "2026910107",
+ "name": "북전주 광신프로그레스",
+ "kind": "remndr",
+ "region": "전북",
+ "notice_date": "2026-05-13",
+ "rank1_date": "2026-05-18",
+ "city": "전주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910107&pblancNo=2026910107",
+ "households": 298,
+ "types": [
+  {
+   "ty": "84.5406A",
+   "size": 84,
+   "price": 44500,
+   "area_m2": null,
+   "general": 298,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 298,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 44500,
+ "price_84_max": 44500,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.5406A",
+    "supply": 298,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 286
+   }
+  ],
+  "req_total": 12,
+  "rank1_req": 0,
+  "supply_total": 298,
+  "final_shortfall_total": 286,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

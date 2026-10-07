@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주) 서한",
+  "CNTRCT_CNCLS_BGNDE": "2026-09-18",
+  "CNTRCT_CNCLS_ENDDE": "2026-09-18",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://nj-seohan.com",
+  "HOUSE_MANAGE_NO": "2026910228",
+  "HOUSE_NM": "남양주 진접 서한이다음(S1BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 남양주시 진접2 공공주택지구 S1BL",
+  "HSSPLY_ZIP": "12073",
+  "MDHS_TELNO": "0315688900",
+  "MVN_PREARNGE_YM": "202901",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910228",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910228&pblancNo=2026910228",
+  "PRZWNER_PRESNATN_DE": "2026-09-11",
+  "RCRIT_PBLANC_DE": "2026-09-03",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-09-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-09-08",
+  "TOT_SUPLY_HSHLDCO": 141
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "084.4746A",
+   "LTTOT_TOP_AMOUNT": "66190",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910228",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 43
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "084.7614B",
+   "LTTOT_TOP_AMOUNT": "66740",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910228",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "095.2508A",
+   "LTTOT_TOP_AMOUNT": "71330",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910228",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 69
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "095.3102B",
+   "LTTOT_TOP_AMOUNT": "67430",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910228",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 10
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.28",
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "084.4746A",
+   "PBLANC_NO": "2026910228",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "98",
+   "SUPLY_HSHLDCO": 43
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "084.7614B",
+   "PBLANC_NO": "2026910228",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "19",
+   "SUPLY_HSHLDCO": 19
+  },
+  {
+   "CMPET_RATE": "(△38)",
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "095.2508A",
+   "PBLANC_NO": "2026910228",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "31",
+   "SUPLY_HSHLDCO": 69
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910228",
+   "HOUSE_TY": "095.3102B",
+   "PBLANC_NO": "2026910228",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 10
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:52:59.192307+09:00"
+}

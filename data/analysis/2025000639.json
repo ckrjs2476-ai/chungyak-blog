@@ -1,0 +1,212 @@
+{
+ "no": "2025000639",
+ "name": "서귀포시 서홍동 형남아파트6차",
+ "kind": "apt",
+ "region": "제주",
+ "notice_date": "2026-01-16",
+ "rank1_date": "2026-01-27",
+ "city": "서귀포시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000639&pblancNo=2025000639",
+ "households": 94,
+ "types": [
+  {
+   "ty": "84.5162A",
+   "size": 84,
+   "price": 49000,
+   "area_m2": 103.3413,
+   "general": 18,
+   "special": 14,
+   "pyeong_price": 1567,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "84.5162B",
+   "size": 84,
+   "price": 49000,
+   "area_m2": 103.4713,
+   "general": 8,
+   "special": 8,
+   "pyeong_price": 1565,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.5162C",
+   "size": 84,
+   "price": 49500,
+   "area_m2": 104.026,
+   "general": 8,
+   "special": 7,
+   "pyeong_price": 1573,
+   "special_share_pct": 47
+  },
+  {
+   "ty": "84.9008D",
+   "size": 84,
+   "price": 50600,
+   "area_m2": 103.5657,
+   "general": 3,
+   "special": 4,
+   "pyeong_price": 1615,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.8387E",
+   "size": 84,
+   "price": 50800,
+   "area_m2": 102.7575,
+   "general": 4,
+   "special": 4,
+   "pyeong_price": 1634,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.8387F",
+   "size": 84,
+   "price": 51300,
+   "area_m2": 108.25,
+   "general": 4,
+   "special": 4,
+   "pyeong_price": 1567,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "133.0932A",
+   "size": 133,
+   "price": 72000,
+   "area_m2": 157.57,
+   "general": 8,
+   "special": 0,
+   "pyeong_price": 1511,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 53,
+ "special_total": 41,
+ "special_share_pct": 44,
+ "pyeong_min": 1511,
+ "pyeong_max": 1634,
+ "pyeong_avg": 1572,
+ "price_84_min": 49000,
+ "price_84_max": 51300,
+ "special_kinds": {
+  "신혼부부": 20,
+  "생애최초": 8,
+  "다자녀": 10,
+  "노부모 부양": 3
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.5162A",
+    "supply": 19,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.5162B",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.09,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.5162C",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.13,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9008D",
+    "supply": 6,
+    "closed_at": "2순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8387E",
+    "supply": 6,
+    "closed_at": "2순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8387F",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "133.0932A",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   }
+  ],
+  "req_total": 94,
+  "rank1_req": 68,
+  "supply_total": 62,
+  "final_shortfall_total": 2,
+  "closed_types": 6,
+  "rank1_closed_types": 4,
+  "type_count": 7,
+  "rank1_avg_rate": 1.1,
+  "best": {
+   "ty": "84.9008D",
+   "rate": 4.0,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.8387F",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.8387F": 0
+  },
+  "avg_min": 18.5,
+  "max": {
+   "score": 69,
+   "ty": "84.8387F"
+  }
+ },
+ "region_price": {
+  "scope": "제주",
+  "days": 180,
+  "peer_count": 6,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "이안 연동스퀘어",
+   "리첸시아 표선 IB EDU",
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ"
+  ],
+  "peer_avg_pyeong": 2556,
+  "diff": -984,
+  "diff_pct": -38,
+  "rank": 7,
+  "of": 7
+ },
+ "region_competition": {
+  "scope": "제주",
+  "peer_count": 6,
+  "peers": [
+   "영도갤럭시타운 도련2차",
+   "이안 연동스퀘어",
+   "리첸시아 표선 IB EDU",
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ"
+  ],
+  "peer_avg_rate": 0.07,
+  "rank": 1,
+  "of": 7
+ }
+}

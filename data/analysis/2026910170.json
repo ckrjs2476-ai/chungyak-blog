@@ -1,0 +1,98 @@
+{
+ "no": "2026910170",
+ "name": "용현자이 크레스트(2차)",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-08-05",
+ "rank1_date": "2026-08-10",
+ "city": "미추홀구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910170&pblancNo=2026910170",
+ "households": 6,
+ "types": [
+  {
+   "ty": "59.97A",
+   "size": 59,
+   "price": 32950,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.99D",
+   "size": 59,
+   "price": 31870,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.96B",
+   "size": 74,
+   "price": 38960,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.97C",
+   "size": 74,
+   "price": 39140,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.97A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 401.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.99D",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 144.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.96B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 308.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.97C",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 493.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2148,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.97C",
+   "rate": 493.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "no": "2026910222",
+ "name": "오산헤리티지자이 1단지",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-08-25",
+ "rank1_date": "2026-08-31",
+ "city": "오산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910222&pblancNo=2026910222",
+ "households": 256,
+ "types": [
+  {
+   "ty": "75.4736",
+   "size": 75,
+   "price": 73380,
+   "area_m2": null,
+   "general": 36,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9796A",
+   "size": 84,
+   "price": 78300,
+   "area_m2": null,
+   "general": 220,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 256,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 78300,
+ "price_84_max": 78300,
+ "competition": {
+  "types": [
+   {
+    "ty": "75.4736",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "84.9796A",
+    "supply": 220,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 142
+   }
+  ],
+  "req_total": 103,
+  "rank1_req": 0,
+  "supply_total": 256,
+  "final_shortfall_total": 153,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

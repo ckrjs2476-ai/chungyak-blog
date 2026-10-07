@@ -1,0 +1,79 @@
+{
+ "no": "2026910191",
+ "name": "힐스테이트 양산더스카이 1단지",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-07-22",
+ "rank1_date": "2026-07-27",
+ "city": "양산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910191&pblancNo=2026910191",
+ "households": 239,
+ "types": [
+  {
+   "ty": "68.9608A",
+   "size": 68,
+   "price": 44670,
+   "area_m2": null,
+   "general": 56,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9836A",
+   "size": 84,
+   "price": 52950,
+   "area_m2": null,
+   "general": 145,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9478B",
+   "size": 84,
+   "price": 50860,
+   "area_m2": null,
+   "general": 38,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 239,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 50860,
+ "price_84_max": 52950,
+ "competition": {
+  "types": [
+   {
+    "ty": "68.9608A",
+    "supply": 56,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 55
+   },
+   {
+    "ty": "84.9478B",
+    "supply": 38,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 38
+   },
+   {
+    "ty": "84.9836A",
+    "supply": 145,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 141
+   }
+  ],
+  "req_total": 5,
+  "rank1_req": 0,
+  "supply_total": 239,
+  "final_shortfall_total": 234,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0
+ }
+}

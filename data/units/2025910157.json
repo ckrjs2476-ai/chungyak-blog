@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "케이비부동산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-09-22",
+  "CNTRCT_CNCLS_ENDDE": "2025-09-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://djcielio-switzen.com/",
+  "HOUSE_MANAGE_NO": "2025910157",
+  "HOUSE_NM": "대전 씨엘리오 스위첸(5차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "대전광역시 서구 용문동 593-11번지 외 6필지",
+  "HSSPLY_ZIP": "35300",
+  "MDHS_TELNO": "15669330",
+  "MVN_PREARNGE_YM": "202509",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910157",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910157&pblancNo=2025910157",
+  "PRZWNER_PRESNATN_DE": "2025-09-12",
+  "RCRIT_PBLANC_DE": "2025-09-04",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "300",
+  "SUBSCRPT_AREA_CODE_NM": "대전",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-09",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-09",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910157",
+   "HOUSE_TY": "081.9120A",
+   "LTTOT_TOP_AMOUNT": "53200",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910157",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "34.00",
+   "HOUSE_MANAGE_NO": "2025910157",
+   "HOUSE_TY": "081.9120A",
+   "PBLANC_NO": "2025910157",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "34",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:01:26.646859+09:00"
+}

@@ -1,0 +1,100 @@
+{
+ "no": "2025910243",
+ "name": "김포 풍무역세권 B5블록 호반써밋",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-12-02",
+ "rank1_date": "2025-12-08",
+ "city": "풍무역세권",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910243&pblancNo=2025910243",
+ "households": 73,
+ "types": [
+  {
+   "ty": "84.9371A",
+   "size": 84,
+   "price": 67670,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9284B",
+   "size": 84,
+   "price": 63740,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "112.9387A",
+   "size": 112,
+   "price": 88760,
+   "area_m2": null,
+   "general": 64,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "112.8889B",
+   "size": 112,
+   "price": 85270,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 73,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 63740,
+ "price_84_max": 67670,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9284B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 60.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9371A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 82.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "112.8889B",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 2.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "112.9387A",
+    "supply": 64,
+    "closed_at": "None순위 None",
+    "rate": 1.98,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 526,
+  "rank1_req": 0,
+  "supply_total": 73,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9371A",
+   "rate": 82.0,
+   "stage": "None순위 None"
+  }
+ }
+}

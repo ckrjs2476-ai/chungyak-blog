@@ -1,0 +1,132 @@
+{
+ "no": "2025910237",
+ "name": "두산위브더제니스 구미",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2025-11-26",
+ "rank1_date": "2025-12-01",
+ "city": "구미시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910237&pblancNo=2025910237",
+ "households": 114,
+ "types": [
+  {
+   "ty": "59.9037",
+   "size": 59,
+   "price": 37180,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9524A",
+   "size": 74,
+   "price": 46960,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.5915B",
+   "size": 74,
+   "price": 46740,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7657A",
+   "size": 84,
+   "price": 52870,
+   "area_m2": null,
+   "general": 48,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.7696B",
+   "size": 84,
+   "price": 52950,
+   "area_m2": null,
+   "general": 47,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "108.608",
+   "size": 108,
+   "price": 67860,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 114,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 52870,
+ "price_84_max": 52950,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9037",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 2.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.5915B",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "74.9524A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7657A",
+    "supply": 48,
+    "closed_at": "None순위 None",
+    "rate": 1.9,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7696B",
+    "supply": 47,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 41
+   },
+   {
+    "ty": "108.608",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 1.56,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 126,
+  "rank1_req": 0,
+  "supply_total": 114,
+  "final_shortfall_total": 43,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.9037",
+   "rate": 2.33,
+   "stage": "None순위 None"
+  }
+ }
+}

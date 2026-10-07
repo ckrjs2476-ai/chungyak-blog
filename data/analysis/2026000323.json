@@ -1,0 +1,205 @@
+{
+ "no": "2026000323",
+ "name": "세종 우미 린 센터파크(행정중심복합도시 5-2생활권 S1블록, 글미마을 9단지)",
+ "kind": "apt",
+ "region": "세종",
+ "notice_date": "2026-07-31",
+ "rank1_date": "2026-08-11",
+ "city": "다솜동",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000323&pblancNo=2026000323",
+ "households": 676,
+ "types": [
+  {
+   "ty": "45.9761",
+   "size": 45,
+   "price": 29500,
+   "area_m2": 62.7881,
+   "general": 21,
+   "special": 23,
+   "pyeong_price": 1553,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.9747",
+   "size": 59,
+   "price": 43550,
+   "area_m2": 83.045,
+   "general": 48,
+   "special": 52,
+   "pyeong_price": 1734,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.9165A",
+   "size": 84,
+   "price": 64560,
+   "area_m2": 116.4027,
+   "general": 78,
+   "special": 161,
+   "pyeong_price": 1833,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84.9738B",
+   "size": 84,
+   "price": 64560,
+   "area_m2": 116.3396,
+   "general": 13,
+   "special": 33,
+   "pyeong_price": 1834,
+   "special_share_pct": 72
+  },
+  {
+   "ty": "84.9395C",
+   "size": 84,
+   "price": 63600,
+   "area_m2": 116.3605,
+   "general": 5,
+   "special": 7,
+   "pyeong_price": 1807,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "84.9418D",
+   "size": 84,
+   "price": 62500,
+   "area_m2": 115.7924,
+   "general": 65,
+   "special": 137,
+   "pyeong_price": 1784,
+   "special_share_pct": 68
+  },
+  {
+   "ty": "84.9942E",
+   "size": 84,
+   "price": 61570,
+   "area_m2": 116.001,
+   "general": 1,
+   "special": 5,
+   "pyeong_price": 1755,
+   "special_share_pct": 83
+  },
+  {
+   "ty": "84.9603F",
+   "size": 84,
+   "price": 64560,
+   "area_m2": 116.5591,
+   "general": 9,
+   "special": 18,
+   "pyeong_price": 1831,
+   "special_share_pct": 67
+  }
+ ],
+ "general_total": 240,
+ "special_total": 436,
+ "special_share_pct": 64,
+ "pyeong_min": 1553,
+ "pyeong_max": 1834,
+ "pyeong_avg": 1784,
+ "price_84_min": 61570,
+ "price_84_max": 64560,
+ "special_kinds": {
+  "신혼부부": 102,
+  "생애최초": 115,
+  "신생아": 68,
+  "다자녀": 67,
+  "노부모 부양": 20,
+  "기관추천": 64
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "45.9761",
+    "supply": 21,
+    "closed_at": "1순위 해당지역",
+    "rate": 7.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9747",
+    "supply": 48,
+    "closed_at": "1순위 해당지역",
+    "rate": 21.34,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9165A",
+    "supply": 78,
+    "closed_at": "1순위 해당지역",
+    "rate": 25.81,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9738B",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 30.13,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9395C",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 19.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9418D",
+    "supply": 65,
+    "closed_at": "1순위 해당지역",
+    "rate": 12.31,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9942E",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 44.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9603F",
+    "supply": 9,
+    "closed_at": "1순위 해당지역",
+    "rate": 26.8,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 4250,
+  "rank1_req": 4250,
+  "supply_total": 240,
+  "final_shortfall_total": 0,
+  "closed_types": 8,
+  "rank1_closed_types": 8,
+  "type_count": 8,
+  "rank1_avg_rate": 17.71,
+  "best": {
+   "ty": "84.9942E",
+   "rate": 44.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9942E",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "45.9761": 44,
+   "59.9747": 59,
+   "84.9165A": 64,
+   "84.9738B": 67,
+   "84.9395C": 55,
+   "84.9418D": 53,
+   "84.9942E": 0,
+   "84.9603F": 60
+  },
+  "avg_min": 55.8,
+  "max": {
+   "score": 78,
+   "ty": "84.9738B"
+  }
+ }
+}

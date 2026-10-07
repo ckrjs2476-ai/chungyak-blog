@@ -1,0 +1,66 @@
+{
+ "no": "2026910111",
+ "name": "온천장 하늘채 엘리시움",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-05-13",
+ "rank1_date": "2026-05-18",
+ "city": "동래구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910111&pblancNo=2026910111",
+ "households": 17,
+ "types": [
+  {
+   "ty": "73.9154",
+   "size": 73,
+   "price": 70190,
+   "area_m2": null,
+   "general": 15,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "81.7466",
+   "size": 81,
+   "price": 77960,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 17,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "73.9154",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "81.7466",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 4.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 15,
+  "rank1_req": 0,
+  "supply_total": 17,
+  "final_shortfall_total": 9,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "81.7466",
+   "rate": 4.5,
+   "stage": "None순위 None"
+  }
+ }
+}

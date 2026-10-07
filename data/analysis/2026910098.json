@@ -1,0 +1,50 @@
+{
+ "no": "2026910098",
+ "name": "한화포레나 부산당리",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-04-29",
+ "rank1_date": "2026-05-04",
+ "city": "사하구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910098&pblancNo=2026910098",
+ "households": 6,
+ "types": [
+  {
+   "ty": "101.6522",
+   "size": 101,
+   "price": 98800,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "101.6522",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 1.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 8,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "101.6522",
+   "rate": 1.33,
+   "stage": "None순위 None"
+  }
+ }
+}

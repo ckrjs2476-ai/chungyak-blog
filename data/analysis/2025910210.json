@@ -1,0 +1,68 @@
+{
+ "no": "2025910210",
+ "name": "아산탕정 동일하이빌 파크레인",
+ "kind": "remndr",
+ "region": "충남",
+ "notice_date": "2025-11-05",
+ "rank1_date": "2025-11-10",
+ "city": "아산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910210&pblancNo=2025910210",
+ "households": 392,
+ "types": [
+  {
+   "ty": "84.9865A",
+   "size": 84,
+   "price": 52070,
+   "area_m2": null,
+   "general": 383,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "99.8447B",
+   "size": 99,
+   "price": 62690,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 392,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 52070,
+ "price_84_max": 52070,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9865A",
+    "supply": 383,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 344
+   },
+   {
+    "ty": "99.8447B",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 5.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 84,
+  "rank1_req": 0,
+  "supply_total": 392,
+  "final_shortfall_total": 344,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "99.8447B",
+   "rate": 5.0,
+   "stage": "None순위 None"
+  }
+ }
+}

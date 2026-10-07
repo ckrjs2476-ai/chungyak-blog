@@ -1,0 +1,123 @@
+{
+ "no": "2025000373",
+ "name": "숭의역 라온프라이빗 스카이브",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2025-09-19",
+ "rank1_date": "2025-09-30",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000373&pblancNo=2025000373",
+ "households": 170,
+ "types": [
+  {
+   "ty": "59.1491A",
+   "size": 59,
+   "price": 43610,
+   "area_m2": 87.3257,
+   "general": 41,
+   "special": 46,
+   "pyeong_price": 1651,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "59.2569B",
+   "size": 59,
+   "price": 43480,
+   "area_m2": 87.2295,
+   "general": 18,
+   "special": 26,
+   "pyeong_price": 1648,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "84.4018",
+   "size": 84,
+   "price": 58790,
+   "area_m2": 122.8626,
+   "general": 15,
+   "special": 24,
+   "pyeong_price": 1582,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 74,
+ "special_total": 96,
+ "special_share_pct": 56,
+ "pyeong_min": 1582,
+ "pyeong_max": 1651,
+ "pyeong_avg": 1634,
+ "price_84_min": 58790,
+ "price_84_max": 58790,
+ "special_kinds": {
+  "신혼부부": 40,
+  "생애최초": 16,
+  "다자녀": 17,
+  "노부모 부양": 6,
+  "기관추천": 17
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.1491A",
+    "supply": 77,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 61
+   },
+   {
+    "ty": "59.2569B",
+    "supply": 44,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 43
+   },
+   {
+    "ty": "84.4018",
+    "supply": 39,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   }
+  ],
+  "req_total": 22,
+  "rank1_req": 13,
+  "supply_total": 160,
+  "final_shortfall_total": 138,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.08
+ },
+ "region_price": {
+  "scope": "중구",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_pyeong": 1677,
+  "diff": -43,
+  "diff_pct": -3,
+  "rank": 5,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "중구",
+  "peer_count": 5,
+  "peers": [
+   "인천영종국제도시 디에트르 라 메르Ⅰ(RC4-1,2BL)(본청약)",
+   "영종하늘도시 대라수 어썸(A50BL)",
+   "영종국제도시 신일 비아프 크레스트(1단지)",
+   "영종국제도시 신일 비아프 크레스트(2단지)",
+   "오션포레베네스트하우스(미단시티 공동8BL)"
+  ],
+  "peer_avg_rate": 0.13,
+  "rank": 6,
+  "of": 6
+ }
+}

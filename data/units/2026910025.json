@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "중흥에스클래스주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-19",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.s-class.co.kr/",
+  "HOUSE_MANAGE_NO": "2026910025",
+  "HOUSE_NM": "파주 운정신도시 A11블록 중흥S-클래스 에듀하이",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 파주시 운정3택지개발지구 A11블록 중흥S-클래스 에듀하이(경기도 파주시 다율동)",
+  "HSSPLY_ZIP": "10865",
+  "MDHS_TELNO": "0312353300",
+  "MVN_PREARNGE_YM": "202604",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910025",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910025&pblancNo=2026910025",
+  "PRZWNER_PRESNATN_DE": "2026-02-09",
+  "RCRIT_PBLANC_DE": "2026-01-30",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-04",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-04",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910025",
+   "HOUSE_TY": "059.9701 ",
+   "LTTOT_TOP_AMOUNT": "32599",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910025",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "762.00",
+   "HOUSE_MANAGE_NO": "2026910025",
+   "HOUSE_TY": "059.9701 ",
+   "PBLANC_NO": "2026910025",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "762",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:34.925270+09:00"
+}

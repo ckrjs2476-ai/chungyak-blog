@@ -1,0 +1,84 @@
+{
+ "no": "2026910101",
+ "name": "양주 옥정 린 파밀리에(6차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-04-27",
+ "rank1_date": "2026-05-04",
+ "city": "양주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910101&pblancNo=2026910101",
+ "households": 11,
+ "types": [
+  {
+   "ty": "74.88C",
+   "size": 74,
+   "price": 33000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.96A",
+   "size": 84,
+   "price": 40200,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.86B",
+   "size": 84,
+   "price": 39000,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 11,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 39000,
+ "price_84_max": 40200,
+ "competition": {
+  "types": [
+   {
+    "ty": "74.88C",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 8.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.86B",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.96A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 3.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 28,
+  "rank1_req": 0,
+  "supply_total": 11,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.88C",
+   "rate": 8.0,
+   "stage": "None순위 None"
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "no": "2026910051",
+ "name": "대전 하늘채 루시에르(2회차)",
+ "kind": "remndr",
+ "region": "대전",
+ "notice_date": "2026-03-04",
+ "rank1_date": "2026-03-09",
+ "city": "중구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910051&pblancNo=2026910051",
+ "households": 6,
+ "types": [
+  {
+   "ty": "119.1374A",
+   "size": 119,
+   "price": 91000,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "119.1374A",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 5.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 30,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "119.1374A",
+   "rate": 5.0,
+   "stage": "None순위 None"
+  }
+ }
+}

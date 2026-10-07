@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)우미산업개발",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-22",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-22",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://hn1.lynn.co.kr",
+  "HOUSE_MANAGE_NO": "2025910274",
+  "HOUSE_NM": "화성 남양뉴타운 우미 린 에듀하이",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 화성시 남양읍 남양리 2198 (남양뉴타운 B16BL)",
+  "HSSPLY_ZIP": "18265",
+  "MDHS_TELNO": "0313573200",
+  "MVN_PREARNGE_YM": "202807",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910274",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910274&pblancNo=2025910274",
+  "PRZWNER_PRESNATN_DE": "2026-01-15",
+  "RCRIT_PBLANC_DE": "2026-01-07",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-12",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-12",
+  "TOT_SUPLY_HSHLDCO": 176
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910274",
+   "HOUSE_TY": "084.9955A",
+   "LTTOT_TOP_AMOUNT": "45840",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910274",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 176
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△100)",
+   "HOUSE_MANAGE_NO": "2025910274",
+   "HOUSE_TY": "084.9955A",
+   "PBLANC_NO": "2025910274",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "76",
+   "SUPLY_HSHLDCO": 176
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:25.104309+09:00"
+}

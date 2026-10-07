@@ -1,0 +1,132 @@
+{
+ "no": "2026910133",
+ "name": "청주 푸르지오 씨엘리체",
+ "kind": "remndr",
+ "region": "충북",
+ "notice_date": "2026-06-01",
+ "rank1_date": "2026-06-08",
+ "city": "청주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910133&pblancNo=2026910133",
+ "households": 270,
+ "types": [
+  {
+   "ty": "84.9904A",
+   "size": 84,
+   "price": 52100,
+   "area_m2": null,
+   "general": 47,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9263B",
+   "size": 84,
+   "price": 49500,
+   "area_m2": null,
+   "general": 14,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9403C",
+   "size": 84,
+   "price": 51600,
+   "area_m2": null,
+   "general": 32,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "114.9039A",
+   "size": 114,
+   "price": 67500,
+   "area_m2": null,
+   "general": 73,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "114.9508B",
+   "size": 114,
+   "price": 66100,
+   "area_m2": null,
+   "general": 74,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "114.7078C",
+   "size": 114,
+   "price": 66800,
+   "area_m2": null,
+   "general": 30,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 270,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 49500,
+ "price_84_max": 52100,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9263B",
+    "supply": 14,
+    "closed_at": "None순위 None",
+    "rate": 2.21,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9403C",
+    "supply": 32,
+    "closed_at": "None순위 None",
+    "rate": 1.38,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9904A",
+    "supply": 47,
+    "closed_at": "None순위 None",
+    "rate": 12.17,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "114.7078C",
+    "supply": 30,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   },
+   {
+    "ty": "114.9039A",
+    "supply": 73,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 24
+   },
+   {
+    "ty": "114.9508B",
+    "supply": 74,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 54
+   }
+  ],
+  "req_total": 728,
+  "rank1_req": 0,
+  "supply_total": 270,
+  "final_shortfall_total": 96,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9904A",
+   "rate": 12.17,
+   "stage": "None순위 None"
+  }
+ }
+}

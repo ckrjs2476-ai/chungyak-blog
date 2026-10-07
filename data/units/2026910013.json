@@ -1,0 +1,132 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "원종공항연립가로주택정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-28",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-28",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://엘리프원종.com",
+  "HOUSE_MANAGE_NO": "2026910013",
+  "HOUSE_NM": "엘리프 원종",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 부천시 오정구 원종동 298-1번지 일원",
+  "HSSPLY_ZIP": "14414",
+  "MDHS_TELNO": "0326777775",
+  "MVN_PREARNGE_YM": "202801",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910013",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910013&pblancNo=2026910013",
+  "PRZWNER_PRESNATN_DE": "2026-01-23",
+  "RCRIT_PBLANC_DE": "2026-01-15",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-01-20",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-01-20",
+  "TOT_SUPLY_HSHLDCO": 64
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "059.9800C",
+   "LTTOT_TOP_AMOUNT": "52030",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910013",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 12
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "059.9200C",
+   "LTTOT_TOP_AMOUNT": "50420",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910013",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "059.9600C",
+   "LTTOT_TOP_AMOUNT": "50300",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910013",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 33
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "072.2300B",
+   "LTTOT_TOP_AMOUNT": "62150",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910013",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "074.8600B",
+   "LTTOT_TOP_AMOUNT": "62510",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2026910013",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "059.9200C",
+   "PBLANC_NO": "2026910013",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "(△15)",
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "059.9600C",
+   "PBLANC_NO": "2026910013",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "18",
+   "SUPLY_HSHLDCO": 33
+  },
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "059.9800C",
+   "PBLANC_NO": "2026910013",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "6",
+   "SUPLY_HSHLDCO": 12
+  },
+  {
+   "CMPET_RATE": "(△1)",
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "072.2300B",
+   "PBLANC_NO": "2026910013",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "5",
+   "SUPLY_HSHLDCO": 6
+  },
+  {
+   "CMPET_RATE": "1.75",
+   "HOUSE_MANAGE_NO": "2026910013",
+   "HOUSE_TY": "074.8600B",
+   "PBLANC_NO": "2026910013",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 4
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:05.877227+09:00"
+}

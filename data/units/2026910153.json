@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "구포7구역지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-06",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-06",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.두산위브트리니뷰구명역.com",
+  "HOUSE_MANAGE_NO": "2026910153",
+  "HOUSE_NM": "두산위브 트리니뷰 구명역",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 북구 구포동 999번지 일원",
+  "HSSPLY_ZIP": "46502",
+  "MDHS_TELNO": "15224377",
+  "MVN_PREARNGE_YM": "202905",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910153",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910153&pblancNo=2026910153",
+  "PRZWNER_PRESNATN_DE": "2026-06-29",
+  "RCRIT_PBLANC_DE": "2026-06-19",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-24",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-24",
+  "TOT_SUPLY_HSHLDCO": 31
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910153",
+   "HOUSE_TY": "074.9671A",
+   "LTTOT_TOP_AMOUNT": "68700",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910153",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 16
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910153",
+   "HOUSE_TY": "074.9653B",
+   "LTTOT_TOP_AMOUNT": "67200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910153",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 15
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2026910153",
+   "HOUSE_TY": "074.9653B",
+   "PBLANC_NO": "2026910153",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "9",
+   "SUPLY_HSHLDCO": 15
+  },
+  {
+   "CMPET_RATE": "1.19",
+   "HOUSE_MANAGE_NO": "2026910153",
+   "HOUSE_TY": "074.9671A",
+   "PBLANC_NO": "2026910153",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "19",
+   "SUPLY_HSHLDCO": 16
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:31.914730+09:00"
+}

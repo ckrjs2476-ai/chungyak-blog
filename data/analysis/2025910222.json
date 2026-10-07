@@ -1,0 +1,100 @@
+{
+ "no": "2025910222",
+ "name": "청주 롯데캐슬 시그니처",
+ "kind": "remndr",
+ "region": "충북",
+ "notice_date": "2025-11-14",
+ "rank1_date": "2025-11-19",
+ "city": "청주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910222&pblancNo=2025910222",
+ "households": 178,
+ "types": [
+  {
+   "ty": "67.8115A",
+   "size": 67,
+   "price": 40090,
+   "area_m2": null,
+   "general": 43,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "67.8746B",
+   "size": 67,
+   "price": 41904,
+   "area_m2": null,
+   "general": 89,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "76.9439",
+   "size": 76,
+   "price": 44599,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9209",
+   "size": 84,
+   "price": 50719,
+   "area_m2": null,
+   "general": 37,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 178,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 50719,
+ "price_84_max": 50719,
+ "competition": {
+  "types": [
+   {
+    "ty": "67.8115A",
+    "supply": 43,
+    "closed_at": "None순위 None",
+    "rate": 1.19,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "67.8746B",
+    "supply": 89,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 19
+   },
+   {
+    "ty": "76.9439",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 3.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9209",
+    "supply": 37,
+    "closed_at": "None순위 None",
+    "rate": 5.51,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 353,
+  "rank1_req": 0,
+  "supply_total": 178,
+  "final_shortfall_total": 19,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9209",
+   "rate": 5.51,
+   "stage": "None순위 None"
+  }
+ }
+}

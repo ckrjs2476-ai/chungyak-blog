@@ -1,0 +1,121 @@
+{
+ "no": "2026000243",
+ "name": "호반써밋 첨단3지구(A8BL)",
+ "kind": "apt",
+ "region": "전남",
+ "notice_date": "2026-06-05",
+ "rank1_date": "2026-06-17",
+ "city": "첨단3지구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000243&pblancNo=2026000243",
+ "households": 449,
+ "types": [
+  {
+   "ty": "117.8549A",
+   "size": 117,
+   "price": 68900,
+   "area_m2": 146.3902,
+   "general": 83,
+   "special": 138,
+   "pyeong_price": 1556,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "117.9486B",
+   "size": 117,
+   "price": 68700,
+   "area_m2": 146.7807,
+   "general": 30,
+   "special": 47,
+   "pyeong_price": 1547,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "135.9583",
+   "size": 135,
+   "price": 78700,
+   "area_m2": 168.233,
+   "general": 57,
+   "special": 94,
+   "pyeong_price": 1546,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 170,
+ "special_total": 279,
+ "special_share_pct": 62,
+ "pyeong_min": 1546,
+ "pyeong_max": 1556,
+ "pyeong_avg": 1551,
+ "special_kinds": {
+  "다자녀": 44,
+  "노부모 부양": 12
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "117.8549A",
+    "supply": 197,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.51,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "117.9486B",
+    "supply": 75,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   },
+   {
+    "ty": "135.9583",
+    "supply": 148,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 81
+   }
+  ],
+  "req_total": 734,
+  "rank1_req": 434,
+  "supply_total": 420,
+  "final_shortfall_total": 101,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 3,
+  "rank1_avg_rate": 1.03,
+  "best": {
+   "ty": "117.8549A",
+   "rate": 1.51,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "전남",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "해남 남외리 정하 에코프라임",
+   "e편한세상 여수 글렌츠",
+   "소제지구 A3BL 중흥S-클래스 우미린",
+   "소제지구 A4BL 중흥S-클래스 우미린"
+  ],
+  "peer_avg_pyeong": 1441,
+  "diff": 110,
+  "diff_pct": 8,
+  "rank": 2,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "전남",
+  "peer_count": 4,
+  "peers": [
+   "해남 남외리 정하 에코프라임",
+   "e편한세상 여수 글렌츠",
+   "소제지구 A3BL 중흥S-클래스 우미린",
+   "소제지구 A4BL 중흥S-클래스 우미린"
+  ],
+  "peer_avg_rate": 0.52,
+  "rank": 1,
+  "of": 5
+ }
+}

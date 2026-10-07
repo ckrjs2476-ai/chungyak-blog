@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "광주광역시도시공사",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-26",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-29",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.gmcc.co.kr/",
+  "HOUSE_MANAGE_NO": "2026910149",
+  "HOUSE_NM": "선운지구다사로움 공가세대 일반공급",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "광주광역시 광산구 선운로 34 (선운지구다사로움아파트)",
+  "HSSPLY_ZIP": "62400",
+  "MDHS_TELNO": "0622252280",
+  "MVN_PREARNGE_YM": "202607",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910149",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910149&pblancNo=2026910149",
+  "PRZWNER_PRESNATN_DE": "2026-06-19",
+  "RCRIT_PBLANC_DE": "2026-06-08",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "500",
+  "SUBSCRPT_AREA_CODE_NM": "광주",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-16",
+  "TOT_SUPLY_HSHLDCO": 20
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910149",
+   "HOUSE_TY": "049.7426A",
+   "LTTOT_TOP_AMOUNT": "19250",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910149",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 15
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910149",
+   "HOUSE_TY": "076.8786A",
+   "LTTOT_TOP_AMOUNT": "27850",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910149",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910149",
+   "HOUSE_TY": "084.8497A",
+   "LTTOT_TOP_AMOUNT": "29550",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910149",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.33",
+   "HOUSE_MANAGE_NO": "2026910149",
+   "HOUSE_TY": "049.7426A",
+   "PBLANC_NO": "2026910149",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "35",
+   "SUPLY_HSHLDCO": 15
+  },
+  {
+   "CMPET_RATE": "5.00",
+   "HOUSE_MANAGE_NO": "2026910149",
+   "HOUSE_TY": "076.8786A",
+   "PBLANC_NO": "2026910149",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "14.33",
+   "HOUSE_MANAGE_NO": "2026910149",
+   "HOUSE_TY": "084.8497A",
+   "PBLANC_NO": "2026910149",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "43",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:46.604529+09:00"
+}

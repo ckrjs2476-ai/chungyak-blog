@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "노량진2재정비촉진구역재개발정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-25",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-25",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://altia.skdefine.com",
+  "HOUSE_MANAGE_NO": "2026910214",
+  "HOUSE_NM": "드파인 아르티아",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 동작구 노량진동 312-75번지 일대",
+  "HSSPLY_ZIP": "06936",
+  "MDHS_TELNO": "16444041",
+  "MVN_PREARNGE_YM": "202911",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910214",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910214&pblancNo=2026910214",
+  "PRZWNER_PRESNATN_DE": "2026-08-18",
+  "RCRIT_PBLANC_DE": "2026-08-07",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-12",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-12",
+  "TOT_SUPLY_HSHLDCO": 15
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910214",
+   "HOUSE_TY": "084.8554A",
+   "LTTOT_TOP_AMOUNT": "253000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910214",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910214",
+   "HOUSE_TY": "084.0000B",
+   "LTTOT_TOP_AMOUNT": "271800",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910214",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910214",
+   "HOUSE_TY": "109.8652A",
+   "LTTOT_TOP_AMOUNT": "306000",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910214",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "46.11",
+   "HOUSE_MANAGE_NO": "2026910214",
+   "HOUSE_TY": "084.0000B",
+   "PBLANC_NO": "2026910214",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "415",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "171.00",
+   "HOUSE_MANAGE_NO": "2026910214",
+   "HOUSE_TY": "084.8554A",
+   "PBLANC_NO": "2026910214",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "171",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "14.00",
+   "HOUSE_MANAGE_NO": "2026910214",
+   "HOUSE_TY": "109.8652A",
+   "PBLANC_NO": "2026910214",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "70",
+   "SUPLY_HSHLDCO": 5
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:21.063451+09:00"
+}

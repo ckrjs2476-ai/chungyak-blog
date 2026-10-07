@@ -1,0 +1,189 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "수원당수피에프브이 주식회사,계룡건설산업(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-27",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.엘리프한신더휴수원.com",
+  "HOUSE_MANAGE_NO": "2025910251",
+  "HOUSE_NM": "엘리프 한신더휴 수원 D3블록",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 수원시 권선구 당수1지구 공공주택지구 내 D3블록",
+  "HSSPLY_ZIP": "16373",
+  "MDHS_TELNO": "0312987001",
+  "MVN_PREARNGE_YM": "202804",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910251",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910251&pblancNo=2025910251",
+  "PRZWNER_PRESNATN_DE": "2025-12-19",
+  "RCRIT_PBLANC_DE": "2025-12-11",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-16",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-16",
+  "TOT_SUPLY_HSHLDCO": 130
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "074.9200A",
+   "LTTOT_TOP_AMOUNT": "70900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "084.9900A",
+   "LTTOT_TOP_AMOUNT": "79500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 27
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "084.9900B",
+   "LTTOT_TOP_AMOUNT": "77600",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 75
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "092.9900A",
+   "LTTOT_TOP_AMOUNT": "82300",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "092.9900B",
+   "LTTOT_TOP_AMOUNT": "79800",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "112.8100A",
+   "LTTOT_TOP_AMOUNT": "89100",
+   "MODEL_NO": "06",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "120.5040A",
+   "LTTOT_TOP_AMOUNT": "140000",
+   "MODEL_NO": "07",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "120.9992B",
+   "LTTOT_TOP_AMOUNT": "139900",
+   "MODEL_NO": "08",
+   "PBLANC_NO": "2025910251",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "2.89",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "074.9200A",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "26",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "(△4)",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "084.9900A",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "23",
+   "SUPLY_HSHLDCO": 27
+  },
+  {
+   "CMPET_RATE": "(△42)",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "084.9900B",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "33",
+   "SUPLY_HSHLDCO": 75
+  },
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "092.9900A",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 7
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "092.9900B",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "112.8100A",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "CMPET_RATE": "2.00",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "120.5040A",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2025910251",
+   "HOUSE_TY": "120.9992B",
+   "PBLANC_NO": "2025910251",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:46.347405+09:00"
+}

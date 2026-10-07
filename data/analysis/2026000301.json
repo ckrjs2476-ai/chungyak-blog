@@ -1,0 +1,238 @@
+{
+ "no": "2026000301",
+ "name": "의왕역 SK VIEW",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-07-10",
+ "rank1_date": "2026-07-21",
+ "city": "의왕시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000301&pblancNo=2026000301",
+ "households": 820,
+ "types": [
+  {
+   "ty": "36.9653",
+   "size": 36,
+   "price": 39500,
+   "area_m2": 56.7861,
+   "general": 2,
+   "special": 1,
+   "pyeong_price": 2299,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "45.9344",
+   "size": 45,
+   "price": 56800,
+   "area_m2": 69.4157,
+   "general": 20,
+   "special": 14,
+   "pyeong_price": 2705,
+   "special_share_pct": 41
+  },
+  {
+   "ty": "59.8216A",
+   "size": 59,
+   "price": 89500,
+   "area_m2": 86.4711,
+   "general": 27,
+   "special": 39,
+   "pyeong_price": 3422,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "59.7397B",
+   "size": 59,
+   "price": 88300,
+   "area_m2": 86.3906,
+   "general": 185,
+   "special": 230,
+   "pyeong_price": 3379,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.6871A",
+   "size": 84,
+   "price": 109300,
+   "area_m2": 114.691,
+   "general": 20,
+   "special": 30,
+   "pyeong_price": 3150,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.346B",
+   "size": 84,
+   "price": 109600,
+   "area_m2": 114.2181,
+   "general": 66,
+   "special": 76,
+   "pyeong_price": 3172,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.2485C",
+   "size": 84,
+   "price": 109800,
+   "area_m2": 114.5094,
+   "general": 50,
+   "special": 60,
+   "pyeong_price": 3170,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 370,
+ "special_total": 450,
+ "special_share_pct": 55,
+ "pyeong_min": 2299,
+ "pyeong_max": 3422,
+ "pyeong_avg": 3273,
+ "price_84_min": 109300,
+ "price_84_max": 109800,
+ "special_kinds": {
+  "신혼부부": 123,
+  "생애최초": 57,
+  "신생아": 82,
+  "다자녀": 82,
+  "노부모 부양": 24,
+  "기관추천": 82
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "36.9653",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "45.9344",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.8216A",
+    "supply": 27,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.41,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.7397B",
+    "supply": 185,
+    "closed_at": "1순위 기타지역",
+    "rate": 11.09,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6871A",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.346B",
+    "supply": 66,
+    "closed_at": "1순위 기타지역",
+    "rate": 8.41,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.2485C",
+    "supply": 64,
+    "closed_at": "1순위 기타지역",
+    "rate": 3.07,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2865,
+  "rank1_req": 2486,
+  "supply_total": 384,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 7,
+  "type_count": 7,
+  "rank1_avg_rate": 6.47,
+  "best": {
+   "ty": "59.7397B",
+   "rate": 11.09,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "36.9653",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "36.9653": 0,
+   "45.9344": 0,
+   "59.7397B": 0,
+   "84.346B": 0,
+   "84.2485C": 0
+  },
+  "avg_min": 21.1,
+  "max": {
+   "score": 69,
+   "ty": "84.346B"
+  }
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 52,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉"
+  ],
+  "peer_avg_pyeong": 2423,
+  "diff": 850,
+  "diff_pct": 35,
+  "rank": 8,
+  "of": 53
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 50,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "썬밸리 오드카운티 가평설악",
+   "더 플래티넘 센트럴포레",
+   "부천역 에피트 어바닉"
+  ],
+  "peer_avg_rate": 2.8,
+  "rank": 8,
+  "of": 51
+ },
+ "region_score": {
+  "scope": "경기",
+  "peer_count": 31,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "안양역 센트럴 아이파크 수자인",
+   "쌍용 더 플래티넘 온수역",
+   "구리역 하이니티 리버파크",
+   "부천역 에피트 어바닉",
+   "용인 플랫폼시티 라온프라이빗 아르디에",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)"
+  ],
+  "peer_avg_min": 2.9,
+  "diff": -2.9
+ }
+}

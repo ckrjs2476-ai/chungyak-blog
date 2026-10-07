@@ -1,0 +1,47 @@
+{
+ "no": "2026910106",
+ "name": "풍무역세권 수자인 그라센트 2차",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-05-13",
+ "rank1_date": "2026-05-18",
+ "city": "김포시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910106&pblancNo=2026910106",
+ "households": 261,
+ "types": [
+  {
+   "ty": "84.9939",
+   "size": 84,
+   "price": 71150,
+   "area_m2": null,
+   "general": 261,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 261,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 71150,
+ "price_84_max": 71150,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9939",
+    "supply": 261,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 156
+   }
+  ],
+  "req_total": 105,
+  "rank1_req": 0,
+  "supply_total": 261,
+  "final_shortfall_total": 156,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

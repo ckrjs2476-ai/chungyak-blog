@@ -1,0 +1,101 @@
+{
+ "no": "2026000261",
+ "name": "밀양 수자인 더퍼스트 2단지 공공분양주택",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-06-19",
+ "rank1_date": "2026-06-30",
+ "city": "밀양시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000261&pblancNo=2026000261",
+ "households": 114,
+ "types": [
+  {
+   "ty": "74.94",
+   "size": 74,
+   "price": 33924,
+   "area_m2": 101.9582,
+   "general": 6,
+   "special": 18,
+   "pyeong_price": 1100,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.96",
+   "size": 84,
+   "price": 38460,
+   "area_m2": 115.5907,
+   "general": 21,
+   "special": 69,
+   "pyeong_price": 1100,
+   "special_share_pct": 77
+  }
+ ],
+ "general_total": 27,
+ "special_total": 87,
+ "special_share_pct": 76,
+ "pyeong_min": 1100,
+ "pyeong_max": 1100,
+ "pyeong_avg": 1100,
+ "price_84_min": 38460,
+ "price_84_max": 38460,
+ "special_kinds": {
+  "신혼부부": 13,
+  "생애최초": 16,
+  "신생아": 22,
+  "다자녀": 13,
+  "노부모 부양": 5,
+  "기관추천": 13
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.94",
+    "supply": 22,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "84.96",
+    "supply": 83,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 67
+   }
+  ],
+  "req_total": 21,
+  "rank1_req": 20,
+  "supply_total": 105,
+  "final_shortfall_total": 84,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.19
+ },
+ "region_price": {
+  "scope": "경남",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "덕진 거제의 봄 우선분양전환 후 공가세대",
+   "밀양 수자인 더퍼스트 1단지 공공분양주택"
+  ],
+  "peer_avg_pyeong": 812,
+  "diff": 288,
+  "diff_pct": 35,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "경남",
+  "peer_count": 2,
+  "peers": [
+   "덕진 거제의 봄 우선분양전환 후 공가세대",
+   "밀양 수자인 더퍼스트 1단지 공공분양주택"
+  ],
+  "peer_avg_rate": 0.02,
+  "rank": 1,
+  "of": 3
+ }
+}

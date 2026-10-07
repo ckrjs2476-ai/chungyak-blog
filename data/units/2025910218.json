@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "사직1-6지구 재건축정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-26",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-26",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://hillstate.co.kr/s/sajik",
+  "HOUSE_MANAGE_NO": "2025910218",
+  "HOUSE_NM": "힐스테이트 사직 아시아드",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 동래구 사직2동 630번지 일원",
+  "HSSPLY_ZIP": "47871",
+  "MDHS_TELNO": "15518235",
+  "MVN_PREARNGE_YM": "202902",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910218",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910218&pblancNo=2025910218",
+  "PRZWNER_PRESNATN_DE": "2025-11-19",
+  "RCRIT_PBLANC_DE": "2025-11-07",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-12",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-12",
+  "TOT_SUPLY_HSHLDCO": 26
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910218",
+   "HOUSE_TY": "050.9871 ",
+   "LTTOT_TOP_AMOUNT": "49900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910218",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 20
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910218",
+   "HOUSE_TY": "084.6669C",
+   "LTTOT_TOP_AMOUNT": "82300",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910218",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△9)",
+   "HOUSE_MANAGE_NO": "2025910218",
+   "HOUSE_TY": "050.9871 ",
+   "PBLANC_NO": "2025910218",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "11",
+   "SUPLY_HSHLDCO": 20
+  },
+  {
+   "CMPET_RATE": "14.50",
+   "HOUSE_MANAGE_NO": "2025910218",
+   "HOUSE_TY": "084.6669C",
+   "PBLANC_NO": "2025910218",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "87",
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:43.475863+09:00"
+}

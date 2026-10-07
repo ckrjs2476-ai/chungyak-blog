@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)화성동탄경남하동귀농귀촌주택위탁관리부동산투자회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-08-19",
+  "CNTRCT_CNCLS_ENDDE": "2026-08-19",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.elife.co.kr",
+  "HOUSE_MANAGE_NO": "2026910208",
+  "HOUSE_NM": "e편한세상 동탄 파크아너스 A56블럭(2회차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 화성시 동탄2택지개발지구 (A56블럭)",
+  "HSSPLY_ZIP": "18495",
+  "MDHS_TELNO": "07041124669",
+  "MVN_PREARNGE_YM": "202611",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910208",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910208&pblancNo=2026910208",
+  "PRZWNER_PRESNATN_DE": "2026-08-10",
+  "RCRIT_PBLANC_DE": "2026-07-31",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-08-05",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-08-05",
+  "TOT_SUPLY_HSHLDCO": 4
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910208",
+   "HOUSE_TY": "099.9869B",
+   "LTTOT_TOP_AMOUNT": "61809",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910208",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910208",
+   "HOUSE_TY": "115.9570B",
+   "LTTOT_TOP_AMOUNT": "70707",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910208",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1,172.00",
+   "HOUSE_MANAGE_NO": "2026910208",
+   "HOUSE_TY": "099.9869B",
+   "PBLANC_NO": "2026910208",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1172",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "283.33",
+   "HOUSE_MANAGE_NO": "2026910208",
+   "HOUSE_TY": "115.9570B",
+   "PBLANC_NO": "2026910208",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "850",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:29.935677+09:00"
+}

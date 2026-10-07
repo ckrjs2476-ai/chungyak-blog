@@ -1,0 +1,248 @@
+{
+ "no": "2026000029",
+ "name": "썬밸리 오드카운티 가평설악",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-03-06",
+ "rank1_date": "2026-03-19",
+ "city": "가평군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000029&pblancNo=2026000029",
+ "households": 1039,
+ "types": [
+  {
+   "ty": "59.9741",
+   "size": 59,
+   "price": 34660,
+   "area_m2": 78.0014,
+   "general": 74,
+   "special": 92,
+   "pyeong_price": 1469,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "67.7341",
+   "size": 67,
+   "price": 34140,
+   "area_m2": 87.322,
+   "general": 20,
+   "special": 23,
+   "pyeong_price": 1292,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9857A",
+   "size": 84,
+   "price": 47600,
+   "area_m2": 108.7017,
+   "general": 161,
+   "special": 198,
+   "pyeong_price": 1448,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.97B",
+   "size": 84,
+   "price": 47190,
+   "area_m2": 108.872,
+   "general": 87,
+   "special": 105,
+   "pyeong_price": 1433,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.97C",
+   "size": 84,
+   "price": 47190,
+   "area_m2": 108.872,
+   "general": 29,
+   "special": 34,
+   "pyeong_price": 1433,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "94.5459",
+   "size": 94,
+   "price": 46780,
+   "area_m2": 120.1845,
+   "general": 61,
+   "special": 9,
+   "pyeong_price": 1287,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "95.11A",
+   "size": 95,
+   "price": 46640,
+   "area_m2": 121.0512,
+   "general": 33,
+   "special": 5,
+   "pyeong_price": 1274,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "95.11B",
+   "size": 95,
+   "price": 46640,
+   "area_m2": 121.0512,
+   "general": 10,
+   "special": 1,
+   "pyeong_price": 1274,
+   "special_share_pct": 9
+  },
+  {
+   "ty": "114.946",
+   "size": 114,
+   "price": 64620,
+   "area_m2": 146.189,
+   "general": 73,
+   "special": 11,
+   "pyeong_price": 1461,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "125.706",
+   "size": 125,
+   "price": 62510,
+   "area_m2": 159.113,
+   "general": 12,
+   "special": 1,
+   "pyeong_price": 1299,
+   "special_share_pct": 8
+  }
+ ],
+ "general_total": 560,
+ "special_total": 479,
+ "special_share_pct": 46,
+ "pyeong_min": 1274,
+ "pyeong_max": 1469,
+ "pyeong_avg": 1421,
+ "price_84_min": 47190,
+ "price_84_max": 47600,
+ "special_kinds": {
+  "신혼부부": 189,
+  "생애최초": 74,
+  "다자녀": 103,
+  "노부모 부양": 31,
+  "기관추천": 82
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9741",
+    "supply": 162,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 158
+   },
+   {
+    "ty": "67.7341",
+    "supply": 43,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 42
+   },
+   {
+    "ty": "84.9857A",
+    "supply": 358,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 355
+   },
+   {
+    "ty": "84.97B",
+    "supply": 192,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 191
+   },
+   {
+    "ty": "84.97C",
+    "supply": 63,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 62
+   },
+   {
+    "ty": "94.5459",
+    "supply": 70,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 69
+   },
+   {
+    "ty": "95.11A",
+    "supply": 38,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 38
+   },
+   {
+    "ty": "95.11B",
+    "supply": 11,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 10
+   },
+   {
+    "ty": "114.946",
+    "supply": 84,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 84
+   },
+   {
+    "ty": "125.706",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   }
+  ],
+  "req_total": 14,
+  "rank1_req": 10,
+  "supply_total": 1034,
+  "final_shortfall_total": 1020,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 10,
+  "rank1_avg_rate": 0.01
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 83,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지"
+  ],
+  "peer_avg_pyeong": 2443,
+  "diff": -1022,
+  "diff_pct": -42,
+  "rank": 82,
+  "of": 84
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 83,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "오남역 서희스타힐스 여의재 3단지",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지"
+  ],
+  "peer_avg_rate": 5.67,
+  "rank": 84,
+  "of": 84
+ }
+}

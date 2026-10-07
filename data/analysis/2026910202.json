@@ -1,0 +1,50 @@
+{
+ "no": "2026910202",
+ "name": "더 리치먼드 미아(2차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-08-04",
+ "rank1_date": "2026-08-10",
+ "city": "강북구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910202&pblancNo=2026910202",
+ "households": 14,
+ "types": [
+  {
+   "ty": "59.84A",
+   "size": 59,
+   "price": 95300,
+   "area_m2": null,
+   "general": 14,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 14,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.84A",
+    "supply": 14,
+    "closed_at": "None순위 None",
+    "rate": 6.21,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 87,
+  "rank1_req": 0,
+  "supply_total": 14,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.84A",
+   "rate": 6.21,
+   "stage": "None순위 None"
+  }
+ }
+}

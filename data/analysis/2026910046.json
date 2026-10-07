@@ -1,0 +1,114 @@
+{
+ "no": "2026910046",
+ "name": "에스아이팰리스 강동센텀Ⅱ(3차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-03-09",
+ "rank1_date": "2026-03-16",
+ "city": "강동구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910046&pblancNo=2026910046",
+ "households": 15,
+ "types": [
+  {
+   "ty": "27.2967A",
+   "size": 27,
+   "price": 36900,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "29.6544A",
+   "size": 29,
+   "price": 43500,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "42.4793A",
+   "size": 42,
+   "price": 59900,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "42.3953B",
+   "size": 42,
+   "price": 60900,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "42.0337C",
+   "size": 42,
+   "price": 61900,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 15,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "27.2967A",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 13.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "29.6544A",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 21.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "42.0337C",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 76.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "42.3953B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 61.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "42.4793A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 103.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 558,
+  "rank1_req": 0,
+  "supply_total": 15,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "42.4793A",
+   "rate": 103.0,
+   "stage": "None순위 None"
+  }
+ }
+}

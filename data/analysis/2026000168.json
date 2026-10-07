@@ -1,0 +1,195 @@
+{
+ "no": "2026000168",
+ "name": "더샵 송도그란테르 G5-6블록",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-05-07",
+ "rank1_date": "2026-05-20",
+ "city": "연수구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000168&pblancNo=2026000168",
+ "households": 100,
+ "types": [
+  {
+   "ty": "84.23K",
+   "size": 84,
+   "price": 130600,
+   "area_m2": 116.4041,
+   "general": 14,
+   "special": 18,
+   "pyeong_price": 3709,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "118.23K",
+   "size": 118,
+   "price": 187100,
+   "area_m2": 163.2081,
+   "general": 51,
+   "special": 13,
+   "pyeong_price": 3790,
+   "special_share_pct": 20
+  },
+  {
+   "ty": "129.46K",
+   "size": 129,
+   "price": 223800,
+   "area_m2": 182.2177,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 4060,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "188.79K",
+   "size": 188,
+   "price": 315700,
+   "area_m2": 263.7154,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3957,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "198.23K",
+   "size": 198,
+   "price": 336900,
+   "area_m2": 275.4418,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 4043,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 69,
+ "special_total": 31,
+ "special_share_pct": 31,
+ "pyeong_min": 3709,
+ "pyeong_max": 4060,
+ "pyeong_avg": 3773,
+ "price_84_min": 130600,
+ "price_84_max": 130600,
+ "special_kinds": {
+  "신혼부부": 7,
+  "생애최초": 2,
+  "다자녀": 9,
+  "노부모 부양": 1,
+  "기관추천": 3
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.23K",
+    "supply": 14,
+    "closed_at": "1순위 해당지역",
+    "rate": 229.43,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "118.23K",
+    "supply": 51,
+    "closed_at": "1순위 해당지역",
+    "rate": 33.73,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "129.46K",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 105.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "188.79K",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "198.23K",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 263.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 3452,
+  "rank1_req": 3452,
+  "supply_total": 69,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 50.03,
+  "best": {
+   "ty": "198.23K",
+   "rate": 263.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 64,
+   "ty": "84.23K",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "84.23K": 64
+  },
+  "avg_min": 65.0,
+  "max": {
+   "score": 75,
+   "ty": "84.23K"
+  }
+ },
+ "region_price": {
+  "scope": "연수구",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "송도 한내들 센트럴리버",
+   "연수 월드메르디앙 어반포레",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_pyeong": 3304,
+  "diff": 469,
+  "diff_pct": 14,
+  "rank": 2,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "연수구",
+  "peer_count": 7,
+  "peers": [
+   "송도 한내들 센트럴리버",
+   "연수 월드메르디앙 어반포레",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_rate": 9.89,
+  "rank": 1,
+  "of": 8
+ },
+ "region_score": {
+  "scope": "연수구",
+  "peer_count": 6,
+  "peers": [
+   "송도 한내들 센트럴리버",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_min": 48.7,
+  "diff": 15.3
+ }
+}

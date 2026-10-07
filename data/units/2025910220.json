@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "동아건설산업(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-27",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://pajuunjeong-honorsville.kr",
+  "HOUSE_MANAGE_NO": "2025910220",
+  "HOUSE_NM": "파주운정 경남아너스빌 디원(A18블록) (2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 파주시 파주운정3지구 A18BL 공동주택용지",
+  "HSSPLY_ZIP": "10874",
+  "MDHS_TELNO": "025017002",
+  "MVN_PREARNGE_YM": "202512",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910220",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910220&pblancNo=2025910220",
+  "PRZWNER_PRESNATN_DE": "2025-11-20",
+  "RCRIT_PBLANC_DE": "2025-11-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-17",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-17",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910220",
+   "HOUSE_TY": "084.2340A",
+   "LTTOT_TOP_AMOUNT": "45400",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910220",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910220",
+   "HOUSE_TY": "084.8869B",
+   "LTTOT_TOP_AMOUNT": "45800",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910220",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910220",
+   "HOUSE_TY": "101.4786 ",
+   "LTTOT_TOP_AMOUNT": "54100",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910220",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1,008.00",
+   "HOUSE_MANAGE_NO": "2025910220",
+   "HOUSE_TY": "084.2340A",
+   "PBLANC_NO": "2025910220",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1008",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "936.00",
+   "HOUSE_MANAGE_NO": "2025910220",
+   "HOUSE_TY": "084.8869B",
+   "PBLANC_NO": "2025910220",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "936",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "361.00",
+   "HOUSE_MANAGE_NO": "2025910220",
+   "HOUSE_TY": "101.4786 ",
+   "PBLANC_NO": "2025910220",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "361",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:41.304952+09:00"
+}

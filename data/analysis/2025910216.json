@@ -1,0 +1,84 @@
+{
+ "no": "2025910216",
+ "name": "오산 세교 우미 린 레이크시티(서2구역)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-11-04",
+ "rank1_date": "2025-11-10",
+ "city": "오산시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910216&pblancNo=2025910216",
+ "households": 272,
+ "types": [
+  {
+   "ty": "84.9878A",
+   "size": 84,
+   "price": 50300,
+   "area_m2": null,
+   "general": 220,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9855E",
+   "size": 84,
+   "price": 53820,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "101.9945",
+   "size": 101,
+   "price": 56890,
+   "area_m2": null,
+   "general": 28,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 272,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 50300,
+ "price_84_max": 53820,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9855E",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "84.9878A",
+    "supply": 220,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 144
+   },
+   {
+    "ty": "101.9945",
+    "supply": 28,
+    "closed_at": "None순위 None",
+    "rate": 1.32,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 134,
+  "rank1_req": 0,
+  "supply_total": 272,
+  "final_shortfall_total": 147,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "101.9945",
+   "rate": 1.32,
+   "stage": "None순위 None"
+  }
+ }
+}

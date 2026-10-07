@@ -1,0 +1,95 @@
+{
+ "no": "2025000596",
+ "name": "청주지북지구 B1블록 공공분양주택",
+ "kind": "apt",
+ "region": "충북",
+ "notice_date": "2025-11-21",
+ "rank1_date": "2025-12-01",
+ "city": "청주시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000596&pblancNo=2025000596",
+ "households": 757,
+ "types": [
+  {
+   "ty": "55A",
+   "size": 55,
+   "price": 30711,
+   "area_m2": 80.4867,
+   "general": 33,
+   "special": 99,
+   "pyeong_price": 1261,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "55.97B",
+   "size": 55,
+   "price": 30705,
+   "area_m2": 80.5011,
+   "general": 41,
+   "special": 123,
+   "pyeong_price": 1261,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59A",
+   "size": 59,
+   "price": 32900,
+   "area_m2": 86.2399,
+   "general": 75,
+   "special": 224,
+   "pyeong_price": 1261,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.97B",
+   "size": 59,
+   "price": 32900,
+   "area_m2": 86.2543,
+   "general": 33,
+   "special": 98,
+   "pyeong_price": 1261,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.98C",
+   "size": 59,
+   "price": 32905,
+   "area_m2": 86.2686,
+   "general": 8,
+   "special": 23,
+   "pyeong_price": 1261,
+   "special_share_pct": 74
+  }
+ ],
+ "general_total": 190,
+ "special_total": 567,
+ "special_share_pct": 75,
+ "pyeong_min": 1261,
+ "pyeong_max": 1261,
+ "pyeong_avg": 1261,
+ "special_kinds": {
+  "신혼부부": 76,
+  "생애최초": 113,
+  "신생아": 151,
+  "다자녀": 76,
+  "노부모 부양": 38,
+  "기관추천": 113
+ },
+ "region_price": {
+  "scope": "충북",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "청주 롯데캐슬 시그니처",
+   "두산위브더제니스 청주 센트럴파크",
+   "제천 신백 선광로즈웰아파트 우선 분양전환 후 잔여세대",
+   "청주 푸르지오 씨엘리체",
+   "청주 한양립스 더 벨루체"
+  ],
+  "peer_avg_pyeong": 1293,
+  "diff": -32,
+  "diff_pct": -2,
+  "rank": 5,
+  "of": 6
+ }
+}

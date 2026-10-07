@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "인본개발주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-27",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-27",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.hs-thehue.com/",
+  "HOUSE_MANAGE_NO": "2026910034",
+  "HOUSE_NM": "대전 한신더휴 리저브(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "대전광역시 중구 선화동 908",
+  "HSSPLY_ZIP": "34830",
+  "MDHS_TELNO": "0233933320",
+  "MVN_PREARNGE_YM": "202604",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910034",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910034&pblancNo=2026910034",
+  "PRZWNER_PRESNATN_DE": "2026-02-19",
+  "RCRIT_PBLANC_DE": "2026-02-06",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "300",
+  "SUBSCRPT_AREA_CODE_NM": "대전",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-11",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-11",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910034",
+   "HOUSE_TY": "084.9648A",
+   "LTTOT_TOP_AMOUNT": "46000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910034",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "107.50",
+   "HOUSE_MANAGE_NO": "2026910034",
+   "HOUSE_TY": "084.9648A",
+   "PBLANC_NO": "2026910034",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "215",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:24.106019+09:00"
+}

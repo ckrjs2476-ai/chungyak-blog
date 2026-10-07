@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "동부건설(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-01",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-01",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://검단센트레빌에듀시티.com",
+  "HOUSE_MANAGE_NO": "2025910223",
+  "HOUSE_NM": "검단 센트레빌 에듀시티(AB8BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 서구 검단신도시 AB8BL(당하동)",
+  "HSSPLY_ZIP": "22875",
+  "MDHS_TELNO": "16880680",
+  "MVN_PREARNGE_YM": "202808",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910223",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910223&pblancNo=2025910223",
+  "PRZWNER_PRESNATN_DE": "2025-11-24",
+  "RCRIT_PBLANC_DE": "2025-11-14",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-19",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-19",
+  "TOT_SUPLY_HSHLDCO": 94
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910223",
+   "HOUSE_TY": "074.8900A",
+   "LTTOT_TOP_AMOUNT": "54850",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910223",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 87
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910223",
+   "HOUSE_TY": "120.5868 ",
+   "LTTOT_TOP_AMOUNT": "114340",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910223",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 7
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.22",
+   "HOUSE_MANAGE_NO": "2025910223",
+   "HOUSE_TY": "074.8900A",
+   "PBLANC_NO": "2025910223",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "106",
+   "SUPLY_HSHLDCO": 87
+  },
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2025910223",
+   "HOUSE_TY": "120.5868 ",
+   "PBLANC_NO": "2025910223",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "7",
+   "SUPLY_HSHLDCO": 7
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:33.522361+09:00"
+}

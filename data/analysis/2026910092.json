@@ -1,0 +1,52 @@
+{
+ "no": "2026910092",
+ "name": "동탄 파크릭스 A52BL",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-04-21",
+ "rank1_date": "2026-04-27",
+ "city": "화성시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910092&pblancNo=2026910092",
+ "households": 1,
+ "types": [
+  {
+   "ty": "84.9061A",
+   "size": 84,
+   "price": 49200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 49200,
+ "price_84_max": 49200,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9061A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 343.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 343,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9061A",
+   "rate": 343.0,
+   "stage": "None순위 None"
+  }
+ }
+}

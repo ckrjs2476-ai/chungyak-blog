@@ -1,0 +1,114 @@
+{
+ "no": "2026910157",
+ "name": "중앙하이츠 원종역",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-06-19",
+ "rank1_date": "2026-06-24",
+ "city": "부천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910157&pblancNo=2026910157",
+ "households": 28,
+ "types": [
+  {
+   "ty": "59.6E",
+   "size": 59,
+   "price": 47900,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "60.27E",
+   "size": 60,
+   "price": 48100,
+   "area_m2": null,
+   "general": 11,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "63.37D",
+   "size": 63,
+   "price": 50140,
+   "area_m2": null,
+   "general": 8,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "66.74G",
+   "size": 66,
+   "price": 53040,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "69.56A",
+   "size": 69,
+   "price": 56070,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 28,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.6E",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 6.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "60.27E",
+    "supply": 11,
+    "closed_at": "None순위 None",
+    "rate": 1.55,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "63.37D",
+    "supply": 8,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "66.74G",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "69.56A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 1.4,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 40,
+  "rank1_req": 0,
+  "supply_total": 28,
+  "final_shortfall_total": 1,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.6E",
+   "rate": 6.0,
+   "stage": "None순위 None"
+  }
+ }
+}

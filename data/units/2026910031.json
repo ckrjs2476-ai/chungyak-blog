@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)한국토지신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-02-13",
+  "CNTRCT_CNCLS_ENDDE": "2026-02-13",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://신일비아프크레스트.com",
+  "HOUSE_MANAGE_NO": "2026910031",
+  "HOUSE_NM": "영종국제도시 신일 비아프 크레스트(2단지)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 중구 운남동 1696-1(영종하늘도시 A20BL)",
+  "HSSPLY_ZIP": "22375",
+  "MDHS_TELNO": "18338828",
+  "MVN_PREARNGE_YM": "202808",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910031",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910031&pblancNo=2026910031",
+  "PRZWNER_PRESNATN_DE": "2026-02-06",
+  "RCRIT_PBLANC_DE": "2026-01-28",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-03",
+  "TOT_SUPLY_HSHLDCO": 20
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910031",
+   "HOUSE_TY": "084.9081B",
+   "LTTOT_TOP_AMOUNT": "55790",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910031",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 20
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△3)",
+   "HOUSE_MANAGE_NO": "2026910031",
+   "HOUSE_TY": "084.9081B",
+   "PBLANC_NO": "2026910031",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "17",
+   "SUPLY_HSHLDCO": 20
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:38.415675+09:00"
+}

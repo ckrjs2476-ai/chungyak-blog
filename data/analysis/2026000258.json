@@ -1,0 +1,140 @@
+{
+ "no": "2026000258",
+ "name": "고덕국제신도시 수자인하우스디",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-06-11",
+ "rank1_date": "2026-06-23",
+ "city": "평택시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000258&pblancNo=2026000258",
+ "households": 403,
+ "types": [
+  {
+   "ty": "84.839A",
+   "size": 84,
+   "price": 56980,
+   "area_m2": 108.2142,
+   "general": 40,
+   "special": 67,
+   "pyeong_price": 1741,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.9914B",
+   "size": 84,
+   "price": 56790,
+   "area_m2": 109.0419,
+   "general": 33,
+   "special": 57,
+   "pyeong_price": 1722,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.9865C",
+   "size": 84,
+   "price": 55870,
+   "area_m2": 108.7628,
+   "general": 24,
+   "special": 35,
+   "pyeong_price": 1698,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "101.9956",
+   "size": 101,
+   "price": 66500,
+   "area_m2": 129.3042,
+   "general": 129,
+   "special": 18,
+   "pyeong_price": 1700,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 226,
+ "special_total": 177,
+ "special_share_pct": 44,
+ "pyeong_min": 1698,
+ "pyeong_max": 1741,
+ "pyeong_avg": 1716,
+ "price_84_min": 55870,
+ "price_84_max": 56980,
+ "special_kinds": {
+  "신혼부부": 57,
+  "생애최초": 48,
+  "다자녀": 38,
+  "노부모 부양": 10,
+  "기관추천": 24
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.839A",
+    "supply": 100,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "84.9914B",
+    "supply": 86,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   },
+   {
+    "ty": "84.9865C",
+    "supply": 57,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "101.9956",
+    "supply": 147,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 68
+   }
+  ],
+  "req_total": 93,
+  "rank1_req": 77,
+  "supply_total": 390,
+  "final_shortfall_total": 145,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.2
+ },
+ "region_price": {
+  "scope": "평택시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "더 플래티넘 파인애비뉴",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "평택역 더센트럴45"
+  ],
+  "peer_avg_pyeong": 1667,
+  "diff": 49,
+  "diff_pct": 3,
+  "rank": 2,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "평택시",
+  "peer_count": 5,
+  "peers": [
+   "더 플래티넘 파인애비뉴",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "평택역 더센트럴45"
+  ],
+  "peer_avg_rate": 0.47,
+  "rank": 5,
+  "of": 6
+ }
+}

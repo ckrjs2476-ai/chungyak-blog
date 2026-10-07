@@ -1,0 +1,157 @@
+{
+ "no": "2026000124",
+ "name": "고덕신도시 아테라 A-63블록 공공분양주택",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-04-17",
+ "rank1_date": "2026-04-28",
+ "city": "평택시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000124&pblancNo=2026000124",
+ "households": 630,
+ "types": [
+  {
+   "ty": "74.59A",
+   "size": 74,
+   "price": 47552,
+   "area_m2": 101.5395,
+   "general": 46,
+   "special": 134,
+   "pyeong_price": 1548,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "74.72B",
+   "size": 74,
+   "price": 47635,
+   "area_m2": 101.7164,
+   "general": 40,
+   "special": 94,
+   "pyeong_price": 1548,
+   "special_share_pct": 70
+  },
+  {
+   "ty": "84.56A",
+   "size": 84,
+   "price": 53908,
+   "area_m2": 115.1116,
+   "general": 41,
+   "special": 115,
+   "pyeong_price": 1548,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "84.56B",
+   "size": 84,
+   "price": 53908,
+   "area_m2": 115.1116,
+   "general": 30,
+   "special": 127,
+   "pyeong_price": 1548,
+   "special_share_pct": 81
+  },
+  {
+   "ty": "84.94C",
+   "size": 84,
+   "price": 54150,
+   "area_m2": 115.6289,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 1548,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 160,
+ "special_total": 470,
+ "special_share_pct": 75,
+ "pyeong_min": 1548,
+ "pyeong_max": 1548,
+ "pyeong_avg": 1548,
+ "price_84_min": 53908,
+ "price_84_max": 54150,
+ "special_kinds": {
+  "신혼부부": 63,
+  "생애최초": 94,
+  "신생아": 125,
+  "다자녀": 63,
+  "노부모 부양": 32,
+  "기관추천": 93
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.59A",
+    "supply": 168,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 62
+   },
+   {
+    "ty": "74.72B",
+    "supply": 123,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 52
+   },
+   {
+    "ty": "84.56A",
+    "supply": 137,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 48
+   },
+   {
+    "ty": "84.56B",
+    "supply": 149,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 64
+   },
+   {
+    "ty": "84.94C",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 15.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 164,
+  "rank1_req": 145,
+  "supply_total": 580,
+  "final_shortfall_total": 226,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 5,
+  "rank1_avg_rate": 0.25,
+  "best": {
+   "ty": "84.94C",
+   "rate": 15.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "평택시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택"
+  ],
+  "peer_avg_pyeong": 1732,
+  "diff": -184,
+  "diff_pct": -11,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "평택시",
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택"
+  ],
+  "peer_avg_rate": 0.11,
+  "rank": 1,
+  "of": 3
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "케이비부동산신탁(주)",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-13",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-13",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://홍대센트럴아르떼해모로.com/",
+  "HOUSE_MANAGE_NO": "2025910205",
+  "HOUSE_NM": "홍대입구역 센트럴 아르떼 해모로",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 마포구 동교동 200-2번지 일원",
+  "HSSPLY_ZIP": "03993",
+  "MDHS_TELNO": "16443445",
+  "MVN_PREARNGE_YM": "202611",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910205",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910205&pblancNo=2025910205",
+  "PRZWNER_PRESNATN_DE": "2025-11-06",
+  "RCRIT_PBLANC_DE": "2025-10-29",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-03",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-03",
+  "TOT_SUPLY_HSHLDCO": 8
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910205",
+   "HOUSE_TY": "032.9810 ",
+   "LTTOT_TOP_AMOUNT": "62260",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910205",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910205",
+   "HOUSE_TY": "047.6237C",
+   "LTTOT_TOP_AMOUNT": "84950",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910205",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910205",
+   "HOUSE_TY": "047.2694D",
+   "LTTOT_TOP_AMOUNT": "89860",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910205",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "48.80",
+   "HOUSE_MANAGE_NO": "2025910205",
+   "HOUSE_TY": "032.9810 ",
+   "PBLANC_NO": "2025910205",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "244",
+   "SUPLY_HSHLDCO": 5
+  },
+  {
+   "CMPET_RATE": "237.00",
+   "HOUSE_MANAGE_NO": "2025910205",
+   "HOUSE_TY": "047.2694D",
+   "PBLANC_NO": "2025910205",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "237",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "109.00",
+   "HOUSE_MANAGE_NO": "2025910205",
+   "HOUSE_TY": "047.6237C",
+   "PBLANC_NO": "2025910205",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "218",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:05.619256+09:00"
+}

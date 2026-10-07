@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 리우",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-25",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-25",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.gjws-jinarehii.co.kr/",
+  "HOUSE_MANAGE_NO": "2026910150",
+  "HOUSE_NM": "공주월송 진아레히",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청남도 공주시 금흥2지구 A1블럭(금흥동 39-4번지 일원)",
+  "HSSPLY_ZIP": "32567",
+  "MDHS_TELNO": "0418811500",
+  "MVN_PREARNGE_YM": "202904",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910150",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910150&pblancNo=2026910150",
+  "PRZWNER_PRESNATN_DE": "2026-06-18",
+  "RCRIT_PBLANC_DE": "2026-06-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "312",
+  "SUBSCRPT_AREA_CODE_NM": "충남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-15",
+  "TOT_SUPLY_HSHLDCO": 230
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910150",
+   "HOUSE_TY": "084.9584A",
+   "LTTOT_TOP_AMOUNT": "43900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910150",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 230
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△120)",
+   "HOUSE_MANAGE_NO": "2026910150",
+   "HOUSE_TY": "084.9584A",
+   "PBLANC_NO": "2026910150",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "110",
+   "SUPLY_HSHLDCO": 230
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:54:39.861199+09:00"
+}

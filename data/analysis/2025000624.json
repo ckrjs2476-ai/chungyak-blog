@@ -1,0 +1,112 @@
+{
+ "no": "2025000624",
+ "name": "해남 남외리 정하 에코프라임",
+ "kind": "apt",
+ "region": "전남",
+ "notice_date": "2025-12-26",
+ "rank1_date": "2026-01-06",
+ "city": "해남군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000624&pblancNo=2025000624",
+ "households": 305,
+ "types": [
+  {
+   "ty": "84.9559A",
+   "size": 84,
+   "price": 38100,
+   "area_m2": 110.7536,
+   "general": 119,
+   "special": 153,
+   "pyeong_price": 1137,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9459B",
+   "size": 84,
+   "price": 37000,
+   "area_m2": 111.4262,
+   "general": 13,
+   "special": 20,
+   "pyeong_price": 1098,
+   "special_share_pct": 61
+  }
+ ],
+ "general_total": 132,
+ "special_total": 173,
+ "special_share_pct": 57,
+ "pyeong_min": 1098,
+ "pyeong_max": 1137,
+ "pyeong_avg": 1133,
+ "price_84_min": 37000,
+ "price_84_max": 38100,
+ "special_kinds": {
+  "신혼부부": 71,
+  "생애최초": 28,
+  "다자녀": 32,
+  "노부모 부양": 10,
+  "기관추천": 32
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9559A",
+    "supply": 268,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 260
+   },
+   {
+    "ty": "84.9459B",
+    "supply": 33,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   }
+  ],
+  "req_total": 8,
+  "rank1_req": 4,
+  "supply_total": 301,
+  "final_shortfall_total": 293,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.01
+ },
+ "region_price": {
+  "scope": "전남",
+  "days": 180,
+  "peer_count": 8,
+  "peers": [
+   "효성해링턴 플레이스 여수",
+   "오룡2지구 지엔하임 37블록",
+   "오룡2지구 지엔하임 38블록",
+   "나주영산 윤슬의아침 더정원",
+   "e편한세상 여수 글렌츠",
+   "소제지구 A3BL 중흥S-클래스 우미린",
+   "소제지구 A4BL 중흥S-클래스 우미린",
+   "호반써밋 첨단3지구(A8BL)"
+  ],
+  "peer_avg_pyeong": 1424,
+  "diff": -291,
+  "diff_pct": -20,
+  "rank": 8,
+  "of": 9
+ },
+ "region_competition": {
+  "scope": "전남",
+  "peer_count": 8,
+  "peers": [
+   "효성해링턴 플레이스 여수",
+   "오룡2지구 지엔하임 37블록",
+   "오룡2지구 지엔하임 38블록",
+   "나주영산 윤슬의아침 더정원",
+   "e편한세상 여수 글렌츠",
+   "소제지구 A3BL 중흥S-클래스 우미린",
+   "소제지구 A4BL 중흥S-클래스 우미린",
+   "호반써밋 첨단3지구(A8BL)"
+  ],
+  "peer_avg_rate": 1.52,
+  "rank": 8,
+  "of": 9
+ }
+}

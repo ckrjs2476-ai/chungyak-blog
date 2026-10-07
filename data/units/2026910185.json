@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "상인천초교주변주택재개발정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-07-28",
+  "CNTRCT_CNCLS_ENDDE": "2026-07-28",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://incheon.forena.co.kr/",
+  "HOUSE_MANAGE_NO": "2026910185",
+  "HOUSE_NM": "포레나더샵 인천시청역(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 남동구 간석1동 311-1번지 일원",
+  "HSSPLY_ZIP": "21550",
+  "MDHS_TELNO": "15511491",
+  "MVN_PREARNGE_YM": "202909",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910185",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910185&pblancNo=2026910185",
+  "PRZWNER_PRESNATN_DE": "2026-07-27",
+  "RCRIT_PBLANC_DE": "2026-07-16",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-07-21",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-07-21",
+  "TOT_SUPLY_HSHLDCO": 10
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910185",
+   "HOUSE_TY": "059.9954A",
+   "LTTOT_TOP_AMOUNT": "64580",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910185",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910185",
+   "HOUSE_TY": "059.9800B",
+   "LTTOT_TOP_AMOUNT": "66440",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910185",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 8
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "13.63",
+   "HOUSE_MANAGE_NO": "2026910185",
+   "HOUSE_TY": "059.9800B",
+   "PBLANC_NO": "2026910185",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "109",
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "CMPET_RATE": "16.50",
+   "HOUSE_MANAGE_NO": "2026910185",
+   "HOUSE_TY": "059.9954A",
+   "PBLANC_NO": "2026910185",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "33",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:53:54.574436+09:00"
+}

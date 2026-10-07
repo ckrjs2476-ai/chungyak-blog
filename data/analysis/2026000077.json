@@ -1,0 +1,111 @@
+{
+ "no": "2026000077",
+ "name": "북전주 광신프로그레스",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-04-03",
+ "rank1_date": "2026-04-14",
+ "city": "전주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000077&pblancNo=2026000077",
+ "households": 352,
+ "types": [
+  {
+   "ty": "84.5406A",
+   "size": 84,
+   "price": 44500,
+   "area_m2": 109.0534,
+   "general": 144,
+   "special": 171,
+   "pyeong_price": 1349,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.3996B",
+   "size": 84,
+   "price": 44520,
+   "area_m2": 109.0781,
+   "general": 19,
+   "special": 18,
+   "pyeong_price": 1349,
+   "special_share_pct": 49
+  }
+ ],
+ "general_total": 163,
+ "special_total": 189,
+ "special_share_pct": 54,
+ "pyeong_min": 1349,
+ "pyeong_max": 1349,
+ "pyeong_avg": 1349,
+ "price_84_min": 44500,
+ "price_84_max": 44520,
+ "special_kinds": {
+  "신혼부부": 80,
+  "생애최초": 31,
+  "다자녀": 34,
+  "노부모 부양": 10,
+  "기관추천": 34
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.5406A",
+    "supply": 286,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.22,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.3996B",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   }
+  ],
+  "req_total": 334,
+  "rank1_req": 254,
+  "supply_total": 322,
+  "final_shortfall_total": 14,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.79,
+  "best": {
+   "ty": "84.5406A",
+   "rate": 1.22,
+   "stage": "2순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "전주시",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "송천 아르티엠 더 숲",
+   "전주 에코시티 더 클래스",
+   "골드클래스 시그니처",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_pyeong": 1622,
+  "diff": -273,
+  "diff_pct": -17,
+  "rank": 6,
+  "of": 6
+ },
+ "region_competition": {
+  "scope": "전주시",
+  "peer_count": 5,
+  "peers": [
+   "송천 아르티엠 더 숲",
+   "전주 에코시티 더 클래스",
+   "골드클래스 시그니처",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_rate": 14.75,
+  "rank": 5,
+  "of": 6
+ }
+}

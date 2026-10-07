@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)무궁화신탁",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-01",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-02",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.여의도더로드캐슬.kr",
+  "HOUSE_MANAGE_NO": "2026910108",
+  "HOUSE_NM": "대방역 여의도 더로드캐슬(3차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 영등포구 신길동 449-11",
+  "HSSPLY_ZIP": "07354",
+  "MDHS_TELNO": "18778079",
+  "MVN_PREARNGE_YM": "202606",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910108",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910108&pblancNo=2026910108",
+  "PRZWNER_PRESNATN_DE": "2026-05-22",
+  "RCRIT_PBLANC_DE": "2026-05-11",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-05-18",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-05-19",
+  "TOT_SUPLY_HSHLDCO": 6
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910108",
+   "HOUSE_TY": "024.9100 ",
+   "LTTOT_TOP_AMOUNT": "48550",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910108",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910108",
+   "HOUSE_TY": "025.3700 ",
+   "LTTOT_TOP_AMOUNT": "48350",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910108",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "43.75",
+   "HOUSE_MANAGE_NO": "2026910108",
+   "HOUSE_TY": "024.9100 ",
+   "PBLANC_NO": "2026910108",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "175",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "85.50",
+   "HOUSE_MANAGE_NO": "2026910108",
+   "HOUSE_TY": "025.3700 ",
+   "PBLANC_NO": "2026910108",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "171",
+   "SUPLY_HSHLDCO": 2
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:38.137756+09:00"
+}

@@ -1,0 +1,132 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "디에스종합건설 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-03",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-03",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.verthill.com",
+  "HOUSE_MANAGE_NO": "2026910039",
+  "HOUSE_NM": "루원시티 대성베르힐 더 센트로",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "인천광역시 서구 서곶로 50 (루원시티 대성베르힐 더 센트로)",
+  "HSSPLY_ZIP": "22776",
+  "MDHS_TELNO": "0623652106",
+  "MVN_PREARNGE_YM": "202606",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910039",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910039&pblancNo=2026910039",
+  "PRZWNER_PRESNATN_DE": "2026-02-24",
+  "RCRIT_PBLANC_DE": "2026-02-13",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "400",
+  "SUBSCRPT_AREA_CODE_NM": "인천",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-02-19",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-02-19",
+  "TOT_SUPLY_HSHLDCO": 9
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "084.8036A",
+   "LTTOT_TOP_AMOUNT": "45500",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910039",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "084.6059B",
+   "LTTOT_TOP_AMOUNT": "43500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910039",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "159.0584A",
+   "LTTOT_TOP_AMOUNT": "83400",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910039",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "159.2562B",
+   "LTTOT_TOP_AMOUNT": "82800",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026910039",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "159.1851C",
+   "LTTOT_TOP_AMOUNT": "83300",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2026910039",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "4,159.25",
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "084.6059B",
+   "PBLANC_NO": "2026910039",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "16637",
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "CMPET_RATE": "12,001.00",
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "084.8036A",
+   "PBLANC_NO": "2026910039",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12001",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "753.50",
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "159.0584A",
+   "PBLANC_NO": "2026910039",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1507",
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "CMPET_RATE": "398.00",
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "159.1851C",
+   "PBLANC_NO": "2026910039",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "398",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "519.00",
+   "HOUSE_MANAGE_NO": "2026910039",
+   "HOUSE_TY": "159.2562B",
+   "PBLANC_NO": "2026910039",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "519",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:57:12.874767+09:00"
+}

@@ -1,0 +1,79 @@
+{
+ "no": "2026910084",
+ "name": "상주자이르네",
+ "kind": "remndr",
+ "region": "경북",
+ "notice_date": "2026-04-09",
+ "rank1_date": "2026-04-14",
+ "city": "상주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910084&pblancNo=2026910084",
+ "households": 257,
+ "types": [
+  {
+   "ty": "84.9878A",
+   "size": 84,
+   "price": 45520,
+   "area_m2": null,
+   "general": 224,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9851B",
+   "size": 84,
+   "price": 45520,
+   "area_m2": null,
+   "general": 31,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "99.9953C",
+   "size": 99,
+   "price": 58510,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 257,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 45520,
+ "price_84_max": 45520,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9851B",
+    "supply": 31,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 29
+   },
+   {
+    "ty": "84.9878A",
+    "supply": 224,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 221
+   },
+   {
+    "ty": "99.9953C",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 6,
+  "rank1_req": 0,
+  "supply_total": 257,
+  "final_shortfall_total": 251,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0
+ }
+}

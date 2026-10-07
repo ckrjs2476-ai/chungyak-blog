@@ -1,0 +1,201 @@
+{
+ "no": "2026000133",
+ "name": "더샵 시에르네(조합원 취소분)",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-04-28",
+ "rank1_date": "2026-05-11",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000133&pblancNo=2026000133",
+ "households": 36,
+ "types": [
+  {
+   "ty": "74.9469",
+   "size": 74,
+   "price": 70200,
+   "area_m2": 103.4214,
+   "general": 4,
+   "special": 2,
+   "pyeong_price": 2244,
+   "special_share_pct": 33
+  },
+  {
+   "ty": "75.9849",
+   "size": 75,
+   "price": 70000,
+   "area_m2": 105.7979,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2187,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.963A",
+   "size": 84,
+   "price": 74900,
+   "area_m2": 108.4411,
+   "general": 2,
+   "special": 10,
+   "pyeong_price": 2283,
+   "special_share_pct": 83
+  },
+  {
+   "ty": "84.965B",
+   "size": 84,
+   "price": 75100,
+   "area_m2": 108.7147,
+   "general": 4,
+   "special": 4,
+   "pyeong_price": 2284,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.8968C",
+   "size": 84,
+   "price": 74000,
+   "area_m2": 109.3721,
+   "general": 3,
+   "special": 5,
+   "pyeong_price": 2237,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 15,
+ "special_total": 21,
+ "special_share_pct": 58,
+ "pyeong_min": 2187,
+ "pyeong_max": 2284,
+ "pyeong_avg": 2261,
+ "price_84_min": 74000,
+ "price_84_max": 75100,
+ "special_kinds": {
+  "신혼부부": 8,
+  "생애최초": 3,
+  "다자녀": 4,
+  "노부모 부양": 1,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9469",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 72.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.9849",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 32.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.963A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 373.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.965B",
+    "supply": 4,
+    "closed_at": "1순위 해당지역",
+    "rate": 163.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8968C",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 95.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2158,
+  "rank1_req": 2158,
+  "supply_total": 15,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 143.87,
+  "best": {
+   "ty": "84.963A",
+   "rate": 373.0,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.9469",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "74.9469": 0,
+   "75.9849": 0,
+   "84.963A": 0,
+   "84.965B": 0,
+   "84.8968C": 0
+  },
+  "avg_min": 28.8,
+  "max": {
+   "score": 66,
+   "ty": "84.965B"
+  }
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 12,
+  "peers": [
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지",
+   "태화강 센트럴 아이파크",
+   "울산신복역 비스타 메트로"
+  ],
+  "peer_avg_pyeong": 2214,
+  "diff": 47,
+  "diff_pct": 2,
+  "rank": 8,
+  "of": 13
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 12,
+  "peers": [
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지",
+   "태화강 센트럴 아이파크",
+   "울산신복역 비스타 메트로"
+  ],
+  "peer_avg_rate": 2.52,
+  "rank": 1,
+  "of": 13
+ },
+ "region_score": {
+  "scope": "울산",
+  "peer_count": 6,
+  "peers": [
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 2단지",
+   "태화강 센트럴 아이파크",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

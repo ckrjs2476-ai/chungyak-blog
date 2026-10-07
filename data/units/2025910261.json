@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "미아제3구역주택재개발정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-01-09",
+  "CNTRCT_CNCLS_ENDDE": "2026-01-09",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://xi.co.kr/mi3",
+  "HOUSE_MANAGE_NO": "2025910261",
+  "HOUSE_NM": "북서울자이 폴라리스(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 강북구 미아동 791-364번지일대 (미아3구역주택재개발 정비사업)",
+  "HSSPLY_ZIP": "01121",
+  "MDHS_TELNO": "029862427",
+  "MVN_PREARNGE_YM": "202601",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910261",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910261&pblancNo=2025910261",
+  "PRZWNER_PRESNATN_DE": "2026-01-02",
+  "RCRIT_PBLANC_DE": "2025-12-22",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-29",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-29",
+  "TOT_SUPLY_HSHLDCO": 2
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910261",
+   "HOUSE_TY": "084.8654B",
+   "LTTOT_TOP_AMOUNT": "97211",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910261",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910261",
+   "HOUSE_TY": "112.9104 ",
+   "LTTOT_TOP_AMOUNT": "126686",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910261",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "4,126.00",
+   "HOUSE_MANAGE_NO": "2025910261",
+   "HOUSE_TY": "084.8654B",
+   "PBLANC_NO": "2025910261",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4126",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "384.00",
+   "HOUSE_MANAGE_NO": "2025910261",
+   "HOUSE_TY": "112.9104 ",
+   "PBLANC_NO": "2025910261",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "384",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:38.425164+09:00"
+}

@@ -1,0 +1,45 @@
+{
+ "no": "2026910112",
+ "name": "중앙하이츠 갈산역 센트럴",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-05-14",
+ "rank1_date": "2026-05-20",
+ "city": "부평구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910112&pblancNo=2026910112",
+ "households": 45,
+ "types": [
+  {
+   "ty": "59.7864",
+   "size": 59,
+   "price": 51150,
+   "area_m2": null,
+   "general": 45,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 45,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.7864",
+    "supply": 45,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   }
+  ],
+  "req_total": 30,
+  "rank1_req": 0,
+  "supply_total": 45,
+  "final_shortfall_total": 15,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

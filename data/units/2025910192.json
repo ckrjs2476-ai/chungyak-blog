@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-30",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-30",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://cheonan-iparkcity2.com/",
+  "HOUSE_MANAGE_NO": "2025910192",
+  "HOUSE_NM": "천안 아이파크 시티 2단지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청남도 천안시 서북구 부대동 409-1 외 46필지",
+  "HSSPLY_ZIP": "31080",
+  "MDHS_TELNO": "15516013",
+  "MVN_PREARNGE_YM": "202808",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910192",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910192&pblancNo=2025910192",
+  "PRZWNER_PRESNATN_DE": "2025-10-23",
+  "RCRIT_PBLANC_DE": "2025-10-14",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "312",
+  "SUBSCRPT_AREA_CODE_NM": "충남",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-20",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-20",
+  "TOT_SUPLY_HSHLDCO": 635
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "084.9800A",
+   "LTTOT_TOP_AMOUNT": "57020",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910192",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 164
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "084.9700B",
+   "LTTOT_TOP_AMOUNT": "55630",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910192",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 157
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "102.8500 ",
+   "LTTOT_TOP_AMOUNT": "68160",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910192",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 265
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "118.0900 ",
+   "LTTOT_TOP_AMOUNT": "79770",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910192",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 49
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△143)",
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "084.9700B",
+   "PBLANC_NO": "2025910192",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "14",
+   "SUPLY_HSHLDCO": 157
+  },
+  {
+   "CMPET_RATE": "(△55)",
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "084.9800A",
+   "PBLANC_NO": "2025910192",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "109",
+   "SUPLY_HSHLDCO": 164
+  },
+  {
+   "CMPET_RATE": "(△254)",
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "102.8500 ",
+   "PBLANC_NO": "2025910192",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "11",
+   "SUPLY_HSHLDCO": 265
+  },
+  {
+   "CMPET_RATE": "(△47)",
+   "HOUSE_MANAGE_NO": "2025910192",
+   "HOUSE_TY": "118.0900 ",
+   "PBLANC_NO": "2025910192",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 49
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:34.118121+09:00"
+}

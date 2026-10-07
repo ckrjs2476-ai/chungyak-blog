@@ -1,0 +1,52 @@
+{
+ "no": "2025910206",
+ "name": "세종 한신휴플러스,제일풍경채 M1블록(가온마을3단지 한신더휴)",
+ "kind": "remndr",
+ "region": "세종",
+ "notice_date": "2025-10-24",
+ "rank1_date": "2025-10-30",
+ "city": "다정북로",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910206&pblancNo=2025910206",
+ "households": 1,
+ "types": [
+  {
+   "ty": "84.902",
+   "size": 84,
+   "price": 31330,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 31330,
+ "price_84_max": 31330,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.902",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 13347.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 13347,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.902",
+   "rate": 13347.0,
+   "stage": "None순위 None"
+  }
+ }
+}

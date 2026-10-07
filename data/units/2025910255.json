@@ -1,0 +1,113 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "석수동적성아파트가로주택정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2025-12-26",
+  "CNTRCT_CNCLS_ENDDE": "2025-12-26",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://만안역중앙하이츠포레.com",
+  "HOUSE_MANAGE_NO": "2025910255",
+  "HOUSE_NM": "만안역 중앙하이츠 포레",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 안양시 만안구 석수동 284-1",
+  "HSSPLY_ZIP": "13968",
+  "MDHS_TELNO": "0269146700",
+  "MVN_PREARNGE_YM": "202801",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910255",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910255&pblancNo=2025910255",
+  "PRZWNER_PRESNATN_DE": "2025-12-18",
+  "RCRIT_PBLANC_DE": "2025-12-10",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-12-15",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-12-15",
+  "TOT_SUPLY_HSHLDCO": 39
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "059.9241 ",
+   "LTTOT_TOP_AMOUNT": "66580",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910255",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 17
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "066.6115A",
+   "LTTOT_TOP_AMOUNT": "73850",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025910255",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 10
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "066.6793B",
+   "LTTOT_TOP_AMOUNT": "75910",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025910255",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "075.7005 ",
+   "LTTOT_TOP_AMOUNT": "78290",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2025910255",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "3.24",
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "059.9241 ",
+   "PBLANC_NO": "2025910255",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "55",
+   "SUPLY_HSHLDCO": 17
+  },
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "066.6115A",
+   "PBLANC_NO": "2025910255",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "8",
+   "SUPLY_HSHLDCO": 10
+  },
+  {
+   "CMPET_RATE": "1.11",
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "066.6793B",
+   "PBLANC_NO": "2025910255",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "10",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "4.00",
+   "HOUSE_MANAGE_NO": "2025910255",
+   "HOUSE_TY": "075.7005 ",
+   "PBLANC_NO": "2025910255",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "12",
+   "SUPLY_HSHLDCO": 3
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:58:48.560957+09:00"
+}

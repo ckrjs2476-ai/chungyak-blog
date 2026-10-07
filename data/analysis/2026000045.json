@@ -1,0 +1,200 @@
+{
+ "no": "2026000045",
+ "name": "대전 롯데캐슬 더퍼스트(조합원 취소분)",
+ "kind": "apt",
+ "region": "대전",
+ "notice_date": "2026-03-20",
+ "rank1_date": "2026-03-26",
+ "city": "동구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000045&pblancNo=2026000045",
+ "households": 89,
+ "types": [
+  {
+   "ty": "59.9865A",
+   "size": 59,
+   "price": 41260,
+   "area_m2": 81.8933,
+   "general": 2,
+   "special": 2,
+   "pyeong_price": 1666,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.9977B",
+   "size": 59,
+   "price": 41260,
+   "area_m2": 82.2703,
+   "general": 7,
+   "special": 5,
+   "pyeong_price": 1658,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "74.9979A",
+   "size": 74,
+   "price": 52030,
+   "area_m2": 101.965,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1687,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "74.9894B",
+   "size": 74,
+   "price": 52030,
+   "area_m2": 101.684,
+   "general": 5,
+   "special": 3,
+   "pyeong_price": 1692,
+   "special_share_pct": 38
+  },
+  {
+   "ty": "84.9784A",
+   "size": 84,
+   "price": 59300,
+   "area_m2": 114.6505,
+   "general": 29,
+   "special": 25,
+   "pyeong_price": 1710,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "84.9819B",
+   "size": 84,
+   "price": 59300,
+   "area_m2": 115.6203,
+   "general": 1,
+   "special": 1,
+   "pyeong_price": 1695,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "84.9908C",
+   "size": 84,
+   "price": 59300,
+   "area_m2": 114.2884,
+   "general": 4,
+   "special": 3,
+   "pyeong_price": 1715,
+   "special_share_pct": 43
+  }
+ ],
+ "general_total": 49,
+ "special_total": 40,
+ "special_share_pct": 45,
+ "pyeong_min": 1658,
+ "pyeong_max": 1715,
+ "pyeong_avg": 1699,
+ "price_84_min": 59300,
+ "price_84_max": 59300,
+ "special_kinds": {
+  "신혼부부": 16,
+  "생애최초": 7,
+  "다자녀": 6,
+  "노부모 부양": 2,
+  "기관추천": 9
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9865A",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9977B",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "74.9979A",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "74.9894B",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "84.9784A",
+    "supply": 53,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 44
+   },
+   {
+    "ty": "84.9819B",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9908C",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   }
+  ],
+  "req_total": 29,
+  "rank1_req": 16,
+  "supply_total": 78,
+  "final_shortfall_total": 56,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 7,
+  "rank1_avg_rate": 0.21,
+  "best": {
+   "ty": "59.9865A",
+   "rate": 1.5,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "region_price": {
+  "scope": "대전",
+  "days": 180,
+  "peer_count": 7,
+  "peers": [
+   "도룡자이 라피크",
+   "대전 하늘채 루시에르(2회차)",
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테",
+   "대전 경남아너스빌 센텀스카이"
+  ],
+  "peer_avg_pyeong": 2354,
+  "diff": -655,
+  "diff_pct": -28,
+  "rank": 7,
+  "of": 8
+ },
+ "region_competition": {
+  "scope": "대전",
+  "peer_count": 7,
+  "peers": [
+   "도룡자이 라피크",
+   "대전 하늘채 루시에르(2회차)",
+   "해링턴플레이스 오룡역",
+   "도안자이 센텀리체 1단지",
+   "도안자이 센텀리체 2단지",
+   "더샵 관저아르테",
+   "대전 경남아너스빌 센텀스카이"
+  ],
+  "peer_avg_rate": 3.9,
+  "rank": 5,
+  "of": 8
+ }
+}

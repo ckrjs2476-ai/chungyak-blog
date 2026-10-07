@@ -1,0 +1,84 @@
+{
+ "no": "2026910022",
+ "name": "힐스테이트 선암호수공원 2단지",
+ "kind": "remndr",
+ "region": "울산",
+ "notice_date": "2026-01-28",
+ "rank1_date": "2026-02-02",
+ "city": "남구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910022&pblancNo=2026910022",
+ "households": 152,
+ "types": [
+  {
+   "ty": "84.2012A",
+   "size": 84,
+   "price": 92610,
+   "area_m2": null,
+   "general": 89,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.2325B",
+   "size": 84,
+   "price": 93390,
+   "area_m2": null,
+   "general": 62,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "168.3158",
+   "size": 168,
+   "price": 240435,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 152,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 92610,
+ "price_84_max": 93390,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.2012A",
+    "supply": 89,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 84
+   },
+   {
+    "ty": "84.2325B",
+    "supply": 62,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 60
+   },
+   {
+    "ty": "168.3158",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 8,
+  "rank1_req": 0,
+  "supply_total": 152,
+  "final_shortfall_total": 144,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "168.3158",
+   "rate": 1.0,
+   "stage": "None순위 None"
+  }
+ }
+}

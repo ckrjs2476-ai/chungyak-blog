@@ -1,0 +1,63 @@
+{
+ "no": "2026910189",
+ "name": "호반써밋 첨단3지구(A7BL)",
+ "kind": "remndr",
+ "region": "광주",
+ "notice_date": "2026-07-16",
+ "rank1_date": "2026-07-21",
+ "city": "첨단3지구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910189&pblancNo=2026910189",
+ "households": 154,
+ "types": [
+  {
+   "ty": "84.9286A",
+   "size": 84,
+   "price": 54300,
+   "area_m2": null,
+   "general": 128,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9682B",
+   "size": 84,
+   "price": 53700,
+   "area_m2": null,
+   "general": 26,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 154,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 53700,
+ "price_84_max": 54300,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9286A",
+    "supply": 128,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 60
+   },
+   {
+    "ty": "84.9682B",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   }
+  ],
+  "req_total": 73,
+  "rank1_req": 0,
+  "supply_total": 154,
+  "final_shortfall_total": 81,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ }
+}

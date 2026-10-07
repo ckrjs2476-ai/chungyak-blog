@@ -1,0 +1,150 @@
+{
+ "no": "2026000318",
+ "name": "더샵 트리센트",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-07-24",
+ "rank1_date": "2026-08-04",
+ "city": "남구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000318&pblancNo=2026000318",
+ "households": 156,
+ "types": [
+  {
+   "ty": "59.5981",
+   "size": 59,
+   "price": 62800,
+   "area_m2": 81.3915,
+   "general": 31,
+   "special": 38,
+   "pyeong_price": 2551,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "75.4145",
+   "size": 75,
+   "price": 76000,
+   "area_m2": 101.9566,
+   "general": 19,
+   "special": 21,
+   "pyeong_price": 2464,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.4817",
+   "size": 84,
+   "price": 84900,
+   "area_m2": 114.2913,
+   "general": 18,
+   "special": 29,
+   "pyeong_price": 2456,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 68,
+ "special_total": 88,
+ "special_share_pct": 56,
+ "pyeong_min": 2456,
+ "pyeong_max": 2551,
+ "pyeong_avg": 2500,
+ "price_84_min": 84900,
+ "price_84_max": 84900,
+ "special_kinds": {
+  "신혼부부": 24,
+  "생애최초": 11,
+  "신생아": 16,
+  "다자녀": 16,
+  "노부모 부양": 5,
+  "기관추천": 16
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.5981",
+    "supply": 31,
+    "closed_at": "1순위 해당지역",
+    "rate": 23.29,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.4145",
+    "supply": 19,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.32,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.4817",
+    "supply": 18,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1244,
+  "rank1_req": 1244,
+  "supply_total": 68,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 18.29,
+  "best": {
+   "ty": "59.5981",
+   "rate": 23.29,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.5981",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.5981": 0,
+   "75.4145": 0,
+   "84.4817": 0
+  },
+  "avg_min": 23.8,
+  "max": {
+   "score": 66,
+   "ty": "59.5981"
+  }
+ },
+ "region_price": {
+  "scope": "남구",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_pyeong": 2852,
+  "diff": -352,
+  "diff_pct": -12,
+  "rank": 3,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 2,
+  "peers": [
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_rate": 1.67,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "남구",
+  "peer_count": 2,
+  "peers": [
+   "경성대부경대역 비스타동원 더 프리미엄",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

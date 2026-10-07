@@ -1,0 +1,75 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "대연맨션소규모주택재건축정비사업조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-05-18",
+  "CNTRCT_CNCLS_ENDDE": "2026-05-18",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.dongwonapt.co.kr/kyungsungdae_vista/",
+  "HOUSE_MANAGE_NO": "2026910110",
+  "HOUSE_NM": "경성대부경대역 비스타동원 더 프리미엄",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "부산광역시 남구 대연동 405번지",
+  "HSSPLY_ZIP": "48453",
+  "MDHS_TELNO": "18991139",
+  "MVN_PREARNGE_YM": "202805",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910110",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910110&pblancNo=2026910110",
+  "PRZWNER_PRESNATN_DE": "2026-05-14",
+  "RCRIT_PBLANC_DE": "2026-05-06",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "600",
+  "SUBSCRPT_AREA_CODE_NM": "부산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-05-11",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-05-11",
+  "TOT_SUPLY_HSHLDCO": 24
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910110",
+   "HOUSE_TY": "059.9041A",
+   "LTTOT_TOP_AMOUNT": "66000",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910110",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 23
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910110",
+   "HOUSE_TY": "084.9740A",
+   "LTTOT_TOP_AMOUNT": "94600",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910110",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△7)",
+   "HOUSE_MANAGE_NO": "2026910110",
+   "HOUSE_TY": "059.9041A",
+   "PBLANC_NO": "2026910110",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "16",
+   "SUPLY_HSHLDCO": 23
+  },
+  {
+   "CMPET_RATE": "3.00",
+   "HOUSE_MANAGE_NO": "2026910110",
+   "HOUSE_TY": "084.9740A",
+   "PBLANC_NO": "2026910110",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:41.394901+09:00"
+}

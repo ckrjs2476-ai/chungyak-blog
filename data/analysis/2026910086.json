@@ -1,0 +1,95 @@
+{
+ "no": "2026910086",
+ "name": "e편한세상 여수 글렌츠",
+ "kind": "remndr",
+ "region": "전남",
+ "notice_date": "2026-04-15",
+ "rank1_date": "2026-04-20",
+ "city": "여수시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910086&pblancNo=2026910086",
+ "households": 51,
+ "types": [
+  {
+   "ty": "59.8613A",
+   "size": 59,
+   "price": 41993,
+   "area_m2": null,
+   "general": 14,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9815B",
+   "size": 59,
+   "price": 41993,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9516A",
+   "size": 84,
+   "price": 58867,
+   "area_m2": null,
+   "general": 28,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "129.8429A",
+   "size": 129,
+   "price": 88265,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 51,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 58867,
+ "price_84_max": 58867,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.8613A",
+    "supply": 14,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "59.9815B",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "84.9516A",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   },
+   {
+    "ty": "129.8429A",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   }
+  ],
+  "req_total": 5,
+  "rank1_req": 0,
+  "supply_total": 51,
+  "final_shortfall_total": 46,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0
+ }
+}

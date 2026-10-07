@@ -1,0 +1,82 @@
+{
+ "no": "2026910100",
+ "name": "해링턴플레이스 노원 센트럴",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-04-28",
+ "rank1_date": "2026-05-04",
+ "city": "노원구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910100&pblancNo=2026910100",
+ "households": 58,
+ "types": [
+  {
+   "ty": "59.7419B",
+   "size": 59,
+   "price": 87000,
+   "area_m2": null,
+   "general": 25,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.6793C",
+   "size": 59,
+   "price": 87000,
+   "area_m2": null,
+   "general": 16,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.6793D",
+   "size": 59,
+   "price": 87000,
+   "area_m2": null,
+   "general": 17,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 58,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.6793C",
+    "supply": 16,
+    "closed_at": "None순위 None",
+    "rate": 3.06,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.6793D",
+    "supply": 17,
+    "closed_at": "None순위 None",
+    "rate": 3.59,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.7419B",
+    "supply": 25,
+    "closed_at": "None순위 None",
+    "rate": 7.64,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 301,
+  "rank1_req": 0,
+  "supply_total": 58,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.7419B",
+   "rate": 7.64,
+   "stage": "None순위 None"
+  }
+ }
+}

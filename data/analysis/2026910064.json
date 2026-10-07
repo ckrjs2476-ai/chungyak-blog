@@ -1,0 +1,52 @@
+{
+ "no": "2026910064",
+ "name": "평택 고덕 국제신도시 A-55 대광로제비앙 모아엘가(3차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-03-24",
+ "rank1_date": "2026-03-30",
+ "city": "평택시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910064&pblancNo=2026910064",
+ "households": 5,
+ "types": [
+  {
+   "ty": "84.9452A",
+   "size": 84,
+   "price": 50600,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 5,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 50600,
+ "price_84_max": 50600,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9452A",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 29.6,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 148,
+  "rank1_req": 0,
+  "supply_total": 5,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9452A",
+   "rate": 29.6,
+   "stage": "None순위 None"
+  }
+ }
+}

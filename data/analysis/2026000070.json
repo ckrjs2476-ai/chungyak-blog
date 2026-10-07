@@ -1,0 +1,278 @@
+{
+ "no": "2026000070",
+ "name": "힐스테이트 안양펠루스",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-03-27",
+ "rank1_date": "2026-04-07",
+ "city": "안양시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000070&pblancNo=2026000070",
+ "households": 55,
+ "types": [
+  {
+   "ty": "40.58",
+   "size": 40,
+   "price": 54140,
+   "area_m2": 57.47,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 3114,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "42.66",
+   "size": 42,
+   "price": 55750,
+   "area_m2": 60.52,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 3045,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "43.6",
+   "size": 43,
+   "price": 56990,
+   "area_m2": 61.3,
+   "general": 5,
+   "special": 5,
+   "pyeong_price": 3073,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "44.33",
+   "size": 44,
+   "price": 57850,
+   "area_m2": 62.37,
+   "general": 3,
+   "special": 2,
+   "pyeong_price": 3066,
+   "special_share_pct": 40
+  },
+  {
+   "ty": "50.04",
+   "size": 50,
+   "price": 62550,
+   "area_m2": 69.46,
+   "general": 3,
+   "special": 2,
+   "pyeong_price": 2977,
+   "special_share_pct": 40
+  },
+  {
+   "ty": "61.14",
+   "size": 61,
+   "price": 82370,
+   "area_m2": 85.49,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 3185,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "65",
+   "size": 65,
+   "price": 82350,
+   "area_m2": 90.88,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 2996,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "66.28A",
+   "size": 66,
+   "price": 83910,
+   "area_m2": 92.58,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 2996,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "66.49B",
+   "size": 66,
+   "price": 84150,
+   "area_m2": 92.8,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 2998,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "68.39",
+   "size": 68,
+   "price": 86350,
+   "area_m2": 95.95,
+   "general": 2,
+   "special": 3,
+   "pyeong_price": 2975,
+   "special_share_pct": 60
+  }
+ ],
+ "general_total": 25,
+ "special_total": 30,
+ "special_share_pct": 55,
+ "pyeong_min": 2975,
+ "pyeong_max": 3185,
+ "pyeong_avg": 3045,
+ "special_kinds": {
+  "신혼부부": 15,
+  "생애최초": 7,
+  "다자녀": 6,
+  "노부모 부양": 2
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "40.58",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "42.66",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 8.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "43.6",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "44.33",
+    "supply": 3,
+    "closed_at": "1순위 기타지역",
+    "rate": 9.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "50.04",
+    "supply": 3,
+    "closed_at": "1순위 기타지역",
+    "rate": 19.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "61.14",
+    "supply": 4,
+    "closed_at": "1순위 기타지역",
+    "rate": 5.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "65",
+    "supply": 4,
+    "closed_at": "1순위 기타지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "66.28A",
+    "supply": 5,
+    "closed_at": "1순위 기타지역",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "66.49B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "68.39",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.67,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 202,
+  "rank1_req": 163,
+  "supply_total": 33,
+  "final_shortfall_total": 0,
+  "closed_types": 10,
+  "rank1_closed_types": 10,
+  "type_count": 10,
+  "rank1_avg_rate": 4.94,
+  "best": {
+   "ty": "50.04",
+   "rate": 19.0,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "40.58",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "40.58": 0,
+   "42.66": 0,
+   "43.6": 0,
+   "44.33": 0,
+   "50.04": 0,
+   "61.14": 0,
+   "65": 0,
+   "66.28A": 0,
+   "66.49B": 0,
+   "68.39": 0
+  },
+  "avg_min": 27.9,
+  "max": {
+   "score": 64,
+   "ty": "44.33"
+  }
+ },
+ "region_price": {
+  "scope": "안양시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "안양역 센트럴 아이파크 수자인",
+   "안양 에버포레 자연앤 e편한세상(A1BL)"
+  ],
+  "peer_avg_pyeong": 3145,
+  "diff": -100,
+  "diff_pct": -3,
+  "rank": 3,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "안양시",
+  "peer_count": 4,
+  "peers": [
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "안양역 센트럴 아이파크 수자인",
+   "안양 에버포레 자연앤 e편한세상(A1BL)"
+  ],
+  "peer_avg_rate": 11.16,
+  "rank": 5,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "안양시",
+  "peer_count": 4,
+  "peers": [
+   "안양자이 헤리티온",
+   "만안역 중앙하이츠 포레",
+   "안양역 센트럴 아이파크 수자인",
+   "안양 에버포레 자연앤 e편한세상(A1BL)"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

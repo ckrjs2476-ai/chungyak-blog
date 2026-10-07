@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "울산온양발리스타지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-03-20",
+  "CNTRCT_CNCLS_ENDDE": "2026-03-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://www.남울산노르웨이숲.com/",
+  "HOUSE_MANAGE_NO": "2026910056",
+  "HOUSE_NM": "남울산 노르웨이숲(조합원 취소분)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "울산광역시 울주군 온양읍 발리 440-1번지 일원",
+  "HSSPLY_ZIP": "44976",
+  "MDHS_TELNO": "0522560300",
+  "MVN_PREARNGE_YM": "202607",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910056",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910056&pblancNo=2026910056",
+  "PRZWNER_PRESNATN_DE": "2026-03-13",
+  "RCRIT_PBLANC_DE": "2026-03-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "680",
+  "SUBSCRPT_AREA_CODE_NM": "울산",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-03-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-03-10",
+  "TOT_SUPLY_HSHLDCO": 6
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910056",
+   "HOUSE_TY": "059.9957A",
+   "LTTOT_TOP_AMOUNT": "34100",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910056",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△2)",
+   "HOUSE_MANAGE_NO": "2026910056",
+   "HOUSE_TY": "059.9957A",
+   "PBLANC_NO": "2026910056",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 6
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:54.454429+09:00"
+}

@@ -1,0 +1,94 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "여수소제피에프브이 주식회사",
+  "CNTRCT_CNCLS_BGNDE": "2026-06-18",
+  "CNTRCT_CNCLS_ENDDE": "2026-06-18",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://soje-jnw.com",
+  "HOUSE_MANAGE_NO": "2026910134",
+  "HOUSE_NM": "소제지구 A3BL 중흥S-클래스 우미린",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "전라남도 여수시 소호동 828번지 일원 여수소제지구 A3블록",
+  "HSSPLY_ZIP": "59670",
+  "MDHS_TELNO": "0616869360",
+  "MVN_PREARNGE_YM": "202906",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910134",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910134&pblancNo=2026910134",
+  "PRZWNER_PRESNATN_DE": "2026-06-11",
+  "RCRIT_PBLANC_DE": "2026-06-02",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "513",
+  "SUBSCRPT_AREA_CODE_NM": "전남",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-06-08",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-06-08",
+  "TOT_SUPLY_HSHLDCO": 41
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910134",
+   "HOUSE_TY": "084.9531E",
+   "LTTOT_TOP_AMOUNT": "48250",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910134",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910134",
+   "HOUSE_TY": "084.9923F",
+   "LTTOT_TOP_AMOUNT": "48050",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910134",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910134",
+   "HOUSE_TY": "109.9697A",
+   "LTTOT_TOP_AMOUNT": "65200",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026910134",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 24
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△8)",
+   "HOUSE_MANAGE_NO": "2026910134",
+   "HOUSE_TY": "084.9531E",
+   "PBLANC_NO": "2026910134",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "1",
+   "SUPLY_HSHLDCO": 9
+  },
+  {
+   "CMPET_RATE": "(△6)",
+   "HOUSE_MANAGE_NO": "2026910134",
+   "HOUSE_TY": "084.9923F",
+   "PBLANC_NO": "2026910134",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "2",
+   "SUPLY_HSHLDCO": 8
+  },
+  {
+   "CMPET_RATE": "(△21)",
+   "HOUSE_MANAGE_NO": "2026910134",
+   "HOUSE_TY": "109.9697A",
+   "PBLANC_NO": "2026910134",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "3",
+   "SUPLY_HSHLDCO": 24
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:55:01.254544+09:00"
+}

@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "경기주택도시공사",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-25",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-26",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://gd-hausd.com/",
+  "HOUSE_MANAGE_NO": "2025910214",
+  "HOUSE_NM": "고덕 자연앤 하우스디(A4BL)(민영)(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 평택시 고덕동 1858-2번지(고덕국제화계획지구 A4BL)",
+  "HSSPLY_ZIP": "18004",
+  "MDHS_TELNO": "0316551455",
+  "MVN_PREARNGE_YM": "202802",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910214",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910214&pblancNo=2025910214",
+  "PRZWNER_PRESNATN_DE": "2025-11-13",
+  "RCRIT_PBLANC_DE": "2025-11-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-10",
+  "TOT_SUPLY_HSHLDCO": 54
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910214",
+   "HOUSE_TY": "098.7952 ",
+   "LTTOT_TOP_AMOUNT": "62900",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910214",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 54
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "1.39",
+   "HOUSE_MANAGE_NO": "2025910214",
+   "HOUSE_TY": "098.7952 ",
+   "PBLANC_NO": "2025910214",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "75",
+   "SUPLY_HSHLDCO": 54
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:49.212341+09:00"
+}

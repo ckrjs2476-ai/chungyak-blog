@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)서한",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-20",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-20",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://asan-seohan.com/",
+  "HOUSE_MANAGE_NO": "2025910201",
+  "HOUSE_NM": "아산모종 서한이다음 노블리스(A1BL)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "충청남도 아산시 모종샛들지구 A1BL",
+  "HSSPLY_ZIP": "31528",
+  "MDHS_TELNO": "0415445800",
+  "MVN_PREARNGE_YM": "202809",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910201",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910201&pblancNo=2025910201",
+  "PRZWNER_PRESNATN_DE": "2025-11-14",
+  "RCRIT_PBLANC_DE": "2025-11-05",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "312",
+  "SUBSCRPT_AREA_CODE_NM": "충남",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-11-10",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-11-10",
+  "TOT_SUPLY_HSHLDCO": 53
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910201",
+   "HOUSE_TY": "084.9936B",
+   "LTTOT_TOP_AMOUNT": "43850",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910201",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 53
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "(△40)",
+   "HOUSE_MANAGE_NO": "2025910201",
+   "HOUSE_TY": "084.9936B",
+   "PBLANC_NO": "2025910201",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "13",
+   "SUPLY_HSHLDCO": 53
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:59:53.918426+09:00"
+}

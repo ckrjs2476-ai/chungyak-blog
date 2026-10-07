@@ -1,0 +1,52 @@
+{
+ "no": "2026910124",
+ "name": "의왕고천지구 대방 디에트르 센트럴(B1BL)(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-06-08",
+ "rank1_date": "2026-06-15",
+ "city": "의왕시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910124&pblancNo=2026910124",
+ "households": 1,
+ "types": [
+  {
+   "ty": "84.9705A",
+   "size": 84,
+   "price": 79325,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 1,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 79325,
+ "price_84_max": 79325,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9705A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 3321.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 3321,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9705A",
+   "rate": 3321.0,
+   "stage": "None순위 None"
+  }
+ }
+}

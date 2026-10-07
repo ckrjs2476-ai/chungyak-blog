@@ -1,0 +1,64 @@
+{
+ "no": "2025000642",
+ "name": "인천영종지구 A24블록 공공분양주택(본청약)",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2025-12-31",
+ "rank1_date": "2026-01-19",
+ "city": "중구",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000642&pblancNo=2025000642",
+ "households": 641,
+ "types": [
+  {
+   "ty": "74O",
+   "size": 74,
+   "price": 39719,
+   "area_m2": 98.3302,
+   "general": 28,
+   "special": 76,
+   "pyeong_price": 1335,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "84O",
+   "size": 84,
+   "price": 47096,
+   "area_m2": 111.4756,
+   "general": 66,
+   "special": 195,
+   "pyeong_price": 1397,
+   "special_share_pct": 75
+  }
+ ],
+ "general_total": 94,
+ "special_total": 271,
+ "special_share_pct": 74,
+ "pyeong_min": 1335,
+ "pyeong_max": 1397,
+ "pyeong_avg": 1379,
+ "price_84_min": 47096,
+ "price_84_max": 47096,
+ "special_kinds": {
+  "신혼부부": 36,
+  "생애최초": 54,
+  "신생아": 73,
+  "다자녀": 36,
+  "노부모 부양": 18,
+  "기관추천": 54
+ },
+ "region_price": {
+  "scope": "인천",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "인천가정2지구 B2블록 공공분양주택(후속사업)",
+   "인천계양 A9블록 신혼희망타운(공공분양)(본청약)"
+  ],
+  "peer_avg_pyeong": 1963,
+  "diff": -584,
+  "diff_pct": -30,
+  "rank": 3,
+  "of": 3
+ }
+}

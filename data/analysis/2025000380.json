@@ -1,0 +1,141 @@
+{
+ "no": "2025000380",
+ "name": "힐스테이트 오산 더퍼스트(조합원 자격상실 및 제명세대)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-09-18",
+ "rank1_date": "2025-09-29",
+ "city": "오산시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000380&pblancNo=2025000380",
+ "households": 17,
+ "types": [
+  {
+   "ty": "59.9944",
+   "size": 59,
+   "price": 37655,
+   "area_m2": 80.3071,
+   "general": 9,
+   "special": 0,
+   "pyeong_price": 1550,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "64.9972",
+   "size": 64,
+   "price": 39990,
+   "area_m2": 86.9456,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 1520,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9773",
+   "size": 84,
+   "price": 52684,
+   "area_m2": 112.1115,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 1553,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 17,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 1520,
+ "pyeong_max": 1553,
+ "pyeong_avg": 1546,
+ "price_84_min": 52684,
+ "price_84_max": 52684,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9944",
+    "supply": 9,
+    "closed_at": "1순위 기타지역",
+    "rate": 16.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "64.9972",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9773",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 150,
+  "rank1_req": 79,
+  "supply_total": 17,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 4.65,
+  "best": {
+   "ty": "59.9944",
+   "rate": 16.5,
+   "stage": "1순위 기타지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.9944",
+   "reside": "해당지역"
+  },
+  "type_min": {
+   "59.9944": 0,
+   "64.9972": 0
+  },
+  "avg_min": 22.8,
+  "max": {
+   "score": 50,
+   "ty": "59.9944"
+  }
+ },
+ "region_price": {
+  "scope": "오산시",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "오산 세교 우미 린 레이크시티",
+   "북오산자이 리버블시티"
+  ],
+  "peer_avg_pyeong": 1712,
+  "diff": -166,
+  "diff_pct": -10,
+  "rank": 2,
+  "of": 3
+ },
+ "region_competition": {
+  "scope": "오산시",
+  "peer_count": 2,
+  "peers": [
+   "오산 세교 우미 린 레이크시티",
+   "북오산자이 리버블시티"
+  ],
+  "peer_avg_rate": 0.68,
+  "rank": 1,
+  "of": 3
+ },
+ "region_score": {
+  "scope": "오산시",
+  "peer_count": 2,
+  "peers": [
+   "오산 세교 우미 린 레이크시티",
+   "북오산자이 리버블시티"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

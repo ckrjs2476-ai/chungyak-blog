@@ -1,0 +1,45 @@
+{
+ "no": "2025910232",
+ "name": "회천중앙역 파라곤",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-11-20",
+ "rank1_date": "2025-11-25",
+ "city": "양주시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910232&pblancNo=2025910232",
+ "households": 22,
+ "types": [
+  {
+   "ty": "72.8921",
+   "size": 72,
+   "price": 44500,
+   "area_m2": null,
+   "general": 22,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 22,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "72.8921",
+    "supply": 22,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   }
+  ],
+  "req_total": 19,
+  "rank1_req": 0,
+  "supply_total": 22,
+  "final_shortfall_total": 3,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

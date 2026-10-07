@@ -1,0 +1,198 @@
+{
+ "no": "2026000048",
+ "name": "이촌 르엘",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-03-30",
+ "rank1_date": "2026-04-10",
+ "city": "용산구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000048&pblancNo=2026000048",
+ "households": 88,
+ "types": [
+  {
+   "ty": "100.93",
+   "size": 100,
+   "price": 272900,
+   "area_m2": 121.882,
+   "general": 19,
+   "special": 3,
+   "pyeong_price": 7402,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "106.1",
+   "size": 106,
+   "price": 285800,
+   "area_m2": 128.1252,
+   "general": 20,
+   "special": 4,
+   "pyeong_price": 7374,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "117.07",
+   "size": 117,
+   "price": 313900,
+   "area_m2": 141.3725,
+   "general": 12,
+   "special": 1,
+   "pyeong_price": 7340,
+   "special_share_pct": 8
+  },
+  {
+   "ty": "118.03",
+   "size": 118,
+   "price": 324500,
+   "area_m2": 142.5318,
+   "general": 11,
+   "special": 1,
+   "pyeong_price": 7526,
+   "special_share_pct": 8
+  },
+  {
+   "ty": "122.88",
+   "size": 122,
+   "price": 330400,
+   "area_m2": 148.3886,
+   "general": 16,
+   "special": 1,
+   "pyeong_price": 7361,
+   "special_share_pct": 6
+  }
+ ],
+ "general_total": 78,
+ "special_total": 10,
+ "special_share_pct": 11,
+ "pyeong_min": 7340,
+ "pyeong_max": 7526,
+ "pyeong_avg": 7394,
+ "special_kinds": {
+  "다자녀": 8,
+  "노부모 부양": 2
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "100.93",
+    "supply": 19,
+    "closed_at": "1순위 해당지역",
+    "rate": 254.05,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "106.1",
+    "supply": 20,
+    "closed_at": "1순위 해당지역",
+    "rate": 181.85,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "117.07",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 36.83,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "118.03",
+    "supply": 11,
+    "closed_at": "1순위 해당지역",
+    "rate": 50.45,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "122.88",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 66.69,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 10528,
+  "rank1_req": 10528,
+  "supply_total": 78,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 134.97,
+  "best": {
+   "ty": "100.93",
+   "rate": 254.05,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "100.93",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "100.93": 0,
+   "106.1": 0,
+   "117.07": 0,
+   "118.03": 0,
+   "122.88": 0
+  },
+  "avg_min": 34.5,
+  "max": {
+   "score": 74,
+   "ty": "122.88"
+  }
+ },
+ "region_price": {
+  "scope": "서울",
+  "days": 180,
+  "peer_count": 23,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_pyeong": 6267,
+  "diff": 1127,
+  "diff_pct": 18,
+  "rank": 9,
+  "of": 24
+ },
+ "region_competition": {
+  "scope": "서울",
+  "peer_count": 23,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_rate": 157.77,
+  "rank": 6,
+  "of": 24
+ },
+ "region_score": {
+  "scope": "서울",
+  "peer_count": 23,
+  "peers": [
+   "힐스테이트 이수역센트럴",
+   "아크로 드 서초",
+   "반포 래미안 트리니원",
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "no": "2026000162",
+ "name": "검암역자이르네",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-05-15",
+ "rank1_date": "2026-05-27",
+ "city": "서구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000162&pblancNo=2026000162",
+ "households": 601,
+ "types": [
+  {
+   "ty": "84.612A",
+   "size": 84,
+   "price": 59410,
+   "area_m2": 110.2136,
+   "general": 83,
+   "special": 151,
+   "pyeong_price": 1782,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.6297B",
+   "size": 84,
+   "price": 58750,
+   "area_m2": 109.4728,
+   "general": 89,
+   "special": 157,
+   "pyeong_price": 1774,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.606C",
+   "size": 84,
+   "price": 58200,
+   "area_m2": 110.2936,
+   "general": 45,
+   "special": 76,
+   "pyeong_price": 1744,
+   "special_share_pct": 63
+  }
+ ],
+ "general_total": 217,
+ "special_total": 384,
+ "special_share_pct": 64,
+ "pyeong_min": 1744,
+ "pyeong_max": 1782,
+ "pyeong_avg": 1771,
+ "price_84_min": 58200,
+ "price_84_max": 59410,
+ "special_kinds": {
+  "신혼부부": 136,
+  "생애최초": 112,
+  "다자녀": 59,
+  "노부모 부양": 17,
+  "기관추천": 59
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.612A",
+    "supply": 107,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.91,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6297B",
+    "supply": 170,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.47,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.606C",
+    "supply": 102,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 25
+   }
+  ],
+  "req_total": 818,
+  "rank1_req": 665,
+  "supply_total": 379,
+  "final_shortfall_total": 25,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 3,
+  "rank1_avg_rate": 1.75,
+  "best": {
+   "ty": "84.612A",
+   "rate": 4.91,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.6297B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.612A": 28,
+   "84.6297B": 0
+  },
+  "avg_min": 20.5,
+  "max": {
+   "score": 71,
+   "ty": "84.6297B"
+  }
+ },
+ "region_price": {
+  "scope": "서구",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "검단호수공원역 파라곤(AA36BL)",
+   "더샵 검단레이크파크(AB22BL)",
+   "더샵 검단레이크파크(AB23BL)"
+  ],
+  "peer_avg_pyeong": 1949,
+  "diff": -178,
+  "diff_pct": -9,
+  "rank": 4,
+  "of": 4
+ },
+ "region_competition": {
+  "scope": "서구",
+  "peer_count": 3,
+  "peers": [
+   "검단호수공원역 파라곤(AA36BL)",
+   "더샵 검단레이크파크(AB22BL)",
+   "더샵 검단레이크파크(AB23BL)"
+  ],
+  "peer_avg_rate": 15.11,
+  "rank": 4,
+  "of": 4
+ },
+ "region_score": {
+  "scope": "서구",
+  "peer_count": 3,
+  "peers": [
+   "검단호수공원역 파라곤(AA36BL)",
+   "더샵 검단레이크파크(AB22BL)",
+   "더샵 검단레이크파크(AB23BL)"
+  ],
+  "peer_avg_min": 39.0,
+  "diff": -39.0
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "no": "2025000610",
+ "name": "태화강 센트럴 아이파크",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2025-12-19",
+ "rank1_date": "2025-12-30",
+ "city": "중구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000610&pblancNo=2025000610",
+ "households": 704,
+ "types": [
+  {
+   "ty": "84.9714A",
+   "size": 84,
+   "price": 81500,
+   "area_m2": 112.391,
+   "general": 192,
+   "special": 237,
+   "pyeong_price": 2397,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9447B",
+   "size": 84,
+   "price": 81200,
+   "area_m2": 112.985,
+   "general": 123,
+   "special": 152,
+   "pyeong_price": 2376,
+   "special_share_pct": 55
+  }
+ ],
+ "general_total": 315,
+ "special_total": 389,
+ "special_share_pct": 55,
+ "pyeong_min": 2376,
+ "pyeong_max": 2397,
+ "pyeong_avg": 2389,
+ "price_84_min": 81200,
+ "price_84_max": 81500,
+ "special_kinds": {
+  "신혼부부": 162,
+  "생애최초": 64,
+  "다자녀": 71,
+  "노부모 부양": 21,
+  "기관추천": 71
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9714A",
+    "supply": 328,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.77,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9447B",
+    "supply": 227,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.51,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 2138,
+  "rank1_req": 1908,
+  "supply_total": 555,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 2,
+  "rank1_avg_rate": 3.44,
+  "best": {
+   "ty": "84.9714A",
+   "rate": 3.77,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9447B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9714A": 0,
+   "84.9447B": 0
+  },
+  "avg_min": 17.0,
+  "max": {
+   "score": 64,
+   "ty": "84.9714A"
+  }
+ },
+ "region_price": {
+  "scope": "울산",
+  "days": 180,
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_pyeong": 2194,
+  "diff": 195,
+  "diff_pct": 9,
+  "rank": 4,
+  "of": 11
+ },
+ "region_competition": {
+  "scope": "울산",
+  "peer_count": 10,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산역 폴리시아 아이유쉘",
+   "문수로 코아루 에듀스카이",
+   "울산 다운2지구 유승한내들 에듀포레",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 1단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_rate": 3.47,
+  "rank": 4,
+  "of": 11
+ },
+ "region_score": {
+  "scope": "울산",
+  "peer_count": 4,
+  "peers": [
+   "한화포레나 울산무거",
+   "울산 호수공원 에일린의 뜰 1단지",
+   "울산 호수공원 에일린의 뜰 2단지",
+   "힐스테이트 선암호수공원 2단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

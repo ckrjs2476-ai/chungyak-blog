@@ -1,0 +1,130 @@
+{
+ "no": "2025000586",
+ "name": "e편한세상 내포 에듀플라츠(공공주택)",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2025-11-28",
+ "rank1_date": "2025-12-09",
+ "city": "홍성군",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000586&pblancNo=2025000586",
+ "households": 605,
+ "types": [
+  {
+   "ty": "84.6784A",
+   "size": 84,
+   "price": 42020,
+   "area_m2": 110.3949,
+   "general": 93,
+   "special": 266,
+   "pyeong_price": 1258,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "84.6904B",
+   "size": 84,
+   "price": 41530,
+   "area_m2": 110.4313,
+   "general": 32,
+   "special": 94,
+   "pyeong_price": 1243,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.6571C",
+   "size": 84,
+   "price": 42480,
+   "area_m2": 111.5995,
+   "general": 29,
+   "special": 91,
+   "pyeong_price": 1258,
+   "special_share_pct": 76
+  }
+ ],
+ "general_total": 154,
+ "special_total": 451,
+ "special_share_pct": 75,
+ "pyeong_min": 1243,
+ "pyeong_max": 1258,
+ "pyeong_avg": 1255,
+ "price_84_min": 41530,
+ "price_84_max": 42480,
+ "special_kinds": {
+  "신혼부부": 61,
+  "생애최초": 89,
+  "신생아": 120,
+  "다자녀": 61,
+  "노부모 부양": 30,
+  "기관추천": 90
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6784A",
+    "supply": 351,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 328
+   },
+   {
+    "ty": "84.6904B",
+    "supply": 126,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 124
+   },
+   {
+    "ty": "84.6571C",
+    "supply": 120,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 116
+   }
+  ],
+  "req_total": 29,
+  "rank1_req": 24,
+  "supply_total": 597,
+  "final_shortfall_total": 568,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.04
+ },
+ "region_price": {
+  "scope": "충남",
+  "days": 180,
+  "peer_count": 19,
+  "peers": [
+   "천안 백석 중흥S-클래스 우선 분양전환 후 잔여세대",
+   "아산탕정 동일하이빌 파크레인",
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)"
+  ],
+  "peer_avg_pyeong": 1499,
+  "diff": -244,
+  "diff_pct": -16,
+  "rank": 18,
+  "of": 20
+ },
+ "region_competition": {
+  "scope": "충남",
+  "peer_count": 19,
+  "peers": [
+   "천안 백석 중흥S-클래스 우선 분양전환 후 잔여세대",
+   "아산탕정 동일하이빌 파크레인",
+   "아산모종 서한이다음 노블리스(A1BL)",
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)"
+  ],
+  "peer_avg_rate": 3.62,
+  "rank": 16,
+  "of": 20
+ }
+}

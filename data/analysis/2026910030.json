@@ -1,0 +1,148 @@
+{
+ "no": "2026910030",
+ "name": "안양자이 헤리티온(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-01-28",
+ "rank1_date": "2026-02-02",
+ "city": "안양시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910030&pblancNo=2026910030",
+ "households": 116,
+ "types": [
+  {
+   "ty": "49.989A",
+   "size": 49,
+   "price": 69600,
+   "area_m2": null,
+   "general": 42,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "49.989C",
+   "size": 49,
+   "price": 69820,
+   "area_m2": null,
+   "general": 10,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9949A",
+   "size": 59,
+   "price": 91290,
+   "area_m2": null,
+   "general": 29,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9905C",
+   "size": 59,
+   "price": 91570,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "76.9842B",
+   "size": 76,
+   "price": 109160,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9902A",
+   "size": 84,
+   "price": 129280,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9914B",
+   "size": 84,
+   "price": 117500,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 116,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 117500,
+ "price_84_max": 129280,
+ "competition": {
+  "types": [
+   {
+    "ty": "49.989A",
+    "supply": 42,
+    "closed_at": "None순위 None",
+    "rate": 2.52,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "49.989C",
+    "supply": 10,
+    "closed_at": "None순위 None",
+    "rate": 4.1,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9905C",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 3.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9949A",
+    "supply": 29,
+    "closed_at": "None순위 None",
+    "rate": 7.69,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "76.9842B",
+    "supply": 12,
+    "closed_at": "None순위 None",
+    "rate": 2.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9902A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 19.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9914B",
+    "supply": 12,
+    "closed_at": "None순위 None",
+    "rate": 2.67,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 502,
+  "rank1_req": 0,
+  "supply_total": 116,
+  "final_shortfall_total": 0,
+  "closed_types": 7,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9902A",
+   "rate": 19.5,
+   "stage": "None순위 None"
+  }
+ }
+}

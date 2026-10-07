@@ -1,0 +1,163 @@
+{
+ "no": "2025000529",
+ "name": "브레인시티 비스타동원",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2025-10-30",
+ "rank1_date": "2025-11-11",
+ "city": "평택시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000529&pblancNo=2025000529",
+ "households": 1600,
+ "types": [
+  {
+   "ty": "59.9616",
+   "size": 59,
+   "price": 39700,
+   "area_m2": 83.5187,
+   "general": 98,
+   "special": 185,
+   "pyeong_price": 1571,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9945A",
+   "size": 84,
+   "price": 56200,
+   "area_m2": 114.7103,
+   "general": 97,
+   "special": 182,
+   "pyeong_price": 1620,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9948B",
+   "size": 84,
+   "price": 56600,
+   "area_m2": 116.622,
+   "general": 166,
+   "special": 302,
+   "pyeong_price": 1604,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9987C",
+   "size": 84,
+   "price": 56400,
+   "area_m2": 115.0566,
+   "general": 68,
+   "special": 124,
+   "pyeong_price": 1620,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "106.9995",
+   "size": 106,
+   "price": 71110,
+   "area_m2": 144.138,
+   "general": 329,
+   "special": 49,
+   "pyeong_price": 1631,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 758,
+ "special_total": 842,
+ "special_share_pct": 53,
+ "pyeong_min": 1571,
+ "pyeong_max": 1631,
+ "pyeong_avg": 1609,
+ "price_84_min": 56200,
+ "price_84_max": 56600,
+ "special_kinds": {
+  "신혼부부": 281,
+  "생애최초": 232,
+  "다자녀": 160,
+  "노부모 부양": 48,
+  "기관추천": 121
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9616",
+    "supply": 267,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 120
+   },
+   {
+    "ty": "84.9945A",
+    "supply": 276,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 131
+   },
+   {
+    "ty": "84.9948B",
+    "supply": 467,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 227
+   },
+   {
+    "ty": "84.9987C",
+    "supply": 190,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 95
+   },
+   {
+    "ty": "106.9995",
+    "supply": 377,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 186
+   }
+  ],
+  "req_total": 52,
+  "rank1_req": 26,
+  "supply_total": 1577,
+  "final_shortfall_total": 759,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.02
+ },
+ "region_price": {
+  "scope": "경기",
+  "days": 180,
+  "peer_count": 56,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
+  ],
+  "peer_avg_pyeong": 2533,
+  "diff": -924,
+  "diff_pct": -36,
+  "rank": 52,
+  "of": 57
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 56,
+  "peers": [
+   "엘리프 한신더휴 수원 C3블록(본청약)",
+   "엘리프 한신더휴 수원 D3블록(본청약)",
+   "식사 푸르지오 파크센트",
+   "오산 세교 우미 린 레이크시티",
+   "안양자이 헤리티온",
+   "철산역자이",
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
+  ],
+  "peer_avg_rate": 7.14,
+  "rank": 56,
+  "of": 57
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "no": "2025910259",
+ "name": "더샵 분당티에르원",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2025-12-15",
+ "rank1_date": "2025-12-22",
+ "city": "성남시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910259&pblancNo=2025910259",
+ "households": 5,
+ "types": [
+  {
+   "ty": "84",
+   "size": 84,
+   "price": 252000,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.95",
+   "size": 84,
+   "price": 265300,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 5,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 252000,
+ "price_84_max": 265300,
+ "competition": {
+  "types": [
+   {
+    "ty": "84",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 371.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.95",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 320.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1756,
+  "rank1_req": 0,
+  "supply_total": 5,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84",
+   "rate": 371.67,
+   "stage": "None순위 None"
+  }
+ }
+}

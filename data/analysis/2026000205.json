@@ -1,0 +1,135 @@
+{
+ "no": "2026000205",
+ "name": "수원역 아너스빌 타임원",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-05-22",
+ "rank1_date": "2026-06-02",
+ "city": "수원시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000205&pblancNo=2026000205",
+ "households": 114,
+ "types": [
+  {
+   "ty": "84.6388A",
+   "size": 84,
+   "price": 79080,
+   "area_m2": 104.6305,
+   "general": 42,
+   "special": 16,
+   "pyeong_price": 2499,
+   "special_share_pct": 28
+  },
+  {
+   "ty": "84.8874B",
+   "size": 84,
+   "price": 78760,
+   "area_m2": 104.7827,
+   "general": 40,
+   "special": 16,
+   "pyeong_price": 2485,
+   "special_share_pct": 29
+  }
+ ],
+ "general_total": 82,
+ "special_total": 32,
+ "special_share_pct": 28,
+ "pyeong_min": 2485,
+ "pyeong_max": 2499,
+ "pyeong_avg": 2492,
+ "price_84_min": 78760,
+ "price_84_max": 79080,
+ "special_kinds": {
+  "신혼부부": 15,
+  "생애최초": 4,
+  "다자녀": 4,
+  "노부모 부양": 4,
+  "기관추천": 5
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.6388A",
+    "supply": 42,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.38,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8874B",
+    "supply": 40,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 454,
+  "rank1_req": 346,
+  "supply_total": 82,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 2,
+  "rank1_avg_rate": 4.22,
+  "best": {
+   "ty": "84.6388A",
+   "rate": 2.38,
+   "stage": "1순위 해당지역"
+  }
+ },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.6388A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.6388A": 0,
+   "84.8874B": 0
+  },
+  "avg_min": 21.8,
+  "max": {
+   "score": 60,
+   "ty": "84.6388A"
+  }
+ },
+ "region_price": {
+  "scope": "수원시",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M2BL)",
+   "서수원 에피트 센트럴마크(M1BL)",
+   "화서역 호수공원 아너스빌"
+  ],
+  "peer_avg_pyeong": 2600,
+  "diff": -108,
+  "diff_pct": -4,
+  "rank": 3,
+  "of": 5
+ },
+ "region_competition": {
+  "scope": "수원시",
+  "peer_count": 4,
+  "peers": [
+   "두산위브 더센트럴 수원",
+   "서수원 에피트 센트럴마크(M2BL)",
+   "서수원 에피트 센트럴마크(M1BL)",
+   "화서역 호수공원 아너스빌"
+  ],
+  "peer_avg_rate": 4.14,
+  "rank": 2,
+  "of": 5
+ },
+ "region_score": {
+  "scope": "수원시",
+  "peer_count": 2,
+  "peers": [
+   "두산위브 더센트럴 수원",
+   "화서역 호수공원 아너스빌"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ }
+}

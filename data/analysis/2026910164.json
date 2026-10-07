@@ -1,0 +1,47 @@
+{
+ "no": "2026910164",
+ "name": "더 리치먼드 리버센트 소양",
+ "kind": "remndr",
+ "region": "강원",
+ "notice_date": "2026-07-03",
+ "rank1_date": "2026-07-08",
+ "city": "춘천시",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910164&pblancNo=2026910164",
+ "households": 24,
+ "types": [
+  {
+   "ty": "84.9211A",
+   "size": 84,
+   "price": 58890,
+   "area_m2": null,
+   "general": 24,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 24,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 58890,
+ "price_84_max": 58890,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9211A",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   }
+  ],
+  "req_total": 8,
+  "rank1_req": 0,
+  "supply_total": 24,
+  "final_shortfall_total": 16,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "no": "2025910211",
+ "name": "두산위브앤수자인 부평 더퍼스트",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2025-11-05",
+ "rank1_date": "2025-11-11",
+ "city": "부평구",
+ "supply_kind": "",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910211&pblancNo=2025910211",
+ "households": 165,
+ "types": [
+  {
+   "ty": "46.1312A",
+   "size": 46,
+   "price": 46640,
+   "area_m2": null,
+   "general": 57,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "46.1312B",
+   "size": 46,
+   "price": 46640,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9774A",
+   "size": 59,
+   "price": 63690,
+   "area_m2": null,
+   "general": 40,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9039B",
+   "size": 59,
+   "price": 62950,
+   "area_m2": null,
+   "general": 32,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9087C",
+   "size": 59,
+   "price": 64600,
+   "area_m2": null,
+   "general": 29,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.1235B",
+   "size": 74,
+   "price": 75580,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 165,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "46.1312A",
+    "supply": 57,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "46.1312B",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 1.67,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9039B",
+    "supply": 32,
+    "closed_at": "None순위 None",
+    "rate": 1.06,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9087C",
+    "supply": 29,
+    "closed_at": "None순위 None",
+    "rate": 1.9,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9774A",
+    "supply": 40,
+    "closed_at": "None순위 None",
+    "rate": 2.18,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.1235B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 54.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 285,
+  "rank1_req": 0,
+  "supply_total": 165,
+  "final_shortfall_total": 12,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "74.1235B",
+   "rate": 54.0,
+   "stage": "None순위 None"
+  }
+ }
+}

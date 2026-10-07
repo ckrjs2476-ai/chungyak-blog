@@ -1,0 +1,66 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "주식회사 하나자산신탁",
+  "CNTRCT_CNCLS_BGNDE": "2025-11-07",
+  "CNTRCT_CNCLS_ENDDE": "2025-11-07",
+  "GNRL_RCEPT_BGNDE": "2025-10-28",
+  "GNRL_RCEPT_ENDDE": "2025-10-28",
+  "HMPG_ADRES": "https://xi.co.kr/whf",
+  "HOUSE_MANAGE_NO": "2025930048",
+  "HOUSE_NM": "구미 원호자이 더 포레",
+  "HOUSE_SECD": "06",
+  "HOUSE_SECD_NM": "불법행위 재공급",
+  "HSSPLY_ADRES": "경상북도 구미시 고아읍 원호리 808번지",
+  "HSSPLY_ZIP": "39148",
+  "MDHS_TELNO": "18334225",
+  "MVN_PREARNGE_YM": "202511",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025930048",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025930048&pblancNo=2025930048",
+  "PRZWNER_PRESNATN_DE": "2025-10-31",
+  "RCRIT_PBLANC_DE": "2025-10-17",
+  "SPSPLY_RCEPT_BGNDE": "2025-10-27",
+  "SPSPLY_RCEPT_ENDDE": "2025-10-27",
+  "SUBSCRPT_AREA_CODE": "712",
+  "SUBSCRPT_AREA_CODE_NM": "경북",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-10-27",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-10-28",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025930048",
+   "HOUSE_TY": "084.9753C",
+   "LTTOT_TOP_AMOUNT": "42300",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025930048",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": "109.0904",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025930048",
+   "HOUSE_TY": "101.8594 ",
+   "LTTOT_TOP_AMOUNT": "49500",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2025930048",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": "127.8843",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "HOUSE_MANAGE_NO": "2025930048",
+   "HOUSE_TY": "114.1893 ",
+   "LTTOT_TOP_AMOUNT": "55900",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2025930048",
+   "SPSPLY_HSHLDCO": 1,
+   "SUPLY_AR": "141.8716",
+   "SUPLY_HSHLDCO": 0
+  }
+ ],
+ "competition": [],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:22.796322+09:00"
+}

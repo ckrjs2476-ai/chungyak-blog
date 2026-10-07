@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)에스떠블유산업개발",
+  "CNTRCT_CNCLS_BGNDE": "2025-10-14",
+  "CNTRCT_CNCLS_ENDDE": "2025-10-14",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": null,
+  "HOUSE_MANAGE_NO": "2025910179",
+  "HOUSE_NM": "송파 위례 리슈빌 FIRST CLASS",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "서울특별시 송파구 위례송파로 124 (거여동, 송파 위례 리슈빌)",
+  "HSSPLY_ZIP": "05847",
+  "MDHS_TELNO": "0428286845",
+  "MVN_PREARNGE_YM": "202511",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2025910179",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2025910179&pblancNo=2025910179",
+  "PRZWNER_PRESNATN_DE": "2025-10-02",
+  "RCRIT_PBLANC_DE": "2025-09-23",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "100",
+  "SUBSCRPT_AREA_CODE_NM": "서울",
+  "SUBSCRPT_RCEPT_BGNDE": "2025-09-29",
+  "SUBSCRPT_RCEPT_ENDDE": "2025-09-29",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2025910179",
+   "HOUSE_TY": "105.4624 ",
+   "LTTOT_TOP_AMOUNT": "89508",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2025910179",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "113,874.00",
+   "HOUSE_MANAGE_NO": "2025910179",
+   "HOUSE_TY": "105.4624 ",
+   "PBLANC_NO": "2025910179",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "113874",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T21:00:54.133207+09:00"
+}

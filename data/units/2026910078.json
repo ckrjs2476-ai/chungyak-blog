@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)케이티에스테이트",
+  "CNTRCT_CNCLS_BGNDE": "2026-04-16",
+  "CNTRCT_CNCLS_ENDDE": "2026-04-16",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://wj-ubora.com",
+  "HOUSE_MANAGE_NO": "2026910078",
+  "HOUSE_NM": "초혁신도시 반도유보라 마크브릿지",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "강원특별자치도 원주시 관설동 1805번지",
+  "HSSPLY_ZIP": "26470",
+  "MDHS_TELNO": "18994028",
+  "MVN_PREARNGE_YM": "202605",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910078",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910078&pblancNo=2026910078",
+  "PRZWNER_PRESNATN_DE": "2026-04-09",
+  "RCRIT_PBLANC_DE": "2026-03-31",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "200",
+  "SUBSCRPT_AREA_CODE_NM": "강원",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-04-06",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-04-06",
+  "TOT_SUPLY_HSHLDCO": 1
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910078",
+   "HOUSE_TY": "084.9814B",
+   "LTTOT_TOP_AMOUNT": "37750",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910078",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [
+  {
+   "CMPET_RATE": "33.00",
+   "HOUSE_MANAGE_NO": "2026910078",
+   "HOUSE_TY": "084.9814B",
+   "PBLANC_NO": "2026910078",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "33",
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "score": [],
+ "fetched_at": "2026-10-07T20:56:21.702021+09:00"
+}
