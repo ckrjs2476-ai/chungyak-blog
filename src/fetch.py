@@ -44,6 +44,9 @@ BRANDS = ("자이", "래미안", "힐스테이트", "푸르지오", "e편한세�
           "아이파크", "SK뷰", "호반써밋", "디에이치", "아크로", "르엘", "포레나", "위브")
 
 
+_SEEN: set[str] = set()
+
+
 def today_kst() -> date:
     return datetime.now(KST).date()
 
@@ -58,8 +61,14 @@ def call(endpoint: str, cond: dict[str, str], per_page: int = 100, max_pages: in
         params = [f"page={page}", f"perPage={per_page}", "returnType=JSON", f"serviceKey={service_key}"]
         params += [f"{urllib.parse.quote(f'cond[{k}]')}={urllib.parse.quote(v)}" for k, v in cond.items()]
         res = requests.get(f"{endpoint}?{'&'.join(params)}", timeout=30)
-        res.raise_for_status()
+        if res.status_code != 200:
+            snippet = res.text[:300].replace("\n", " ").replace(key, "***").replace(service_key, "***")
+            print(f"::error::{endpoint.rsplit('/', 1)[-1]} HTTP {res.status_code}: {snippet}")
+            raise SystemExit(1)
         body = res.json()
+        if page == 1 and body.get("data") and endpoint not in _SEEN:
+            _SEEN.add(endpoint)
+            print(f"::notice::{endpoint.rsplit('/', 1)[-1]} 필드: {','.join(body['data'][0].keys())[:900]}")
         data = body.get("data") or []
         rows.extend(data)
         total = body.get("matchCount") or body.get("totalCount") or 0
@@ -145,8 +154,14 @@ def main(days: int = 30) -> None:
     jobs.sort(key=lambda j: j["priority"], reverse=True)
     (DATA / "jobs.json").write_text(json.dumps({"date": today.isoformat(), "jobs": jobs},
                                                ensure_ascii=False, indent=1), "utf-8")
-    print(f"후보 {len(jobs)}건 저장. 상위: {[j['name'] + '/' + j['type'] for j in jobs[:5]]}")
+    print(f"::notice::후보 {len(jobs)}건 저장. 상위: {[str(j['name']) + '/' + j['type'] for j in jobs[:5]]}")
 
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]) if len(sys.argv) > 1 else 30)
+    try:
+        main(int(sys.argv[1]) if len(sys.argv) > 1 else 30)
+    except SystemExit:
+        raise
+    except Exception as e:  # noqa: BLE001  로그 대신 주석(annotation)으로 원인을 남긴다
+        print(f"::error::{type(e).__name__}: {str(e)[:500]}")
+        raise
