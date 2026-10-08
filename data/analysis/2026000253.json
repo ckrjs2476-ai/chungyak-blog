@@ -91,10 +91,25 @@
   "rank1_avg_rate": 0.06
  },
  "region_price": {
+  "scope": "거제시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "센트레빌 아스테리움 거제",
+   "힐스테이트 거제시그니처(1회차)"
+  ],
+  "peer_avg_pyeong": 1662,
+  "diff": -123,
+  "diff_pct": -7,
+  "rank": 3,
+  "of": 3
+ },
+ "region_price_wide": {
   "scope": "경남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 14,
+  "peer_count": 15,
   "peers": [
    "창원자이 더 스카이",
    "힐스테이트 평거 센트럴",
@@ -105,11 +120,11 @@
    "신문 대상 웰라움 라시엘",
    "김해 신문 센트럴 아이파크"
   ],
-  "peer_avg_pyeong": 1706,
-  "diff": -167,
+  "peer_avg_pyeong": 1708,
+  "diff": -169,
   "diff_pct": -10,
-  "rank": 12,
-  "of": 15
+  "rank": 13,
+  "of": 16
  },
  "region_competition": {
   "scope": "경남",

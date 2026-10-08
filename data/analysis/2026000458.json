@@ -1,0 +1,141 @@
+{
+ "no": "2026000458",
+ "name": "산곡역자이힐스테이트앤하늘채",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-10-08",
+ "rank1_date": "2026-10-20",
+ "city": "부평구",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000458&pblancNo=2026000458",
+ "households": 1289,
+ "types": [
+  {
+   "ty": "50.26A",
+   "size": 50,
+   "price": 55600,
+   "area_m2": 68.27,
+   "general": 54,
+   "special": 58,
+   "pyeong_price": 2692,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "50.26B",
+   "size": 50,
+   "price": 56000,
+   "area_m2": 68.26,
+   "general": 22,
+   "special": 22,
+   "pyeong_price": 2712,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.95A",
+   "size": 59,
+   "price": 74600,
+   "area_m2": 81.39,
+   "general": 140,
+   "special": 167,
+   "pyeong_price": 3030,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.99B",
+   "size": 59,
+   "price": 78000,
+   "area_m2": 81.65,
+   "general": 153,
+   "special": 181,
+   "pyeong_price": 3158,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "59.93C",
+   "size": 59,
+   "price": 73400,
+   "area_m2": 82.07,
+   "general": 99,
+   "special": 114,
+   "pyeong_price": 2957,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "75.56A",
+   "size": 75,
+   "price": 91000,
+   "area_m2": 102.36,
+   "general": 66,
+   "special": 70,
+   "pyeong_price": 2939,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "75.62B",
+   "size": 75,
+   "price": 93000,
+   "area_m2": 101.54,
+   "general": 29,
+   "special": 31,
+   "pyeong_price": 3028,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.92A",
+   "size": 84,
+   "price": 94100,
+   "area_m2": 114.73,
+   "general": 11,
+   "special": 9,
+   "pyeong_price": 2711,
+   "special_share_pct": 45
+  },
+  {
+   "ty": "84.98B",
+   "size": 84,
+   "price": 103200,
+   "area_m2": 113.71,
+   "general": 30,
+   "special": 33,
+   "pyeong_price": 3000,
+   "special_share_pct": 52
+  }
+ ],
+ "general_total": 604,
+ "special_total": 685,
+ "special_share_pct": 53,
+ "pyeong_min": 2692,
+ "pyeong_max": 3158,
+ "pyeong_avg": 2995,
+ "price_84_min": 94100,
+ "price_84_max": 103200,
+ "special_kinds": {
+  "신혼부부": 190,
+  "생애최초": 86,
+  "신생아": 126,
+  "다자녀": 122,
+  "노부모 부양": 35,
+  "기관추천": 126
+ },
+ "region_price": {
+  "scope": "인천",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 12,
+  "peers": [
+   "힐스테이트 구월아트파크",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-6블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_pyeong": 2859,
+  "diff": 136,
+  "diff_pct": 5,
+  "rank": 7,
+  "of": 13
+ }
+}

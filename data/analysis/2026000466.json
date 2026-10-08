@@ -1,0 +1,66 @@
+{
+ "no": "2026000466",
+ "name": "진도 승원팰리체 더 테라스",
+ "kind": "apt",
+ "region": "전남",
+ "notice_date": "2026-10-08",
+ "rank1_date": "2026-10-14",
+ "city": "진도군",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000466&pblancNo=2026000466",
+ "households": 58,
+ "types": [
+  {
+   "ty": "84.8714A",
+   "size": 84,
+   "price": 37800,
+   "area_m2": 111.603,
+   "general": 24,
+   "special": 23,
+   "pyeong_price": 1120,
+   "special_share_pct": 49
+  },
+  {
+   "ty": "84.9376B",
+   "size": 84,
+   "price": 37800,
+   "area_m2": 113.428,
+   "general": 6,
+   "special": 5,
+   "pyeong_price": 1102,
+   "special_share_pct": 45
+  }
+ ],
+ "general_total": 30,
+ "special_total": 28,
+ "special_share_pct": 48,
+ "pyeong_min": 1102,
+ "pyeong_max": 1120,
+ "pyeong_avg": 1117,
+ "price_84_min": 37800,
+ "price_84_max": 37800,
+ "special_kinds": {
+  "신혼부부": 8,
+  "생애최초": 4,
+  "신생아": 5,
+  "다자녀": 5,
+  "노부모 부양": 1,
+  "기관추천": 5
+ },
+ "region_price": {
+  "scope": "전남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "소제지구 A3BL 중흥S-클래스 우미린",
+   "소제지구 A4BL 중흥S-클래스 우미린",
+   "호반써밋 첨단3지구(A8BL)"
+  ],
+  "peer_avg_pyeong": 1480,
+  "diff": -363,
+  "diff_pct": -25,
+  "rank": 4,
+  "of": 4
+ }
+}

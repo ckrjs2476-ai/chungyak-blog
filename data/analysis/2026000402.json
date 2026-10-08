@@ -1,0 +1,75 @@
+{
+ "no": "2026000402",
+ "name": "익산 부송에코르 10년 공공임대주택",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-10-08",
+ "rank1_date": "2026-10-23",
+ "city": "익산시",
+ "supply_kind": "국민",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000402&pblancNo=2026000402",
+ "households": 300,
+ "types": [
+  {
+   "ty": "59.9288A",
+   "size": 59,
+   "price": 7200,
+   "area_m2": 84.1857,
+   "general": 17,
+   "special": 66,
+   "pyeong_price": 283,
+   "special_share_pct": 80
+  },
+  {
+   "ty": "59.3359B",
+   "size": 59,
+   "price": 7200,
+   "area_m2": 83.9663,
+   "general": 15,
+   "special": 60,
+   "pyeong_price": 283,
+   "special_share_pct": 80
+  },
+  {
+   "ty": "59.9793C",
+   "size": 59,
+   "price": 7200,
+   "area_m2": 84.5018,
+   "general": 28,
+   "special": 114,
+   "pyeong_price": 282,
+   "special_share_pct": 80
+  }
+ ],
+ "general_total": 60,
+ "special_total": 240,
+ "special_share_pct": 80,
+ "pyeong_min": 282,
+ "pyeong_max": 283,
+ "pyeong_avg": 283,
+ "special_kinds": {
+  "신혼부부": 30,
+  "생애최초": 45,
+  "신생아": 60,
+  "다자녀": 30,
+  "노부모 부양": 15,
+  "기관추천": 60
+ },
+ "region_price": {
+  "scope": "전북",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "익산 펠리피아",
+   "군산 세경아파트 우선분양전환 후 잔여세대 ",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_pyeong": 1152,
+  "diff": -869,
+  "diff_pct": -75,
+  "rank": 4,
+  "of": 5
+ }
+}

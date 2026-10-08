@@ -129,6 +129,25 @@
    "stage": "1순위 해당지역"
   }
  },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "74.9469",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "74.9469": 0,
+   "75.9849": 0,
+   "84.963A": 0,
+   "84.965B": 0,
+   "84.8968C": 0
+  },
+  "avg_min": 23.9,
+  "max": {
+   "score": 61,
+   "ty": "84.963A"
+  }
+ },
  "region_price": {
   "scope": "울산",
   "supply_kind": "민영",
@@ -160,5 +179,15 @@
   "peer_avg_rate": 0.52,
   "rank": 1,
   "of": 6
+ },
+ "region_score": {
+  "scope": "울산",
+  "peer_count": 2,
+  "peers": [
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
  }
 }

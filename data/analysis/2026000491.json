@@ -1,0 +1,100 @@
+{
+ "no": "2026000491",
+ "name": "청주 가경 아이파크 7단지",
+ "kind": "apt",
+ "region": "충북",
+ "notice_date": "2026-10-08",
+ "rank1_date": "2026-10-20",
+ "city": "청주시",
+ "supply_kind": "민영",
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000491&pblancNo=2026000491",
+ "households": 543,
+ "types": [
+  {
+   "ty": "84.98A",
+   "size": 84,
+   "price": 54110,
+   "area_m2": 111.2772,
+   "general": 34,
+   "special": 57,
+   "pyeong_price": 1607,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.94B",
+   "size": 84,
+   "price": 52460,
+   "area_m2": 112.3782,
+   "general": 43,
+   "special": 70,
+   "pyeong_price": 1543,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "102.85",
+   "size": 102,
+   "price": 64170,
+   "area_m2": 133.8484,
+   "general": 198,
+   "special": 28,
+   "pyeong_price": 1585,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "116.73",
+   "size": 116,
+   "price": 73580,
+   "area_m2": 153.4072,
+   "general": 99,
+   "special": 14,
+   "pyeong_price": 1586,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 374,
+ "special_total": 169,
+ "special_share_pct": 31,
+ "pyeong_min": 1543,
+ "pyeong_max": 1607,
+ "pyeong_avg": 1580,
+ "price_84_min": 52460,
+ "price_84_max": 54110,
+ "special_kinds": {
+  "신혼부부": 29,
+  "생애최초": 13,
+  "신생아": 20,
+  "다자녀": 53,
+  "노부모 부양": 14,
+  "기관추천": 40
+ },
+ "region_price": {
+  "scope": "청주시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "청주 한양립스 더 벨루체",
+   "청주 가경 아이파크 8단지"
+  ],
+  "peer_avg_pyeong": 1568,
+  "diff": 12,
+  "diff_pct": 1,
+  "rank": 2,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "충북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "청주 한양립스 더 벨루체",
+   "청주 가경 아이파크 8단지"
+  ],
+  "peer_avg_pyeong": 1568,
+  "diff": 12,
+  "diff_pct": 1,
+  "rank": 2,
+  "of": 3
+ }
+}

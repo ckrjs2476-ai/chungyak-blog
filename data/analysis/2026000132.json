@@ -141,18 +141,35 @@
   "rank1_avg_rate": 0.22
  },
  "region_price": {
+  "scope": "청주시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "청주 푸르지오 씨엘리체",
+   "청주 가경 아이파크 7단지",
+   "청주 가경 아이파크 8단지"
+  ],
+  "peer_avg_pyeong": 1590,
+  "diff": -88,
+  "diff_pct": -6,
+  "rank": 4,
+  "of": 4
+ },
+ "region_price_wide": {
   "scope": "충북",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 2,
+  "peer_count": 3,
   "peers": [
-   "청주지북지구 B1블록 공공분양주택",
-   "청주 푸르지오 씨엘리체"
+   "청주 푸르지오 씨엘리체",
+   "청주 가경 아이파크 7단지",
+   "청주 가경 아이파크 8단지"
   ],
-  "peer_avg_pyeong": 1408,
-  "diff": 94,
-  "diff_pct": 7,
-  "rank": 2,
-  "of": 3
+  "peer_avg_pyeong": 1590,
+  "diff": -88,
+  "diff_pct": -6,
+  "rank": 4,
+  "of": 4
  }
 }
