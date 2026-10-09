@@ -324,11 +324,27 @@ def _days(a: str, b: date) -> int | None:
 
 
 def volume_points(v: int | None) -> int:
-    """네이버 월간 검색 수(PC+모바일) → 가산점. 실제 검색량이 있으면 대리 지표보다 무겁게 본다."""
+    """네이버 월간 검색 수(PC+모바일) → 가산점.
+
+    새 블로그는 검색량이 아주 큰 단지에서 뉴스·대형 사이트를 이기기 어렵다. 그래서 수요는 충분하면서
+    경쟁이 덜한 중간 구간(월 1천~1만)을 가장 높게 본다 (2026-10-09 사용자와 합의, 가정).
+    서치콘솔에서 글별 노출·평균 순위가 쌓이면(2개월 뒤) 구간을 조정한다.
+    """
     if v is None:
         return 0
-    return 45 if v >= 10000 else 35 if v >= 3000 else 26 if v >= 1000 else 17 if v >= 300 else 9 if v >= 100 \
-        else 4 if v >= 30 else 0
+    if v >= 20000:
+        return 18   # 수요는 크지만 상위 노출 경쟁이 가장 심함
+    if v >= 10000:
+        return 24
+    if v >= 3000:
+        return 32
+    if v >= 1000:
+        return 34   # 가장 좋은 구간
+    if v >= 300:
+        return 28
+    if v >= 100:
+        return 16
+    return 6 if v >= 30 else 0
 
 
 def job_priority(job: dict, a: dict, today: date, volume: int | None = None) -> int | None:
