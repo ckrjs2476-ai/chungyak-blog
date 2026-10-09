@@ -390,14 +390,14 @@ def job_priority(job: dict, a: dict, today: date, volume: int | None = None) -> 
     hot = heat(c.get("rank1_avg_rate"))
     if typ == "competition":
         d = _days(a["rank1_date"], today)
-        if d is None or d > 21:
-            return None
-        return base + hot + (50 if d <= 2 else 25 if d <= 7 else 0)
+        if d is None or d < 1 or d > 7:
+            return None  # 경쟁률 검색은 1순위 다음 날 몰리고 일주일 뒤면 크게 준다
+        return base + hot + (50 if d <= 2 else 25)
     if typ == "score":
         d = _days(a.get("winner_date", ""), today)
-        if d is None or d < 0 or d > 21:
-            return None
-        return base + hot + (50 if d <= 1 else 25 if d <= 7 else 0)
+        if d is None or d < 0 or d > 10:
+            return None  # 가점 커트라인 검색은 발표 당일 몰리고 열흘 뒤면 크게 준다
+        return base + hot + (50 if d <= 1 else 25 if d <= 7 else 10)
     return base
 
 
