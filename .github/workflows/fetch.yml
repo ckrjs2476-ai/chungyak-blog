@@ -26,6 +26,11 @@ jobs:
       - run: python src/fetch.py ${{ github.event.inputs.days || '30' }}
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+      - run: python src/search_volume.py
+        env:
+          NAVER_AD_CUSTOMER_ID: ${{ secrets.NAVER_AD_CUSTOMER_ID }}
+          NAVER_AD_API_KEY: ${{ secrets.NAVER_AD_API_KEY }}
+          NAVER_AD_SECRET: ${{ secrets.NAVER_AD_SECRET }}
       - run: python src/analysis.py
       - name: 저장
         run: |

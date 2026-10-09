@@ -323,7 +323,15 @@ def _days(a: str, b: date) -> int | None:
         return None
 
 
-def job_priority(job: dict, a: dict, today: date) -> int | None:
+def volume_points(v: int | None) -> int:
+    """네이버 월간 검색 수(PC+모바일) → 가산점. 실제 검색량이 있으면 대리 지표보다 무겁게 본다."""
+    if v is None:
+        return 0
+    return 45 if v >= 10000 else 35 if v >= 3000 else 26 if v >= 1000 else 17 if v >= 300 else 9 if v >= 100 \
+        else 4 if v >= 30 else 0
+
+
+def job_priority(job: dict, a: dict, today: date, volume: int | None = None) -> int | None:
     """검색이 몰리는 시점에 맞춰 글 후보의 점수를 매긴다. None이면 후보에서 뺀다.
 
     검색은 대체로 (1) 공고 뒤~1순위 접수 전 '분양가·일정', (2) 1순위 다음 날 '경쟁률',
@@ -347,6 +355,7 @@ def job_priority(job: dict, a: dict, today: date) -> int | None:
     if any(b in str(a["name"]) for b in BRANDS):
         base += 8
     base += min(a["households"] // 200, 5)
+    base += volume_points(volume)  # 네이버 검색광고 API의 실제 검색 수 (있을 때만)
 
     def heat(rate) -> int:
         if rate is None:
@@ -385,14 +394,18 @@ def rescore_jobs(all_: list[dict], today: date) -> None:
     pub = ROOT / "data" / "published.json"
     done = {f"{x.get('house_manage_no')}:{x.get('type')}" for x in
             (json.loads(pub.read_text("utf-8")).get("posts", []) if pub.exists() else [])}
+    sv = ROOT / "data" / "search_volume.json"
+    vols = json.loads(sv.read_text("utf-8")).get("names", {}) if sv.exists() else {}
     kept = []
     for j in data.get("jobs", []):
         if f"{j['house_manage_no']}:{j['type']}" in done:
             continue
         a = by_no.get(str(j["house_manage_no"]))
-        pr = job_priority(j, a, today) if a else None
+        vol = (vols.get(str(j.get("name"))) or {}).get("volume")
+        pr = job_priority(j, a, today, vol) if a else None
         if pr is not None:
-            kept.append({**j, "priority": pr, "rank1_date": a["rank1_date"], "winner_date": a.get("winner_date")})
+            kept.append({**j, "priority": pr, "search_volume": vol,
+                         "rank1_date": a["rank1_date"], "winner_date": a.get("winner_date")})
     kept.sort(key=lambda j: j["priority"], reverse=True)
     data["jobs"] = kept
     p.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
