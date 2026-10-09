@@ -2,5 +2,6 @@
   "mode": "live",
   "start_date": "2026-10-08",
   "blog_url": "https://daily-cheongyak.blogspot.com/",
-  "note": "mode: draft=임시저장만, live=바로 발행. start_date: 자동 발행을 시작한 날(YYYY-MM-DD). 첫 7일은 오전 1편만."
+  "note": "mode: draft=임시저장만, live=바로 발행. start_date: 자동 발행 시작일. two_per_day_from: 이 날짜부터 저녁 글도 씀(하루 2편). 그 전에는 오전 1편만.",
+  "two_per_day_from": "2026-10-09"
 }

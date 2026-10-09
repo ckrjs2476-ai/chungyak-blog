@@ -6,7 +6,8 @@
 ## 0. 실행할지 판단
 1. 한국 시간(Asia/Seoul) 현재 시각을 확인한다.
 2. config.json의 start_date가 null이면 아무것도 하지 않고 끝낸다(아직 가동 전).
-3. start_date부터 7일이 안 지났고 지금이 오후(12시 이후)면 끝낸다. 첫 주는 오전 1편만.
+3. 지금이 오후(12시 이후)이고 오늘 날짜가 config.json의 two_per_day_from보다 앞이면 끝낸다(그 전에는 오전 1편만).
+   two_per_day_from이 없으면 start_date부터 7일이 지난 뒤부터 저녁에도 쓴다.
 
 ## 1. 준비
 1. 저장소를 최신으로 받는다 (git pull).
