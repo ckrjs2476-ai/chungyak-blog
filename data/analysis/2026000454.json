@@ -8,6 +8,9 @@
  "city": "천안시",
  "supply_kind": "민영",
  "winner_date": "2026-10-06",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000454&pblancNo=2026000454",
  "households": 7,
  "types": [
@@ -144,6 +147,12 @@
   "diff_pct": -14,
   "rank": 15,
   "of": 19
+ },
+ "area_competition": {
+  "scope": "천안시",
+  "peer_count": 13,
+  "peer_avg_rate": 2.94,
+  "peer_max_rate": 26.27
  },
  "region_competition": {
   "scope": "천안시",

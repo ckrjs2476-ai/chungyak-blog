@@ -8,6 +8,9 @@
  "city": "중구",
  "supply_kind": "국민",
  "winner_date": "2026-02-25",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000022&pblancNo=2026000022",
  "households": 34,
  "types": [
@@ -85,6 +88,12 @@
   "diff_pct": -27,
   "rank": 3,
   "of": 3
+ },
+ "area_competition": {
+  "scope": "울산",
+  "peer_count": 9,
+  "peer_avg_rate": 4.17,
+  "peer_max_rate": 12.34
  },
  "region_competition": {
   "scope": "울산",

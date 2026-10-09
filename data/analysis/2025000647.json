@@ -8,6 +8,9 @@
  "city": "구리시",
  "supply_kind": "국민",
  "winner_date": "2026-01-27",
+ "price_cap": false,
+ "rental": true,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000647&pblancNo=2025000647",
  "households": 309,
  "types": [
@@ -37,25 +40,10 @@
   "기관추천": 15,
   "청년": 16
  },
- "region_price": {
+ "area_competition": {
   "scope": "경기",
-  "supply_kind": "국민",
-  "days": 180,
-  "peer_count": 22,
-  "peers": [
-   "남양주진접2지구 A-7블록 공공분양주택 입주자모집(본청약)",
-   "남양주 별내리슈빌아파트 분양전환 후 잔여세대",
-   "남양주왕숙지구 B-17블록 공공분양주택(본청약)",
-   "김포고촌2지구 A1블록 공공분양주택",
-   "남양주진접2지구 B-1블록 공공분양(본청약)",
-   "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
-   "구리갈매역세권 A-4블록 공공분양주택(본청약)",
-   "과천주암지구 C1블록 공공분양주택(본청약)"
-  ],
-  "peer_avg_pyeong": 1930,
-  "diff": -1541,
-  "diff_pct": -80,
-  "rank": 23,
-  "of": 23
+  "peer_count": 36,
+  "peer_avg_rate": 9.82,
+  "peer_max_rate": 100.45
  }
 }

@@ -8,6 +8,9 @@
  "city": "성남시",
  "supply_kind": "민영",
  "winner_date": "2026-10-02",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000103&pblancNo=2026000103",
  "households": 143,
  "types": [
@@ -310,6 +313,12 @@
   "diff_pct": 255,
   "rank": 1,
   "of": 44
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 39,
+  "peer_avg_rate": 2.31,
+  "peer_max_rate": 21.98
  },
  "region_competition": {
   "scope": "경기",

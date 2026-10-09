@@ -8,6 +8,9 @@
  "city": "남양주시",
  "supply_kind": "민영",
  "winner_date": "2026-09-01",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000365&pblancNo=2026000365",
  "households": 180,
  "types": [
@@ -148,6 +151,12 @@
   "diff_pct": -10,
   "rank": 25,
   "of": 49
+ },
+ "area_competition": {
+  "scope": "남양주시",
+  "peer_count": 2,
+  "peer_avg_rate": 2.25,
+  "peer_max_rate": 3.03
  },
  "region_competition": {
   "scope": "남양주시",

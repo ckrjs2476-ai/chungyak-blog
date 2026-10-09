@@ -8,6 +8,9 @@
  "city": "영주시",
  "supply_kind": "민영",
  "winner_date": "2025-11-11",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000512&pblancNo=2025000512",
  "households": 445,
  "types": [
@@ -115,6 +118,12 @@
   "diff_pct": 4,
   "rank": 4,
   "of": 9
+ },
+ "area_competition": {
+  "scope": "경북",
+  "peer_count": 2,
+  "peer_avg_rate": 4.41,
+  "peer_max_rate": 8.82
  },
  "region_competition": {
   "scope": "경북",

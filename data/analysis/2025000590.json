@@ -8,6 +8,9 @@
  "city": "나주시",
  "supply_kind": "민영",
  "winner_date": "2025-12-09",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000590&pblancNo=2025000590",
  "households": 140,
  "types": [
@@ -126,6 +129,12 @@
   "diff_pct": -23,
   "rank": 8,
   "of": 8
+ },
+ "area_competition": {
+  "scope": "전남",
+  "peer_count": 3,
+  "peer_avg_rate": 3.01,
+  "peer_max_rate": 4.53
  },
  "region_competition": {
   "scope": "전남",

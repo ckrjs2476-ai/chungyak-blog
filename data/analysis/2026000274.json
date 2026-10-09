@@ -8,6 +8,9 @@
  "city": "군산시",
  "supply_kind": "국민",
  "winner_date": "2026-07-14",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000274&pblancNo=2026000274",
  "households": 153,
  "types": [
@@ -58,20 +61,25 @@
   "scope": "전북",
   "supply_kind": "국민",
   "days": 180,
-  "peer_count": 6,
+  "peer_count": 5,
   "peers": [
    "북전주 광신프로그레스",
    "골드클래스 시그니처",
    "익산 펠리피아",
    "아르티엠 라 테라스",
-   "익산 부송에코르 10년 공공임대주택",
    "삼천 하늘채 라비엘"
   ],
-  "peer_avg_pyeong": 1259,
-  "diff": -980,
-  "diff_pct": -78,
-  "rank": 7,
-  "of": 7
+  "peer_avg_pyeong": 1454,
+  "diff": -1175,
+  "diff_pct": -81,
+  "rank": 6,
+  "of": 6
+ },
+ "area_competition": {
+  "scope": "전북",
+  "peer_count": 3,
+  "peer_avg_rate": 11.82,
+  "peer_max_rate": 34.65
  },
  "region_competition": {
   "scope": "전북",

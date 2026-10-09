@@ -8,6 +8,9 @@
  "city": "공주시",
  "supply_kind": "민영",
  "winner_date": "2026-05-20",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000053&pblancNo=2026000053",
  "households": 811,
  "types": [
@@ -164,6 +167,12 @@
   "diff_pct": -17,
   "rank": 20,
   "of": 24
+ },
+ "area_competition": {
+  "scope": "충남",
+  "peer_count": 13,
+  "peer_avg_rate": 4.5,
+  "peer_max_rate": 26.27
  },
  "region_competition": {
   "scope": "충남",

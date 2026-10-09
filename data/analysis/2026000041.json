@@ -8,6 +8,9 @@
  "city": "강서구",
  "supply_kind": "국민",
  "winner_date": "2026-04-02",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000041&pblancNo=2026000041",
  "households": 381,
  "types": [
@@ -67,5 +70,11 @@
   "diff_pct": -78,
   "rank": 25,
   "of": 25
+ },
+ "area_competition": {
+  "scope": "서울",
+  "peer_count": 6,
+  "peer_avg_rate": 185.81,
+  "peer_max_rate": 487.09
  }
 }

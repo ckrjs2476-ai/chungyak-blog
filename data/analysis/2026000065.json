@@ -8,6 +8,9 @@
  "city": "서구",
  "supply_kind": "민영",
  "winner_date": "2026-04-14",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000065&pblancNo=2026000065",
  "households": 569,
  "types": [
@@ -130,6 +133,12 @@
   "diff_pct": -20,
   "rank": 18,
   "of": 25
+ },
+ "area_competition": {
+  "scope": "인천",
+  "peer_count": 11,
+  "peer_avg_rate": 4.5,
+  "peer_max_rate": 43.55
  },
  "region_competition": {
   "scope": "서구",

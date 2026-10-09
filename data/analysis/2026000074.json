@@ -8,6 +8,9 @@
  "city": "사상구",
  "supply_kind": "민영",
  "winner_date": "2026-04-14",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000074&pblancNo=2026000074",
  "households": 1061,
  "types": [
@@ -249,6 +252,12 @@
   "diff_pct": -18,
   "rank": 17,
   "of": 24
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 9,
+  "peer_avg_rate": 2.72,
+  "peer_max_rate": 21.0
  },
  "region_competition": {
   "scope": "부산",

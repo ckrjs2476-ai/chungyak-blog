@@ -8,6 +8,9 @@
  "city": "수영구",
  "supply_kind": "민영",
  "winner_date": "2026-06-23",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000148&pblancNo=2026000148",
  "households": 366,
  "types": [
@@ -229,6 +232,12 @@
   "diff_pct": 117,
   "rank": 1,
   "of": 22
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 14,
+  "peer_avg_rate": 1.92,
+  "peer_max_rate": 21.0
  },
  "region_competition": {
   "scope": "부산",

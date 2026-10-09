@@ -8,6 +8,9 @@
  "city": "미추홀구",
  "supply_kind": "민영",
  "winner_date": "2025-11-12",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000425&pblancNo=2025000425",
  "households": 959,
  "types": [
@@ -166,6 +169,12 @@
   "diff_pct": 2,
   "rank": 6,
   "of": 17
+ },
+ "area_competition": {
+  "scope": "인천",
+  "peer_count": 4,
+  "peer_avg_rate": 1.01,
+  "peer_max_rate": 3.3
  },
  "region_competition": {
   "scope": "인천",

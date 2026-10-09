@@ -8,6 +8,9 @@
  "city": "동래구",
  "supply_kind": "민영",
  "winner_date": "2026-04-21",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000101&pblancNo=2026000101",
  "households": 129,
  "types": [
@@ -149,6 +152,12 @@
   "diff_pct": -1,
   "rank": 11,
   "of": 24
+ },
+ "area_competition": {
+  "scope": "동래구",
+  "peer_count": 3,
+  "peer_avg_rate": 0.45,
+  "peer_max_rate": 0.85
  },
  "region_competition": {
   "scope": "동래구",

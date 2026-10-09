@@ -8,6 +8,9 @@
  "city": "양산시",
  "supply_kind": "민영",
  "winner_date": "2026-01-20",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000650&pblancNo=2025000650",
  "households": 162,
  "types": [
@@ -145,6 +148,12 @@
   "diff_pct": -10,
   "rank": 8,
   "of": 14
+ },
+ "area_competition": {
+  "scope": "경남",
+  "peer_count": 3,
+  "peer_avg_rate": 235.72,
+  "peer_max_rate": 706.61
  },
  "region_competition": {
   "scope": "양산시",

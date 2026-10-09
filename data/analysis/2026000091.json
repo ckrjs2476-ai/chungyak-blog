@@ -8,6 +8,9 @@
  "city": "여수시",
  "supply_kind": "민영",
  "winner_date": "2026-05-15",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000091&pblancNo=2026000091",
  "households": 584,
  "types": [
@@ -181,6 +184,12 @@
   "diff_pct": 4,
   "rank": 4,
   "of": 8
+ },
+ "area_competition": {
+  "scope": "여수시",
+  "peer_count": 2,
+  "peer_avg_rate": 0.47,
+  "peer_max_rate": 0.83
  },
  "region_competition": {
   "scope": "여수시",

@@ -8,6 +8,9 @@
  "city": "부평구",
  "supply_kind": "민영",
  "winner_date": "2026-02-20",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000010&pblancNo=2026000010",
  "households": 41,
  "types": [
@@ -201,6 +204,12 @@
   "diff_pct": -2,
   "rank": 11,
   "of": 28
+ },
+ "area_competition": {
+  "scope": "인천",
+  "peer_count": 12,
+  "peer_avg_rate": 4.19,
+  "peer_max_rate": 43.55
  },
  "region_competition": {
   "scope": "부평구",

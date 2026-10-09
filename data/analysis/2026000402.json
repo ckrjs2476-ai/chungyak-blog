@@ -8,6 +8,9 @@
  "city": "익산시",
  "supply_kind": "국민",
  "winner_date": "2026-10-30",
+ "price_cap": false,
+ "rental": true,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000402&pblancNo=2026000402",
  "households": 300,
  "types": [
@@ -56,21 +59,10 @@
   "노부모 부양": 15,
   "기관추천": 60
  },
- "region_price": {
+ "area_competition": {
   "scope": "전북",
-  "supply_kind": "국민",
-  "days": 180,
   "peer_count": 4,
-  "peers": [
-   "익산 펠리피아",
-   "군산 세경아파트 우선분양전환 후 잔여세대 ",
-   "아르티엠 라 테라스",
-   "삼천 하늘채 라비엘"
-  ],
-  "peer_avg_pyeong": 1152,
-  "diff": -869,
-  "diff_pct": -75,
-  "rank": 4,
-  "of": 5
+  "peer_avg_rate": 3.76,
+  "peer_max_rate": 14.78
  }
 }

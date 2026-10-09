@@ -8,6 +8,9 @@
  "city": "남구",
  "supply_kind": "민영",
  "winner_date": "2025-11-26",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000515&pblancNo=2025000515",
  "households": 123,
  "types": [
@@ -130,6 +133,12 @@
   "diff_pct": 7,
   "rank": 5,
   "of": 11
+ },
+ "area_competition": {
+  "scope": "울산",
+  "peer_count": 2,
+  "peer_avg_rate": 4.95,
+  "peer_max_rate": 9.89
  },
  "region_competition": {
   "scope": "남구",

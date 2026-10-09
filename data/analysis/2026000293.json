@@ -8,6 +8,9 @@
  "city": "강릉시",
  "supply_kind": "민영",
  "winner_date": "2026-08-11",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000293&pblancNo=2026000293",
  "households": 302,
  "types": [
@@ -185,6 +188,12 @@
   "diff_pct": -2,
   "rank": 5,
   "of": 6
+ },
+ "area_competition": {
+  "scope": "강릉시",
+  "peer_count": 2,
+  "peer_avg_rate": 0.15,
+  "peer_max_rate": 0.28
  },
  "region_competition": {
   "scope": "강릉시",

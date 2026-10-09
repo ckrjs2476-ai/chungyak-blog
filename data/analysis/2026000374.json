@@ -8,6 +8,9 @@
  "city": "영등포구",
  "supply_kind": "민영",
  "winner_date": "2026-08-27",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000374&pblancNo=2026000374",
  "households": 67,
  "types": [
@@ -329,6 +332,12 @@
   "diff_pct": -12,
   "rank": 13,
   "of": 21
+ },
+ "area_competition": {
+  "scope": "영등포구",
+  "peer_count": 2,
+  "peer_avg_rate": 60.55,
+  "peer_max_rate": 89.24
  },
  "region_competition": {
   "scope": "영등포구",

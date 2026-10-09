@@ -8,6 +8,9 @@
  "city": "밀양시",
  "supply_kind": "국민",
  "winner_date": "2026-07-08",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000261&pblancNo=2026000261",
  "households": 114,
  "types": [
@@ -88,6 +91,12 @@
   "diff_pct": 35,
   "rank": 2,
   "of": 3
+ },
+ "area_competition": {
+  "scope": "경남",
+  "peer_count": 8,
+  "peer_avg_rate": 8.91,
+  "peer_max_rate": 27.37
  },
  "region_competition": {
   "scope": "경남",

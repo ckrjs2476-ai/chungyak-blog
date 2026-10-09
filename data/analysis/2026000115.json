@@ -8,6 +8,9 @@
  "city": "구미시",
  "supply_kind": "민영",
  "winner_date": "2026-05-07",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000115&pblancNo=2026000115",
  "households": 63,
  "types": [
@@ -132,6 +135,12 @@
   "diff_pct": 4,
   "rank": 3,
   "of": 10
+ },
+ "area_competition": {
+  "scope": "경북",
+  "peer_count": 7,
+  "peer_avg_rate": 1.48,
+  "peer_max_rate": 7.61
  },
  "region_competition": {
   "scope": "경북",

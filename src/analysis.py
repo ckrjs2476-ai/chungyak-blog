@@ -154,6 +154,9 @@ def analyze_unit(unit: dict) -> dict:
            "city": (str(d.get("HSSPLY_ADRES", "")).split() + ["", ""])[1],
            "supply_kind": str(d.get("HOUSE_DTL_SECD_NM") or ""),
            "winner_date": _ymd(d.get("PRZWNER_PRESNATN_DE")),
+           "price_cap": str(d.get("PARCPRC_ULS_AT") or "").upper() == "Y",          # 분양가상한제
+           "rental": str(d.get("RENT_SECD") or "0") not in ("0", ""),                # 임대(가격 비교 제외)
+           "speculative_zone": str(d.get("SPECLT_RDN_EARTH_AT") or "").upper() == "Y",  # 투기과열지구
            "url": d.get("PBLANC_URL"), "households": int(_num(d.get("TOT_SUPLY_HSHLDCO")) or 0),
            "types": types, "general_total": gen, "special_total": spc}
     if gen + spc:
@@ -209,8 +212,8 @@ def add_region_compare(all_: list[dict]) -> None:
     for a in apt:
         if a.get("pyeong_avg"):
             # region_price: 가장 가까운 비교(같은 시), region_price_wide: 같은 시·도 같은 공급 구분
-            for key, start in (("region_price", 0), ("region_price_wide", 1)):
-                scope, peers = _peers(a, apt, lambda b: b.get("pyeong_avg"), start)
+            for key, start in (() if a.get("rental") else (("region_price", 0), ("region_price_wide", 1))):
+                scope, peers = _peers(a, apt, lambda b: b.get("pyeong_avg") and not b.get("rental"), start)
                 if not peers or (key == "region_price_wide" and scope == a.get("region_price", {}).get("scope")
                                  and len(peers) == a.get("region_price", {}).get("peer_count")):
                     continue
@@ -222,6 +225,14 @@ def add_region_compare(all_: list[dict]) -> None:
                           "peer_avg_pyeong": avg, "diff": a["pyeong_avg"] - avg,
                           "diff_pct": round((a["pyeong_avg"] - avg) * 100 / avg),
                           "rank": ranked.index(a["pyeong_avg"]) + 1, "of": len(ranked)}
+        # 지역 관심도: 이 단지 앞 6개월 동안 같은 지역 단지들의 1순위 평균 경쟁률 (공고 글 우선순위에 쓴다)
+        scope, peers = _peers(a, [b for b in apt if b["notice_date"] < a["notice_date"]],
+                              lambda b: (b.get("competition") or {}).get("rank1_avg_rate") is not None)
+        if peers:
+            rs = [b["competition"]["rank1_avg_rate"] for b in peers]
+            a["area_competition"] = {"scope": scope, "peer_count": len(rs),
+                                     "peer_avg_rate": round(sum(rs) / len(rs), 2),
+                                     "peer_max_rate": max(rs)}
         rate = (a.get("competition") or {}).get("rank1_avg_rate")
         if rate is not None:
             scope, peers = _peers(a, apt, lambda b: (b.get("competition") or {}).get("rank1_avg_rate") is not None)
@@ -321,22 +332,37 @@ def job_priority(job: dict, a: dict, today: date) -> int | None:
     """
     if a["households"] < 30 or "취소분" in str(a["name"]):
         return None  # 소규모 재공급은 검색이 거의 없고 글이 얇아진다
+    # 규모가 아니라 '청약하려는 사람이 얼마나 찾을까'를 본다 (2026-10-09 사용자 요청)
     region = a["region"]
-    base = {"서울": 30, "경기": 25, "인천": 25}.get(region, 15 if region in ("부산", "대구", "광주", "대전", "울산", "세종") else 5)
-    base += min(a["households"] // 50, 25)
+    base = {"서울": 25, "경기": 15, "인천": 12}.get(
+        region, 8 if region in ("부산", "대구", "광주", "대전", "울산", "세종") else 0)
+    if a.get("price_cap") and a.get("supply_kind") == "민영":
+        base += 20  # 민영 분양가상한제: 시세보다 싸게 나와 신청자가 몰린다 (공공분양은 모두 상한제라 가산 안 함)
+    if a.get("speculative_zone"):
+        base += 5
+    rp = a.get("region_price_wide") or a.get("region_price") or {}
+    dp = rp.get("diff_pct")
+    if dp is not None:
+        base += 12 if dp <= -15 else 6 if dp <= -5 else -6 if dp >= 15 else 0  # 주변보다 싸면 관심이 커진다
     if any(b in str(a["name"]) for b in BRANDS):
-        base += 15
+        base += 8
+    base += min(a["households"] // 200, 5)
+
+    def heat(rate) -> int:
+        if rate is None:
+            return 0
+        return 30 if rate >= 50 else 22 if rate >= 20 else 15 if rate >= 10 else 8 if rate >= 3 else 3 if rate >= 1 else -8
     typ = job["type"]
     if typ == "notice":
         to_rank1 = -(_days(a["rank1_date"], today) or 0) if a["rank1_date"] else None
         if to_rank1 is None or to_rank1 < 0:
             return None  # 1순위 접수가 지난 단지의 공고 글은 쓰지 않는다
         age = _days(a["notice_date"], today) or 0
-        urgent = 15 if to_rank1 <= 5 else 0  # 접수가 코앞이면 지금 안 쓰면 기회가 없다
-        return base + 45 - 3 * age + urgent  # 공고 직후일수록 높게
+        area = heat((a.get("area_competition") or {}).get("peer_avg_rate"))  # 그 지역 최근 청약 열기
+        # 접수 전이면 모두 쓸 가치가 있으니, 순서는 관심도가 정하고 시점은 작은 보정만 한다
+        return base + area + 20 - age + (8 if to_rank1 <= 5 else 0)
     c = a.get("competition") or {}
-    rate = c.get("rank1_avg_rate")
-    hot = 0 if rate is None else (25 if rate >= 50 else 15 if rate >= 10 else 5 if rate >= 1 else -10)
+    hot = heat(c.get("rank1_avg_rate"))
     if typ == "competition":
         d = _days(a["rank1_date"], today)
         if d is None or d > 21:

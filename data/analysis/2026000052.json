@@ -8,6 +8,9 @@
  "city": "시흥시",
  "supply_kind": "민영",
  "winner_date": "2026-03-31",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000052&pblancNo=2026000052",
  "households": 310,
  "types": [
@@ -110,6 +113,12 @@
   "diff_pct": -27,
   "rank": 62,
   "of": 85
+ },
+ "area_competition": {
+  "scope": "시흥시",
+  "peer_count": 3,
+  "peer_avg_rate": 0.76,
+  "peer_max_rate": 0.96
  },
  "region_competition": {
   "scope": "시흥시",

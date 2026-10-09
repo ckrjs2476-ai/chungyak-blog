@@ -8,6 +8,9 @@
  "city": "화성시",
  "supply_kind": "민영",
  "winner_date": "2026-04-24",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000069&pblancNo=2026000069",
  "households": 241,
  "types": [
@@ -181,6 +184,12 @@
   "diff_pct": -34,
   "rank": 74,
   "of": 86
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 45,
+  "peer_avg_rate": 7.6,
+  "peer_max_rate": 100.45
  },
  "region_competition": {
   "scope": "화성시",

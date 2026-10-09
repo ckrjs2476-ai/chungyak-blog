@@ -8,6 +8,9 @@
  "city": "의왕시",
  "supply_kind": "민영",
  "winner_date": "2026-07-29",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000301&pblancNo=2026000301",
  "households": 820,
  "types": [
@@ -203,6 +206,12 @@
   "diff_pct": 35,
   "rank": 8,
   "of": 53
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 36,
+  "peer_avg_rate": 3.17,
+  "peer_max_rate": 21.98
  },
  "region_competition": {
   "scope": "경기",

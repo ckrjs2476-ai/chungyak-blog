@@ -8,6 +8,9 @@
  "city": "전주시",
  "supply_kind": "민영",
  "winner_date": "2026-01-12",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000620&pblancNo=2025000620",
  "households": 48,
  "types": [
@@ -140,6 +143,12 @@
   "diff_pct": 22,
   "rank": 1,
   "of": 6
+ },
+ "area_competition": {
+  "scope": "전북",
+  "peer_count": 2,
+  "peer_avg_rate": 10.59,
+  "peer_max_rate": 21.16
  },
  "region_competition": {
   "scope": "전주시",

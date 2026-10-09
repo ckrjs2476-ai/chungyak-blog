@@ -8,6 +8,9 @@
  "city": "진주시",
  "supply_kind": "민영",
  "winner_date": "2026-10-08",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000446&pblancNo=2026000446",
  "households": 690,
  "types": [
@@ -165,6 +168,12 @@
   "diff_pct": 0,
   "rank": 6,
   "of": 15
+ },
+ "area_competition": {
+  "scope": "진주시",
+  "peer_count": 2,
+  "peer_avg_rate": 20.77,
+  "peer_max_rate": 21.15
  },
  "region_competition": {
   "scope": "진주시",

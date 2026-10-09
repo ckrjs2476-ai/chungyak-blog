@@ -8,6 +8,9 @@
  "city": "금정구",
  "supply_kind": "민영",
  "winner_date": "2026-04-17",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000040&pblancNo=2026000040",
  "households": 68,
  "types": [
@@ -91,6 +94,12 @@
   "diff_pct": -33,
   "rank": 22,
   "of": 24
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 11,
+  "peer_avg_rate": 2.33,
+  "peer_max_rate": 21.0
  },
  "region_competition": {
   "scope": "부산",

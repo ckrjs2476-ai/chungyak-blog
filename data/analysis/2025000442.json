@@ -8,6 +8,9 @@
  "city": "부산진구",
  "supply_kind": "민영",
  "winner_date": "2025-10-15",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000442&pblancNo=2025000442",
  "households": 81,
  "types": [
@@ -130,6 +133,12 @@
   "diff_pct": 0,
   "rank": 6,
   "of": 14
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 2,
+  "peer_avg_rate": 0.79,
+  "peer_max_rate": 1.52
  },
  "region_competition": {
   "scope": "부산진구",

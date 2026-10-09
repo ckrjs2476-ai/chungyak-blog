@@ -8,6 +8,9 @@
  "city": "양주시",
  "supply_kind": "민영",
  "winner_date": "2025-10-28",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000449&pblancNo=2025000449",
  "households": 845,
  "types": [
@@ -115,6 +118,12 @@
   "diff_pct": -42,
   "rank": 47,
   "of": 51
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 5,
+  "peer_avg_rate": 9.69,
+  "peer_max_rate": 37.96
  },
  "region_competition": {
   "scope": "경기",

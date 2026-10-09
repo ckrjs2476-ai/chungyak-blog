@@ -8,6 +8,9 @@
  "city": "제천시",
  "supply_kind": "국민",
  "winner_date": "2025-11-07",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000508&pblancNo=2025000508",
  "households": 182,
  "types": [
@@ -63,6 +66,12 @@
   "diff_pct": -72,
   "rank": 5,
   "of": 5
+ },
+ "area_competition": {
+  "scope": "충북",
+  "peer_count": 2,
+  "peer_avg_rate": 3.44,
+  "peer_max_rate": 5.21
  },
  "region_competition": {
   "scope": "충북",

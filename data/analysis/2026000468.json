@@ -8,6 +8,9 @@
  "city": "양평군",
  "supply_kind": "민영",
  "winner_date": "2026-10-20",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000468&pblancNo=2026000468",
  "households": 333,
  "types": [
@@ -108,5 +111,11 @@
   "diff_pct": -12,
   "rank": 22,
   "of": 41
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 39,
+  "peer_avg_rate": 2.41,
+  "peer_max_rate": 21.98
  }
 }

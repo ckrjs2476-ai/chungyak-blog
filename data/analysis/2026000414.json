@@ -8,6 +8,9 @@
  "city": "계양구",
  "supply_kind": "국민",
  "winner_date": "2026-10-21",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000414&pblancNo=2026000414",
  "households": 663,
  "types": [
@@ -187,5 +190,11 @@
   "diff_pct": 7,
   "rank": 1,
   "of": 5
+ },
+ "area_competition": {
+  "scope": "인천",
+  "peer_count": 15,
+  "peer_avg_rate": 12.49,
+  "peer_max_rate": 50.03
  }
 }

@@ -8,6 +8,9 @@
  "city": "해운대구",
  "supply_kind": "민영",
  "winner_date": "2026-06-04",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000188&pblancNo=2026000188",
  "households": 99,
  "types": [
@@ -147,6 +150,12 @@
   "diff_pct": 15,
   "rank": 5,
   "of": 22
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 12,
+  "peer_avg_rate": 2.19,
+  "peer_max_rate": 21.0
  },
  "region_competition": {
   "scope": "부산",

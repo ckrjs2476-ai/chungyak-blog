@@ -8,6 +8,9 @@
  "city": "거제시",
  "supply_kind": "국민",
  "winner_date": "2026-05-18",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000185&pblancNo=2026000185",
  "households": 376,
  "types": [
@@ -131,6 +134,12 @@
   "diff_pct": -53,
   "rank": 3,
   "of": 3
+ },
+ "area_competition": {
+  "scope": "경남",
+  "peer_count": 7,
+  "peer_avg_rate": 108.96,
+  "peer_max_rate": 706.61
  },
  "region_competition": {
   "scope": "경남",

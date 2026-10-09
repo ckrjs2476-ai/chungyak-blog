@@ -8,6 +8,9 @@
  "city": "김해시",
  "supply_kind": "민영",
  "winner_date": "2026-07-07",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000263&pblancNo=2026000263",
  "households": 375,
  "types": [
@@ -143,6 +146,12 @@
   "diff_pct": -12,
   "rank": 16,
   "of": 17
+ },
+ "area_competition": {
+  "scope": "경남",
+  "peer_count": 7,
+  "peer_avg_rate": 10.18,
+  "peer_max_rate": 27.37
  },
  "region_competition": {
   "scope": "김해시",

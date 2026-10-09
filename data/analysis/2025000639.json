@@ -8,6 +8,9 @@
  "city": "서귀포시",
  "supply_kind": "민영",
  "winner_date": "2026-02-03",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000639&pblancNo=2025000639",
  "households": 94,
  "types": [
@@ -195,6 +198,12 @@
   "diff_pct": -38,
   "rank": 7,
   "of": 7
+ },
+ "area_competition": {
+  "scope": "제주",
+  "peer_count": 2,
+  "peer_avg_rate": 0.12,
+  "peer_max_rate": 0.14
  },
  "region_competition": {
   "scope": "제주",

@@ -8,6 +8,9 @@
  "city": "가평군",
  "supply_kind": "민영",
  "winner_date": "2026-03-26",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000029&pblancNo=2026000029",
  "households": 1039,
  "types": [
@@ -229,6 +232,12 @@
   "diff_pct": -42,
   "rank": 82,
   "of": 84
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 43,
+  "peer_avg_rate": 8.81,
+  "peer_max_rate": 100.45
  },
  "region_competition": {
   "scope": "경기",

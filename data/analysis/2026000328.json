@@ -8,6 +8,9 @@
  "city": "울주군",
  "supply_kind": "민영",
  "winner_date": "2026-07-22",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000328&pblancNo=2026000328",
  "households": 74,
  "types": [
@@ -122,6 +125,12 @@
   "diff_pct": -49,
   "rank": 5,
   "of": 5
+ },
+ "area_competition": {
+  "scope": "울산",
+  "peer_count": 2,
+  "peer_avg_rate": 0.28,
+  "peer_max_rate": 0.37
  },
  "region_competition": {
   "scope": "울산",

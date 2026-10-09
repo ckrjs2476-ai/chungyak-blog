@@ -8,6 +8,9 @@
  "city": "서초구",
  "supply_kind": "민영",
  "winner_date": "2026-04-21",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000058&pblancNo=2026000058",
  "households": 86,
  "types": [
@@ -309,6 +312,12 @@
   "diff_pct": 28,
   "rank": 5,
   "of": 24
+ },
+ "area_competition": {
+  "scope": "서초구",
+  "peer_count": 2,
+  "peer_avg_rate": 668.31,
+  "peer_max_rate": 1099.1
  },
  "region_competition": {
   "scope": "서초구",

@@ -8,6 +8,9 @@
  "city": "김포시",
  "supply_kind": "민영",
  "winner_date": "2025-12-10",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000573&pblancNo=2025000573",
  "households": 612,
  "types": [
@@ -217,6 +220,12 @@
   "diff_pct": -18,
   "rank": 42,
   "of": 65
+ },
+ "area_competition": {
+  "scope": "김포시",
+  "peer_count": 2,
+  "peer_avg_rate": 12.06,
+  "peer_max_rate": 17.42
  },
  "region_competition": {
   "scope": "김포시",

@@ -8,6 +8,9 @@
  "city": "강남구",
  "supply_kind": "민영",
  "winner_date": "2025-12-24",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000566&pblancNo=2025000566",
  "households": 87,
  "types": [
@@ -186,6 +189,12 @@
   "diff_pct": 33,
   "rank": 3,
   "of": 17
+ },
+ "area_competition": {
+  "scope": "서울",
+  "peer_count": 3,
+  "peer_avg_rate": 192.01,
+  "peer_max_rate": 326.74
  },
  "region_competition": {
   "scope": "서울",

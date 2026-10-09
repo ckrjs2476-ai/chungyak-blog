@@ -8,6 +8,9 @@
  "city": "부천시",
  "supply_kind": "민영",
  "winner_date": "2026-03-04",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000017&pblancNo=2026000017",
  "households": 230,
  "types": [
@@ -153,6 +156,12 @@
   "diff_pct": 45,
   "rank": 10,
   "of": 81
+ },
+ "area_competition": {
+  "scope": "부천시",
+  "peer_count": 3,
+  "peer_avg_rate": 1.16,
+  "peer_max_rate": 1.69
  },
  "region_competition": {
   "scope": "부천시",

@@ -8,6 +8,9 @@
  "city": "경산시",
  "supply_kind": "민영",
  "winner_date": "2026-03-17",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000008&pblancNo=2026000008",
  "households": 1004,
  "types": [
@@ -144,6 +147,12 @@
   "diff_pct": 11,
   "rank": 2,
   "of": 11
+ },
+ "area_competition": {
+  "scope": "경북",
+  "peer_count": 6,
+  "peer_avg_rate": 1.76,
+  "peer_max_rate": 8.82
  },
  "region_competition": {
   "scope": "경북",

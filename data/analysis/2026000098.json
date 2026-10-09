@@ -8,6 +8,9 @@
  "city": "고양시",
  "supply_kind": "민영",
  "winner_date": "2026-06-01",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000098&pblancNo=2026000098",
  "households": 23,
  "types": [
@@ -131,6 +134,12 @@
   "diff_pct": -7,
   "rank": 31,
   "of": 74
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 44,
+  "peer_avg_rate": 4.45,
+  "peer_max_rate": 51.3
  },
  "region_competition": {
   "scope": "경기",

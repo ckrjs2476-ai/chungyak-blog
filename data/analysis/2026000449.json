@@ -8,6 +8,9 @@
  "city": "수원시",
  "supply_kind": "민영",
  "winner_date": "2026-10-01",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000449&pblancNo=2026000449",
  "households": 476,
  "types": [
@@ -218,6 +221,12 @@
   "diff_pct": 6,
   "rank": 12,
   "of": 44
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 39,
+  "peer_avg_rate": 2.31,
+  "peer_max_rate": 21.98
  },
  "region_competition": {
   "scope": "경기",

@@ -8,6 +8,9 @@
  "city": "화성특례시",
  "supply_kind": "민영",
  "winner_date": "2026-05-07",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000113&pblancNo=2026000113",
  "households": 160,
  "types": [
@@ -194,6 +197,12 @@
   "diff_pct": -2,
   "rank": 27,
   "of": 84
+ },
+ "area_competition": {
+  "scope": "화성특례시",
+  "peer_count": 2,
+  "peer_avg_rate": 0.55,
+  "peer_max_rate": 0.81
  },
  "region_competition": {
   "scope": "화성특례시",

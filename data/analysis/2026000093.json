@@ -8,6 +8,9 @@
  "city": "안동시",
  "supply_kind": "민영",
  "winner_date": "2026-04-28",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000093&pblancNo=2026000093",
  "households": 493,
  "types": [
@@ -184,6 +187,12 @@
   "diff_pct": -1,
   "rank": 4,
   "of": 10
+ },
+ "area_competition": {
+  "scope": "경북",
+  "peer_count": 7,
+  "peer_avg_rate": 1.65,
+  "peer_max_rate": 8.82
  },
  "region_competition": {
   "scope": "경북",

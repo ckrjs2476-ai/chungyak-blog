@@ -8,6 +8,9 @@
  "city": "익산시",
  "supply_kind": "민영",
  "winner_date": "2026-06-16",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000184&pblancNo=2026000184",
  "households": 572,
  "types": [
@@ -124,6 +127,12 @@
   "diff_pct": -21,
   "rank": 6,
   "of": 6
+ },
+ "area_competition": {
+  "scope": "전북",
+  "peer_count": 3,
+  "peer_avg_rate": 12.8,
+  "peer_max_rate": 34.65
  },
  "region_competition": {
   "scope": "전북",

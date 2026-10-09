@@ -8,6 +8,9 @@
  "city": "안양시",
  "supply_kind": "민영",
  "winner_date": "2026-04-14",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000070&pblancNo=2026000070",
  "households": 55,
  "types": [
@@ -272,6 +275,12 @@
   "diff_pct": 22,
   "rank": 17,
   "of": 84
+ },
+ "area_competition": {
+  "scope": "안양시",
+  "peer_count": 3,
+  "peer_avg_rate": 7.56,
+  "peer_max_rate": 10.29
  },
  "region_competition": {
   "scope": "안양시",

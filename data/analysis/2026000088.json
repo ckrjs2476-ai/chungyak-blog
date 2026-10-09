@@ -8,6 +8,9 @@
  "city": "용인시",
  "supply_kind": "민영",
  "winner_date": "2026-05-14",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000088&pblancNo=2026000088",
  "households": 547,
  "types": [
@@ -214,6 +217,12 @@
   "diff_pct": -35,
   "rank": 75,
   "of": 84
+ },
+ "area_competition": {
+  "scope": "용인시",
+  "peer_count": 5,
+  "peer_avg_rate": 1.12,
+  "peer_max_rate": 3.25
  },
  "region_competition": {
   "scope": "용인시",

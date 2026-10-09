@@ -8,6 +8,9 @@
  "city": "의정부시",
  "supply_kind": "민영",
  "winner_date": "2026-04-15",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000055&pblancNo=2026000055",
  "households": 400,
  "types": [
@@ -131,6 +134,12 @@
   "diff_pct": -15,
   "rank": 43,
   "of": 84
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 42,
+  "peer_avg_rate": 7.96,
+  "peer_max_rate": 100.45
  },
  "region_competition": {
   "scope": "경기",

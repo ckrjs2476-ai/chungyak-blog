@@ -8,6 +8,9 @@
  "city": "강서구",
  "supply_kind": "민영",
  "winner_date": "2026-07-07",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000234&pblancNo=2026000234",
  "households": 501,
  "types": [
@@ -107,6 +110,12 @@
   "diff_pct": -32,
   "rank": 17,
   "of": 20
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 13,
+  "peer_avg_rate": 0.4,
+  "peer_max_rate": 1.3
  },
  "region_competition": {
   "scope": "강서구",

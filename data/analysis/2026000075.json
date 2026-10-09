@@ -8,6 +8,9 @@
  "city": "창원시",
  "supply_kind": "민영",
  "winner_date": "2026-04-07",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000075&pblancNo=2026000075",
  "households": 509,
  "types": [
@@ -185,6 +188,12 @@
   "diff_pct": 62,
   "rank": 1,
   "of": 18
+ },
+ "area_competition": {
+  "scope": "창원시",
+  "peer_count": 2,
+  "peer_avg_rate": 353.5,
+  "peer_max_rate": 706.61
  },
  "region_competition": {
   "scope": "창원시",

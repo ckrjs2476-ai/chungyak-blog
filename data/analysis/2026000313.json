@@ -8,6 +8,9 @@
  "city": "고양시",
  "supply_kind": "국민",
  "winner_date": "2026-08-18",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000313&pblancNo=2026000313",
  "households": 1282,
  "types": [
@@ -105,21 +108,27 @@
   "scope": "경기",
   "supply_kind": "국민",
   "days": 180,
-  "peer_count": 20,
+  "peer_count": 18,
   "peers": [
-   "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
    "고덕신도시 아테라 A-63블록 공공분양주택",
    "안양 에버포레 자연앤 e편한세상(A2BL)",
    "고양 창릉 우미 린 그레니티 공공분양주택(본청약)",
    "왕숙 아테라 공공분양주택(본청약)",
    "남양주왕숙2 A-3블록 공공분양주택(본청약)",
    "화성동탄2지구 C-27블록 공공분양주택",
-   "군포대야미지구 A-1블록 6년 분양전환공공임대주택(본청약)"
+   "고양창릉 S-4블록 공공분양주택(본청약)",
+   "의정부우정 A2블록 공공분양주택(본청약)"
   ],
-  "peer_avg_pyeong": 1835,
-  "diff": 132,
-  "diff_pct": 7,
+  "peer_avg_pyeong": 1984,
+  "diff": -17,
+  "diff_pct": -1,
   "rank": 9,
-  "of": 21
+  "of": 19
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 3,
+  "peer_avg_rate": 19.12,
+  "peer_max_rate": 57.1
  }
 }

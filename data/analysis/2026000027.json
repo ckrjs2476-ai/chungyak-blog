@@ -8,6 +8,9 @@
  "city": "완주군",
  "supply_kind": "국민",
  "winner_date": "2026-03-03",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000027&pblancNo=2026000027",
  "households": 29,
  "types": [
@@ -139,6 +142,12 @@
   "diff_pct": -59,
   "rank": 7,
   "of": 8
+ },
+ "area_competition": {
+  "scope": "전북",
+  "peer_count": 3,
+  "peer_avg_rate": 8.04,
+  "peer_max_rate": 21.16
  },
  "region_competition": {
   "scope": "전북",

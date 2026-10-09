@@ -8,6 +8,9 @@
  "city": "의정부시",
  "supply_kind": "국민",
  "winner_date": "2026-10-08",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000409&pblancNo=2026000409",
  "households": 463,
  "types": [
@@ -50,7 +53,7 @@
   "scope": "경기",
   "supply_kind": "국민",
   "days": 180,
-  "peer_count": 19,
+  "peer_count": 18,
   "peers": [
    "고덕신도시 아테라 A-63블록 공공분양주택",
    "안양 에버포레 자연앤 e편한세상(A2BL)",
@@ -58,13 +61,19 @@
    "왕숙 아테라 공공분양주택(본청약)",
    "남양주왕숙2 A-3블록 공공분양주택(본청약)",
    "화성동탄2지구 C-27블록 공공분양주택",
-   "군포대야미지구 A-1블록 6년 분양전환공공임대주택(본청약)",
-   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)"
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)",
+   "고양창릉 S-4블록 공공분양주택(본청약)"
   ],
-  "peer_avg_pyeong": 1919,
-  "diff": -321,
-  "diff_pct": -17,
+  "peer_avg_pyeong": 2005,
+  "diff": -407,
+  "diff_pct": -20,
   "rank": 16,
-  "of": 20
+  "of": 19
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 2,
+  "peer_avg_rate": 28.68,
+  "peer_max_rate": 57.1
  }
 }

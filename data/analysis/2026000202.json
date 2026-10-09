@@ -8,6 +8,9 @@
  "city": "중구",
  "supply_kind": "민영",
  "winner_date": "2026-09-16",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000202&pblancNo=2026000202",
  "households": 142,
  "types": [
@@ -107,6 +110,12 @@
   "diff_pct": -19,
   "rank": 5,
   "of": 5
+ },
+ "area_competition": {
+  "scope": "대전",
+  "peer_count": 4,
+  "peer_avg_rate": 2.77,
+  "peer_max_rate": 6.54
  },
  "region_competition": {
   "scope": "대전",

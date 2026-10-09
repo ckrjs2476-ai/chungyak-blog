@@ -8,6 +8,9 @@
  "city": "노원구",
  "supply_kind": "민영",
  "winner_date": "2026-03-12",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000028&pblancNo=2026000028",
  "households": 61,
  "types": [
@@ -130,6 +133,12 @@
   "diff_pct": -51,
   "rank": 24,
   "of": 24
+ },
+ "area_competition": {
+  "scope": "서울",
+  "peer_count": 5,
+  "peer_avg_rate": 221.44,
+  "peer_max_rate": 487.09
  },
  "region_competition": {
   "scope": "서울",

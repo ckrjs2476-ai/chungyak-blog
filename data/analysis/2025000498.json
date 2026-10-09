@@ -8,6 +8,9 @@
  "city": "서산시",
  "supply_kind": "민영",
  "winner_date": "2025-11-11",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000498&pblancNo=2025000498",
  "households": 829,
  "types": [
@@ -164,6 +167,12 @@
   "diff_pct": 4,
   "rank": 6,
   "of": 13
+ },
+ "area_competition": {
+  "scope": "충남",
+  "peer_count": 3,
+  "peer_avg_rate": 1.46,
+  "peer_max_rate": 3.81
  },
  "region_competition": {
   "scope": "충남",

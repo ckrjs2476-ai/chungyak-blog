@@ -8,6 +8,9 @@
  "city": "남동구",
  "supply_kind": "민영",
  "winner_date": "2026-05-28",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000147&pblancNo=2026000147",
  "households": 496,
  "types": [
@@ -110,6 +113,12 @@
   "diff_pct": 3,
   "rank": 10,
   "of": 25
+ },
+ "area_competition": {
+  "scope": "인천",
+  "peer_count": 12,
+  "peer_avg_rate": 6.8,
+  "peer_max_rate": 43.55
  },
  "region_competition": {
   "scope": "인천",

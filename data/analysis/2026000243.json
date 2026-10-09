@@ -8,6 +8,9 @@
  "city": "첨단3지구",
  "supply_kind": "민영",
  "winner_date": "2026-06-24",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000243&pblancNo=2026000243",
  "households": 449,
  "types": [
@@ -107,6 +110,12 @@
   "diff_pct": 13,
   "rank": 2,
   "of": 6
+ },
+ "area_competition": {
+  "scope": "전남",
+  "peer_count": 4,
+  "peer_avg_rate": 0.52,
+  "peer_max_rate": 0.83
  },
  "region_competition": {
   "scope": "전남",

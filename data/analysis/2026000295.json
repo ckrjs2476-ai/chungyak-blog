@@ -8,6 +8,9 @@
  "city": "아산시",
  "supply_kind": "민영",
  "winner_date": "2026-08-11",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000295&pblancNo=2026000295",
  "households": 622,
  "types": [
@@ -127,6 +130,12 @@
   "diff_pct": -21,
   "rank": 19,
   "of": 21
+ },
+ "area_competition": {
+  "scope": "아산시",
+  "peer_count": 2,
+  "peer_avg_rate": 2.99,
+  "peer_max_rate": 5.97
  },
  "region_competition": {
   "scope": "아산시",

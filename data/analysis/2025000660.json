@@ -8,6 +8,9 @@
  "city": "서대문구",
  "supply_kind": "민영",
  "winner_date": "2026-01-28",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000660&pblancNo=2025000660",
  "households": 332,
  "types": [
@@ -402,6 +405,12 @@
   "diff_pct": -27,
   "rank": 17,
   "of": 20
+ },
+ "area_competition": {
+  "scope": "서울",
+  "peer_count": 4,
+  "peer_avg_rate": 265.78,
+  "peer_max_rate": 487.09
  },
  "region_competition": {
   "scope": "서울",

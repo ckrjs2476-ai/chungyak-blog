@@ -8,6 +8,9 @@
  "city": "이천시",
  "supply_kind": "민영",
  "winner_date": "2025-12-17",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000545&pblancNo=2025000545",
  "households": 355,
  "types": [
@@ -144,6 +147,12 @@
   "diff_pct": -26,
   "rank": 49,
   "of": 67
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 27,
+  "peer_avg_rate": 10.32,
+  "peer_max_rate": 100.45
  },
  "region_competition": {
   "scope": "경기",

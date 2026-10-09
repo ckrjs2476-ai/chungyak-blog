@@ -8,6 +8,9 @@
  "city": "평택시",
  "supply_kind": "민영",
  "winner_date": "2026-06-23",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000237&pblancNo=2026000237",
  "households": 743,
  "types": [
@@ -233,6 +236,12 @@
   "diff_pct": -31,
   "rank": 44,
   "of": 60
+ },
+ "area_competition": {
+  "scope": "평택시",
+  "peer_count": 3,
+  "peer_avg_rate": 0.25,
+  "peer_max_rate": 0.37
  },
  "region_competition": {
   "scope": "평택시",

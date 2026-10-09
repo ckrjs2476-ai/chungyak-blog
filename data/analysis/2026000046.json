@@ -8,6 +8,9 @@
  "city": "서구",
  "supply_kind": "국민",
  "winner_date": "2026-03-23",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000046&pblancNo=2026000046",
  "households": 139,
  "types": [
@@ -117,6 +120,12 @@
   "diff_pct": -82,
   "rank": 8,
   "of": 8
+ },
+ "area_competition": {
+  "scope": "대전",
+  "peer_count": 2,
+  "peer_avg_rate": 8.01,
+  "peer_max_rate": 15.92
  },
  "region_competition": {
   "scope": "대전",

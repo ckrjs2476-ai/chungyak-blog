@@ -8,6 +8,9 @@
  "city": "오산시",
  "supply_kind": "민영",
  "winner_date": "2026-07-28",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000315&pblancNo=2026000315",
  "households": 1069,
  "types": [
@@ -216,6 +219,12 @@
   "diff_pct": -4,
   "rank": 22,
   "of": 53
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 36,
+  "peer_avg_rate": 3.17,
+  "peer_max_rate": 21.98
  },
  "region_competition": {
   "scope": "오산시",

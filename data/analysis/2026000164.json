@@ -8,6 +8,9 @@
  "city": "연수구",
  "supply_kind": "민영",
  "winner_date": "2026-05-28",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000164&pblancNo=2026000164",
  "households": 853,
  "types": [
@@ -390,6 +393,12 @@
   "diff_pct": 60,
   "rank": 1,
   "of": 25
+ },
+ "area_competition": {
+  "scope": "연수구",
+  "peer_count": 2,
+  "peer_avg_rate": 0.34,
+  "peer_max_rate": 0.38
  },
  "region_competition": {
   "scope": "연수구",

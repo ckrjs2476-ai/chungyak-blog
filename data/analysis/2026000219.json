@@ -8,6 +8,9 @@
  "city": "풍무역세권",
  "supply_kind": "민영",
  "winner_date": "2026-06-10",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000219&pblancNo=2026000219",
  "households": 961,
  "types": [
@@ -218,6 +221,12 @@
   "diff_pct": -19,
   "rank": 42,
   "of": 65
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 39,
+  "peer_avg_rate": 3.84,
+  "peer_max_rate": 51.3
  },
  "region_competition": {
   "scope": "경기",
