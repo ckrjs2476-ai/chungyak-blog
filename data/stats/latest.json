@@ -1,92 +1,7 @@
 {
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "weekly_competition": [],
  "weekly_remainder": [
-  {
-   "no": "2026910249",
-   "name": "세종 우미 린 센터파크(행정중심복합도시 5-2생활권 S1블록, 글미마을 9단지)",
-   "region": "세종",
-   "households": 5,
-   "rcept_date": "2026-10-06",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910249&pblancNo=2026910249",
-   "types": [
-    {
-     "ty": "84.9165A",
-     "price": 63600,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9418D",
-     "price": 57550,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9942E",
-     "price": 60000,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910250",
-   "name": "신림스카이아파트(20차)",
-   "region": "서울",
-   "households": 4,
-   "rcept_date": "2026-10-06",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910250&pblancNo=2026910250",
-   "types": [
-    {
-     "ty": "35.71",
-     "price": 45000,
-     "pyeong_price": null
-    },
-    {
-     "ty": "38.34",
-     "price": 45000,
-     "pyeong_price": null
-    },
-    {
-     "ty": "56.45",
-     "price": 59900,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910251",
-   "name": "충정로역자이르네",
-   "region": "서울",
-   "households": 35,
-   "rcept_date": "2026-10-06",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910251&pblancNo=2026910251",
-   "types": [
-    {
-     "ty": "84.9972A",
-     "price": 243300,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9965B",
-     "price": 229500,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910253",
-   "name": "오남역 서희스타힐스 여의재 1단지",
-   "region": "경기",
-   "households": 12,
-   "rcept_date": "2026-10-06",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910253&pblancNo=2026910253",
-   "types": [
-    {
-     "ty": "84.9596",
-     "price": 71900,
-     "pyeong_price": null
-    }
-   ]
-  },
   {
    "no": "2026910256",
    "name": "상동역 롯데캐슬 시그니처",
@@ -214,21 +129,6 @@
      "ty": "74.8177A",
      "price": 38500,
      "pyeong_price": 1291
-    }
-   ]
-  },
-  {
-   "no": "2026930040",
-   "name": "강변역 센트럴 아이파크",
-   "region": "서울",
-   "households": 1,
-   "rcept_date": "2026-10-06",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930040&pblancNo=2026930040",
-   "types": [
-    {
-     "ty": "84.9811C",
-     "price": 122202,
-     "pyeong_price": 3815
     }
    ]
   },
@@ -1671,6 +1571,20 @@
    }
   },
   {
+   "no": "2026000314",
+   "name": "중동역 다채로움 더원",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.9935B",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 58,
+    "ty": "84.9888A"
+   }
+  },
+  {
    "no": "2026000318",
    "name": "더샵 트리센트",
    "region": "부산",
@@ -2018,6 +1932,20 @@
    "max": {
     "score": 71,
     "ty": "74.9225A"
+   }
+  },
+  {
+   "no": "2026000446",
+   "name": "진주 판문지구 레이크써밋 웰가",
+   "region": "경남",
+   "min": {
+    "score": 0,
+    "ty": "78.8382",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 80,
+    "ty": "84.9115A"
    }
   },
   {

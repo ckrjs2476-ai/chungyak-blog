@@ -133,6 +133,23 @@
    "stage": "1순위 해당지역"
   }
  },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "78.8382",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "78.8382": 0,
+   "84.9115A": 0,
+   "84.9519B": 0
+  },
+  "avg_min": 27.3,
+  "max": {
+   "score": 80,
+   "ty": "84.9115A"
+  }
+ },
  "region_price": {
   "scope": "진주시",
   "supply_kind": "민영",
@@ -185,5 +202,15 @@
   "peer_avg_rate": 20.77,
   "rank": 1,
   "of": 3
+ },
+ "region_score": {
+  "scope": "진주시",
+  "peer_count": 2,
+  "peers": [
+   "힐스테이트 평거 센트럴",
+   "포레나힐스테이트 진주"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
  }
 }
