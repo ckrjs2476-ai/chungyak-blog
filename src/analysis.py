@@ -153,6 +153,7 @@ def analyze_unit(unit: dict) -> dict:
            "rank1_date": _ymd(d.get("GNRL_RNK1_CRSPAREA_RCPTDE") or d.get("SUBSCRPT_RCEPT_BGNDE")),
            "city": (str(d.get("HSSPLY_ADRES", "")).split() + ["", ""])[1],
            "supply_kind": str(d.get("HOUSE_DTL_SECD_NM") or ""),
+           "winner_date": _ymd(d.get("PRZWNER_PRESNATN_DE")),
            "url": d.get("PBLANC_URL"), "households": int(_num(d.get("TOT_SUPLY_HSHLDCO")) or 0),
            "types": types, "general_total": gen, "special_total": spc}
     if gen + spc:
@@ -300,6 +301,79 @@ def build_stats(all_: list[dict], today: date) -> dict:
     return out
 
 
+BRANDS = ("자이", "래미안", "힐스테이트", "푸르지오", "e편한세상", "롯데캐슬", "더샵", "아이파크", "SK뷰",
+          "호반써밋", "디에이치", "아크로", "르엘", "포레나", "위브", "푸르지오", "하늘채", "센트럴")
+
+
+def _days(a: str, b: date) -> int | None:
+    try:
+        return (b - date.fromisoformat(a)).days
+    except ValueError:
+        return None
+
+
+def job_priority(job: dict, a: dict, today: date) -> int | None:
+    """검색이 몰리는 시점에 맞춰 글 후보의 점수를 매긴다. None이면 후보에서 뺀다.
+
+    검색은 대체로 (1) 공고 뒤~1순위 접수 전 '분양가·일정', (2) 1순위 다음 날 '경쟁률',
+    (3) 당첨 발표 당일 '당첨 가점·커트라인'에 몰린다. 시점이 지난 글은 검색이 크게 줄어든다.
+    아래 가산점은 가정이며, 서치콘솔 데이터가 쌓이면(2개월 뒤) 조정한다 (rules/keyword_rules.md).
+    """
+    if a["households"] < 30 or "취소분" in str(a["name"]):
+        return None  # 소규모 재공급은 검색이 거의 없고 글이 얇아진다
+    region = a["region"]
+    base = {"서울": 30, "경기": 25, "인천": 25}.get(region, 15 if region in ("부산", "대구", "광주", "대전", "울산", "세종") else 5)
+    base += min(a["households"] // 50, 25)
+    if any(b in str(a["name"]) for b in BRANDS):
+        base += 15
+    typ = job["type"]
+    if typ == "notice":
+        to_rank1 = -(_days(a["rank1_date"], today) or 0) if a["rank1_date"] else None
+        if to_rank1 is None or to_rank1 < 0:
+            return None  # 1순위 접수가 지난 단지의 공고 글은 쓰지 않는다
+        age = _days(a["notice_date"], today) or 0
+        urgent = 15 if to_rank1 <= 5 else 0  # 접수가 코앞이면 지금 안 쓰면 기회가 없다
+        return base + 45 - 3 * age + urgent  # 공고 직후일수록 높게
+    c = a.get("competition") or {}
+    rate = c.get("rank1_avg_rate")
+    hot = 0 if rate is None else (25 if rate >= 50 else 15 if rate >= 10 else 5 if rate >= 1 else -10)
+    if typ == "competition":
+        d = _days(a["rank1_date"], today)
+        if d is None or d > 21:
+            return None
+        return base + hot + (50 if d <= 2 else 25 if d <= 7 else 0)
+    if typ == "score":
+        d = _days(a.get("winner_date", ""), today)
+        if d is None or d < 0 or d > 21:
+            return None
+        return base + hot + (50 if d <= 1 else 25 if d <= 7 else 0)
+    return base
+
+
+def rescore_jobs(all_: list[dict], today: date) -> None:
+    p = ROOT / "data" / "jobs.json"
+    if not p.exists():
+        return
+    data = json.loads(p.read_text("utf-8"))
+    by_no = {a["no"]: a for a in all_}
+    pub = ROOT / "data" / "published.json"
+    done = {f"{x.get('house_manage_no')}:{x.get('type')}" for x in
+            (json.loads(pub.read_text("utf-8")).get("posts", []) if pub.exists() else [])}
+    kept = []
+    for j in data.get("jobs", []):
+        if f"{j['house_manage_no']}:{j['type']}" in done:
+            continue
+        a = by_no.get(str(j["house_manage_no"]))
+        pr = job_priority(j, a, today) if a else None
+        if pr is not None:
+            kept.append({**j, "priority": pr, "rank1_date": a["rank1_date"], "winner_date": a.get("winner_date")})
+    kept.sort(key=lambda j: j["priority"], reverse=True)
+    data["jobs"] = kept
+    p.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
+    print(f"::notice::글 후보 {len(kept)}건(시점 기준 재정렬). 상위: "
+          f"{[str(j['name'])[:12] + '/' + j['type'] for j in kept[:5]]}")
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     STATS.mkdir(parents=True, exist_ok=True)
@@ -312,7 +386,9 @@ def main() -> None:
     add_region_compare(all_)
     for a in all_:
         (OUT / f"{a['no']}.json").write_text(json.dumps(a, ensure_ascii=False, indent=1), "utf-8")
-    stats = build_stats(all_, datetime.now(KST).date())
+    today = datetime.now(KST).date()
+    rescore_jobs(all_, today)
+    stats = build_stats(all_, today)
     (STATS / "latest.json").write_text(json.dumps(stats, ensure_ascii=False, indent=1), "utf-8")
     print(f"::notice::분석 {len(all_)}개 단지, 이번 주 경쟁률 {len(stats['weekly_competition'])}건, "
           f"무순위 {len(stats['weekly_remainder'])}건")
