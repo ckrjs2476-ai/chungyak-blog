@@ -202,5 +202,27 @@
   "peer_avg_rate": 0.6,
   "rank": 2,
   "of": 3
+ },
+ "market": {
+  "region": "경상남도 김해시",
+  "lawd": "48250",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 2643,
+  "median84": 27400,
+  "p25_84": 16700,
+  "p75_84": 37000,
+  "new_n84": 289,
+  "new_median84": 41000,
+  "new_build_years": 5,
+  "umd": "내동",
+  "umd_n84": 102,
+  "umd_median84": 25000,
+  "diff_vs_median84": 26400,
+  "diff_pct_vs_median84": 96,
+  "diff_vs_new_median84": 12800,
+  "diff_pct_vs_new_median84": 31,
+  "diff_vs_umd_median84": 28800,
+  "diff_pct_vs_umd_median84": 115
  }
 }

@@ -68,5 +68,27 @@
    "rate": 4.15,
    "stage": "None순위 None"
   }
+ },
+ "market": {
+  "region": "경기도 수원시 권선구",
+  "lawd": "41113",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 2094,
+  "median84": 55000,
+  "p25_84": 42000,
+  "p75_84": 64500,
+  "new_n84": 171,
+  "new_median84": 74000,
+  "new_build_years": 5,
+  "umd": "평동",
+  "umd_n84": 19,
+  "umd_median84": 49000,
+  "diff_vs_median84": 24080,
+  "diff_pct_vs_median84": 44,
+  "diff_vs_new_median84": 5080,
+  "diff_pct_vs_new_median84": 7,
+  "diff_vs_umd_median84": 30080,
+  "diff_pct_vs_umd_median84": 61
  }
 }

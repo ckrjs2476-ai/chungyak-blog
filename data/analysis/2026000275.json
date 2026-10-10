@@ -444,5 +444,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "서울특별시 성북구",
+  "lawd": "11290",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1350,
+  "median84": 96500,
+  "p25_84": 82000,
+  "p75_84": 115000,
+  "new_n84": 64,
+  "new_median84": 139000,
+  "new_build_years": 5,
+  "umd": "장위동",
+  "umd_n84": 124,
+  "umd_median84": 122500,
+  "diff_vs_median84": 80070,
+  "diff_pct_vs_median84": 83,
+  "diff_vs_new_median84": 37570,
+  "diff_pct_vs_new_median84": 27,
+  "diff_vs_umd_median84": 54070,
+  "diff_pct_vs_umd_median84": 44
  }
 }

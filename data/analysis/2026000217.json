@@ -181,5 +181,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "부산광역시 동래구",
+  "lawd": "26260",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1309,
+  "median84": 57000,
+  "p25_84": 44125,
+  "p75_84": 72500,
+  "new_n84": 244,
+  "new_median84": 77500,
+  "new_build_years": 5,
+  "umd": "명륜동",
+  "umd_n84": 219,
+  "umd_median84": 70000,
+  "diff_vs_median84": 8000,
+  "diff_pct_vs_median84": 14,
+  "diff_vs_new_median84": -12500,
+  "diff_pct_vs_new_median84": -16,
+  "diff_vs_umd_median84": -5000,
+  "diff_pct_vs_umd_median84": -7
  }
 }

@@ -180,5 +180,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "강원특별자치도 춘천시",
+  "lawd": "51110",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1253,
+  "median84": 32000,
+  "p25_84": 24300,
+  "p75_84": 41000,
+  "new_n84": 208,
+  "new_median84": 51400,
+  "new_build_years": 5,
+  "umd": "동면",
+  "umd_n84": 86,
+  "umd_median84": 29400,
+  "diff_vs_median84": 24800,
+  "diff_pct_vs_median84": 78,
+  "diff_vs_new_median84": 5400,
+  "diff_pct_vs_new_median84": 11,
+  "diff_vs_umd_median84": 27400,
+  "diff_pct_vs_umd_median84": 93
  }
 }

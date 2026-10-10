@@ -189,5 +189,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "부산광역시 해운대구",
+  "lawd": "26350",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1465,
+  "median84": 61500,
+  "p25_84": 47500,
+  "p75_84": 81000,
+  "new_n84": 86,
+  "new_median84": 73150,
+  "new_build_years": 5,
+  "umd": "중동",
+  "umd_n84": 201,
+  "umd_median84": 72500,
+  "diff_vs_median84": 38990,
+  "diff_pct_vs_median84": 63,
+  "diff_vs_new_median84": 27340,
+  "diff_pct_vs_new_median84": 37,
+  "diff_vs_umd_median84": 27990,
+  "diff_pct_vs_umd_median84": 39
  }
 }

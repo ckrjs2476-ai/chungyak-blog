@@ -159,5 +159,27 @@
   "peer_avg_rate": 1.74,
   "rank": 5,
   "of": 15
+ },
+ "market": {
+  "region": "부산광역시 수영구",
+  "lawd": "26500",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 768,
+  "median84": 71000,
+  "p25_84": 50275,
+  "p75_84": 96375,
+  "new_n84": 145,
+  "new_median84": 120000,
+  "new_build_years": 5,
+  "umd": "망미동",
+  "umd_n84": 117,
+  "umd_median84": 42000,
+  "diff_vs_median84": 61100,
+  "diff_pct_vs_median84": 86,
+  "diff_vs_new_median84": 12100,
+  "diff_pct_vs_new_median84": 10,
+  "diff_vs_umd_median84": 90100,
+  "diff_pct_vs_umd_median84": 215
  }
 }

@@ -132,5 +132,27 @@
   "peer_count": 2,
   "peer_avg_rate": 0.08,
   "peer_max_rate": 0.1
+ },
+ "market": {
+  "region": "경상남도 거제시",
+  "lawd": "48310",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1150,
+  "median84": 17900,
+  "p25_84": 13500,
+  "p75_84": 24575,
+  "new_n84": 188,
+  "new_median84": 39700,
+  "new_build_years": 5,
+  "umd": "옥포동",
+  "umd_n84": 120,
+  "umd_median84": 16000,
+  "diff_vs_median84": 40900,
+  "diff_pct_vs_median84": 228,
+  "diff_vs_new_median84": 19100,
+  "diff_pct_vs_new_median84": 48,
+  "diff_vs_umd_median84": 42800,
+  "diff_pct_vs_umd_median84": 268
  }
 }

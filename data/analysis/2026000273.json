@@ -297,5 +297,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "경상북도 경산시",
+  "lawd": "47290",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 991,
+  "median84": 27000,
+  "p25_84": 19600,
+  "p75_84": 43300,
+  "new_n84": 248,
+  "new_median84": 49550,
+  "new_build_years": 5,
+  "umd": "중산동",
+  "umd_n84": 244,
+  "umd_median84": 50500,
+  "diff_vs_median84": 42930,
+  "diff_pct_vs_median84": 159,
+  "diff_vs_new_median84": 20380,
+  "diff_pct_vs_new_median84": 41,
+  "diff_vs_umd_median84": 19430,
+  "diff_pct_vs_umd_median84": 38
  }
 }
