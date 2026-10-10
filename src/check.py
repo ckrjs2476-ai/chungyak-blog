@@ -35,6 +35,7 @@ BANNED = ("주목할 점은", "중요한 것은", "눈여겨볼", "도움이 되
 CONNECTORS = ("또한", "게다가", "뿐만 아니라", "그러나", "한편", "더불어")
 DISCLOSURE = "청약홈 공고 데이터를 바탕으로 자동 정리했어요"
 GUIDE_NOTICE = "청약홈 홈페이지를 참고해 주세요"
+MARKET_DISCLOSURE = "국토교통부 실거래가 공개 데이터를 바탕으로 자동 정리했어요"
 MIN_CHARS = 1500
 MAX_TITLE = 60
 TITLE_KEYWORD_WITHIN = 25  # 모바일 검색 결과에서 잘리지 않는 앞부분 안에 메인 키워드
@@ -199,11 +200,17 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     chars = len(re.sub(r"[\s|#>*\-:]", "", plain))
     if chars < MIN_CHARS:
         errs.append(f"본문이 {chars}자로 짧습니다 ({MIN_CHARS}자 이상).")
-    if "applyhome.co.kr" not in body:
+    if typ == "market":
+        if "rt.molit.go.kr" not in body:
+            errs.append("실거래가 글에 국토교통부 실거래가 공개시스템 링크(rt.molit.go.kr)가 없습니다.")
+    elif "applyhome.co.kr" not in body:
         errs.append("청약홈 원문 링크(applyhome.co.kr)가 없습니다.")
     if typ == "guide":
         if GUIDE_NOTICE not in body:
             errs.append("가이드 글에 '청약홈 홈페이지를 참고해 주세요' 안내가 없습니다.")
+    elif typ == "market":
+        if MARKET_DISCLOSURE not in body:
+            errs.append(f"실거래가 글에 '{MARKET_DISCLOSURE}' 안내가 없습니다.")
     elif DISCLOSURE not in body:
         errs.append("자동 정리 안내 문구가 없습니다.")
     for b in BANNED:
