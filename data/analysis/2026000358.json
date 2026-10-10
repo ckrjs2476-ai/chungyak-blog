@@ -211,5 +211,25 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "서울특별시 중구",
+  "lawd": "11140",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 217,
+  "median84": 157000,
+  "p25_84": 118600,
+  "p75_84": 174500,
+  "new_n84": 0,
+  "new_median84": null,
+  "new_build_years": 5,
+  "umd": "중림동",
+  "umd_n84": 6,
+  "umd_median84": 174500,
+  "diff_vs_median84": 88500,
+  "diff_pct_vs_median84": 56,
+  "diff_vs_umd_median84": 71000,
+  "diff_pct_vs_umd_median84": 41
  }
 }

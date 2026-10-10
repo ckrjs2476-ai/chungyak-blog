@@ -193,5 +193,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "서울특별시 노원구",
+  "lawd": "11350",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1369,
+  "median84": 83000,
+  "p25_84": 68000,
+  "p75_84": 97100,
+  "new_n84": 65,
+  "new_median84": 114300,
+  "new_build_years": 5,
+  "umd": "월계동",
+  "umd_n84": 236,
+  "umd_median84": 93000,
+  "diff_vs_median84": 66910,
+  "diff_pct_vs_median84": 81,
+  "diff_vs_new_median84": 35610,
+  "diff_pct_vs_new_median84": 31,
+  "diff_vs_umd_median84": 56910,
+  "diff_pct_vs_umd_median84": 61
  }
 }

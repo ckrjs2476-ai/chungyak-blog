@@ -213,5 +213,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "부산광역시 남구",
+  "lawd": "26290",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 922,
+  "median84": 52000,
+  "p25_84": 33900,
+  "p75_84": 73000,
+  "new_n84": 132,
+  "new_median84": 62100,
+  "new_build_years": 5,
+  "umd": "대연동",
+  "umd_n84": 427,
+  "umd_median84": 73500,
+  "diff_vs_median84": 57378,
+  "diff_pct_vs_median84": 110,
+  "diff_vs_new_median84": 47278,
+  "diff_pct_vs_new_median84": 76,
+  "diff_vs_umd_median84": 35878,
+  "diff_pct_vs_umd_median84": 49
  }
 }

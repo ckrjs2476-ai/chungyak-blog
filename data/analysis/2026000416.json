@@ -107,5 +107,27 @@
   "peer_count": 2,
   "peer_avg_rate": 28.68,
   "peer_max_rate": 57.1
+ },
+ "market": {
+  "region": "경기도 양주시",
+  "lawd": "41630",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1266,
+  "median84": 33500,
+  "p25_84": 23000,
+  "p75_84": 44000,
+  "new_n84": 488,
+  "new_median84": 45200,
+  "new_build_years": 5,
+  "umd": "덕정동",
+  "umd_n84": 56,
+  "umd_median84": 28400,
+  "diff_vs_median84": 15701,
+  "diff_pct_vs_median84": 47,
+  "diff_vs_new_median84": 4001,
+  "diff_pct_vs_new_median84": 9,
+  "diff_vs_umd_median84": 20801,
+  "diff_pct_vs_umd_median84": 73
  }
 }

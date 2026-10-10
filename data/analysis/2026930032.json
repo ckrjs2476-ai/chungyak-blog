@@ -32,5 +32,27 @@
  "pyeong_max": 1657,
  "pyeong_avg": 1657,
  "price_84_min": 54780,
- "price_84_max": 54780
+ "price_84_max": 54780,
+ "market": {
+  "region": "울산광역시 울주군",
+  "lawd": "31710",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 789,
+  "median84": 36900,
+  "p25_84": 20850,
+  "p75_84": 47000,
+  "new_n84": 64,
+  "new_median84": 50000,
+  "new_build_years": 5,
+  "umd": "범서읍",
+  "umd_n84": 351,
+  "umd_median84": 45000,
+  "diff_vs_median84": 17880,
+  "diff_pct_vs_median84": 48,
+  "diff_vs_new_median84": 4780,
+  "diff_pct_vs_new_median84": 10,
+  "diff_vs_umd_median84": 9780,
+  "diff_pct_vs_umd_median84": 22
+ }
 }

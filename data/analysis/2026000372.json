@@ -175,5 +175,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "서울특별시 서대문구",
+  "lawd": "11410",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 949,
+  "median84": 109000,
+  "p25_84": 84000,
+  "p75_84": 144500,
+  "new_n84": 81,
+  "new_median84": 143000,
+  "new_build_years": 5,
+  "umd": "홍은동",
+  "umd_n84": 171,
+  "umd_median84": 74300,
+  "diff_vs_median84": 28330,
+  "diff_pct_vs_median84": 26,
+  "diff_vs_new_median84": -5670,
+  "diff_pct_vs_new_median84": -4,
+  "diff_vs_umd_median84": 63030,
+  "diff_pct_vs_umd_median84": 85
  }
 }

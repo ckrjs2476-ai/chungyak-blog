@@ -212,5 +212,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "경상남도 진주시",
+  "lawd": "48170",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1691,
+  "median84": 40500,
+  "p25_84": 25800,
+  "p75_84": 53500,
+  "new_n84": 62,
+  "new_median84": 64500,
+  "new_build_years": 5,
+  "umd": "판문동",
+  "umd_n84": 5,
+  "umd_median84": 17800,
+  "diff_vs_median84": 15100,
+  "diff_pct_vs_median84": 37,
+  "diff_vs_new_median84": -8900,
+  "diff_pct_vs_new_median84": -14,
+  "diff_vs_umd_median84": 37800,
+  "diff_pct_vs_umd_median84": 212
  }
 }

@@ -82,5 +82,27 @@
  "special_total": 0,
  "special_share_pct": 0,
  "price_84_min": 149900,
- "price_84_max": 162200
+ "price_84_max": 162200,
+ "market": {
+  "region": "경기도 부천시 원미구",
+  "lawd": "41192",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1362,
+  "median84": 68000,
+  "p25_84": 59000,
+  "p75_84": 76900,
+  "new_n84": 94,
+  "new_median84": 114150,
+  "new_build_years": 5,
+  "umd": "상동",
+  "umd_n84": 532,
+  "umd_median84": 70000,
+  "diff_vs_median84": 94200,
+  "diff_pct_vs_median84": 139,
+  "diff_vs_new_median84": 48050,
+  "diff_pct_vs_new_median84": 42,
+  "diff_vs_umd_median84": 92200,
+  "diff_pct_vs_umd_median84": 132
+ }
 }

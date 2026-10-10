@@ -193,5 +193,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "경기도 용인시 처인구",
+  "lawd": "41461",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 981,
+  "median84": 42000,
+  "p25_84": 31500,
+  "p75_84": 52500,
+  "new_n84": 123,
+  "new_median84": 61000,
+  "new_build_years": 5,
+  "umd": "역북동",
+  "umd_n84": 161,
+  "umd_median84": 59200,
+  "diff_vs_median84": 23500,
+  "diff_pct_vs_median84": 56,
+  "diff_vs_new_median84": 4500,
+  "diff_pct_vs_new_median84": 7,
+  "diff_vs_umd_median84": 6300,
+  "diff_pct_vs_umd_median84": 11
  }
 }

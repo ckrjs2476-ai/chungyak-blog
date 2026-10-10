@@ -32,5 +32,27 @@
  "pyeong_max": 1007,
  "pyeong_avg": 1007,
  "price_84_min": 34320,
- "price_84_max": 34320
+ "price_84_max": 34320,
+ "market": {
+  "region": "세종특별자치시",
+  "lawd": "36110",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1736,
+  "median84": 60000,
+  "p25_84": 49800,
+  "p75_84": 70000,
+  "new_n84": 232,
+  "new_median84": 77150,
+  "new_build_years": 5,
+  "umd": "나성동",
+  "umd_n84": 90,
+  "umd_median84": 92500,
+  "diff_vs_median84": -25680,
+  "diff_pct_vs_median84": -43,
+  "diff_vs_new_median84": -42830,
+  "diff_pct_vs_new_median84": -56,
+  "diff_vs_umd_median84": -58180,
+  "diff_pct_vs_umd_median84": -63
+ }
 }
