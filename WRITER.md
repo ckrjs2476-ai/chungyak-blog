@@ -23,6 +23,9 @@
 2. 매달 2일 저녁: 지난달 결산 통계(type: stats). stats의 last_month, monthly_region_pyeong.
 3. 월요일 저녁: 지난주 경쟁률 순위(type: stats). stats의 weekly_competition. 2곳 미만이면 건너뛴다.
 4. 목요일 저녁: 이번 주 무순위·줍줍 모음(type: remainder). stats의 weekly_remainder. 1곳도 없으면 건너뛴다.
+4-1. 토요일 저녁: 실거래가 동향(type: market). data/market/regions/ 가운데, 이번 주~다음 주 청약 접수가 있는 단지의
+   시군구(data/market/unit_regions.json)를 고르고, 그중 jobs.json 순위가 가장 높은 단지의 지역으로 쓴다.
+   머리말에 lawd_cd(5자리)를 적는다. 그 지역에 접수 예정인 청약 단지 글이 있으면 링크한다.
 5. 그 밖: jobs.json을 위에서부터 보고 published.json과 posts/(pending|held|review)에 없는 첫 후보.
 6. 후보가 없으면 data/queue/의 가장 오래된 예비 글을 posts/pending/으로 옮긴다
    (옮기기 전에 check.py를 다시 돌려 통과하는지 본다. 분석 데이터가 바뀌었을 수 있다).
@@ -45,6 +48,15 @@
 | region | 단지별 pyeong_avg 비교표, 지역 평균 |
 | monthly / stats | stats의 순위·평균·합계 |
 | guide | 제도 설명 + 우리 데이터 예시(최근 커트라인, 특공 물량 등) |
+| market | data/market/regions/<lawd_cd>.json: 84㎡ 실거래 중앙값·하위/상위 25%, 신축 중앙값, 읍면동별, 월별 거래량·중앙값, 거래 많은 단지 |
+
+**주변 시세 비교 (analysis.market, 2026-10-10 추가)**: notice·competition·score 글에 market 값이 있으면 반드시 넣는다.
+- 쓰는 법: "같은 시군구에서 최근 12개월 동안 거래된 전용 84㎡형 n84건의 중앙값은 ○억 ○만 원이에요.
+  이 단지 84㎡ 최고 분양가는 그보다 diff_pct_vs_median84% 높아요/낮아요."
+- 신축(준공 new_build_years년 이내) 중앙값(new_median84)이 있으면 함께 쓴다. 새 아파트끼리 비교라 더 공정하다.
+- 같은 읍면동(umd) 값이 있으면 "○○동만 보면" 식으로 덧붙인다.
+- 꼭 밝힐 것: 분양가는 발코니 확장·옵션이 빠진 최고가이고, 실거래는 이미 지어진 집이라 입주 시점이 다르다는 점.
+- '안전마진', '로또', '무조건 이득' 같은 단정·권유 표현은 쓰지 않는다. 숫자 차이만 보여준다.
 
 표현 규칙:
 - pyeong_price는 "최고가 기준, 공급면적 3.3㎡당 ○만 원"으로 쓴다(만원 단위 정수).
@@ -80,7 +92,8 @@
 ---
 house_manage_no: "2026000123"      # 단지 1곳 글(notice, competition, score)
 # house_manage_nos: ["...", "..."]  # 여러 단지 글(remainder, region, monthly, stats, guide). stats·guide는 없어도 됨
-type: notice            # notice | competition | score | remainder | region | monthly | stats | guide
+type: notice            # notice | competition | score | remainder | region | monthly | stats | guide | market
+# lawd_cd: "41590"      # market(실거래가 동향) 글에만. 시군구 코드 5자리
 title: "OO단지 청약 일정·분양가 총정리 (10월 공고)"
 slug: "oo-danji-cheongyak-schedule-2026-10"   # 영문 소문자·숫자·하이픈
 description: "검색 결과에 보일 설명 50~160자. 날짜·가격·분석 숫자를 모아서. 한 줄로."

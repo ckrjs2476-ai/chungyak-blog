@@ -206,6 +206,49 @@ def _peers(a: dict, apt: list[dict], need, start: int = 0) -> tuple[str, list[di
     return "", []
 
 
+def add_market(all_: list[dict]) -> None:
+    """실거래가(data/market, src/market.py)로 '주변 시세 비교'를 붙인다.
+
+    비교 기준: 같은 시군구 최근 12개월 전용 84㎡형(80~86㎡) 매매 실거래 중앙값, 준공 5년 이내 신축 중앙값,
+    같은 읍면동 중앙값(3건 이상일 때). 단지 쪽은 84㎡ 타입 최고 분양가(price_84_max)를 쓴다.
+    분양가에는 발코니 확장·옵션이 빠져 있고, 실거래는 이미 지어진 집이라 입주 시점이 다르다. 글에서 이 차이를 밝힌다.
+    """
+    root = ROOT / "data" / "market"
+    up = root / "unit_regions.json"
+    if not up.exists():
+        return
+    links = json.loads(up.read_text("utf-8"))
+    cache: dict[str, dict | None] = {}
+    for a in all_:
+        link = links.get(a["no"])
+        if not link or a.get("rental"):
+            continue
+        lawd = link["lawd"]
+        if lawd not in cache:
+            rp = root / "regions" / f"{lawd}.json"
+            cache[lawd] = json.loads(rp.read_text("utf-8")) if rp.exists() else None
+        reg = cache[lawd]
+        if not reg or not reg.get("median84"):
+            continue
+        m = {"region": reg["name"], "lawd": lawd, "months": reg["months"], "updated": reg["updated"],
+             "n84": reg["n84"], "median84": reg["median84"], "p25_84": reg.get("p25_84"), "p75_84": reg.get("p75_84"),
+             "new_n84": reg.get("new_n84"), "new_median84": reg.get("new_median84"),
+             "new_build_years": reg.get("new_build_years")}
+        umd = link.get("umd")
+        if umd and umd in reg.get("umd84", {}):
+            m["umd"] = umd
+            m["umd_n84"] = reg["umd84"][umd]["n"]
+            m["umd_median84"] = reg["umd84"][umd]["median"]
+        p84 = a.get("price_84_max")
+        if p84:
+            for k in ("median84", "new_median84", "umd_median84"):
+                base = m.get(k)
+                if base:
+                    m[f"diff_vs_{k}"] = p84 - base
+                    m[f"diff_pct_vs_{k}"] = round((p84 - base) * 100 / base)
+        a["market"] = m
+
+
 def add_region_compare(all_: list[dict]) -> None:
     """비슷한 단지와 평당가·경쟁률·가점 커트라인을 비교한다 (무순위 제외)."""
     apt = [a for a in all_ if a["kind"] == "apt"]
@@ -439,6 +482,7 @@ def main() -> None:
         except Exception as e:  # noqa: BLE001  한 단지 오류로 전체를 멈추지 않는다
             print(f"::warning::{p.name} 분석 실패: {e}")
     add_region_compare(all_)
+    add_market(all_)
     for a in all_:
         (OUT / f"{a['no']}.json").write_text(json.dumps(a, ensure_ascii=False, indent=1), "utf-8")
     today = datetime.now(KST).date()

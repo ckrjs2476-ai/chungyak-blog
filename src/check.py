@@ -19,10 +19,10 @@ PUBLISHED = ROOT / "data" / "published.json"
 
 REQUIRED_FIELDS = ("type", "title", "slug", "description", "labels", "keyword", "opening")
 UNIT_TYPES = ("notice", "competition", "score")                  # 단지 1곳: house_manage_no
-MULTI_TYPES = ("remainder", "region", "monthly", "stats", "guide")  # 여러 단지·통계: house_manage_nos
+MULTI_TYPES = ("remainder", "region", "monthly", "stats", "guide", "market")  # 여러 단지·통계: house_manage_nos
 ALL_TYPES = UNIT_TYPES + MULTI_TYPES
 ALLOWED_LABELS = {"청약일정", "경쟁률", "당첨가점", "무순위", "서울", "경기", "인천", "지방", "청약가이드",
-                  "월간정리", "청약통계"}
+                  "월간정리", "청약통계", "실거래가"}
 MIN_ANALYSIS_NUMBERS = 2  # 원본에 없고 분석(data/analysis, data/stats)에만 있는 숫자가 최소 이만큼 있어야 한다
 # 사람말투-글쓰기 규칙(위키피디아 'Signs of AI writing' 기반)에서 자동으로 잡을 수 있는 AI 말투
 BANNED = ("주목할 점은", "중요한 것은", "눈여겨볼", "도움이 되었", "도움이 되셨", "궁금한 점", "궁금하신",
@@ -79,18 +79,26 @@ def _amount_forms(manwon: int) -> set[str]:
     return forms
 
 
-def _walk_nums(x, out: set[str]) -> None:
+PRICE_KEYS = re.compile(r"(price|median|amount|p25|p75|diff_vs)", re.I)
+
+
+def _walk_nums(x, out: set[str], key: str = "") -> None:
     if isinstance(x, dict):
-        for v in x.values():
-            _walk_nums(v, out)
+        for k, v in x.items():
+            _walk_nums(v, out, str(k))
     elif isinstance(x, list):
         for v in x:
-            _walk_nums(v, out)
+            _walk_nums(v, out, key)
     elif x is not None and not isinstance(x, bool):
         out.update(_nums_from(x))
+        if PRICE_KEYS.search(key) and "pct" not in key and "pyeong" not in key:
+            try:
+                out.update(_amount_forms(abs(int(float(x)))))  # 만원 금액 → '5억 2,000만' 같은 표기
+            except (TypeError, ValueError):
+                pass
 
 
-def analysis_numbers(unit_nos: list[str], with_stats: bool) -> set[str]:
+def analysis_numbers(unit_nos: list[str], with_stats: bool, lawd_cds: list[str] | None = None) -> set[str]:
     """data/analysis·data/stats에서 계산한 분석 숫자"""
     out: set[str] = {"3.3"}  # '3.3㎡당' 표기
     for no in unit_nos:
@@ -99,6 +107,10 @@ def analysis_numbers(unit_nos: list[str], with_stats: bool) -> set[str]:
             _walk_nums(json.loads(p.read_text("utf-8")), out)
     if with_stats and STATS.exists():
         _walk_nums(json.loads(STATS.read_text("utf-8")), out)
+    for lawd in lawd_cds or []:  # 실거래가 동향 글: data/market/regions/<시군구 코드>.json
+        p = ROOT / "data" / "market" / "regions" / f"{lawd}.json"
+        if p.exists():
+            _walk_nums(json.loads(p.read_text("utf-8")), out)
     return out
 
 
@@ -164,6 +176,8 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         errs.append("단지 글인데 house_manage_no가 없습니다.")
     if typ in ("remainder", "region", "monthly") and not unit_nos:
         errs.append("여러 단지 글인데 house_manage_nos가 없습니다.")
+    if typ == "market" and not meta.get("lawd_cd") and not meta.get("lawd_cds"):
+        errs.append("실거래가 글인데 lawd_cd(시군구 코드)가 없습니다.")
     title = str(meta.get("title", ""))
     kw = str(meta.get("keyword", ""))
     if kw and kw.split()[0] not in title[:TITLE_KEYWORD_WITHIN]:
@@ -250,7 +264,8 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     # 숫자 대조: 원본 데이터 또는 분석 데이터에 있는 숫자만 쓴다
     with_stats = typ in MULTI_TYPES
     raw = allowed_numbers(unit_nos)
-    extra = analysis_numbers(unit_nos, with_stats)
+    lawds = [str(x) for x in (meta.get("lawd_cds") or ([meta["lawd_cd"]] if meta.get("lawd_cd") else []))]
+    extra = analysis_numbers(unit_nos, with_stats, lawds)
     allowed = raw | extra
     analysis_only = extra - raw
     used_analysis: set[str] = set()
