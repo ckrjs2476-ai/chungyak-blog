@@ -94,13 +94,18 @@ def _code_rows(prefix: str) -> list[dict]:
 
 def lawd_for_address(addr: str, cache: dict) -> dict | None:
     """'경기도 화성특례시 만세구 향남읍 …' → {'lawd': '41xxx', 'name': '경기도 화성특례시 만세구', 'umd': '향남읍'}"""
-    tokens = str(addr).split()
+    # '화성특례시'는 특례시 지위를 붙인 표기라 법정동 이름은 '화성시'다 (수원·고양·용인·창원도 같음)
+    tokens = str(addr).replace("특례시", "시").split()
     for n in (3, 2, 1):
         if len(tokens) < n:
             continue
         prefix = " ".join(tokens[:n])
-        if prefix in cache:
-            hit = cache[prefix]
+        cached = cache.get(prefix)
+        if prefix in cache and not (isinstance(cached, dict) and cached.get("miss")):
+            hit = cached
+        elif isinstance(cached, dict) and cached.get("miss") and \
+                (date.today() - date.fromisoformat(cached["miss"])).days < 7:
+            hit = None  # 못 찾은 이름은 일주일 뒤 다시 찾는다
         else:
             hit = None
             for r in _code_rows(prefix):
@@ -116,9 +121,9 @@ def lawd_for_address(addr: str, cache: dict) -> dict | None:
                     rows = _code_rows(prefix)
                     print(f"::notice::법정동코드 못 찾음 '{prefix}': 응답 {len(rows)}행, 예시 "
                           f"{[(r.get('locatadd_nm'), r.get('region_cd')) for r in rows[:3]]}")
-            cache[prefix] = hit
+            cache[prefix] = hit or {"miss": date.today().isoformat()}
             time.sleep(0.2)
-        if hit:
+        if hit and not hit.get("miss"):
             umd = tokens[n] if len(tokens) > n and re.search(r"(읍|면|동|가|리)$", tokens[n]) else ""
             return {**hit, "umd": umd}
     return None
