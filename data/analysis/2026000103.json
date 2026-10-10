@@ -352,5 +352,27 @@
   ],
   "peer_avg_min": 3.4,
   "diff": -3.4
+ },
+ "market": {
+  "region": "경기도 성남시 분당구",
+  "lawd": "41135",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 726,
+  "median84": 175000,
+  "p25_84": 148000,
+  "p75_84": 195000,
+  "new_n84": 145,
+  "new_median84": 132000,
+  "new_build_years": 5,
+  "umd": "정자동",
+  "umd_n84": 67,
+  "umd_median84": 183000,
+  "diff_vs_median84": 123100,
+  "diff_pct_vs_median84": 70,
+  "diff_vs_new_median84": 166100,
+  "diff_pct_vs_new_median84": 126,
+  "diff_vs_umd_median84": 115100,
+  "diff_pct_vs_umd_median84": 63
  }
 }

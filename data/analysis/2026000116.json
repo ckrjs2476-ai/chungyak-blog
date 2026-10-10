@@ -344,5 +344,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "서울특별시 동작구",
+  "lawd": "11590",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 839,
+  "median84": 151000,
+  "p25_84": 129000,
+  "p75_84": 176000,
+  "new_n84": 86,
+  "new_median84": 167500,
+  "new_build_years": 5,
+  "umd": "대방동",
+  "umd_n84": 86,
+  "umd_median84": 145250,
+  "diff_vs_median84": 128580,
+  "diff_pct_vs_median84": 85,
+  "diff_vs_new_median84": 112080,
+  "diff_pct_vs_new_median84": 67,
+  "diff_vs_umd_median84": 134330,
+  "diff_pct_vs_umd_median84": 92
  }
 }
