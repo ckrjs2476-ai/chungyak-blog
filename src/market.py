@@ -44,8 +44,19 @@ def _key() -> str:
 
 
 def _get(url: str, params: dict) -> requests.Response:
+    """공공데이터포털은 가끔 응답이 늦다. 3번까지 다시 시도한다."""
     q = "&".join([f"serviceKey={_key()}"] + [f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items()])
-    return requests.get(f"{url}?{q}", timeout=40)
+    last: Exception | None = None
+    for attempt in range(3):
+        try:
+            return requests.get(f"{url}?{q}", timeout=60)
+        except (requests.Timeout, requests.ConnectionError) as e:
+            last = e
+            time.sleep(3 * (attempt + 1))
+    raise last  # type: ignore[misc]
+
+
+_debug_left = 5
 
 
 def _num(v) -> float | None:
@@ -57,7 +68,7 @@ def _num(v) -> float | None:
 
 # ---------- 1) 주소 → 시군구 코드 ----------
 def _code_rows(prefix: str) -> list[dict]:
-    res = _get(CODE_API, {"pageNo": 1, "numOfRows": 20, "type": "json", "locatadd_nm": prefix})
+    res = _get(CODE_API, {"pageNo": 1, "numOfRows": 1000, "type": "json", "locatadd_nm": prefix})
     if res.status_code != 200:
         print(f"::warning::법정동코드 API HTTP {res.status_code}: {res.text[:200]}")
         return []
@@ -98,6 +109,13 @@ def lawd_for_address(addr: str, cache: dict) -> dict | None:
                 if nm == prefix and len(code) == 10 and code[5:] == "00000" and code[2:5] != "000":
                     hit = {"lawd": code[:5], "name": nm}
                     break
+            if hit is None and n >= 2:
+                global _debug_left
+                if _debug_left > 0:
+                    _debug_left -= 1
+                    rows = _code_rows(prefix)
+                    print(f"::notice::법정동코드 못 찾음 '{prefix}': 응답 {len(rows)}행, 예시 "
+                          f"{[(r.get('locatadd_nm'), r.get('region_cd')) for r in rows[:3]]}")
             cache[prefix] = hit
             time.sleep(0.2)
         if hit:
@@ -167,7 +185,9 @@ def summarize(lawd: str, name: str, trades: list[dict], today: date) -> dict:
     new84 = [x for x in is84 if x["built"] and x["built"] >= today.year - NEW_BUILD_YEARS]
     by_umd: dict[str, list[int]] = {}
     for x in is84:
-        by_umd.setdefault(x["umd"], []).append(x["price"])
+        keys = {x["umd"], x["umd"].split()[0]} if x["umd"] else set()
+        for k in keys:  # '오남읍 양지리'는 '오남읍'으로도 묶는다
+            by_umd.setdefault(k, []).append(x["price"])
     by_month: dict[str, list[int]] = {}
     count_month: dict[str, int] = {}
     for x in t:
@@ -242,7 +262,11 @@ def main() -> int:
             if f.exists() and i >= 2:  # 2달 전보다 오래된 달은 바뀌지 않으므로 저장본을 쓴다
                 trades += json.loads(f.read_text("utf-8"))
                 continue
-            got = fetch_trades(lawd, ym)
+            try:
+                got = fetch_trades(lawd, ym)
+            except (requests.Timeout, requests.ConnectionError) as e:
+                print(f"::warning::실거래가 응답 지연으로 {name} {ym} 건너뜀: {type(e).__name__}")
+                got = None
             if got is None:
                 ok = False
                 break
