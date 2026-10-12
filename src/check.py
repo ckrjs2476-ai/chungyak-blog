@@ -31,7 +31,10 @@ BANNED = ("주목할 점은", "중요한 것은", "눈여겨볼", "도움이 되
           "눈부신", "다채로운", "명실상부", "밀접한 관련", "혁신적인", "심도 있게", "함양", "아우르",
           "시사합니다", "시사해요", "보여줍니다", "그럼에도 불구하고", "다양한", "살펴보겠습니다",
           "알아보겠습니다", "알아볼까요", "정리해 보겠습니다", "마무리하며", "결론적으로", "요약하자면",
-          "한마디로", "놓치지 마세요", "필수 체크", "꿀팁")
+          "한마디로", "놓치지 마세요", "필수 체크", "꿀팁",
+          # 채움말(품질 평가 가이드 'Filler'): 어느 글에 붙여도 되는 마무리·당부
+          "신중하게 결정", "신중히 결정", "꼼꼼히 따져", "꼼꼼하게 따져", "참고하시기 바랍니다", "도움이 되길",
+          "도움이 되시길", "현명한 선택", "성공적인 청약", "좋은 결과 있으시길", "내 집 마련의 꿈")
 CONNECTORS = ("또한", "게다가", "뿐만 아니라", "그러나", "한편", "더불어")
 DISCLOSURE = "청약홈 공고 데이터를 바탕으로 정리했어요"
 GUIDE_NOTICE = "청약홈 홈페이지를 참고해 주세요"
@@ -41,6 +44,41 @@ MAX_TITLE = 60
 TITLE_KEYWORD_WITHIN = 25  # 모바일 검색 결과에서 잘리지 않는 앞부분 안에 메인 키워드
 MAX_PARA_SENTENCES = 4
 MAX_TABLE_COLS = 4
+DONE = ROOT / "posts" / "published"
+MAX_TEMPLATE_SENTENCES = 1  # 다른 글과 (숫자만 빼고) 똑같은 문장 허용 개수. 고정 안내 문구는 제외
+FIXED_OK = ("바탕으로 정리했어요", "입주자모집공고 원문", "청약홈 홈페이지를 참고", "참고용으로만 봐 주세요")
+
+
+def _sentences(body: str) -> list[str]:
+    text = re.sub(r"^\s*[|#>-].*$", "", body, flags=re.M)      # 표·소제목·목록 제외
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    return [x.strip() for x in re.split(r"(?<=[.!?요다])\s+", text) if len(x.strip()) >= 20]
+
+
+def _norm(sent: str) -> str:
+    return re.sub(r"[\d,.]+", "N", re.sub(r"\s+", " ", sent)).strip()
+
+
+def template_sentences(body: str, exclude_file: str = "", limit: int = 40) -> list[str]:
+    """다른 공개 글과 숫자만 다르고 똑같은 문장. 바꿔 끼울 수 있는 '틀 문장'이 쌓이면 대량 생성으로 보인다."""
+    if not DONE.exists():
+        return []
+    seen: set[str] = set()
+    for f in sorted(DONE.glob("*.md"))[-limit:]:
+        if f.name == exclude_file:
+            continue
+        try:
+            _, b = split_post(f.read_text("utf-8"))
+        except Exception:  # noqa: BLE001
+            continue
+        seen |= {_norm(x) for x in _sentences(b)}
+    out = []
+    for x in _sentences(body):
+        if any(k in x for k in FIXED_OK):
+            continue
+        if _norm(x) in seen:
+            out.append(x)
+    return list(dict.fromkeys(out))
 
 
 def split_post(text: str) -> tuple[dict, str]:
@@ -306,6 +344,10 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
             if prev and cur and len(prev & cur) / len(prev | cur) > 0.6:
                 errs.append(f"최근 글 '{r.get('title', '')[:15]}…'과 소제목 구성이 비슷합니다.")
                 break
+    tmpl = template_sentences(body, exclude_file=meta.get("_file", ""))
+    if len(tmpl) > MAX_TEMPLATE_SENTENCES:
+        errs.append(f"다른 글과 숫자만 다른 똑같은 문장이 {len(tmpl)}개입니다 ({MAX_TEMPLATE_SENTENCES}개까지). "
+                    "이 단지만의 내용으로 바꿔 써 주세요: " + " / ".join(t[:30] for t in tmpl[:3]))
     return list(dict.fromkeys(errs))
 
 

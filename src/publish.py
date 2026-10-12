@@ -110,19 +110,56 @@ def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
     return post
 
 
-def related_block(no: str, exclude_id: str | None = None, extra: list[dict] | None = None) -> str:
-    """같은 단지의 다른 글 목록. 공개된 글(url 있는 LIVE)만 링크한다."""
-    if not no:
-        return ""
+REGION_LABELS = ["서울", "경기", "인천", "지방"]
+TYPE_LABELS = ["청약일정", "경쟁률", "당첨가점", "무순위", "청약통계", "실거래가", "월간정리", "청약가이드"]
+MAX_LINKS = 6
+
+
+def _live(posts: list[dict]) -> list[dict]:
+    return sorted([p for p in posts if p.get("url") and p.get("status") == "LIVE"],
+                  key=lambda p: p.get("published_at", ""), reverse=True)
+
+
+def related_block(no: str, exclude_id: str | None = None, labels: list | None = None,
+                  extra: list[dict] | None = None) -> str:
+    """내부 링크 묶음. ① 이 단지 다른 글 ② 같은 지역 최근 글 ③ 같은 종류 최근 글 순서로 최대 6개.
+    공개된 글(url 있는 LIVE)만 링크한다."""
     posts = json.loads(PUBLISHED.read_text("utf-8"))["posts"] if PUBLISHED.exists() else []
-    posts = posts + (extra or [])
-    items = [p for p in posts if p.get("house_manage_no") == no and p.get("url")
-             and p.get("status") == "LIVE" and p.get("blogger_id") != exclude_id]
-    if not items:
+    posts = _live(posts + (extra or []))
+    labels = labels or []
+    me = next((p for p in posts if exclude_id and p.get("blogger_id") == exclude_id), None)
+    if me and not labels:
+        labels = me.get("labels", [])
+    used = {exclude_id}
+    groups = []
+
+    def pick(title: str, cond, limit: int) -> None:
+        room = MAX_LINKS - sum(len(g[1]) for g in groups)
+        items = [p for p in posts if p.get("blogger_id") not in used and cond(p)][:min(limit, room)]
+        for p in items:
+            used.add(p.get("blogger_id"))
+        if items:
+            groups.append((title, items))
+
+    if no:
+        pick("이 단지 다른 글", lambda p: p.get("house_manage_no") == no, 4)
+    region = next((l for l in labels if l in REGION_LABELS), None)
+    kind = next((l for l in labels if l in TYPE_LABELS), None)
+    if region:
+        name = "지방" if region == "지방" else region
+        pick(f"{name} 다른 청약 글", lambda p: region in p.get("labels", []), 3)
+    if kind:
+        pick(f"다른 단지 {kind} 글", lambda p: kind in p.get("labels", []), 2)
+    if not groups:
+        pick("최근 청약 글", lambda p: True, 3)
+    if not groups:
         return ""
-    lis = "".join(f'<li><a href="{p["url"]}">{p["title"]}</a></li>' for p in items)
-    return (f'{REL_START}<div style="margin:24px 0 0;"><p style="font-weight:700;margin:0 0 6px;">'
-            f'이 단지 다른 글</p><ul style="margin:0;padding-left:20px;">{lis}</ul></div>{REL_END}')
+    html = ""
+    for title, items in groups:
+        lis = "".join(f'<li style="margin:0 0 4px;"><a href="{p["url"]}">{p["title"]}</a></li>' for p in items)
+        html += (f'<p style="font-weight:700;margin:16px 0 6px;">{title}</p>'
+                 f'<ul style="margin:0;padding-left:20px;">{lis}</ul>')
+    return f'{REL_START}<div style="margin:24px 0 0;">{html}</div>{REL_END}'
 
 
 def replace_related(html: str, block: str) -> str:
@@ -133,25 +170,31 @@ def replace_related(html: str, block: str) -> str:
     return html + block
 
 
-def refresh_siblings(token: str, no: str) -> int:
-    """새 글이 생긴 뒤 같은 단지의 이전 공개 글들의 '이 단지 다른 글' 목록을 갱신한다."""
-    if not no or not PUBLISHED.exists():
+def refresh_related(token: str, limit: int = 20) -> int:
+    """새 글이 생긴 뒤, 링크 묶음이 달라지는 이전 공개 글들을 갱신한다 (같은 단지·지역·종류)."""
+    if not PUBLISHED.exists():
         return 0
     blog = os.environ["BLOGGER_BLOG_ID"]
     h = {"Authorization": f"Bearer {token}"}
+    data = json.loads(PUBLISHED.read_text("utf-8"))
     n = 0
-    for p in json.loads(PUBLISHED.read_text("utf-8"))["posts"]:
-        if p.get("house_manage_no") != no or p.get("status") != "LIVE" or not p.get("blogger_id"):
+    for p in data["posts"]:
+        if n >= limit or p.get("status") != "LIVE" or not p.get("blogger_id"):
+            continue
+        block = related_block(p.get("house_manage_no", ""), exclude_id=p["blogger_id"], labels=p.get("labels"))
+        if block == p.get("related_html"):
             continue
         res = requests.get(f"{API}/blogs/{blog}/posts/{p['blogger_id']}", headers=h, timeout=60)
         if not res.ok:
             continue
         html = res.json().get("content", "")
-        new_html = replace_related(html, related_block(no, exclude_id=p["blogger_id"]))
+        new_html = replace_related(html, block)
         if new_html != html:
-            requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}", json={"content": new_html},
-                           headers=h, timeout=60).raise_for_status()
+            _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}", json={"content": new_html},
+                               headers=h, timeout=60), f"링크 갱신 {p.get('title')}")
             n += 1
+        p["related_html"] = block
+    PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
     return n
 
 
@@ -160,7 +203,7 @@ def record(meta: dict, body: str, post: dict, file_name: str = "") -> None:
     heads = [l.strip("# ").strip() for l in body.splitlines() if l.startswith("## ")]
     data["posts"].append({
         "house_manage_no": str(meta.get("house_manage_no") or ""),
-        "type": meta["type"], "title": meta["title"], "keyword": meta["keyword"], "file": file_name,
+        "type": meta["type"], "labels": list(meta.get("labels") or []), "title": meta["title"], "keyword": meta["keyword"], "file": file_name,
         "opening": meta["opening"], "url": post.get("url", ""), "blogger_id": post.get("id"),
         "status": post.get("status"), "published_at": datetime.now(KST).isoformat(),
         "headings_pattern": sorted({re.sub(r"[\d,.]+", "N", x) for x in heads}),
@@ -185,7 +228,10 @@ def rerender() -> int:
             continue
         meta, body = split_post(src.read_text("utf-8"))
         no = str(meta.get("house_manage_no") or "")
-        html = build_card(meta) + to_html(body) + method_link() + related_block(no, exclude_id=p["blogger_id"])
+        p["labels"] = list(meta.get("labels") or [])
+        block = related_block(no, exclude_id=p["blogger_id"], labels=p["labels"])
+        p["related_html"] = block
+        html = build_card(meta) + to_html(body) + method_link() + block
         _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}",
                            json={"content": html, "title": meta["title"]},
                            headers=h, timeout=60), f"다시 만들기 {p.get('title')}")
@@ -297,13 +343,13 @@ def main() -> int:
             continue
         token = token or access_token()
         no = str(meta.get("house_manage_no") or "")
-        html = build_card(meta) + to_html(body) + method_link() + related_block(no)
+        html = build_card(meta) + to_html(body) + method_link() + related_block(no, labels=meta.get("labels"))
         post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post, f.name)
         if not draft:
-            refreshed = refresh_siblings(token, no)
+            refreshed = refresh_related(token)
             if refreshed:
-                summary.append(f"  · 같은 단지 이전 글 {refreshed}편에 링크 추가")
+                summary.append(f"  · 이전 글 {refreshed}편의 관련 글 링크 갱신")
         DONE.mkdir(parents=True, exist_ok=True)
         shutil.move(str(f), DONE / f.name)
         summary.append(f"- {'임시저장' if draft else '발행'}: {meta['title']} {post.get('url', '')}")
