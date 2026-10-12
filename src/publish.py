@@ -204,7 +204,7 @@ def record(meta: dict, body: str, post: dict, file_name: str = "") -> None:
     data["posts"].append({
         "house_manage_no": str(meta.get("house_manage_no") or ""),
         "type": meta["type"], "labels": list(meta.get("labels") or []), "title": meta["title"], "keyword": meta["keyword"], "file": file_name,
-        "opening": meta["opening"], "url": post.get("url", ""), "blogger_id": post.get("id"),
+        "opening": meta["opening"], "angle": meta.get("angle", ""), "url": post.get("url", ""), "blogger_id": post.get("id"),
         "status": post.get("status"), "published_at": datetime.now(KST).isoformat(),
         "headings_pattern": sorted({re.sub(r"[\d,.]+", "N", x) for x in heads}),
     })

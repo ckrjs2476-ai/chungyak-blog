@@ -39,6 +39,15 @@ CONNECTORS = ("또한", "게다가", "뿐만 아니라", "그러나", "한편", 
 DISCLOSURE = "청약홈 공고 데이터를 바탕으로 정리했어요"
 GUIDE_NOTICE = "청약홈 홈페이지를 참고해 주세요"
 MARKET_DISCLOSURE = "국토교통부 실거래가 공개 데이터를 바탕으로 정리했어요"
+# 출처 안내는 뜻만 같으면 표현을 바꿔도 된다(모든 글 끝이 똑같은 문장이 되지 않게)
+DISCLOSURE_RE = re.compile(r"청약홈[^.\n]{0,20}(공고|분양정보|모집공고)[^.\n]{0,10}데이터를 바탕으로 정리했")
+MARKET_DISCLOSURE_RE = re.compile(r"(국토교통부|국토부)[^.\n]{0,15}실거래[^.\n]{0,15}데이터를 바탕으로 정리했")
+# 글의 중심(angle): 그 단지 데이터에서 가장 두드러진 점을 골라 첫 소제목과 글 순서를 정한다.
+ANGLES = {
+    "notice": ("가격", "시세", "일정", "특공", "타입"),
+    "competition": ("마감단계", "타입격차", "지역비교", "미달"),
+    "score": ("커트라인", "타입격차", "지역비교", "가점구간"),
+}
 MIN_CHARS = 1500
 MAX_TITLE = 60
 TITLE_KEYWORD_WITHIN = 25  # 모바일 검색 결과에서 잘리지 않는 앞부분 안에 메인 키워드
@@ -46,7 +55,7 @@ MAX_PARA_SENTENCES = 4
 MAX_TABLE_COLS = 4
 DONE = ROOT / "posts" / "published"
 MAX_TEMPLATE_SENTENCES = 1  # 다른 글과 (숫자만 빼고) 똑같은 문장 허용 개수. 고정 안내 문구는 제외
-FIXED_OK = ("바탕으로 정리했어요", "입주자모집공고 원문", "청약홈 홈페이지를 참고", "참고용으로만 봐 주세요")
+FIXED_OK = ("바탕으로 정리했", "입주자모집공고 원문", "청약홈 홈페이지를 참고", "참고용으로만 봐 주세요")
 
 
 def _sentences(body: str) -> list[str]:
@@ -207,6 +216,13 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         if not meta.get(f):
             errs.append(f"머리말에 {f}가 없습니다.")
     typ = meta.get("type")
+    if typ in ANGLES:
+        if meta.get("angle") not in ANGLES[typ]:
+            errs.append(f"머리말 angle은 {', '.join(ANGLES[typ])} 중 하나여야 합니다.")
+        else:
+            same = [r for r in (recent or []) if r.get("type") == typ][-2:]
+            if len(same) == 2 and all(r.get("angle") == meta["angle"] for r in same):
+                errs.append(f"같은 종류 직전 2편과 글의 중심(angle: {meta['angle']})이 같습니다. 이 단지에서 다른 점을 중심으로 써 주세요.")
     unit_nos = [str(x) for x in (meta.get("house_manage_nos") or
                                  ([meta["house_manage_no"]] if meta.get("house_manage_no") else []))]
     if typ not in ALL_TYPES:
@@ -247,9 +263,9 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         if GUIDE_NOTICE not in body:
             errs.append("가이드 글에 '청약홈 홈페이지를 참고해 주세요' 안내가 없습니다.")
     elif typ == "market":
-        if MARKET_DISCLOSURE not in body:
+        if not MARKET_DISCLOSURE_RE.search(body):
             errs.append(f"실거래가 글에 '{MARKET_DISCLOSURE}' 안내가 없습니다.")
-    elif DISCLOSURE not in body:
+    elif not DISCLOSURE_RE.search(body):
         errs.append("출처 안내 문구('…데이터를 바탕으로 정리했어요')가 없습니다.")
     for b in BANNED:
         if b in body:

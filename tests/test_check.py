@@ -19,7 +19,7 @@ def teardown_module():
 
 META = {"house_manage_no": "2026999001", "type": "notice", "title": "테스트파크 시티 청약 일정·분양가 총정리 (10월 공고)",
         "slug": "test-park-city-cheongyak-2026-10", "description": "1순위 10월 14일, 84㎡ 최고가 6억 2,000만 원, 총 812세대 공급하는 테스트파크 시티 청약 일정을 정리했어요.",
-        "labels": ["청약일정", "경기"], "keyword": "테스트파크 시티 청약 일정", "opening": "B"}
+        "labels": ["청약일정", "경기"], "keyword": "테스트파크 시티 청약 일정", "opening": "B", "angle": "가격"}
 
 GOOD_PARA = ("테스트파크 시티 1순위 접수는 10월 14일에 해요. 특별공급은 하루 앞선 10월 13일이라고 합니다.\n\n"
              "84㎡ 최고 분양가는 6억 2,000만 원으로 나왔어요. 59㎡는 4억 8,500만 원이라고 해요.\n\n"
@@ -58,3 +58,10 @@ def test_no_analysis_numbers_fails():
     plain = body().replace("공급면적 3.3㎡당으로 바꾸면 84㎡는 1,825만 원, 59㎡는 1,906만 원이에요.\n\n", "")
     errs = check.check_text(META, plain, [])
     assert any("분석 숫자" in e for e in errs), errs
+
+
+def test_same_angle_three_in_a_row_fails():
+    prev = [{"type": "notice", "angle": "가격", "opening": "A", "title": "앞 글1"},
+            {"type": "notice", "angle": "가격", "opening": "C", "title": "앞 글2"}]
+    errs = check.check_text(META, body(), prev)
+    assert any("angle" in e for e in errs), errs
