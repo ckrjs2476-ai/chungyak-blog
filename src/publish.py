@@ -225,12 +225,22 @@ def publish_pages() -> int:
         if meta.get("publish") is not True:
             continue
         payload = {"title": meta["title"], "content": to_html(body)}
+        slug = meta.get("slug")
+        old = known.get(f.name, {})
+        if slug and old.get("id") and not str(old.get("url", "")).endswith(f"/{slug}.html"):
+            # 주소가 한글 제목으로 만들어진 경우: 지우고 영문 주소로 다시 만든다
+            requests.delete(f"{API}/blogs/{blog}/pages/{old['id']}", headers=h, timeout=60)
+            known.pop(f.name, None)
         if f.name in known and known[f.name].get("id"):
             res = _ok(requests.patch(f"{API}/blogs/{blog}/pages/{known[f.name]['id']}", json=payload,
                                      headers=h, timeout=60), f"페이지 고치기 {f.name}")
         else:
-            res = _ok(requests.post(f"{API}/blogs/{blog}/pages", params={"isDraft": "false"}, json=payload,
+            first = {**payload, "title": slug} if slug else payload  # 영문 제목으로 만들어 주소를 고정
+            res = _ok(requests.post(f"{API}/blogs/{blog}/pages", params={"isDraft": "false"}, json=first,
                                     headers=h, timeout=60), f"페이지 만들기 {f.name}")
+            if slug:
+                res = _ok(requests.patch(f"{API}/blogs/{blog}/pages/{res.json()['id']}",
+                                         json={"title": meta["title"]}, headers=h, timeout=60), "페이지 제목")
         page = res.json()
         known[f.name] = {"id": page.get("id"), "url": page.get("url"), "title": meta["title"]}
         print(f"::notice::페이지: {meta['title']} → {page.get('url')}")
