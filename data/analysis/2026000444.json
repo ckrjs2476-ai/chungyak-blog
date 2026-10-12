@@ -73,6 +73,53 @@
  "pyeong_avg": 1949,
  "price_84_min": 62800,
  "price_84_max": 64800,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.49A",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "84.12B",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "84.11C",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.48D",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "84.12E",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   }
+  ],
+  "req_total": 9,
+  "rank1_req": 9,
+  "supply_total": 45,
+  "final_shortfall_total": 36,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.2
+ },
  "region_price": {
   "scope": "제주시",
   "supply_kind": "민영",
@@ -110,6 +157,18 @@
   "peer_count": 3,
   "peer_avg_rate": 0.07,
   "peer_max_rate": 0.12
+ },
+ "region_competition": {
+  "scope": "제주시",
+  "peer_count": 3,
+  "peers": [
+   "PH159",
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ"
+  ],
+  "peer_avg_rate": 0.07,
+  "rank": 1,
+  "of": 4
  },
  "market": {
   "region": "제주특별자치도 제주시",

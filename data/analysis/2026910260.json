@@ -1,0 +1,63 @@
+{
+ "no": "2026910260",
+ "name": "의왕역 한신더휴",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-10-12",
+ "rank1_date": "2026-10-19",
+ "city": "의왕시",
+ "supply_kind": "",
+ "winner_date": "2026-10-23",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910260&pblancNo=2026910260",
+ "households": 8,
+ "types": [
+  {
+   "ty": "59.992B",
+   "size": 59,
+   "price": 70000,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9861B",
+   "size": 84,
+   "price": 94000,
+   "area_m2": null,
+   "general": 6,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 8,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 94000,
+ "price_84_max": 94000,
+ "market": {
+  "region": "경기도 의왕시",
+  "lawd": "41430",
+  "months": 12,
+  "updated": "2026-10-12",
+  "n84": 993,
+  "median84": 78300,
+  "p25_84": 57000,
+  "p75_84": 98000,
+  "new_n84": 46,
+  "new_median84": 92250,
+  "new_build_years": 5,
+  "umd": "삼동",
+  "umd_n84": 72,
+  "umd_median84": 62000,
+  "diff_vs_median84": 15700,
+  "diff_pct_vs_median84": 20,
+  "diff_vs_new_median84": 1750,
+  "diff_pct_vs_new_median84": 2,
+  "diff_vs_umd_median84": 32000,
+  "diff_pct_vs_umd_median84": 52
+ }
+}

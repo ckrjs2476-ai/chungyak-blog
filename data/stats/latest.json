@@ -1,7 +1,48 @@
 {
- "date": "2026-10-12",
- "weekly_competition": [],
+ "date": "2026-10-13",
+ "weekly_competition": [
+  {
+   "no": "2026000444",
+   "name": "제주시 이도이동 아이린8차 아파트",
+   "region": "제주",
+   "rank1_avg_rate": 0.2,
+   "best": null,
+   "final_shortfall_total": 36,
+   "rank1_closed_types": 0,
+   "type_count": 5
+  }
+ ],
  "weekly_remainder": [
+  {
+   "no": "2026910254",
+   "name": "에코델타시티 푸르지오 센터파크(18BL)",
+   "region": "부산",
+   "households": 1,
+   "rcept_date": "2026-10-19",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910254&pblancNo=2026910254",
+   "types": [
+    {
+     "ty": "84.766B",
+     "price": 48400,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910255",
+   "name": "e편한세상 에코델타 센터포인트(19BL)",
+   "region": "부산",
+   "households": 1,
+   "rcept_date": "2026-10-19",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910255&pblancNo=2026910255",
+   "types": [
+    {
+     "ty": "84.9821A",
+     "price": 47770,
+     "pyeong_price": null
+    }
+   ]
+  },
   {
    "no": "2026910256",
    "name": "상동역 롯데캐슬 시그니처",
@@ -43,6 +84,56 @@
     {
      "ty": "187.5097P",
      "price": 572700,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910259",
+   "name": "시티오씨엘 9단지 오션파크뷰",
+   "region": "인천",
+   "households": 68,
+   "rcept_date": "2026-10-19",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259",
+   "types": [
+    {
+     "ty": "75.9096",
+     "price": 60090,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910260",
+   "name": "의왕역 한신더휴",
+   "region": "경기",
+   "households": 8,
+   "rcept_date": "2026-10-19",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910260&pblancNo=2026910260",
+   "types": [
+    {
+     "ty": "59.992B",
+     "price": 70000,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9861B",
+     "price": 94000,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910263",
+   "name": "청계 노르웨이숲(13차)",
+   "region": "서울",
+   "households": 10,
+   "rcept_date": "2026-10-19",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910263&pblancNo=2026910263",
+   "types": [
+    {
+     "ty": "39.695",
+     "price": 76112,
      "pyeong_price": null
     }
    ]

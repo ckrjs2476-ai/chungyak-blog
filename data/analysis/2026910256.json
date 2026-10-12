@@ -83,6 +83,72 @@
  "special_share_pct": 0,
  "price_84_min": 149900,
  "price_84_max": 162200,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7123B",
+    "supply": 45,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 37
+   },
+   {
+    "ty": "84.9074D",
+    "supply": 62,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 59
+   },
+   {
+    "ty": "84.9199A",
+    "supply": 112,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 89
+   },
+   {
+    "ty": "84.9872E",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 30
+   },
+   {
+    "ty": "84.9874C",
+    "supply": 267,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 225
+   },
+   {
+    "ty": "84.9928F",
+    "supply": 262,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 234
+   },
+   {
+    "ty": "187.5097P",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 111,
+  "rank1_req": 0,
+  "supply_total": 785,
+  "final_shortfall_total": 674,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "187.5097P",
+   "rate": 1.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 부천시 원미구",
   "lawd": "41192",

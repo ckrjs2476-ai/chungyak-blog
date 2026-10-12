@@ -2,21 +2,21 @@
  "lawd": "26440",
  "name": "부산광역시 강서구",
  "months": 12,
- "updated": "2026-10-12",
- "trade_count": 1352,
+ "updated": "2026-10-13",
+ "trade_count": 1363,
  "cancel_count": 76,
- "n84": 553,
+ "n84": 558,
  "median84": 44000,
- "p25_84": 33600,
+ "p25_84": 33500,
  "p75_84": 54500,
- "median84_pyeong_excl": 1726,
+ "median84_pyeong_excl": 1722,
  "new_n84": 10,
  "new_median84": 57750,
  "new_build_years": 5,
  "umd84": {
   "명지동": {
-   "n": 519,
-   "median": 45000
+   "n": 524,
+   "median": 44950
   },
   "신호동": {
    "n": 15,
@@ -94,27 +94,27 @@
   },
   {
    "month": "2026-09",
-   "count": 86,
+   "count": 87,
    "n84": 33,
    "median84": 39500
   },
   {
    "month": "2026-10",
-   "count": 20,
-   "n84": 9,
-   "median84": 42700
+   "count": 30,
+   "n84": 14,
+   "median84": 42300
   }
  ],
  "top_apts": [
   {
    "name": "명지동 명지협성휴포레",
-   "count": 110,
+   "count": 111,
    "median84": null,
    "built": 2016
   },
   {
    "name": "명지동 더샵명지퍼스트월드3단지",
-   "count": 92,
+   "count": 93,
    "median84": 59000,
    "built": 2020
   },
@@ -143,6 +143,12 @@
    "built": 2015
   },
   {
+   "name": "명지동 명지더웨스턴",
+   "count": 55,
+   "median84": 43000,
+   "built": 2018
+  },
+  {
    "name": "지사동 지사금강펜테리움",
    "count": 54,
    "median84": null,
@@ -153,12 +159,6 @@
    "count": 54,
    "median84": 41500,
    "built": 2015
-  },
-  {
-   "name": "명지동 명지더웨스턴",
-   "count": 52,
-   "median84": 43000,
-   "built": 2018
   },
   {
    "name": "명지동 더힐시그니처",
