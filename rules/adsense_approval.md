@@ -35,6 +35,32 @@
 - publish.py: 관련 글 묶음(같은 단지 → 같은 지역 → 같은 종류, 최대 6개)을 붙이고, 새 글이 오면 이전 글 묶음도 갱신.
 - 분석 방법 페이지에 '글은 이렇게 만들어요'(숫자 대조, 분석 숫자 기준, 중복 금지, 얇은 공고 모음)를 공개 = 큐레이션 절차를 드러냄.
 
+## 1-2. 사례 2차 조사 (2026-10-12 밤, 한국 21건 + 영어권 17건)
+- [공식] 애드센스 도움말 answer/9680050: "Don't place the ad code on auto-generated pages or pages with little to no original content."
+  answer/10015918: 사이트가 무엇에 관한 것인지 알 수 있게 페이지마다 고유한 내용이 충분해야 하고, 페이지끼리 같은 내용을 반복하지 말 것.
+- [공식] 검색 쪽 자가진단은 자동화 사용을 숨기지 말고 "어떻게 만들었는지" 설명하라고 권한다. 단 방법을 밝히는 것이지,
+  "검토하지 않았다", "AI 요약을 믿지 말라" 같은 자기 비하 문구는 쓰지 않는다(이 문구가 저품질 신호로 의심된 사례 있음).
+- [사례, 가장 비슷한 사이트] 공개 데이터로 페이지를 자동 생성한 디렉터리(morinaga): 템플릿을 조건별로 나누고, 원문 복사 삭제,
+  80→18페이지 축소, 방법론·소개 페이지, 반복 문장 수정까지 했지만 7번 거절되어 애드센스를 포기하고 제휴 수익으로 바꿈.
+  본인이 꼽은 원인: 템플릿이 비슷한 페이지, 편집자의 목소리 없음, 운영자 불분명.
+- [사례] 한국에서 공공데이터·청약 자동 생성 블로그가 가없콘 후 승인된 사례는 찾지 못했다(0건). 부동산·청약 승인 후기도 없음.
+- [사례 다수] 승인 직전 행동이 분명한 사례들은 대부분 '빼기'였다: 얇은 글·중복 글·옮겨온 글 비공개, 빈 라벨 삭제, 1~2편 라벨 통합.
+  170편→70편, 14편→12편(1편짜리 카테고리 2개 삭제), 20편+→13편 등.
+- [사례 다수] 카테고리마다 8~10편 이상으로 묶은 뒤 승인(7번째 신청에 성공한 사례, 실험 블로그 20편 17일 승인).
+- [사례 다수] 글 수는 결정 요인이 아니다: 2,000편·300편·250편 거절, 10~13편 승인.
+- [사례 다수] 같은 상태로 바로 재신청하면 같은 사유로 거절되고, 재검토 횟수를 다 쓰면 약 2주~50일 신청이 막힌다.
+- [사례] 효과가 없던 것: 테마 교체, 광고 가젯 끄기, 글자 수만 늘리기(이미 1,500자 이상인 블로그 5회 거절).
+- [사례 소수] 서치콘솔 색인 비율(250편 중 37편 색인 → 거절), 모바일 사용성 오류 수정 뒤 1주 만에 승인.
+- [사례 0건] 경험 추가, 직접 찍은 사진, ads.txt, 라벨 noindex는 실제 후기에서 결정적이었다는 기록이 없다(해가 되지는 않음).
+
+### 이에 따른 신청 전 절차 (src/audit.py)
+1. `python src/audit.py` → data/audit.md: 공개 글 수, 블로그 전체 반복 문장 비율(목표 5% 미만), 라벨별 글 수(8편 미만 표시),
+   글별 점수(검수 오류, 틀 문장, 글자 수, 본문 내부 링크).
+2. 라벨이 8편 미만이면 신청을 미루거나 그 라벨을 메뉴에서 숨긴다. 지역 라벨(서울·경기·인천·지방)이 가장 늦게 찬다.
+3. 점수 70 미만 글은 보강하거나, 사용자와 상의해 비공개·통합한다.
+4. 서치콘솔에서 공개 글 대부분이 색인됐는지, 모바일 사용성 오류가 없는지 확인한다.
+5. 거절되면 바로 재신청하지 않는다. 위 1~4를 다시 하고 2주 이상 뒤에 신청한다.
+
 ## 2. 글마다 지킬 것 (가치가 별로 없는 콘텐츠를 피하는 핵심)
 1. 계산한 분석 숫자 2개 이상 (check.py가 확인). 원본을 옮기는 문장보다 계산·비교 문장이 많아야 한다.
 2. **해설 문단 1개 이상**: 숫자가 뜻하는 것을 풀고, 조건을 나눠 판단을 돕는다.
@@ -76,6 +102,15 @@
 - 품질 평가 가이드 AI·채움말 보도: https://searchengineland.com/google-quality-raters-content-ai-generated-454161
 - 틀 문장 467회 사례: https://dev.to/morinaga/why-im-betting-sentence-uniqueness-beats-page-count-for-programmatic-adsense-approval-6n1
 - 13편 승인 사례: https://sacchann.com/from-low-value-content-to-approval-google-adsense/
+- 자동 생성 페이지에 광고 코드 금지: https://support.google.com/adsense/answer/9680050
+- 고유한 내용·반복 금지: https://support.google.com/adsense/answer/10015918
+- morinaga 7차 거절 후 포기: https://dev.to/morinaga/why-im-betting-quality-gates-protect-my-adsense-approval-better-than-content-volume-1plh
+- 저품질 신호 회고: https://dev.to/morinaga/what-i-learned-about-accidental-low-value-signals-after-four-adsense-rejections-1b2l
+- 카테고리 8편 이상 후 승인: https://makemoneyonlineworldwide.com/how-to-fix-low-value-content/
+- 1편 카테고리 삭제 후 승인: https://jadblog.co.kr (가치가 별로 없는 콘텐츠 승인 간단 방법)
+- 얇은 글 비공개 후 승인(170→70): https://www.nolavoza.com/technology/wordpress-adsense-2/
+- 비슷한 글 삭제·카테고리 병합 후 승인: https://www.sabujak.org/2023/09/24/
+- 반복 인사말 삭제 후 승인: https://ttikki1188.com/35
 - 게시자 정책 복제된 콘텐츠: https://support.google.com/publisherpolicies/answer/11190248
 - 애드센스 콘텐츠 품질 안내: https://support.google.com/adsense/answer/10015918
 - 도움이 되는 콘텐츠: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
