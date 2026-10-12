@@ -33,9 +33,9 @@ BANNED = ("주목할 점은", "중요한 것은", "눈여겨볼", "도움이 되
           "알아보겠습니다", "알아볼까요", "정리해 보겠습니다", "마무리하며", "결론적으로", "요약하자면",
           "한마디로", "놓치지 마세요", "필수 체크", "꿀팁")
 CONNECTORS = ("또한", "게다가", "뿐만 아니라", "그러나", "한편", "더불어")
-DISCLOSURE = "청약홈 공고 데이터를 바탕으로 자동 정리했어요"
+DISCLOSURE = "청약홈 공고 데이터를 바탕으로 정리했어요"
 GUIDE_NOTICE = "청약홈 홈페이지를 참고해 주세요"
-MARKET_DISCLOSURE = "국토교통부 실거래가 공개 데이터를 바탕으로 자동 정리했어요"
+MARKET_DISCLOSURE = "국토교통부 실거래가 공개 데이터를 바탕으로 정리했어요"
 MIN_CHARS = 1500
 MAX_TITLE = 60
 TITLE_KEYWORD_WITHIN = 25  # 모바일 검색 결과에서 잘리지 않는 앞부분 안에 메인 키워드
@@ -212,7 +212,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         if MARKET_DISCLOSURE not in body:
             errs.append(f"실거래가 글에 '{MARKET_DISCLOSURE}' 안내가 없습니다.")
     elif DISCLOSURE not in body:
-        errs.append("자동 정리 안내 문구가 없습니다.")
+        errs.append("출처 안내 문구('…데이터를 바탕으로 정리했어요')가 없습니다.")
     for b in BANNED:
         if b in body:
             errs.append(f"금지 표현: '{b}'")

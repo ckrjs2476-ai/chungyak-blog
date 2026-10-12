@@ -185,7 +185,7 @@ def rerender() -> int:
             continue
         meta, body = split_post(src.read_text("utf-8"))
         no = str(meta.get("house_manage_no") or "")
-        html = build_card(meta) + to_html(body) + related_block(no, exclude_id=p["blogger_id"])
+        html = build_card(meta) + to_html(body) + method_link() + related_block(no, exclude_id=p["blogger_id"])
         _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}",
                            json={"content": html, "title": meta["title"]},
                            headers=h, timeout=60), f"다시 만들기 {p.get('title')}")
@@ -193,6 +193,48 @@ def rerender() -> int:
         n += 1
     PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
     print(f"::notice::{n}편 다시 만듦")
+    return 0
+
+
+PAGES_DIR = ROOT / "pages"
+PAGES_JSON = ROOT / "data" / "pages.json"
+
+
+def method_link() -> str:
+    """모든 글 끝에 '분석 방법' 페이지 링크를 붙인다 (계산 방식을 공개해 신뢰를 높인다)."""
+    if not PAGES_JSON.exists():
+        return ""
+    url = json.loads(PAGES_JSON.read_text("utf-8")).get("method.md", {}).get("url")
+    if not url:
+        return ""
+    return (f'<p style="margin:1.6em 0 0;font-size:14px;color:#333333;">이 글의 숫자를 어떻게 계산했는지는 '
+            f'<a href="{url}" style="color:#1a56db;">분석 방법과 데이터 출처</a>에 정리해 두었어요.</p>')
+
+
+def publish_pages() -> int:
+    """pages/*.md 가운데 머리말에 publish: true가 있는 것을 Blogger 고정 페이지로 올리거나 고친다."""
+    token = access_token()
+    blog = os.environ["BLOGGER_BLOG_ID"]
+    h = {"Authorization": f"Bearer {token}"}
+    known = json.loads(PAGES_JSON.read_text("utf-8")) if PAGES_JSON.exists() else {}
+    for f in sorted(PAGES_DIR.glob("*.md")):
+        text = f.read_text("utf-8")
+        if not text.startswith("---"):
+            continue
+        meta, body = split_post(text)
+        if meta.get("publish") is not True:
+            continue
+        payload = {"title": meta["title"], "content": to_html(body)}
+        if f.name in known and known[f.name].get("id"):
+            res = _ok(requests.patch(f"{API}/blogs/{blog}/pages/{known[f.name]['id']}", json=payload,
+                                     headers=h, timeout=60), f"페이지 고치기 {f.name}")
+        else:
+            res = _ok(requests.post(f"{API}/blogs/{blog}/pages", params={"isDraft": "false"}, json=payload,
+                                    headers=h, timeout=60), f"페이지 만들기 {f.name}")
+        page = res.json()
+        known[f.name] = {"id": page.get("id"), "url": page.get("url"), "title": meta["title"]}
+        print(f"::notice::페이지: {meta['title']} → {page.get('url')}")
+    PAGES_JSON.write_text(json.dumps(known, ensure_ascii=False, indent=1), "utf-8")
     return 0
 
 
@@ -245,7 +287,7 @@ def main() -> int:
             continue
         token = token or access_token()
         no = str(meta.get("house_manage_no") or "")
-        html = build_card(meta) + to_html(body) + related_block(no)
+        html = build_card(meta) + to_html(body) + method_link() + related_block(no)
         post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post, f.name)
         if not draft:
@@ -272,6 +314,8 @@ if __name__ == "__main__":
             sys.exit(rerender())
         if "--publish-drafts" in sys.argv:
             sys.exit(publish_drafts())
+        if "--pages" in sys.argv:
+            sys.exit(publish_pages())
         sys.exit(main())
     except SystemExit:
         raise

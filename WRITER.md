@@ -12,7 +12,8 @@
 ## 1. 준비
 1. 저장소를 최신으로 받는다 (git pull).
 2. 아래 파일을 모두 읽는다. 읽지 않고 쓰지 않는다.
-   - rules/seo_guide.md, rules/ranking_growth.md, rules/writing_rules.md, rules/keyword_rules.md
+   - rules/adsense_approval.md (가장 먼저), rules/seo_guide.md, rules/ranking_growth.md, rules/writing_rules.md,
+     rules/keyword_rules.md
 3. data/jobs.json(오늘 후보), data/published.json(쓴 글 기록, 특히 마지막 10편의 opening과 소제목),
    data/stats/latest.json(통계)을 읽는다. jobs.json의 date가 오늘이 아니어도 그대로 쓴다.
 
