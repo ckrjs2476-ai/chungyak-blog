@@ -17,22 +17,18 @@ def show(name, url, params):
         OUT.append(f"{name} → 실패 {type(e).__name__}")
         return ""
 
-# 1) 단지 목록 (강남구 11680)
-kapt = None
-for svc, op in [("AptListService4", "getSigunguAptList4")]:
-    t = show(f"단지목록 {svc}/{op}", B + f"{svc}/{op}", {"sigunguCode": "11680", "numOfRows": 3, "pageNo": 1, "_type": "json"})
-    m = re.search(r'"kaptCode"\s*:\s*"([A-Z0-9]+)"|<kaptCode>([A-Z0-9]+)<', t, re.I)
-    if m:
-        kapt = m.group(1) or m.group(2)
-        break
-OUT.append(f"찾은 단지코드: {kapt}")
-kc = kapt or "A13505003"
-# 2) 기본정보
-for svc, op in [("AptBasisInfoServiceV5", "getAphusBassInfoV5")]:
-    show(f"기본정보 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "_type": "json"})
-# 3) 월별 비용 — 어느 달부터 값이 있는지
+import json
 C = "AptCmnuseManageCostServiceV3/"; I = "AptIndvdlzManageCostServiceV3/"; R = "AptRepairsCostServiceV3/"
-for ym in ["202608", "202607", "202606", "202605", "202512"]:
+r = requests.get(B + "AptListService4/getSigunguAptList4", params={"serviceKey": key, "sigunguCode": "11680", "numOfRows": 400, "pageNo": 1, "_type": "json"}, timeout=40)
+items = r.json()["response"]["body"]["items"]
+OUT.append(f"강남구 단지 수 응답: {len(items)}, totalCount={r.json()['response']['body'].get('totalCount')}")
+big = None
+for it in items[:60]:
+    b = requests.get(B + "AptBasisInfoServiceV5/getAphusBassInfoV5", params={"serviceKey": key, "kaptCode": it["kaptCode"], "_type": "json"}, timeout=40).json()["response"]["body"]["item"]
+    if b and (b.get("kaptdaCnt") or 0) >= 500:
+        big = it["kaptCode"]; OUT.append(f"큰 단지: {big} {b.get('kaptName')} 세대 {b.get('kaptdaCnt')} | " + json.dumps(b, ensure_ascii=False)[:900]); break
+kc = big or "A13505003"
+for ym in ["202608", "202607", "202606", "202605", "202604", "202512"]:
     show(f"인건비 {ym}", B + C + "getHsmpLaborCostInfoV3", {"kaptCode": kc, "searchDate": ym, "_type": "json"})
     show(f"전기 {ym}", B + I + "getHsmpElectricityCostInfoV3", {"kaptCode": kc, "searchDate": ym, "_type": "json"})
     show(f"장기수선 월부과 {ym}", B + R + "getHsmpMonthFeeInfoV3", {"kaptCode": kc, "searchDate": ym, "_type": "json"})
@@ -41,7 +37,7 @@ for op in ["getHsmpReserveBalanceInfoV3", "getHsmpAccumulationTariffInfoV3", "ge
     show(f"장기수선 {op} {ym}", B + R + op, {"kaptCode": kc, "searchDate": ym, "_type": "json"})
 for op in ["getHsmpCleaningCostInfoV3", "getHsmpGuardCostInfoV3", "getHsmpElevatorMntncCostInfoV3", "getHsmpConsignManageFeeInfoV3"]:
     show(f"공용 {op} {ym}", B + C + op, {"kaptCode": kc, "searchDate": ym, "_type": "json"})
-for op in ["getHsmpHeatCostInfoV3", "getHsmpWaterCostInfoV3", "getHsmpHeatCostInfoV2"]:
+for op in ["getHsmpHeatCostInfoV3", "getHsmpWaterCostInfoV3", "getHsmpHotWaterCostInfoV3"]:
     show(f"개별 {op} {ym}", B + I + op, {"kaptCode": kc, "searchDate": ym, "_type": "json"})
 
 os.makedirs("data", exist_ok=True)
