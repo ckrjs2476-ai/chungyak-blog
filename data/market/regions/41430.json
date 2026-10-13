@@ -2,14 +2,14 @@
  "lawd": "41430",
  "name": "경기도 의왕시",
  "months": 12,
- "updated": "2026-10-12",
- "trade_count": 1941,
- "cancel_count": 40,
- "n84": 993,
- "median84": 78300,
+ "updated": "2026-10-13",
+ "trade_count": 1946,
+ "cancel_count": 41,
+ "n84": 994,
+ "median84": 78400,
  "p25_84": 57000,
  "p75_84": 98000,
- "median84_pyeong_excl": 3047,
+ "median84_pyeong_excl": 3050,
  "new_n84": 46,
  "new_median84": 92250,
  "new_build_years": 5,
@@ -19,7 +19,7 @@
    "median": 103000
   },
   "학의동": {
-   "n": 111,
+   "n": 112,
    "median": 82000
   },
   "오전동": {
@@ -110,13 +110,13 @@
   },
   {
    "month": "2026-09",
-   "count": 92,
-   "n84": 46,
-   "median84": 68000
+   "count": 96,
+   "n84": 47,
+   "median84": 68200
   },
   {
    "month": "2026-10",
-   "count": 9,
+   "count": 10,
    "n84": 4,
    "median84": 104500
   }
@@ -130,7 +130,7 @@
   },
   {
    "name": "오전동 모락산현대",
-   "count": 93,
+   "count": 94,
    "median84": null,
    "built": 2002
   },
@@ -165,6 +165,12 @@
    "built": 2004
   },
   {
+   "name": "학의동 의왕백운 해링턴 플레이스 1단지",
+   "count": 50,
+   "median84": 82000,
+   "built": 2019
+  },
+  {
    "name": "삼동 의왕역푸르지오라포레",
    "count": 50,
    "median84": 67300,
@@ -175,12 +181,6 @@
    "count": 50,
    "median84": 82400,
    "built": 2001
-  },
-  {
-   "name": "학의동 의왕백운 해링턴 플레이스 1단지",
-   "count": 49,
-   "median84": 82000,
-   "built": 2019
   }
  ]
 }
