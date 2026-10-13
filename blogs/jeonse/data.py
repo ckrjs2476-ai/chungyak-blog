@@ -21,6 +21,8 @@ import market  # noqa: E402
 from market import TRADE_API, _num, months_back  # noqa: E402
 import requests  # noqa: E402
 
+market._get_orig = market._get
+
 
 def _get(url: str, params: dict):
     """공공데이터포털이 GitHub에서 가끔 연결을 받지 않는다. 기다리는 시간을 늘려 5번까지 시도한다."""
@@ -28,14 +30,11 @@ def _get(url: str, params: dict):
     for wait in (0, 10, 30, 60, 120):
         time.sleep(wait)
         try:
-            return market._get(url, params)
+            return market._get_orig(url, params)
         except (requests.Timeout, requests.ConnectionError) as e:
             last = e
             print(f"::warning::연결 재시도 ({type(e).__name__}), {wait}초 대기 후")
     raise last  # type: ignore[misc]
-
-
-market._get_orig = market._get
 
 
 def _code_rows(prefix: str) -> list[dict]:
