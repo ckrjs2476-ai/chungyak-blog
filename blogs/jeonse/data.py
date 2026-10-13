@@ -17,7 +17,33 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
-from market import CODE_API, TRADE_API, _code_rows, _get, _num, months_back  # noqa: E402
+import market  # noqa: E402
+from market import TRADE_API, _num, months_back  # noqa: E402
+import requests  # noqa: E402
+
+
+def _get(url: str, params: dict):
+    """공공데이터포털이 GitHub에서 가끔 연결을 받지 않는다. 기다리는 시간을 늘려 5번까지 시도한다."""
+    last = None
+    for wait in (0, 10, 30, 60, 120):
+        time.sleep(wait)
+        try:
+            return market._get(url, params)
+        except (requests.Timeout, requests.ConnectionError) as e:
+            last = e
+            print(f"::warning::연결 재시도 ({type(e).__name__}), {wait}초 대기 후")
+    raise last  # type: ignore[misc]
+
+
+market._get_orig = market._get
+
+
+def _code_rows(prefix: str) -> list[dict]:
+    market._get = _get  # 시군구 목록도 같은 재시도를 쓴다
+    try:
+        return market._code_rows(prefix)
+    finally:
+        market._get = market._get_orig
 
 BASE = Path(__file__).resolve().parent / "data"
 REG = BASE / "regions"
@@ -199,8 +225,11 @@ def main() -> int:
     for r in todo[:MAX_PER_RUN]:
         rents, trades, ok = [], [], True
         for ym in months_back(today, 12):
-            a = _items(RENT_API, r["lawd"], ym)
-            b = _items(TRADE_API, r["lawd"], ym)
+            try:
+                a = _items(RENT_API, r["lawd"], ym)
+                b = _items(TRADE_API, r["lawd"], ym)
+            except (requests.Timeout, requests.ConnectionError):
+                a = b = None
             if a is None or b is None:
                 ok = False
                 break
