@@ -30,15 +30,19 @@ kc = kapt or "A13505003"
 # 2) 기본정보
 for svc, op in [("AptBasisInfoServiceV5", "getAphusBassInfoV5")]:
     show(f"기본정보 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "_type": "json"})
-# 3) 공용관리비 (인건비 항목 예)
-for svc, op in [("AptCmnuseManageCostServiceV3", "getHsmpLaborCostInfoV3"), ("AptCmnuseManageCostServiceV4", "getHsmpLaborCostInfoV4"), ("AptCmnuseManageCostService4", "getHsmpLaborCostInfo4")]:
-    show(f"공용관리비 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "searchDate": "202608", "_type": "json"})
-# 4) 개별사용료 (전기료 예)
-for svc, op in [("AptIndvdlzManageCostServiceV3", "getHsmpElectricityCostInfoV3"), ("AptIndvdlzManageCostServiceV4", "getHsmpElectricityCostInfoV4"), ("AptIndvdlzManageCostService4", "getHsmpElectricityCostInfo4")]:
-    show(f"개별사용료 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "searchDate": "202608", "_type": "json"})
-# 5) 장기수선충당금
-for svc, op in [("AptLtsmRepairsServiceV5", "getHsmpLtsmRepairsInfoV5"), ("AptLongtermRepairsServiceV3", "getHsmpLongtermRepairsInfoV3"), ("AptCmnuseManageCostServiceV3", "getHsmpLtsmRepairsInfoV3")]:
-    show(f"장기수선 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "searchDate": "202608", "_type": "json"})
+# 3) 월별 비용 — 어느 달부터 값이 있는지
+C = "AptCmnuseManageCostServiceV3/"; I = "AptIndvdlzManageCostServiceV3/"; R = "AptRepairsCostServiceV3/"
+for ym in ["202608", "202607", "202606", "202605", "202512"]:
+    show(f"인건비 {ym}", B + C + "getHsmpLaborCostInfoV3", {"kaptCode": kc, "searchDate": ym, "_type": "json"})
+    show(f"전기 {ym}", B + I + "getHsmpElectricityCostInfoV3", {"kaptCode": kc, "searchDate": ym, "_type": "json"})
+    show(f"장기수선 월부과 {ym}", B + R + "getHsmpMonthFeeInfoV3", {"kaptCode": kc, "searchDate": ym, "_type": "json"})
+ym = "202606"
+for op in ["getHsmpReserveBalanceInfoV3", "getHsmpAccumulationTariffInfoV3", "getHsmpMonthRetalFeeInfoV3"]:
+    show(f"장기수선 {op} {ym}", B + R + op, {"kaptCode": kc, "searchDate": ym, "_type": "json"})
+for op in ["getHsmpCleaningCostInfoV3", "getHsmpGuardCostInfoV3", "getHsmpElevatorMntncCostInfoV3", "getHsmpConsignManageFeeInfoV3"]:
+    show(f"공용 {op} {ym}", B + C + op, {"kaptCode": kc, "searchDate": ym, "_type": "json"})
+for op in ["getHsmpHeatCostInfoV3", "getHsmpWaterCostInfoV3", "getHsmpHeatCostInfoV2"]:
+    show(f"개별 {op} {ym}", B + I + op, {"kaptCode": kc, "searchDate": ym, "_type": "json"})
 
 os.makedirs("data", exist_ok=True)
 open("data/probe.txt", "w", encoding="utf-8").write("\n".join(OUT) + "\n")
