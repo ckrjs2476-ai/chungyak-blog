@@ -42,7 +42,8 @@ STAGES = {1: (30, 1500), 2: (300, 5000), 3: (1000, 30000)}
 FAILS = [0]
 # 우리 글이 답하지 않는 검색 의도(매물 찾기, 빌라·오피스텔 등)는 뺀다
 OFF_TOPIC = re.compile(r"(빌라|원룸|투룸|쓰리룸|오피스텔|매물|구청|역세권|LH|SH|장기전세|대출|이자|조회|사이트|어플|앱|부동산$|직방|다방|호갱노노|네이버부동산)")
-COMP = {"낮음": 1.0, "중간": 0.6, "높음": 0.3}
+# 광고 경쟁도는 '광고주가 많은가'이지 검색 순위 난이도가 아니다(전세는 중개업소 광고가 많아 늘 높음). 약하게만 반영.
+COMP = {"낮음": 1.0, "중간": 0.85, "높음": 0.7}
 
 
 PROMOTE = {2: (30, 42), 3: (80, 90)}  # 단계: (공개 글 수, 첫 글 뒤 지난 날) 둘 다 넘으면 올린다 [가정]
@@ -122,7 +123,11 @@ def entities(blog: str) -> list[dict]:
             if r.get("empty") or not r.get("ratio84"):
                 continue
             gu = r["name"].split()[-1]
-            out.append({"name": gu, "id": r["lawd"], "seeds": [f"{gu}전세가율", f"{gu}전세시세", f"{gu}전세"]})
+            out.append({"name": gu, "id": r["lawd"], "seeds": [f"{gu}아파트전세", f"{gu}전세가율", f"{gu}전세시세"]})
+            # 동 단위: 84㎡ 전세 거래가 10건 이상인 동만(우리 숫자로 답할 수 있는 곳)
+            for umd, u in (r.get("umd") or {}).items():
+                if (u.get("jeonse_n") or 0) >= 10:
+                    out.append({"name": umd, "id": f"{r['lawd']}:{umd}", "seeds": [f"{umd}아파트전세"]})
     elif blog == "gongmoju":
         for f in sorted((ROOT / "blogs/gongmoju/data/ipos").glob("*.json")):
             d = json.loads(f.read_text("utf-8"))
