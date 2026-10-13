@@ -211,6 +211,10 @@ def build_region(lawd: str, name: str, today: date) -> dict:
         return {"lawd": lawd, "name": name, "empty": True, "updated": today.isoformat(), "n_list": len(lst)}
     ym = None
     for y in _ym_candidates(today):  # 큰 단지 3곳 중 하나라도 자료가 있는 가장 최근 달
+        if y == _ym_candidates(today)[0]:
+            c0 = cands[0][0]["kaptCode"]
+            raw = requests.get(API + C + "getHsmpLaborCostInfoV3", params={"serviceKey": KEY, "_type": "json", "kaptCode": c0, "searchDate": y}, timeout=40)
+            print(f"::notice::원문 {c0} {y}: {raw.status_code} {raw.text[:300]}")
         ok = [bool(fees(c[0]["kaptCode"], y)) for c in cands[:3]]
         print(f"::notice::{y} 시험 {[c[1].get('kaptName') for c in cands[:3]]} → {ok}")
         if any(ok):
