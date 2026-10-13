@@ -39,6 +39,7 @@ TOPIC = {"cheongyak": r"(청약|분양|경쟁률|가점|커트라인|모집공�
          "gwanribi": r"(관리비|장기수선|관리사무소|난방비|공용관리)"}
 # 단계별 노릴 월간 검색량(네이버 PC+모바일) 구간. 처음엔 작게, 공개 글과 노출이 쌓이면 올린다.
 STAGES = {1: (30, 1500), 2: (300, 5000), 3: (1000, 30000)}
+FAILS = [0]
 COMP = {"낮음": 1.0, "중간": 0.6, "높음": 0.3}
 
 
@@ -66,7 +67,8 @@ def call(hints: list[str]) -> list[dict]:
         if r.status_code == 200:
             return r.json().get("keywordList", [])
         if r.status_code not in (429, 500, 502, 503):
-            print(f"::warning::키워드 도구 HTTP {r.status_code}: {r.text[:120]}")
+            FAILS[0] += 1
+            print(f"::warning::키워드 도구 HTTP {r.status_code}: {r.text[:400].replace(chr(34), chr(39))}")
             return []
     return []
 
@@ -139,6 +141,8 @@ def collect(blog: str) -> list[dict]:
     batches += [seeds[i:i + 5] for i in range(0, len(seeds), 5)]
     ent_names = sorted({norm(e["name"]): e for e in ents}.items(), key=lambda x: -len(x[0]))
     for b in batches[:120]:
+        if FAILS[0] >= 3:
+            break  # 같은 오류가 이어지면 더 부르지 않는다
         for k in call(b):
             kw = str(k.get("relKeyword", ""))
             nk = norm(kw)
