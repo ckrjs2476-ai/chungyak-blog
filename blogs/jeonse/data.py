@@ -58,15 +58,45 @@ SIDO = ["서울특별시", "경기도", "인천광역시", "부산광역시", "�
 def region_list() -> list[dict]:
     f = BASE / "region_list.json"
     if f.exists():
-        return json.loads(f.read_text("utf-8"))
+        cached = json.loads(f.read_text("utf-8"))
+        if len(cached) >= 220:
+            return cached
     out, seen = [], set()
     for i, sido in enumerate(SIDO):
-        for r in _code_rows(sido):
+        rows, page = [], 1
+        while page <= 15:  # 시도마다 행이 1,000개를 넘으므로 쪽을 넘겨 가며 모두 받는다
+            res = _get(market.CODE_API, {"pageNo": page, "numOfRows": 1000, "type": "json", "locatadd_nm": sido})
+            try:
+                body = res.json()
+            except ValueError:
+                break
+            got: list[dict] = []
+
+            def walk(x):
+                if isinstance(x, dict):
+                    if isinstance(x.get("row"), list):
+                        got.extend(r for r in x["row"] if isinstance(r, dict))
+                    for v in x.values():
+                        walk(v)
+                elif isinstance(x, list):
+                    for v in x:
+                        walk(v)
+            walk(body)
+            rows += got
+            if len(got) < 1000:
+                break
+            page += 1
+        for r in rows:
             code, nm = str(r.get("region_cd", "")), str(r.get("locatadd_nm", "")).strip()
             if len(code) == 10 and code[5:] == "00000" and code[2:5] != "000" and code[:5] not in seen:
                 seen.add(code[:5])
                 out.append({"lawd": code[:5], "name": nm, "priority": i})
         time.sleep(0.3)
+    old = {r["lawd"]: r for r in (json.loads(f.read_text("utf-8")) if f.exists() else [])}
+    for l, r in old.items():  # 이전 목록에만 있던 곳도 유지
+        if l not in seen:
+            out.append(r)
+            seen.add(l)
     # '수원시'(41110)처럼 아래에 구가 있는 시 단위 코드는 실거래가 응답이 없으므로 뺀다
     codes = {r["lawd"] for r in out}
     out = [r for r in out if not (r["lawd"][4] == "0" and any(c != r["lawd"] and c[:4] == r["lawd"][:4] for c in codes))]
