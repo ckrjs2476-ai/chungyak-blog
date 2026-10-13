@@ -34,12 +34,14 @@ OUT = ROOT / "data" / "keywords"
 CONFIG = ROOT / "data" / "keyword_stage.json"
 NAMES = {"cheongyak": "청약노트", "jeonse": "전세 온도계", "gongmoju": "공모주 뜯어보기", "gwanribi": "관리비 돋보기"}
 TOPIC = {"cheongyak": r"(청약|분양|경쟁률|가점|커트라인|모집공고|줍줍|무순위)",
-         "jeonse": r"(전세|전세가|전세가율|깡통|전월세|보증금)",
+         "jeonse": r"(전세가율|전세가|아파트전세|전세시세|깡통|전세비율|매매가대비)",
          "gongmoju": r"(공모주|공모|청약|상장|수요예측|공모가|IPO)",
          "gwanribi": r"(관리비|장기수선|관리사무소|난방비|공용관리)"}
 # 단계별 노릴 월간 검색량(네이버 PC+모바일) 구간. 처음엔 작게, 공개 글과 노출이 쌓이면 올린다.
 STAGES = {1: (30, 1500), 2: (300, 5000), 3: (1000, 30000)}
 FAILS = [0]
+# 우리 글이 답하지 않는 검색 의도(매물 찾기, 빌라·오피스텔 등)는 뺀다
+OFF_TOPIC = re.compile(r"(빌라|원룸|투룸|쓰리룸|오피스텔|매물|구청|역세권|LH|SH|장기전세|대출|이자|조회|사이트|어플|앱|부동산$|직방|다방|호갱노노|네이버부동산)")
 COMP = {"낮음": 1.0, "중간": 0.6, "높음": 0.3}
 
 
@@ -163,7 +165,7 @@ def collect(blog: str) -> list[dict]:
             kw = str(k.get("relKeyword", ""))
             nk = norm(kw)
             vol = _num(k.get("monthlyPcQcCnt")) + _num(k.get("monthlyMobileQcCnt"))
-            if nk in rows or not re.search(TOPIC[blog], kw):
+            if nk in rows or not re.search(TOPIC[blog], kw) or OFF_TOPIC.search(kw):
                 continue
             ent = next((e for n, e in ent_names if n and n in nk), None)
             rows[nk] = {"keyword": kw, "volume": vol, "comp": k.get("compIdx", ""),
