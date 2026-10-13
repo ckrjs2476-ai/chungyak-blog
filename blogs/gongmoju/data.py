@@ -22,7 +22,7 @@ BASE = Path(__file__).resolve().parent / "data"
 IPOS = BASE / "ipos"
 API = "https://opendart.fss.or.kr/api"
 KEY = os.environ.get("OPENDART_KEY", "")
-DAYS = 120
+DAYS = 89
 
 
 def get(path: str, **params) -> dict:
