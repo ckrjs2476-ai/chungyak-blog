@@ -29,37 +29,36 @@
   {
    "use": "시설자금",
    "amount": 4000000000,
-   "share_pct": 18.5
+   "share_pct": 18.5,
+   "amount_eok": 40.0
   },
   {
    "use": "운영자금",
    "amount": 4000000000,
-   "share_pct": 18.5
+   "share_pct": 18.5,
+   "amount_eok": 40.0
   },
   {
    "use": "타법인증권취득자금",
    "amount": 7700000000,
-   "share_pct": 35.6
+   "share_pct": 35.6,
+   "amount_eok": 77.0
   },
   {
    "use": "기타",
    "amount": 5000000000,
-   "share_pct": 23.1
+   "share_pct": 23.1,
+   "amount_eok": 50.0
   },
   {
    "use": "발행제비용",
    "amount": 930000000,
-   "share_pct": 4.3
+   "share_pct": 4.3,
+   "amount_eok": 9.3
   }
  ],
  "fund_total": 21630000000,
- "sellers": [
-  {
-   "name": "-",
-   "relation": "-",
-   "shares": null
-  }
- ],
+ "sellers": [],
  "sell_shares": null,
  "company": {
   "corp_name": "주식회사 크리에이츠",
@@ -78,13 +77,23 @@
   "일반청약자환매청구권"
  ],
  "total_rank": 20,
- "total_rank_of": 29,
- "total_vs_median_pct": -9.9,
+ "total_rank_of": 26,
+ "total_vs_median_pct": -22.2,
  "top_fund_use": {
   "use": "타법인증권취득자금",
   "amount": 7700000000,
-  "share_pct": 35.6
+  "share_pct": 35.6,
+  "amount_eok": 77.0
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "삼성증권",
+ "underwriting_fee_pct": 4.12,
+ "total_eok": 210.0,
+ "company_age_years": 17,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": true
 }

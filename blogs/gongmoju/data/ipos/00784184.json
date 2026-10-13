@@ -29,32 +29,30 @@
   {
    "use": "시설자금",
    "amount": 31320000000,
-   "share_pct": 65.7
+   "share_pct": 65.7,
+   "amount_eok": 313.2
   },
   {
    "use": "운영자금",
    "amount": 35557833,
-   "share_pct": 0.1
+   "share_pct": 0.1,
+   "amount_eok": 0.4
   },
   {
    "use": "기타",
    "amount": 14680000000,
-   "share_pct": 30.8
+   "share_pct": 30.8,
+   "amount_eok": 146.8
   },
   {
    "use": "발행제비용",
    "amount": 1654436167,
-   "share_pct": 3.5
+   "share_pct": 3.5,
+   "amount_eok": 16.5
   }
  ],
  "fund_total": 47689994000,
- "sellers": [
-  {
-   "name": "-",
-   "relation": "-",
-   "shares": null
-  }
- ],
+ "sellers": [],
  "sell_shares": null,
  "company": {
   "corp_name": "주식회사 동원파츠",
@@ -73,13 +71,23 @@
   "일반청약자환매청구권"
  ],
  "total_rank": 4,
- "total_rank_of": 29,
- "total_vs_median_pct": 100.2,
+ "total_rank_of": 26,
+ "total_vs_median_pct": 73.1,
  "top_fund_use": {
   "use": "시설자금",
   "amount": 31320000000,
-  "share_pct": 65.7
+  "share_pct": 65.7,
+  "amount_eok": 313.2
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "삼성증권",
+ "underwriting_fee_pct": 3.06,
+ "total_eok": 466.9,
+ "company_age_years": 29,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": true
 }

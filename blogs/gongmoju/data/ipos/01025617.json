@@ -29,22 +29,18 @@
   {
    "use": "시설자금",
    "amount": 20284788640,
-   "share_pct": 95.2
+   "share_pct": 95.2,
+   "amount_eok": 202.8
   },
   {
    "use": "발행제비용",
    "amount": 1015611360,
-   "share_pct": 4.8
+   "share_pct": 4.8,
+   "amount_eok": 10.2
   }
  ],
  "fund_total": 21300400000,
- "sellers": [
-  {
-   "name": "-",
-   "relation": "-",
-   "shares": null
-  }
- ],
+ "sellers": [],
  "sell_shares": null,
  "company": {
   "corp_name": "(주)하나에어로다이내믹스",
@@ -63,13 +59,23 @@
   "일반청약자환매청구권"
  ],
  "total_rank": 21,
- "total_rank_of": 29,
- "total_vs_median_pct": -11.3,
+ "total_rank_of": 26,
+ "total_vs_median_pct": -23.3,
  "top_fund_use": {
   "use": "시설자금",
   "amount": 20284788640,
-  "share_pct": 95.2
+  "share_pct": 95.2,
+  "amount_eok": 202.8
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "아이비케이투자증권",
+ "underwriting_fee_pct": 4.11,
+ "total_eok": 206.8,
+ "company_age_years": 19,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": true
 }

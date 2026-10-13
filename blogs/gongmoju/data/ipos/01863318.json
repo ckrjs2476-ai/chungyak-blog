@@ -29,27 +29,24 @@
   {
    "use": "연구개발자금",
    "amount": 46492000000,
-   "share_pct": 86.9
+   "share_pct": 86.9,
+   "amount_eok": 464.9
   },
   {
    "use": "운영자금",
    "amount": 4488270000,
-   "share_pct": 8.4
+   "share_pct": 8.4,
+   "amount_eok": 44.9
   },
   {
    "use": "발행제비용",
    "amount": 2519729000,
-   "share_pct": 4.7
+   "share_pct": 4.7,
+   "amount_eok": 25.2
   }
  ],
  "fund_total": 53499999000,
- "sellers": [
-  {
-   "name": "-",
-   "relation": "-",
-   "shares": null
-  }
- ],
+ "sellers": [],
  "sell_shares": null,
  "company": {
   "corp_name": "주식회사 넥스아이",
@@ -68,13 +65,23 @@
   "일반청약자환매청구권"
  ],
  "total_rank": 3,
- "total_rank_of": 29,
- "total_vs_median_pct": 125.1,
+ "total_rank_of": 26,
+ "total_vs_median_pct": 94.6,
  "top_fund_use": {
   "use": "연구개발자금",
   "amount": 46492000000,
-  "share_pct": 86.9
+  "share_pct": 86.9,
+  "amount_eok": 464.9
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "한국투자증권",
+ "underwriting_fee_pct": 4.59,
+ "total_eok": 525.0,
+ "company_age_years": 5,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": true
 }

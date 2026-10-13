@@ -29,27 +29,24 @@
   {
    "use": "운영자금",
    "amount": 7498415000,
-   "share_pct": 31.2
+   "share_pct": 31.2,
+   "amount_eok": 75.0
   },
   {
    "use": "시설투자",
    "amount": 4500000000,
-   "share_pct": 18.8
+   "share_pct": 18.8,
+   "amount_eok": 45.0
   },
   {
    "use": "발행제비용",
    "amount": 11998415000,
-   "share_pct": 50.0
+   "share_pct": 50.0,
+   "amount_eok": 120.0
   }
  ],
  "fund_total": 23996830000,
- "sellers": [
-  {
-   "name": "-",
-   "relation": "-",
-   "shares": null
-  }
- ],
+ "sellers": [],
  "sell_shares": null,
  "company": {
   "corp_name": "(주) 다비오",
@@ -67,14 +64,24 @@
   "매출인에관한사항",
   "일반청약자환매청구권"
  ],
- "total_rank": 27,
- "total_rank_of": 29,
- "total_vs_median_pct": -47.3,
+ "total_rank": 26,
+ "total_rank_of": 26,
+ "total_vs_median_pct": -54.4,
  "top_fund_use": {
   "use": "발행제비용",
   "amount": 11998415000,
-  "share_pct": 50.0
+  "share_pct": 50.0,
+  "amount_eok": 120.0
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "대신증권",
+ "underwriting_fee_pct": 4.63,
+ "total_eok": 123.0,
+ "company_age_years": 14,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": false
 }

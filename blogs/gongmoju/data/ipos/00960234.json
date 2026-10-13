@@ -29,17 +29,20 @@
   {
    "use": "시설자금",
    "amount": 15000000000,
-   "share_pct": 85.4
+   "share_pct": 85.4,
+   "amount_eok": 150.0
   },
   {
    "use": "운영자금",
    "amount": 1708327400,
-   "share_pct": 9.7
+   "share_pct": 9.7,
+   "amount_eok": 17.1
   },
   {
    "use": "발행제비용",
    "amount": 860272600,
-   "share_pct": 4.9
+   "share_pct": 4.9,
+   "amount_eok": 8.6
   }
  ],
  "fund_total": 17568600000,
@@ -68,14 +71,24 @@
   "일반청약자환매청구권"
  ],
  "total_rank": 18,
- "total_rank_of": 29,
- "total_vs_median_pct": -7.3,
+ "total_rank_of": 26,
+ "total_vs_median_pct": -19.9,
  "sell_share_pct": 21.7,
  "top_fund_use": {
   "use": "시설자금",
   "amount": 15000000000,
-  "share_pct": 85.4
+  "share_pct": 85.4,
+  "amount_eok": 150.0
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "대신증권",
+ "underwriting_fee_pct": 4.63,
+ "total_eok": 216.2,
+ "company_age_years": 14,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": true
 }

@@ -116,11 +116,29 @@ def detail(x: dict) -> dict | None:
 
 
 def compare(items: list[dict]) -> None:
-    ok = [i for i in items if i.get("total")]
+    for i in items:
+        i["is_spac"] = "기업인수목적" in i["corp_name"] or str((i.get("company") or {}).get("induty_code", "")) == "66199"
+        i["price_confirmed"] = "발행조건확정" in i.get("report_nm", "")
+        uw = [u for u in i.get("underwriters") or [] if u.get("shares")]
+        lead = max(uw, key=lambda u: u["shares"], default=None)
+        i["lead_underwriter"] = lead["name"] if lead else None
+        amt = sum(u.get("amount") or 0 for u in uw)
+        fee = sum(u.get("fee") or 0 for u in uw)
+        i["underwriting_fee_pct"] = round(fee * 100 / amt, 2) if amt and fee else None
+        i["total_eok"] = round(i["total"] / 1e8, 1) if i.get("total") else None
+        ft, tt = i.get("fund_total"), i.get("total")
+        # 자금 사용 목적 합계가 공모총액과 크게 다르면(구주매출 포함·단위 차이 등) 금액 대신 비중만 쓴다
+        i["fund_matches_total"] = bool(ft and tt and abs(ft - tt) <= tt * 0.2)
+        i["sellers"] = [x for x in i.get("sellers") or [] if x.get("name") not in (None, "-", "")]
+        for f in i.get("fund_uses") or []:
+            f["amount_eok"] = round(f["amount"] / 1e8, 1)
+        est = (i.get("company") or {}).get("est_dt")
+        i["company_age_years"] = (date.today().year - int(est[:4])) if est and est[:4].isdigit() else None
+    ok = [i for i in items if i.get("total") and not i.get("is_spac")]
     totals = sorted((i["total"] for i in ok), reverse=True)
     med = int(statistics.median(totals)) if totals else None
     for i in items:
-        if i.get("total"):
+        if i.get("total") and not i.get("is_spac"):
             i["total_rank"] = totals.index(i["total"]) + 1
             i["total_rank_of"] = len(totals)
             i["total_vs_median_pct"] = round((i["total"] - med) * 100 / med, 1) if med else None
@@ -130,14 +148,27 @@ def compare(items: list[dict]) -> None:
         i["top_fund_use"] = top
         i["compare_median_total"] = med
         i["compare_count"] = len(totals)
+    fees = sorted(i["underwriting_fee_pct"] for i in ok if i.get("underwriting_fee_pct"))
+    fmed = round(statistics.median(fees), 2) if fees else None
+    for i in items:
+        i["median_fee_pct"] = fmed
+        i["compare_median_total_eok"] = round(med / 1e8, 1) if med else None
     (BASE / "summary.json").write_text(json.dumps({
-        "updated": date.today().isoformat(), "days": DAYS, "count": len(items), "median_total": med,
+        "updated": date.today().isoformat(), "days": DAYS, "count": len(ok), "spac_count": len(items) - len(ok),
+        "median_total": med, "median_total_eok": round(med / 1e8, 1) if med else None, "median_fee_pct": fmed,
         "ipos": sorted([{k: i.get(k) for k in ("corp_code", "corp_name", "subscription", "price", "total", "total_rank")}
                         for i in items], key=lambda r: r.get("total") or 0, reverse=True)},
         ensure_ascii=False, indent=1), "utf-8")
 
 
 def main() -> int:
+    import sys
+    if "--compare" in sys.argv:  # 받은 파일로 비교 숫자만 다시 계산
+        items = [json.loads(f.read_text("utf-8")) for f in IPOS.glob("*.json")]
+        compare(items)
+        for d in items:
+            (IPOS / f"{d['corp_code']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), "utf-8")
+        return 0
     if not KEY:
         print("::error::OPENDART_KEY가 없습니다.")
         return 0

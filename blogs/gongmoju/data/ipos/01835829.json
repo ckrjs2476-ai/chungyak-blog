@@ -29,27 +29,24 @@
   {
    "use": "운영자금",
    "amount": 14610310640,
-   "share_pct": 48.6
+   "share_pct": 48.6,
+   "amount_eok": 146.1
   },
   {
    "use": "타법인취득자금",
    "amount": 14000000000,
-   "share_pct": 46.6
+   "share_pct": 46.6,
+   "amount_eok": 140.0
   },
   {
    "use": "발행제비용",
    "amount": 1457449360,
-   "share_pct": 4.8
+   "share_pct": 4.8,
+   "amount_eok": 14.6
   }
  ],
  "fund_total": 30067760000,
- "sellers": [
-  {
-   "name": "-",
-   "relation": "-",
-   "shares": null
-  }
- ],
+ "sellers": [],
  "sell_shares": null,
  "company": {
   "corp_name": "주식회사 바로팜",
@@ -68,13 +65,23 @@
   "일반청약자환매청구권"
  ],
  "total_rank": 12,
- "total_rank_of": 29,
- "total_vs_median_pct": 25.2,
+ "total_rank_of": 26,
+ "total_vs_median_pct": 8.2,
  "top_fund_use": {
   "use": "운영자금",
   "amount": 14610310640,
-  "share_pct": 48.6
+  "share_pct": 48.6,
+  "amount_eok": 146.1
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "미래에셋증권",
+ "underwriting_fee_pct": 4.63,
+ "total_eok": 291.9,
+ "company_age_years": 7,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": true
 }

@@ -29,27 +29,32 @@
   {
    "use": "미국동부 사업확장 ",
    "amount": 7995024000,
-   "share_pct": 19.9
+   "share_pct": 19.9,
+   "amount_eok": 80.0
   },
   {
    "use": "멕시코 및 캐나다 시장 확장 ",
    "amount": 7995024000,
-   "share_pct": 19.9
+   "share_pct": 19.9,
+   "amount_eok": 80.0
   },
   {
    "use": "독립적 연구 개발 설립",
    "amount": 3198008261,
-   "share_pct": 8.0
+   "share_pct": 8.0,
+   "amount_eok": 32.0
   },
   {
    "use": "일반 운영자금",
    "amount": 12792038400,
-   "share_pct": 31.8
+   "share_pct": 31.8,
+   "amount_eok": 127.9
   },
   {
    "use": "발행제비용",
    "amount": 8195905339,
-   "share_pct": 20.4
+   "share_pct": 20.4,
+   "amount_eok": 82.0
   }
  ],
  "fund_total": 40176000000,
@@ -88,14 +93,24 @@
   "일반청약자환매청구권"
  ],
  "total_rank": 2,
- "total_rank_of": 29,
- "total_vs_median_pct": 187.1,
+ "total_rank_of": 26,
+ "total_vs_median_pct": 148.2,
  "sell_share_pct": 40.0,
  "top_fund_use": {
   "use": "일반 운영자금",
   "amount": 12792038400,
-  "share_pct": 31.8
+  "share_pct": 31.8,
+  "amount_eok": 127.9
  },
- "compare_median_total": 23320000000,
- "compare_count": 29
+ "compare_median_total": 26975000000,
+ "compare_count": 26,
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": null,
+ "underwriting_fee_pct": null,
+ "total_eok": 669.6,
+ "company_age_years": 10,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 269.8,
+ "fund_matches_total": false
 }

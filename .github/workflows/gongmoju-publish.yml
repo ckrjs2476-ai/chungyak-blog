@@ -1,0 +1,41 @@
+# 공모주 뜯어보기: blogs/gongmoju/posts/pending/에 글이 올라오면 검수 후 발행
+name: gongmoju-publish
+on:
+  push:
+    paths:
+      - "blogs/gongmoju/posts/pending/**"
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "rerender / pages / 비우면 새 글 발행"
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests markdown pyyaml
+      - name: 검수와 발행
+        run: python src/publish.py ${{ github.event.inputs.task && format('--{0}', github.event.inputs.task) || '' }}
+        env:
+          BLOG_KEY: gongmoju
+          BLOGGER_BLOG_ID: "899799118910718337"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "publish-bot"
+          git config user.email "publish-bot@users.noreply.github.com"
+          git add -A blogs/gongmoju
+          git diff --cached --quiet || git commit -m "gongmoju publish $(date -u +%F)"
+          git pull --rebase && git push
