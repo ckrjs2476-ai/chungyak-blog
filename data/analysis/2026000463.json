@@ -111,6 +111,79 @@
   "노부모 부양": 28,
   "기관추천": 84
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "71.8178",
+    "supply": 21,
+    "closed_at": "1순위 해당지역",
+    "rate": 4.05,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9592A",
+    "supply": 301,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 71
+   },
+   {
+    "ty": "84.9767B",
+    "supply": 120,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 62
+   },
+   {
+    "ty": "84.9221C",
+    "supply": 122,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 53
+   },
+   {
+    "ty": "84.914D",
+    "supply": 121,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 114
+   },
+   {
+    "ty": "107.9722A",
+    "supply": 56,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "107.8263B",
+    "supply": 52,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 39
+   },
+   {
+    "ty": "147.9931P",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 511,
+  "rank1_req": 511,
+  "supply_total": 795,
+  "final_shortfall_total": 362,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 8,
+  "rank1_avg_rate": 0.64,
+  "best": {
+   "ty": "71.8178",
+   "rate": 4.05,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "화성특례시",
   "supply_kind": "민영",
@@ -152,5 +225,16 @@
   "peer_count": 2,
   "peer_avg_rate": 1.85,
   "peer_max_rate": 3.42
+ },
+ "region_competition": {
+  "scope": "화성특례시",
+  "peer_count": 2,
+  "peers": [
+   "야목역 서희스타힐스 그랜드힐",
+   "동탄 그웬 160 (동탄2 B11BL)"
+  ],
+  "peer_avg_rate": 1.85,
+  "rank": 2,
+  "of": 3
  }
 }

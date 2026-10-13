@@ -91,6 +91,65 @@
   "노부모 부양": 9,
   "기관추천": 29
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "74.9845",
+    "supply": 67,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   },
+   {
+    "ty": "84.9947A",
+    "supply": 140,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 95
+   },
+   {
+    "ty": "84.8542B",
+    "supply": 40,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   },
+   {
+    "ty": "84.8894C",
+    "supply": 37,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 30
+   },
+   {
+    "ty": "123.7781",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 30
+   },
+   {
+    "ty": "146.8598P",
+    "supply": 2,
+    "closed_at": "1순위 기타지역",
+    "rate": 14.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 124,
+  "rank1_req": 124,
+  "supply_total": 320,
+  "final_shortfall_total": 209,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 6,
+  "rank1_avg_rate": 0.39,
+  "best": {
+   "ty": "146.8598P",
+   "rate": 14.0,
+   "stage": "1순위 기타지역"
+  }
+ },
  "region_price": {
   "scope": "경기",
   "supply_kind": "민영",
@@ -117,5 +176,22 @@
   "peer_count": 39,
   "peer_avg_rate": 2.41,
   "peer_max_rate": 21.98
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 40,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+   "야목역 서희스타힐스 그랜드힐",
+   "용인 양지 서희스타힐스 하이뷰",
+   "더샵 분당하이스트",
+   "경기광주역 롯데캐슬 시그니처 1단지",
+   "더 플래티넘 파인애비뉴",
+   "용인 고림 동문 디 이스트"
+  ],
+  "peer_avg_rate": 2.36,
+  "rank": 25,
+  "of": 41
  }
 }

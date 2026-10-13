@@ -71,6 +71,46 @@
   "노부모 부양": 11,
   "기관추천": 34
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.2551A",
+    "supply": 81,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 74
+   },
+   {
+    "ty": "84.8158B",
+    "supply": 92,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 85
+   },
+   {
+    "ty": "84.6092C",
+    "supply": 46,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 46
+   },
+   {
+    "ty": "84.3643D",
+    "supply": 91,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 88
+   }
+  ],
+  "req_total": 17,
+  "rank1_req": 17,
+  "supply_total": 310,
+  "final_shortfall_total": 293,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.05
+ },
  "region_price": {
   "scope": "대구",
   "supply_kind": "민영",
@@ -91,5 +131,16 @@
   "peer_count": 2,
   "peer_avg_rate": 0.18,
   "peer_max_rate": 0.27
+ },
+ "region_competition": {
+  "scope": "대구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 중앙로역센터폴",
+   "달서자이 제니크"
+  ],
+  "peer_avg_rate": 0.18,
+  "rank": 3,
+  "of": 3
  }
 }

@@ -1,15 +1,77 @@
 {
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "weekly_competition": [
+  {
+   "no": "2026000463",
+   "name": "향남역 그로브 스위첸",
+   "region": "경기",
+   "rank1_avg_rate": 0.64,
+   "best": {
+    "ty": "71.8178",
+    "rate": 4.05,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 362,
+   "rank1_closed_types": 2,
+   "type_count": 8
+  },
+  {
+   "no": "2026000386",
+   "name": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
+   "region": "경기",
+   "rank1_avg_rate": 0.42,
+   "best": {
+    "ty": "84.9989B",
+    "rate": 2.0,
+    "stage": "1순위 기타지역"
+   },
+   "final_shortfall_total": 23,
+   "rank1_closed_types": 3,
+   "type_count": 8
+  },
+  {
+   "no": "2026000468",
+   "name": "쌍용 더 플래티넘 한강",
+   "region": "경기",
+   "rank1_avg_rate": 0.39,
+   "best": {
+    "ty": "146.8598P",
+    "rate": 14.0,
+    "stage": "1순위 기타지역"
+   },
+   "final_shortfall_total": 209,
+   "rank1_closed_types": 1,
+   "type_count": 6
+  },
+  {
+   "no": "2026000498",
+   "name": "천안 아이파크 시티 2단지(2회차)",
+   "region": "충남",
+   "rank1_avg_rate": 0.28,
+   "best": null,
+   "final_shortfall_total": 43,
+   "rank1_closed_types": 0,
+   "type_count": 2
+  },
   {
    "no": "2026000444",
    "name": "제주시 이도이동 아이린8차 아파트",
    "region": "제주",
    "rank1_avg_rate": 0.2,
    "best": null,
-   "final_shortfall_total": 36,
+   "final_shortfall_total": 33,
    "rank1_closed_types": 0,
    "type_count": 5
+  },
+  {
+   "no": "2026000494",
+   "name": "더샵 동인센트리체",
+   "region": "대구",
+   "rank1_avg_rate": 0.05,
+   "best": null,
+   "final_shortfall_total": 293,
+   "rank1_closed_types": 0,
+   "type_count": 4
   }
  ],
  "weekly_remainder": [
@@ -2025,6 +2087,20 @@
    "max": {
     "score": 64,
     "ty": "84.9663D"
+   }
+  },
+  {
+   "no": "2026000453",
+   "name": "광명 시티프라디움 에듀하임",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.7421B",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 65,
+    "ty": "59.9742A"
    }
   },
   {

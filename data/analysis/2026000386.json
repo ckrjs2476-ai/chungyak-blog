@@ -110,6 +110,79 @@
   "다자녀": 4,
   "기관추천": 4
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9671A",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "59.996B",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "59.9759C",
+    "supply": 7,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "69.9865A",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 9
+   },
+   {
+    "ty": "74.9936A",
+    "supply": 3,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.998B",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "84.9999A",
+    "supply": 3,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9989B",
+    "supply": 1,
+    "closed_at": "1순위 기타지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 16,
+  "rank1_req": 16,
+  "supply_total": 38,
+  "final_shortfall_total": 23,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 8,
+  "rank1_avg_rate": 0.42,
+  "best": {
+   "ty": "84.9989B",
+   "rate": 2.0,
+   "stage": "1순위 기타지역"
+  }
+ },
  "region_price": {
   "scope": "용인시",
   "supply_kind": "민영",
@@ -152,6 +225,18 @@
   "peer_count": 3,
   "peer_avg_rate": 0.85,
   "peer_max_rate": 2.14
+ },
+ "region_competition": {
+  "scope": "용인시",
+  "peer_count": 3,
+  "peers": [
+   "용인 양지 서희스타힐스 하이뷰",
+   "용인 고림 동문 디 이스트",
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)"
+  ],
+  "peer_avg_rate": 0.85,
+  "rank": 2,
+  "of": 4
  },
  "market": {
   "region": "경기도 용인시 처인구",

@@ -51,6 +51,32 @@
   "노부모 부양": 2,
   "기관추천": 6
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.98A",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "84.97B",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 20
+   }
+  ],
+  "req_total": 17,
+  "rank1_req": 17,
+  "supply_total": 60,
+  "final_shortfall_total": 43,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.28
+ },
  "region_price": {
   "scope": "천안시",
   "supply_kind": "민영",
@@ -99,22 +125,39 @@
   "peer_avg_rate": 3.37,
   "peer_max_rate": 26.27
  },
+ "region_competition": {
+  "scope": "천안시",
+  "peer_count": 11,
+  "peers": [
+   "천안 동문 디 이스트 파크시티",
+   "천안 휴먼빌 퍼스트시티(2회차)",
+   "엘리프 성성호수공원 1BL",
+   "엘리프 성성호수공원 2BL",
+   "백석시그니처자이 1단지",
+   "백석시그니처자이 2단지",
+   "업성 푸르지오 레이크시티 2단지",
+   "천안 아이파크 시티 1단지(2회차)"
+  ],
+  "peer_avg_rate": 3.37,
+  "rank": 6,
+  "of": 12
+ },
  "market": {
   "region": "충청남도 천안시 서북구",
   "lawd": "44133",
   "months": 12,
-  "updated": "2026-10-13",
-  "n84": 1862,
-  "median84": 31300,
+  "updated": "2026-10-14",
+  "n84": 1872,
+  "median84": 31400,
   "p25_84": 22000,
   "p75_84": 45300,
-  "new_n84": 239,
+  "new_n84": 241,
   "new_median84": 44500,
   "new_build_years": 5,
   "umd": "부대동",
   "umd_n84": 58,
   "umd_median84": 37052,
-  "diff_vs_median84": 25720,
+  "diff_vs_median84": 25620,
   "diff_pct_vs_median84": 82,
   "diff_vs_new_median84": 12520,
   "diff_pct_vs_new_median84": 28,
