@@ -26,11 +26,15 @@ PLACEHOLDER = re.compile(r"(lorem ipsum|준비 ?중|공사 ?중|테스트 ?글|t
 MIN_PER_LABEL = 8
 
 
+LAST_ERR: list[str] = []
+
+
 def get(url: str, **kw):
     for _ in range(3):
         try:
             return requests.get(url, headers=UA, timeout=30, **kw)
-        except requests.RequestException:
+        except requests.RequestException as e:
+            LAST_ERR.append(f"{type(e).__name__}: {str(e)[:120]}")
             continue
     return None
 
@@ -57,7 +61,7 @@ def check_blog(key: str, host: str) -> dict:
     P, N = res["problems"], res["notes"]
     home = get(res["host"] + "/")
     if not home or home.status_code != 200:
-        P.append(("사이트 이용 불가", f"홈 응답 {home.status_code if home else '없음'}"))
+        P.append(("사이트 이용 불가", f"홈 응답 {home.status_code if home else '없음 ' + (LAST_ERR[-1] if LAST_ERR else '')}"))
         return res
     html = home.text
     # 기술: noindex, 모바일, canonical
