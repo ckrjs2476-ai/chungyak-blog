@@ -138,6 +138,8 @@ def compare(items: list[dict]) -> None:
     totals = sorted((i["total"] for i in ok), reverse=True)
     med = int(statistics.median(totals)) if totals else None
     for i in items:
+        for k in ("total_rank", "total_rank_of", "total_vs_median_pct"):
+            i.pop(k, None)
         if i.get("total") and not i.get("is_spac"):
             i["total_rank"] = totals.index(i["total"]) + 1
             i["total_rank_of"] = len(totals)
