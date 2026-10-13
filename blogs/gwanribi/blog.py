@@ -20,11 +20,13 @@ DONE = HERE / "posts" / "published"
 PUBLISHED = DATA / "published.json"
 
 REGION_LABELS = ["서울", "경기", "인천", "지방"]
-TYPE_LABELS = ["단지 관리비", "지역 관리비"]
+TYPE_LABELS = ["단지 관리비", "지역 관리비", "관리비 읽는 법"]
 ALLOWED_LABELS = set(REGION_LABELS + TYPE_LABELS)
-TYPES = ("complex", "region")
+TYPES = ("complex", "region", "topic")
 ANGLES = {"complex": ("총액", "공용항목", "개별사용료", "장기수선", "같은규모"),
-          "region": ("순위", "격차", "항목", "난방방식", "단지규모")}
+          "region": ("순위", "격차", "항목", "난방방식", "단지규모"),
+          # topic: 검색이 있는 관리비 주제(장기수선충당금, 고지서 등)를 우리 단지 데이터를 예시로 풀어 주는 글
+          "topic": ("장기수선", "고지서", "공용항목", "개별사용료")}
 # 다른 블로그와 다른 출처 문구. 뜻이 같으면 표현은 바꿔도 된다.
 DISCLOSURE_RE = re.compile(r"(공동주택관리정보시스템|K-apt|국토교통부)[^.\n]{0,40}(관리비)[^.\n]{0,40}(나눠|계산|비교)했어요")
 SOURCE_LINK = "k-apt.go.kr"
@@ -172,6 +174,10 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         errs.append(f"알 수 없는 type: {typ}")
     if typ == "complex" and not find_complex(str(meta.get("kapt") or ""))[1]:
         errs.append("단지 글인데 kapt(단지코드) 데이터가 없습니다.")
+    if typ == "topic":
+        ls = [str(x) for x in meta.get("lawds") or []]
+        if not ls or not all(region(l) and not region(l).get("empty") for l in ls):
+            errs.append("주제 글은 예시로 쓸 시군구 코드 목록(lawds)이 필요하고, 모두 데이터가 있어야 합니다.")
     if typ == "region":
         d = region(str(meta.get("lawd") or ""))
         if not d or d.get("empty"):

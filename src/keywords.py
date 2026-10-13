@@ -41,7 +41,7 @@ TOPIC = {"cheongyak": r"(청약|분양|경쟁률|가점|커트라인|모집공�
 STAGES = {1: (30, 1500), 2: (300, 5000), 3: (1000, 30000)}
 FAILS = [0]
 # 우리 글이 답하지 않는 검색 의도(매물 찾기, 빌라·오피스텔 등)는 뺀다
-OFF_TOPIC = re.compile(r"(빌라|원룸|투룸|쓰리룸|오피스텔|매물|구청|역세권|LH|SH|장기전세|대출|이자|조회|사이트|어플|앱|부동산$|직방|다방|호갱노노|네이버부동산)")
+OFF_TOPIC = re.compile(r"(카드|할인|자동이체|납부|결제|상가|빌라|원룸|투룸|쓰리룸|오피스텔|매물|구청|역세권|LH|SH|장기전세|대출|이자|조회|사이트|어플|앱|부동산$|직방|다방|호갱노노|네이버부동산)")
 # 광고 경쟁도는 '광고주가 많은가'이지 검색 순위 난이도가 아니다(전세는 중개업소 광고가 많아 늘 높음). 약하게만 반영.
 COMP = {"낮음": 1.0, "중간": 0.85, "높음": 0.7}
 
@@ -146,7 +146,8 @@ def entities(blog: str) -> list[dict]:
     return out
 
 
-GENERIC = {"gwanribi": ["아파트관리비", "관리비비교", "장기수선충당금", "관리비평균", "공용관리비"],
+GENERIC = {"gwanribi": ["아파트관리비", "관리비비교", "장기수선충당금", "관리비평균", "공용관리비",
+                        "관리비고지서", "장기수선계획", "아파트경비비", "아파트난방비", "관리비항목"],
            "jeonse": ["전세가율", "전세가율높은지역", "깡통전세", "전세시세", "아파트전세가율"],
            "gongmoju": ["공모주일정", "공모주청약", "공모주수요예측", "이번주공모주", "공모주상장일정"],
            "cheongyak": ["청약일정", "아파트청약", "분양일정", "무순위청약", "청약가점"]}
@@ -173,6 +174,8 @@ def collect(blog: str) -> list[dict]:
             if nk in rows or not re.search(TOPIC[blog], kw) or OFF_TOPIC.search(kw):
                 continue
             ent = next((e for n, e in ent_names if n and n in nk), None)
+            if not ent and blog == "gwanribi" and re.search(r"(장기수선|고지서|경비비|청소비|난방비|인건비|승강기|공용관리비|관리비항목|관리비구성|관리비평균)", kw):
+                ent = {"name": "주제 글(우리 단지 데이터로 예시)", "id": "topic"}
             rows[nk] = {"keyword": kw, "volume": vol, "comp": k.get("compIdx", ""),
                         "entity": ent["name"] if ent else "", "entity_id": ent["id"] if ent else ""}
     return list(rows.values())
