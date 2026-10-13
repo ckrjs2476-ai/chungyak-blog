@@ -1,9 +1,4924 @@
 {
- "updated": "2026-10-14 08:17",
+ "updated": "2026-10-14 08:31",
  "stage": 1,
  "band": [
   30,
   1500
  ],
- "keywords": []
+ "keywords": [
+  {
+   "keyword": "영등포구청전세",
+   "volume": 55,
+   "comp": "중간",
+   "entity": "영등포구",
+   "entity_id": "11560",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구화곡동전세",
+   "volume": 25,
+   "comp": "낮음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "광진구전세",
+   "volume": 600,
+   "comp": "중간",
+   "entity": "광진구",
+   "entity_id": "11215",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "강북구전세",
+   "volume": 240,
+   "comp": "중간",
+   "entity": "강북구",
+   "entity_id": "11305",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구신축빌라전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "강북구빌라전세",
+   "volume": 100,
+   "comp": "중간",
+   "entity": "강북구",
+   "entity_id": "11305",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "도봉구전세",
+   "volume": 430,
+   "comp": "중간",
+   "entity": "도봉구",
+   "entity_id": "11320",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "마포구청전세",
+   "volume": 25,
+   "comp": "낮음",
+   "entity": "마포구",
+   "entity_id": "11440",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "동작구빌라전세",
+   "volume": 125,
+   "comp": "중간",
+   "entity": "동작구",
+   "entity_id": "11590",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "금천구청전세",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "금천구",
+   "entity_id": "11545",
+   "score": 36.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구신축빌라전세",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 36.0,
+   "used": false
+  },
+  {
+   "keyword": "종로구전세",
+   "volume": 200,
+   "comp": "높음",
+   "entity": "종로구",
+   "entity_id": "11110",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구전세",
+   "volume": 1000,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "용산구전세",
+   "volume": 190,
+   "comp": "높음",
+   "entity": "용산구",
+   "entity_id": "11170",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "양천구전세",
+   "volume": 220,
+   "comp": "높음",
+   "entity": "양천구",
+   "entity_id": "11470",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "중랑구전세",
+   "volume": 550,
+   "comp": "높음",
+   "entity": "중랑구",
+   "entity_id": "11260",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구아파트전세",
+   "volume": 470,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구투룸전세",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "중구전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "중구",
+   "entity_id": "11140",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구전세",
+   "volume": 640,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "용산구빌라전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "용산구",
+   "entity_id": "11170",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "중랑구빌라전세",
+   "volume": 200,
+   "comp": "높음",
+   "entity": "중랑구",
+   "entity_id": "11260",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "성동구전세",
+   "volume": 230,
+   "comp": "높음",
+   "entity": "성동구",
+   "entity_id": "11200",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구전세",
+   "volume": 1230,
+   "comp": "높음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "금천구전세",
+   "volume": 450,
+   "comp": "높음",
+   "entity": "금천구",
+   "entity_id": "11545",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "관악구전세",
+   "volume": 510,
+   "comp": "높음",
+   "entity": "관악구",
+   "entity_id": "11620",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "광진구빌라전세",
+   "volume": 180,
+   "comp": "높음",
+   "entity": "광진구",
+   "entity_id": "11215",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "마포구전세",
+   "volume": 460,
+   "comp": "높음",
+   "entity": "마포구",
+   "entity_id": "11440",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "구로구전세",
+   "volume": 230,
+   "comp": "높음",
+   "entity": "구로구",
+   "entity_id": "11530",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "성동구빌라전세",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "성동구",
+   "entity_id": "11200",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "광진구오피스텔전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "광진구",
+   "entity_id": "11215",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구오피스텔전세",
+   "volume": 150,
+   "comp": "높음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구원룸전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구전세아파트",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강북구아파트전세",
+   "volume": 220,
+   "comp": "높음",
+   "entity": "강북구",
+   "entity_id": "11305",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구오피스텔전세",
+   "volume": 130,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구투룸전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "금천구빌라전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "금천구",
+   "entity_id": "11545",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "금천구시흥동전세",
+   "volume": 150,
+   "comp": "높음",
+   "entity": "금천구",
+   "entity_id": "11545",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "금천구투룸전세",
+   "volume": 75,
+   "comp": "높음",
+   "entity": "금천구",
+   "entity_id": "11545",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구빌라전세",
+   "volume": 420,
+   "comp": "높음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구빌라전세",
+   "volume": 250,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "동대문구전세",
+   "volume": 350,
+   "comp": "높음",
+   "entity": "동대문구",
+   "entity_id": "11230",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "성북구전세",
+   "volume": 410,
+   "comp": "높음",
+   "entity": "성북구",
+   "entity_id": "11290",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "송파구전세",
+   "volume": 680,
+   "comp": "높음",
+   "entity": "송파구",
+   "entity_id": "11710",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "서대문구전세",
+   "volume": 290,
+   "comp": "높음",
+   "entity": "서대문구",
+   "entity_id": "11410",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "송파구원룸전세",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "송파구",
+   "entity_id": "11710",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "송파구투룸전세",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "송파구",
+   "entity_id": "11710",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "동작구전세",
+   "volume": 370,
+   "comp": "높음",
+   "entity": "동작구",
+   "entity_id": "11590",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "노원구전세",
+   "volume": 900,
+   "comp": "높음",
+   "entity": "노원구",
+   "entity_id": "11350",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구빌라전세",
+   "volume": 450,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "서대문구빌라전세",
+   "volume": 125,
+   "comp": "높음",
+   "entity": "서대문구",
+   "entity_id": "11410",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구전월세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구오피스텔전세",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구신사동전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "마포구투룸전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "마포구",
+   "entity_id": "11440",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "만안구전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "만안구",
+   "entity_id": "41171",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "영등포구전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "영등포구",
+   "entity_id": "11560",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "관악구원룸전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "관악구",
+   "entity_id": "11620",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강남구전세",
+   "volume": 330,
+   "comp": "높음",
+   "entity": "강남구",
+   "entity_id": "11680",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "서초구전세",
+   "volume": 270,
+   "comp": "높음",
+   "entity": "서초구",
+   "entity_id": "11650",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "강남구오피스텔전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "강남구",
+   "entity_id": "11680",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "장안구전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "장안구",
+   "entity_id": "41111",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "권선구전세",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "권선구",
+   "entity_id": "41113",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "팔달구전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "팔달구",
+   "entity_id": "41115",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "수정구전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "수정구",
+   "entity_id": "41131",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "영통구전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "영통구",
+   "entity_id": "41117",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "중원구전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "중원구",
+   "entity_id": "41133",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "분당구전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "분당구",
+   "entity_id": "41135",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "의정부시전세",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "의정부시",
+   "entity_id": "41150",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "동안구전세",
+   "volume": 215,
+   "comp": "높음",
+   "entity": "동안구",
+   "entity_id": "41173",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "광명시전세",
+   "volume": 260,
+   "comp": "높음",
+   "entity": "광명시",
+   "entity_id": "41210",
+   "score": 30.0,
+   "used": false
+  },
+  {
+   "keyword": "옥탑방전세",
+   "volume": 80,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 25.0,
+   "used": false
+  },
+  {
+   "keyword": "정릉동아파트전세",
+   "volume": 35,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 25.0,
+   "used": false
+  },
+  {
+   "keyword": "봉천동투룸전세",
+   "volume": 35,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 25.0,
+   "used": false
+  },
+  {
+   "keyword": "종로구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "종로구",
+   "entity_id": "11110",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "종로구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "종로구",
+   "entity_id": "11110",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "중구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중구",
+   "entity_id": "11140",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "중구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중구",
+   "entity_id": "11140",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "성동구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성동구",
+   "entity_id": "11200",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "용산구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "용산구",
+   "entity_id": "11170",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "용산구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "용산구",
+   "entity_id": "11170",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구청전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "광진구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "광진구",
+   "entity_id": "11215",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "광진구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "광진구",
+   "entity_id": "11215",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "성동구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성동구",
+   "entity_id": "11200",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "동대문구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동대문구",
+   "entity_id": "11230",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "중랑구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중랑구",
+   "entity_id": "11260",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "성북구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성북구",
+   "entity_id": "11290",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "영등포구청투룸전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영등포구",
+   "entity_id": "11560",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강북구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강북구",
+   "entity_id": "11305",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "도봉구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "도봉구",
+   "entity_id": "11320",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "마포구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "마포구",
+   "entity_id": "11440",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "서대문구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서대문구",
+   "entity_id": "11410",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구반전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "마포구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "마포구",
+   "entity_id": "11440",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "양천구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "양천구",
+   "entity_id": "11470",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "양천구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "양천구",
+   "entity_id": "11470",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "구로구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "구로구",
+   "entity_id": "11530",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "구로구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "구로구",
+   "entity_id": "11530",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "금천구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "금천구",
+   "entity_id": "11545",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "금천구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "금천구",
+   "entity_id": "11545",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "영등포구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영등포구",
+   "entity_id": "11560",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "동작구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동작구",
+   "entity_id": "11590",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "영등포구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영등포구",
+   "entity_id": "11560",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악구",
+   "entity_id": "11620",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "서초구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서초구",
+   "entity_id": "11650",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "서초구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서초구",
+   "entity_id": "11650",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강남구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강남구",
+   "entity_id": "11680",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "송파구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "송파구",
+   "entity_id": "11710",
+   "score": 20.0,
+   "used": true
+  },
+  {
+   "keyword": "강동구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "송파구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "송파구",
+   "entity_id": "11710",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "권선구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "권선구",
+   "entity_id": "41113",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "장안구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "장안구",
+   "entity_id": "41111",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "장안구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "장안구",
+   "entity_id": "41111",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "영통구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영통구",
+   "entity_id": "41117",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "팔달구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "팔달구",
+   "entity_id": "41115",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "팔달구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "팔달구",
+   "entity_id": "41115",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "수정구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "수정구",
+   "entity_id": "41131",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "수정구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "수정구",
+   "entity_id": "41131",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "영통구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영통구",
+   "entity_id": "41117",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "분당구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "분당구",
+   "entity_id": "41135",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "분당구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "분당구",
+   "entity_id": "41135",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "중원구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중원구",
+   "entity_id": "41133",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "중원구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중원구",
+   "entity_id": "41133",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "만안구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "만안구",
+   "entity_id": "41171",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "의정부시전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "의정부시",
+   "entity_id": "41150",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "의정부시전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "의정부시",
+   "entity_id": "41150",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "동안구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동안구",
+   "entity_id": "41173",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "동안구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동안구",
+   "entity_id": "41173",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "만안구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "만안구",
+   "entity_id": "41171",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "광명시전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "광명시",
+   "entity_id": "41210",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구신축빌라전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 18.0,
+   "used": false
+  },
+  {
+   "keyword": "용산구투룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "용산구",
+   "entity_id": "11170",
+   "score": 18.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구반전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "강동구",
+   "entity_id": "11740",
+   "score": 18.0,
+   "used": false
+  },
+  {
+   "keyword": "중랑구원룸전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "중랑구",
+   "entity_id": "11260",
+   "score": 18.0,
+   "used": false
+  },
+  {
+   "keyword": "중랑구투룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "중랑구",
+   "entity_id": "11260",
+   "score": 18.0,
+   "used": false
+  },
+  {
+   "keyword": "양천구신정동전세",
+   "volume": 20,
+   "comp": "높음",
+   "entity": "양천구",
+   "entity_id": "11470",
+   "score": 18.0,
+   "used": false
+  },
+  {
+   "keyword": "강남구청역전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "강남구",
+   "entity_id": "11680",
+   "score": 18.0,
+   "used": false
+  },
+  {
+   "keyword": "아파트전세가율",
+   "volume": 30,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "전세가율",
+   "volume": 1010,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "전세사이트",
+   "volume": 60,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "전세어플",
+   "volume": 130,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "전세방",
+   "volume": 600,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "봉천동전세",
+   "volume": 230,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "전월세계산",
+   "volume": 80,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "영등포전세",
+   "volume": 330,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "양재시민의숲전세",
+   "volume": 40,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "평창동전세",
+   "volume": 620,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "역삼전세",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "해방촌전세",
+   "volume": 50,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "후암동전세",
+   "volume": 360,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "이수역전세",
+   "volume": 350,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "당산전세",
+   "volume": 180,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "영등포오피스텔전세",
+   "volume": 120,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "화곡동빌라전세",
+   "volume": 300,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "잠실동빌라전세",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "중곡동전세",
+   "volume": 350,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "낙성대전세",
+   "volume": 90,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "남양전세",
+   "volume": 45,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "망원동전세",
+   "volume": 450,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "증평전세",
+   "volume": 340,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "건대입구전세",
+   "volume": 75,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "군자전세",
+   "volume": 90,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "군자역전세",
+   "volume": 200,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "당산역전세",
+   "volume": 220,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "공릉동전세",
+   "volume": 190,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "목2동전세",
+   "volume": 55,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "수유동전세",
+   "volume": 170,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "수유리전세",
+   "volume": 25,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "강동오피스텔전세",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "사당역전세",
+   "volume": 300,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "사당전세",
+   "volume": 250,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "서울대입구전세",
+   "volume": 160,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "상수역전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "망월사전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "소래포구전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "서래마을전세",
+   "volume": 410,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "신대방삼거리전세",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "서대문전세",
+   "volume": 55,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "사당동전세",
+   "volume": 180,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "역촌동빌라전세",
+   "volume": 65,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "갈현동전세",
+   "volume": 190,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "양재동전세",
+   "volume": 260,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "안산빌라전세",
+   "volume": 280,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "건대오피스텔전세",
+   "volume": 40,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "부천쓰리룸전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "전세앱",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "신도림투룸전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "낙성대빌라전세",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "낙성대원룸전세",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "둔촌올림픽파크포레온전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "남부터미널오피스텔전세",
+   "volume": 40,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "버티고개전세",
+   "volume": 25,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "성북구전세가율",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "성북구",
+   "entity_id": "11290",
+   "score": 12.0,
+   "used": false
+  },
+  {
+   "keyword": "동작구전세가율",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "동작구",
+   "entity_id": "11590",
+   "score": 12.0,
+   "used": false
+  },
+  {
+   "keyword": "관악구전세시세",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "관악구",
+   "entity_id": "11620",
+   "score": 12.0,
+   "used": false
+  },
+  {
+   "keyword": "강남구전세가율",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "강남구",
+   "entity_id": "11680",
+   "score": 12.0,
+   "used": false
+  },
+  {
+   "keyword": "반지하전세",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "전세3천",
+   "volume": 25,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "서울대전세",
+   "volume": 25,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "교대전세",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "목3동전세",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "안양LH전세",
+   "volume": 25,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "신림투룸전세",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "군자역투룸전세",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 9.0,
+   "used": false
+  },
+  {
+   "keyword": "전세시세",
+   "volume": 170,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세집구하기",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세구하기",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세매물",
+   "volume": 1500,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세집",
+   "volume": 860,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "주택전세",
+   "volume": 620,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세월세",
+   "volume": 610,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "다가구전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "단독전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세찾기",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "수도권전세",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "복층전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "양평전세",
+   "volume": 680,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "집전세",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "순천신대지구전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "안산와동전세",
+   "volume": 65,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신혼부부전세",
+   "volume": 270,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "무보증금월세",
+   "volume": 180,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세방구하기",
+   "volume": 30,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전월세매물",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "빌라전월세",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "암사동전세",
+   "volume": 190,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "역삼동전세",
+   "volume": 230,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "천호전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "화곡동전세",
+   "volume": 330,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "혜화동전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "왕십리전세",
+   "volume": 300,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "정릉동전세",
+   "volume": 160,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "종로전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "창신동전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "한남동전세",
+   "volume": 370,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "위례전세",
+   "volume": 790,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "자양동전세",
+   "volume": 660,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "약수동전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "이수전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "구산동빌라전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신길동전세",
+   "volume": 290,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신길동아파트전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "용산아파트전세",
+   "volume": 280,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "용산전세",
+   "volume": 360,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "한남동빌라전세",
+   "volume": 140,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "효창동빌라전세",
+   "volume": 65,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "용산오피스텔전세",
+   "volume": 200,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신정동빌라전세",
+   "volume": 95,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "영등포빌라전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "창동빌라전세",
+   "volume": 65,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "우이동빌라전세",
+   "volume": 75,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "여의도오피스텔전세",
+   "volume": 310,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "중화동빌라전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "경기광주전세",
+   "volume": 1160,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서울전세1억",
+   "volume": 170,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "능평리전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "수원전세집",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "원주전세집",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "합정동전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "목동전세",
+   "volume": 990,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "면목동전세",
+   "volume": 510,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "대치동전세",
+   "volume": 680,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "가산동전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "망우동전세",
+   "volume": 240,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "다산동전세",
+   "volume": 210,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "다산전세",
+   "volume": 520,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서울오피스텔전세",
+   "volume": 1050,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "강남전세",
+   "volume": 430,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "길동전세",
+   "volume": 180,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "성수동오피스텔전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "성수동전세",
+   "volume": 470,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "난곡동전세",
+   "volume": 95,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "독산동전세",
+   "volume": 290,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "화명동전세",
+   "volume": 600,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "건대입구역전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "건대전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "까치산역전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "구의동전세",
+   "volume": 330,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "능동전세",
+   "volume": 75,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "마곡전세",
+   "volume": 440,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "고덕아파트전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "명일동전세",
+   "volume": 150,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "성내동전세",
+   "volume": 390,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "미아전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "수유전세",
+   "volume": 65,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "우장산역전세",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "화곡동아파트전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "독산동아파트전세",
+   "volume": 85,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "독산전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "시흥동빌라전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "시흥동전세",
+   "volume": 180,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "목동빌라전세",
+   "volume": 190,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신월동빌라전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신정동전세",
+   "volume": 210,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "면목동아파트전세",
+   "volume": 160,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "면목동원룸전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "묵동빌라전세",
+   "volume": 85,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "묵동전세",
+   "volume": 85,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신월동전세",
+   "volume": 240,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "상봉전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "송파전세",
+   "volume": 360,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신림전세",
+   "volume": 160,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신림동전세",
+   "volume": 290,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신촌전세",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "방배동전세",
+   "volume": 710,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서울대입구역전세",
+   "volume": 190,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "석관동빌라전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "상도동전세",
+   "volume": 280,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "수유역전세",
+   "volume": 105,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "방학동전세",
+   "volume": 250,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "상계역전세",
+   "volume": 140,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서울전세값",
+   "volume": 140,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서초전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "성수역전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "수서전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "구성역전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "남위례전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "마곡나루전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "지축전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "선유도전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "아차산전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "방화동전세",
+   "volume": 420,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "수지구청역전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "성신여대전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "방이동전세",
+   "volume": 440,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "미아역전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신당전세",
+   "volume": 30,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신림역전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서울전세집",
+   "volume": 30,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "문정동전세",
+   "volume": 350,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "석촌전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "송파오피스텔전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신천동전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "독산역전세",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "등촌역전세",
+   "volume": 150,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "상봉역오피스텔전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "새절역전세",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "광명전세",
+   "volume": 770,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "홍은동아파트전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "홍은동전세",
+   "volume": 180,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "홍제동빌라전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "낙성대역전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "봉천역전세",
+   "volume": 55,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "창동전세",
+   "volume": 150,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "방배동빌라전세",
+   "volume": 620,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "개봉동빌라전세",
+   "volume": 170,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "논현동빌라전세",
+   "volume": 105,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "하계동전세",
+   "volume": 75,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "공릉동아파트전세",
+   "volume": 300,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "상계동전세",
+   "volume": 210,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "응암역전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "불광역전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "은평뉴타운전세",
+   "volume": 300,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "연희동전세",
+   "volume": 470,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "방배전세",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서초동전세",
+   "volume": 230,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "양재오피스텔전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "양재투룸전세",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "양재빌라전세",
+   "volume": 75,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "고척동빌라전세",
+   "volume": 75,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서울빌라전세",
+   "volume": 690,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "망원전세",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신촌원룸전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "망원동빌라전세",
+   "volume": 190,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "망원동투룸전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "연남동빌라전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "연남동전세",
+   "volume": 140,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "합정전세",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신촌오피스텔전세",
+   "volume": 65,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "우장산전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "안산전세",
+   "volume": 1170,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "강남아파트전세",
+   "volume": 260,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "대치동빌라전세",
+   "volume": 280,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "부평전세",
+   "volume": 720,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "부천빌라전세",
+   "volume": 510,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "일산전세",
+   "volume": 1110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "가양역전세",
+   "volume": 460,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "원종동전세",
+   "volume": 580,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "오류동빌라전세",
+   "volume": 140,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "구로동빌라전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신도림오피스텔전세",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "신축빌라전세",
+   "volume": 340,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "부동산전세",
+   "volume": 640,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "구리시전세",
+   "volume": 510,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "경기도전세",
+   "volume": 480,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "전세반환소송",
+   "volume": 910,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "오류동전세",
+   "volume": 230,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "서울투룸전세",
+   "volume": 550,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "봉천동원룸전세",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "잠실전세",
+   "volume": 500,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "강남오피스텔전세",
+   "volume": 210,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "강동역오피스텔전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "강변역전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "구의역전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "군자역빌라전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "까치산전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "남부터미널역전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "답십리빌라전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "당산역오피스텔전세",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "안국역전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "노량진빌라전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "노량진전세",
+   "volume": 240,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "사당오피스텔전세",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "사당투룸전세",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "잠실아파트전세",
+   "volume": 490,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.5,
+   "used": false
+  },
+  {
+   "keyword": "반전세",
+   "volume": 1520,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구반전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "광진구능동전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "광진구",
+   "entity_id": "11215",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "동대문구전세가율",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "동대문구",
+   "entity_id": "11230",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "중랑구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "중랑구",
+   "entity_id": "11260",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "강북구전세가율",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "강북구",
+   "entity_id": "11305",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "도봉구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "도봉구",
+   "entity_id": "11320",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "노원구전세가율",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "노원구",
+   "entity_id": "11350",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "은평구전세가율",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "은평구",
+   "entity_id": "11380",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "노원구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "노원구",
+   "entity_id": "11350",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "서대문구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "서대문구",
+   "entity_id": "11410",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "강서구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "11500",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "권선구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "권선구",
+   "entity_id": "41113",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "광명시전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "광명시",
+   "entity_id": "41210",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "깡통전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "전세가율높은지역",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "전세4천",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "올림픽공원전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "강남반전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "성신여대원룸전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "서울전세5천",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "송파투룸전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "9호선전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "반포4동전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "옥탑전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "다세대전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "구옥전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "2호선전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "전세알아보기",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "땅콩주택전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "전월세구하기",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "영등포시장전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "세종반전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "양천향교전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "일원역전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "충무로역전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "충무로전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "혜화전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "필동전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "이수역원룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "당산투룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "당산빌라전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "강일역전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "광주전세매물",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "한성대전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "광흥창전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "성수동원룸전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "남부터미널전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "명동전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "길동역전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "군자투룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "수유빌라전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "마곡투룸전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "우장산역빌라전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "신월7동전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "면목2동전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "상봉오피스텔전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "정릉역전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "탕정역전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "삼각지전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "가락시장전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "삼전동투룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "석촌빌라전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "석촌호수전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "잠실투룸전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "장지동빌라전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "7호선전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "망우역전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "미아사거리역전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "사가정전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "상월곡역전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "노원빌라전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "양재시민의숲빌라전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "녹번전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "마포투룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "신림오피스텔전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "역삼동원룸전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "역삼동투룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "대림전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "빌라전세매물",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "전세론",
+   "volume": 20,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "빌라전세가격",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "광운대역전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "교대역오피스텔전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "교대역원룸전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "군자역원룸전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "노들역전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "복정전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "노량진오피스텔전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 4.5,
+   "used": false
+  },
+  {
+   "keyword": "전세임대",
+   "volume": 1900,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "전세계약",
+   "volume": 1990,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "전세광고",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "전세가율확인",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "LH청년전세임대주택",
+   "volume": 1510,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "서울전세",
+   "volume": 3990,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "성수투룸전세",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "안양전세",
+   "volume": 2050,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "부천전세",
+   "volume": 1680,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "인천전세",
+   "volume": 2790,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "전세변호사",
+   "volume": 1625,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "오피스텔전세",
+   "volume": 1770,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "빌라전세",
+   "volume": 2350,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "서울아파트전세",
+   "volume": 3090,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "수도권전세가율",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세집알아보기",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "20평전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세자취",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전월세직거래",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세사무실",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세6000",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세정보",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세풀옵션",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세구함",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "부동산전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "빌라전세사이트",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "수도권아파트전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "오피스텔전월세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세매물확인",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "신용산전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "안암전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "월곡전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "당산원룸전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "한양대전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "성내동투룸전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "석촌역투룸전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "서울강남전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "서울영등포전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "창천동전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "공릉원룸전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "합정투룸전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "온수전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세계약동행",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "구로디지털전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 1.5,
+   "used": false
+  },
+  {
+   "keyword": "전세",
+   "volume": 24810,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 0.4,
+   "used": false
+  },
+  {
+   "keyword": "장기전세",
+   "volume": 7460,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 0.4,
+   "used": false
+  },
+  {
+   "keyword": "아파트전세",
+   "volume": 7470,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 0.4,
+   "used": false
+  }
+ ]
 }
