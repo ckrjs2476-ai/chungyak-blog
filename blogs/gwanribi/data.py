@@ -32,7 +32,7 @@ MAX_PER_RUN = int(os.environ.get("GWANRIBI_MAX_PER_RUN", "1"))
 MIN_HH = 300
 MAX_COMPLEX = 150
 REFRESH_DAYS = 60
-WORKERS = 6
+WORKERS = 2
 
 C, I, R = "AptCmnuseManageCostServiceV3/", "AptIndvdlzManageCostServiceV3/", "AptRepairsCostServiceV3/"
 # 공용관리비: (항목 이름, 오퍼레이션, 응답 필드들)
@@ -71,6 +71,8 @@ INDIV = [
 LTSM = [("월부과액", "getHsmpMonthFeeInfoV3", "sLevy"), ("적립요율", "getHsmpAccumulationTariffInfoV3", "sPer"),
         ("잔액", "getHsmpReserveBalanceInfoV3", "sTot"), ("월사용액", "getHsmpMonthRetalFeeInfoV3", "sUse")]
 BAD_OPS: set[str] = set()
+ERRS: dict[str, int] = {}
+FAILS: dict[str, int] = {}
 
 
 def _num(v):
@@ -91,17 +93,27 @@ def call(path: str, params: dict) -> dict | None:
             last = e
             continue
         if r.status_code != 200:
-            if path not in BAD_OPS:
-                BAD_OPS.add(path)
-                print(f"::warning::{path} HTTP {r.status_code}: {r.text[:120]}")
-            return None
+            if "NO_OPENAPI" in r.text or "SERVICE_KEY" in r.text or "등록되지 않은" in r.text:
+                if path not in BAD_OPS:
+                    BAD_OPS.add(path)
+                    print(f"::warning::{path} HTTP {r.status_code}: {r.text[:120]}")
+                return None
+            last = f"HTTP {r.status_code} {r.text[:80]}"
+            ERRS[last] = ERRS.get(last, 0) + 1
+            continue
         try:
             js = r.json()
         except ValueError:
-            last = r.text[:120]
+            last = r.text[:160]
             continue
-        return (js.get("response") or {}).get("body") or {}
-    print(f"::warning::{path} 실패: {last}")
+        resp = js.get("response") or {}
+        code = str((resp.get("header") or {}).get("resultCode") or "00")
+        if code not in ("00", "000"):
+            last = f"{code} {(resp.get('header') or {}).get('resultMsg')}"
+            ERRS[last] = ERRS.get(last, 0) + 1
+            continue
+        return resp.get("body") or {}
+    FAILS[path.split("/")[-1]] = FAILS.get(path.split("/")[-1], 0) + 1
     return None
 
 
@@ -331,6 +343,10 @@ def main() -> int:
         (REG / f"{r['lawd']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), "utf-8")
         print(f"::notice::{r['name']} {'자료 없음' if d.get('empty') else str(d['n_complex']) + '개 단지 ' + d['ym']} ({int(time.time() - t0)}초)")
     summary()
+    if ERRS:
+        print(f"::warning::API 오류 응답: {dict(list(ERRS.items())[:8])}")
+    if FAILS:
+        print(f"::warning::끝내 실패한 호출: {FAILS}")
     return 0
 
 
