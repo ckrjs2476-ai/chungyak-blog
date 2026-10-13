@@ -1,0 +1,82 @@
+{
+ "corp_code": "01938746",
+ "corp_name": "아델",
+ "rcept_no": "20261012000445",
+ "rcept_dt": "20261012",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000445",
+ "subscription": "2026년 11월 23일 ~ 2026년 11월 24일",
+ "payment_date": "2026년 11월 26일",
+ "notice_date": "2026년 11월 23일",
+ "allot_date": "2026년 11월 26일",
+ "stock_kind": "보통주",
+ "shares": 2170000,
+ "face_value": 500,
+ "price": 18000,
+ "total": 39060000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "삼성증권",
+   "shares": 1410500,
+   "amount": 25389000000,
+   "fee": 1041559920,
+   "how": "총액인수"
+  },
+  {
+   "name": "미래에셋증권",
+   "shares": 759500,
+   "amount": 13671000000,
+   "fee": 560839680,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "운영자금",
+   "amount": 38252249068,
+   "share_pct": 95.5
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1807740932,
+   "share_pct": 4.5
+  }
+ ],
+ "fund_total": 40059990000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 아델",
+  "ceo_nm": "윤승용",
+  "induty_code": "70113",
+  "est_dt": "20161110",
+  "hm_url": "",
+  "adres": "서울특별시 강동구 풍성로 90 (성내동, 한스빌딩)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 6,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 67.5,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 38252249068,
+  "share_pct": 95.5
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

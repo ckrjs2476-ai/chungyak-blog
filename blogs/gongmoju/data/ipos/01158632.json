@@ -1,0 +1,80 @@
+{
+ "corp_code": "01158632",
+ "corp_name": "진코스텍",
+ "rcept_no": "20261001000586",
+ "rcept_dt": "20261001",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
+ "corp_cls": "N",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000586",
+ "subscription": "2026년 10월 02일 ~ 2026년 10월 06일",
+ "payment_date": "2026년 10월 08일",
+ "notice_date": "2026년 10월 02일",
+ "allot_date": "2026년 10월 08일",
+ "stock_kind": "보통주",
+ "shares": 852000,
+ "face_value": 500,
+ "price": 19500,
+ "total": 16614000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "하나증권",
+   "shares": 852000,
+   "amount": 16614000000,
+   "fee": 697788000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 5000000000,
+   "share_pct": 28.7
+  },
+  {
+   "use": "운영자금",
+   "amount": 11644764960,
+   "share_pct": 66.8
+  },
+  {
+   "use": "발행제비용",
+   "amount": 799935040,
+   "share_pct": 4.6
+  }
+ ],
+ "fund_total": 17444700000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 진코스텍",
+  "ceo_nm": "김임준",
+  "induty_code": "20423",
+  "est_dt": "20100615",
+  "hm_url": "www.jincostech.com ",
+  "adres": "경기도 시흥시 군자천로237번길, 31 2나 604호 (정왕동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 25,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -28.8,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 11644764960,
+  "share_pct": 66.8
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

@@ -1,0 +1,92 @@
+{
+ "corp_code": "00534729",
+ "corp_name": "디티에스",
+ "rcept_no": "20261012000308",
+ "rcept_dt": "20261012",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000308",
+ "subscription": "2026년 10월 13일 ~ 2026년 10월 14일",
+ "payment_date": "2026년 10월 16일",
+ "notice_date": "2026년 10월 13일",
+ "allot_date": "2026년 10월 16일",
+ "stock_kind": "보통주",
+ "shares": 2228917,
+ "face_value": 5000,
+ "price": 17000,
+ "total": 37891589000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "대신증권",
+   "shares": 2006025,
+   "amount": 34102425000,
+   "fee": 1091277600,
+   "how": "총액인수"
+  },
+  {
+   "name": "유진증권",
+   "shares": 222892,
+   "amount": 3789164000,
+   "fee": 121253248,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 10860000000,
+   "share_pct": 28.7
+  },
+  {
+   "use": "운영자금",
+   "amount": 12000000000,
+   "share_pct": 31.7
+  },
+  {
+   "use": "기타",
+   "amount": 13640284144,
+   "share_pct": 36.0
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1391304856,
+   "share_pct": 3.7
+  }
+ ],
+ "fund_total": 37891589000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)디티에스",
+  "ceo_nm": "김중일",
+  "induty_code": "29177",
+  "est_dt": "20000731",
+  "hm_url": "www.dasants.com",
+  "adres": "전라북도 군산시 자유무역2길 45 (오식도동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 7,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 62.5,
+ "top_fund_use": {
+  "use": "기타",
+  "amount": 13640284144,
+  "share_pct": 36.0
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

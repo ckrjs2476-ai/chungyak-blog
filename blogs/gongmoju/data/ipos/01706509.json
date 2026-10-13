@@ -1,0 +1,80 @@
+{
+ "corp_code": "01706509",
+ "corp_name": "다비오",
+ "rcept_no": "20261008000705",
+ "rcept_dt": "20261008",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705",
+ "subscription": "2026년 11월 10일 ~ 2026년 11월 11일",
+ "payment_date": "2026년 11월 13일",
+ "notice_date": "2026년 11월 10일",
+ "allot_date": "2026년 11월 13일",
+ "stock_kind": "보통주",
+ "shares": 1000000,
+ "face_value": 100,
+ "price": 12300,
+ "total": 12300000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "대신증권",
+   "shares": 1000000,
+   "amount": 12300000000,
+   "fee": 570105000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "운영자금",
+   "amount": 7498415000,
+   "share_pct": 31.2
+  },
+  {
+   "use": "시설투자",
+   "amount": 4500000000,
+   "share_pct": 18.8
+  },
+  {
+   "use": "발행제비용",
+   "amount": 11998415000,
+   "share_pct": 50.0
+  }
+ ],
+ "fund_total": 23996830000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주) 다비오",
+  "ceo_nm": "박주흠",
+  "induty_code": "58222",
+  "est_dt": "20120227",
+  "hm_url": "www.dabeeo.com",
+  "adres": "서울특별시 마포구 마포대로 144 (공덕동, 마포T타운) 8층"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 27,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -47.3,
+ "top_fund_use": {
+  "use": "발행제비용",
+  "amount": 11998415000,
+  "share_pct": 50.0
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

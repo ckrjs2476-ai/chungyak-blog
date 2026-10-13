@@ -1,0 +1,80 @@
+{
+ "corp_code": "00579342",
+ "corp_name": "영광",
+ "rcept_no": "20261008000623",
+ "rcept_dt": "20261008",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000623",
+ "subscription": "2026년 10월 22일 ~ 2026년 10월 23일",
+ "payment_date": "2026년 10월 27일",
+ "notice_date": "2026년 10월 22일",
+ "allot_date": "2026년 10월 27일",
+ "stock_kind": "보통주",
+ "shares": 2260000,
+ "face_value": 500,
+ "price": 14000,
+ "total": 31640000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한국투자증권",
+   "shares": 2260000,
+   "amount": 31640000000,
+   "fee": 977676000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 28400000000,
+   "share_pct": 87.1
+  },
+  {
+   "use": "운영자금",
+   "amount": 3089200000,
+   "share_pct": 9.5
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1100000000,
+   "share_pct": 3.4
+  }
+ ],
+ "fund_total": 32589200000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)영광",
+  "ceo_nm": "허철기",
+  "induty_code": "25114",
+  "est_dt": "19990616",
+  "hm_url": "",
+  "adres": "울산광역시 울주군 온산읍 이진리 261 (주)영광"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 9,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 35.7,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 28400000000,
+  "share_pct": 87.1
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

@@ -1,0 +1,82 @@
+{
+ "corp_code": "01754737",
+ "corp_name": "엘리스그룹",
+ "rcept_no": "20261006000447",
+ "rcept_dt": "20261006",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000447",
+ "subscription": "2026년 10월 07일 ~ 2026년 10월 08일",
+ "payment_date": "2026년 10월 13일",
+ "notice_date": "2026년 10월 07일",
+ "allot_date": "2026년 10월 13일",
+ "stock_kind": "보통주",
+ "shares": 2222000,
+ "face_value": 500,
+ "price": 70400,
+ "total": 156428800000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "미래에셋증권",
+   "shares": 1777600,
+   "amount": 125143040000,
+   "fee": 1889144928,
+   "how": "총액인수"
+  },
+  {
+   "name": "삼성증권",
+   "shares": 444400,
+   "amount": 31285760000,
+   "fee": 472286496,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 154931933286,
+   "share_pct": 98.4
+  },
+  {
+   "use": "발행제비용",
+   "amount": 2496828314,
+   "share_pct": 1.6
+  }
+ ],
+ "fund_total": 157428761600,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)엘리스그룹",
+  "ceo_nm": "KIM JAE WON",
+  "induty_code": "58222",
+  "est_dt": "20151104",
+  "hm_url": "",
+  "adres": "서울특별시 강남구 테헤란로 445 5-9층 (삼성동, 본솔빌딩)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 1,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 570.8,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 154931933286,
+  "share_pct": 98.4
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

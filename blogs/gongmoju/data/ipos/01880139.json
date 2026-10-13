@@ -1,0 +1,80 @@
+{
+ "corp_code": "01880139",
+ "corp_name": "케이엠에프",
+ "rcept_no": "20261002000390",
+ "rcept_dt": "20261002",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261002000390",
+ "subscription": "2026년 11월 24일 ~ 2026년 11월 25일",
+ "payment_date": "2026년 11월 27일",
+ "notice_date": "2026년 11월 24일",
+ "allot_date": "2026년 11월 27일",
+ "stock_kind": "보통주",
+ "shares": 2000000,
+ "face_value": 500,
+ "price": 15000,
+ "total": 30000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "아이비케이투자증권",
+   "shares": 2000000,
+   "amount": 30000000000,
+   "fee": 927000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 13872000000,
+   "share_pct": 44.9
+  },
+  {
+   "use": "운영자금",
+   "amount": 15928000000,
+   "share_pct": 51.5
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1100000000,
+   "share_pct": 3.6
+  }
+ ],
+ "fund_total": 30900000000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 케이엠에프",
+  "ceo_nm": "정용진",
+  "induty_code": "108",
+  "est_dt": "20020807",
+  "hm_url": "",
+  "adres": "대구광역시 동구 율암로 12 (율암동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 11,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 28.6,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 15928000000,
+  "share_pct": 51.5
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

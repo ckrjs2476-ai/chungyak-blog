@@ -1,0 +1,70 @@
+{
+ "corp_code": "01965157",
+ "corp_name": "한화플러스제6호기업인수목적",
+ "rcept_no": "20261007000249",
+ "rcept_dt": "20261007",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000249",
+ "subscription": "2026년 10월 20일 ~ 2026년 10월 21일",
+ "payment_date": "2026년 10월 23일",
+ "notice_date": "2026년 10월 20일",
+ "allot_date": "2026년 10월 23일",
+ "stock_kind": "보통주",
+ "shares": 6000000,
+ "face_value": 100,
+ "price": 2000,
+ "total": 12000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한화투자증권",
+   "shares": 6000000,
+   "amount": 12000000000,
+   "fee": 420000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "공모신탁자금(100%)",
+   "amount": 12000000000,
+   "share_pct": 100.0
+  }
+ ],
+ "fund_total": 12000000000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "한화플러스제6호기업인수목적 주식회사",
+  "ceo_nm": "김동완",
+  "induty_code": "66199",
+  "est_dt": "20251017",
+  "hm_url": "",
+  "adres": "서울특별시 영등포구 여의대로 56 (여의도동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 28,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -48.5,
+ "top_fund_use": {
+  "use": "공모신탁자금(100%)",
+  "amount": 12000000000,
+  "share_pct": 100.0
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

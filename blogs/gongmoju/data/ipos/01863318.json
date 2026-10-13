@@ -1,0 +1,80 @@
+{
+ "corp_code": "01863318",
+ "corp_name": "넥스아이",
+ "rcept_no": "20260928000260",
+ "rcept_dt": "20260928",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000260",
+ "subscription": "2026년 11월 03일 ~ 2026년 11월 04일",
+ "payment_date": "2026년 11월 06일",
+ "notice_date": "2026년 11월 03일",
+ "allot_date": "2026년 11월 06일",
+ "stock_kind": "보통주",
+ "shares": 5000000,
+ "face_value": 500,
+ "price": 10500,
+ "total": 52500000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한국투자증권",
+   "shares": 5000000,
+   "amount": 52500000000,
+   "fee": 2407500000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "연구개발자금",
+   "amount": 46492000000,
+   "share_pct": 86.9
+  },
+  {
+   "use": "운영자금",
+   "amount": 4488270000,
+   "share_pct": 8.4
+  },
+  {
+   "use": "발행제비용",
+   "amount": 2519729000,
+   "share_pct": 4.7
+  }
+ ],
+ "fund_total": 53499999000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 넥스아이",
+  "ceo_nm": "윤경완",
+  "induty_code": "70113",
+  "est_dt": "20210412",
+  "hm_url": "www.nex-i.co.kr",
+  "adres": "서울특별시 송파구 송파대로 201 (문정동, 송파테라타워2) 922,923,924호"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 3,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 125.1,
+ "top_fund_use": {
+  "use": "연구개발자금",
+  "amount": 46492000000,
+  "share_pct": 86.9
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

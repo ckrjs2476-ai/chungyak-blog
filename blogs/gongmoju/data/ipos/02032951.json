@@ -1,0 +1,70 @@
+{
+ "corp_code": "02032951",
+ "corp_name": "에스케이증권제14호기업인수목적",
+ "rcept_no": "20260909000174",
+ "rcept_dt": "20260909",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000174",
+ "subscription": "2026년 10월 15일 ~ 2026년 10월 16일",
+ "payment_date": "2026년 10월 20일",
+ "notice_date": "2026년 10월 15일",
+ "allot_date": "2026년 10월 19일",
+ "stock_kind": "보통주",
+ "shares": 6500000,
+ "face_value": 100,
+ "price": 2000,
+ "total": 13000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "SK증권",
+   "shares": 6500000,
+   "amount": 13000000000,
+   "fee": 390000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "공모예치자금",
+   "amount": 13000000000,
+   "share_pct": 100.0
+  }
+ ],
+ "fund_total": 13000000000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "에스케이증권제14호 기업인수목적 주식회사",
+  "ceo_nm": "신상훈",
+  "induty_code": "6499",
+  "est_dt": "20260513",
+  "hm_url": "",
+  "adres": "서울특별시 영등포구 국제금융로8길 31 (여의도동, SK증권빌딩)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 26,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -44.3,
+ "top_fund_use": {
+  "use": "공모예치자금",
+  "amount": 13000000000,
+  "share_pct": 100.0
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

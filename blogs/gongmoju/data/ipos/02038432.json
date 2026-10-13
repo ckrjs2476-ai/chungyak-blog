@@ -1,0 +1,101 @@
+{
+ "corp_code": "02038432",
+ "corp_name": "SimwonAmericaCorp.",
+ "rcept_no": "20261012000149",
+ "rcept_dt": "20261012",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000149",
+ "subscription": "2026년 11월 05일",
+ "payment_date": "2026년 11월 09일",
+ "notice_date": "-",
+ "allot_date": "-",
+ "stock_kind": "보통주",
+ "shares": 2500000,
+ "face_value": null,
+ "price": 26784,
+ "total": 66960000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "-",
+   "shares": null,
+   "amount": null,
+   "fee": null,
+   "how": "-"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "미국동부 사업확장 ",
+   "amount": 7995024000,
+   "share_pct": 19.9
+  },
+  {
+   "use": "멕시코 및 캐나다 시장 확장 ",
+   "amount": 7995024000,
+   "share_pct": 19.9
+  },
+  {
+   "use": "독립적 연구 개발 설립",
+   "amount": 3198008261,
+   "share_pct": 8.0
+  },
+  {
+   "use": "일반 운영자금",
+   "amount": 12792038400,
+   "share_pct": 31.8
+  },
+  {
+   "use": "발행제비용",
+   "amount": 8195905339,
+   "share_pct": 20.4
+  }
+ ],
+ "fund_total": 40176000000,
+ "sellers": [
+  {
+   "name": "First MVG Fund",
+   "relation": "소액주주",
+   "shares": 111112
+  },
+  {
+   "name": "J&J Holdings Limited",
+   "relation": "소액주주",
+   "shares": 444444
+  },
+  {
+   "name": "Jade Technology Enterprise Limited",
+   "relation": "소액주주",
+   "shares": 444444
+  }
+ ],
+ "sell_shares": 1000000,
+ "company": {
+  "corp_name": "Simwon America Corp.",
+  "ceo_nm": "박영석",
+  "induty_code": "303",
+  "est_dt": "20160628",
+  "hm_url": "",
+  "adres": "400 D'Arcy Park Way, Lathrop, CA 95330, United States"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 2,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 187.1,
+ "sell_share_pct": 40.0,
+ "top_fund_use": {
+  "use": "일반 운영자금",
+  "amount": 12792038400,
+  "share_pct": 31.8
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

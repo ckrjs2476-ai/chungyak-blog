@@ -1,0 +1,80 @@
+{
+ "corp_code": "01378005",
+ "corp_name": "이에스티",
+ "rcept_no": "20261013000268",
+ "rcept_dt": "20261013",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013000268",
+ "subscription": "2026년 10월 22일 ~ 2026년 10월 23일",
+ "payment_date": "2026년 10월 27일",
+ "notice_date": "2026년 10월 22일",
+ "allot_date": "2026년 10월 27일",
+ "stock_kind": "보통주",
+ "shares": 2200000,
+ "face_value": 500,
+ "price": 10600,
+ "total": 23320000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "대신증권",
+   "shares": 2200000,
+   "amount": 23320000000,
+   "fee": 840686000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 19391977000,
+   "share_pct": 80.7
+  },
+  {
+   "use": "연구개발비",
+   "amount": 3681000000,
+   "share_pct": 15.3
+  },
+  {
+   "use": "발행제비용",
+   "amount": 946124400,
+   "share_pct": 3.9
+  }
+ ],
+ "fund_total": 24019101400,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사이에스티",
+  "ceo_nm": "김영곤",
+  "induty_code": "26299",
+  "est_dt": "20160405",
+  "hm_url": "www.estech.asia",
+  "adres": "경기도 오산시 가장산업서북로 103-14 (지곶동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 15,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 0.0,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 19391977000,
+  "share_pct": 80.7
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

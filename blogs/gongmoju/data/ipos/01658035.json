@@ -1,0 +1,85 @@
+{
+ "corp_code": "01658035",
+ "corp_name": "옵토닉스",
+ "rcept_no": "20260929000347",
+ "rcept_dt": "20260929",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000347",
+ "subscription": "2026년 11월 05일 ~ 2026년 11월 06일",
+ "payment_date": "2026년 11월 10일",
+ "notice_date": "2026년 11월 05일",
+ "allot_date": "2026년 11월 10일",
+ "stock_kind": "보통주",
+ "shares": 2200000,
+ "face_value": 100,
+ "price": 10000,
+ "total": 22000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한국투자증권",
+   "shares": 2200000,
+   "amount": 22000000000,
+   "fee": 1133000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 15848308000,
+   "share_pct": 69.9
+  },
+  {
+   "use": "운전자금",
+   "amount": 5064664720,
+   "share_pct": 22.4
+  },
+  {
+   "use": "연구개발",
+   "amount": 500000000,
+   "share_pct": 2.2
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1247027280,
+   "share_pct": 5.5
+  }
+ ],
+ "fund_total": 22660000000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "옵토닉스",
+  "ceo_nm": "이용범,이영우",
+  "induty_code": "27301",
+  "est_dt": "20041231",
+  "hm_url": "www.optonics.net",
+  "adres": "광주광역시 북구 첨단벤처소로15번길 63 (월출동, (주)옵토닉스)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 17,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -5.7,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 15848308000,
+  "share_pct": 69.9
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

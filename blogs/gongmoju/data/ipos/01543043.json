@@ -1,0 +1,85 @@
+{
+ "corp_code": "01543043",
+ "corp_name": "티앤이코리아",
+ "rcept_no": "20260923000255",
+ "rcept_dt": "20260923",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923000255",
+ "subscription": "2026년 10월 20일 ~ 2026년 10월 21일",
+ "payment_date": "2026년 10월 23일",
+ "notice_date": "2026년 10월 20일",
+ "allot_date": "2026년 10월 23일",
+ "stock_kind": "보통주",
+ "shares": 2400000,
+ "face_value": 500,
+ "price": 12600,
+ "total": 30240000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "신한투자증권",
+   "shares": 2400000,
+   "amount": 30240000000,
+   "fee": 1245888000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 8900000000,
+   "share_pct": 28.6
+  },
+  {
+   "use": "운영자금",
+   "amount": 15054000000,
+   "share_pct": 48.3
+  },
+  {
+   "use": "채무상환자금",
+   "amount": 5841000000,
+   "share_pct": 18.8
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1351648000,
+   "share_pct": 4.3
+  }
+ ],
+ "fund_total": 31146648000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)티앤이코리아",
+  "ceo_nm": "박기철",
+  "induty_code": "29174",
+  "est_dt": "20140226",
+  "hm_url": "www.tnekorea.com",
+  "adres": "충청북도 청주시 흥덕구 오송읍 오송생명9로 192"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 10,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 29.7,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 15054000000,
+  "share_pct": 48.3
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

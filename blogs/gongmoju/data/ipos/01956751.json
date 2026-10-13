@@ -1,0 +1,80 @@
+{
+ "corp_code": "01956751",
+ "corp_name": "래블업",
+ "rcept_no": "20261006000421",
+ "rcept_dt": "20261006",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000421",
+ "subscription": "2026년 10월 22일 ~ 2026년 10월 23일",
+ "payment_date": "2026년 10월 27일",
+ "notice_date": "2026년 10월 22일",
+ "allot_date": "2026년 10월 27일",
+ "stock_kind": "보통주",
+ "shares": 2180000,
+ "face_value": 500,
+ "price": 19000,
+ "total": 41420000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "NH투자증권",
+   "shares": 2180000,
+   "amount": 41420000000,
+   "fee": 1908899000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 186780000000,
+   "share_pct": 46.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 217280000000,
+   "share_pct": 53.5
+  },
+  {
+   "use": "발행제비용",
+   "amount": 2014258000,
+   "share_pct": 0.5
+  }
+ ],
+ "fund_total": 406074258000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "래블업 주식회사",
+  "ceo_nm": "신정규",
+  "induty_code": "58221",
+  "est_dt": "20150420",
+  "hm_url": "www.lablup.com/",
+  "adres": "서울특별시 강남구 선릉로 577 (역삼동, 조선내화빌딩) 8층"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 5,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 77.6,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 217280000000,
+  "share_pct": 53.5
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

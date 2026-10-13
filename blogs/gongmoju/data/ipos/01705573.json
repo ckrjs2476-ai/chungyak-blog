@@ -1,0 +1,92 @@
+{
+ "corp_code": "01705573",
+ "corp_name": "유캐스트",
+ "rcept_no": "20260909000378",
+ "rcept_dt": "20260909",
+ "report_nm": "[정정제출요구]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000378",
+ "subscription": "2026년 10월 19일 ~ 2026년 10월 20일",
+ "payment_date": "2026년 10월 22일",
+ "notice_date": "2026년 10월 19일",
+ "allot_date": "2026년 10월 22일",
+ "stock_kind": "보통주",
+ "shares": 800000,
+ "face_value": 500,
+ "price": 21000,
+ "total": 16800000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "유진증권",
+   "shares": 760000,
+   "amount": 15960000000,
+   "fee": 1181280000,
+   "how": "총액인수"
+  },
+  {
+   "name": "신영증권",
+   "shares": 40000,
+   "amount": 840000000,
+   "fee": 30000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 9450000000,
+   "share_pct": 54.6
+  },
+  {
+   "use": "운영자금",
+   "amount": 5900000000,
+   "share_pct": 34.1
+  },
+  {
+   "use": "기타",
+   "amount": 640742400,
+   "share_pct": 3.7
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1313257600,
+   "share_pct": 7.6
+  }
+ ],
+ "fund_total": 17304000000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 유캐스트",
+  "ceo_nm": "김재형",
+  "induty_code": "26429",
+  "est_dt": "20110502",
+  "hm_url": "www.eu-cast.com",
+  "adres": "경기도 성남시 분당구 황새울로 262 (수내동, 성옥빌딩) 4층"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 24,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -28.0,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 9450000000,
+  "share_pct": 54.6
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

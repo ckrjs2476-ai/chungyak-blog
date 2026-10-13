@@ -1,0 +1,85 @@
+{
+ "corp_code": "00784184",
+ "corp_name": "동원파츠",
+ "rcept_no": "20261001000579",
+ "rcept_dt": "20261001",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000579",
+ "subscription": "2026년 11월 02일 ~ 2026년 11월 03일",
+ "payment_date": "2026년 11월 05일",
+ "notice_date": "2026년 11월 02일",
+ "allot_date": "2026년 11월 05일",
+ "stock_kind": "보통주",
+ "shares": 2030000,
+ "face_value": 500,
+ "price": 23000,
+ "total": 46690000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "삼성증권",
+   "shares": 2030000,
+   "amount": 46690000000,
+   "fee": 1430699820,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 31320000000,
+   "share_pct": 65.7
+  },
+  {
+   "use": "운영자금",
+   "amount": 35557833,
+   "share_pct": 0.1
+  },
+  {
+   "use": "기타",
+   "amount": 14680000000,
+   "share_pct": 30.8
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1654436167,
+   "share_pct": 3.5
+  }
+ ],
+ "fund_total": 47689994000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 동원파츠",
+  "ceo_nm": "조덕형",
+  "induty_code": "29271",
+  "est_dt": "19970615",
+  "hm_url": "dmids.com",
+  "adres": "경기도 시흥시 공단1대로80번길 140 (정왕동, (주)미화무늬)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 4,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 100.2,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 31320000000,
+  "share_pct": 65.7
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

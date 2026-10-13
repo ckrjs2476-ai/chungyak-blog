@@ -1,0 +1,80 @@
+{
+ "corp_code": "01649408",
+ "corp_name": "인텔리빅스",
+ "rcept_no": "20261008000310",
+ "rcept_dt": "20261008",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000310",
+ "subscription": "2026년 10월 21일 ~ 2026년 10월 22일",
+ "payment_date": "2026년 10월 26일",
+ "notice_date": "2026년 10월 21일",
+ "allot_date": "2026년 10월 26일",
+ "stock_kind": "보통주",
+ "shares": 2500000,
+ "face_value": 100,
+ "price": 7600,
+ "total": 19000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "미래에셋증권",
+   "shares": 2500000,
+   "amount": 19000000000,
+   "fee": 782800000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 5000000000,
+   "share_pct": 25.5
+  },
+  {
+   "use": "운영자금",
+   "amount": 13573544000,
+   "share_pct": 69.4
+  },
+  {
+   "use": "발행제비용",
+   "amount": 996456000,
+   "share_pct": 5.1
+  }
+ ],
+ "fund_total": 19570000000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)인텔리빅스",
+  "ceo_nm": "장정훈",
+  "induty_code": "5822",
+  "est_dt": "20000613",
+  "hm_url": "www.intellivix.com",
+  "adres": "서울특별시 서초구 효령로34길 4 (방배동, 프린스효령빌딩) 6층"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 23,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -18.5,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 13573544000,
+  "share_pct": 69.4
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

@@ -1,0 +1,75 @@
+{
+ "corp_code": "01025617",
+ "corp_name": "하나에어로다이내믹스",
+ "rcept_no": "20260921000405",
+ "rcept_dt": "20260921",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921000405",
+ "subscription": "2026년 11월 10일 ~ 2026년 11월 11일",
+ "payment_date": "2026년 11월 13일",
+ "notice_date": "2026년 11월 10일",
+ "allot_date": "2026년 11월 13일",
+ "stock_kind": "보통주",
+ "shares": 4400000,
+ "face_value": 100,
+ "price": 4700,
+ "total": 20680000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "아이비케이투자증권",
+   "shares": 4400000,
+   "amount": 20680000000,
+   "fee": 850000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 20284788640,
+   "share_pct": 95.2
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1015611360,
+   "share_pct": 4.8
+  }
+ ],
+ "fund_total": 21300400000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)하나에어로다이내믹스",
+  "ceo_nm": "손창환",
+  "induty_code": "31322",
+  "est_dt": "20070112",
+  "hm_url": "",
+  "adres": "경상남도 사천시 축동면 두량로 260 하나에어로다이내믹스"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 21,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -11.3,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 20284788640,
+  "share_pct": 95.2
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

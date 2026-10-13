@@ -1,0 +1,85 @@
+{
+ "corp_code": "01028933",
+ "corp_name": "멜콘",
+ "rcept_no": "20260929000191",
+ "rcept_dt": "20260929",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260929000191",
+ "subscription": "2026년 10월 01일 ~ 2026년 10월 02일",
+ "payment_date": "2026년 10월 07일",
+ "notice_date": "2026년 10월 01일",
+ "allot_date": "2026년 10월 07일",
+ "stock_kind": "보통주",
+ "shares": 2500000,
+ "face_value": 500,
+ "price": 10700,
+ "total": 26750000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "대신증권",
+   "shares": 2500000,
+   "amount": 26750000000,
+   "fee": 826575000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 13362500000,
+   "share_pct": 48.5
+  },
+  {
+   "use": "운영자금",
+   "amount": 12242195000,
+   "share_pct": 44.4
+  },
+  {
+   "use": "채무상환자금",
+   "amount": 1000000000,
+   "share_pct": 3.6
+  },
+  {
+   "use": "발행제비용",
+   "amount": 947805000,
+   "share_pct": 3.4
+  }
+ ],
+ "fund_total": 27552500000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "멜콘 주식회사",
+  "ceo_nm": "김성일, 박성택",
+  "induty_code": "29",
+  "est_dt": "20031216",
+  "hm_url": "www.melcon.co.kr",
+  "adres": "경기도 화성시 동탄산단9길 23-22"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 14,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 14.7,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 13362500000,
+  "share_pct": 48.5
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

@@ -1,0 +1,90 @@
+{
+ "corp_code": "01540903",
+ "corp_name": "크리에이츠",
+ "rcept_no": "20260928000196",
+ "rcept_dt": "20260928",
+ "report_nm": "[기재정정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928000196",
+ "subscription": "2026년 10월 20일 ~ 2026년 10월 21일",
+ "payment_date": "2026년 10월 23일",
+ "notice_date": "2026년 10월 20일",
+ "allot_date": "2026년 10월 23일",
+ "stock_kind": "보통주",
+ "shares": 1400000,
+ "face_value": 200,
+ "price": 15000,
+ "total": 21000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "삼성증권",
+   "shares": 1400000000,
+   "amount": 21000000000,
+   "fee": 865200000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 4000000000,
+   "share_pct": 18.5
+  },
+  {
+   "use": "운영자금",
+   "amount": 4000000000,
+   "share_pct": 18.5
+  },
+  {
+   "use": "타법인증권취득자금",
+   "amount": 7700000000,
+   "share_pct": 35.6
+  },
+  {
+   "use": "기타",
+   "amount": 5000000000,
+   "share_pct": 23.1
+  },
+  {
+   "use": "발행제비용",
+   "amount": 930000000,
+   "share_pct": 4.3
+  }
+ ],
+ "fund_total": 21630000000,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 크리에이츠",
+  "ceo_nm": "석재호",
+  "induty_code": "33999",
+  "est_dt": "20090901",
+  "hm_url": "",
+  "adres": "경기도 수원시 영통구 덕영대로1556번길 16 (영통동, 디지털엠파이어빌딩) 제A동 407호"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 20,
+ "total_rank_of": 29,
+ "total_vs_median_pct": -9.9,
+ "top_fund_use": {
+  "use": "타법인증권취득자금",
+  "amount": 7700000000,
+  "share_pct": 35.6
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}

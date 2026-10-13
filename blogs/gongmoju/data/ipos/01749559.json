@@ -1,0 +1,80 @@
+{
+ "corp_code": "01749559",
+ "corp_name": "엠에스바이오",
+ "rcept_no": "20261007000327",
+ "rcept_dt": "20261007",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007000327",
+ "subscription": "2026년 10월 12일 ~ 2026년 10월 13일",
+ "payment_date": "2026년 10월 15일",
+ "notice_date": "2026년 10월 12일",
+ "allot_date": "2026년 10월 15일",
+ "stock_kind": "보통주",
+ "shares": 4000000,
+ "face_value": 100,
+ "price": 6800,
+ "total": 27200000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "케이비증권",
+   "shares": 4000000,
+   "amount": 27200000000,
+   "fee": 1120640000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 18406,
+   "share_pct": 65.7
+  },
+  {
+   "use": "운영자금",
+   "amount": 8375,
+   "share_pct": 29.9
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1235,
+   "share_pct": 4.4
+  }
+ ],
+ "fund_total": 28016,
+ "sellers": [
+  {
+   "name": "-",
+   "relation": "-",
+   "shares": null
+  }
+ ],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)엠에스바이오",
+  "ceo_nm": "김성포",
+  "induty_code": "27199",
+  "est_dt": "20151027",
+  "hm_url": "msbio.co.kr/",
+  "adres": "경기도 성남시 중원구 사기막골로 124 (상대원동, SKn테크노파크) 테크동1413"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "total_rank": 13,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 16.6,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 18406,
+  "share_pct": 65.7
+ },
+ "compare_median_total": 23320000000,
+ "compare_count": 29
+}
