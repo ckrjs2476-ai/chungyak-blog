@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -30,13 +31,18 @@ LAST_ERR: list[str] = []
 
 
 def get(url: str, **kw):
-    for _ in range(3):
+    """구글이 GitHub 공용 IP를 자주 429로 막는다. 간격을 두고 기다렸다 다시 시도한다."""
+    r = None
+    for wait in (0, 30, 90, 180):
+        time.sleep(wait or 1.5)
         try:
-            return requests.get(url, headers=UA, timeout=30, **kw)
+            r = requests.get(url, headers=UA, timeout=30, **kw)
         except requests.RequestException as e:
             LAST_ERR.append(f"{type(e).__name__}: {str(e)[:120]}")
             continue
-    return None
+        if r.status_code != 429:
+            return r
+    return r
 
 
 def feed(host: str, kind: str) -> list[dict]:
@@ -61,7 +67,8 @@ def check_blog(key: str, host: str) -> dict:
     P, N = res["problems"], res["notes"]
     home = get(res["host"] + "/")
     if home is None or home.status_code != 200:
-        P.append(("사이트 이용 불가", f"홈 응답 {home.status_code if home is not None else '없음 ' + (LAST_ERR[-1] if LAST_ERR else '')}"))
+        kind = "확인 못 함(구글이 점검 요청을 잠시 막음)" if home is not None and home.status_code == 429 else "사이트 이용 불가"
+        P.append((kind, f"홈 응답 {home.status_code if home is not None else '없음 ' + (LAST_ERR[-1] if LAST_ERR else '')}"))
         return res
     html = home.text
     # 기술: noindex, 모바일, canonical
@@ -108,6 +115,8 @@ def check_blog(key: str, host: str) -> dict:
     broken = []
     for u in sorted(own_links)[:200]:
         r = get(u, allow_redirects=True)
+        if r is not None and r.status_code == 429:
+            continue  # 확인 못 함(깨짐 아님)
         if r is None or r.status_code >= 400:
             broken.append(u)
     if broken:
@@ -124,7 +133,10 @@ def check_blog(key: str, host: str) -> dict:
 
 
 def main() -> int:
-    results = [check_blog(k, h) for k, h in BLOGS.items()]
+    results = []
+    for k, h in BLOGS.items():
+        results.append(check_blog(k, h))
+        time.sleep(20)
     now = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
     lines = [f"# 애드센스 거절 사유 상위 항목 매일 점검 ({now} KST)", "",
              "기준과 순서: rules/adsense_rejection_top.md. '문제'는 고쳐야 할 것, '참고'는 신청 전까지 채울 것.", ""]
