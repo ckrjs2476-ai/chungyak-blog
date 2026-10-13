@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 08:36",
+ "updated": "2026-10-14 08:41",
  "stage": 1,
  "band": [
   30,
@@ -916,15 +916,6 @@
    "used": false
   },
   {
-   "keyword": "할인분양아파트",
-   "volume": 45,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 17.5,
-   "used": false
-  },
-  {
    "keyword": "분양중인아파트",
    "volume": 30,
    "comp": "높음",
@@ -981,15 +972,6 @@
   {
    "keyword": "신규분양",
    "volume": 70,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 17.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트할인분양",
-   "volume": 30,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1098,15 +1080,6 @@
   {
    "keyword": "트리우스광명분양가",
    "volume": 140,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 17.5,
-   "used": false
-  },
-  {
-   "keyword": "할인분양",
-   "volume": 180,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1654,15 +1627,6 @@
    "used": false
   },
   {
-   "keyword": "미분양아파트할인",
-   "volume": 25,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 12.8,
-   "used": false
-  },
-  {
    "keyword": "상도역헤리언트분양가",
    "volume": 15,
    "comp": "중간",
@@ -1827,15 +1791,6 @@
   {
    "keyword": "상도동아파트분양",
    "volume": 15,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 10.5,
-   "used": false
-  },
-  {
-   "keyword": "미분양할인",
-   "volume": 25,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2086,15 +2041,6 @@
    "used": false
   },
   {
-   "keyword": "상가분양가",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 10.5,
-   "used": false
-  },
-  {
    "keyword": "8월공모주청약일정",
    "volume": 15,
    "comp": "높음",
@@ -2142,15 +2088,6 @@
   {
    "keyword": "군산아파트청약",
    "volume": 20,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 10.5,
-   "used": false
-  },
-  {
-   "keyword": "서울상가분양",
-   "volume": 15,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2429,15 +2366,6 @@
   },
   {
    "keyword": "상도역헤리언트42분양",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "",
-   "entity_id": "",
-   "score": 5.0,
-   "used": false
-  },
-  {
-   "keyword": "병원상가분양",
    "volume": 10,
    "comp": "낮음",
    "entity": "",
@@ -2779,15 +2707,6 @@
    "used": false
   },
   {
-   "keyword": "미분양아파트할인분양",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false
-  },
-  {
    "keyword": "분양안내",
    "volume": 10,
    "comp": "높음",
@@ -2807,15 +2726,6 @@
   },
   {
    "keyword": "서울지역아파트분양",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false
-  },
-  {
-   "keyword": "망포동상가분양",
    "volume": 10,
    "comp": "높음",
    "entity": "",
@@ -3014,24 +2924,6 @@
   },
   {
    "keyword": "전국분양아파트",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false
-  },
-  {
-   "keyword": "미사상가분양",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false
-  },
-  {
-   "keyword": "부산상가분양",
    "volume": 10,
    "comp": "높음",
    "entity": "",
