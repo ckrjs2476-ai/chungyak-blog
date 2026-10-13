@@ -106,6 +106,10 @@ def call(path: str, params: dict) -> dict | None:
         except ValueError:
             last = r.text[:160]
             continue
+        if "response" not in js:  # 'OpenAPI_ServiceResponse' 형식의 오류(호출 한도 등)
+            last = " ".join(str(js)[:150].split())
+            ERRS[last] = ERRS.get(last, 0) + 1
+            continue
         resp = js.get("response") or {}
         code = str((resp.get("header") or {}).get("resultCode") or "00")
         if code not in ("00", "000"):
@@ -214,7 +218,7 @@ def build_region(lawd: str, name: str, today: date) -> dict:
         if y == _ym_candidates(today)[0]:
             c0 = cands[0][0]["kaptCode"]
             raw = requests.get(API + C + "getHsmpLaborCostInfoV3", params={"serviceKey": KEY, "_type": "json", "kaptCode": c0, "searchDate": y}, timeout=40)
-            print(f"::notice::원문 {c0} {y}: {raw.status_code} {raw.text[:300]}")
+            print(f"::notice::원문 {c0} {y}: {raw.status_code} {' '.join(raw.text[:400].split())}")
         ok = [bool(fees(c[0]["kaptCode"], y)) for c in cands[:3]]
         print(f"::notice::{y} 시험 {[c[1].get('kaptName') for c in cands[:3]]} → {ok}")
         if any(ok):
