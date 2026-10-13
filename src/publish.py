@@ -18,16 +18,30 @@ import markdown
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from card import build_card  # noqa: E402
-from check import check_text, recent_posts, split_post  # noqa: E402
+ROOT = Path(__file__).resolve().parent.parent
+# 블로그 여러 개: BLOG_KEY가 없으면 청약노트(저장소 루트), 있으면 blogs/<BLOG_KEY>/의 blog.py 설정을 쓴다
+BLOG = os.environ.get("BLOG_KEY", "cheongyak")
+if BLOG == "cheongyak":
+    from card import build_card  # noqa: E402
+    from check import check_text, recent_posts, split_post  # noqa: E402
+    BASE = ROOT
+    UNIT_KEY = "house_manage_no"
+    _blog = None
+else:
+    import importlib  # noqa: E402
+    sys.path.insert(0, str(ROOT / "blogs" / BLOG))
+    _blog = importlib.import_module("blog")
+    build_card, check_text, recent_posts, split_post = (_blog.build_card, _blog.check_text,
+                                                        _blog.recent_posts, _blog.split_post)
+    BASE = ROOT / "blogs" / BLOG
+    UNIT_KEY = _blog.UNIT_KEY
 
 REL_START, REL_END = "<!--related-start-->", "<!--related-end-->"
 TYPE_NAME = {"notice": "청약 일정·분양가", "competition": "경쟁률 결과", "score": "당첨 가점",
              "remainder": "무순위·잔여 세대"}
 
-ROOT = Path(__file__).resolve().parent.parent
-PENDING, DONE, HELD, REVIEW = (ROOT / "posts" / d for d in ("pending", "published", "held", "review"))
-PUBLISHED = ROOT / "data" / "published.json"
+PENDING, DONE, HELD, REVIEW = (BASE / "posts" / d for d in ("pending", "published", "held", "review"))
+PUBLISHED = (ROOT / "data" / "published.json") if _blog is None else (BASE / "data" / "published.json")
 CONFIG = json.loads((ROOT / "config.json").read_text("utf-8"))
 KST = timezone(timedelta(hours=9))
 API = "https://www.googleapis.com/blogger/v3"
@@ -110,8 +124,9 @@ def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
     return post
 
 
-REGION_LABELS = ["서울", "경기", "인천", "지방"]
-TYPE_LABELS = ["청약일정", "경쟁률", "당첨가점", "무순위", "청약통계", "실거래가", "월간정리", "청약가이드"]
+REGION_LABELS = ["서울", "경기", "인천", "지방"] if _blog is None else _blog.REGION_LABELS
+TYPE_LABELS = (["청약일정", "경쟁률", "당첨가점", "무순위", "청약통계", "실거래가", "월간정리", "청약가이드"]
+               if _blog is None else _blog.TYPE_LABELS)
 MAX_LINKS = 6
 
 
@@ -202,7 +217,7 @@ def record(meta: dict, body: str, post: dict, file_name: str = "") -> None:
     data = json.loads(PUBLISHED.read_text("utf-8")) if PUBLISHED.exists() else {"posts": []}
     heads = [l.strip("# ").strip() for l in body.splitlines() if l.startswith("## ")]
     data["posts"].append({
-        "house_manage_no": str(meta.get("house_manage_no") or ""),
+        "house_manage_no": str(meta.get(UNIT_KEY) or ""),
         "type": meta["type"], "labels": list(meta.get("labels") or []), "title": meta["title"], "keyword": meta["keyword"], "file": file_name,
         "opening": meta["opening"], "angle": meta.get("angle", ""), "url": post.get("url", ""), "blogger_id": post.get("id"),
         "status": post.get("status"), "published_at": datetime.now(KST).isoformat(),
@@ -227,7 +242,7 @@ def rerender() -> int:
             print(f"::warning::원고를 찾지 못해 건너뜀: {p.get('title')}")
             continue
         meta, body = split_post(src.read_text("utf-8"))
-        no = str(meta.get("house_manage_no") or "")
+        no = str(meta.get(UNIT_KEY) or "")
         p["labels"] = list(meta.get("labels") or [])
         block = related_block(no, exclude_id=p["blogger_id"], labels=p["labels"])
         p["related_html"] = block
@@ -242,8 +257,8 @@ def rerender() -> int:
     return 0
 
 
-PAGES_DIR = ROOT / "pages"
-PAGES_JSON = ROOT / "data" / "pages.json"
+PAGES_DIR = BASE / "pages"
+PAGES_JSON = (ROOT / "data" / "pages.json") if _blog is None else (BASE / "data" / "pages.json")
 
 
 def method_link() -> str:
@@ -342,7 +357,7 @@ def main() -> int:
             summary.append(f"- 보류: {meta.get('title')} ({len(errs)}건)")
             continue
         token = token or access_token()
-        no = str(meta.get("house_manage_no") or "")
+        no = str(meta.get(UNIT_KEY) or "")
         html = build_card(meta) + to_html(body) + method_link() + related_block(no, labels=meta.get("labels"))
         post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post, f.name)
@@ -354,7 +369,7 @@ def main() -> int:
         shutil.move(str(f), DONE / f.name)
         summary.append(f"- {'임시저장' if draft else '발행'}: {meta['title']} {post.get('url', '')}")
 
-    queue = len(list((ROOT / "data" / "queue").glob("*.md")))
+    queue = len(list(((ROOT / "data" / "queue") if _blog is None else (BASE / "data" / "queue")).glob("*.md")))
     if queue < 10:
         summary.append(f"- 경고: 예비 글이 {queue}편입니다 (10편 미만).")
     text = "\n".join(summary)

@@ -210,6 +210,63 @@ def sentences(line: str) -> list[str]:
     return [p for p in parts if p]
 
 
+def style_errors(body: str, min_tables: int = 2) -> list[str]:
+    """모든 블로그 공통: AI 말투 구조, 표, 문장 끝 말투, 문단 길이 점검."""
+    errs: list[str] = []
+    # AI 말투 구조 점검
+    paras = [b.strip() for b in re.split(r"\n\s*\n", body)
+             if b.strip() and not b.strip().startswith(("|", "#", ">", "-", "*", "1."))]
+    if paras and sentences(paras[0])[0].rstrip().endswith("?"):
+        errs.append("첫 문장을 질문으로 시작하지 않습니다. 가장 구체적인 숫자·날짜로 시작해 주세요.")
+    if body.count("아니라") > 1:
+        errs.append(f"'~이 아니라 ~' 구조가 {body.count('아니라')}번입니다 (1번까지).")
+    if body.count("**") // 2 > 2:
+        errs.append(f"굵은 글씨가 {body.count('**') // 2}곳입니다 (2곳까지).")
+    run = 0
+    for b in paras:
+        run = run + 1 if b.startswith(CONNECTORS) else 0
+        if run >= 3:
+            errs.append("'또한·게다가·그러나' 같은 접속사로 시작하는 문단이 3번 연속입니다.")
+            break
+    all_sents = [x.rstrip(" .!?\"')") for b in paras for x in sentences(b.replace("\n", " "))]
+    for i in range(len(all_sents) - 2):
+        tails = {x[-3:] for x in all_sents[i:i + 3]}
+        if len(tails) == 1 and len(all_sents[i]) >= 3:
+            errs.append(f"같은 어미('{all_sents[i][-3:]}')가 세 문장 연속입니다: '{all_sents[i][:15]}…'")
+            break
+
+    # 표: 개수와 열 수
+    tables = 0
+    in_table = False
+    for line in body.splitlines():
+        if line.strip().startswith("|"):
+            if not in_table:
+                tables += 1
+                in_table = True
+                cols = len([c for c in line.strip().strip("|").split("|")])
+                if cols > MAX_TABLE_COLS:
+                    errs.append(f"표 열이 {cols}개입니다 ({MAX_TABLE_COLS}열 이하).")
+        else:
+            in_table = False
+    if tables < min_tables:
+        errs.append(f"표가 {tables}개입니다 ({min_tables}개 이상).")
+
+    # 문장 끝 말투, 문단 길이
+    for block in re.split(r"\n\s*\n", body):
+        lines = [l for l in block.splitlines() if l.strip() and not l.strip().startswith(("|", "#", ">"))]
+        if not lines:
+            continue
+        sents = [s for l in lines for s in sentences(re.sub(r"^\s*(?:[-*]|\d+\.)\s+", "", l))]
+        if len(lines) == 1 and len(sents) > MAX_PARA_SENTENCES:
+            errs.append(f"문단이 {len(sents)}문장입니다: '{sents[0][:20]}…'")
+        for s in sents:
+            s2 = s.rstrip(" .!?\"')")
+            if s2.endswith("다") and not s2.endswith("니다"):
+                errs.append(f"딱딱한 말투: '…{s2[-15:]}.'")
+
+    return errs
+
+
 def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[str]:
     errs: list[str] = []
     for f in REQUIRED_FIELDS:
@@ -271,56 +328,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         if b in body:
             errs.append(f"금지 표현: '{b}'")
 
-    # AI 말투 구조 점검
-    paras = [b.strip() for b in re.split(r"\n\s*\n", body)
-             if b.strip() and not b.strip().startswith(("|", "#", ">", "-", "*", "1."))]
-    if paras and sentences(paras[0])[0].rstrip().endswith("?"):
-        errs.append("첫 문장을 질문으로 시작하지 않습니다. 가장 구체적인 숫자·날짜로 시작해 주세요.")
-    if body.count("아니라") > 1:
-        errs.append(f"'~이 아니라 ~' 구조가 {body.count('아니라')}번입니다 (1번까지).")
-    if body.count("**") // 2 > 2:
-        errs.append(f"굵은 글씨가 {body.count('**') // 2}곳입니다 (2곳까지).")
-    run = 0
-    for b in paras:
-        run = run + 1 if b.startswith(CONNECTORS) else 0
-        if run >= 3:
-            errs.append("'또한·게다가·그러나' 같은 접속사로 시작하는 문단이 3번 연속입니다.")
-            break
-    all_sents = [x.rstrip(" .!?\"')") for b in paras for x in sentences(b.replace("\n", " "))]
-    for i in range(len(all_sents) - 2):
-        tails = {x[-3:] for x in all_sents[i:i + 3]}
-        if len(tails) == 1 and len(all_sents[i]) >= 3:
-            errs.append(f"같은 어미('{all_sents[i][-3:]}')가 세 문장 연속입니다: '{all_sents[i][:15]}…'")
-            break
-
-    # 표: 개수와 열 수
-    tables = 0
-    in_table = False
-    for line in body.splitlines():
-        if line.strip().startswith("|"):
-            if not in_table:
-                tables += 1
-                in_table = True
-                cols = len([c for c in line.strip().strip("|").split("|")])
-                if cols > MAX_TABLE_COLS:
-                    errs.append(f"표 열이 {cols}개입니다 ({MAX_TABLE_COLS}열 이하).")
-        else:
-            in_table = False
-    if tables < 2:
-        errs.append(f"표가 {tables}개입니다 (2개 이상).")
-
-    # 문장 끝 말투, 문단 길이
-    for block in re.split(r"\n\s*\n", body):
-        lines = [l for l in block.splitlines() if l.strip() and not l.strip().startswith(("|", "#", ">"))]
-        if not lines:
-            continue
-        sents = [s for l in lines for s in sentences(re.sub(r"^\s*(?:[-*]|\d+\.)\s+", "", l))]
-        if len(lines) == 1 and len(sents) > MAX_PARA_SENTENCES:
-            errs.append(f"문단이 {len(sents)}문장입니다: '{sents[0][:20]}…'")
-        for s in sents:
-            s2 = s.rstrip(" .!?\"')")
-            if s2.endswith("다") and not s2.endswith("니다"):
-                errs.append(f"딱딱한 말투: '…{s2[-15:]}.'")
+    errs += style_errors(body)
 
     # 숫자 대조: 원본 데이터 또는 분석 데이터에 있는 숫자만 쓴다
     with_stats = typ in MULTI_TYPES
