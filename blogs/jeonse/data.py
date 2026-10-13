@@ -221,15 +221,30 @@ def ranking() -> None:
                          "jeonse_median84": d["jeonse_median84"], "sale_median84": d["sale_median84"],
                          "jeonse_change_pct": d.get("jeonse_change_pct")})
     rows.sort(key=lambda r: r["ratio84"], reverse=True)
+    avg = round(statistics.mean(r["ratio84"] for r in rows), 1) if rows else None
     for i, r in enumerate(rows, 1):
         r["rank"] = i
     (BASE / "ranking.json").write_text(json.dumps({"updated": date.today().isoformat(), "count": len(rows),
+                                                   "avg_ratio84": avg,
                                                    "regions": rows}, ensure_ascii=False, indent=1), "utf-8")
     for f in REG.glob("*.json"):  # 각 지역 파일에 전국 순위를 붙인다
         d = json.loads(f.read_text("utf-8"))
         hit = next((r for r in rows if r["lawd"] == d["lawd"]), None)
         d["rank"] = hit["rank"] if hit else None
         d["rank_of"] = len(rows)
+        d["avg_ratio84_all"] = avg
+        d["ratio_vs_avg_pp"] = round(d["ratio84"] - avg, 1) if d.get("ratio84") and avg else None
+        # 동별 차이(거래 10건 이상인 동만): 글에서 '가장 높은 동과 낮은 동의 차이'를 쓸 수 있게 미리 계산
+        um = {k: v for k, v in (d.get("umd") or {}).items() if v["jeonse_n"] >= 10 and v["sale_n"] >= 10 and v.get("ratio")}
+        if len(um) >= 2:
+            hi = max(um.items(), key=lambda kv: kv[1]["ratio"])
+            lo = min(um.items(), key=lambda kv: kv[1]["ratio"])
+            d["umd_ratio_high"] = {"name": hi[0], "ratio": hi[1]["ratio"]}
+            d["umd_ratio_low"] = {"name": lo[0], "ratio": lo[1]["ratio"]}
+            d["umd_spread_pp"] = round(hi[1]["ratio"] - lo[1]["ratio"], 1)
+        # 전세 중앙값과 매매 중앙값의 차이(만 원): '집값과 보증금 사이 여유'
+        if d.get("jeonse_median84") and d.get("sale_median84"):
+            d["gap84"] = d["sale_median84"] - d["jeonse_median84"]
         f.write_text(json.dumps(d, ensure_ascii=False, indent=1), "utf-8")
 
 

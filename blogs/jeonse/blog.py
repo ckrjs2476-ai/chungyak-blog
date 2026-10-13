@@ -62,7 +62,7 @@ def build_card(meta: dict) -> str:
     rows = [("84㎡ 전세 중앙값", _eok(r.get("jeonse_median84"))),
             ("84㎡ 매매 중앙값", _eok(r.get("sale_median84"))),
             ("전세가율", f"{r['ratio84']}%" if r.get("ratio84") else "-"),
-            ("전국 순위", f"{r['rank']}위 / {r['rank_of']}곳" if r.get("rank") else "-"),
+            ("전세가율 순위", f"계산한 {r['rank_of']}곳 중 {r['rank']}위" if r.get("rank") else "-"),
             ("최근 3개월 전세 변화", f"{r['jeonse_change_pct']:+}%" if r.get("jeonse_change_pct") is not None else "-")]
     trs = "".join(f'<tr><td style="{ROW_L}">{escape(k)}</td><td style="{ROW_R}">{escape(v)}</td></tr>' for k, v in rows)
     return (f'<div style="{BOX}"><p style="{TITLE}">{escape(r["name"])} 전세 온도</p>'
@@ -149,7 +149,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         errs.append(f"다른 글과 숫자만 다른 같은 문장이 {len(tmpl)}개입니다: " + " / ".join(t[:30] for t in tmpl[:3]))
     allowed = _allowed(meta)
     used = set()
-    for tok, unit in re.findall(r"(\d[\d,]*(?:\.\d+)?)\s*(억|만|천|%|%p|건|곳|위|개|㎡)?", plain):
+    for tok, unit in re.findall(r"(\d[\d,]*(?:\.\d+)?)\s*(억|만|천|%p|%|건|곳|위|개|㎡)?", plain):
         t = tok.replace(",", "")
         try:
             v = float(t)
@@ -159,7 +159,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         if not unit and (v <= 12 or 2020 <= v <= 2035):
             continue
         if forms & allowed:
-            if unit in ("%", "위", "곳") or v > 100:
+            if unit in ("%", "%p", "위", "곳") or v > 100:
                 used |= forms
         else:
             errs.append(f"데이터에 없는 숫자: {tok}{unit or ''}")
