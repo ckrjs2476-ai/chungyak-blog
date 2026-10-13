@@ -1,0 +1,31 @@
+# 공모주 뜯어보기 데이터: 한국 시간 매일 06:10, 17:10
+name: gongmoju-data
+on:
+  schedule:
+    - cron: "10 21 * * *"
+    - cron: "10 8 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python blogs/gongmoju/data.py
+        env:
+          OPENDART_KEY: ${{ secrets.OPENDART_KEY }}
+      - name: 저장
+        run: |
+          git config user.name "gongmoju-bot"
+          git config user.email "gongmoju-bot@users.noreply.github.com"
+          git add -A blogs/gongmoju/data
+          git diff --cached --quiet || git commit -m "gongmoju data $(date -u +%F)"
+          git pull --rebase && git push
