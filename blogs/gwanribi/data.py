@@ -192,13 +192,16 @@ def build_region(lawd: str, name: str, today: date) -> dict:
         hh, area = int(_num(b.get("kaptdaCnt")) or 0), _num(b.get("kaptMarea"))
         if hh >= MIN_HH and area:
             cands.append((it, b, hh, area))
+    print(f"::notice::{name}: 목록 {len(lst)}, 기본정보 {sum(1 for _, b in infos if b)}, {MIN_HH}세대 이상 {len(cands)}")
     cands.sort(key=lambda x: -x[2])
     cands = cands[:MAX_COMPLEX]
     if not cands:
         return {"lawd": lawd, "name": name, "empty": True, "updated": today.isoformat(), "n_list": len(lst)}
     ym = None
     for y in _ym_candidates(today):  # 큰 단지 3곳 중 하나라도 자료가 있는 가장 최근 달
-        if any(fees(c[0]["kaptCode"], y) for c in cands[:3]):
+        ok = [bool(fees(c[0]["kaptCode"], y)) for c in cands[:3]]
+        print(f"::notice::{y} 시험 {[c[1].get('kaptName') for c in cands[:3]]} → {ok}")
+        if any(ok):
             ym = y
             break
     if not ym:
