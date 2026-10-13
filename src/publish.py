@@ -214,6 +214,7 @@ def refresh_related(token: str, limit: int = 20) -> int:
 
 
 def record(meta: dict, body: str, post: dict, file_name: str = "") -> None:
+    PUBLISHED.parent.mkdir(parents=True, exist_ok=True)
     data = json.loads(PUBLISHED.read_text("utf-8")) if PUBLISHED.exists() else {"posts": []}
     heads = [l.strip("# ").strip() for l in body.splitlines() if l.startswith("## ")]
     data["posts"].append({
@@ -278,6 +279,8 @@ def publish_pages() -> int:
     blog = os.environ["BLOGGER_BLOG_ID"]
     h = {"Authorization": f"Bearer {token}"}
     known = json.loads(PAGES_JSON.read_text("utf-8")) if PAGES_JSON.exists() else {}
+    # 기록이 없어도 이미 있는 페이지(같은 영문 주소)는 새로 만들지 않고 이어 쓴다
+    live = _ok(requests.get(f"{API}/blogs/{blog}/pages", headers=h, timeout=60), "페이지 목록").json().get("items", [])
     for f in sorted(PAGES_DIR.glob("*.md")):
         text = f.read_text("utf-8")
         if not text.startswith("---"):
@@ -287,6 +290,10 @@ def publish_pages() -> int:
             continue
         payload = {"title": meta["title"], "content": to_html(body)}
         slug = meta.get("slug")
+        if f.name not in known and slug:
+            hit = next((pg for pg in live if str(pg.get("url", "")).endswith(f"/{slug}.html")), None)
+            if hit:
+                known[f.name] = {"id": hit["id"], "url": hit["url"], "title": meta["title"]}
         old = known.get(f.name, {})
         if slug and old.get("id") and not str(old.get("url", "")).endswith(f"/{slug}.html"):
             # 주소가 한글 제목으로 만들어진 경우: 지우고 영문 주소로 다시 만든다
@@ -305,6 +312,7 @@ def publish_pages() -> int:
         page = res.json()
         known[f.name] = {"id": page.get("id"), "url": page.get("url"), "title": meta["title"]}
         print(f"::notice::페이지: {meta['title']} → {page.get('url')}")
+    PAGES_JSON.parent.mkdir(parents=True, exist_ok=True)
     PAGES_JSON.write_text(json.dumps(known, ensure_ascii=False, indent=1), "utf-8")
     return 0
 

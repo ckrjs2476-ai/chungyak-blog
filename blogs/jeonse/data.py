@@ -221,4 +221,13 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except SystemExit:
+        raise
+    except Exception as e:  # noqa: BLE001
+        import traceback
+        tb = traceback.format_exc().splitlines()
+        print(f"::error::{type(e).__name__}: {str(e)[:300]} | {' / '.join(l.strip() for l in tb[-6:])[:600]}")
+        ranking() if REG.exists() else None
+        raise
