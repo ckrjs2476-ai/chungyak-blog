@@ -1,0 +1,314 @@
+{
+ "lawd": "41117",
+ "name": "경기도 수원시 영통구",
+ "updated": "2026-10-13",
+ "months": 12,
+ "jeonse_count": 5597,
+ "wolse_count": 3996,
+ "wolse_share_pct": 41.7,
+ "renew_share_pct": 43.8,
+ "jeonse_n84": 1490,
+ "jeonse_median84": 52000,
+ "sale_n84": 1696,
+ "sale_median84": 78000,
+ "ratio84": 66.7,
+ "jeonse_recent3_median84": 53262,
+ "jeonse_prev3_median84": 52500,
+ "jeonse_change_pct": 1.5,
+ "apts_with_both": 76,
+ "apts_ratio_80_plus": 3,
+ "apts_ratio_70_plus": 20,
+ "umd": {
+  "망포동": {
+   "jeonse_n": 278,
+   "jeonse_median84": 47175,
+   "sale_n": 490,
+   "sale_median84": 69350,
+   "ratio": 68.0
+  },
+  "매탄동": {
+   "jeonse_n": 292,
+   "jeonse_median84": 39900,
+   "sale_n": 307,
+   "sale_median84": 56000,
+   "ratio": 71.2
+  },
+  "신동": {
+   "jeonse_n": 35,
+   "jeonse_median84": 55000,
+   "sale_n": 61,
+   "sale_median84": 80500,
+   "ratio": 68.3
+  },
+  "영통동": {
+   "jeonse_n": 243,
+   "jeonse_median84": 44500,
+   "sale_n": 321,
+   "sale_median84": 65000,
+   "ratio": 68.5
+  },
+  "원천동": {
+   "jeonse_n": 199,
+   "jeonse_median84": 66500,
+   "sale_n": 136,
+   "sale_median84": 124500,
+   "ratio": 53.4
+  },
+  "이의동": {
+   "jeonse_n": 254,
+   "jeonse_median84": 74500,
+   "sale_n": 205,
+   "sale_median84": 120000,
+   "ratio": 62.1
+  },
+  "하동": {
+   "jeonse_n": 189,
+   "jeonse_median84": 51600,
+   "sale_n": 176,
+   "sale_median84": 102500,
+   "ratio": 50.3
+  }
+ },
+ "top_ratio_apts": [
+  {
+   "umd": "원천동",
+   "apt": "원천신미주",
+   "built": 1996,
+   "jeonse_n": 4,
+   "jeonse_median84": 29000,
+   "sale_n": 7,
+   "sale_median84": 32000,
+   "ratio": 90.6
+  },
+  {
+   "umd": "매탄동",
+   "apt": "주공그린빌2",
+   "built": 2002,
+   "jeonse_n": 19,
+   "jeonse_median84": 42000,
+   "sale_n": 24,
+   "sale_median84": 51500,
+   "ratio": 81.6
+  },
+  {
+   "umd": "망포동",
+   "apt": "삼정라츠",
+   "built": 2008,
+   "jeonse_n": 6,
+   "jeonse_median84": 35850,
+   "sale_n": 14,
+   "sale_median84": 44250,
+   "ratio": 81.0
+  },
+  {
+   "umd": "영통동",
+   "apt": "영통아이파크",
+   "built": 2006,
+   "jeonse_n": 4,
+   "jeonse_median84": 37000,
+   "sale_n": 10,
+   "sale_median84": 46600,
+   "ratio": 79.4
+  },
+  {
+   "umd": "영통동",
+   "apt": "영통e-편한세상",
+   "built": 2007,
+   "jeonse_n": 4,
+   "jeonse_median84": 43500,
+   "sale_n": 24,
+   "sale_median84": 55000,
+   "ratio": 79.1
+  },
+  {
+   "umd": "망포동",
+   "apt": "마젤란21",
+   "built": 2006,
+   "jeonse_n": 8,
+   "jeonse_median84": 35000,
+   "sale_n": 9,
+   "sale_median84": 44600,
+   "ratio": 78.5
+  },
+  {
+   "umd": "망포동",
+   "apt": "쌍용스윗닷홈2차",
+   "built": 2004,
+   "jeonse_n": 6,
+   "jeonse_median84": 32000,
+   "sale_n": 16,
+   "sale_median84": 41500,
+   "ratio": 77.1
+  },
+  {
+   "umd": "매탄동",
+   "apt": "주공그린빌3",
+   "built": 2002,
+   "jeonse_n": 15,
+   "jeonse_median84": 40000,
+   "sale_n": 40,
+   "sale_median84": 52500,
+   "ratio": 76.2
+  },
+  {
+   "umd": "망포동",
+   "apt": "일신건영휴먼빌",
+   "built": 2006,
+   "jeonse_n": 10,
+   "jeonse_median84": 31500,
+   "sale_n": 6,
+   "sale_median84": 41450,
+   "ratio": 76.0
+  },
+  {
+   "umd": "망포동",
+   "apt": "극동의푸른별",
+   "built": 2005,
+   "jeonse_n": 6,
+   "jeonse_median84": 35100,
+   "sale_n": 11,
+   "sale_median84": 46500,
+   "ratio": 75.5
+  }
+ ],
+ "low_ratio_apts": [
+  {
+   "umd": "이의동",
+   "apt": "광교센트럴뷰",
+   "built": 2013,
+   "jeonse_n": 27,
+   "jeonse_median84": 70000,
+   "sale_n": 34,
+   "sale_median84": 153350,
+   "ratio": 45.6
+  },
+  {
+   "umd": "망포동",
+   "apt": "동수원자이2차",
+   "built": 2002,
+   "jeonse_n": 3,
+   "jeonse_median84": 31500,
+   "sale_n": 15,
+   "sale_median84": 68300,
+   "ratio": 46.1
+  },
+  {
+   "umd": "이의동",
+   "apt": "자연앤힐스테이트",
+   "built": 2012,
+   "jeonse_n": 122,
+   "jeonse_median84": 88000,
+   "sale_n": 49,
+   "sale_median84": 185000,
+   "ratio": 47.6
+  },
+  {
+   "umd": "원천동",
+   "apt": "광교호반베르디움",
+   "built": 2014,
+   "jeonse_n": 17,
+   "jeonse_median84": 65000,
+   "sale_n": 13,
+   "sale_median84": 130000,
+   "ratio": 50.0
+  },
+  {
+   "umd": "하동",
+   "apt": "광교더리브",
+   "built": 2013,
+   "jeonse_n": 17,
+   "jeonse_median84": 70000,
+   "sale_n": 39,
+   "sale_median84": 139500,
+   "ratio": 50.2
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-11",
+   "jeonse_count": 713,
+   "n84": 216,
+   "jeonse_median84": 51000
+  },
+  {
+   "month": "2025-12",
+   "jeonse_count": 616,
+   "n84": 169,
+   "jeonse_median84": 50000
+  },
+  {
+   "month": "2026-01",
+   "jeonse_count": 608,
+   "n84": 167,
+   "jeonse_median84": 52000
+  },
+  {
+   "month": "2026-02",
+   "jeonse_count": 518,
+   "n84": 139,
+   "jeonse_median84": 50000
+  },
+  {
+   "month": "2026-03",
+   "jeonse_count": 542,
+   "n84": 129,
+   "jeonse_median84": 49000
+  },
+  {
+   "month": "2026-04",
+   "jeonse_count": 459,
+   "n84": 126,
+   "jeonse_median84": 51000
+  },
+  {
+   "month": "2026-05",
+   "jeonse_count": 441,
+   "n84": 120,
+   "jeonse_median84": 52000
+  },
+  {
+   "month": "2026-06",
+   "jeonse_count": 405,
+   "n84": 106,
+   "jeonse_median84": 55500
+  },
+  {
+   "month": "2026-07",
+   "jeonse_count": 483,
+   "n84": 132,
+   "jeonse_median84": 53287
+  },
+  {
+   "month": "2026-08",
+   "jeonse_count": 341,
+   "n84": 86,
+   "jeonse_median84": 55000
+  },
+  {
+   "month": "2026-09",
+   "jeonse_count": 341,
+   "n84": 72,
+   "jeonse_median84": 54800
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 130,
+   "n84": 28,
+   "jeonse_median84": 48000
+  }
+ ],
+ "rank": 6,
+ "rank_of": 36,
+ "avg_ratio84_all": 56.5,
+ "ratio_vs_avg_pp": 10.2,
+ "umd_ratio_high": {
+  "name": "매탄동",
+  "ratio": 71.2
+ },
+ "umd_ratio_low": {
+  "name": "하동",
+  "ratio": 50.3
+ },
+ "umd_spread_pp": 20.9,
+ "gap84": 26000
+}
