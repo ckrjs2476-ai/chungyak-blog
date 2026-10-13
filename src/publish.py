@@ -364,8 +364,22 @@ def main() -> int:
     return 1 if failed else 0
 
 
+def list_blogs() -> int:
+    """이 계정(토큰)으로 관리하는 블로그 목록과 ID를 출력하고 data/blogs.json에 저장한다."""
+    h = {"Authorization": f"Bearer {access_token()}"}
+    res = _ok(requests.get(f"{API}/users/self/blogs", headers=h, timeout=60), "블로그 목록")
+    items = [{"id": b["id"], "name": b.get("name", ""), "url": b.get("url", ""), "posts": b.get("posts", {}).get("totalItems", 0)}
+             for b in res.json().get("items", [])]
+    for b in items:
+        print(f"::notice::{b['name']} | {b['url']} | id={b['id']} | 글 {b['posts']}편")
+    (ROOT / "data" / "blogs.json").write_text(json.dumps(items, ensure_ascii=False, indent=1), "utf-8")
+    return 0
+
+
 if __name__ == "__main__":
     try:
+        if "--blogs" in sys.argv:
+            sys.exit(list_blogs())
         if "--rerender" in sys.argv:
             sys.exit(rerender())
         if "--publish-drafts" in sys.argv:
