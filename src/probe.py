@@ -19,7 +19,7 @@ def show(name, url, params):
 
 # 1) 단지 목록 (강남구 11680)
 kapt = None
-for svc, op in [("AptListService4", "getSigunguAptList4"), ("AptListService4", "getTotalAptList4")]:
+for svc, op in [("AptListService4", "getSigunguAptList4")]:
     t = show(f"단지목록 {svc}/{op}", B + f"{svc}/{op}", {"sigunguCode": "11680", "numOfRows": 3, "pageNo": 1, "_type": "json"})
     m = re.search(r'"kaptCode"\s*:\s*"([A-Z0-9]+)"|<kaptCode>([A-Z0-9]+)<', t, re.I)
     if m:
@@ -28,16 +28,16 @@ for svc, op in [("AptListService4", "getSigunguAptList4"), ("AptListService4", "
 OUT.append(f"찾은 단지코드: {kapt}")
 kc = kapt or "A13505003"
 # 2) 기본정보
-for svc, op in [("AptBasisInfoServiceV4", "getAphusBassInfoV4"), ("AptBasisInfoService4", "getAphusBassInfo4"), ("AptBasisInfoServiceV4", "getAphusDtlInfoV4"), ("AptBasisInfoService4", "getAphusDtlInfo4"), ("AptBasisInfoServiceV5", "getAphusBassInfoV5")]:
+for svc, op in [("AptBasisInfoServiceV5", "getAphusBassInfoV5")]:
     show(f"기본정보 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "_type": "json"})
 # 3) 공용관리비 (인건비 항목 예)
-for svc, op in [("AptCmnuseManageCostServiceV2", "getHsmpLaborCostInfoV2"), ("AptCmnuseManageCostService", "getHsmpLaborCostInfo")]:
+for svc, op in [("AptCmnuseManageCostServiceV3", "getHsmpLaborCostInfoV3"), ("AptCmnuseManageCostServiceV4", "getHsmpLaborCostInfoV4"), ("AptCmnuseManageCostService4", "getHsmpLaborCostInfo4")]:
     show(f"공용관리비 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "searchDate": "202608", "_type": "json"})
 # 4) 개별사용료 (전기료 예)
-for svc, op in [("AptIndvdlzManageCostServiceV2", "getHsmpElectricityCostInfoV2"), ("AptIndvdlzManageCostService", "getHsmpElectricityCostInfo")]:
+for svc, op in [("AptIndvdlzManageCostServiceV3", "getHsmpElectricityCostInfoV3"), ("AptIndvdlzManageCostServiceV4", "getHsmpElectricityCostInfoV4"), ("AptIndvdlzManageCostService4", "getHsmpElectricityCostInfo4")]:
     show(f"개별사용료 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "searchDate": "202608", "_type": "json"})
 # 5) 장기수선충당금
-for svc, op in [("AptLtsmRepairsServiceV2", "getHsmpLtsmRepairsInfoV2"), ("AptLtsmRepairsService4", "getHsmpLtsmRepairsInfo4"), ("AptLtsmRepairsServiceV4", "getHsmpLtsmRepairsInfoV4"), ("AptLtsmRepairsServiceV3", "getHsmpLtsmRepairsInfoV3"), ("AptLongTermRepairServiceV2", "getHsmpLongTermRepairInfoV2")]:
+for svc, op in [("AptLtsmRepairsServiceV5", "getHsmpLtsmRepairsInfoV5"), ("AptLongtermRepairsServiceV3", "getHsmpLongtermRepairsInfoV3"), ("AptCmnuseManageCostServiceV3", "getHsmpLtsmRepairsInfoV3")]:
     show(f"장기수선 {svc}/{op}", B + f"{svc}/{op}", {"kaptCode": kc, "searchDate": "202608", "_type": "json"})
 
 os.makedirs("data", exist_ok=True)
