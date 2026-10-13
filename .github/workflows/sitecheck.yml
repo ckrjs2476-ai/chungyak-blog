@@ -23,11 +23,13 @@ jobs:
         run: |
           python src/audit.py
           for k in jeonse gongmoju gwanribi; do BLOG_KEY=$k python src/audit.py; done
+      - name: 가치(거절 사유 1위) 분석
+        run: python src/value.py
       - name: 저장
         run: |
           git config user.name "sitecheck-bot"
           git config user.email "sitecheck-bot@users.noreply.github.com"
-          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md
+          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md data/value_report.md data/value_brief.md blogs/*/data/value_brief.md
           git diff --cached --quiet && exit 0
           git commit -m "sitecheck $(date -u +%F)"
           git pull --rebase && git push

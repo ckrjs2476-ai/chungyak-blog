@@ -8,6 +8,12 @@
 3. `blogs/jeonse/data/published.json`(쓴 글 기록), `blogs/jeonse/data/ranking.json`, `blogs/jeonse/data/regions/*.json`.
 
 ## 1. 글감 고르기 (먼저 해당하는 것 하나)
+
+> **가치 분석 먼저(매번 필수, 애드센스 거절 사유 1위 대비)**: 글감을 고르기 전에 `python src/value.py --blog jeonse --brief`를 실행하고 `blogs/jeonse/data/value_brief.md`를 읽는다.
+> - 글감은 그 파일 1번 표에서 '쓸 만함'(이 대상만의 두드러진 점 2개 이상)인 것 가운데 아래 규칙에 맞는 것으로 고른다. 아래 규칙이 고른 글감이 '쓰지 않음'이면 다음 후보로 넘어간다.
+> - 고른 글감의 '두드러진 점'을 글의 중심(angle)과 소제목으로 삼는다. 숫자 나열이 아니라 그 숫자가 무슨 뜻인지 해설한다.
+> - 2번 '오늘 피할 것'의 소제목·표현·시작 방식은 쓰지 않는다(검수가 여러 글에 반복된 표현을 막는다).
+
 1. 월요일이고 ranking.json에 순위 지역이 15곳 이상이면 → **전세가율 순위 글**(type: ranking). 직전 순위 글과 다른 중심(상위, 변화, 수도권, 지방)으로.
 2. 그 외 → **지역 전세가율 글**(type: region). regions/에서 아래 조건을 모두 만족하는 지역 중 jeonse_n84가 가장 많은 곳:
    - empty가 아니고 ratio84가 있으며 jeonse_n84 ≥ 20, sale_n84 ≥ 20

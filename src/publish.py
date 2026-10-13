@@ -369,6 +369,13 @@ def main() -> int:
         html = build_card(meta) + to_html(body) + method_link() + related_block(no, labels=meta.get("labels"))
         post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post, f.name)
+        try:  # 발행 시점 숫자 근거를 얼려 둔다(이후 데이터가 다시 계산돼도 이 글은 발행일 기준으로 검사)
+            from check import save_snapshot, used_valid_numbers
+            mod = _blog if _blog is not None else __import__("check")
+            nums = used_valid_numbers(body, mod.allowed_set(dict(meta, _file=f.name), body))
+            save_snapshot(BLOG, f.name, nums, datetime.now(KST).date().isoformat())
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::스냅샷 저장 실패: {type(e).__name__}: {e}")
         if not draft:
             refreshed = refresh_related(token)
             if refreshed:

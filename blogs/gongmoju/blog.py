@@ -160,10 +160,12 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
         if b in body:
             errs.append(f"금지 표현: '{b}'")
     errs += core.style_errors(body, min_tables=2)
+    errs += core.phrase_errors(body, DONE, meta.get("_file", ""))
     tmpl = template_sentences(body, meta.get("_file", ""))
     if len(tmpl) > 1:
         errs.append(f"다른 글과 숫자만 다른 같은 문장이 {len(tmpl)}개입니다: " + " / ".join(t[:30] for t in tmpl[:3]))
     allowed = _allowed(meta)
+    allowed |= core.snapshot_numbers("gongmoju", meta.get("_file", ""))
     used = set()
     for tok, unit in re.findall(r"(\d[\d,]*(?:\.\d+)?)\s*(억|만|천|%p|%|주|원|곳|위|개|년|배)?", plain):
         t = tok.replace(",", "")
@@ -184,3 +186,9 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     if len(used) < MIN_ANALYSIS:
         errs.append(f"계산 숫자(순위·비중·수수료율 등)가 {len(used)}개입니다 ({MIN_ANALYSIS}개 이상).")
     return list(dict.fromkeys(errs))
+
+
+def allowed_set(meta: dict, body: str = "") -> set[str]:
+    """이 글이 쓸 수 있는 숫자 전체(발행할 때 스냅샷으로 저장)."""
+    plain = core.strip_md(body)
+    return _allowed(meta)

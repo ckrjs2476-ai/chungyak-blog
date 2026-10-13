@@ -90,6 +90,38 @@ def template_sentences(body: str, exclude_file: str = "", limit: int = 40) -> li
     return list(dict.fromkeys(out))
 
 
+PHRASE_FIXED = re.compile(r"(바탕으로 정리했|입주자모집공고 원문|계산했습니다|나눠 계산했어요|투자 판단|dart\.fss|k-apt|rt\.molit|applyhome)", re.I)
+MAX_SHARED_PHRASES = 5  # 공개 글 3편 이상에 이미 나온 5어절 표현을 새 글이 이만큼 넘게 쓰면 '틀 반복'
+
+
+def _phrases(text: str, n: int = 5) -> set[str]:
+    keep = [l for l in text.splitlines() if not l.lstrip().startswith(("|", "#", ">")) and not PHRASE_FIXED.search(l)]
+    w = re.sub(r"[\d,.%]+", "N", strip_md("\n".join(keep))).split()
+    return {" ".join(w[i:i + n]) for i in range(len(w) - n + 1)}
+
+
+def phrase_errors(body: str, done_dir: Path, exclude_file: str = "") -> list[str]:
+    """문장 전체는 달라도 같은 어절 묶음(5어절)을 여러 글에 되풀이하면 같은 틀로 찍어 낸 글처럼 읽힌다.
+    공개 글 3편 이상에 나온 표현을 새 글이 MAX_SHARED_PHRASES개 넘게 쓰면 막는다."""
+    if not done_dir.exists():
+        return []
+    count: dict[str, int] = {}
+    for f in sorted(done_dir.glob("*.md"))[-60:]:
+        if f.name == exclude_file:
+            continue
+        try:
+            _, b = split_post(f.read_text("utf-8"))
+        except Exception:  # noqa: BLE001
+            continue
+        for g in _phrases(b):
+            count[g] = count.get(g, 0) + 1
+    shared = [g for g in _phrases(body) if count.get(g, 0) >= 3]
+    if len(shared) > MAX_SHARED_PHRASES:
+        return [f"다른 글 3편 이상에 이미 나온 표현을 {len(shared)}개 썼습니다({MAX_SHARED_PHRASES}개까지). "
+                f"이 대상만의 말로 바꿔 주세요: " + " / ".join(shared[:4])]
+    return []
+
+
 def split_post(text: str) -> tuple[dict, str]:
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
     if not m:
@@ -160,6 +192,51 @@ def analysis_numbers(unit_nos: list[str], with_stats: bool, lawd_cds: list[str] 
         if p.exists():
             _walk_nums(json.loads(p.read_text("utf-8")), out)
     return out
+
+
+SNAPSHOTS = ROOT / "data" / "snapshots"
+
+
+def snapshot_path(blog: str, file_name: str) -> Path:
+    """발행할 때 그 글의 숫자 근거를 얼려 둔 파일. 실거래가처럼 매일 다시 계산되는 데이터 때문에
+    올린 뒤 숫자가 '데이터에 없음'으로 바뀌는 것을 막는다(글은 발행일 기준으로 맞았던 것)."""
+    base = SNAPSHOTS if blog == "cheongyak" else ROOT / "blogs" / blog / "data" / "snapshots"
+    return base / (Path(file_name).stem + ".json")
+
+
+def snapshot_numbers(blog: str, file_name: str) -> set[str]:
+    p = snapshot_path(blog, file_name) if file_name else None
+    return set(json.loads(p.read_text("utf-8"))["numbers"]) if p and p.exists() else set()
+
+
+def save_snapshot(blog: str, file_name: str, numbers: set[str], when: str) -> None:
+    p = snapshot_path(blog, file_name)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps({"date": when, "numbers": sorted(numbers)}, ensure_ascii=False), "utf-8")
+
+
+def used_valid_numbers(body: str, allowed: set[str]) -> set[str]:
+    """본문에 쓰인 숫자 중 지금 데이터로 확인되는 것만(스냅샷에 저장할 것)."""
+    out = set()
+    for tok in re.findall(r"\d[\d,]*(?:\.\d+)?", strip_md(body)):
+        t = tok.replace(",", "")
+        forms = {t}
+        try:
+            forms.add(str(int(float(t))))
+        except ValueError:
+            pass
+        if forms & allowed:
+            out |= forms
+    return out
+
+
+def allowed_set(meta: dict, body: str = "") -> set[str]:
+    """청약노트 글 하나가 쓸 수 있는 숫자 전체(원본 + 분석)."""
+    typ = meta.get("type")
+    unit_nos = [str(x) for x in (meta.get("house_manage_nos") or
+                                 ([meta["house_manage_no"]] if meta.get("house_manage_no") else []))]
+    lawds = [str(x) for x in (meta.get("lawd_cds") or ([meta["lawd_cd"]] if meta.get("lawd_cd") else []))]
+    return allowed_numbers(unit_nos) | analysis_numbers(unit_nos, typ in MULTI_TYPES, lawds)
 
 
 def allowed_numbers(unit_nos: list[str]) -> set[str]:
@@ -335,8 +412,8 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     raw = allowed_numbers(unit_nos)
     lawds = [str(x) for x in (meta.get("lawd_cds") or ([meta["lawd_cd"]] if meta.get("lawd_cd") else []))]
     extra = analysis_numbers(unit_nos, with_stats, lawds)
-    allowed = raw | extra
-    analysis_only = extra - raw
+    allowed = raw | extra | snapshot_numbers("cheongyak", meta.get("_file", ""))
+    analysis_only = (extra | snapshot_numbers("cheongyak", meta.get("_file", ""))) - raw
     used_analysis: set[str] = set()
     for tok, unit in re.findall(r"(\d[\d,]*(?:\.\d+)?)\s*(억|만|천|세대|㎡|%|대\s*1|점|건|곳|개)?", plain):
         t = tok.replace(",", "")
@@ -368,6 +445,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
             if prev and cur and len(prev & cur) / len(prev | cur) > 0.6:
                 errs.append(f"최근 글 '{r.get('title', '')[:15]}…'과 소제목 구성이 비슷합니다.")
                 break
+    errs += phrase_errors(body, DONE, meta.get("_file", ""))
     tmpl = template_sentences(body, exclude_file=meta.get("_file", ""))
     if len(tmpl) > MAX_TEMPLATE_SENTENCES:
         errs.append(f"다른 글과 숫자만 다른 똑같은 문장이 {len(tmpl)}개입니다 ({MAX_TEMPLATE_SENTENCES}개까지). "
@@ -386,7 +464,12 @@ def check_file(path: Path) -> list[str]:
         meta, body = split_post(path.read_text("utf-8"))
     except Exception as e:  # noqa: BLE001
         return [str(e)]
-    return check_text(meta, body, recent_posts())
+    meta["_file"] = path.name
+    # 이미 올린 글을 다시 검사할 때는 자기 자신과 비교하지 않는다
+    recent = [r for r in recent_posts() if r.get("file") != path.name]
+    if path.parent.name == "published":
+        recent = []  # 발행 순서 규칙(직전 글과 같은 시작·소제목)은 새 글에만 의미가 있다
+    return check_text(meta, body, recent)
 
 
 if __name__ == "__main__":
