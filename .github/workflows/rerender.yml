@@ -1,0 +1,75 @@
+# 이미 올린 글의 원고(posts/published/)를 고치면 해당 블로그의 공개 글을 다시 만든다 (3일 점검의 보강 반영용)
+name: rerender-on-edit
+on:
+  push:
+    paths:
+      - "posts/published/**"
+      - "blogs/*/posts/published/**"
+permissions:
+  contents: write
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+jobs:
+  rerender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests markdown pyyaml
+      - name: 바뀐 블로그 찾기
+        id: which
+        run: |
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true)
+          echo "$files"
+          for k in cheongyak jeonse gongmoju gwanribi; do
+            if [ $k = cheongyak ]; then p="^posts/published/"; else p="^blogs/$k/posts/published/"; fi
+            if echo "$files" | grep -q "$p"; then echo "$k=1" >> $GITHUB_OUTPUT; fi
+          done
+      - name: 청약노트
+        if: steps.which.outputs.cheongyak == '1'
+        run: python src/publish.py --rerender
+        env:
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 전세 온도계
+        if: steps.which.outputs.jeonse == '1'
+        run: python src/publish.py --rerender
+        env:
+          BLOG_KEY: jeonse
+          BLOGGER_BLOG_ID: "5197834942352686134"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 공모주 뜯어보기
+        if: steps.which.outputs.gongmoju == '1'
+        run: python src/publish.py --rerender
+        env:
+          BLOG_KEY: gongmoju
+          BLOGGER_BLOG_ID: "899799118910718337"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 관리비 돋보기
+        if: steps.which.outputs.gwanribi == '1'
+        run: python src/publish.py --rerender
+        env:
+          BLOG_KEY: gwanribi
+          BLOGGER_BLOG_ID: "1893946611364166783"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "publish-bot"
+          git config user.email "publish-bot@users.noreply.github.com"
+          git add -A data blogs
+          git diff --cached --quiet || git commit -m "rerender $(date -u +%F)"
+          git pull --rebase && git push
