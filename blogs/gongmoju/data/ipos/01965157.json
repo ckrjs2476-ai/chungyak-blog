@@ -52,6 +52,13 @@
   "매출인에관한사항",
   "일반청약자환매청구권"
  ],
+ "is_spac": true,
+ "price_confirmed": false,
+ "lead_underwriter": "한화투자증권",
+ "underwriting_fee_pct": 3.5,
+ "total_eok": 120.0,
+ "fund_matches_total": true,
+ "company_age_years": 1,
  "top_fund_use": {
   "use": "공모신탁자금(100%)",
   "amount": 12000000000,
@@ -60,13 +67,6 @@
  },
  "compare_median_total": 26975000000,
  "compare_count": 26,
- "is_spac": true,
- "price_confirmed": false,
- "lead_underwriter": "한화투자증권",
- "underwriting_fee_pct": 3.5,
- "total_eok": 120.0,
- "company_age_years": 1,
  "median_fee_pct": 4.12,
- "compare_median_total_eok": 269.8,
- "fund_matches_total": true
+ "compare_median_total_eok": 269.8
 }
