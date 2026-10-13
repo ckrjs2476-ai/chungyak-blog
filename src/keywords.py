@@ -43,9 +43,25 @@ FAILS = [0]
 COMP = {"낮음": 1.0, "중간": 0.6, "높음": 0.3}
 
 
+PROMOTE = {2: (30, 42), 3: (80, 90)}  # 단계: (공개 글 수, 첫 글 뒤 지난 날) 둘 다 넘으면 올린다 [가정]
+
+
 def stage_of(blog: str) -> int:
+    """설정 파일의 단계와, 공개 글 수·운영 기간으로 계산한 단계 중 큰 쪽. 올라가면 설정 파일에 기록한다."""
     cfg = json.loads(CONFIG.read_text("utf-8")) if CONFIG.exists() else {}
-    return int((cfg.get(blog) or {}).get("stage", 1))
+    cur = int((cfg.get(blog) or {}).get("stage", 1))
+    base = ROOT if blog == "cheongyak" else ROOT / "blogs" / blog
+    files = sorted((base / "posts" / "published").glob("*.md")) if (base / "posts" / "published").exists() else []
+    if files:
+        first = date.fromisoformat(files[0].name[:10])
+        days = (date.today() - first).days
+        for st, (n, d) in sorted(PROMOTE.items()):
+            if len(files) >= n and days >= d and st > cur:
+                cur = st
+                cfg[blog] = {"stage": st, "since": date.today().isoformat()}
+                CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=1), "utf-8")
+                print(f"::notice::{NAMES[blog]} 키워드 {st}단계로 올림 (공개 글 {len(files)}편, {days}일)")
+    return cur
 
 
 def call(hints: list[str]) -> list[dict]:

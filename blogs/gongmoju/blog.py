@@ -161,6 +161,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
             errs.append(f"금지 표현: '{b}'")
     errs += core.style_errors(body, min_tables=2)
     errs += core.phrase_errors(body, DONE, meta.get("_file", ""))
+    errs += core.keyword_errors("gongmoju", meta)
     tmpl = template_sentences(body, meta.get("_file", ""))
     if len(tmpl) > 1:
         errs.append(f"다른 글과 숫자만 다른 같은 문장이 {len(tmpl)}개입니다: " + " / ".join(t[:30] for t in tmpl[:3]))

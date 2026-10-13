@@ -41,6 +41,9 @@
 > **애드센스 점검(매번 필수)**: 글감을 고른 직후 `rules/precheck.md`의 A(1~5)를 하나씩 확인한다. 하나라도 걸리면 다른 글감으로 바꾸거나 쓰지 않고 이유만 남긴다. 통과하면 이 글이 더하는 가치를 한 문장으로 머리말 `value:`에 적는다.
 
 ## 3. 글 쓰기
+
+> **키워드 사다리(매번 필수)**: 머리말 keyword는 `rules/keyword_ladder.md`를 따른다. `data/keywords/cheongyak.json`에 오늘 대상과 맞는 키워드(score 60 이상, used false)가 있으면 그것을, 없으면 '대상 이름 + 주제어'로 정한다. 머리 키워드(예: '청약 일정', '분양가')는 쓰지 않는다(검수가 막음).
+
 ### 3-1. 숫자의 근거 (이 두 곳 말고는 숫자를 쓰지 않는다)
 - 원본: data/units/<HOUSE_MANAGE_NO>.json
 - 분석: data/analysis/<HOUSE_MANAGE_NO>.json, data/stats/latest.json (코드가 원본으로 계산한 값)

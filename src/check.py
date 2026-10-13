@@ -122,6 +122,36 @@ def phrase_errors(body: str, done_dir: Path, exclude_file: str = "") -> list[str
     return []
 
 
+HEAD_KEYWORDS = {  # 새 블로그가 제목 키워드로 노리면 안 되는 머리 키워드(검색량 크고 대형 사이트 차지)
+    "cheongyak": ["청약", "청약일정", "아파트청약", "분양일정", "아파트분양", "무순위청약", "줍줍", "청약가점", "청약경쟁률", "분양가"],
+    "jeonse": ["전세", "전세가율", "전세시세", "깡통전세", "아파트전세", "전세사기", "전세보증보험", "아파트전세가율"],
+    "gongmoju": ["공모주", "공모주일정", "공모주청약", "이번주공모주", "공모주수요예측", "공모주상장일정", "IPO"],
+    "gwanribi": ["관리비", "아파트관리비", "관리비비교", "장기수선충당금", "관리비평균", "공용관리비", "아파트관리비평균"],
+}
+KEYWORD_STAGES = {1: (30, 1500), 2: (300, 5000), 3: (1000, 30000)}
+
+
+def keyword_errors(blog: str, meta: dict) -> list[str]:
+    """키워드 사다리(rules/keyword_ladder.md): 새 블로그는 대상(단지·지역·회사)이 들어간 구체 키워드로 시작한다."""
+    kw = str(meta.get("keyword") or "")
+    nk = re.sub(r"\s", "", kw).upper()
+    if not kw:
+        return []
+    errs = []
+    if nk in {h.upper() for h in HEAD_KEYWORDS.get(blog, [])}:
+        errs.append(f"키워드 '{kw}'는 머리 키워드라 새 블로그가 노리기 어렵습니다. 대상 이름을 붙인 구체 키워드로 바꿔 주세요(예: '송파구 전세가율').")
+    elif len(kw.split()) < 2:
+        errs.append(f"키워드 '{kw}'가 한 단어입니다. 대상 + 주제어 두 단어 이상으로 써 주세요.")
+    kf = ROOT / "data" / "keywords" / f"{blog}.json"
+    if kf.exists():
+        d = json.loads(kf.read_text("utf-8"))
+        hi = (d.get("band") or [0, 1500])[1]
+        hit = next((r for r in d.get("keywords", []) if re.sub(r"\s", "", r["keyword"]).upper() == nk), None)
+        if hit and hit["volume"] > hi * 3:
+            errs.append(f"키워드 '{kw}'는 월 {hit['volume']:,}회로 지금 단계 구간(~{hi:,})보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요.")
+    return errs
+
+
 def split_post(text: str) -> tuple[dict, str]:
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
     if not m:
@@ -446,6 +476,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
                 errs.append(f"최근 글 '{r.get('title', '')[:15]}…'과 소제목 구성이 비슷합니다.")
                 break
     errs += phrase_errors(body, DONE, meta.get("_file", ""))
+    errs += keyword_errors("cheongyak", meta)
     tmpl = template_sentences(body, exclude_file=meta.get("_file", ""))
     if len(tmpl) > MAX_TEMPLATE_SENTENCES:
         errs.append(f"다른 글과 숫자만 다른 똑같은 문장이 {len(tmpl)}개입니다 ({MAX_TEMPLATE_SENTENCES}개까지). "
