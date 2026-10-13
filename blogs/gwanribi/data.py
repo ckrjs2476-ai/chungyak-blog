@@ -215,10 +215,6 @@ def build_region(lawd: str, name: str, today: date) -> dict:
         return {"lawd": lawd, "name": name, "empty": True, "updated": today.isoformat(), "n_list": len(lst)}
     ym = None
     for y in _ym_candidates(today):  # 큰 단지 3곳 중 하나라도 자료가 있는 가장 최근 달
-        if y == _ym_candidates(today)[0]:
-            c0 = cands[0][0]["kaptCode"]
-            raw = requests.get(API + C + "getHsmpLaborCostInfoV3", params={"serviceKey": KEY, "_type": "json", "kaptCode": c0, "searchDate": y}, timeout=40)
-            print(f"::notice::원문 {c0} {y}: {raw.status_code} {' '.join(raw.text[:400].split())}")
         ok = [bool(fees(c[0]["kaptCode"], y)) for c in cands[:3]]
         print(f"::notice::{y} 시험 {[c[1].get('kaptName') for c in cands[:3]]} → {ok}")
         if any(ok):
@@ -244,7 +240,7 @@ def build_region(lawd: str, name: str, today: date) -> dict:
             "code": it["kaptCode"], "name": str(b.get("kaptName") or it.get("kaptName") or "").strip(),
             "umd": it.get("as3") or "", "households": hh, "fee_area_m2": round(area),
             "dong_count": int(_num(b.get("kaptDongCnt")) or 0),
-            "heat": b.get("codeHeatNm") or "", "manage": b.get("codeMgrNm") or "", "sale": b.get("codeSaleNm") or "",
+            "heat": b.get("codeHeatNm") or "", "apt_type": b.get("codeAptNm") or "", "manage": b.get("codeMgrNm") or "", "sale": b.get("codeSaleNm") or "",
             "built_year": int(use_date[:4]) if use_date[:4].isdigit() else None,
             "size_group": size_group(hh),
             "common_won": ct, "indiv_won": idt, "ltsm_levy_won": int(lv) if lv is not None else None,
@@ -288,6 +284,8 @@ def build_region(lawd: str, name: str, today: date) -> dict:
             r[f"rank_{k}_of"] = len(ordered)
             r[f"{k}_vs_median_pct"] = _pct(r[k], med[k])
     for r in rows:
+        # 개별사용료가 중앙값의 30%도 안 되면 일부 사용료를 따로 걷는 단지일 수 있다(임대 단지 등) → 총액 비교에 주의
+        r["indiv_incomplete"] = bool(med["indiv_m2"] and r["indiv_m2"] < med["indiv_m2"] * 0.3)
         r["items_vs_median_pct"] = {}
         for nme, v in {**r["common_items_m2"], **r["indiv_items_m2"]}.items():
             if nme in item_med and item_med[nme]:
@@ -308,6 +306,9 @@ def build_region(lawd: str, name: str, today: date) -> dict:
         "total_m2_low": {"name": lo["name"], "total_m2": lo["total_m2"]},
         "total_m2_spread": hi["total_m2"] - lo["total_m2"],
         "total_m2_ratio_high_low": round(hi["total_m2"] / lo["total_m2"], 2) if lo["total_m2"] else None,
+        "n_indiv_incomplete": sum(r["indiv_incomplete"] for r in rows),
+        "rank_common_low5": [{"name": r["name"], "common_m2": r["common_m2"]} for r in sorted(rows, key=lambda r: r["common_m2"])[:5]],
+        "rank_common_high5": [{"name": r["name"], "common_m2": r["common_m2"]} for r in sorted(rows, key=lambda r: -r["common_m2"])[:5]],
         "complexes": rows,
     }
 

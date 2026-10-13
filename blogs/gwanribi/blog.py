@@ -74,16 +74,17 @@ def build_card(meta: dict) -> str:
                 ("세대 평균", _won(c["total_hh"])),
                 (f"{d['name']} 안 순위", f"{c['rank_total_m2_of']}곳 중 {c['rank_total_m2']}위 (높은 순)"),
                 ("지역 중앙값과 차이", f"{c['total_m2_vs_median_pct']:+}%" if c.get("total_m2_vs_median_pct") is not None else "-"),
-                ("장기수선 적립요율", f"{c['ltsm_rate_pct']}%" if c.get("ltsm_rate_pct") is not None else "-")]
+                ("공용관리비 ㎡당", f"{c['common_m2']:,}원")]
     elif meta.get("type") == "region":
         d = region(str(meta.get("lawd") or ""))
         if not d or d.get("empty"):
             return ""
         head = f"{d['name']} 아파트 관리비"
         sub = f"{d['ym_label']} 부과분 · {d['min_households']}세대 이상 {d['n_complex']}개 단지"
-        rows = [("㎡당 관리비 중앙값", f"{d['median']['total_m2']:,}원"),
-                ("가장 높은 단지", f"{d['total_m2_high']['total_m2']:,}원/㎡"),
-                ("가장 낮은 단지", f"{d['total_m2_low']['total_m2']:,}원/㎡"),
+        rows = [("㎡당 관리비 중앙값(장기수선 포함)", f"{d['median']['total_m2']:,}원"),
+                ("공용관리비 ㎡당 중앙값", f"{d['median']['common_m2']:,}원"),
+                ("공용관리비 가장 높은 단지", f"{d['rank_common_high5'][0]['common_m2']:,}원/㎡"),
+                ("공용관리비 가장 낮은 단지", f"{d['rank_common_low5'][0]['common_m2']:,}원/㎡"),
                 ("세대 평균 중앙값", _won(d["median"]["total_hh"]))]
     else:
         return ""
@@ -124,16 +125,24 @@ def _walk(x, out: set[str]) -> None:
             out.add(str(round(abs(f))))
 
 
-def _allowed(meta: dict) -> set[str]:
+def _region_part(d: dict, body: str, keep: str = "") -> dict:
+    """시군구 요약 숫자 + 글에 이름이 나온 단지(그리고 글의 대상 단지)만. 다른 단지 숫자까지 허용하면 틀린 숫자가 우연히 통과한다."""
+    out = {k: v for k, v in d.items() if k != "complexes"}
+    out["complexes"] = [c for c in d.get("complexes") or [] if c["code"] == keep or (c["name"] and c["name"] in body)]
+    return out
+
+
+def _allowed(meta: dict, body: str = "") -> set[str]:
     out: set[str] = {"84", "300", "500", "999", "1000", "1,000"}
+    kapt = str(meta.get("kapt") or "")
     if meta.get("type") == "complex":
-        d, _ = find_complex(str(meta.get("kapt") or ""))
+        d, _ = find_complex(kapt)
         if d:
-            _walk(d, out)
+            _walk(_region_part(d, body, kapt), out)
     for l in [str(meta.get("lawd") or "")] + [str(x) for x in meta.get("lawds") or []]:
         d = region(l)
         if d:
-            _walk(d, out)
+            _walk(_region_part(d, body, kapt), out)
     s = DATA / "summary.json"
     if s.exists():
         _walk(json.loads(s.read_text("utf-8")), out)
@@ -205,7 +214,7 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     tmpl = template_sentences(body, meta.get("_file", ""))
     if len(tmpl) > 1:
         errs.append(f"다른 글과 숫자만 다른 같은 문장이 {len(tmpl)}개입니다: " + " / ".join(t[:30] for t in tmpl[:3]))
-    allowed = _allowed(meta)
+    allowed = _allowed(meta, plain)
     used = set()
     for tok, unit in re.findall(r"(\d[\d,]*(?:\.\d+)?)\s*(억|만|천|원|%p|%|곳|위|개|세대|㎡|배|년)?", plain):
         t = tok.replace(",", "")
