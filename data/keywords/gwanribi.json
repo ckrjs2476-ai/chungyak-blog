@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 08:31",
+ "updated": "2026-10-14 08:34",
  "stage": 1,
  "band": [
   30,
@@ -723,24 +723,6 @@
    "comp": "낮음",
    "entity": "세곡리엔파크4단지",
    "entity_id": "A13519004",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "LH수서2단지관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "LH 수서2단지",
-   "entity_id": "A10022652",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "SH공사대치1단지관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "SH공사대치1단지",
-   "entity_id": "A13593908",
    "score": 20.0,
    "used": false
   },
@@ -1528,15 +1510,6 @@
    "used": false
   },
   {
-   "keyword": "오피스텔관리비조회",
-   "volume": 580,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
    "keyword": "아파트장기수선충당금",
    "volume": 1030,
    "comp": "중간",
@@ -1600,24 +1573,6 @@
    "used": false
   },
   {
-   "keyword": "아파트관리비납부조회",
-   "volume": 20,
-   "comp": "낮음",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비조회납부",
-   "volume": 90,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
    "keyword": "아파트관리비카드자동이체",
    "volume": 60,
    "comp": "중간",
@@ -1656,15 +1611,6 @@
   {
    "keyword": "장기수선계획수시조정",
    "volume": 170,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "주거용오피스텔관리비",
-   "volume": 30,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -1762,15 +1708,6 @@
    "used": false
   },
   {
-   "keyword": "오피스텔관리비",
-   "volume": 1260,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
    "keyword": "관리비확인",
    "volume": 70,
    "comp": "높음",
@@ -1782,15 +1719,6 @@
   {
    "keyword": "아파트관리비카드납부",
    "volume": 1080,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비조회",
-   "volume": 250,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1924,26 +1852,8 @@
    "used": false
   },
   {
-   "keyword": "아파트관리비앱",
-   "volume": 70,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
    "keyword": "관리비카드",
    "volume": 620,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "빌라관리비",
-   "volume": 380,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2007,15 +1917,6 @@
   {
    "keyword": "관리비부과대행",
    "volume": 40,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "오피스텔관리비자동이체",
-   "volume": 110,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2151,24 +2052,6 @@
   {
    "keyword": "관리비카드할인",
    "volume": 25,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.5,
-   "used": false
-  },
-  {
-   "keyword": "난방비조회",
-   "volume": 25,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.5,
-   "used": false
-  },
-  {
-   "keyword": "오피스텔관리비내역",
-   "volume": 15,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2398,15 +2281,6 @@
    "entity": "",
    "entity_id": "",
    "score": 1.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비조회",
-   "volume": 6610,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 0.8,
    "used": false
   },
   {
