@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 08:34",
+ "updated": "2026-10-14 08:36",
  "stage": 1,
  "band": [
   30,
@@ -12,7 +12,7 @@
    "comp": "중간",
    "entity": "잠실르엘",
    "entity_id": "A10020230",
-   "score": 60.0,
+   "score": 85.0,
    "used": false
   },
   {
@@ -22,6 +22,24 @@
    "entity": "헬리오시티",
    "entity_id": "A10025850",
    "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "개포자이프레지던스관리비",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "개포자이프레지던스",
+   "entity_id": "A10023348",
+   "score": 42.0,
+   "used": false
+  },
+  {
+   "keyword": "갤러리아팰리스관리비",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "갤러리아팰리스",
+   "entity_id": "A13822301",
+   "score": 42.0,
    "used": false
   },
   {
@@ -40,6 +58,123 @@
    "entity": "",
    "entity_id": "",
    "score": 25.0,
+   "used": false
+  },
+  {
+   "keyword": "공용관리비",
+   "volume": 80,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트장기수선충당금",
+   "volume": 1030,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비고지서",
+   "volume": 240,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비확인",
+   "volume": 60,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비할인",
+   "volume": 460,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비자동이체신청",
+   "volume": 1130,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비전자납부번호",
+   "volume": 130,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금인상",
+   "volume": 50,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비카드자동이체",
+   "volume": 60,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비혜택",
+   "volume": 35,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트아이관리비납부",
+   "volume": 540,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "아파트장기수선계획",
+   "volume": 40,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "장기수선계획수시조정",
+   "volume": 170,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 21.2,
    "used": false
   },
   {
@@ -1474,30 +1609,309 @@
    "used": false
   },
   {
-   "keyword": "개포자이프레지던스관리비",
-   "volume": 15,
+   "keyword": "관리비비교",
+   "volume": 40,
    "comp": "높음",
-   "entity": "개포자이프레지던스",
-   "entity_id": "A10023348",
-   "score": 18.0,
-   "used": false
-  },
-  {
-   "keyword": "갤러리아팰리스관리비",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "갤러리아팰리스",
-   "entity_id": "A13822301",
-   "score": 18.0,
-   "used": false
-  },
-  {
-   "keyword": "공용관리비",
-   "volume": 80,
-   "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 15.0,
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비납부",
+   "volume": 230,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선계획",
+   "volume": 270,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선계획서",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비확인",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비카드납부",
+   "volume": 1080,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금사용계획서",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비",
+   "volume": 1410,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비프로그램",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비납부",
+   "volume": 890,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선계획수립",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비고지서",
+   "volume": 670,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선계획조정",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비자동이체",
+   "volume": 1270,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비고지서재발급",
+   "volume": 80,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비내역",
+   "volume": 50,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비신용카드납부",
+   "volume": 180,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리사무소",
+   "volume": 1120,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비할인",
+   "volume": 220,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비카드",
+   "volume": 620,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비부과",
+   "volume": 30,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "상가관리비카드결제",
+   "volume": 30,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "상가관리비",
+   "volume": 220,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "건물관리비",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비신용카드",
+   "volume": 360,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비결제",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비부과대행",
+   "volume": 40,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "아카데미스위트관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "아카데미스위트",
+   "entity_id": "A13527011",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "타워팰리스2차관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "타워팰리스2차",
+   "entity_id": "A13585402",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "청담자이관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "청담자이",
+   "entity_id": "A13510007",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "삼성롯데캐슬프레미어관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "삼성롯데캐슬프레미어",
+   "entity_id": "A13509010",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "푸른마을관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "푸른마을",
+   "entity_id": "A13594203",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "개포주공6단지관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "개포주공6단지",
+   "entity_id": "A13599303",
+   "score": 17.0,
    "used": false
   },
   {
@@ -1510,435 +1924,12 @@
    "used": false
   },
   {
-   "keyword": "아파트장기수선충당금",
-   "volume": 1030,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비고지서",
-   "volume": 240,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비확인",
-   "volume": 60,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비할인",
-   "volume": 460,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비자동이체신청",
-   "volume": 1130,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비전자납부번호",
-   "volume": 130,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선충당금인상",
-   "volume": 50,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비카드자동이체",
-   "volume": 60,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비혜택",
-   "volume": 35,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트아이관리비납부",
-   "volume": 540,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트장기수선계획",
-   "volume": 40,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획수시조정",
-   "volume": 170,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "아카데미스위트관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "아카데미스위트",
-   "entity_id": "A13527011",
-   "score": 12.0,
-   "used": false
-  },
-  {
-   "keyword": "타워팰리스2차관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "타워팰리스2차",
-   "entity_id": "A13585402",
-   "score": 12.0,
-   "used": false
-  },
-  {
-   "keyword": "청담자이관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "청담자이",
-   "entity_id": "A13510007",
-   "score": 12.0,
-   "used": false
-  },
-  {
-   "keyword": "삼성롯데캐슬프레미어관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "삼성롯데캐슬프레미어",
-   "entity_id": "A13509010",
-   "score": 12.0,
-   "used": false
-  },
-  {
-   "keyword": "푸른마을관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "푸른마을",
-   "entity_id": "A13594203",
-   "score": 12.0,
-   "used": false
-  },
-  {
-   "keyword": "개포주공6단지관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "개포주공6단지",
-   "entity_id": "A13599303",
-   "score": 12.0,
-   "used": false
-  },
-  {
-   "keyword": "관리비비교",
-   "volume": 40,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비납부",
-   "volume": 230,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획",
-   "volume": 270,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획서",
-   "volume": 80,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비확인",
-   "volume": 70,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비카드납부",
-   "volume": 1080,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선충당금사용계획서",
-   "volume": 80,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비",
-   "volume": 1410,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비프로그램",
-   "volume": 90,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비납부",
-   "volume": 890,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획수립",
-   "volume": 50,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비고지서",
-   "volume": 670,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선",
-   "volume": 100,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획조정",
-   "volume": 100,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비자동이체",
-   "volume": 1270,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비고지서재발급",
-   "volume": 80,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비내역",
-   "volume": 50,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비신용카드납부",
-   "volume": 180,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리사무소",
-   "volume": 1120,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비할인",
-   "volume": 220,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비카드",
-   "volume": 620,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비부과",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "상가관리비카드결제",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "상가관리비",
-   "volume": 220,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "건물관리비",
-   "volume": 40,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비신용카드",
-   "volume": 360,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비결제",
-   "volume": 45,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비부과대행",
-   "volume": 40,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비카드",
-   "volume": 2240,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 6.0,
-   "used": false
-  },
-  {
    "keyword": "래미안대치팰리스관리비",
    "volume": 10,
    "comp": "높음",
    "entity": "래미안 대치 팰리스",
    "entity_id": "A10027800",
-   "score": 6.0,
+   "score": 14.0,
    "used": false
   },
   {
@@ -1947,7 +1938,7 @@
    "comp": "높음",
    "entity": "디에이치 자이 개포",
    "entity_id": "A10024216",
-   "score": 6.0,
+   "score": 14.0,
    "used": false
   },
   {
@@ -1956,7 +1947,115 @@
    "comp": "높음",
    "entity": "잠실엘스",
    "entity_id": "A13822004",
-   "score": 6.0,
+   "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금적립및사용현황",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금사용",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금항목",
+   "volume": 20,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "관리비카드할인",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "상가관리비고지서",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비카드",
+   "volume": 2240,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "score": 8.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비",
+   "volume": 3110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "관리비할인카드",
+   "volume": 4490,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비카드결제",
+   "volume": 2670,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "관리사무소",
+   "volume": 2900,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "관리비카드납부",
+   "volume": 1840,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "관리비카드결제",
+   "volume": 1560,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.0,
    "used": false
   },
   {
@@ -2023,111 +2122,12 @@
    "used": false
   },
   {
-   "keyword": "장기수선충당금적립및사용현황",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선충당금사용",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선충당금항목",
-   "volume": 20,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비카드할인",
-   "volume": 25,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.5,
-   "used": false
-  },
-  {
-   "keyword": "상가관리비고지서",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.5,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비",
-   "volume": 3110,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.0,
-   "used": false
-  },
-  {
-   "keyword": "관리비할인카드",
-   "volume": 4490,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.0,
-   "used": false
-  },
-  {
    "keyword": "장기수선계획컨설팅",
    "volume": 10,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 3.0,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비카드결제",
-   "volume": 2670,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.0,
-   "used": false
-  },
-  {
-   "keyword": "관리사무소",
-   "volume": 2900,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.0,
-   "used": false
-  },
-  {
-   "keyword": "관리비카드납부",
-   "volume": 1840,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.0,
-   "used": false
-  },
-  {
-   "keyword": "관리비카드결제",
-   "volume": 1560,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.0,
+   "score": 4.2,
    "used": false
   },
   {
@@ -2136,7 +2136,7 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 3.0,
+   "score": 4.2,
    "used": false
   },
   {
@@ -2145,7 +2145,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2154,7 +2154,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2163,7 +2163,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2172,7 +2172,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2181,7 +2181,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2190,7 +2190,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2199,7 +2199,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2208,7 +2208,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2217,7 +2217,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2226,7 +2226,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2235,7 +2235,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2244,7 +2244,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2253,7 +2253,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2262,7 +2262,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2271,7 +2271,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2280,7 +2280,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 1.5,
+   "score": 3.5,
    "used": false
   },
   {
@@ -2289,7 +2289,7 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.4,
+   "score": 0.9,
    "used": false
   }
  ]
