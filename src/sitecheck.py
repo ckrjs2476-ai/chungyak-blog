@@ -43,7 +43,7 @@ def feed(host: str, kind: str) -> list[dict]:
     out, start = [], 1
     while True:
         r = get(f"https://{host}.blogspot.com/feeds/{kind}/default", params={"alt": "json", "max-results": 150, "start-index": start})
-        if not r or r.status_code != 200:
+        if r is None or r.status_code != 200:
             return out
         ents = r.json().get("feed", {}).get("entry", []) or []
         out += ents
@@ -60,8 +60,8 @@ def check_blog(key: str, host: str) -> dict:
     res = {"key": key, "name": NAMES[key], "host": f"https://{host}.blogspot.com", "problems": [], "notes": []}
     P, N = res["problems"], res["notes"]
     home = get(res["host"] + "/")
-    if not home or home.status_code != 200:
-        P.append(("사이트 이용 불가", f"홈 응답 {home.status_code if home else '없음 ' + (LAST_ERR[-1] if LAST_ERR else '')}"))
+    if home is None or home.status_code != 200:
+        P.append(("사이트 이용 불가", f"홈 응답 {home.status_code if home is not None else '없음 ' + (LAST_ERR[-1] if LAST_ERR else '')}"))
         return res
     html = home.text
     # 기술: noindex, 모바일, canonical
@@ -108,7 +108,7 @@ def check_blog(key: str, host: str) -> dict:
     broken = []
     for u in sorted(own_links)[:200]:
         r = get(u, allow_redirects=True)
-        if not r or r.status_code >= 400:
+        if r is None or r.status_code >= 400:
             broken.append(u)
     if broken:
         P.append(("깨진 내부 링크", f"{len(broken)}개: " + ", ".join(broken[:5])))
