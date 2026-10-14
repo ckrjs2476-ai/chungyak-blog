@@ -116,22 +116,60 @@ def to_html(body: str) -> str:
     return style_html(markdown.markdown(body, extensions=["tables", "sane_lists"]))
 
 
+# 공개 시각을 매일 다르게: 블로그별 시간대(시작 시각, 길이 분) 안에서 랜덤으로 Blogger 예약 발행.
+# 시작 시각은 예약 글쓰기 작업 시각과 맞춘다(청약노트 오전만 10~11시). 2026-10-14 시험: 예약해도 영문 주소 유지.
+PUBLISH_WINDOWS = {
+    "cheongyak": [("10:00", 60), ("18:35", 60)],
+    "gongmoju": [("07:50", 60), ("17:47", 60)],
+    "jeonse": [("12:40", 60), ("19:44", 60)],
+    "gwanribi": [("15:52", 60), ("21:13", 60)],
+}
+
+
+def pick_publish_time(now: datetime | None = None) -> datetime | None:
+    """지금이 어느 시간대 직전·안이면 그 안의 랜덤 시각, 아니면 None(바로 발행).
+    이미 남은 시간이 5분 미만이면 바로 발행한다."""
+    import random
+    now = now or datetime.now(KST)
+    for hm, minutes in PUBLISH_WINDOWS.get(BLOG, []):
+        h, m = map(int, hm.split(":"))
+        start = now.replace(hour=h, minute=m, second=0, microsecond=0)
+        end = start + timedelta(minutes=minutes)
+        if start - timedelta(hours=1) <= now < end:
+            lo = max(now + timedelta(minutes=3), start)
+            if (end - lo).total_seconds() < 300:
+                return None
+            return lo + timedelta(seconds=random.randint(0, int((end - lo).total_seconds())))
+    return None
+
+
 def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
     blog = os.environ["BLOGGER_BLOG_ID"]
     h = {"Authorization": f"Bearer {token}"}
+    when = None if draft else pick_publish_time()
     # 1) 영문 slug를 제목으로 먼저 만들어 주소(퍼머링크)를 영문으로 고정
     # 2) 그다음 제목을 한글로 바꾼다. (Blogger 동작에 기대는 방식이라 첫 테스트에서 주소를 꼭 확인)
     body = {"kind": "blogger#post", "title": meta["slug"].replace("-", " "),
             "content": html, "labels": meta.get("labels", [])}
-    res = requests.post(f"{API}/blogs/{blog}/posts", params={"isDraft": str(draft).lower()},
+    res = requests.post(f"{API}/blogs/{blog}/posts", params={"isDraft": str(draft or when is not None).lower()},
                         json=body, headers=h, timeout=60)
     _ok(res, "글 만들기")
     post = res.json()
+    if when is not None:
+        res = _retry(lambda: requests.post(f"{API}/blogs/{blog}/posts/{post['id']}/publish",
+                                           params={"publishDate": when.isoformat(timespec="seconds")}, headers=h, timeout=60))
+        _ok(res, "예약 발행")
+        post = res.json()
+        post["_scheduled_at"] = when.isoformat(timespec="seconds")
+        print(f"::notice::예약 발행: {when:%H:%M} KST 공개 예정")
     print(f"::notice::만든 직후 주소: {post.get('url', '')} / 상태: {post.get('status', '')}")
     res = requests.patch(f"{API}/blogs/{blog}/posts/{post['id']}", json={"title": meta["title"]},
                          headers=h, timeout=60)
     _ok(res, "제목 바꾸기")
+    sched = post.get("_scheduled_at")
     post = res.json()
+    if sched:  # 한 시간 안에 공개되므로 기록은 LIVE로 둔다(관련 글·점검 대상에 포함)
+        post["status"], post["_scheduled_at"] = "LIVE", sched
     print(f"::notice::제목 바꾼 뒤 주소: {post.get('url', '')} / 상태: {post.get('status', '')}")
     return post
 
@@ -233,7 +271,7 @@ def record(meta: dict, body: str, post: dict, file_name: str = "") -> None:
         "house_manage_no": str(meta.get(UNIT_KEY) or ""),
         "type": meta["type"], "labels": list(meta.get("labels") or []), "title": meta["title"], "keyword": meta["keyword"], "file": file_name,
         "opening": meta["opening"], "angle": meta.get("angle", ""), "url": post.get("url", ""), "blogger_id": post.get("id"),
-        "status": post.get("status"), "published_at": datetime.now(KST).isoformat(),
+        "status": post.get("status"), "published_at": post.get("_scheduled_at") or datetime.now(KST).isoformat(),
         "headings_pattern": sorted({re.sub(r"[\d,.]+", "N", x) for x in heads}),
     })
     PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
@@ -395,7 +433,7 @@ def main() -> int:
                 summary.append(f"  · 이전 글 {refreshed}편의 관련 글 링크 갱신")
         DONE.mkdir(parents=True, exist_ok=True)
         shutil.move(str(f), DONE / f.name)
-        summary.append(f"- {'임시저장' if draft else '발행'}: {meta['title']} {post.get('url', '')}")
+        summary.append(f"- {'임시저장' if draft else ('예약 발행 ' + post['_scheduled_at'][11:16] if post.get('_scheduled_at') else '발행')}: {meta['title']} {post.get('url', '')}")
 
     queue = len(list(((ROOT / "data" / "queue") if _blog is None else (BASE / "data" / "queue")).glob("*.md")))
     if queue < 10:
