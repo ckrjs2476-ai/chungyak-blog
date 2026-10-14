@@ -1,5 +1,5 @@
 {
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "weekly_competition": [
   {
    "no": "2026000463",
@@ -11,7 +11,7 @@
     "rate": 4.05,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 362,
+   "final_shortfall_total": 265,
    "rank1_closed_types": 2,
    "type_count": 8
   },
@@ -25,7 +25,7 @@
     "rate": 2.0,
     "stage": "1순위 기타지역"
    },
-   "final_shortfall_total": 23,
+   "final_shortfall_total": 19,
    "rank1_closed_types": 3,
    "type_count": 8
   },
@@ -39,7 +39,7 @@
     "rate": 14.0,
     "stage": "1순위 기타지역"
    },
-   "final_shortfall_total": 209,
+   "final_shortfall_total": 172,
    "rank1_closed_types": 1,
    "type_count": 6
   },
@@ -49,7 +49,7 @@
    "region": "충남",
    "rank1_avg_rate": 0.28,
    "best": null,
-   "final_shortfall_total": 43,
+   "final_shortfall_total": 36,
    "rank1_closed_types": 0,
    "type_count": 2
   },
@@ -69,12 +69,42 @@
    "region": "대구",
    "rank1_avg_rate": 0.05,
    "best": null,
-   "final_shortfall_total": 293,
+   "final_shortfall_total": 283,
    "rank1_closed_types": 0,
    "type_count": 4
+  },
+  {
+   "no": "2026000466",
+   "name": "진도 승원팰리체 더 테라스",
+   "region": "전남",
+   "rank1_avg_rate": 0.0,
+   "best": null,
+   "final_shortfall_total": 57,
+   "rank1_closed_types": 0,
+   "type_count": 2
   }
  ],
  "weekly_remainder": [
+  {
+   "no": "2026910252",
+   "name": "그랑라크 에일린의 뜰",
+   "region": "울산",
+   "households": 18,
+   "rcept_date": "2026-10-19",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910252&pblancNo=2026910252",
+   "types": [
+    {
+     "ty": "59.99B",
+     "price": 53600,
+     "pyeong_price": null
+    },
+    {
+     "ty": "59.97C",
+     "price": 56600,
+     "pyeong_price": null
+    }
+   ]
+  },
   {
    "no": "2026910254",
    "name": "에코델타시티 푸르지오 센터파크(18BL)",
@@ -181,6 +211,36 @@
     {
      "ty": "84.9861B",
      "price": 94000,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910262",
+   "name": "화성 송산 동원로얄듀크 포레(2차)",
+   "region": "경기",
+   "households": 5,
+   "rcept_date": "2026-10-19",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910262&pblancNo=2026910262",
+   "types": [
+    {
+     "ty": "84.9631A",
+     "price": 48220,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.5993C",
+     "price": 46700,
+     "pyeong_price": null
+    },
+    {
+     "ty": "90.9392",
+     "price": 54030,
+     "pyeong_price": null
+    },
+    {
+     "ty": "123.0091",
+     "price": 76810,
      "pyeong_price": null
     }
    ]
@@ -1670,20 +1730,6 @@
    }
   },
   {
-   "no": "2026000282",
-   "name": "창원 한신더휴 메가센텀",
-   "region": "경남",
-   "min": {
-    "score": 0,
-    "ty": "38.0314A",
-    "reside": "해당지역"
-   },
-   "max": {
-    "score": 74,
-    "ty": "59.9783A"
-   }
-  },
-  {
    "no": "2026000314",
    "name": "중동역 다채로움 더원",
    "region": "경기",
@@ -1726,20 +1772,6 @@
    }
   },
   {
-   "no": "2026000327",
-   "name": "역북 서희스타힐스 프라임시티(조합원 취소분)",
-   "region": "경기",
-   "min": {
-    "score": 0,
-    "ty": "59.9987B",
-    "reside": "기타지역"
-   },
-   "max": {
-    "score": 50,
-    "ty": "74.9988A"
-   }
-  },
-  {
    "no": "2026000342",
    "name": "제일풍경채 첨단3지구(A6BL)",
    "region": "광주",
@@ -1765,20 +1797,6 @@
    "max": {
     "score": 74,
     "ty": "84.9928F"
-   }
-  },
-  {
-   "no": "2026000355",
-   "name": "월계 중흥S-클래스 리비에르",
-   "region": "서울",
-   "min": {
-    "score": 0,
-    "ty": "36.9533",
-    "reside": "기타지역"
-   },
-   "max": {
-    "score": 69,
-    "ty": "84.9807A"
    }
   },
   {

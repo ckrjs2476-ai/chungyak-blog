@@ -51,6 +51,32 @@
   "노부모 부양": 1,
   "기관추천": 5
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8714A",
+    "supply": 46,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 46
+   },
+   {
+    "ty": "84.9376B",
+    "supply": 11,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   }
+  ],
+  "req_total": 0,
+  "rank1_req": 0,
+  "supply_total": 57,
+  "final_shortfall_total": 57,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0
+ },
  "region_price": {
   "scope": "전남",
   "supply_kind": "민영",
@@ -72,5 +98,17 @@
   "peer_count": 3,
   "peer_avg_rate": 0.76,
   "peer_max_rate": 1.03
+ },
+ "region_competition": {
+  "scope": "전남",
+  "peer_count": 3,
+  "peers": [
+   "소제지구 A3BL 중흥S-클래스 우미린",
+   "소제지구 A4BL 중흥S-클래스 우미린",
+   "호반써밋 첨단3지구(A8BL)"
+  ],
+  "peer_avg_rate": 0.76,
+  "rank": 4,
+  "of": 4
  }
 }

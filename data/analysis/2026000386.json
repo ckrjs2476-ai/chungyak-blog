@@ -115,9 +115,9 @@
    {
     "ty": "59.9671A",
     "supply": 7,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 2
+    "closed_at": "2순위 해당지역",
+    "rate": 1.0,
+    "final_shortfall": 0
    },
    {
     "ty": "59.996B",
@@ -138,7 +138,7 @@
     "supply": 9,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 9
+    "final_shortfall": 7
    },
    {
     "ty": "74.9936A",
@@ -169,11 +169,11 @@
     "final_shortfall": 0
    }
   ],
-  "req_total": 16,
+  "req_total": 30,
   "rank1_req": 16,
   "supply_total": 38,
-  "final_shortfall_total": 23,
-  "closed_types": 3,
+  "final_shortfall_total": 19,
+  "closed_types": 4,
   "rank1_closed_types": 3,
   "type_count": 8,
   "rank1_avg_rate": 0.42,
