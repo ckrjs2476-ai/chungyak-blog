@@ -137,6 +137,16 @@ def main() -> int:
     for k, h in BLOGS.items():
         results.append(check_blog(k, h))
         time.sleep(20)
+    # 429로 막힌 블로그는 5분 쉬었다가 한 번 더 확인한다(최대 2바퀴)
+    for _ in range(2):
+        blocked = [i for i, r in enumerate(results) if any(str(a).startswith("확인 못 함") for a, _b in r["problems"])]
+        if not blocked:
+            break
+        time.sleep(300)
+        for i in blocked:
+            k = results[i]["key"]
+            results[i] = check_blog(k, BLOGS[k])
+            time.sleep(30)
     now = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
     lines = [f"# 애드센스 거절 사유 상위 항목 매일 점검 ({now} KST)", "",
              "기준과 순서: rules/adsense_rejection_top.md. '문제'는 고쳐야 할 것, '참고'는 신청 전까지 채울 것.", ""]

@@ -28,14 +28,15 @@ def main() -> int:
         s = site.get(key, {})
         labels = s.get("labels") or {}
         thin = [f"{l}({c})" for l, c in labels.items() if c < MIN_LABEL]
+        blocked = not s or any(str(p[0]).startswith("확인 못 함") for p in s.get("problems", []))
         probs = [p for p in s.get("problems", []) if not str(p[0]).startswith("확인 못 함")]
         m = re.search(rf"## {re.escape(name)} — 공개 글 \d+편, 가치 약한 글 (\d+)편", value)
         weak = int(m.group(1)) if m else None
         checks = [
             ("공개 글 30편 이상", n >= MIN_POSTS, f"{n}편"),
             ("첫 글 뒤 4주 이상", days >= MIN_DAYS, f"{days}일"),
-            ("라벨마다 8편 이상(메뉴에 보이는 라벨)", not thin, ", ".join(thin[:6]) or "충족"),
-            ("공개 화면 문제 없음(필수 페이지·메뉴·깨진 링크)", not probs, "; ".join(f"{a}: {b}"[:60] for a, b in probs[:3]) or "충족"),
+            ("라벨마다 8편 이상(메뉴에 보이는 라벨)", not blocked and not thin, "오늘 확인 못 함(구글 429)" if blocked else (", ".join(thin[:6]) or "충족")),
+            ("공개 화면 문제 없음(필수 페이지·메뉴·깨진 링크)", not blocked and not probs, "오늘 확인 못 함(구글 429)" if blocked else ("; ".join(f"{a}: {b}"[:60] for a, b in probs[:3]) or "충족")),
             ("가치 약한 글 0편", weak == 0, f"{weak}편" if weak is not None else "보고서 없음"),
         ]
         ok = all(c[1] for c in checks)
