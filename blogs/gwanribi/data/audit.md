@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: gwanribi (2026-10-14 10:38 KST)
+# 애드센스 기준 점검: gwanribi (2026-10-14 11:10 KST)
 
 - 공개 글: 1편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -22,6 +22,6 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
-| 90 | [강남구 아파트 관리비 ㎡당 3,064원, 91개 단](https://gwanribi-dotbogi.blogspot.com/2026/10/gangnam-gu-apartment-management-fee.html) `2026-10-14-11680-region.md` | 2054 | 0 | 0 | - |
+| 90 | [강남구 아파트 관리비 ㎡당 3,064원, 91개 단](https://gwanribi-dotbogi.blogspot.com/2026/10/gangnam-gu-apartment-management-fee.html) `2026-10-14-11680-region.md` | 2155 | 0 | 0 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.

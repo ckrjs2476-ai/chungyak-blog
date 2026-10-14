@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: cheongyak (2026-10-14 10:38 KST)
+# 애드센스 기준 점검: cheongyak (2026-10-14 11:10 KST)
 
 - 공개 글: 13편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -33,11 +33,11 @@
 | 80 | [향남역 그로브 스위첸 청약 일정·분양가, 평당 1,](https://daily-cheongyak.blogspot.com/2026/10/hyangnam-station-grove-switzen.html) `2026-10-07-2026000463-notice.md` | 1726 | 0 | 0 | - |
 | 90 | [쌍용 더 플래티넘 한강 청약 일정·분양가, 평당 2](https://daily-cheongyak.blogspot.com/2026/10/ssangyong-platinum-hangang-cheongyak.html) `2026-10-09-2026000468-notice.md` | 1681 | 0 | 1 | - |
 | 90 | [아이린8차 아파트 경쟁률, 1순위 0.2대 1·45](https://daily-cheongyak.blogspot.com/2026/10/jeju-idoidong-irin-8-competition-2026-10.html) `2026-10-13-2026000444-competition.md` | 1987 | 1 | 1 | - |
-| 90 | [연제갤러리자이 청약 일정·분양가, 평당 2,632만](https://daily-cheongyak.blogspot.com/2026/10/yeonje-gallery-xi-cheongyak-2026-10.html) `2026-10-11-2026000469-notice.md` | 1678 | 0 | 1 | - |
+| 90 | [연제갤러리자이 청약 일정·분양가, 평당 2,632만](https://daily-cheongyak.blogspot.com/2026/10/yeonje-gallery-xi-cheongyak-2026-10.html) `2026-10-11-2026000469-notice.md` | 1708 | 0 | 1 | - |
 | 90 | [인천계양 A17블록 신혼희망타운 청약 일정·분양가,](https://daily-cheongyak.blogspot.com/2026/10/incheon-gyeyang-a17-newlywed-town.html) `2026-10-12-2026820010-notice.md` | 1699 | 0 | 1 | - |
 | 90 | [천안 아이파크 시티 2단지 청약 일정·분양가, 평당](https://daily-cheongyak.blogspot.com/2026/10/cheonan-ipark-city-2-cheongyak-2026-10.html) `2026-10-12-2026000498-notice.md` | 1672 | 0 | 1 | - |
 | 100 | [숭의역 노르웨이숲 더 스카이 당첨 가점, 69㎡ 최](https://daily-cheongyak.blogspot.com/2026/10/sungui-station-norway-forest-sky-score.html) `2026-10-10-2026000448-score.md` | 1820 | 0 | 1 | - |
 | 100 | [아산 그랑시티필하우스 청약 일정·분양가, 평당 1,](https://daily-cheongyak.blogspot.com/2026/10/asan-grandcity-philhouse-cheongyak-2026.html) `2026-10-13-2026000267-notice.md` | 2236 | 0 | 1 | - |
-| 100 | [힐스테이트 거제시그니처 분양가·청약 일정, 평당 1](https://daily-cheongyak.blogspot.com/2026/10/hillstate-geoje-signature-bunyangga.html) `2026-10-14-2026000464-notice.md` | 2285 | 0 | 1 | - |
+| 100 | [힐스테이트 거제시그니처 분양가·청약 일정, 평당 1](https://daily-cheongyak.blogspot.com/2026/10/hillstate-geoje-signature-bunyangga.html) `2026-10-14-2026000464-notice.md` | 2400 | 0 | 1 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.
