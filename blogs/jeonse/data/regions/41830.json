@@ -1,0 +1,321 @@
+{
+ "lawd": "41830",
+ "name": "경기도 양평군",
+ "updated": "2026-10-14",
+ "months": 12,
+ "jeonse_count": 575,
+ "wolse_count": 398,
+ "wolse_share_pct": 40.9,
+ "renew_share_pct": 30.8,
+ "jeonse_n84": 278,
+ "jeonse_median84": 30000,
+ "sale_n84": 228,
+ "sale_median84": 43920,
+ "ratio84": 68.3,
+ "jeonse_recent3_median84": 30500,
+ "jeonse_prev3_median84": 30000,
+ "jeonse_change_pct": 1.7,
+ "apts_with_both": 22,
+ "apts_ratio_80_plus": 5,
+ "apts_ratio_70_plus": 16,
+ "umd": {
+  "강상면 병산리": {
+   "jeonse_n": 16,
+   "jeonse_median84": 21000,
+   "sale_n": 13,
+   "sale_median84": 26300,
+   "ratio": 79.8
+  },
+  "양서면 양수리": {
+   "jeonse_n": 15,
+   "jeonse_median84": 33000,
+   "sale_n": 11,
+   "sale_median84": 43000,
+   "ratio": 76.7
+  },
+  "양서면 용담리": {
+   "jeonse_n": 4,
+   "jeonse_median84": 36375,
+   "sale_n": 4,
+   "sale_median84": 57250,
+   "ratio": 63.5
+  },
+  "양평읍 공흥리": {
+   "jeonse_n": 26,
+   "jeonse_median84": 30000,
+   "sale_n": 22,
+   "sale_median84": 45000,
+   "ratio": 66.7
+  },
+  "양평읍 백안리": {
+   "jeonse_n": 13,
+   "jeonse_median84": 20470,
+   "sale_n": 10,
+   "sale_median84": 26000,
+   "ratio": 78.7
+  },
+  "양평읍 양근리": {
+   "jeonse_n": 138,
+   "jeonse_median84": 35000,
+   "sale_n": 123,
+   "sale_median84": 49500,
+   "ratio": 70.7
+  },
+  "양평읍 창대리": {
+   "jeonse_n": 23,
+   "jeonse_median84": 35000,
+   "sale_n": 12,
+   "sale_median84": 45500,
+   "ratio": 76.9
+  },
+  "용문면 다문리": {
+   "jeonse_n": 43,
+   "jeonse_median84": 24000,
+   "sale_n": 33,
+   "sale_median84": 39500,
+   "ratio": 60.8
+  }
+ },
+ "top_ratio_apts": [
+  {
+   "umd": "양평읍 백안리",
+   "apt": "블루밍2단지",
+   "built": 2010,
+   "jeonse_n": 4,
+   "jeonse_median84": 22250,
+   "sale_n": 3,
+   "sale_median84": 25000,
+   "ratio": 89.0
+  },
+  {
+   "umd": "양평읍 양근리",
+   "apt": "그린맨션1",
+   "built": 1992,
+   "jeonse_n": 3,
+   "jeonse_median84": 18900,
+   "sale_n": 6,
+   "sale_median84": 21750,
+   "ratio": 86.9
+  },
+  {
+   "umd": "양서면 양수리",
+   "apt": "W-Castle",
+   "built": 2018,
+   "jeonse_n": 3,
+   "jeonse_median84": 36000,
+   "sale_n": 2,
+   "sale_median84": 43250,
+   "ratio": 83.2
+  },
+  {
+   "umd": "강상면 병산리",
+   "apt": "양평현대성우(3단지)",
+   "built": 2010,
+   "jeonse_n": 12,
+   "jeonse_median84": 20500,
+   "sale_n": 5,
+   "sale_median84": 25200,
+   "ratio": 81.3
+  },
+  {
+   "umd": "용문면 다문리",
+   "apt": "심미",
+   "built": 2004,
+   "jeonse_n": 4,
+   "jeonse_median84": 17500,
+   "sale_n": 2,
+   "sale_median84": 21550,
+   "ratio": 81.2
+  },
+  {
+   "umd": "용문면 다문리",
+   "apt": "밀레니엄",
+   "built": 2020,
+   "jeonse_n": 3,
+   "jeonse_median84": 22800,
+   "sale_n": 3,
+   "sale_median84": 29000,
+   "ratio": 78.6
+  },
+  {
+   "umd": "용문면 다문리",
+   "apt": "용문그린",
+   "built": 2004,
+   "jeonse_n": 2,
+   "jeonse_median84": 14500,
+   "sale_n": 3,
+   "sale_median84": 18500,
+   "ratio": 78.4
+  },
+  {
+   "umd": "양서면 양수리",
+   "apt": "더리버파크",
+   "built": 2019,
+   "jeonse_n": 5,
+   "jeonse_median84": 34000,
+   "sale_n": 5,
+   "sale_median84": 43750,
+   "ratio": 77.7
+  },
+  {
+   "umd": "양평읍 창대리",
+   "apt": "한화포레나양평",
+   "built": 2023,
+   "jeonse_n": 7,
+   "jeonse_median84": 36000,
+   "sale_n": 2,
+   "sale_median84": 46850,
+   "ratio": 76.8
+  },
+  {
+   "umd": "강상면 병산리",
+   "apt": "양평현대성우(1단지)",
+   "built": 2010,
+   "jeonse_n": 3,
+   "jeonse_median84": 21000,
+   "sale_n": 5,
+   "sale_median84": 27400,
+   "ratio": 76.6
+  }
+ ],
+ "low_ratio_apts": [
+  {
+   "umd": "양서면 용담리",
+   "apt": "양수역이지움리버뷰",
+   "built": 2024,
+   "jeonse_n": 4,
+   "jeonse_median84": 36375,
+   "sale_n": 4,
+   "sale_median84": 57250,
+   "ratio": 63.5
+  },
+  {
+   "umd": "용문면 다문리",
+   "apt": "용문역반도유보라아이비파크",
+   "built": 2023,
+   "jeonse_n": 31,
+   "jeonse_median84": 27300,
+   "sale_n": 21,
+   "sale_median84": 41800,
+   "ratio": 65.3
+  },
+  {
+   "umd": "양평읍 양근리",
+   "apt": "센트럴파크써밋",
+   "built": 2022,
+   "jeonse_n": 30,
+   "jeonse_median84": 36225,
+   "sale_n": 27,
+   "sale_median84": 54800,
+   "ratio": 66.1
+  },
+  {
+   "umd": "양평읍 공흥리",
+   "apt": "양평공흥3휴먼빌아틀리에",
+   "built": 2025,
+   "jeonse_n": 26,
+   "jeonse_median84": 30000,
+   "sale_n": 22,
+   "sale_median84": 45000,
+   "ratio": 66.7
+  },
+  {
+   "umd": "양평읍 양근리",
+   "apt": "휴먼빌",
+   "built": 2009,
+   "jeonse_n": 5,
+   "jeonse_median84": 25000,
+   "sale_n": 11,
+   "sale_median84": 37250,
+   "ratio": 67.1
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-11",
+   "jeonse_count": 57,
+   "n84": 28,
+   "jeonse_median84": 30000
+  },
+  {
+   "month": "2025-12",
+   "jeonse_count": 40,
+   "n84": 22,
+   "jeonse_median84": 30000
+  },
+  {
+   "month": "2026-01",
+   "jeonse_count": 72,
+   "n84": 38,
+   "jeonse_median84": 29500
+  },
+  {
+   "month": "2026-02",
+   "jeonse_count": 78,
+   "n84": 33,
+   "jeonse_median84": 26250
+  },
+  {
+   "month": "2026-03",
+   "jeonse_count": 66,
+   "n84": 30,
+   "jeonse_median84": 27695
+  },
+  {
+   "month": "2026-04",
+   "jeonse_count": 64,
+   "n84": 31,
+   "jeonse_median84": 30000
+  },
+  {
+   "month": "2026-05",
+   "jeonse_count": 42,
+   "n84": 19,
+   "jeonse_median84": 25000
+  },
+  {
+   "month": "2026-06",
+   "jeonse_count": 37,
+   "n84": 20,
+   "jeonse_median84": 28500
+  },
+  {
+   "month": "2026-07",
+   "jeonse_count": 39,
+   "n84": 18,
+   "jeonse_median84": 23500
+  },
+  {
+   "month": "2026-08",
+   "jeonse_count": 48,
+   "n84": 22,
+   "jeonse_median84": 34000
+  },
+  {
+   "month": "2026-09",
+   "jeonse_count": 24,
+   "n84": 14,
+   "jeonse_median84": 34000
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 8,
+   "n84": 3,
+   "jeonse_median84": 30000
+  }
+ ],
+ "rank": 23,
+ "rank_of": 72,
+ "avg_ratio84_all": 64.1,
+ "ratio_vs_avg_pp": 4.2,
+ "umd_ratio_high": {
+  "name": "강상면 병산리",
+  "ratio": 79.8
+ },
+ "umd_ratio_low": {
+  "name": "용문면 다문리",
+  "ratio": 60.8
+ },
+ "umd_spread_pp": 19.0,
+ "gap84": 13920
+}
