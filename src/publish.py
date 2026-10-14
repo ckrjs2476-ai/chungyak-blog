@@ -47,6 +47,18 @@ KST = timezone(timedelta(hours=9))
 API = "https://www.googleapis.com/blogger/v3"
 
 
+def _retry(fn, tries: int = 4):
+    """Blogger API가 가끔 503(backendError)을 낸다. 잠깐 기다렸다 다시 부른다."""
+    import time
+    res = fn()
+    for wait in (5, 15, 40)[:tries - 1]:
+        if res.status_code < 500:
+            return res
+        time.sleep(wait)
+        res = fn()
+    return res
+
+
 def _ok(res: requests.Response, what: str) -> requests.Response:
     """실패하면 원인을 Actions 주석(annotation)으로 남긴다. 로그를 못 열어도 원인이 보이게."""
     if not res.ok:
@@ -300,15 +312,16 @@ def publish_pages() -> int:
             requests.delete(f"{API}/blogs/{blog}/pages/{old['id']}", headers=h, timeout=60)
             known.pop(f.name, None)
         if f.name in known and known[f.name].get("id"):
-            res = _ok(requests.patch(f"{API}/blogs/{blog}/pages/{known[f.name]['id']}", json=payload,
-                                     headers=h, timeout=60), f"페이지 고치기 {f.name}")
+            res = _ok(_retry(lambda: requests.patch(f"{API}/blogs/{blog}/pages/{known[f.name]['id']}", json=payload,
+                                                    headers=h, timeout=60)), f"페이지 고치기 {f.name}")
         else:
             first = {**payload, "title": slug} if slug else payload  # 영문 제목으로 만들어 주소를 고정
             res = _ok(requests.post(f"{API}/blogs/{blog}/pages", params={"isDraft": "false"}, json=first,
                                     headers=h, timeout=60), f"페이지 만들기 {f.name}")
             if slug:
-                res = _ok(requests.patch(f"{API}/blogs/{blog}/pages/{res.json()['id']}",
-                                         json={"title": meta["title"]}, headers=h, timeout=60), "페이지 제목")
+                pid = res.json()["id"]
+                res = _ok(_retry(lambda: requests.patch(f"{API}/blogs/{blog}/pages/{pid}",
+                                                        json={"title": meta["title"]}, headers=h, timeout=60)), "페이지 제목")
         page = res.json()
         known[f.name] = {"id": page.get("id"), "url": page.get("url"), "title": meta["title"]}
         print(f"::notice::페이지: {meta['title']} → {page.get('url')}")
