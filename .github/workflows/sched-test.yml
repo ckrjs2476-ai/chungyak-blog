@@ -1,0 +1,20 @@
+# 예약 발행 주소 시험 (수동 실행, 한 번만)
+name: sched-test
+on:
+  workflow_dispatch:
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests markdown pyyaml
+      - run: python tools/sched_test.py
+        env:
+          BLOG_KEY: gwanribi
+          BLOGGER_BLOG_ID: "1893946611364166783"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
