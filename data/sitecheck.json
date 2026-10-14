@@ -15,43 +15,50 @@
   "key": "jeonse",
   "name": "전세 온도계",
   "host": "https://jeonse-ondogye.blogspot.com",
-  "problems": [],
-  "notes": [
+  "problems": [
    [
-    "라벨 편수",
-    "8편 미만 라벨 2개: 서울(2), 지역 전세가율(2)"
+    "확인 못 함(구글이 점검 요청을 잠시 막음)",
+    "홈 응답 429"
    ]
   ],
-  "post_count": 2,
-  "page_count": 4,
-  "labels": {
-   "서울": 2,
-   "지역 전세가율": 2
-  },
-  "last_post": "2026-10-14"
+  "notes": []
  },
  {
   "key": "gongmoju",
   "name": "공모주 뜯어보기",
   "host": "https://gongmoju-breakdown.blogspot.com",
-  "problems": [
+  "problems": [],
+  "notes": [
    [
-    "확인 못 함(구글이 점검 요청을 잠시 막음)",
-    "홈 응답 429"
+    "라벨 편수",
+    "8편 미만 라벨 2개: 공모 구조(2), 일반 기업(2)"
    ]
   ],
-  "notes": []
+  "post_count": 2,
+  "page_count": 4,
+  "labels": {
+   "공모 구조": 2,
+   "일반 기업": 2
+  },
+  "last_post": "2026-10-14"
  },
  {
   "key": "gwanribi",
   "name": "관리비 돋보기",
   "host": "https://gwanribi-dotbogi.blogspot.com",
-  "problems": [
+  "problems": [],
+  "notes": [
    [
-    "확인 못 함(구글이 점검 요청을 잠시 막음)",
-    "홈 응답 429"
+    "라벨 편수",
+    "8편 미만 라벨 2개: 서울(1), 지역 관리비(1)"
    ]
   ],
-  "notes": []
+  "post_count": 1,
+  "page_count": 4,
+  "labels": {
+   "서울": 1,
+   "지역 관리비": 1
+  },
+  "last_post": "2026-10-14"
  }
 ]
