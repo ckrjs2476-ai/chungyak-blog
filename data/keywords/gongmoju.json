@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 08:44",
+ "updated": "2026-10-15 05:32",
  "stage": 1,
  "band": [
   30,
@@ -8,7 +8,7 @@
  "keywords": [
   {
    "keyword": "동원파츠공모주",
-   "volume": 30,
+   "volume": 40,
    "comp": "낮음",
    "entity": "동원파츠",
    "entity_id": "00784184",
@@ -26,7 +26,7 @@
   },
   {
    "keyword": "크리에이츠공모주",
-   "volume": 360,
+   "volume": 490,
    "comp": "낮음",
    "entity": "크리에이츠",
    "entity_id": "01540903",
@@ -35,7 +35,7 @@
   },
   {
    "keyword": "크리에이츠수요예측",
-   "volume": 40,
+   "volume": 50,
    "comp": "낮음",
    "entity": "크리에이츠",
    "entity_id": "01540903",
@@ -44,7 +44,7 @@
   },
   {
    "keyword": "티앤이코리아공모주",
-   "volume": 110,
+   "volume": 160,
    "comp": "낮음",
    "entity": "티앤이코리아",
    "entity_id": "01543043",
@@ -53,7 +53,7 @@
   },
   {
    "keyword": "티앤이코리아수요예측",
-   "volume": 40,
+   "volume": 60,
    "comp": "낮음",
    "entity": "티앤이코리아",
    "entity_id": "01543043",
@@ -62,7 +62,7 @@
   },
   {
    "keyword": "엠비디공모주",
-   "volume": 460,
+   "volume": 480,
    "comp": "낮음",
    "entity": "엠비디",
    "entity_id": "01705740",
@@ -80,7 +80,7 @@
   },
   {
    "keyword": "유캐스트공모주",
-   "volume": 690,
+   "volume": 800,
    "comp": "낮음",
    "entity": "유캐스트",
    "entity_id": "01705573",
@@ -89,7 +89,7 @@
   },
   {
    "keyword": "유캐스트수요예측",
-   "volume": 70,
+   "volume": 90,
    "comp": "낮음",
    "entity": "유캐스트",
    "entity_id": "01705573",
@@ -98,7 +98,7 @@
   },
   {
    "keyword": "다비오수요예측",
-   "volume": 70,
+   "volume": 90,
    "comp": "낮음",
    "entity": "다비오",
    "entity_id": "01706509",
@@ -107,7 +107,7 @@
   },
   {
    "keyword": "엠비디수요예측",
-   "volume": 120,
+   "volume": 130,
    "comp": "낮음",
    "entity": "엠비디",
    "entity_id": "01705740",
@@ -125,7 +125,7 @@
   },
   {
    "keyword": "래블업공모주",
-   "volume": 540,
+   "volume": 590,
    "comp": "낮음",
    "entity": "래블업",
    "entity_id": "01956751",
@@ -134,7 +134,7 @@
   },
   {
    "keyword": "래블업수요예측",
-   "volume": 100,
+   "volume": 110,
    "comp": "낮음",
    "entity": "래블업",
    "entity_id": "01956751",
@@ -143,7 +143,7 @@
   },
   {
    "keyword": "디티에스공모가",
-   "volume": 290,
+   "volume": 370,
    "comp": "중간",
    "entity": "디티에스",
    "entity_id": "00534729",
@@ -152,7 +152,7 @@
   },
   {
    "keyword": "영광공모주",
-   "volume": 320,
+   "volume": 380,
    "comp": "중간",
    "entity": "영광",
    "entity_id": "00579342",
@@ -161,7 +161,7 @@
   },
   {
    "keyword": "진코스텍공모가",
-   "volume": 660,
+   "volume": 750,
    "comp": "중간",
    "entity": "진코스텍",
    "entity_id": "01158632",
@@ -170,7 +170,7 @@
   },
   {
    "keyword": "이에스티공모주",
-   "volume": 130,
+   "volume": 160,
    "comp": "중간",
    "entity": "이에스티",
    "entity_id": "01378005",
@@ -178,8 +178,17 @@
    "used": false
   },
   {
+   "keyword": "인텔리빅스공모가",
+   "volume": 30,
+   "comp": "중간",
+   "entity": "인텔리빅스",
+   "entity_id": "01649408",
+   "score": 85.0,
+   "used": false
+  },
+  {
    "keyword": "인텔리빅스공모주",
-   "volume": 570,
+   "volume": 680,
    "comp": "중간",
    "entity": "인텔리빅스",
    "entity_id": "01649408",
@@ -188,7 +197,7 @@
   },
   {
    "keyword": "다비오공모주",
-   "volume": 450,
+   "volume": 580,
    "comp": "중간",
    "entity": "다비오",
    "entity_id": "01706509",
@@ -197,7 +206,7 @@
   },
   {
    "keyword": "엠에스바이오공모가",
-   "volume": 210,
+   "volume": 440,
    "comp": "중간",
    "entity": "엠에스바이오",
    "entity_id": "01749559",
@@ -241,6 +250,15 @@
    "used": false
   },
   {
+   "keyword": "이에스티수요예측",
+   "volume": 20,
+   "comp": "낮음",
+   "entity": "이에스티",
+   "entity_id": "01378005",
+   "score": 60.0,
+   "used": false
+  },
+  {
    "keyword": "옵토닉스공모주",
    "volume": 15,
    "comp": "낮음",
@@ -277,20 +295,20 @@
    "used": false
   },
   {
-   "keyword": "인텔리빅스공모가",
-   "volume": 25,
-   "comp": "중간",
-   "entity": "인텔리빅스",
-   "entity_id": "01649408",
-   "score": 51.0,
-   "used": false
-  },
-  {
    "keyword": "에이엘로봇수요예측",
    "volume": 15,
    "comp": "중간",
    "entity": "에이엘로봇",
    "entity_id": "01797635",
+   "score": 51.0,
+   "used": false
+  },
+  {
+   "keyword": "넥스아이공모가",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "넥스아이",
+   "entity_id": "01863318",
    "score": 51.0,
    "used": false
   },
@@ -314,7 +332,7 @@
   },
   {
    "keyword": "멜콘공모가",
-   "volume": 3890,
+   "volume": 4090,
    "comp": "중간",
    "entity": "멜콘",
    "entity_id": "01028933",
@@ -323,29 +341,11 @@
   },
   {
    "keyword": "엘리스그룹공모가",
-   "volume": 2000,
+   "volume": 2060,
    "comp": "중간",
    "entity": "엘리스그룹",
    "entity_id": "01754737",
    "score": 34.0,
-   "used": false
-  },
-  {
-   "keyword": "엠에스바이오수요예측",
-   "volume": 4370,
-   "comp": "중간",
-   "entity": "엠에스바이오",
-   "entity_id": "01749559",
-   "score": 34.0,
-   "used": false
-  },
-  {
-   "keyword": "재미있는상장",
-   "volume": 30,
-   "comp": "낮음",
-   "entity": "",
-   "entity_id": "",
-   "score": 25.0,
    "used": false
   },
   {
@@ -359,7 +359,7 @@
   },
   {
    "keyword": "이번달공모주",
-   "volume": 35,
+   "volume": 45,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -368,7 +368,7 @@
   },
   {
    "keyword": "8월공모주일정",
-   "volume": 120,
+   "volume": 110,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -386,7 +386,7 @@
   },
   {
    "keyword": "10월신규상장주",
-   "volume": 760,
+   "volume": 830,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -435,15 +435,6 @@
    "comp": "낮음",
    "entity": "하나에어로다이내믹스",
    "entity_id": "01025617",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "이에스티수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "이에스티",
-   "entity_id": "01378005",
    "score": 20.0,
    "used": false
   },
@@ -611,7 +602,7 @@
   },
   {
    "keyword": "공모주상장일정",
-   "volume": 310,
+   "volume": 330,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -620,15 +611,6 @@
   },
   {
    "keyword": "공모주수요예측",
-   "volume": 130,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 17.5,
-   "used": false
-  },
-  {
-   "keyword": "이번주공모주",
    "volume": 140,
    "comp": "높음",
    "entity": "",
@@ -637,8 +619,8 @@
    "used": false
   },
   {
-   "keyword": "공모주청약방법",
-   "volume": 840,
+   "keyword": "이번주공모주",
+   "volume": 120,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -646,8 +628,8 @@
    "used": false
   },
   {
-   "keyword": "공모주청약일정",
-   "volume": 1490,
+   "keyword": "공모주청약방법",
+   "volume": 830,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -656,7 +638,7 @@
   },
   {
    "keyword": "신규상장주식",
-   "volume": 850,
+   "volume": 840,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -674,7 +656,7 @@
   },
   {
    "keyword": "IPO일정",
-   "volume": 630,
+   "volume": 620,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -683,7 +665,7 @@
   },
   {
    "keyword": "오늘공모주",
-   "volume": 950,
+   "volume": 970,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -692,7 +674,7 @@
   },
   {
    "keyword": "공모주상장",
-   "volume": 950,
+   "volume": 1020,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -701,7 +683,7 @@
   },
   {
    "keyword": "주식청약",
-   "volume": 630,
+   "volume": 620,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -737,7 +719,7 @@
   },
   {
    "keyword": "8월상장주",
-   "volume": 70,
+   "volume": 60,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -746,7 +728,7 @@
   },
   {
    "keyword": "9월IPO",
-   "volume": 140,
+   "volume": 120,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -773,7 +755,7 @@
   },
   {
    "keyword": "더본코리아상장",
-   "volume": 90,
+   "volume": 80,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -791,7 +773,7 @@
   },
   {
    "keyword": "공모주캘린더",
-   "volume": 380,
+   "volume": 400,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -845,7 +827,7 @@
   },
   {
    "keyword": "주식상장일정",
-   "volume": 660,
+   "volume": 680,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -854,7 +836,7 @@
   },
   {
    "keyword": "12월공모주일정",
-   "volume": 60,
+   "volume": 70,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -863,7 +845,7 @@
   },
   {
    "keyword": "11월공모주",
-   "volume": 460,
+   "volume": 550,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -872,7 +854,7 @@
   },
   {
    "keyword": "공모주청약시간",
-   "volume": 800,
+   "volume": 830,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -890,7 +872,7 @@
   },
   {
    "keyword": "11월공모주일정",
-   "volume": 890,
+   "volume": 1050,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -917,7 +899,7 @@
   },
   {
    "keyword": "비상장주식거래",
-   "volume": 470,
+   "volume": 460,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -935,7 +917,7 @@
   },
   {
    "keyword": "상장종류",
-   "volume": 70,
+   "volume": 60,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -944,7 +926,7 @@
   },
   {
    "keyword": "상장폐지주식",
-   "volume": 960,
+   "volume": 940,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -980,7 +962,7 @@
   },
   {
    "keyword": "코스피상장사",
-   "volume": 60,
+   "volume": 50,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -989,7 +971,7 @@
   },
   {
    "keyword": "알바이오상장",
-   "volume": 75,
+   "volume": 65,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -998,7 +980,7 @@
   },
   {
    "keyword": "스팩상장",
-   "volume": 220,
+   "volume": 230,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1007,7 +989,7 @@
   },
   {
    "keyword": "10공모주",
-   "volume": 70,
+   "volume": 80,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1016,7 +998,7 @@
   },
   {
    "keyword": "상장주식",
-   "volume": 1110,
+   "volume": 1090,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1034,7 +1016,7 @@
   },
   {
    "keyword": "10월상장주식",
-   "volume": 340,
+   "volume": 360,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1043,7 +1025,7 @@
   },
   {
    "keyword": "10월신규상장",
-   "volume": 190,
+   "volume": 200,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1061,7 +1043,7 @@
   },
   {
    "keyword": "비상장주식시세",
-   "volume": 50,
+   "volume": 60,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1114,12 +1096,12 @@
    "used": false
   },
   {
-   "keyword": "넥스아이공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "넥스아이",
-   "entity_id": "01863318",
-   "score": 17.0,
+   "keyword": "재미있는상장",
+   "volume": 20,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 15.0,
    "used": false
   },
   {
@@ -1277,7 +1259,7 @@
   },
   {
    "keyword": "공모주알리미",
-   "volume": 20,
+   "volume": 15,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1285,8 +1267,8 @@
    "used": false
   },
   {
-   "keyword": "신규상장일정",
-   "volume": 1730,
+   "keyword": "공모주청약일정",
+   "volume": 1510,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1294,7 +1276,7 @@
    "used": false
   },
   {
-   "keyword": "신규상장",
+   "keyword": "신규상장일정",
    "volume": 1760,
    "comp": "높음",
    "entity": "",
@@ -1303,8 +1285,17 @@
    "used": false
   },
   {
-   "keyword": "10월공모주청약일정",
-   "volume": 4310,
+   "keyword": "신규상장",
+   "volume": 1780,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "9월공모주청약일정",
+   "volume": 4250,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1313,7 +1304,7 @@
   },
   {
    "keyword": "오늘상장주",
-   "volume": 2300,
+   "volume": 2310,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1322,7 +1313,7 @@
   },
   {
    "keyword": "비상장주식거래소",
-   "volume": 3750,
+   "volume": 3730,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1331,7 +1322,7 @@
   },
   {
    "keyword": "비상장주식",
-   "volume": 2160,
+   "volume": 2140,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1709,7 +1700,7 @@
   },
   {
    "keyword": "멜콘수요예측",
-   "volume": 5730,
+   "volume": 5860,
    "comp": "낮음",
    "entity": "멜콘",
    "entity_id": "01028933",
@@ -1799,7 +1790,7 @@
   },
   {
    "keyword": "디티에스공모주",
-   "volume": 9490,
+   "volume": 14080,
    "comp": "중간",
    "entity": "디티에스",
    "entity_id": "00534729",
@@ -1808,7 +1799,7 @@
   },
   {
    "keyword": "디티에스수요예측",
-   "volume": 5360,
+   "volume": 6370,
    "comp": "중간",
    "entity": "디티에스",
    "entity_id": "00534729",
@@ -1817,7 +1808,7 @@
   },
   {
    "keyword": "멜콘공모주",
-   "volume": 21860,
+   "volume": 23140,
    "comp": "중간",
    "entity": "멜콘",
    "entity_id": "01028933",
@@ -1826,7 +1817,7 @@
   },
   {
    "keyword": "진코스텍공모주",
-   "volume": 14100,
+   "volume": 14680,
    "comp": "중간",
    "entity": "진코스텍",
    "entity_id": "01158632",
@@ -1835,7 +1826,7 @@
   },
   {
    "keyword": "진코스텍수요예측",
-   "volume": 5160,
+   "volume": 5210,
    "comp": "중간",
    "entity": "진코스텍",
    "entity_id": "01158632",
@@ -1844,7 +1835,7 @@
   },
   {
    "keyword": "엘리스그룹공모주",
-   "volume": 49100,
+   "volume": 49700,
    "comp": "중간",
    "entity": "엘리스그룹",
    "entity_id": "01754737",
@@ -1853,7 +1844,16 @@
   },
   {
    "keyword": "엠에스바이오공모주",
-   "volume": 9170,
+   "volume": 9990,
+   "comp": "중간",
+   "entity": "엠에스바이오",
+   "entity_id": "01749559",
+   "score": 4.2,
+   "used": false
+  },
+  {
+   "keyword": "엠에스바이오수요예측",
+   "volume": 4530,
    "comp": "중간",
    "entity": "엠에스바이오",
    "entity_id": "01749559",
@@ -1862,7 +1862,7 @@
   },
   {
    "keyword": "엘리스그룹수요예측",
-   "volume": 14920,
+   "volume": 15020,
    "comp": "중간",
    "entity": "엘리스그룹",
    "entity_id": "01754737",
@@ -2042,7 +2042,7 @@
   },
   {
    "keyword": "공모주일정",
-   "volume": 6610,
+   "volume": 6740,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2051,7 +2051,7 @@
   },
   {
    "keyword": "공모주청약",
-   "volume": 9430,
+   "volume": 9540,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2060,7 +2060,7 @@
   },
   {
    "keyword": "9월공모주일정",
-   "volume": 35990,
+   "volume": 32480,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2069,7 +2069,7 @@
   },
   {
    "keyword": "공모주",
-   "volume": 65300,
+   "volume": 65700,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2078,7 +2078,7 @@
   },
   {
    "keyword": "10월공모주",
-   "volume": 16230,
+   "volume": 17250,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2087,7 +2087,7 @@
   },
   {
    "keyword": "신규상장주",
-   "volume": 9310,
+   "volume": 9430,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2096,7 +2096,7 @@
   },
   {
    "keyword": "신규상장종목",
-   "volume": 8280,
+   "volume": 8310,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2105,7 +2105,7 @@
   },
   {
    "keyword": "청약일정",
-   "volume": 6290,
+   "volume": 6180,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2113,8 +2113,8 @@
    "used": false
   },
   {
-   "keyword": "9월공모주청약일정",
-   "volume": 4560,
+   "keyword": "10월공모주청약일정",
+   "volume": 4510,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2123,7 +2123,7 @@
   },
   {
    "keyword": "9월공모주",
-   "volume": 8350,
+   "volume": 7580,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2132,7 +2132,7 @@
   },
   {
    "keyword": "코스닥신규상장종목",
-   "volume": 7230,
+   "volume": 7290,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -2141,7 +2141,7 @@
   },
   {
    "keyword": "9월신규상장주",
-   "volume": 5780,
+   "volume": 5620,
    "comp": "높음",
    "entity": "",
    "entity_id": "",

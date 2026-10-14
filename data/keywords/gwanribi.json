@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 08:44",
+ "updated": "2026-10-15 05:32",
  "stage": 1,
  "band": [
   30,
@@ -26,7 +26,7 @@
   },
   {
    "keyword": "공용관리비",
-   "volume": 80,
+   "volume": 70,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -71,7 +71,7 @@
   },
   {
    "keyword": "잠실르엘관리비",
-   "volume": 65,
+   "volume": 55,
    "comp": "중간",
    "entity": "잠실르엘",
    "entity_id": "A10020230",
@@ -98,7 +98,7 @@
   },
   {
    "keyword": "장기수선",
-   "volume": 100,
+   "volume": 90,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -115,11 +115,29 @@
    "used": false
   },
   {
+   "keyword": "올림픽파크포레온관리비",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "올림픽파크포레온",
+   "entity_id": "A10021122",
+   "score": 70.0,
+   "used": false
+  },
+  {
    "keyword": "관리비평균",
    "volume": 15,
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "잠실래미안아이파크관리비",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "잠실래미안아이파크",
+   "entity_id": "A10020294",
    "score": 60.0,
    "used": false
   },
@@ -130,15 +148,6 @@
    "entity": "헬리오시티",
    "entity_id": "A10025850",
    "score": 60.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선충당금적립및사용현황",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 42.0,
    "used": false
   },
   {
@@ -246,6 +255,294 @@
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악구",
+   "entity_id": "region:11620",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악구",
+   "entity_id": "region:11620",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악벽산블루밍임대관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악벽산블루밍임대",
+   "entity_id": "A15178204",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악파크푸르지오관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악파크푸르지오",
+   "entity_id": "A15105008",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "대학동현대관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "대학동현대",
+   "entity_id": "A15186002",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악동부센트레빌관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악동부센트레빌",
+   "entity_id": "A15192201",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "서울대입구아이원관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서울대입구아이원",
+   "entity_id": "A15184101",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "신림신도브래뉴관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신림신도브래뉴",
+   "entity_id": "A15101802",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "임광관악파크관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "임광관악파크",
+   "entity_id": "A15179701",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "힐스테이트뉴포레관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "힐스테이트뉴포레",
+   "entity_id": "A10023661",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "E편한세상서울대입구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "e편한세상서울대입구",
+   "entity_id": "A10025092",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악국제산장관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악국제산장",
+   "entity_id": "A15176701",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악우성관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악우성",
+   "entity_id": "A15105603",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악푸르지오관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악푸르지오",
+   "entity_id": "A15105302",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "봉천은천2단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "봉천은천2단지",
+   "entity_id": "A15106103",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "삼성산주공3단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "삼성산주공3단지",
+   "entity_id": "A15101506",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "센터스퀘어서울대점관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "센터스퀘어 서울대점",
+   "entity_id": "A10021418",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "신림건영2차관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신림건영2차",
+   "entity_id": "A15188101",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "신림쌍용관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신림쌍용",
+   "entity_id": "A15102203",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "신림푸르지오관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신림푸르지오",
+   "entity_id": "A15190705",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "건영3차관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "건영3차",
+   "entity_id": "A15101903",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악드림타운관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악드림타운",
+   "entity_id": "A15180705",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "보라매삼성관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "보라매삼성",
+   "entity_id": "A15105004",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악드림타운제2관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악드림타운제2",
+   "entity_id": "A15105503",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악산휴먼시아관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악산휴먼시아",
+   "entity_id": "A15101504",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악현대관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악현대",
+   "entity_id": "A15105303",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "성현동아관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성현동아",
+   "entity_id": "A15176202",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "신림건영1차관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신림건영1차",
+   "entity_id": "A15185704",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "관악푸르지오제2단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악푸르지오제2단지",
+   "entity_id": "A15105301",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "봉천동아제2관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "봉천동아제2",
+   "entity_id": "A15192202",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "봉천우성제2관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "봉천우성제2",
+   "entity_id": "A15105602",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "신림주공1단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신림주공1단지",
+   "entity_id": "A15101507",
    "score": 20.0,
    "used": false
   },
@@ -985,7 +1282,7 @@
    "entity": "송파구",
    "entity_id": "region:11710",
    "score": 20.0,
-   "used": false
+   "used": true
   },
   {
    "keyword": "수서주공관리비",
@@ -1002,15 +1299,6 @@
    "comp": "낮음",
    "entity": "롯데캐슬골드",
    "entity_id": "A13872502",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "잠실래미안아이파크관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "잠실래미안아이파크",
-   "entity_id": "A10020294",
    "score": 20.0,
    "used": false
   },
@@ -1672,11 +1960,524 @@
    "used": false
   },
   {
+   "keyword": "강동구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동구",
+   "entity_id": "region:11740",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동구",
+   "entity_id": "region:11740",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "둔촌신동아관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "둔촌신동아",
+   "entity_id": "A13406204",
+   "score": 20.0,
+   "used": false
+  },
+  {
    "keyword": "위례포레샤인관리비",
    "volume": 10,
    "comp": "낮음",
    "entity": "위례포레샤인",
    "entity_id": "A10026682",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동현대홈타운관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동현대홈타운",
+   "entity_id": "A13485301",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕리엔파크2단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕리엔파크2단지",
+   "entity_id": "A13410011",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕아남관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕아남",
+   "entity_id": "A13480403",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "천호삼성관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "천호삼성",
+   "entity_id": "A13402305",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕롯데캐슬베네루체관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕롯데캐슬베네루체",
+   "entity_id": "A10025112",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕숲아이파크관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕숲아이파크",
+   "entity_id": "A10026403",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕풍경채어바니티관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕풍경채어바니티",
+   "entity_id": "A10022715",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "래미안솔베뉴관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "래미안솔베뉴",
+   "entity_id": "A10025415",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "래미안힐스테이트고덕관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "래미안힐스테이트 고덕",
+   "entity_id": "A10027207",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크10단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크10단지",
+   "entity_id": "A13410005",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕센트럴아이파크관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕센트럴 아이파크",
+   "entity_id": "A10025104",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕아이파크관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕아이파크",
+   "entity_id": "A13408003",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "둔촌프라자관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "둔촌프라자",
+   "entity_id": "A13406005",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "힐스테이트강동리버뷰관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "힐스테이트강동리버뷰",
+   "entity_id": "A10025174",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "E편한세상고덕어반브릿지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "e편한세상 고덕 어반브릿지",
+   "entity_id": "A10022756",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크8단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크8단지",
+   "entity_id": "A13410002",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕아르테온관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕 아르테온",
+   "entity_id": "A10025010",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "명일동우성관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "명일동우성",
+   "entity_id": "A13482505",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "명일삼환관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "명일삼환",
+   "entity_id": "A13407202",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "SK허브진주상복합관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "SK허브진주상복합",
+   "entity_id": "A13484004",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리버스트4단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동리버스트4단지",
+   "entity_id": "A10024468",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동헤리티지자이관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동헤리티지자이",
+   "entity_id": "A10022525",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "명일신동아관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "명일신동아",
+   "entity_id": "A13407204",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리버스트8단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동리버스트 8단지",
+   "entity_id": "A10024440",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕주공9단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕주공9단지",
+   "entity_id": "A13482706",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "더샵둔촌포레관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "더샵둔촌포레",
+   "entity_id": "A10021705",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "성내삼성관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성내삼성",
+   "entity_id": "A13403101",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "올림픽파크한양수자인관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "올림픽파크한양수자인",
+   "entity_id": "A10027354",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크4단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크4단지",
+   "entity_id": "A13410006",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크5단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크5단지",
+   "entity_id": "A13410009",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕리엔파크1단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕리엔파크1단지",
+   "entity_id": "A13410012",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕현대관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "고덕현대",
+   "entity_id": "A13480401",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "명일삼익그린2차관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "명일삼익그린2차",
+   "entity_id": "A13407104",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크3단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크3단지",
+   "entity_id": "A13410008",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크7단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크7단지",
+   "entity_id": "A13410010",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "둔촌푸르지오관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "둔촌푸르지오",
+   "entity_id": "A13470503",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "천호동아하이빌관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "천호동아하이빌",
+   "entity_id": "A13486504",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "프라이어팰리스관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "프라이어팰리스",
+   "entity_id": "A13405003",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리엔파크14단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동리엔파크 14단지",
+   "entity_id": "A10024412",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크2단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크2단지",
+   "entity_id": "A13410003",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "암사삼성광나루관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "암사삼성광나루",
+   "entity_id": "A13405002",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "암사한강현대관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "암사한강현대",
+   "entity_id": "A13471501",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동롯데캐슬퍼스트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동롯데캐슬퍼스트",
+   "entity_id": "A13485302",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크9단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크9단지",
+   "entity_id": "A13410007",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "길동GS강동자이관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "길동GS강동자이",
+   "entity_id": "A13488104",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "신성둔촌미소지움1차관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신성둔촌미소지움1차",
+   "entity_id": "A13406205",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강일리버파크11단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강일리버파크11단지",
+   "entity_id": "A10027638",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "암사선사현대관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "암사선사현대",
+   "entity_id": "A13405201",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리버스트7단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동 리버스트 7단지",
+   "entity_id": "A10024421",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리엔파크11단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동리엔파크11단지",
+   "entity_id": "A10024420",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리엔파크13단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동리엔파크13단지",
+   "entity_id": "A10023855",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리엔파크9단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동리엔파크9단지",
+   "entity_id": "A10024410",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "명일지에스관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "명일지에스",
+   "entity_id": "A13483002",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "강동리버스트6단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동리버스트6단지",
+   "entity_id": "A10024422",
    "score": 20.0,
    "used": false
   },
@@ -1700,7 +2501,7 @@
   },
   {
    "keyword": "관리비",
-   "volume": 1410,
+   "volume": 1450,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1718,7 +2519,7 @@
   },
   {
    "keyword": "관리비내역",
-   "volume": 50,
+   "volume": 40,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1727,7 +2528,7 @@
   },
   {
    "keyword": "아파트관리사무소",
-   "volume": 1120,
+   "volume": 1110,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1736,7 +2537,7 @@
   },
   {
    "keyword": "관리비부과",
-   "volume": 30,
+   "volume": 40,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1754,7 +2555,7 @@
   },
   {
    "keyword": "관리비부과대행",
-   "volume": 40,
+   "volume": 50,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1785,6 +2586,24 @@
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "신림현대관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "신림현대",
+   "entity_id": "A15101508",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "봉천두산3단지관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "봉천두산3단지",
+   "entity_id": "A15178203",
    "score": 17.0,
    "used": false
   },
@@ -1843,12 +2662,48 @@
    "used": false
   },
   {
+   "keyword": "고덕리엔파크3단지관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "고덕리엔파크3단지",
+   "entity_id": "A13472701",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "길동우성2차관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "길동우성2차",
+   "entity_id": "A13481305",
+   "score": 17.0,
+   "used": false
+  },
+  {
+   "keyword": "더샵강동센트럴시티관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "더샵강동센트럴시티",
+   "entity_id": "A10020336",
+   "score": 17.0,
+   "used": false
+  },
+  {
    "keyword": "관리비계산",
    "volume": 15,
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
    "score": 15.0,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금적립및사용현황",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 14.0,
    "used": false
   },
   {
@@ -1924,8 +2779,35 @@
    "used": false
   },
   {
+   "keyword": "래미안강동팰리스관리비",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "래미안강동팰리스",
+   "entity_id": "A10026852",
+   "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "고덕센트럴푸르지오관리비",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "고덕센트럴푸르지오",
+   "entity_id": "A10024562",
+   "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "건물관리비용",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
    "keyword": "아파트관리비",
-   "volume": 3110,
+   "volume": 3140,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1934,7 +2816,7 @@
   },
   {
    "keyword": "관리사무소",
-   "volume": 2900,
+   "volume": 2920,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -1969,6 +2851,15 @@
    "used": false
   },
   {
+   "keyword": "봉천두산12단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
    "keyword": "수서11단지관리비",
    "volume": 10,
    "comp": "낮음",
@@ -1987,6 +2878,15 @@
    "used": false
   },
   {
+   "keyword": "명일삼익가든12차관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
    "keyword": "아파트관리비관리",
    "volume": 10,
    "comp": "중간",
@@ -1997,7 +2897,7 @@
   },
   {
    "keyword": "장기수선충당금",
-   "volume": 12430,
+   "volume": 12400,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -2042,15 +2942,6 @@
   },
   {
    "keyword": "관리비ERP",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false
-  },
-  {
-   "keyword": "건물관리비용",
    "volume": 10,
    "comp": "높음",
    "entity": "",
