@@ -408,6 +408,8 @@ def main() -> int:
             summary.append(f"- 검토 대기: {meta.get('title')} (posts/review/)")
             continue
         errs = check_text(meta, body, recent_posts())
+        from seo import seo_errors  # 검색 노출(SEO·AEO·GEO) 필수 항목도 통과해야 발행
+        errs += seo_errors(meta, body)
         if errs:
             failed += 1
             HELD.mkdir(parents=True, exist_ok=True)

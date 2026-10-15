@@ -506,9 +506,13 @@ def check_file(path: Path) -> list[str]:
 if __name__ == "__main__":
     bad = 0
     for arg in sys.argv[1:]:
-        errs = check_file(Path(arg))
+        from seo import _split, seo_errors, seo_warnings
+        m_, b_ = _split(Path(arg).read_text("utf-8"))
+        errs = check_file(Path(arg)) + seo_errors(m_, b_)
         print(f"[{'통과' if not errs else '실패'}] {arg}")
         for e in errs:
             print("  -", e)
+        for w in seo_warnings(m_, b_):
+            print("  · 검색 권장:", w)
         bad += bool(errs)
     sys.exit(1 if bad else 0)
