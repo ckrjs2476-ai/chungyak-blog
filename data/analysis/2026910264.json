@@ -1,0 +1,73 @@
+{
+ "no": "2026910264",
+ "name": "시흥 은계 에피트(조합원 취소분)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-10-15",
+ "rank1_date": "2026-10-20",
+ "city": "시흥시",
+ "supply_kind": "",
+ "winner_date": "2026-10-23",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910264&pblancNo=2026910264",
+ "households": 16,
+ "types": [
+  {
+   "ty": "48.819",
+   "size": 48,
+   "price": 37900,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "52.185A",
+   "size": 52,
+   "price": 42500,
+   "area_m2": null,
+   "general": 10,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.612A",
+   "size": 59,
+   "price": 48500,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.057C",
+   "size": 59,
+   "price": 45900,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 16,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "market": {
+  "region": "경기도 시흥시",
+  "lawd": "41390",
+  "months": 12,
+  "updated": "2026-10-15",
+  "n84": 2147,
+  "median84": 54000,
+  "p25_84": 40000,
+  "p75_84": 60000,
+  "new_n84": 249,
+  "new_median84": 67000,
+  "new_build_years": 5,
+  "umd": "은행동",
+  "umd_n84": 272,
+  "umd_median84": 57000
+ }
+}

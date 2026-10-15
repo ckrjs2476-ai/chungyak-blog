@@ -1,5 +1,5 @@
 {
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "weekly_competition": [
   {
    "no": "2026000463",
@@ -79,7 +79,7 @@
    "region": "전남",
    "rank1_avg_rate": 0.0,
    "best": null,
-   "final_shortfall_total": 57,
+   "final_shortfall_total": 55,
    "rank1_closed_types": 0,
    "type_count": 2
   }
@@ -136,51 +136,6 @@
    ]
   },
   {
-   "no": "2026910256",
-   "name": "상동역 롯데캐슬 시그니처",
-   "region": "경기",
-   "households": 785,
-   "rcept_date": "2026-10-12",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910256&pblancNo=2026910256",
-   "types": [
-    {
-     "ty": "84.9199A",
-     "price": 162200,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.7123B",
-     "price": 149900,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9874C",
-     "price": 159800,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9074D",
-     "price": 159900,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9872E",
-     "price": 161300,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9928F",
-     "price": 159900,
-     "pyeong_price": null
-    },
-    {
-     "ty": "187.5097P",
-     "price": 572700,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
    "no": "2026910259",
    "name": "시티오씨엘 9단지 오션파크뷰",
    "region": "인천",
@@ -211,6 +166,46 @@
     {
      "ty": "84.9861B",
      "price": 94000,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910261",
+   "name": "올 뉴 챔피언스시티 1차",
+   "region": "광주",
+   "households": 729,
+   "rcept_date": "2026-10-20",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910261&pblancNo=2026910261",
+   "types": [
+    {
+     "ty": "84.973A",
+     "price": 87000,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9479B",
+     "price": 87000,
+     "pyeong_price": null
+    },
+    {
+     "ty": "103.059A",
+     "price": 105300,
+     "pyeong_price": null
+    },
+    {
+     "ty": "112.3407A",
+     "price": 119500,
+     "pyeong_price": null
+    },
+    {
+     "ty": "128.5318A",
+     "price": 135500,
+     "pyeong_price": null
+    },
+    {
+     "ty": "214.8717D",
+     "price": 313000,
      "pyeong_price": null
     }
    ]
@@ -261,62 +256,32 @@
    ]
   },
   {
-   "no": "2026930033",
-   "name": "도안 푸르지오 디아델 29블록",
-   "region": "대전",
-   "households": 3,
-   "rcept_date": "2026-10-12",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930033&pblancNo=2026930033",
+   "no": "2026910264",
+   "name": "시흥 은계 에피트(조합원 취소분)",
+   "region": "경기",
+   "households": 16,
+   "rcept_date": "2026-10-20",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910264&pblancNo=2026910264",
    "types": [
     {
-     "ty": "106.95A",
-     "price": 95400,
-     "pyeong_price": 2302
+     "ty": "48.819",
+     "price": 37900,
+     "pyeong_price": null
     },
     {
-     "ty": "124",
-     "price": 106900,
-     "pyeong_price": 2245
-    }
-   ]
-  },
-  {
-   "no": "2026930034",
-   "name": "도안 푸르지오 디아델 31블록",
-   "region": "대전",
-   "households": 4,
-   "rcept_date": "2026-10-12",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930034&pblancNo=2026930034",
-   "types": [
-    {
-     "ty": "59.98",
-     "price": 53200,
-     "pyeong_price": 2248
+     "ty": "52.185A",
+     "price": 42500,
+     "pyeong_price": null
     },
     {
-     "ty": "84.94A",
-     "price": 73300,
-     "pyeong_price": 2221
+     "ty": "59.612A",
+     "price": 48500,
+     "pyeong_price": null
     },
     {
-     "ty": "124",
-     "price": 101100,
-     "pyeong_price": 2106
-    }
-   ]
-  },
-  {
-   "no": "2026930041",
-   "name": "세종 리더스포레 나릿재마을 1단지",
-   "region": "세종",
-   "households": 1,
-   "rcept_date": "2026-10-12",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930041&pblancNo=2026930041",
-   "types": [
-    {
-     "ty": "84.9649D",
-     "price": 34320,
-     "pyeong_price": 1007
+     "ty": "59.057C",
+     "price": 45900,
+     "pyeong_price": null
     }
    ]
   }
@@ -1023,6 +988,12 @@
     "max_pyeong": 1949,
     "min_pyeong": 1949
    },
+   "충북": {
+    "count": 3,
+    "avg_pyeong": 1570,
+    "max_pyeong": 1634,
+    "min_pyeong": 1497
+   },
    "인천": {
     "count": 1,
     "avg_pyeong": 2995,
@@ -1052,12 +1023,6 @@
     "avg_pyeong": 1534,
     "max_pyeong": 1534,
     "min_pyeong": 1534
-   },
-   "충북": {
-    "count": 2,
-    "avg_pyeong": 1607,
-    "max_pyeong": 1634,
-    "min_pyeong": 1580
    },
    "대구": {
     "count": 1,
@@ -1248,6 +1213,22 @@
     "special_kinds": {}
    },
    {
+    "no": "2026000455",
+    "name": "신분평 에피트 더웨이시티",
+    "region": "충북",
+    "households": 992,
+    "pyeong_avg": 1497,
+    "price_84_min": 49890,
+    "special_kinds": {
+     "신혼부부": 135,
+     "생애최초": 63,
+     "신생아": 90,
+     "다자녀": 98,
+     "노부모 부양": 15,
+     "기관추천": 90
+    }
+   },
+   {
     "no": "2026000267",
     "name": "아산 그랑시티필하우스",
     "region": "충남",
@@ -1297,14 +1278,14 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 842,
-   "생애최초": 419,
-   "신생아": 603,
-   "다자녀": 702,
-   "노부모 부양": 213,
-   "기관추천": 621
+   "신혼부부": 977,
+   "생애최초": 482,
+   "신생아": 693,
+   "다자녀": 800,
+   "노부모 부양": 228,
+   "기관추천": 711
   },
-  "households_total": 7266
+  "households_total": 8258
  },
  "last_month": {
   "month": "2026-09",
