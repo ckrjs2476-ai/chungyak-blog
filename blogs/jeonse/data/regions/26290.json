@@ -1,0 +1,307 @@
+{
+ "lawd": "26290",
+ "name": "부산광역시 남구",
+ "updated": "2026-10-15",
+ "months": 12,
+ "jeonse_count": 2089,
+ "wolse_count": 1821,
+ "wolse_share_pct": 46.6,
+ "renew_share_pct": 32.0,
+ "jeonse_n84": 763,
+ "jeonse_median84": 37400,
+ "sale_n84": 946,
+ "sale_median84": 52600,
+ "ratio84": 71.1,
+ "jeonse_recent3_median84": 38425,
+ "jeonse_prev3_median84": 35000,
+ "jeonse_change_pct": 9.8,
+ "apts_with_both": 49,
+ "apts_ratio_80_plus": 4,
+ "apts_ratio_70_plus": 24,
+ "umd": {
+  "감만동": {
+   "jeonse_n": 8,
+   "jeonse_median84": 19000,
+   "sale_n": 9,
+   "sale_median84": 22700,
+   "ratio": 83.7
+  },
+  "대연동": {
+   "jeonse_n": 423,
+   "jeonse_median84": 45000,
+   "sale_n": 442,
+   "sale_median84": 73850,
+   "ratio": 60.9
+  },
+  "문현동": {
+   "jeonse_n": 109,
+   "jeonse_median84": 34000,
+   "sale_n": 190,
+   "sale_median84": 43850,
+   "ratio": 77.5
+  },
+  "용당동": {
+   "jeonse_n": 13,
+   "jeonse_median84": 22000,
+   "sale_n": 34,
+   "sale_median84": 30750,
+   "ratio": 71.5
+  },
+  "용호동": {
+   "jeonse_n": 181,
+   "jeonse_median84": 30975,
+   "sale_n": 239,
+   "sale_median84": 49900,
+   "ratio": 62.1
+  },
+  "우암동": {
+   "jeonse_n": 29,
+   "jeonse_median84": 18000,
+   "sale_n": 32,
+   "sale_median84": 25600,
+   "ratio": 70.3
+  }
+ },
+ "top_ratio_apts": [
+  {
+   "umd": "대연동",
+   "apt": "신원",
+   "built": 2000,
+   "jeonse_n": 2,
+   "jeonse_median84": 18250,
+   "sale_n": 2,
+   "sale_median84": 19000,
+   "ratio": 96.1
+  },
+  {
+   "umd": "우암동",
+   "apt": "우암자유3",
+   "built": 1994,
+   "jeonse_n": 3,
+   "jeonse_median84": 19000,
+   "sale_n": 2,
+   "sale_median84": 21050,
+   "ratio": 90.3
+  },
+  {
+   "umd": "대연동",
+   "apt": "삼익그린",
+   "built": 2001,
+   "jeonse_n": 5,
+   "jeonse_median84": 18000,
+   "sale_n": 6,
+   "sale_median84": 21350,
+   "ratio": 84.3
+  },
+  {
+   "umd": "대연동",
+   "apt": "아이홈대연",
+   "built": 2019,
+   "jeonse_n": 3,
+   "jeonse_median84": 30000,
+   "sale_n": 3,
+   "sale_median84": 36000,
+   "ratio": 83.3
+  },
+  {
+   "umd": "대연동",
+   "apt": "청구",
+   "built": 2001,
+   "jeonse_n": 6,
+   "jeonse_median84": 21000,
+   "sale_n": 8,
+   "sale_median84": 26350,
+   "ratio": 79.7
+  },
+  {
+   "umd": "우암동",
+   "apt": "우암중앙하이츠아파트",
+   "built": 2004,
+   "jeonse_n": 4,
+   "jeonse_median84": 23000,
+   "sale_n": 10,
+   "sale_median84": 29150,
+   "ratio": 78.9
+  },
+  {
+   "umd": "우암동",
+   "apt": "일신보라",
+   "built": 1998,
+   "jeonse_n": 5,
+   "jeonse_median84": 16000,
+   "sale_n": 5,
+   "sale_median84": 20500,
+   "ratio": 78.0
+  },
+  {
+   "umd": "용호동",
+   "apt": "용호동일신님(林)Ⅱ",
+   "built": 2006,
+   "jeonse_n": 9,
+   "jeonse_median84": 28000,
+   "sale_n": 17,
+   "sale_median84": 36100,
+   "ratio": 77.6
+  },
+  {
+   "umd": "용당동",
+   "apt": "현대아이파크",
+   "built": 2002,
+   "jeonse_n": 2,
+   "jeonse_median84": 21500,
+   "sale_n": 8,
+   "sale_median84": 27750,
+   "ratio": 77.5
+  },
+  {
+   "umd": "대연동",
+   "apt": "장백장미타워1",
+   "built": 1996,
+   "jeonse_n": 3,
+   "jeonse_median84": 17000,
+   "sale_n": 4,
+   "sale_median84": 22000,
+   "ratio": 77.3
+  }
+ ],
+ "low_ratio_apts": [
+  {
+   "umd": "대연동",
+   "apt": "더비치푸르지오써밋",
+   "built": 2025,
+   "jeonse_n": 57,
+   "jeonse_median84": 57750,
+   "sale_n": 16,
+   "sale_median84": 144000,
+   "ratio": 40.1
+  },
+  {
+   "umd": "대연동",
+   "apt": "대연푸르지오클라센트1단지",
+   "built": 2024,
+   "jeonse_n": 29,
+   "jeonse_median84": 34000,
+   "sale_n": 27,
+   "sale_median84": 71800,
+   "ratio": 47.4
+  },
+  {
+   "umd": "대연동",
+   "apt": "대연힐스테이트푸르지오",
+   "built": 2013,
+   "jeonse_n": 65,
+   "jeonse_median84": 51000,
+   "sale_n": 52,
+   "sale_median84": 100000,
+   "ratio": 51.0
+  },
+  {
+   "umd": "대연동",
+   "apt": "힐스테이트대연센트럴",
+   "built": 2024,
+   "jeonse_n": 9,
+   "jeonse_median84": 43000,
+   "sale_n": 5,
+   "sale_median84": 84000,
+   "ratio": 51.2
+  },
+  {
+   "umd": "대연동",
+   "apt": "대연자이",
+   "built": 2019,
+   "jeonse_n": 5,
+   "jeonse_median84": 45000,
+   "sale_n": 6,
+   "sale_median84": 83000,
+   "ratio": 54.2
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-11",
+   "jeonse_count": 205,
+   "n84": 85,
+   "jeonse_median84": 39000
+  },
+  {
+   "month": "2025-12",
+   "jeonse_count": 249,
+   "n84": 99,
+   "jeonse_median84": 39000
+  },
+  {
+   "month": "2026-01",
+   "jeonse_count": 263,
+   "n84": 85,
+   "jeonse_median84": 34000
+  },
+  {
+   "month": "2026-02",
+   "jeonse_count": 192,
+   "n84": 72,
+   "jeonse_median84": 39000
+  },
+  {
+   "month": "2026-03",
+   "jeonse_count": 202,
+   "n84": 77,
+   "jeonse_median84": 37000
+  },
+  {
+   "month": "2026-04",
+   "jeonse_count": 174,
+   "n84": 64,
+   "jeonse_median84": 41475
+  },
+  {
+   "month": "2026-05",
+   "jeonse_count": 136,
+   "n84": 54,
+   "jeonse_median84": 34000
+  },
+  {
+   "month": "2026-06",
+   "jeonse_count": 168,
+   "n84": 55,
+   "jeonse_median84": 31200
+  },
+  {
+   "month": "2026-07",
+   "jeonse_count": 159,
+   "n84": 56,
+   "jeonse_median84": 34178
+  },
+  {
+   "month": "2026-08",
+   "jeonse_count": 148,
+   "n84": 51,
+   "jeonse_median84": 40000
+  },
+  {
+   "month": "2026-09",
+   "jeonse_count": 145,
+   "n84": 51,
+   "jeonse_median84": 39900
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 48,
+   "n84": 14,
+   "jeonse_median84": 45000
+  }
+ ],
+ "rank": 24,
+ "rank_of": 87,
+ "avg_ratio84_all": 65.4,
+ "ratio_vs_avg_pp": 5.7,
+ "umd_ratio_high": {
+  "name": "문현동",
+  "ratio": 77.5
+ },
+ "umd_ratio_low": {
+  "name": "대연동",
+  "ratio": 60.9
+ },
+ "umd_spread_pp": 16.6,
+ "gap84": 15200
+}
