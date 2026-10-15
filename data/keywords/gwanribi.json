@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15 05:32",
+ "updated": "2026-10-16 02:50",
  "stage": 1,
  "band": [
   30,
@@ -13,7 +13,10 @@
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
    "score": 100.0,
-   "used": false
+   "used": false,
+   "base_score": 100.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "관리비항목",
@@ -22,7 +25,10 @@
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
    "score": 100.0,
-   "used": false
+   "used": false,
+   "base_score": 100.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "공용관리비",
@@ -30,8 +36,11 @@
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 85.0,
-   "used": false
+   "score": 93.5,
+   "used": false,
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "아파트장기수선충당금",
@@ -39,8 +48,11 @@
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 85.0,
-   "used": false
+   "score": 93.5,
+   "used": false,
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "아파트관리비고지서",
@@ -48,8 +60,11 @@
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 85.0,
-   "used": false
+   "score": 93.5,
+   "used": false,
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "장기수선충당금인상",
@@ -57,8 +72,11 @@
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 85.0,
-   "used": false
+   "score": 93.5,
+   "used": false,
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "아파트장기수선계획",
@@ -66,8 +84,11 @@
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 85.0,
-   "used": false
+   "score": 93.5,
+   "used": false,
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "잠실르엘관리비",
@@ -76,7 +97,10 @@
    "entity": "잠실르엘",
    "entity_id": "A10020230",
    "score": 85.0,
-   "used": false
+   "used": false,
+   "base_score": 85.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "장기수선계획",
@@ -84,8 +108,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 70.0,
-   "used": false
+   "score": 77.0,
+   "used": false,
+   "base_score": 70.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "관리비고지서",
@@ -93,8 +120,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 70.0,
-   "used": false
+   "score": 77.0,
+   "used": false,
+   "base_score": 70.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "장기수선",
@@ -102,8 +132,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 70.0,
-   "used": false
+   "score": 77.0,
+   "used": false,
+   "base_score": 70.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "장기수선계획조정",
@@ -111,8 +144,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 70.0,
-   "used": false
+   "score": 77.0,
+   "used": false,
+   "base_score": 70.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "올림픽파크포레온관리비",
@@ -121,7 +157,10 @@
    "entity": "올림픽파크포레온",
    "entity_id": "A10021122",
    "score": 70.0,
-   "used": false
+   "used": false,
+   "base_score": 70.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비평균",
@@ -129,8 +168,11 @@
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 60.0,
-   "used": false
+   "score": 66.0,
+   "used": false,
+   "base_score": 60.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "잠실래미안아이파크관리비",
@@ -139,7 +181,10 @@
    "entity": "잠실래미안아이파크",
    "entity_id": "A10020294",
    "score": 60.0,
-   "used": false
+   "used": false,
+   "base_score": 60.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "헬리오시티관리비",
@@ -148,7 +193,10 @@
    "entity": "헬리오시티",
    "entity_id": "A10025850",
    "score": 60.0,
-   "used": false
+   "used": false,
+   "base_score": 60.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "장기수선충당금사용",
@@ -156,8 +204,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 42.0,
-   "used": false
+   "score": 46.2,
+   "used": false,
+   "base_score": 42.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "장기수선충당금항목",
@@ -165,8 +216,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 42.0,
-   "used": false
+   "score": 46.2,
+   "used": false,
+   "base_score": 42.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "아파트난방비",
@@ -174,8 +228,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 42.0,
-   "used": false
+   "score": 46.2,
+   "used": false,
+   "base_score": 42.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "개포자이프레지던스관리비",
@@ -184,7 +241,10 @@
    "entity": "개포자이프레지던스",
    "entity_id": "A10023348",
    "score": 42.0,
-   "used": false
+   "used": false,
+   "base_score": 42.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "갤러리아팰리스관리비",
@@ -193,7 +253,10 @@
    "entity": "갤러리아팰리스",
    "entity_id": "A13822301",
    "score": 42.0,
-   "used": false
+   "used": false,
+   "base_score": 42.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아파트관리비비교",
@@ -202,7 +265,46 @@
    "entity": "",
    "entity_id": "",
    "score": 25.0,
-   "used": false
+   "used": false,
+   "base_score": 25.0,
+   "growth": 1.0,
+   "why": ""
+  },
+  {
+   "keyword": "장기수선계획프로그램",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 22.0,
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "장기수선계획검토",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 22.0,
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "장기수선계획시스템",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 22.0,
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "아파트관리비확인",
@@ -211,7 +313,10 @@
    "entity": "",
    "entity_id": "",
    "score": 21.2,
-   "used": false
+   "used": false,
+   "base_score": 21.2,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아파트관리비혜택",
@@ -220,7 +325,10 @@
    "entity": "",
    "entity_id": "",
    "score": 21.2,
-   "used": false
+   "used": false,
+   "base_score": 21.2,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아파트관리비명세서",
@@ -229,34 +337,10 @@
    "entity": "",
    "entity_id": "",
    "score": 21.2,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획프로그램",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획검토",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획시스템",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 21.2,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악구관리비",
@@ -265,7 +349,10 @@
    "entity": "관악구",
    "entity_id": "region:11620",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악구아파트관리비",
@@ -274,7 +361,10 @@
    "entity": "관악구",
    "entity_id": "region:11620",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악벽산블루밍임대관리비",
@@ -283,7 +373,10 @@
    "entity": "관악벽산블루밍임대",
    "entity_id": "A15178204",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악파크푸르지오관리비",
@@ -292,7 +385,10 @@
    "entity": "관악파크푸르지오",
    "entity_id": "A15105008",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대학동현대관리비",
@@ -301,7 +397,10 @@
    "entity": "대학동현대",
    "entity_id": "A15186002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악동부센트레빌관리비",
@@ -310,7 +409,10 @@
    "entity": "관악동부센트레빌",
    "entity_id": "A15192201",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "서울대입구아이원관리비",
@@ -319,7 +421,10 @@
    "entity": "서울대입구아이원",
    "entity_id": "A15184101",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신림신도브래뉴관리비",
@@ -328,7 +433,10 @@
    "entity": "신림신도브래뉴",
    "entity_id": "A15101802",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "임광관악파크관리비",
@@ -337,7 +445,10 @@
    "entity": "임광관악파크",
    "entity_id": "A15179701",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "힐스테이트뉴포레관리비",
@@ -346,7 +457,10 @@
    "entity": "힐스테이트뉴포레",
    "entity_id": "A10023661",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "E편한세상서울대입구관리비",
@@ -355,7 +469,10 @@
    "entity": "e편한세상서울대입구",
    "entity_id": "A10025092",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악국제산장관리비",
@@ -364,7 +481,10 @@
    "entity": "관악국제산장",
    "entity_id": "A15176701",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악우성관리비",
@@ -373,7 +493,10 @@
    "entity": "관악우성",
    "entity_id": "A15105603",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악푸르지오관리비",
@@ -382,7 +505,10 @@
    "entity": "관악푸르지오",
    "entity_id": "A15105302",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "봉천은천2단지관리비",
@@ -391,7 +517,10 @@
    "entity": "봉천은천2단지",
    "entity_id": "A15106103",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성산주공3단지관리비",
@@ -400,7 +529,10 @@
    "entity": "삼성산주공3단지",
    "entity_id": "A15101506",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "센터스퀘어서울대점관리비",
@@ -409,7 +541,10 @@
    "entity": "센터스퀘어 서울대점",
    "entity_id": "A10021418",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신림건영2차관리비",
@@ -418,7 +553,10 @@
    "entity": "신림건영2차",
    "entity_id": "A15188101",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신림쌍용관리비",
@@ -427,7 +565,10 @@
    "entity": "신림쌍용",
    "entity_id": "A15102203",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신림푸르지오관리비",
@@ -436,7 +577,10 @@
    "entity": "신림푸르지오",
    "entity_id": "A15190705",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "건영3차관리비",
@@ -445,7 +589,10 @@
    "entity": "건영3차",
    "entity_id": "A15101903",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악드림타운관리비",
@@ -454,7 +601,10 @@
    "entity": "관악드림타운",
    "entity_id": "A15180705",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "보라매삼성관리비",
@@ -463,7 +613,10 @@
    "entity": "보라매삼성",
    "entity_id": "A15105004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악드림타운제2관리비",
@@ -472,7 +625,10 @@
    "entity": "관악드림타운제2",
    "entity_id": "A15105503",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악산휴먼시아관리비",
@@ -481,7 +637,10 @@
    "entity": "관악산휴먼시아",
    "entity_id": "A15101504",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악현대관리비",
@@ -490,7 +649,10 @@
    "entity": "관악현대",
    "entity_id": "A15105303",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "성현동아관리비",
@@ -499,7 +661,10 @@
    "entity": "성현동아",
    "entity_id": "A15176202",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신림건영1차관리비",
@@ -508,7 +673,10 @@
    "entity": "신림건영1차",
    "entity_id": "A15185704",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관악푸르지오제2단지관리비",
@@ -517,7 +685,10 @@
    "entity": "관악푸르지오제2단지",
    "entity_id": "A15105301",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "봉천동아제2관리비",
@@ -526,7 +697,10 @@
    "entity": "봉천동아제2",
    "entity_id": "A15192202",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "봉천우성제2관리비",
@@ -535,7 +709,10 @@
    "entity": "봉천우성제2",
    "entity_id": "A15105602",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신림주공1단지관리비",
@@ -544,25 +721,10 @@
    "entity": "신림주공1단지",
    "entity_id": "A15101507",
    "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "강남구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "강남구",
-   "entity_id": "region:11680",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "강남구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "강남구",
-   "entity_id": "region:11680",
-   "score": 20.0,
-   "used": true
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아이파크삼성동관리비",
@@ -571,7 +733,10 @@
    "entity": "아이파크삼성동",
    "entity_id": "A13509009",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "테헤란로대우아이빌관리비",
@@ -580,7 +745,10 @@
    "entity": "테헤란로대우아이빌",
    "entity_id": "A13528005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대치푸르지오써밋관리비",
@@ -589,7 +757,10 @@
    "entity": "대치푸르지오써밋",
    "entity_id": "A10023162",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "도곡대림아크로빌관리비",
@@ -598,7 +769,10 @@
    "entity": "도곡대림아크로빌",
    "entity_id": "A13527014",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아크로힐스논현관리비",
@@ -607,7 +781,10 @@
    "entity": "아크로힐스논현",
    "entity_id": "A13501006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "타워팰리스G동관리비",
@@ -616,7 +793,10 @@
    "entity": "타워팰리스G동",
    "entity_id": "A13585403",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포래미안포레스트관리비",
@@ -625,7 +805,10 @@
    "entity": "개포래미안포레스트",
    "entity_id": "A10024564",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대우디오빌역삼관리비",
@@ -634,7 +817,10 @@
    "entity": "대우디오빌역삼",
    "entity_id": "A13592002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대치동부센트레빌관리비",
@@ -643,7 +829,10 @@
    "entity": "대치동부센트레빌",
    "entity_id": "A13528103",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "테헤란IPARK관리비",
@@ -652,7 +841,10 @@
    "entity": "테헤란 IPARK",
    "entity_id": "A13508012",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안그레이튼관리비",
@@ -661,7 +853,10 @@
    "entity": "래미안그레이튼",
    "entity_id": "A13508011",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안도곡카운티관리비",
@@ -670,7 +865,10 @@
    "entity": "래미안도곡카운티",
    "entity_id": "A13585404",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안라클래시관리비",
@@ -679,7 +877,10 @@
    "entity": "래미안 라클래시",
    "entity_id": "A10024131",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성동센트럴아이파크관리비",
@@ -688,7 +889,10 @@
    "entity": "삼성동센트럴아이파크",
    "entity_id": "A10026350",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대치삼성관리비",
@@ -697,7 +901,10 @@
    "entity": "대치삼성",
    "entity_id": "A13528003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "도곡1차아이파크관리비",
@@ -706,7 +913,10 @@
    "entity": "도곡1차아이파크",
    "entity_id": "A13527007",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "역삼아이파크관리비",
@@ -715,7 +925,10 @@
    "entity": "역삼아이파크",
    "entity_id": "A13508009",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남데시앙포레관리비",
@@ -724,7 +937,10 @@
    "entity": "강남데시앙포레",
    "entity_id": "A13552002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "도곡쌍용예가관리비",
@@ -733,7 +949,10 @@
    "entity": "도곡쌍용예가",
    "entity_id": "A13527019",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안개포루체하임관리비",
@@ -742,7 +961,10 @@
    "entity": "래미안개포루체하임",
    "entity_id": "A10025823",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성힐스테이트1단지관리비",
@@ -751,7 +973,10 @@
    "entity": "삼성힐스테이트1단지",
    "entity_id": "A13509012",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "일원동수서관리비",
@@ -760,7 +985,10 @@
    "entity": "일원동 수서",
    "entity_id": "A13593801",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대치선경관리비",
@@ -769,7 +997,10 @@
    "entity": "대치선경",
    "entity_id": "A13583604",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "도곡렉슬관리비",
@@ -778,7 +1009,10 @@
    "entity": "도곡렉슬",
    "entity_id": "A13527203",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안그레이튼3차관리비",
@@ -787,7 +1021,10 @@
    "entity": "래미안그레이튼3차",
    "entity_id": "A13579505",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "압구정한양제1단지관리비",
@@ -796,7 +1033,10 @@
    "entity": "압구정한양제1단지",
    "entity_id": "A13551103",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "역삼자이관리비",
@@ -805,7 +1045,10 @@
    "entity": "역삼자이",
    "entity_id": "A10027474",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성동힐스테이트2단지관리비",
@@ -814,7 +1057,10 @@
    "entity": "삼성동힐스테이트2단지",
    "entity_id": "A13570501",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성청담공원관리비",
@@ -823,7 +1069,10 @@
    "entity": "삼성청담공원",
    "entity_id": "A13510103",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "일원샘터마을관리비",
@@ -832,7 +1081,10 @@
    "entity": "일원샘터마을",
    "entity_id": "A13523004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "청담삼성진흥관리비",
@@ -841,7 +1093,10 @@
    "entity": "청담삼성진흥",
    "entity_id": "A13510005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안대치하이스턴관리비",
@@ -850,7 +1105,10 @@
    "entity": "래미안대치하이스턴",
    "entity_id": "A13528007",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "수서신동아관리비",
@@ -859,7 +1117,10 @@
    "entity": "수서신동아",
    "entity_id": "A13522006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "압구정신현대관리비",
@@ -868,7 +1129,10 @@
    "entity": "압구정신현대",
    "entity_id": "A13511004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "압구정한양3단지관리비",
@@ -877,7 +1141,10 @@
    "entity": "압구정한양3단지",
    "entity_id": "A13590602",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "역삼푸르지오관리비",
@@ -886,7 +1153,10 @@
    "entity": "역삼푸르지오",
    "entity_id": "A13592604",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성서광관리비",
@@ -895,7 +1165,10 @@
    "entity": "삼성서광",
    "entity_id": "A13509006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "수서동익관리비",
@@ -904,7 +1177,10 @@
    "entity": "수서동익",
    "entity_id": "A13588601",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "수서삼성관리비",
@@ -913,7 +1189,10 @@
    "entity": "수서삼성",
    "entity_id": "A13522004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "쌍용대치1차관리비",
@@ -922,7 +1201,10 @@
    "entity": "쌍용대치1차",
    "entity_id": "A13583404",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남더샵포레스트관리비",
@@ -931,7 +1213,10 @@
    "entity": "강남더샵포레스트",
    "entity_id": "A10027446",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "도곡개포한신관리비",
@@ -940,7 +1225,10 @@
    "entity": "도곡개포한신",
    "entity_id": "A13527016",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "수서가람관리비",
@@ -949,7 +1237,10 @@
    "entity": "수서가람",
    "entity_id": "A13523003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "압구정한양제2단지관리비",
@@ -958,7 +1249,10 @@
    "entity": "압구정한양제2단지",
    "entity_id": "A13590204",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "역삼개나리래미안관리비",
@@ -967,7 +1261,10 @@
    "entity": "역삼개나리래미안",
    "entity_id": "A13592601",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포주공7단지관리비",
@@ -976,7 +1273,10 @@
    "entity": "개포주공7단지",
    "entity_id": "A13599301",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대치우성1차관리비",
@@ -985,7 +1285,10 @@
    "entity": "대치우성1차",
    "entity_id": "A13583403",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성롯데관리비",
@@ -994,7 +1297,10 @@
    "entity": "삼성롯데",
    "entity_id": "A13509007",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "청담현대3차관리비",
@@ -1003,7 +1309,10 @@
    "entity": "청담현대3차",
    "entity_id": "A13510102",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포대치2단지관리비",
@@ -1012,7 +1321,10 @@
    "entity": "개포대치2단지",
    "entity_id": "A13524009",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "대치미도맨션관리비",
@@ -1021,7 +1333,10 @@
    "entity": "대치미도맨션",
    "entity_id": "A13528004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "도곡경남관리비",
@@ -1030,7 +1345,10 @@
    "entity": "도곡경남",
    "entity_id": "A13527008",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "도곡우성관리비",
@@ -1039,7 +1357,10 @@
    "entity": "도곡우성",
    "entity_id": "A13527010",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "압구정미성2차관리비",
@@ -1048,7 +1369,10 @@
    "entity": "압구정미성2차",
    "entity_id": "A13511003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남신동아파밀리에2단지관리비",
@@ -1057,7 +1381,10 @@
    "entity": "강남신동아파밀리에2단지",
    "entity_id": "A13519002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남신동아파밀리에3단지관리비",
@@ -1066,7 +1393,10 @@
    "entity": "강남신동아파밀리에3단지",
    "entity_id": "A13519003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포2차현대관리비",
@@ -1075,7 +1405,10 @@
    "entity": "개포2차 현대",
    "entity_id": "A13524006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포4차우성관리비",
@@ -1084,7 +1417,10 @@
    "entity": "개포4차우성",
    "entity_id": "A13527013",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "역삼럭키관리비",
@@ -1093,7 +1429,10 @@
    "entity": "역삼럭키",
    "entity_id": "A13585804",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포7차우성관리비",
@@ -1102,7 +1441,10 @@
    "entity": "개포7차우성",
    "entity_id": "A13594403",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포상록스타힐스관리비",
@@ -1111,7 +1453,10 @@
    "entity": "개포상록스타힐스",
    "entity_id": "A10023547",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포우성3차관리비",
@@ -1120,7 +1465,10 @@
    "entity": "개포우성3차",
    "entity_id": "A13524004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "논현동현관리비",
@@ -1129,7 +1477,10 @@
    "entity": "논현동현",
    "entity_id": "A13582002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "일원목련타운관리비",
@@ -1138,7 +1489,10 @@
    "entity": "일원목련타운",
    "entity_id": "A13523005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남데시앙파크관리비",
@@ -1147,7 +1501,10 @@
    "entity": "강남데시앙파크",
    "entity_id": "A13519005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남브리즈힐관리비",
@@ -1156,7 +1513,10 @@
    "entity": "강남브리즈힐",
    "entity_id": "A13520004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남자곡아이파크관리비",
@@ -1165,7 +1525,10 @@
    "entity": "강남자곡아이파크",
    "entity_id": "A10028172",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남한양수자인관리비",
@@ -1174,7 +1537,10 @@
    "entity": "강남한양수자인",
    "entity_id": "A13520002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "논현신동아관리비",
@@ -1183,7 +1549,10 @@
    "entity": "논현신동아",
    "entity_id": "A13501004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남엘에이치1단지관리비",
@@ -1192,7 +1561,10 @@
    "entity": "강남엘에이치1단지",
    "entity_id": "A13519007",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남자곡힐스테이트관리비",
@@ -1201,7 +1573,10 @@
    "entity": "강남자곡힐스테이트",
    "entity_id": "A10027985",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안강남힐즈관리비",
@@ -1210,7 +1585,10 @@
    "entity": "래미안강남힐즈",
    "entity_id": "A13520003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "상록수관리비",
@@ -1219,7 +1597,10 @@
    "entity": "상록수",
    "entity_id": "A13594702",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "세곡리엔파크4단지관리비",
@@ -1228,7 +1609,10 @@
    "entity": "세곡리엔파크4단지",
    "entity_id": "A13519004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남한신휴플러스6단지관리비",
@@ -1237,7 +1621,10 @@
    "entity": "강남한신휴플러스 6단지",
    "entity_id": "A10027912",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "서울주택도시공사수서6단지관리비",
@@ -1246,7 +1633,10 @@
    "entity": "서울주택도시공사 수서6단지",
    "entity_id": "A13552001",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "수서삼익관리비",
@@ -1255,7 +1645,10 @@
    "entity": "수서삼익",
    "entity_id": "A13522003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강남에버시움관리비",
@@ -1264,25 +1657,10 @@
    "entity": "강남에버시움",
    "entity_id": "A13519008",
    "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "송파구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "송파구",
-   "entity_id": "region:11710",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "송파구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "송파구",
-   "entity_id": "region:11710",
-   "score": 20.0,
-   "used": true
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "수서주공관리비",
@@ -1291,7 +1669,10 @@
    "entity": "수서주공",
    "entity_id": "A13522008",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "롯데캐슬골드관리비",
@@ -1300,7 +1681,10 @@
    "entity": "롯데캐슬골드",
    "entity_id": "A13872502",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실현대관리비",
@@ -1309,7 +1693,10 @@
    "entity": "잠실현대",
    "entity_id": "A13886701",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안송파파인탑관리비",
@@ -1318,7 +1705,10 @@
    "entity": "래미안송파파인탑",
    "entity_id": "A13817001",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파삼성래미안관리비",
@@ -1327,7 +1717,10 @@
    "entity": "송파삼성래미안",
    "entity_id": "A13877501",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파위례리슈빌관리비",
@@ -1336,7 +1729,10 @@
    "entity": "송파위례리슈빌",
    "entity_id": "A10024085",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "올림픽선수기자촌관리비",
@@ -1345,7 +1741,10 @@
    "entity": "올림픽선수기자촌",
    "entity_id": "A13805002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실푸르지오월드마크관리비",
@@ -1354,7 +1753,10 @@
    "entity": "잠실푸르지오월드마크",
    "entity_id": "A13872503",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락극동관리비",
@@ -1363,7 +1765,10 @@
    "entity": "가락극동",
    "entity_id": "A13816202",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "위례아이파크관리비",
@@ -1372,7 +1777,10 @@
    "entity": "위례아이파크",
    "entity_id": "A10027744",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실리센츠관리비",
@@ -1381,7 +1789,10 @@
    "entity": "잠실리센츠",
    "entity_id": "A13822003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실올림픽공원아이파크관리비",
@@ -1390,7 +1801,10 @@
    "entity": "잠실올림픽공원아이파크",
    "entity_id": "A10025185",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "힐스테이트송파위례관리비",
@@ -1399,7 +1813,10 @@
    "entity": "힐스테이트 송파위례",
    "entity_id": "A10027461",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "상아2차관리비",
@@ -1408,7 +1825,10 @@
    "entity": "상아2차",
    "entity_id": "A13886009",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파더센트레관리비",
@@ -1417,7 +1837,10 @@
    "entity": "송파더센트레",
    "entity_id": "A13876113",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파더플래티넘관리비",
@@ -1426,7 +1849,10 @@
    "entity": "송파더플래티넘",
    "entity_id": "A10022649",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실동트리지움관리비",
@@ -1435,7 +1861,10 @@
    "entity": "잠실동트리지움",
    "entity_id": "A13822002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운2단지관리비",
@@ -1444,7 +1873,10 @@
    "entity": "송파파인타운2단지",
    "entity_id": "A13876109",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "위례2차아이파크관리비",
@@ -1453,7 +1885,10 @@
    "entity": "위례2차아이파크",
    "entity_id": "A10027553",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "한신코아관리비",
@@ -1462,7 +1897,10 @@
    "entity": "한신코아",
    "entity_id": "A13824003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "방이코오롱관리비",
@@ -1471,7 +1909,10 @@
    "entity": "방이코오롱",
    "entity_id": "A13883602",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파꿈에그린관리비",
@@ -1480,7 +1921,10 @@
    "entity": "송파꿈에그린",
    "entity_id": "A13876114",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실레이크팰리스관리비",
@@ -1489,7 +1933,10 @@
    "entity": "잠실레이크팰리스",
    "entity_id": "A13822001",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실파크리오관리비",
@@ -1498,7 +1945,10 @@
    "entity": "잠실파크리오",
    "entity_id": "A13824006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "포레나송파관리비",
@@ -1507,7 +1957,10 @@
    "entity": "포레나송파",
    "entity_id": "A10024152",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락1차현대관리비",
@@ -1516,7 +1969,10 @@
    "entity": "가락1차현대",
    "entity_id": "A13820004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락래미안파크팰리스관리비",
@@ -1525,7 +1981,10 @@
    "entity": "가락래미안파크팰리스",
    "entity_id": "A13881005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "문정동마에스트로청년주택관리비",
@@ -1534,7 +1993,10 @@
    "entity": "문정동마에스트로청년주택",
    "entity_id": "A10022621",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운6단지관리비",
@@ -1543,7 +2005,10 @@
    "entity": "송파파인타운6단지",
    "entity_id": "A13876108",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "풍납극동관리비",
@@ -1552,7 +2017,10 @@
    "entity": "풍납극동",
    "entity_id": "A13804001",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락2차쌍용관리비",
@@ -1561,7 +2029,10 @@
    "entity": "가락2차쌍용",
    "entity_id": "A13880105",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운11단지관리비",
@@ -1570,7 +2041,10 @@
    "entity": "송파파인타운11단지",
    "entity_id": "A13821002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운3단지관리비",
@@ -1579,7 +2053,10 @@
    "entity": "송파파인타운3단지",
    "entity_id": "A13876110",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운5단지관리비",
@@ -1588,7 +2065,10 @@
    "entity": "송파파인타운5단지",
    "entity_id": "A13821003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실한솔관리비",
@@ -1597,7 +2077,10 @@
    "entity": "잠실한솔",
    "entity_id": "A13819001",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락금호관리비",
@@ -1606,7 +2089,10 @@
    "entity": "가락금호",
    "entity_id": "A13880407",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락대림관리비",
@@ -1615,7 +2101,10 @@
    "entity": "가락대림",
    "entity_id": "A13880204",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운7단지관리비",
@@ -1624,7 +2113,10 @@
    "entity": "송파파인타운7단지",
    "entity_id": "A13821004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파한양2차관리비",
@@ -1633,7 +2125,10 @@
    "entity": "송파한양2차",
    "entity_id": "A13885304",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "풍납현대관리비",
@@ -1642,7 +2137,10 @@
    "entity": "풍납현대",
    "entity_id": "A13804004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락쌍용1차관리비",
@@ -1651,7 +2149,10 @@
    "entity": "가락쌍용1차",
    "entity_id": "A13880806",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락우성1차관리비",
@@ -1660,7 +2161,10 @@
    "entity": "가락우성1차",
    "entity_id": "A13880406",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "거여4단지관리비",
@@ -1669,7 +2173,10 @@
    "entity": "거여4단지",
    "entity_id": "A13811203",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파크데일2단지관리비",
@@ -1678,7 +2185,10 @@
    "entity": "송파파크데일2단지",
    "entity_id": "A13812005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "위례송파푸르지오관리비",
@@ -1687,7 +2197,10 @@
    "entity": "위례 송파푸르지오",
    "entity_id": "A10028086",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "문정시영관리비",
@@ -1696,7 +2209,10 @@
    "entity": "문정시영",
    "entity_id": "A13820007",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파레미니스관리비",
@@ -1705,7 +2221,10 @@
    "entity": "송파레미니스",
    "entity_id": "A10026734",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파레이크파크호반써밋1차관리비",
@@ -1714,7 +2233,10 @@
    "entity": "송파레이크파크호반써밋1차",
    "entity_id": "A10023927",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파크데일1단지관리비",
@@ -1723,7 +2245,10 @@
    "entity": "송파파크데일1단지",
    "entity_id": "A13881701",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "오금현대관리비",
@@ -1732,7 +2257,10 @@
    "entity": "오금현대",
    "entity_id": "A13813010",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "거여1단지관리비",
@@ -1741,7 +2269,10 @@
    "entity": "거여1단지",
    "entity_id": "A13811206",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파레미니스2단지관리비",
@@ -1750,7 +2281,10 @@
    "entity": "송파레미니스2단지",
    "entity_id": "A10026249",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운9단지관리비",
@@ -1759,7 +2293,10 @@
    "entity": "송파파인타운9단지",
    "entity_id": "A13821007",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "오금대림관리비",
@@ -1768,7 +2305,10 @@
    "entity": "오금대림",
    "entity_id": "A13813008",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실아시아선수촌관리비",
@@ -1777,7 +2317,10 @@
    "entity": "잠실아시아선수촌",
    "entity_id": "A13822701",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "방이대림가락관리비",
@@ -1786,7 +2329,10 @@
    "entity": "방이대림가락",
    "entity_id": "A13805001",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파미성관리비",
@@ -1795,7 +2341,10 @@
    "entity": "송파미성",
    "entity_id": "A13885303",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "풍납동아한가람관리비",
@@ -1804,7 +2353,10 @@
    "entity": "풍납동아한가람",
    "entity_id": "A13887302",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "풍납쌍용관리비",
@@ -1813,7 +2365,10 @@
    "entity": "풍납쌍용",
    "entity_id": "A13804002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "한양관리비",
@@ -1822,7 +2377,10 @@
    "entity": "한양",
    "entity_id": "A13885102",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "거여현대1차관리비",
@@ -1831,7 +2389,10 @@
    "entity": "거여현대1차",
    "entity_id": "A13881603",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "거여현대3차관리비",
@@ -1840,7 +2401,10 @@
    "entity": "거여현대3차",
    "entity_id": "A13881302",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "문정건영관리비",
@@ -1849,7 +2413,10 @@
    "entity": "문정건영",
    "entity_id": "A13820005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "문정래미안관리비",
@@ -1858,7 +2425,10 @@
    "entity": "문정래미안",
    "entity_id": "A13820006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파파인타운8단지관리비",
@@ -1867,7 +2437,10 @@
    "entity": "송파파인타운8단지",
    "entity_id": "A13821006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락미륭관리비",
@@ -1876,7 +2449,10 @@
    "entity": "가락미륭",
    "entity_id": "A13880701",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파레이크힐관리비",
@@ -1885,7 +2461,10 @@
    "entity": "송파레이크힐",
    "entity_id": "A10024197",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "송파성원상떼빌관리비",
@@ -1894,7 +2473,10 @@
    "entity": "송파성원상떼빌",
    "entity_id": "A13895501",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실5단지관리비",
@@ -1903,7 +2485,10 @@
    "entity": "잠실5단지",
    "entity_id": "A13879102",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "파크하비오푸르지오관리비",
@@ -1912,7 +2497,10 @@
    "entity": "파크하비오푸르지오",
    "entity_id": "A10027346",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "가락삼익맨숀관리비",
@@ -1921,7 +2509,10 @@
    "entity": "가락삼익맨숀",
    "entity_id": "A13885306",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "거여5단지관리비",
@@ -1930,7 +2521,10 @@
    "entity": "거여5단지",
    "entity_id": "A13811205",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "거여6단지관리비",
@@ -1939,7 +2533,10 @@
    "entity": "거여6단지",
    "entity_id": "A13811001",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "위례포레샤인13단지관리비",
@@ -1948,7 +2545,10 @@
    "entity": "위례포레샤인13단지",
    "entity_id": "A10024492",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "위례포레샤인18단지관리비",
@@ -1957,25 +2557,10 @@
    "entity": "위례포레샤인18단지",
    "entity_id": "A10024577",
    "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "강동구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "강동구",
-   "entity_id": "region:11740",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "강동구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "강동구",
-   "entity_id": "region:11740",
-   "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "둔촌신동아관리비",
@@ -1984,7 +2569,10 @@
    "entity": "둔촌신동아",
    "entity_id": "A13406204",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "위례포레샤인관리비",
@@ -1993,7 +2581,10 @@
    "entity": "위례포레샤인",
    "entity_id": "A10026682",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동현대홈타운관리비",
@@ -2002,7 +2593,10 @@
    "entity": "강동현대홈타운",
    "entity_id": "A13485301",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕리엔파크2단지관리비",
@@ -2011,7 +2605,10 @@
    "entity": "고덕리엔파크2단지",
    "entity_id": "A13410011",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕아남관리비",
@@ -2020,7 +2617,10 @@
    "entity": "고덕아남",
    "entity_id": "A13480403",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "천호삼성관리비",
@@ -2029,7 +2629,10 @@
    "entity": "천호삼성",
    "entity_id": "A13402305",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕롯데캐슬베네루체관리비",
@@ -2038,7 +2641,10 @@
    "entity": "고덕롯데캐슬베네루체",
    "entity_id": "A10025112",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕숲아이파크관리비",
@@ -2047,7 +2653,10 @@
    "entity": "고덕숲아이파크",
    "entity_id": "A10026403",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕풍경채어바니티관리비",
@@ -2056,7 +2665,10 @@
    "entity": "고덕풍경채어바니티",
    "entity_id": "A10022715",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안솔베뉴관리비",
@@ -2065,7 +2677,10 @@
    "entity": "래미안솔베뉴",
    "entity_id": "A10025415",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안힐스테이트고덕관리비",
@@ -2074,7 +2689,10 @@
    "entity": "래미안힐스테이트 고덕",
    "entity_id": "A10027207",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크10단지관리비",
@@ -2083,7 +2701,10 @@
    "entity": "강일리버파크10단지",
    "entity_id": "A13410005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕센트럴아이파크관리비",
@@ -2092,7 +2713,10 @@
    "entity": "고덕센트럴 아이파크",
    "entity_id": "A10025104",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕아이파크관리비",
@@ -2101,7 +2725,10 @@
    "entity": "고덕아이파크",
    "entity_id": "A13408003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "둔촌프라자관리비",
@@ -2110,7 +2737,10 @@
    "entity": "둔촌프라자",
    "entity_id": "A13406005",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "힐스테이트강동리버뷰관리비",
@@ -2119,7 +2749,10 @@
    "entity": "힐스테이트강동리버뷰",
    "entity_id": "A10025174",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "E편한세상고덕어반브릿지관리비",
@@ -2128,7 +2761,10 @@
    "entity": "e편한세상 고덕 어반브릿지",
    "entity_id": "A10022756",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크8단지관리비",
@@ -2137,7 +2773,10 @@
    "entity": "강일리버파크8단지",
    "entity_id": "A13410002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕아르테온관리비",
@@ -2146,7 +2785,10 @@
    "entity": "고덕 아르테온",
    "entity_id": "A10025010",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "명일동우성관리비",
@@ -2155,7 +2797,10 @@
    "entity": "명일동우성",
    "entity_id": "A13482505",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "명일삼환관리비",
@@ -2164,7 +2809,10 @@
    "entity": "명일삼환",
    "entity_id": "A13407202",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "SK허브진주상복합관리비",
@@ -2173,7 +2821,10 @@
    "entity": "SK허브진주상복합",
    "entity_id": "A13484004",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리버스트4단지관리비",
@@ -2182,7 +2833,10 @@
    "entity": "강동리버스트4단지",
    "entity_id": "A10024468",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동헤리티지자이관리비",
@@ -2191,7 +2845,10 @@
    "entity": "강동헤리티지자이",
    "entity_id": "A10022525",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "명일신동아관리비",
@@ -2200,7 +2857,10 @@
    "entity": "명일신동아",
    "entity_id": "A13407204",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리버스트8단지관리비",
@@ -2209,7 +2869,10 @@
    "entity": "강동리버스트 8단지",
    "entity_id": "A10024440",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕주공9단지관리비",
@@ -2218,7 +2881,10 @@
    "entity": "고덕주공9단지",
    "entity_id": "A13482706",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "더샵둔촌포레관리비",
@@ -2227,7 +2893,10 @@
    "entity": "더샵둔촌포레",
    "entity_id": "A10021705",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "성내삼성관리비",
@@ -2236,7 +2905,10 @@
    "entity": "성내삼성",
    "entity_id": "A13403101",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "올림픽파크한양수자인관리비",
@@ -2245,7 +2917,10 @@
    "entity": "올림픽파크한양수자인",
    "entity_id": "A10027354",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크4단지관리비",
@@ -2254,7 +2929,10 @@
    "entity": "강일리버파크4단지",
    "entity_id": "A13410006",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크5단지관리비",
@@ -2263,7 +2941,10 @@
    "entity": "강일리버파크5단지",
    "entity_id": "A13410009",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕리엔파크1단지관리비",
@@ -2272,7 +2953,10 @@
    "entity": "고덕리엔파크1단지",
    "entity_id": "A13410012",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕현대관리비",
@@ -2281,7 +2965,10 @@
    "entity": "고덕현대",
    "entity_id": "A13480401",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "명일삼익그린2차관리비",
@@ -2290,7 +2977,10 @@
    "entity": "명일삼익그린2차",
    "entity_id": "A13407104",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크3단지관리비",
@@ -2299,7 +2989,10 @@
    "entity": "강일리버파크3단지",
    "entity_id": "A13410008",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크7단지관리비",
@@ -2308,7 +3001,10 @@
    "entity": "강일리버파크7단지",
    "entity_id": "A13410010",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "둔촌푸르지오관리비",
@@ -2317,7 +3013,10 @@
    "entity": "둔촌푸르지오",
    "entity_id": "A13470503",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "천호동아하이빌관리비",
@@ -2326,7 +3025,10 @@
    "entity": "천호동아하이빌",
    "entity_id": "A13486504",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "프라이어팰리스관리비",
@@ -2335,7 +3037,10 @@
    "entity": "프라이어팰리스",
    "entity_id": "A13405003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리엔파크14단지관리비",
@@ -2344,7 +3049,10 @@
    "entity": "강동리엔파크 14단지",
    "entity_id": "A10024412",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크2단지관리비",
@@ -2353,7 +3061,10 @@
    "entity": "강일리버파크2단지",
    "entity_id": "A13410003",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "암사삼성광나루관리비",
@@ -2362,7 +3073,10 @@
    "entity": "암사삼성광나루",
    "entity_id": "A13405002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "암사한강현대관리비",
@@ -2371,7 +3085,10 @@
    "entity": "암사한강현대",
    "entity_id": "A13471501",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동롯데캐슬퍼스트관리비",
@@ -2380,7 +3097,10 @@
    "entity": "강동롯데캐슬퍼스트",
    "entity_id": "A13485302",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크9단지관리비",
@@ -2389,7 +3109,10 @@
    "entity": "강일리버파크9단지",
    "entity_id": "A13410007",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "길동GS강동자이관리비",
@@ -2398,7 +3121,10 @@
    "entity": "길동GS강동자이",
    "entity_id": "A13488104",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신성둔촌미소지움1차관리비",
@@ -2407,7 +3133,10 @@
    "entity": "신성둔촌미소지움1차",
    "entity_id": "A13406205",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강일리버파크11단지관리비",
@@ -2416,7 +3145,10 @@
    "entity": "강일리버파크11단지",
    "entity_id": "A10027638",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "암사선사현대관리비",
@@ -2425,7 +3157,10 @@
    "entity": "암사선사현대",
    "entity_id": "A13405201",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리버스트7단지관리비",
@@ -2434,7 +3169,10 @@
    "entity": "강동 리버스트 7단지",
    "entity_id": "A10024421",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리엔파크11단지관리비",
@@ -2443,7 +3181,10 @@
    "entity": "강동리엔파크11단지",
    "entity_id": "A10024420",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리엔파크13단지관리비",
@@ -2452,7 +3193,10 @@
    "entity": "강동리엔파크13단지",
    "entity_id": "A10023855",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리엔파크9단지관리비",
@@ -2461,7 +3205,10 @@
    "entity": "강동리엔파크9단지",
    "entity_id": "A10024410",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "명일지에스관리비",
@@ -2470,7 +3217,10 @@
    "entity": "명일지에스",
    "entity_id": "A13483002",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "강동리버스트6단지관리비",
@@ -2479,7 +3229,34 @@
    "entity": "강동리버스트6단지",
    "entity_id": "A10024422",
    "score": 20.0,
-   "used": false
+   "used": false,
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": ""
+  },
+  {
+   "keyword": "장기수선계획컨설팅",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 18.7,
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "장기수선계획관리시스템",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 18.7,
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "관리비비교",
@@ -2488,7 +3265,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비확인",
@@ -2497,7 +3277,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비",
@@ -2506,7 +3289,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비프로그램",
@@ -2515,7 +3301,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비내역",
@@ -2524,7 +3313,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아파트관리사무소",
@@ -2533,7 +3325,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비부과",
@@ -2542,7 +3337,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "건물관리비",
@@ -2551,7 +3349,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비부과대행",
@@ -2560,7 +3361,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비명세서",
@@ -2569,25 +3373,10 @@
    "entity": "",
    "entity_id": "",
    "score": 17.5,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획컨설팅",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 17.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획관리시스템",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "신림현대관리비",
@@ -2596,7 +3385,10 @@
    "entity": "신림현대",
    "entity_id": "A15101508",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "봉천두산3단지관리비",
@@ -2605,7 +3397,10 @@
    "entity": "봉천두산3단지",
    "entity_id": "A15178203",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아카데미스위트관리비",
@@ -2614,7 +3409,10 @@
    "entity": "아카데미스위트",
    "entity_id": "A13527011",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "타워팰리스2차관리비",
@@ -2623,7 +3421,10 @@
    "entity": "타워팰리스2차",
    "entity_id": "A13585402",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "청담자이관리비",
@@ -2632,7 +3433,10 @@
    "entity": "청담자이",
    "entity_id": "A13510007",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "삼성롯데캐슬프레미어관리비",
@@ -2641,7 +3445,10 @@
    "entity": "삼성롯데캐슬프레미어",
    "entity_id": "A13509010",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "푸른마을관리비",
@@ -2650,7 +3457,10 @@
    "entity": "푸른마을",
    "entity_id": "A13594203",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "개포주공6단지관리비",
@@ -2659,7 +3469,10 @@
    "entity": "개포주공6단지",
    "entity_id": "A13599303",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕리엔파크3단지관리비",
@@ -2668,7 +3481,10 @@
    "entity": "고덕리엔파크3단지",
    "entity_id": "A13472701",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "길동우성2차관리비",
@@ -2677,7 +3493,10 @@
    "entity": "길동우성2차",
    "entity_id": "A13481305",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "더샵강동센트럴시티관리비",
@@ -2686,7 +3505,82 @@
    "entity": "더샵강동센트럴시티",
    "entity_id": "A10020336",
    "score": 17.0,
-   "used": false
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": ""
+  },
+  {
+   "keyword": "장기수선충당금적립및사용현황",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 15.4,
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "난방비줄이는방법",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 15.4,
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "집합건물장기수선계획",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 15.4,
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "장기수선계획검토서",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 15.4,
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "관리비고지서프로그램",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 15.4,
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
+  },
+  {
+   "keyword": "관리비고지서대행",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "score": 15.4,
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "관리비계산",
@@ -2695,61 +3589,10 @@
    "entity": "",
    "entity_id": "",
    "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선충당금적립및사용현황",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "난방비줄이는방법",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "집합건물장기수선계획",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획검토서",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "관리비고지서프로그램",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "관리비고지서대행",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "score": 14.0,
-   "used": false
+   "used": false,
+   "base_score": 15.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안대치팰리스관리비",
@@ -2758,7 +3601,10 @@
    "entity": "래미안 대치 팰리스",
    "entity_id": "A10027800",
    "score": 14.0,
-   "used": false
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "디에이치자이개포관리비",
@@ -2767,7 +3613,10 @@
    "entity": "디에이치 자이 개포",
    "entity_id": "A10024216",
    "score": 14.0,
-   "used": false
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실엘스관리비",
@@ -2776,7 +3625,10 @@
    "entity": "잠실엘스",
    "entity_id": "A13822004",
    "score": 14.0,
-   "used": false
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "래미안강동팰리스관리비",
@@ -2785,7 +3637,10 @@
    "entity": "래미안강동팰리스",
    "entity_id": "A10026852",
    "score": 14.0,
-   "used": false
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "고덕센트럴푸르지오관리비",
@@ -2794,7 +3649,10 @@
    "entity": "고덕센트럴푸르지오",
    "entity_id": "A10024562",
    "score": 14.0,
-   "used": false
+   "used": false,
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "건물관리비용",
@@ -2803,7 +3661,10 @@
    "entity": "",
    "entity_id": "",
    "score": 10.5,
-   "used": false
+   "used": false,
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아파트관리비",
@@ -2812,7 +3673,10 @@
    "entity": "",
    "entity_id": "",
    "score": 7.0,
-   "used": false
+   "used": false,
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리사무소",
@@ -2821,7 +3685,82 @@
    "entity": "",
    "entity_id": "",
    "score": 7.0,
-   "used": false
+   "used": false,
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": ""
+  },
+  {
+   "keyword": "강남구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강남구",
+   "entity_id": "region:11680",
+   "score": 6.0,
+   "used": false,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
+  },
+  {
+   "keyword": "강남구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강남구",
+   "entity_id": "region:11680",
+   "score": 6.0,
+   "used": true,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
+  },
+  {
+   "keyword": "송파구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "송파구",
+   "entity_id": "region:11710",
+   "score": 6.0,
+   "used": false,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
+  },
+  {
+   "keyword": "송파구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "송파구",
+   "entity_id": "region:11710",
+   "score": 6.0,
+   "used": true,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
+  },
+  {
+   "keyword": "강동구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동구",
+   "entity_id": "region:11740",
+   "score": 6.0,
+   "used": false,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
+  },
+  {
+   "keyword": "강동구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강동구",
+   "entity_id": "region:11740",
+   "score": 6.0,
+   "used": true,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
   },
   {
    "keyword": "관리비업체",
@@ -2830,7 +3769,10 @@
    "entity": "",
    "entity_id": "",
    "score": 5.0,
-   "used": false
+   "used": false,
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비계산프로그램",
@@ -2839,7 +3781,10 @@
    "entity": "",
    "entity_id": "",
    "score": 5.0,
-   "used": false
+   "used": false,
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "빌딩관리비",
@@ -2848,7 +3793,10 @@
    "entity": "",
    "entity_id": "",
    "score": 5.0,
-   "used": false
+   "used": false,
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "봉천두산12단지관리비",
@@ -2857,7 +3805,10 @@
    "entity": "",
    "entity_id": "",
    "score": 5.0,
-   "used": false
+   "used": false,
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "수서11단지관리비",
@@ -2866,7 +3817,10 @@
    "entity": "",
    "entity_id": "",
    "score": 5.0,
-   "used": false
+   "used": false,
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "잠실우성123차관리비",
@@ -2875,7 +3829,10 @@
    "entity": "",
    "entity_id": "",
    "score": 5.0,
-   "used": false
+   "used": false,
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "명일삼익가든12차관리비",
@@ -2884,7 +3841,10 @@
    "entity": "",
    "entity_id": "",
    "score": 5.0,
-   "used": false
+   "used": false,
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "아파트관리비관리",
@@ -2893,7 +3853,10 @@
    "entity": "",
    "entity_id": "",
    "score": 4.2,
-   "used": false
+   "used": false,
+   "base_score": 4.2,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "장기수선충당금",
@@ -2901,8 +3864,11 @@
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "score": 3.5,
-   "used": false
+   "score": 3.9,
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브"
   },
   {
    "keyword": "아파트관리비프로그램",
@@ -2911,7 +3877,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "건물관리비프로그램",
@@ -2920,7 +3889,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비정산프로그램",
@@ -2929,7 +3901,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비부과프로그램",
@@ -2938,7 +3913,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비ERP",
@@ -2947,7 +3925,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비관리",
@@ -2956,7 +3937,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비부과대행업체",
@@ -2965,7 +3949,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   },
   {
    "keyword": "관리비대행",
@@ -2974,7 +3961,10 @@
    "entity": "",
    "entity_id": "",
    "score": 3.5,
-   "used": false
+   "used": false,
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": ""
   }
  ]
 }

@@ -43,7 +43,7 @@
 
 ## 4. 머리말
 
-> **키워드 사다리(매번 필수)**: 머리말 keyword는 `rules/keyword_ladder.md`를 따른다. `data/keywords/gongmoju.json`에 오늘 대상과 맞는 키워드(score 60 이상, used false)가 있으면 그것을, 없으면 '대상 이름 + 주제어'로 정한다. 머리 키워드(예: '공모주 일정', '공모주 청약')는 쓰지 않는다(검수가 막음).
+> **키워드 사다리(매번 필수)**: 머리말 keyword는 `rules/keyword_ladder.md`를 따른다. `data/keywords/gongmoju.json`에 오늘 대상과 맞는 키워드(score 60 이상, used false)가 있으면 score 높은 것을(검색량이 많다는 이유로 고르지 않는다. score에는 성장 적합도가 들어 있고 이유는 data/keywords/report.md '성장 이유' 칸), 없으면 '대상 이름 + 주제어'로 정한다. 머리 키워드(예: '공모주 일정', '공모주 청약')는 쓰지 않는다(검수가 막음).
 
 ```
 ---

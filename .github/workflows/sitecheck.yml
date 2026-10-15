@@ -28,13 +28,15 @@ jobs:
         run: python src/value.py
       - name: 검색 노출(SEO·AEO·GEO) 점검
         run: python src/seo.py
+      - name: 키워드 성장 적합도 다시 계산(검색량 API 호출 없음)
+        run: python src/keywords.py --rescore
       - name: 애드센스 신청 준비 상태
         run: python src/readiness.py
       - name: 저장
         run: |
           git config user.name "sitecheck-bot"
           git config user.email "sitecheck-bot@users.noreply.github.com"
-          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md data/value_report.md data/value_brief.md blogs/*/data/value_brief.md data/readiness.md data/seo_report.md
+          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md data/value_report.md data/value_brief.md blogs/*/data/value_brief.md data/readiness.md data/seo_report.md data/keywords
           git diff --cached --quiet && exit 0
           git commit -m "sitecheck $(date -u +%F)"
           git pull --rebase && git push

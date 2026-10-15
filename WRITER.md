@@ -44,7 +44,7 @@
 
 > **청약노트 키워드(2026-10-14 실제 검색량 확인)**: '○○ 청약 일정'은 대부분 월 10회 미만이고 '○○ 분양가'가 120~630회로 훨씬 많다. 공고 글(notice)의 keyword는 '[단지명] 분양가'로 쓰고, 제목은 '[단지명] 분양가·청약 일정, …' 순서로 쓴다.
 
-> **키워드 사다리(매번 필수)**: 머리말 keyword는 `rules/keyword_ladder.md`를 따른다. `data/keywords/cheongyak.json`에 오늘 대상과 맞는 키워드(score 60 이상, used false)가 있으면 그것을, 없으면 '대상 이름 + 주제어'로 정한다. 머리 키워드(예: '청약 일정', '분양가')는 쓰지 않는다(검수가 막음).
+> **키워드 사다리(매번 필수)**: 머리말 keyword는 `rules/keyword_ladder.md`를 따른다. `data/keywords/cheongyak.json`에 오늘 대상과 맞는 키워드(score 60 이상, used false)가 있으면 score 높은 것을(검색량이 많다는 이유로 고르지 않는다. score에는 성장 적합도가 들어 있고 이유는 data/keywords/report.md '성장 이유' 칸), 없으면 '대상 이름 + 주제어'로 정한다. 머리 키워드(예: '청약 일정', '분양가')는 쓰지 않는다(검수가 막음).
 
 ### 3-1. 숫자의 근거 (이 두 곳 말고는 숫자를 쓰지 않는다)
 - 원본: data/units/<HOUSE_MANAGE_NO>.json

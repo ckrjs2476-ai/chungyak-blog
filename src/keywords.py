@@ -197,6 +197,86 @@ def score(r: dict, lo: int, hi: int) -> float:
     return round(100 * band * data * COMP.get(r["comp"], 0.6), 1)
 
 
+# ---- 성장 적합도: 검색량만 보지 않고 '이 블로그가 커 가는 데 맞는 키워드'인지 (rules/keyword_ladder.md 2-1) ----
+INTENTS = {"cheongyak": r"(분양가|경쟁률|당첨가점|커트라인|가점|청약)",
+           "jeonse": r"(전세가율|전세시세|전세가|전세)",
+           "gongmoju": r"(수요예측|공모가|상장|공모주|청약)",
+           "gwanribi": r"(장기수선|고지서|난방비|경비비|청소비|관리비)"}
+JOB_INTENT = {"notice": {"분양가", "청약"}, "competition": {"경쟁률", "청약"}, "score": {"당첨가점", "가점", "커트라인"},
+              "remainder": {"청약"}}
+
+
+def intent(blog: str, kw: str) -> str:
+    """앞에 적힌 것이 더 구체적인 의도. '청약 경쟁률' → '경쟁률'."""
+    for w in INTENTS[blog].strip("()").split("|"):
+        if w in kw:
+            return w
+    return ""
+
+
+def _kdate(s: str) -> date | None:
+    m = re.search(r"(20\d\d)년\s*(\d{1,2})월\s*(\d{1,2})일", s or "")
+    return date(int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else None
+
+
+def growth(blog: str, r: dict, done: set[str], today: date) -> tuple[float, str]:
+    """1보다 크면 성장에 도움, 작으면 지금 쓰기에 덜 맞음. (배수, 이유)"""
+    ent, it = norm(r.get("entity") or ""), intent(blog, r["keyword"])
+    f, why = 1.0, []
+    if ent and not r.get("entity_id", "").startswith("topic"):
+        same = [d for d in done if ent in norm(d)]
+        if any(intent(blog, d) == it for d in same):
+            f *= 0.3
+            why.append("같은 대상·같은 의도 글이 이미 있음(서로 경쟁)")
+        elif same:
+            f *= 1.1
+            why.append("이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)")
+    if blog == "cheongyak" and r.get("entity_id"):
+        job = JOBS.get(r["entity_id"])
+        if not job and JOBS:
+            f *= 0.5
+            why.append("지금 글감 목록(jobs)에 없는 단지")
+        elif job and it and it not in JOB_INTENT.get(job.get("type", ""), {it}):
+            f *= 0.5
+            why.append(f"지금 쓸 글({job.get('type')})이 답하는 질문과 다름")
+    if blog == "gongmoju" and r.get("entity_id"):
+        f2 = ROOT / "blogs/gongmoju/data/ipos" / f"{r['entity_id']}.json"
+        if f2.exists():
+            d = json.loads(f2.read_text("utf-8"))
+            sub = _kdate(str(d.get("subscription", "")))
+            if sub:
+                gap = (sub - today).days
+                if -7 <= gap <= 14:
+                    f *= 1.15
+                    why.append("청약일 전후라 지금 검색이 몰림")
+                elif gap < -30:
+                    f *= 0.6
+                    why.append("청약이 한 달 넘게 지나 검색이 줄어듦")
+    if blog == "gwanribi" and r.get("entity_id", "").startswith("topic"):
+        f *= 1.1
+        why.append("주제 글: 여러 단지·지역 글을 묶는 허브")
+    return f, "; ".join(why)
+
+
+JOBS: dict[str, dict] = {}
+
+
+def rescore(blog: str, rows: list[dict], lo: int, hi: int) -> list[dict]:
+    global JOBS
+    if blog == "cheongyak" and (ROOT / "data/jobs.json").exists():
+        JOBS = {j["house_manage_no"]: j for j in json.loads((ROOT / "data/jobs.json").read_text("utf-8")).get("jobs", [])}
+    done = written(blog)
+    today = date.today()
+    for r in rows:
+        g, why = growth(blog, r, done, today)
+        r["base_score"] = score(r, lo, hi)
+        r["growth"], r["why"] = round(g, 2), why
+        r["score"] = round(min(100.0, r["base_score"] * g), 1)
+        r["used"] = norm(r["keyword"]) in {norm(x) for x in done}
+    rows.sort(key=lambda r: -r["score"])
+    return rows
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     blogs = [sys.argv[sys.argv.index("--blog") + 1]] if "--blog" in sys.argv else list(NAMES)
@@ -206,12 +286,11 @@ def main() -> int:
     for b in blogs:
         st = stage_of(b)
         lo, hi = STAGES[st]
-        rows = collect(b)
-        done = written(b)
-        for r in rows:
-            r["score"] = score(r, lo, hi)
-            r["used"] = norm(r["keyword"]) in {norm(x) for x in done}
-        rows.sort(key=lambda r: -r["score"])
+        if "--rescore" in sys.argv:  # 검색량은 그대로 두고 성장 적합도만 다시 계산(API 호출 없음)
+            rows = json.loads((OUT / f"{b}.json").read_text("utf-8"))["keywords"]
+        else:
+            rows = collect(b)
+        rows = rescore(b, rows, lo, hi)
         pick = [r for r in rows if r["score"] >= 60 and not r["used"]]
         nxt = [r for r in rows if hi < r["volume"] <= hi * 3 and r["entity_id"]]
         head = [r for r in rows if r["volume"] > hi * 3][:8]
@@ -219,8 +298,8 @@ def main() -> int:
                                                   ensure_ascii=False, indent=1), "utf-8")
         rep += [f"## {NAMES[b]} — {st}단계, 노릴 구간 월 {lo:,}~{hi:,}회", "",
                 f"- 모은 키워드 {len(rows)}개, 지금 쓸 키워드 {len(pick)}개", "",
-                "| 키워드 | 월 검색 | 광고 경쟁 | 우리 데이터 |", "| --- | --- | --- | --- |"]
-        rep += [f"| {r['keyword']} | {r['volume']:,} | {r['comp']} | {r['entity'] or '-'} |" for r in pick[:25]]
+                "| 키워드 | 점수 | 월 검색 | 광고 경쟁 | 우리 데이터 | 성장 이유 |", "| --- | --- | --- | --- | --- | --- |"]
+        rep += [f"| {r['keyword']} | {r['score']} | {r['volume']:,} | {r['comp']} | {r['entity'] or '-'} | {r.get('why') or '-'} |" for r in pick[:25]]
         if nxt:
             rep += ["", "다음 단계에서 노릴 키워드: " + ", ".join(f"{r['keyword']}({r['volume']:,})" for r in nxt[:10])]
         if head:
