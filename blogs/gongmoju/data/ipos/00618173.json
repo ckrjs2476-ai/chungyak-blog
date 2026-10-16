@@ -1,0 +1,87 @@
+{
+ "corp_code": "00618173",
+ "corp_name": "씨앤엠",
+ "rcept_no": "20261016000412",
+ "rcept_dt": "20261016",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412",
+ "subscription": "2026년 11월 12일 ~ 2026년 11월 13일",
+ "payment_date": "2026년 11월 17일",
+ "notice_date": "2026년 11월 12일",
+ "allot_date": "2026년 11월 17일",
+ "stock_kind": "보통주",
+ "shares": 2950000,
+ "face_value": 100,
+ "price": 10000,
+ "total": 29500000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한국투자증권",
+   "shares": 2950000,
+   "amount": 29500000000,
+   "fee": 885000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 21100000000,
+   "share_pct": 71.5,
+   "amount_eok": 211.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 7400000000,
+   "share_pct": 25.1,
+   "amount_eok": 74.0
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1000000000,
+   "share_pct": 3.4,
+   "amount_eok": 10.0
+  }
+ ],
+ "fund_total": 29500000000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)씨앤엠",
+  "ceo_nm": "김형가",
+  "induty_code": "28111",
+  "est_dt": "20060818",
+  "hm_url": "www.cnmmotor.com",
+  "adres": "경상남도 김해시 김해대로2635번길 29 (안동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "한국투자증권",
+ "underwriting_fee_pct": 3.0,
+ "total_eok": 295.0,
+ "fund_matches_total": true,
+ "company_age_years": 20,
+ "total_rank": 13,
+ "total_rank_of": 26,
+ "total_vs_median_pct": 0.5,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 21100000000,
+  "share_pct": 71.5,
+  "amount_eok": 211.0
+ },
+ "compare_median_total": 29346000000,
+ "compare_count": 26,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 293.5
+}

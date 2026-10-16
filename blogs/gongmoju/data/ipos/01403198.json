@@ -1,0 +1,106 @@
+{
+ "corp_code": "01403198",
+ "corp_name": "제이앤티지",
+ "rcept_no": "20261016000426",
+ "rcept_dt": "20261016",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000426",
+ "subscription": "2026년 11월 12일 ~ 2026년 11월 13일",
+ "payment_date": "2026년 11월 17일",
+ "notice_date": "2026년 11월 12일",
+ "allot_date": "2026년 11월 17일",
+ "stock_kind": "보통주",
+ "shares": 4300000,
+ "face_value": 500,
+ "price": 26400,
+ "total": 113520000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "대신증권",
+   "shares": 3225000,
+   "amount": 85140000000,
+   "fee": 2147249940,
+   "how": "총액인수"
+  },
+  {
+   "name": "NH투자증권",
+   "shares": 1075000,
+   "amount": 28380000000,
+   "fee": 715749540,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 68079000000,
+   "share_pct": 77.3,
+   "amount_eok": 680.8
+  },
+  {
+   "use": "운영자금",
+   "amount": 17803000000,
+   "share_pct": 20.2,
+   "amount_eok": 178.0
+  },
+  {
+   "use": "발행제비용",
+   "amount": 2238210387,
+   "share_pct": 2.5,
+   "amount_eok": 22.4
+  }
+ ],
+ "fund_total": 88120210387,
+ "sellers": [
+  {
+   "name": "장재원",
+   "relation": "최대주주(대표이사)",
+   "shares": 450000
+  },
+  {
+   "name": "장윤정",
+   "relation": "최대주주의특수관계인",
+   "shares": 550000
+  }
+ ],
+ "sell_shares": 1000000,
+ "company": {
+  "corp_name": "(주)제이앤티지",
+  "ceo_nm": "이은숙,장재원",
+  "induty_code": "30399",
+  "est_dt": "20110111",
+  "hm_url": "www.thejntg.com",
+  "adres": "경기도 화성시 정남면 내향안길 240-11"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "lead_underwriter": "대신증권",
+ "underwriting_fee_pct": 2.52,
+ "total_eok": 1135.2,
+ "fund_matches_total": false,
+ "company_age_years": 15,
+ "total_rank": 2,
+ "total_rank_of": 26,
+ "total_vs_median_pct": 286.8,
+ "sell_share_pct": 23.3,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 68079000000,
+  "share_pct": 77.3,
+  "amount_eok": 680.8
+ },
+ "compare_median_total": 29346000000,
+ "compare_count": 26,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 293.5
+}
