@@ -1,0 +1,119 @@
+{
+ "no": "2026000495",
+ "name": "연산 센텀 월드메르디앙",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-10-16",
+ "rank1_date": "2026-10-27",
+ "city": "연제구",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-04",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000495&pblancNo=2026000495",
+ "households": 144,
+ "types": [
+  {
+   "ty": "59.6263",
+   "size": 59,
+   "price": 42316,
+   "area_m2": 79.619,
+   "general": 9,
+   "special": 7,
+   "pyeong_price": 1757,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "66.8011A",
+   "size": 66,
+   "price": 48792,
+   "area_m2": 88.7711,
+   "general": 8,
+   "special": 7,
+   "pyeong_price": 1817,
+   "special_share_pct": 47
+  },
+  {
+   "ty": "66.9574B",
+   "size": 66,
+   "price": 49278,
+   "area_m2": 89.6554,
+   "general": 12,
+   "special": 17,
+   "pyeong_price": 1817,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "66.9292C",
+   "size": 66,
+   "price": 46016,
+   "area_m2": 90.1721,
+   "general": 16,
+   "special": 21,
+   "pyeong_price": 1687,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "73.6558",
+   "size": 73,
+   "price": 55250,
+   "area_m2": 99.4263,
+   "general": 14,
+   "special": 15,
+   "pyeong_price": 1837,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "82.9237",
+   "size": 82,
+   "price": 61620,
+   "area_m2": 109.6955,
+   "general": 7,
+   "special": 11,
+   "pyeong_price": 1857,
+   "special_share_pct": 61
+  }
+ ],
+ "general_total": 66,
+ "special_total": 78,
+ "special_share_pct": 54,
+ "pyeong_min": 1687,
+ "pyeong_max": 1857,
+ "pyeong_avg": 1786,
+ "special_kinds": {
+  "신혼부부": 22,
+  "생애최초": 10,
+  "신생아": 14,
+  "다자녀": 14,
+  "노부모 부양": 4,
+  "기관추천": 14
+ },
+ "region_price": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 14,
+  "peers": [
+   "기장 이진캐스빌 포레",
+   "알티에로 광안",
+   "두산위브 트리니뷰 구명역",
+   "해운대 마티안 디 에디션",
+   "동래사적공원 오네뜨",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트"
+  ],
+  "peer_avg_pyeong": 2539,
+  "diff": -753,
+  "diff_pct": -30,
+  "rank": 12,
+  "of": 15
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 11,
+  "peer_avg_rate": 2.14,
+  "peer_max_rate": 18.29
+ }
+}

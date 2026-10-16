@@ -1,0 +1,130 @@
+{
+ "no": "2026000507",
+ "name": "광안센텀 비스타동원(조합원 취소분)",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-10-16",
+ "rank1_date": "2026-10-26",
+ "city": "수영구",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-02",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000507&pblancNo=2026000507",
+ "households": 39,
+ "types": [
+  {
+   "ty": "59.9823",
+   "size": 59,
+   "price": 67400,
+   "area_m2": 82.4838,
+   "general": 13,
+   "special": 0,
+   "pyeong_price": 2701,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9782C",
+   "size": 59,
+   "price": 66100,
+   "area_m2": 83.0467,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 2631,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.962A",
+   "size": 84,
+   "price": 91400,
+   "area_m2": 115.0768,
+   "general": 17,
+   "special": 0,
+   "pyeong_price": 2626,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9413B",
+   "size": 84,
+   "price": 86700,
+   "area_m2": 115.8499,
+   "general": 4,
+   "special": 0,
+   "pyeong_price": 2474,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 39,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "pyeong_min": 2474,
+ "pyeong_max": 2701,
+ "pyeong_avg": 2636,
+ "price_84_min": 86700,
+ "price_84_max": 91400,
+ "region_price": {
+  "scope": "수영구",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "알티에로 광안",
+   "쌍용 더 플래티넘 센텀"
+  ],
+  "peer_avg_pyeong": 4460,
+  "diff": -1824,
+  "diff_pct": -41,
+  "rank": 3,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 15,
+  "peers": [
+   "기장 이진캐스빌 포레",
+   "알티에로 광안",
+   "두산위브 트리니뷰 구명역",
+   "해운대 마티안 디 에디션",
+   "동래사적공원 오네뜨",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트"
+  ],
+  "peer_avg_pyeong": 2488,
+  "diff": 148,
+  "diff_pct": 6,
+  "rank": 5,
+  "of": 16
+ },
+ "area_competition": {
+  "scope": "수영구",
+  "peer_count": 2,
+  "peer_avg_rate": 0.36,
+  "peer_max_rate": 0.59
+ },
+ "market": {
+  "region": "부산광역시 수영구",
+  "lawd": "26500",
+  "months": 12,
+  "updated": "2026-10-17",
+  "n84": 778,
+  "median84": 71000,
+  "p25_84": 50537,
+  "p75_84": 96125,
+  "new_n84": 148,
+  "new_median84": 120500,
+  "new_build_years": 5,
+  "umd": "광안동",
+  "umd_n84": 164,
+  "umd_median84": 58000,
+  "diff_vs_median84": 20400,
+  "diff_pct_vs_median84": 29,
+  "diff_vs_new_median84": -29100,
+  "diff_pct_vs_new_median84": -24,
+  "diff_vs_umd_median84": 33400,
+  "diff_pct_vs_umd_median84": 58
+ }
+}

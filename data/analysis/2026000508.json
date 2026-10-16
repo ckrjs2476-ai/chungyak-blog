@@ -1,0 +1,178 @@
+{
+ "no": "2026000508",
+ "name": "아크메르 동탄 95",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-16",
+ "rank1_date": "2026-10-27",
+ "city": "화성특례시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-03",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
+ "households": 812,
+ "types": [
+  {
+   "ty": "84.997C",
+   "size": 84,
+   "price": 171210,
+   "area_m2": 115.518,
+   "general": 82,
+   "special": 98,
+   "pyeong_price": 4900,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9998F",
+   "size": 84,
+   "price": 171530,
+   "area_m2": 117.1346,
+   "general": 41,
+   "special": 49,
+   "pyeong_price": 4841,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "116.9981A",
+   "size": 116,
+   "price": 218670,
+   "area_m2": 156.6146,
+   "general": 80,
+   "special": 12,
+   "pyeong_price": 4616,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "116.9987B",
+   "size": 116,
+   "price": 221350,
+   "area_m2": 158.6444,
+   "general": 157,
+   "special": 23,
+   "pyeong_price": 4612,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "128.9983A",
+   "size": 128,
+   "price": 243610,
+   "area_m2": 174.3807,
+   "general": 78,
+   "special": 12,
+   "pyeong_price": 4618,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "129.9995B",
+   "size": 129,
+   "price": 248290,
+   "area_m2": 177.3078,
+   "general": 153,
+   "special": 23,
+   "pyeong_price": 4629,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "184.9968B",
+   "size": 184,
+   "price": 391150,
+   "area_m2": 253.7585,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 5096,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "188.9949A",
+   "size": 188,
+   "price": 401320,
+   "area_m2": 260.2614,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 5098,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 595,
+ "special_total": 217,
+ "special_share_pct": 27,
+ "pyeong_min": 4612,
+ "pyeong_max": 5098,
+ "pyeong_avg": 4708,
+ "price_84_min": 171210,
+ "price_84_max": 171530,
+ "special_kinds": {
+  "신혼부부": 40,
+  "생애최초": 18,
+  "신생아": 27,
+  "다자녀": 81,
+  "노부모 부양": 24,
+  "기관추천": 27
+ },
+ "region_price": {
+  "scope": "화성특례시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "향남역 그로브 스위첸",
+   "아크메르 동탄 99"
+  ],
+  "peer_avg_pyeong": 3108,
+  "diff": 1600,
+  "diff_pct": 51,
+  "rank": 1,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 37,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "용인 양지 서희스타힐스 하이뷰",
+   "더샵 분당하이스트",
+   "더 플래티넘 파인애비뉴",
+   "안양 에버포레 자연앤 e편한세상(A1BL)",
+   "힐스테이트 시흥더클래스",
+   "e편한세상 부천 어반스퀘어",
+   "고덕국제신도시 수자인풍경채 1단지"
+  ],
+  "peer_avg_pyeong": 2494,
+  "diff": 2214,
+  "diff_pct": 89,
+  "rank": 2,
+  "of": 38
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 36,
+  "peer_avg_rate": 2.44,
+  "peer_max_rate": 21.98
+ },
+ "market": {
+  "region": "경기도 화성시 동탄구",
+  "lawd": "41597",
+  "months": 12,
+  "updated": "2026-10-17",
+  "n84": 3882,
+  "median84": 74000,
+  "p25_84": 63792,
+  "p75_84": 91725,
+  "new_n84": 111,
+  "new_median84": 124500,
+  "new_build_years": 5,
+  "umd": "반송동",
+  "umd_n84": 588,
+  "umd_median84": 76000,
+  "diff_vs_median84": 97530,
+  "diff_pct_vs_median84": 132,
+  "diff_vs_new_median84": 47030,
+  "diff_pct_vs_new_median84": 38,
+  "diff_vs_umd_median84": 95530,
+  "diff_pct_vs_umd_median84": 126
+ }
+}

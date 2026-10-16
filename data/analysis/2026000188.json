@@ -131,10 +131,26 @@
   }
  },
  "region_price": {
+  "scope": "해운대구",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "e편한세상 센텀 하이베뉴",
+   "트리븐센텀 1단지",
+   "트리븐센텀 2단지"
+  ],
+  "peer_avg_pyeong": 2373,
+  "diff": 457,
+  "diff_pct": 19,
+  "rank": 1,
+  "of": 4
+ },
+ "region_price_wide": {
   "scope": "부산",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 21,
+  "peer_count": 24,
   "peers": [
    "한화포레나 부산대연",
    "동래 푸르지오 에듀포레",
@@ -145,11 +161,11 @@
    "에코델타시티 엘가 로제비앙",
    "한화포레나 부산당리"
   ],
-  "peer_avg_pyeong": 2471,
-  "diff": 359,
-  "diff_pct": 15,
+  "peer_avg_pyeong": 2432,
+  "diff": 398,
+  "diff_pct": 16,
   "rank": 5,
-  "of": 22
+  "of": 25
  },
  "area_competition": {
   "scope": "부산",

@@ -1,0 +1,148 @@
+{
+ "no": "2026000513",
+ "name": "트리븐센텀 1단지",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-10-16",
+ "rank1_date": "2026-10-27",
+ "city": "해운대구",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-04",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000513&pblancNo=2026000513",
+ "households": 852,
+ "types": [
+  {
+   "ty": "75.9453",
+   "size": 75,
+   "price": 68940,
+   "area_m2": 97.1181,
+   "general": 35,
+   "special": 44,
+   "pyeong_price": 2347,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.886A",
+   "size": 84,
+   "price": 77970,
+   "area_m2": 108.0943,
+   "general": 196,
+   "special": 237,
+   "pyeong_price": 2385,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9724B",
+   "size": 84,
+   "price": 75930,
+   "area_m2": 109.859,
+   "general": 69,
+   "special": 87,
+   "pyeong_price": 2285,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.7773C",
+   "size": 84,
+   "price": 76460,
+   "area_m2": 109.3568,
+   "general": 12,
+   "special": 16,
+   "pyeong_price": 2311,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "114.9763",
+   "size": 114,
+   "price": 102850,
+   "area_m2": 144.7735,
+   "general": 135,
+   "special": 21,
+   "pyeong_price": 2349,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 447,
+ "special_total": 405,
+ "special_share_pct": 48,
+ "pyeong_min": 2285,
+ "pyeong_max": 2385,
+ "pyeong_avg": 2354,
+ "price_84_min": 75930,
+ "price_84_max": 77970,
+ "special_kinds": {
+  "신혼부부": 104,
+  "생애최초": 49,
+  "신생아": 70,
+  "다자녀": 86,
+  "노부모 부양": 26,
+  "기관추천": 70
+ },
+ "region_price": {
+  "scope": "해운대구",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "해운대 마티안 디 에디션",
+   "트리븐센텀 2단지"
+  ],
+  "peer_avg_pyeong": 2586,
+  "diff": -232,
+  "diff_pct": -9,
+  "rank": 2,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 14,
+  "peers": [
+   "기장 이진캐스빌 포레",
+   "알티에로 광안",
+   "두산위브 트리니뷰 구명역",
+   "해운대 마티안 디 에디션",
+   "동래사적공원 오네뜨",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트"
+  ],
+  "peer_avg_pyeong": 2498,
+  "diff": -144,
+  "diff_pct": -6,
+  "rank": 7,
+  "of": 15
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 11,
+  "peer_avg_rate": 2.14,
+  "peer_max_rate": 18.29
+ },
+ "market": {
+  "region": "부산광역시 해운대구",
+  "lawd": "26350",
+  "months": 12,
+  "updated": "2026-10-11",
+  "n84": 1465,
+  "median84": 61500,
+  "p25_84": 47500,
+  "p75_84": 81000,
+  "new_n84": 86,
+  "new_median84": 73150,
+  "new_build_years": 5,
+  "umd": "반여동",
+  "umd_n84": 254,
+  "umd_median84": 42650,
+  "diff_vs_median84": 16470,
+  "diff_pct_vs_median84": 27,
+  "diff_vs_new_median84": 4820,
+  "diff_pct_vs_new_median84": 7,
+  "diff_vs_umd_median84": 35320,
+  "diff_pct_vs_umd_median84": 83
+ }
+}
