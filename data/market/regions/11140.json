@@ -2,25 +2,25 @@
  "lawd": "11140",
  "name": "서울특별시 중구",
  "months": 12,
- "updated": "2026-10-15",
- "trade_count": 780,
+ "updated": "2026-10-16",
+ "trade_count": 785,
  "cancel_count": 53,
- "n84": 221,
- "median84": 157500,
- "p25_84": 118850,
+ "n84": 223,
+ "median84": 158000,
+ "p25_84": 119000,
  "p75_84": 175000,
- "median84_pyeong_excl": 6150,
+ "median84_pyeong_excl": 6154,
  "new_n84": 0,
  "new_median84": null,
  "new_build_years": 5,
  "umd84": {
-  "중림동": {
-   "n": 7,
-   "median": 176000
-  },
   "신당동": {
-   "n": 118,
-   "median": 166500
+   "n": 119,
+   "median": 166000
+  },
+  "중림동": {
+   "n": 8,
+   "median": 175000
   },
   "황학동": {
    "n": 59,
@@ -106,27 +106,27 @@
   },
   {
    "month": "2026-09",
-   "count": 31,
-   "n84": 7,
-   "median84": 140000
+   "count": 33,
+   "n84": 8,
+   "median84": 141000
   },
   {
    "month": "2026-10",
-   "count": 5,
-   "n84": 2,
-   "median84": 186750
+   "count": 8,
+   "n84": 3,
+   "median84": 180000
   }
  ],
  "top_apts": [
   {
    "name": "황학동 롯데캐슬",
-   "count": 121,
+   "count": 122,
    "median84": 118500,
    "built": 2008
   },
   {
    "name": "신당동 남산타운",
-   "count": 115,
+   "count": 116,
    "median84": 171000,
    "built": 2002
   },
@@ -138,8 +138,8 @@
   },
   {
    "name": "신당동 삼성",
-   "count": 26,
-   "median84": 156250,
+   "count": 27,
+   "median84": 157500,
    "built": 1999
   },
   {
@@ -174,8 +174,8 @@
   },
   {
    "name": "중림동 삼성사이버빌리지",
-   "count": 18,
-   "median84": 176000,
+   "count": 19,
+   "median84": 175000,
    "built": 2001
   }
  ]
