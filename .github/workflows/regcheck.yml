@@ -2,6 +2,9 @@
 name: regcheck
 on:
   workflow_dispatch:
+    inputs:
+      blogs:
+        default: ""
 jobs:
   r:
     runs-on: ubuntu-latest
@@ -12,4 +15,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - run: python tools/regcheck.py
+      - run: python tools/regcheck.py ${{ github.event.inputs.blogs }}

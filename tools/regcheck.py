@@ -1,7 +1,8 @@
 """검색엔진 등록 흔적 점검: 홈 HTML의 소유확인 메타태그, robots.txt, sitemap, RSS."""
 import re, time, requests
 H = {"User-Agent": "Mozilla/5.0 (regcheck)"}
-for h in ["daily-cheongyak", "jeonse-ondogye", "gongmoju-breakdown", "gwanribi-dotbogi"]:
+import sys
+for h in (sys.argv[1:] or ["daily-cheongyak", "jeonse-ondogye", "gongmoju-breakdown", "gwanribi-dotbogi"]):
     base = f"https://{h}.blogspot.com"
     def get(u):
         for w in (0, 20, 60, 120):
