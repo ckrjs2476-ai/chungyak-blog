@@ -1,0 +1,342 @@
+{
+ "lawd": "44210",
+ "name": "충청남도 서산시",
+ "updated": "2026-10-16",
+ "months": 12,
+ "jeonse_count": 940,
+ "wolse_count": 2047,
+ "wolse_share_pct": 68.5,
+ "renew_share_pct": 37.7,
+ "jeonse_n84": 281,
+ "jeonse_median84": 18000,
+ "sale_n84": 837,
+ "sale_median84": 23000,
+ "ratio84": 78.3,
+ "jeonse_recent3_median84": 20000,
+ "jeonse_prev3_median84": 18000,
+ "jeonse_change_pct": 11.1,
+ "apts_with_both": 31,
+ "apts_ratio_80_plus": 20,
+ "apts_ratio_70_plus": 28,
+ "umd": {
+  "갈산동": {
+   "jeonse_n": 4,
+   "jeonse_median84": 9500,
+   "sale_n": 16,
+   "sale_median84": 11750,
+   "ratio": 80.9
+  },
+  "동문동": {
+   "jeonse_n": 33,
+   "jeonse_median84": 19000,
+   "sale_n": 116,
+   "sale_median84": 22900,
+   "ratio": 83.0
+  },
+  "석남동": {
+   "jeonse_n": 3,
+   "jeonse_median84": 18500,
+   "sale_n": 13,
+   "sale_median84": 23000,
+   "ratio": 80.4
+  },
+  "석림동": {
+   "jeonse_n": 29,
+   "jeonse_median84": 28000,
+   "sale_n": 82,
+   "sale_median84": 34400,
+   "ratio": 81.4
+  },
+  "성연면 왕정리": {
+   "jeonse_n": 44,
+   "jeonse_median84": 17500,
+   "sale_n": 74,
+   "sale_median84": 21000,
+   "ratio": 83.3
+  },
+  "성연면 일람리": {
+   "jeonse_n": 41,
+   "jeonse_median84": 17500,
+   "sale_n": 63,
+   "sale_median84": 20500,
+   "ratio": 85.4
+  },
+  "예천동": {
+   "jeonse_n": 70,
+   "jeonse_median84": 32000,
+   "sale_n": 227,
+   "sale_median84": 40000,
+   "ratio": 80.0
+  },
+  "음암면 부장리": {
+   "jeonse_n": 3,
+   "jeonse_median84": 8800,
+   "sale_n": 13,
+   "sale_median84": 13300,
+   "ratio": 66.2
+  },
+  "읍내동": {
+   "jeonse_n": 11,
+   "jeonse_median84": 18000,
+   "sale_n": 65,
+   "sale_median84": 22000,
+   "ratio": 81.8
+  },
+  "죽성동": {
+   "jeonse_n": 11,
+   "jeonse_median84": 8000,
+   "sale_n": 44,
+   "sale_median84": 8750,
+   "ratio": 91.4
+  },
+  "지곡면 무장리": {
+   "jeonse_n": 27,
+   "jeonse_median84": 9000,
+   "sale_n": 74,
+   "sale_median84": 10000,
+   "ratio": 90.0
+  }
+ },
+ "top_ratio_apts": [
+  {
+   "umd": "죽성동",
+   "apt": "삼성1차",
+   "built": 1993,
+   "jeonse_n": 6,
+   "jeonse_median84": 8000,
+   "sale_n": 26,
+   "sale_median84": 8450,
+   "ratio": 94.7
+  },
+  {
+   "umd": "동문동",
+   "apt": "서산동문꿈에그린아파트",
+   "built": 2018,
+   "jeonse_n": 3,
+   "jeonse_median84": 23000,
+   "sale_n": 12,
+   "sale_median84": 25000,
+   "ratio": 92.0
+  },
+  {
+   "umd": "지곡면 무장리",
+   "apt": "늘푸른오스카빌",
+   "built": 2006,
+   "jeonse_n": 27,
+   "jeonse_median84": 9000,
+   "sale_n": 74,
+   "sale_median84": 10000,
+   "ratio": 90.0
+  },
+  {
+   "umd": "예천동",
+   "apt": "센텀파크뷰서희",
+   "built": 2021,
+   "jeonse_n": 17,
+   "jeonse_median84": 30000,
+   "sale_n": 33,
+   "sale_median84": 33750,
+   "ratio": 88.9
+  },
+  {
+   "umd": "동문동",
+   "apt": "현진에버빌",
+   "built": 2007,
+   "jeonse_n": 4,
+   "jeonse_median84": 17750,
+   "sale_n": 12,
+   "sale_median84": 20350,
+   "ratio": 87.2
+  },
+  {
+   "umd": "예천동",
+   "apt": "서산예천효성해링턴플레이스",
+   "built": 2016,
+   "jeonse_n": 11,
+   "jeonse_median84": 32000,
+   "sale_n": 30,
+   "sale_median84": 36750,
+   "ratio": 87.1
+  },
+  {
+   "umd": "성연면 일람리",
+   "apt": "이안더서산아파트",
+   "built": 2018,
+   "jeonse_n": 9,
+   "jeonse_median84": 18000,
+   "sale_n": 6,
+   "sale_median84": 20700,
+   "ratio": 87.0
+  },
+  {
+   "umd": "동문동",
+   "apt": "동문동코아루",
+   "built": 2007,
+   "jeonse_n": 4,
+   "jeonse_median84": 20000,
+   "sale_n": 28,
+   "sale_median84": 23200,
+   "ratio": 86.2
+  },
+  {
+   "umd": "성연면 왕정리",
+   "apt": "이안서산테크노밸리",
+   "built": 2015,
+   "jeonse_n": 31,
+   "jeonse_median84": 17000,
+   "sale_n": 41,
+   "sale_median84": 20000,
+   "ratio": 85.0
+  },
+  {
+   "umd": "성연면 일람리",
+   "apt": "서산테크노밸리고운라피네",
+   "built": 2018,
+   "jeonse_n": 22,
+   "jeonse_median84": 17000,
+   "sale_n": 26,
+   "sale_median84": 20000,
+   "ratio": 85.0
+  }
+ ],
+ "low_ratio_apts": [
+  {
+   "umd": "석림동",
+   "apt": "e편한세상석림더노블",
+   "built": 2024,
+   "jeonse_n": 15,
+   "jeonse_median84": 27300,
+   "sale_n": 24,
+   "sale_median84": 44900,
+   "ratio": 60.8
+  },
+  {
+   "umd": "음암면 부장리",
+   "apt": "수림아파트",
+   "built": 2007,
+   "jeonse_n": 3,
+   "jeonse_median84": 8800,
+   "sale_n": 11,
+   "sale_median84": 13100,
+   "ratio": 67.2
+  },
+  {
+   "umd": "석림동",
+   "apt": "서산석림동라온프라이빗",
+   "built": 2018,
+   "jeonse_n": 4,
+   "jeonse_median84": 30000,
+   "sale_n": 13,
+   "sale_median84": 43500,
+   "ratio": 69.0
+  },
+  {
+   "umd": "죽성동",
+   "apt": "죽성동2차삼성아파트",
+   "built": 1998,
+   "jeonse_n": 5,
+   "jeonse_median84": 7500,
+   "sale_n": 17,
+   "sale_median84": 10000,
+   "ratio": 75.0
+  },
+  {
+   "umd": "예천동",
+   "apt": "서산푸르지오더센트럴",
+   "built": 2023,
+   "jeonse_n": 9,
+   "jeonse_median84": 38000,
+   "sale_n": 49,
+   "sale_median84": 50500,
+   "ratio": 75.2
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2025-11",
+   "jeonse_count": 62,
+   "n84": 30,
+   "jeonse_median84": 18750
+  },
+  {
+   "month": "2025-12",
+   "jeonse_count": 80,
+   "n84": 35,
+   "jeonse_median84": 22500
+  },
+  {
+   "month": "2026-01",
+   "jeonse_count": 78,
+   "n84": 41,
+   "jeonse_median84": 18500
+  },
+  {
+   "month": "2026-02",
+   "jeonse_count": 279,
+   "n84": 28,
+   "jeonse_median84": 18000
+  },
+  {
+   "month": "2026-03",
+   "jeonse_count": 88,
+   "n84": 25,
+   "jeonse_median84": 18000
+  },
+  {
+   "month": "2026-04",
+   "jeonse_count": 60,
+   "n84": 17,
+   "jeonse_median84": 18000
+  },
+  {
+   "month": "2026-05",
+   "jeonse_count": 70,
+   "n84": 28,
+   "jeonse_median84": 18000
+  },
+  {
+   "month": "2026-06",
+   "jeonse_count": 57,
+   "n84": 14,
+   "jeonse_median84": 10850
+  },
+  {
+   "month": "2026-07",
+   "jeonse_count": 63,
+   "n84": 28,
+   "jeonse_median84": 24500
+  },
+  {
+   "month": "2026-08",
+   "jeonse_count": 49,
+   "n84": 15,
+   "jeonse_median84": 9000
+  },
+  {
+   "month": "2026-09",
+   "jeonse_count": 39,
+   "n84": 16,
+   "jeonse_median84": 28500
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 15,
+   "n84": 4,
+   "jeonse_median84": 26000
+  }
+ ],
+ "rank": 26,
+ "rank_of": 122,
+ "avg_ratio84_all": 67.8,
+ "ratio_vs_avg_pp": 10.5,
+ "umd_ratio_high": {
+  "name": "죽성동",
+  "ratio": 91.4
+ },
+ "umd_ratio_low": {
+  "name": "예천동",
+  "ratio": 80.0
+ },
+ "umd_spread_pp": 11.4,
+ "gap84": 5000
+}
