@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: gwanribi (2026-10-17 10:34 KST)
+# 애드센스 기준 점검: gwanribi (2026-10-17 11:01 KST)
 
 - 공개 글: 4편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -25,6 +25,6 @@
 | 90 | [관악구 아파트 관리비, 300~499세대 단지가 ㎡](https://gwanribi-dotbogi.blogspot.com/2026/10/gwanak-gu-apartment-management-fee-by.html) `2026-10-16-11620-region.md` | 2906 | 0 | 0 | - |
 | 100 | [강남구 아파트 관리비 ㎡당 3,064원, 91개 단](https://gwanribi-dotbogi.blogspot.com/2026/10/gangnam-gu-apartment-management-fee.html) `2026-10-14-11680-region.md` | 2320 | 0 | 1 | - |
 | 100 | [강동구 아파트 관리비, 난방 방식 따라 개별사용료 ](https://gwanribi-dotbogi.blogspot.com/2026/10/gangdong-gu-apartment-management-fee.html) `2026-10-15-11740-region.md` | 2764 | 0 | 1 | - |
-| 100 | [송파구 아파트 관리비, 1위와 81위가 ㎡당 4.4](https://gwanribi-dotbogi.blogspot.com/2026/10/songpa-gu-apartment-management-fee-2026.html) `2026-10-14-11710-region.md` | 2349 | 0 | 1 | - |
+| 100 | [송파구 아파트 관리비, 1위와 81위가 ㎡당 4.4](https://gwanribi-dotbogi.blogspot.com/2026/10/songpa-gu-apartment-management-fee-2026.html) `2026-10-14-11710-region.md` | 2486 | 0 | 1 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.
