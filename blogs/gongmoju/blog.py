@@ -99,6 +99,7 @@ def _allowed(meta: dict) -> set[str]:
     s = DATA / "summary.json"
     if s.exists():
         _walk(json.loads(s.read_text("utf-8")), out)
+    out |= core.history_numbers("gongmoju", keys=[])
     return out
 
 

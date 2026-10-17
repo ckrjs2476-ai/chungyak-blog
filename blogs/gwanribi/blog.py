@@ -148,6 +148,14 @@ def _allowed(meta: dict, body: str = "") -> set[str]:
     s = DATA / "summary.json"
     if s.exists():
         _walk(json.loads(s.read_text("utf-8")), out)
+    keys = [kapt] + [str(meta.get("lawd") or "")] + [str(x) for x in meta.get("lawds") or []]
+    for l in keys[1:]:  # 본문에 이름이 나온 단지의 시간 변화
+        d = region(l) if l else None
+        for c in (d or {}).get("complexes") or []:
+            nm = re.sub(r"(아파트|\(.*?\))", "", c["name"]).strip()
+            if nm and nm in body:
+                keys.append(c["code"])
+    out |= core.history_numbers("gwanribi", keys=[k for k in keys if k])
     return out
 
 

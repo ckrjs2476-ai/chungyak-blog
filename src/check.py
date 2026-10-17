@@ -217,11 +217,57 @@ def analysis_numbers(unit_nos: list[str], with_stats: bool, lawd_cds: list[str] 
             _walk_nums(json.loads(p.read_text("utf-8")), out)
     if with_stats and STATS.exists():
         _walk_nums(json.loads(STATS.read_text("utf-8")), out)
+        out |= history_numbers("cheongyak")
     for lawd in lawd_cds or []:  # 실거래가 동향 글: data/market/regions/<시군구 코드>.json
         p = ROOT / "data" / "market" / "regions" / f"{lawd}.json"
         if p.exists():
             _walk_nums(json.loads(p.read_text("utf-8")), out)
     return out
+
+
+def history_numbers(blog: str, keys: list[str] | None = None, prefixes: list[str] | None = None) -> set[str]:
+    """data/history/<blog>_changes.json에 미리 계산된 4주·12주 변화값(우리만의 시간 기록, src/history.py).
+    keys: 정확히 맞는 대상, prefixes: 앞부분이 맞는 대상(예: 시군구 코드 → 그 동들). '_all'은 늘 포함."""
+    p = ROOT / "data" / "history" / f"{blog}_changes.json"
+    if not p.exists():
+        return set()
+    ch = json.loads(p.read_text("utf-8"))
+    want = set(keys or []) | {"_all"}
+    out: set[str] = set()
+    for ent, v in ch.items():
+        if keys is None or ent in want or any(ent.startswith(x) for x in prefixes or [] if x):
+            _walk_nums(v, out)
+    return out
+
+
+def notice_compare_errors(no: str, plain: str) -> list[str]:
+    """공고 글은 공고 내용 정리에 그치지 않도록 '같은 지역 최근 분양 단지와의 평당가 비교'를 반드시 넣는다
+    (rules/unique_value.md 2장). 비교 대상이 없으면 시세(실거래 중앙값) 비교로 대신한다."""
+    p = ANALYSIS / f"{no}.json"
+    if not p.exists():
+        return []
+    a = json.loads(p.read_text("utf-8"))
+    rp = a.get("region_price") or {}
+    text = plain.replace(",", "")
+    def has(n) -> bool:
+        return n is not None and re.search(rf"(?<![\d.]){re.escape(str(n))}(?![\d.])", text) is not None
+    # 발행 뒤 비교 대상이 늘어 숫자가 바뀌어도 통과하도록, 비교 문장의 형태도 인정한다(숫자 자체는 따로 대조)
+    if re.search(r"\d+곳 (중|가운데)[^.]{0,30}?\d+(위|번째)", plain) or \
+            re.search(r"(평균|중앙값)(보다|에 비해|대비)[^.]{0,15}?\d+(\.\d+)?% ?(높|낮|비싸|싸)", plain):
+        return []
+    if (rp.get("peer_count") or 0) >= 2:
+        if (has(rp.get("rank")) and has(rp.get("of"))) or has(rp.get("peer_avg_pyeong")) or \
+                (rp.get("diff_pct") not in (None, 0) and has(abs(rp["diff_pct"]))):
+            return []
+        return [f"공고 글에 같은 지역 최근 분양 단지와의 평당가 비교가 없습니다 "
+                f"({rp.get('scope')} {rp.get('supply_kind', '')} {rp.get('of')}곳 중 {rp.get('rank')}위, "
+                f"평균 {rp.get('peer_avg_pyeong')}만 원 등 data/analysis의 region_price를 쓰세요)."]
+    m = a.get("market") or {}
+    if m.get("diff_pct_vs_median84") is not None:
+        if has(abs(m["diff_pct_vs_median84"])) or has(m.get("median84")):
+            return []
+        return ["공고 글에 주변 시세(실거래 84㎡ 중앙값)와의 비교가 없습니다 (data/analysis의 market을 쓰세요)."]
+    return []
 
 
 SNAPSHOTS = ROOT / "data" / "snapshots"
@@ -459,6 +505,8 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
             continue
         if not (forms & allowed):
             errs.append(f"원본·분석 데이터에 없는 숫자: {tok}")
+    if typ == "notice" and unit_nos:
+        errs += notice_compare_errors(unit_nos[0], plain)
     if len(used_analysis) < MIN_ANALYSIS_NUMBERS:
         errs.append(f"분석 숫자가 {len(used_analysis)}개입니다 ({MIN_ANALYSIS_NUMBERS}개 이상). "
                     "data/analysis 또는 data/stats의 평당가·비교·순위 같은 숫자를 넣어 주세요.")

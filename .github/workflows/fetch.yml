@@ -36,6 +36,16 @@ jobs:
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
       - run: python src/analysis.py
+      - name: 공고 글에 경쟁률·당첨 가점 결과 이어 붙이기
+        continue-on-error: true
+        run: |
+          pip install markdown pyyaml
+          python src/publish.py --results
+        env:
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
       - name: 저장
         run: |
           git config user.name "fetch-bot"

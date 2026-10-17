@@ -1,0 +1,42 @@
+# 블로그별 순위표(허브) 페이지 갱신: 매주 월요일 06:47 KST (데이터로 다시 만들고 고정 페이지를 고친다)
+name: rankings
+on:
+  schedule:
+    - cron: "47 21 * * 0"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+jobs:
+  rankings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests markdown pyyaml
+      - run: python src/history.py
+      - run: python src/rankings.py
+      - name: 페이지 올리기
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          CHEONGYAK_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+        run: |
+          BLOGGER_BLOG_ID="$CHEONGYAK_ID" python src/publish.py --pages
+          BLOG_KEY=jeonse BLOGGER_BLOG_ID=5197834942352686134 python src/publish.py --pages
+          BLOG_KEY=gongmoju BLOGGER_BLOG_ID=899799118910718337 python src/publish.py --pages
+          BLOG_KEY=gwanribi BLOGGER_BLOG_ID=1893946611364166783 python src/publish.py --pages
+      - name: 저장
+        if: always()
+        run: |
+          git config user.name "rankings-bot"
+          git config user.email "rankings-bot@users.noreply.github.com"
+          git add -A pages blogs/*/pages data/pages.json blogs/*/data/pages.json data/history
+          git diff --cached --quiet || git commit -m "rankings $(date -u +%F)"
+          git pull --rebase && git push

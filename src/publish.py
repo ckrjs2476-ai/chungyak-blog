@@ -277,7 +277,7 @@ def record(meta: dict, body: str, post: dict, file_name: str = "") -> None:
     PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
 
 
-def rerender() -> int:
+def rerender(only: set[str] | None = None) -> int:
     """이미 올린 글을 posts/published/의 원고로 다시 만들어 내용만 바꾼다 (꾸밈·카드 수정 반영용).
     제목·주소·날짜는 건드리지 않는다."""
     if not PUBLISHED.exists():
@@ -288,6 +288,8 @@ def rerender() -> int:
     n = 0
     data = json.loads(PUBLISHED.read_text("utf-8"))
     for p in data["posts"]:
+        if only is not None and p.get("file") not in only:
+            continue
         src = DONE / p["file"] if p.get("file") else None
         if not src or not src.exists() or not p.get("blogger_id"):
             print(f"::warning::원고를 찾지 못해 건너뜀: {p.get('title')}")
@@ -297,7 +299,8 @@ def rerender() -> int:
         p["labels"] = list(meta.get("labels") or [])
         block = related_block(no, exclude_id=p["blogger_id"], labels=p["labels"])
         p["related_html"] = block
-        html = build_card(meta) + to_html(body) + method_link() + block
+        html = build_card(meta) + to_html(body) + result_block(meta) + method_link() + block
+        p["result_sig"] = result_sig(meta)
         _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}",
                            json={"content": html, "title": meta["title"]},
                            headers=h, timeout=60), f"다시 만들기 {p.get('title')}")
@@ -312,15 +315,107 @@ PAGES_DIR = BASE / "pages"
 PAGES_JSON = (ROOT / "data" / "pages.json") if _blog is None else (BASE / "data" / "pages.json")
 
 
+HUB_TEXT = {"cheongyak": "지역별 분양가 순위표", "jeonse": "전국 시군구 전세가율 순위표",
+            "gongmoju": "최근 공모주 규모 순위표", "gwanribi": "시군구 관리비 순위표"}
+
+
 def method_link() -> str:
-    """모든 글 끝에 '분석 방법' 페이지 링크를 붙인다 (계산 방식을 공개해 신뢰를 높인다)."""
+    """모든 글 끝에 '분석 방법' 페이지와 매달 갱신하는 순위표(허브) 페이지 링크를 붙인다."""
     if not PAGES_JSON.exists():
         return ""
-    url = json.loads(PAGES_JSON.read_text("utf-8")).get("method.md", {}).get("url")
-    if not url:
+    pages = json.loads(PAGES_JSON.read_text("utf-8"))
+    url = pages.get("method.md", {}).get("url")
+    hub = pages.get("ranking.md", {}).get("url")
+    out = ""
+    if url:
+        out += (f'<p style="margin:1.6em 0 0;font-size:14px;color:#333333;">이 글의 숫자를 어떻게 계산했는지는 '
+                f'<a href="{url}" style="color:#1a56db;">분석 방법과 데이터 출처</a>에 정리해 두었어요.</p>')
+    if hub:
+        out += (f'<p style="margin:.6em 0 0;font-size:14px;color:#333333;">다른 곳과 한눈에 비교하려면 매달 갱신하는 '
+                f'<a href="{hub}" style="color:#1a56db;">{HUB_TEXT.get(BLOG, "순위표")}</a>를 보세요.</p>')
+    calc = pages.get("calculator.md", {}).get("url")
+    if calc and BLOG == "cheongyak":
+        out += (f'<p style="margin:.6em 0 0;font-size:14px;color:#333333;">내 점수로 당첨 가능성을 가늠하려면 '
+                f'<a href="{calc}" style="color:#1a56db;">청약 가점 계산기</a>에서 최근 단지 커트라인과 바로 견줘 보세요.</p>')
+    return out
+
+
+# ---- 청약노트 공고 글: 경쟁률·당첨 가점이 나오면 결과를 글 끝에 이어 붙인다 (rules/unique_value.md 2장) ----
+def _unit(no: str) -> dict:
+    f = ROOT / "data" / "units" / f"{no}.json"
+    return json.loads(f.read_text("utf-8")) if f.exists() else {}
+
+
+def result_sig(meta: dict) -> str:
+    if BLOG != "cheongyak" or meta.get("type") != "notice":
         return ""
-    return (f'<p style="margin:1.6em 0 0;font-size:14px;color:#333333;">이 글의 숫자를 어떻게 계산했는지는 '
-            f'<a href="{url}" style="color:#1a56db;">분석 방법과 데이터 출처</a>에 정리해 두었어요.</p>')
+    u = _unit(str(meta.get("house_manage_no") or ""))
+    return f"{len(u.get('competition') or [])}:{len(u.get('score') or [])}"
+
+
+def _ty(raw: str) -> str:
+    m = re.match(r"0*(\d+)(?:\.(\d+))?\s*([A-Za-z]*)", str(raw).strip())
+    if not m:
+        return str(raw).strip()
+    return f"{m.group(1)}{('.' + m.group(2)[:2]) if m.group(2) else ''}{m.group(3)}"
+
+
+def result_block(meta: dict) -> str:
+    """청약홈 경쟁률·당첨 가점 결과 표. 숫자는 data/units의 원본 그대로(계산하지 않음)."""
+    if BLOG != "cheongyak" or meta.get("type") != "notice":
+        return ""
+    no = str(meta.get("house_manage_no") or "")
+    u = _unit(no)
+    comp = [c for c in u.get("competition") or [] if c.get("SUBSCRPT_RANK_CODE") == 1 and c.get("RESIDE_SECD") == "01"]
+    if not comp:
+        return ""
+    score = {(str(s.get("HOUSE_TY")).strip()): s for s in u.get("score") or [] if s.get("RESIDE_SECD") == "01"}
+    rows = []
+    for c in comp:
+        ty = str(c.get("HOUSE_TY")).strip()
+        sc = score.get(ty) or {}
+        low = sc.get("LWET_SCORE")
+        low = f"{low}점" if low not in (None, "", "0", 0) else "-"
+        rate = c.get("CMPET_RATE")
+        short = re.match(r"\(\s*△\s*(\d+)\s*\)", str(rate or ""))
+        rate = (f"미달({short.group(1)}세대 모자람)" if short else f"{rate}대 1") if rate not in (None, "", "-") else "-"
+        rows.append(f"<tr><td>{_ty(ty)}</td><td>{c.get('SUPLY_HSHLDCO', '-')}</td><td>{c.get('REQ_CNT', '-')}</td>"
+                    f"<td>{rate}</td><td>{low}</td></tr>")
+    links = ""
+    if PUBLISHED.exists():
+        for q in json.loads(PUBLISHED.read_text("utf-8")).get("posts", []):
+            if q.get("house_manage_no") == no and q.get("type") in ("competition", "score") and q.get("url"):
+                links += (f'<li><a href="{q["url"]}" style="color:#1a56db;">{q.get("title", "")}</a></li>')
+    when = str(u.get("fetched_at", ""))[:10]
+    th = 'style="padding:6px 8px;border-bottom:1px solid #ddd;text-align:left;"'
+    return (f'<h2>공고 뒤 결과: 1순위 경쟁률과 당첨 가점</h2>'
+            f'<p>청약홈이 발표한 1순위 해당지역 결과를 공고 글에 이어 붙였어요({when} 기준). '
+            f'당첨 최저 가점은 발표 전이면 비어 있어요.</p>'
+            f'<table style="border-collapse:collapse;width:100%;font-size:15px;"><thead><tr>'
+            f'<th {th}>주택형(㎡)</th><th {th}>일반공급</th><th {th}>1순위 접수</th><th {th}>경쟁률</th><th {th}>당첨 최저 가점</th>'
+            f'</tr></thead><tbody>{"".join(rows)}</tbody></table>'
+            + (f'<p style="margin-top:.8em;">결과를 풀어 쓴 글:</p><ul>{links}</ul>' if links else ""))
+
+
+def update_results() -> int:
+    """경쟁률·가점이 새로 나온 공고 글만 다시 만든다(매일 fetch 뒤 실행)."""
+    if BLOG != "cheongyak" or not PUBLISHED.exists():
+        return 0
+    data = json.loads(PUBLISHED.read_text("utf-8"))
+    todo = []
+    for p in data["posts"]:
+        src = DONE / p["file"] if p.get("file") else None
+        if p.get("type") != "notice" or not src or not src.exists() or not p.get("blogger_id"):
+            continue
+        meta, _ = split_post(src.read_text("utf-8"))
+        sig = result_sig(meta)
+        if sig and not sig.startswith("0:") and p.get("result_sig") != sig:
+            todo.append(p["file"])
+    if not todo:
+        print("결과를 새로 붙일 공고 글이 없습니다.")
+        return 0
+    print(f"::notice::결과 붙일 공고 글 {len(todo)}편: {todo}")
+    return rerender(only=set(todo))
 
 
 def publish_pages() -> int:
@@ -419,7 +514,7 @@ def main() -> int:
             continue
         token = token or access_token()
         no = str(meta.get(UNIT_KEY) or "")
-        html = build_card(meta) + to_html(body) + method_link() + related_block(no, labels=meta.get("labels"))
+        html = build_card(meta) + to_html(body) + result_block(meta) + method_link() + related_block(no, labels=meta.get("labels"))
         post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post, f.name)
         try:  # 발행 시점 숫자 근거를 얼려 둔다(이후 데이터가 다시 계산돼도 이 글은 발행일 기준으로 검사)
@@ -469,6 +564,8 @@ if __name__ == "__main__":
             sys.exit(publish_drafts())
         if "--pages" in sys.argv:
             sys.exit(publish_pages())
+        if "--results" in sys.argv:
+            sys.exit(update_results())
         sys.exit(main())
     except SystemExit:
         raise

@@ -85,6 +85,7 @@ def _allowed(meta: dict) -> set[str]:
     rk = DATA / "ranking.json"
     if rk.exists():
         core._walk_nums(json.loads(rk.read_text("utf-8")), out)
+    out |= core.history_numbers("jeonse", keys=[l for l in lawds if l], prefixes=[f"{l}:" for l in lawds if l])
     return out
 
 
