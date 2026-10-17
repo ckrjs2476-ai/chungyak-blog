@@ -2,20 +2,20 @@
  "lawd": "11350",
  "name": "서울특별시 노원구",
  "months": 12,
- "updated": "2026-10-16",
- "trade_count": 7007,
+ "updated": "2026-10-17",
+ "trade_count": 7029,
  "cancel_count": 157,
- "n84": 1395,
+ "n84": 1398,
  "median84": 83000,
  "p25_84": 68000,
  "p75_84": 97000,
- "median84_pyeong_excl": 3241,
+ "median84_pyeong_excl": 3243,
  "new_n84": 67,
  "new_median84": 114700,
  "new_build_years": 5,
  "umd84": {
   "상계동": {
-   "n": 394,
+   "n": 396,
    "median": 68500
   },
   "공릉동": {
@@ -27,8 +27,8 @@
    "median": 89500
   },
   "중계동": {
-   "n": 328,
-   "median": 86400
+   "n": 329,
+   "median": 86500
   },
   "월계동": {
    "n": 239,
@@ -98,14 +98,14 @@
   },
   {
    "month": "2026-09",
-   "count": 332,
-   "n84": 80,
-   "median84": 83750
+   "count": 347,
+   "n84": 81,
+   "median84": 84500
   },
   {
    "month": "2026-10",
-   "count": 25,
-   "n84": 6,
+   "count": 32,
+   "n84": 8,
    "median84": 78000
   }
  ],
@@ -118,7 +118,7 @@
   },
   {
    "name": "상계동 상계주공6(고층)",
-   "count": 162,
+   "count": 163,
    "median84": null,
    "built": 1988
   },
@@ -141,16 +141,16 @@
    "built": 1991
   },
   {
+   "name": "상계동 보람아파트",
+   "count": 135,
+   "median84": null,
+   "built": 1988
+  },
+  {
    "name": "공릉동 태강아파트(아이파크)",
    "count": 135,
    "median84": null,
    "built": 1999
-  },
-  {
-   "name": "상계동 보람아파트",
-   "count": 134,
-   "median84": null,
-   "built": 1988
   },
   {
    "name": "상계동 상계주공14(고층)",
@@ -166,7 +166,7 @@
   },
   {
    "name": "상계동 상계주공16(고층)",
-   "count": 124,
+   "count": 125,
    "median84": null,
    "built": 1988
   }
