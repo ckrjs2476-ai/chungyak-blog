@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16 02:50",
+ "updated": "2026-10-17 10:34",
  "stage": 1,
  "band": [
   30,
@@ -27,8 +27,8 @@
    "score": 100.0,
    "used": false,
    "base_score": 100.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림"
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림"
   },
   {
    "keyword": "크리에이츠공모주",
@@ -187,30 +187,6 @@
    "why": "청약일 전후라 지금 검색이 몰림"
   },
   {
-   "keyword": "영광공모주",
-   "volume": 380,
-   "comp": "중간",
-   "entity": "영광",
-   "entity_id": "00579342",
-   "score": 97.7,
-   "used": false,
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림"
-  },
-  {
-   "keyword": "이에스티공모주",
-   "volume": 160,
-   "comp": "중간",
-   "entity": "이에스티",
-   "entity_id": "01378005",
-   "score": 97.7,
-   "used": false,
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림"
-  },
-  {
    "keyword": "엠에스바이오공모가",
    "volume": 440,
    "comp": "중간",
@@ -288,11 +264,11 @@
    "comp": "낮음",
    "entity": "이에스티",
    "entity_id": "01378005",
-   "score": 69.0,
+   "score": 75.9,
    "used": false,
    "base_score": 60.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림"
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림"
   },
   {
    "keyword": "동원파츠공모가",
@@ -451,6 +427,30 @@
    "why": ""
   },
   {
+   "keyword": "영광공모주",
+   "volume": 380,
+   "comp": "중간",
+   "entity": "영광",
+   "entity_id": "00579342",
+   "score": 29.3,
+   "used": true,
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림"
+  },
+  {
+   "keyword": "이에스티공모주",
+   "volume": 160,
+   "comp": "중간",
+   "entity": "이에스티",
+   "entity_id": "01378005",
+   "score": 29.3,
+   "used": true,
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림"
+  },
+  {
    "keyword": "인텔리빅스공모주",
    "volume": 680,
    "comp": "중간",
@@ -480,11 +480,11 @@
    "comp": "낮음",
    "entity": "영광",
    "entity_id": "00579342",
-   "score": 23.0,
+   "score": 25.3,
    "used": false,
    "base_score": 20.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림"
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림"
   },
   {
    "keyword": "크리에이츠공모가",
@@ -497,6 +497,18 @@
    "base_score": 20.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림"
+  },
+  {
+   "keyword": "이에스티공모가",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "이에스티",
+   "entity_id": "01378005",
+   "score": 21.5,
+   "used": false,
+   "base_score": 17.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림"
   },
   {
    "keyword": "내일상장주식",
@@ -797,18 +809,6 @@
    "base_score": 20.0,
    "growth": 1.0,
    "why": ""
-  },
-  {
-   "keyword": "이에스티공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "이에스티",
-   "entity_id": "01378005",
-   "score": 19.5,
-   "used": false,
-   "base_score": 17.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림"
   },
   {
    "keyword": "공모주상장일정",

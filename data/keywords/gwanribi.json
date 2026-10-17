@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16 02:50",
+ "updated": "2026-10-17 10:34",
  "stage": 1,
  "band": [
   30,
@@ -339,30 +339,6 @@
    "score": 21.2,
    "used": false,
    "base_score": 21.2,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "관악구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "관악구",
-   "entity_id": "region:11620",
-   "score": 20.0,
-   "used": false,
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "관악구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "관악구",
-   "entity_id": "region:11620",
-   "score": 20.0,
-   "used": false,
-   "base_score": 20.0,
    "growth": 1.0,
    "why": ""
   },
@@ -3689,6 +3665,30 @@
    "base_score": 7.0,
    "growth": 1.0,
    "why": ""
+  },
+  {
+   "keyword": "관악구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악구",
+   "entity_id": "region:11620",
+   "score": 6.0,
+   "used": false,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
+  },
+  {
+   "keyword": "관악구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "관악구",
+   "entity_id": "region:11620",
+   "score": 6.0,
+   "used": true,
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
   },
   {
    "keyword": "강남구관리비",
