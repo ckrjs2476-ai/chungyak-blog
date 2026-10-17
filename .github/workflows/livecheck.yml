@@ -1,0 +1,18 @@
+# 공개 화면 문자열 확인 (수동 실행)
+name: livecheck
+on:
+  workflow_dispatch:
+    inputs:
+      args:
+        default: ""
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python tools/livecheck.py ${{ github.event.inputs.args }}
