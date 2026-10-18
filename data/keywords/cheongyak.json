@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18 10:17",
+ "updated": "2026-10-19 05:30",
  "stage": 1,
  "band": [
   30,
@@ -7,160 +7,184 @@
  ],
  "keywords": [
   {
-   "keyword": "청주가경아이파크분양가",
+   "keyword": "쌍용더플래티넘한강경쟁률",
+   "volume": 40,
+   "comp": "중간",
+   "entity": "쌍용더플래티넘한강",
+   "entity_id": "2026000468",
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 93.5,
+   "used": false
+  },
+  {
+   "keyword": "연산센텀월드메르디앙분양가",
    "volume": 140,
+   "comp": "높음",
+   "entity": "연산센텀월드메르디앙",
+   "entity_id": "2026000495",
+   "base_score": 70.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 70.0,
+   "used": false
+  },
+  {
+   "keyword": "신분평에피트더웨이시티분양가",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "신분평에피트더웨이시티",
+   "entity_id": "2026000455",
+   "base_score": 70.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 70.0,
+   "used": false
+  },
+  {
+   "keyword": "청주가경아이파크분양가",
+   "volume": 160,
    "comp": "높음",
    "entity": "청주가경아이파크",
    "entity_id": "2026000491",
-   "score": 70.0,
-   "used": false,
    "base_score": 70.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 70.0,
+   "used": false
   },
   {
-   "keyword": "쌍용더플래티넘한강경쟁률",
-   "volume": 25,
-   "comp": "낮음",
-   "entity": "쌍용더플래티넘한강",
-   "entity_id": "2026000468",
-   "score": 66.0,
-   "used": false,
-   "base_score": 60.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)"
-  },
-  {
-   "keyword": "더샵동인센트리체분양가",
-   "volume": 130,
-   "comp": "중간",
-   "entity": "더샵동인센트리체",
-   "entity_id": "2026000494",
-   "score": 46.8,
-   "used": false,
-   "base_score": 85.0,
-   "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지"
+   "keyword": "트리븐센텀1단지분양가",
+   "volume": 120,
+   "comp": "높음",
+   "entity": "트리븐센텀1단지",
+   "entity_id": "2026000513",
+   "base_score": 70.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 70.0,
+   "used": false
   },
   {
    "keyword": "쌍용더플래티넘한강분양가",
-   "volume": 620,
+   "volume": 580,
    "comp": "중간",
    "entity": "쌍용더플래티넘한강",
    "entity_id": "2026000468",
-   "score": 46.8,
-   "used": false,
    "base_score": 85.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름"
-  },
-  {
-   "keyword": "천안아이파크시티경쟁률",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "천안아이파크시티",
-   "entity_id": "2026000498",
-   "score": 46.2,
-   "used": false,
-   "base_score": 42.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)"
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "score": 46.8,
+   "used": false
   },
   {
    "keyword": "광명시티프라디움에듀하임경쟁률",
-   "volume": 130,
+   "volume": 140,
    "comp": "중간",
    "entity": "광명시티프라디움에듀하임",
    "entity_id": "2026000453",
-   "score": 42.5,
-   "used": false,
    "base_score": 85.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(score)이 답하는 질문과 다름"
+   "why": "지금 쓸 글(score)이 답하는 질문과 다름",
+   "score": 42.5,
+   "used": false
+  },
+  {
+   "keyword": "신분평에피트더웨이시티청약",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "신분평에피트더웨이시티",
+   "entity_id": "2026000455",
+   "base_score": 42.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 42.0,
+   "used": false
   },
   {
    "keyword": "천안아이파크시티분양가",
-   "volume": 50,
+   "volume": 40,
    "comp": "높음",
    "entity": "천안아이파크시티",
    "entity_id": "2026000498",
-   "score": 38.5,
-   "used": false,
    "base_score": 70.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름"
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "score": 38.5,
+   "used": false
   },
   {
    "keyword": "광명시티프라디움에듀하임분양가",
-   "volume": 580,
+   "volume": 450,
    "comp": "높음",
    "entity": "광명시티프라디움에듀하임",
    "entity_id": "2026000453",
-   "score": 35.0,
-   "used": false,
    "base_score": 70.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(score)이 답하는 질문과 다름"
+   "why": "지금 쓸 글(score)이 답하는 질문과 다름",
+   "score": 35.0,
+   "used": false
   },
   {
    "keyword": "광명시티프라디움에듀하임청약",
-   "volume": 190,
+   "volume": 180,
    "comp": "높음",
    "entity": "광명시티프라디움에듀하임",
    "entity_id": "2026000453",
-   "score": 35.0,
-   "used": false,
    "base_score": 70.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(score)이 답하는 질문과 다름"
+   "why": "지금 쓸 글(score)이 답하는 질문과 다름",
+   "score": 35.0,
+   "used": false
   },
   {
-   "keyword": "수도권공공분양",
-   "volume": 50,
+   "keyword": "부동산청약홈",
+   "volume": 840,
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 25.0,
-   "used": false,
    "base_score": 25.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 25.0,
+   "used": false
   },
   {
    "keyword": "청약가점",
-   "volume": 620,
+   "volume": 610,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "사전청약",
-   "volume": 630,
+   "volume": 580,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "신축아파트청약",
-   "volume": 130,
+   "volume": 50,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "상도역헤리언트42분양가",
@@ -168,23 +192,23 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "광명미분양아파트",
-   "volume": 45,
+   "volume": 35,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "서울주택청약",
@@ -192,47 +216,35 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
-   "keyword": "청약전략",
-   "volume": 30,
+   "keyword": "수도권공공분양",
+   "volume": 70,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "부동산청약홈",
-   "volume": 900,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 21.2,
-   "used": false,
-   "base_score": 21.2,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "서울줍줍아파트",
-   "volume": 80,
+   "volume": 70,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "강동SK리더스뷰분양가",
@@ -240,83 +252,71 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "의왕시분양",
-   "volume": 80,
+   "volume": 90,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "서울공공분양",
-   "volume": 1000,
+   "volume": 970,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "강동분양",
-   "volume": 55,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 21.2,
-   "used": false,
-   "base_score": 21.2,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
-   "keyword": "송파리버레이크분양가",
+   "keyword": "여의대방더마크원분양가",
    "volume": 35,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
-   "keyword": "무순위",
-   "volume": 1410,
+   "keyword": "리버레이크송파분양",
+   "volume": 35,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 21.2,
-   "used": false,
    "base_score": 21.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
-   "keyword": "천안아이파크시티청약",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "천안아이파크시티",
-   "entity_id": "2026000498",
-   "score": 21.0,
-   "used": false,
-   "base_score": 70.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
+   "keyword": "무순위",
+   "volume": 1350,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 21.2,
+   "growth": 1.0,
+   "why": "",
+   "score": 21.2,
+   "used": false
   },
   {
    "keyword": "광명시티프라디움에듀하임당첨가점",
@@ -324,11 +324,11 @@
    "comp": "낮음",
    "entity": "광명시티프라디움에듀하임",
    "entity_id": "2026000453",
-   "score": 20.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 20.0,
+   "used": false
   },
   {
    "keyword": "진도승원팰리체더테라스경쟁률",
@@ -336,23 +336,11 @@
    "comp": "낮음",
    "entity": "진도승원팰리체더테라스",
    "entity_id": "2026000466",
-   "score": 20.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "진도승원팰리체더테라스청약",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "진도승원팰리체더테라스",
-   "entity_id": "2026000466",
+   "why": "",
    "score": 20.0,
-   "used": false,
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "익산부송에코르10년공공임대주택분양가",
@@ -360,11 +348,11 @@
    "comp": "낮음",
    "entity": "익산부송에코르10년공공임대주택",
    "entity_id": "2026000402",
-   "score": 20.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 20.0,
+   "used": false
   },
   {
    "keyword": "익산부송에코르10년공공임대주택청약",
@@ -372,107 +360,119 @@
    "comp": "낮음",
    "entity": "익산부송에코르10년공공임대주택",
    "entity_id": "2026000402",
-   "score": 20.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "진도승원팰리체더테라스청약",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "진도승원팰리체더테라스",
+   "entity_id": "2026000466",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
   },
   {
    "keyword": "분양일정",
-   "volume": 510,
+   "volume": 490,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양아파트",
-   "volume": 780,
+   "volume": 770,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양정보",
-   "volume": 610,
+   "volume": 620,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울분양아파트",
-   "volume": 800,
+   "volume": 850,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울미분양",
-   "volume": 220,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "줍줍분양",
    "volume": 230,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "줍줍분양",
+   "volume": 210,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울분양일정",
-   "volume": 720,
+   "volume": 640,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양예정",
-   "volume": 420,
+   "volume": 370,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울분양",
@@ -480,11 +480,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울아파트미분양",
@@ -492,47 +492,59 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양정보",
-   "volume": 410,
+   "volume": 390,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양권",
-   "volume": 500,
+   "volume": 490,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "전국아파트분양",
+   "volume": 30,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트청약일정",
-   "volume": 420,
+   "volume": 400,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "신규분양아파트",
@@ -540,11 +552,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양계획",
@@ -552,107 +564,119 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양공고",
-   "volume": 220,
+   "volume": 210,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양권",
-   "volume": 1180,
+   "volume": 1140,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울분양예정",
-   "volume": 100,
+   "volume": 110,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양가",
-   "volume": 950,
+   "volume": 840,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "상도푸르지오클라베뉴분양가",
-   "volume": 50,
+   "volume": 40,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울분양권",
-   "volume": 230,
+   "volume": 240,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "공모주청약방법",
-   "volume": 830,
+   "volume": 760,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "공모주청약일정",
+   "volume": 1300,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "리조트분양",
-   "volume": 30,
+   "volume": 40,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "콘도분양",
@@ -660,11 +684,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "수도권미분양아파트",
@@ -672,47 +696,47 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "경기도미분양아파트",
-   "volume": 1010,
+   "volume": 1020,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "세종분양",
-   "volume": 1130,
+   "volume": 1110,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "전원주택분양",
-   "volume": 940,
+   "volume": 900,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "호텔분양",
@@ -720,11 +744,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울무순위청약",
@@ -732,35 +756,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "이수역분양",
-   "volume": 55,
+   "volume": 45,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시아파트청약",
-   "volume": 150,
+   "volume": 130,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양가",
@@ -768,59 +792,71 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "서울줍줍",
+   "volume": 1460,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "입주자모집공고",
-   "volume": 570,
+   "volume": 560,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시아파트분양일정",
-   "volume": 115,
+   "volume": 105,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울아파트분양가",
-   "volume": 310,
+   "volume": 300,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시분양",
-   "volume": 260,
+   "volume": 250,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시미분양",
@@ -828,11 +864,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "서울분양정보",
+   "volume": 30,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "선착순분양",
@@ -840,11 +888,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양공고",
@@ -852,23 +900,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "미분양",
-   "volume": 1030,
+   "volume": 970,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양계획",
@@ -876,35 +924,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울시미분양아파트",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "신규아파트분양",
-   "volume": 50,
+   "volume": 40,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시아파트미분양",
@@ -912,11 +948,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "신축아파트분양",
@@ -924,11 +960,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양예정아파트",
@@ -936,59 +972,59 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양권매매",
-   "volume": 1010,
+   "volume": 1090,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울아파트분양일정",
-   "volume": 970,
+   "volume": 990,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울아파트분양권",
-   "volume": 420,
+   "volume": 370,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시아파트분양",
-   "volume": 380,
+   "volume": 370,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양중인아파트",
@@ -996,11 +1032,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시분양아파트",
@@ -1008,35 +1044,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "수도권분양",
-   "volume": 50,
+   "volume": 70,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "동작구아파트분양",
-   "volume": 80,
+   "volume": 90,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양예정",
@@ -1044,11 +1080,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "신규분양",
@@ -1056,35 +1092,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울아파트분양권매매",
-   "volume": 90,
+   "volume": 100,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "양산미분양",
-   "volume": 35,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "수도권청약",
@@ -1092,11 +1116,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "은평구아파트분양",
@@ -1104,59 +1128,47 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "후분양아파트",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "광명시분양아파트",
-   "volume": 45,
+   "volume": 55,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "경기도청약일정",
-   "volume": 850,
+   "volume": 830,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양홍보관",
-   "volume": 50,
+   "volume": 40,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "수도권미분양",
@@ -1164,23 +1176,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "디에이치방배분양가",
-   "volume": 1400,
+   "volume": 1360,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "강동역SK리더스뷰분양가",
@@ -1188,11 +1200,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "수도권분양아파트",
@@ -1200,23 +1212,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "트리우스광명분양가",
-   "volume": 140,
+   "volume": 110,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트미분양",
@@ -1224,47 +1236,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "인천시분양",
-   "volume": 160,
+   "volume": 150,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "상업시설분양",
-   "volume": 35,
+   "volume": 45,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "경남분양",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "한화포레나분양",
@@ -1272,35 +1272,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "울산분양",
-   "volume": 1000,
+   "volume": 920,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "분양권양도세",
-   "volume": 1360,
+   "volume": 1350,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "민영아파트청약",
@@ -1308,83 +1308,83 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "신혼희망타운분양",
-   "volume": 50,
+   "volume": 70,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "주택청약신청",
-   "volume": 520,
+   "volume": 480,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울신축아파트분양",
-   "volume": 60,
+   "volume": 80,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "신축분양",
-   "volume": 110,
+   "volume": 120,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "수도권아파트분양",
-   "volume": 100,
+   "volume": 90,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울시분양일정",
-   "volume": 150,
+   "volume": 140,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "전국미분양아파트",
@@ -1392,23 +1392,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "분양현장",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "준공후미분양아파트",
@@ -1416,35 +1404,47 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "서울아파트청약일정",
-   "volume": 770,
+   "volume": 760,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "강동분양",
+   "volume": 60,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "공모주청약시간",
-   "volume": 830,
+   "volume": 570,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "부동산분양",
@@ -1452,23 +1452,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "경기도분양일정",
-   "volume": 570,
+   "volume": 560,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "강동구아파트분양",
@@ -1476,47 +1476,59 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "은평구분양",
-   "volume": 60,
+   "volume": 50,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "송파리버레이크분양가",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "주택청약일정",
-   "volume": 150,
+   "volume": 140,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "리버레이크송파분양가",
-   "volume": 480,
+   "volume": 400,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "송파구분양",
@@ -1524,23 +1536,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "주식청약",
-   "volume": 620,
+   "volume": 530,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "도시형생활주택분양",
@@ -1548,83 +1560,83 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "광명시아파트분양",
-   "volume": 140,
+   "volume": 130,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "의왕아파트분양",
-   "volume": 210,
+   "volume": 200,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "송파아파트분양",
+   "volume": 45,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "인천분양권",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 17.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.5,
+   "used": false
+  },
+  {
+   "keyword": "송파분양",
    "volume": 60,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "인천분양권",
-   "volume": 120,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "송파분양",
-   "volume": 70,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "11월청약일정",
-   "volume": 40,
+   "volume": 90,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "아파트분양권전매",
@@ -1632,35 +1644,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "의왕분양",
-   "volume": 270,
+   "volume": 260,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "소사역분양",
-   "volume": 160,
+   "volume": 150,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "송파구아파트분양",
@@ -1668,35 +1680,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "광명시청약",
-   "volume": 250,
+   "volume": 220,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "당진아파트분양",
-   "volume": 200,
+   "volume": 190,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "수원분양예정",
@@ -1704,35 +1716,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "광명아파트분양",
-   "volume": 340,
+   "volume": 330,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "광명미분양",
-   "volume": 90,
+   "volume": 80,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "명지분양",
@@ -1740,23 +1752,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "송파청약",
-   "volume": 240,
+   "volume": 170,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "군산아파트분양",
@@ -1764,11 +1776,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "군산청약",
@@ -1776,23 +1788,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "군산아파트청약",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "세종시분양일정",
@@ -1800,35 +1800,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "군산분양",
-   "volume": 70,
+   "volume": 80,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "세종시아파트분양",
-   "volume": 1340,
+   "volume": 1330,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "하남시분양",
@@ -1836,23 +1836,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "더샵분양",
-   "volume": 30,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 17.5,
-   "used": false,
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "금정역분양",
@@ -1860,35 +1848,59 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
    "keyword": "세종시분양",
-   "volume": 1320,
+   "volume": 1270,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 17.5,
-   "used": false,
    "base_score": 17.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 17.5,
+   "used": false
   },
   {
-   "keyword": "상도푸르지오클라베뉴미분양",
-   "volume": 15,
+   "keyword": "천안아이파크시티경쟁률",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "천안아이파크시티",
+   "entity_id": "2026000498",
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 15.4,
+   "used": false
+  },
+  {
+   "keyword": "쌍용더플래티넘한강청약",
+   "volume": 20,
+   "comp": "중간",
+   "entity": "쌍용더플래티넘한강",
+   "entity_id": "2026000468",
+   "base_score": 51.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 15.3,
+   "used": false
+  },
+  {
+   "keyword": "7월공모주청약일정",
+   "volume": 25,
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 15.0,
-   "used": false,
    "base_score": 15.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 15.0,
+   "used": false
   },
   {
    "keyword": "센텀파크SK뷰분양가",
@@ -1896,47 +1908,95 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 15.0,
-   "used": false,
    "base_score": 15.0,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "은평구미분양아파트",
-   "volume": 15,
-   "comp": "낮음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 15.0,
-   "used": false,
-   "base_score": 15.0,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
-   "keyword": "상도역헤리언트분양가",
+   "keyword": "연산센텀월드메르디앙청약",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "연산센텀월드메르디앙",
+   "entity_id": "2026000495",
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "트리븐센텀1단지청약",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "트리븐센텀1단지",
+   "entity_id": "2026000513",
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "상도푸르지오클라베뉴미분양",
    "volume": 15,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 12.8,
-   "used": false,
    "base_score": 12.8,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 12.8,
+   "used": false
   },
   {
-   "keyword": "지역주택조합분양",
+   "keyword": "금강펜테리움분양",
    "volume": 15,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 12.8,
-   "used": false,
    "base_score": 12.8,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 12.8,
+   "used": false
+  },
+  {
+   "keyword": "분양소식",
+   "volume": 25,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 12.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 12.8,
+   "used": false
+  },
+  {
+   "keyword": "청약전략",
+   "volume": 20,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 12.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 12.8,
+   "used": false
+  },
+  {
+   "keyword": "아파트분양사무실",
+   "volume": 20,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 12.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 12.8,
+   "used": false
   },
   {
    "keyword": "서울아파트분양가격",
@@ -1944,23 +2004,11 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 12.8,
-   "used": false,
    "base_score": 12.8,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "여의대방더마크원분양가",
-   "volume": 25,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 12.8,
-   "used": false,
-   "base_score": 12.8,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "강동구아파트청약",
@@ -1968,11 +2016,11 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 12.8,
-   "used": false,
    "base_score": 12.8,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 12.8,
+   "used": false
   },
   {
    "keyword": "석촌역분양",
@@ -1980,71 +2028,23 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 12.8,
-   "used": false,
    "base_score": 12.8,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "7월공모주청약일정",
-   "volume": 25,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 12.8,
-   "used": false,
-   "base_score": 12.8,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
-   "keyword": "리버레이크송파분양",
-   "volume": 25,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 12.8,
-   "used": false,
-   "base_score": 12.8,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "쌍용더플래티넘한강청약",
-   "volume": 20,
+   "keyword": "천안아이파크시티청약",
+   "volume": 15,
    "comp": "높음",
-   "entity": "쌍용더플래티넘한강",
-   "entity_id": "2026000468",
-   "score": 12.6,
-   "used": false,
+   "entity": "천안아이파크시티",
+   "entity_id": "2026000498",
    "base_score": 42.0,
    "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)"
-  },
-  {
-   "keyword": "더샵동인센트리체경쟁률",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "더샵동인센트리체",
-   "entity_id": "2026000494",
-   "score": 11.0,
-   "used": false,
-   "base_score": 20.0,
-   "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지"
-  },
-  {
-   "keyword": "더샵동인센트리체당첨가점",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "더샵동인센트리체",
-   "entity_id": "2026000494",
-   "score": 11.0,
-   "used": false,
-   "base_score": 20.0,
-   "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지"
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 12.6,
+   "used": false
   },
   {
    "keyword": "쌍용더플래티넘한강당첨가점",
@@ -2052,11 +2052,11 @@
    "comp": "낮음",
    "entity": "쌍용더플래티넘한강",
    "entity_id": "2026000468",
-   "score": 11.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름"
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "score": 11.0,
+   "used": false
   },
   {
    "keyword": "천안아이파크시티당첨가점",
@@ -2064,23 +2064,11 @@
    "comp": "낮음",
    "entity": "천안아이파크시티",
    "entity_id": "2026000498",
-   "score": 11.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름"
-  },
-  {
-   "keyword": "전국아파트분양",
-   "volume": 25,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 10.5,
-   "used": false,
-   "base_score": 10.5,
-   "growth": 1.0,
-   "why": ""
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "score": 11.0,
+   "used": false
   },
   {
    "keyword": "주상복합분양",
@@ -2088,11 +2076,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "아파트신규분양",
@@ -2100,11 +2088,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "아파텔분양",
@@ -2112,11 +2100,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "아파트분양가격",
@@ -2124,11 +2112,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "생숙분양",
@@ -2136,23 +2124,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "금강펜테리움분양",
-   "volume": 20,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 10.5,
-   "used": false,
-   "base_score": 10.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "코오롱하늘채분양",
@@ -2160,11 +2136,47 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "분양문의",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트분양모델하우스",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "아파트분양홍보관",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "무순위아파트",
@@ -2172,11 +2184,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "상도동아파트분양",
@@ -2184,35 +2196,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울분양정보",
-   "volume": 20,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 10.5,
-   "used": false,
-   "base_score": 10.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
-   "keyword": "분양중아파트",
+   "keyword": "상도역헤리언트분양가",
    "volume": 15,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "분양중아파트",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "신축분양아파트",
@@ -2220,23 +2232,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
-   "keyword": "분양소식",
+   "keyword": "서울시미분양아파트",
    "volume": 25,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "서울신규분양아파트",
@@ -2244,11 +2256,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "아파트분양서울",
@@ -2256,11 +2268,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "서울아파트분양정보",
@@ -2268,11 +2280,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "소형아파트분양",
@@ -2280,35 +2292,47 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "은평구분양아파트",
-   "volume": 15,
+   "volume": 25,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "아파트민간분양",
-   "volume": 15,
+   "volume": 25,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "양산미분양",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "아파트분양소식",
@@ -2316,23 +2340,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
-   "keyword": "광명트리우스미분양",
+   "keyword": "후분양아파트",
    "volume": 25,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "광명트리우스미분양",
+   "volume": 20,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "사당동아파트분양",
@@ -2340,11 +2376,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "하이엔드분양",
@@ -2352,23 +2388,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
-   "keyword": "경북분양",
-   "volume": 20,
+   "keyword": "경남분양",
+   "volume": 25,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "경북분양",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "지주택분양",
@@ -2376,11 +2424,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "한양수자인분양",
@@ -2388,11 +2436,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "영등포아파트분양",
@@ -2400,11 +2448,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "분양전환아파트",
@@ -2412,11 +2460,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "서대문구아파트분양",
@@ -2424,11 +2472,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "의정부아파트분양가",
@@ -2436,11 +2484,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "이편한세상신곡시그니처뷰분양가",
@@ -2448,11 +2496,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "인천송도미분양아파트",
@@ -2460,23 +2508,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "아파트분양사무실",
-   "volume": 20,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 10.5,
-   "used": false,
-   "base_score": 10.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "신길뉴타운분양",
@@ -2484,23 +2520,35 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "수도권아파트청약",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "분양현장",
    "volume": 25,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "광명트리우스분양가",
@@ -2508,11 +2556,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "서울소형아파트분양",
@@ -2520,11 +2568,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "8월공모주청약일정",
@@ -2532,11 +2580,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "연산동분양",
@@ -2544,11 +2592,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "의정부청약예정",
@@ -2556,11 +2604,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "모델하우스분양",
@@ -2568,11 +2616,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "은평구미분양아파트",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "군산시아파트분양",
@@ -2580,23 +2640,47 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
-   "keyword": "민간아파트분양",
+   "keyword": "군산아파트청약",
    "volume": 20,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "더샵분양",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "민간아파트분양",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
   },
   {
    "keyword": "펜트하우스분양",
@@ -2604,11 +2688,107 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 10.5,
-   "used": false,
    "base_score": 10.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "성성동아이파크분양가",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "청약가점계산기",
+   "volume": 2210,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 10.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 10.0,
+   "used": false
+  },
+  {
+   "keyword": "연산센텀월드메르디앙경쟁률",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "연산센텀월드메르디앙",
+   "entity_id": "2026000495",
+   "base_score": 20.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
+  },
+  {
+   "keyword": "신분평에피트더웨이시티경쟁률",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신분평에피트더웨이시티",
+   "entity_id": "2026000455",
+   "base_score": 20.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
+  },
+  {
+   "keyword": "신분평에피트더웨이시티당첨가점",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신분평에피트더웨이시티",
+   "entity_id": "2026000455",
+   "base_score": 20.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
+  },
+  {
+   "keyword": "연산센텀월드메르디앙당첨가점",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "연산센텀월드메르디앙",
+   "entity_id": "2026000495",
+   "base_score": 20.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
+  },
+  {
+   "keyword": "트리븐센텀1단지경쟁률",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "트리븐센텀1단지",
+   "entity_id": "2026000513",
+   "base_score": 20.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
+  },
+  {
+   "keyword": "트리븐센텀1단지당첨가점",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "트리븐센텀1단지",
+   "entity_id": "2026000513",
+   "base_score": 20.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
   },
   {
    "keyword": "청주가경아이파크당첨가점",
@@ -2616,11 +2796,11 @@
    "comp": "낮음",
    "entity": "청주가경아이파크",
    "entity_id": "2026000491",
-   "score": 10.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름"
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
   },
   {
    "keyword": "진도승원팰리체더테라스당첨가점",
@@ -2628,23 +2808,11 @@
    "comp": "낮음",
    "entity": "진도승원팰리체더테라스",
    "entity_id": "2026000466",
-   "score": 10.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(competition)이 답하는 질문과 다름"
-  },
-  {
-   "keyword": "진도승원팰리체더테라스분양가",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "진도승원팰리체더테라스",
-   "entity_id": "2026000466",
+   "why": "지금 쓸 글(competition)이 답하는 질문과 다름",
    "score": 10.0,
-   "used": false,
-   "base_score": 20.0,
-   "growth": 0.5,
-   "why": "지금 쓸 글(competition)이 답하는 질문과 다름"
+   "used": false
   },
   {
    "keyword": "익산부송에코르10년공공임대주택경쟁률",
@@ -2652,11 +2820,11 @@
    "comp": "낮음",
    "entity": "익산부송에코르10년공공임대주택",
    "entity_id": "2026000402",
-   "score": 10.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름"
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "score": 10.0,
+   "used": false
   },
   {
    "keyword": "익산부송에코르10년공공임대주택당첨가점",
@@ -2664,71 +2832,239 @@
    "comp": "낮음",
    "entity": "익산부송에코르10년공공임대주택",
    "entity_id": "2026000402",
-   "score": 10.0,
-   "used": false,
    "base_score": 20.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름"
-  },
-  {
-   "keyword": "청약가점계산기",
-   "volume": 2240,
-   "comp": "낮음",
-   "entity": "",
-   "entity_id": "",
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
    "score": 10.0,
-   "used": false,
-   "base_score": 10.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "더샵동인센트리체청약",
-   "volume": 15,
-   "comp": "낮음",
-   "entity": "더샵동인센트리체",
-   "entity_id": "2026000494",
-   "score": 9.0,
-   "used": true,
-   "base_score": 60.0,
-   "growth": 0.15,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 지금 글감 목록(jobs)에 없는 단지"
+   "used": false
   },
   {
    "keyword": "아파트청약방법",
-   "volume": 1890,
+   "volume": 2050,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 8.5,
-   "used": false,
    "base_score": 8.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 8.5,
+   "used": false
   },
   {
    "keyword": "청약조건",
-   "volume": 3320,
+   "volume": 3340,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 8.5,
-   "used": false,
    "base_score": 8.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 8.5,
+   "used": false
   },
   {
    "keyword": "줍줍청약",
-   "volume": 4050,
+   "volume": 3800,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 8.5,
-   "used": false,
    "base_score": 8.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 8.5,
+   "used": false
+  },
+  {
+   "keyword": "주택청약신청방법",
+   "volume": 3830,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 8.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 8.5,
+   "used": false
+  },
+  {
+   "keyword": "진도승원팰리체더테라스분양가",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "진도승원팰리체더테라스",
+   "entity_id": "2026000466",
+   "base_score": 17.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(competition)이 답하는 질문과 다름",
+   "score": 8.5,
+   "used": false
+  },
+  {
+   "keyword": "무순위청약",
+   "volume": 4070,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "서울미분양아파트",
+   "volume": 1650,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "미분양아파트",
+   "volume": 2140,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "서울아파트분양",
+   "volume": 4090,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "서울아파트청약",
+   "volume": 1810,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "동탄청약",
+   "volume": 2680,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "부동산청약",
+   "volume": 1520,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "서울분양예정아파트",
+   "volume": 1680,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "서울청약일정",
+   "volume": 3360,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "신혼부부청약",
+   "volume": 1750,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "광명청약",
+   "volume": 4070,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "인천청약",
+   "volume": 2230,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "9월공모주청약일정",
+   "volume": 2630,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "분양가상한제",
+   "volume": 3940,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 7.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 7.0,
+   "used": false
   },
   {
    "keyword": "청주가경아이파크경쟁률",
@@ -2736,215 +3072,11 @@
    "comp": "높음",
    "entity": "청주가경아이파크",
    "entity_id": "2026000491",
-   "score": 7.0,
-   "used": false,
    "base_score": 14.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름"
-  },
-  {
-   "keyword": "무순위청약",
-   "volume": 4340,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
    "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울미분양아파트",
-   "volume": 1640,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "미분양아파트",
-   "volume": 2160,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울아파트분양",
-   "volume": 4200,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울아파트청약",
-   "volume": 1850,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "공모주청약일정",
-   "volume": 1510,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "동탄청약",
-   "volume": 2670,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "부동산청약",
-   "volume": 1580,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울줍줍",
-   "volume": 1510,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울분양예정아파트",
-   "volume": 1650,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "주택청약신청방법",
-   "volume": 3780,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "서울청약일정",
-   "volume": 3530,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "신혼부부청약",
-   "volume": 1790,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "광명청약",
-   "volume": 4420,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "인천청약",
-   "volume": 2370,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "9월공모주청약일정",
-   "volume": 4250,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "분양가상한제",
-   "volume": 4060,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 7.0,
-   "used": false,
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "상도푸르지오클라베뉴무순위",
@@ -2952,11 +3084,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "지역주택조합아파트분양권투자의비밀",
@@ -2964,11 +3096,35 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "상도푸르지오분양",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "상도푸르지오클라베뉴청약",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "상도푸르지오분양가",
@@ -2976,11 +3132,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "6월공모주청약일정",
@@ -2988,11 +3144,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "헤리언트42분양가",
@@ -3000,11 +3156,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "상도헤리언트분양가",
@@ -3012,11 +3168,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "24년아파트분양",
@@ -3024,11 +3180,23 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "송파미분양",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "상도클라베뉴미분양",
@@ -3036,11 +3204,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "상도역헤리언트42분양",
@@ -3048,11 +3216,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "아파트청약추천",
@@ -3060,11 +3228,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "2024아파트분양",
@@ -3072,11 +3240,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "3월공모주청약일정",
@@ -3084,23 +3252,23 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
-   "keyword": "성남미분양아파트",
+   "keyword": "강동미분양",
    "volume": 10,
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "광명2구역분양가",
@@ -3108,11 +3276,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "천호분양",
@@ -3120,11 +3288,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "천호역분양",
@@ -3132,11 +3300,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "2024년부산청약",
@@ -3144,11 +3312,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "2024부산청약",
@@ -3156,11 +3324,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "6월공모주청약",
@@ -3168,11 +3336,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "2024년아파트분양",
@@ -3180,11 +3348,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "4월공모주청약일정",
@@ -3192,11 +3360,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "HD현대마린솔루션청약",
@@ -3204,11 +3372,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "시프트업청약",
@@ -3216,11 +3384,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "2월공모주청약일정",
@@ -3228,11 +3396,11 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
    "keyword": "7월분양아파트",
@@ -3240,23 +3408,23 @@
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
-   "score": 5.0,
-   "used": false,
    "base_score": 5.0,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 5.0,
+   "used": false
   },
   {
-   "keyword": "상도푸르지오클라베뉴청약",
+   "keyword": "무순위청약아파트",
    "volume": 10,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 4.2,
-   "used": false,
    "base_score": 4.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 4.2,
+   "used": false
   },
   {
    "keyword": "분양권강의",
@@ -3264,11 +3432,11 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 4.2,
-   "used": false,
    "base_score": 4.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 4.2,
+   "used": false
   },
   {
    "keyword": "미분양아파트매입",
@@ -3276,35 +3444,11 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 4.2,
-   "used": false,
    "base_score": 4.2,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "동작하이팰리스분양가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 4.2,
-   "used": false,
-   "base_score": 4.2,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "송파미분양",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "score": 4.2,
-   "used": false,
-   "base_score": 4.2,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "서울주상복합분양",
@@ -3312,11 +3456,35 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 4.2,
-   "used": false,
    "base_score": 4.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 4.2,
+   "used": false
+  },
+  {
+   "keyword": "지역주택조합분양",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 4.2,
+   "growth": 1.0,
+   "why": "",
+   "score": 4.2,
+   "used": false
+  },
+  {
+   "keyword": "하늘채분양",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 4.2,
+   "growth": 1.0,
+   "why": "",
+   "score": 4.2,
+   "used": false
   },
   {
    "keyword": "판교밸리제일풍경채분양가",
@@ -3324,11 +3492,11 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 4.2,
-   "used": false,
    "base_score": 4.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 4.2,
+   "used": false
   },
   {
    "keyword": "노브랜드청약",
@@ -3336,11 +3504,11 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 4.2,
-   "used": false,
    "base_score": 4.2,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 4.2,
+   "used": false
   },
   {
    "keyword": "군산더샵프리미엘분양가",
@@ -3348,35 +3516,11 @@
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 4.2,
-   "used": false,
    "base_score": 4.2,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "무순위청약아파트",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false,
-   "base_score": 3.5,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "상도푸르지오분양",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false,
-   "base_score": 3.5,
-   "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 4.2,
+   "used": false
   },
   {
    "keyword": "주상복합아파트분양",
@@ -3384,11 +3528,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "광명시미분양",
@@ -3396,11 +3540,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "청약강의",
@@ -3408,11 +3552,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "청약스터디",
@@ -3420,35 +3564,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "분양문의",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 3.5,
-   "used": false,
-   "base_score": 3.5,
-   "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "아파트분양모델하우스",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "score": 3.5,
-   "used": false,
-   "base_score": 3.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "서울선착순분양",
@@ -3456,23 +3576,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
-   "keyword": "아파트분양홍보관",
+   "keyword": "동작하이팰리스분양가",
    "volume": 10,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "상도아파트분양",
@@ -3480,11 +3600,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "일반분양아파트",
@@ -3492,11 +3612,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "서울아파트일반분양",
@@ -3504,11 +3624,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "분양안내",
@@ -3516,11 +3636,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "경기도분양정보",
@@ -3528,11 +3648,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "서울지역아파트분양",
@@ -3540,11 +3660,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "고급주택분양",
@@ -3552,11 +3672,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "삼성래미안분양",
@@ -3564,11 +3684,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "중흥S클래스분양",
@@ -3576,23 +3696,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "하늘채분양",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 3.5,
-   "used": false,
-   "base_score": 3.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "한라비발디분양",
@@ -3600,11 +3708,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "해외분양",
@@ -3612,11 +3720,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "분양클래스",
@@ -3624,11 +3732,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "생활숙박시설분양",
@@ -3636,11 +3744,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "경기도아파트분양정보",
@@ -3648,11 +3756,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "홍제동아파트분양",
@@ -3660,11 +3768,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "천호동분양",
@@ -3672,11 +3780,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "광명트리우스줍줍",
@@ -3684,11 +3792,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "서울주택분양",
@@ -3696,11 +3804,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "트리우스광명분양",
@@ -3708,23 +3816,23 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
-   "keyword": "강동미분양",
+   "keyword": "성남미분양아파트",
    "volume": 10,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "서울경기미분양아파트",
@@ -3732,11 +3840,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "트리우스광명미분양",
@@ -3744,11 +3852,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "서울도시형생활주택분양",
@@ -3756,11 +3864,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "하반기아파트분양",
@@ -3768,11 +3876,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "수도권아파트미분양",
@@ -3780,11 +3888,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "서울아파트신규분양",
@@ -3792,11 +3900,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "전국분양아파트",
@@ -3804,11 +3912,11 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "성성동아이파크분양",
@@ -3816,191 +3924,179 @@
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
-  },
-  {
-   "keyword": "성성동아이파크분양가",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
+   "why": "",
    "score": 3.5,
-   "used": false,
-   "base_score": 3.5,
-   "growth": 1.0,
-   "why": ""
+   "used": false
   },
   {
    "keyword": "청주가경아이파크청약",
-   "volume": 5690,
+   "volume": 6480,
    "comp": "높음",
    "entity": "청주가경아이파크",
    "entity_id": "2026000491",
-   "score": 3.5,
-   "used": false,
    "base_score": 3.5,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 3.5,
+   "used": false
   },
   {
    "keyword": "주택청약1순위조건",
-   "volume": 5990,
+   "volume": 5920,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 1.1,
-   "used": false,
    "base_score": 1.1,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 1.1,
+   "used": false
   },
   {
    "keyword": "공공분양",
-   "volume": 5010,
+   "volume": 4690,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "score": 1.1,
-   "used": false,
    "base_score": 1.1,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 1.1,
+   "used": false
   },
   {
    "keyword": "청약일정",
-   "volume": 6180,
+   "volume": 5780,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "아파트청약",
-   "volume": 12780,
+   "volume": 12350,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "아파트분양",
-   "volume": 7420,
+   "volume": 7250,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "청약",
-   "volume": 44800,
+   "volume": 42600,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "아파트분양일정",
-   "volume": 5520,
+   "volume": 5560,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "분양",
-   "volume": 6960,
+   "volume": 6820,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "주택청약",
-   "volume": 30950,
+   "volume": 29790,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "공모주청약",
-   "volume": 9540,
+   "volume": 7950,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "청약홈페이지",
-   "volume": 11540,
+   "volume": 11160,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "서울청약",
-   "volume": 5040,
+   "volume": 4920,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   },
   {
    "keyword": "10월공모주청약일정",
-   "volume": 4510,
+   "volume": 5000,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
-   "score": 0.9,
-   "used": false,
    "base_score": 0.9,
    "growth": 1.0,
-   "why": ""
+   "why": "",
+   "score": 0.9,
+   "used": false
   }
  ]
 }
