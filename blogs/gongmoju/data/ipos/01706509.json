@@ -25,27 +25,8 @@
    "how": "총액인수"
   }
  ],
- "fund_uses": [
-  {
-   "use": "운영자금",
-   "amount": 7498415000,
-   "share_pct": 31.2,
-   "amount_eok": 75.0
-  },
-  {
-   "use": "시설투자",
-   "amount": 4500000000,
-   "share_pct": 18.8,
-   "amount_eok": 45.0
-  },
-  {
-   "use": "발행제비용",
-   "amount": 11998415000,
-   "share_pct": 50.0,
-   "amount_eok": 120.0
-  }
- ],
- "fund_total": 23996830000,
+ "fund_uses": [],
+ "fund_total": null,
  "sellers": [],
  "sell_shares": null,
  "company": {
@@ -66,20 +47,34 @@
  ],
  "is_spac": false,
  "price_confirmed": false,
+ "correction_requested": false,
  "lead_underwriter": "대신증권",
  "underwriting_fee_pct": 4.63,
  "total_eok": 123.0,
  "fund_matches_total": false,
+ "fund_uses_unreliable": true,
+ "fund_uses_raw": [
+  {
+   "use": "운영자금",
+   "amount": 7498415000,
+   "share_pct": 31.2
+  },
+  {
+   "use": "시설투자",
+   "amount": 4500000000,
+   "share_pct": 18.8
+  },
+  {
+   "use": "발행제비용",
+   "amount": 11998415000,
+   "share_pct": 50.0
+  }
+ ],
  "company_age_years": 14,
  "total_rank": 26,
  "total_rank_of": 26,
  "total_vs_median_pct": -58.1,
- "top_fund_use": {
-  "use": "발행제비용",
-  "amount": 11998415000,
-  "share_pct": 50.0,
-  "amount_eok": 120.0
- },
+ "top_fund_use": null,
  "compare_median_total": 29346000000,
  "compare_count": 26,
  "median_fee_pct": 4.12,

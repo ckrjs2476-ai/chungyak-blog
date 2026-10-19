@@ -25,27 +25,8 @@
    "how": "총액인수"
   }
  ],
- "fund_uses": [
-  {
-   "use": "시설자금",
-   "amount": 18406,
-   "share_pct": 65.7,
-   "amount_eok": 0.0
-  },
-  {
-   "use": "운영자금",
-   "amount": 8375,
-   "share_pct": 29.9,
-   "amount_eok": 0.0
-  },
-  {
-   "use": "발행제비용",
-   "amount": 1235,
-   "share_pct": 4.4,
-   "amount_eok": 0.0
-  }
- ],
- "fund_total": 28016,
+ "fund_uses": [],
+ "fund_total": null,
  "sellers": [],
  "sell_shares": null,
  "company": {
@@ -66,20 +47,34 @@
  ],
  "is_spac": false,
  "price_confirmed": true,
+ "correction_requested": false,
  "lead_underwriter": "케이비증권",
  "underwriting_fee_pct": 4.12,
  "total_eok": 272.0,
  "fund_matches_total": false,
+ "fund_uses_unreliable": true,
+ "fund_uses_raw": [
+  {
+   "use": "시설자금",
+   "amount": 18406,
+   "share_pct": 65.7
+  },
+  {
+   "use": "운영자금",
+   "amount": 8375,
+   "share_pct": 29.9
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1235,
+   "share_pct": 4.4
+  }
+ ],
  "company_age_years": 11,
  "total_rank": 15,
  "total_rank_of": 26,
  "total_vs_median_pct": -7.3,
- "top_fund_use": {
-  "use": "시설자금",
-  "amount": 18406,
-  "share_pct": 65.7,
-  "amount_eok": 0.0
- },
+ "top_fund_use": null,
  "compare_median_total": 29346000000,
  "compare_count": 26,
  "median_fee_pct": 4.12,

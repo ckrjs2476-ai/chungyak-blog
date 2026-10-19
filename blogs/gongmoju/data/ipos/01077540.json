@@ -1,0 +1,89 @@
+{
+ "corp_code": "01077540",
+ "corp_name": "씨아이에스케미칼",
+ "rcept_no": "20261019000343",
+ "rcept_dt": "20261019",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000343",
+ "subscription": "2026년 12월 10일 ~ 2026년 12월 11일",
+ "payment_date": "2026년 12월 15일",
+ "notice_date": "2026년 12월 10일",
+ "allot_date": "2026년 12월 15일",
+ "stock_kind": "보통주",
+ "shares": 4000000,
+ "face_value": 500,
+ "price": 5400,
+ "total": 21600000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "케이비증권",
+   "shares": 4000000,
+   "amount": 21600000000,
+   "fee": 1001160000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 20000000000,
+   "share_pct": 89.9,
+   "amount_eok": 200.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 1136952000,
+   "share_pct": 5.1,
+   "amount_eok": 11.4
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1111048000,
+   "share_pct": 5.0,
+   "amount_eok": 11.1
+  }
+ ],
+ "fund_total": 22248000000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)씨아이에스케미칼",
+  "ceo_nm": "이성오",
+  "induty_code": "24212",
+  "est_dt": "20120508",
+  "hm_url": "www.cisk.co.kr",
+  "adres": "광주광역시 광산구 진곡산단중앙로 106 (오선동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "케이비증권",
+ "underwriting_fee_pct": 4.63,
+ "total_eok": 216.0,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 14,
+ "total_rank": 20,
+ "total_rank_of": 26,
+ "total_vs_median_pct": -26.4,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 20000000000,
+  "share_pct": 89.9,
+  "amount_eok": 200.0
+ },
+ "compare_median_total": 29346000000,
+ "compare_count": 26,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 293.5
+}
