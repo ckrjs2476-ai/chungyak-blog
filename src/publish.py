@@ -207,16 +207,16 @@ def related_block(no: str, exclude_id: str | None = None, labels: list | None = 
             groups.append((title, items))
 
     if no:
-        pick("이 단지 다른 글", lambda p: p.get("house_manage_no") == no, 4)
+        pick(f"이 {UNIT_NOUN.get(BLOG, '대상')} 다른 글", lambda p: p.get("house_manage_no") == no, 4)
     region = next((l for l in labels if l in REGION_LABELS), None)
     kind = next((l for l in labels if l in TYPE_LABELS), None)
     if region:
         name = "지방" if region == "지방" else region
-        pick(f"{name} 다른 청약 글", lambda p: region in p.get("labels", []), 3)
+        pick(f"{name} 다른 {POST_NOUN.get(BLOG, '글')}", lambda p: region in p.get("labels", []), 3)
     if kind:
-        pick(f"다른 단지 {kind} 글", lambda p: kind in p.get("labels", []), 2)
+        pick(f"다른 {UNIT_NOUN.get(BLOG, '대상')} {kind} 글", lambda p: kind in p.get("labels", []), 2)
     if not groups:
-        pick("최근 청약 글", lambda p: True, 3)
+        pick(f"최근 {POST_NOUN.get(BLOG, '글')}", lambda p: True, 3)
     if not groups:
         return ""
     html = ""
@@ -315,6 +315,8 @@ PAGES_DIR = BASE / "pages"
 PAGES_JSON = (ROOT / "data" / "pages.json") if _blog is None else (BASE / "data" / "pages.json")
 
 
+UNIT_NOUN = {"cheongyak": "단지", "jeonse": "지역", "gongmoju": "회사", "gwanribi": "지역"}
+POST_NOUN = {"cheongyak": "청약 글", "jeonse": "전세 글", "gongmoju": "공모주 글", "gwanribi": "관리비 글"}
 HUB_TEXT = {"cheongyak": "지역별 분양가 순위표", "jeonse": "전국 시군구 전세가율 순위표",
             "gongmoju": "최근 공모주 규모 순위표", "gwanribi": "시군구 관리비 순위표"}
 

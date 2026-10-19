@@ -119,6 +119,8 @@ def compare(items: list[dict]) -> None:
     for i in items:
         i["is_spac"] = "기업인수목적" in i["corp_name"] or str((i.get("company") or {}).get("induty_code", "")) == "66199"
         i["price_confirmed"] = "발행조건확정" in i.get("report_nm", "")
+        # 금감원 정정제출요구 뒤 정정 신고서가 없으면 일정이 효력을 잃는다 → 글감·일정 표에서 빼야 한다
+        i["correction_requested"] = "정정제출요구" in i.get("report_nm", "")
         uw = [u for u in i.get("underwriters") or [] if u.get("shares")]
         lead = max(uw, key=lambda u: u["shares"], default=None)
         i["lead_underwriter"] = lead["name"] if lead else None
@@ -129,6 +131,13 @@ def compare(items: list[dict]) -> None:
         ft, tt = i.get("fund_total"), i.get("total")
         # 자금 사용 목적 합계가 공모총액과 크게 다르면(구주매출 포함·단위 차이 등) 금액 대신 비중만 쓴다
         i["fund_matches_total"] = bool(ft and tt and abs(ft - tt) <= tt * 0.2)
+        if ft and tt and not (0.5 <= ft / tt <= 1.5):
+            # 합계가 공모 총액과 크게 어긋나면 표를 잘못 읽은 것(예: 단위 10배)으로 보고 비중을 쓰지 않는다
+            i["fund_uses_unreliable"] = True
+            i["fund_uses_raw"] = i.get("fund_uses")
+            i["fund_uses"], i["fund_total"] = [], None
+        else:
+            i["fund_uses_unreliable"] = False
         i["sellers"] = [x for x in i.get("sellers") or [] if x.get("name") not in (None, "-", "")]
         for f in i.get("fund_uses") or []:
             f["amount_eok"] = round(f["amount"] / 1e8, 1)
