@@ -36,6 +36,37 @@
  "general_total": 18,
  "special_total": 0,
  "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.97C",
+    "supply": 17,
+    "closed_at": "None순위 None",
+    "rate": 2.24,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.99B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 14.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 52,
+  "rank1_req": 0,
+  "supply_total": 18,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.99B",
+   "rate": 14.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "울산광역시 남구",
   "lawd": "31140",

@@ -29,14 +29,38 @@
  "special_share_pct": 0,
  "price_84_min": 47770,
  "price_84_max": 47770,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9821A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 241.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 241,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9821A",
+   "rate": 241.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "부산광역시 강서구",
   "lawd": "26440",
   "months": 12,
-  "updated": "2026-10-19",
-  "n84": 566,
+  "updated": "2026-10-20",
+  "n84": 577,
   "median84": 44000,
-  "p25_84": 33650,
+  "p25_84": 33500,
   "p75_84": 54500,
   "new_n84": 10,
   "new_median84": 57750,

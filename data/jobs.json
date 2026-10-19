@@ -1,13 +1,23 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "jobs": [
+  {
+   "house_manage_no": "2026000373",
+   "type": "notice",
+   "name": "고덕강일지구 3단지 토지임대부(본청약)",
+   "address": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
+   "priority": 91,
+   "search_volume": 30,
+   "rank1_date": "2026-11-02",
+   "winner_date": "2026-11-26"
+  },
   {
    "house_manage_no": "2026000495",
    "type": "notice",
    "name": "연산 센텀 월드메르디앙",
    "address": "부산광역시 연제구 연산동 418-8(외1필지)",
-   "priority": 74,
-   "search_volume": 2140,
+   "priority": 73,
+   "search_volume": 2790,
    "rank1_date": "2026-10-27",
    "winner_date": "2026-11-04"
   },
@@ -17,16 +27,26 @@
    "name": "쌍용 더 플래티넘 한강",
    "address": "경기도 양평군 양서면 용담리 212-3번지 일원",
    "priority": 71,
-   "search_volume": 6930,
+   "search_volume": 7120,
    "rank1_date": "2026-10-13",
    "winner_date": "2026-10-20"
+  },
+  {
+   "house_manage_no": "2026000513",
+   "type": "notice",
+   "name": "트리븐센텀 1단지",
+   "address": "부산광역시 해운대구 반여동 1167-3번지 일원",
+   "priority": 65,
+   "search_volume": 380,
+   "rank1_date": "2026-10-27",
+   "winner_date": "2026-11-04"
   },
   {
    "house_manage_no": "2026000455",
    "type": "notice",
    "name": "신분평 에피트 더웨이시티",
    "address": "충청북도 청주시 서원구 장성동 135번지 일원(장성지구 A2블럭)",
-   "priority": 60,
+   "priority": 59,
    "search_volume": 2770,
    "rank1_date": "2026-10-28",
    "winner_date": "2026-11-04"
@@ -42,34 +62,14 @@
    "winner_date": "2026-10-20"
   },
   {
-   "house_manage_no": "2026000513",
-   "type": "notice",
-   "name": "트리븐센텀 1단지",
-   "address": "부산광역시 해운대구 반여동 1167-3번지 일원",
-   "priority": 54,
-   "search_volume": 290,
-   "rank1_date": "2026-10-27",
-   "winner_date": "2026-11-04"
-  },
-  {
    "house_manage_no": "2026000492",
    "type": "notice",
    "name": "청주 가경 아이파크 8단지",
    "address": "충청북도 청주시 흥덕구 가경동 701번지 일원",
-   "priority": 54,
+   "priority": 53,
    "search_volume": 19560,
    "rank1_date": "2026-10-20",
    "winner_date": "2026-10-27"
-  },
-  {
-   "house_manage_no": "2026000491",
-   "type": "notice",
-   "name": "청주 가경 아이파크 7단지",
-   "address": "충청북도 청주시 흥덕구 가경동 309번지 일원",
-   "priority": 45,
-   "search_volume": 22810,
-   "rank1_date": "2026-10-20",
-   "winner_date": "2026-10-28"
   },
   {
    "house_manage_no": "2026000466",
@@ -82,11 +82,21 @@
    "winner_date": "2026-10-21"
   },
   {
+   "house_manage_no": "2026000491",
+   "type": "notice",
+   "name": "청주 가경 아이파크 7단지",
+   "address": "충청북도 청주시 흥덕구 가경동 309번지 일원",
+   "priority": 44,
+   "search_volume": 22810,
+   "rank1_date": "2026-10-20",
+   "winner_date": "2026-10-28"
+  },
+  {
    "house_manage_no": "2026000402",
    "type": "notice",
    "name": "익산 부송에코르 10년 공공임대주택",
    "address": "전북특별자치도 익산시 부송동 1421(익산 부송4지구 A블록)",
-   "priority": 26,
+   "priority": 25,
    "search_volume": 15,
    "rank1_date": "2026-10-23",
    "winner_date": "2026-10-30"

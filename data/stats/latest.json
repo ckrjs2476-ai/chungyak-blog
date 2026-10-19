@@ -1,5 +1,5 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "weekly_competition": [
   {
    "no": "2026000463",
@@ -54,13 +54,17 @@
    "type_count": 2
   },
   {
-   "no": "2026000444",
-   "name": "제주시 이도이동 아이린8차 아파트",
-   "region": "제주",
-   "rank1_avg_rate": 0.2,
-   "best": null,
-   "final_shortfall_total": 33,
-   "rank1_closed_types": 0,
+   "no": "2026000471",
+   "name": "한양립스 에듀포레(조합원 취소분)",
+   "region": "광주",
+   "rank1_avg_rate": 0.21,
+   "best": {
+    "ty": "89.513A",
+    "rate": 2.0,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 16,
+   "rank1_closed_types": 1,
    "type_count": 5
   },
   {
@@ -1264,6 +1268,20 @@
     }
    },
    {
+    "no": "2026000373",
+    "name": "고덕강일지구 3단지 토지임대부(본청약)",
+    "region": "서울",
+    "households": 1305,
+    "pyeong_avg": 1439,
+    "price_84_min": null,
+    "special_kinds": {
+     "신혼부부": 106,
+     "생애최초": 106,
+     "신생아": 248,
+     "청년": 106
+    }
+   },
+   {
     "no": "2026000267",
     "name": "아산 그랑시티필하우스",
     "region": "충남",
@@ -1313,14 +1331,15 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 1374,
-   "생애최초": 667,
-   "신생아": 958,
+   "신혼부부": 1480,
+   "생애최초": 773,
+   "신생아": 1206,
    "다자녀": 1159,
    "노부모 부양": 336,
-   "기관추천": 976
+   "기관추천": 976,
+   "청년": 106
   },
-  "households_total": 11893
+  "households_total": 13198
  },
  "last_month": {
   "month": "2026-09",

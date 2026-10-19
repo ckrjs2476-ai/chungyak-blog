@@ -27,6 +27,25 @@
  "general_total": 68,
  "special_total": 0,
  "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "75.9096",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   }
+  ],
+  "req_total": 51,
+  "rank1_req": 0,
+  "supply_total": 68,
+  "final_shortfall_total": 17,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0
+ },
  "market": {
   "region": "인천광역시 미추홀구",
   "lawd": "28177",

@@ -38,6 +38,37 @@
  "special_share_pct": 0,
  "price_84_min": 94000,
  "price_84_max": 94000,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.992B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 52.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9861B",
+    "supply": 6,
+    "closed_at": "None순위 None",
+    "rate": 7.17,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 147,
+  "rank1_req": 0,
+  "supply_total": 8,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.992B",
+   "rate": 52.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 의왕시",
   "lawd": "41430",
