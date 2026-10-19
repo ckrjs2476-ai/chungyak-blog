@@ -1,23 +1,11 @@
 {
- "updated": "2026-10-19 11:03",
+ "updated": "2026-10-19 19:31",
  "stage": 1,
  "band": [
   30,
   1500
  ],
  "keywords": [
-  {
-   "keyword": "동원파츠공모주",
-   "volume": 40,
-   "comp": "낮음",
-   "entity": "동원파츠",
-   "entity_id": "00784184",
-   "base_score": 100.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
   {
    "keyword": "영광수요예측",
    "volume": 40,
@@ -289,9 +277,9 @@
    "entity": "동원파츠",
    "entity_id": "00784184",
    "base_score": 60.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 69.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 75.9,
    "used": false
   },
   {
@@ -401,6 +389,18 @@
    "why": "",
    "score": 40.0,
    "used": false
+  },
+  {
+   "keyword": "동원파츠공모주",
+   "volume": 40,
+   "comp": "낮음",
+   "entity": "동원파츠",
+   "entity_id": "00784184",
+   "base_score": 100.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 34.5,
+   "used": true
   },
   {
    "keyword": "티앤이코리아공모주",
@@ -517,9 +517,9 @@
    "entity": "동원파츠",
    "entity_id": "00784184",
    "base_score": 20.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 23.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 25.3,
    "used": false
   },
   {
