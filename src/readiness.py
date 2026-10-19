@@ -32,12 +32,17 @@ def main() -> int:
         probs = [p for p in s.get("problems", []) if not str(p[0]).startswith("확인 못 함")]
         m = re.search(rf"## {re.escape(name)} — 공개 글 \d+편, 가치 약한 글 (\d+)편", value)
         weak = int(m.group(1)) if m else None
+        sw = (json.loads((ROOT / "data/sitewide.json").read_text("utf-8")).get("blogs", {}).get(key, {})
+              if (ROOT / "data/sitewide.json").exists() else {})
         checks = [
             ("공개 글 30편 이상", n >= MIN_POSTS, f"{n}편"),
             ("첫 글 뒤 4주 이상", days >= MIN_DAYS, f"{days}일"),
             ("라벨마다 8편 이상(메뉴에 보이는 라벨)", not blocked and not thin, "오늘 확인 못 함(구글 429)" if blocked else (", ".join(thin[:6]) or "충족")),
             ("공개 화면 문제 없음(필수 페이지·메뉴·깨진 링크)", not blocked and not probs, "오늘 확인 못 함(구글 429)" if blocked else ("; ".join(f"{a}: {b}"[:60] for a, b in probs[:3]) or "충족")),
             ("가치 약한 글 0편", weak == 0, f"{weak}편" if weak is not None else "보고서 없음"),
+            ("블로그 전체 점검 고칠 것 0건(틀 반복·낡은 글·기준일·이상값)", sw.get("to_fix", 1) == 0, f"{sw.get('to_fix', '보고서 없음')}건"),
+            ("글 형식이 한 종류에 쏠리지 않음(최근 8편 중 75% 미만)", sw and not sw.get("format_concentrated"),
+             ", ".join(f"{k} {v}" for k, v in (sw.get("type_share") or {}).items()) or "보고서 없음"),
         ]
         ok = all(c[1] for c in checks)
         # 남은 기간 어림(하루 2편 기준, 10/19 전에는 1편)

@@ -134,6 +134,25 @@ def report_blog(blog: str) -> tuple[list[str], dict]:
         if s["mult_words"]:
             reasons.append(f"말로 쓴 배수 '{', '.join(s['mult_words'])}' → 데이터 비율과 맞는지 확인")
         score = 100 - 15 * len(reasons)
+        # 2026-10-19 전수 점검으로 맞춘 기준: 검토자가 '위험'으로 본 글의 공통점(무거운 감점)
+        import seo as _seo
+        import sitewide as _sw
+        lead = _seo._plain(" ".join(_seo._paragraphs(body)[:2]))
+        heavy = []
+        if not _seo.COMPARE_RE.search(lead):
+            heavy.append(("첫 두 문단에 비교 없음(공고·결과 옮기기로 시작)", 30))
+        if _seo.ADVICE_RE.search(_seo._plain(body)):
+            heavy.append(("행동 권유 표현", 25))
+        if _seo.RANK_RE.search(body) and not _seo.BASIS_RE.search(body):
+            heavy.append(("순위 기준일 없음", 20))
+        if _sw.skeleton_errors(blog, meta, body, p["file"]):
+            heavy.append(("앞선 글과 뼈대·마무리가 거의 같음", 20))
+        st = _sw.stale(blog, {"file": p["file"], "meta": meta, "body": body, "date": p["file"][:10]}, date.today())
+        if st:
+            heavy.append(("낡은 내용: " + st[0], 20))
+        reasons += [r for r, _ in heavy]
+        score -= sum(w for _, w in heavy)
+        score = max(0, score)
         rows.append((score, p.get("title", "")[:34], p["file"], reasons, s))
         if score < 70:
             weak.append(p["file"])

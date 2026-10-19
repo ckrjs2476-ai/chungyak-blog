@@ -19,10 +19,12 @@ DONE = HERE / "posts" / "published"
 PUBLISHED = DATA / "published.json"
 
 REGION_LABELS = ["일반 기업", "스팩"]  # 상장 시장은 신고서 데이터로 구분할 수 없어 쓰지 않는다
-TYPE_LABELS = ["공모 구조", "공모 일정"]
+TYPE_LABELS = ["공모 구조", "공모 일정", "공모주 읽는 법"]
 ALLOWED_LABELS = set(REGION_LABELS + TYPE_LABELS)
-TYPES = ("ipo", "weekly")
-ANGLES = {"ipo": ("규모", "자금용도", "공모가", "주관사", "회사"), "weekly": ("일정", "규모비교")}
+TYPES = ("ipo", "weekly", "topic")
+ANGLES = {"ipo": ("규모", "자금용도", "공모가", "주관사", "회사"), "weekly": ("일정", "규모비교"),
+          # topic: 수수료·자금 용도 같은 주제를 최근 공모 여러 곳 데이터로 풀어 주는 글(회사 글 반복 방지, 2026-10-19)
+          "topic": ("수수료", "자금용도", "구주매출", "공모규모")}
 DISCLOSURE_RE = re.compile(r"(DART|전자공시)[^.\n]{0,40}(가져왔|옮겨|정리했|계산했)")
 INVEST_RE = re.compile(r"투자\s?(판단|결정|권유)")
 SOURCE_LINK = "dart.fss.or.kr"
@@ -122,6 +124,10 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     typ = meta.get("type")
     if typ not in TYPES:
         errs.append(f"알 수 없는 type: {typ}")
+    if typ == "topic":
+        cs = [str(x) for x in meta.get("corp_codes") or []]
+        if len(cs) < 3 or not all(ipo(c) for c in cs):
+            errs.append("주제 글은 예시로 쓸 회사 corp_codes(3곳 이상)가 필요하고, 모두 데이터가 있어야 합니다.")
     if typ == "ipo" and not ipo(str(meta.get("corp_code") or "")):
         errs.append("공모 글인데 corp_code 데이터가 없습니다.")
     if typ in ANGLES and meta.get("angle") not in ANGLES[typ]:

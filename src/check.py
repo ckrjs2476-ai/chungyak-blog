@@ -115,7 +115,9 @@ def phrase_errors(body: str, done_dir: Path, exclude_file: str = "") -> list[str
             continue
         for g in _phrases(b):
             count[g] = count.get(g, 0) + 1
-    shared = [g for g in _phrases(body) if count.get(g, 0) >= 3]
+    # 기준일 표기('공고일(N월 N일) 이전 N개월 …', 'N월 N일 집계 …')는 규칙상 반복이 필요한 문구라 세지 않는다
+    basis = re.compile(r"(공고일|이전 N개월|N월 N일\)? ?(집계|기준)|N곳 (중|가운데)|를 넣은 N곳)")
+    shared = [g for g in _phrases(body) if count.get(g, 0) >= 3 and not basis.search(g)]
     if len(shared) > MAX_SHARED_PHRASES:
         return [f"다른 글 3편 이상에 이미 나온 표현을 {len(shared)}개 썼습니다({MAX_SHARED_PHRASES}개까지). "
                 f"이 대상만의 말로 바꿔 주세요: " + " / ".join(shared[:4])]
@@ -556,7 +558,8 @@ if __name__ == "__main__":
     for arg in sys.argv[1:]:
         from seo import _split, seo_errors, seo_warnings
         m_, b_ = _split(Path(arg).read_text("utf-8"))
-        errs = check_file(Path(arg)) + seo_errors(m_, b_)
+        from sitewide import skeleton_errors
+        errs = check_file(Path(arg)) + seo_errors(m_, b_) + skeleton_errors("cheongyak", m_, b_, Path(arg).name)
         print(f"[{'통과' if not errs else '실패'}] {arg}")
         for e in errs:
             print("  -", e)

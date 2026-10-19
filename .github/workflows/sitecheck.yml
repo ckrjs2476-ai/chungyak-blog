@@ -32,13 +32,15 @@ jobs:
         run: python src/history.py
       - name: 키워드 성장 적합도 다시 계산(검색량 API 호출 없음)
         run: python src/keywords.py --rescore
+      - name: 블로그 전체 점검(틀 반복·형식 쏠림·낡은 글·기준일·이상값)
+        run: python src/sitewide.py
       - name: 애드센스 신청 준비 상태
         run: python src/readiness.py
       - name: 저장
         run: |
           git config user.name "sitecheck-bot"
           git config user.email "sitecheck-bot@users.noreply.github.com"
-          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md data/value_report.md data/value_brief.md blogs/*/data/value_brief.md data/readiness.md data/seo_report.md data/keywords data/history
+          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md data/value_report.md data/value_brief.md blogs/*/data/value_brief.md data/readiness.md data/seo_report.md data/keywords data/history data/sitewide.md data/sitewide.json
           git diff --cached --quiet && exit 0
           git commit -m "sitecheck $(date -u +%F)"
           git pull --rebase && git push

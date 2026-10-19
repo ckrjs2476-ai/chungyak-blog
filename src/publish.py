@@ -507,6 +507,8 @@ def main() -> int:
         errs = check_text(meta, body, recent_posts())
         from seo import seo_errors  # 검색 노출(SEO·AEO·GEO) 필수 항목도 통과해야 발행
         errs += seo_errors(meta, body)
+        from sitewide import format_errors, skeleton_errors  # 블로그 전체 기준: 틀 반복·형식 쏠림
+        errs += skeleton_errors(BLOG, meta, body, f.name) + format_errors(BLOG, meta, f.name)
         if errs:
             failed += 1
             HELD.mkdir(parents=True, exist_ok=True)

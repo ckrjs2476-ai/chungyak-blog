@@ -71,8 +71,21 @@ COMPARE_RE = re.compile(r"(\d+\s*곳\s*(중|가운데)|\d+\s*(위|번째)(였|�
 ADVICE_RE = re.compile(r"(편이 (안전|낫|좋|편하|현실적)|먼저 보는 (게|것이) 순서|(하|넣|노리|신청하|청약하)는 게 (좋|낫)|기회예요|가능성이 높은 구조|노린다면|사실상 전부예요|확인해 둬야 해요)")
 
 
+RANK_RE = re.compile(r"\d+\s*곳\s*(중|가운데)\s*\d+\s*(위|번째)")
+BASIS_RE = re.compile(r"(\d{1,2}월 \d{1,2}일[^.\n]{0,15}(기준|집계)|공고(일)?[^.\n]{0,25}(이전|기준|전)|(기준|집계)일|발행일 기준"
+                      r"|\d{4}년 \d{1,2}월[^.\n]{0,40}기준|\d{1,2}월 \d{1,2}일 공고 전)")
+
+
 def seo_errors(meta: dict, body: str) -> list[str]:
     errs: list[str] = []
+    if RANK_RE.search(body) and not BASIS_RE.search(body):
+        errs.append("[가치] 'N곳 중 M위' 같은 순위를 쓰면서 기준(○월 ○일 집계, 공고일 이전 6개월 등)을 밝히지 않았습니다. "
+                    "데이터가 매일 바뀌어 기준 없는 순위는 글끼리 모순으로 읽힙니다.")
+    for m in re.finditer(r"(\d{1,3}(,\d{3})+|\d{4,})(\.\d+)?\s*%", body):
+        errs.append(f"[가치] 1,000% 넘는 비율({m.group(0)}): 기준값이 작은 항목입니다. 금액 두 개(예: 524원, 중앙값 28원)로 쓰세요.")
+        break
+    if re.search(r"(?<!\d)[23]\s*곳\s*(중|가운데)", str(meta.get("title", ""))):
+        errs.append("[가치] 제목의 핵심이 2~3곳 비교입니다. 비교 대상이 적은 값은 제목·첫 문장 핵심으로 쓰지 마세요.")
     lead2 = _plain(" ".join(_paragraphs(body)[:2]))
     if not COMPARE_RE.search(lead2):
         errs.append("[가치] 첫 두 문단에 원자료에 없는 비교(N곳 중 M위, 평균·중앙값 대비 X% 등)가 없습니다. "

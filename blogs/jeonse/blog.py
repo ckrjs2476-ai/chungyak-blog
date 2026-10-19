@@ -20,11 +20,13 @@ DONE = HERE / "posts" / "published"
 PUBLISHED = DATA / "published.json"
 
 REGION_LABELS = ["서울", "경기", "인천", "지방"]
-TYPE_LABELS = ["지역 전세가율", "전세가율 순위"]
+TYPE_LABELS = ["지역 전세가율", "전세가율 순위", "전세 읽는 법"]
 ALLOWED_LABELS = set(REGION_LABELS + TYPE_LABELS)
-TYPES = ("region", "ranking")
+TYPES = ("region", "ranking", "topic")
 ANGLES = {"region": ("전세가율", "흐름", "동네차이", "단지분포", "월세비중"),
-          "ranking": ("상위", "변화", "수도권", "지방")}
+          "ranking": ("상위", "변화", "수도권", "지방"),
+          # topic: 전세가율·동네 차이 같은 주제를 여러 시군구 데이터로 풀어 주는 글(지역 글 반복 방지, 2026-10-19)
+          "topic": ("전세가율 읽는 법", "동네차이", "단지분포", "월세비중")}
 # 청약노트와 다른 출처 문구(블로그마다 틀을 다르게). 뜻이 같으면 표현은 바꿔도 된다.
 DISCLOSURE_RE = re.compile(r"(국토교통부|국토부)[^.\n]{0,25}(전월세|실거래)[^.\n]{0,30}(계산|산출|집계)했습니다")
 SOURCE_LINK = "rt.molit.go.kr"
@@ -110,6 +112,10 @@ def check_text(meta: dict, body: str, recent: list[dict] | None = None) -> list[
     typ = meta.get("type")
     if typ not in TYPES:
         errs.append(f"알 수 없는 type: {typ}")
+    if typ == "topic":
+        ls = [str(x) for x in meta.get("lawds") or []]
+        if len(ls) < 3 or not all(region(l) and not region(l).get("empty") for l in ls):
+            errs.append("주제 글은 예시로 쓸 시군구 코드 목록(lawds, 3곳 이상)이 필요하고, 모두 데이터가 있어야 합니다.")
     if typ == "region" and not region(str(meta.get("lawd") or "")):
         errs.append("지역 글인데 lawd(시군구 코드) 데이터가 없습니다.")
     if typ in ANGLES and meta.get("angle") not in ANGLES[typ]:
