@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 05:30",
+ "updated": "2026-10-19 10:23",
  "stage": 1,
  "band": [
   30,
@@ -13,8 +13,8 @@
    "entity": "동원파츠",
    "entity_id": "00784184",
    "base_score": 100.0,
-   "growth": 1.0,
-   "why": "",
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
    "score": 100.0,
    "used": false
   },
@@ -163,35 +163,23 @@
    "used": false
   },
   {
-   "keyword": "디티에스공모가",
-   "volume": 590,
-   "comp": "중간",
-   "entity": "디티에스",
-   "entity_id": "00534729",
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 97.7,
-   "used": false
-  },
-  {
-   "keyword": "크리에이츠공모주",
-   "volume": 1390,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 97.7,
-   "used": false
-  },
-  {
    "keyword": "크리에이츠수요예측",
    "volume": 460,
    "comp": "중간",
    "entity": "크리에이츠",
    "entity_id": "01540903",
+   "base_score": 85.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 100.0,
+   "used": false
+  },
+  {
+   "keyword": "디티에스공모가",
+   "volume": 590,
+   "comp": "중간",
+   "entity": "디티에스",
+   "entity_id": "00534729",
    "base_score": 85.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
@@ -211,23 +199,23 @@
    "used": false
   },
   {
-   "keyword": "다비오공모주",
-   "volume": 1430,
-   "comp": "중간",
-   "entity": "다비오",
-   "entity_id": "01706509",
-   "base_score": 85.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 85.0,
-   "used": false
-  },
-  {
    "keyword": "바로팜공모주",
    "volume": 50,
    "comp": "중간",
    "entity": "바로팜",
    "entity_id": "01835829",
+   "base_score": 85.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 97.7,
+   "used": false
+  },
+  {
+   "keyword": "다비오공모주",
+   "volume": 1430,
+   "comp": "중간",
+   "entity": "다비오",
+   "entity_id": "01706509",
    "base_score": 85.0,
    "growth": 1.0,
    "why": "",
@@ -301,9 +289,21 @@
    "entity": "동원파츠",
    "entity_id": "00784184",
    "base_score": 60.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 60.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 69.0,
+   "used": false
+  },
+  {
+   "keyword": "크리에이츠공모가",
+   "volume": 25,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 51.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 64.5,
    "used": false
   },
   {
@@ -340,18 +340,6 @@
    "growth": 1.0,
    "why": "",
    "score": 60.0,
-   "used": false
-  },
-  {
-   "keyword": "크리에이츠공모가",
-   "volume": 25,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 51.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 58.6,
    "used": false
   },
   {
@@ -463,6 +451,18 @@
    "used": false
   },
   {
+   "keyword": "크리에이츠공모주",
+   "volume": 1390,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 29.3,
+   "used": true
+  },
+  {
    "keyword": "영광공모주",
    "volume": 580,
    "comp": "중간",
@@ -508,6 +508,18 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 25.3,
+   "used": false
+  },
+  {
+   "keyword": "동원파츠수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동원파츠",
+   "entity_id": "00784184",
+   "base_score": 20.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 23.0,
    "used": false
   },
   {
@@ -600,18 +612,6 @@
    "comp": "낮음",
    "entity": "씨앤엠",
    "entity_id": "00618173",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "동원파츠수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "동원파츠",
-   "entity_id": "00784184",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -820,6 +820,18 @@
    "growth": 1.0,
    "why": "",
    "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "바로팜수요예측",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "바로팜",
+   "entity_id": "01835829",
+   "base_score": 17.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 19.5,
    "used": false
   },
   {
@@ -1495,15 +1507,15 @@
    "used": false
   },
   {
-   "keyword": "바로팜수요예측",
+   "keyword": "바로팜공모가",
    "volume": 10,
-   "comp": "중간",
+   "comp": "높음",
    "entity": "바로팜",
    "entity_id": "01835829",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
+   "base_score": 14.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 16.1,
    "used": false
   },
   {
@@ -1528,18 +1540,6 @@
    "growth": 1.0,
    "why": "",
    "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "바로팜공모가",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "바로팜",
-   "entity_id": "01835829",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
    "used": false
   },
   {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 05:30",
+ "updated": "2026-10-19 10:23",
  "stage": 1,
  "band": [
   30,
@@ -86,7 +86,7 @@
    "entity_id": "2026000453",
    "base_score": 85.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(score)이 답하는 질문과 다름",
+   "why": "지금 글감 목록(jobs)에 없는 단지",
    "score": 42.5,
    "used": false
   },
@@ -122,7 +122,7 @@
    "entity_id": "2026000453",
    "base_score": 70.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(score)이 답하는 질문과 다름",
+   "why": "지금 글감 목록(jobs)에 없는 단지",
    "score": 35.0,
    "used": false
   },
@@ -134,7 +134,7 @@
    "entity_id": "2026000453",
    "base_score": 70.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(score)이 답하는 질문과 다름",
+   "why": "지금 글감 목록(jobs)에 없는 단지",
    "score": 35.0,
    "used": false
   },
@@ -316,18 +316,6 @@
    "growth": 1.0,
    "why": "",
    "score": 21.2,
-   "used": false
-  },
-  {
-   "keyword": "광명시티프라디움에듀하임당첨가점",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "광명시티프라디움에듀하임",
-   "entity_id": "2026000453",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
    "used": false
   },
   {
@@ -2704,6 +2692,18 @@
    "growth": 1.0,
    "why": "",
    "score": 10.5,
+   "used": false
+  },
+  {
+   "keyword": "광명시티프라디움에듀하임당첨가점",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "광명시티프라디움에듀하임",
+   "entity_id": "2026000453",
+   "base_score": 20.0,
+   "growth": 0.5,
+   "why": "지금 글감 목록(jobs)에 없는 단지",
+   "score": 10.0,
    "used": false
   },
   {
