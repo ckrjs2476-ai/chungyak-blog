@@ -1,0 +1,104 @@
+{
+ "corp_code": "00299109",
+ "corp_name": "에스에프씨",
+ "rcept_no": "20261019000368",
+ "rcept_dt": "20261019",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368",
+ "subscription": "2026년 11월 18일 ~ 2026년 11월 19일",
+ "payment_date": "2026년 11월 23일",
+ "notice_date": "2026년 11월 18일",
+ "allot_date": "2026년 11월 23일",
+ "stock_kind": "보통주",
+ "shares": 5000000,
+ "face_value": 500,
+ "price": 31600,
+ "total": 158000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "미래에셋증권",
+   "shares": 3750000,
+   "amount": 118500000000,
+   "fee": 2182894737,
+   "how": "총액인수"
+  },
+  {
+   "name": "한국투자증권",
+   "shares": 1000000,
+   "amount": 31600000000,
+   "fee": 582105263,
+   "how": "총액인수"
+  },
+  {
+   "name": "삼성증권",
+   "shares": 250000,
+   "amount": 7900000000,
+   "fee": 79000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 133534300000,
+   "share_pct": 97.8,
+   "amount_eok": 1335.3
+  },
+  {
+   "use": "발행제비용",
+   "amount": 2957412800,
+   "share_pct": 2.2,
+   "amount_eok": 29.6
+  }
+ ],
+ "fund_total": 136491712800,
+ "sellers": [
+  {
+   "name": "에스브이아이씨67호 \n신기술사업투자조합",
+   "relation": "주요주주",
+   "shares": 680642
+  }
+ ],
+ "sell_shares": 680642,
+ "company": {
+  "corp_name": "에스에프씨(주)",
+  "ceo_nm": "김용관",
+  "induty_code": "20499",
+  "est_dt": "20000421",
+  "hm_url": "www.sfc-dye.com",
+  "adres": "충청북도 청원군 오창읍 과학산업5로 89 에스에프씨 주식회사"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "미래에셋증권",
+ "underwriting_fee_pct": 1.8,
+ "total_eok": 1580.0,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 26,
+ "total_rank": 1,
+ "total_rank_of": 27,
+ "total_vs_median_pct": 435.6,
+ "sell_share_pct": 13.6,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 133534300000,
+  "share_pct": 97.8,
+  "amount_eok": 1335.3
+ },
+ "compare_median_total": 29500000000,
+ "compare_count": 27,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 295.0
+}
