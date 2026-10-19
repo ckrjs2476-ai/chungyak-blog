@@ -132,20 +132,18 @@
   "scope": "대전",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 6,
+  "peer_count": 4,
   "peers": [
    "도룡자이 라피크",
    "대전 하늘채 루시에르(2회차)",
    "해링턴플레이스 오룡역",
-   "도안자이 센텀리체 2단지",
-   "더샵 관저아르테",
-   "대전 경남아너스빌 센텀스카이"
+   "도안자이 센텀리체 2단지"
   ],
-  "peer_avg_pyeong": 2372,
-  "diff": -124,
-  "diff_pct": -5,
+  "peer_avg_pyeong": 2658,
+  "diff": -410,
+  "diff_pct": -15,
   "rank": 3,
-  "of": 7
+  "of": 5
  },
  "area_competition": {
   "scope": "대전",
@@ -163,15 +161,5 @@
   "peer_avg_rate": 8.99,
   "rank": 2,
   "of": 3
- },
- "region_score": {
-  "scope": "대전",
-  "peer_count": 2,
-  "peers": [
-   "도룡자이 라피크",
-   "더샵 관저아르테"
-  ],
-  "peer_avg_min": 0.0,
-  "diff": 0.0
  }
 }

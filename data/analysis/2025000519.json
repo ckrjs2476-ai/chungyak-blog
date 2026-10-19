@@ -150,27 +150,10 @@
   }
  },
  "region_price": {
-  "scope": "동래구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 4,
-  "peers": [
-   "힐스테이트 사직 아시아드",
-   "동래 에코팰리스 아시아드 리안",
-   "동래 푸르지오 에듀포레",
-   "온천장 하늘채 엘리시움"
-  ],
-  "peer_avg_pyeong": 2359,
-  "diff": -137,
-  "diff_pct": -6,
-  "rank": 4,
-  "of": 5
- },
- "region_price_wide": {
   "scope": "부산",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 19,
+  "peer_count": 7,
   "peers": [
    "서면 어반센트 데시앙",
    "퀸즈이즈카운티",
@@ -178,14 +161,13 @@
    "힐스테이트 사직 아시아드",
    "힐스테이트 가야 1단지",
    "힐스테이트 가야 2단지",
-   "더파크 비스타동원",
-   "동래 에코팰리스 아시아드 리안"
+   "더파크 비스타동원"
   ],
-  "peer_avg_pyeong": 2402,
-  "diff": -180,
-  "diff_pct": -7,
-  "rank": 13,
-  "of": 20
+  "peer_avg_pyeong": 2592,
+  "diff": -370,
+  "diff_pct": -14,
+  "rank": 6,
+  "of": 8
  },
  "area_competition": {
   "scope": "부산",
@@ -194,16 +176,19 @@
   "peer_max_rate": 21.16
  },
  "region_competition": {
-  "scope": "동래구",
-  "peer_count": 4,
+  "scope": "부산",
+  "peer_count": 7,
   "peers": [
+   "서면 어반센트 데시앙",
+   "퀸즈이즈카운티",
+   "베뉴브 해운대",
    "힐스테이트 사직 아시아드",
-   "동래 에코팰리스 아시아드 리안",
-   "동래 푸르지오 에듀포레",
-   "온천장 하늘채 엘리시움"
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원"
   ],
-  "peer_avg_rate": 4.61,
-  "rank": 3,
-  "of": 5
+  "peer_avg_rate": 5.85,
+  "rank": 5,
+  "of": 8
  }
 }

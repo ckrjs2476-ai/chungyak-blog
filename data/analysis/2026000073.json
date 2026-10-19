@@ -100,40 +100,39 @@
   "scope": "김포시",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 5,
+  "peer_count": 4,
   "peers": [
    "풍무역 푸르지오 더 마크",
    "풍무역세권 수자인 그라센트 1차",
    "김포북변 칸타빌 디 에디션",
-   "사우역 지엔하임",
-   "한강 푸르지오 리버프론트"
+   "사우역 지엔하임"
   ],
-  "peer_avg_pyeong": 2123,
-  "diff": -19,
-  "diff_pct": -1,
-  "rank": 3,
-  "of": 6
+  "peer_avg_pyeong": 2092,
+  "diff": 12,
+  "diff_pct": 1,
+  "rank": 2,
+  "of": 5
  },
  "region_price_wide": {
   "scope": "경기",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 83,
+  "peer_count": 44,
   "peers": [
    "엘리프 한신더휴 수원 C3블록(본청약)",
    "엘리프 한신더휴 수원 D3블록(본청약)",
-   "오남역 서희스타힐스 여의재 3단지",
    "안양자이 헤리티온",
    "회천중앙역 파라곤",
    "효성해링턴 플레이스 양평",
    "만안역 중앙하이츠 포레",
-   "운정 아이파크 시티"
+   "운정 아이파크 시티",
+   "김포 풍무역세권 B5블록 호반써밋"
   ],
-  "peer_avg_pyeong": 2505,
-  "diff": -401,
-  "diff_pct": -16,
-  "rank": 47,
-  "of": 84
+  "peer_avg_pyeong": 2580,
+  "diff": -476,
+  "diff_pct": -18,
+  "rank": 26,
+  "of": 45
  },
  "area_competition": {
   "scope": "김포시",
@@ -143,25 +142,23 @@
  },
  "region_competition": {
   "scope": "김포시",
-  "peer_count": 5,
+  "peer_count": 4,
   "peers": [
    "풍무역 푸르지오 더 마크",
    "풍무역세권 수자인 그라센트 1차",
    "김포북변 칸타빌 디 에디션",
-   "사우역 지엔하임",
-   "한강 푸르지오 리버프론트"
+   "사우역 지엔하임"
   ],
-  "peer_avg_rate": 5.03,
+  "peer_avg_rate": 6.13,
   "rank": 3,
-  "of": 6
+  "of": 5
  },
  "region_score": {
   "scope": "김포시",
-  "peer_count": 3,
+  "peer_count": 2,
   "peers": [
    "풍무역 푸르지오 더 마크",
-   "풍무역세권 수자인 그라센트 1차",
-   "한강 푸르지오 리버프론트"
+   "풍무역세권 수자인 그라센트 1차"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

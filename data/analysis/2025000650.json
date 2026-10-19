@@ -114,40 +114,20 @@
   }
  },
  "region_price": {
-  "scope": "양산시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "힐스테이트 양산더스카이 1단지",
-   "힐스테이트 양산더스카이 2단지"
-  ],
-  "peer_avg_pyeong": 1588,
-  "diff": 13,
-  "diff_pct": 1,
-  "rank": 1,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "경남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 13,
+  "peer_count": 3,
   "peers": [
    "성산 더리브 포레스트",
    "김해 안동 에피트",
-   "창원 센트럴 아이파크",
-   "창원자이 더 스카이",
-   "힐스테이트 평거 센트럴",
-   "엘리프 창원",
-   "메트로시티 자산 데시앙",
-   "힐스테이트 양산더스카이 1단지"
+   "창원 센트럴 아이파크"
   ],
-  "peer_avg_pyeong": 1773,
-  "diff": -172,
-  "diff_pct": -10,
-  "rank": 8,
-  "of": 14
+  "peer_avg_pyeong": 1934,
+  "diff": -333,
+  "diff_pct": -17,
+  "rank": 3,
+  "of": 4
  },
  "area_competition": {
   "scope": "경남",
@@ -156,28 +136,24 @@
   "peer_max_rate": 706.61
  },
  "region_competition": {
-  "scope": "양산시",
-  "peer_count": 2,
-  "peers": [
-   "힐스테이트 양산더스카이 1단지",
-   "힐스테이트 양산더스카이 2단지"
-  ],
-  "peer_avg_rate": 0.81,
-  "rank": 2,
-  "of": 3
- },
- "region_score": {
   "scope": "경남",
-  "peer_count": 9,
+  "peer_count": 3,
   "peers": [
    "성산 더리브 포레스트",
    "김해 안동 에피트",
-   "창원 센트럴 아이파크",
-   "창원자이 더 스카이",
-   "힐스테이트 평거 센트럴",
-   "엘리프 창원",
-   "메트로시티 자산 데시앙",
-   "힐스테이트 양산더스카이 1단지"
+   "창원 센트럴 아이파크"
+  ],
+  "peer_avg_rate": 235.72,
+  "rank": 2,
+  "of": 4
+ },
+ "region_score": {
+  "scope": "경남",
+  "peer_count": 3,
+  "peers": [
+   "성산 더리브 포레스트",
+   "김해 안동 에피트",
+   "창원 센트럴 아이파크"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

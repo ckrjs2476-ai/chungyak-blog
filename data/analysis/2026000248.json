@@ -252,26 +252,10 @@
   }
  },
  "region_price": {
-  "scope": "오산시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 3,
-  "peers": [
-   "북오산자이 리버블시티",
-   "오산헤리티지자이 1단지",
-   "오산헤리티지자이 2단지"
-  ],
-  "peer_avg_pyeong": 2210,
-  "diff": -166,
-  "diff_pct": -8,
-  "rank": 3,
-  "of": 4
- },
- "region_price_wide": {
   "scope": "경기",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 59,
+  "peer_count": 36,
   "peers": [
    "오남역 서희스타힐스 여의재 3단지",
    "두산위브 더센트럴 수원",
@@ -282,11 +266,11 @@
    "안양역 센트럴 아이파크 수자인",
    "사우역 지엔하임"
   ],
-  "peer_avg_pyeong": 2600,
-  "diff": -556,
-  "diff_pct": -21,
-  "rank": 39,
-  "of": 60
+  "peer_avg_pyeong": 2468,
+  "diff": -424,
+  "diff_pct": -17,
+  "rank": 23,
+  "of": 37
  },
  "area_competition": {
   "scope": "경기",
@@ -295,16 +279,21 @@
   "peer_max_rate": 51.3
  },
  "region_competition": {
-  "scope": "오산시",
-  "peer_count": 3,
+  "scope": "경기",
+  "peer_count": 36,
   "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "두산위브 더센트럴 수원",
+   "더샵 분당센트로",
+   "수지자이 에디시온",
    "북오산자이 리버블시티",
-   "오산헤리티지자이 1단지",
-   "오산헤리티지자이 2단지"
+   "용인 푸르지오 클루센트",
+   "안양역 센트럴 아이파크 수자인",
+   "사우역 지엔하임"
   ],
-  "peer_avg_rate": 0.38,
-  "rank": 3,
-  "of": 4
+  "peer_avg_rate": 4.38,
+  "rank": 33,
+  "of": 37
  },
  "market": {
   "region": "경기도 오산시",

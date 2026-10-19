@@ -170,25 +170,10 @@
   }
  },
  "region_price": {
-  "scope": "부평구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "두산위브앤수자인 부평 더퍼스트",
-   "중앙하이츠 갈산역 센트럴"
-  ],
-  "peer_avg_pyeong": 2320,
-  "diff": -22,
-  "diff_pct": -1,
-  "rank": 2,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "인천",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 27,
+  "peer_count": 13,
   "peers": [
    "숭의역 라온프라이빗 스카이브",
    "인하대역 수자인 로이센트",
@@ -199,11 +184,11 @@
    "포레나더샵 인천시청역",
    "송도 한내들 센트럴리버"
   ],
-  "peer_avg_pyeong": 2346,
-  "diff": -48,
-  "diff_pct": -2,
-  "rank": 11,
-  "of": 28
+  "peer_avg_pyeong": 1969,
+  "diff": 329,
+  "diff_pct": 17,
+  "rank": 4,
+  "of": 14
  },
  "area_competition": {
   "scope": "인천",
@@ -212,24 +197,35 @@
   "peer_max_rate": 43.55
  },
  "region_competition": {
-  "scope": "부평구",
-  "peer_count": 2,
+  "scope": "인천",
+  "peer_count": 13,
   "peers": [
+   "숭의역 라온프라이빗 스카이브",
+   "인하대역 수자인 로이센트",
    "두산위브앤수자인 부평 더퍼스트",
-   "중앙하이츠 갈산역 센트럴"
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "석남역 센트럴파크 그랑베르",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버"
   ],
-  "peer_avg_rate": 2.44,
-  "rank": 1,
-  "of": 3
+  "peer_avg_rate": 4.09,
+  "rank": 2,
+  "of": 14
  },
  "region_score": {
-  "scope": "부평구",
-  "peer_count": 2,
+  "scope": "인천",
+  "peer_count": 7,
   "peers": [
+   "인하대역 수자인 로이센트",
    "두산위브앤수자인 부평 더퍼스트",
-   "중앙하이츠 갈산역 센트럴"
+   "검단 센트레빌 에듀시티(AB8BL)",
+   "시티오씨엘 8단지",
+   "포레나더샵 인천시청역",
+   "송도 한내들 센트럴리버",
+   "인천 검단신도시 AB13블록 호반써밋Ⅲ(본청약)"
   ],
-  "peer_avg_min": 0.0,
-  "diff": 0.0
+  "peer_avg_min": 18.3,
+  "diff": -18.3
  }
 }

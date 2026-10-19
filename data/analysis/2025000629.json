@@ -118,25 +118,23 @@
   "scope": "동래구",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "힐스테이트 사직 아시아드",
    "해링턴플레이스 명륜역",
-   "동래 에코팰리스 아시아드 리안",
-   "온천장 하늘채 엘리시움",
-   "동래사적공원 오네뜨"
+   "동래 에코팰리스 아시아드 리안"
   ],
-  "peer_avg_pyeong": 2236,
-  "diff": 232,
-  "diff_pct": 10,
+  "peer_avg_pyeong": 2265,
+  "diff": 203,
+  "diff_pct": 9,
   "rank": 2,
-  "of": 6
+  "of": 4
  },
  "region_price_wide": {
   "scope": "부산",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 23,
+  "peer_count": 10,
   "peers": [
    "서면 어반센트 데시앙",
    "퀸즈이즈카운티",
@@ -147,11 +145,11 @@
    "더파크 비스타동원",
    "해링턴플레이스 명륜역"
   ],
-  "peer_avg_pyeong": 2501,
-  "diff": -33,
-  "diff_pct": -1,
-  "rank": 10,
-  "of": 24
+  "peer_avg_pyeong": 2572,
+  "diff": -104,
+  "diff_pct": -4,
+  "rank": 6,
+  "of": 11
  },
  "area_competition": {
   "scope": "동래구",
@@ -161,24 +159,25 @@
  },
  "region_competition": {
   "scope": "동래구",
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "힐스테이트 사직 아시아드",
    "해링턴플레이스 명륜역",
-   "동래 에코팰리스 아시아드 리안",
-   "온천장 하늘채 엘리시움",
-   "동래사적공원 오네뜨"
+   "동래 에코팰리스 아시아드 리안"
   ],
-  "peer_avg_rate": 3.64,
+  "peer_avg_rate": 5.88,
   "rank": 2,
-  "of": 6
+  "of": 4
  },
  "region_score": {
-  "scope": "동래구",
-  "peer_count": 2,
+  "scope": "부산",
+  "peer_count": 5,
   "peers": [
+   "서면 어반센트 데시앙",
+   "베뉴브 해운대",
    "힐스테이트 사직 아시아드",
-   "동래사적공원 오네뜨"
+   "더파크 비스타동원",
+   "한화포레나 부산대연"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

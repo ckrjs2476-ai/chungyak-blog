@@ -188,40 +188,19 @@
   }
  },
  "region_price": {
-  "scope": "서초구",
+  "scope": "서울",
   "supply_kind": "민영",
   "days": 180,
   "peer_count": 2,
   "peers": [
-   "아크로 드 서초",
-   "오티에르 반포"
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크"
   ],
-  "peer_avg_pyeong": 7980,
-  "diff": 748,
-  "diff_pct": 9,
+  "peer_avg_pyeong": 5012,
+  "diff": 3716,
+  "diff_pct": 74,
   "rank": 1,
   "of": 3
- },
- "region_price_wide": {
-  "scope": "서울",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 14,
-  "peers": [
-   "힐스테이트 이수역센트럴",
-   "상봉 센트럴 아이파크",
-   "아크로 드 서초",
-   "역삼센트럴자이",
-   "드파인 연희",
-   "더샵 프리엘라",
-   "해링턴플레이스 노원 센트럴",
-   "래미안 엘라비네"
-  ],
-  "peer_avg_pyeong": 5992,
-  "diff": 2736,
-  "diff_pct": 46,
-  "rank": 1,
-  "of": 15
  },
  "area_competition": {
   "scope": "서울",
@@ -230,22 +209,22 @@
   "peer_max_rate": 326.74
  },
  "region_competition": {
-  "scope": "서초구",
+  "scope": "서울",
   "peer_count": 2,
   "peers": [
-   "아크로 드 서초",
-   "오티에르 반포"
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크"
   ],
-  "peer_avg_rate": 904.66,
-  "rank": 3,
+  "peer_avg_rate": 169.25,
+  "rank": 2,
   "of": 3
  },
  "region_score": {
-  "scope": "서초구",
+  "scope": "서울",
   "peer_count": 2,
   "peers": [
-   "아크로 드 서초",
-   "오티에르 반포"
+   "힐스테이트 이수역센트럴",
+   "상봉 센트럴 아이파크"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

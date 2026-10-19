@@ -132,25 +132,10 @@
   }
  },
  "region_price": {
-  "scope": "김해시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "신문 대상 웰라움 라시엘",
-   "트리븐 김해"
-  ],
-  "peer_avg_pyeong": 1568,
-  "diff": 84,
-  "diff_pct": 5,
-  "rank": 1,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "경남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 16,
+  "peer_count": 8,
   "peers": [
    "힐스테이트 물금센트럴",
    "창원자이 더 스카이",
@@ -159,13 +144,13 @@
    "메트로시티 자산 데시앙",
    "힐스테이트 양산더스카이 1단지",
    "힐스테이트 양산더스카이 2단지",
-   "거제 푸르지오 마린피스"
+   "신문 대상 웰라움 라시엘"
   ],
-  "peer_avg_pyeong": 1694,
-  "diff": -42,
-  "diff_pct": -2,
-  "rank": 6,
-  "of": 17
+  "peer_avg_pyeong": 1773,
+  "diff": -121,
+  "diff_pct": -7,
+  "rank": 4,
+  "of": 9
  },
  "area_competition": {
   "scope": "경남",
@@ -174,19 +159,8 @@
   "peer_max_rate": 27.37
  },
  "region_competition": {
-  "scope": "김해시",
-  "peer_count": 2,
-  "peers": [
-   "신문 대상 웰라움 라시엘",
-   "트리븐 김해"
-  ],
-  "peer_avg_rate": 0.04,
-  "rank": 1,
-  "of": 3
- },
- "region_score": {
   "scope": "경남",
-  "peer_count": 9,
+  "peer_count": 8,
   "peers": [
    "힐스테이트 물금센트럴",
    "창원자이 더 스카이",
@@ -194,8 +168,23 @@
    "엘리프 창원",
    "메트로시티 자산 데시앙",
    "힐스테이트 양산더스카이 1단지",
-   "창원 한신더휴 메가센텀",
-   "포레나힐스테이트 진주"
+   "힐스테이트 양산더스카이 2단지",
+   "신문 대상 웰라움 라시엘"
+  ],
+  "peer_avg_rate": 8.91,
+  "rank": 5,
+  "of": 9
+ },
+ "region_score": {
+  "scope": "경남",
+  "peer_count": 6,
+  "peers": [
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

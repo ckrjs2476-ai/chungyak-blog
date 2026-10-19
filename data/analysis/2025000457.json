@@ -150,40 +150,19 @@
   }
  },
  "region_price": {
-  "scope": "여수시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 3,
-  "peers": [
-   "e편한세상 여수 글렌츠",
-   "소제지구 A3BL 중흥S-클래스 우미린",
-   "소제지구 A4BL 중흥S-클래스 우미린"
-  ],
-  "peer_avg_pyeong": 1544,
-  "diff": 112,
-  "diff_pct": 7,
-  "rank": 2,
-  "of": 4
- },
- "region_price_wide": {
   "scope": "전남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 7,
+  "peer_count": 2,
   "peers": [
    "오룡2지구 지엔하임 37블록",
-   "오룡2지구 지엔하임 38블록",
-   "나주영산 윤슬의아침 더정원",
-   "해남 남외리 정하 에코프라임",
-   "e편한세상 여수 글렌츠",
-   "소제지구 A3BL 중흥S-클래스 우미린",
-   "소제지구 A4BL 중흥S-클래스 우미린"
+   "오룡2지구 지엔하임 38블록"
   ],
-  "peer_avg_pyeong": 1332,
-  "diff": 324,
-  "diff_pct": 24,
-  "rank": 2,
-  "of": 8
+  "peer_avg_pyeong": 1236,
+  "diff": 420,
+  "diff_pct": 34,
+  "rank": 1,
+  "of": 3
  },
  "area_competition": {
   "scope": "전남",
@@ -192,15 +171,14 @@
   "peer_max_rate": 4.53
  },
  "region_competition": {
-  "scope": "여수시",
-  "peer_count": 3,
+  "scope": "전남",
+  "peer_count": 2,
   "peers": [
-   "e편한세상 여수 글렌츠",
-   "소제지구 A3BL 중흥S-클래스 우미린",
-   "소제지구 A4BL 중흥S-클래스 우미린"
+   "오룡2지구 지엔하임 37블록",
+   "오룡2지구 지엔하임 38블록"
   ],
-  "peer_avg_rate": 0.69,
-  "rank": 4,
-  "of": 4
+  "peer_avg_rate": 4.46,
+  "rank": 3,
+  "of": 3
  }
 }

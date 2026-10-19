@@ -114,25 +114,10 @@
   }
  },
  "region_price": {
-  "scope": "서초구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "반포 래미안 트리니원",
-   "오티에르 반포"
-  ],
-  "peer_avg_pyeong": 8348,
-  "diff": -354,
-  "diff_pct": -4,
-  "rank": 2,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "서울",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 23,
+  "peer_count": 8,
   "peers": [
    "힐스테이트 이수역센트럴",
    "반포 래미안 트리니원",
@@ -141,13 +126,13 @@
    "더샵 프리엘라",
    "해링턴플레이스 노원 센트럴",
    "래미안 엘라비네",
-   "이촌 르엘"
+   "더샵 신길센트럴시티"
   ],
-  "peer_avg_pyeong": 6240,
-  "diff": 1754,
-  "diff_pct": 28,
-  "rank": 4,
-  "of": 24
+  "peer_avg_pyeong": 5894,
+  "diff": 2100,
+  "diff_pct": 36,
+  "rank": 3,
+  "of": 9
  },
  "area_competition": {
   "scope": "서울",
@@ -156,22 +141,34 @@
   "peer_max_rate": 487.09
  },
  "region_competition": {
-  "scope": "서초구",
-  "peer_count": 2,
+  "scope": "서울",
+  "peer_count": 8,
   "peers": [
+   "힐스테이트 이수역센트럴",
    "반포 래미안 트리니원",
-   "오티에르 반포"
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "더샵 신길센트럴시티"
   ],
-  "peer_avg_rate": 473.88,
+  "peer_avg_rate": 156.22,
   "rank": 1,
-  "of": 3
+  "of": 9
  },
  "region_score": {
-  "scope": "서초구",
-  "peer_count": 2,
+  "scope": "서울",
+  "peer_count": 8,
   "peers": [
+   "힐스테이트 이수역센트럴",
    "반포 래미안 트리니원",
-   "오티에르 반포"
+   "역삼센트럴자이",
+   "드파인 연희",
+   "더샵 프리엘라",
+   "해링턴플레이스 노원 센트럴",
+   "래미안 엘라비네",
+   "더샵 신길센트럴시티"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

@@ -167,34 +167,20 @@
   }
  },
  "region_price": {
-  "scope": "청주시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "두산위브더제니스 청주 센트럴파크",
-   "청주 한양립스 더 벨루체"
-  ],
-  "peer_avg_pyeong": 1489,
-  "diff": 67,
-  "diff_pct": 4,
-  "rank": 1,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "충북",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 2,
+  "peer_count": 3,
   "peers": [
    "두산위브더제니스 청주 센트럴파크",
-   "청주 한양립스 더 벨루체"
+   "제천 신백 선광로즈웰아파트 우선 분양전환 후 잔여세대",
+   "청주지북지구 B1블록 공공분양주택"
   ],
-  "peer_avg_pyeong": 1489,
-  "diff": 67,
-  "diff_pct": 4,
+  "peer_avg_pyeong": 1046,
+  "diff": 510,
+  "diff_pct": 49,
   "rank": 1,
-  "of": 3
+  "of": 4
  },
  "area_competition": {
   "scope": "충북",
@@ -203,13 +189,13 @@
   "peer_max_rate": 1.66
  },
  "region_competition": {
-  "scope": "청주시",
+  "scope": "충북",
   "peer_count": 2,
   "peers": [
    "두산위브더제니스 청주 센트럴파크",
-   "청주 한양립스 더 벨루체"
+   "제천 신백 선광로즈웰아파트 우선 분양전환 후 잔여세대"
   ],
-  "peer_avg_rate": 0.94,
+  "peer_avg_rate": 0.84,
   "rank": 1,
   "of": 3
  }

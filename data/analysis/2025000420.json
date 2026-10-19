@@ -166,65 +166,18 @@
   }
  },
  "region_price": {
-  "scope": "창원시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 4,
-  "peers": [
-   "창원 센트럴 아이파크",
-   "창원자이 더 스카이",
-   "엘리프 창원",
-   "메트로시티 자산 데시앙"
-  ],
-  "peer_avg_pyeong": 2174,
-  "diff": -701,
-  "diff_pct": -32,
-  "rank": 5,
-  "of": 5
- },
- "region_price_wide": {
   "scope": "경남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 7,
+  "peer_count": 2,
   "peers": [
    "김해 안동 에피트",
-   "창원 센트럴 아이파크",
-   "힐스테이트 물금센트럴",
-   "창원자이 더 스카이",
-   "힐스테이트 평거 센트럴",
-   "엘리프 창원",
-   "메트로시티 자산 데시앙"
+   "김해진례 C-1블록 공공분양주택"
   ],
-  "peer_avg_pyeong": 1977,
-  "diff": -504,
-  "diff_pct": -25,
-  "rank": 8,
-  "of": 8
- },
- "region_competition": {
-  "scope": "창원시",
-  "peer_count": 4,
-  "peers": [
-   "창원 센트럴 아이파크",
-   "창원자이 더 스카이",
-   "엘리프 창원",
-   "메트로시티 자산 데시앙"
-  ],
-  "peer_avg_rate": 188.71,
-  "rank": 5,
-  "of": 5
- },
- "region_score": {
-  "scope": "창원시",
-  "peer_count": 4,
-  "peers": [
-   "창원 센트럴 아이파크",
-   "창원자이 더 스카이",
-   "엘리프 창원",
-   "메트로시티 자산 데시앙"
-  ],
-  "peer_avg_min": 0.0,
-  "diff": 0.0
+  "peer_avg_pyeong": 1424,
+  "diff": 49,
+  "diff_pct": 3,
+  "rank": 2,
+  "of": 3
  }
 }

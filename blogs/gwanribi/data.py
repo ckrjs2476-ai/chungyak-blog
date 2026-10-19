@@ -277,8 +277,12 @@ def build_region(lawd: str, name: str, today: date) -> dict:
     by_heat = {h: {k: _med([r[k] for r in rows if r["heat"] == h]) for k in ("indiv_m2", "total_m2")} | {"count": sum(r["heat"] == h for r in rows)}
                for h in sorted({r["heat"] for r in rows}) if h}
     n = len(rows)
+    for r in rows:
+        # 임대 단지는 장기수선충당금(ltsm)이 비어 있어 총액이 구조적으로 낮다 → 총액 순위·격차에서 뺀다(2026-10-19 전수 점검)
+        r["ltsm_missing"] = r.get("ltsm_m2") is None
     for k in ("common_m2", "indiv_m2", "ltsm_m2", "total_m2"):
-        ordered = sorted([r for r in rows if r.get(k) is not None], key=lambda r: -r[k])
+        ordered = sorted([r for r in rows if r.get(k) is not None and not (k == "total_m2" and r["ltsm_missing"])],
+                         key=lambda r: -r[k])
         for i, r in enumerate(ordered, 1):
             r[f"rank_{k}"] = i  # 1위 = 가장 비싼 단지
             r[f"rank_{k}_of"] = len(ordered)
@@ -296,8 +300,9 @@ def build_region(lawd: str, name: str, today: date) -> dict:
         top = sorted(((k, v) for k, v in r["common_items_m2"].items() if v), key=lambda x: -x[1])[:3]
         r["common_top_items"] = [k for k, _ in top]
         r["common_top_share_pct"] = {k: round(r["common_items_won"][k] * 100 / r["common_won"], 1) for k, _ in top} if r["common_won"] else {}
-    rows.sort(key=lambda r: r["rank_total_m2"])
-    hi, lo = rows[0], rows[-1]
+    rows.sort(key=lambda r: r.get("rank_total_m2") or 10 ** 6)
+    ranked = [r for r in rows if r.get("rank_total_m2")] or rows
+    hi, lo = ranked[0], ranked[-1]
     return {
         "lawd": lawd, "name": name, "ym": ym, "ym_label": f"{ym[:4]}년 {int(ym[4:])}월",
         "updated": today.isoformat(), "n_list": len(lst), "n_complex": n, "min_households": MIN_HH,
@@ -307,6 +312,7 @@ def build_region(lawd: str, name: str, today: date) -> dict:
         "total_m2_spread": hi["total_m2"] - lo["total_m2"],
         "total_m2_ratio_high_low": round(hi["total_m2"] / lo["total_m2"], 2) if lo["total_m2"] else None,
         "n_indiv_incomplete": sum(r["indiv_incomplete"] for r in rows),
+        "n_ltsm_missing": sum(r["ltsm_missing"] for r in rows),
         "rank_common_low5": [{"name": r["name"], "common_m2": r["common_m2"]} for r in sorted(rows, key=lambda r: r["common_m2"])[:5]],
         "rank_common_high5": [{"name": r["name"], "common_m2": r["common_m2"]} for r in sorted(rows, key=lambda r: -r["common_m2"])[:5]],
         "complexes": rows,

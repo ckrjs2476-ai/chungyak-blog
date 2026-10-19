@@ -115,25 +115,22 @@
   "scope": "화성시",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 5,
+  "peer_count": 2,
   "peers": [
    "야목역 서희스타힐스 그랜드힐",
-   "동탄 그웬 160 (동탄2 B11BL)",
-   "향남역 그로브 스위첸",
-   "아크메르 동탄 95",
-   "아크메르 동탄 99"
+   "동탄 그웬 160 (동탄2 B11BL)"
   ],
-  "peer_avg_pyeong": 3008,
-  "diff": -1339,
-  "diff_pct": -45,
-  "rank": 4,
-  "of": 6
+  "peer_avg_pyeong": 2058,
+  "diff": -389,
+  "diff_pct": -19,
+  "rank": 2,
+  "of": 3
  },
  "region_price_wide": {
   "scope": "경기",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 57,
+  "peer_count": 35,
   "peers": [
    "오남역 서희스타힐스 여의재 3단지",
    "두산위브 더센트럴 수원",
@@ -144,11 +141,11 @@
    "구리역 하이니티 리버파크",
    "썬밸리 오드카운티 가평설악"
   ],
-  "peer_avg_pyeong": 2502,
-  "diff": -833,
-  "diff_pct": -33,
-  "rank": 47,
-  "of": 58
+  "peer_avg_pyeong": 2274,
+  "diff": -605,
+  "diff_pct": -27,
+  "rank": 30,
+  "of": 36
  },
  "area_competition": {
   "scope": "화성시",
@@ -158,14 +155,13 @@
  },
  "region_competition": {
   "scope": "화성시",
-  "peer_count": 3,
+  "peer_count": 2,
   "peers": [
    "야목역 서희스타힐스 그랜드힐",
-   "동탄 그웬 160 (동탄2 B11BL)",
-   "향남역 그로브 스위첸"
+   "동탄 그웬 160 (동탄2 B11BL)"
   ],
-  "peer_avg_rate": 1.45,
-  "rank": 4,
-  "of": 4
+  "peer_avg_rate": 1.85,
+  "rank": 3,
+  "of": 3
  }
 }

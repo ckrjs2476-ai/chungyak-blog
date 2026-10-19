@@ -112,25 +112,10 @@
   "rank1_avg_rate": 0.01
  },
  "region_price": {
-  "scope": "김해시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "김해 신문 센트럴 아이파크",
-   "트리븐 김해"
-  ],
-  "peer_avg_pyeong": 1644,
-  "diff": -142,
-  "diff_pct": -9,
-  "rank": 3,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "경남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 16,
+  "peer_count": 8,
   "peers": [
    "힐스테이트 물금센트럴",
    "창원자이 더 스카이",
@@ -139,13 +124,13 @@
    "메트로시티 자산 데시앙",
    "힐스테이트 양산더스카이 1단지",
    "힐스테이트 양산더스카이 2단지",
-   "거제 푸르지오 마린피스"
+   "김해 신문 센트럴 아이파크"
   ],
-  "peer_avg_pyeong": 1703,
-  "diff": -201,
-  "diff_pct": -12,
-  "rank": 16,
-  "of": 17
+  "peer_avg_pyeong": 1792,
+  "diff": -290,
+  "diff_pct": -16,
+  "rank": 9,
+  "of": 9
  },
  "area_competition": {
   "scope": "경남",
@@ -154,15 +139,21 @@
   "peer_max_rate": 27.37
  },
  "region_competition": {
-  "scope": "김해시",
-  "peer_count": 2,
+  "scope": "경남",
+  "peer_count": 8,
   "peers": [
-   "김해 신문 센트럴 아이파크",
-   "트리븐 김해"
+   "힐스테이트 물금센트럴",
+   "창원자이 더 스카이",
+   "힐스테이트 평거 센트럴",
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "김해 신문 센트럴 아이파크"
   ],
-  "peer_avg_rate": 0.64,
-  "rank": 3,
-  "of": 3
+  "peer_avg_rate": 9.06,
+  "rank": 9,
+  "of": 9
  },
  "market": {
   "region": "경상남도 김해시",

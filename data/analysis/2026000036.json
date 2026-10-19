@@ -183,41 +183,22 @@
   }
  },
  "region_price": {
-  "scope": "여수시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 3,
-  "peers": [
-   "효성해링턴 플레이스 여수",
-   "소제지구 A3BL 중흥S-클래스 우미린",
-   "소제지구 A4BL 중흥S-클래스 우미린"
-  ],
-  "peer_avg_pyeong": 1515,
-  "diff": 229,
-  "diff_pct": 15,
-  "rank": 1,
-  "of": 4
- },
- "region_price_wide": {
   "scope": "전남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 8,
+  "peer_count": 5,
   "peers": [
    "효성해링턴 플레이스 여수",
    "오룡2지구 지엔하임 37블록",
    "오룡2지구 지엔하임 38블록",
    "나주영산 윤슬의아침 더정원",
-   "해남 남외리 정하 에코프라임",
-   "소제지구 A3BL 중흥S-클래스 우미린",
-   "소제지구 A4BL 중흥S-클래스 우미린",
-   "호반써밋 첨단3지구(A8BL)"
+   "해남 남외리 정하 에코프라임"
   ],
-  "peer_avg_pyeong": 1348,
-  "diff": 396,
-  "diff_pct": 29,
+  "peer_avg_pyeong": 1269,
+  "diff": 475,
+  "diff_pct": 37,
   "rank": 1,
-  "of": 9
+  "of": 6
  },
  "area_competition": {
   "scope": "전남",
@@ -226,24 +207,25 @@
   "peer_max_rate": 4.53
  },
  "region_competition": {
-  "scope": "여수시",
-  "peer_count": 3,
+  "scope": "전남",
+  "peer_count": 5,
   "peers": [
    "효성해링턴 플레이스 여수",
-   "소제지구 A3BL 중흥S-클래스 우미린",
-   "소제지구 A4BL 중흥S-클래스 우미린"
+   "오룡2지구 지엔하임 37블록",
+   "오룡2지구 지엔하임 38블록",
+   "나주영산 윤슬의아침 더정원",
+   "해남 남외리 정하 에코프라임"
   ],
-  "peer_avg_rate": 0.45,
-  "rank": 1,
-  "of": 4
+  "peer_avg_rate": 1.81,
+  "rank": 3,
+  "of": 6
  },
  "region_score": {
   "scope": "전남",
-  "peer_count": 3,
+  "peer_count": 2,
   "peers": [
    "오룡2지구 지엔하임 37블록",
-   "오룡2지구 지엔하임 38블록",
-   "소제지구 A3BL 중흥S-클래스 우미린"
+   "오룡2지구 지엔하임 38블록"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

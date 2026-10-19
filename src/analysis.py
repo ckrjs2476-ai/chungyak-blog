@@ -192,8 +192,10 @@ def _within(a: str, b: str, days: int) -> bool:
 
 def _peers(a: dict, apt: list[dict], need, start: int = 0) -> tuple[str, list[dict]]:
     """비교 대상: 같은 시·구 + 같은 공급 구분(민영/국민) → 같은 시·도 + 같은 공급 구분 → 같은 시·도 전체.
-    공고일 앞뒤 180일 안, 비교값이 있는 단지가 2곳 이상일 때만 쓴다."""
+    공고일 이전 180일 안, 비교값이 있는 단지가 2곳 이상일 때만 쓴다."""
+    # 공고일 '이전' 180일만 비교한다: 뒤에 나온 공고가 섞이면 이미 쓴 글의 순위·평균이 계속 바뀐다(2026-10-19 전수 점검)
     near = [b for b in apt if b["no"] != a["no"] and _within(a["notice_date"], b["notice_date"], COMPARE_DAYS)
+            and b["notice_date"] <= a["notice_date"]
             and b["households"] >= MIN_PEER_HOUSEHOLDS and "취소분" not in str(b["name"]) and need(b)]
     # 시 이름은 앞 두 글자로 비교한다 (화성시 → 화성특례시처럼 이름이 바뀐 경우)
     for scope, pick in ((a["city"], lambda b: b["city"][:2] == a["city"][:2] and b["region"] == a["region"]
@@ -321,7 +323,9 @@ def build_stats(all_: list[dict], today: date) -> dict:
 
     months: dict[str, dict[str, list[int]]] = defaultdict(lambda: defaultdict(list))
     for a in apt:
-        if a.get("pyeong_avg") and a["notice_date"]:
+        # 임대·소규모 재공급·취소분은 지역 평균을 왜곡하므로 뺀다(예: 경기 6월 공공임대 378만 원)
+        if a.get("pyeong_avg") and a["notice_date"] and not a.get("rental") and "임대" not in str(a.get("name")) \
+                and a.get("households", 0) >= MIN_PEER_HOUSEHOLDS and "취소분" not in str(a.get("name")):
             months[a["notice_date"][:7]][a["region"]].append(a["pyeong_avg"])
     monthly_region = {m: {r: {"count": len(v), "avg_pyeong": round(sum(v) / len(v)),
                               "max_pyeong": max(v), "min_pyeong": min(v)} for r, v in rs.items()}

@@ -64,8 +64,22 @@ def _sections(body: str) -> list[tuple[str, str]]:
     return [(parts[i].strip(), parts[i + 1]) for i in range(1, len(parts) - 1, 2)]
 
 
+# 첫 두 문단에 원자료에 없는 비교(순위·평균/중앙값 대비·%차이)가 있어야 한다: 심사관이 처음 보는 화면 (2026-10-19 전수 점검)
+COMPARE_RE = re.compile(r"(\d+\s*곳\s*(중|가운데)|\d+\s*(위|번째)(였|로|에|이|예|입|,|\.|\s)|(평균|중앙값|시세|신축)\s*(보다|대비|에 비해)"
+                        r"|\d+(\.\d+)?\s*%p|\d+(\.\d+)?\s*%\s*(높|낮|많|적|비싸|싸|올랐|내렸|하락|상승|늘|줄|차이)|가장 (높|낮|많|적|비싸|싸|크|작))")
+# 청약·투자 행동을 권하는 말투(YMYL): 사실만 쓰고 판단은 독자에게
+ADVICE_RE = re.compile(r"(편이 (안전|낫|좋|편하|현실적)|먼저 보는 (게|것이) 순서|(하|넣|노리|신청하|청약하)는 게 (좋|낫)|기회예요|가능성이 높은 구조|노린다면|사실상 전부예요|확인해 둬야 해요)")
+
+
 def seo_errors(meta: dict, body: str) -> list[str]:
     errs: list[str] = []
+    lead2 = _plain(" ".join(_paragraphs(body)[:2]))
+    if not COMPARE_RE.search(lead2):
+        errs.append("[가치] 첫 두 문단에 원자료에 없는 비교(N곳 중 M위, 평균·중앙값 대비 X% 등)가 없습니다. "
+                    "공고·공시를 옮기는 문장으로 시작하지 말고 이 대상만의 비교로 시작하세요.")
+    adv = ADVICE_RE.findall(_plain(body))
+    if adv:
+        errs.append(f"[가치] 청약·투자 행동을 권하는 표현: {', '.join(sorted({a[0] if isinstance(a, tuple) else a for a in adv}))}. 사실만 쓰세요.")
     paras = _paragraphs(body)
     lead = _plain(" ".join(paras[:1]))
     t = _target(meta)

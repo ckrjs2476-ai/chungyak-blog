@@ -205,41 +205,22 @@
   }
  },
  "region_price": {
-  "scope": "동래구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 3,
-  "peers": [
-   "해링턴플레이스 명륜역",
-   "동래 에코팰리스 아시아드 리안",
-   "동래 푸르지오 에듀포레"
-  ],
-  "peer_avg_pyeong": 2240,
-  "diff": 303,
-  "diff_pct": 14,
-  "rank": 1,
-  "of": 4
- },
- "region_price_wide": {
   "scope": "부산",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 13,
+  "peer_count": 5,
   "peers": [
    "서면 어반센트 데시앙",
    "퀸즈이즈카운티",
    "베뉴브 해운대",
    "힐스테이트 가야 1단지",
-   "힐스테이트 가야 2단지",
-   "더파크 비스타동원",
-   "해링턴플레이스 명륜역",
-   "동래 에코팰리스 아시아드 리안"
+   "힐스테이트 가야 2단지"
   ],
-  "peer_avg_pyeong": 2510,
-  "diff": 33,
-  "diff_pct": 1,
-  "rank": 5,
-  "of": 14
+  "peer_avg_pyeong": 2769,
+  "diff": -226,
+  "diff_pct": -8,
+  "rank": 3,
+  "of": 6
  },
  "area_competition": {
   "scope": "부산",
@@ -248,28 +229,25 @@
   "peer_max_rate": 1.52
  },
  "region_competition": {
-  "scope": "동래구",
-  "peer_count": 3,
+  "scope": "부산",
+  "peer_count": 5,
   "peers": [
-   "해링턴플레이스 명륜역",
-   "동래 에코팰리스 아시아드 리안",
-   "동래 푸르지오 에듀포레"
+   "서면 어반센트 데시앙",
+   "퀸즈이즈카운티",
+   "베뉴브 해운대",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지"
   ],
-  "peer_avg_rate": 0.45,
-  "rank": 1,
-  "of": 4
+  "peer_avg_rate": 4.75,
+  "rank": 2,
+  "of": 6
  },
  "region_score": {
   "scope": "부산",
-  "peer_count": 7,
+  "peer_count": 2,
   "peers": [
    "서면 어반센트 데시앙",
-   "베뉴브 해운대",
-   "더파크 비스타동원",
-   "한화포레나 부산대연",
-   "동래 푸르지오 에듀포레",
-   "e편한세상 센텀 하이베뉴",
-   "금정산 하늘채 루미엘"
+   "베뉴브 해운대"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

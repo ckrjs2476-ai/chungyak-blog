@@ -190,39 +190,34 @@
   "scope": "전주시",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "송천 아르티엠 더 숲",
    "전주 에코시티 더 클래스",
-   "북전주 광신프로그레스",
-   "아르티엠 라 테라스",
-   "삼천 하늘채 라비엘"
+   "북전주 광신프로그레스"
   ],
-  "peer_avg_pyeong": 1573,
-  "diff": 18,
-  "diff_pct": 1,
-  "rank": 4,
-  "of": 6
+  "peer_avg_pyeong": 1588,
+  "diff": 3,
+  "diff_pct": 0,
+  "rank": 3,
+  "of": 4
  },
  "region_price_wide": {
   "scope": "전북",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 7,
+  "peer_count": 4,
   "peers": [
    "송천 아르티엠 더 숲",
    "대상 웰라움 순창",
    "전주 에코시티 더 클래스",
-   "북전주 광신프로그레스",
-   "익산 펠리피아",
-   "아르티엠 라 테라스",
-   "삼천 하늘채 라비엘"
+   "북전주 광신프로그레스"
   ],
-  "peer_avg_pyeong": 1468,
-  "diff": 123,
-  "diff_pct": 8,
-  "rank": 4,
-  "of": 8
+  "peer_avg_pyeong": 1487,
+  "diff": 104,
+  "diff_pct": 7,
+  "rank": 3,
+  "of": 5
  },
  "area_competition": {
   "scope": "전주시",
@@ -232,26 +227,14 @@
  },
  "region_competition": {
   "scope": "전주시",
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "송천 아르티엠 더 숲",
    "전주 에코시티 더 클래스",
-   "북전주 광신프로그레스",
-   "아르티엠 라 테라스",
-   "삼천 하늘채 라비엘"
+   "북전주 광신프로그레스"
   ],
-  "peer_avg_rate": 7.98,
+  "peer_avg_rate": 8.3,
   "rank": 1,
-  "of": 6
- },
- "region_score": {
-  "scope": "전주시",
-  "peer_count": 2,
-  "peers": [
-   "송천 아르티엠 더 숲",
-   "삼천 하늘채 라비엘"
-  ],
-  "peer_avg_min": 0.0,
-  "diff": 0.0
+  "of": 4
  }
 }

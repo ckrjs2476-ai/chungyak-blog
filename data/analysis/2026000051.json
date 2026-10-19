@@ -239,25 +239,10 @@
   }
  },
  "region_price": {
-  "scope": "아산시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "아산경남아너스빌 랜드마크49",
-   "아산테크노밸리 더원 7차 (Ab4BL)"
-  ],
-  "peer_avg_pyeong": 1257,
-  "diff": 381,
-  "diff_pct": 30,
-  "rank": 1,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "충남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 23,
+  "peer_count": 7,
   "peers": [
    "트리븐 서산",
    "천안 휴먼빌 퍼스트시티",
@@ -265,14 +250,13 @@
    "두산위브더제니스 센트럴 천안",
    "e편한세상 내포 에듀플라츠(민영주택)",
    "천안 아이파크 시티 5단지",
-   "천안 아이파크 시티 6단지",
-   "공주월송 진아레히"
+   "천안 아이파크 시티 6단지"
   ],
-  "peer_avg_pyeong": 1568,
-  "diff": 70,
-  "diff_pct": 4,
-  "rank": 12,
-  "of": 24
+  "peer_avg_pyeong": 1535,
+  "diff": 103,
+  "diff_pct": 7,
+  "rank": 3,
+  "of": 8
  },
  "area_competition": {
   "scope": "충남",
@@ -281,28 +265,28 @@
   "peer_max_rate": 10.54
  },
  "region_competition": {
-  "scope": "아산시",
-  "peer_count": 2,
+  "scope": "충남",
+  "peer_count": 7,
   "peers": [
-   "아산경남아너스빌 랜드마크49",
-   "아산테크노밸리 더원 7차 (Ab4BL)"
+   "트리븐 서산",
+   "천안 휴먼빌 퍼스트시티",
+   "천안 용곡 두산위브",
+   "두산위브더제니스 센트럴 천안",
+   "e편한세상 내포 에듀플라츠(민영주택)",
+   "천안 아이파크 시티 5단지",
+   "천안 아이파크 시티 6단지"
   ],
-  "peer_avg_rate": 0.01,
-  "rank": 1,
-  "of": 3
+  "peer_avg_rate": 3.6,
+  "rank": 3,
+  "of": 8
  },
  "region_score": {
   "scope": "충남",
-  "peer_count": 9,
+  "peer_count": 3,
   "peers": [
    "트리븐 서산",
    "천안 아이파크 시티 5단지",
-   "천안 아이파크 시티 6단지",
-   "공주월송 진아레히",
-   "업성 푸르지오 레이크시티",
-   "엘리프 성성호수공원 1BL",
-   "엘리프 성성호수공원 2BL",
-   "백석시그니처자이 1단지"
+   "천안 아이파크 시티 6단지"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

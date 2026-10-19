@@ -202,25 +202,23 @@
   "scope": "평택시",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "더 플래티넘 파인애비뉴",
    "고덕국제신도시 수자인풍경채 1단지",
-   "고덕국제신도시 수자인풍경채 2단지",
-   "고덕국제신도시 수자인하우스디",
-   "평택역 더센트럴45"
+   "고덕국제신도시 수자인풍경채 2단지"
   ],
-  "peer_avg_pyeong": 1665,
-  "diff": 64,
-  "diff_pct": 4,
+  "peer_avg_pyeong": 1688,
+  "diff": 41,
+  "diff_pct": 2,
   "rank": 1,
-  "of": 6
+  "of": 4
  },
  "region_price_wide": {
   "scope": "경기",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 61,
+  "peer_count": 36,
   "peers": [
    "오남역 서희스타힐스 여의재 3단지",
    "두산위브 더센트럴 수원",
@@ -231,11 +229,11 @@
    "북오산자이 리버블시티",
    "용인 푸르지오 클루센트"
   ],
-  "peer_avg_pyeong": 2573,
-  "diff": -844,
-  "diff_pct": -33,
-  "rank": 46,
-  "of": 62
+  "peer_avg_pyeong": 2462,
+  "diff": -733,
+  "diff_pct": -30,
+  "rank": 28,
+  "of": 37
  },
  "area_competition": {
   "scope": "평택시",
@@ -245,21 +243,19 @@
  },
  "region_competition": {
   "scope": "평택시",
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "더 플래티넘 파인애비뉴",
    "고덕국제신도시 수자인풍경채 1단지",
-   "고덕국제신도시 수자인풍경채 2단지",
-   "고덕국제신도시 수자인하우스디",
-   "평택역 더센트럴45"
+   "고덕국제신도시 수자인풍경채 2단지"
   ],
-  "peer_avg_rate": 0.23,
+  "peer_avg_rate": 0.25,
   "rank": 1,
-  "of": 6
+  "of": 4
  },
  "region_score": {
   "scope": "경기",
-  "peer_count": 38,
+  "peer_count": 25,
   "peers": [
    "오남역 서희스타힐스 여의재 3단지",
    "두산위브 더센트럴 수원",
@@ -270,8 +266,8 @@
    "북오산자이 리버블시티",
    "안양역 센트럴 아이파크 수자인"
   ],
-  "peer_avg_min": 1.5,
-  "diff": 30.5
+  "peer_avg_min": 1.3,
+  "diff": 30.7
  },
  "market": {
   "region": "경기도 평택시",

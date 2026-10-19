@@ -171,25 +171,10 @@
   }
  },
  "region_price": {
-  "scope": "진주시",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "힐스테이트 평거 센트럴",
-   "진주 판문지구 레이크써밋 웰가"
-  ],
-  "peer_avg_pyeong": 1764,
-  "diff": -155,
-  "diff_pct": -9,
-  "rank": 3,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "경남",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 15,
+  "peer_count": 13,
   "peers": [
    "창원자이 더 스카이",
    "힐스테이트 평거 센트럴",
@@ -200,11 +185,11 @@
    "거제 푸르지오 마린피스",
    "신문 대상 웰라움 라시엘"
   ],
-  "peer_avg_pyeong": 1703,
-  "diff": -94,
+  "peer_avg_pyeong": 1706,
+  "diff": -97,
   "diff_pct": -6,
-  "rank": 9,
-  "of": 16
+  "rank": 7,
+  "of": 14
  },
  "area_competition": {
   "scope": "경남",
@@ -213,22 +198,33 @@
   "peer_max_rate": 27.37
  },
  "region_competition": {
-  "scope": "진주시",
-  "peer_count": 2,
+  "scope": "경남",
+  "peer_count": 13,
   "peers": [
+   "창원자이 더 스카이",
    "힐스테이트 평거 센트럴",
-   "진주 판문지구 레이크써밋 웰가"
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "거제 푸르지오 마린피스",
+   "신문 대상 웰라움 라시엘"
   ],
-  "peer_avg_rate": 27.68,
+  "peer_avg_rate": 6.11,
   "rank": 2,
-  "of": 3
+  "of": 14
  },
  "region_score": {
-  "scope": "진주시",
-  "peer_count": 2,
+  "scope": "경남",
+  "peer_count": 7,
   "peers": [
+   "창원자이 더 스카이",
    "힐스테이트 평거 센트럴",
-   "진주 판문지구 레이크써밋 웰가"
+   "엘리프 창원",
+   "메트로시티 자산 데시앙",
+   "힐스테이트 양산더스카이 1단지",
+   "김해 신문 센트럴 아이파크",
+   "창원 한신더휴 메가센텀"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

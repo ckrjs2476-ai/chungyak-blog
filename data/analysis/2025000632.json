@@ -102,40 +102,37 @@
   "scope": "용인시",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 5,
+  "peer_count": 2,
   "peers": [
    "용인 푸르지오 원클러스터파크",
-   "수지자이 에디시온",
-   "용인 플랫폼시티 라온프라이빗 아르디에",
-   "용인 양지 서희스타힐스 하이뷰",
-   "용인 고림 동문 디 이스트"
+   "수지자이 에디시온"
   ],
-  "peer_avg_pyeong": 2465,
-  "diff": -211,
-  "diff_pct": -9,
-  "rank": 3,
-  "of": 6
+  "peer_avg_pyeong": 3087,
+  "diff": -833,
+  "diff_pct": -27,
+  "rank": 2,
+  "of": 3
  },
  "region_price_wide": {
   "scope": "경기",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 69,
+  "peer_count": 34,
   "peers": [
    "엘리프 한신더휴 수원 C3블록(본청약)",
    "엘리프 한신더휴 수원 D3블록(본청약)",
    "식사 푸르지오 파크센트",
    "오산 세교 우미 린 레이크시티",
-   "오남역 서희스타힐스 여의재 3단지",
    "안양자이 헤리티온",
    "철산역자이",
-   "안성 아양지구 B-2블록 금성백조 예미지"
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
   ],
-  "peer_avg_pyeong": 2443,
-  "diff": -189,
-  "diff_pct": -8,
-  "rank": 29,
-  "of": 70
+  "peer_avg_pyeong": 2485,
+  "diff": -231,
+  "diff_pct": -9,
+  "rank": 15,
+  "of": 35
  },
  "area_competition": {
   "scope": "경기",
@@ -145,16 +142,13 @@
  },
  "region_competition": {
   "scope": "용인시",
-  "peer_count": 5,
+  "peer_count": 2,
   "peers": [
    "용인 푸르지오 원클러스터파크",
-   "수지자이 에디시온",
-   "용인 플랫폼시티 라온프라이빗 아르디에",
-   "용인 양지 서희스타힐스 하이뷰",
-   "용인 고림 동문 디 이스트"
+   "수지자이 에디시온"
   ],
-  "peer_avg_rate": 1.01,
-  "rank": 3,
-  "of": 6
+  "peer_avg_rate": 1.69,
+  "rank": 2,
+  "of": 3
  }
 }

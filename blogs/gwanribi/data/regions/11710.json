@@ -83,11 +83,11 @@
   "total_m2": 6092
  },
  "total_m2_low": {
-  "name": "위례포레샤인아파트",
-  "total_m2": 1376
+  "name": "가락삼익맨숀",
+  "total_m2": 1419
  },
- "total_m2_spread": 4716,
- "total_m2_ratio_high_low": 4.43,
+ "total_m2_spread": 4673,
+ "total_m2_ratio_high_low": 4.29,
  "n_indiv_incomplete": 1,
  "rank_common_low5": [
   {
@@ -234,9 +234,6 @@
    "rank_ltsm_m2": 52,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -32.0,
-   "rank_total_m2": 1,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 124.7,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 77.1,
@@ -278,7 +275,11 @@
     "경비비": 31.5,
     "인건비": 30.8,
     "청소비": 14.9
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 1,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 124.7
   },
   {
    "code": "A13822301",
@@ -380,9 +381,6 @@
    "rank_ltsm_m2": 8,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 55.0,
-   "rank_total_m2": 2,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 83.3,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 61.2,
@@ -424,150 +422,11 @@
     "경비비": 34.0,
     "인건비": 32.4,
     "청소비": 19.3
-   }
-  },
-  {
-   "code": "A10020294",
-   "name": "잠실래미안아이파크",
-   "umd": "신천동",
-   "households": 2678,
-   "fee_area_m2": 217428,
-   "dong_count": 23,
-   "heat": "지역난방",
-   "apt_type": "아파트",
-   "manage": "위탁관리",
-   "sale": "혼합",
-   "built_year": 2025,
-   "size_group": "1,000세대 이상",
-   "common_won": 439097064,
-   "indiv_won": 638964687,
-   "ltsm_levy_won": 0,
-   "common_items_won": {
-    "인건비": 117718870,
-    "제사무비": 11530970,
-    "제세공과금": 2978932,
-    "피복비": 1053220,
-    "교육훈련비": 60000,
-    "차량유지비": 50000,
-    "기타부대비용": 1498140,
-    "청소비": 110522336,
-    "경비비": 124507390,
-    "소독비": 2618000,
-    "승강기유지비": 19800000,
-    "홈네트워크유지비": 0,
-    "수선비": 46342606,
-    "시설유지비": 0,
-    "안전점검비": 0,
-    "재해예방비": 416600,
-    "위탁관리수수료": 0
    },
-   "indiv_items_won": {
-    "난방비": 48799810,
-    "급탕비": -227360,
-    "가스사용료": 2319060,
-    "전기료": 515238767,
-    "수도료": 56185530,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 3592980,
-    "입주자대표회의운영비": 5235140,
-    "건물보험료": 5717310,
-    "선거관리위원회운영비": 2103450
-   },
-   "common_m2": 2020,
-   "indiv_m2": 2939,
-   "ltsm_m2": null,
-   "total_m2": 4958,
-   "common_hh": 163965,
-   "indiv_hh": 238598,
-   "ltsm_hh": null,
-   "total_hh": 402562,
-   "common_items_m2": {
-    "인건비": 541,
-    "제사무비": 53,
-    "제세공과금": 14,
-    "피복비": 5,
-    "교육훈련비": 0,
-    "차량유지비": 0,
-    "기타부대비용": 7,
-    "청소비": 508,
-    "경비비": 573,
-    "소독비": 12,
-    "승강기유지비": 91,
-    "홈네트워크유지비": 0,
-    "수선비": 213,
-    "시설유지비": 0,
-    "안전점검비": 0,
-    "재해예방비": 2,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_m2": {
-    "난방비": 224,
-    "급탕비": -1,
-    "가스사용료": 11,
-    "전기료": 2370,
-    "수도료": 258,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 17,
-    "입주자대표회의운영비": 24,
-    "건물보험료": 26,
-    "선거관리위원회운영비": 10
-   },
-   "ltsm_rate_pct": 0.0,
-   "ltsm_balance_won": 0,
-   "ltsm_balance_hh": null,
-   "ltsm_use_won": 0,
-   "age_years": 1,
-   "rank_common_m2": 3,
-   "rank_common_m2_of": 81,
-   "common_m2_vs_median_pct": 69.0,
-   "rank_indiv_m2": 2,
-   "rank_indiv_m2_of": 81,
-   "indiv_m2_vs_median_pct": 125.6,
-   "rank_total_m2": 3,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 82.9,
-   "indiv_incomplete": false,
-   "items_vs_median_pct": {
-    "인건비": 21.3,
-    "제사무비": 562.5,
-    "제세공과금": 366.7,
-    "피복비": 150.0,
-    "교육훈련비": -100.0,
-    "차량유지비": -100.0,
-    "기타부대비용": -30.0,
-    "청소비": 154.0,
-    "경비비": 60.1,
-    "소독비": 71.4,
-    "승강기유지비": 295.7,
-    "홈네트워크유지비": -100.0,
-    "수선비": 267.2,
-    "시설유지비": -100.0,
-    "안전점검비": -100.0,
-    "재해예방비": 0.0,
-    "위탁관리수수료": -100.0,
-    "난방비": 314.8,
-    "급탕비": -100.8,
-    "가스사용료": -75.0,
-    "전기료": 161.6,
-    "수도료": 35.8,
-    "정화조오물수수료": -100.0,
-    "생활폐기물수수료": 21.4,
-    "입주자대표회의운영비": 60.0,
-    "건물보험료": 18.2,
-    "선거관리위원회운영비": 100.0
-   },
-   "common_m2_vs_size_median_pct": 80.0,
-   "indiv_m2_vs_heat_median_pct": 124.4,
-   "common_top_items": [
-    "경비비",
-    "인건비",
-    "청소비"
-   ],
-   "common_top_share_pct": {
-    "경비비": 28.4,
-    "인건비": 26.8,
-    "청소비": 25.2
-   }
+   "ltsm_missing": false,
+   "rank_total_m2": 2,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 83.3
   },
   {
    "code": "A13886701",
@@ -669,9 +528,6 @@
    "rank_ltsm_m2": 39,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -2.5,
-   "rank_total_m2": 4,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 37.4,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 15.0,
@@ -713,150 +569,11 @@
     "경비비": 49.1,
     "인건비": 28.3,
     "청소비": 12.4
-   }
-  },
-  {
-   "code": "A10020230",
-   "name": "잠실르엘",
-   "umd": "신천동",
-   "households": 1865,
-   "fee_area_m2": 189446,
-   "dong_count": 13,
-   "heat": "지역난방",
-   "apt_type": "아파트",
-   "manage": "위탁관리",
-   "sale": "혼합",
-   "built_year": 2025,
-   "size_group": "1,000세대 이상",
-   "common_won": 271880154,
-   "indiv_won": 407819880,
-   "ltsm_levy_won": 0,
-   "common_items_won": {
-    "인건비": 79589860,
-    "제사무비": 9086094,
-    "제세공과금": 535290,
-    "피복비": 0,
-    "교육훈련비": 30000,
-    "차량유지비": 0,
-    "기타부대비용": 2859560,
-    "청소비": 78512660,
-    "경비비": 86453690,
-    "소독비": 2046000,
-    "승강기유지비": 11374000,
-    "홈네트워크유지비": 0,
-    "수선비": 0,
-    "시설유지비": 1393000,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
    },
-   "indiv_items_won": {
-    "난방비": 32635720,
-    "급탕비": -201600,
-    "가스사용료": 0,
-    "전기료": 339367440,
-    "수도료": 27149290,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 2271160,
-    "입주자대표회의운영비": 1505450,
-    "건물보험료": 3711020,
-    "선거관리위원회운영비": 1381400
-   },
-   "common_m2": 1435,
-   "indiv_m2": 2153,
-   "ltsm_m2": null,
-   "total_m2": 3588,
-   "common_hh": 145780,
-   "indiv_hh": 218670,
-   "ltsm_hh": null,
-   "total_hh": 364450,
-   "common_items_m2": {
-    "인건비": 420,
-    "제사무비": 48,
-    "제세공과금": 3,
-    "피복비": 0,
-    "교육훈련비": 0,
-    "차량유지비": 0,
-    "기타부대비용": 15,
-    "청소비": 414,
-    "경비비": 456,
-    "소독비": 11,
-    "승강기유지비": 60,
-    "홈네트워크유지비": 0,
-    "수선비": 0,
-    "시설유지비": 7,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_m2": {
-    "난방비": 172,
-    "급탕비": -1,
-    "가스사용료": 0,
-    "전기료": 1791,
-    "수도료": 143,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 12,
-    "입주자대표회의운영비": 8,
-    "건물보험료": 20,
-    "선거관리위원회운영비": 7
-   },
-   "ltsm_rate_pct": 0.0,
-   "ltsm_balance_won": 0,
-   "ltsm_balance_hh": null,
-   "ltsm_use_won": 0,
-   "age_years": 1,
-   "rank_common_m2": 14,
-   "rank_common_m2_of": 81,
-   "common_m2_vs_median_pct": 20.1,
-   "rank_indiv_m2": 5,
-   "rank_indiv_m2_of": 81,
-   "indiv_m2_vs_median_pct": 65.2,
-   "rank_total_m2": 5,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 32.3,
-   "indiv_incomplete": false,
-   "items_vs_median_pct": {
-    "인건비": -5.8,
-    "제사무비": 500.0,
-    "제세공과금": 0.0,
-    "피복비": -100.0,
-    "교육훈련비": -100.0,
-    "차량유지비": -100.0,
-    "기타부대비용": 50.0,
-    "청소비": 107.0,
-    "경비비": 27.4,
-    "소독비": 57.1,
-    "승강기유지비": 160.9,
-    "홈네트워크유지비": -100.0,
-    "수선비": -100.0,
-    "시설유지비": -73.1,
-    "안전점검비": -100.0,
-    "재해예방비": -100.0,
-    "위탁관리수수료": -100.0,
-    "난방비": 218.5,
-    "급탕비": -100.8,
-    "가스사용료": -100.0,
-    "전기료": 97.7,
-    "수도료": -24.7,
-    "정화조오물수수료": -100.0,
-    "생활폐기물수수료": -14.3,
-    "입주자대표회의운영비": -46.7,
-    "건물보험료": -9.1,
-    "선거관리위원회운영비": 40.0
-   },
-   "common_m2_vs_size_median_pct": 27.9,
-   "indiv_m2_vs_heat_median_pct": 64.4,
-   "common_top_items": [
-    "경비비",
-    "인건비",
-    "청소비"
-   ],
-   "common_top_share_pct": {
-    "경비비": 31.8,
-    "인건비": 29.3,
-    "청소비": 28.9
-   }
+   "ltsm_missing": false,
+   "rank_total_m2": 3,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 37.4
   },
   {
    "code": "A10024085",
@@ -958,9 +675,6 @@
    "rank_ltsm_m2": 41,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -13.0,
-   "rank_total_m2": 6,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 31.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 24.4,
@@ -1002,7 +716,11 @@
     "인건비": 45.5,
     "청소비": 24.9,
     "경비비": 17.1
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 4,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 31.5
   },
   {
    "code": "A13872503",
@@ -1104,9 +822,6 @@
    "rank_ltsm_m2": 47,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -25.0,
-   "rank_total_m2": 7,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 29.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 3.4,
@@ -1148,7 +863,11 @@
     "인건비": 36.1,
     "경비비": 30.1,
     "청소비": 19.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 5,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 29.6
   },
   {
    "code": "A13877501",
@@ -1250,9 +969,6 @@
    "rank_ltsm_m2": 23,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 21.0,
-   "rank_total_m2": 8,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 26.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 0.2,
@@ -1294,7 +1010,11 @@
     "인건비": 37.6,
     "경비비": 36.3,
     "청소비": 16.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 6,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 26.6
   },
   {
    "code": "A13805002",
@@ -1396,9 +1116,6 @@
    "rank_ltsm_m2": 22,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 22.0,
-   "rank_total_m2": 9,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 24.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -31.4,
@@ -1440,7 +1157,11 @@
     "경비비": 58.3,
     "인건비": 18.0,
     "청소비": 10.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 7,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 24.8
   },
   {
    "code": "A13817001",
@@ -1542,9 +1263,6 @@
    "rank_ltsm_m2": 44,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -18.5,
-   "rank_total_m2": 10,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 24.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -6.7,
@@ -1586,7 +1304,11 @@
     "인건비": 32.3,
     "경비비": 22.3,
     "청소비": 21.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 8,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 24.8
   },
   {
    "code": "A10027744",
@@ -1688,9 +1410,6 @@
    "rank_ltsm_m2": 25,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 19.5,
-   "rank_total_m2": 11,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 23.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 40.1,
@@ -1732,7 +1451,11 @@
     "인건비": 45.2,
     "청소비": 19.5,
     "경비비": 19.5
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 9,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 23.6
   },
   {
    "code": "A10025185",
@@ -1834,9 +1557,6 @@
    "rank_ltsm_m2": 59,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -46.5,
-   "rank_total_m2": 12,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 22.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 0.0,
@@ -1878,7 +1598,11 @@
     "인건비": 32.7,
     "경비비": 23.1,
     "청소비": 19.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 10,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 22.2
   },
   {
    "code": "A13822003",
@@ -1980,9 +1704,6 @@
    "rank_ltsm_m2": 7,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 80.0,
-   "rank_total_m2": 13,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 20.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -22.2,
@@ -2024,7 +1745,11 @@
     "인건비": 28.0,
     "경비비": 25.6,
     "청소비": 22.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 11,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 20.6
   },
   {
    "code": "A10027461",
@@ -2126,9 +1851,6 @@
    "rank_ltsm_m2": 46,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -24.0,
-   "rank_total_m2": 14,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 20.3,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 20.6,
@@ -2170,7 +1892,11 @@
     "인건비": 42.0,
     "경비비": 21.3,
     "청소비": 20.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 12,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 20.3
   },
   {
    "code": "A13816202",
@@ -2272,9 +1998,6 @@
    "rank_ltsm_m2": 34,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 1.0,
-   "rank_total_m2": 15,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 18.0,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 32.3,
@@ -2316,7 +2039,11 @@
     "경비비": 40.5,
     "인건비": 35.6,
     "수선비": 12.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 13,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 18.0
   },
   {
    "code": "A13822002",
@@ -2418,9 +2145,6 @@
    "rank_ltsm_m2": 1,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 119.0,
-   "rank_total_m2": 16,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 17.7,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -20.2,
@@ -2462,7 +2186,11 @@
     "인건비": 32.2,
     "경비비": 30.2,
     "청소비": 22.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 14,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 17.7
   },
   {
    "code": "A13876113",
@@ -2564,9 +2292,6 @@
    "rank_ltsm_m2": 12,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 45.5,
-   "rank_total_m2": 17,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 16.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -1.6,
@@ -2608,7 +2333,11 @@
     "인건비": 36.7,
     "청소비": 25.4,
     "경비비": 20.8
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 15,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 16.8
   },
   {
    "code": "A13886009",
@@ -2710,9 +2439,6 @@
    "rank_ltsm_m2": 36,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 0.0,
-   "rank_total_m2": 18,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 14.4,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 24.0,
@@ -2754,7 +2480,11 @@
     "경비비": 46.9,
     "인건비": 32.0,
     "청소비": 10.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 16,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 14.4
   },
   {
    "code": "A10022649",
@@ -2856,9 +2586,6 @@
    "rank_ltsm_m2": 33,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 2.5,
-   "rank_total_m2": 19,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 13.9,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 33.0,
@@ -2900,7 +2627,11 @@
     "인건비": 53.2,
     "경비비": 17.2,
     "청소비": 15.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 17,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 13.9
   },
   {
    "code": "A13822702",
@@ -3002,9 +2733,6 @@
    "rank_ltsm_m2": 14,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 37.5,
-   "rank_total_m2": 20,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 11.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -14.3,
@@ -3046,7 +2774,11 @@
     "경비비": 56.3,
     "인건비": 27.3,
     "청소비": 9.1
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 18,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 11.8
   },
   {
    "code": "A10027553",
@@ -3148,9 +2880,6 @@
    "rank_ltsm_m2": 24,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 20.0,
-   "rank_total_m2": 21,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 11.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -6.3,
@@ -3192,7 +2921,11 @@
     "인건비": 39.5,
     "청소비": 25.4,
     "경비비": 21.8
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 19,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 11.6
   },
   {
    "code": "A13822004",
@@ -3294,9 +3027,6 @@
    "rank_ltsm_m2": 6,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 80.0,
-   "rank_total_m2": 22,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 11.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -29.1,
@@ -3338,7 +3068,11 @@
     "인건비": 28.7,
     "경비비": 28.7,
     "청소비": 23.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 20,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 11.2
   },
   {
    "code": "A13876109",
@@ -3440,9 +3174,6 @@
    "rank_ltsm_m2": 67,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -63.5,
-   "rank_total_m2": 23,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 10.7,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 56.5,
@@ -3484,7 +3215,11 @@
     "인건비": 43.9,
     "경비비": 35.5,
     "청소비": 12.8
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 21,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 10.7
   },
   {
    "code": "A10025850",
@@ -3586,9 +3321,6 @@
    "rank_ltsm_m2": 63,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -54.5,
-   "rank_total_m2": 24,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 9.4,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -29.8,
@@ -3630,7 +3362,11 @@
     "인건비": 31.2,
     "청소비": 25.3,
     "경비비": 24.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 22,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 9.4
   },
   {
    "code": "A13824003",
@@ -3732,9 +3468,6 @@
    "rank_ltsm_m2": 40,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -9.0,
-   "rank_total_m2": 25,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 9.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 112.1,
@@ -3776,7 +3509,11 @@
     "인건비": 52.8,
     "경비비": 20.6,
     "청소비": 9.4
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 23,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 9.2
   },
   {
    "code": "A10024152",
@@ -3878,9 +3615,6 @@
    "rank_ltsm_m2": 45,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -19.5,
-   "rank_total_m2": 26,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 8.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -27.4,
@@ -3922,7 +3656,11 @@
     "인건비": 31.2,
     "경비비": 26.8,
     "청소비": 25.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 24,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 8.8
   },
   {
    "code": "A13876114",
@@ -4024,9 +3762,6 @@
    "rank_ltsm_m2": 11,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 45.5,
-   "rank_total_m2": 27,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 7.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -20.2,
@@ -4068,7 +3803,11 @@
     "인건비": 37.6,
     "경비비": 26.2,
     "청소비": 25.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 25,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 7.6
   },
   {
    "code": "A13883602",
@@ -4170,9 +3909,6 @@
    "rank_ltsm_m2": 62,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -54.0,
-   "rank_total_m2": 28,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 7.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 14.6,
@@ -4214,7 +3950,11 @@
     "인건비": 36.4,
     "경비비": 34.9,
     "청소비": 11.4
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 26,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 7.6
   },
   {
    "code": "A13824006",
@@ -4316,9 +4056,6 @@
    "rank_ltsm_m2": 2,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 112.5,
-   "rank_total_m2": 29,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 7.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -44.2,
@@ -4360,7 +4097,11 @@
     "경비비": 31.1,
     "인건비": 28.6,
     "청소비": 25.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 27,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 7.5
   },
   {
    "code": "A13822001",
@@ -4462,9 +4203,6 @@
    "rank_ltsm_m2": 4,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 100.0,
-   "rank_total_m2": 30,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 7.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -24.4,
@@ -4506,7 +4244,11 @@
     "경비비": 31.0,
     "인건비": 30.7,
     "청소비": 21.5
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 28,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 7.5
   },
   {
    "code": "A13820004",
@@ -4608,9 +4350,6 @@
    "rank_ltsm_m2": 31,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 6.0,
-   "rank_total_m2": 31,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 6.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 37.7,
@@ -4652,7 +4391,11 @@
     "경비비": 41.5,
     "인건비": 37.4,
     "청소비": 10.1
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 29,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 6.2
   },
   {
    "code": "A13876108",
@@ -4754,9 +4497,6 @@
    "rank_ltsm_m2": 21,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 22.5,
-   "rank_total_m2": 32,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 6.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 11.2,
@@ -4798,7 +4538,11 @@
     "인건비": 43.9,
     "경비비": 27.3,
     "청소비": 20.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 30,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 6.2
   },
   {
    "code": "A13804001",
@@ -4900,9 +4644,6 @@
    "rank_ltsm_m2": 3,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 112.5,
-   "rank_total_m2": 33,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 5.7,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 14.1,
@@ -4944,7 +4685,11 @@
     "인건비": 42.1,
     "경비비": 36.2,
     "청소비": 11.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 31,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 5.7
   },
   {
    "code": "A13881005",
@@ -5046,9 +4791,6 @@
    "rank_ltsm_m2": 10,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 50.0,
-   "rank_total_m2": 34,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 5.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -13.9,
@@ -5090,150 +4832,11 @@
     "인건비": 35.0,
     "경비비": 24.4,
     "청소비": 20.3
-   }
-  },
-  {
-   "code": "A10022621",
-   "name": "문정동마에스트로청년주택",
-   "umd": "문정동",
-   "households": 438,
-   "fee_area_m2": 21318,
-   "dong_count": 1,
-   "heat": "개별난방",
-   "apt_type": "주상복합",
-   "manage": "위탁관리",
-   "sale": "임대",
-   "built_year": 2024,
-   "size_group": "300~499세대",
-   "common_won": 33539650,
-   "indiv_won": 26753322,
-   "ltsm_levy_won": 0,
-   "common_items_won": {
-    "인건비": 21783370,
-    "제사무비": 452820,
-    "제세공과금": 150940,
-    "피복비": 0,
-    "교육훈련비": 78840,
-    "차량유지비": 0,
-    "기타부대비용": 391690,
-    "청소비": 3621500,
-    "경비비": 4944200,
-    "소독비": 365000,
-    "승강기유지비": 572000,
-    "홈네트워크유지비": 0,
-    "수선비": 91980,
-    "시설유지비": 942770,
-    "안전점검비": 144540,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
    },
-   "indiv_items_won": {
-    "난방비": 0,
-    "급탕비": 0,
-    "가스사용료": 0,
-    "전기료": 23562602,
-    "수도료": 2661890,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 110840,
-    "입주자대표회의운영비": 0,
-    "건물보험료": 417990,
-    "선거관리위원회운영비": 0
-   },
-   "common_m2": 1573,
-   "indiv_m2": 1255,
-   "ltsm_m2": null,
-   "total_m2": 2828,
-   "common_hh": 76575,
-   "indiv_hh": 61081,
-   "ltsm_hh": null,
-   "total_hh": 137655,
-   "common_items_m2": {
-    "인건비": 1022,
-    "제사무비": 21,
-    "제세공과금": 7,
-    "피복비": 0,
-    "교육훈련비": 4,
-    "차량유지비": 0,
-    "기타부대비용": 18,
-    "청소비": 170,
-    "경비비": 232,
-    "소독비": 17,
-    "승강기유지비": 27,
-    "홈네트워크유지비": 0,
-    "수선비": 4,
-    "시설유지비": 44,
-    "안전점검비": 7,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_m2": {
-    "난방비": 0,
-    "급탕비": 0,
-    "가스사용료": 0,
-    "전기료": 1105,
-    "수도료": 125,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 5,
-    "입주자대표회의운영비": 0,
-    "건물보험료": 20,
-    "선거관리위원회운영비": 0
-   },
-   "ltsm_rate_pct": 0.0,
-   "ltsm_balance_won": 0,
-   "ltsm_balance_hh": null,
-   "ltsm_use_won": 0,
-   "age_years": 2,
-   "rank_common_m2": 13,
-   "rank_common_m2_of": 81,
-   "common_m2_vs_median_pct": 31.6,
-   "rank_indiv_m2": 44,
-   "rank_indiv_m2_of": 81,
-   "indiv_m2_vs_median_pct": -3.7,
-   "rank_total_m2": 35,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 4.3,
-   "indiv_incomplete": false,
-   "items_vs_median_pct": {
-    "인건비": 129.1,
-    "제사무비": 162.5,
-    "제세공과금": 133.3,
-    "피복비": -100.0,
-    "교육훈련비": 100.0,
-    "차량유지비": -100.0,
-    "기타부대비용": 80.0,
-    "청소비": -15.0,
-    "경비비": -35.2,
-    "소독비": 142.9,
-    "승강기유지비": 17.4,
-    "홈네트워크유지비": -100.0,
-    "수선비": -93.1,
-    "시설유지비": 69.2,
-    "안전점검비": 600.0,
-    "재해예방비": -100.0,
-    "위탁관리수수료": -100.0,
-    "난방비": -100.0,
-    "급탕비": -100.0,
-    "가스사용료": -100.0,
-    "전기료": 22.0,
-    "수도료": -34.2,
-    "정화조오물수수료": -100.0,
-    "생활폐기물수수료": -64.3,
-    "입주자대표회의운영비": -100.0,
-    "건물보험료": -9.1,
-    "선거관리위원회운영비": -100.0
-   },
-   "common_m2_vs_size_median_pct": 24.8,
-   "indiv_m2_vs_heat_median_pct": -2.4,
-   "common_top_items": [
-    "인건비",
-    "경비비",
-    "청소비"
-   ],
-   "common_top_share_pct": {
-    "인건비": 64.9,
-    "경비비": 14.7,
-    "청소비": 10.8
-   }
+   "ltsm_missing": false,
+   "rank_total_m2": 32,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 5.6
   },
   {
    "code": "A13821003",
@@ -5335,9 +4938,6 @@
    "rank_ltsm_m2": 15,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 37.5,
-   "rank_total_m2": 36,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 2.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 23.3,
@@ -5379,7 +4979,11 @@
     "인건비": 43.2,
     "경비비": 23.6,
     "청소비": 18.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 33,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 2.5
   },
   {
    "code": "A13819001",
@@ -5481,9 +5085,6 @@
    "rank_ltsm_m2": 42,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -15.0,
-   "rank_total_m2": 37,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 1.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 10.1,
@@ -5525,7 +5126,11 @@
     "인건비": 39.3,
     "경비비": 26.5,
     "청소비": 21.8
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 34,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 1.5
   },
   {
    "code": "A13821002",
@@ -5627,9 +5232,6 @@
    "rank_ltsm_m2": 56,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -41.0,
-   "rank_total_m2": 38,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 1.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 16.6,
@@ -5671,7 +5273,11 @@
     "인건비": 39.5,
     "경비비": 34.5,
     "청소비": 14.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 35,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 1.5
   },
   {
    "code": "A13876110",
@@ -5773,9 +5379,6 @@
    "rank_ltsm_m2": 13,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 43.0,
-   "rank_total_m2": 39,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 1.1,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -4.7,
@@ -5817,7 +5420,11 @@
     "인건비": 39.3,
     "경비비": 26.7,
     "청소비": 19.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 36,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 1.1
   },
   {
    "code": "A13880105",
@@ -5919,9 +5526,6 @@
    "rank_ltsm_m2": 51,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -28.5,
-   "rank_total_m2": 40,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 0.9,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 19.5,
@@ -5963,7 +5567,11 @@
     "인건비": 41.6,
     "경비비": 38.4,
     "청소비": 12.1
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 37,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 0.9
   },
   {
    "code": "A13821004",
@@ -6065,9 +5673,6 @@
    "rank_ltsm_m2": 58,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -42.5,
-   "rank_total_m2": 41,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": 0.0,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 27.4,
@@ -6109,7 +5714,11 @@
     "인건비": 43.3,
     "경비비": 31.2,
     "청소비": 17.5
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 38,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": 0.0
   },
   {
    "code": "A13880407",
@@ -6211,9 +5820,6 @@
    "rank_ltsm_m2": 30,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 10.0,
-   "rank_total_m2": 42,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -0.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -14.8,
@@ -6255,7 +5861,11 @@
     "인건비": 33.5,
     "경비비": 26.4,
     "청소비": 17.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 39,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -0.5
   },
   {
    "code": "A13885304",
@@ -6357,9 +5967,6 @@
    "rank_ltsm_m2": 72,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -94.0,
-   "rank_total_m2": 43,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -1.1,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -10.8,
@@ -6401,7 +6008,11 @@
     "경비비": 52.8,
     "인건비": 28.8,
     "청소비": 12.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 40,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -1.1
   },
   {
    "code": "A13804004",
@@ -6503,9 +6114,6 @@
    "rank_ltsm_m2": 18,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 30.0,
-   "rank_total_m2": 44,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -1.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -1.1,
@@ -6547,7 +6155,11 @@
     "인건비": 37.3,
     "경비비": 36.7,
     "청소비": 11.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 41,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -1.2
   },
   {
    "code": "A13880204",
@@ -6649,9 +6261,6 @@
    "rank_ltsm_m2": 20,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 25.0,
-   "rank_total_m2": 45,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -2.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 19.3,
@@ -6693,7 +6302,11 @@
     "인건비": 40.8,
     "경비비": 38.5,
     "청소비": 11.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 42,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -2.2
   },
   {
    "code": "A10028086",
@@ -6795,9 +6408,6 @@
    "rank_ltsm_m2": 27,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 14.0,
-   "rank_total_m2": 46,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -3.0,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -2.2,
@@ -6839,7 +6449,11 @@
     "인건비": 36.8,
     "청소비": 23.0,
     "경비비": 19.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 43,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -3.0
   },
   {
    "code": "A13812005",
@@ -6941,9 +6555,6 @@
    "rank_ltsm_m2": 57,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -42.5,
-   "rank_total_m2": 47,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -3.4,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 1.6,
@@ -6985,7 +6596,11 @@
     "인건비": 38.4,
     "경비비": 32.7,
     "청소비": 19.8
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 44,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -3.4
   },
   {
    "code": "A13811203",
@@ -7087,9 +6702,6 @@
    "rank_ltsm_m2": 5,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 100.0,
-   "rank_total_m2": 48,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -4.4,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 15.5,
@@ -7131,7 +6743,11 @@
     "경비비": 45.1,
     "인건비": 31.5,
     "수선비": 10.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 45,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -4.4
   },
   {
    "code": "A13880406",
@@ -7233,9 +6849,6 @@
    "rank_ltsm_m2": 16,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 35.0,
-   "rank_total_m2": 49,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -4.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 2.0,
@@ -7277,7 +6890,11 @@
     "인건비": 38.7,
     "경비비": 30.5,
     "청소비": 20.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 46,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -4.5
   },
   {
    "code": "A13880806",
@@ -7379,9 +6996,6 @@
    "rank_ltsm_m2": 9,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 50.0,
-   "rank_total_m2": 50,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -5.3,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 3.6,
@@ -7423,7 +7037,11 @@
     "인건비": 41.1,
     "경비비": 30.4,
     "청소비": 16.5
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 47,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -5.3
   },
   {
    "code": "A13881701",
@@ -7525,9 +7143,6 @@
    "rank_ltsm_m2": 64,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -57.5,
-   "rank_total_m2": 51,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -5.9,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -6.7,
@@ -7569,7 +7184,11 @@
     "인건비": 40.2,
     "청소비": 25.4,
     "경비비": 23.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 48,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -5.9
   },
   {
    "code": "A10023927",
@@ -7671,9 +7290,6 @@
    "rank_ltsm_m2": 50,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -26.5,
-   "rank_total_m2": 52,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -6.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -14.1,
@@ -7715,7 +7331,11 @@
     "인건비": 41.0,
     "청소비": 24.3,
     "경비비": 20.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 49,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -6.2
   },
   {
    "code": "A13820007",
@@ -7817,9 +7437,6 @@
    "rank_ltsm_m2": 68,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -68.0,
-   "rank_total_m2": 53,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -6.4,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 14.1,
@@ -7861,7 +7478,11 @@
     "경비비": 45.2,
     "인건비": 32.2,
     "청소비": 15.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 50,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -6.4
   },
   {
    "code": "A13813010",
@@ -7963,9 +7584,6 @@
    "rank_ltsm_m2": 71,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -85.0,
-   "rank_total_m2": 54,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -6.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -0.4,
@@ -8007,7 +7625,11 @@
     "경비비": 50.9,
     "인건비": 32.7,
     "청소비": 8.9
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 51,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -6.6
   },
   {
    "code": "A10026734",
@@ -8109,9 +7731,6 @@
    "rank_ltsm_m2": 65,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -58.5,
-   "rank_total_m2": 55,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -7.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 20.9,
@@ -8153,7 +7772,11 @@
     "인건비": 42.2,
     "경비비": 26.4,
     "청소비": 17.2
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 52,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -7.8
   },
   {
    "code": "A13822701",
@@ -8255,9 +7878,6 @@
    "rank_ltsm_m2": 53,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -39.5,
-   "rank_total_m2": 56,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -8.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -29.4,
@@ -8299,7 +7919,11 @@
     "경비비": 82.4,
     "인건비": 30.2,
     "청소비": 18.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 53,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -8.5
   },
   {
    "code": "A13811206",
@@ -8401,9 +8025,6 @@
    "rank_ltsm_m2": 26,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 15.0,
-   "rank_total_m2": 57,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -8.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -16.8,
@@ -8445,7 +8066,11 @@
     "경비비": 39.6,
     "인건비": 30.4,
     "청소비": 14.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 54,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -8.6
   },
   {
    "code": "A13821007",
@@ -8547,9 +8172,6 @@
    "rank_ltsm_m2": 69,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -68.5,
-   "rank_total_m2": 58,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -9.1,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 11.2,
@@ -8591,7 +8213,11 @@
     "인건비": 39.0,
     "경비비": 34.5,
     "청소비": 17.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 55,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -9.1
   },
   {
    "code": "A13813008",
@@ -8693,9 +8319,6 @@
    "rank_ltsm_m2": 49,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -26.0,
-   "rank_total_m2": 59,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -9.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -7.0,
@@ -8737,7 +8360,11 @@
     "인건비": 38.9,
     "경비비": 32.0,
     "청소비": 19.6
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 56,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -9.2
   },
   {
    "code": "A10026249",
@@ -8839,9 +8466,6 @@
    "rank_ltsm_m2": 70,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -69.0,
-   "rank_total_m2": 60,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -9.4,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -5.8,
@@ -8883,7 +8507,11 @@
     "인건비": 38.7,
     "경비비": 27.8,
     "청소비": 21.0
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 57,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -9.4
   },
   {
    "code": "A13885303",
@@ -8985,9 +8613,6 @@
    "rank_ltsm_m2": 61,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -53.5,
-   "rank_total_m2": 61,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -10.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -2.5,
@@ -9029,7 +8654,11 @@
     "경비비": 48.2,
     "인건비": 36.5,
     "청소비": 8.8
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 58,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -10.6
   },
   {
    "code": "A13885102",
@@ -9131,9 +8760,6 @@
    "rank_ltsm_m2": 38,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 0.0,
-   "rank_total_m2": 62,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -11.1,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 5.6,
@@ -9175,7 +8801,11 @@
     "인건비": 38.9,
     "경비비": 38.3,
     "청소비": 13.1
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 59,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -11.1
   },
   {
    "code": "A13805001",
@@ -9277,9 +8907,6 @@
    "rank_ltsm_m2": 55,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -41.0,
-   "rank_total_m2": 63,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -12.7,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 0.0,
@@ -9321,7 +8948,11 @@
     "경비비": 39.0,
     "인건비": 37.8,
     "청소비": 15.9
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 60,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -12.7
   },
   {
    "code": "A13804002",
@@ -9423,9 +9054,6 @@
    "rank_ltsm_m2": 17,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 35.0,
-   "rank_total_m2": 64,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -12.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 9.4,
@@ -9467,7 +9095,11 @@
     "인건비": 45.4,
     "경비비": 32.2,
     "청소비": 11.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 61,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -12.8
   },
   {
    "code": "A13887302",
@@ -9569,9 +9201,6 @@
    "rank_ltsm_m2": 35,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 0.0,
-   "rank_total_m2": 65,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -12.9,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -24.4,
@@ -9613,7 +9242,11 @@
     "경비비": 40.0,
     "인건비": 30.6,
     "청소비": 14.4
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 62,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -12.9
   },
   {
    "code": "A13820006",
@@ -9715,9 +9348,6 @@
    "rank_ltsm_m2": 29,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 12.5,
-   "rank_total_m2": 66,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -13.1,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -50.0,
@@ -9759,7 +9389,11 @@
     "청소비": 27.8,
     "경비비": 27.1,
     "인건비": 26.9
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 63,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -13.1
   },
   {
    "code": "A13821006",
@@ -9861,9 +9495,6 @@
    "rank_ltsm_m2": 66,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -59.5,
-   "rank_total_m2": 67,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -13.3,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 11.0,
@@ -9905,7 +9536,11 @@
     "인건비": 41.2,
     "경비비": 29.6,
     "청소비": 17.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 64,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -13.3
   },
   {
    "code": "A13820005",
@@ -10007,9 +9642,6 @@
    "rank_ltsm_m2": 43,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -17.0,
-   "rank_total_m2": 68,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -13.3,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 4.7,
@@ -10051,7 +9683,11 @@
     "인건비": 42.7,
     "경비비": 32.1,
     "청소비": 13.4
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 65,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -13.3
   },
   {
    "code": "A13881603",
@@ -10153,9 +9789,6 @@
    "rank_ltsm_m2": 32,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 5.0,
-   "rank_total_m2": 69,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -14.0,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -23.5,
@@ -10197,7 +9830,11 @@
     "경비비": 42.0,
     "인건비": 34.8,
     "청소비": 8.9
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 66,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -14.0
   },
   {
    "code": "A13881302",
@@ -10299,9 +9936,6 @@
    "rank_ltsm_m2": 28,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 13.0,
-   "rank_total_m2": 70,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -16.0,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 3.8,
@@ -10343,7 +9977,11 @@
     "인건비": 38.6,
     "경비비": 29.9,
     "청소비": 14.5
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 67,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -16.0
   },
   {
    "code": "A10024197",
@@ -10445,9 +10083,6 @@
    "rank_ltsm_m2": 48,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -25.0,
-   "rank_total_m2": 71,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -16.6,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -14.6,
@@ -10489,7 +10124,11 @@
     "인건비": 40.2,
     "경비비": 20.3,
     "청소비": 19.3
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 68,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -16.6
   },
   {
    "code": "A13879102",
@@ -10591,9 +10230,6 @@
    "rank_ltsm_m2": 74,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -98.5,
-   "rank_total_m2": 72,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -17.1,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 9.2,
@@ -10635,7 +10271,11 @@
     "인건비": 41.8,
     "경비비": 37.1,
     "청소비": 13.2
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 69,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -17.1
   },
   {
    "code": "A13880701",
@@ -10737,9 +10377,6 @@
    "rank_ltsm_m2": 54,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -39.5,
-   "rank_total_m2": 73,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -22.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": 21.7,
@@ -10781,7 +10418,11 @@
     "경비비": 39.1,
     "인건비": 38.4,
     "청소비": 10.2
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 70,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -22.5
   },
   {
    "code": "A10027346",
@@ -10883,9 +10524,6 @@
    "rank_ltsm_m2": 60,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -53.0,
-   "rank_total_m2": 74,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -26.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -50.2,
@@ -10927,7 +10565,11 @@
     "인건비": 30.3,
     "경비비": 26.4,
     "청소비": 26.2
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 71,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -26.2
   },
   {
    "code": "A13895501",
@@ -11029,9 +10671,6 @@
    "rank_ltsm_m2": 19,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 26.5,
-   "rank_total_m2": 75,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -26.8,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -17.0,
@@ -11073,7 +10712,11 @@
     "인건비": 47.7,
     "청소비": 21.2,
     "경비비": 13.9
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 72,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -26.8
   },
   {
    "code": "A13811205",
@@ -11175,9 +10818,6 @@
    "rank_ltsm_m2": 37,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": 0.0,
-   "rank_total_m2": 76,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -29.5,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -6.3,
@@ -11219,436 +10859,11 @@
     "경비비": 43.5,
     "인건비": 34.1,
     "청소비": 13.2
-   }
-  },
-  {
-   "code": "A10024492",
-   "name": "위례포레샤인13단지아파트",
-   "umd": "거여동",
-   "households": 560,
-   "fee_area_m2": 66605,
-   "dong_count": 8,
-   "heat": "지역난방",
-   "apt_type": "아파트",
-   "manage": "위탁관리",
-   "sale": "임대",
-   "built_year": 2020,
-   "size_group": "500~999세대",
-   "common_won": 51119845,
-   "indiv_won": 68668909,
-   "ltsm_levy_won": 0,
-   "common_items_won": {
-    "인건비": 24470260,
-    "제사무비": 259700,
-    "제세공과금": 180885,
-    "피복비": 0,
-    "교육훈련비": 108000,
-    "차량유지비": 0,
-    "기타부대비용": 304830,
-    "청소비": 9401510,
-    "경비비": 14252440,
-    "소독비": 380000,
-    "승강기유지비": 1003200,
-    "홈네트워크유지비": 0,
-    "수선비": 223660,
-    "시설유지비": 535360,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
    },
-   "indiv_items_won": {
-    "난방비": 2038690,
-    "급탕비": 6031970,
-    "가스사용료": 0,
-    "전기료": 51192499,
-    "수도료": 8637140,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 768610,
-    "입주자대표회의운영비": 0,
-    "건물보험료": 0,
-    "선거관리위원회운영비": 0
-   },
-   "common_m2": 768,
-   "indiv_m2": 1031,
-   "ltsm_m2": null,
-   "total_m2": 1798,
-   "common_hh": 91285,
-   "indiv_hh": 122623,
-   "ltsm_hh": null,
-   "total_hh": 213908,
-   "common_items_m2": {
-    "인건비": 367,
-    "제사무비": 4,
-    "제세공과금": 3,
-    "피복비": 0,
-    "교육훈련비": 2,
-    "차량유지비": 0,
-    "기타부대비용": 5,
-    "청소비": 141,
-    "경비비": 214,
-    "소독비": 6,
-    "승강기유지비": 15,
-    "홈네트워크유지비": 0,
-    "수선비": 3,
-    "시설유지비": 8,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_m2": {
-    "난방비": 31,
-    "급탕비": 91,
-    "가스사용료": 0,
-    "전기료": 769,
-    "수도료": 130,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 12,
-    "입주자대표회의운영비": 0,
-    "건물보험료": 0,
-    "선거관리위원회운영비": 0
-   },
-   "ltsm_rate_pct": 0.0,
-   "ltsm_balance_won": 0,
-   "ltsm_balance_hh": null,
-   "ltsm_use_won": 0,
-   "age_years": 6,
-   "rank_common_m2": 78,
-   "rank_common_m2_of": 81,
-   "common_m2_vs_median_pct": -35.7,
-   "rank_indiv_m2": 67,
-   "rank_indiv_m2_of": 81,
-   "indiv_m2_vs_median_pct": -20.9,
-   "rank_total_m2": 77,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -33.7,
-   "indiv_incomplete": false,
-   "items_vs_median_pct": {
-    "인건비": -17.7,
-    "제사무비": -50.0,
-    "제세공과금": 0.0,
-    "피복비": -100.0,
-    "교육훈련비": 0.0,
-    "차량유지비": -100.0,
-    "기타부대비용": -50.0,
-    "청소비": -29.5,
-    "경비비": -40.2,
-    "소독비": -14.3,
-    "승강기유지비": -34.8,
-    "홈네트워크유지비": -100.0,
-    "수선비": -94.8,
-    "시설유지비": -69.2,
-    "안전점검비": -100.0,
-    "재해예방비": -100.0,
-    "위탁관리수수료": -100.0,
-    "난방비": -42.6,
-    "급탕비": -23.5,
-    "가스사용료": -100.0,
-    "전기료": -15.1,
-    "수도료": -31.6,
-    "정화조오물수수료": -100.0,
-    "생활폐기물수수료": -14.3,
-    "입주자대표회의운영비": -100.0,
-    "건물보험료": -100.0,
-    "선거관리위원회운영비": -100.0
-   },
-   "common_m2_vs_size_median_pct": -35.1,
-   "indiv_m2_vs_heat_median_pct": -21.3,
-   "common_top_items": [
-    "인건비",
-    "경비비",
-    "청소비"
-   ],
-   "common_top_share_pct": {
-    "인건비": 47.9,
-    "경비비": 27.9,
-    "청소비": 18.4
-   }
-  },
-  {
-   "code": "A13811001",
-   "name": "거여6단지",
-   "umd": "거여동",
-   "households": 660,
-   "fee_area_m2": 46092,
-   "dong_count": 5,
-   "heat": "지역난방",
-   "apt_type": "아파트",
-   "manage": "위탁관리",
-   "sale": "임대",
-   "built_year": 1997,
-   "size_group": "500~999세대",
-   "common_won": 50613703,
-   "indiv_won": 28264354,
-   "ltsm_levy_won": 0,
-   "common_items_won": {
-    "인건비": 23365595,
-    "제사무비": 229000,
-    "제세공과금": 80630,
-    "피복비": 0,
-    "교육훈련비": 0,
-    "차량유지비": 299000,
-    "기타부대비용": 170400,
-    "청소비": 4257770,
-    "경비비": 21002308,
-    "소독비": 273000,
-    "승강기유지비": 756000,
-    "홈네트워크유지비": 0,
-    "수선비": 180000,
-    "시설유지비": 0,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_won": {
-    "난방비": 1492434,
-    "급탕비": 6210000,
-    "가스사용료": 0,
-    "전기료": 19227379,
-    "수도료": 663181,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 671360,
-    "입주자대표회의운영비": 0,
-    "건물보험료": 0,
-    "선거관리위원회운영비": 0
-   },
-   "common_m2": 1098,
-   "indiv_m2": 613,
-   "ltsm_m2": null,
-   "total_m2": 1711,
-   "common_hh": 76687,
-   "indiv_hh": 42825,
-   "ltsm_hh": null,
-   "total_hh": 119512,
-   "common_items_m2": {
-    "인건비": 507,
-    "제사무비": 5,
-    "제세공과금": 2,
-    "피복비": 0,
-    "교육훈련비": 0,
-    "차량유지비": 6,
-    "기타부대비용": 4,
-    "청소비": 92,
-    "경비비": 456,
-    "소독비": 6,
-    "승강기유지비": 16,
-    "홈네트워크유지비": 0,
-    "수선비": 4,
-    "시설유지비": 0,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_m2": {
-    "난방비": 32,
-    "급탕비": 135,
-    "가스사용료": 0,
-    "전기료": 417,
-    "수도료": 14,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 15,
-    "입주자대표회의운영비": 0,
-    "건물보험료": 0,
-    "선거관리위원회운영비": 0
-   },
-   "ltsm_rate_pct": 0.0,
-   "ltsm_balance_won": 0,
-   "ltsm_balance_hh": null,
-   "ltsm_use_won": 0,
-   "age_years": 29,
-   "rank_common_m2": 57,
-   "rank_common_m2_of": 81,
-   "common_m2_vs_median_pct": -8.1,
-   "rank_indiv_m2": 77,
-   "rank_indiv_m2_of": 81,
-   "indiv_m2_vs_median_pct": -53.0,
-   "rank_total_m2": 78,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -36.9,
-   "indiv_incomplete": false,
-   "items_vs_median_pct": {
-    "인건비": 13.7,
-    "제사무비": -37.5,
-    "제세공과금": -33.3,
-    "피복비": -100.0,
-    "교육훈련비": -100.0,
-    "차량유지비": 500.0,
-    "기타부대비용": -60.0,
-    "청소비": -54.0,
-    "경비비": 27.4,
-    "소독비": -14.3,
-    "승강기유지비": -30.4,
-    "홈네트워크유지비": -100.0,
-    "수선비": -93.1,
-    "시설유지비": -100.0,
-    "안전점검비": -100.0,
-    "재해예방비": -100.0,
-    "위탁관리수수료": -100.0,
-    "난방비": -40.7,
-    "급탕비": 13.4,
-    "가스사용료": -100.0,
-    "전기료": -54.0,
-    "수도료": -92.6,
-    "정화조오물수수료": -100.0,
-    "생활폐기물수수료": 7.1,
-    "입주자대표회의운영비": -100.0,
-    "건물보험료": -100.0,
-    "선거관리위원회운영비": -100.0
-   },
-   "common_m2_vs_size_median_pct": -7.3,
-   "indiv_m2_vs_heat_median_pct": -53.2,
-   "common_top_items": [
-    "인건비",
-    "경비비",
-    "청소비"
-   ],
-   "common_top_share_pct": {
-    "인건비": 46.2,
-    "경비비": 41.5,
-    "청소비": 8.4
-   }
-  },
-  {
-   "code": "A10024577",
-   "name": "위례포레샤인18단지",
-   "umd": "거여동",
-   "households": 685,
-   "fee_area_m2": 100693,
-   "dong_count": 13,
-   "heat": "지역난방",
-   "apt_type": "아파트",
-   "manage": "위탁관리",
-   "sale": "임대",
-   "built_year": 2020,
-   "size_group": "500~999세대",
-   "common_won": 64371509,
-   "indiv_won": 97616799,
-   "ltsm_levy_won": 0,
-   "common_items_won": {
-    "인건비": 28380739,
-    "제사무비": 495760,
-    "제세공과금": 128270,
-    "피복비": 217380,
-    "교육훈련비": 263000,
-    "차량유지비": 0,
-    "기타부대비용": 726640,
-    "청소비": 13823850,
-    "경비비": 16798110,
-    "소독비": 440000,
-    "승강기유지비": 1530760,
-    "홈네트워크유지비": 0,
-    "수선비": 484000,
-    "시설유지비": 1083000,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_won": {
-    "난방비": 12615640,
-    "급탕비": -35600,
-    "가스사용료": 0,
-    "전기료": 68056449,
-    "수도료": 15201630,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 1328680,
-    "입주자대표회의운영비": 450000,
-    "건물보험료": 0,
-    "선거관리위원회운영비": 0
-   },
-   "common_m2": 639,
-   "indiv_m2": 969,
-   "ltsm_m2": null,
-   "total_m2": 1609,
-   "common_hh": 93973,
-   "indiv_hh": 142506,
-   "ltsm_hh": null,
-   "total_hh": 236479,
-   "common_items_m2": {
-    "인건비": 282,
-    "제사무비": 5,
-    "제세공과금": 1,
-    "피복비": 2,
-    "교육훈련비": 3,
-    "차량유지비": 0,
-    "기타부대비용": 7,
-    "청소비": 137,
-    "경비비": 167,
-    "소독비": 4,
-    "승강기유지비": 15,
-    "홈네트워크유지비": 0,
-    "수선비": 5,
-    "시설유지비": 11,
-    "안전점검비": 0,
-    "재해예방비": 0,
-    "위탁관리수수료": 0
-   },
-   "indiv_items_m2": {
-    "난방비": 125,
-    "급탕비": 0,
-    "가스사용료": 0,
-    "전기료": 676,
-    "수도료": 151,
-    "정화조오물수수료": 0,
-    "생활폐기물수수료": 13,
-    "입주자대표회의운영비": 4,
-    "건물보험료": 0,
-    "선거관리위원회운영비": 0
-   },
-   "ltsm_rate_pct": 0.0,
-   "ltsm_balance_won": 0,
-   "ltsm_balance_hh": null,
-   "ltsm_use_won": 0,
-   "age_years": 6,
-   "rank_common_m2": 80,
-   "rank_common_m2_of": 81,
-   "common_m2_vs_median_pct": -46.5,
-   "rank_indiv_m2": 72,
-   "rank_indiv_m2_of": 81,
-   "indiv_m2_vs_median_pct": -25.6,
-   "rank_total_m2": 79,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -40.6,
-   "indiv_incomplete": false,
-   "items_vs_median_pct": {
-    "인건비": -36.8,
-    "제사무비": -37.5,
-    "제세공과금": -66.7,
-    "피복비": 0.0,
-    "교육훈련비": 50.0,
-    "차량유지비": -100.0,
-    "기타부대비용": -30.0,
-    "청소비": -31.5,
-    "경비비": -53.4,
-    "소독비": -42.9,
-    "승강기유지비": -34.8,
-    "홈네트워크유지비": -100.0,
-    "수선비": -91.4,
-    "시설유지비": -57.7,
-    "안전점검비": -100.0,
-    "재해예방비": -100.0,
-    "위탁관리수수료": -100.0,
-    "난방비": 131.5,
-    "급탕비": -100.0,
-    "가스사용료": -100.0,
-    "전기료": -25.4,
-    "수도료": -20.5,
-    "정화조오물수수료": -100.0,
-    "생활폐기물수수료": -7.1,
-    "입주자대표회의운영비": -73.3,
-    "건물보험료": -100.0,
-    "선거관리위원회운영비": -100.0
-   },
-   "common_m2_vs_size_median_pct": -46.0,
-   "indiv_m2_vs_heat_median_pct": -26.0,
-   "common_top_items": [
-    "인건비",
-    "경비비",
-    "청소비"
-   ],
-   "common_top_share_pct": {
-    "인건비": 44.1,
-    "경비비": 26.1,
-    "청소비": 21.5
-   }
+   "ltsm_missing": false,
+   "rank_total_m2": 73,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -29.5
   },
   {
    "code": "A13885306",
@@ -11750,9 +10965,6 @@
    "rank_ltsm_m2": 73,
    "rank_ltsm_m2_of": 74,
    "ltsm_m2_vs_median_pct": -97.5,
-   "rank_total_m2": 80,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -47.7,
    "indiv_incomplete": true,
    "items_vs_median_pct": {
     "인건비": -9.4,
@@ -11794,7 +11006,857 @@
     "경비비": 46.8,
     "인건비": 37.1,
     "청소비": 7.7
-   }
+   },
+   "ltsm_missing": false,
+   "rank_total_m2": 74,
+   "rank_total_m2_of": 74,
+   "total_m2_vs_median_pct": -47.7
+  },
+  {
+   "code": "A10020294",
+   "name": "잠실래미안아이파크",
+   "umd": "신천동",
+   "households": 2678,
+   "fee_area_m2": 217428,
+   "dong_count": 23,
+   "heat": "지역난방",
+   "apt_type": "아파트",
+   "manage": "위탁관리",
+   "sale": "혼합",
+   "built_year": 2025,
+   "size_group": "1,000세대 이상",
+   "common_won": 439097064,
+   "indiv_won": 638964687,
+   "ltsm_levy_won": 0,
+   "common_items_won": {
+    "인건비": 117718870,
+    "제사무비": 11530970,
+    "제세공과금": 2978932,
+    "피복비": 1053220,
+    "교육훈련비": 60000,
+    "차량유지비": 50000,
+    "기타부대비용": 1498140,
+    "청소비": 110522336,
+    "경비비": 124507390,
+    "소독비": 2618000,
+    "승강기유지비": 19800000,
+    "홈네트워크유지비": 0,
+    "수선비": 46342606,
+    "시설유지비": 0,
+    "안전점검비": 0,
+    "재해예방비": 416600,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_won": {
+    "난방비": 48799810,
+    "급탕비": -227360,
+    "가스사용료": 2319060,
+    "전기료": 515238767,
+    "수도료": 56185530,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 3592980,
+    "입주자대표회의운영비": 5235140,
+    "건물보험료": 5717310,
+    "선거관리위원회운영비": 2103450
+   },
+   "common_m2": 2020,
+   "indiv_m2": 2939,
+   "ltsm_m2": null,
+   "total_m2": 4958,
+   "common_hh": 163965,
+   "indiv_hh": 238598,
+   "ltsm_hh": null,
+   "total_hh": 402562,
+   "common_items_m2": {
+    "인건비": 541,
+    "제사무비": 53,
+    "제세공과금": 14,
+    "피복비": 5,
+    "교육훈련비": 0,
+    "차량유지비": 0,
+    "기타부대비용": 7,
+    "청소비": 508,
+    "경비비": 573,
+    "소독비": 12,
+    "승강기유지비": 91,
+    "홈네트워크유지비": 0,
+    "수선비": 213,
+    "시설유지비": 0,
+    "안전점검비": 0,
+    "재해예방비": 2,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_m2": {
+    "난방비": 224,
+    "급탕비": -1,
+    "가스사용료": 11,
+    "전기료": 2370,
+    "수도료": 258,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 17,
+    "입주자대표회의운영비": 24,
+    "건물보험료": 26,
+    "선거관리위원회운영비": 10
+   },
+   "ltsm_rate_pct": 0.0,
+   "ltsm_balance_won": 0,
+   "ltsm_balance_hh": null,
+   "ltsm_use_won": 0,
+   "age_years": 1,
+   "rank_common_m2": 3,
+   "rank_common_m2_of": 81,
+   "common_m2_vs_median_pct": 69.0,
+   "rank_indiv_m2": 2,
+   "rank_indiv_m2_of": 81,
+   "indiv_m2_vs_median_pct": 125.6,
+   "indiv_incomplete": false,
+   "items_vs_median_pct": {
+    "인건비": 21.3,
+    "제사무비": 562.5,
+    "제세공과금": 366.7,
+    "피복비": 150.0,
+    "교육훈련비": -100.0,
+    "차량유지비": -100.0,
+    "기타부대비용": -30.0,
+    "청소비": 154.0,
+    "경비비": 60.1,
+    "소독비": 71.4,
+    "승강기유지비": 295.7,
+    "홈네트워크유지비": -100.0,
+    "수선비": 267.2,
+    "시설유지비": -100.0,
+    "안전점검비": -100.0,
+    "재해예방비": 0.0,
+    "위탁관리수수료": -100.0,
+    "난방비": 314.8,
+    "급탕비": -100.8,
+    "가스사용료": -75.0,
+    "전기료": 161.6,
+    "수도료": 35.8,
+    "정화조오물수수료": -100.0,
+    "생활폐기물수수료": 21.4,
+    "입주자대표회의운영비": 60.0,
+    "건물보험료": 18.2,
+    "선거관리위원회운영비": 100.0
+   },
+   "common_m2_vs_size_median_pct": 80.0,
+   "indiv_m2_vs_heat_median_pct": 124.4,
+   "common_top_items": [
+    "경비비",
+    "인건비",
+    "청소비"
+   ],
+   "common_top_share_pct": {
+    "경비비": 28.4,
+    "인건비": 26.8,
+    "청소비": 25.2
+   },
+   "ltsm_missing": true
+  },
+  {
+   "code": "A10020230",
+   "name": "잠실르엘",
+   "umd": "신천동",
+   "households": 1865,
+   "fee_area_m2": 189446,
+   "dong_count": 13,
+   "heat": "지역난방",
+   "apt_type": "아파트",
+   "manage": "위탁관리",
+   "sale": "혼합",
+   "built_year": 2025,
+   "size_group": "1,000세대 이상",
+   "common_won": 271880154,
+   "indiv_won": 407819880,
+   "ltsm_levy_won": 0,
+   "common_items_won": {
+    "인건비": 79589860,
+    "제사무비": 9086094,
+    "제세공과금": 535290,
+    "피복비": 0,
+    "교육훈련비": 30000,
+    "차량유지비": 0,
+    "기타부대비용": 2859560,
+    "청소비": 78512660,
+    "경비비": 86453690,
+    "소독비": 2046000,
+    "승강기유지비": 11374000,
+    "홈네트워크유지비": 0,
+    "수선비": 0,
+    "시설유지비": 1393000,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_won": {
+    "난방비": 32635720,
+    "급탕비": -201600,
+    "가스사용료": 0,
+    "전기료": 339367440,
+    "수도료": 27149290,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 2271160,
+    "입주자대표회의운영비": 1505450,
+    "건물보험료": 3711020,
+    "선거관리위원회운영비": 1381400
+   },
+   "common_m2": 1435,
+   "indiv_m2": 2153,
+   "ltsm_m2": null,
+   "total_m2": 3588,
+   "common_hh": 145780,
+   "indiv_hh": 218670,
+   "ltsm_hh": null,
+   "total_hh": 364450,
+   "common_items_m2": {
+    "인건비": 420,
+    "제사무비": 48,
+    "제세공과금": 3,
+    "피복비": 0,
+    "교육훈련비": 0,
+    "차량유지비": 0,
+    "기타부대비용": 15,
+    "청소비": 414,
+    "경비비": 456,
+    "소독비": 11,
+    "승강기유지비": 60,
+    "홈네트워크유지비": 0,
+    "수선비": 0,
+    "시설유지비": 7,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_m2": {
+    "난방비": 172,
+    "급탕비": -1,
+    "가스사용료": 0,
+    "전기료": 1791,
+    "수도료": 143,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 12,
+    "입주자대표회의운영비": 8,
+    "건물보험료": 20,
+    "선거관리위원회운영비": 7
+   },
+   "ltsm_rate_pct": 0.0,
+   "ltsm_balance_won": 0,
+   "ltsm_balance_hh": null,
+   "ltsm_use_won": 0,
+   "age_years": 1,
+   "rank_common_m2": 14,
+   "rank_common_m2_of": 81,
+   "common_m2_vs_median_pct": 20.1,
+   "rank_indiv_m2": 5,
+   "rank_indiv_m2_of": 81,
+   "indiv_m2_vs_median_pct": 65.2,
+   "indiv_incomplete": false,
+   "items_vs_median_pct": {
+    "인건비": -5.8,
+    "제사무비": 500.0,
+    "제세공과금": 0.0,
+    "피복비": -100.0,
+    "교육훈련비": -100.0,
+    "차량유지비": -100.0,
+    "기타부대비용": 50.0,
+    "청소비": 107.0,
+    "경비비": 27.4,
+    "소독비": 57.1,
+    "승강기유지비": 160.9,
+    "홈네트워크유지비": -100.0,
+    "수선비": -100.0,
+    "시설유지비": -73.1,
+    "안전점검비": -100.0,
+    "재해예방비": -100.0,
+    "위탁관리수수료": -100.0,
+    "난방비": 218.5,
+    "급탕비": -100.8,
+    "가스사용료": -100.0,
+    "전기료": 97.7,
+    "수도료": -24.7,
+    "정화조오물수수료": -100.0,
+    "생활폐기물수수료": -14.3,
+    "입주자대표회의운영비": -46.7,
+    "건물보험료": -9.1,
+    "선거관리위원회운영비": 40.0
+   },
+   "common_m2_vs_size_median_pct": 27.9,
+   "indiv_m2_vs_heat_median_pct": 64.4,
+   "common_top_items": [
+    "경비비",
+    "인건비",
+    "청소비"
+   ],
+   "common_top_share_pct": {
+    "경비비": 31.8,
+    "인건비": 29.3,
+    "청소비": 28.9
+   },
+   "ltsm_missing": true
+  },
+  {
+   "code": "A10022621",
+   "name": "문정동마에스트로청년주택",
+   "umd": "문정동",
+   "households": 438,
+   "fee_area_m2": 21318,
+   "dong_count": 1,
+   "heat": "개별난방",
+   "apt_type": "주상복합",
+   "manage": "위탁관리",
+   "sale": "임대",
+   "built_year": 2024,
+   "size_group": "300~499세대",
+   "common_won": 33539650,
+   "indiv_won": 26753322,
+   "ltsm_levy_won": 0,
+   "common_items_won": {
+    "인건비": 21783370,
+    "제사무비": 452820,
+    "제세공과금": 150940,
+    "피복비": 0,
+    "교육훈련비": 78840,
+    "차량유지비": 0,
+    "기타부대비용": 391690,
+    "청소비": 3621500,
+    "경비비": 4944200,
+    "소독비": 365000,
+    "승강기유지비": 572000,
+    "홈네트워크유지비": 0,
+    "수선비": 91980,
+    "시설유지비": 942770,
+    "안전점검비": 144540,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_won": {
+    "난방비": 0,
+    "급탕비": 0,
+    "가스사용료": 0,
+    "전기료": 23562602,
+    "수도료": 2661890,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 110840,
+    "입주자대표회의운영비": 0,
+    "건물보험료": 417990,
+    "선거관리위원회운영비": 0
+   },
+   "common_m2": 1573,
+   "indiv_m2": 1255,
+   "ltsm_m2": null,
+   "total_m2": 2828,
+   "common_hh": 76575,
+   "indiv_hh": 61081,
+   "ltsm_hh": null,
+   "total_hh": 137655,
+   "common_items_m2": {
+    "인건비": 1022,
+    "제사무비": 21,
+    "제세공과금": 7,
+    "피복비": 0,
+    "교육훈련비": 4,
+    "차량유지비": 0,
+    "기타부대비용": 18,
+    "청소비": 170,
+    "경비비": 232,
+    "소독비": 17,
+    "승강기유지비": 27,
+    "홈네트워크유지비": 0,
+    "수선비": 4,
+    "시설유지비": 44,
+    "안전점검비": 7,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_m2": {
+    "난방비": 0,
+    "급탕비": 0,
+    "가스사용료": 0,
+    "전기료": 1105,
+    "수도료": 125,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 5,
+    "입주자대표회의운영비": 0,
+    "건물보험료": 20,
+    "선거관리위원회운영비": 0
+   },
+   "ltsm_rate_pct": 0.0,
+   "ltsm_balance_won": 0,
+   "ltsm_balance_hh": null,
+   "ltsm_use_won": 0,
+   "age_years": 2,
+   "rank_common_m2": 13,
+   "rank_common_m2_of": 81,
+   "common_m2_vs_median_pct": 31.6,
+   "rank_indiv_m2": 44,
+   "rank_indiv_m2_of": 81,
+   "indiv_m2_vs_median_pct": -3.7,
+   "indiv_incomplete": false,
+   "items_vs_median_pct": {
+    "인건비": 129.1,
+    "제사무비": 162.5,
+    "제세공과금": 133.3,
+    "피복비": -100.0,
+    "교육훈련비": 100.0,
+    "차량유지비": -100.0,
+    "기타부대비용": 80.0,
+    "청소비": -15.0,
+    "경비비": -35.2,
+    "소독비": 142.9,
+    "승강기유지비": 17.4,
+    "홈네트워크유지비": -100.0,
+    "수선비": -93.1,
+    "시설유지비": 69.2,
+    "안전점검비": 600.0,
+    "재해예방비": -100.0,
+    "위탁관리수수료": -100.0,
+    "난방비": -100.0,
+    "급탕비": -100.0,
+    "가스사용료": -100.0,
+    "전기료": 22.0,
+    "수도료": -34.2,
+    "정화조오물수수료": -100.0,
+    "생활폐기물수수료": -64.3,
+    "입주자대표회의운영비": -100.0,
+    "건물보험료": -9.1,
+    "선거관리위원회운영비": -100.0
+   },
+   "common_m2_vs_size_median_pct": 24.8,
+   "indiv_m2_vs_heat_median_pct": -2.4,
+   "common_top_items": [
+    "인건비",
+    "경비비",
+    "청소비"
+   ],
+   "common_top_share_pct": {
+    "인건비": 64.9,
+    "경비비": 14.7,
+    "청소비": 10.8
+   },
+   "ltsm_missing": true
+  },
+  {
+   "code": "A10024492",
+   "name": "위례포레샤인13단지아파트",
+   "umd": "거여동",
+   "households": 560,
+   "fee_area_m2": 66605,
+   "dong_count": 8,
+   "heat": "지역난방",
+   "apt_type": "아파트",
+   "manage": "위탁관리",
+   "sale": "임대",
+   "built_year": 2020,
+   "size_group": "500~999세대",
+   "common_won": 51119845,
+   "indiv_won": 68668909,
+   "ltsm_levy_won": 0,
+   "common_items_won": {
+    "인건비": 24470260,
+    "제사무비": 259700,
+    "제세공과금": 180885,
+    "피복비": 0,
+    "교육훈련비": 108000,
+    "차량유지비": 0,
+    "기타부대비용": 304830,
+    "청소비": 9401510,
+    "경비비": 14252440,
+    "소독비": 380000,
+    "승강기유지비": 1003200,
+    "홈네트워크유지비": 0,
+    "수선비": 223660,
+    "시설유지비": 535360,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_won": {
+    "난방비": 2038690,
+    "급탕비": 6031970,
+    "가스사용료": 0,
+    "전기료": 51192499,
+    "수도료": 8637140,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 768610,
+    "입주자대표회의운영비": 0,
+    "건물보험료": 0,
+    "선거관리위원회운영비": 0
+   },
+   "common_m2": 768,
+   "indiv_m2": 1031,
+   "ltsm_m2": null,
+   "total_m2": 1798,
+   "common_hh": 91285,
+   "indiv_hh": 122623,
+   "ltsm_hh": null,
+   "total_hh": 213908,
+   "common_items_m2": {
+    "인건비": 367,
+    "제사무비": 4,
+    "제세공과금": 3,
+    "피복비": 0,
+    "교육훈련비": 2,
+    "차량유지비": 0,
+    "기타부대비용": 5,
+    "청소비": 141,
+    "경비비": 214,
+    "소독비": 6,
+    "승강기유지비": 15,
+    "홈네트워크유지비": 0,
+    "수선비": 3,
+    "시설유지비": 8,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_m2": {
+    "난방비": 31,
+    "급탕비": 91,
+    "가스사용료": 0,
+    "전기료": 769,
+    "수도료": 130,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 12,
+    "입주자대표회의운영비": 0,
+    "건물보험료": 0,
+    "선거관리위원회운영비": 0
+   },
+   "ltsm_rate_pct": 0.0,
+   "ltsm_balance_won": 0,
+   "ltsm_balance_hh": null,
+   "ltsm_use_won": 0,
+   "age_years": 6,
+   "rank_common_m2": 78,
+   "rank_common_m2_of": 81,
+   "common_m2_vs_median_pct": -35.7,
+   "rank_indiv_m2": 67,
+   "rank_indiv_m2_of": 81,
+   "indiv_m2_vs_median_pct": -20.9,
+   "indiv_incomplete": false,
+   "items_vs_median_pct": {
+    "인건비": -17.7,
+    "제사무비": -50.0,
+    "제세공과금": 0.0,
+    "피복비": -100.0,
+    "교육훈련비": 0.0,
+    "차량유지비": -100.0,
+    "기타부대비용": -50.0,
+    "청소비": -29.5,
+    "경비비": -40.2,
+    "소독비": -14.3,
+    "승강기유지비": -34.8,
+    "홈네트워크유지비": -100.0,
+    "수선비": -94.8,
+    "시설유지비": -69.2,
+    "안전점검비": -100.0,
+    "재해예방비": -100.0,
+    "위탁관리수수료": -100.0,
+    "난방비": -42.6,
+    "급탕비": -23.5,
+    "가스사용료": -100.0,
+    "전기료": -15.1,
+    "수도료": -31.6,
+    "정화조오물수수료": -100.0,
+    "생활폐기물수수료": -14.3,
+    "입주자대표회의운영비": -100.0,
+    "건물보험료": -100.0,
+    "선거관리위원회운영비": -100.0
+   },
+   "common_m2_vs_size_median_pct": -35.1,
+   "indiv_m2_vs_heat_median_pct": -21.3,
+   "common_top_items": [
+    "인건비",
+    "경비비",
+    "청소비"
+   ],
+   "common_top_share_pct": {
+    "인건비": 47.9,
+    "경비비": 27.9,
+    "청소비": 18.4
+   },
+   "ltsm_missing": true
+  },
+  {
+   "code": "A13811001",
+   "name": "거여6단지",
+   "umd": "거여동",
+   "households": 660,
+   "fee_area_m2": 46092,
+   "dong_count": 5,
+   "heat": "지역난방",
+   "apt_type": "아파트",
+   "manage": "위탁관리",
+   "sale": "임대",
+   "built_year": 1997,
+   "size_group": "500~999세대",
+   "common_won": 50613703,
+   "indiv_won": 28264354,
+   "ltsm_levy_won": 0,
+   "common_items_won": {
+    "인건비": 23365595,
+    "제사무비": 229000,
+    "제세공과금": 80630,
+    "피복비": 0,
+    "교육훈련비": 0,
+    "차량유지비": 299000,
+    "기타부대비용": 170400,
+    "청소비": 4257770,
+    "경비비": 21002308,
+    "소독비": 273000,
+    "승강기유지비": 756000,
+    "홈네트워크유지비": 0,
+    "수선비": 180000,
+    "시설유지비": 0,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_won": {
+    "난방비": 1492434,
+    "급탕비": 6210000,
+    "가스사용료": 0,
+    "전기료": 19227379,
+    "수도료": 663181,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 671360,
+    "입주자대표회의운영비": 0,
+    "건물보험료": 0,
+    "선거관리위원회운영비": 0
+   },
+   "common_m2": 1098,
+   "indiv_m2": 613,
+   "ltsm_m2": null,
+   "total_m2": 1711,
+   "common_hh": 76687,
+   "indiv_hh": 42825,
+   "ltsm_hh": null,
+   "total_hh": 119512,
+   "common_items_m2": {
+    "인건비": 507,
+    "제사무비": 5,
+    "제세공과금": 2,
+    "피복비": 0,
+    "교육훈련비": 0,
+    "차량유지비": 6,
+    "기타부대비용": 4,
+    "청소비": 92,
+    "경비비": 456,
+    "소독비": 6,
+    "승강기유지비": 16,
+    "홈네트워크유지비": 0,
+    "수선비": 4,
+    "시설유지비": 0,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_m2": {
+    "난방비": 32,
+    "급탕비": 135,
+    "가스사용료": 0,
+    "전기료": 417,
+    "수도료": 14,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 15,
+    "입주자대표회의운영비": 0,
+    "건물보험료": 0,
+    "선거관리위원회운영비": 0
+   },
+   "ltsm_rate_pct": 0.0,
+   "ltsm_balance_won": 0,
+   "ltsm_balance_hh": null,
+   "ltsm_use_won": 0,
+   "age_years": 29,
+   "rank_common_m2": 57,
+   "rank_common_m2_of": 81,
+   "common_m2_vs_median_pct": -8.1,
+   "rank_indiv_m2": 77,
+   "rank_indiv_m2_of": 81,
+   "indiv_m2_vs_median_pct": -53.0,
+   "indiv_incomplete": false,
+   "items_vs_median_pct": {
+    "인건비": 13.7,
+    "제사무비": -37.5,
+    "제세공과금": -33.3,
+    "피복비": -100.0,
+    "교육훈련비": -100.0,
+    "차량유지비": 500.0,
+    "기타부대비용": -60.0,
+    "청소비": -54.0,
+    "경비비": 27.4,
+    "소독비": -14.3,
+    "승강기유지비": -30.4,
+    "홈네트워크유지비": -100.0,
+    "수선비": -93.1,
+    "시설유지비": -100.0,
+    "안전점검비": -100.0,
+    "재해예방비": -100.0,
+    "위탁관리수수료": -100.0,
+    "난방비": -40.7,
+    "급탕비": 13.4,
+    "가스사용료": -100.0,
+    "전기료": -54.0,
+    "수도료": -92.6,
+    "정화조오물수수료": -100.0,
+    "생활폐기물수수료": 7.1,
+    "입주자대표회의운영비": -100.0,
+    "건물보험료": -100.0,
+    "선거관리위원회운영비": -100.0
+   },
+   "common_m2_vs_size_median_pct": -7.3,
+   "indiv_m2_vs_heat_median_pct": -53.2,
+   "common_top_items": [
+    "인건비",
+    "경비비",
+    "청소비"
+   ],
+   "common_top_share_pct": {
+    "인건비": 46.2,
+    "경비비": 41.5,
+    "청소비": 8.4
+   },
+   "ltsm_missing": true
+  },
+  {
+   "code": "A10024577",
+   "name": "위례포레샤인18단지",
+   "umd": "거여동",
+   "households": 685,
+   "fee_area_m2": 100693,
+   "dong_count": 13,
+   "heat": "지역난방",
+   "apt_type": "아파트",
+   "manage": "위탁관리",
+   "sale": "임대",
+   "built_year": 2020,
+   "size_group": "500~999세대",
+   "common_won": 64371509,
+   "indiv_won": 97616799,
+   "ltsm_levy_won": 0,
+   "common_items_won": {
+    "인건비": 28380739,
+    "제사무비": 495760,
+    "제세공과금": 128270,
+    "피복비": 217380,
+    "교육훈련비": 263000,
+    "차량유지비": 0,
+    "기타부대비용": 726640,
+    "청소비": 13823850,
+    "경비비": 16798110,
+    "소독비": 440000,
+    "승강기유지비": 1530760,
+    "홈네트워크유지비": 0,
+    "수선비": 484000,
+    "시설유지비": 1083000,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_won": {
+    "난방비": 12615640,
+    "급탕비": -35600,
+    "가스사용료": 0,
+    "전기료": 68056449,
+    "수도료": 15201630,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 1328680,
+    "입주자대표회의운영비": 450000,
+    "건물보험료": 0,
+    "선거관리위원회운영비": 0
+   },
+   "common_m2": 639,
+   "indiv_m2": 969,
+   "ltsm_m2": null,
+   "total_m2": 1609,
+   "common_hh": 93973,
+   "indiv_hh": 142506,
+   "ltsm_hh": null,
+   "total_hh": 236479,
+   "common_items_m2": {
+    "인건비": 282,
+    "제사무비": 5,
+    "제세공과금": 1,
+    "피복비": 2,
+    "교육훈련비": 3,
+    "차량유지비": 0,
+    "기타부대비용": 7,
+    "청소비": 137,
+    "경비비": 167,
+    "소독비": 4,
+    "승강기유지비": 15,
+    "홈네트워크유지비": 0,
+    "수선비": 5,
+    "시설유지비": 11,
+    "안전점검비": 0,
+    "재해예방비": 0,
+    "위탁관리수수료": 0
+   },
+   "indiv_items_m2": {
+    "난방비": 125,
+    "급탕비": 0,
+    "가스사용료": 0,
+    "전기료": 676,
+    "수도료": 151,
+    "정화조오물수수료": 0,
+    "생활폐기물수수료": 13,
+    "입주자대표회의운영비": 4,
+    "건물보험료": 0,
+    "선거관리위원회운영비": 0
+   },
+   "ltsm_rate_pct": 0.0,
+   "ltsm_balance_won": 0,
+   "ltsm_balance_hh": null,
+   "ltsm_use_won": 0,
+   "age_years": 6,
+   "rank_common_m2": 80,
+   "rank_common_m2_of": 81,
+   "common_m2_vs_median_pct": -46.5,
+   "rank_indiv_m2": 72,
+   "rank_indiv_m2_of": 81,
+   "indiv_m2_vs_median_pct": -25.6,
+   "indiv_incomplete": false,
+   "items_vs_median_pct": {
+    "인건비": -36.8,
+    "제사무비": -37.5,
+    "제세공과금": -66.7,
+    "피복비": 0.0,
+    "교육훈련비": 50.0,
+    "차량유지비": -100.0,
+    "기타부대비용": -30.0,
+    "청소비": -31.5,
+    "경비비": -53.4,
+    "소독비": -42.9,
+    "승강기유지비": -34.8,
+    "홈네트워크유지비": -100.0,
+    "수선비": -91.4,
+    "시설유지비": -57.7,
+    "안전점검비": -100.0,
+    "재해예방비": -100.0,
+    "위탁관리수수료": -100.0,
+    "난방비": 131.5,
+    "급탕비": -100.0,
+    "가스사용료": -100.0,
+    "전기료": -25.4,
+    "수도료": -20.5,
+    "정화조오물수수료": -100.0,
+    "생활폐기물수수료": -7.1,
+    "입주자대표회의운영비": -73.3,
+    "건물보험료": -100.0,
+    "선거관리위원회운영비": -100.0
+   },
+   "common_m2_vs_size_median_pct": -46.0,
+   "indiv_m2_vs_heat_median_pct": -26.0,
+   "common_top_items": [
+    "인건비",
+    "경비비",
+    "청소비"
+   ],
+   "common_top_share_pct": {
+    "인건비": 44.1,
+    "경비비": 26.1,
+    "청소비": 21.5
+   },
+   "ltsm_missing": true
   },
   {
    "code": "A10026682",
@@ -11893,9 +11955,6 @@
    "rank_indiv_m2": 76,
    "rank_indiv_m2_of": 81,
    "indiv_m2_vs_median_pct": -40.4,
-   "rank_total_m2": 81,
-   "rank_total_m2_of": 81,
-   "total_m2_vs_median_pct": -49.2,
    "indiv_incomplete": false,
    "items_vs_median_pct": {
     "인건비": -46.9,
@@ -11937,7 +11996,9 @@
     "인건비": 39.4,
     "청소비": 26.4,
     "경비비": 23.5
-   }
+   },
+   "ltsm_missing": true
   }
- ]
+ ],
+ "n_ltsm_missing": 7
 }

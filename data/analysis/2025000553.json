@@ -153,40 +153,38 @@
   "scope": "수원시",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "엘리프 한신더휴 수원 C3블록(본청약)",
    "엘리프 한신더휴 수원 D3블록(본청약)",
-   "두산위브 더센트럴 수원",
-   "서수원 에피트 센트럴마크(M1BL)",
-   "수원역 아너스빌 타임원"
+   "서수원 에피트 센트럴마크(M1BL)"
   ],
-  "peer_avg_pyeong": 2525,
-  "diff": -210,
-  "diff_pct": -8,
-  "rank": 5,
-  "of": 6
+  "peer_avg_pyeong": 2308,
+  "diff": 7,
+  "diff_pct": 0,
+  "rank": 3,
+  "of": 4
  },
  "region_price_wide": {
   "scope": "경기",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 66,
+  "peer_count": 30,
   "peers": [
    "엘리프 한신더휴 수원 C3블록(본청약)",
    "엘리프 한신더휴 수원 D3블록(본청약)",
    "식사 푸르지오 파크센트",
    "오산 세교 우미 린 레이크시티",
-   "오남역 서희스타힐스 여의재 3단지",
    "안양자이 헤리티온",
    "철산역자이",
-   "안성 아양지구 B-2블록 금성백조 예미지"
+   "안성 아양지구 B-2블록 금성백조 예미지",
+   "회천중앙역 파라곤"
   ],
-  "peer_avg_pyeong": 2470,
-  "diff": -155,
-  "diff_pct": -6,
-  "rank": 28,
-  "of": 67
+  "peer_avg_pyeong": 2479,
+  "diff": -164,
+  "diff_pct": -7,
+  "rank": 13,
+  "of": 31
  },
  "area_competition": {
   "scope": "수원시",
@@ -196,16 +194,14 @@
  },
  "region_competition": {
   "scope": "수원시",
-  "peer_count": 5,
+  "peer_count": 3,
   "peers": [
    "엘리프 한신더휴 수원 C3블록(본청약)",
    "엘리프 한신더휴 수원 D3블록(본청약)",
-   "두산위브 더센트럴 수원",
-   "서수원 에피트 센트럴마크(M1BL)",
-   "수원역 아너스빌 타임원"
+   "서수원 에피트 센트럴마크(M1BL)"
   ],
-  "peer_avg_rate": 4.28,
-  "rank": 6,
-  "of": 6
+  "peer_avg_rate": 0.87,
+  "rank": 4,
+  "of": 4
  }
 }

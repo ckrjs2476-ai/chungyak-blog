@@ -216,59 +216,5 @@
    "score": 74,
    "ty": "84.8316B"
   }
- },
- "region_price": {
-  "scope": "유성구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "도안자이 센텀리체 1단지",
-   "도안자이 센텀리체 2단지"
-  ],
-  "peer_avg_pyeong": 2260,
-  "diff": 2152,
-  "diff_pct": 95,
-  "rank": 1,
-  "of": 3
- },
- "region_price_wide": {
-  "scope": "대전",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 5,
-  "peers": [
-   "대전 하늘채 루시에르(2회차)",
-   "해링턴플레이스 오룡역",
-   "도안자이 센텀리체 1단지",
-   "도안자이 센텀리체 2단지",
-   "더샵 관저아르테"
-  ],
-  "peer_avg_pyeong": 2075,
-  "diff": 2337,
-  "diff_pct": 113,
-  "rank": 1,
-  "of": 6
- },
- "region_competition": {
-  "scope": "유성구",
-  "peer_count": 2,
-  "peers": [
-   "도안자이 센텀리체 1단지",
-   "도안자이 센텀리체 2단지"
-  ],
-  "peer_avg_rate": 2.19,
-  "rank": 1,
-  "of": 3
- },
- "region_score": {
-  "scope": "대전",
-  "peer_count": 2,
-  "peers": [
-   "도안자이 센텀리체 1단지",
-   "더샵 관저아르테"
-  ],
-  "peer_avg_min": 0.0,
-  "diff": 0.0
  }
 }

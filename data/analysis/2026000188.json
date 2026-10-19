@@ -131,26 +131,10 @@
   }
  },
  "region_price": {
-  "scope": "해운대구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 3,
-  "peers": [
-   "e편한세상 센텀 하이베뉴",
-   "트리븐센텀 1단지",
-   "트리븐센텀 2단지"
-  ],
-  "peer_avg_pyeong": 2373,
-  "diff": 457,
-  "diff_pct": 19,
-  "rank": 1,
-  "of": 4
- },
- "region_price_wide": {
   "scope": "부산",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 24,
+  "peer_count": 12,
   "peers": [
    "한화포레나 부산대연",
    "동래 푸르지오 에듀포레",
@@ -161,11 +145,11 @@
    "에코델타시티 엘가 로제비앙",
    "한화포레나 부산당리"
   ],
-  "peer_avg_pyeong": 2432,
-  "diff": 398,
-  "diff_pct": 16,
-  "rank": 5,
-  "of": 25
+  "peer_avg_pyeong": 2306,
+  "diff": 524,
+  "diff_pct": 23,
+  "rank": 2,
+  "of": 13
  },
  "area_competition": {
   "scope": "부산",
@@ -175,7 +159,7 @@
  },
  "region_competition": {
   "scope": "부산",
-  "peer_count": 20,
+  "peer_count": 12,
   "peers": [
    "한화포레나 부산대연",
    "동래 푸르지오 에듀포레",
@@ -186,13 +170,13 @@
    "에코델타시티 엘가 로제비앙",
    "한화포레나 부산당리"
   ],
-  "peer_avg_rate": 2.42,
-  "rank": 10,
-  "of": 21
+  "peer_avg_rate": 2.19,
+  "rank": 7,
+  "of": 13
  },
  "region_score": {
   "scope": "부산",
-  "peer_count": 10,
+  "peer_count": 7,
   "peers": [
    "한화포레나 부산대연",
    "동래 푸르지오 에듀포레",
@@ -200,8 +184,7 @@
    "경성대부경대역 비스타동원 더 프리미엄",
    "금정산 하늘채 루미엘",
    "엄궁역 트라비스 하늘채",
-   "두산위브 트리니뷰 구명역",
-   "동래사적공원 오네뜨"
+   "두산위브 트리니뷰 구명역"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

@@ -78,25 +78,10 @@
   }
  },
  "region_price": {
-  "scope": "해운대구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "베뉴브 해운대",
-   "해운대 마티안 디 에디션"
-  ],
-  "peer_avg_pyeong": 3454,
-  "diff": -1033,
-  "diff_pct": -30,
-  "rank": 3,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "부산",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 26,
+  "peer_count": 11,
   "peers": [
    "서면 어반센트 데시앙",
    "퀸즈이즈카운티",
@@ -107,11 +92,11 @@
    "더파크 비스타동원",
    "해링턴플레이스 명륜역"
   ],
-  "peer_avg_pyeong": 2435,
-  "diff": -14,
-  "diff_pct": -1,
-  "rank": 12,
-  "of": 27
+  "peer_avg_pyeong": 2562,
+  "diff": -141,
+  "diff_pct": -6,
+  "rank": 7,
+  "of": 12
  },
  "area_competition": {
   "scope": "부산",
@@ -120,22 +105,32 @@
   "peer_max_rate": 21.16
  },
  "region_competition": {
-  "scope": "해운대구",
-  "peer_count": 2,
+  "scope": "부산",
+  "peer_count": 11,
   "peers": [
+   "서면 어반센트 데시앙",
+   "퀸즈이즈카운티",
    "베뉴브 해운대",
-   "해운대 마티안 디 에디션"
+   "힐스테이트 사직 아시아드",
+   "힐스테이트 가야 1단지",
+   "힐스테이트 가야 2단지",
+   "더파크 비스타동원",
+   "해링턴플레이스 명륜역"
   ],
-  "peer_avg_rate": 10.81,
-  "rank": 2,
-  "of": 3
+  "peer_avg_rate": 5.76,
+  "rank": 5,
+  "of": 12
  },
  "region_score": {
-  "scope": "해운대구",
-  "peer_count": 2,
+  "scope": "부산",
+  "peer_count": 6,
   "peers": [
+   "서면 어반센트 데시앙",
    "베뉴브 해운대",
-   "해운대 마티안 디 에디션"
+   "힐스테이트 사직 아시아드",
+   "더파크 비스타동원",
+   "한화포레나 부산대연",
+   "동래 푸르지오 에듀포레"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0

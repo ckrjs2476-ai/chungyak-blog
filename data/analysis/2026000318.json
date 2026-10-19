@@ -117,25 +117,10 @@
   }
  },
  "region_price": {
-  "scope": "남구",
-  "supply_kind": "민영",
-  "days": 180,
-  "peer_count": 2,
-  "peers": [
-   "경성대부경대역 비스타동원 더 프리미엄",
-   "두산위브더제니스 대연"
-  ],
-  "peer_avg_pyeong": 2852,
-  "diff": -352,
-  "diff_pct": -12,
-  "rank": 3,
-  "of": 3
- },
- "region_price_wide": {
   "scope": "부산",
   "supply_kind": "민영",
   "days": 180,
-  "peer_count": 22,
+  "peer_count": 15,
   "peers": [
    "e편한세상 센텀 하이베뉴",
    "경성대부경대역 비스타동원 더 프리미엄",
@@ -146,11 +131,11 @@
    "엄궁역 트라비스 하늘채",
    "온천장 하늘채 엘리시움"
   ],
-  "peer_avg_pyeong": 2405,
-  "diff": 95,
-  "diff_pct": 4,
-  "rank": 8,
-  "of": 23
+  "peer_avg_pyeong": 2336,
+  "diff": 164,
+  "diff_pct": 7,
+  "rank": 5,
+  "of": 16
  },
  "area_competition": {
   "scope": "부산",
@@ -159,22 +144,33 @@
   "peer_max_rate": 1.3
  },
  "region_competition": {
-  "scope": "남구",
-  "peer_count": 2,
+  "scope": "부산",
+  "peer_count": 15,
   "peers": [
+   "e편한세상 센텀 하이베뉴",
    "경성대부경대역 비스타동원 더 프리미엄",
-   "두산위브더제니스 대연"
+   "금정산 하늘채 루미엘",
+   "구서 다움포레",
+   "에코델타시티 엘가 로제비앙",
+   "한화포레나 부산당리",
+   "엄궁역 트라비스 하늘채",
+   "온천장 하늘채 엘리시움"
   ],
-  "peer_avg_rate": 1.67,
+  "peer_avg_rate": 0.35,
   "rank": 1,
-  "of": 3
+  "of": 16
  },
  "region_score": {
-  "scope": "남구",
-  "peer_count": 2,
+  "scope": "부산",
+  "peer_count": 7,
   "peers": [
+   "e편한세상 센텀 하이베뉴",
    "경성대부경대역 비스타동원 더 프리미엄",
-   "두산위브더제니스 대연"
+   "금정산 하늘채 루미엘",
+   "엄궁역 트라비스 하늘채",
+   "두산위브 트리니뷰 구명역",
+   "해운대 마티안 디 에디션",
+   "동래사적공원 오네뜨"
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
