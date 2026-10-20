@@ -1,0 +1,89 @@
+{
+ "corp_code": "01366675",
+ "corp_name": "에이엔에이치스트럭쳐",
+ "rcept_no": "20261020000375",
+ "rcept_dt": "20261020",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375",
+ "subscription": "2026년 11월 27일 ~ 2026년 11월 30일",
+ "payment_date": "2026년 12월 02일",
+ "notice_date": "2026년 11월 27일",
+ "allot_date": "2026년 12월 02일",
+ "stock_kind": "보통주",
+ "shares": 2100000,
+ "face_value": 500,
+ "price": 11200,
+ "total": 23520000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "NH투자증권",
+   "shares": 2100000,
+   "amount": 23520000000,
+   "fee": 1090152000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 13000000000,
+   "share_pct": 53.7,
+   "amount_eok": 130.0
+  },
+  {
+   "use": "채무상환자금",
+   "amount": 10030256800,
+   "share_pct": 41.4,
+   "amount_eok": 100.3
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1195343200,
+   "share_pct": 4.9,
+   "amount_eok": 12.0
+  }
+ ],
+ "fund_total": 24225600000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 에이엔에이치스트럭쳐",
+  "ceo_nm": "안현수",
+  "induty_code": "72129",
+  "est_dt": "20131205",
+  "hm_url": "www.anhstructure.com",
+  "adres": "경상남도 진주시 범골로54번길 2 (충무공동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "NH투자증권",
+ "underwriting_fee_pct": 4.63,
+ "total_eok": 235.2,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 13,
+ "total_rank": 16,
+ "total_rank_of": 27,
+ "total_vs_median_pct": -19.4,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 13000000000,
+  "share_pct": 53.7,
+  "amount_eok": 130.0
+ },
+ "compare_median_total": 29192000000,
+ "compare_count": 27,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 291.9
+}
