@@ -54,6 +54,51 @@
  "general_total": 16,
  "special_total": 0,
  "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "48.819",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "52.185A",
+    "supply": 10,
+    "closed_at": "None순위 None",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.057C",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 4.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.612A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 4.67,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 44,
+  "rank1_req": 0,
+  "supply_total": 16,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.612A",
+   "rate": 4.67,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 시흥시",
   "lawd": "41390",

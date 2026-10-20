@@ -91,6 +91,65 @@
   "노부모 부양": 11,
   "기관추천": 33
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9832A",
+    "supply": 225,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 143
+   },
+   {
+    "ty": "84.9469B",
+    "supply": 97,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 76
+   },
+   {
+    "ty": "112.9922A",
+    "supply": 17,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 7
+   },
+   {
+    "ty": "132.982A",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 8
+   },
+   {
+    "ty": "138.9652P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "165.9676P",
+    "supply": 1,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 125,
+  "rank1_req": 125,
+  "supply_total": 354,
+  "final_shortfall_total": 234,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 6,
+  "rank1_avg_rate": 0.35,
+  "best": {
+   "ty": "138.9652P",
+   "rate": 5.0,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "거제시",
   "supply_kind": "민영",
@@ -133,15 +192,26 @@
   "peer_avg_rate": 0.08,
   "peer_max_rate": 0.1
  },
+ "region_competition": {
+  "scope": "거제시",
+  "peer_count": 2,
+  "peers": [
+   "거제 푸르지오 마린피스",
+   "센트레빌 아스테리움 거제"
+  ],
+  "peer_avg_rate": 0.08,
+  "rank": 1,
+  "of": 3
+ },
  "market": {
   "region": "경상남도 거제시",
   "lawd": "48310",
   "months": 12,
-  "updated": "2026-10-20",
-  "n84": 1184,
+  "updated": "2026-10-21",
+  "n84": 1185,
   "median84": 18000,
   "p25_84": 13500,
-  "p75_84": 24875,
+  "p75_84": 24850,
   "new_n84": 195,
   "new_median84": 39700,
   "new_build_years": 5,

@@ -71,6 +71,51 @@
   "노부모 부양": 14,
   "기관추천": 42
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9587A",
+    "supply": 83,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.18,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9052B",
+    "supply": 99,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 4
+   },
+   {
+    "ty": "84.878C",
+    "supply": 32,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7933D",
+    "supply": 195,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.08,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 667,
+  "rank1_req": 667,
+  "supply_total": 409,
+  "final_shortfall_total": 4,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 4,
+  "rank1_avg_rate": 1.63,
+  "best": {
+   "ty": "84.9587A",
+   "rate": 3.18,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "부산",
   "supply_kind": "민영",
@@ -97,5 +142,22 @@
   "peer_count": 11,
   "peer_avg_rate": 2.14,
   "peer_max_rate": 18.29
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 11,
+  "peers": [
+   "기장 이진캐스빌 포레",
+   "알티에로 광안",
+   "두산위브 트리니뷰 구명역",
+   "해운대 마티안 디 에디션",
+   "동래사적공원 오네뜨",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트"
+  ],
+  "peer_avg_rate": 2.14,
+  "rank": 3,
+  "of": 12
  }
 }

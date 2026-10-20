@@ -91,6 +91,60 @@
   "노부모 부양": 41,
   "기관추천": 128
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7493A",
+    "supply": 551,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 521
+   },
+   {
+    "ty": "84.9394B",
+    "supply": 240,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 219
+   },
+   {
+    "ty": "84.8936C",
+    "supply": 243,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 226
+   },
+   {
+    "ty": "84.9855D",
+    "supply": 235,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 227
+   },
+   {
+    "ty": "103.9572A",
+    "supply": 51,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 45
+   },
+   {
+    "ty": "103.9213B",
+    "supply": 47,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 45
+   }
+  ],
+  "req_total": 84,
+  "rank1_req": 84,
+  "supply_total": 1367,
+  "final_shortfall_total": 1283,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 6,
+  "rank1_avg_rate": 0.06
+ },
  "region_price": {
   "scope": "충남",
   "supply_kind": "민영",
@@ -118,20 +172,37 @@
   "peer_avg_rate": 2.72,
   "peer_max_rate": 26.27
  },
+ "region_competition": {
+  "scope": "충남",
+  "peer_count": 14,
+  "peers": [
+   "공주월송 진아레히",
+   "천안 동문 디 이스트 파크시티",
+   "천안 휴먼빌 퍼스트시티(2회차)",
+   "엘리프 성성호수공원 1BL",
+   "엘리프 성성호수공원 2BL",
+   "백석시그니처자이 1단지",
+   "백석시그니처자이 2단지",
+   "업성 푸르지오 레이크시티 2단지"
+  ],
+  "peer_avg_rate": 2.72,
+  "rank": 12,
+  "of": 15
+ },
  "market": {
   "region": "충청남도 아산시",
   "lawd": "44200",
   "months": 12,
-  "updated": "2026-10-20",
-  "n84": 1587,
+  "updated": "2026-10-21",
+  "n84": 1591,
   "median84": 28600,
   "p25_84": 20500,
   "p75_84": 45000,
-  "new_n84": 531,
+  "new_n84": 532,
   "new_median84": 52500,
   "new_build_years": 5,
   "umd": "배방읍",
-  "umd_n84": 395,
+  "umd_n84": 396,
   "umd_median84": 23800,
   "diff_vs_median84": 19690,
   "diff_pct_vs_median84": 69,
