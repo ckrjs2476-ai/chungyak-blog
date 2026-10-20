@@ -1,6 +1,6 @@
-# 애드센스 기준 점검: jeonse (2026-10-19 19:31 KST)
+# 애드센스 기준 점검: jeonse (2026-10-20 10:19 KST)
 
-- 공개 글: 7편
+- 공개 글: 8편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
@@ -9,9 +9,10 @@
 
 - 지역 전세가율: 6편  ← 부족
 - 경기: 4편  ← 부족
+- 지방: 3편  ← 부족
 - 서울: 2편  ← 부족
-- 지방: 2편  ← 부족
 - 전세가율 순위: 1편  ← 부족
+- 전세 읽는 법: 1편  ← 부족
 
 ## 겹침·합치기 후보
 
@@ -31,6 +32,7 @@
 | 100 | [동탄구 아파트 전세 4억 2,000만 원, 동별 전](https://jeonse-ondogye.blogspot.com/2026/10/dongtan-gu-jeonse-dong-gap-2026-10.html) `2026-10-16-41597-region.md` | 2277 | 0 | 1 | - |
 | 100 | [세종시 아파트 전세 2억 6,675만 원, 전세가율](https://jeonse-ondogye.blogspot.com/2026/10/sejong-si-jeonse-ratio-2026-10.html) `2026-10-17-36110-region.md` | 2786 | 0 | 2 | - |
 | 100 | [송파구 아파트 전세, 전세가율 40.7%로 거여동 ](https://jeonse-ondogye.blogspot.com/2026/10/songpa-gu-jeonse-ratio-2026-10.html) `2026-10-13-11710-region.md` | 1874 | 0 | 1 | - |
-| 100 | [전세가율 높은 지역 1위 포천시 126.1%, 상위](https://jeonse-ondogye.blogspot.com/2026/10/jeonse-ratio-top-regions-2026-10.html) `2026-10-19-ranking.md` | 3094 | 0 | 1 | - |
+| 100 | [전세가율 낮은 지역 경주 35.6%, 단지 33곳 ](https://jeonse-ondogye.blogspot.com/2026/10/low-jeonse-ratio-regions-complex-gap.html) `2026-10-19-low-ratio-topic.md` | 2513 | 0 | 1 | - |
+| 100 | [전세가율 높은 지역 1위 포천시 126.1%, 상위](https://jeonse-ondogye.blogspot.com/2026/10/jeonse-ratio-top-regions-2026-10.html) `2026-10-19-ranking.md` | 3413 | 0 | 1 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.

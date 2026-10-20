@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 19:31",
+ "updated": "2026-10-20 10:19",
  "stage": 1,
  "band": [
   30,
@@ -175,18 +175,6 @@
    "used": false
   },
   {
-   "keyword": "엠에스바이오공모가",
-   "volume": 630,
-   "comp": "중간",
-   "entity": "엠에스바이오",
-   "entity_id": "01749559",
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 97.7,
-   "used": false
-  },
-  {
    "keyword": "바로팜공모주",
    "volume": 50,
    "comp": "중간",
@@ -199,11 +187,23 @@
    "used": false
   },
   {
-   "keyword": "다비오공모주",
-   "volume": 1430,
+   "keyword": "넥스아이공모주",
+   "volume": 30,
    "comp": "중간",
-   "entity": "다비오",
-   "entity_id": "01706509",
+   "entity": "넥스아이",
+   "entity_id": "01863318",
+   "base_score": 85.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 97.7,
+   "used": false
+  },
+  {
+   "keyword": "엠에스바이오공모가",
+   "volume": 630,
+   "comp": "중간",
+   "entity": "엠에스바이오",
+   "entity_id": "01749559",
    "base_score": 85.0,
    "growth": 1.0,
    "why": "",
@@ -211,11 +211,11 @@
    "used": false
   },
   {
-   "keyword": "넥스아이공모주",
-   "volume": 30,
+   "keyword": "다비오공모주",
+   "volume": 1430,
    "comp": "중간",
-   "entity": "넥스아이",
-   "entity_id": "01863318",
+   "entity": "다비오",
+   "entity_id": "01706509",
    "base_score": 85.0,
    "growth": 1.0,
    "why": "",
@@ -523,6 +523,18 @@
    "used": false
   },
   {
+   "keyword": "넥스아이수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "넥스아이",
+   "entity_id": "01863318",
+   "base_score": 20.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 23.0,
+   "used": false
+  },
+  {
    "keyword": "이에스티공모가",
    "volume": 10,
    "comp": "중간",
@@ -751,18 +763,6 @@
    "used": false
   },
   {
-   "keyword": "넥스아이수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "넥스아이",
-   "entity_id": "01863318",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "아델공모가",
    "volume": 10,
    "comp": "낮음",
@@ -828,6 +828,18 @@
    "comp": "중간",
    "entity": "바로팜",
    "entity_id": "01835829",
+   "base_score": 17.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 19.5,
+   "used": false
+  },
+  {
+   "keyword": "넥스아이공모가",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "넥스아이",
+   "entity_id": "01863318",
    "base_score": 17.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
@@ -1488,18 +1500,6 @@
    "comp": "중간",
    "entity": "하나에어로다이내믹스",
    "entity_id": "01025617",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
-   "keyword": "넥스아이공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "넥스아이",
-   "entity_id": "01863318",
    "base_score": 17.0,
    "growth": 1.0,
    "why": "",
@@ -2437,9 +2437,9 @@
    "entity": "엠에스바이오",
    "entity_id": "01749559",
    "base_score": 4.2,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 4.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 4.2,
    "used": false
   },
   {
@@ -2449,9 +2449,9 @@
    "entity": "엠에스바이오",
    "entity_id": "01749559",
    "base_score": 4.2,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 4.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 4.2,
    "used": false
   },
   {

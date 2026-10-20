@@ -1,8 +1,8 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "blogs": {
   "cheongyak": {
-   "posts": 24,
+   "posts": 25,
    "skeleton_pairs": [],
    "type_share": {
     "region": 3,
@@ -17,7 +17,7 @@
    "to_fix": 0
   },
   "jeonse": {
-   "posts": 7,
+   "posts": 8,
    "skeleton_pairs": [
     [
      "2026-10-14-11680-region.md",
@@ -34,6 +34,7 @@
    ],
    "type_share": {
     "region": 6,
+    "topic": 1,
     "ranking": 1
    },
    "format_concentrated": true,
@@ -43,11 +44,12 @@
    "to_fix": 2
   },
   "gongmoju": {
-   "posts": 8,
+   "posts": 9,
    "skeleton_pairs": [],
    "type_share": {
-    "ipo": 7,
-    "weekly": 1
+    "ipo": 6,
+    "weekly": 1,
+    "topic": 1
    },
    "format_concentrated": true,
    "stale": {},
@@ -56,10 +58,11 @@
    "to_fix": 0
   },
   "gwanribi": {
-   "posts": 7,
+   "posts": 8,
    "skeleton_pairs": [],
    "type_share": {
-    "region": 7
+    "region": 7,
+    "topic": 1
    },
    "format_concentrated": true,
    "stale": {},
