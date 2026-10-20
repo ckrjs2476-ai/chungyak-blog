@@ -2,21 +2,25 @@
  "lawd": "41670",
  "name": "경기도 여주시",
  "months": 12,
- "updated": "2026-10-19",
- "trade_count": 723,
+ "updated": "2026-10-20",
+ "trade_count": 728,
  "cancel_count": 53,
- "n84": 277,
+ "n84": 280,
  "median84": 28500,
- "p25_84": 20750,
+ "p25_84": 20500,
  "p75_84": 45000,
- "median84_pyeong_excl": 1110,
- "new_n84": 81,
- "new_median84": 47000,
+ "median84_pyeong_excl": 1109,
+ "new_n84": 82,
+ "new_median84": 46950,
  "new_build_years": 5,
  "umd84": {
+  "연양동": {
+   "n": 20,
+   "median": 19050
+  },
   "교동": {
-   "n": 126,
-   "median": 44750
+   "n": 127,
+   "median": 44800
   },
   "현암동": {
    "n": 61,
@@ -25,10 +29,6 @@
   "천송동": {
    "n": 17,
    "median": 45500
-  },
-  "연양동": {
-   "n": 18,
-   "median": 19050
   },
   "오학동": {
    "n": 9,
@@ -120,21 +120,21 @@
   },
   {
    "month": "2026-10",
-   "count": 26,
-   "n84": 15,
-   "median84": 23500
+   "count": 31,
+   "n84": 18,
+   "median84": 23150
   }
  ],
  "top_apts": [
   {
    "name": "점봉동 부영사랑으로",
-   "count": 56,
+   "count": 57,
    "median84": null,
    "built": 2000
   },
   {
    "name": "현암동 벽산",
-   "count": 47,
+   "count": 48,
    "median84": null,
    "built": 1997
   },
@@ -145,16 +145,16 @@
    "built": 2014
   },
   {
+   "name": "교동 여주역금호어울림베르티스",
+   "count": 36,
+   "median84": 45000,
+   "built": 2022
+  },
+  {
    "name": "가남읍 신해리 현진에버빌-1",
    "count": 36,
    "median84": 17500,
    "built": 2000
-  },
-  {
-   "name": "교동 여주역금호어울림베르티스",
-   "count": 35,
-   "median84": 45000,
-   "built": 2022
   },
   {
    "name": "현암동 여주아이파크",

@@ -32,5 +32,22 @@
  "pyeong_max": 3957,
  "pyeong_avg": 3957,
  "price_84_min": 134190,
- "price_84_max": 134190
+ "price_84_max": 134190,
+ "market": {
+  "region": "서울특별시 강동구",
+  "lawd": "11740",
+  "months": 12,
+  "updated": "2026-10-20",
+  "n84": 1133,
+  "median84": 144000,
+  "p25_84": 95000,
+  "p75_84": 179500,
+  "new_n84": 107,
+  "new_median84": 200000,
+  "new_build_years": 5,
+  "diff_vs_median84": -9810,
+  "diff_pct_vs_median84": -7,
+  "diff_vs_new_median84": -65810,
+  "diff_pct_vs_new_median84": -33
+ }
 }
