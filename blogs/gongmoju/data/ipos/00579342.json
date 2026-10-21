@@ -1,11 +1,11 @@
 {
  "corp_code": "00579342",
  "corp_name": "영광",
- "rcept_no": "20261008000623",
- "rcept_dt": "20261008",
- "report_nm": "[기재정정]증권신고서(지분증권)",
+ "rcept_no": "20261021000239",
+ "rcept_dt": "20261021",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
  "corp_cls": "E",
- "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000623",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000239",
  "subscription": "2026년 10월 22일 ~ 2026년 10월 23일",
  "payment_date": "2026년 10월 27일",
  "notice_date": "2026년 10월 22일",
@@ -65,7 +65,7 @@
   "일반청약자환매청구권"
  ],
  "is_spac": false,
- "price_confirmed": false,
+ "price_confirmed": true,
  "correction_requested": false,
  "lead_underwriter": "한국투자증권",
  "underwriting_fee_pct": 3.09,
@@ -73,17 +73,17 @@
  "fund_matches_total": true,
  "fund_uses_unreliable": false,
  "company_age_years": 27,
- "total_rank": 10,
- "total_rank_of": 27,
- "total_vs_median_pct": 8.4,
+ "total_rank": 11,
+ "total_rank_of": 28,
+ "total_vs_median_pct": 7.8,
  "top_fund_use": {
   "use": "시설자금",
   "amount": 28400000000,
   "share_pct": 87.1,
   "amount_eok": 284.0
  },
- "compare_median_total": 29192000000,
- "compare_count": 27,
+ "compare_median_total": 29346000000,
+ "compare_count": 28,
  "median_fee_pct": 4.12,
- "compare_median_total_eok": 291.9
+ "compare_median_total_eok": 293.5
 }
