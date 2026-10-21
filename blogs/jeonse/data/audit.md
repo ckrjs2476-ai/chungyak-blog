@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: jeonse (2026-10-21 10:20 KST)
+# 애드센스 기준 점검: jeonse (2026-10-21 10:54 KST)
 
 - 공개 글: 8편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -28,7 +28,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 100 | [강남구 아파트 전세, 전세가율 32.4%로 148곳](https://jeonse-ondogye.blogspot.com/2026/10/gangnam-gu-jeonse-ratio-2026-10.html) `2026-10-14-11680-region.md` | 2193 | 0 | 1 | - |
 | 100 | [기흥구 아파트 전세, 마북동 한 동에서 전세가율 8](https://jeonse-ondogye.blogspot.com/2026/10/giheung-gu-jeonse-apt-ratio-2026-10.html) `2026-10-18-41463-region.md` | 2932 | 0 | 1 | - |
-| 100 | [남양주시 아파트 전세, 묵현리 97.2% 대 다산동](https://jeonse-ondogye.blogspot.com/2026/10/namyangju-si-jeonse-flow-2026-10.html) `2026-10-15-41360-region.md` | 2239 | 0 | 1 | - |
+| 100 | [남양주시 아파트 전세, 묵현리 97.2% 대 다산동](https://jeonse-ondogye.blogspot.com/2026/10/namyangju-si-jeonse-flow-2026-10.html) `2026-10-15-41360-region.md` | 2205 | 0 | 1 | - |
 | 100 | [동탄구 아파트 전세 4억 2,000만 원, 동별 전](https://jeonse-ondogye.blogspot.com/2026/10/dongtan-gu-jeonse-dong-gap-2026-10.html) `2026-10-16-41597-region.md` | 2277 | 0 | 1 | - |
 | 100 | [세종시 아파트 전세 2억 6,675만 원, 전세가율](https://jeonse-ondogye.blogspot.com/2026/10/sejong-si-jeonse-ratio-2026-10.html) `2026-10-17-36110-region.md` | 2786 | 0 | 2 | - |
 | 100 | [송파구 아파트 전세, 전세가율 40.7%로 거여동 ](https://jeonse-ondogye.blogspot.com/2026/10/songpa-gu-jeonse-ratio-2026-10.html) `2026-10-13-11710-region.md` | 1874 | 0 | 1 | - |
