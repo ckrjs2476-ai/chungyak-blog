@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21 10:54",
+ "updated": "2026-10-22 05:35",
  "stage": 1,
  "band": [
   30,
@@ -7,8 +7,20 @@
  ],
  "keywords": [
   {
+   "keyword": "동작동아파트전세",
+   "volume": 35,
+   "comp": "낮음",
+   "entity": "동작동",
+   "entity_id": "11590:동작동",
+   "base_score": 100.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 100.0,
+   "used": false
+  },
+  {
    "keyword": "강일동아파트전세",
-   "volume": 45,
+   "volume": 35,
    "comp": "낮음",
    "entity": "강일동",
    "entity_id": "11740:강일동",
@@ -35,7 +47,7 @@
    "volume": 35,
    "comp": "낮음",
    "entity": "중산동",
-   "entity_id": "41285:중산동",
+   "entity_id": "47290:중산동",
    "base_score": 100.0,
    "growth": 1.0,
    "why": "",
@@ -44,7 +56,7 @@
   },
   {
    "keyword": "양천구아파트전세",
-   "volume": 135,
+   "volume": 145,
    "comp": "중간",
    "entity": "양천구",
    "entity_id": "11470",
@@ -68,7 +80,7 @@
   },
   {
    "keyword": "당산동아파트전세",
-   "volume": 75,
+   "volume": 85,
    "comp": "중간",
    "entity": "당산동",
    "entity_id": "11560:당산동",
@@ -92,7 +104,7 @@
   },
   {
    "keyword": "개포동아파트전세",
-   "volume": 200,
+   "volume": 190,
    "comp": "중간",
    "entity": "개포동",
    "entity_id": "11680:개포동",
@@ -104,7 +116,7 @@
   },
   {
    "keyword": "마천동아파트전세",
-   "volume": 85,
+   "volume": 75,
    "comp": "중간",
    "entity": "마천동",
    "entity_id": "11710:마천동",
@@ -116,7 +128,7 @@
   },
   {
    "keyword": "천호동아파트전세",
-   "volume": 150,
+   "volume": 160,
    "comp": "중간",
    "entity": "천호동",
    "entity_id": "11740:천호동",
@@ -140,7 +152,7 @@
   },
   {
    "keyword": "반여동아파트전세",
-   "volume": 180,
+   "volume": 170,
    "comp": "중간",
    "entity": "반여동",
    "entity_id": "26350:반여동",
@@ -152,7 +164,7 @@
   },
   {
    "keyword": "연제구아파트전세",
-   "volume": 45,
+   "volume": 55,
    "comp": "중간",
    "entity": "연제구",
    "entity_id": "26470",
@@ -176,7 +188,7 @@
   },
   {
    "keyword": "종로구아파트전세",
-   "volume": 45,
+   "volume": 55,
    "comp": "높음",
    "entity": "종로구",
    "entity_id": "11110",
@@ -200,7 +212,7 @@
   },
   {
    "keyword": "용산구아파트전세",
-   "volume": 75,
+   "volume": 65,
    "comp": "높음",
    "entity": "용산구",
    "entity_id": "11170",
@@ -212,7 +224,7 @@
   },
   {
    "keyword": "이촌동아파트전세",
-   "volume": 95,
+   "volume": 100,
    "comp": "높음",
    "entity": "이촌동",
    "entity_id": "11170:이촌동",
@@ -236,7 +248,7 @@
   },
   {
    "keyword": "성동구아파트전세",
-   "volume": 180,
+   "volume": 190,
    "comp": "높음",
    "entity": "성동구",
    "entity_id": "11200",
@@ -248,7 +260,7 @@
   },
   {
    "keyword": "마장동아파트전세",
-   "volume": 45,
+   "volume": 35,
    "comp": "높음",
    "entity": "마장동",
    "entity_id": "11200:마장동",
@@ -272,7 +284,7 @@
   },
   {
    "keyword": "광진구아파트전세",
-   "volume": 220,
+   "volume": 230,
    "comp": "높음",
    "entity": "광진구",
    "entity_id": "11215",
@@ -308,7 +320,7 @@
   },
   {
    "keyword": "구의동아파트전세",
-   "volume": 90,
+   "volume": 80,
    "comp": "높음",
    "entity": "구의동",
    "entity_id": "11215:구의동",
@@ -320,7 +332,7 @@
   },
   {
    "keyword": "자양동아파트전세",
-   "volume": 630,
+   "volume": 620,
    "comp": "높음",
    "entity": "자양동",
    "entity_id": "11215:자양동",
@@ -344,7 +356,7 @@
   },
   {
    "keyword": "동대문구아파트전세",
-   "volume": 180,
+   "volume": 190,
    "comp": "높음",
    "entity": "동대문구",
    "entity_id": "11230",
@@ -356,7 +368,7 @@
   },
   {
    "keyword": "이문동아파트전세",
-   "volume": 85,
+   "volume": 95,
    "comp": "높음",
    "entity": "이문동",
    "entity_id": "11230:이문동",
@@ -368,7 +380,7 @@
   },
   {
    "keyword": "장안동아파트전세",
-   "volume": 250,
+   "volume": 260,
    "comp": "높음",
    "entity": "장안동",
    "entity_id": "41220:장안동",
@@ -404,7 +416,7 @@
   },
   {
    "keyword": "휘경동아파트전세",
-   "volume": 45,
+   "volume": 55,
    "comp": "높음",
    "entity": "휘경동",
    "entity_id": "11230:휘경동",
@@ -416,7 +428,7 @@
   },
   {
    "keyword": "면목동아파트전세",
-   "volume": 140,
+   "volume": 130,
    "comp": "높음",
    "entity": "면목동",
    "entity_id": "11260:면목동",
@@ -452,7 +464,7 @@
   },
   {
    "keyword": "신내동아파트전세",
-   "volume": 240,
+   "volume": 230,
    "comp": "높음",
    "entity": "신내동",
    "entity_id": "11260:신내동",
@@ -524,7 +536,7 @@
   },
   {
    "keyword": "종암동아파트전세",
-   "volume": 45,
+   "volume": 60,
    "comp": "높음",
    "entity": "종암동",
    "entity_id": "11290:종암동",
@@ -536,7 +548,7 @@
   },
   {
    "keyword": "장위동아파트전세",
-   "volume": 115,
+   "volume": 130,
    "comp": "높음",
    "entity": "장위동",
    "entity_id": "11290:장위동",
@@ -560,7 +572,7 @@
   },
   {
    "keyword": "미아동아파트전세",
-   "volume": 105,
+   "volume": 110,
    "comp": "높음",
    "entity": "미아동",
    "entity_id": "11305:미아동",
@@ -595,8 +607,20 @@
    "used": false
   },
   {
+   "keyword": "수유동아파트전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "수유동",
+   "entity_id": "11305:수유동",
+   "base_score": 70.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 70.0,
+   "used": false
+  },
+  {
    "keyword": "노원구아파트전세",
-   "volume": 470,
+   "volume": 450,
    "comp": "높음",
    "entity": "노원구",
    "entity_id": "11350",
@@ -632,7 +656,7 @@
   },
   {
    "keyword": "쌍문동아파트전세",
-   "volume": 105,
+   "volume": 110,
    "comp": "높음",
    "entity": "쌍문동",
    "entity_id": "11320:쌍문동",
@@ -656,7 +680,7 @@
   },
   {
    "keyword": "공릉동아파트전세",
-   "volume": 310,
+   "volume": 300,
    "comp": "높음",
    "entity": "공릉동",
    "entity_id": "11350:공릉동",
@@ -668,7 +692,7 @@
   },
   {
    "keyword": "상계동아파트전세",
-   "volume": 110,
+   "volume": 130,
    "comp": "높음",
    "entity": "상계동",
    "entity_id": "11350:상계동",
@@ -680,7 +704,7 @@
   },
   {
    "keyword": "월계동아파트전세",
-   "volume": 70,
+   "volume": 60,
    "comp": "높음",
    "entity": "월계동",
    "entity_id": "11350:월계동",
@@ -692,7 +716,7 @@
   },
   {
    "keyword": "은평구아파트전세",
-   "volume": 480,
+   "volume": 490,
    "comp": "높음",
    "entity": "은평구",
    "entity_id": "11380",
@@ -764,7 +788,7 @@
   },
   {
    "keyword": "수색동아파트전세",
-   "volume": 60,
+   "volume": 70,
    "comp": "높음",
    "entity": "수색동",
    "entity_id": "11380:수색동",
@@ -788,7 +812,7 @@
   },
   {
    "keyword": "응암동아파트전세",
-   "volume": 95,
+   "volume": 85,
    "comp": "높음",
    "entity": "응암동",
    "entity_id": "11380:응암동",
@@ -860,10 +884,10 @@
   },
   {
    "keyword": "홍제동아파트전세",
-   "volume": 100,
+   "volume": 110,
    "comp": "높음",
    "entity": "홍제동",
-   "entity_id": "11410:홍제동",
+   "entity_id": "51150:홍제동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -884,7 +908,7 @@
   },
   {
    "keyword": "공덕동아파트전세",
-   "volume": 65,
+   "volume": 95,
    "comp": "높음",
    "entity": "공덕동",
    "entity_id": "11440:공덕동",
@@ -896,7 +920,7 @@
   },
   {
    "keyword": "망원동아파트전세",
-   "volume": 220,
+   "volume": 210,
    "comp": "높음",
    "entity": "망원동",
    "entity_id": "11440:망원동",
@@ -908,7 +932,7 @@
   },
   {
    "keyword": "상암동아파트전세",
-   "volume": 95,
+   "volume": 85,
    "comp": "높음",
    "entity": "상암동",
    "entity_id": "11440:상암동",
@@ -944,10 +968,10 @@
   },
   {
    "keyword": "중동아파트전세",
-   "volume": 50,
+   "volume": 40,
    "comp": "높음",
    "entity": "중동",
-   "entity_id": "48121:중동",
+   "entity_id": "52113:중동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -956,7 +980,7 @@
   },
   {
    "keyword": "강서구아파트전세",
-   "volume": 370,
+   "volume": 360,
    "comp": "높음",
    "entity": "강서구",
    "entity_id": "26440",
@@ -968,7 +992,7 @@
   },
   {
    "keyword": "목동아파트전세",
-   "volume": 560,
+   "volume": 580,
    "comp": "높음",
    "entity": "목동",
    "entity_id": "41597:목동",
@@ -980,7 +1004,7 @@
   },
   {
    "keyword": "신월동아파트전세",
-   "volume": 130,
+   "volume": 125,
    "comp": "높음",
    "entity": "신월동",
    "entity_id": "48123:신월동",
@@ -992,7 +1016,7 @@
   },
   {
    "keyword": "신정동아파트전세",
-   "volume": 80,
+   "volume": 70,
    "comp": "높음",
    "entity": "신정동",
    "entity_id": "31140:신정동",
@@ -1004,7 +1028,7 @@
   },
   {
    "keyword": "가양동아파트전세",
-   "volume": 110,
+   "volume": 120,
    "comp": "높음",
    "entity": "가양동",
    "entity_id": "30110:가양동",
@@ -1016,7 +1040,7 @@
   },
   {
    "keyword": "내발산동아파트전세",
-   "volume": 45,
+   "volume": 35,
    "comp": "높음",
    "entity": "내발산동",
    "entity_id": "11500:내발산동",
@@ -1028,7 +1052,7 @@
   },
   {
    "keyword": "화곡동아파트전세",
-   "volume": 45,
+   "volume": 60,
    "comp": "높음",
    "entity": "화곡동",
    "entity_id": "11500:화곡동",
@@ -1076,7 +1100,7 @@
   },
   {
    "keyword": "염창동아파트전세",
-   "volume": 330,
+   "volume": 340,
    "comp": "높음",
    "entity": "염창동",
    "entity_id": "11500:염창동",
@@ -1100,7 +1124,7 @@
   },
   {
    "keyword": "고척동아파트전세",
-   "volume": 150,
+   "volume": 140,
    "comp": "높음",
    "entity": "고척동",
    "entity_id": "11530:고척동",
@@ -1148,7 +1172,7 @@
   },
   {
    "keyword": "금천구아파트전세",
-   "volume": 230,
+   "volume": 240,
    "comp": "높음",
    "entity": "금천구",
    "entity_id": "11545",
@@ -1172,7 +1196,7 @@
   },
   {
    "keyword": "독산동아파트전세",
-   "volume": 85,
+   "volume": 75,
    "comp": "높음",
    "entity": "독산동",
    "entity_id": "11545:독산동",
@@ -1208,7 +1232,7 @@
   },
   {
    "keyword": "대림동아파트전세",
-   "volume": 55,
+   "volume": 45,
    "comp": "높음",
    "entity": "대림동",
    "entity_id": "11560:대림동",
@@ -1220,7 +1244,7 @@
   },
   {
    "keyword": "신길동아파트전세",
-   "volume": 110,
+   "volume": 130,
    "comp": "높음",
    "entity": "신길동",
    "entity_id": "41273:신길동",
@@ -1232,7 +1256,7 @@
   },
   {
    "keyword": "동작구아파트전세",
-   "volume": 210,
+   "volume": 220,
    "comp": "높음",
    "entity": "동작구",
    "entity_id": "11590",
@@ -1244,7 +1268,7 @@
   },
   {
    "keyword": "대방동아파트전세",
-   "volume": 90,
+   "volume": 100,
    "comp": "높음",
    "entity": "대방동",
    "entity_id": "48123:대방동",
@@ -1256,7 +1280,7 @@
   },
   {
    "keyword": "사당동아파트전세",
-   "volume": 130,
+   "volume": 150,
    "comp": "높음",
    "entity": "사당동",
    "entity_id": "11590:사당동",
@@ -1268,10 +1292,10 @@
   },
   {
    "keyword": "상도동아파트전세",
-   "volume": 170,
+   "volume": 180,
    "comp": "높음",
    "entity": "상도동",
-   "entity_id": "11590:상도동",
+   "entity_id": "47111:상도동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -1304,7 +1328,7 @@
   },
   {
    "keyword": "관악구아파트전세",
-   "volume": 390,
+   "volume": 400,
    "comp": "높음",
    "entity": "관악구",
    "entity_id": "11620",
@@ -1352,10 +1376,22 @@
   },
   {
    "keyword": "서초동아파트전세",
-   "volume": 225,
+   "volume": 230,
    "comp": "높음",
    "entity": "서초동",
    "entity_id": "11650:서초동",
+   "base_score": 70.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 70.0,
+   "used": false
+  },
+  {
+   "keyword": "신원동아파트전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "신원동",
+   "entity_id": "41281:신원동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -1400,7 +1436,7 @@
   },
   {
    "keyword": "대치동아파트전세",
-   "volume": 270,
+   "volume": 260,
    "comp": "높음",
    "entity": "대치동",
    "entity_id": "11680:대치동",
@@ -1412,7 +1448,7 @@
   },
   {
    "keyword": "논현동아파트전세",
-   "volume": 45,
+   "volume": 55,
    "comp": "높음",
    "entity": "논현동",
    "entity_id": "28200:논현동",
@@ -1424,7 +1460,7 @@
   },
   {
    "keyword": "삼성동아파트전세",
-   "volume": 70,
+   "volume": 80,
    "comp": "높음",
    "entity": "삼성동",
    "entity_id": "30110:삼성동",
@@ -1460,7 +1496,7 @@
   },
   {
    "keyword": "일원동아파트전세",
-   "volume": 120,
+   "volume": 130,
    "comp": "높음",
    "entity": "일원동",
    "entity_id": "11680:일원동",
@@ -1496,7 +1532,7 @@
   },
   {
    "keyword": "가락동아파트전세",
-   "volume": 120,
+   "volume": 110,
    "comp": "높음",
    "entity": "가락동",
    "entity_id": "11710:가락동",
@@ -1520,7 +1556,7 @@
   },
   {
    "keyword": "문정동아파트전세",
-   "volume": 160,
+   "volume": 150,
    "comp": "높음",
    "entity": "문정동",
    "entity_id": "11710:문정동",
@@ -1544,7 +1580,7 @@
   },
   {
    "keyword": "오금동아파트전세",
-   "volume": 200,
+   "volume": 180,
    "comp": "높음",
    "entity": "오금동",
    "entity_id": "11710:오금동",
@@ -1556,7 +1592,7 @@
   },
   {
    "keyword": "강동구아파트전세",
-   "volume": 580,
+   "volume": 620,
    "comp": "높음",
    "entity": "강동구",
    "entity_id": "11740",
@@ -1616,7 +1652,7 @@
   },
   {
    "keyword": "둔촌동아파트전세",
-   "volume": 70,
+   "volume": 80,
    "comp": "높음",
    "entity": "둔촌동",
    "entity_id": "11740:둔촌동",
@@ -1675,6 +1711,18 @@
    "used": false
   },
   {
+   "keyword": "범일동아파트전세",
+   "volume": 35,
+   "comp": "높음",
+   "entity": "범일동",
+   "entity_id": "26170:범일동",
+   "base_score": 70.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 70.0,
+   "used": false
+  },
+  {
    "keyword": "영도구아파트전세",
    "volume": 35,
    "comp": "높음",
@@ -1688,7 +1736,7 @@
   },
   {
    "keyword": "부산진구아파트전세",
-   "volume": 280,
+   "volume": 290,
    "comp": "높음",
    "entity": "부산진구",
    "entity_id": "26230",
@@ -1760,7 +1808,7 @@
   },
   {
    "keyword": "안락동아파트전세",
-   "volume": 80,
+   "volume": 85,
    "comp": "높음",
    "entity": "안락동",
    "entity_id": "26260:안락동",
@@ -1796,7 +1844,7 @@
   },
   {
    "keyword": "용호동아파트전세",
-   "volume": 35,
+   "volume": 45,
    "comp": "높음",
    "entity": "용호동",
    "entity_id": "48123:용호동",
@@ -1820,7 +1868,7 @@
   },
   {
    "keyword": "화명동아파트전세",
-   "volume": 210,
+   "volume": 220,
    "comp": "높음",
    "entity": "화명동",
    "entity_id": "26320:화명동",
@@ -1832,7 +1880,7 @@
   },
   {
    "keyword": "해운대구아파트전세",
-   "volume": 45,
+   "volume": 35,
    "comp": "높음",
    "entity": "해운대구",
    "entity_id": "26350",
@@ -1856,7 +1904,7 @@
   },
   {
    "keyword": "좌동아파트전세",
-   "volume": 95,
+   "volume": 100,
    "comp": "높음",
    "entity": "좌동",
    "entity_id": "26350:좌동",
@@ -1892,7 +1940,7 @@
   },
   {
    "keyword": "금정구아파트전세",
-   "volume": 115,
+   "volume": 105,
    "comp": "높음",
    "entity": "금정구",
    "entity_id": "26410",
@@ -1904,7 +1952,7 @@
   },
   {
    "keyword": "수영구아파트전세",
-   "volume": 110,
+   "volume": 100,
    "comp": "높음",
    "entity": "수영구",
    "entity_id": "26500",
@@ -1952,7 +2000,7 @@
   },
   {
    "keyword": "남천동아파트전세",
-   "volume": 75,
+   "volume": 70,
    "comp": "높음",
    "entity": "남천동",
    "entity_id": "26500:남천동",
@@ -2012,7 +2060,7 @@
   },
   {
    "keyword": "신암동아파트전세",
-   "volume": 45,
+   "volume": 55,
    "comp": "높음",
    "entity": "신암동",
    "entity_id": "27140:신암동",
@@ -2027,7 +2075,7 @@
    "volume": 35,
    "comp": "높음",
    "entity": "대명동",
-   "entity_id": "27200:대명동",
+   "entity_id": "52130:대명동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -2036,7 +2084,7 @@
   },
   {
    "keyword": "동천동아파트전세",
-   "volume": 75,
+   "volume": 65,
    "comp": "높음",
    "entity": "동천동",
    "entity_id": "41465:동천동",
@@ -2060,7 +2108,7 @@
   },
   {
    "keyword": "침산동아파트전세",
-   "volume": 85,
+   "volume": 80,
    "comp": "높음",
    "entity": "침산동",
    "entity_id": "27230:침산동",
@@ -2096,22 +2144,10 @@
   },
   {
    "keyword": "범물동아파트전세",
-   "volume": 40,
+   "volume": 35,
    "comp": "높음",
    "entity": "범물동",
    "entity_id": "27260:범물동",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
-   "keyword": "범어동아파트전세",
-   "volume": 35,
-   "comp": "높음",
-   "entity": "범어동",
-   "entity_id": "27260:범어동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -2132,7 +2168,7 @@
   },
   {
    "keyword": "달서구아파트전세",
-   "volume": 140,
+   "volume": 130,
    "comp": "높음",
    "entity": "달서구",
    "entity_id": "27290",
@@ -2143,11 +2179,11 @@
    "used": false
   },
   {
-   "keyword": "본리동아파트전세",
+   "keyword": "지산동아파트전세",
    "volume": 35,
    "comp": "높음",
-   "entity": "본리동",
-   "entity_id": "27290:본리동",
+   "entity": "지산동",
+   "entity_id": "41220:지산동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -2156,7 +2192,7 @@
   },
   {
    "keyword": "상인동아파트전세",
-   "volume": 45,
+   "volume": 55,
    "comp": "높음",
    "entity": "상인동",
    "entity_id": "27290:상인동",
@@ -2168,7 +2204,7 @@
   },
   {
    "keyword": "월성동아파트전세",
-   "volume": 70,
+   "volume": 75,
    "comp": "높음",
    "entity": "월성동",
    "entity_id": "27290:월성동",
@@ -2192,7 +2228,7 @@
   },
   {
    "keyword": "장기동아파트전세",
-   "volume": 160,
+   "volume": 180,
    "comp": "높음",
    "entity": "장기동",
    "entity_id": "41570:장기동",
@@ -2228,7 +2264,7 @@
   },
   {
    "keyword": "운서동아파트전세",
-   "volume": 85,
+   "volume": 75,
    "comp": "높음",
    "entity": "운서동",
    "entity_id": "28155:운서동",
@@ -2275,20 +2311,8 @@
    "used": false
   },
   {
-   "keyword": "연수구아파트전세",
-   "volume": 100,
-   "comp": "높음",
-   "entity": "연수구",
-   "entity_id": "28185",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "동춘동아파트전세",
-   "volume": 110,
+   "volume": 120,
    "comp": "높음",
    "entity": "동춘동",
    "entity_id": "28185:동춘동",
@@ -2324,7 +2348,7 @@
   },
   {
    "keyword": "옥련동아파트전세",
-   "volume": 180,
+   "volume": 200,
    "comp": "높음",
    "entity": "옥련동",
    "entity_id": "28185:옥련동",
@@ -2372,7 +2396,7 @@
   },
   {
    "keyword": "서창동아파트전세",
-   "volume": 45,
+   "volume": 60,
    "comp": "높음",
    "entity": "서창동",
    "entity_id": "28200:서창동",
@@ -2383,20 +2407,8 @@
    "used": false
   },
   {
-   "keyword": "부평구아파트전세",
-   "volume": 130,
-   "comp": "높음",
-   "entity": "부평구",
-   "entity_id": "28237",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "만수동아파트전세",
-   "volume": 75,
+   "volume": 85,
    "comp": "높음",
    "entity": "만수동",
    "entity_id": "28200:만수동",
@@ -2515,35 +2527,11 @@
    "used": false
   },
   {
-   "keyword": "동작동아파트전세",
-   "volume": 25,
-   "comp": "낮음",
-   "entity": "동작동",
-   "entity_id": "11590:동작동",
-   "base_score": 60.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 60.0,
-   "used": false
-  },
-  {
    "keyword": "수서동아파트전세",
    "volume": 25,
    "comp": "낮음",
    "entity": "수서동",
    "entity_id": "11680:수서동",
-   "base_score": 60.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 60.0,
-   "used": false
-  },
-  {
-   "keyword": "석촌동아파트전세",
-   "volume": 15,
-   "comp": "낮음",
-   "entity": "석촌동",
-   "entity_id": "11710:석촌동",
    "base_score": 60.0,
    "growth": 1.0,
    "why": "",
@@ -2568,6 +2556,18 @@
    "comp": "낮음",
    "entity": "수안동",
    "entity_id": "26260:수안동",
+   "base_score": 60.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "만덕동아파트전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "만덕동",
+   "entity_id": "26320:만덕동",
    "base_score": 60.0,
    "growth": 1.0,
    "why": "",
@@ -2652,6 +2652,18 @@
    "comp": "낮음",
    "entity": "사월동",
    "entity_id": "27260:사월동",
+   "base_score": 60.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 60.0,
+   "used": false
+  },
+  {
+   "keyword": "황금동아파트전세",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "황금동",
+   "entity_id": "27260:황금동",
    "base_score": 60.0,
    "growth": 1.0,
    "why": "",
@@ -2792,10 +2804,22 @@
   },
   {
    "keyword": "창신동아파트전세",
-   "volume": 25,
+   "volume": 15,
    "comp": "높음",
    "entity": "창신동",
    "entity_id": "11110:창신동",
+   "base_score": 42.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 42.0,
+   "used": false
+  },
+  {
+   "keyword": "문배동아파트전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "문배동",
+   "entity_id": "11170:문배동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -2819,19 +2843,7 @@
    "volume": 15,
    "comp": "높음",
    "entity": "송정동",
-   "entity_id": "41610:송정동",
-   "base_score": 42.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 42.0,
-   "used": false
-  },
-  {
-   "keyword": "응봉동아파트전세",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "응봉동",
-   "entity_id": "11200:응봉동",
+   "entity_id": "51150:송정동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -2856,18 +2868,6 @@
    "comp": "높음",
    "entity": "회기동",
    "entity_id": "11230:회기동",
-   "base_score": 42.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 42.0,
-   "used": false
-  },
-  {
-   "keyword": "수유동아파트전세",
-   "volume": 25,
-   "comp": "높음",
-   "entity": "수유동",
-   "entity_id": "11305:수유동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -2916,6 +2916,18 @@
    "comp": "높음",
    "entity": "도화동",
    "entity_id": "28177:도화동",
+   "base_score": 42.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 42.0,
+   "used": false
+  },
+  {
+   "keyword": "신수동아파트전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "신수동",
+   "entity_id": "11440:신수동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -2987,7 +2999,7 @@
    "volume": 15,
    "comp": "높음",
    "entity": "내곡동",
-   "entity_id": "11650:내곡동",
+   "entity_id": "51150:내곡동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -2996,22 +3008,10 @@
   },
   {
    "keyword": "반포동아파트전세",
-   "volume": 25,
+   "volume": 15,
    "comp": "높음",
    "entity": "반포동",
    "entity_id": "11650:반포동",
-   "base_score": 42.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 42.0,
-   "used": false
-  },
-  {
-   "keyword": "신원동아파트전세",
-   "volume": 25,
-   "comp": "높음",
-   "entity": "신원동",
-   "entity_id": "41281:신원동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -3055,18 +3055,6 @@
    "used": false
   },
   {
-   "keyword": "잠실동아파트전세",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "잠실동",
-   "entity_id": "11710:잠실동",
-   "base_score": 42.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 42.0,
-   "used": false
-  },
-  {
    "keyword": "강동구전세시세",
    "volume": 15,
    "comp": "높음",
@@ -3096,18 +3084,6 @@
    "comp": "높음",
    "entity": "동구",
    "entity_id": "31170",
-   "base_score": 42.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 42.0,
-   "used": false
-  },
-  {
-   "keyword": "범일동아파트전세",
-   "volume": 25,
-   "comp": "높음",
-   "entity": "범일동",
-   "entity_id": "26170:범일동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -3152,7 +3128,7 @@
   },
   {
    "keyword": "연지동아파트전세",
-   "volume": 25,
+   "volume": 15,
    "comp": "높음",
    "entity": "연지동",
    "entity_id": "26230:연지동",
@@ -3179,7 +3155,7 @@
    "volume": 15,
    "comp": "높음",
    "entity": "명륜동",
-   "entity_id": "26260:명륜동",
+   "entity_id": "51130:명륜동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -3203,7 +3179,7 @@
    "volume": 15,
    "comp": "높음",
    "entity": "북구",
-   "entity_id": "31200",
+   "entity_id": "47113",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -3236,7 +3212,7 @@
   },
   {
    "keyword": "반송동아파트전세",
-   "volume": 25,
+   "volume": 15,
    "comp": "높음",
    "entity": "반송동",
    "entity_id": "41597:반송동",
@@ -3296,7 +3272,7 @@
   },
   {
    "keyword": "부곡동아파트전세",
-   "volume": 25,
+   "volume": 15,
    "comp": "높음",
    "entity": "부곡동",
    "entity_id": "48250:부곡동",
@@ -3403,6 +3379,18 @@
    "used": false
   },
   {
+   "keyword": "범어동아파트전세",
+   "volume": 25,
+   "comp": "높음",
+   "entity": "범어동",
+   "entity_id": "27260:범어동",
+   "base_score": 42.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 42.0,
+   "used": false
+  },
+  {
    "keyword": "시지동아파트전세",
    "volume": 25,
    "comp": "높음",
@@ -3415,11 +3403,11 @@
    "used": false
   },
   {
-   "keyword": "지산동아파트전세",
+   "keyword": "본리동아파트전세",
    "volume": 25,
    "comp": "높음",
-   "entity": "지산동",
-   "entity_id": "41220:지산동",
+   "entity": "본리동",
+   "entity_id": "27290:본리동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -3444,6 +3432,18 @@
    "comp": "높음",
    "entity": "이곡동",
    "entity_id": "27290:이곡동",
+   "base_score": 42.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 42.0,
+   "used": false
+  },
+  {
+   "keyword": "진천동아파트전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "진천동",
+   "entity_id": "27290:진천동",
    "base_score": 42.0,
    "growth": 1.0,
    "why": "",
@@ -3512,7 +3512,7 @@
   },
   {
    "keyword": "청천동아파트전세",
-   "volume": 25,
+   "volume": 15,
    "comp": "높음",
    "entity": "청천동",
    "entity_id": "28237:청천동",
@@ -3563,7 +3563,7 @@
    "volume": 10,
    "comp": "낮음",
    "entity": "남구",
-   "entity_id": "31140",
+   "entity_id": "47111",
    "base_score": 20.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -3575,7 +3575,55 @@
    "volume": 10,
    "comp": "낮음",
    "entity": "남구",
-   "entity_id": "31140",
+   "entity_id": "47111",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "연수구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "연수구",
+   "entity_id": "28185",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "연수구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "연수구",
+   "entity_id": "28185",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "부평구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "부평구",
+   "entity_id": "28237",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "부평구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "부평구",
+   "entity_id": "28237",
    "base_score": 20.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -3596,7 +3644,7 @@
   },
   {
    "keyword": "전세가율",
-   "volume": 1010,
+   "volume": 1030,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -3608,7 +3656,7 @@
   },
   {
    "keyword": "강남구아파트전세",
-   "volume": 95,
+   "volume": 100,
    "comp": "높음",
    "entity": "강남구",
    "entity_id": "11680",
@@ -3620,10 +3668,34 @@
   },
   {
    "keyword": "송파구아파트전세",
-   "volume": 330,
+   "volume": 350,
    "comp": "높음",
    "entity": "송파구",
    "entity_id": "11710",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
+  },
+  {
+   "keyword": "연수구아파트전세",
+   "volume": 110,
+   "comp": "높음",
+   "entity": "연수구",
+   "entity_id": "28185",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
+  },
+  {
+   "keyword": "부평구아파트전세",
+   "volume": 130,
+   "comp": "높음",
+   "entity": "부평구",
+   "entity_id": "28237",
    "base_score": 70.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -4307,7 +4379,7 @@
    "volume": 10,
    "comp": "낮음",
    "entity": "용강동",
-   "entity_id": "11440:용강동",
+   "entity_id": "47130:용강동",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -4687,6 +4759,18 @@
    "used": false
   },
   {
+   "keyword": "석촌동아파트전세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "석촌동",
+   "entity_id": "11710:석촌동",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
    "keyword": "강동구전세가율",
    "volume": 10,
    "comp": "낮음",
@@ -4943,7 +5027,7 @@
    "volume": 10,
    "comp": "낮음",
    "entity": "북구",
-   "entity_id": "31200",
+   "entity_id": "47113",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -4955,7 +5039,7 @@
    "volume": 10,
    "comp": "낮음",
    "entity": "북구",
-   "entity_id": "31200",
+   "entity_id": "47113",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -4968,18 +5052,6 @@
    "comp": "낮음",
    "entity": "구포동",
    "entity_id": "26320:구포동",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "만덕동아파트전세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "만덕동",
-   "entity_id": "26320:만덕동",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -5755,18 +5827,6 @@
    "used": false
   },
   {
-   "keyword": "황금동아파트전세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "황금동",
-   "entity_id": "27260:황금동",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "달서구전세시세",
    "volume": 10,
    "comp": "낮음",
@@ -6103,30 +6163,6 @@
    "used": false
   },
   {
-   "keyword": "연수구전세시세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "연수구",
-   "entity_id": "28185",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "연수구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "연수구",
-   "entity_id": "28185",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "남동구전세가율",
    "volume": 10,
    "comp": "낮음",
@@ -6151,30 +6187,6 @@
    "used": false
   },
   {
-   "keyword": "부평구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "부평구",
-   "entity_id": "28237",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "부평구전세시세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "부평구",
-   "entity_id": "28237",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "강남구전세가율",
    "volume": 10,
    "comp": "중간",
@@ -6191,7 +6203,7 @@
    "volume": 25,
    "comp": "낮음",
    "entity": "남구",
-   "entity_id": "31140",
+   "entity_id": "47111",
    "base_score": 60.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -6331,11 +6343,11 @@
    "used": false
   },
   {
-   "keyword": "문배동아파트전세",
+   "keyword": "원효로1가아파트전세",
    "volume": 10,
    "comp": "높음",
-   "entity": "문배동",
-   "entity_id": "11170:문배동",
+   "entity": "원효로1가",
+   "entity_id": "11170:원효로1가",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -6343,11 +6355,11 @@
    "used": false
   },
   {
-   "keyword": "원효로1가아파트전세",
+   "keyword": "응봉동아파트전세",
    "volume": 10,
    "comp": "높음",
-   "entity": "원효로1가",
-   "entity_id": "11170:원효로1가",
+   "entity": "응봉동",
+   "entity_id": "11200:응봉동",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -6487,18 +6499,6 @@
    "used": false
   },
   {
-   "keyword": "신수동아파트전세",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "신수동",
-   "entity_id": "11440:신수동",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
    "keyword": "창전동아파트전세",
    "volume": 10,
    "comp": "높음",
@@ -6540,6 +6540,18 @@
    "comp": "높음",
    "entity": "양평동1가",
    "entity_id": "11560:양평동1가",
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "잠실동아파트전세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "잠실동",
+   "entity_id": "11710:잠실동",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -6611,7 +6623,7 @@
    "volume": 10,
    "comp": "높음",
    "entity": "구평동",
-   "entity_id": "26380:구평동",
+   "entity_id": "47190:구평동",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -6671,7 +6683,7 @@
    "volume": 10,
    "comp": "높음",
    "entity": "동산동",
-   "entity_id": "41281:동산동",
+   "entity_id": "52140:동산동",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -6707,7 +6719,7 @@
    "volume": 10,
    "comp": "높음",
    "entity": "구암동",
-   "entity_id": "27230:구암동",
+   "entity_id": "52130:구암동",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -6743,35 +6755,11 @@
    "volume": 10,
    "comp": "높음",
    "entity": "유천동",
-   "entity_id": "30140:유천동",
+   "entity_id": "51150:유천동",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
    "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "진천동아파트전세",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "진천동",
-   "entity_id": "27290:진천동",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "부동산전세시세",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 10.5,
-   "growth": 1.0,
-   "why": "",
-   "score": 10.5,
    "used": false
   },
   {
@@ -6847,8 +6835,20 @@
    "used": false
   },
   {
+   "keyword": "부동산전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 3.5,
+   "growth": 1.0,
+   "why": "",
+   "score": 3.5,
+   "used": false
+  },
+  {
    "keyword": "아파트전세",
-   "volume": 7410,
+   "volume": 7470,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
