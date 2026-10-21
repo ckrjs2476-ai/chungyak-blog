@@ -2,20 +2,20 @@
  "lawd": "11740",
  "name": "서울특별시 강동구",
  "months": 12,
- "updated": "2026-10-20",
- "trade_count": 2932,
+ "updated": "2026-10-21",
+ "trade_count": 2935,
  "cancel_count": 81,
- "n84": 1133,
- "median84": 144000,
+ "n84": 1134,
+ "median84": 144300,
  "p25_84": 95000,
  "p75_84": 179500,
- "median84_pyeong_excl": 5610,
+ "median84_pyeong_excl": 5621,
  "new_n84": 107,
  "new_median84": 200000,
  "new_build_years": 5,
  "umd84": {
   "명일동": {
-   "n": 91,
+   "n": 92,
    "median": 170000
   },
   "길동": {
@@ -120,9 +120,9 @@
   },
   {
    "month": "2026-10",
-   "count": 50,
-   "n84": 23,
-   "median84": 151200
+   "count": 53,
+   "n84": 24,
+   "median84": 151350
   }
  ],
  "top_apts": [
@@ -175,16 +175,16 @@
    "built": 2019
   },
   {
+   "name": "명일동 삼익그린2차",
+   "count": 52,
+   "median84": 205000,
+   "built": 1983
+  },
+  {
    "name": "둔촌동 둔촌푸르지오",
    "count": 52,
    "median84": 163000,
    "built": 2010
-  },
-  {
-   "name": "명일동 삼익그린2차",
-   "count": 51,
-   "median84": 205000,
-   "built": 1983
   }
  ]
 }

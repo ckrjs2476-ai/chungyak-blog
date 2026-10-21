@@ -2,25 +2,25 @@
  "lawd": "41192",
  "name": "경기도 부천시 원미구",
  "months": 12,
- "updated": "2026-10-20",
- "trade_count": 4632,
- "cancel_count": 192,
- "n84": 1398,
+ "updated": "2026-10-21",
+ "trade_count": 4660,
+ "cancel_count": 193,
+ "n84": 1410,
  "median84": 68000,
- "p25_84": 59000,
+ "p25_84": 59150,
  "p75_84": 77000,
- "median84_pyeong_excl": 2657,
+ "median84_pyeong_excl": 2670,
  "new_n84": 95,
  "new_median84": 114500,
  "new_build_years": 5,
  "umd84": {
-  "중동": {
-   "n": 620,
-   "median": 68400
-  },
   "상동": {
-   "n": 553,
-   "median": 70000
+   "n": 561,
+   "median": 70500
+  },
+  "중동": {
+   "n": 624,
+   "median": 68400
   },
   "약대동": {
    "n": 97,
@@ -110,47 +110,47 @@
   },
   {
    "month": "2026-09",
-   "count": 392,
-   "n84": 120,
+   "count": 395,
+   "n84": 122,
    "median84": 72200
   },
   {
    "month": "2026-10",
-   "count": 165,
-   "n84": 38,
-   "median84": 71650
+   "count": 190,
+   "n84": 48,
+   "median84": 72650
   }
  ],
  "top_apts": [
   {
    "name": "중동 금강마을(주공)",
-   "count": 177,
+   "count": 178,
    "median84": 66900,
    "built": 1994
   },
   {
    "name": "중동 팰리스카운티",
-   "count": 174,
+   "count": 175,
    "median84": 70425,
    "built": 2009
   },
   {
    "name": "중동 설악마을(주공)",
-   "count": 105,
+   "count": 106,
    "median84": null,
    "built": 1993
+  },
+  {
+   "name": "중동 한라마을(주공2)",
+   "count": 95,
+   "median84": null,
+   "built": 1995
   },
   {
    "name": "중동 힐스테이트중동",
    "count": 95,
    "median84": 115500,
    "built": 2022
-  },
-  {
-   "name": "중동 한라마을(주공2)",
-   "count": 94,
-   "median84": null,
-   "built": 1995
   },
   {
    "name": "중동 은하마을(주공1)",
@@ -160,13 +160,13 @@
   },
   {
    "name": "상동 반달마을(극동신라)",
-   "count": 87,
-   "median84": 55700,
+   "count": 88,
+   "median84": 55750,
    "built": 1994
   },
   {
    "name": "중동 보람마을(아주)",
-   "count": 87,
+   "count": 88,
    "median84": 65000,
    "built": 1995
   },
