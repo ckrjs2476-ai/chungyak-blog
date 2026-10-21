@@ -12,34 +12,14 @@
     "competition": 1
    },
    "format_concentrated": false,
-   "stale": {
-    "2026-10-09-2026000458-notice.md": [
-     "경쟁률 결과가 나왔는데 본문에 결과 언급이 없음(결과 표는 코드가 붙이지만 본문 안내가 어긋날 수 있음)"
-    ],
-    "2026-10-14-2026000464-notice.md": [
-     "지난 날짜를 앞으로의 일처럼 씀: '10월 19일 특공부터 사흘 연속 접수해요'"
-    ]
-   },
+   "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 2
+   "to_fix": 0
   },
   "jeonse": {
    "posts": 8,
-   "skeleton_pairs": [
-    [
-     "2026-10-14-11680-region.md",
-     "2026-10-15-41360-region.md",
-     0.8,
-     0.03
-    ],
-    [
-     "2026-10-15-41360-region.md",
-     "2026-10-17-36110-region.md",
-     0.8,
-     0.01
-    ]
-   ],
+   "skeleton_pairs": [],
    "type_share": {
     "region": 6,
     "topic": 1,
@@ -49,7 +29,7 @@
    "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 2
+   "to_fix": 0
   },
   "gongmoju": {
    "posts": 10,
