@@ -1,0 +1,72 @@
+{
+ "no": "2026910266",
+ "name": "문수로 비스타 더파크",
+ "kind": "remndr",
+ "region": "울산",
+ "notice_date": "2026-10-21",
+ "rank1_date": "2026-10-26",
+ "city": "남구",
+ "supply_kind": "",
+ "winner_date": "2026-10-29",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910266&pblancNo=2026910266",
+ "households": 329,
+ "types": [
+  {
+   "ty": "68.472A",
+   "size": 68,
+   "price": 65500,
+   "area_m2": null,
+   "general": 17,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "68.472B",
+   "size": 68,
+   "price": 62400,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9937A",
+   "size": 84,
+   "price": 83200,
+   "area_m2": null,
+   "general": 311,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 329,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 83200,
+ "price_84_max": 83200,
+ "market": {
+  "region": "울산광역시 남구",
+  "lawd": "31140",
+  "months": 12,
+  "updated": "2026-10-10",
+  "n84": 1712,
+  "median84": 48500,
+  "p25_84": 35000,
+  "p75_84": 71000,
+  "new_n84": 182,
+  "new_median84": 74700,
+  "new_build_years": 5,
+  "umd": "무거동",
+  "umd_n84": 148,
+  "umd_median84": 34500,
+  "diff_vs_median84": 34700,
+  "diff_pct_vs_median84": 72,
+  "diff_vs_new_median84": 8500,
+  "diff_pct_vs_new_median84": 11,
+  "diff_vs_umd_median84": 48700,
+  "diff_pct_vs_umd_median84": 141
+ }
+}

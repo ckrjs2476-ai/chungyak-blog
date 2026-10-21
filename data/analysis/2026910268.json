@@ -1,0 +1,85 @@
+{
+ "no": "2026910268",
+ "name": "신천역 에피트(3차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-10-21",
+ "rank1_date": "2026-10-26",
+ "city": "시흥시",
+ "supply_kind": "",
+ "winner_date": "2026-10-29",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910268&pblancNo=2026910268",
+ "households": 8,
+ "types": [
+  {
+   "ty": "84.7324C",
+   "size": 84,
+   "price": 68060,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.0616D",
+   "size": 84,
+   "price": 67190,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.5859E",
+   "size": 84,
+   "price": 64630,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "111.6914A",
+   "size": 111,
+   "price": 84430,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "111.9114B",
+   "size": 111,
+   "price": 81000,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 8,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 64630,
+ "price_84_max": 68060,
+ "market": {
+  "region": "경기도 시흥시",
+  "lawd": "41390",
+  "months": 12,
+  "updated": "2026-10-21",
+  "n84": 2188,
+  "median84": 54000,
+  "p25_84": 40500,
+  "p75_84": 60000,
+  "new_n84": 254,
+  "new_median84": 66250,
+  "new_build_years": 5,
+  "diff_vs_median84": 14060,
+  "diff_pct_vs_median84": 26,
+  "diff_vs_new_median84": 1810,
+  "diff_pct_vs_new_median84": 3
+ }
+}

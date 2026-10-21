@@ -98,48 +98,48 @@
     "supply": 551,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 521
+    "final_shortfall": 512
    },
    {
     "ty": "84.9394B",
     "supply": 240,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 219
+    "final_shortfall": 210
    },
    {
     "ty": "84.8936C",
     "supply": 243,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 226
+    "final_shortfall": 223
    },
    {
     "ty": "84.9855D",
     "supply": 235,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 227
+    "final_shortfall": 224
    },
    {
     "ty": "103.9572A",
     "supply": 51,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 45
+    "final_shortfall": 41
    },
    {
     "ty": "103.9213B",
     "supply": 47,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 45
+    "final_shortfall": 44
    }
   ],
-  "req_total": 84,
+  "req_total": 113,
   "rank1_req": 84,
   "supply_total": 1367,
-  "final_shortfall_total": 1283,
+  "final_shortfall_total": 1254,
   "closed_types": 0,
   "rank1_closed_types": 0,
   "type_count": 6,
@@ -193,22 +193,22 @@
   "region": "충청남도 아산시",
   "lawd": "44200",
   "months": 12,
-  "updated": "2026-10-21",
-  "n84": 1591,
-  "median84": 28600,
+  "updated": "2026-10-22",
+  "n84": 1601,
+  "median84": 28500,
   "p25_84": 20500,
   "p75_84": 45000,
-  "new_n84": 532,
+  "new_n84": 533,
   "new_median84": 52500,
   "new_build_years": 5,
   "umd": "배방읍",
-  "umd_n84": 396,
-  "umd_median84": 23800,
-  "diff_vs_median84": 19690,
+  "umd_n84": 400,
+  "umd_median84": 23500,
+  "diff_vs_median84": 19790,
   "diff_pct_vs_median84": 69,
   "diff_vs_new_median84": -4210,
   "diff_pct_vs_new_median84": -8,
-  "diff_vs_umd_median84": 24490,
-  "diff_pct_vs_umd_median84": 103
+  "diff_vs_umd_median84": 24790,
+  "diff_pct_vs_umd_median84": 105
  }
 }

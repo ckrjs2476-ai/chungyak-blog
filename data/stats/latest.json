@@ -1,5 +1,5 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "weekly_competition": [
   {
    "no": "2026000491",
@@ -35,11 +35,11 @@
    "region": "부산",
    "rank1_avg_rate": 1.63,
    "best": {
-    "ty": "84.9587A",
-    "rate": 3.18,
-    "stage": "1순위 해당지역"
+    "ty": "84.9052B",
+    "rate": 11.0,
+    "stage": "2순위 해당지역"
    },
-   "final_shortfall_total": 4,
+   "final_shortfall_total": 0,
    "rank1_closed_types": 3,
    "type_count": 4
   },
@@ -53,7 +53,7 @@
     "rate": 3.0,
     "stage": "1순위 기타지역"
    },
-   "final_shortfall_total": 220,
+   "final_shortfall_total": 146,
    "rank1_closed_types": 5,
    "type_count": 9
   },
@@ -67,7 +67,7 @@
     "rate": 5.0,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 234,
+   "final_shortfall_total": 51,
    "rank1_closed_types": 2,
    "type_count": 6
   },
@@ -91,19 +91,9 @@
    "region": "충남",
    "rank1_avg_rate": 0.06,
    "best": null,
-   "final_shortfall_total": 1283,
+   "final_shortfall_total": 1254,
    "rank1_closed_types": 0,
    "type_count": 6
-  },
-  {
-   "no": "2026000466",
-   "name": "진도 승원팰리체 더 테라스",
-   "region": "전남",
-   "rank1_avg_rate": 0.0,
-   "best": null,
-   "final_shortfall_total": 55,
-   "rank1_closed_types": 0,
-   "type_count": 2
   }
  ],
  "weekly_remainder": [
@@ -304,6 +294,96 @@
      "ty": "59.057C",
      "price": 45900,
      "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910265",
+   "name": "한화포레나 영흥숲(3차)",
+   "region": "경기",
+   "households": 1,
+   "rcept_date": "2026-10-26",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910265&pblancNo=2026910265",
+   "types": [
+    {
+     "ty": "68.9883",
+     "price": 57600,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910266",
+   "name": "문수로 비스타 더파크",
+   "region": "울산",
+   "households": 329,
+   "rcept_date": "2026-10-26",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910266&pblancNo=2026910266",
+   "types": [
+    {
+     "ty": "68.472A",
+     "price": 65500,
+     "pyeong_price": null
+    },
+    {
+     "ty": "68.472B",
+     "price": 62400,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9937A",
+     "price": 83200,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910268",
+   "name": "신천역 에피트(3차)",
+   "region": "경기",
+   "households": 8,
+   "rcept_date": "2026-10-26",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910268&pblancNo=2026910268",
+   "types": [
+    {
+     "ty": "84.7324C",
+     "price": 68060,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.0616D",
+     "price": 67190,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.5859E",
+     "price": 64630,
+     "pyeong_price": null
+    },
+    {
+     "ty": "111.6914A",
+     "price": 84430,
+     "pyeong_price": null
+    },
+    {
+     "ty": "111.9114B",
+     "price": 81000,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026930044",
+   "name": "한화포레나 영흥숲",
+   "region": "경기",
+   "households": 1,
+   "rcept_date": "2026-10-26",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930044&pblancNo=2026930044",
+   "types": [
+    {
+     "ty": "66.8113",
+     "price": 51220,
+     "pyeong_price": 1783
     }
    ]
   }
@@ -969,10 +1049,10 @@
     "min_pyeong": 2995
    },
    "경기": {
-    "count": 4,
-    "avg_pyeong": 3262,
+    "count": 5,
+    "avg_pyeong": 2930,
     "max_pyeong": 4708,
-    "min_pyeong": 1668
+    "min_pyeong": 1606
    },
    "경남": {
     "count": 1,
@@ -1245,6 +1325,22 @@
     }
    },
    {
+    "no": "2026000502",
+    "name": "화성 향남 롯데캐슬 시그니처",
+    "region": "경기",
+    "households": 1542,
+    "pyeong_avg": 1606,
+    "price_84_min": 53200,
+    "special_kinds": {
+     "신혼부부": 199,
+     "생애최초": 91,
+     "신생아": 132,
+     "다자녀": 151,
+     "노부모 부양": 46,
+     "기관추천": 132
+    }
+   },
+   {
     "no": "2026000491",
     "name": "청주 가경 아이파크 7단지",
     "region": "충북",
@@ -1349,15 +1445,15 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 1480,
-   "생애최초": 773,
-   "신생아": 1206,
-   "다자녀": 1159,
-   "노부모 부양": 336,
-   "기관추천": 976,
+   "신혼부부": 1679,
+   "생애최초": 864,
+   "신생아": 1338,
+   "다자녀": 1310,
+   "노부모 부양": 382,
+   "기관추천": 1108,
    "청년": 106
   },
-  "households_total": 13198
+  "households_total": 14740
  },
  "last_month": {
   "month": "2026-09",
@@ -1993,6 +2089,20 @@
    }
   },
   {
+   "no": "2026000386",
+   "name": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "84.9989B",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 58,
+    "ty": "84.9989B"
+   }
+  },
+  {
    "no": "2026000388",
    "name": "시티오씨엘 9단지 오션파크뷰",
    "region": "인천",
@@ -2186,6 +2296,20 @@
    "max": {
     "score": 27,
     "ty": "84.989A"
+   }
+  },
+  {
+   "no": "2026000463",
+   "name": "향남역 그로브 스위첸",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "71.8178",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 59,
+    "ty": "71.8178"
    }
   }
  ]

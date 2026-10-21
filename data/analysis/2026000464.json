@@ -98,28 +98,28 @@
     "supply": 225,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 143
+    "final_shortfall": 51
    },
    {
     "ty": "84.9469B",
     "supply": 97,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 76
+    "closed_at": "2순위 기타지역",
+    "rate": 1.12,
+    "final_shortfall": 0
    },
    {
     "ty": "112.9922A",
     "supply": 17,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 7
+    "closed_at": "2순위 해당지역",
+    "rate": 2.57,
+    "final_shortfall": 0
    },
    {
     "ty": "132.982A",
     "supply": 13,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 8
+    "closed_at": "2순위 해당지역",
+    "rate": 1.25,
+    "final_shortfall": 0
    },
    {
     "ty": "138.9652P",
@@ -136,11 +136,11 @@
     "final_shortfall": 0
    }
   ],
-  "req_total": 125,
+  "req_total": 346,
   "rank1_req": 125,
   "supply_total": 354,
-  "final_shortfall_total": 234,
-  "closed_types": 2,
+  "final_shortfall_total": 51,
+  "closed_types": 5,
   "rank1_closed_types": 2,
   "type_count": 6,
   "rank1_avg_rate": 0.35,
@@ -207,19 +207,19 @@
   "region": "경상남도 거제시",
   "lawd": "48310",
   "months": 12,
-  "updated": "2026-10-21",
-  "n84": 1185,
-  "median84": 18000,
+  "updated": "2026-10-22",
+  "n84": 1189,
+  "median84": 17800,
   "p25_84": 13500,
-  "p75_84": 24850,
+  "p75_84": 24800,
   "new_n84": 195,
   "new_median84": 39700,
   "new_build_years": 5,
   "umd": "옥포동",
-  "umd_n84": 125,
+  "umd_n84": 126,
   "umd_median84": 16000,
-  "diff_vs_median84": 40800,
-  "diff_pct_vs_median84": 227,
+  "diff_vs_median84": 41000,
+  "diff_pct_vs_median84": 230,
   "diff_vs_new_median84": 19100,
   "diff_pct_vs_new_median84": 48,
   "diff_vs_umd_median84": 42800,
