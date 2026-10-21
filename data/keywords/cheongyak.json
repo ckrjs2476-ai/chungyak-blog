@@ -1,23 +1,11 @@
 {
- "updated": "2026-10-20 10:19",
+ "updated": "2026-10-21 10:20",
  "stage": 1,
  "band": [
   30,
   1500
  ],
  "keywords": [
-  {
-   "keyword": "쌍용더플래티넘한강경쟁률",
-   "volume": 40,
-   "comp": "중간",
-   "entity": "쌍용더플래티넘한강",
-   "entity_id": "2026000468",
-   "base_score": 85.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 93.5,
-   "used": false
-  },
   {
    "keyword": "연산센텀월드메르디앙분양가",
    "volume": 140,
@@ -43,18 +31,6 @@
    "used": false
   },
   {
-   "keyword": "청주가경아이파크분양가",
-   "volume": 160,
-   "comp": "높음",
-   "entity": "청주가경아이파크",
-   "entity_id": "2026000491",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "트리븐센텀1단지분양가",
    "volume": 120,
    "comp": "높음",
@@ -67,6 +43,18 @@
    "used": false
   },
   {
+   "keyword": "쌍용더플래티넘한강경쟁률",
+   "volume": 40,
+   "comp": "중간",
+   "entity": "쌍용더플래티넘한강",
+   "entity_id": "2026000468",
+   "base_score": 85.0,
+   "growth": 0.55,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지",
+   "score": 46.8,
+   "used": false
+  },
+  {
    "keyword": "쌍용더플래티넘한강분양가",
    "volume": 580,
    "comp": "중간",
@@ -74,7 +62,7 @@
    "entity_id": "2026000468",
    "base_score": 85.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지",
    "score": 46.8,
    "used": false
   },
@@ -110,8 +98,20 @@
    "entity_id": "2026000498",
    "base_score": 70.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지",
    "score": 38.5,
+   "used": false
+  },
+  {
+   "keyword": "청주가경아이파크분양가",
+   "volume": 160,
+   "comp": "높음",
+   "entity": "청주가경아이파크",
+   "entity_id": "2026000491",
+   "base_score": 70.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(competition)이 답하는 질문과 다름",
+   "score": 35.0,
    "used": false
   },
   {
@@ -1855,30 +1855,6 @@
    "used": false
   },
   {
-   "keyword": "천안아이파크시티경쟁률",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "천안아이파크시티",
-   "entity_id": "2026000498",
-   "base_score": 14.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 15.4,
-   "used": false
-  },
-  {
-   "keyword": "쌍용더플래티넘한강청약",
-   "volume": 20,
-   "comp": "중간",
-   "entity": "쌍용더플래티넘한강",
-   "entity_id": "2026000468",
-   "base_score": 51.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 15.3,
-   "used": false
-  },
-  {
    "keyword": "7월공모주청약일정",
    "volume": 25,
    "comp": "낮음",
@@ -1920,6 +1896,18 @@
    "comp": "높음",
    "entity": "트리븐센텀1단지",
    "entity_id": "2026000513",
+   "base_score": 14.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "청주가경아이파크경쟁률",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "청주가경아이파크",
+   "entity_id": "2026000491",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -2023,18 +2011,6 @@
    "used": false
   },
   {
-   "keyword": "천안아이파크시티청약",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "천안아이파크시티",
-   "entity_id": "2026000498",
-   "base_score": 42.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 12.6,
-   "used": false
-  },
-  {
    "keyword": "쌍용더플래티넘한강당첨가점",
    "volume": 10,
    "comp": "낮음",
@@ -2042,7 +2018,7 @@
    "entity_id": "2026000468",
    "base_score": 20.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지",
    "score": 11.0,
    "used": false
   },
@@ -2054,7 +2030,7 @@
    "entity_id": "2026000498",
    "base_score": 20.0,
    "growth": 0.55,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(competition)이 답하는 질문과 다름",
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지",
    "score": 11.0,
    "used": false
   },
@@ -2798,7 +2774,7 @@
    "entity_id": "2026000491",
    "base_score": 20.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "why": "지금 쓸 글(competition)이 답하는 질문과 다름",
    "score": 10.0,
    "used": false
   },
@@ -2896,6 +2872,30 @@
    "growth": 0.5,
    "why": "지금 쓸 글(competition)이 답하는 질문과 다름",
    "score": 8.5,
+   "used": false
+  },
+  {
+   "keyword": "천안아이파크시티경쟁률",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "천안아이파크시티",
+   "entity_id": "2026000498",
+   "base_score": 14.0,
+   "growth": 0.55,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 글감 목록(jobs)에 없는 단지",
+   "score": 7.7,
+   "used": false
+  },
+  {
+   "keyword": "쌍용더플래티넘한강청약",
+   "volume": 20,
+   "comp": "중간",
+   "entity": "쌍용더플래티넘한강",
+   "entity_id": "2026000468",
+   "base_score": 51.0,
+   "growth": 0.15,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 지금 글감 목록(jobs)에 없는 단지",
+   "score": 7.6,
    "used": false
   },
   {
@@ -3067,15 +3067,15 @@
    "used": false
   },
   {
-   "keyword": "청주가경아이파크경쟁률",
-   "volume": 10,
+   "keyword": "천안아이파크시티청약",
+   "volume": 15,
    "comp": "높음",
-   "entity": "청주가경아이파크",
-   "entity_id": "2026000491",
-   "base_score": 14.0,
-   "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
-   "score": 7.0,
+   "entity": "천안아이파크시티",
+   "entity_id": "2026000498",
+   "base_score": 42.0,
+   "growth": 0.15,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 지금 글감 목록(jobs)에 없는 단지",
+   "score": 6.3,
    "used": false
   },
   {

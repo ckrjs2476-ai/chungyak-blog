@@ -1,16 +1,16 @@
-# 애드센스 기준 점검: gongmoju (2026-10-20 10:19 KST)
+# 애드센스 기준 점검: gongmoju (2026-10-21 10:20 KST)
 
-- 공개 글: 9편
+- 공개 글: 10편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
 
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
-- 일반 기업: 9편
+- 일반 기업: 10편
 - 공모 구조: 7편  ← 부족
+- 공모주 읽는 법: 2편  ← 부족
 - 공모 일정: 1편  ← 부족
-- 공모주 읽는 법: 1편  ← 부족
 
 ## 겹침·합치기 후보
 
@@ -32,6 +32,7 @@
 | 90 | [유캐스트 공모주 168억 원, 최근 공모 26곳 중](https://gongmoju-breakdown.blogspot.com/2026/10/ucast-ipo-2026-10.html) `2026-10-13-01705573-ipo.md` | 1792 | 0 | 3 | - |
 | 90 | [이에스티 공모주 시설자금 80.7%, 수수료율 3.](https://gongmoju-breakdown.blogspot.com/2026/10/est-ipo-2026-10.html) `2026-10-17-01378005-ipo.md` | 1600 | 0 | 2 | - |
 | 100 | [공모주 구주매출, 최근 공모 27곳 중 4곳만 기존](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-secondary-sale-2026-10.html) `2026-10-20-gujumaechul-topic.md` | 2174 | 0 | 1 | - |
+| 100 | [공모주 인수수수료율, 26곳 중 3% 밑은 규모 1](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-underwriting-fee-2026-10.html) `2026-10-21-susuryo-topic.md` | 2522 | 0 | 1 | - |
 | 100 | [크리에이츠 공모주 포함 10월 19~23일 청약 6](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-week-2026-10-19.html) `2026-10-19-wk1019-weekly.md` | 2625 | 0 | 3 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.

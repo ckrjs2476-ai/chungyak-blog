@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20 10:19",
+ "updated": "2026-10-21 10:20",
  "stage": 1,
  "band": [
   30,
@@ -163,18 +163,6 @@
    "used": false
   },
   {
-   "keyword": "디티에스공모가",
-   "volume": 590,
-   "comp": "중간",
-   "entity": "디티에스",
-   "entity_id": "00534729",
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 97.7,
-   "used": false
-  },
-  {
    "keyword": "바로팜공모주",
    "volume": 50,
    "comp": "중간",
@@ -196,6 +184,30 @@
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
    "score": 97.7,
+   "used": false
+  },
+  {
+   "keyword": "제논공모주",
+   "volume": 30,
+   "comp": "중간",
+   "entity": "제논",
+   "entity_id": "01950720",
+   "base_score": 85.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 97.7,
+   "used": false
+  },
+  {
+   "keyword": "디티에스공모가",
+   "volume": 590,
+   "comp": "중간",
+   "entity": "디티에스",
+   "entity_id": "00534729",
+   "base_score": 85.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 85.0,
    "used": false
   },
   {
@@ -228,18 +240,6 @@
    "comp": "중간",
    "entity": "아델",
    "entity_id": "01938746",
-   "base_score": 85.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 85.0,
-   "used": false
-  },
-  {
-   "keyword": "제논공모주",
-   "volume": 30,
-   "comp": "중간",
-   "entity": "제논",
-   "entity_id": "01950720",
    "base_score": 85.0,
    "growth": 1.0,
    "why": "",
@@ -337,9 +337,9 @@
    "entity": "영광와이케이엠씨",
    "entity_id": "00960234",
    "base_score": 51.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 51.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 58.6,
    "used": false
   },
   {
@@ -535,6 +535,30 @@
    "used": false
   },
   {
+   "keyword": "영광와이케이엠씨수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영광와이케이엠씨",
+   "entity_id": "00960234",
+   "base_score": 20.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 23.0,
+   "used": false
+  },
+  {
+   "keyword": "제논공모가",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "제논",
+   "entity_id": "01950720",
+   "base_score": 20.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 23.0,
+   "used": false
+  },
+  {
    "keyword": "이에스티공모가",
    "volume": 10,
    "comp": "중간",
@@ -624,18 +648,6 @@
    "comp": "낮음",
    "entity": "씨앤엠",
    "entity_id": "00618173",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "영광와이케이엠씨수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "영광와이케이엠씨",
-   "entity_id": "00960234",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -811,18 +823,6 @@
    "used": false
   },
   {
-   "keyword": "제논공모가",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "제논",
-   "entity_id": "01950720",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "바로팜수요예측",
    "volume": 10,
    "comp": "중간",
@@ -840,6 +840,18 @@
    "comp": "중간",
    "entity": "넥스아이",
    "entity_id": "01863318",
+   "base_score": 17.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 19.5,
+   "used": false
+  },
+  {
+   "keyword": "영광와이케이엠씨공모가",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "영광와이케이엠씨",
+   "entity_id": "00960234",
    "base_score": 17.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
@@ -1483,18 +1495,6 @@
    "used": false
   },
   {
-   "keyword": "영광와이케이엠씨공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "영광와이케이엠씨",
-   "entity_id": "00960234",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
    "keyword": "하나에어로다이내믹스공모가",
    "volume": 10,
    "comp": "중간",
@@ -1512,6 +1512,18 @@
    "comp": "높음",
    "entity": "바로팜",
    "entity_id": "01835829",
+   "base_score": 14.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 16.1,
+   "used": false
+  },
+  {
+   "keyword": "제논수요예측",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "제논",
+   "entity_id": "01950720",
    "base_score": 14.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
@@ -1540,18 +1552,6 @@
    "growth": 1.0,
    "why": "",
    "score": 15.0,
-   "used": false
-  },
-  {
-   "keyword": "제논수요예측",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "제논",
-   "entity_id": "01950720",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
    "used": false
   },
   {
@@ -2413,9 +2413,9 @@
    "entity": "디티에스",
    "entity_id": "00534729",
    "base_score": 4.2,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 4.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 4.2,
    "used": false
   },
   {
@@ -2425,9 +2425,9 @@
    "entity": "디티에스",
    "entity_id": "00534729",
    "base_score": 4.2,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 4.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 4.2,
    "used": false
   },
   {
