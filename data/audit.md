@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: cheongyak (2026-10-22 10:51 KST)
+# 애드센스 기준 점검: cheongyak (2026-10-22 11:38 KST)
 
 - 공개 글: 28편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -36,25 +36,25 @@
 | 45 | [숭의역 노르웨이숲 더 스카이 당첨 가점, 69㎡ 최](https://daily-cheongyak.blogspot.com/2026/10/sungui-station-norway-forest-sky-score.html) `2026-10-10-2026000448-score.md` | 1620 | 0 | 1 | 원본·분석 데이터에 없는 숫자: 808; 원본·분석 데이터에 없는 숫자: 8,400; 원본·분석 데이터에 없는 숫자: 91 |
 | 60 | [아이린8차 아파트 경쟁률, 1순위 0.2대 1·45](https://daily-cheongyak.blogspot.com/2026/10/jeju-idoidong-irin-8-competition-2026-10.html) `2026-10-13-2026000444-competition.md` | 1693 | 0 | 1 | 원본·분석 데이터에 없는 숫자: 585; 원본·분석 데이터에 없는 숫자: 18 |
 | 70 | [아크메르 동탄 95 분양가·청약 일정, 평당 4,7](https://daily-cheongyak.blogspot.com/2026/10/acmer-dongtan-95-bunyangga-2026-10.html) `2026-10-18-2026000508-notice.md` | 2513 | 0 | 3 | 원본·분석 데이터에 없는 숫자: 19; 원본·분석 데이터에 없는 숫자: 3,792 |
-| 75 | [더샵 동인센트리체 청약 경쟁률, 1순위 신청 17건](https://daily-cheongyak.blogspot.com/2026/10/the-sharp-dongin-centriche-competition.html) `2026-10-15-2026000494-competition.md` | 1591 | 0 | 1 | 원본·분석 데이터에 없는 숫자: 19 |
 | 80 | [삼천 하늘채 라비엘 당첨 가점, 74B 커트라인 5](https://daily-cheongyak.blogspot.com/2026/10/samcheon-haneulchae-raviel-score-2026-10.html) `2026-10-11-2026000445-score.md` | 1629 | 1 | 1 | - |
-| 85 | [10월 19일 무순위 청약 7곳, 의왕역 한신더휴 ](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-19.html) `2026-10-15-remainder-1019-remainder.md` | 2532 | 0 | 1 | 원본·분석 데이터에 없는 숫자: 566 |
 | 85 | [경기 분양 아파트 9·10월 평당 분양가 비교, 1](https://daily-cheongyak.blogspot.com/2026/10/gyeonggi-apartment-pyeong-price-2026-09.html) `2026-10-16-gyeonggi-sep-oct-region.md` | 2446 | 0 | 3 | 원본·분석 데이터에 없는 숫자: 3,262 |
 | 85 | [인천 분양 아파트 평당 분양가 비교, 송도 3,78](https://daily-cheongyak.blogspot.com/2026/10/incheon-apartment-pyeong-price-2026-05.html) `2026-10-16-incheon-may-oct-region.md` | 2798 | 0 | 2 | 원본·분석 데이터에 없는 숫자: 808 |
+| 90 | [더샵 동인센트리체 청약 경쟁률, 1순위 신청 17건](https://daily-cheongyak.blogspot.com/2026/10/the-sharp-dongin-centriche-competition.html) `2026-10-15-2026000494-competition.md` | 1603 | 0 | 1 | - |
 | 90 | [산곡역자이힐스테이트앤하늘채 청약 일정·분양가, 평당](https://daily-cheongyak.blogspot.com/2026/10/sangok-station-xi-hillstate-haneulchae.html) `2026-10-09-2026000458-notice.md` | 1752 | 0 | 2 | - |
 | 90 | [쌍용 더 플래티넘 한강 청약 일정·분양가, 평당 2](https://daily-cheongyak.blogspot.com/2026/10/ssangyong-platinum-hangang-cheongyak.html) `2026-10-09-2026000468-notice.md` | 1729 | 0 | 1 | - |
-| 90 | [연제갤러리자이 청약 일정·분양가, 평당 2,632만](https://daily-cheongyak.blogspot.com/2026/10/yeonje-gallery-xi-cheongyak-2026-10.html) `2026-10-11-2026000469-notice.md` | 1653 | 0 | 1 | - |
+| 90 | [아산 그랑시티필하우스 경쟁률, 1순위 0.06대 1](https://daily-cheongyak.blogspot.com/2026/10/asan-grandcity-philhouse-competition.html) `2026-10-21-2026000267-competition.md` | 1672 | 0 | 2 | - |
 | 90 | [인천계양 A17블록 신혼희망타운 청약 일정·분양가,](https://daily-cheongyak.blogspot.com/2026/10/incheon-gyeyang-a17-newlywed-town.html) `2026-10-12-2026820010-notice.md` | 1636 | 0 | 1 | - |
 | 90 | [트리븐센텀 2단지 분양가·청약 일정, 평당 2,34](https://daily-cheongyak.blogspot.com/2026/10/trivn-centum-2-bunyangga-2026-10.html) `2026-10-18-2026000514-notice.md` | 2224 | 1 | 2 | - |
+| 90 | [힐스테이트 거제시그니처 경쟁률, 84㎡ 남고 펜트 ](https://daily-cheongyak.blogspot.com/2026/10/hillstate-geoje-signature-competition.html) `2026-10-21-2026000464-competition.md` | 1604 | 0 | 2 | - |
+| 100 | [10월 19일 무순위 청약 7곳, 의왕역 한신더휴 ](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-19.html) `2026-10-15-remainder-1019-remainder.md` | 3164 | 0 | 1 | - |
 | 100 | [10월 2주 청약 경쟁률 순위, 7곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-2w.html) `2026-10-19-weekly-competition-1012-stats.md` | 2433 | 0 | 2 | - |
-| 100 | [부산 분양 아파트 10월 5곳, 평당 1,786만~](https://daily-cheongyak.blogspot.com/2026/10/busan-apartment-pyeong-price-2026-10.html) `2026-10-19-busan-2026-10-region.md` | 2235 | 0 | 2 | - |
-| 100 | [아산 그랑시티필하우스 경쟁률, 1순위 0.06대 1](https://daily-cheongyak.blogspot.com/2026/10/asan-grandcity-philhouse-competition.html) `2026-10-21-2026000267-competition.md` | 1885 | 0 | 2 | - |
+| 100 | [부산 분양 아파트 10월 5곳, 평당 1,786만~](https://daily-cheongyak.blogspot.com/2026/10/busan-apartment-pyeong-price-2026-10.html) `2026-10-19-busan-2026-10-region.md` | 2599 | 0 | 2 | - |
 | 100 | [아크메르 동탄 99 분양가·청약 일정, 평당 4,5](https://daily-cheongyak.blogspot.com/2026/10/acmer-dongtan-99-bunyangga-2026-10.html) `2026-10-17-2026000509-notice.md` | 1956 | 0 | 3 | - |
+| 100 | [연제갤러리자이 청약 일정·분양가, 평당 2,632만](https://daily-cheongyak.blogspot.com/2026/10/yeonje-gallery-xi-cheongyak-2026-10.html) `2026-10-11-2026000469-notice.md` | 1817 | 0 | 1 | - |
 | 100 | [천안 분양 아파트 14곳, 9월 이후 1순위 경쟁률](https://daily-cheongyak.blogspot.com/2026/10/cheonan-apartment-pyeong-price-2026-02.html) `2026-10-20-cheonan-feb-oct-region.md` | 2563 | 0 | 2 | - |
-| 100 | [천안 서북구 아파트 실거래가, 84㎡ 중앙값 3억 ](https://daily-cheongyak.blogspot.com/2026/10/cheonan-seobuk-gu-apartment-silgeorae.html) `2026-10-17-cheonan-seobuk-market.md` | 2963 | 0 | 1 | - |
+| 100 | [천안 서북구 아파트 실거래가, 84㎡ 중앙값 3억 ](https://daily-cheongyak.blogspot.com/2026/10/cheonan-seobuk-gu-apartment-silgeorae.html) `2026-10-17-cheonan-seobuk-market.md` | 2949 | 0 | 1 | - |
 | 100 | [청주 가경 아이파크 경쟁률, 7단지 194.59대 ](https://daily-cheongyak.blogspot.com/2026/10/cheongju-gagyeong-ipark-competition.html) `2026-10-22-cheongju-gagyeong-ipark-region.md` | 2258 | 0 | 2 | - |
-| 100 | [향남역 그로브 스위첸 청약 경쟁률, 1순위 0.64](https://daily-cheongyak.blogspot.com/2026/10/hyangnam-station-grove-switzen_0183861663.html) `2026-10-14-2026000463-competition.md` | 2180 | 0 | 2 | - |
-| 100 | [향남역 그로브 스위첸 청약 일정·분양가, 평당 1,](https://daily-cheongyak.blogspot.com/2026/10/hyangnam-station-grove-switzen.html) `2026-10-07-2026000463-notice.md` | 1851 | 0 | 2 | - |
-| 100 | [힐스테이트 거제시그니처 경쟁률, 84㎡ 남고 펜트 ](https://daily-cheongyak.blogspot.com/2026/10/hillstate-geoje-signature-competition.html) `2026-10-21-2026000464-competition.md` | 1965 | 0 | 2 | - |
+| 100 | [향남역 그로브 스위첸 청약 경쟁률, 1순위 0.64](https://daily-cheongyak.blogspot.com/2026/10/hyangnam-station-grove-switzen_0183861663.html) `2026-10-14-2026000463-competition.md` | 2243 | 0 | 2 | - |
+| 100 | [향남역 그로브 스위첸 청약 일정·분양가, 평당 1,](https://daily-cheongyak.blogspot.com/2026/10/hyangnam-station-grove-switzen.html) `2026-10-07-2026000463-notice.md` | 1904 | 0 | 2 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.
