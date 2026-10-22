@@ -1,0 +1,102 @@
+{
+ "corp_code": "01860700",
+ "corp_name": "인터엑스",
+ "rcept_no": "20261022000478",
+ "rcept_dt": "20261022",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478",
+ "subscription": "2026년 12월 09일 ~ 2026년 12월 10일",
+ "payment_date": "2026년 12월 14일",
+ "notice_date": "2026년 12월 09일",
+ "allot_date": "2026년 12월 14일",
+ "stock_kind": "보통주",
+ "shares": 3000000,
+ "face_value": 500,
+ "price": 10000,
+ "total": 30000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한국투자증권",
+   "shares": 2700000,
+   "amount": 27000000000,
+   "fee": 1176000000,
+   "how": "총액인수"
+  },
+  {
+   "name": "BNK투자증권",
+   "shares": 300000,
+   "amount": 3000000000,
+   "fee": 60000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 6000000000,
+   "share_pct": 19.4,
+   "amount_eok": 60.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 19607000000,
+   "share_pct": 63.5,
+   "amount_eok": 196.1
+  },
+  {
+   "use": "차입금상환",
+   "amount": 4000000000,
+   "share_pct": 12.9,
+   "amount_eok": 40.0
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1293416000,
+   "share_pct": 4.2,
+   "amount_eok": 12.9
+  }
+ ],
+ "fund_total": 30900416000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "주식회사 인터엑스",
+  "ceo_nm": "박정윤",
+  "induty_code": "58222",
+  "est_dt": "20200715",
+  "hm_url": "",
+  "adres": "울산광역시 중구 종가6길 7 10층(우정동, 혁신더테라스)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "한국투자증권",
+ "underwriting_fee_pct": 4.12,
+ "total_eok": 300.0,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 6,
+ "total_rank": 13,
+ "total_rank_of": 29,
+ "total_vs_median_pct": 1.7,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 19607000000,
+  "share_pct": 63.5,
+  "amount_eok": 196.1
+ },
+ "compare_median_total": 29500000000,
+ "compare_count": 29,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 295.0
+}
