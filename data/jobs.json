@@ -1,12 +1,52 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "jobs": [
+  {
+   "house_manage_no": "2026000496",
+   "type": "notice",
+   "name": "청라 아크원 푸르지오",
+   "address": "인천광역시 서해구 청라동 86-1번지 (청라국제업무단지 M5BL)",
+   "priority": 102,
+   "search_volume": 28730,
+   "rank1_date": "2026-11-03",
+   "winner_date": "2026-11-10"
+  },
+  {
+   "house_manage_no": "2026000373",
+   "type": "notice",
+   "name": "고덕강일지구 3단지 토지임대부(본청약)",
+   "address": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
+   "priority": 98,
+   "search_volume": 220,
+   "rank1_date": "2026-11-02",
+   "winner_date": "2026-11-26"
+  },
+  {
+   "house_manage_no": "2026000502",
+   "type": "notice",
+   "name": "화성 향남 롯데캐슬 시그니처",
+   "address": "경기도 화성시 만세구 향남읍 상신리 산 13-13 일원",
+   "priority": 95,
+   "search_volume": 1220,
+   "rank1_date": "2026-11-03",
+   "winner_date": "2026-11-10"
+  },
+  {
+   "house_manage_no": "2026000455",
+   "type": "notice",
+   "name": "신분평 에피트 더웨이시티",
+   "address": "충청북도 청주시 서원구 장성동 135번지 일원(장성지구 A2블럭)",
+   "priority": 92,
+   "search_volume": 3180,
+   "rank1_date": "2026-10-28",
+   "winner_date": "2026-11-04"
+  },
   {
    "house_manage_no": "2026000492",
    "type": "competition",
    "name": "청주 가경 아이파크 8단지",
    "address": "충청북도 청주시 흥덕구 가경동 701번지 일원",
-   "priority": 111,
+   "priority": 86,
    "search_volume": 25610,
    "rank1_date": "2026-10-20",
    "winner_date": "2026-10-27"
@@ -16,60 +56,10 @@
    "type": "competition",
    "name": "청주 가경 아이파크 7단지",
    "address": "충청북도 청주시 흥덕구 가경동 309번지 일원",
-   "priority": 108,
+   "priority": 83,
    "search_volume": 29700,
    "rank1_date": "2026-10-20",
    "winner_date": "2026-10-28"
-  },
-  {
-   "house_manage_no": "2026000502",
-   "type": "notice",
-   "name": "화성 향남 롯데캐슬 시그니처",
-   "address": "경기도 화성시 만세구 향남읍 상신리 산 13-13 일원",
-   "priority": 96,
-   "search_volume": 1220,
-   "rank1_date": "2026-11-03",
-   "winner_date": "2026-11-10"
-  },
-  {
-   "house_manage_no": "2026000458",
-   "type": "competition",
-   "name": "산곡역자이힐스테이트앤하늘채",
-   "address": "인천광역시 부평구 산곡동 10번지 일원(산곡6 주택재개발정비사업)",
-   "priority": 95,
-   "search_volume": 760,
-   "rank1_date": "2026-10-20",
-   "winner_date": "2026-10-27"
-  },
-  {
-   "house_manage_no": "2026000469",
-   "type": "competition",
-   "name": "연제갤러리자이",
-   "address": "부산광역시 연제구 연산동 1123-1번지",
-   "priority": 95,
-   "search_volume": 13340,
-   "rank1_date": "2026-10-20",
-   "winner_date": "2026-10-27"
-  },
-  {
-   "house_manage_no": "2026000373",
-   "type": "notice",
-   "name": "고덕강일지구 3단지 토지임대부(본청약)",
-   "address": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
-   "priority": 89,
-   "search_volume": 30,
-   "rank1_date": "2026-11-02",
-   "winner_date": "2026-11-26"
-  },
-  {
-   "house_manage_no": "2026000455",
-   "type": "notice",
-   "name": "신분평 에피트 더웨이시티",
-   "address": "충청북도 청주시 서원구 장성동 135번지 일원(장성지구 A2블럭)",
-   "priority": 85,
-   "search_volume": 3180,
-   "rank1_date": "2026-10-28",
-   "winner_date": "2026-11-04"
   },
   {
    "house_manage_no": "2026000463",
@@ -86,18 +76,38 @@
    "type": "notice",
    "name": "연산 센텀 월드메르디앙",
    "address": "부산광역시 연제구 연산동 418-8(외1필지)",
-   "priority": 79,
-   "search_volume": 2790,
+   "priority": 76,
+   "search_volume": 3190,
    "rank1_date": "2026-10-27",
    "winner_date": "2026-11-04"
+  },
+  {
+   "house_manage_no": "2026000458",
+   "type": "competition",
+   "name": "산곡역자이힐스테이트앤하늘채",
+   "address": "인천광역시 부평구 산곡동 10번지 일원(산곡6 주택재개발정비사업)",
+   "priority": 70,
+   "search_volume": 760,
+   "rank1_date": "2026-10-20",
+   "winner_date": "2026-10-27"
+  },
+  {
+   "house_manage_no": "2026000469",
+   "type": "competition",
+   "name": "연제갤러리자이",
+   "address": "부산광역시 연제구 연산동 1123-1번지",
+   "priority": 70,
+   "search_volume": 13340,
+   "rank1_date": "2026-10-20",
+   "winner_date": "2026-10-27"
   },
   {
    "house_manage_no": "2026000513",
    "type": "notice",
    "name": "트리븐센텀 1단지",
    "address": "부산광역시 해운대구 반여동 1167-3번지 일원",
-   "priority": 71,
-   "search_volume": 380,
+   "priority": 70,
+   "search_volume": 460,
    "rank1_date": "2026-10-27",
    "winner_date": "2026-11-04"
   },
@@ -106,7 +116,7 @@
    "type": "notice",
    "name": "익산 부송에코르 10년 공공임대주택",
    "address": "전북특별자치도 익산시 부송동 1421(익산 부송4지구 A블록)",
-   "priority": 23,
+   "priority": 22,
    "search_volume": 15,
    "rank1_date": "2026-10-23",
    "winner_date": "2026-10-30"

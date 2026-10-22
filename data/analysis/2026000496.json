@@ -1,0 +1,121 @@
+{
+ "no": "2026000496",
+ "name": "청라 아크원 푸르지오",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-10-22",
+ "rank1_date": "2026-11-03",
+ "city": "서해구",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-10",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
+ "households": 868,
+ "types": [
+  {
+   "ty": "84.9443A",
+   "size": 84,
+   "price": 92070,
+   "area_m2": 122.2119,
+   "general": 58,
+   "special": 190,
+   "pyeong_price": 2490,
+   "special_share_pct": 77
+  },
+  {
+   "ty": "84.921B",
+   "size": 84,
+   "price": 90050,
+   "area_m2": 121.6639,
+   "general": 40,
+   "special": 84,
+   "pyeong_price": 2447,
+   "special_share_pct": 68
+  },
+  {
+   "ty": "84.8592C",
+   "size": 84,
+   "price": 90880,
+   "area_m2": 120.2914,
+   "general": 26,
+   "special": 98,
+   "pyeong_price": 2498,
+   "special_share_pct": 79
+  },
+  {
+   "ty": "84.954D",
+   "size": 84,
+   "price": 90520,
+   "area_m2": 121.9069,
+   "general": 36,
+   "special": 88,
+   "pyeong_price": 2455,
+   "special_share_pct": 71
+  },
+  {
+   "ty": "103.8518A",
+   "size": 103,
+   "price": 117100,
+   "area_m2": 147.0448,
+   "general": 95,
+   "special": 29,
+   "pyeong_price": 2633,
+   "special_share_pct": 23
+  },
+  {
+   "ty": "103.9916B",
+   "size": 103,
+   "price": 116340,
+   "area_m2": 148.2,
+   "general": 99,
+   "special": 25,
+   "pyeong_price": 2595,
+   "special_share_pct": 20
+  }
+ ],
+ "general_total": 354,
+ "special_total": 514,
+ "special_share_pct": 59,
+ "pyeong_min": 2447,
+ "pyeong_max": 2633,
+ "pyeong_avg": 2515,
+ "price_84_min": 90050,
+ "price_84_max": 92070,
+ "special_kinds": {
+  "신혼부부": 93,
+  "생애최초": 105,
+  "신생아": 60,
+  "다자녀": 84,
+  "노부모 부양": 26,
+  "기관추천": 60
+ },
+ "region_price": {
+  "scope": "인천",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 13,
+  "peers": [
+   "힐스테이트 구월아트파크",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-6블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_pyeong": 2870,
+  "diff": -355,
+  "diff_pct": -12,
+  "rank": 8,
+  "of": 14
+ },
+ "area_competition": {
+  "scope": "인천",
+  "peer_count": 13,
+  "peer_avg_rate": 10.54,
+  "peer_max_rate": 50.03
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "no": "2026910270",
+ "name": "충정로역자이르네(2차)",
+ "kind": "remndr",
+ "region": "서울",
+ "notice_date": "2026-10-22",
+ "rank1_date": "2026-10-27",
+ "city": "중구",
+ "supply_kind": "",
+ "winner_date": "2026-11-02",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910270&pblancNo=2026910270",
+ "households": 9,
+ "types": [
+  {
+   "ty": "84.9972A",
+   "size": 84,
+   "price": 243300,
+   "area_m2": null,
+   "general": 9,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 9,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 243300,
+ "price_84_max": 243300,
+ "market": {
+  "region": "서울특별시 중구",
+  "lawd": "11140",
+  "months": 12,
+  "updated": "2026-10-22",
+  "n84": 226,
+  "median84": 157750,
+  "p25_84": 119000,
+  "p75_84": 175000,
+  "new_n84": 0,
+  "new_median84": null,
+  "new_build_years": 5,
+  "umd": "중림동",
+  "umd_n84": 8,
+  "umd_median84": 175000,
+  "diff_vs_median84": 85550,
+  "diff_pct_vs_median84": 54,
+  "diff_vs_umd_median84": 68300,
+  "diff_pct_vs_umd_median84": 39
+ }
+}
