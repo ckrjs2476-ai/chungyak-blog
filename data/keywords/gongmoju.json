@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 05:35",
+ "updated": "2026-10-22 10:20",
  "stage": 1,
  "band": [
   30,
@@ -109,8 +109,8 @@
    "entity": "유캐스트",
    "entity_id": "01705573",
    "base_score": 100.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
    "score": 100.0,
    "used": false
   },
@@ -121,8 +121,8 @@
    "entity": "유캐스트",
    "entity_id": "01705573",
    "base_score": 100.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
    "score": 100.0,
    "used": false
   },
@@ -187,18 +187,6 @@
    "used": false
   },
   {
-   "keyword": "넥스아이공모주",
-   "volume": 60,
-   "comp": "중간",
-   "entity": "넥스아이",
-   "entity_id": "01863318",
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 97.7,
-   "used": false
-  },
-  {
    "keyword": "제논공모주",
    "volume": 70,
    "comp": "중간",
@@ -253,6 +241,30 @@
    "entity": "넥스아이",
    "entity_id": "01863318",
    "base_score": 60.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 75.9,
+   "used": false
+  },
+  {
+   "keyword": "옵토닉스공모주",
+   "volume": 20,
+   "comp": "낮음",
+   "entity": "옵토닉스",
+   "entity_id": "01658035",
+   "base_score": 60.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 69.0,
+   "used": false
+  },
+  {
+   "keyword": "옵토닉스수요예측",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "옵토닉스",
+   "entity_id": "01658035",
+   "base_score": 60.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
    "score": 69.0,
@@ -268,30 +280,6 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 64.5,
-   "used": false
-  },
-  {
-   "keyword": "옵토닉스공모주",
-   "volume": 20,
-   "comp": "낮음",
-   "entity": "옵토닉스",
-   "entity_id": "01658035",
-   "base_score": 60.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 60.0,
-   "used": false
-  },
-  {
-   "keyword": "옵토닉스수요예측",
-   "volume": 15,
-   "comp": "낮음",
-   "entity": "옵토닉스",
-   "entity_id": "01658035",
-   "base_score": 60.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 60.0,
    "used": false
   },
   {
@@ -439,6 +427,18 @@
    "used": false
   },
   {
+   "keyword": "넥스아이공모주",
+   "volume": 60,
+   "comp": "중간",
+   "entity": "넥스아이",
+   "entity_id": "01863318",
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 29.3,
+   "used": true
+  },
+  {
    "keyword": "바로팜공모주",
    "volume": 80,
    "comp": "중간",
@@ -496,6 +496,30 @@
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
    "score": 23.0,
+   "used": false
+  },
+  {
+   "keyword": "옵토닉스공모가",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "옵토닉스",
+   "entity_id": "01658035",
+   "base_score": 20.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 23.0,
+   "used": false
+  },
+  {
+   "keyword": "넥스아이공모가",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "넥스아이",
+   "entity_id": "01863318",
+   "base_score": 17.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 21.5,
    "used": false
   },
   {
@@ -727,18 +751,6 @@
    "used": false
   },
   {
-   "keyword": "옵토닉스공모가",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "옵토닉스",
-   "entity_id": "01658035",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "엠비디공모가",
    "volume": 10,
    "comp": "낮음",
@@ -876,18 +888,6 @@
    "comp": "중간",
    "entity": "영광와이케이엠씨",
    "entity_id": "00960234",
-   "base_score": 17.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 19.5,
-   "used": false
-  },
-  {
-   "keyword": "넥스아이공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "넥스아이",
-   "entity_id": "01863318",
    "base_score": 17.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
@@ -1591,18 +1591,6 @@
    "used": false
   },
   {
-   "keyword": "유캐스트공모주",
-   "volume": 2690,
-   "comp": "낮음",
-   "entity": "유캐스트",
-   "entity_id": "01705573",
-   "base_score": 40.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 13.8,
-   "used": true
-  },
-  {
    "keyword": "래블업공모주",
    "volume": 1910,
    "comp": "낮음",
@@ -1649,6 +1637,18 @@
    "why": "",
    "score": 12.8,
    "used": false
+  },
+  {
+   "keyword": "유캐스트공모주",
+   "volume": 2690,
+   "comp": "낮음",
+   "entity": "유캐스트",
+   "entity_id": "01705573",
+   "base_score": 40.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 12.0,
+   "used": true
   },
   {
    "keyword": "영광공모주",

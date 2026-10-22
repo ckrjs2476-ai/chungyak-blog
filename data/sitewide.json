@@ -1,15 +1,38 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "blogs": {
   "cheongyak": {
-   "posts": 26,
+   "posts": 28,
    "skeleton_pairs": [],
    "type_share": {
-    "notice": 3,
-    "market": 1,
-    "region": 2,
+    "notice": 2,
+    "region": 3,
     "stats": 1,
-    "competition": 1
+    "competition": 2
+   },
+   "format_concentrated": false,
+   "stale": {
+    "2026-10-07-2026000463-notice.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '10월 20일이고 계약은 11월 2~4일이에요'"
+    ],
+    "2026-10-14-2026000463-competition.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '10월 20일, 계약은 11월 2일~4일이에요'"
+    ],
+    "2026-10-15-2026000494-competition.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '10월 20일, 계약 기간은 11월 2일~4일이에요'"
+    ]
+   },
+   "conflicts": [],
+   "anomalies": {},
+   "to_fix": 3
+  },
+  "jeonse": {
+   "posts": 10,
+   "skeleton_pairs": [],
+   "type_share": {
+    "region": 5,
+    "topic": 2,
+    "ranking": 1
    },
    "format_concentrated": false,
    "stale": {},
@@ -17,27 +40,13 @@
    "anomalies": {},
    "to_fix": 0
   },
-  "jeonse": {
-   "posts": 8,
-   "skeleton_pairs": [],
-   "type_share": {
-    "region": 6,
-    "topic": 1,
-    "ranking": 1
-   },
-   "format_concentrated": true,
-   "stale": {},
-   "conflicts": [],
-   "anomalies": {},
-   "to_fix": 0
-  },
   "gongmoju": {
-   "posts": 10,
+   "posts": 12,
    "skeleton_pairs": [
     [
      "2026-10-20-gujumaechul-topic.md",
      "2026-10-21-susuryo-topic.md",
-     0.84,
+     0.83,
      0.13
     ]
    ],
@@ -47,19 +56,27 @@
     "topic": 2
    },
    "format_concentrated": false,
-   "stale": {},
+   "stale": {
+    "2026-10-16-00579342-ipo.md": [
+     "공모가가 확정됐는데 '아직 확정 전'으로 씀"
+    ],
+    "2026-10-19-wk1019-weekly.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '10월 20일과 21일에 크리에이츠 공모주 청약이 열려'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 1
+   "to_fix": 3
   },
   "gwanribi": {
-   "posts": 8,
+   "posts": 10,
    "skeleton_pairs": [],
    "type_share": {
-    "region": 7,
-    "topic": 1
+    "region": 5,
+    "topic": 2,
+    "complex": 1
    },
-   "format_concentrated": true,
+   "format_concentrated": false,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
