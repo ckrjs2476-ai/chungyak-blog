@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 10:51",
+ "updated": "2026-10-23 10:28",
  "stage": 1,
  "band": [
   30,
@@ -49,42 +49,6 @@
    "entity": "이에스티",
    "entity_id": "01378005",
    "base_score": 100.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "크리에이츠공모가",
-   "volume": 140,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 85.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "티앤이코리아공모가",
-   "volume": 110,
-   "comp": "낮음",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
-   "base_score": 100.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "인텔리빅스공모가",
-   "volume": 150,
-   "comp": "중간",
-   "entity": "인텔리빅스",
-   "entity_id": "01649408",
-   "base_score": 85.0,
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 100.0,
@@ -157,8 +121,8 @@
    "entity": "에이엘로봇",
    "entity_id": "01797635",
    "base_score": 100.0,
-   "growth": 1.0,
-   "why": "",
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
    "score": 100.0,
    "used": false
   },
@@ -184,18 +148,6 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "제논공모주",
-   "volume": 70,
-   "comp": "중간",
-   "entity": "제논",
-   "entity_id": "01950720",
-   "base_score": 85.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 97.7,
    "used": false
   },
   {
@@ -307,11 +259,11 @@
    "used": false
   },
   {
-   "keyword": "영광와이케이엠씨공모주",
-   "volume": 15,
+   "keyword": "에이엘로봇수요예측",
+   "volume": 20,
    "comp": "중간",
-   "entity": "영광와이케이엠씨",
-   "entity_id": "00960234",
+   "entity": "에이엘로봇",
+   "entity_id": "01797635",
    "base_score": 51.0,
    "growth": 1.15,
    "why": "청약일 전후라 지금 검색이 몰림",
@@ -336,18 +288,6 @@
    "comp": "중간",
    "entity": "다비오",
    "entity_id": "01706509",
-   "base_score": 51.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 51.0,
-   "used": false
-  },
-  {
-   "keyword": "에이엘로봇수요예측",
-   "volume": 20,
-   "comp": "중간",
-   "entity": "에이엘로봇",
-   "entity_id": "01797635",
    "base_score": 51.0,
    "growth": 1.0,
    "why": "",
@@ -391,6 +331,18 @@
    "used": false
   },
   {
+   "keyword": "티앤이코리아공모가",
+   "volume": 110,
+   "comp": "낮음",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 100.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 34.5,
+   "used": true
+  },
+  {
    "keyword": "동원파츠공모주",
    "volume": 70,
    "comp": "낮음",
@@ -425,6 +377,42 @@
    "why": "",
    "score": 34.0,
    "used": false
+  },
+  {
+   "keyword": "크리에이츠공모가",
+   "volume": 140,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 29.3,
+   "used": true
+  },
+  {
+   "keyword": "인텔리빅스공모가",
+   "volume": 150,
+   "comp": "중간",
+   "entity": "인텔리빅스",
+   "entity_id": "01649408",
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 29.3,
+   "used": true
+  },
+  {
+   "keyword": "제논공모주",
+   "volume": 70,
+   "comp": "중간",
+   "entity": "제논",
+   "entity_id": "01950720",
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 29.3,
+   "used": true
   },
   {
    "keyword": "넥스아이공모주",
@@ -481,9 +469,9 @@
    "entity": "영광와이케이엠씨",
    "entity_id": "00960234",
    "base_score": 20.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 23.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 25.3,
    "used": false
   },
   {
@@ -493,9 +481,9 @@
    "entity": "제논",
    "entity_id": "01950720",
    "base_score": 20.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 23.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 25.3,
    "used": false
   },
   {
@@ -511,11 +499,35 @@
    "used": false
   },
   {
+   "keyword": "에이엘로봇공모가",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "에이엘로봇",
+   "entity_id": "01797635",
+   "base_score": 20.0,
+   "growth": 1.15,
+   "why": "청약일 전후라 지금 검색이 몰림",
+   "score": 23.0,
+   "used": false
+  },
+  {
    "keyword": "넥스아이공모가",
    "volume": 10,
    "comp": "중간",
    "entity": "넥스아이",
    "entity_id": "01863318",
+   "base_score": 17.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 21.5,
+   "used": false
+  },
+  {
+   "keyword": "영광와이케이엠씨공모가",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "영광와이케이엠씨",
+   "entity_id": "00960234",
    "base_score": 17.0,
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
@@ -799,18 +811,6 @@
    "used": false
   },
   {
-   "keyword": "에이엘로봇공모가",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "에이엘로봇",
-   "entity_id": "01797635",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "엔키화이트햇공모가",
    "volume": 10,
    "comp": "낮음",
@@ -883,18 +883,6 @@
    "used": false
   },
   {
-   "keyword": "영광와이케이엠씨공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "영광와이케이엠씨",
-   "entity_id": "00960234",
-   "base_score": 17.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 19.5,
-   "used": false
-  },
-  {
    "keyword": "바로팜공모가",
    "volume": 10,
    "comp": "높음",
@@ -905,6 +893,30 @@
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 17.7,
    "used": false
+  },
+  {
+   "keyword": "제논수요예측",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "제논",
+   "entity_id": "01950720",
+   "base_score": 14.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 17.7,
+   "used": false
+  },
+  {
+   "keyword": "영광와이케이엠씨공모주",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "영광와이케이엠씨",
+   "entity_id": "00960234",
+   "base_score": 51.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 17.6,
+   "used": true
   },
   {
    "keyword": "공모주상장일정",
@@ -1555,18 +1567,6 @@
    "used": false
   },
   {
-   "keyword": "제논수요예측",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "제논",
-   "entity_id": "01950720",
-   "base_score": 14.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 16.1,
-   "used": false
-  },
-  {
    "keyword": "7월공모주청약일정",
    "volume": 25,
    "comp": "낮음",
@@ -1939,11 +1939,47 @@
    "used": false
   },
   {
+   "keyword": "티앤이코리아공모주",
+   "volume": 5160,
+   "comp": "낮음",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 5.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 6.3,
+   "used": false
+  },
+  {
    "keyword": "크리에이츠수요예측",
    "volume": 5040,
    "comp": "중간",
    "entity": "크리에이츠",
    "entity_id": "01540903",
+   "base_score": 4.2,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 5.3,
+   "used": false
+  },
+  {
+   "keyword": "크리에이츠공모주",
+   "volume": 9400,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 4.2,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 5.3,
+   "used": false
+  },
+  {
+   "keyword": "인텔리빅스공모주",
+   "volume": 6970,
+   "comp": "중간",
+   "entity": "인텔리빅스",
+   "entity_id": "01649408",
    "base_score": 4.2,
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
@@ -2921,42 +2957,6 @@
    "why": "",
    "score": 3.5,
    "used": false
-  },
-  {
-   "keyword": "티앤이코리아공모주",
-   "volume": 5160,
-   "comp": "낮음",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
-   "base_score": 5.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 1.7,
-   "used": true
-  },
-  {
-   "keyword": "크리에이츠공모주",
-   "volume": 9400,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 4.2,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 1.4,
-   "used": true
-  },
-  {
-   "keyword": "인텔리빅스공모주",
-   "volume": 6970,
-   "comp": "중간",
-   "entity": "인텔리빅스",
-   "entity_id": "01649408",
-   "base_score": 4.2,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 1.4,
-   "used": true
   },
   {
    "keyword": "공모주일정",

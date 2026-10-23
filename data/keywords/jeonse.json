@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 10:51",
+ "updated": "2026-10-23 10:28",
  "stage": 1,
  "band": [
   30,
@@ -12,18 +12,6 @@
    "comp": "낮음",
    "entity": "동작동",
    "entity_id": "11590:동작동",
-   "base_score": 100.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "강일동아파트전세",
-   "volume": 35,
-   "comp": "낮음",
-   "entity": "강일동",
-   "entity_id": "11740:강일동",
    "base_score": 100.0,
    "growth": 1.0,
    "why": "",
@@ -3521,6 +3509,18 @@
    "why": "",
    "score": 42.0,
    "used": false
+  },
+  {
+   "keyword": "강일동아파트전세",
+   "volume": 35,
+   "comp": "낮음",
+   "entity": "강일동",
+   "entity_id": "11740:강일동",
+   "base_score": 100.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 30.0,
+   "used": true
   },
   {
    "keyword": "강남구전세시세",

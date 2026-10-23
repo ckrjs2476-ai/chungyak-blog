@@ -1,14 +1,14 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "blogs": {
   "cheongyak": {
-   "posts": 28,
+   "posts": 30,
    "skeleton_pairs": [],
    "type_share": {
-    "notice": 2,
-    "region": 3,
+    "region": 4,
     "stats": 1,
-    "competition": 2
+    "competition": 2,
+    "remainder": 1
    },
    "format_concentrated": false,
    "stale": {},
@@ -17,7 +17,7 @@
    "to_fix": 0
   },
   "jeonse": {
-   "posts": 10,
+   "posts": 12,
    "skeleton_pairs": [],
    "type_share": {
     "region": 5,
@@ -31,7 +31,7 @@
    "to_fix": 0
   },
   "gongmoju": {
-   "posts": 12,
+   "posts": 14,
    "skeleton_pairs": [],
    "type_share": {
     "ipo": 5,
@@ -39,18 +39,22 @@
     "topic": 2
    },
    "format_concentrated": false,
-   "stale": {},
+   "stale": {
+    "2026-10-13-01705573-ipo.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '10월 21일 DART에 접수된 기재정정 신고서 기준이에요'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 1
   },
   "gwanribi": {
-   "posts": 10,
+   "posts": 12,
    "skeleton_pairs": [],
    "type_share": {
-    "region": 5,
+    "region": 3,
     "topic": 2,
-    "complex": 1
+    "complex": 3
    },
    "format_concentrated": false,
    "stale": {},

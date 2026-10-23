@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 10:51",
+ "updated": "2026-10-23 10:28",
  "stage": 1,
  "band": [
   30,
@@ -2808,18 +2808,6 @@
    "comp": "낮음",
    "entity": "공릉삼익4단지",
    "entity_id": "A13980509",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "두산관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "두산",
-   "entity_id": "A13983713",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -5671,18 +5659,6 @@
    "used": false
   },
   {
-   "keyword": "가산두산위브관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "가산두산위브",
-   "entity_id": "A15380403",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "구로보광관리비",
    "volume": 10,
    "comp": "낮음",
@@ -7337,6 +7313,30 @@
    "why": "",
    "score": 7.0,
    "used": false
+  },
+  {
+   "keyword": "두산관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "두산",
+   "entity_id": "A13983713",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "가산두산위브관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "가산두산위브",
+   "entity_id": "A15380403",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
   },
   {
    "keyword": "금천구관리비",
