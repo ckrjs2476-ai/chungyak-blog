@@ -1,5 +1,5 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "weekly_competition": [
   {
    "no": "2026000491",
@@ -28,6 +28,20 @@
    "final_shortfall_total": 0,
    "rank1_closed_types": 4,
    "type_count": 4
+  },
+  {
+   "no": "2026000402",
+   "name": "익산 부송에코르 10년 공공임대주택",
+   "region": "전북",
+   "rank1_avg_rate": 2.91,
+   "best": {
+    "ty": "59.9288A",
+    "rate": 12.94,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 3,
+   "type_count": 3
   },
   {
    "no": "2026000469",
@@ -97,76 +111,6 @@
   }
  ],
  "weekly_remainder": [
-  {
-   "no": "2026910261",
-   "name": "올 뉴 챔피언스시티 1차",
-   "region": "광주",
-   "households": 729,
-   "rcept_date": "2026-10-20",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910261&pblancNo=2026910261",
-   "types": [
-    {
-     "ty": "84.973A",
-     "price": 87000,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9479B",
-     "price": 87000,
-     "pyeong_price": null
-    },
-    {
-     "ty": "103.059A",
-     "price": 105300,
-     "pyeong_price": null
-    },
-    {
-     "ty": "112.3407A",
-     "price": 119500,
-     "pyeong_price": null
-    },
-    {
-     "ty": "128.5318A",
-     "price": 135500,
-     "pyeong_price": null
-    },
-    {
-     "ty": "214.8717D",
-     "price": 313000,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910264",
-   "name": "시흥 은계 에피트(조합원 취소분)",
-   "region": "경기",
-   "households": 16,
-   "rcept_date": "2026-10-20",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910264&pblancNo=2026910264",
-   "types": [
-    {
-     "ty": "48.819",
-     "price": 37900,
-     "pyeong_price": null
-    },
-    {
-     "ty": "52.185A",
-     "price": 42500,
-     "pyeong_price": null
-    },
-    {
-     "ty": "59.612A",
-     "price": 48500,
-     "pyeong_price": null
-    },
-    {
-     "ty": "59.057C",
-     "price": 45900,
-     "pyeong_price": null
-    }
-   ]
-  },
   {
    "no": "2026910265",
    "name": "한화포레나 영흥숲(3차)",
@@ -958,14 +902,14 @@
     "min_pyeong": 1497
    },
    "인천": {
-    "count": 2,
-    "avg_pyeong": 2755,
+    "count": 4,
+    "avg_pyeong": 2596,
     "max_pyeong": 2995,
-    "min_pyeong": 2515
+    "min_pyeong": 2433
    },
    "경기": {
-    "count": 5,
-    "avg_pyeong": 2930,
+    "count": 9,
+    "avg_pyeong": 2525,
     "max_pyeong": 4708,
     "min_pyeong": 1606
    },
@@ -1088,6 +1032,22 @@
     }
    },
    {
+    "no": "2026000530",
+    "name": "계양신도시 카이브 유보라(AC3BL)",
+    "region": "인천",
+    "households": 614,
+    "pyeong_avg": 2443,
+    "price_84_min": 81200,
+    "special_kinds": {
+     "신혼부부": 73,
+     "생애최초": 82,
+     "신생아": 48,
+     "다자녀": 60,
+     "노부모 부양": 18,
+     "기관추천": 48
+    }
+   },
+   {
     "no": "2026000494",
     "name": "더샵 동인센트리체",
     "region": "대구",
@@ -1101,6 +1061,22 @@
      "다자녀": 34,
      "노부모 부양": 11,
      "기관추천": 34
+    }
+   },
+   {
+    "no": "2026000532",
+    "name": "계양신도시 카이브 유보라(AC4BL)",
+    "region": "인천",
+    "households": 496,
+    "pyeong_avg": 2433,
+    "price_84_min": 80800,
+    "special_kinds": {
+     "신혼부부": 59,
+     "생애최초": 67,
+     "신생아": 39,
+     "다자녀": 48,
+     "노부모 부양": 14,
+     "기관추천": 39
     }
    },
    {
@@ -1133,6 +1109,38 @@
      "다자녀": 79,
      "노부모 부양": 25,
      "기관추천": 63
+    }
+   },
+   {
+    "no": "2026000518",
+    "name": "GTX운정중앙역 시티프라디움 4단지(후속사업)",
+    "region": "경기",
+    "households": 358,
+    "pyeong_avg": 2341,
+    "price_84_min": 81400,
+    "special_kinds": {
+     "신혼부부": 52,
+     "생애최초": 60,
+     "신생아": 35,
+     "다자녀": 36,
+     "노부모 부양": 11,
+     "기관추천": 36
+    }
+   },
+   {
+    "no": "2026000517",
+    "name": "GTX운정중앙역 시티프라디움 3단지(후속사업)",
+    "region": "경기",
+    "households": 337,
+    "pyeong_avg": 2298,
+    "price_84_min": 79400,
+    "special_kinds": {
+     "신혼부부": 27,
+     "생애최초": 34,
+     "신생아": 18,
+     "다자녀": 34,
+     "노부모 부양": 10,
+     "기관추천": 18
     }
    },
    {
@@ -1193,6 +1201,15 @@
     }
    },
    {
+    "no": "2026820012",
+    "name": "시흥하중지구 A1블록 신혼희망타운(공공분양) 추가입주자모집공고",
+    "region": "경기",
+    "households": 175,
+    "pyeong_avg": 1729,
+    "price_84_min": null,
+    "special_kinds": {}
+   },
+   {
     "no": "2026000386",
     "name": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
     "region": "경기",
@@ -1205,6 +1222,22 @@
      "신생아": 4,
      "다자녀": 4,
      "기관추천": 4
+    }
+   },
+   {
+    "no": "2026000531",
+    "name": "시흥거모지구 S-1블록 공공분양(본청약)",
+    "region": "경기",
+    "households": 300,
+    "pyeong_avg": 1701,
+    "price_84_min": 57026,
+    "special_kinds": {
+     "신혼부부": 10,
+     "생애최초": 16,
+     "신생아": 21,
+     "다자녀": 10,
+     "노부모 부양": 4,
+     "기관추천": 17
     }
    },
    {
@@ -1376,15 +1409,15 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 1772,
-   "생애최초": 969,
-   "신생아": 1398,
-   "다자녀": 1394,
-   "노부모 부양": 408,
-   "기관추천": 1168,
+   "신혼부부": 1993,
+   "생애최초": 1228,
+   "신생아": 1559,
+   "다자녀": 1582,
+   "노부모 부양": 465,
+   "기관추천": 1326,
    "청년": 106
   },
-  "households_total": 15608
+  "households_total": 17888
  },
  "last_month": {
   "month": "2026-09",

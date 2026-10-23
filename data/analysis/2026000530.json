@@ -1,0 +1,141 @@
+{
+ "no": "2026000530",
+ "name": "계양신도시 카이브 유보라(AC3BL)",
+ "kind": "apt",
+ "region": "인천",
+ "notice_date": "2026-10-23",
+ "rank1_date": "2026-11-03",
+ "city": "계양구",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-10",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000530&pblancNo=2026000530",
+ "households": 614,
+ "types": [
+  {
+   "ty": "84.3473A",
+   "size": 84,
+   "price": 82600,
+   "area_m2": 110.7786,
+   "general": 70,
+   "special": 159,
+   "pyeong_price": 2465,
+   "special_share_pct": 69
+  },
+  {
+   "ty": "84.6971B",
+   "size": 84,
+   "price": 81300,
+   "area_m2": 111.238,
+   "general": 22,
+   "special": 57,
+   "pyeong_price": 2416,
+   "special_share_pct": 72
+  },
+  {
+   "ty": "84.8175C",
+   "size": 84,
+   "price": 81400,
+   "area_m2": 111.3961,
+   "general": 10,
+   "special": 16,
+   "pyeong_price": 2416,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.5968D",
+   "size": 84,
+   "price": 81200,
+   "area_m2": 111.1063,
+   "general": 39,
+   "special": 86,
+   "pyeong_price": 2416,
+   "special_share_pct": 69
+  },
+  {
+   "ty": "84.9714E",
+   "size": 84,
+   "price": 81850,
+   "area_m2": 111.5982,
+   "general": 11,
+   "special": 18,
+   "pyeong_price": 2425,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "92.1964A",
+   "size": 92,
+   "price": 91200,
+   "area_m2": 121.0873,
+   "general": 31,
+   "special": 5,
+   "pyeong_price": 2490,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "93.7413A",
+   "size": 93,
+   "price": 90900,
+   "area_m2": 123.1163,
+   "general": 31,
+   "special": 5,
+   "pyeong_price": 2441,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "93.8537B",
+   "size": 93,
+   "price": 91000,
+   "area_m2": 123.2639,
+   "general": 47,
+   "special": 7,
+   "pyeong_price": 2441,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 261,
+ "special_total": 353,
+ "special_share_pct": 57,
+ "pyeong_min": 2416,
+ "pyeong_max": 2490,
+ "pyeong_avg": 2443,
+ "price_84_min": 81200,
+ "price_84_max": 82600,
+ "special_kinds": {
+  "신혼부부": 73,
+  "생애최초": 82,
+  "신생아": 48,
+  "다자녀": 60,
+  "노부모 부양": 18,
+  "기관추천": 48
+ },
+ "region_price": {
+  "scope": "인천",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 15,
+  "peers": [
+   "힐스테이트 구월아트파크",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-6블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_pyeong": 2817,
+  "diff": -374,
+  "diff_pct": -13,
+  "rank": 10,
+  "of": 16
+ },
+ "area_competition": {
+  "scope": "인천",
+  "peer_count": 13,
+  "peer_avg_rate": 10.54,
+  "peer_max_rate": 50.03
+ }
+}

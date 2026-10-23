@@ -59,10 +59,61 @@
   "노부모 부양": 15,
   "기관추천": 60
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9288A",
+    "supply": 17,
+    "closed_at": "1순위 해당지역",
+    "rate": 12.94,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.3359B",
+    "supply": 61,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9793C",
+    "supply": 97,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.82,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 510,
+  "rank1_req": 510,
+  "supply_total": 175,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 2.91,
+  "best": {
+   "ty": "59.9288A",
+   "rate": 12.94,
+   "stage": "1순위 해당지역"
+  }
+ },
  "area_competition": {
   "scope": "전북",
   "peer_count": 4,
   "peer_avg_rate": 3.76,
   "peer_max_rate": 14.78
+ },
+ "region_competition": {
+  "scope": "전북",
+  "peer_count": 4,
+  "peers": [
+   "익산 펠리피아",
+   "군산 세경아파트 우선분양전환 후 잔여세대 ",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_rate": 3.76,
+  "rank": 2,
+  "of": 5
  }
 }

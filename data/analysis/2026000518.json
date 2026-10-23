@@ -1,0 +1,81 @@
+{
+ "no": "2026000518",
+ "name": "GTX운정중앙역 시티프라디움 4단지(후속사업)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-23",
+ "rank1_date": "2026-11-03",
+ "city": "파주시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-11",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000518&pblancNo=2026000518",
+ "households": 358,
+ "types": [
+  {
+   "ty": "60.9995",
+   "size": 60,
+   "price": 60100,
+   "area_m2": 84.8223,
+   "general": 33,
+   "special": 59,
+   "pyeong_price": 2342,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.9594",
+   "size": 84,
+   "price": 81400,
+   "area_m2": 114.9317,
+   "general": 95,
+   "special": 171,
+   "pyeong_price": 2341,
+   "special_share_pct": 64
+  }
+ ],
+ "general_total": 128,
+ "special_total": 230,
+ "special_share_pct": 64,
+ "pyeong_min": 2341,
+ "pyeong_max": 2342,
+ "pyeong_avg": 2341,
+ "price_84_min": 81400,
+ "price_84_max": 81400,
+ "special_kinds": {
+  "신혼부부": 52,
+  "생애최초": 60,
+  "신생아": 35,
+  "다자녀": 36,
+  "노부모 부양": 11,
+  "기관추천": 36
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 38,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "더 플래티넘 파인애비뉴",
+   "안양 에버포레 자연앤 e편한세상(A1BL)",
+   "힐스테이트 시흥더클래스",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "중앙하이츠 원종역"
+  ],
+  "peer_avg_pyeong": 2522,
+  "diff": -181,
+  "diff_pct": -7,
+  "rank": 16,
+  "of": 39
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 34,
+  "peer_avg_rate": 2.52,
+  "peer_max_rate": 21.98
+ }
+}

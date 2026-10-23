@@ -1,0 +1,111 @@
+{
+ "no": "2026000517",
+ "name": "GTX운정중앙역 시티프라디움 3단지(후속사업)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-23",
+ "rank1_date": "2026-11-03",
+ "city": "파주시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-10",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000517&pblancNo=2026000517",
+ "households": 337,
+ "types": [
+  {
+   "ty": "60.9995",
+   "size": 60,
+   "price": 58900,
+   "area_m2": 83.0332,
+   "general": 12,
+   "special": 21,
+   "pyeong_price": 2345,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.9594",
+   "size": 84,
+   "price": 79800,
+   "area_m2": 112.4399,
+   "general": 29,
+   "special": 48,
+   "pyeong_price": 2346,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.4998",
+   "size": 84,
+   "price": 79400,
+   "area_m2": 114.2095,
+   "general": 31,
+   "special": 55,
+   "pyeong_price": 2298,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "88.5023",
+   "size": 88,
+   "price": 84100,
+   "area_m2": 116.828,
+   "general": 55,
+   "special": 7,
+   "pyeong_price": 2380,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "115.3141",
+   "size": 115,
+   "price": 99400,
+   "area_m2": 151.5064,
+   "general": 69,
+   "special": 10,
+   "pyeong_price": 2169,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 196,
+ "special_total": 141,
+ "special_share_pct": 42,
+ "pyeong_min": 2169,
+ "pyeong_max": 2380,
+ "pyeong_avg": 2298,
+ "price_84_min": 79400,
+ "price_84_max": 79800,
+ "special_kinds": {
+  "신혼부부": 27,
+  "생애최초": 34,
+  "신생아": 18,
+  "다자녀": 34,
+  "노부모 부양": 10,
+  "기관추천": 18
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 38,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "더 플래티넘 파인애비뉴",
+   "안양 에버포레 자연앤 e편한세상(A1BL)",
+   "힐스테이트 시흥더클래스",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "중앙하이츠 원종역"
+  ],
+  "peer_avg_pyeong": 2523,
+  "diff": -225,
+  "diff_pct": -9,
+  "rank": 18,
+  "of": 39
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 34,
+  "peer_avg_rate": 2.52,
+  "peer_max_rate": 21.98
+ }
+}
