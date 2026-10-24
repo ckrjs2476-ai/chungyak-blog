@@ -2,18 +2,22 @@
  "lawd": "11410",
  "name": "서울특별시 서대문구",
  "months": 12,
- "updated": "2026-10-22",
- "trade_count": 2446,
+ "updated": "2026-10-24",
+ "trade_count": 2451,
  "cancel_count": 73,
- "n84": 970,
+ "n84": 972,
  "median84": 109000,
  "p25_84": 84000,
  "p75_84": 145000,
- "median84_pyeong_excl": 4247,
+ "median84_pyeong_excl": 4250,
  "new_n84": 84,
  "new_median84": 144000,
  "new_build_years": 5,
  "umd84": {
+  "남가좌동": {
+   "n": 179,
+   "median": 142500
+  },
   "홍제동": {
    "n": 289,
    "median": 98200
@@ -21,10 +25,6 @@
   "홍은동": {
    "n": 174,
    "median": 74150
-  },
-  "남가좌동": {
-   "n": 177,
-   "median": 142000
   },
   "충정로2가": {
    "n": 3,
@@ -136,15 +136,15 @@
   },
   {
    "month": "2026-10",
-   "count": 61,
-   "n84": 20,
-   "median84": 109300
+   "count": 66,
+   "n84": 22,
+   "median84": 120000
   }
  ],
  "top_apts": [
   {
    "name": "북가좌동 DMC래미안e편한세상",
-   "count": 109,
+   "count": 110,
    "median84": 152250,
    "built": 2012
   },
@@ -162,21 +162,21 @@
   },
   {
    "name": "남가좌동 DMC파크뷰자이1단지",
-   "count": 58,
-   "median84": 161000,
+   "count": 60,
+   "median84": 162500,
    "built": 2015
+  },
+  {
+   "name": "천연동 천연뜨란채",
+   "count": 56,
+   "median84": 113000,
+   "built": 2006
   },
   {
    "name": "홍제동 홍제한양",
    "count": 56,
    "median84": 107800,
    "built": 1993
-  },
-  {
-   "name": "천연동 천연뜨란채",
-   "count": 55,
-   "median84": 113000,
-   "built": 2006
   },
   {
    "name": "북가좌동 DMC한양",
