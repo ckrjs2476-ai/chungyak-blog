@@ -23,5 +23,9 @@ for h in (sys.argv[1:] or ["daily-cheongyak", "jeonse-ondogye", "gongmoju-breakd
     naver = "naver" if any("naver" in m for m in metas) else "-"
     others = [m for m in metas if "naver" not in m]
     rb = (robots.text if robots else "").strip().replace(chr(10), " | ")[:200]
+    robots_meta = re.findall(r"<meta[^>]*name=['\"]robots['\"][^>]*>", home.text if home else "", re.I)
+    smx = sm.text if sm else ""
+    sm_urls = len(re.findall(r"<loc>", smx))
+    print(f"::notice::{h} robots_meta={robots_meta} noindex={'noindex' in ' '.join(robots_meta).lower()} sitemap_locs={sm_urls}")
     print(f"::notice::{h} home={home.status_code if home else None} naver={naver} other={others} sm={sm.status_code if sm else None} rss={rss.status_code if rss else None} robots={robots.status_code if robots else None} [{rb}]")
     time.sleep(40)
