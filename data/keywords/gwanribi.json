@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23 10:59",
+ "updated": "2026-10-24 10:27",
  "stage": 1,
  "band": [
   30,
@@ -4183,18 +4183,6 @@
    "used": false
   },
   {
-   "keyword": "양천구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "양천구",
-   "entity_id": "region:11470",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "목동삼성래미안관리비",
    "volume": 10,
    "comp": "낮음",
@@ -6919,18 +6907,6 @@
    "used": false
   },
   {
-   "keyword": "양천구아파트관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "양천구",
-   "entity_id": "region:11470",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
    "keyword": "양천롯데캐슬관리비",
    "volume": 10,
    "comp": "중간",
@@ -7315,6 +7291,18 @@
    "used": false
   },
   {
+   "keyword": "양천구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "양천구",
+   "entity_id": "region:11470",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
    "keyword": "두산관리비",
    "volume": 10,
    "comp": "낮음",
@@ -7373,6 +7361,18 @@
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 6.0,
    "used": false
+  },
+  {
+   "keyword": "양천구아파트관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "양천구",
+   "entity_id": "region:11470",
+   "base_score": 17.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 5.1,
+   "used": true
   },
   {
    "keyword": "관리비계산프로그램",

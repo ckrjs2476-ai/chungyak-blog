@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23 10:59",
+ "updated": "2026-10-24 10:27",
  "stage": 1,
  "band": [
   30,
@@ -1327,18 +1327,6 @@
    "used": false
   },
   {
-   "keyword": "서초구아파트전세",
-   "volume": 125,
-   "comp": "높음",
-   "entity": "서초구",
-   "entity_id": "11650",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "신림동아파트전세",
    "volume": 70,
    "comp": "높음",
@@ -1608,18 +1596,6 @@
    "comp": "높음",
    "entity": "풍납동",
    "entity_id": "11710:풍납동",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
-   "keyword": "고덕동아파트전세",
-   "volume": 85,
-   "comp": "높음",
-   "entity": "고덕동",
-   "entity_id": "41220:고덕동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -3631,6 +3607,30 @@
    "used": false
   },
   {
+   "keyword": "서초구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서초구",
+   "entity_id": "11650",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "서초구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서초구",
+   "entity_id": "11650",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
    "keyword": "아파트전세가율",
    "volume": 30,
    "comp": "중간",
@@ -3653,6 +3653,30 @@
    "why": "",
    "score": 21.2,
    "used": false
+  },
+  {
+   "keyword": "서초구아파트전세",
+   "volume": 125,
+   "comp": "높음",
+   "entity": "서초구",
+   "entity_id": "11650",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
+  },
+  {
+   "keyword": "고덕동아파트전세",
+   "volume": 85,
+   "comp": "높음",
+   "entity": "고덕동",
+   "entity_id": "41220:고덕동",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
   },
   {
    "keyword": "강남구아파트전세",
@@ -4716,30 +4740,6 @@
    "comp": "낮음",
    "entity": "관악구",
    "entity_id": "11620",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "서초구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "서초구",
-   "entity_id": "11650",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "서초구전세시세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "서초구",
-   "entity_id": "11650",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",

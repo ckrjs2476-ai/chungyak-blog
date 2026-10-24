@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23 10:59",
+ "updated": "2026-10-24 10:27",
  "stage": 1,
  "band": [
   30,
@@ -199,27 +199,15 @@
    "used": false
   },
   {
-   "keyword": "옵토닉스공모주",
-   "volume": 20,
-   "comp": "낮음",
-   "entity": "옵토닉스",
-   "entity_id": "01658035",
-   "base_score": 60.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 69.0,
-   "used": false
-  },
-  {
    "keyword": "옵토닉스수요예측",
    "volume": 15,
    "comp": "낮음",
    "entity": "옵토닉스",
    "entity_id": "01658035",
    "base_score": 60.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 69.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 75.9,
    "used": false
   },
   {
@@ -493,9 +481,9 @@
    "entity": "옵토닉스",
    "entity_id": "01658035",
    "base_score": 20.0,
-   "growth": 1.15,
-   "why": "청약일 전후라 지금 검색이 몰림",
-   "score": 23.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 25.3,
    "used": false
   },
   {
@@ -605,6 +593,18 @@
    "why": "",
    "score": 21.2,
    "used": false
+  },
+  {
+   "keyword": "옵토닉스공모주",
+   "volume": 20,
+   "comp": "낮음",
+   "entity": "옵토닉스",
+   "entity_id": "01658035",
+   "base_score": 60.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 20.7,
+   "used": true
   },
   {
    "keyword": "에스에프씨공모주",
