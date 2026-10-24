@@ -109,23 +109,23 @@
    {
     "ty": "84.99B",
     "supply": 141,
-    "closed_at": "1순위 해당지역",
-    "rate": 1.12,
-    "final_shortfall": 11
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 37
    },
    {
     "ty": "84.99C",
     "supply": 32,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 7
+    "final_shortfall": 16
    },
    {
     "ty": "84.99D",
     "supply": 60,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 15
+    "final_shortfall": 30
    },
    {
     "ty": "84.99E",
@@ -138,9 +138,9 @@
   "req_total": 429,
   "rank1_req": 330,
   "supply_total": 322,
-  "final_shortfall_total": 33,
-  "closed_types": 4,
-  "rank1_closed_types": 4,
+  "final_shortfall_total": 83,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
   "type_count": 6,
   "rank1_avg_rate": 1.02,
   "best": {

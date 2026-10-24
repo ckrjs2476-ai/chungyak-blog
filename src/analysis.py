@@ -80,21 +80,31 @@ def competition(unit: dict) -> dict:
     if not by_ty:
         return {}
     types, best, req_all, rank1_req, supply_all, shortfall = [], None, 0, 0, 0, 0
+    reside_order = {"해당지역": 0, "기타경기": 1, "기타지역": 2}
     for ty, rows in by_ty.items():
+        # 대규모 택지(해당지역·기타경기·기타지역 세 무리)는 응답 순서가 해당→기타지역→기타경기라
+        # 실제 진행 순서(순위 → 해당 → 기타경기 → 기타지역)로 다시 줄 세운다. 마지막 단계가 최종 미달이다.
+        rows = sorted(rows, key=lambda r: (int(_num(r.get("SUBSCRPT_RANK_CODE")) or 9),
+                                           reside_order.get(str(r.get("RESIDE_SENM", "")).strip(), 1)))
         supply = int(_num(rows[0].get("SUPLY_HSHLDCO")) or 0)
         supply_all += supply
-        closed_at, rate = None, None
         for r in rows:
             req = int(_num(r.get("REQ_CNT")) or 0)
             req_all += req
             if str(r.get("SUBSCRPT_RANK_CODE")) == "1":
                 rank1_req += req
-            val = _num(r.get("CMPET_RATE"))
-            if val is not None and closed_at is None:
-                closed_at = f"{r.get('SUBSCRPT_RANK_CODE')}순위 {r.get('RESIDE_SENM')}"
-                rate = val
-                if best is None or val > best["rate"]:
-                    best = {"ty": ty, "rate": val, "stage": closed_at}
+        # 마감 단계: 그 행부터 끝까지 남은 세대(△)가 하나도 없는 첫 행(앞 무리만 채운 1.00은 마감이 아니다)
+        short = [bool(re.search(r"△", str(r.get("CMPET_RATE", "")))) for r in rows]
+        closed_at, rate = None, None
+        for i, r in enumerate(rows):
+            if not any(short[i:]):
+                val = _num(r.get("CMPET_RATE"))
+                if val is not None:
+                    closed_at = f"{r.get('SUBSCRPT_RANK_CODE')}순위 {r.get('RESIDE_SENM')}"
+                    rate = val
+                    if best is None or val > best["rate"]:
+                        best = {"ty": ty, "rate": val, "stage": closed_at}
+                break
         last = str(rows[-1].get("CMPET_RATE", ""))
         m = re.search(r"△\s*(\d+)", last)
         left = int(m.group(1)) if m else 0

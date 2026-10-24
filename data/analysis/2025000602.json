@@ -95,8 +95,8 @@
    {
     "ty": "84.967A",
     "supply": 117,
-    "closed_at": "1순위 해당지역",
-    "rate": 1.25,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.73,
     "final_shortfall": 0
    },
    {
@@ -140,13 +140,13 @@
   "supply_total": 879,
   "final_shortfall_total": 607,
   "closed_types": 1,
-  "rank1_closed_types": 1,
+  "rank1_closed_types": 0,
   "type_count": 6,
   "rank1_avg_rate": 0.23,
   "best": {
    "ty": "84.967A",
-   "rate": 1.25,
-   "stage": "1순위 해당지역"
+   "rate": 1.73,
+   "stage": "2순위 해당지역"
   }
  },
  "region_price": {

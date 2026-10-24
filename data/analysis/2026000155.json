@@ -75,8 +75,8 @@
    {
     "ty": "84.839A",
     "supply": 107,
-    "closed_at": "1순위 해당지역",
-    "rate": 1.44,
+    "closed_at": "2순위 해당지역",
+    "rate": 1.67,
     "final_shortfall": 0
    },
    {
@@ -84,35 +84,35 @@
     "supply": 98,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 32
+    "final_shortfall": 66
    },
    {
     "ty": "84.9865C",
     "supply": 56,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 17
+    "final_shortfall": 38
    },
    {
     "ty": "101.9956",
     "supply": 167,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 63
+    "final_shortfall": 125
    }
   ],
   "req_total": 205,
   "rank1_req": 152,
   "supply_total": 428,
-  "final_shortfall_total": 112,
+  "final_shortfall_total": 229,
   "closed_types": 1,
-  "rank1_closed_types": 1,
+  "rank1_closed_types": 0,
   "type_count": 4,
   "rank1_avg_rate": 0.36,
   "best": {
    "ty": "84.839A",
-   "rate": 1.44,
-   "stage": "1순위 해당지역"
+   "rate": 1.67,
+   "stage": "2순위 해당지역"
   }
  },
  "region_price": {

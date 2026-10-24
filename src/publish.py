@@ -306,6 +306,15 @@ def rerender(only: set[str] | None = None) -> int:
                            headers=h, timeout=60), f"다시 만들기 {p.get('title')}")
         p["title"] = meta["title"]
         n += 1
+        try:  # 고친 원고의 숫자도 얼린다: 지금 데이터로 확인되는 숫자를 기존 스냅샷에 더한다(지난 기준일 숫자는 유지)
+            from check import save_snapshot, snapshot_numbers, used_valid_numbers
+            mod = _blog if _blog is not None else __import__("check")
+            nums = used_valid_numbers(body, mod.allowed_set(dict(meta, _file=p["file"]), body))
+            old = snapshot_numbers(BLOG, p["file"])
+            if nums - old:
+                save_snapshot(BLOG, p["file"], old | nums, datetime.now(KST).date().isoformat())
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::스냅샷 갱신 실패 {p.get('file')}: {type(e).__name__}: {e}")
     PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
     print(f"::notice::{n}편 다시 만듦")
     return 0
