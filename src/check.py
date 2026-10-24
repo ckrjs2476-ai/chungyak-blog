@@ -21,7 +21,7 @@ REQUIRED_FIELDS = ("type", "title", "slug", "description", "labels", "keyword", 
 UNIT_TYPES = ("notice", "competition", "score")                  # 단지 1곳: house_manage_no
 MULTI_TYPES = ("remainder", "region", "monthly", "stats", "guide", "market")  # 여러 단지·통계: house_manage_nos
 ALL_TYPES = UNIT_TYPES + MULTI_TYPES
-ALLOWED_LABELS = {"청약일정", "경쟁률", "당첨가점", "무순위", "서울", "경기", "인천", "지방", "청약가이드",
+ALLOWED_LABELS = {"청약일정", "청약 결과", "수도권", "지방", "청약가이드",  # 2026-10-24 라벨 통합(사용자 결정)
                   "월간정리", "청약통계", "실거래가"}
 MIN_ANALYSIS_NUMBERS = 2  # 원본에 없고 분석(data/analysis, data/stats)에만 있는 숫자가 최소 이만큼 있어야 한다
 # 사람말투-글쓰기 규칙(위키피디아 'Signs of AI writing' 기반)에서 자동으로 잡을 수 있는 AI 말투

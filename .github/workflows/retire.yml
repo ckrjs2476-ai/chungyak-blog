@@ -1,0 +1,65 @@
+# 사용자 동의를 받은 합치기·비공개: data/retire.json(블로그별 blogs/<키>/data/retire.json)에 적힌 글을 임시글로 되돌린다
+name: retire-posts
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/retire.json"
+      - "blogs/*/data/retire.json"
+permissions:
+  contents: write
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+jobs:
+  retire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests markdown pyyaml
+      - name: 청약노트
+        run: python src/publish.py --retire
+        env:
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 전세 온도계
+        if: hashFiles('blogs/jeonse/data/retire.json') != ''
+        run: python src/publish.py --retire
+        env:
+          BLOG_KEY: jeonse
+          BLOGGER_BLOG_ID: "5197834942352686134"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 공모주 뜯어보기
+        if: hashFiles('blogs/gongmoju/data/retire.json') != ''
+        run: python src/publish.py --retire
+        env:
+          BLOG_KEY: gongmoju
+          BLOGGER_BLOG_ID: "899799118910718337"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 관리비 돋보기
+        if: hashFiles('blogs/gwanribi/data/retire.json') != ''
+        run: python src/publish.py --retire
+        env:
+          BLOG_KEY: gwanribi
+          BLOGGER_BLOG_ID: "1893946611364166783"
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "publish-bot"
+          git config user.email "publish-bot@users.noreply.github.com"
+          git add -A data blogs posts
+          git diff --cached --quiet || git commit -m "retire $(date -u +%F)"
+          git pull --rebase && git push

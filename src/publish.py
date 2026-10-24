@@ -174,8 +174,8 @@ def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
     return post
 
 
-REGION_LABELS = ["서울", "경기", "인천", "지방"] if _blog is None else _blog.REGION_LABELS
-TYPE_LABELS = (["청약일정", "경쟁률", "당첨가점", "무순위", "청약통계", "실거래가", "월간정리", "청약가이드"]
+REGION_LABELS = ["수도권", "지방"] if _blog is None else _blog.REGION_LABELS  # 2026-10-24 서울·경기·인천 → 수도권
+TYPE_LABELS = (["청약일정", "청약 결과", "청약통계", "실거래가", "월간정리", "청약가이드"]  # 경쟁률·당첨가점·무순위 → 청약 결과
                if _blog is None else _blog.TYPE_LABELS)
 MAX_LINKS = 6
 
@@ -302,7 +302,7 @@ def rerender(only: set[str] | None = None) -> int:
         html = build_card(meta) + to_html(body) + result_block(meta) + method_link() + block
         p["result_sig"] = result_sig(meta)
         _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}",
-                           json={"content": html, "title": meta["title"]},
+                           json={"content": html, "title": meta["title"], "labels": p["labels"]},
                            headers=h, timeout=60), f"다시 만들기 {p.get('title')}")
         p["title"] = meta["title"]
         n += 1
@@ -555,6 +555,47 @@ def main() -> int:
     return 1 if failed else 0
 
 
+def retire() -> int:
+    """data/retire.json(블로그별 경로)에 적힌 원고 파일의 공개 글을 임시글로 되돌린다(합치기·비공개 결정용).
+    사용자 동의를 받은 글만 큐에 넣는다. 원고는 posts/retired/로 옮기고, 남은 글의 관련 글 링크를 갱신한다."""
+    qpath = (ROOT / "data" / "retire.json") if _blog is None else (BASE / "data" / "retire.json")
+    if not qpath.exists():
+        return 0
+    queue = json.loads(qpath.read_text("utf-8"))
+    files = set(queue.get("files", []))
+    if not files:
+        return 0
+    token = access_token()
+    blog = os.environ["BLOGGER_BLOG_ID"]
+    h = {"Authorization": f"Bearer {token}"}
+    data = json.loads(PUBLISHED.read_text("utf-8"))
+    retired_dir = DONE.parent / "retired"
+    done = []
+    for p in data["posts"]:
+        if p.get("file") not in files or not p.get("blogger_id"):
+            continue
+        res = requests.post(f"{API}/blogs/{blog}/posts/{p['blogger_id']}/revert", headers=h, timeout=60)
+        if not res.ok and res.status_code != 404:
+            print(f"::warning::되돌리기 실패 {p.get('title')}: {res.status_code} {res.text[:200]}")
+            continue
+        p["status"] = "RETIRED"
+        p["retired_at"] = datetime.now(KST).isoformat(timespec="minutes")
+        p["merged_into"] = queue.get("merged_into", {}).get(p["file"], "")
+        src = DONE / p["file"]
+        if src.exists():
+            retired_dir.mkdir(parents=True, exist_ok=True)
+            shutil.move(str(src), retired_dir / p["file"])
+        done.append(p["file"])
+        print(f"::notice::임시글로 되돌림: {p.get('title')}")
+    PUBLISHED.write_text(json.dumps(data, ensure_ascii=False, indent=1), "utf-8")
+    left = sorted(files - set(done))
+    qpath.write_text(json.dumps({"files": left, "merged_into": {k: v for k, v in queue.get("merged_into", {}).items()
+                                                                if k in left}}, ensure_ascii=False, indent=1), "utf-8")
+    n = refresh_related(token, limit=200)
+    print(f"::notice::{len(done)}편 되돌림, 관련 글 링크 {n}편 갱신")
+    return 0
+
+
 def list_blogs() -> int:
     """이 계정(토큰)으로 관리하는 블로그 목록과 ID를 출력하고 data/blogs.json에 저장한다."""
     h = {"Authorization": f"Bearer {access_token()}"}
@@ -573,6 +614,8 @@ if __name__ == "__main__":
             sys.exit(list_blogs())
         if "--rerender" in sys.argv:
             sys.exit(rerender())
+        if "--retire" in sys.argv:
+            sys.exit(retire())
         if "--publish-drafts" in sys.argv:
             sys.exit(publish_drafts())
         if "--pages" in sys.argv:
