@@ -105,3 +105,7 @@ angle: 규모
 2. `python blogs/gongmoju/check_cli.py <파일>` 통과까지 고친다(최대 5번). 실패하면 `blogs/gongmoju/posts/held/`로 옮기고 사유를 남긴다.
 3. 통과하면 commit·push → GitHub Actions(gongmoju-publish)가 발행.
 4. 규칙·코드·데이터 파일은 고치지 않는다. 한 번에 1편만.
+
+
+## 캡처(2026-10-25)
+새 글에 원자료 화면 캡처를 1장 넣을 수 있으면 넣는다. 방법·캡션 규칙·금지(지어낸 경험)는 rules/capture_guide.md.
