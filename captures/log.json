@@ -102,5 +102,63 @@
   "bytes": 4932,
   "url": "https://www.k-apt.go.kr/kaptinfo/openkaptinfo.do",
   "at": "2026-10-25 10:22"
+ },
+ {
+  "name": "probe-rt-gis",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 GIS서비스",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 65366,
+  "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=",
+  "at": "2026-10-25 10:24"
+ },
+ {
+  "name": "probe-rt-xls",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 23416,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-10-25 10:24"
+ },
+ {
+  "name": "probe-kapt-sido",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 30410,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-10-25 10:25"
+ },
+ {
+  "name": "probe-kapt-cmp",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 13190,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiSearchCompare.do",
+  "at": "2026-10-25 10:25"
+ },
+ {
+  "name": "probe-kapt-info",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://www.k-apt.go.kr/apiinfo/goApiInfoSearch.do\nCall log:\n  - navigating to \"https://www.k-apt.go.kr/apiinfo/goApiInfoSearch.do\", waiting until \"networkidle\"\n",
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoSearch.do"
  }
 ]

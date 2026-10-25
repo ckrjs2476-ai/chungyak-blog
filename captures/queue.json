@@ -1,7 +1,1 @@
-[
- {"name": "probe-rt-gis", "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=", "dump": true, "sleep": 4},
- {"name": "probe-rt-xls", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "dump": true, "sleep": 3},
- {"name": "probe-kapt-sido", "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do", "dump": true, "sleep": 4},
- {"name": "probe-kapt-cmp", "url": "https://www.k-apt.go.kr/apiinfo/goApiSearchCompare.do", "dump": true, "sleep": 4},
- {"name": "probe-kapt-info", "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoSearch.do", "dump": true, "sleep": 4}
-]
+[]

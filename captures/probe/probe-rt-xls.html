@@ -1,0 +1,1277 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>국토교통부 실거래가공개시스템 자료제공</title>
+
+  <!-- Swiper JS -->
+  <script type="text/javascript" src="/js/egovframework/com/cmm/jquery-1.12.4.min.js"></script>
+  <!--  <script src="/js/egovframework/swiper-bundle.min.js"></script>-->
+  <script src="/js/pt/common.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/pt/reset.css">
+  <link rel="stylesheet" href="/css/pt/common.css">
+  <link rel="stylesheet" href="/css/pt/style.css">
+  <link rel="stylesheet" href="/css/pt/common-media.css">
+  <link rel="stylesheet" href="/css/egovframework/if_data_give_media.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="/css/egovframework/swiper.min.css">
+
+  <!-- JavaScript -->
+  <script src="/js/pt/search_if.js"></script>
+   
+</head>
+<body>
+  <!-- PAGE -->
+  <div id="wrap">
+  		
+
+
+
+
+<script>
+	$(document).ready(function() {
+		
+		document.addEventListener('keydown', function(e) {
+			const keyCode = e.keyCode;
+			var srhThingSecd = $("input[name=srhThingSecd]").val();
+			
+			// Tab : 9
+			if(keyCode == 9) {	
+				var menuId = $(':focus').attr('id');
+				//console.log(menuId);
+				
+				if(menuId == "lastMenu3" || menuId == "lastMenu2") {
+					$("#innerDiv").attr("tabindex", -1).focus();
+				}
+			}
+			
+			// 13
+			if(keyCode == 13) {
+				var menuId = $(':focus').attr('id');
+				if(menuId == "menuCls") {
+										
+					var mbHeader = $('.mb_header');
+					var mbHeaderBg = $('.mb_header_bg');
+					var scrollPosition = 0;
+					
+					mbHeader.removeClass('on');
+				    mbHeaderBg.css('display', 'none');
+				    $('body').css('overflow', 'auto');
+				    $('body').css('position', 'static');
+				    $('body').removeProp('top');
+				    $('body').removeProp('width');
+				    window.scrollTo(0, scrollPosition);
+				}
+			}
+		});
+	});
+	
+</script>
+<!-- Header pc -->
+<header id="header" class="pc_header">
+	<!-- Header-top -->
+	<div class="header-top-container">
+		<div class="container">
+			<div id="skipNav"><a href="#wrap_content" title="본문 바로가기 링크">본문 바로가기</a></div>
+			<div class="top-header">
+				<div class="left-header" onclick="location.href='/';">
+              		<h1 class="logo">
+              		
+						
+	    				
+	    					<a href="/" class="link" title="국토교통부 실거래가공개 메인화면 이동"><img src="/images/pt/logo_new.png" alt="국토교통부 로고"></a>
+	    				
+	    	  		
+              		</h1>
+              		<span class="head-title">실거래가 공개시스템</span>
+            	</div>
+            	<div class="right-header">
+              		<a href="/pt/bbs/bbsList.do?bbsId=BBSMSTR_000000000151&amp;mobileAt=" class="link" title="게시판 화면으로 이동">게시판</a>
+              		<a href="/pt/info/info.do?mobileAt=" class="link" title="공개안내 화면으로 이동">공개안내</a>
+              		<a href="javascript:void(0)" class="link mb-menu" title="실거래가공개 매뉴 열기" id="lastMenu3"><img src="/images/pt/mb_menu.svg" alt="실거래가공개 매뉴 열기"></a>
+            	</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header-bottom -->
+	<div class="header-bottom-container">
+		<div class="container">
+			<div class="bottom-header">
+				<nav class="nav">
+              		<ul class="main_depth">
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=A&amp;mobileAt=" class="link" title="아파트 거래조회 화면으로 이동">아파트</a></li>
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=B&amp;mobileAt=" class="link" title="연립다세대 거래조회 화면으로 이동">연립/다세대</a></li>
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=C&amp;mobileAt=" class="link" title="단독다가구 거래조회 화면으로 이동">단독/다가구</a></li>
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=D&amp;mobileAt=" class="link" title="오피스텔 거래조회 화면으로 이동">오피스텔</a></li>
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=G&amp;mobileAt=" class="link" title="토지 거래조회 화면으로 이동">토지</a></li>
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=E&amp;mobileAt=" class="link" title="분양입주권 거래조회 화면으로 이동">분양/입주권</a></li>
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=F&amp;mobileAt=" class="link" title="상업업무용 거래조회 화면으로 이동">상업/업무용</a></li>
+                		<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=H&amp;mobileAt=" class="link" title="공장창고등 거래조회 화면으로 이동">공장/창고 등</a></li>
+                		
+              		</ul>
+            	</nav>
+            	<div class="util">
+              		<ul class="wrap_util">
+                		
+                		<li class="list"><a href="/pt/xls/xls.do?mobileAt=" class="link" title="자료제공 화면으로 이동">자료제공</a></li>
+              		</ul>
+            	</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Header mb -->
+<header class="mb_header">
+	<div id="mb-skipNav"><a href="#wrap_content" title="본문 바로가기 링크">본문 바로가기</a></div>
+	<div class="mb_header_bg"></div>
+	<div class="inner" id="innerDiv">
+		<div class="mb-header-top">
+			<a href="javascript:void(0)" class="link mb-menu-on" title="실거래가공개 매뉴 닫기" id="menuCls">
+            	<img src="/images/pt/mb_menu_on.svg" alt="실거래가공개 매뉴 닫기">
+          	</a>
+          	<div class="mb-header-blue">
+            	<a href="/pt/bbs/bbsList.do?bbsId=BBSMSTR_000000000151&amp;mobileAt=" class="link" title="게시판 화면으로 이동">게시판</a>
+            	<a href="/pt/info/info.do?mobileAt=" class="link" title="공개안내 화면으로 이동">공개안내</a>
+          	</div>
+		</div>
+        <nav class="nav">
+          	<ul class="main_depth">
+            	<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=A&amp;mobileAt=" class="link" title="아파트 거래조회 화면으로 이동">아파트<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+            	<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=B&amp;mobileAt=" class="link" title="연립다세대 거래조회 화면으로 이동">연립/다세대<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+            	<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=C&amp;mobileAt=" class="link" title="단독다가구 거래조회 화면으로 이동">단독/다가구<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+            	<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=D&amp;mobileAt=" class="link" title="오피스텔 거래조회 화면으로 이동">오피스텔<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+				<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=G&amp;mobileAt=" class="link" title="토지 거래조회 화면으로 이동">토지<img src="/images/pt/nav_icon.svg" alt=""></a></li>            	
+            	<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=E&amp;mobileAt=" class="link" title="분양입주권 거래조회 화면으로 이동">분양/입주권<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+            	<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=F&amp;mobileAt=" class="link" title="상업업무용 거래조회 화면으로 이동">상업/업무용<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+            	<li class="list"><a href="/pt/gis/gis.do?srhThingSecd=H&amp;mobileAt=" class="link" title="공장창고등 거래조회 화면으로 이동">공장/창고 등<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+            	
+            	
+            	<li class="list"><a href="/pt/xls/xls.do?mobileAt=" class="link" title="자료제공 화면으로 이동" id="lastMenu2">자료제공<img src="/images/pt/nav_icon.svg" alt=""></a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="undefined-header"></div>
+		
+		
+
+<style>
+	.lr_area{
+		display: none;
+	}
+	
+	.load{
+		display: none;
+	}
+</style>
+<script type="text/javascript" src="/js/pt/xls/jquery.fileDownload.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		selMgr.init();
+		fnSrhArea();
+		
+		var date = new Date();
+		$('#srhToDt').val(date.format("yyyy-MM-dd"));
+		var fromDate = new Date(date.setMonth(date.getMonth() - 12));
+		fromDate = new Date(date.setDate(fromDate.getDate() + 1));
+		$('#srhFromDt').val(fromDate.format("yyyy-MM-dd"));
+	});
+
+	var selMgr = {
+	
+		init : function() {
+			//셀렉트박스 온체인지이벤트 추가
+			$("#srhSidoCd").on('change', this.onChangeSido);
+			$("#srhSggCd").on('change', this.onChangeSgg);
+			$("#srhEmdCd").on('change', this.onChangeEmd);
+			$("#srhLoadCd").on('change', this.onChangeEmd);
+			$("#search-btn").on('click', this.onChangeLoad);
+	
+			//시도 셀렉트박스 설정
+			this.reset();
+	
+			if (this.search.sidoCode != '') {
+				$("#srhSidoCd").val(this.search.sidoCode).trigger('change');
+				$("#srhSggCd").val(this.search.signguCode).trigger('change');
+				$("#srhEmdCd").val(this.search.emdCode).trigger('change');
+			}
+		},
+	
+		search : {
+			signguCode : "",
+			sidoCode : "",
+			emdCode : "",
+			liCode : ""
+		},
+	
+		reset : function() {
+			
+			this.setSido();
+	
+			$("#srhSggCd").empty();
+			$("#srhSggCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}))
+	
+			$("#srhEmdCd").empty();
+			$("#srhEmdCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}))
+			
+			$("#srhHsmpCd").empty();
+			$("#srhHsmpCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}))	
+			
+			$("#srhRoadNm").val('');
+			
+			$("#srhLoadCd").empty();
+			$("#srhLoadCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}))	
+			
+		},
+	
+		setSido : function() {
+			//전국 시도 목록 조회
+			var sidoList = selMgr.sendAjax("/data/sido.do", {});
+	
+			//시도 셀텍트 박스 옵션 업데이트
+			$("#srhSidoCd").empty();
+			$("#srhSidoCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			})).css('color', '');
+	
+			sidoList.forEach(function(obj, index) {
+				$("#srhSidoCd").append($('<option>', {
+					value : obj.signguCode,
+					text : obj.ctprvnNm
+				}));
+			})
+		},
+	
+		onChangeSido : function() {
+			
+			//선택된 시도지역의 하위 시군구 목록 조회
+			var data = {
+				signguCode : $("#srhSidoCd option:selected").val().substr(0,2)
+			};
+			var sggList = selMgr.sendAjax("/data/sgg.do", data);
+	
+			//시군구 셀렉트박스 옵션 업데이트
+			$("#srhSggCd").empty();
+			$("#srhSggCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}));
+	
+			sggList.forEach(function(obj, index) {
+				$("#srhSggCd").append($('<option>', {
+					value : obj.signguCode,
+					text : obj.signguNm
+				}));
+			})
+	
+			//읍면동 셀렉트박스 옵션 초기화
+			$("#srhEmdCd").empty();
+			$("#srhEmdCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}));
+			
+			//단지 셀렉트박스 옵션 업데이트
+			$("#srhHsmpCd").empty();
+			$("#srhHsmpCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}));
+	
+		},
+	
+		onChangeSgg : function() {
+			
+			
+			//선택된 시군구지역의 하위 읍면동 목록 조회 - 신고 자료가 존재하는 읍면동 목록만 호출
+			var data = $('#frm_xls').serialize();
+			var emdList = selMgr.sendAjax("/cmm/ptEmdList.do", data).emdList;
+			
+			//읍면동 셀렉트박스 옵션 업데이트
+			$("#srhEmdCd").empty();
+			$("#srhEmdCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}));
+	
+			emdList.forEach(function(obj, index) {
+				$("#srhEmdCd").append($('<option>', {
+					value : (obj.emdCode),
+					text : obj.ladNm
+				}));
+			});
+			
+			//단지 셀렉트박스 옵션 업데이트
+			$("#srhHsmpCd").empty();
+			$("#srhHsmpCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}));
+			
+		},
+		
+		onChangeEmd : function() {
+			
+			//단지 셀렉트박스 옵션 업데이트
+			$("#srhHsmpCd").empty();
+			$("#srhHsmpCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}));
+			
+			//선택된 읍면동지역의 하위 단지 목록 조회 - 신고 자료가 존재하는 단지 목록만 호출
+			var data = $('#frm_xls').serialize();
+			var hsmpList = selMgr.sendAjax("/cmm/ptHsmpList.do", data).hsmpList;
+			
+			hsmpList.forEach(function(obj, index) {
+				$("#srhHsmpCd").append($('<option>', {
+					value : obj.aprpnHsmpCode,
+					text : obj.aprpnHsmpNm
+				}));
+			});
+			
+		},
+		
+		onChangeLoad : function () {
+			
+			if($("#srhSidoCd").val() == "") {
+				alert("시도를 선택해주세요.");
+				return;
+			}
+			
+			if($("#srhSggCd").val() == "") {
+				alert("구군을 선택해주세요.");
+				return;
+			}
+			
+			// 도로명 목록 조회
+			var data = $('#frm_xls').serialize();
+			var loadList = selMgr.sendAjax("/cmm/ptLoadList.do", data).loadList;
+			
+			$("#srhLoadCd").empty();
+			$("#srhLoadCd").append($('<option>', {
+				value : '',
+				text : "전체"
+			}));	
+			
+			if(loadList.length == 0){
+				alert("도로명 조건에 해당하는 데이터가 존재하지 않습니다.");
+			} else {
+				loadList.forEach(function(obj, index) {
+					$("#srhLoadCd").append($('<option>', {
+						value : obj.rnCode,
+						text : obj.roadNm
+					}));
+				});
+				
+				alert("도로명이 검색되었습니다. 도로명선택 콤보창에서 선택해주세요.");
+				$("select[name=srhLoadCd]").focus();
+			}
+			
+		},
+		
+		sendAjax : function(type, data) {
+			
+			var url = ""+type+";jsessionid=xsXVGggQjkzLRP1Ygw7Hl0UAo_awUYdfMTqbHyxT.RT_DN20";
+			var result = null;
+			
+			$.ajax({
+				url : url,
+				type : "POST",
+				dataType : 'json',
+				data : data,
+				async : false,
+				success : function(data) {
+					result = data;
+				},
+				error : function(e) {
+					//console.log(e);
+				}
+			});
+			
+			return result;
+		}
+	};
+	
+	function fn_toDtObject(dt) {
+	    var year  = dt.substr(0, 4);
+	    var month = dt.substr(4, 2) - 1;
+	    var day   = dt.substr(6, 2);
+	
+	    return new Date(year,month,day);
+	}
+	
+	function fn_dtInterval(fromDate, toDate) {
+	    var dateFrom = fn_toDtObject(fromDate);
+	    var dateTo = fn_toDtObject(toDate);
+	
+	    var years  = dateTo.getFullYear() - dateFrom.getFullYear();
+	    var months = dateTo.getMonth() - dateFrom.getMonth();
+	    var days   = dateTo.getDate() - dateFrom.getDate();
+	    var day    = 1000 * 3600 * 24;
+	    
+	    var numDt = parseInt((dateTo - dateFrom) / day, 10)
+	
+	    return numDt + 1;
+	}
+	
+	function isDateFormat(d) {
+	    var df = /[0-9]{4}[0-9]{2}[0-9]{2}/;
+	    return d.match(df);
+	}
+	
+	function isLeaf(year) {
+	    var leaf = false;
+	
+	    if(year % 4 == 0) {
+	        leaf = true;
+	
+	        if(year % 100 == 0) {
+	            leaf = false;
+	        }
+	
+	        if(year % 400 == 0) {
+	            leaf = true;
+	        }
+	    }
+	
+	    return leaf;
+	}
+	
+	function fnIsValidDate(d) {
+	    // 포맷에 안맞으면 false리턴
+	    if(!isDateFormat(d)) {
+	        return false;
+	    }
+	
+	    var month_day = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+	
+	    var year  = d.substring(0, 4);
+	    var month = d.substring(4, 6);
+	    var day   = d.substring(6, 8);
+	
+		// 날짜가 0이면 false
+	    if(day == 0) {
+	        return false;
+	    }
+	
+	    var isValid = false;
+	
+	    // 윤년일때
+	    if(isLeaf(year)) {
+	        if(month == 2) {
+	            if(day <= month_day[month-1] + 1) {
+	                isValid = true;
+	            }
+	        } else {
+	            if(day <= month_day[month-1]) {
+	                isValid = true;
+	            }
+	        }
+	    } else {
+	        if(day <= month_day[month-1]) {
+	            isValid = true;
+	        }
+	    }
+	
+	    return isValid;
+	}
+	
+	function fnValidation(){
+		
+		// 기간 1년이상 막고
+		// 시도, 시군구 까지 선택 필수
+		var fromDate = document.frm_xls.srhFromDt.value.replaceAll('-','');
+		var toDate = document.frm_xls.srhToDt.value.replaceAll('-','');
+		var calDt = fn_dtInterval(fromDate, toDate);
+				
+		if(document.frm_xls.srhFromDt.value == ""){
+			alert("계약일자의 시작일이 날짜형식에 맞지 않거나 입력되지 않았습니다.");
+			return false;
+		}
+		
+		if(document.frm_xls.srhToDt.value == ""){
+			alert("계약일자의 종료일이 날짜형식에 맞지 않거나 입력되지 않았습니다.");
+			return false;
+		}
+		
+		if(!fnIsValidDate( fromDate )){
+			alert("계약일자의 시작일을 확인하여 주세요.");
+			return false;
+		}
+		
+		if(!fnIsValidDate( toDate )){
+			alert("계약일자의 종료일을 확인하여 주세요.");
+			return false;
+		}
+		
+	    if(fromDate > toDate) {
+	        alert("종료일자는 시작일자보다  이후날짜로 선택하세요.");
+	        return ;
+	    }
+
+		if(document.frm_xls.srhSidoCd.value == ""){
+			if(31 < calDt){
+				alert("전국 자료제공 계약일자 범위는 최대 1개월입니다.\n이용에 참고하시길 바랍니다.");
+				return false;
+			}
+		}
+		
+		if(document.frm_xls.srhSggCd.value == ""){
+			if(366 < calDt){
+				alert("시도별 자료제공 계약일자 범위는 최대 1년입니다.\n이용에 참고하시길 바랍니다.");
+				return false;
+			}
+		}
+		
+		if($('#srhAddrGbn').val() == "1"){
+			
+			if(document.frm_xls.srhEmdCd.value == ""){
+				if(366 < calDt){
+					alert("시도별 자료제공 계약일자 범위는 최대 1년입니다.\n이용에 참고하시길 바랍니다.");
+					return false;
+				}
+			}
+			
+		} else if($('#srhAddrGbn').val() == "2"){
+			if(document.frm_xls.srhLoadCd.value == ""){
+				if(366 < calDt){
+					alert("시도별 자료제공 계약일자 범위는 최대 1년입니다.\n이용에 참고하시길 바랍니다.");
+					return false;
+				}
+			}
+		}
+		
+	    if(document.frm_xls.srhFromAmount.value != "" && isNaN(document.frm_xls.srhFromAmount.value) == true) {
+	        alert("하한금액은 숫자만 입력하세요.");
+	        return false;
+	    }
+	    
+	    if(document.frm_xls.srhToAmount.value != "" && isNaN(document.frm_xls.srhToAmount.value) == true) {
+	    	alert("싱한금액은 숫자만 입력하세요.");
+	        return false;
+	    }
+	    
+	    if(Number(document.frm_xls.srhFromAmount.value) > Number(document.frm_xls.srhToAmount.value)) {
+	        alert("상한금액은 하한금액보다 큰 숫자를 입력하세요.");
+	        return false;
+	    }
+	    
+		return true;
+		
+	}
+	
+	var isDown = false;
+	function fnExcelDown(){
+		showLoadingBar();	
+	
+		if(!fnValidation()){		// validation 체크
+			hideLoadingBar();
+			return;
+		}
+/*		
+		if(!fnDownCheck()){			// 다운 횟수 체크 - java에서 체크하도록 수정
+			isDown = false;
+			return;
+		}
+*/		
+		if(!fnDownDataCheck()){		// 검색 조건에 맞는 데이터 있는지 체크
+			hideLoadingBar();
+			isDown = false;
+			return;
+		}
+		
+		if(isDown){
+			hideLoadingBar();
+			alert("처리중입니다. 다운로드가 완료될때까지 잠시 기다려주세요.");			
+			return false;
+		}
+		
+		isDown = true;
+		
+		var sidoNm = $("#srhSidoCd option:selected").text();
+		var sggNm = $("#srhSggCd option:selected").text();
+		var emdNm = $("#srhEmdCd option:selected").text();
+		var hsmpNm = $("#srhHsmpCd option:selected").text();
+		
+		$("#sidoNm").val(sidoNm);
+		$("#sggNm").val(sggNm);
+		$("#emdNm").val(emdNm);
+		$("#hsmpNm").val(hsmpNm);
+			    
+	    var areaNm;
+		if($('#srhDelngSecd').val() == "1"){
+			areaNm = $("#srhArea option:selected").text();
+	    } else if($('#srhDelngSecd').val() == "2"){
+	    	areaNm = $("#srhLrArea option:selected").text();
+	    }
+		$("#areaNm").val(areaNm);
+	    
+		var loadNm = $("#srhLoadCd option:selected").text();  
+		$("#loadNm").val(loadNm);
+	    	    
+		var data = $('#frm_xls').serialize();
+		
+		document.frm_xls.action = "/pt/xls/ptXlsExcelDown.do;jsessionid=xsXVGggQjkzLRP1Ygw7Hl0UAo_awUYdfMTqbHyxT.RT_DN20"
+		
+		$.fileDownload($('#frm_xls').prop('action'), {
+			httpMethod: "POST",
+			data : data,
+			successCallback: function (url) { 
+				hideLoadingBar();
+				isDown = false;
+		    },
+		    failCallback: function (data, url, error) {
+		    	hideLoadingBar();
+		    	isDown = false;
+		     	var msg = JSON.parse(data);
+		     	alert(msg.error);
+		    }
+		});		
+		return;	
+	}
+	
+	
+	function fnCSVDown(){
+		showLoadingBar();
+		
+		if(!fnValidation()){		// validation 체크
+			hideLoadingBar();
+			isDown = false;
+			return;
+		}
+/*		
+		if(!fnDownCheck()){			// 다운 횟수 체크 - java에서 체크하도록 수정
+			isDown = false;
+			return;
+		}
+*/		
+		if(!fnDownDataCheck()){		// 검색 조건에 맞는 데이터 있는지 체크
+			hideLoadingBar();
+			isDown = false;
+			return;
+		}
+
+		if(isDown){
+			hideLoadingBar();
+			alert("처리중입니다. 다운로드가 완료될때까지 잠시 기다려주세요.");			
+			return false;;
+		}
+		isDown = true;
+		
+		var sidoNm = $("#srhSidoCd option:selected").text();
+		var sggNm = $("#srhSggCd option:selected").text();
+		var emdNm = $("#srhEmdCd option:selected").text();
+		var hsmpNm = $("#srhHsmpCd option:selected").text();
+		
+		$("#sidoNm").val(sidoNm);
+		$("#sggNm").val(sggNm);
+		$("#emdNm").val(emdNm);
+		$("#hsmpNm").val(hsmpNm);
+	    
+	    var areaNm;
+		if($('#srhDelngSecd').val() == "1"){
+			areaNm = $("#srhArea option:selected").text();
+	    } else if($('#srhDelngSecd').val() == "2"){
+	    	areaNm = $("#srhLrArea option:selected").text();
+	    }
+		$("#areaNm").val(areaNm);
+	    
+		var loadNm = $("#srhLoadCd option:selected").text();  
+		$("#loadNm").val(loadNm);
+	    
+		var data = $('#frm_xls').serialize();
+		
+		document.frm_xls.action = "/pt/xls/ptXlsCSVDown.do;jsessionid=xsXVGggQjkzLRP1Ygw7Hl0UAo_awUYdfMTqbHyxT.RT_DN20"
+		
+		$.fileDownload($('#frm_xls').prop('action'), {
+			httpMethod: "POST",
+			data : data,
+			successCallback: function (url) { 
+				hideLoadingBar();
+				isDown = false;
+		    },
+		    failCallback: function (responseHtml, url, error) { 
+		    	hideLoadingBar();
+		     	alert("다운로드에 실패하였습니다."); 
+		     	isDown = false;
+		    }
+		});
+		
+		return;
+		
+	}
+	
+	// 물건 구분
+	function fnThingChange(val){
+		
+		$('#srhThingNo').val(val);
+		fnSetSearch();
+		
+		if(val == "A" || val == "B" || val == "D"){
+			// 아파트, 연립다세대 , 오피스텔
+			$('.hsmp').show();
+			$("#srhEmdCd").off().on('change', selMgr.onChangeEmd);
+			$("#srhLoadCd").off().on('change', selMgr.onChangeEmd);
+			$('.thing_lr').show();
+			$('.thing_load').show();
+			
+		} else if(val == "C"){
+			// 단독 다가구
+			$('.hsmp').hide();
+			$("#srhEmdCd").off('change', selMgr.onChangeEmd);
+			$("#srhLoadCd").off('change', selMgr.onChangeEmd);
+			$('.thing_lr').show();
+			$('.thing_load').show();
+			
+		} else if(val == "E"){
+			// 분양입주권
+			$('.hsmp').show();
+			$("#srhEmdCd").off().on('change', selMgr.onChangeEmd);
+			$("#srhLoadCd").off().on('change', selMgr.onChangeEmd);
+			$('.thing_lr').hide();
+			$('.thing_load').hide();
+			fnRtToLr("1");	//매매
+			fnAddrChange("1");// 지번주소
+			
+		} else if(val == "F" || val == "H"){
+			// 상업업무용, 공장창고등
+			$('.hsmp').hide();
+			$("#srhEmdCd").off('change', selMgr.onChangeEmd);
+			$("#srhLoadCd").off('change', selMgr.onChangeEmd);
+			$('.thing_lr').hide();
+			$('.thing_load').show();
+			fnRtToLr("1");	//매매
+			
+		} else if(val == "G"){
+			// 토지
+			$('.hsmp').hide();
+			$("#srhEmdCd").off('change', selMgr.onChangeEmd);
+			$("#srhLoadCd").off('change', selMgr.onChangeEmd);
+			$('.thing_lr').hide();
+			$('.thing_load').hide();
+			fnRtToLr("1");	//매매
+			fnAddrChange("1");// 지번주소
+			
+		} else {
+			$('.hsmp').show();
+		}	
+		
+		$("#fst").attr("tabindex", -1).focus();
+	}
+	
+	// 매매, 전월세 전환
+	function fnRtToLr(val){
+		
+		$('#srhDelngSecd').val(val);
+		fnSetSearch();
+		fnAmountReset();
+		
+		if(val == "1"){ // 매매
+			
+			$('.rt_area').show();
+			$('.lr_area').hide();
+			$('.rt-price').html("금액");
+			$('.lr-price').html("&nbsp;");
+			$('.quarter-search-tab li').eq(0).addClass("on");
+			$('.quarter-search-tab li').eq(1).removeClass("on");
+			
+		} else if(val == "2"){ // 전월세
+			
+			$('.lr_area').show();
+			$('.rt_area').hide();
+			$('.rt-price').html("&nbsp;");
+			$('.lr-price').html("금액");
+			
+		}
+		
+	}
+	
+	// 지번, 도로명 주소 변경
+	function fnAddrChange(val){
+		
+		$('#srhAddrGbn').val(val);
+		fnSetSearch();
+		
+		if(val == "1"){
+			// 지번 - srhHsmpCd, srhHsmpCd
+			$('.load').hide();
+			$('.bunji').show();
+			$('.loadli a').eq(0).addClass("on");
+			$('.loadli a').eq(1).removeClass("on");
+			
+			$("#srhSggCd").off().on('change', selMgr.onChangeSgg);
+			
+		} else if(val == "2"){
+			// 도로명 - srhLoadCd
+			$('.load').show();
+			$('.bunji').hide();
+			
+			$("#srhSggCd").off('change', selMgr.onChangeSgg);
+			
+		}
+		
+	}
+	
+	function fnLfstsChange(val){
+		
+		$('#srhLfstsSecd').val(val);
+		
+	}
+	
+	function fnSrhArea(){
+		
+		var data =""
+		if( $('#srhThingNo').val() == 'G' || $('#srhThingNo').val() == 'F' || $('#srhThingNo').val() == 'H'){
+			data = "code_id=RT111";
+		} else {
+			data = "code_id=RT112";
+		}
+			
+		$.ajax({
+			type:"POST",
+			url:"/cmm/code/listCmmCode.do;jsessionid=xsXVGggQjkzLRP1Ygw7Hl0UAo_awUYdfMTqbHyxT.RT_DN20",
+			data: data,
+			dataType:'json',
+			success:function(rsData, status){
+	
+				if($('#srhDelngSecd').val() == '1'){
+					// 매매
+					$("#srhArea").empty();
+					$("#srhArea").append($('<option>', {
+						value : '',
+						text : "전체"
+					}));
+					
+					rsData.cmmList.forEach(function(e){
+						$("#srhArea").append($('<option>', {
+							value : e.code,
+							text : e.code_nm
+						}));
+					});
+					
+				} else if( $('#srhDelngSecd').val() == '2' ){
+					// 전월세
+					$("#srhLrArea").empty();
+					$("#srhLrArea").append($('<option>', {
+						value : '',
+						text : "전체"
+					}));
+					
+					rsData.cmmList.forEach(function(e){
+						$("#srhLrArea").append($('<option>', {
+							value : e.code,
+							text : e.code_nm
+						}));
+					});
+					
+				}
+				
+			},
+			error:function(error){
+				////console.log('실패', error);
+			}
+		});
+		
+	}
+	
+	function fnDownCheck(){
+		var check = true;
+		$.ajax({
+			type:"POST",
+			url:"/pt/xls/ptXlsDownCheck.do;jsessionid=xsXVGggQjkzLRP1Ygw7Hl0UAo_awUYdfMTqbHyxT.RT_DN20",
+			data: "",
+			dataType:'json',
+			async: false,
+			success:function(rsData, status){
+	
+				if(rsData.cnt > 100){
+					alert("일일 다운로드 횟수는 최대 100건 입니다.");
+					check = false;
+				}
+			},
+			error:function(error){
+				////console.log('실패', error);
+				check = false;
+			}
+		});
+		
+		return check;
+	}
+	
+	function fnDownDataCheck(){
+		var data = $('#frm_xls').serialize();
+		var check = true;
+		
+		$.ajax({
+			type:"POST",
+			url:"/pt/xls/ptXlsDownDataCheck.do;jsessionid=xsXVGggQjkzLRP1Ygw7Hl0UAo_awUYdfMTqbHyxT.RT_DN20",
+			data: data,
+			dataType:'json',
+			async: false,
+			success:function(data){
+				if(data.error){
+			     	alert(data.error);
+			     	check = false;
+				}
+				
+				if(data.cnt == 0){
+					alert("검색 조건에 해당하는 데이터가 존재하지 않습니다.");
+					check = false;
+				}
+			},
+			error:function(error){
+				////console.log('실패', error);
+				check = false;
+			}
+		});
+		
+		return check;
+	}
+	
+	//검색 조건 변경 시 초기화 set
+	function fnSetSearch(){
+		
+		$("#srhEmdCd").empty();
+		$("#srhEmdCd").append($('<option>', {
+			value : '',
+			text : "전체"
+		}));
+		
+		$("#srhHsmpCd").empty();
+		$("#srhHsmpCd").append($('<option>', {
+			value : '',
+			text : "전체"
+		}));
+		
+		$("#srhLoadCd").empty();
+		$("#srhLoadCd").append($('<option>', {
+			value : '',
+			text : "전체"
+		}));
+		
+		var thingNo = $('#srhThingNo').val(); // 물건구분(아파트, 연립/다세대, 단독/다가구, 오피스텔, 분양입주권, 상업/업무, 토지)
+		
+		//선택된 시군구지역 중 신고 자료가 존재하는 읍면동 목록만 호출
+		selMgr.onChangeSgg();
+		
+		if(thingNo == "A" ||thingNo == "B" || thingNo == "D" || thingNo == "E"){
+			selMgr.onChangeEmd();
+		}
+		
+		if($('#srhAddrGbn').val()==2){
+			selMgr.onChangeSgg();
+			if(!isEmpty($("#srhLoadCd option:selected").val())){
+				selMgr.onChangeLoad();
+			}
+		}
+		
+		fnSrhArea();
+	
+	}
+	
+	function fnAmountReset(){
+		$("#srhFromAmount").val("");
+		$("#srhToAmount").val("");		
+	}
+	
+	function showLoadingBar() {
+		var maskHeight = $(document).height();
+		var maskWidth = window.document.body.clientWidth;		
+		
+		$('#mask').css({
+			'width' : maskWidth
+			,'height' : maskHeight
+			,'opacity' : '0.3'
+		});
+		
+		$('#mask').show();
+		$('#loadingImg').show();
+		
+	}
+
+	function hideLoadingBar() {
+		$('#mask, #loadingImg').hide();
+	}	
+	
+</script>
+<!-- Contents -->
+<!-- quarter -->
+<div id="wrap_content" class="quarter">
+	<div class="wrap_inner">
+		<!-- quarter-section -->
+		<section class="section quarter_section">
+			<div class="container">
+				<form name="frm_xls" id="frm_xls">
+					<input type="hidden" name="srhThingNo" id="srhThingNo" value="A"> <!-- 물건 -->
+					<input type="hidden" name="srhDelngSecd" id="srhDelngSecd" value="1"> <!-- 매매/전월세 -->
+					<input type="hidden" name="srhAddrGbn" id="srhAddrGbn" value="1"> <!-- 지번,도로명 -->
+					<input type="hidden" name="srhLfstsSecd" id="srhLfstsSecd" value="1"> <!-- 보증금/월세금 -->
+					
+					<input type="hidden" name="sidoNm" id="sidoNm" value="">	<!-- 시도명 -->
+					<input type="hidden" name="sggNm" id="sggNm" value="">	<!-- 시군구명 -->
+					<input type="hidden" name="emdNm" id="emdNm" value="">	<!-- 읍면동명 -->
+					<input type="hidden" name="loadNm" id="loadNm" value="">	<!-- 도로명 -->
+					<input type="hidden" name="areaNm" id="areaNm" value="">	<!-- 면적명 -->
+					<input type="hidden" name="hsmpNm" id="hsmpNm" value="">	<!-- 단지명 -->
+					<input type="hidden" name="hsmpNm" id="hsmpNm" value="">	<!-- 기준일 -->
+					<input type="hidden" name="hsmpNm" id="hsmpNm" value="">	<!-- 종료일 -->
+					
+					<input id="mobileAt" type="hidden" name="mobileAt" value="">
+							
+					<h2 class="quarter-title" style="margin-top: 30px;">조건별 자료제공</h2>
+					<div class="ifdata-notice" style="padding :10px 10px;margin-bottom :30px; ">
+						<h2 class="notice-title">조건별 자료제공 이용시 유의사항</h2>
+						<p class="notice-body-top">
+							본 서비스에 제공하는 정보는 법적인 효력이 없으므로 참고용으로만 활용하시기 바라며, 외부 공개시에는 반드시 신고일 기준으로 집계되는 공식통계를 이용하여 주시기 바랍니다.
+						</p>
+						<p class="notice-body-middle">
+							신고정보가 실시간 변경, 해제되어 제공시점에 따라 공개건수 및 내용이 상이할 수 있는 점 참고하시길 바랍니다.<br>
+							본 자료는 계약일 기준입니다.(7월 계약, 8월 신고건 → 7월 거래건으로 제공)<br> * 주택매매 거래는 부동산
+							거래신고 등에 관한 법률 제3조에 따라 계약일로부터 30일 이내 신고토록 하고 있습니다.
+						</p>
+						<p class="notice-body-yellow">
+							시도별 자료제공 계약일자 범위는 최대 1년입니다.이용에 참고하시길 바랍니다.<br>
+							<!-- 전국 자료제공 계약일자 범위는 최대 1달입니다.이용에 참고하시길 바랍니다.<br /> -->
+							<!-- 전국 자료제공 계약일자 범위는 최대 7일입니다.이용에 참고하시길 바랍니다.<br /> -->
+							* 계약일자 범위 내 신고정보가 없는 경우 단지 및 지번 목록이 제공되지 않습니다. 조회량이 많을 경우 다운로드 시간이 다소 소요될 수 있습니다.
+						</p>
+					</div>
+
+					<div class="quarter-cover">
+						<div class="tabWrap">
+							<ul class="quarter-tab-cover">
+								<li class="list on"><a href="javascript:void(0)" class="link" onclick="fnThingChange('A')" title="아파트 탭" id="xlsTab1">아파트</a></li>
+								<li class="list"><a href="javascript:void(0)" class="link" onclick="fnThingChange('B')" title="연립다세대 탭" id="xlsTab2">연립/다세대</a></li>
+								<li class="list"><a href="javascript:void(0)" class="link" onclick="fnThingChange('C')" title="단독다가구 탭" id="xlsTab3">단독/다가구</a></li>
+								<li class="list"><a href="javascript:void(0)" class="link" onclick="fnThingChange('D')" title="오피스텔 탭" id="xlsTab4">오피스텔</a></li>
+								<li class="list"><a href="javascript:void(0)" class="link" onclick="fnThingChange('E')" title="분양입주권 탭" id="xlsTab5">분양/입주권</a></li>
+								<li class="list"><a href="javascript:void(0)" class="link" onclick="fnThingChange('F')" title="상업업무용 탭" id="xlsTab6">상업/업무용</a></li>
+								<li class="list"><a href="javascript:void(0)" class="link" onclick="fnThingChange('G')" title="토지 탭" id="xlsTab7">토지</a></li>
+								<li class="list"><a href="javascript:void(0)" class="link" onclick="fnThingChange('H')" title="공장창고 등 탭" id="xlsTab8">공장/창고 등</a></li>
+							</ul>
+						</div>
+						<div class="quarter-search-if">
+
+							<ul class="quarter-search-tab">
+								<li class="list on" id="fst">
+									<a href="javascript:fnRtToLr('1');" class="link" title="매매">매매</a>
+								</li>
+								<li class="list thing_lr">
+									<a href="javascript:fnRtToLr('2');" class="link" title="전월세">전월세</a>
+								</li>
+							</ul>
+
+							<div class="three-block">
+								<div class="three-block inside-bar date-wrap">
+									<div class="ifdata-input-box">
+										<p class="quarter-input-title">계약일자</p>
+										<ul class="quarter-input-list">
+											<li class="list"><input type="date" name="srhFromDt" id="srhFromDt" max="9999-12-31"></li>
+										</ul>
+									</div>
+									<span></span>
+									<div class="ifdata-input-box mr-20">
+										<p class="quarter-input-title">&nbsp;</p>
+										<ul class="quarter-input-list">
+											<li class="list"><input type="date" name="srhToDt" id="srhToDt" max="9999-12-31"></li>
+										</ul>
+									</div>
+								</div>
+								<div class="ifdata-input-box mr-20 lr_area">
+									<p class="quarter-input-title">계약구분</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select id="srhNewRonSecd" name="srhNewRonSecd" title="계약구분선택 콤보창">
+												<option value="" selected="">전체</option>
+												<option value="1">신규</option>
+												<option value="2">갱신</option>
+											</select>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="three-block">
+								<div class="ifdata-input-box">
+									<p class="quarter-input-title">지번구분</p>
+									<ul class="quarter-input-list loadli">
+										<li class="list">
+											<a href="javascript:fnAddrChange('1');" class="on" title="지번주소">지번주소</a> 
+											<a href="javascript:fnAddrChange('2');" class="thing_load" title="도로명주소">도로명주소</a>
+										</li>
+									</ul>
+								</div>
+								<div class="ifdata-input-box">
+									<p class="quarter-input-title">시도</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select id="srhSidoCd" name="srhSidoCd" title="시도선택 콤보창"><option value="">전체</option><option value="11000">서울특별시</option><option value="12000">전남광주통합특별시</option><option value="26000">부산광역시</option><option value="27000">대구광역시</option><option value="28000">인천광역시</option><option value="30000">대전광역시</option><option value="31000">울산광역시</option><option value="36000">세종특별자치시</option><option value="41000">경기도</option><option value="43000">충청북도</option><option value="44000">충청남도</option><option value="47000">경상북도</option><option value="48000">경상남도</option><option value="50000">제주특별자치도</option><option value="51000">강원특별자치도</option><option value="52000">전북특별자치도</option></select>
+										</li>
+									</ul>
+								</div>
+								<div class="ifdata-input-box">
+									<p class="quarter-input-title">시군구</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select id="srhSggCd" name="srhSggCd" title="시군구선택 콤보창"><option value="">전체</option></select>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="three-block">
+								<div class="ifdata-input-box bunji">
+									<p class="quarter-input-title ">읍면동</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select id="srhEmdCd" name="srhEmdCd" title="읍면동선택 콤보창"><option value="">전체</option></select>
+										</li>
+									</ul>
+								</div>
+								<div class="ifdata-input-box load">
+									<p class="quarter-input-title">도로명 검색</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+						                    <input type="text" name="srhRoadNm" id="srhRoadNm" placeholder="도로명을 입력하세요." size="15" title="도로명 입력창"> 
+						                    <button type="button" id="search-btn">
+						                      <img src="/images/pt/search.png" alt="도로명 검색">
+						                    </button>
+										</li>
+									</ul>
+								</div>	
+								<div class="ifdata-input-box load">
+									<p class="quarter-input-title">도로명선택</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select id="srhLoadCd" name="srhLoadCd" title="도로명선택 콤보창"><option value="">전체</option></select>
+										</li>
+									</ul>
+								</div>
+								<div class="ifdata-input-box hsmp">
+									<p class="quarter-input-title ">단지명</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select id="srhHsmpCd" name="srhHsmpCd" title="단지명선택 콤보창"><option value="">전체</option></select>
+										</li>
+									</ul>
+								</div>																							
+							</div>
+
+							<div class="three-block inside-bar">
+
+								<div class="ifdata-input-box mr-20 rt_area">
+									<p class="quarter-input-title">면적</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select name="srhArea" id="srhArea" title="면적선택 콤보창"><option value="">전체</option><option value="1">60㎡이하</option><option value="2">60㎡초과~85㎡이하</option><option value="3">85㎡초과~102㎡이하</option><option value="4">102㎡초과~135㎡이하</option><option value="5">135㎡초과</option></select>
+										</li>
+									</ul>
+								</div>
+								<div class="ifdata-input-box mr-20 lr_area">
+									<p class="quarter-input-title lr-price">금액</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<a href="javascript:fnLfstsChange('1');" title="보증금">보증금</a> 
+											<a href="javascript:fnLfstsChange('2');" title="월세금">월세금</a>
+										</li>
+									</ul>
+								</div>								
+								<!-- <div class="price-wrap"> -->
+									<div class="ifdata-input-box no-mr">
+										<p class="quarter-input-title rt-price">
+											금액
+										</p>
+										<ul class="quarter-input-list">
+											<li class="list">
+												<input type="text" placeholder="최소금액(만원)" id="srhFromAmount" name="srhFromAmount">
+											</li>
+										</ul>
+									</div>
+									<span></span>
+									<div class="ifdata-input-box">
+										<p class="quarter-input-title">&nbsp;</p>
+										<ul class="quarter-input-list">
+											<li class="list">
+												<input type="text" placeholder="최대금액(만원)" id="srhToAmount" name="srhToAmount">
+											</li>
+										</ul>
+									</div>
+								<!-- </div> -->
+							</div>
+							
+							<div class="three-block lr_area">
+								<div class="ifdata-input-box">
+									<p class="quarter-input-title">면적</p>
+									<ul class="quarter-input-list">
+										<li class="list">
+											<select name="srhLrArea" id="srhLrArea" title="면적선택 콤보창">
+												<option value="" disabled="" selected="" hidden="">면적</option>
+												<option value="면적2">면적2</option>
+												<option value="1">2</option>
+											</select>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="ifdata-btn-box">
+								<button class="ifdata-search-result" type="button" onclick="fnExcelDown()">EXCEL 다운</button>
+								<button class="ifdata-search-result" type="button" onclick="fnCSVDown()">CSV 다운</button>
+							</div>
+
+						</div>
+					</div>
+
+				</form>
+			</div>
+
+		</section>
+	</div>
+</div>
+			<div id="mask" style="position:absolute; z-index:9000; background-color:#000000; display:none; left:0; top:0; overflow:hidden">
+				<div id="loadingImg" style="position:absolute; z-index:10000; display:none; left:50%; top:50%;">
+					<img src="/images/pt/10.gif;jsessionid=xsXVGggQjkzLRP1Ygw7Hl0UAo_awUYdfMTqbHyxT.RT_DN20" alt="자료 로딩중입니다.">
+				</div>
+			</div>
+	
+   		
+<!-- Footer -->
+<footer id="footer" class="pc-footer">
+	<div class="container">
+    	<div class="company_info">
+    		<p class="address"><img src="/images/pt/logo.svg" alt="국토교통부 로고" style="width: 130px;"></p>
+      		<p class="address" style="white-space: normal;">30064 세종특별자치시 도움 6로 11 국토교통부 부동산소비자보호기획단</p>
+      		<ul class="depth error-call">
+        		<li class="list">
+          			<a href="https://data.molit.go.kr/systemQuality/list?system_id=S0016" class="link" title="품질오류신고 사이트 이동 https://data.molit.go.kr/systemQuality/list?system_id=S0016">품질오류신고</a>
+        		</li>
+        		<li class="list">
+          			<a href="https://data.molit.go.kr/systemQuality/list?system_id=S0016" class="link" title="품질오류신고확인 사이트 이동 https://data.molit.go.kr/systemQuality/list?system_id=S0016">품질오류신고확인</a>
+        		</li>
+      		</ul>
+      		<p class="copyright">Copyright (c) Ministry of Land, Infrastructure and Transport. All Rights reserved.</p>
+    	</div>
+	</div>
+</footer>
+  </div>
+  
+
+</body></html>
