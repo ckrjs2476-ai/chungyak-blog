@@ -1,5 +1,1 @@
-[
- {"name": "probe-rt-danji3", "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=", "sleep": 4, "dump": true,
-  "steps": [{"pick": ["#srhSidoCodeS", "서울"], "wait": 2}, {"pick": ["#srhSignguCodeS", "송파"], "wait": 2}, {"pick": ["#srhEmdCodeS", "가락동"], "wait": 3},
-            {"js": "document.querySelector('#srhBldgNmI').value='헬리오시티'"}, {"js": "fnDanjiList()", "wait": 5}]}
-]
+[]
