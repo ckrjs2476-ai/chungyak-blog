@@ -1,1 +1,5 @@
-[]
+[
+ {"name": "probe-rt-danji", "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=", "sleep": 4, "dump": true,
+  "steps": [{"click": "단지명", "exact": true, "wait": 1}, {"fill": ["#srhBldgNmI", "헬리오시티"]}, {"press": ["#srhBldgNmI", "Enter"], "wait": 4}]},
+ {"name": "probe-kapt-sido-table", "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do", "sleep": 4, "crop": {"from": "관리비등 세부항목 지역별 평균"}, "height": 820, "width": 1280}
+]
