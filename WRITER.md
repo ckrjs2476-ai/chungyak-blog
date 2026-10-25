@@ -120,7 +120,7 @@ type: notice            # notice | competition | score | remainder | region | mo
 title: "OO단지 청약 일정·분양가 총정리 (10월 공고)"
 slug: "oo-danji-cheongyak-schedule-2026-10"   # 영문 소문자·숫자·하이픈
 description: "검색 결과에 보일 설명 50~160자. 날짜·가격·분석 숫자를 모아서. 한 줄로."
-labels: [청약일정, 수도권]   # 허용 목록에서 2~3개: 청약일정·청약 결과·청약통계·실거래가·월간정리·청약가이드 + 수도권/지방
+labels: [청약일정, 수도권]   # 허용 목록에서 2~3개: 청약일정·청약 결과·청약통계(실거래 글 포함)·월간정리·청약가이드 + 수도권/지방
 keyword: "OO단지 청약 일정"
 opening: B              # A 분양가 / B 접수일 / C 비슷한 단지와의 차이 / D 신청 자격
 angle: 특공              # 글의 중심. 아래 '글의 중심 고르기' 참고 (단지 글 3종 필수)

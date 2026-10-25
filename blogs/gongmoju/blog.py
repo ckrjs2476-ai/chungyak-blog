@@ -19,7 +19,7 @@ DONE = HERE / "posts" / "published"
 PUBLISHED = DATA / "published.json"
 
 REGION_LABELS = ["일반 기업", "스팩"]  # 상장 시장은 신고서 데이터로 구분할 수 없어 쓰지 않는다
-TYPE_LABELS = ["공모 구조", "공모 일정", "공모주 읽는 법"]
+TYPE_LABELS = ["공모 구조", "공모주 읽는 법"]  # 2026-10-25 공모 일정 → 공모 구조
 ALLOWED_LABELS = set(REGION_LABELS + TYPE_LABELS)
 TYPES = ("ipo", "weekly", "topic")
 ANGLES = {"ipo": ("규모", "자금용도", "공모가", "주관사", "회사"), "weekly": ("일정", "규모비교"),

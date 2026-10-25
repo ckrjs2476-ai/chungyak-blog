@@ -19,8 +19,8 @@ DATA = HERE / "data"
 DONE = HERE / "posts" / "published"
 PUBLISHED = DATA / "published.json"
 
-REGION_LABELS = ["서울", "경기", "인천", "지방"]
-TYPE_LABELS = ["지역 전세가율", "전세가율 순위", "전세 읽는 법"]
+REGION_LABELS = ["수도권", "지방"]  # 2026-10-25 서울·경기·인천 → 수도권
+TYPE_LABELS = ["지역 전세가율", "전세 읽는 법"]  # 전세가율 순위 → 지역 전세가율
 ALLOWED_LABELS = set(REGION_LABELS + TYPE_LABELS)
 TYPES = ("region", "ranking", "topic")
 ANGLES = {"region": ("전세가율", "흐름", "동네차이", "단지분포", "월세비중"),

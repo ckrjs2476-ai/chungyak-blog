@@ -198,7 +198,7 @@ def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
 
 
 REGION_LABELS = ["수도권", "지방"] if _blog is None else _blog.REGION_LABELS  # 2026-10-24 서울·경기·인천 → 수도권
-TYPE_LABELS = (["청약일정", "청약 결과", "청약통계", "실거래가", "월간정리", "청약가이드"]  # 경쟁률·당첨가점·무순위 → 청약 결과
+TYPE_LABELS = (["청약일정", "청약 결과", "청약통계", "월간정리", "청약가이드"]  # 경쟁률·당첨가점·무순위 → 청약 결과
                if _blog is None else _blog.TYPE_LABELS)
 MAX_LINKS = 6
 
