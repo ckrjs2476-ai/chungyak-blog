@@ -1,1 +1,4 @@
-[]
+[
+ {"name": "probe-rt-xls2", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "dump": true, "full": true,
+  "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "서울"], "wait": 2}, {"pick": ["#srhSggCd", "송파"], "wait": 2}, {"click": "검색", "exact": true, "wait": 6}]}
+]
