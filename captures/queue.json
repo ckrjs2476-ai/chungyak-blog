@@ -1,1 +1,6 @@
-[]
+[
+ {"name": "probe-rt-danji2", "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=", "sleep": 4, "dump": true,
+  "steps": [{"pick": ["#srhSidoCodeS", "서울"], "wait": 2}, {"pick": ["#srhSignguCodeS", "송파"], "wait": 2}, {"pick": ["#srhEmdCodeS", "가락동"], "wait": 3},
+            {"click": "단지명", "exact": true, "wait": 1}, {"fill": ["#srhBldgNmI", "헬리오시티"]}, {"press": ["#srhBldgNmI", "Enter"], "wait": 4}]},
+ {"name": "probe-kapt-sido-table", "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do", "sleep": 4, "crop": {"from": "발생월 기준"}, "height": 760, "width": 1280}
+]

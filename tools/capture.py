@@ -14,8 +14,12 @@ log = []
 
 
 def top_of(page, text):
-    loc = page.get_by_text(text, exact=False).first
-    loc.wait_for(timeout=15000)
+    loc = page.get_by_text(text, exact=False)
+    loc.first.wait_for(state="attached", timeout=15000)
+    vis = [l for l in loc.all() if l.is_visible()]
+    if not vis:
+        raise RuntimeError(f"보이는 '{text}' 없음")
+    loc = vis[0]
     loc.scroll_into_view_if_needed()
     box = loc.bounding_box()
     y = page.evaluate("window.scrollY")
@@ -40,6 +44,13 @@ with sync_playwright() as pw:
                     page.locator(st["select"][0]).first.select_option(label=st["select"][1], timeout=15000)
                 elif "press" in st:
                     page.locator(st["press"][0]).first.press(st["press"][1], timeout=15000)
+                elif "pick" in st:  # 숨은 select도: 보이는 글자로 고르고 change 이벤트(jQuery 포함)
+                    page.evaluate("""([sel, txt]) => { const e = document.querySelector(sel); if (!e) return;
+                        const o = [...e.options].find(o => o.text.trim().includes(txt)); if (!o) return;
+                        e.value = o.value; e.dispatchEvent(new Event('change', {bubbles: true}));
+                        if (window.jQuery) window.jQuery(e).trigger('change'); }""", st["pick"])
+                elif "js" in st:
+                    page.evaluate(st["js"])
                 elif "goto" in st:
                     page.goto(st["goto"], timeout=45000, wait_until="networkidle")
                 time.sleep(st.get("wait", 1.2))
