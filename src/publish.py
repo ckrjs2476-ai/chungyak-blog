@@ -10,6 +10,7 @@ import json
 import os
 import re
 import shutil
+import html as html_lib
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -112,7 +113,29 @@ def style_html(html: str) -> str:
     return f'<div style="{WRAP}">{html}</div>'
 
 
+FIG_RE = re.compile(r"^!\[([^\]]*)\]\((captures/[\w.\-]+\.(?:webp|png|jpg))\)\s*$", re.M)
+
+
+def _figure(m: "re.Match") -> str:
+    """원고의 캡처 줄 ![캡션](captures/파일.webp)을 글 안에 바로 넣는 그림으로 바꾼다.
+    Blogger API는 이미지 업로드가 없어 data URI로 넣는다(캡처는 760px webp 20~40KB)."""
+    import base64
+    cap, path = m.group(1).strip(), ROOT / m.group(2)
+    if not path.exists():
+        print(f"::warning::캡처 파일 없음: {m.group(2)}")
+        return ""
+    mime = {"webp": "image/webp", "png": "image/png", "jpg": "image/jpeg"}[path.suffix[1:]]
+    data = base64.b64encode(path.read_bytes()).decode()
+    alt = html_lib.escape(cap, quote=True)
+    return ('\n\n<figure style="margin:1.4em 0;text-align:center;">'
+            f'<img src="data:{mime};base64,{data}" alt="{alt}" loading="lazy" '
+            'style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:6px;"/>'
+            f'<figcaption style="margin-top:.5em;font-size:14px;color:#555555;">{html_lib.escape(cap)}</figcaption>'
+            '</figure>\n\n')
+
+
 def to_html(body: str) -> str:
+    body = FIG_RE.sub(_figure, body)
     return style_html(markdown.markdown(body, extensions=["tables", "sane_lists"]))
 
 
