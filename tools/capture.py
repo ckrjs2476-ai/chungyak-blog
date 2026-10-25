@@ -1,33 +1,62 @@
-"""공개 페이지 화면 캡처 (Actions에서 실행). captures/queue.json: [{"name": "...", "url": "...", "clip": "css selector(선택)", "wait": "css selector(선택)", "width": 1280}]
-결과: captures/<name>.png, captures/log.json. 로그인·개인정보가 필요한 페이지는 넣지 않는다."""
-import json, sys, time
+"""공개 페이지 화면 캡처 (Actions에서 실행). 로그인·개인정보가 필요한 페이지는 넣지 않는다.
+captures/queue.json: [{"name": "...", "url": "...",
+   "crop": {"from": "시작 글자", "to": "끝 글자(선택)"},   # 화면에서 그 글자 사이만 잘라 캡처
+   "full": false, "width": 1100, "pad": 12}]
+결과: captures/<name>.webp (가로 최대 760px, 블로그 글에 그대로 넣는 크기), captures/log.json"""
+import io, json, time
 from pathlib import Path
+from PIL import Image
 from playwright.sync_api import sync_playwright
 
 Q = Path("captures/queue.json")
 items = json.loads(Q.read_text("utf-8")) if Q.exists() else []
 log = []
+
+
+def top_of(page, text):
+    loc = page.get_by_text(text, exact=False).first
+    loc.wait_for(timeout=15000)
+    loc.scroll_into_view_if_needed()
+    box = loc.bounding_box()
+    y = page.evaluate("window.scrollY")
+    return box["y"] + y, box
+
+
 with sync_playwright() as pw:
     b = pw.chromium.launch()
     for it in items:
-        page = b.new_page(viewport={"width": it.get("width", 1280), "height": it.get("height", 900)},
-                          device_scale_factor=1, locale="ko-KR")
-        out = Path("captures") / f"{it['name']}.png"
+        page = b.new_page(viewport={"width": it.get("width", 1100), "height": 900}, device_scale_factor=1, locale="ko-KR")
         try:
             r = page.goto(it["url"], timeout=45000, wait_until="networkidle")
-            if it.get("wait"):
-                page.wait_for_selector(it["wait"], timeout=20000)
-            time.sleep(it.get("sleep", 1))
-            if it.get("clip"):
-                page.locator(it["clip"]).first.screenshot(path=str(out))
+            time.sleep(it.get("sleep", 1.5))
+            crop = it.get("crop")
+            if crop:
+                pad = it.get("pad", 12)
+                y0, _ = top_of(page, crop["from"])
+                if crop.get("to"):
+                    y1, _ = top_of(page, crop["to"])
+                else:
+                    y1 = y0 + it.get("height", 600)
+                page.evaluate("window.scrollTo(0,0)")
+                full = page.evaluate("document.documentElement.scrollWidth")
+                png = page.screenshot(full_page=True, clip={"x": 0, "y": max(0, y0 - pad), "width": min(full, it.get("width", 1100)),
+                                                            "height": max(80, y1 - y0)})
             else:
-                page.screenshot(path=str(out), full_page=it.get("full", False))
-            log.append({"name": it["name"], "status": r.status if r else None, "ok": True, "title": page.title()})
-            print(f"::notice::캡처 {it['name']} {r.status if r else ''} {page.title()[:60]}")
+                png = page.screenshot(full_page=it.get("full", False))
+            im = Image.open(io.BytesIO(png)).convert("RGB")
+            if im.width > 760:
+                im = im.resize((760, round(im.height * 760 / im.width)), Image.LANCZOS)
+            out = Path("captures") / f"{it['name']}.webp"
+            im.save(out, "WEBP", quality=72, method=6)
+            log.append({"name": it["name"], "ok": True, "status": r.status if r else None, "title": page.title(),
+                        "size": [im.width, im.height], "bytes": out.stat().st_size, "url": it["url"],
+                        "at": time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 9 * 3600))})
+            print(f"::notice::캡처 {it['name']} {im.width}x{im.height} {out.stat().st_size // 1024}KB")
         except Exception as e:  # noqa: BLE001
-            log.append({"name": it["name"], "ok": False, "error": str(e)[:300]})
+            log.append({"name": it["name"], "ok": False, "error": str(e)[:300], "url": it["url"]})
             print(f"::warning::캡처 실패 {it['name']}: {str(e)[:200]}")
         page.close()
     b.close()
-Path("captures/log.json").write_text(json.dumps(log, ensure_ascii=False, indent=1), "utf-8")
+old = json.loads(Path("captures/log.json").read_text("utf-8")) if Path("captures/log.json").exists() else []
+Path("captures/log.json").write_text(json.dumps((old + log)[-200:], ensure_ascii=False, indent=1), "utf-8")
 Q.write_text("[]", "utf-8")
