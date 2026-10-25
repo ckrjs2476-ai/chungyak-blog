@@ -37,5 +37,31 @@
   "bytes": 19472,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000509&pblancNo=2026000509",
   "at": "2026-10-25 10:03"
+ },
+ {
+  "name": "test-cy-list-results",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈 | APT분양정보",
+  "size": [
+   760,
+   525
+  ],
+  "bytes": 28304,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do",
+  "at": "2026-10-25 10:07"
+ },
+ {
+  "name": "test-ipo-dart",
+  "ok": true,
+  "status": 200,
+  "title": "SimwonAmericaCorp./증권신고서(지분증권)/2026.10.12",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 31674,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000149",
+  "at": "2026-10-25 10:07"
  }
 ]
