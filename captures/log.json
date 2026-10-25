@@ -179,5 +179,31 @@
   "ok": false,
   "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"관리비등 세부항목 지역별 평균\").first to be visible\n    33 × locator resolved to hidden <a title=\"관리비등 세부항목 지역별 평균\" href=\"/apiinfo/goApiInfoBySido.do\">관리비등 세부항목 지역별 평균</a>\n",
   "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do"
+ },
+ {
+  "name": "probe-rt-danji2",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 GIS서비스",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 65268,
+  "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=",
+  "at": "2026-10-25 10:29"
+ },
+ {
+  "name": "probe-kapt-sido-table",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20586,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-10-25 10:29"
  }
 ]
