@@ -1,15 +1,15 @@
-# 애드센스 기준 점검: gwanribi (2026-10-24 10:27 KST)
+# 애드센스 기준 점검: gwanribi (2026-10-25 10:21 KST)
 
-- 공개 글: 14편
+- 공개 글: 16편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
 
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
-- 서울: 14편
+- 서울: 16편
 - 지역 관리비: 8편
-- 단지 관리비: 4편  ← 부족
+- 단지 관리비: 6편  ← 부족
 - 관리비 읽는 법: 2편  ← 부족
 
 ## 겹침·합치기 후보
@@ -24,6 +24,7 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
+| 90 | [DMC파크뷰자이 관리비, ㎡당 4,092원으로 서대](https://gwanribi-dotbogi.blogspot.com/2026/10/dmc-park-view-xi-management-fee-2026-08.html) `2026-10-24-A10027817-complex.md` | 2566 | 0 | 0 | - |
 | 90 | [송파구 아파트 관리비, 1위 롯데캐슬골드 공용관리비](https://gwanribi-dotbogi.blogspot.com/2026/10/songpa-gu-apartment-management-fee-2026.html) `2026-10-14-11710-region.md` | 2609 | 0 | 0 | - |
 | 100 | [가산두산위브 관리비, 경비비 ㎡당 526원으로 금천](https://gwanribi-dotbogi.blogspot.com/2026/10/gasan-doosan-weve-management-fee-2026-08.html) `2026-10-22-A15380403-complex.md` | 2557 | 0 | 1 | - |
 | 100 | [강남구 아파트 관리비 ㎡당 3,064원, 91개 단](https://gwanribi-dotbogi.blogspot.com/2026/10/gangnam-gu-apartment-management-fee.html) `2026-10-14-11680-region.md` | 2603 | 0 | 1 | - |
@@ -34,8 +35,9 @@
 | 100 | [동작구 아파트 관리비 순위, 공용관리비 1위는 ㎡당](https://gwanribi-dotbogi.blogspot.com/2026/10/dongjak-gu-apartment-management-fee.html) `2026-10-17-11590-region.md` | 2585 | 0 | 1 | - |
 | 100 | [서초구 아파트 관리비, 장기수선충당금 ㎡당 595원](https://gwanribi-dotbogi.blogspot.com/2026/10/seocho-gu-apartment-management-fee-gap.html) `2026-10-18-11650-region.md` | 2902 | 0 | 1 | - |
 | 100 | [아파트 장기수선충당금, 노원구 관리비 105곳은 ㎡](https://gwanribi-dotbogi.blogspot.com/2026/10/apartment-long-term-repair-reserve.html) `2026-10-21-11350-topic.md` | 2502 | 0 | 1 | - |
-| 100 | [양천구 아파트 관리비 순위, 1위 목동트라팰리스 ㎡](https://gwanribi-dotbogi.blogspot.com/2026/10/yangcheon-gu-apartment-management-fee_01384238801.html) `2026-10-23-11470-region.md` | 2637 | 0 | 1 | - |
+| 100 | [양천구 아파트 관리비 순위, 1위 목동트라팰리스 ㎡](https://gwanribi-dotbogi.blogspot.com/2026/10/yangcheon-gu-apartment-management-fee_01384238801.html) `2026-10-23-11470-region.md` | 2676 | 0 | 1 | - |
 | 100 | [올림픽파크포레온 관리비, 인건비 ㎡당 297원, 공](https://gwanribi-dotbogi.blogspot.com/2026/10/olympic-park-foreon-management-fee-2026.html) `2026-10-23-A10021122-complex.md` | 2752 | 0 | 1 | - |
+| 100 | [잠실엘스 관리비, 장기수선충당금 ㎡당 360원으로 ](https://gwanribi-dotbogi.blogspot.com/2026/10/jamsil-els-management-fee-2026-08.html) `2026-10-24-A13822004-complex.md` | 2660 | 0 | 2 | - |
 | 100 | [잠실파크리오 관리비, 공용은 낮고 장기수선충당금은 ](https://gwanribi-dotbogi.blogspot.com/2026/10/jamsil-park-rio-management-fee-2026-08.html) `2026-10-22-A13824006-complex.md` | 2174 | 0 | 2 | - |
 | 100 | [헬리오시티 관리비, 개별사용료 ㎡당 1,870원으로](https://gwanribi-dotbogi.blogspot.com/2026/10/helio-city-management-fee-2026-08.html) `2026-10-21-A10025850-complex.md` | 2364 | 0 | 1 | - |
 

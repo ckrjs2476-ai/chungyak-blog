@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24 10:27",
+ "updated": "2026-10-25 10:21",
  "stage": 1,
  "band": [
   30,
@@ -6859,18 +6859,6 @@
    "used": false
   },
   {
-   "keyword": "DMC파크뷰자이관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "DMC파크뷰자이",
-   "entity_id": "A10027817",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
    "keyword": "DMC금호리첸시아관리비",
    "volume": 10,
    "comp": "중간",
@@ -7361,6 +7349,18 @@
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 6.0,
    "used": false
+  },
+  {
+   "keyword": "DMC파크뷰자이관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "DMC파크뷰자이",
+   "entity_id": "A10027817",
+   "base_score": 17.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 5.1,
+   "used": true
   },
   {
    "keyword": "양천구아파트관리비",
