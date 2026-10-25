@@ -63,5 +63,44 @@
   "bytes": 31674,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000149",
   "at": "2026-10-25 10:07"
+ },
+ {
+  "name": "probe-rt",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 18678,
+  "url": "https://rt.molit.go.kr/",
+  "at": "2026-10-25 10:22"
+ },
+ {
+  "name": "probe-kapt",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 48832,
+  "url": "https://www.k-apt.go.kr/",
+  "at": "2026-10-25 10:22"
+ },
+ {
+  "name": "probe-kapt-cmpx",
+  "ok": true,
+  "status": 404,
+  "title": "hotfix K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 4932,
+  "url": "https://www.k-apt.go.kr/kaptinfo/openkaptinfo.do",
+  "at": "2026-10-25 10:22"
  }
 ]
