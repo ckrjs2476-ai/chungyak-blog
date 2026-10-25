@@ -29,6 +29,28 @@ with sync_playwright() as pw:
         try:
             r = page.goto(it["url"], timeout=45000, wait_until="networkidle")
             time.sleep(it.get("sleep", 1.5))
+            for st in it.get("steps", []):  # 검색 조작: {"click": "글자"} / {"click_css": "선택자"} / {"fill": ["선택자", "값"]}
+                if "click" in st:          # {"select": ["선택자", "보이는 글자"]} / {"wait": 초} / {"press": ["선택자", "Enter"]}
+                    page.get_by_text(st["click"], exact=st.get("exact", False)).first.click(timeout=15000)
+                elif "click_css" in st:
+                    page.locator(st["click_css"]).first.click(timeout=15000)
+                elif "fill" in st:
+                    page.locator(st["fill"][0]).first.fill(st["fill"][1], timeout=15000)
+                elif "select" in st:
+                    page.locator(st["select"][0]).first.select_option(label=st["select"][1], timeout=15000)
+                elif "press" in st:
+                    page.locator(st["press"][0]).first.press(st["press"][1], timeout=15000)
+                elif "goto" in st:
+                    page.goto(st["goto"], timeout=45000, wait_until="networkidle")
+                time.sleep(st.get("wait", 1.2))
+            if it.get("dump"):  # 레시피 만들 때만: 화면 구조를 저장
+                Path("captures/probe").mkdir(exist_ok=True)
+                Path(f"captures/probe/{it['name']}.html").write_text(page.content(), "utf-8")
+                for i, fr in enumerate(page.frames[1:4]):
+                    try:
+                        Path(f"captures/probe/{it['name']}_frame{i}.html").write_text(fr.content(), "utf-8")
+                    except Exception:  # noqa: BLE001
+                        pass
             crop = it.get("crop")
             if crop:
                 pad = it.get("pad", 12)
