@@ -1,11 +1,11 @@
-# 애드센스 거절 사유 상위 항목 매일 점검 (2026-10-25 10:21 KST)
+# 애드센스 거절 사유 상위 항목 매일 점검 (2026-10-25 10:55 KST)
 
 기준과 순서: rules/adsense_rejection_top.md. '문제'는 고쳐야 할 것, '참고'는 신청 전까지 채울 것.
 
 ## 청약노트 (https://daily-cheongyak.blogspot.com)
 
-- 공개 글 29편, 정적 페이지 6개, 마지막 글 2026-10-24
-- 문제 · 깨진 내부 링크: 1개: https://daily-cheongyak.blogspot.com/2026/10/gyeyang-kaib-yubora-ac3-ac4-bunyangga.html
+- 공개 글 30편, 정적 페이지 6개, 마지막 글 2026-10-25
+- 문제 없음
 - 참고 · 라벨 편수: 8편 미만 라벨 1개: 실거래가(1)
 
 ## 전세 온도계 (https://jeonse-ondogye.blogspot.com)
