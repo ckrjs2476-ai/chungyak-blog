@@ -218,5 +218,11 @@
   "bytes": 65574,
   "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=",
   "at": "2026-10-25 10:30"
+ },
+ {
+  "name": "probe-rt-xls2",
+  "ok": false,
+  "error": "Locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#search-btn\").first\n    - locator resolved to <button type=\"button\" id=\"search-btn\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - re",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
  }
 ]
