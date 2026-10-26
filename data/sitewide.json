@@ -1,15 +1,14 @@
 {
- "date": "2026-10-25",
+ "date": "2026-10-26",
  "blogs": {
   "cheongyak": {
-   "posts": 30,
+   "posts": 32,
    "skeleton_pairs": [],
    "type_share": {
-    "competition": 2,
-    "region": 3,
+    "region": 4,
     "remainder": 1,
     "market": 1,
-    "notice": 1
+    "notice": 2
    },
    "format_concentrated": false,
    "stale": {},
@@ -18,24 +17,25 @@
    "to_fix": 0
   },
   "jeonse": {
-   "posts": 16,
+   "posts": 18,
    "skeleton_pairs": [],
    "type_share": {
-    "region": 6,
-    "topic": 2
+    "region": 5,
+    "topic": 3
    },
-   "format_concentrated": true,
+   "format_concentrated": false,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
    "to_fix": 0
   },
   "gongmoju": {
-   "posts": 18,
+   "posts": 20,
    "skeleton_pairs": [],
    "type_share": {
-    "topic": 3,
-    "ipo": 5
+    "ipo": 5,
+    "topic": 2,
+    "weekly": 1
    },
    "format_concentrated": false,
    "stale": {},
@@ -44,14 +44,14 @@
    "to_fix": 0
   },
   "gwanribi": {
-   "posts": 16,
+   "posts": 18,
    "skeleton_pairs": [],
    "type_share": {
-    "topic": 1,
-    "complex": 6,
-    "region": 1
+    "complex": 5,
+    "region": 1,
+    "topic": 2
    },
-   "format_concentrated": true,
+   "format_concentrated": false,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
