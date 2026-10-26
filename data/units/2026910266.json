@@ -60,7 +60,35 @@
    "SUPLY_HSHLDCO": 311
   }
  ],
- "competition": [],
+ "competition": [
+  {
+   "CMPET_RATE": "1.00",
+   "HOUSE_MANAGE_NO": "2026910266",
+   "HOUSE_TY": "068.4720A",
+   "PBLANC_NO": "2026910266",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "17",
+   "SUPLY_HSHLDCO": 17
+  },
+  {
+   "CMPET_RATE": "4.00",
+   "HOUSE_MANAGE_NO": "2026910266",
+   "HOUSE_TY": "068.4720B",
+   "PBLANC_NO": "2026910266",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "4",
+   "SUPLY_HSHLDCO": 1
+  },
+  {
+   "CMPET_RATE": "(△298)",
+   "HOUSE_MANAGE_NO": "2026910266",
+   "HOUSE_TY": "084.9937A",
+   "PBLANC_NO": "2026910266",
+   "REMNDR_HSHLD_PBLANC_TYCD": "01",
+   "REQ_CNT": "13",
+   "SUPLY_HSHLDCO": 311
+  }
+ ],
  "score": [],
- "fetched_at": "2026-10-26T18:56:39.404677+09:00"
+ "fetched_at": "2026-10-27T07:45:33.996429+09:00"
 }

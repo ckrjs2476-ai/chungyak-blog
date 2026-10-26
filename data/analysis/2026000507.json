@@ -63,6 +63,51 @@
  "pyeong_avg": 2636,
  "price_84_min": 86700,
  "price_84_max": 91400,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9823",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "59.9782C",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "84.962A",
+    "supply": 17,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "84.9413B",
+    "supply": 4,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 31,
+  "rank1_req": 31,
+  "supply_total": 39,
+  "final_shortfall_total": 8,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 4,
+  "rank1_avg_rate": 0.79,
+  "best": {
+   "ty": "84.9413B",
+   "rate": 1.0,
+   "stage": "1순위 기타지역"
+  }
+ },
  "region_price": {
   "scope": "수영구",
   "supply_kind": "민영",
@@ -105,16 +150,27 @@
   "peer_avg_rate": 0.36,
   "peer_max_rate": 0.59
  },
+ "region_competition": {
+  "scope": "수영구",
+  "peer_count": 2,
+  "peers": [
+   "알티에로 광안",
+   "쌍용 더 플래티넘 센텀"
+  ],
+  "peer_avg_rate": 0.36,
+  "rank": 1,
+  "of": 3
+ },
  "market": {
   "region": "부산광역시 수영구",
   "lawd": "26500",
   "months": 12,
-  "updated": "2026-10-26",
-  "n84": 790,
+  "updated": "2026-10-27",
+  "n84": 798,
   "median84": 71000,
   "p25_84": 50537,
-  "p75_84": 96000,
-  "new_n84": 151,
+  "p75_84": 96125,
+  "new_n84": 152,
   "new_median84": 120000,
   "new_build_years": 5,
   "umd": "광안동",

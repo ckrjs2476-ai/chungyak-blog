@@ -1,0 +1,72 @@
+{
+ "no": "2026910269",
+ "name": "화서역 호수공원 아너스빌",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-10-26",
+ "rank1_date": "2026-11-02",
+ "city": "수원시",
+ "supply_kind": "",
+ "winner_date": "2026-11-06",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910269&pblancNo=2026910269",
+ "households": 169,
+ "types": [
+  {
+   "ty": "84.7459A",
+   "size": 84,
+   "price": 89800,
+   "area_m2": null,
+   "general": 26,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.8508B",
+   "size": 84,
+   "price": 89300,
+   "area_m2": null,
+   "general": 76,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9663D",
+   "size": 84,
+   "price": 89300,
+   "area_m2": null,
+   "general": 67,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 169,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 89300,
+ "price_84_max": 89800,
+ "market": {
+  "region": "경기도 수원시 권선구",
+  "lawd": "41113",
+  "months": 12,
+  "updated": "2026-10-19",
+  "n84": 2142,
+  "median84": 55000,
+  "p25_84": 42225,
+  "p75_84": 64500,
+  "new_n84": 173,
+  "new_median84": 74000,
+  "new_build_years": 5,
+  "umd": "서둔동",
+  "umd_n84": 73,
+  "umd_median84": 64000,
+  "diff_vs_median84": 34800,
+  "diff_pct_vs_median84": 63,
+  "diff_vs_new_median84": 15800,
+  "diff_pct_vs_new_median84": 21,
+  "diff_vs_umd_median84": 25800,
+  "diff_pct_vs_umd_median84": 40
+ }
+}

@@ -2,18 +2,22 @@
  "lawd": "41135",
  "name": "경기도 성남시 분당구",
  "months": 12,
- "updated": "2026-10-26",
- "trade_count": 3583,
- "cancel_count": 92,
- "n84": 745,
+ "updated": "2026-10-27",
+ "trade_count": 3587,
+ "cancel_count": 93,
+ "n84": 746,
  "median84": 175000,
  "p25_84": 148000,
  "p75_84": 195000,
- "median84_pyeong_excl": 6838,
+ "median84_pyeong_excl": 6842,
  "new_n84": 147,
  "new_median84": 132000,
  "new_build_years": 5,
  "umd84": {
+  "이매동": {
+   "n": 69,
+   "median": 182000
+  },
   "야탑동": {
    "n": 56,
    "median": 148000
@@ -21,10 +25,6 @@
   "서현동": {
    "n": 100,
    "median": 202000
-  },
-  "이매동": {
-   "n": 68,
-   "median": 182500
   },
   "금곡동": {
    "n": 32,
@@ -136,9 +136,9 @@
   },
   {
    "month": "2026-10",
-   "count": 75,
-   "n84": 17,
-   "median84": 165000
+   "count": 79,
+   "n84": 18,
+   "median84": 172000
   }
  ],
  "top_apts": [
@@ -198,7 +198,7 @@
   },
   {
    "name": "구미동 하얀마을(5단지)(주공)",
-   "count": 58,
+   "count": 59,
    "median84": null,
    "built": 1995
   }

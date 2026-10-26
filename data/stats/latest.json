@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "weekly_competition": [
   {
    "no": "2026000491",
@@ -72,6 +72,20 @@
    "type_count": 9
   },
   {
+   "no": "2026000507",
+   "name": "광안센텀 비스타동원(조합원 취소분)",
+   "region": "부산",
+   "rank1_avg_rate": 0.79,
+   "best": {
+    "ty": "84.9413B",
+    "rate": 1.0,
+    "stage": "1순위 기타지역"
+   },
+   "final_shortfall_total": 8,
+   "rank1_closed_types": 1,
+   "type_count": 4
+  },
+  {
    "no": "2026000464",
    "name": "힐스테이트 거제시그니처(1회차)",
    "region": "경남",
@@ -86,20 +100,6 @@
    "type_count": 6
   },
   {
-   "no": "2026000471",
-   "name": "한양립스 에듀포레(조합원 취소분)",
-   "region": "광주",
-   "rank1_avg_rate": 0.21,
-   "best": {
-    "ty": "89.513A",
-    "rate": 2.0,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 13,
-   "rank1_closed_types": 1,
-   "type_count": 5
-  },
-  {
    "no": "2026000267",
    "name": "아산 그랑시티필하우스",
    "region": "충남",
@@ -111,6 +111,26 @@
   }
  ],
  "weekly_remainder": [
+  {
+   "no": "2026910257",
+   "name": "파주 운정신도시 우미 린 더 센텀",
+   "region": "경기",
+   "households": 2,
+   "rcept_date": "2026-11-02",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910257&pblancNo=2026910257",
+   "types": [
+    {
+     "ty": "84.9891A",
+     "price": 54250,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9867B",
+     "price": 53450,
+     "pyeong_price": null
+    }
+   ]
+  },
   {
    "no": "2026910265",
    "name": "한화포레나 영흥숲(3차)",
@@ -187,6 +207,31 @@
    ]
   },
   {
+   "no": "2026910269",
+   "name": "화서역 호수공원 아너스빌",
+   "region": "경기",
+   "households": 169,
+   "rcept_date": "2026-11-02",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910269&pblancNo=2026910269",
+   "types": [
+    {
+     "ty": "84.7459A",
+     "price": 89800,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.8508B",
+     "price": 89300,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9663D",
+     "price": 89300,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
    "no": "2026910270",
    "name": "충정로역자이르네(2차)",
    "region": "서울",
@@ -228,6 +273,21 @@
      "ty": "109.99A",
      "price": 108200,
      "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026930042",
+   "name": "파주 운정신도시 우미 린 더 센텀",
+   "region": "경기",
+   "households": 1,
+   "rcept_date": "2026-11-02",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930042&pblancNo=2026930042",
+   "types": [
+    {
+     "ty": "84.9891A",
+     "price": 54250,
+     "pyeong_price": 1578
     }
    ]
   },

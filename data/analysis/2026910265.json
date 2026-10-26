@@ -26,5 +26,29 @@
  ],
  "general_total": 1,
  "special_total": 0,
- "special_share_pct": 0
+ "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "68.9883",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 223.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 223,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "68.9883",
+   "rate": 223.0,
+   "stage": "None순위 None"
+  }
+ }
 }
