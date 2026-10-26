@@ -1,0 +1,74 @@
+{
+ "corp_code": "02040710",
+ "corp_name": "우리투자제1호기업인수목적",
+ "rcept_no": "20261026000285",
+ "rcept_dt": "20261026",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000285",
+ "subscription": "2026년 12월 02일 ~ 2026년 12월 03일",
+ "payment_date": "2026년 12월 07일",
+ "notice_date": "2026년 12월 02일",
+ "allot_date": "2026년 12월 07일",
+ "stock_kind": "보통주",
+ "shares": 6500000,
+ "face_value": 100,
+ "price": 2000,
+ "total": 13000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "우리투자증권",
+   "shares": 6500000,
+   "amount": 13000000000,
+   "fee": 390000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "공모예치자금",
+   "amount": 13000000000,
+   "share_pct": 100.0,
+   "amount_eok": 130.0
+  }
+ ],
+ "fund_total": 13000000000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "우리투자제1호기업인수목적 주식회사",
+  "ceo_nm": "현승철",
+  "induty_code": "649",
+  "est_dt": "20260714",
+  "hm_url": "",
+  "adres": "서울특별시 영등포구 의사당대로 96 (여의도동, TPTower)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": true,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "우리투자증권",
+ "underwriting_fee_pct": 3.0,
+ "total_eok": 130.0,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 0,
+ "top_fund_use": {
+  "use": "공모예치자금",
+  "amount": 13000000000,
+  "share_pct": 100.0,
+  "amount_eok": 130.0
+ },
+ "compare_median_total": 29346000000,
+ "compare_count": 28,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 293.5
+}
