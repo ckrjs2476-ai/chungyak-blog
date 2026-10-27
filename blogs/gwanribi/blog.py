@@ -74,7 +74,8 @@ def build_card(meta: dict) -> str:
         sub = f"{d['ym_label']} 부과분 · {d['name']} {d['n_complex']}개 단지와 비교"
         rows = [("㎡당 관리비(장기수선 포함)", f"{c['total_m2']:,}원"),
                 ("세대 평균", _won(c["total_hh"])),
-                (f"{d['name']} 안 순위", f"{c['rank_total_m2_of']}곳 중 {c['rank_total_m2']}위 (높은 순)"),
+                (f"{d['name']} 안 순위", f"{c['rank_total_m2_of']}곳 중 {c['rank_total_m2']}위 (높은 순)"
+                 if c.get("rank_total_m2") else "순위 비교에서 제외(장기수선충당금 칸 없음)"),
                 ("지역 중앙값과 차이", f"{c['total_m2_vs_median_pct']:+}%" if c.get("total_m2_vs_median_pct") is not None else "-"),
                 ("공용관리비 ㎡당", f"{c['common_m2']:,}원")]
     elif meta.get("type") == "region":

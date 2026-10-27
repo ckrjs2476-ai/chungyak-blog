@@ -262,7 +262,8 @@ def cand_gwanribi() -> list[dict]:
                 continue
             facts = []
             if c.get("total_m2_vs_median_pct") is not None and abs(c["total_m2_vs_median_pct"]) >= 15 and not c.get("indiv_incomplete"):
-                facts.append(f"㎡당 관리비 중앙값 대비 {c['total_m2_vs_median_pct']:+}% ({c['rank_total_m2_of']}곳 중 {c['rank_total_m2']}위)")
+                if c.get("rank_total_m2") and c.get("total_m2_vs_median_pct") is not None:
+                    facts.append(f"㎡당 관리비 중앙값 대비 {c['total_m2_vs_median_pct']:+}% ({c['rank_total_m2_of']}곳 중 {c['rank_total_m2']}위)")
             med_items = d.get("item_median_m2") or {}
             big = sorted(((k, v) for k, v in (c.get("items_vs_median_pct") or {}).items()
                           if v is not None and abs(v) >= 50 and (med_items.get(k) or 0) >= 20 and v > -100),
