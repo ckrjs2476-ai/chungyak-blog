@@ -365,9 +365,27 @@ def sentences(line: str) -> list[str]:
     return [p for p in parts if p]
 
 
+# 글을 고친 흔적(2026-10-28 사용자 규칙): 고친 뒤에도 처음부터 그렇게 쓴 글처럼 둔다
+TRACE_RE = re.compile(r"이 글을 (?:처음 )?(?:쓴|올린|작성한|수정|고친|업데이트)|처음 (?:쓴|올린) (?:때|날|\d)|글을 (?:수정|고쳐|고친|업데이트)"
+                      r"|(?:수정|업데이트|보강|갱신)했(?:어요|습니다)|(?:바로잡았|정정했)|\((?:수정|업데이트|보강)[^)]{0,30}\)|\(\d+월 \d+일 (?:추가|수정)")
+# AI 티 나는 표현(2026-10-28 사용자 규칙 추가분)
+AI_PHRASES = ("셈이에요", "셈입니다", "인 셈", "라는 점에서", "포인트는", "포인트예요", "것으로 보입니다", "것으로 보여요",
+              "눈에 띄는", "살펴보면", "알 수 있어요", "알 수 있습니다", "이라고 할 수 있", "라고 할 수 있")
+
+
 def style_errors(body: str, min_tables: int = 2) -> list[str]:
     """모든 블로그 공통: AI 말투 구조, 표, 문장 끝 말투, 문단 길이 점검."""
     errs: list[str] = []
+    for m in TRACE_RE.finditer(body):
+        errs.append(f"고친 흔적 문장: '{m.group(0)}' (고친 사실을 글에 적지 않는다)")
+    for ph in AI_PHRASES:
+        if ph in body:
+            errs.append(f"AI 티 나는 표현: '{ph}'")
+    bolds = re.findall(r"\*\*[^*\n]{15,}\*\*", body)
+    if bolds:
+        errs.append(f"굵게 강조한 문장 {len(bolds)}개 (AI 글 티, 굵게 쓰지 않는다)")
+    if len(re.findall(r"할 수 있(?:어요|습니다)\.", body)) > 2:
+        errs.append("'~할 수 있어요/습니다.'로 끝나는 문장이 3개 이상")
     # AI 말투 구조 점검
     paras = [b.strip() for b in re.split(r"\n\s*\n", body)
              if b.strip() and not b.strip().startswith(("|", "#", ">", "-", "*", "1."))]
