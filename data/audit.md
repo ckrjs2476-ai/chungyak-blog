@@ -1,6 +1,6 @@
-# 애드센스 기준 점검: cheongyak (2026-10-26 10:30 KST)
+# 애드센스 기준 점검: cheongyak (2026-10-27 10:39 KST)
 
-- 공개 글: 32편
+- 공개 글: 34편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
@@ -8,9 +8,9 @@
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
 - 지방: 16편
-- 청약 결과: 14편
-- 수도권: 13편
-- 청약통계: 13편
+- 청약 결과: 15편
+- 청약통계: 15편
+- 수도권: 14편
 - 청약일정: 10편
 
 ## 겹침·합치기 후보
@@ -28,6 +28,8 @@
 | 80 | [강동구 아파트 실거래가, 신축 84㎡ 중앙값 20억](https://daily-cheongyak.blogspot.com/2026/10/gangdong-gu-apartment-silgeorae-2026-10.html) `2026-10-24-gangdong-market.md` | 3187 | 1 | 0 | - |
 | 80 | [아산 그랑시티필하우스 경쟁률, 2순위까지 1,254](https://daily-cheongyak.blogspot.com/2026/10/asan-grandcity-philhouse-competition.html) `2026-10-21-2026000267-competition.md` | 1672 | 1 | 2 | - |
 | 80 | [진주 판문지구 레이크써밋 웰가 당첨 가점, 84A ](https://daily-cheongyak.blogspot.com/2026/10/jinju-panmun-lake-summit-welga-score.html) `2026-10-10-2026000446-score.md` | 1792 | 1 | 1 | - |
+| 90 | [10월 2주 청약 경쟁률 순위, 7곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-2w.html) `2026-10-19-weekly-competition-1012-stats.md` | 2433 | 1 | 2 | - |
+| 90 | [10월 3주 청약 경쟁률 순위, 8곳 중 1순위 전](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-3w.html) `2026-10-26-weekly-competition-1019-stats.md` | 2769 | 1 | 5 | - |
 | 90 | [더샵 동인센트리체 청약 경쟁률, 1순위 신청 17건](https://daily-cheongyak.blogspot.com/2026/10/the-sharp-dongin-centriche-competition.html) `2026-10-15-2026000494-competition.md` | 1603 | 0 | 1 | - |
 | 90 | [부산 분양 아파트 10월 5곳, 평당 1,786만~](https://daily-cheongyak.blogspot.com/2026/10/busan-apartment-pyeong-price-2026-10.html) `2026-10-19-busan-2026-10-region.md` | 3068 | 1 | 1 | - |
 | 90 | [삼천 하늘채 라비엘 당첨 가점, 74B 커트라인 5](https://daily-cheongyak.blogspot.com/2026/10/samcheon-haneulchae-raviel-score-2026-10.html) `2026-10-11-2026000445-score.md` | 1843 | 1 | 1 | - |
@@ -39,10 +41,10 @@
 | 90 | [힐스테이트 거제시그니처 경쟁률, 2순위서 5타입 마](https://daily-cheongyak.blogspot.com/2026/10/hillstate-geoje-signature-competition.html) `2026-10-21-2026000464-competition.md` | 1604 | 0 | 2 | - |
 | 100 | [10월 19일 무순위 청약 7곳 결과, 에코델타 1](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-19.html) `2026-10-15-remainder-1019-remainder.md` | 3186 | 0 | 1 | - |
 | 100 | [10월 26일 무순위 청약, 문수로 비스타 더파크 ](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-26.html) `2026-10-22-remainder-1026-remainder.md` | 2753 | 0 | 2 | - |
-| 100 | [10월 2주 청약 경쟁률 순위, 7곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-2w.html) `2026-10-19-weekly-competition-1012-stats.md` | 2433 | 0 | 2 | - |
 | 100 | [경기 분양 아파트 9·10월 평당 분양가 비교, 9](https://daily-cheongyak.blogspot.com/2026/10/gyeonggi-apartment-pyeong-price-2026-09.html) `2026-10-16-gyeonggi-sep-oct-region.md` | 3066 | 0 | 2 | - |
 | 100 | [계양신도시 카이브 유보라 분양가·청약 일정, AC3](https://daily-cheongyak.blogspot.com/2026/10/gyeyang-kaib-yubora-ac3-ac4-bunyangga.html) `2026-10-25-2026000530-2026000532-notice.md` | 2635 | 0 | 2 | - |
-| 100 | [대전 분양 아파트 평당가, 10곳 중 1위 도룡자이](https://daily-cheongyak.blogspot.com/2026/10/daejeon-apartment-pyeong-price-2025-10.html) `2026-10-26-daejeon-2025-10-2026-10-region.md` | 2411 | 0 | 2 | - |
+| 100 | [남양주 분양 아파트 평당 분양가, 왕숙2 2,094](https://daily-cheongyak.blogspot.com/2026/10/namyangju-apartment-pyeong-price-2025.html) `2026-10-27-namyangju-2025-11-2026-09-region.md` | 2477 | 0 | 1 | - |
+| 100 | [대전 분양 아파트 평당가, 10곳 중 1위 도룡자이](https://daily-cheongyak.blogspot.com/2026/10/daejeon-apartment-pyeong-price-2025-10.html) `2026-10-26-daejeon-2025-10-2026-10-region.md` | 2536 | 0 | 2 | - |
 | 100 | [산곡역자이힐스테이트앤하늘채 청약 일정·분양가, 평당](https://daily-cheongyak.blogspot.com/2026/10/sangok-station-xi-hillstate-haneulchae.html) `2026-10-09-2026000458-notice.md` | 2459 | 0 | 2 | - |
 | 100 | [쌍용 더 플래티넘 한강 청약 일정·분양가, 평당 2](https://daily-cheongyak.blogspot.com/2026/10/ssangyong-platinum-hangang-cheongyak.html) `2026-10-09-2026000468-notice.md` | 1814 | 0 | 1 | - |
 | 100 | [아크메르 동탄 95·99 분양가·청약 일정, 평당 ](https://daily-cheongyak.blogspot.com/2026/10/acmer-dongtan-95-bunyangga-2026-10.html) `2026-10-18-2026000508-notice.md` | 2960 | 0 | 2 | - |

@@ -1,16 +1,17 @@
-# 애드센스 기준 점검: gwanribi (2026-10-26 10:30 KST)
+# 애드센스 기준 점검: gwanribi (2026-10-27 10:39 KST)
 
-- 공개 글: 18편
+- 공개 글: 20편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
 
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
-- 서울: 18편
+- 서울: 19편
 - 지역 관리비: 8편
-- 단지 관리비: 6편  ← 부족
-- 관리비 읽는 법: 4편  ← 부족
+- 단지 관리비: 7편  ← 부족
+- 관리비 읽는 법: 5편  ← 부족
+- 경기: 1편  ← 부족
 
 ## 겹침·합치기 후보
 
@@ -25,7 +26,9 @@
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
 | 90 | [DMC파크뷰자이 관리비, ㎡당 4,092원으로 서대](https://gwanribi-dotbogi.blogspot.com/2026/10/dmc-park-view-xi-management-fee-2026-08.html) `2026-10-24-A10027817-complex.md` | 2859 | 0 | 0 | - |
+| 90 | [나인원한남 관리비, 개별사용료 ㎡당 4,507원으로](https://gwanribi-dotbogi.blogspot.com/2026/10/nine-one-hannam-management-fee-2026-08.html) `2026-10-26-A10025192-complex.md` | 2596 | 0 | 0 | - |
 | 90 | [송파구 아파트 관리비, 1위 롯데캐슬골드 공용관리비](https://gwanribi-dotbogi.blogspot.com/2026/10/songpa-gu-apartment-management-fee-2026.html) `2026-10-14-11710-region.md` | 2609 | 0 | 0 | - |
+| 90 | [영통구 공용관리비, 상위 5곳 중 4곳은 300~4](https://gwanribi-dotbogi.blogspot.com/2026/10/common-management-fee-yeongtong-gu-2026.html) `2026-10-26-41117-topic.md` | 2430 | 0 | 0 | - |
 | 100 | [가산두산위브 관리비, 경비비 ㎡당 526원으로 금천](https://gwanribi-dotbogi.blogspot.com/2026/10/gasan-doosan-weve-management-fee-2026-08.html) `2026-10-22-A15380403-complex.md` | 2557 | 0 | 1 | - |
 | 100 | [강남구 아파트 관리비 ㎡당 3,064원, 91개 단](https://gwanribi-dotbogi.blogspot.com/2026/10/gangnam-gu-apartment-management-fee.html) `2026-10-14-11680-region.md` | 3000 | 0 | 2 | - |
 | 100 | [강동구 아파트 관리비, 난방 방식 따라 개별사용료 ](https://gwanribi-dotbogi.blogspot.com/2026/10/gangdong-gu-apartment-management-fee.html) `2026-10-15-11740-region.md` | 2857 | 0 | 1 | - |

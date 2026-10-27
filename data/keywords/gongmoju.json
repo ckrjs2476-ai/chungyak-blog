@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26 10:30",
+ "updated": "2026-10-27 10:39",
  "stage": 1,
  "band": [
   30,
@@ -63,18 +63,6 @@
    "base_score": 100.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "다비오수요예측",
-   "volume": 720,
-   "comp": "낮음",
-   "entity": "다비오",
-   "entity_id": "01706509",
-   "base_score": 100.0,
-   "growth": 1.0,
-   "why": "",
    "score": 100.0,
    "used": false
   },
@@ -151,18 +139,6 @@
    "used": false
   },
   {
-   "keyword": "하나에어로다이내믹스공모주",
-   "volume": 30,
-   "comp": "중간",
-   "entity": "하나에어로다이내믹스",
-   "entity_id": "01025617",
-   "base_score": 85.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 85.0,
-   "used": false
-  },
-  {
    "keyword": "아델공모주",
    "volume": 60,
    "comp": "중간",
@@ -196,6 +172,18 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 75.9,
+   "used": false
+  },
+  {
+   "keyword": "다비오공모가",
+   "volume": 20,
+   "comp": "중간",
+   "entity": "다비오",
+   "entity_id": "01706509",
+   "base_score": 51.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 64.5,
    "used": false
   },
   {
@@ -240,18 +228,6 @@
    "comp": "중간",
    "entity": "씨앤엠",
    "entity_id": "00618173",
-   "base_score": 51.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 51.0,
-   "used": false
-  },
-  {
-   "keyword": "다비오공모가",
-   "volume": 20,
-   "comp": "중간",
-   "entity": "다비오",
-   "entity_id": "01706509",
    "base_score": 51.0,
    "growth": 1.0,
    "why": "",
@@ -307,6 +283,18 @@
    "used": false
   },
   {
+   "keyword": "다비오공모주",
+   "volume": 2910,
+   "comp": "중간",
+   "entity": "다비오",
+   "entity_id": "01706509",
+   "base_score": 34.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 43.0,
+   "used": false
+  },
+  {
    "keyword": "엘리스그룹공모가",
    "volume": 4160,
    "comp": "낮음",
@@ -329,6 +317,18 @@
    "why": "",
    "score": 40.0,
    "used": false
+  },
+  {
+   "keyword": "다비오수요예측",
+   "volume": 720,
+   "comp": "낮음",
+   "entity": "다비오",
+   "entity_id": "01706509",
+   "base_score": 100.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 34.5,
+   "used": true
   },
   {
    "keyword": "동원파츠공모주",
@@ -403,16 +403,16 @@
    "used": false
   },
   {
-   "keyword": "다비오공모주",
-   "volume": 2910,
+   "keyword": "하나에어로다이내믹스공모주",
+   "volume": 30,
    "comp": "중간",
-   "entity": "다비오",
-   "entity_id": "01706509",
-   "base_score": 34.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 34.0,
-   "used": false
+   "entity": "하나에어로다이내믹스",
+   "entity_id": "01025617",
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 29.3,
+   "used": true
   },
   {
    "keyword": "영광와이케이엠씨공모주",
@@ -481,9 +481,9 @@
    "entity": "제논",
    "entity_id": "01950720",
    "base_score": 85.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 29.3,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 25.5,
    "used": true
   },
   {
@@ -535,15 +535,27 @@
    "used": false
   },
   {
+   "keyword": "하나에어로다이내믹스수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "하나에어로다이내믹스",
+   "entity_id": "01025617",
+   "base_score": 20.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 25.3,
+   "used": false
+  },
+  {
    "keyword": "제논공모가",
    "volume": 10,
    "comp": "낮음",
    "entity": "제논",
    "entity_id": "01950720",
    "base_score": 20.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 25.3,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
    "used": false
   },
   {
@@ -559,11 +571,11 @@
    "used": false
   },
   {
-   "keyword": "제논수요예측",
+   "keyword": "하나에어로다이내믹스공모가",
    "volume": 10,
    "comp": "중간",
-   "entity": "제논",
-   "entity_id": "01950720",
+   "entity": "하나에어로다이내믹스",
+   "entity_id": "01025617",
    "base_score": 17.0,
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
@@ -780,18 +792,6 @@
    "comp": "낮음",
    "entity": "씨아이에스케미칼",
    "entity_id": "01077540",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "하나에어로다이내믹스수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "하나에어로다이내믹스",
-   "entity_id": "01025617",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -1036,6 +1036,18 @@
    "growth": 1.0,
    "why": "",
    "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "제논수요예측",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "제논",
+   "entity_id": "01950720",
+   "base_score": 17.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 18.7,
    "used": false
   },
   {
@@ -1584,18 +1596,6 @@
    "comp": "중간",
    "entity": "씨앤엠",
    "entity_id": "00618173",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
-   "keyword": "하나에어로다이내믹스공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "하나에어로다이내믹스",
-   "entity_id": "01025617",
    "base_score": 17.0,
    "growth": 1.0,
    "why": "",
