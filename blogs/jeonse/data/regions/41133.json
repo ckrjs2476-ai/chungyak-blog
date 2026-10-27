@@ -1,17 +1,17 @@
 {
  "lawd": "41133",
  "name": "경기도 성남시 중원구",
- "updated": "2026-10-13",
+ "updated": "2026-10-27",
  "months": 12,
- "jeonse_count": 1579,
- "wolse_count": 1152,
- "wolse_share_pct": 42.2,
- "renew_share_pct": 41.2,
- "jeonse_n84": 445,
- "jeonse_median84": 51450,
- "sale_n84": 443,
+ "jeonse_count": 1658,
+ "wolse_count": 1231,
+ "wolse_share_pct": 42.6,
+ "renew_share_pct": 41.9,
+ "jeonse_n84": 467,
+ "jeonse_median84": 52000,
+ "sale_n84": 455,
  "sale_median84": 87000,
- "ratio84": 59.1,
+ "ratio84": 59.8,
  "jeonse_recent3_median84": 54000,
  "jeonse_prev3_median84": 53250,
  "jeonse_change_pct": 1.4,
@@ -20,18 +20,18 @@
  "apts_ratio_70_plus": 0,
  "umd": {
   "금광동": {
-   "jeonse_n": 87,
-   "jeonse_median84": 56000,
-   "sale_n": 76,
-   "sale_median84": 85250,
-   "ratio": 65.7
+   "jeonse_n": 89,
+   "jeonse_median84": 56700,
+   "sale_n": 77,
+   "sale_median84": 85000,
+   "ratio": 66.7
   },
   "도촌동": {
-   "jeonse_n": 69,
+   "jeonse_n": 70,
    "jeonse_median84": 54600,
-   "sale_n": 55,
-   "sale_median84": 90000,
-   "ratio": 60.7
+   "sale_n": 59,
+   "sale_median84": 91000,
+   "ratio": 60.0
   },
   "상대원동": {
    "jeonse_n": 5,
@@ -41,39 +41,39 @@
    "ratio": 64.4
   },
   "성남동": {
-   "jeonse_n": 38,
-   "jeonse_median84": 40000,
-   "sale_n": 71,
+   "jeonse_n": 40,
+   "jeonse_median84": 40500,
+   "sale_n": 72,
    "sale_median84": 60000,
-   "ratio": 66.7
+   "ratio": 67.5
   },
   "여수동": {
-   "jeonse_n": 45,
-   "jeonse_median84": 71000,
-   "sale_n": 24,
-   "sale_median84": 137750,
-   "ratio": 51.5
+   "jeonse_n": 48,
+   "jeonse_median84": 71500,
+   "sale_n": 26,
+   "sale_median84": 138250,
+   "ratio": 51.7
   },
   "은행동": {
-   "jeonse_n": 72,
+   "jeonse_n": 74,
    "jeonse_median84": 38925,
-   "sale_n": 79,
+   "sale_n": 80,
    "sale_median84": 87000,
    "ratio": 44.7
   },
   "중앙동": {
-   "jeonse_n": 64,
+   "jeonse_n": 72,
    "jeonse_median84": 61000,
-   "sale_n": 64,
-   "sale_median84": 109750,
-   "ratio": 55.6
+   "sale_n": 66,
+   "sale_median84": 110000,
+   "ratio": 55.5
   },
   "하대원동": {
-   "jeonse_n": 65,
+   "jeonse_n": 69,
    "jeonse_median84": 44100,
-   "sale_n": 64,
-   "sale_median84": 79950,
-   "ratio": 55.2
+   "sale_n": 65,
+   "sale_median84": 80000,
+   "ratio": 55.1
   }
  },
  "top_ratio_apts": [
@@ -108,16 +108,6 @@
    "ratio": 66.1
   },
   {
-   "umd": "도촌동",
-   "apt": "동분당포레스트",
-   "built": 2007,
-   "jeonse_n": 18,
-   "jeonse_median84": 54600,
-   "sale_n": 14,
-   "sale_median84": 83150,
-   "ratio": 65.7
-  },
-  {
    "umd": "성남동",
    "apt": "부남프라자",
    "built": 2002,
@@ -129,19 +119,19 @@
   },
   {
    "umd": "도촌동",
-   "apt": "동분당더퍼스트",
-   "built": 2010,
-   "jeonse_n": 24,
-   "jeonse_median84": 51700,
+   "apt": "동분당포레스트",
+   "built": 2007,
+   "jeonse_n": 19,
+   "jeonse_median84": 54600,
    "sale_n": 16,
-   "sale_median84": 87500,
-   "ratio": 59.1
+   "sale_median84": 84650,
+   "ratio": 64.5
   },
   {
    "umd": "하대원동",
    "apt": "아튼빌",
    "built": 2003,
-   "jeonse_n": 25,
+   "jeonse_n": 27,
    "jeonse_median84": 47000,
    "sale_n": 26,
    "sale_median84": 80000,
@@ -153,9 +143,19 @@
    "built": 2006,
    "jeonse_n": 28,
    "jeonse_median84": 44000,
-   "sale_n": 38,
+   "sale_n": 39,
    "sale_median84": 75000,
    "ratio": 58.7
+  },
+  {
+   "umd": "도촌동",
+   "apt": "동분당더퍼스트",
+   "built": 2010,
+   "jeonse_n": 24,
+   "jeonse_median84": 51700,
+   "sale_n": 18,
+   "sale_median84": 88450,
+   "ratio": 58.5
   },
   {
    "umd": "성남동",
@@ -163,9 +163,9 @@
    "built": 1992,
    "jeonse_n": 3,
    "jeonse_median84": 40000,
-   "sale_n": 8,
-   "sale_median84": 68500,
-   "ratio": 58.4
+   "sale_n": 9,
+   "sale_median84": 69000,
+   "ratio": 58.0
   },
   {
    "umd": "성남동",
@@ -183,9 +183,9 @@
    "umd": "은행동",
    "apt": "현대",
    "built": 1994,
-   "jeonse_n": 72,
+   "jeonse_n": 74,
    "jeonse_median84": 38925,
-   "sale_n": 65,
+   "sale_n": 66,
    "sale_median84": 87000,
    "ratio": 44.7
   },
@@ -193,11 +193,21 @@
    "umd": "중앙동",
    "apt": "신흥역하늘채랜더스원1단지",
    "built": 2022,
-   "jeonse_n": 12,
-   "jeonse_median84": 69150,
+   "jeonse_n": 14,
+   "jeonse_median84": 68100,
    "sale_n": 12,
    "sale_median84": 144400,
-   "ratio": 47.9
+   "ratio": 47.2
+  },
+  {
+   "umd": "중앙동",
+   "apt": "신흥역하늘채랜더스원3단지",
+   "built": 2022,
+   "jeonse_n": 11,
+   "jeonse_median84": 72000,
+   "sale_n": 3,
+   "sale_median84": 148000,
+   "ratio": 48.6
   },
   {
    "umd": "하대원동",
@@ -205,7 +215,7 @@
    "built": 2007,
    "jeonse_n": 30,
    "jeonse_median84": 43325,
-   "sale_n": 22,
+   "sale_n": 23,
    "sale_median84": 85000,
    "ratio": 51.0
   },
@@ -218,16 +228,6 @@
    "sale_n": 10,
    "sale_median84": 122500,
    "ratio": 51.4
-  },
-  {
-   "umd": "중앙동",
-   "apt": "중앙동힐스테이트2차",
-   "built": 2014,
-   "jeonse_n": 17,
-   "jeonse_median84": 52500,
-   "sale_n": 21,
-   "sale_median84": 102000,
-   "ratio": 51.5
   }
  ],
  "monthly": [
@@ -281,41 +281,41 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 129,
-   "n84": 33,
+   "jeonse_count": 131,
+   "n84": 34,
    "jeonse_median84": 50000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 128,
+   "jeonse_count": 130,
    "n84": 30,
    "jeonse_median84": 59300
   },
   {
    "month": "2026-09",
-   "jeonse_count": 120,
-   "n84": 21,
-   "jeonse_median84": 52000
+   "jeonse_count": 123,
+   "n84": 22,
+   "jeonse_median84": 53000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 54,
-   "n84": 16,
-   "jeonse_median84": 55875
+   "jeonse_count": 126,
+   "n84": 36,
+   "jeonse_median84": 54300
   }
  ],
- "rank": 141,
+ "rank": 138,
  "rank_of": 179,
  "avg_ratio84_all": 72.1,
- "ratio_vs_avg_pp": -13.0,
+ "ratio_vs_avg_pp": -12.3,
  "umd_ratio_high": {
   "name": "성남동",
-  "ratio": 66.7
+  "ratio": 67.5
  },
  "umd_ratio_low": {
   "name": "은행동",
   "ratio": 44.7
  },
- "umd_spread_pp": 22.0,
- "gap84": 35550
+ "umd_spread_pp": 22.8,
+ "gap84": 35000
 }

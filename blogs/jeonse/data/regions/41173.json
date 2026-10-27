@@ -1,49 +1,49 @@
 {
  "lawd": "41173",
  "name": "경기도 안양시 동안구",
- "updated": "2026-10-13",
+ "updated": "2026-10-27",
  "months": 12,
- "jeonse_count": 6536,
- "wolse_count": 3417,
- "wolse_share_pct": 34.3,
- "renew_share_pct": 51.8,
- "jeonse_n84": 1749,
+ "jeonse_count": 6800,
+ "wolse_count": 3585,
+ "wolse_share_pct": 34.5,
+ "renew_share_pct": 51.7,
+ "jeonse_n84": 1820,
  "jeonse_median84": 52500,
- "sale_n84": 1399,
- "sale_median84": 89400,
+ "sale_n84": 1445,
+ "sale_median84": 89500,
  "ratio84": 58.7,
- "jeonse_recent3_median84": 52500,
+ "jeonse_recent3_median84": 53000,
  "jeonse_prev3_median84": 51000,
- "jeonse_change_pct": 2.9,
+ "jeonse_change_pct": 3.9,
  "apts_with_both": 83,
  "apts_ratio_80_plus": 4,
  "apts_ratio_70_plus": 12,
  "umd": {
   "관양동": {
-   "jeonse_n": 212,
+   "jeonse_n": 220,
    "jeonse_median84": 57000,
-   "sale_n": 101,
-   "sale_median84": 111000,
-   "ratio": 51.4
+   "sale_n": 106,
+   "sale_median84": 112000,
+   "ratio": 50.9
   },
   "비산동": {
-   "jeonse_n": 454,
+   "jeonse_n": 470,
    "jeonse_median84": 48000,
-   "sale_n": 417,
-   "sale_median84": 84500,
-   "ratio": 56.8
+   "sale_n": 428,
+   "sale_median84": 84600,
+   "ratio": 56.7
   },
   "평촌동": {
-   "jeonse_n": 476,
-   "jeonse_median84": 55650,
-   "sale_n": 325,
-   "sale_median84": 114300,
+   "jeonse_n": 500,
+   "jeonse_median84": 56000,
+   "sale_n": 333,
+   "sale_median84": 115000,
    "ratio": 48.7
   },
   "호계동": {
-   "jeonse_n": 607,
+   "jeonse_n": 630,
    "jeonse_median84": 50000,
-   "sale_n": 556,
+   "sale_n": 578,
    "sale_median84": 78000,
    "ratio": 64.1
   }
@@ -71,6 +71,16 @@
   },
   {
    "umd": "호계동",
+   "apt": "호계동현대",
+   "built": 1999,
+   "jeonse_n": 6,
+   "jeonse_median84": 35875,
+   "sale_n": 6,
+   "sale_median84": 43500,
+   "ratio": 82.5
+  },
+  {
+   "umd": "호계동",
    "apt": "양우내안애팰리스",
    "built": 2009,
    "jeonse_n": 2,
@@ -78,16 +88,6 @@
    "sale_n": 2,
    "sale_median84": 45150,
    "ratio": 81.5
-  },
-  {
-   "umd": "호계동",
-   "apt": "호계동현대",
-   "built": 1999,
-   "jeonse_n": 4,
-   "jeonse_median84": 35000,
-   "sale_n": 6,
-   "sale_median84": 43500,
-   "ratio": 80.5
   },
   {
    "umd": "비산동",
@@ -115,7 +115,7 @@
    "built": 2017,
    "jeonse_n": 4,
    "jeonse_median84": 44000,
-   "sale_n": 18,
+   "sale_n": 21,
    "sale_median84": 58000,
    "ratio": 75.9
   },
@@ -165,29 +165,29 @@
    "umd": "호계동",
    "apt": "평촌센텀퍼스트",
    "built": 2023,
-   "jeonse_n": 105,
-   "jeonse_median84": 56175,
+   "jeonse_n": 108,
+   "jeonse_median84": 56700,
    "sale_n": 14,
    "sale_median84": 149000,
-   "ratio": 37.7
+   "ratio": 38.1
   },
   {
    "umd": "관양동",
    "apt": "인덕원마을(삼성)",
    "built": 1998,
-   "jeonse_n": 47,
+   "jeonse_n": 52,
    "jeonse_median84": 55000,
-   "sale_n": 12,
-   "sale_median84": 128500,
-   "ratio": 42.8
+   "sale_n": 13,
+   "sale_median84": 130000,
+   "ratio": 42.3
   },
   {
    "umd": "평촌동",
    "apt": "인덕원대우",
    "built": 2001,
-   "jeonse_n": 119,
+   "jeonse_n": 125,
    "jeonse_median84": 50000,
-   "sale_n": 62,
+   "sale_n": 64,
    "sale_median84": 116500,
    "ratio": 42.9
   },
@@ -195,11 +195,11 @@
    "umd": "호계동",
    "apt": "평촌트리지아",
    "built": 2024,
-   "jeonse_n": 51,
-   "jeonse_median84": 57750,
+   "jeonse_n": 56,
+   "jeonse_median84": 59037,
    "sale_n": 14,
    "sale_median84": 131600,
-   "ratio": 43.9
+   "ratio": 44.9
   }
  ],
  "monthly": [
@@ -241,39 +241,39 @@
   },
   {
    "month": "2026-05",
-   "jeonse_count": 522,
+   "jeonse_count": 523,
    "n84": 124,
    "jeonse_median84": 54800
   },
   {
    "month": "2026-06",
-   "jeonse_count": 554,
+   "jeonse_count": 556,
    "n84": 137,
    "jeonse_median84": 51500
   },
   {
    "month": "2026-07",
-   "jeonse_count": 644,
+   "jeonse_count": 648,
    "n84": 181,
    "jeonse_median84": 52500
   },
   {
    "month": "2026-08",
-   "jeonse_count": 466,
-   "n84": 117,
-   "jeonse_median84": 52500
+   "jeonse_count": 485,
+   "n84": 123,
+   "jeonse_median84": 53550
   },
   {
    "month": "2026-09",
-   "jeonse_count": 399,
-   "n84": 79,
+   "jeonse_count": 436,
+   "n84": 86,
    "jeonse_median84": 52500
   },
   {
    "month": "2026-10",
-   "jeonse_count": 126,
-   "n84": 41,
-   "jeonse_median84": 53000
+   "jeonse_count": 327,
+   "n84": 99,
+   "jeonse_median84": 56000
   }
  ],
  "rank": 144,
@@ -289,5 +289,5 @@
   "ratio": 48.7
  },
  "umd_spread_pp": 15.4,
- "gap84": 36900
+ "gap84": 37000
 }

@@ -1,17 +1,17 @@
 {
  "lawd": "11170",
  "name": "서울특별시 용산구",
- "updated": "2026-10-13",
+ "updated": "2026-10-27",
  "months": 12,
- "jeonse_count": 2551,
- "wolse_count": 3102,
- "wolse_share_pct": 54.9,
+ "jeonse_count": 2668,
+ "wolse_count": 3213,
+ "wolse_share_pct": 54.6,
  "renew_share_pct": 49.3,
- "jeonse_n84": 741,
- "jeonse_median84": 77500,
- "sale_n84": 229,
- "sale_median84": 193000,
- "ratio84": 40.2,
+ "jeonse_n84": 773,
+ "jeonse_median84": 78000,
+ "sale_n84": 230,
+ "sale_median84": 193450,
+ "ratio84": 40.3,
  "jeonse_recent3_median84": 80000,
  "jeonse_prev3_median84": 80000,
  "jeonse_change_pct": 0.0,
@@ -20,28 +20,28 @@
  "apts_ratio_70_plus": 0,
  "umd": {
   "도원동": {
-   "jeonse_n": 41,
+   "jeonse_n": 42,
    "jeonse_median84": 68000,
    "sale_n": 19,
    "sale_median84": 180000,
    "ratio": 37.8
   },
   "문배동": {
-   "jeonse_n": 108,
+   "jeonse_n": 113,
    "jeonse_median84": 75000,
    "sale_n": 27,
    "sale_median84": 144000,
    "ratio": 52.1
   },
   "보광동": {
-   "jeonse_n": 32,
+   "jeonse_n": 34,
    "jeonse_median84": 60000,
    "sale_n": 20,
    "sale_median84": 400000,
    "ratio": 15.0
   },
   "산천동": {
-   "jeonse_n": 47,
+   "jeonse_n": 48,
    "jeonse_median84": 63000,
    "sale_n": 8,
    "sale_median84": 177000,
@@ -55,18 +55,18 @@
    "ratio": 36.0
   },
   "신계동": {
-   "jeonse_n": 55,
+   "jeonse_n": 56,
    "jeonse_median84": 94500,
    "sale_n": 9,
    "sale_median84": 227000,
    "ratio": 41.6
   },
   "용문동": {
-   "jeonse_n": 12,
-   "jeonse_median84": 76100,
+   "jeonse_n": 14,
+   "jeonse_median84": 76300,
    "sale_n": 5,
    "sale_median84": 187000,
-   "ratio": 40.7
+   "ratio": 40.8
   },
   "원효로1가": {
    "jeonse_n": 29,
@@ -83,21 +83,21 @@
    "ratio": 34.9
   },
   "이촌동": {
-   "jeonse_n": 196,
-   "jeonse_median84": 86075,
-   "sale_n": 53,
-   "sale_median84": 262000,
-   "ratio": 32.9
+   "jeonse_n": 205,
+   "jeonse_median84": 85000,
+   "sale_n": 54,
+   "sale_median84": 261750,
+   "ratio": 32.5
   },
   "이태원동": {
-   "jeonse_n": 20,
+   "jeonse_n": 21,
    "jeonse_median84": 65000,
    "sale_n": 5,
    "sale_median84": 230000,
    "ratio": 28.3
   },
   "한강로2가": {
-   "jeonse_n": 33,
+   "jeonse_n": 35,
    "jeonse_median84": 80000,
    "sale_n": 8,
    "sale_median84": 191000,
@@ -111,18 +111,18 @@
    "ratio": 45.8
   },
   "한남동": {
-   "jeonse_n": 23,
-   "jeonse_median84": 80000,
+   "jeonse_n": 24,
+   "jeonse_median84": 79500,
    "sale_n": 20,
    "sale_median84": 169750,
-   "ratio": 47.1
+   "ratio": 46.8
   },
   "효창동": {
-   "jeonse_n": 78,
-   "jeonse_median84": 92925,
+   "jeonse_n": 85,
+   "jeonse_median84": 94500,
    "sale_n": 28,
    "sale_median84": 193500,
-   "ratio": 48.0
+   "ratio": 48.8
   }
  },
  "top_ratio_apts": [
@@ -140,21 +140,11 @@
    "umd": "문배동",
    "apt": "삼라마이다스빌2",
    "built": 2004,
-   "jeonse_n": 4,
-   "jeonse_median84": 61450,
+   "jeonse_n": 5,
+   "jeonse_median84": 61900,
    "sale_n": 2,
    "sale_median84": 108750,
-   "ratio": 56.5
-  },
-  {
-   "umd": "문배동",
-   "apt": "지오베르크",
-   "built": 2004,
-   "jeonse_n": 3,
-   "jeonse_median84": 75000,
-   "sale_n": 3,
-   "sale_median84": 134000,
-   "ratio": 56.0
+   "ratio": 56.9
   },
   {
    "umd": "한남동",
@@ -187,6 +177,16 @@
    "ratio": 52.6
   },
   {
+   "umd": "효창동",
+   "apt": "용산데시앙포레",
+   "built": 2022,
+   "jeonse_n": 16,
+   "jeonse_median84": 94750,
+   "sale_n": 6,
+   "sale_median84": 180250,
+   "ratio": 52.6
+  },
+  {
    "umd": "원효로1가",
    "apt": "용산더프라임",
    "built": 2014,
@@ -207,20 +207,20 @@
    "ratio": 51.7
   },
   {
-   "umd": "효창동",
-   "apt": "용산데시앙포레",
-   "built": 2022,
-   "jeonse_n": 14,
-   "jeonse_median84": 92250,
-   "sale_n": 6,
-   "sale_median84": 180250,
-   "ratio": 51.2
+   "umd": "문배동",
+   "apt": "지오베르크",
+   "built": 2004,
+   "jeonse_n": 4,
+   "jeonse_median84": 68350,
+   "sale_n": 3,
+   "sale_median84": 134000,
+   "ratio": 51.0
   },
   {
    "umd": "문배동",
    "apt": "이안용산프리미어",
    "built": 2007,
-   "jeonse_n": 7,
+   "jeonse_n": 8,
    "jeonse_median84": 80000,
    "sale_n": 2,
    "sale_median84": 162500,
@@ -232,27 +232,27 @@
    "umd": "보광동",
    "apt": "신동아1",
    "built": 1992,
-   "jeonse_n": 24,
-   "jeonse_median84": 56750,
+   "jeonse_n": 26,
+   "jeonse_median84": 55250,
    "sale_n": 14,
    "sale_median84": 419000,
-   "ratio": 13.5
+   "ratio": 13.2
   },
   {
    "umd": "이촌동",
    "apt": "동아그린",
    "built": 1999,
-   "jeonse_n": 14,
-   "jeonse_median84": 55850,
-   "sale_n": 3,
-   "sale_median84": 206000,
-   "ratio": 27.1
+   "jeonse_n": 15,
+   "jeonse_median84": 56700,
+   "sale_n": 4,
+   "sale_median84": 210000,
+   "ratio": 27.0
   },
   {
    "umd": "이촌동",
    "apt": "대림",
    "built": 1994,
-   "jeonse_n": 24,
+   "jeonse_n": 26,
    "jeonse_median84": 69125,
    "sale_n": 4,
    "sale_median84": 250000,
@@ -300,7 +300,7 @@
   },
   {
    "month": "2026-02",
-   "jeonse_count": 253,
+   "jeonse_count": 254,
    "n84": 74,
    "jeonse_median84": 75000
   },
@@ -318,7 +318,7 @@
   },
   {
    "month": "2026-05",
-   "jeonse_count": 228,
+   "jeonse_count": 229,
    "n84": 68,
    "jeonse_median84": 82000
   },
@@ -330,33 +330,33 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 205,
-   "n84": 56,
-   "jeonse_median84": 79000
+   "jeonse_count": 211,
+   "n84": 57,
+   "jeonse_median84": 78000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 168,
-   "n84": 51,
-   "jeonse_median84": 84000
+   "jeonse_count": 171,
+   "n84": 52,
+   "jeonse_median84": 84500
   },
   {
    "month": "2026-09",
-   "jeonse_count": 168,
-   "n84": 59,
-   "jeonse_median84": 77000
+   "jeonse_count": 185,
+   "n84": 63,
+   "jeonse_median84": 78000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 38,
-   "n84": 8,
-   "jeonse_median84": 90500
+   "jeonse_count": 127,
+   "n84": 34,
+   "jeonse_median84": 78000
   }
  ],
  "rank": 174,
  "rank_of": 179,
  "avg_ratio84_all": 72.1,
- "ratio_vs_avg_pp": -31.9,
+ "ratio_vs_avg_pp": -31.8,
  "umd_ratio_high": {
   "name": "문배동",
   "ratio": 52.1
@@ -366,5 +366,5 @@
   "ratio": 15.0
  },
  "umd_spread_pp": 37.1,
- "gap84": 115500
+ "gap84": 115450
 }
