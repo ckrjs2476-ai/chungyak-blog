@@ -89,6 +89,65 @@
   "노부모 부양": 4,
   "기관추천": 14
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.6263",
+    "supply": 9,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "66.8011A",
+    "supply": 15,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 11
+   },
+   {
+    "ty": "66.9574B",
+    "supply": 29,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 28
+   },
+   {
+    "ty": "66.9292C",
+    "supply": 35,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 30
+   },
+   {
+    "ty": "73.6558",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "82.9237",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 18
+   }
+  ],
+  "req_total": 27,
+  "rank1_req": 27,
+  "supply_total": 134,
+  "final_shortfall_total": 110,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 6,
+  "rank1_avg_rate": 0.2,
+  "best": {
+   "ty": "59.6263",
+   "rate": 1.33,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "부산",
   "supply_kind": "민영",
@@ -115,5 +174,22 @@
   "peer_count": 12,
   "peer_avg_rate": 2.09,
   "peer_max_rate": 18.29
+ },
+ "region_competition": {
+  "scope": "부산",
+  "peer_count": 14,
+  "peers": [
+   "기장 이진캐스빌 포레",
+   "알티에로 광안",
+   "두산위브 트리니뷰 구명역",
+   "해운대 마티안 디 에디션",
+   "동래사적공원 오네뜨",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트"
+  ],
+  "peer_avg_rate": 1.82,
+  "rank": 8,
+  "of": 15
  }
 }

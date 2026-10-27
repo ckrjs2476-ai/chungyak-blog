@@ -81,6 +81,53 @@
   "노부모 부양": 25,
   "기관추천": 63
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "75.9453",
+    "supply": 59,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   },
+   {
+    "ty": "84.886A",
+    "supply": 375,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 290
+   },
+   {
+    "ty": "84.9724B",
+    "supply": 152,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 128
+   },
+   {
+    "ty": "84.7773C",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 22
+   },
+   {
+    "ty": "114.9763",
+    "supply": 164,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 155
+   }
+  ],
+  "req_total": 153,
+  "rank1_req": 153,
+  "supply_total": 774,
+  "final_shortfall_total": 621,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.2
+ },
  "region_price": {
   "scope": "해운대구",
   "supply_kind": "민영",
@@ -122,6 +169,17 @@
   "peer_count": 12,
   "peer_avg_rate": 2.09,
   "peer_max_rate": 18.29
+ },
+ "region_competition": {
+  "scope": "해운대구",
+  "peer_count": 2,
+  "peers": [
+   "해운대 마티안 디 에디션",
+   "트리븐센텀 1단지"
+  ],
+  "peer_avg_rate": 0.33,
+  "rank": 2,
+  "of": 3
  },
  "market": {
   "region": "부산광역시 해운대구",

@@ -1,0 +1,89 @@
+{
+ "no": "2026000434",
+ "name": "삼도이동 1지구 토지임대부 공공분양주택",
+ "kind": "apt",
+ "region": "제주",
+ "notice_date": "2026-10-27",
+ "rank1_date": "2026-11-17",
+ "city": "제주시",
+ "supply_kind": "국민",
+ "winner_date": "2026-11-24",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000434&pblancNo=2026000434",
+ "households": 32,
+ "types": [
+  {
+   "ty": "49.5837A",
+   "size": 49,
+   "price": 25235,
+   "area_m2": 71.9511,
+   "general": 2,
+   "special": 6,
+   "pyeong_price": 1159,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "59.9783A",
+   "size": 59,
+   "price": 30233,
+   "area_m2": 86.2027,
+   "general": 4,
+   "special": 20,
+   "pyeong_price": 1159,
+   "special_share_pct": 83
+  }
+ ],
+ "general_total": 6,
+ "special_total": 26,
+ "special_share_pct": 81,
+ "pyeong_min": 1159,
+ "pyeong_max": 1159,
+ "pyeong_avg": 1159,
+ "special_kinds": {
+  "신혼부부": 5,
+  "생애최초": 5,
+  "신생아": 11,
+  "청년": 5
+ },
+ "region_price": {
+  "scope": "제주",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ",
+   "삼도이동 2지구 토지임대부 공공분양주택",
+   "제주시 이도이동 아이린8차 아파트"
+  ],
+  "peer_avg_pyeong": 2569,
+  "diff": -1410,
+  "diff_pct": -55,
+  "rank": 4,
+  "of": 5
+ },
+ "area_competition": {
+  "scope": "제주",
+  "peer_count": 3,
+  "peer_avg_rate": 0.1,
+  "peer_max_rate": 0.2
+ },
+ "market": {
+  "region": "제주특별자치도 제주시",
+  "lawd": "50110",
+  "months": 12,
+  "updated": "2026-10-28",
+  "n84": 607,
+  "median84": 40375,
+  "p25_84": 30300,
+  "p75_84": 55400,
+  "new_n84": 49,
+  "new_median84": 48400,
+  "new_build_years": 5,
+  "umd": "삼도이동",
+  "umd_n84": 12,
+  "umd_median84": 28250
+ }
+}

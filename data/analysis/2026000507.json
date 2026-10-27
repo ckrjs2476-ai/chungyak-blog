@@ -68,23 +68,23 @@
    {
     "ty": "59.9823",
     "supply": 13,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 1
+    "closed_at": "2순위 해당지역",
+    "rate": 7.0,
+    "final_shortfall": 0
    },
    {
     "ty": "59.9782C",
     "supply": 5,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 1
+    "closed_at": "2순위 해당지역",
+    "rate": 5.0,
+    "final_shortfall": 0
    },
    {
     "ty": "84.962A",
     "supply": 17,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 6
+    "closed_at": "2순위 해당지역",
+    "rate": 1.33,
+    "final_shortfall": 0
    },
    {
     "ty": "84.9413B",
@@ -94,18 +94,18 @@
     "final_shortfall": 0
    }
   ],
-  "req_total": 31,
+  "req_total": 54,
   "rank1_req": 31,
   "supply_total": 39,
-  "final_shortfall_total": 8,
-  "closed_types": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
   "rank1_closed_types": 1,
   "type_count": 4,
   "rank1_avg_rate": 0.79,
   "best": {
-   "ty": "84.9413B",
-   "rate": 1.0,
-   "stage": "1순위 기타지역"
+   "ty": "59.9823",
+   "rate": 7.0,
+   "stage": "2순위 해당지역"
   }
  },
  "region_price": {
@@ -165,16 +165,16 @@
   "region": "부산광역시 수영구",
   "lawd": "26500",
   "months": 12,
-  "updated": "2026-10-27",
-  "n84": 798,
+  "updated": "2026-10-28",
+  "n84": 802,
   "median84": 71000,
-  "p25_84": 50537,
-  "p75_84": 96125,
+  "p25_84": 50187,
+  "p75_84": 96000,
   "new_n84": 152,
   "new_median84": 120000,
   "new_build_years": 5,
   "umd": "광안동",
-  "umd_n84": 165,
+  "umd_n84": 166,
   "umd_median84": 58000,
   "diff_vs_median84": 20400,
   "diff_pct_vs_median84": 29,

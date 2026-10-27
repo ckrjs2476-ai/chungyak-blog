@@ -1,34 +1,6 @@
 {
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "weekly_competition": [
-  {
-   "no": "2026000491",
-   "name": "청주 가경 아이파크 7단지",
-   "region": "충북",
-   "rank1_avg_rate": 194.59,
-   "best": {
-    "ty": "84.98A",
-    "rate": 630.62,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 0,
-   "rank1_closed_types": 4,
-   "type_count": 4
-  },
-  {
-   "no": "2026000492",
-   "name": "청주 가경 아이파크 8단지",
-   "region": "충북",
-   "rank1_avg_rate": 89.38,
-   "best": {
-    "ty": "84.98A",
-    "rate": 539.33,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 0,
-   "rank1_closed_types": 4,
-   "type_count": 4
-  },
   {
    "no": "2026000402",
    "name": "익산 부송에코르 10년 공공임대주택",
@@ -44,32 +16,18 @@
    "type_count": 3
   },
   {
-   "no": "2026000469",
-   "name": "연제갤러리자이",
-   "region": "부산",
-   "rank1_avg_rate": 1.63,
+   "no": "2026000508",
+   "name": "아크메르 동탄 95",
+   "region": "경기",
+   "rank1_avg_rate": 1.3,
    "best": {
-    "ty": "84.9052B",
-    "rate": 11.0,
-    "stage": "2순위 해당지역"
+    "ty": "84.997C",
+    "rate": 16.88,
+    "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 0,
+   "final_shortfall_total": 401,
    "rank1_closed_types": 3,
-   "type_count": 4
-  },
-  {
-   "no": "2026000458",
-   "name": "산곡역자이힐스테이트앤하늘채",
-   "region": "인천",
-   "rank1_avg_rate": 0.94,
-   "best": {
-    "ty": "50.26B",
-    "rate": 3.0,
-    "stage": "1순위 기타지역"
-   },
-   "final_shortfall_total": 146,
-   "rank1_closed_types": 5,
-   "type_count": 9
+   "type_count": 8
   },
   {
    "no": "2026000507",
@@ -77,37 +35,61 @@
    "region": "부산",
    "rank1_avg_rate": 0.79,
    "best": {
-    "ty": "84.9413B",
-    "rate": 1.0,
-    "stage": "1순위 기타지역"
+    "ty": "59.9823",
+    "rate": 7.0,
+    "stage": "2순위 해당지역"
    },
-   "final_shortfall_total": 8,
+   "final_shortfall_total": 0,
    "rank1_closed_types": 1,
    "type_count": 4
   },
   {
-   "no": "2026000464",
-   "name": "힐스테이트 거제시그니처(1회차)",
-   "region": "경남",
-   "rank1_avg_rate": 0.35,
+   "no": "2026000509",
+   "name": "아크메르 동탄 99",
+   "region": "경기",
+   "rank1_avg_rate": 0.79,
    "best": {
-    "ty": "138.9652P",
-    "rate": 5.0,
+    "ty": "148.9945E",
+    "rate": 4.0,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 51,
-   "rank1_closed_types": 2,
+   "final_shortfall_total": 290,
+   "rank1_closed_types": 4,
+   "type_count": 9
+  },
+  {
+   "no": "2026000495",
+   "name": "연산 센텀 월드메르디앙",
+   "region": "부산",
+   "rank1_avg_rate": 0.2,
+   "best": {
+    "ty": "59.6263",
+    "rate": 1.33,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 110,
+   "rank1_closed_types": 1,
    "type_count": 6
   },
   {
-   "no": "2026000267",
-   "name": "아산 그랑시티필하우스",
-   "region": "충남",
-   "rank1_avg_rate": 0.06,
+   "no": "2026000514",
+   "name": "트리븐센텀 2단지",
+   "region": "부산",
+   "rank1_avg_rate": 0.2,
    "best": null,
-   "final_shortfall_total": 1254,
+   "final_shortfall_total": 621,
    "rank1_closed_types": 0,
-   "type_count": 6
+   "type_count": 5
+  },
+  {
+   "no": "2026000513",
+   "name": "트리븐센텀 1단지",
+   "region": "부산",
+   "rank1_avg_rate": 0.19,
+   "best": null,
+   "final_shortfall_total": 674,
+   "rank1_closed_types": 0,
+   "type_count": 5
   }
  ],
  "weekly_remainder": [
@@ -272,6 +254,66 @@
     {
      "ty": "109.99A",
      "price": 108200,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910275",
+   "name": "더샵 분당하이스트",
+   "region": "경기",
+   "households": 58,
+   "rcept_date": "2026-11-02",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910275&pblancNo=2026910275",
+   "types": [
+    {
+     "ty": "74A",
+     "price": 234200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "74C",
+     "price": 238200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "74.44D",
+     "price": 230200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84A",
+     "price": 298100,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84B",
+     "price": 273900,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84C",
+     "price": 273900,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.09D",
+     "price": 276200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84E",
+     "price": 291100,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.72F",
+     "price": 290100,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.64G",
+     "price": 292000,
      "pyeong_price": null
     }
    ]
@@ -1436,6 +1478,34 @@
     }
    },
    {
+    "no": "2026000434",
+    "name": "삼도이동 1지구 토지임대부 공공분양주택",
+    "region": "제주",
+    "households": 32,
+    "pyeong_avg": 1159,
+    "price_84_min": null,
+    "special_kinds": {
+     "신혼부부": 5,
+     "생애최초": 5,
+     "신생아": 11,
+     "청년": 5
+    }
+   },
+   {
+    "no": "2026000435",
+    "name": "삼도이동 2지구 토지임대부 공공분양주택",
+    "region": "제주",
+    "households": 40,
+    "pyeong_avg": 1136,
+    "price_84_min": null,
+    "special_kinds": {
+     "신혼부부": 6,
+     "생애최초": 6,
+     "신생아": 14,
+     "청년": 6
+    }
+   },
+   {
     "no": "2026000466",
     "name": "진도 승원팰리체 더 테라스",
     "region": "전남",
@@ -1469,15 +1539,15 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 1993,
-   "생애최초": 1228,
-   "신생아": 1559,
+   "신혼부부": 2004,
+   "생애최초": 1239,
+   "신생아": 1584,
    "다자녀": 1582,
    "노부모 부양": 465,
    "기관추천": 1326,
-   "청년": 106
+   "청년": 117
   },
-  "households_total": 17888
+  "households_total": 17960
  },
  "last_month": {
   "month": "2026-09",

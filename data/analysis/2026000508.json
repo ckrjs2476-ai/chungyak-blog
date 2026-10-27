@@ -111,6 +111,79 @@
   "노부모 부양": 24,
   "기관추천": 27
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.997C",
+    "supply": 82,
+    "closed_at": "1순위 해당지역",
+    "rate": 16.88,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9998F",
+    "supply": 73,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.82,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "116.9981A",
+    "supply": 87,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 41
+   },
+   {
+    "ty": "116.9987B",
+    "supply": 176,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 132
+   },
+   {
+    "ty": "128.9983A",
+    "supply": 88,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 67
+   },
+   {
+    "ty": "129.9995B",
+    "supply": 174,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 160
+   },
+   {
+    "ty": "184.9968B",
+    "supply": 2,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "188.9949A",
+    "supply": 2,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 888,
+  "rank1_req": 888,
+  "supply_total": 684,
+  "final_shortfall_total": 401,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 8,
+  "rank1_avg_rate": 1.3,
+  "best": {
+   "ty": "84.997C",
+   "rate": 16.88,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "화성특례시",
   "supply_kind": "민영",
@@ -152,6 +225,17 @@
   "peer_count": 36,
   "peer_avg_rate": 2.44,
   "peer_max_rate": 21.98
+ },
+ "region_competition": {
+  "scope": "화성특례시",
+  "peer_count": 2,
+  "peers": [
+   "향남역 그로브 스위첸",
+   "아크메르 동탄 99"
+  ],
+  "peer_avg_rate": 0.72,
+  "rank": 1,
+  "of": 3
  },
  "market": {
   "region": "경기도 화성시 동탄구",

@@ -29,6 +29,30 @@
  "special_share_pct": 0,
  "price_84_min": 243300,
  "price_84_max": 243300,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9972A",
+    "supply": 9,
+    "closed_at": "None순위 None",
+    "rate": 17.56,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 158,
+  "rank1_req": 0,
+  "supply_total": 9,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9972A",
+   "rate": 17.56,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "서울특별시 중구",
   "lawd": "11140",
