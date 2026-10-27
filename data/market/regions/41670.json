@@ -2,18 +2,22 @@
  "lawd": "41670",
  "name": "경기도 여주시",
  "months": 12,
- "updated": "2026-10-26",
- "trade_count": 737,
+ "updated": "2026-10-27",
+ "trade_count": 740,
  "cancel_count": 53,
- "n84": 284,
- "median84": 28300,
+ "n84": 286,
+ "median84": 28150,
  "p25_84": 20500,
  "p75_84": 45000,
- "median84_pyeong_excl": 1103,
+ "median84_pyeong_excl": 1097,
  "new_n84": 82,
  "new_median84": 46950,
  "new_build_years": 5,
  "umd84": {
+  "현암동": {
+   "n": 63,
+   "median": 29000
+  },
   "연양동": {
    "n": 21,
    "median": 19200
@@ -25,10 +29,6 @@
   "교동": {
    "n": 128,
    "median": 44750
-  },
-  "현암동": {
-   "n": 61,
-   "median": 29000
   },
   "천송동": {
    "n": 17,
@@ -120,9 +120,9 @@
   },
   {
    "month": "2026-10",
-   "count": 40,
-   "n84": 22,
-   "median84": 22100
+   "count": 43,
+   "n84": 24,
+   "median84": 22500
   }
  ],
  "top_apts": [

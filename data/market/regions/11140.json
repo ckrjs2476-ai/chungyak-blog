@@ -2,14 +2,14 @@
  "lawd": "11140",
  "name": "서울특별시 중구",
  "months": 12,
- "updated": "2026-10-26",
- "trade_count": 796,
+ "updated": "2026-10-27",
+ "trade_count": 798,
  "cancel_count": 53,
- "n84": 226,
- "median84": 157750,
+ "n84": 227,
+ "median84": 157500,
  "p25_84": 119000,
  "p75_84": 175000,
- "median84_pyeong_excl": 6152,
+ "median84_pyeong_excl": 6150,
  "new_n84": 0,
  "new_median84": null,
  "new_build_years": 5,
@@ -18,6 +18,10 @@
    "n": 120,
    "median": 165750
   },
+  "순화동": {
+   "n": 8,
+   "median": 127250
+  },
   "중림동": {
    "n": 8,
    "median": 175000
@@ -25,10 +29,6 @@
   "황학동": {
    "n": 60,
    "median": 118250
-  },
-  "순화동": {
-   "n": 7,
-   "median": 126500
   },
   "만리동2가": {
    "n": 12,
@@ -112,9 +112,9 @@
   },
   {
    "month": "2026-10",
-   "count": 16,
-   "n84": 5,
-   "median84": 163000
+   "count": 18,
+   "n84": 6,
+   "median84": 149000
   }
  ],
  "top_apts": [
