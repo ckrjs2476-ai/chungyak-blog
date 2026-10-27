@@ -1,44 +1,44 @@
 {
  "lawd": "11545",
  "name": "서울특별시 금천구",
- "updated": "2026-10-13",
+ "updated": "2026-10-27",
  "months": 12,
- "jeonse_count": 1226,
- "wolse_count": 1648,
- "wolse_share_pct": 57.3,
- "renew_share_pct": 40.5,
- "jeonse_n84": 337,
- "jeonse_median84": 45000,
- "sale_n84": 390,
+ "jeonse_count": 1265,
+ "wolse_count": 1704,
+ "wolse_share_pct": 57.4,
+ "renew_share_pct": 40.6,
+ "jeonse_n84": 346,
+ "jeonse_median84": 45005,
+ "sale_n84": 407,
  "sale_median84": 72000,
  "ratio84": 62.5,
- "jeonse_recent3_median84": 52500,
+ "jeonse_recent3_median84": 53000,
  "jeonse_prev3_median84": 43000,
- "jeonse_change_pct": 22.1,
+ "jeonse_change_pct": 23.3,
  "apts_with_both": 27,
  "apts_ratio_80_plus": 1,
- "apts_ratio_70_plus": 5,
+ "apts_ratio_70_plus": 6,
  "umd": {
   "가산동": {
-   "jeonse_n": 19,
+   "jeonse_n": 20,
    "jeonse_median84": 42000,
-   "sale_n": 32,
+   "sale_n": 35,
    "sale_median84": 72000,
    "ratio": 58.3
   },
   "독산동": {
-   "jeonse_n": 175,
+   "jeonse_n": 180,
    "jeonse_median84": 53000,
-   "sale_n": 176,
-   "sale_median84": 85600,
-   "ratio": 61.9
+   "sale_n": 182,
+   "sale_median84": 86850,
+   "ratio": 61.0
   },
   "시흥동": {
-   "jeonse_n": 143,
+   "jeonse_n": 146,
    "jeonse_median84": 42000,
-   "sale_n": 182,
-   "sale_median84": 58500,
-   "ratio": 71.8
+   "sale_n": 190,
+   "sale_median84": 59000,
+   "ratio": 71.2
   }
  },
  "top_ratio_apts": [
@@ -58,9 +58,9 @@
    "built": 2000,
    "jeonse_n": 14,
    "jeonse_median84": 40000,
-   "sale_n": 20,
-   "sale_median84": 52250,
-   "ratio": 76.6
+   "sale_n": 21,
+   "sale_median84": 52500,
+   "ratio": 76.2
   },
   {
    "umd": "독산동",
@@ -68,9 +68,9 @@
    "built": 1996,
    "jeonse_n": 3,
    "jeonse_median84": 40000,
-   "sale_n": 3,
-   "sale_median84": 54000,
-   "ratio": 74.1
+   "sale_n": 4,
+   "sale_median84": 54400,
+   "ratio": 73.5
   },
   {
    "umd": "시흥동",
@@ -84,33 +84,23 @@
   },
   {
    "umd": "시흥동",
-   "apt": "관악산벽산타운5",
-   "built": 2004,
-   "jeonse_n": 41,
-   "jeonse_median84": 40000,
-   "sale_n": 59,
-   "sale_median84": 56500,
-   "ratio": 70.8
-  },
-  {
-   "umd": "시흥동",
    "apt": "우방",
    "built": 2002,
    "jeonse_n": 3,
    "jeonse_median84": 42780,
-   "sale_n": 9,
-   "sale_median84": 61500,
-   "ratio": 69.6
+   "sale_n": 10,
+   "sale_median84": 60500,
+   "ratio": 70.7
   },
   {
-   "umd": "독산동",
-   "apt": "독산현대",
-   "built": 1999,
-   "jeonse_n": 3,
-   "jeonse_median84": 42000,
-   "sale_n": 7,
-   "sale_median84": 61000,
-   "ratio": 68.9
+   "umd": "시흥동",
+   "apt": "관악산벽산타운5",
+   "built": 2004,
+   "jeonse_n": 41,
+   "jeonse_median84": 40000,
+   "sale_n": 61,
+   "sale_median84": 56700,
+   "ratio": 70.5
   },
   {
    "umd": "시흥동",
@@ -118,19 +108,29 @@
    "built": 2006,
    "jeonse_n": 3,
    "jeonse_median84": 45000,
-   "sale_n": 4,
+   "sale_n": 6,
    "sale_median84": 65500,
    "ratio": 68.7
   },
   {
    "umd": "독산동",
-   "apt": "이랜드해가든",
-   "built": 2008,
-   "jeonse_n": 15,
-   "jeonse_median84": 50400,
-   "sale_n": 10,
-   "sale_median84": 74125,
-   "ratio": 68.0
+   "apt": "독산현대",
+   "built": 1999,
+   "jeonse_n": 3,
+   "jeonse_median84": 42000,
+   "sale_n": 6,
+   "sale_median84": 61250,
+   "ratio": 68.6
+  },
+  {
+   "umd": "독산동",
+   "apt": "진도2차",
+   "built": 1997,
+   "jeonse_n": 7,
+   "jeonse_median84": 39375,
+   "sale_n": 2,
+   "sale_median84": 58000,
+   "ratio": 67.9
   },
   {
    "umd": "시흥동",
@@ -148,7 +148,7 @@
    "umd": "시흥동",
    "apt": "무지개",
    "built": 1980,
-   "jeonse_n": 6,
+   "jeonse_n": 7,
    "jeonse_median84": 17000,
    "sale_n": 5,
    "sale_median84": 79000,
@@ -170,19 +170,19 @@
    "built": 2016,
    "jeonse_n": 38,
    "jeonse_median84": 68100,
-   "sale_n": 50,
-   "sale_median84": 118750,
-   "ratio": 57.3
+   "sale_n": 51,
+   "sale_median84": 119000,
+   "ratio": 57.2
   },
   {
    "umd": "독산동",
    "apt": "금천현대",
    "built": 2002,
-   "jeonse_n": 20,
-   "jeonse_median84": 40925,
+   "jeonse_n": 22,
+   "jeonse_median84": 40975,
    "sale_n": 25,
    "sale_median84": 69200,
-   "ratio": 59.1
+   "ratio": 59.2
   },
   {
    "umd": "독산동",
@@ -246,7 +246,7 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 93,
+   "jeonse_count": 95,
    "n84": 23,
    "jeonse_median84": 52000
   },
@@ -258,15 +258,15 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 58,
+   "jeonse_count": 61,
    "n84": 18,
    "jeonse_median84": 57375
   },
   {
    "month": "2026-10",
-   "jeonse_count": 20,
-   "n84": 5,
-   "jeonse_median84": 45000
+   "jeonse_count": 54,
+   "n84": 14,
+   "jeonse_median84": 51000
   }
  ],
  "rank": 130,
@@ -275,12 +275,12 @@
  "ratio_vs_avg_pp": -9.6,
  "umd_ratio_high": {
   "name": "시흥동",
-  "ratio": 71.8
+  "ratio": 71.2
  },
  "umd_ratio_low": {
   "name": "가산동",
   "ratio": 58.3
  },
- "umd_spread_pp": 13.5,
- "gap84": 27000
+ "umd_spread_pp": 12.9,
+ "gap84": 26995
 }

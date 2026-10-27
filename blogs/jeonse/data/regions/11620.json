@@ -1,44 +1,44 @@
 {
  "lawd": "11620",
  "name": "서울특별시 관악구",
- "updated": "2026-10-13",
+ "updated": "2026-10-27",
  "months": 12,
- "jeonse_count": 2478,
- "wolse_count": 2938,
- "wolse_share_pct": 54.2,
- "renew_share_pct": 42.3,
- "jeonse_n84": 840,
- "jeonse_median84": 57000,
- "sale_n84": 728,
+ "jeonse_count": 2556,
+ "wolse_count": 3083,
+ "wolse_share_pct": 54.7,
+ "renew_share_pct": 42.6,
+ "jeonse_n84": 870,
+ "jeonse_median84": 57110,
+ "sale_n84": 740,
  "sale_median84": 96000,
- "ratio84": 59.4,
- "jeonse_recent3_median84": 58800,
+ "ratio84": 59.5,
+ "jeonse_recent3_median84": 58900,
  "jeonse_prev3_median84": 59000,
- "jeonse_change_pct": -0.3,
- "apts_with_both": 47,
+ "jeonse_change_pct": -0.2,
+ "apts_with_both": 48,
  "apts_ratio_80_plus": 0,
  "apts_ratio_70_plus": 7,
  "umd": {
   "남현동": {
-   "jeonse_n": 27,
-   "jeonse_median84": 63000,
-   "sale_n": 37,
-   "sale_median84": 86900,
-   "ratio": 72.5
+   "jeonse_n": 29,
+   "jeonse_median84": 60000,
+   "sale_n": 38,
+   "sale_median84": 86950,
+   "ratio": 69.0
   },
   "봉천동": {
-   "jeonse_n": 564,
+   "jeonse_n": 586,
    "jeonse_median84": 60000,
-   "sale_n": 403,
+   "sale_n": 407,
    "sale_median84": 115000,
    "ratio": 52.2
   },
   "신림동": {
-   "jeonse_n": 249,
+   "jeonse_n": 255,
    "jeonse_median84": 44000,
-   "sale_n": 288,
-   "sale_median84": 73000,
-   "ratio": 60.3
+   "sale_n": 295,
+   "sale_median84": 72900,
+   "ratio": 60.4
   }
  },
  "top_ratio_apts": [
@@ -68,7 +68,7 @@
    "built": 1997,
    "jeonse_n": 5,
    "jeonse_median84": 40000,
-   "sale_n": 2,
+   "sale_n": 3,
    "sale_median84": 54000,
    "ratio": 74.1
   },
@@ -76,7 +76,7 @@
    "umd": "신림동",
    "apt": "라이프",
    "built": 1996,
-   "jeonse_n": 3,
+   "jeonse_n": 4,
    "jeonse_median84": 49000,
    "sale_n": 4,
    "sale_median84": 66150,
@@ -116,7 +116,7 @@
    "umd": "봉천동",
    "apt": "서희스타힐스",
    "built": 2015,
-   "jeonse_n": 7,
+   "jeonse_n": 8,
    "jeonse_median84": 60000,
    "sale_n": 5,
    "sale_median84": 86000,
@@ -136,7 +136,7 @@
    "umd": "남현동",
    "apt": "관악산대창센시티2차",
    "built": 2008,
-   "jeonse_n": 3,
+   "jeonse_n": 4,
    "jeonse_median84": 55000,
    "sale_n": 5,
    "sale_median84": 84000,
@@ -148,17 +148,17 @@
    "umd": "봉천동",
    "apt": "관악드림(삼성)",
    "built": 2003,
-   "jeonse_n": 45,
-   "jeonse_median84": 56700,
+   "jeonse_n": 46,
+   "jeonse_median84": 57225,
    "sale_n": 27,
    "sale_median84": 119500,
-   "ratio": 47.4
+   "ratio": 47.9
   },
   {
    "umd": "봉천동",
    "apt": "관악드림(동아)",
    "built": 2003,
-   "jeonse_n": 51,
+   "jeonse_n": 54,
    "jeonse_median84": 58000,
    "sale_n": 37,
    "sale_median84": 120000,
@@ -178,7 +178,7 @@
    "umd": "봉천동",
    "apt": "관악푸르지오",
    "built": 2004,
-   "jeonse_n": 43,
+   "jeonse_n": 45,
    "jeonse_median84": 58800,
    "sale_n": 33,
    "sale_median84": 120000,
@@ -246,41 +246,41 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 213,
+   "jeonse_count": 214,
    "n84": 76,
    "jeonse_median84": 55000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 163,
-   "n84": 41,
-   "jeonse_median84": 61950
+   "jeonse_count": 169,
+   "n84": 43,
+   "jeonse_median84": 58500
   },
   {
    "month": "2026-09",
-   "jeonse_count": 136,
-   "n84": 47,
+   "jeonse_count": 148,
+   "n84": 52,
    "jeonse_median84": 65000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 36,
-   "n84": 12,
-   "jeonse_median84": 64500
+   "jeonse_count": 95,
+   "n84": 35,
+   "jeonse_median84": 63000
   }
  ],
  "rank": 140,
  "rank_of": 179,
  "avg_ratio84_all": 72.1,
- "ratio_vs_avg_pp": -12.7,
+ "ratio_vs_avg_pp": -12.6,
  "umd_ratio_high": {
   "name": "남현동",
-  "ratio": 72.5
+  "ratio": 69.0
  },
  "umd_ratio_low": {
   "name": "봉천동",
   "ratio": 52.2
  },
- "umd_spread_pp": 20.3,
- "gap84": 39000
+ "umd_spread_pp": 16.8,
+ "gap84": 38890
 }

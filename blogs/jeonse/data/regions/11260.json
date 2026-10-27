@@ -1,65 +1,65 @@
 {
  "lawd": "11260",
  "name": "서울특별시 중랑구",
- "updated": "2026-10-13",
+ "updated": "2026-10-27",
  "months": 12,
- "jeonse_count": 2748,
- "wolse_count": 5535,
- "wolse_share_pct": 66.8,
- "renew_share_pct": 57.0,
- "jeonse_n84": 908,
- "jeonse_median84": 48300,
- "sale_n84": 873,
+ "jeonse_count": 2820,
+ "wolse_count": 5601,
+ "wolse_share_pct": 66.5,
+ "renew_share_pct": 56.8,
+ "jeonse_n84": 930,
+ "jeonse_median84": 48550,
+ "sale_n84": 894,
  "sale_median84": 75000,
- "ratio84": 64.4,
+ "ratio84": 64.7,
  "jeonse_recent3_median84": 50000,
  "jeonse_prev3_median84": 50000,
  "jeonse_change_pct": 0.0,
- "apts_with_both": 85,
+ "apts_with_both": 86,
  "apts_ratio_80_plus": 2,
- "apts_ratio_70_plus": 16,
+ "apts_ratio_70_plus": 17,
  "umd": {
   "망우동": {
-   "jeonse_n": 128,
-   "jeonse_median84": 52869,
-   "sale_n": 81,
-   "sale_median84": 68800,
-   "ratio": 76.8
+   "jeonse_n": 129,
+   "jeonse_median84": 52880,
+   "sale_n": 84,
+   "sale_median84": 68650,
+   "ratio": 77.0
   },
   "면목동": {
-   "jeonse_n": 269,
+   "jeonse_n": 276,
    "jeonse_median84": 55000,
-   "sale_n": 302,
-   "sale_median84": 77500,
-   "ratio": 71.0
+   "sale_n": 314,
+   "sale_median84": 78000,
+   "ratio": 70.5
   },
   "묵동": {
    "jeonse_n": 101,
    "jeonse_median84": 53000,
-   "sale_n": 92,
-   "sale_median84": 74750,
-   "ratio": 70.9
+   "sale_n": 97,
+   "sale_median84": 77000,
+   "ratio": 68.8
   },
   "상봉동": {
-   "jeonse_n": 101,
-   "jeonse_median84": 48000,
+   "jeonse_n": 106,
+   "jeonse_median84": 48150,
    "sale_n": 108,
    "sale_median84": 82000,
-   "ratio": 58.5
+   "ratio": 58.7
   },
   "신내동": {
-   "jeonse_n": 256,
+   "jeonse_n": 263,
    "jeonse_median84": 40000,
-   "sale_n": 226,
+   "sale_n": 227,
    "sale_median84": 70500,
    "ratio": 56.7
   },
   "중화동": {
-   "jeonse_n": 53,
+   "jeonse_n": 55,
    "jeonse_median84": 48000,
    "sale_n": 64,
-   "sale_median84": 78750,
-   "ratio": 61.0
+   "sale_median84": 79750,
+   "ratio": 60.2
   }
  },
  "top_ratio_apts": [
@@ -84,6 +84,16 @@
    "ratio": 80.3
   },
   {
+   "umd": "면목동",
+   "apt": "아람플러스",
+   "built": 2009,
+   "jeonse_n": 2,
+   "jeonse_median84": 49000,
+   "sale_n": 5,
+   "sale_median84": 63000,
+   "ratio": 77.8
+  },
+  {
    "umd": "중화동",
    "apt": "극동",
    "built": 1991,
@@ -102,6 +112,16 @@
    "sale_n": 2,
    "sale_median84": 72250,
    "ratio": 76.1
+  },
+  {
+   "umd": "망우동",
+   "apt": "중랑숲리가",
+   "built": 2012,
+   "jeonse_n": 7,
+   "jeonse_median84": 55000,
+   "sale_n": 8,
+   "sale_median84": 72500,
+   "ratio": 75.9
   },
   {
    "umd": "면목동",
@@ -142,26 +162,6 @@
    "sale_n": 10,
    "sale_median84": 73100,
    "ratio": 75.2
-  },
-  {
-   "umd": "망우동",
-   "apt": "중랑숲리가",
-   "built": 2012,
-   "jeonse_n": 6,
-   "jeonse_median84": 53500,
-   "sale_n": 8,
-   "sale_median84": 72500,
-   "ratio": 73.8
-  },
-  {
-   "umd": "면목동",
-   "apt": "두원",
-   "built": 1998,
-   "jeonse_n": 6,
-   "jeonse_median84": 47075,
-   "sale_n": 2,
-   "sale_median84": 63750,
-   "ratio": 73.8
   }
  ],
  "low_ratio_apts": [
@@ -169,11 +169,11 @@
    "umd": "신내동",
    "apt": "데시앙",
    "built": 2010,
-   "jeonse_n": 56,
-   "jeonse_median84": 31689,
-   "sale_n": 8,
-   "sale_median84": 90000,
-   "ratio": 35.2
+   "jeonse_n": 59,
+   "jeonse_median84": 32422,
+   "sale_n": 9,
+   "sale_median84": 88500,
+   "ratio": 36.6
   },
   {
    "umd": "중화동",
@@ -209,7 +209,7 @@
    "umd": "중화동",
    "apt": "한신아파트상가동유치원동(103~109)",
    "built": 1997,
-   "jeonse_n": 20,
+   "jeonse_n": 21,
    "jeonse_median84": 48000,
    "sale_n": 25,
    "sale_median84": 90000,
@@ -273,35 +273,35 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 318,
-   "n84": 74,
+   "jeonse_count": 322,
+   "n84": 75,
    "jeonse_median84": 48000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 119,
-   "n84": 43,
-   "jeonse_median84": 53000
+   "jeonse_count": 125,
+   "n84": 44,
+   "jeonse_median84": 52000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 31,
-   "n84": 11,
+   "jeonse_count": 93,
+   "n84": 31,
    "jeonse_median84": 55000
   }
  ],
- "rank": 122,
+ "rank": 120,
  "rank_of": 179,
  "avg_ratio84_all": 72.1,
- "ratio_vs_avg_pp": -7.7,
+ "ratio_vs_avg_pp": -7.4,
  "umd_ratio_high": {
   "name": "망우동",
-  "ratio": 76.8
+  "ratio": 77.0
  },
  "umd_ratio_low": {
   "name": "신내동",
   "ratio": 56.7
  },
- "umd_spread_pp": 20.1,
- "gap84": 26700
+ "umd_spread_pp": 20.3,
+ "gap84": 26450
 }

@@ -1,79 +1,79 @@
 {
  "lawd": "11530",
  "name": "서울특별시 구로구",
- "updated": "2026-10-13",
+ "updated": "2026-10-27",
  "months": 12,
- "jeonse_count": 3951,
- "wolse_count": 6172,
- "wolse_share_pct": 61.0,
- "renew_share_pct": 46.7,
- "jeonse_n84": 1284,
+ "jeonse_count": 4084,
+ "wolse_count": 6432,
+ "wolse_share_pct": 61.2,
+ "renew_share_pct": 46.8,
+ "jeonse_n84": 1331,
  "jeonse_median84": 50000,
- "sale_n84": 1256,
+ "sale_n84": 1290,
  "sale_median84": 80000,
  "ratio84": 62.5,
- "jeonse_recent3_median84": 51725,
+ "jeonse_recent3_median84": 52000,
  "jeonse_prev3_median84": 50000,
- "jeonse_change_pct": 3.5,
+ "jeonse_change_pct": 4.0,
  "apts_with_both": 113,
  "apts_ratio_80_plus": 0,
- "apts_ratio_70_plus": 10,
+ "apts_ratio_70_plus": 11,
  "umd": {
   "개봉동": {
-   "jeonse_n": 209,
+   "jeonse_n": 219,
    "jeonse_median84": 50000,
-   "sale_n": 263,
+   "sale_n": 269,
    "sale_median84": 84000,
    "ratio": 59.5
   },
   "고척동": {
-   "jeonse_n": 155,
+   "jeonse_n": 164,
    "jeonse_median84": 50000,
-   "sale_n": 214,
-   "sale_median84": 74000,
-   "ratio": 67.6
+   "sale_n": 221,
+   "sale_median84": 74500,
+   "ratio": 67.1
   },
   "구로동": {
-   "jeonse_n": 378,
+   "jeonse_n": 388,
    "jeonse_median84": 45000,
-   "sale_n": 326,
+   "sale_n": 334,
    "sale_median84": 78000,
    "ratio": 57.7
   },
   "신도림동": {
-   "jeonse_n": 213,
-   "jeonse_median84": 68250,
-   "sale_n": 158,
+   "jeonse_n": 218,
+   "jeonse_median84": 68375,
+   "sale_n": 162,
    "sale_median84": 132000,
-   "ratio": 51.7
+   "ratio": 51.8
   },
   "오류동": {
-   "jeonse_n": 88,
+   "jeonse_n": 90,
    "jeonse_median84": 45000,
-   "sale_n": 115,
-   "sale_median84": 64900,
-   "ratio": 69.3
+   "sale_n": 117,
+   "sale_median84": 64500,
+   "ratio": 69.8
   },
   "온수동": {
-   "jeonse_n": 17,
-   "jeonse_median84": 48000,
-   "sale_n": 23,
-   "sale_median84": 79000,
-   "ratio": 60.8
+   "jeonse_n": 18,
+   "jeonse_median84": 47625,
+   "sale_n": 25,
+   "sale_median84": 79200,
+   "ratio": 60.1
   },
   "천왕동": {
-   "jeonse_n": 109,
+   "jeonse_n": 115,
    "jeonse_median84": 33988,
-   "sale_n": 51,
+   "sale_n": 53,
    "sale_median84": 78000,
    "ratio": 43.6
   },
   "항동": {
-   "jeonse_n": 106,
+   "jeonse_n": 110,
    "jeonse_median84": 50000,
-   "sale_n": 97,
-   "sale_median84": 80000,
-   "ratio": 62.5
+   "sale_n": 100,
+   "sale_median84": 80500,
+   "ratio": 62.1
   }
  },
  "top_ratio_apts": [
@@ -83,9 +83,9 @@
    "built": 1996,
    "jeonse_n": 2,
    "jeonse_median84": 35750,
-   "sale_n": 12,
-   "sale_median84": 46750,
-   "ratio": 76.5
+   "sale_n": 13,
+   "sale_median84": 47000,
+   "ratio": 76.1
   },
   {
    "umd": "구로동",
@@ -109,23 +109,33 @@
   },
   {
    "umd": "구로동",
-   "apt": "신성미소지움",
-   "built": 2003,
-   "jeonse_n": 7,
-   "jeonse_median84": 50500,
-   "sale_n": 12,
-   "sale_median84": 68750,
-   "ratio": 73.5
-  },
-  {
-   "umd": "구로동",
    "apt": "금호",
    "built": 1997,
    "jeonse_n": 2,
    "jeonse_median84": 43450,
-   "sale_n": 3,
-   "sale_median84": 59500,
+   "sale_n": 4,
+   "sale_median84": 58750,
+   "ratio": 74.0
+  },
+  {
+   "umd": "구로동",
+   "apt": "신성미소지움",
+   "built": 2003,
+   "jeonse_n": 7,
+   "jeonse_median84": 50500,
+   "sale_n": 13,
+   "sale_median84": 69200,
    "ratio": 73.0
+  },
+  {
+   "umd": "고척동",
+   "apt": "고척LIG리가2차",
+   "built": 2009,
+   "jeonse_n": 5,
+   "jeonse_median84": 62000,
+   "sale_n": 4,
+   "sale_median84": 85000,
+   "ratio": 72.9
   },
   {
    "umd": "구로동",
@@ -158,24 +168,14 @@
    "ratio": 70.6
   },
   {
-   "umd": "구로동",
-   "apt": "다울숲",
-   "built": 2010,
-   "jeonse_n": 2,
-   "jeonse_median84": 49000,
-   "sale_n": 3,
-   "sale_median84": 69500,
-   "ratio": 70.5
-  },
-  {
-   "umd": "오류동",
-   "apt": "오류동금호어울림",
-   "built": 2006,
-   "jeonse_n": 6,
-   "jeonse_median84": 42000,
-   "sale_n": 3,
-   "sale_median84": 60000,
-   "ratio": 70.0
+   "umd": "고척동",
+   "apt": "한일유앤아이",
+   "built": 2005,
+   "jeonse_n": 3,
+   "jeonse_median84": 50000,
+   "sale_n": 15,
+   "sale_median84": 71000,
+   "ratio": 70.4
   }
  ],
  "low_ratio_apts": [
@@ -215,15 +215,15 @@
    "built": 1985,
    "jeonse_n": 2,
    "jeonse_median84": 32425,
-   "sale_n": 2,
-   "sale_median84": 75500,
-   "ratio": 42.9
+   "sale_n": 3,
+   "sale_median84": 77000,
+   "ratio": 42.1
   },
   {
    "umd": "천왕동",
    "apt": "천왕이펜하우스6단지",
    "built": 2011,
-   "jeonse_n": 23,
+   "jeonse_n": 25,
    "jeonse_median84": 32193,
    "sale_n": 6,
    "sale_median84": 74850,
@@ -263,7 +263,7 @@
   },
   {
    "month": "2026-04",
-   "jeonse_count": 438,
+   "jeonse_count": 439,
    "n84": 126,
    "jeonse_median84": 50000
   },
@@ -275,33 +275,33 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 290,
+   "jeonse_count": 291,
    "n84": 94,
    "jeonse_median84": 49500
   },
   {
    "month": "2026-07",
-   "jeonse_count": 295,
-   "n84": 102,
-   "jeonse_median84": 48550
+   "jeonse_count": 296,
+   "n84": 103,
+   "jeonse_median84": 49100
   },
   {
    "month": "2026-08",
-   "jeonse_count": 259,
+   "jeonse_count": 262,
    "n84": 86,
    "jeonse_median84": 52250
   },
   {
    "month": "2026-09",
-   "jeonse_count": 202,
-   "n84": 61,
-   "jeonse_median84": 54000
+   "jeonse_count": 217,
+   "n84": 64,
+   "jeonse_median84": 54500
   },
   {
    "month": "2026-10",
-   "jeonse_count": 43,
-   "n84": 19,
-   "jeonse_median84": 55000
+   "jeonse_count": 155,
+   "n84": 62,
+   "jeonse_median84": 52750
   }
  ],
  "rank": 131,
@@ -310,12 +310,12 @@
  "ratio_vs_avg_pp": -9.6,
  "umd_ratio_high": {
   "name": "오류동",
-  "ratio": 69.3
+  "ratio": 69.8
  },
  "umd_ratio_low": {
   "name": "천왕동",
   "ratio": 43.6
  },
- "umd_spread_pp": 25.7,
+ "umd_spread_pp": 26.2,
  "gap84": 30000
 }
