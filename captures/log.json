@@ -360,5 +360,102 @@
   "bytes": 33734,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412",
   "at": "2026-10-28 07:53"
+ },
+ {
+  "name": "cy-2026000508-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   626
+  ],
+  "bytes": 27534,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
+  "at": "2026-10-28 10:51"
+ },
+ {
+  "name": "cy-2026000354-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   459
+  ],
+  "bytes": 14276,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000354&pblancNo=2026000354",
+  "at": "2026-10-28 10:51"
+ },
+ {
+  "name": "cy-2026000458-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   376
+  ],
+  "bytes": 11962,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000458&pblancNo=2026000458",
+  "at": "2026-10-28 10:51"
+ },
+ {
+  "name": "js-31140-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7258,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-10-28 10:51"
+ },
+ {
+  "name": "js-26440-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-01706509-dart",
+  "ok": true,
+  "status": 200,
+  "title": "다비오/증권신고서(지분증권)/2026.10.08",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 30590,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705",
+  "at": "2026-10-28 10:52"
+ },
+ {
+  "name": "ipo-01863318-dart",
+  "ok": true,
+  "status": 200,
+  "title": "넥스아이/증권신고서(지분증권)/2026.10.16",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 32818,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000268",
+  "at": "2026-10-28 10:52"
+ },
+ {
+  "name": "gw-kapt-sido-avg-2026-10-28",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20592,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-10-28 10:52"
  }
 ]
