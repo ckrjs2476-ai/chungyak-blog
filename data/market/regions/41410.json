@@ -2,45 +2,45 @@
  "lawd": "41410",
  "name": "경기도 군포시",
  "months": 12,
- "updated": "2026-10-27",
- "trade_count": 4655,
+ "updated": "2026-10-28",
+ "trade_count": 4713,
  "cancel_count": 133,
- "n84": 809,
+ "n84": 817,
  "median84": 56000,
  "p25_84": 50000,
- "p75_84": 65950,
+ "p75_84": 65250,
  "median84_pyeong_excl": 2180,
  "new_n84": 40,
  "new_median84": 117000,
  "new_build_years": 5,
  "umd84": {
+  "대야미동": {
+   "n": 78,
+   "median": 52250
+  },
+  "금정동": {
+   "n": 78,
+   "median": 96250
+  },
+  "도마교동": {
+   "n": 32,
+   "median": 63750
+  },
   "당정동": {
-   "n": 145,
+   "n": 146,
    "median": 49000
   },
   "부곡동": {
-   "n": 52,
+   "n": 53,
    "median": 58000
   },
-  "도마교동": {
-   "n": 31,
-   "median": 63700
+  "당동": {
+   "n": 203,
+   "median": 52500
   },
   "산본동": {
    "n": 227,
    "median": 78500
-  },
-  "대야미동": {
-   "n": 76,
-   "median": 52250
-  },
-  "당동": {
-   "n": 202,
-   "median": 52500
-  },
-  "금정동": {
-   "n": 76,
-   "median": 109250
   }
  },
  "monthly": [
@@ -112,21 +112,21 @@
   },
   {
    "month": "2026-10",
-   "count": 289,
-   "n84": 49,
+   "count": 347,
+   "n84": 57,
    "median84": 57500
   }
  ],
  "top_apts": [
   {
    "name": "금정동 충무주공(872)",
-   "count": 244,
+   "count": 248,
    "median84": null,
    "built": 1992
   },
   {
    "name": "금정동 율곡",
-   "count": 221,
+   "count": 227,
    "median84": null,
    "built": 1994
   },
@@ -138,7 +138,7 @@
   },
   {
    "name": "산본동 우륵",
-   "count": 172,
+   "count": 173,
    "median84": 63500,
    "built": 1994
   },
@@ -156,25 +156,25 @@
   },
   {
    "name": "산본동 주공11",
-   "count": 134,
+   "count": 135,
    "median84": null,
    "built": 1991
   },
   {
-   "name": "산본동 주공9단지금강",
-   "count": 125,
-   "median84": null,
-   "built": 1994
-  },
-  {
    "name": "산본동 개나리주공13",
-   "count": 124,
+   "count": 131,
    "median84": null,
    "built": 1995
   },
   {
+   "name": "산본동 주공9단지금강",
+   "count": 126,
+   "median84": null,
+   "built": 1994
+  },
+  {
    "name": "산본동 한라주공4-2",
-   "count": 105,
+   "count": 106,
    "median84": null,
    "built": 1997
   }
