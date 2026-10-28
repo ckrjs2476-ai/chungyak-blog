@@ -101,6 +101,72 @@
   "노부모 부양": 15,
   "기관추천": 90
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9536A",
+    "supply": 193,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 68
+   },
+   {
+    "ty": "59.996B",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "75.723A",
+    "supply": 43,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "75.8917B",
+    "supply": 50,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "84.9568A",
+    "supply": 278,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.19,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9882B",
+    "supply": 161,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 64
+   },
+   {
+    "ty": "112.8127",
+    "supply": 87,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.51,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1063,
+  "rank1_req": 1063,
+  "supply_total": 830,
+  "final_shortfall_total": 160,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 7,
+  "rank1_avg_rate": 1.28,
+  "best": {
+   "ty": "84.9568A",
+   "rate": 2.19,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "청주시",
   "supply_kind": "민영",
@@ -138,5 +204,17 @@
   "peer_count": 3,
   "peer_avg_rate": 94.73,
   "peer_max_rate": 194.59
+ },
+ "region_competition": {
+  "scope": "청주시",
+  "peer_count": 3,
+  "peers": [
+   "청주 한양립스 더 벨루체",
+   "청주 가경 아이파크 7단지",
+   "청주 가경 아이파크 8단지"
+  ],
+  "peer_avg_rate": 94.73,
+  "rank": 3,
+  "of": 4
  }
 }

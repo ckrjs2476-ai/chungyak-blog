@@ -116,6 +116,22 @@
    "stage": "1순위 해당지역"
   }
  },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.94B",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.98A": 0,
+   "84.94B": 0
+  },
+  "avg_min": 35.2,
+  "max": {
+   "score": 79,
+   "ty": "84.98A"
+  }
+ },
  "region_price": {
   "scope": "청주시",
   "supply_kind": "민영",

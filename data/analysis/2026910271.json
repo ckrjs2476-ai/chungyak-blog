@@ -55,5 +55,50 @@
  "special_total": 0,
  "special_share_pct": 0,
  "price_84_min": 87700,
- "price_84_max": 89200
+ "price_84_max": 89200,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.96B",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 14.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99A",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 29.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.99C",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 9.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "109.99A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 3.33,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 91,
+  "rank1_req": 0,
+  "supply_total": 8,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.99A",
+   "rate": 29.0,
+   "stage": "None순위 None"
+  }
+ }
 }

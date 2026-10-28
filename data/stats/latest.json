@@ -1,5 +1,5 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "weekly_competition": [
   {
    "no": "2026000402",
@@ -25,9 +25,23 @@
     "rate": 16.88,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 401,
+   "final_shortfall_total": 350,
    "rank1_closed_types": 3,
    "type_count": 8
+  },
+  {
+   "no": "2026000455",
+   "name": "신분평 에피트 더웨이시티",
+   "region": "충북",
+   "rank1_avg_rate": 1.28,
+   "best": {
+    "ty": "84.9568A",
+    "rate": 2.19,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 160,
+   "rank1_closed_types": 2,
+   "type_count": 7
   },
   {
    "no": "2026000507",
@@ -53,8 +67,8 @@
     "rate": 4.0,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 290,
-   "rank1_closed_types": 4,
+   "final_shortfall_total": 197,
+   "rank1_closed_types": 3,
    "type_count": 9
   },
   {
@@ -67,7 +81,7 @@
     "rate": 1.33,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 110,
+   "final_shortfall_total": 92,
    "rank1_closed_types": 1,
    "type_count": 6
   },
@@ -77,7 +91,7 @@
    "region": "부산",
    "rank1_avg_rate": 0.2,
    "best": null,
-   "final_shortfall_total": 621,
+   "final_shortfall_total": 548,
    "rank1_closed_types": 0,
    "type_count": 5
   },
@@ -87,7 +101,7 @@
    "region": "부산",
    "rank1_avg_rate": 0.19,
    "best": null,
-   "final_shortfall_total": 674,
+   "final_shortfall_total": 598,
    "rank1_closed_types": 0,
    "type_count": 5
   }
@@ -319,6 +333,21 @@
    ]
   },
   {
+   "no": "2026910278",
+   "name": "숭의역 노르웨이숲 더 스카이",
+   "region": "인천",
+   "households": 13,
+   "rcept_date": "2026-11-02",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910278&pblancNo=2026910278",
+   "types": [
+    {
+     "ty": "69.7032",
+     "price": 57874,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
    "no": "2026930042",
    "name": "파주 운정신도시 우미 린 더 센텀",
    "region": "경기",
@@ -330,6 +359,21 @@
      "ty": "84.9891A",
      "price": 54250,
      "pyeong_price": 1578
+    }
+   ]
+  },
+  {
+   "no": "2026930043",
+   "name": "과천 디에트르 퍼스티지(S2BL)",
+   "region": "경기",
+   "households": 2,
+   "rcept_date": "2026-11-02",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930043&pblancNo=2026930043",
+   "types": [
+    {
+     "ty": "59.9955",
+     "price": 85715,
+     "pyeong_price": 3375
     }
    ]
   },
@@ -2029,20 +2073,6 @@
    }
   },
   {
-   "no": "2026000356",
-   "name": "두산위브더제니스 대연",
-   "region": "부산",
-   "min": {
-    "score": 0,
-    "ty": "59.76",
-    "reside": "기타지역"
-   },
-   "max": {
-    "score": 73,
-    "ty": "84.98B"
-   }
-  },
-  {
    "no": "2026000358",
    "name": "충정로역자이르네",
    "region": "서울",
@@ -2068,20 +2098,6 @@
    "max": {
     "score": 69,
     "ty": "59.9245D"
-   }
-  },
-  {
-   "no": "2026000367",
-   "name": "한강 푸르지오 리버프론트",
-   "region": "경기",
-   "min": {
-    "score": 0,
-    "ty": "84.706E",
-    "reside": "해당지역"
-   },
-   "max": {
-    "score": 53,
-    "ty": "84.706E"
    }
   },
   {
@@ -2379,6 +2395,20 @@
    }
   },
   {
+   "no": "2026000458",
+   "name": "산곡역자이힐스테이트앤하늘채",
+   "region": "인천",
+   "min": {
+    "score": 0,
+    "ty": "59.99B",
+    "reside": "해당지역"
+   },
+   "max": {
+    "score": 75,
+    "ty": "84.98B"
+   }
+  },
+  {
    "no": "2026000463",
    "name": "향남역 그로브 스위첸",
    "region": "경기",
@@ -2390,6 +2420,34 @@
    "max": {
     "score": 59,
     "ty": "71.8178"
+   }
+  },
+  {
+   "no": "2026000469",
+   "name": "연제갤러리자이",
+   "region": "부산",
+   "min": {
+    "score": 0,
+    "ty": "84.7933D",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.9587A"
+   }
+  },
+  {
+   "no": "2026000492",
+   "name": "청주 가경 아이파크 8단지",
+   "region": "충북",
+   "min": {
+    "score": 0,
+    "ty": "84.94B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 79,
+    "ty": "84.98A"
    }
   }
  ]
