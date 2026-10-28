@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27 10:39",
+ "updated": "2026-10-28 11:18",
  "stage": 1,
  "band": [
   30,
@@ -139,6 +139,18 @@
    "used": false
   },
   {
+   "keyword": "다비오수요예측",
+   "volume": 720,
+   "comp": "낮음",
+   "entity": "다비오",
+   "entity_id": "01706509",
+   "base_score": 100.0,
+   "growth": 1.26,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "score": 100.0,
+   "used": false
+  },
+  {
    "keyword": "아델공모주",
    "volume": 60,
    "comp": "중간",
@@ -187,18 +199,6 @@
    "used": false
   },
   {
-   "keyword": "제이앤티지공모주",
-   "volume": 15,
-   "comp": "낮음",
-   "entity": "제이앤티지",
-   "entity_id": "01403198",
-   "base_score": 60.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 60.0,
-   "used": false
-  },
-  {
    "keyword": "케이엠에프공모주",
    "volume": 15,
    "comp": "낮음",
@@ -211,23 +211,23 @@
    "used": false
   },
   {
-   "keyword": "에스에프씨공모주",
-   "volume": 15,
-   "comp": "중간",
-   "entity": "에스에프씨",
-   "entity_id": "00299109",
-   "base_score": 51.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 51.0,
-   "used": false
-  },
-  {
    "keyword": "씨앤엠공모가",
    "volume": 15,
    "comp": "중간",
    "entity": "씨앤엠",
    "entity_id": "00618173",
+   "base_score": 51.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 56.1,
+   "used": false
+  },
+  {
+   "keyword": "에스에프씨공모주",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "에스에프씨",
+   "entity_id": "00299109",
    "base_score": 51.0,
    "growth": 1.0,
    "why": "",
@@ -259,18 +259,6 @@
    "used": false
   },
   {
-   "keyword": "티앤이코리아수요예측",
-   "volume": 3490,
-   "comp": "낮음",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
-   "base_score": 40.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 50.6,
-   "used": false
-  },
-  {
    "keyword": "래블업수요예측",
    "volume": 3570,
    "comp": "낮음",
@@ -283,15 +271,15 @@
    "used": false
   },
   {
-   "keyword": "다비오공모주",
-   "volume": 2910,
-   "comp": "중간",
-   "entity": "다비오",
-   "entity_id": "01706509",
-   "base_score": 34.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 43.0,
+   "keyword": "티앤이코리아수요예측",
+   "volume": 3490,
+   "comp": "낮음",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 40.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 44.0,
    "used": false
   },
   {
@@ -319,35 +307,11 @@
    "used": false
   },
   {
-   "keyword": "다비오수요예측",
-   "volume": 720,
-   "comp": "낮음",
-   "entity": "다비오",
-   "entity_id": "01706509",
-   "base_score": 100.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 34.5,
-   "used": true
-  },
-  {
    "keyword": "동원파츠공모주",
    "volume": 170,
    "comp": "낮음",
    "entity": "동원파츠",
    "entity_id": "00784184",
-   "base_score": 100.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 34.5,
-   "used": true
-  },
-  {
-   "keyword": "티앤이코리아공모가",
-   "volume": 460,
-   "comp": "낮음",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
    "base_score": 100.0,
    "growth": 0.34,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
@@ -403,6 +367,18 @@
    "used": false
   },
   {
+   "keyword": "티앤이코리아공모가",
+   "volume": 460,
+   "comp": "낮음",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 100.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 30.0,
+   "used": true
+  },
+  {
    "keyword": "하나에어로다이내믹스공모주",
    "volume": 30,
    "comp": "중간",
@@ -420,18 +396,6 @@
    "comp": "중간",
    "entity": "영광와이케이엠씨",
    "entity_id": "00960234",
-   "base_score": 85.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 29.3,
-   "used": true
-  },
-  {
-   "keyword": "크리에이츠공모가",
-   "volume": 200,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
    "base_score": 85.0,
    "growth": 0.34,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
@@ -472,6 +436,18 @@
    "growth": 0.34,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
    "score": 29.3,
+   "used": true
+  },
+  {
+   "keyword": "크리에이츠공모가",
+   "volume": 200,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 85.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 25.5,
    "used": true
   },
   {
@@ -552,6 +528,42 @@
    "comp": "낮음",
    "entity": "제논",
    "entity_id": "01950720",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "씨앤엠수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "씨앤엠",
+   "entity_id": "00618173",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "제이앤티지공모가",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "제이앤티지",
+   "entity_id": "01403198",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "제이앤티지수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "제이앤티지",
+   "entity_id": "01403198",
    "base_score": 20.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -775,18 +787,6 @@
    "used": false
   },
   {
-   "keyword": "씨앤엠수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "씨앤엠",
-   "entity_id": "00618173",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "씨아이에스케미칼공모주",
    "volume": 10,
    "comp": "낮음",
@@ -852,30 +852,6 @@
    "comp": "낮음",
    "entity": "에이엔에이치스트럭쳐",
    "entity_id": "01366675",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "제이앤티지공모가",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "제이앤티지",
-   "entity_id": "01403198",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "제이앤티지수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "제이앤티지",
-   "entity_id": "01403198",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -1049,6 +1025,18 @@
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
    "score": 18.7,
    "used": false
+  },
+  {
+   "keyword": "제이앤티지공모주",
+   "volume": 15,
+   "comp": "낮음",
+   "entity": "제이앤티지",
+   "entity_id": "01403198",
+   "base_score": 60.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 18.0,
+   "used": true
   },
   {
    "keyword": "바로팜공모가",
@@ -1591,18 +1579,6 @@
    "used": false
   },
   {
-   "keyword": "씨앤엠공모주",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "씨앤엠",
-   "entity_id": "00618173",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
    "keyword": "7월공모주청약일정",
    "volume": 25,
    "comp": "낮음",
@@ -1684,6 +1660,18 @@
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 12.0,
+   "used": true
+  },
+  {
+   "keyword": "다비오공모주",
+   "volume": 2910,
+   "comp": "중간",
+   "entity": "다비오",
+   "entity_id": "01706509",
+   "base_score": 34.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 11.7,
    "used": true
   },
   {
@@ -1927,18 +1915,6 @@
    "used": false
   },
   {
-   "keyword": "티앤이코리아공모주",
-   "volume": 6360,
-   "comp": "낮음",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
-   "base_score": 5.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 6.3,
-   "used": false
-  },
-  {
    "keyword": "인텔리빅스공모주",
    "volume": 12140,
    "comp": "낮음",
@@ -1951,27 +1927,15 @@
    "used": false
   },
   {
-   "keyword": "크리에이츠공모주",
-   "volume": 10570,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 4.2,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 5.3,
-   "used": false
-  },
-  {
-   "keyword": "크리에이츠수요예측",
-   "volume": 5270,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 4.2,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 5.3,
+   "keyword": "티앤이코리아공모주",
+   "volume": 6360,
+   "comp": "낮음",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 5.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 5.5,
    "used": false
   },
   {
@@ -1985,6 +1949,18 @@
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 5.3,
    "used": false
+  },
+  {
+   "keyword": "씨앤엠공모주",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "씨앤엠",
+   "entity_id": "00618173",
+   "base_score": 17.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 5.1,
+   "used": true
   },
   {
    "keyword": "6월공모주청약일정",
@@ -2551,6 +2527,30 @@
    "used": false
   },
   {
+   "keyword": "크리에이츠공모주",
+   "volume": 10570,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 4.2,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 4.6,
+   "used": false
+  },
+  {
+   "keyword": "크리에이츠수요예측",
+   "volume": 5270,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 4.2,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 4.6,
+   "used": false
+  },
+  {
    "keyword": "HD현대마린솔루션상장일",
    "volume": 10,
    "comp": "중간",
@@ -2980,7 +2980,7 @@
    "growth": 0.34,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
    "score": 1.4,
-   "used": true
+   "used": false
   },
   {
    "keyword": "이에스티공모주",
@@ -2992,7 +2992,7 @@
    "growth": 0.34,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
    "score": 1.4,
-   "used": true
+   "used": false
   },
   {
    "keyword": "코스닥신규상장종목",

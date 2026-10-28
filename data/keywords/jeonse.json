@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27 10:39",
+ "updated": "2026-10-28 11:18",
  "stage": 1,
  "band": [
   30,
@@ -979,18 +979,6 @@
    "used": false
   },
   {
-   "keyword": "강서구아파트전세",
-   "volume": 370,
-   "comp": "높음",
-   "entity": "강서구",
-   "entity_id": "26440",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "목동아파트전세",
    "volume": 580,
    "comp": "높음",
@@ -1008,18 +996,6 @@
    "comp": "높음",
    "entity": "신월동",
    "entity_id": "48123:신월동",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
-   "keyword": "신정동아파트전세",
-   "volume": 70,
-   "comp": "높음",
-   "entity": "신정동",
-   "entity_id": "31140:신정동",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -3031,18 +3007,6 @@
    "used": false
   },
   {
-   "keyword": "서구아파트전세",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "서구",
-   "entity_id": "30170",
-   "base_score": 42.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 42.0,
-   "used": false
-  },
-  {
    "keyword": "동구아파트전세",
    "volume": 25,
    "comp": "높음",
@@ -3631,6 +3595,42 @@
    "used": false
   },
   {
+   "keyword": "강서구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "강서구",
+   "entity_id": "26440",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "서구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서구",
+   "entity_id": "30170",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "서구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서구",
+   "entity_id": "30170",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
    "keyword": "아파트전세가율",
    "volume": 30,
    "comp": "중간",
@@ -3653,6 +3653,30 @@
    "why": "",
    "score": 21.2,
    "used": false
+  },
+  {
+   "keyword": "강서구아파트전세",
+   "volume": 370,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "26440",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
+  },
+  {
+   "keyword": "신정동아파트전세",
+   "volume": 70,
+   "comp": "높음",
+   "entity": "신정동",
+   "entity_id": "31140:신정동",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
   },
   {
    "keyword": "서초구아파트전세",
@@ -4543,18 +4567,6 @@
    "used": false
   },
   {
-   "keyword": "강서구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "강서구",
-   "entity_id": "26440",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "공항동아파트전세",
    "volume": 10,
    "comp": "낮음",
@@ -4891,35 +4903,11 @@
    "used": false
   },
   {
-   "keyword": "서구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "서구",
-   "entity_id": "30170",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "동대신동3가아파트전세",
    "volume": 10,
    "comp": "낮음",
    "entity": "동대신동3가",
    "entity_id": "26140:동대신동3가",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "서구전세시세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "서구",
-   "entity_id": "30170",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -6331,6 +6319,18 @@
    "used": false
   },
   {
+   "keyword": "강서구전세시세",
+   "volume": 10,
+   "comp": "높음",
+   "entity": "강서구",
+   "entity_id": "26440",
+   "base_score": 14.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 15.4,
+   "used": false
+  },
+  {
    "keyword": "무악동아파트전세",
    "volume": 10,
    "comp": "높음",
@@ -6456,18 +6456,6 @@
    "comp": "높음",
    "entity": "염리동",
    "entity_id": "11440:염리동",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "강서구전세시세",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "강서구",
-   "entity_id": "26440",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -6760,6 +6748,18 @@
    "growth": 1.0,
    "why": "",
    "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "서구아파트전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "서구",
+   "entity_id": "30170",
+   "base_score": 42.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 12.6,
    "used": false
   },
   {
