@@ -1,0 +1,89 @@
+{
+ "corp_code": "00208709",
+ "corp_name": "KTE",
+ "rcept_no": "20261028000336",
+ "rcept_dt": "20261028",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336",
+ "subscription": "2026년 12월 14일 ~ 2026년 12월 15일",
+ "payment_date": "2026년 12월 17일",
+ "notice_date": "2026년 12월 14일",
+ "allot_date": "2026년 12월 17일",
+ "stock_kind": "보통주",
+ "shares": 2816000,
+ "face_value": 500,
+ "price": 19000,
+ "total": 53504000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "NH투자증권",
+   "shares": 2816000,
+   "amount": 53504000000,
+   "fee": 1362599725,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 38500000000,
+   "share_pct": 70.6,
+   "amount_eok": 385.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 14515704561,
+   "share_pct": 26.6,
+   "amount_eok": 145.2
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1488284439,
+   "share_pct": 2.7,
+   "amount_eok": 14.9
+  }
+ ],
+ "fund_total": 54503989000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)KTE",
+  "ceo_nm": "구자영,구본승",
+  "induty_code": "28123",
+  "est_dt": "19790525",
+  "hm_url": "www.kt-eletric.co.kr",
+  "adres": "부산광역시 강서구 녹산산업대로 95-12 (송정동)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "NH투자증권",
+ "underwriting_fee_pct": 2.55,
+ "total_eok": 535.0,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 47,
+ "total_rank": 4,
+ "total_rank_of": 30,
+ "total_vs_median_pct": 82.3,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 38500000000,
+  "share_pct": 70.6,
+  "amount_eok": 385.0
+ },
+ "compare_median_total": 29346000000,
+ "compare_count": 30,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 293.5
+}

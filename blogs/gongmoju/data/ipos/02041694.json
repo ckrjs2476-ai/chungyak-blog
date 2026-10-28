@@ -1,0 +1,74 @@
+{
+ "corp_code": "02041694",
+ "corp_name": "신영해피투모로우제12호기업인수목적",
+ "rcept_no": "20261028000471",
+ "rcept_dt": "20261028",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000471",
+ "subscription": "2026년 11월 24일 ~ 2026년 11월 25일",
+ "payment_date": "2026년 11월 27일",
+ "notice_date": "2026년 11월 24일",
+ "allot_date": "2026년 11월 27일",
+ "stock_kind": "보통주",
+ "shares": 6250000,
+ "face_value": 100,
+ "price": 2000,
+ "total": 12500000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "신영증권",
+   "shares": 6250000,
+   "amount": 12500000000,
+   "fee": 375000000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "공모예치자금",
+   "amount": 12500000000,
+   "share_pct": 100.0,
+   "amount_eok": 125.0
+  }
+ ],
+ "fund_total": 12500000000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "신영해피투모로우제12호기업인수목적(주)",
+  "ceo_nm": "제호석",
+  "induty_code": "6619",
+  "est_dt": "20260727",
+  "hm_url": "-",
+  "adres": "서울특별시 영등포구 국제금융로8길 16 (여의도동) 5층"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": true,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "신영증권",
+ "underwriting_fee_pct": 3.0,
+ "total_eok": 125.0,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 0,
+ "top_fund_use": {
+  "use": "공모예치자금",
+  "amount": 12500000000,
+  "share_pct": 100.0,
+  "amount_eok": 125.0
+ },
+ "compare_median_total": 29346000000,
+ "compare_count": 30,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 293.5
+}
