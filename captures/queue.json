@@ -1,1 +1,43 @@
-[]
+[
+ {
+  "name": "ipo-00784184-dart",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000331",
+  "sleep": 4
+ },
+ {
+  "name": "ipo-01658035-dart",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000210",
+  "sleep": 4
+ },
+ {
+  "name": "js-28185-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 5,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "인천"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "연수"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
