@@ -591,5 +591,50 @@
   "bytes": 20580,
   "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
   "at": "2026-10-29 10:44"
+ },
+ {
+  "name": "cy-2026000444-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   359
+  ],
+  "bytes": 13576,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000444&pblancNo=2026000444",
+  "at": "2026-10-29 10:48"
+ },
+ {
+  "name": "js-41360-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7240,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-10-29 10:48"
+ },
+ {
+  "name": "js-28185-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-00579342-dart",
+  "ok": true,
+  "status": 200,
+  "title": "영광/증권신고서(지분증권)/2026.10.21",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 22118,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000239",
+  "at": "2026-10-29 10:49"
  }
 ]
