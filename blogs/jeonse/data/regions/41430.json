@@ -1,20 +1,20 @@
 {
  "lawd": "41430",
  "name": "경기도 의왕시",
- "updated": "2026-10-14",
+ "updated": "2026-10-29",
  "months": 12,
- "jeonse_count": 2243,
- "wolse_count": 1677,
- "wolse_share_pct": 42.8,
- "renew_share_pct": 37.4,
- "jeonse_n84": 1183,
- "jeonse_median84": 49300,
- "sale_n84": 995,
- "sale_median84": 78300,
- "ratio84": 63.0,
- "jeonse_recent3_median84": 52000,
+ "jeonse_count": 2320,
+ "wolse_count": 1817,
+ "wolse_share_pct": 43.9,
+ "renew_share_pct": 37.2,
+ "jeonse_n84": 1225,
+ "jeonse_median84": 50000,
+ "sale_n84": 1027,
+ "sale_median84": 78000,
+ "ratio84": 64.1,
+ "jeonse_recent3_median84": 52400,
  "jeonse_prev3_median84": 50000,
- "jeonse_change_pct": 4.0,
+ "jeonse_change_pct": 4.8,
  "apts_with_both": 57,
  "apts_ratio_80_plus": 1,
  "apts_ratio_70_plus": 11,
@@ -27,23 +27,23 @@
    "ratio": 59.6
   },
   "내손동": {
-   "jeonse_n": 249,
-   "jeonse_median84": 54600,
-   "sale_n": 257,
-   "sale_median84": 95000,
-   "ratio": 57.5
+   "jeonse_n": 254,
+   "jeonse_median84": 54800,
+   "sale_n": 270,
+   "sale_median84": 94500,
+   "ratio": 58.0
   },
   "삼동": {
-   "jeonse_n": 61,
-   "jeonse_median84": 36750,
-   "sale_n": 72,
+   "jeonse_n": 63,
+   "jeonse_median84": 35000,
+   "sale_n": 73,
    "sale_median84": 62000,
-   "ratio": 59.3
+   "ratio": 56.5
   },
   "오전동": {
-   "jeonse_n": 246,
+   "jeonse_n": 253,
    "jeonse_median84": 36000,
-   "sale_n": 288,
+   "sale_n": 297,
    "sale_median84": 52500,
    "ratio": 68.6
   },
@@ -55,25 +55,25 @@
    "ratio": 65.3
   },
   "청계동": {
-   "jeonse_n": 37,
+   "jeonse_n": 38,
    "jeonse_median84": 48000,
-   "sale_n": 22,
-   "sale_median84": 85750,
-   "ratio": 56.0
+   "sale_n": 23,
+   "sale_median84": 86500,
+   "ratio": 55.5
   },
   "포일동": {
-   "jeonse_n": 386,
+   "jeonse_n": 408,
    "jeonse_median84": 57000,
-   "sale_n": 219,
-   "sale_median84": 103000,
-   "ratio": 55.3
+   "sale_n": 222,
+   "sale_median84": 103500,
+   "ratio": 55.1
   },
   "학의동": {
-   "jeonse_n": 117,
-   "jeonse_median84": 54000,
-   "sale_n": 112,
+   "jeonse_n": 122,
+   "jeonse_median84": 54750,
+   "sale_n": 117,
    "sale_median84": 82000,
-   "ratio": 65.9
+   "ratio": 66.8
   }
  },
  "top_ratio_apts": [
@@ -91,11 +91,11 @@
    "umd": "삼동",
    "apt": "효성청솔",
    "built": 1997,
-   "jeonse_n": 2,
-   "jeonse_median84": 35875,
+   "jeonse_n": 3,
+   "jeonse_median84": 35000,
    "sale_n": 3,
    "sale_median84": 46000,
-   "ratio": 78.0
+   "ratio": 76.1
   },
   {
    "umd": "오전동",
@@ -103,9 +103,9 @@
    "built": 1995,
    "jeonse_n": 13,
    "jeonse_median84": 29000,
-   "sale_n": 11,
-   "sale_median84": 38900,
-   "ratio": 74.6
+   "sale_n": 12,
+   "sale_median84": 39250,
+   "ratio": 73.9
   },
   {
    "umd": "오전동",
@@ -113,9 +113,9 @@
    "built": 2000,
    "jeonse_n": 7,
    "jeonse_median84": 32000,
-   "sale_n": 11,
-   "sale_median84": 43500,
-   "ratio": 73.6
+   "sale_n": 12,
+   "sale_median84": 43900,
+   "ratio": 72.9
   },
   {
    "umd": "오전동",
@@ -126,16 +126,6 @@
    "sale_n": 12,
    "sale_median84": 45450,
    "ratio": 72.6
-  },
-  {
-   "umd": "오전동",
-   "apt": "목화케이티이자리에",
-   "built": 2004,
-   "jeonse_n": 4,
-   "jeonse_median84": 35000,
-   "sale_n": 7,
-   "sale_median84": 48650,
-   "ratio": 71.9
   },
   {
    "umd": "내손동",
@@ -151,11 +141,31 @@
    "umd": "학의동",
    "apt": "의왕백운 해링턴 플레이스 5단지",
    "built": 2019,
-   "jeonse_n": 30,
+   "jeonse_n": 32,
    "jeonse_median84": 60000,
    "sale_n": 32,
    "sale_median84": 84000,
    "ratio": 71.4
+  },
+  {
+   "umd": "포일동",
+   "apt": "동부새롬",
+   "built": 1997,
+   "jeonse_n": 6,
+   "jeonse_median84": 38500,
+   "sale_n": 3,
+   "sale_median84": 54000,
+   "ratio": 71.3
+  },
+  {
+   "umd": "오전동",
+   "apt": "목화케이티이자리에",
+   "built": 2004,
+   "jeonse_n": 4,
+   "jeonse_median84": 35000,
+   "sale_n": 8,
+   "sale_median84": 49325,
+   "ratio": 71.0
   },
   {
    "umd": "오전동",
@@ -166,16 +176,6 @@
    "sale_n": 8,
    "sale_median84": 48400,
    "ratio": 70.8
-  },
-  {
-   "umd": "오전동",
-   "apt": "신안(3동)",
-   "built": 1991,
-   "jeonse_n": 6,
-   "jeonse_median84": 27000,
-   "sale_n": 4,
-   "sale_median84": 38250,
-   "ratio": 70.6
   }
  ],
  "low_ratio_apts": [
@@ -183,19 +183,19 @@
    "umd": "포일동",
    "apt": "인덕원삼호",
    "built": 1991,
-   "jeonse_n": 57,
+   "jeonse_n": 59,
    "jeonse_median84": 41000,
-   "sale_n": 24,
-   "sale_median84": 111750,
-   "ratio": 36.7
+   "sale_n": 25,
+   "sale_median84": 113500,
+   "ratio": 36.1
   },
   {
    "umd": "포일동",
    "apt": "인덕원푸르지오엘센트로",
    "built": 2019,
-   "jeonse_n": 178,
+   "jeonse_n": 184,
    "jeonse_median84": 70000,
-   "sale_n": 56,
+   "sale_n": 58,
    "sale_median84": 145000,
    "ratio": 48.3
   },
@@ -203,11 +203,21 @@
    "umd": "포일동",
    "apt": "인덕원숲속마을3단지",
    "built": 2011,
-   "jeonse_n": 21,
-   "jeonse_median84": 53500,
+   "jeonse_n": 22,
+   "jeonse_median84": 53750,
    "sale_n": 11,
    "sale_median84": 110000,
-   "ratio": 48.6
+   "ratio": 48.9
+  },
+  {
+   "umd": "포일동",
+   "apt": "인덕원센트럴푸르지오",
+   "built": 2001,
+   "jeonse_n": 23,
+   "jeonse_median84": 46000,
+   "sale_n": 25,
+   "sale_median84": 91500,
+   "ratio": 50.3
   },
   {
    "umd": "포일동",
@@ -218,16 +228,6 @@
    "sale_n": 3,
    "sale_median84": 93500,
    "ratio": 50.3
-  },
-  {
-   "umd": "내손동",
-   "apt": "인덕원 센트럴 자이 2단지",
-   "built": 2009,
-   "jeonse_n": 41,
-   "jeonse_median84": 58000,
-   "sale_n": 21,
-   "sale_median84": 115000,
-   "ratio": 50.4
   }
  ],
  "monthly": [
@@ -287,35 +287,35 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 97,
-   "n84": 43,
+   "jeonse_count": 99,
+   "n84": 45,
    "jeonse_median84": 52500
   },
   {
    "month": "2026-09",
-   "jeonse_count": 111,
-   "n84": 49,
-   "jeonse_median84": 50000
+   "jeonse_count": 115,
+   "n84": 52,
+   "jeonse_median84": 50200
   },
   {
    "month": "2026-10",
-   "jeonse_count": 37,
-   "n84": 16,
-   "jeonse_median84": 54250
+   "jeonse_count": 108,
+   "n84": 53,
+   "jeonse_median84": 53500
   }
  ],
- "rank": 129,
+ "rank": 125,
  "rank_of": 179,
  "avg_ratio84_all": 72.1,
- "ratio_vs_avg_pp": -9.1,
+ "ratio_vs_avg_pp": -8.0,
  "umd_ratio_high": {
   "name": "오전동",
   "ratio": 68.6
  },
  "umd_ratio_low": {
   "name": "포일동",
-  "ratio": 55.3
+  "ratio": 55.1
  },
- "umd_spread_pp": 13.3,
- "gap84": 29000
+ "umd_spread_pp": 13.5,
+ "gap84": 28000
 }
