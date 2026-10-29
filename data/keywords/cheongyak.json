@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 05:44",
+ "updated": "2026-10-29 10:41",
  "stage": 1,
  "band": [
   30,
@@ -36,18 +36,6 @@
    "comp": "높음",
    "entity": "GTX운정중앙역시티프라디움",
    "entity_id": "2026000517",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
-   "keyword": "신분평에피트더웨이시티분양가",
-   "volume": 100,
-   "comp": "높음",
-   "entity": "신분평에피트더웨이시티",
-   "entity_id": "2026000455",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -112,6 +100,18 @@
    "growth": 0.55,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 지금 쓸 글(score)이 답하는 질문과 다름",
    "score": 38.5,
+   "used": false
+  },
+  {
+   "keyword": "신분평에피트더웨이시티분양가",
+   "volume": 100,
+   "comp": "높음",
+   "entity": "신분평에피트더웨이시티",
+   "entity_id": "2026000455",
+   "base_score": 70.0,
+   "growth": 0.5,
+   "why": "지금 쓸 글(competition)이 답하는 질문과 다름",
+   "score": 35.0,
    "used": false
   },
   {
@@ -571,6 +571,18 @@
    "used": false
   },
   {
+   "keyword": "신분평에피트더웨이시티경쟁률",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "신분평에피트더웨이시티",
+   "entity_id": "2026000455",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
    "keyword": "분양일정",
    "volume": 460,
    "comp": "높음",
@@ -616,7 +628,7 @@
    "growth": 1.0,
    "why": "",
    "score": 17.5,
-   "used": false
+   "used": true
   },
   {
    "keyword": "서울미분양",
@@ -2911,18 +2923,6 @@
    "used": false
   },
   {
-   "keyword": "신분평에피트더웨이시티경쟁률",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "신분평에피트더웨이시티",
-   "entity_id": "2026000455",
-   "base_score": 20.0,
-   "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
-   "score": 10.0,
-   "used": false
-  },
-  {
    "keyword": "신분평에피트더웨이시티당첨가점",
    "volume": 10,
    "comp": "낮음",
@@ -2930,7 +2930,7 @@
    "entity_id": "2026000455",
    "base_score": 20.0,
    "growth": 0.5,
-   "why": "지금 쓸 글(notice)이 답하는 질문과 다름",
+   "why": "지금 쓸 글(competition)이 답하는 질문과 다름",
    "score": 10.0,
    "used": false
   },
