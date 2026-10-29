@@ -1,0 +1,103 @@
+{
+ "no": "2026000525",
+ "name": "엘리프 시흥 더프라임",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-29",
+ "rank1_date": "2026-11-10",
+ "city": "시흥시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-17",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000525&pblancNo=2026000525",
+ "households": 304,
+ "types": [
+  {
+   "ty": "84.9607A",
+   "size": 84,
+   "price": 59930,
+   "area_m2": 109.1983,
+   "general": 95,
+   "special": 164,
+   "pyeong_price": 1814,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.9236B",
+   "size": 84,
+   "price": 59910,
+   "area_m2": 109.154,
+   "general": 19,
+   "special": 26,
+   "pyeong_price": 1814,
+   "special_share_pct": 58
+  }
+ ],
+ "general_total": 114,
+ "special_total": 190,
+ "special_share_pct": 62,
+ "pyeong_min": 1814,
+ "pyeong_max": 1814,
+ "pyeong_avg": 1814,
+ "price_84_min": 59910,
+ "price_84_max": 59930,
+ "special_kinds": {
+  "신혼부부": 44,
+  "생애최초": 51,
+  "신생아": 29,
+  "다자녀": 29,
+  "노부모 부양": 8,
+  "기관추천": 29
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 37,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "힐스테이트 시흥더클래스",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)"
+  ],
+  "peer_avg_pyeong": 2568,
+  "diff": -754,
+  "diff_pct": -29,
+  "rank": 29,
+  "of": 38
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 32,
+  "peer_avg_rate": 2.03,
+  "peer_max_rate": 9.18
+ },
+ "market": {
+  "region": "경기도 시흥시",
+  "lawd": "41390",
+  "months": 12,
+  "updated": "2026-10-29",
+  "n84": 2239,
+  "median84": 54000,
+  "p25_84": 40500,
+  "p75_84": 60000,
+  "new_n84": 259,
+  "new_median84": 65500,
+  "new_build_years": 5,
+  "umd": "거모동",
+  "umd_n84": 34,
+  "umd_median84": 26650,
+  "diff_vs_median84": 5930,
+  "diff_pct_vs_median84": 11,
+  "diff_vs_new_median84": -5570,
+  "diff_pct_vs_new_median84": -9,
+  "diff_vs_umd_median84": 33280,
+  "diff_pct_vs_umd_median84": 125
+ }
+}

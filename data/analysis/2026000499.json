@@ -1,0 +1,149 @@
+{
+ "no": "2026000499",
+ "name": "한화포레나 지제역",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-29",
+ "rank1_date": "2026-11-10",
+ "city": "평택시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-18",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000499&pblancNo=2026000499",
+ "households": 1098,
+ "types": [
+  {
+   "ty": "84.9424A",
+   "size": 84,
+   "price": 70875,
+   "area_m2": 109.3948,
+   "general": 207,
+   "special": 245,
+   "pyeong_price": 2142,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9927B",
+   "size": 84,
+   "price": 70095,
+   "area_m2": 109.8412,
+   "general": 97,
+   "special": 111,
+   "pyeong_price": 2110,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9839C",
+   "size": 84,
+   "price": 72450,
+   "area_m2": 110.6976,
+   "general": 79,
+   "special": 89,
+   "pyeong_price": 2164,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9199D",
+   "size": 84,
+   "price": 72350,
+   "area_m2": 109.5072,
+   "general": 57,
+   "special": 65,
+   "pyeong_price": 2184,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "116.9134",
+   "size": 116,
+   "price": 96845,
+   "area_m2": 148.8094,
+   "general": 130,
+   "special": 18,
+   "pyeong_price": 2151,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 570,
+ "special_total": 528,
+ "special_share_pct": 48,
+ "pyeong_min": 2110,
+ "pyeong_max": 2184,
+ "pyeong_avg": 2145,
+ "price_84_min": 70095,
+ "price_84_max": 72450,
+ "special_kinds": {
+  "신혼부부": 141,
+  "생애최초": 64,
+  "신생아": 93,
+  "다자녀": 106,
+  "노부모 부양": 31,
+  "기관추천": 93
+ },
+ "region_price": {
+  "scope": "평택시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디",
+   "평택역 더센트럴45"
+  ],
+  "peer_avg_pyeong": 1663,
+  "diff": 482,
+  "diff_pct": 29,
+  "rank": 1,
+  "of": 4
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 37,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "힐스테이트 시흥더클래스",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)"
+  ],
+  "peer_avg_pyeong": 2559,
+  "diff": -414,
+  "diff_pct": -16,
+  "rank": 21,
+  "of": 38
+ },
+ "area_competition": {
+  "scope": "평택시",
+  "peer_count": 3,
+  "peer_avg_rate": 0.6,
+  "peer_max_rate": 1.4
+ },
+ "market": {
+  "region": "경기도 평택시",
+  "lawd": "41220",
+  "months": 12,
+  "updated": "2026-10-30",
+  "n84": 3046,
+  "median84": 36500,
+  "p25_84": 25900,
+  "p75_84": 51800,
+  "new_n84": 806,
+  "new_median84": 56600,
+  "new_build_years": 5,
+  "umd": "세교동",
+  "umd_n84": 128,
+  "umd_median84": 37000,
+  "diff_vs_median84": 35950,
+  "diff_pct_vs_median84": 98,
+  "diff_vs_new_median84": 15850,
+  "diff_pct_vs_new_median84": 28,
+  "diff_vs_umd_median84": 35450,
+  "diff_pct_vs_umd_median84": 96
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "no": "2026000535",
+ "name": "중앙하이츠 구성 플랫폼시티",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-29",
+ "rank1_date": "2026-11-10",
+ "city": "용인시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-18",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000535&pblancNo=2026000535",
+ "households": 76,
+ "types": [
+  {
+   "ty": "59.967A",
+   "size": 59,
+   "price": 62500,
+   "area_m2": 77.9443,
+   "general": 7,
+   "special": 11,
+   "pyeong_price": 2651,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "59.9898B",
+   "size": 59,
+   "price": 62530,
+   "area_m2": 77.9093,
+   "general": 7,
+   "special": 6,
+   "pyeong_price": 2653,
+   "special_share_pct": 46
+  },
+  {
+   "ty": "68.9683",
+   "size": 68,
+   "price": 71680,
+   "area_m2": 90.223,
+   "general": 4,
+   "special": 1,
+   "pyeong_price": 2626,
+   "special_share_pct": 20
+  },
+  {
+   "ty": "74.9857",
+   "size": 74,
+   "price": 77110,
+   "area_m2": 98.0971,
+   "general": 12,
+   "special": 11,
+   "pyeong_price": 2599,
+   "special_share_pct": 48
+  },
+  {
+   "ty": "79.978",
+   "size": 79,
+   "price": 82270,
+   "area_m2": 105.6823,
+   "general": 7,
+   "special": 5,
+   "pyeong_price": 2573,
+   "special_share_pct": 42
+  },
+  {
+   "ty": "84.9932",
+   "size": 84,
+   "price": 85210,
+   "area_m2": 110.44,
+   "general": 4,
+   "special": 1,
+   "pyeong_price": 2551,
+   "special_share_pct": 20
+  }
+ ],
+ "general_total": 41,
+ "special_total": 35,
+ "special_share_pct": 46,
+ "pyeong_min": 2551,
+ "pyeong_max": 2653,
+ "pyeong_avg": 2615,
+ "price_84_min": 85210,
+ "price_84_max": 85210,
+ "special_kinds": {
+  "신혼부부": 10,
+  "생애최초": 6,
+  "신생아": 6,
+  "다자녀": 6,
+  "노부모 부양": 2,
+  "기관추천": 5
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 37,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "힐스테이트 시흥더클래스",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)"
+  ],
+  "peer_avg_pyeong": 2546,
+  "diff": 69,
+  "diff_pct": 3,
+  "rank": 11,
+  "of": 38
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 32,
+  "peer_avg_rate": 2.03,
+  "peer_max_rate": 9.18
+ }
+}
