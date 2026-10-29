@@ -1,20 +1,20 @@
 {
  "lawd": "41650",
  "name": "경기도 포천시",
- "updated": "2026-10-14",
+ "updated": "2026-10-29",
  "months": 12,
- "jeonse_count": 680,
- "wolse_count": 645,
- "wolse_share_pct": 48.7,
- "renew_share_pct": 12.5,
- "jeonse_n84": 362,
+ "jeonse_count": 693,
+ "wolse_count": 673,
+ "wolse_share_pct": 49.3,
+ "renew_share_pct": 12.7,
+ "jeonse_n84": 367,
  "jeonse_median84": 29000,
- "sale_n84": 210,
+ "sale_n84": 215,
  "sale_median84": 23000,
  "ratio84": 126.1,
- "jeonse_recent3_median84": 19000,
+ "jeonse_recent3_median84": 19712,
  "jeonse_prev3_median84": 20000,
- "jeonse_change_pct": -5.0,
+ "jeonse_change_pct": -1.4,
  "apts_with_both": 17,
  "apts_ratio_80_plus": 2,
  "apts_ratio_70_plus": 11,
@@ -29,19 +29,19 @@
   "선단동": {
    "jeonse_n": 6,
    "jeonse_median84": 13250,
-   "sale_n": 20,
-   "sale_median84": 18700,
-   "ratio": 70.9
+   "sale_n": 21,
+   "sale_median84": 18800,
+   "ratio": 70.5
   },
   "소흘읍 송우리": {
-   "jeonse_n": 45,
+   "jeonse_n": 46,
    "jeonse_median84": 18000,
-   "sale_n": 91,
-   "sale_median84": 24000,
-   "ratio": 75.0
+   "sale_n": 94,
+   "sale_median84": 23900,
+   "ratio": 75.3
   },
   "신읍동": {
-   "jeonse_n": 15,
+   "jeonse_n": 17,
    "jeonse_median84": 11000,
    "sale_n": 40,
    "sale_median84": 17000,
@@ -65,9 +65,9 @@
    "built": 1997,
    "jeonse_n": 3,
    "jeonse_median84": 15000,
-   "sale_n": 12,
-   "sale_median84": 16600,
-   "ratio": 90.4
+   "sale_n": 13,
+   "sale_median84": 16500,
+   "ratio": 90.9
   },
   {
    "umd": "소흘읍 송우리",
@@ -75,15 +75,15 @@
    "built": 2005,
    "jeonse_n": 9,
    "jeonse_median84": 18000,
-   "sale_n": 25,
-   "sale_median84": 23500,
-   "ratio": 76.6
+   "sale_n": 26,
+   "sale_median84": 23350,
+   "ratio": 77.1
   },
   {
    "umd": "소흘읍 송우리",
    "apt": "태봉마을",
    "built": 2005,
-   "jeonse_n": 12,
+   "jeonse_n": 13,
    "jeonse_median84": 19000,
    "sale_n": 25,
    "sale_median84": 25000,
@@ -143,7 +143,7 @@
    "umd": "신읍동",
    "apt": "유한",
    "built": 1999,
-   "jeonse_n": 2,
+   "jeonse_n": 4,
    "jeonse_median84": 12000,
    "sale_n": 9,
    "sale_median84": 16800,
@@ -167,9 +167,9 @@
    "built": 2024,
    "jeonse_n": 2,
    "jeonse_median84": 28500,
-   "sale_n": 6,
-   "sale_median84": 46900,
-   "ratio": 60.8
+   "sale_n": 7,
+   "sale_median84": 47800,
+   "ratio": 59.6
   },
   {
    "umd": "소흘읍 송우리",
@@ -271,23 +271,23 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 9,
-   "n84": 2,
-   "jeonse_median84": 18000
+   "jeonse_count": 22,
+   "n84": 7,
+   "jeonse_median84": 20000
   }
  ],
  "rank": 2,
  "rank_of": 179,
- "avg_ratio84_all": 72.1,
- "ratio_vs_avg_pp": 54.0,
+ "avg_ratio84_all": 72.2,
+ "ratio_vs_avg_pp": 53.9,
  "umd_ratio_high": {
   "name": "소흘읍 송우리",
-  "ratio": 75.0
+  "ratio": 75.3
  },
  "umd_ratio_low": {
   "name": "군내면 구읍리",
   "ratio": 57.1
  },
- "umd_spread_pp": 17.9,
+ "umd_spread_pp": 18.2,
  "gap84": -6000
 }

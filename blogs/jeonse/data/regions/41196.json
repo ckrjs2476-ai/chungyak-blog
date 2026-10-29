@@ -1,20 +1,20 @@
 {
  "lawd": "41196",
  "name": "경기도 부천시 오정구",
- "updated": "2026-10-14",
+ "updated": "2026-10-29",
  "months": 12,
- "jeonse_count": 677,
- "wolse_count": 1077,
- "wolse_share_pct": 61.4,
- "renew_share_pct": 19.4,
- "jeonse_n84": 129,
- "jeonse_median84": 39900,
- "sale_n84": 92,
- "sale_median84": 59800,
- "ratio84": 66.7,
- "jeonse_recent3_median84": 40328,
+ "jeonse_count": 699,
+ "wolse_count": 1124,
+ "wolse_share_pct": 61.7,
+ "renew_share_pct": 19.5,
+ "jeonse_n84": 134,
+ "jeonse_median84": 40000,
+ "sale_n84": 100,
+ "sale_median84": 59250,
+ "ratio84": 67.5,
+ "jeonse_recent3_median84": 42000,
  "jeonse_prev3_median84": 35000,
- "jeonse_change_pct": 15.2,
+ "jeonse_change_pct": 20.0,
  "apts_with_both": 8,
  "apts_ratio_80_plus": 0,
  "apts_ratio_70_plus": 1,
@@ -27,25 +27,25 @@
    "ratio": 67.4
   },
   "여월동": {
-   "jeonse_n": 52,
-   "jeonse_median84": 45075,
-   "sale_n": 37,
+   "jeonse_n": 57,
+   "jeonse_median84": 45000,
+   "sale_n": 40,
    "sale_median84": 76000,
-   "ratio": 59.3
+   "ratio": 59.2
   },
   "오정동": {
    "jeonse_n": 37,
    "jeonse_median84": 35000,
-   "sale_n": 32,
+   "sale_n": 34,
    "sale_median84": 56600,
    "ratio": 61.8
   },
   "원종동": {
    "jeonse_n": 32,
    "jeonse_median84": 30000,
-   "sale_n": 12,
-   "sale_median84": 50000,
-   "ratio": 60.0
+   "sale_n": 15,
+   "sale_median84": 49500,
+   "ratio": 60.6
   }
  },
  "top_ratio_apts": [
@@ -95,7 +95,7 @@
    "built": 2006,
    "jeonse_n": 16,
    "jeonse_median84": 36500,
-   "sale_n": 16,
+   "sale_n": 18,
    "sale_median84": 56600,
    "ratio": 64.5
   },
@@ -113,11 +113,11 @@
    "umd": "여월동",
    "apt": "여월휴먼시아3단지",
    "built": 2007,
-   "jeonse_n": 32,
-   "jeonse_median84": 45075,
-   "sale_n": 16,
+   "jeonse_n": 37,
+   "jeonse_median84": 45000,
+   "sale_n": 19,
    "sale_median84": 74000,
-   "ratio": 60.9
+   "ratio": 60.8
   },
   {
    "umd": "여월동",
@@ -170,7 +170,7 @@
   },
   {
    "month": "2026-05",
-   "jeonse_count": 71,
+   "jeonse_count": 72,
    "n84": 15,
    "jeonse_median84": 32800
   },
@@ -200,23 +200,23 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 10,
-   "n84": 1,
-   "jeonse_median84": 42000
+   "jeonse_count": 31,
+   "n84": 6,
+   "jeonse_median84": 45000
   }
  ],
- "rank": 113,
+ "rank": 106,
  "rank_of": 179,
- "avg_ratio84_all": 72.1,
- "ratio_vs_avg_pp": -5.4,
+ "avg_ratio84_all": 72.2,
+ "ratio_vs_avg_pp": -4.7,
  "umd_ratio_high": {
   "name": "오정동",
   "ratio": 61.8
  },
  "umd_ratio_low": {
   "name": "여월동",
-  "ratio": 59.3
+  "ratio": 59.2
  },
- "umd_spread_pp": 2.5,
- "gap84": 19900
+ "umd_spread_pp": 2.6,
+ "gap84": 19250
 }
