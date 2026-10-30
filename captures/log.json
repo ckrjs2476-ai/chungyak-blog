@@ -772,5 +772,44 @@
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-01705740-dart",
+  "ok": true,
+  "status": 200,
+  "title": "엠비디/증권신고서(지분증권)/2026.10.15",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 31064,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000329",
+  "at": "2026-10-30 10:49"
+ },
+ {
+  "name": "ipo-01835829-dart",
+  "ok": true,
+  "status": 200,
+  "title": "바로팜/증권신고서(지분증권)/2026.10.15",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 33140,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000345",
+  "at": "2026-10-30 10:49"
+ },
+ {
+  "name": "js-11650-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7242,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-10-30 10:49"
  }
 ]
