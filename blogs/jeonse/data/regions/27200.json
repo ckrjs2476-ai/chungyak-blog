@@ -1,44 +1,44 @@
 {
  "lawd": "27200",
  "name": "대구광역시 남구",
- "updated": "2026-10-16",
+ "updated": "2026-10-30",
  "months": 12,
- "jeonse_count": 758,
- "wolse_count": 599,
- "wolse_share_pct": 44.1,
- "renew_share_pct": 8.0,
- "jeonse_n84": 542,
+ "jeonse_count": 797,
+ "wolse_count": 683,
+ "wolse_share_pct": 46.1,
+ "renew_share_pct": 9.0,
+ "jeonse_n84": 562,
  "jeonse_median84": 27900,
- "sale_n84": 364,
+ "sale_n84": 383,
  "sale_median84": 41000,
  "ratio84": 68.0,
- "jeonse_recent3_median84": 28400,
+ "jeonse_recent3_median84": 28600,
  "jeonse_prev3_median84": 27800,
- "jeonse_change_pct": 2.2,
+ "jeonse_change_pct": 2.9,
  "apts_with_both": 25,
  "apts_ratio_80_plus": 2,
- "apts_ratio_70_plus": 9,
+ "apts_ratio_70_plus": 8,
  "umd": {
   "대명동": {
-   "jeonse_n": 428,
-   "jeonse_median84": 28100,
-   "sale_n": 142,
-   "sale_median84": 51250,
+   "jeonse_n": 443,
+   "jeonse_median84": 28200,
+   "sale_n": 147,
+   "sale_median84": 51500,
    "ratio": 54.8
   },
   "봉덕동": {
-   "jeonse_n": 81,
+   "jeonse_n": 83,
    "jeonse_median84": 26000,
-   "sale_n": 141,
+   "sale_n": 150,
    "sale_median84": 39500,
    "ratio": 65.8
   },
   "이천동": {
-   "jeonse_n": 33,
-   "jeonse_median84": 21300,
-   "sale_n": 81,
-   "sale_median84": 31500,
-   "ratio": 67.6
+   "jeonse_n": 36,
+   "jeonse_median84": 21650,
+   "sale_n": 86,
+   "sale_median84": 32775,
+   "ratio": 66.1
   }
  },
  "top_ratio_apts": [
@@ -56,11 +56,11 @@
    "umd": "이천동",
    "apt": "보성상아맨션",
    "built": 1987,
-   "jeonse_n": 9,
-   "jeonse_median84": 20000,
+   "jeonse_n": 10,
+   "jeonse_median84": 19500,
    "sale_n": 7,
    "sale_median84": 24000,
-   "ratio": 83.3
+   "ratio": 81.2
   },
   {
    "umd": "봉덕동",
@@ -68,9 +68,9 @@
    "built": 1990,
    "jeonse_n": 3,
    "jeonse_median84": 14500,
-   "sale_n": 13,
-   "sale_median84": 19000,
-   "ratio": 76.3
+   "sale_n": 14,
+   "sale_median84": 18900,
+   "ratio": 76.7
   },
   {
    "umd": "봉덕동",
@@ -96,7 +96,7 @@
    "umd": "대명동",
    "apt": "교대역동서프라임36.5",
    "built": 2017,
-   "jeonse_n": 6,
+   "jeonse_n": 7,
    "jeonse_median84": 26000,
    "sale_n": 6,
    "sale_median84": 36300,
@@ -124,16 +124,6 @@
   },
   {
    "umd": "봉덕동",
-   "apt": "앞산태왕아너스",
-   "built": 2019,
-   "jeonse_n": 14,
-   "jeonse_median84": 26000,
-   "sale_n": 17,
-   "sale_median84": 37100,
-   "ratio": 70.1
-  },
-  {
-   "umd": "봉덕동",
    "apt": "봉덕화성파크드림",
    "built": 2019,
    "jeonse_n": 3,
@@ -141,6 +131,16 @@
    "sale_n": 8,
    "sale_median84": 40050,
    "ratio": 69.9
+  },
+  {
+   "umd": "봉덕동",
+   "apt": "앞산태왕아너스",
+   "built": 2019,
+   "jeonse_n": 14,
+   "jeonse_median84": 26000,
+   "sale_n": 18,
+   "sale_median84": 37300,
+   "ratio": 69.7
   }
  ],
  "low_ratio_apts": [
@@ -178,11 +178,11 @@
    "umd": "이천동",
    "apt": "교대역푸르지오트레힐즈",
    "built": 2025,
-   "jeonse_n": 5,
+   "jeonse_n": 7,
    "jeonse_median84": 30000,
-   "sale_n": 20,
-   "sale_median84": 56250,
-   "ratio": 53.3
+   "sale_n": 23,
+   "sale_median84": 56500,
+   "ratio": 53.1
   },
   {
    "umd": "이천동",
@@ -190,9 +190,9 @@
    "built": 2024,
    "jeonse_n": 3,
    "jeonse_median84": 29000,
-   "sale_n": 4,
-   "sale_median84": 53650,
-   "ratio": 54.1
+   "sale_n": 5,
+   "sale_median84": 53300,
+   "ratio": 54.4
   }
  ],
  "monthly": [
@@ -252,20 +252,20 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 55,
-   "n84": 44,
+   "jeonse_count": 57,
+   "n84": 46,
    "jeonse_median84": 28200
   },
   {
    "month": "2026-09",
-   "jeonse_count": 53,
-   "n84": 34,
-   "jeonse_median84": 29000
+   "jeonse_count": 56,
+   "n84": 36,
+   "jeonse_median84": 29200
   },
   {
    "month": "2026-10",
-   "jeonse_count": 19,
-   "n84": 9,
+   "jeonse_count": 53,
+   "n84": 25,
    "jeonse_median84": 28000
   }
  ],
@@ -275,12 +275,12 @@
  "ratio_vs_avg_pp": -4.2,
  "umd_ratio_high": {
   "name": "이천동",
-  "ratio": 67.6
+  "ratio": 66.1
  },
  "umd_ratio_low": {
   "name": "대명동",
   "ratio": 54.8
  },
- "umd_spread_pp": 12.8,
+ "umd_spread_pp": 11.3,
  "gap84": 13100
 }

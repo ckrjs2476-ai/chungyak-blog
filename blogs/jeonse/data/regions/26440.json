@@ -1,42 +1,42 @@
 {
  "lawd": "26440",
  "name": "부산광역시 강서구",
- "updated": "2026-10-16",
+ "updated": "2026-10-30",
  "months": 12,
- "jeonse_count": 4451,
- "wolse_count": 1408,
- "wolse_share_pct": 24.0,
- "renew_share_pct": 8.2,
- "jeonse_n84": 2484,
+ "jeonse_count": 4586,
+ "wolse_count": 1620,
+ "wolse_share_pct": 26.1,
+ "renew_share_pct": 8.3,
+ "jeonse_n84": 2548,
  "jeonse_median84": 15230,
- "sale_n84": 562,
+ "sale_n84": 592,
  "sale_median84": 44000,
  "ratio84": 34.6,
  "jeonse_recent3_median84": 15230,
  "jeonse_prev3_median84": 15230,
  "jeonse_change_pct": 0.0,
  "apts_with_both": 25,
- "apts_ratio_80_plus": 5,
+ "apts_ratio_80_plus": 4,
  "apts_ratio_70_plus": 12,
  "umd": {
   "강동동": {
-   "jeonse_n": 50,
+   "jeonse_n": 51,
    "jeonse_median84": 27000,
-   "sale_n": 10,
-   "sale_median84": 57750,
-   "ratio": 46.8
+   "sale_n": 12,
+   "sale_median84": 57250,
+   "ratio": 47.2
   },
   "명지동": {
-   "jeonse_n": 439,
+   "jeonse_n": 455,
    "jeonse_median84": 30000,
-   "sale_n": 528,
-   "sale_median84": 44950,
-   "ratio": 66.7
+   "sale_n": 555,
+   "sale_median84": 44900,
+   "ratio": 66.8
   },
   "신호동": {
-   "jeonse_n": 1992,
+   "jeonse_n": 2039,
    "jeonse_median84": 15230,
-   "sale_n": 15,
+   "sale_n": 16,
    "sale_median84": 21000,
    "ratio": 72.5
   },
@@ -73,7 +73,7 @@
    "umd": "명지동",
    "apt": "퀸덤1차아인슈타인타운",
    "built": 2009,
-   "jeonse_n": 10,
+   "jeonse_n": 11,
    "jeonse_median84": 26000,
    "sale_n": 21,
    "sale_median84": 31300,
@@ -83,9 +83,9 @@
    "umd": "신호동",
    "apt": "부산신호윌더하임",
    "built": 2005,
-   "jeonse_n": 12,
+   "jeonse_n": 13,
    "jeonse_median84": 17000,
-   "sale_n": 15,
+   "sale_n": 16,
    "sale_median84": 21000,
    "ratio": 81.0
   },
@@ -95,19 +95,9 @@
    "built": 2014,
    "jeonse_n": 18,
    "jeonse_median84": 26000,
-   "sale_n": 28,
-   "sale_median84": 32400,
-   "ratio": 80.2
-  },
-  {
-   "umd": "명지동",
-   "apt": "퀸덤1차링컨타운",
-   "built": 2009,
-   "jeonse_n": 3,
-   "jeonse_median84": 25000,
-   "sale_n": 11,
-   "sale_median84": 31800,
-   "ratio": 78.6
+   "sale_n": 30,
+   "sale_median84": 32650,
+   "ratio": 79.6
   },
   {
    "umd": "명지동",
@@ -115,9 +105,19 @@
    "built": 2008,
    "jeonse_n": 27,
    "jeonse_median84": 25000,
-   "sale_n": 18,
-   "sale_median84": 31900,
-   "ratio": 78.4
+   "sale_n": 19,
+   "sale_median84": 31800,
+   "ratio": 78.6
+  },
+  {
+   "umd": "명지동",
+   "apt": "퀸덤1차링컨타운",
+   "built": 2009,
+   "jeonse_n": 4,
+   "jeonse_median84": 24500,
+   "sale_n": 11,
+   "sale_median84": 31800,
+   "ratio": 77.0
   },
   {
    "umd": "명지동",
@@ -125,7 +125,7 @@
    "built": 2013,
    "jeonse_n": 39,
    "jeonse_median84": 25000,
-   "sale_n": 45,
+   "sale_n": 51,
    "sale_median84": 32500,
    "ratio": 76.9
   },
@@ -135,19 +135,19 @@
    "built": 2014,
    "jeonse_n": 4,
    "jeonse_median84": 27250,
-   "sale_n": 12,
-   "sale_median84": 36600,
-   "ratio": 74.5
+   "sale_n": 14,
+   "sale_median84": 36350,
+   "ratio": 75.0
   },
   {
    "umd": "명지동",
-   "apt": "엘크루솔마레",
-   "built": 2014,
-   "jeonse_n": 15,
-   "jeonse_median84": 25000,
-   "sale_n": 15,
-   "sale_median84": 34500,
-   "ratio": 72.5
+   "apt": "명지1차 금강펜테리움 센트럴파크",
+   "built": 2015,
+   "jeonse_n": 25,
+   "jeonse_median84": 30000,
+   "sale_n": 34,
+   "sale_median84": 41500,
+   "ratio": 72.3
   }
  ],
  "low_ratio_apts": [
@@ -157,9 +157,9 @@
    "built": 2025,
    "jeonse_n": 2,
    "jeonse_median84": 24250,
-   "sale_n": 4,
-   "sale_median84": 57750,
-   "ratio": 42.0
+   "sale_n": 5,
+   "sale_median84": 57500,
+   "ratio": 42.2
   },
   {
    "umd": "강동동",
@@ -173,23 +173,23 @@
   },
   {
    "umd": "명지동",
-   "apt": "더샵명지퍼스트월드2단지",
+   "apt": "더샵명지퍼스트월드3단지",
    "built": 2020,
-   "jeonse_n": 72,
-   "jeonse_median84": 32500,
-   "sale_n": 54,
+   "jeonse_n": 86,
+   "jeonse_median84": 33000,
+   "sale_n": 87,
    "sale_median84": 59000,
-   "ratio": 55.1
+   "ratio": 55.9
   },
   {
    "umd": "명지동",
-   "apt": "더샵명지퍼스트월드3단지",
+   "apt": "더샵명지퍼스트월드2단지",
    "built": 2020,
-   "jeonse_n": 83,
+   "jeonse_n": 75,
    "jeonse_median84": 33000,
-   "sale_n": 84,
-   "sale_median84": 59000,
-   "ratio": 55.9
+   "sale_n": 58,
+   "sale_median84": 58900,
+   "ratio": 56.0
   },
   {
    "umd": "명지동",
@@ -197,8 +197,8 @@
    "built": 2017,
    "jeonse_n": 17,
    "jeonse_median84": 30000,
-   "sale_n": 11,
-   "sale_median84": 48800,
+   "sale_n": 12,
+   "sale_median84": 48750,
    "ratio": 61.5
   }
  ],
@@ -253,26 +253,26 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 373,
-   "n84": 196,
+   "jeonse_count": 375,
+   "n84": 198,
    "jeonse_median84": 15230
   },
   {
    "month": "2026-08",
-   "jeonse_count": 305,
-   "n84": 180,
+   "jeonse_count": 307,
+   "n84": 181,
    "jeonse_median84": 15230
   },
   {
    "month": "2026-09",
-   "jeonse_count": 266,
-   "n84": 132,
+   "jeonse_count": 278,
+   "n84": 139,
    "jeonse_median84": 15230
   },
   {
    "month": "2026-10",
-   "jeonse_count": 108,
-   "n84": 60,
+   "jeonse_count": 227,
+   "n84": 114,
    "jeonse_median84": 15230
   }
  ],
@@ -286,8 +286,8 @@
  },
  "umd_ratio_low": {
   "name": "강동동",
-  "ratio": 46.8
+  "ratio": 47.2
  },
- "umd_spread_pp": 25.7,
+ "umd_spread_pp": 25.3,
  "gap84": 28770
 }

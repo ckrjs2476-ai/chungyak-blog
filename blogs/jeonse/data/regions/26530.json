@@ -1,65 +1,65 @@
 {
  "lawd": "26530",
  "name": "부산광역시 사상구",
- "updated": "2026-10-16",
+ "updated": "2026-10-30",
  "months": 12,
- "jeonse_count": 869,
- "wolse_count": 1300,
- "wolse_share_pct": 59.9,
- "renew_share_pct": 13.1,
- "jeonse_n84": 166,
+ "jeonse_count": 905,
+ "wolse_count": 1362,
+ "wolse_share_pct": 60.1,
+ "renew_share_pct": 13.6,
+ "jeonse_n84": 175,
  "jeonse_median84": 19000,
- "sale_n84": 402,
+ "sale_n84": 426,
  "sale_median84": 26500,
  "ratio84": 71.7,
- "jeonse_recent3_median84": 19500,
+ "jeonse_recent3_median84": 20000,
  "jeonse_prev3_median84": 19000,
- "jeonse_change_pct": 2.6,
+ "jeonse_change_pct": 5.3,
  "apts_with_both": 25,
  "apts_ratio_80_plus": 11,
- "apts_ratio_70_plus": 17,
+ "apts_ratio_70_plus": 18,
  "umd": {
   "괘법동": {
    "jeonse_n": 13,
    "jeonse_median84": 26000,
-   "sale_n": 42,
+   "sale_n": 44,
    "sale_median84": 36750,
    "ratio": 70.7
   },
   "덕포동": {
    "jeonse_n": 22,
    "jeonse_median84": 37500,
-   "sale_n": 73,
-   "sale_median84": 30000,
-   "ratio": 125.0
+   "sale_n": 76,
+   "sale_median84": 29750,
+   "ratio": 126.1
   },
   "모라동": {
    "jeonse_n": 15,
    "jeonse_median84": 17000,
-   "sale_n": 48,
-   "sale_median84": 20600,
-   "ratio": 82.5
+   "sale_n": 51,
+   "sale_median84": 20700,
+   "ratio": 82.1
   },
   "엄궁동": {
-   "jeonse_n": 41,
+   "jeonse_n": 44,
    "jeonse_median84": 18388,
-   "sale_n": 51,
-   "sale_median84": 24000,
-   "ratio": 76.6
+   "sale_n": 56,
+   "sale_median84": 24650,
+   "ratio": 74.6
   },
   "주례동": {
-   "jeonse_n": 61,
+   "jeonse_n": 66,
    "jeonse_median84": 20000,
-   "sale_n": 135,
+   "sale_n": 143,
    "sale_median84": 32000,
    "ratio": 62.5
   },
   "학장동": {
    "jeonse_n": 14,
    "jeonse_median84": 16000,
-   "sale_n": 49,
-   "sale_median84": 16800,
-   "ratio": 95.2
+   "sale_n": 52,
+   "sale_median84": 17000,
+   "ratio": 94.1
   }
  },
  "top_ratio_apts": [
@@ -74,14 +74,14 @@
    "ratio": 101.6
   },
   {
-   "umd": "모라동",
-   "apt": "우성",
-   "built": 1989,
+   "umd": "주례동",
+   "apt": "현대무지개타운",
+   "built": 1993,
    "jeonse_n": 4,
-   "jeonse_median84": 19000,
-   "sale_n": 2,
-   "sale_median84": 20250,
-   "ratio": 93.8
+   "jeonse_median84": 15500,
+   "sale_n": 7,
+   "sale_median84": 16000,
+   "ratio": 96.9
   },
   {
    "umd": "주례동",
@@ -89,9 +89,9 @@
    "built": 1996,
    "jeonse_n": 3,
    "jeonse_median84": 19000,
-   "sale_n": 14,
-   "sale_median84": 20450,
-   "ratio": 92.9
+   "sale_n": 16,
+   "sale_median84": 20200,
+   "ratio": 94.1
   },
   {
    "umd": "모라동",
@@ -104,14 +104,24 @@
    "ratio": 92.7
   },
   {
-   "umd": "주례동",
-   "apt": "현대무지개타운",
-   "built": 1993,
+   "umd": "모라동",
+   "apt": "우성",
+   "built": 1989,
    "jeonse_n": 4,
-   "jeonse_median84": 15500,
-   "sale_n": 6,
-   "sale_median84": 16900,
-   "ratio": 91.7
+   "jeonse_median84": 19000,
+   "sale_n": 3,
+   "sale_median84": 20500,
+   "ratio": 92.7
+  },
+  {
+   "umd": "주례동",
+   "apt": "한일유엔아이",
+   "built": 2005,
+   "jeonse_n": 8,
+   "jeonse_median84": 23500,
+   "sale_n": 12,
+   "sale_median84": 26750,
+   "ratio": 87.9
   },
   {
    "umd": "학장동",
@@ -124,26 +134,6 @@
    "ratio": 87.7
   },
   {
-   "umd": "주례동",
-   "apt": "한일유엔아이",
-   "built": 2005,
-   "jeonse_n": 6,
-   "jeonse_median84": 23000,
-   "sale_n": 11,
-   "sale_median84": 26600,
-   "ratio": 86.5
-  },
-  {
-   "umd": "학장동",
-   "apt": "반도보라타운",
-   "built": 1994,
-   "jeonse_n": 5,
-   "jeonse_median84": 16000,
-   "sale_n": 11,
-   "sale_median84": 18800,
-   "ratio": 85.1
-  },
-  {
    "umd": "엄궁동",
    "apt": "엄궁럭키",
    "built": 1993,
@@ -152,6 +142,16 @@
    "sale_n": 3,
    "sale_median84": 15000,
    "ratio": 85.0
+  },
+  {
+   "umd": "학장동",
+   "apt": "반도보라타운",
+   "built": 1994,
+   "jeonse_n": 5,
+   "jeonse_median84": 16000,
+   "sale_n": 12,
+   "sale_median84": 18900,
+   "ratio": 84.7
   },
   {
    "umd": "주례동",
@@ -179,11 +179,11 @@
    "umd": "엄궁동",
    "apt": "롯데캐슬",
    "built": 2010,
-   "jeonse_n": 32,
+   "jeonse_n": 35,
    "jeonse_median84": 18388,
-   "sale_n": 16,
-   "sale_median84": 36150,
-   "ratio": 50.9
+   "sale_n": 20,
+   "sale_median84": 35550,
+   "ratio": 51.7
   },
   {
    "umd": "주례동",
@@ -206,14 +206,14 @@
    "ratio": 62.5
   },
   {
-   "umd": "주례동",
-   "apt": "주례롯데캐슬골드스마트",
-   "built": 2022,
-   "jeonse_n": 10,
-   "jeonse_median84": 38900,
-   "sale_n": 50,
-   "sale_median84": 58300,
-   "ratio": 66.7
+   "umd": "덕포동",
+   "apt": "덕포동벽산블루밍",
+   "built": 2006,
+   "jeonse_n": 4,
+   "jeonse_median84": 22000,
+   "sale_n": 11,
+   "sale_median84": 32400,
+   "ratio": 67.9
   }
  ],
  "monthly": [
@@ -261,7 +261,7 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 157,
+   "jeonse_count": 158,
    "n84": 12,
    "jeonse_median84": 19000
   },
@@ -273,21 +273,21 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 64,
+   "jeonse_count": 66,
    "n84": 5,
    "jeonse_median84": 22500
   },
   {
    "month": "2026-09",
-   "jeonse_count": 46,
-   "n84": 5,
-   "jeonse_median84": 14000
+   "jeonse_count": 49,
+   "n84": 6,
+   "jeonse_median84": 15500
   },
   {
    "month": "2026-10",
-   "jeonse_count": 23,
-   "n84": 5,
-   "jeonse_median84": 25000
+   "jeonse_count": 53,
+   "n84": 13,
+   "jeonse_median84": 24000
   }
  ],
  "rank": 84,
@@ -296,12 +296,12 @@
  "ratio_vs_avg_pp": -0.5,
  "umd_ratio_high": {
   "name": "덕포동",
-  "ratio": 125.0
+  "ratio": 126.1
  },
  "umd_ratio_low": {
   "name": "주례동",
   "ratio": 62.5
  },
- "umd_spread_pp": 62.5,
+ "umd_spread_pp": 63.6,
  "gap84": 7500
 }
