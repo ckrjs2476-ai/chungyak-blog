@@ -1,11 +1,11 @@
 {
  "corp_code": "00784184",
  "corp_name": "동원파츠",
- "rcept_no": "20261023000331",
- "rcept_dt": "20261023",
- "report_nm": "[기재정정]증권신고서(지분증권)",
+ "rcept_no": "20261030000113",
+ "rcept_dt": "20261030",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
  "corp_cls": "E",
- "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023000331",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113",
  "subscription": "2026년 11월 02일 ~ 2026년 11월 03일",
  "payment_date": "2026년 11월 05일",
  "notice_date": "2026년 11월 02일",
@@ -71,7 +71,7 @@
   "일반청약자환매청구권"
  ],
  "is_spac": false,
- "price_confirmed": false,
+ "price_confirmed": true,
  "correction_requested": false,
  "lead_underwriter": "삼성증권",
  "underwriting_fee_pct": 3.06,
@@ -80,16 +80,16 @@
  "fund_uses_unreliable": false,
  "company_age_years": 29,
  "total_rank": 6,
- "total_rank_of": 29,
- "total_vs_median_pct": 59.9,
+ "total_rank_of": 27,
+ "total_vs_median_pct": 58.3,
  "top_fund_use": {
   "use": "시설자금",
   "amount": 31320000000,
   "share_pct": 65.7,
   "amount_eok": 313.2
  },
- "compare_median_total": 29192000000,
- "compare_count": 29,
- "median_fee_pct": 4.12,
- "compare_median_total_eok": 291.9
+ "compare_median_total": 29500000000,
+ "compare_count": 27,
+ "median_fee_pct": 4.36,
+ "compare_median_total_eok": 295.0
 }
