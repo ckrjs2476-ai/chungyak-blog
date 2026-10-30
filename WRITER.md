@@ -1,5 +1,7 @@
 # 예약 작업용 글쓰기 지침 (Claude가 실행할 때마다 이 순서대로)
 
+> **읽을 규칙 (2026-10-30, 토큰 절약 — 가장 먼저 지킨다)**: rules/ 폴더는 `rules/brief_common.md` 하나만 읽는다. 이 파일이나 예약 작업 지시문이 rules/○○.md(adsense_approval, adsense_rejection_top, writing_rules, seo_guide, ranking_growth, keyword_rules, keyword_ladder, precheck, unique_value, reviewer, blog_portfolio, capture_guide)를 가리켜도 열지 않고 brief_common.md의 같은 내용을 따른다. 예외: 검수 메시지가 가리키는 내용을 요약으로 이해할 수 없을 때 그 절만, 캡처 레시피는 capture_guide.md 3장 표의 이 블로그 줄만.
+
 목표: 애드센스 승인과 검색 상위노출. 그래서 **모든 글에 청약홈에 없는 정보(분석 숫자)**가 들어가야 한다.
 공고를 옮겨 적기만 한 글은 구글이 '가치 낮은 대량 생성 글'로 볼 수 있다(구글 스팸 정책, 애드센스 거절 사유 1순위).
 
