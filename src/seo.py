@@ -20,11 +20,11 @@ KST = timezone(timedelta(hours=9))
 BLOGS = {"cheongyak": ("청약노트", ROOT), "jeonse": ("전세 온도계", ROOT / "blogs/jeonse"),
          "gongmoju": ("공모주 뜯어보기", ROOT / "blogs/gongmoju"), "gwanribi": ("관리비 돋보기", ROOT / "blogs/gwanribi")}
 
-SOURCES = r"(청약홈|입주자모집공고|국토교통부|국토부|실거래가|DART|전자공시|증권신고서|투자설명서|K-apt|공동주택관리정보시스템|공공데이터|한국부동산원)"
+SOURCES = r"(항공안전법|국가법령정보센터|법령 원문|시행규칙|시행령|드론원스톱|한국교통안전공단|고용24|보도자료|청약홈|입주자모집공고|국토교통부|국토부|실거래가|DART|전자공시|증권신고서|투자설명서|K-apt|공동주택관리정보시스템|공공데이터|한국부동산원)"
 CITE_RE = re.compile(SOURCES + r"[^.\n]{0,40}?(따르면|기준|자료|공고|집계|공시|에서|에 공개|에 등록|에 올라|을 낸|를 낸|원문|원자료|가져)")
 VAGUE_ANCHOR = re.compile(r"\[(여기|이곳|더 ?보기|클릭|링크|바로가기)\]\(")
 DATE_RE = re.compile(r"(20\d\d년\s*\d{1,2}월(\s*\d{1,2}일)?|20\d\d[-.]\d{1,2}([-.]\d{1,2})?|\d{1,2}월\s*\d{1,2}일)")
-NUM_RE = re.compile(r"\d[\d,]*(\.\d+)?\s*(억|만|천|원|세대|㎡|%|대\s*1|점|건|곳|개|배|위)")
+NUM_RE = re.compile(r"\d[\d,]*(\.\d+)?\s*(억|만|천|원|세대|㎡|%|대\s*1|점|건|곳|개|배|위|kg|g|m|km|명|시간|분|년|개월|일)")
 PRONOUN_START = re.compile(r"^(이는|이것은|이건|그래서|그러나|하지만|또한|게다가|이 때문에|이처럼|그런데)\b")
 
 
@@ -76,8 +76,9 @@ BASIS_RE = re.compile(r"(\d{1,2}월 \d{1,2}일[^.\n]{0,15}(기준|집계)|공고
                       r"|\d{4}년 \d{1,2}월[^.\n]{0,40}기준|\d{1,2}월 \d{1,2}일 공고 전)")
 
 
-def seo_errors(meta: dict, body: str) -> list[str]:
-    errs: list[str] = []
+def seo_errors(meta: dict, body: str, blog: str = "", new: bool = False) -> list[str]:
+    """new=True: 발행 전 새 글에만 더하는 규칙(rules/seo_guide.md 13장). 공개 글 일괄 점검에는 넣지 않는다."""
+    errs: list[str] = new_post_errors(meta, body, blog) if new else []
     if RANK_RE.search(body) and not BASIS_RE.search(body):
         errs.append("[가치] 'N곳 중 M위' 같은 순위를 쓰면서 기준(○월 ○일 집계, 공고일 이전 6개월 등)을 밝히지 않았습니다. "
                     "데이터가 매일 바뀌어 기준 없는 순위는 글끼리 모순으로 읽힙니다.")
@@ -87,7 +88,7 @@ def seo_errors(meta: dict, body: str) -> list[str]:
     if re.search(r"(?<!\d)[23]\s*곳\s*(중|가운데)", str(meta.get("title", ""))):
         errs.append("[가치] 제목의 핵심이 2~3곳 비교입니다. 비교 대상이 적은 값은 제목·첫 문장 핵심으로 쓰지 마세요.")
     lead2 = _plain(" ".join(_paragraphs(body)[:2]))
-    if not COMPARE_RE.search(lead2):
+    if blog != "drone" and not COMPARE_RE.search(lead2):
         errs.append("[가치] 첫 두 문단에 원자료에 없는 비교(N곳 중 M위, 평균·중앙값 대비 X% 등)가 없습니다. "
                     "공고·공시를 옮기는 문장으로 시작하지 말고 이 대상만의 비교로 시작하세요.")
     adv = ADVICE_RE.findall(_plain(body))
@@ -113,6 +114,107 @@ def seo_errors(meta: dict, body: str) -> list[str]:
         errs.append("[검색] 기준일(언제 자료인지)이 본문에 없습니다.")
     if VAGUE_ANCHOR.search(body):
         errs.append("[검색] '여기·더 보기' 같은 링크 문구가 있습니다. 무엇으로 가는 링크인지 쓰세요.")
+    return errs
+
+
+# ---- 새 글에만 적용(2026-10-30 사용자 요청: SEO·GEO·AEO·AI 인용·신뢰·내부 링크·중복 방지·검색자 질문) ----
+HOSTS = {"cheongyak": ("daily-cheongyak", ROOT), "jeonse": ("jeonse-ondogye", ROOT / "blogs/jeonse"),
+         "gongmoju": ("gongmoju-breakdown", ROOT / "blogs/gongmoju"), "gwanribi": ("gwanribi-dotbogi", ROOT / "blogs/gwanribi"),
+         "drone": ("drone-note", ROOT / "blogs/drone")}
+OFFICIAL_LINK = re.compile(r"\]\(https?://[^)\s]*(\.go\.kr|\.or\.kr|applyhome\.co\.kr|kosis\.kr|korea\.kr|krx\.co\.kr|kind\.krx)", re.I)
+GENERIC_HEAD = re.compile(r"^(개요|정리|마무리|결론|요약|들어가며|마치며|총정리|목차|참고|기타|소개|서론|본론)$|(총정리|마무리|결론)$")
+QUESTION_HEAD = re.compile(r"(\?$|나요\??$|까요?\??$|일까|인가요?|얼마|어디|언제|왜|무엇|뭔가요|뭐예요|몇\s?[가-힣]*|어떻게|누가|누구)")
+DEF_RE = re.compile(r"[가-힣A-Za-z0-9·()]{2,}\s?(은|는|이란|란|이라는 건|라는 건|이라고 하면)\s[^.?!\n]{3,100}?"
+                    r"(말해요|말합니다|뜻해요|뜻합니다|가리켜요|가리킵니다|부르는 말|불러요|부릅니다|이름이에요|제도예요|제도입니다)")
+DEP_START = re.compile(r"^(이는|이것은|이건|이게|이처럼|이 때문에|이렇게|앞서|위에서|위 표|그래서|그러니|하지만|또한|게다가|그런데)\b")
+
+
+NEW_RULES_FROM = "2026-10-31"  # 이 날짜 이후 파일 이름(YYYY-MM-DD-…)의 원고에만 새 규칙 적용
+
+
+def is_new(fname: str) -> bool:
+    return bool(re.match(r"20\d\d-\d\d-\d\d", fname or "")) and fname[:10] >= NEW_RULES_FROM
+
+
+def _norm_kw(k: str) -> str:
+    return re.sub(r"\s+", "", str(k or "")).lower()
+
+
+def _published(blog: str) -> list[dict]:
+    import json
+    if blog not in HOSTS:
+        return []
+    p = HOSTS[blog][1] / "data/published.json"
+    if not p.exists():
+        return []
+    d = json.loads(p.read_text("utf-8"))
+    return d.get("posts", []) if isinstance(d, dict) else d
+
+
+def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
+    errs: list[str] = []
+    heads = _sections(body)
+    paras = _paragraphs(body)
+    # 1. SEO 소제목: 내용이 드러나는 문장형
+    bad = [h for h, _ in heads if GENERIC_HEAD.search(h.strip()) or len(h.strip()) < 6]
+    if bad:
+        errs.append(f"[SEO] 내용이 안 드러나는 소제목: {bad[:3]}. 검색어가 들어간 문장형으로 쓰세요.")
+    # 2. AEO: 실제 질문형 소제목 + 바로 아래 첫 문장이 답
+    need_q = 2 if blog == "drone" else 1
+    qs = [(h, sec) for h, sec in heads if QUESTION_HEAD.search(h.strip())]
+    if len(qs) < need_q:
+        errs.append(f"[AEO] 질문형 소제목이 {len(qs)}개입니다({need_q}개 이상). 검색자가 실제로 묻는 말로 쓰세요.")
+    for h, sec in qs:
+        p = _paragraphs(sec)
+        first = _sentences(_plain(p[0]))[:1] if p else []
+        if not first or first[0].endswith("?") or DEP_START.match(first[0]) or len(first[0]) > 110:
+            errs.append(f"[AEO] 질문 소제목 '{h[:25]}' 바로 아래 첫 문장이 답이 아닙니다(질문·접속사로 시작·110자 넘음). 답부터 한 문장으로.")
+            break
+    # 3. GEO: 핵심 용어 정의 문장 1개 이상
+    if not DEF_RE.search(_plain(" ".join(paras))):
+        errs.append("[GEO] 용어 정의 문장이 없습니다. 이 글의 핵심 용어 하나를 'OO는 ~을 말해요/뜻해요'로 한 문장에 정의하세요(글마다 다른 용어·다른 표현).")
+    # 4. AI 인용: 문단만 떼어 읽어도 통하게
+    dep = [p for p in paras if DEP_START.match(_plain(p))]
+    if len(dep) >= 3:
+        errs.append(f"[GEO] '이는·이처럼·그래서·하지만'처럼 앞 문단에 기대어 시작하는 문단 {len(dep)}개(2개까지). 주어를 다시 써서 문단만 읽어도 통하게.")
+    # 5. 신뢰: 공식 자료 링크
+    if not OFFICIAL_LINK.search(body):
+        errs.append("[신뢰] 본문에 공식 자료(정부·공공기관·청약홈·DART 등) 링크가 없습니다.")
+    # 6. 내부 링크: 실제 공개된 같은 블로그 글로만, 3편 이상 공개됐으면 1개 이상
+    if blog in HOSTS:
+        host = HOSTS[blog][0]
+        pubs = _published(blog)
+        live = {str(r.get("url", "")).split("?")[0].split("#")[0] for r in pubs if r.get("status") == "LIVE" and r.get("url")}
+        own = [u.split("?")[0].split("#")[0] for u in re.findall(rf"\]\((https?://{host}\.blogspot\.com/[^)\s]*)\)", body)]
+        posts_links = [u for u in own if "/p/" not in u and "/search" not in u]
+        dead = [u for u in posts_links if u not in live]
+        if dead:
+            errs.append(f"[내부 링크] 공개 목록(published.json)에 없는 주소: {dead[:2]}")
+        if len(live) >= 3 and not posts_links:
+            errs.append("[내부 링크] 같은 블로그 공개 글로 가는 문맥 링크가 없습니다(1~2개, published.json의 LIVE 주소, 링크 문구는 그 글의 내용으로).")
+        # 7. 중복: 같은 키워드(드론은 포함 관계·같은 topic_id까지) 글이 이미 있으면 막음
+        me, kw, tid = meta.get("_file", ""), _norm_kw(meta.get("keyword")), str(meta.get("topic_id") or "")
+        others = [r for r in pubs if r.get("file") != me and r.get("status") != "RETIRED"]
+        for f in sorted((HOSTS[blog][1] / "posts/pending").glob("*.md")):
+            if f.name != me:
+                m2, _ = _split(f.read_text("utf-8"))
+                others.append({"keyword": m2.get("keyword"), "topic_id": m2.get("topic_id"), "title": m2.get("title"), "file": f.name})
+        for r in others:
+            ok = _norm_kw(r.get("keyword"))
+            same = kw and ok and (ok == kw or (blog == "drone" and (ok in kw or kw in ok)))
+            if same or (blog == "drone" and tid and str(r.get("topic_id") or "") == tid):
+                errs.append(f"[중복] 같은 검색 의도의 글이 이미 있습니다: '{r.get('title') or r.get('file')}'. 다른 질문을 고르거나 그 글을 보강하세요.")
+                break
+    # 8. 검색자 질문: 실제 검색어에서 뽑은 질문을 머리말에 적고 소제목에 반영
+    qlist = [str(q) for q in (meta.get("questions") or [])]
+    if len(qlist) < 3:
+        errs.append("[검색자] 머리말 questions에 실제 검색자 질문 3개 이상(연관검색어·자동완성·keywords 목록·구글 '관련 질문'에서)을 적으세요.")
+    else:
+        stop = {"드론", "아파트", "청약", "전세", "관리비", "공모주", "어떻게", "얼마", "언제", "무엇"}
+        words = {w for q in qlist for w in re.findall(r"[가-힣A-Za-z0-9]{2,}", q) if w not in stop}
+        hit = sum(1 for h, _ in heads if any(w in h for w in words))
+        if hit < 2:
+            errs.append(f"[검색자] questions의 말이 소제목 {hit}개에만 들어갔습니다(2개 이상). 검색자 질문에 답하는 소제목으로.")
     return errs
 
 

@@ -38,8 +38,11 @@ def _split(text: str) -> tuple[dict, str]:
     return (yaml.safe_load(m.group(1)) or {}, m.group(2)) if m else ({}, text)
 
 
+BASES = {k: v[1] for k, v in BLOGS.items()} | {"drone": ROOT / "blogs/drone"}
+
+
 def posts(blog: str) -> list[dict]:
-    base = BLOGS[blog][1]
+    base = BASES[blog]
     out = []
     for f in sorted((base / "posts/published").glob("*.md")):
         meta, body = _split(f.read_text("utf-8"))

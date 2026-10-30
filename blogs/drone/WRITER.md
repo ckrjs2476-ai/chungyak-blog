@@ -4,7 +4,7 @@
 목표: 애드센스 승인, 구글 검색 상위, AI 검색(구글 AI 개요·ChatGPT·Perplexity) 인용. 2026-12-31까지 홍보 없이 정보글만.
 
 ## 0. 먼저 읽기
-rules/adsense_approval.md, rules/adsense_rejection_top.md, rules/writing_rules.md(말투 부분), rules/seo_guide.md(4·5·12장), rules/capture_guide.md(4·6·7장), blogs/drone/data/plan.md, blogs/drone/data/keywords.md, blogs/drone/data/published.json.
+rules/adsense_approval.md, rules/adsense_rejection_top.md, rules/writing_rules.md(말투 부분), rules/seo_guide.md(4·5·12·13장), rules/capture_guide.md(4·6·7장), blogs/drone/data/plan.md, blogs/drone/data/keywords.md, blogs/drone/data/published.json.
 
 ## 1. 글감 고르기
 - plan.md 후보 중 아직 안 쓴 것(published.json의 keyword와 비교) 위에서부터. 직전 글과 같은 type이면 다음 후보로.
@@ -30,6 +30,7 @@ answer: "이 글의 한 줄 답(20~120자). 글 맨 위 상자로 나간다"
 opening: A            # A~D, 직전 글과 다르게
 angle: 기준           # 방법|비교|기준|변화|현장|오해, 같은 type 직전 2편과 같게 연속 금지
 topic_id: "registration"
+questions: ["드론 기체신고 해야 하나요", "드론 신고 무게 기준", "드론 기체신고 어디서"]  # 실제 검색 질문 3개 이상
 ---
 ```
 
@@ -40,6 +41,14 @@ topic_id: "registration"
 - 공식 출처 링크를 본문 문장 안에 1개 이상, 확인일을 "2026년 10월 30일 기준"처럼 적는다(검수가 확인).
 - 1,600자 이상. 같은 블로그 다른 글로 문맥 링크 1~2개(있을 때).
 - 마무리는 결론 되풀이 대신 "실제로 날리기 전 확인할 곳" 같은 다음 행동 하나.
+
+## 4-1. 새 글 8가지 기준 (2026-10-31 원고부터 검수가 막음, 근거 rules/seo_guide.md 13장)
+- 머리말에 `questions: ["실제 검색 질문1", "질문2", "질문3"]`(연관검색어·자동완성·keywords 목록·구글 '관련 질문'에서 찾은 말 그대로) → 그 말이 소제목 2개 이상에.
+- 질문형 소제목 1개 이상(드론 2개), 바로 아래 첫 문장은 답. 빈 소제목(정리·마무리·결론) 금지.
+- 핵심 용어 하나를 "OO는 ~을 말해요/뜻해요" 한 문장으로 정의(글마다 다른 용어·표현).
+- 문단은 떼어 읽어도 통하게: '이는·그래서·하지만'으로 시작하는 문단 2개까지.
+- 공식 자료 링크 1개 이상, 같은 블로그 LIVE 글 문맥 링크 1~2개(published.json url만).
+- 같은 keyword 글이 이미 있으면(공개·대기) 쓰지 않는다. 같은 대상은 다른 질문으로.
 
 ## 5. 경험·캡처 (rules/capture_guide.md 6장)
 - 실제로 연 화면만 1인칭으로: "드론원스톱에서 비행승인 메뉴를 열어 보니 …"(캡처 첨부), "법령 원문에서 이 조항을 찾아보니 …", "국토부 보도자료를 '드론'으로 검색해 보니 …".
