@@ -1,0 +1,6 @@
+보류 사유 (2026-10-30 오전 자동 글쓰기)
+- 원고 자체는 검수 기준을 모두 통과했고(src/sitewide.py BLOGS에 drone을 임시로 넣어 돌린 결과 '통과'), 별도 검토자도 2차에서 '통과' 판정.
+- 그러나 실제 검수 python blogs/drone/check_cli.py 와 발행 src/publish.py(544행)가 src/sitewide.py의 BLOGS에 'drone' 키가 없어 KeyError: 'drone'으로 멈춤.
+  → pending에 두면 drone-publish 워크플로가 같은 오류로 실패하므로 held로 옮김. 규칙상 코드는 고치지 않았음.
+- 해결: src/sitewide.py BLOGS에 "drone": ("드론 정보노트", ROOT / "blogs/drone") 한 줄 추가 후, 이 원고를 posts/pending/으로 옮겨 push하면 발행됨.
+- 캡처(법령 화면 dr-registration-law24)는 capture 워크플로에서 law.go.kr 접속 실패(ERR_NAME_NOT_RESOLVED·시간 초과)로 못 찍어 원고에서 뺐음.
