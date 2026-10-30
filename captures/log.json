@@ -863,5 +863,17 @@
   "bytes": 20770,
   "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0",
   "at": "2026-10-30 15:05"
+ },
+ {
+  "name": "dr-registration-law24",
+  "ok": false,
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.law.go.kr/LSW/lsLinkProc.do?lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&mode=10&chrClsCd=010202&gubun=admRul&lsId=34532&datClsCd=010102&joNo=002400001\nCall log:\n  - navigating to \"https://www.law.go.kr/LSW/lsLinkP",
+  "url": "https://www.law.go.kr/LSW/lsLinkProc.do?lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&mode=10&chrClsCd=010202&gubun=admRul&lsId=34532&datClsCd=010102&joNo=002400001"
+ },
+ {
+  "name": "dr-registration-law24-full",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.law.go.kr/LSW/lsLinkProc.do?lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&mode=10&chrClsCd=010202&gubun=admRul&lsId=34532&datClsCd=010102&joNo=002400001\", waiting until \"networkidle\"\n",
+  "url": "https://www.law.go.kr/LSW/lsLinkProc.do?lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&mode=10&chrClsCd=010202&gubun=admRul&lsId=34532&datClsCd=010102&joNo=002400001"
  }
 ]
