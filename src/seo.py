@@ -125,7 +125,8 @@ OFFICIAL_LINK = re.compile(r"\]\(https?://[^)\s]*(\.go\.kr|\.or\.kr|applyhome\.c
 GENERIC_HEAD = re.compile(r"^(개요|정리|마무리|결론|요약|들어가며|마치며|총정리|목차|참고|기타|소개|서론|본론)$|(총정리|마무리|결론)$")
 QUESTION_HEAD = re.compile(r"(\?$|나요\??$|까요?\??$|일까|인가요?|얼마|어디|언제|왜|무엇|뭔가요|뭐예요|몇\s?[가-힣]*|어떻게|누가|누구)")
 DEF_RE = re.compile(r"[가-힣A-Za-z0-9·()]{2,}\s?(은|는|이란|란|이라는 건|라는 건|이라고 하면)\s[^.?!\n]{3,100}?"
-                    r"(말해요|말합니다|뜻해요|뜻합니다|가리켜요|가리킵니다|부르는 말|불러요|부릅니다|이름이에요|제도예요|제도입니다)")
+                    r"(말해요|말합니다|뜻해요|뜻합니다|가리켜요|가리킵니다|부르는 말|불러요|부릅니다"
+                    r"|(값|비율|금액|제도|방식|절차|물량|비용|기간|가격|계약|공급|항목|돈|날|숫자|장치|기체|면허|자격|구역|공역|승인|신고)(이에요|예요|입니다|이고|이며|을 뜻|를 뜻))")
 DEP_START = re.compile(r"^(이는|이것은|이건|이게|이처럼|이 때문에|이렇게|앞서|위에서|위 표|그래서|그러니|하지만|또한|게다가|그런데)\b")
 
 
@@ -172,7 +173,7 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
             break
     # 3. GEO: 핵심 용어 정의 문장 1개 이상
     if not DEF_RE.search(_plain(" ".join(paras))):
-        errs.append("[GEO] 용어 정의 문장이 없습니다. 이 글의 핵심 용어 하나를 'OO는 ~을 말해요/뜻해요'로 한 문장에 정의하세요(글마다 다른 용어·다른 표현).")
+        errs.append("[GEO] 용어 정의 문장이 없습니다. 핵심 용어 하나를 한 문장으로 정의하세요. 예: 'OO는 ~을 말해요', 'OO는 ~로 계산한 값이에요', 'OO는 ~하는 제도예요'(글마다 다른 용어·다른 표현).")
     # 4. AI 인용: 문단만 떼어 읽어도 통하게
     dep = [p for p in paras if DEP_START.match(_plain(p))]
     if len(dep) >= 3:
@@ -192,23 +193,11 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
             errs.append(f"[내부 링크] 공개 목록(published.json)에 없는 주소: {dead[:2]}")
         if len(live) >= 3 and not posts_links:
             errs.append("[내부 링크] 같은 블로그 공개 글로 가는 문맥 링크가 없습니다(1~2개, published.json의 LIVE 주소, 링크 문구는 그 글의 내용으로).")
-        # 7. 중복: 같은 키워드(드론은 포함 관계·같은 topic_id까지) 글이 이미 있으면 막음
-        me, kw, tid = meta.get("_file", ""), _norm_kw(meta.get("keyword")), str(meta.get("topic_id") or "")
-        others = [r for r in pubs if r.get("file") != me and r.get("status") != "RETIRED"]
-        for f in sorted((HOSTS[blog][1] / "posts/pending").glob("*.md")):
-            if f.name != me:
-                m2, _ = _split(f.read_text("utf-8"))
-                others.append({"keyword": m2.get("keyword"), "topic_id": m2.get("topic_id"), "title": m2.get("title"), "file": f.name})
-        for r in others:
-            ok = _norm_kw(r.get("keyword"))
-            same = kw and ok and (ok == kw or (blog == "drone" and (ok in kw or kw in ok)))
-            if same or (blog == "drone" and tid and str(r.get("topic_id") or "") == tid):
-                errs.append(f"[중복] 같은 검색 의도의 글이 이미 있습니다: '{r.get('title') or r.get('file')}'. 다른 질문을 고르거나 그 글을 보강하세요.")
-                break
+    # 7. 중복(대표 키워드·주제·구성·내용)은 sitewide.overlap_errors()가 블로그 전체 글과 비교해 막는다.
     # 8. 검색자 질문: 실제 검색어에서 뽑은 질문을 머리말에 적고 소제목에 반영
     qlist = [str(q) for q in (meta.get("questions") or [])]
-    if len(qlist) < 3:
-        errs.append("[검색자] 머리말 questions에 실제 검색자 질문 3개 이상(연관검색어·자동완성·keywords 목록·구글 '관련 질문'에서)을 적으세요.")
+    if len(qlist) < 2:
+        errs.append("[검색자] 머리말 questions에 실제 검색자 질문 2개 이상(keywords 목록·검색 화면 자동완성·연관검색어에서 실제로 본 말 그대로, 지어내지 않음)을 적으세요.")
     else:
         stop = {"드론", "아파트", "청약", "전세", "관리비", "공모주", "어떻게", "얼마", "언제", "무엇"}
         words = {w for q in qlist for w in re.findall(r"[가-힣A-Za-z0-9]{2,}", q) if w not in stop}

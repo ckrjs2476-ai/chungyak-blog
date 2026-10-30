@@ -124,6 +124,71 @@ def skeleton_errors(blog: str, meta: dict, body: str, file_name: str = "") -> li
     return errs
 
 
+# ---- 블로그 전체 겹침(2026-10-30 사용자 요청): 새 글을 같은 블로그 '모든' 글과 비교 ----
+# 기존 글 119편 측정(10/30): 배치 유사도 최대 0.79, 본문 4어절 겹침 최대 0.05, 같은 소제목 최대 1개, 마무리 겹침 최대 0.19.
+CONTENT_LIMIT = 0.15   # 본문 4어절 묶음 겹침(숫자·대상 이름을 지운 뒤). 기존 최대의 3배
+STRUCT_ONE = 0.85      # 한 편과 이만큼 같으면 막음(2편 이상이면 STRUCT_LIMIT)
+SAME_HEADS = 2         # 대상 이름·숫자를 지운 소제목이 한 글과 2개 이상 같으면 막음
+UNIT_FIELDS = ("house_manage_no", "corp_code", "kapt", "topic_id", "lawd")
+
+
+def unit_of(meta: dict) -> str:
+    for f in UNIT_FIELDS:
+        if meta.get(f):
+            return f"{f}:{meta.get(f)}"
+    return ""
+
+
+def shingles(body: str, meta: dict) -> set[str]:
+    paras = [b.strip() for b in re.split(r"\n\s*\n", body) if b.strip() and not b.strip().startswith(("#", "|", ">", "<", "!"))]
+    w = _norm(" ".join(paras), meta).split()
+    return {" ".join(w[i:i + 4]) for i in range(len(w) - 3)}
+
+
+def heads(body: str, meta: dict) -> set[str]:
+    return {_norm(h, meta) for h in re.findall(r"^##\s+(.+)$", body, flags=re.M)}
+
+
+def _all_others(blog: str, file_name: str) -> list[dict]:
+    out = [p for p in posts(blog) if p["file"] != file_name]
+    pend = BASES[blog] / "posts/pending"
+    for f in sorted(pend.glob("*.md")) if pend.exists() else []:
+        if f.name != file_name:
+            m, b = _split(f.read_text("utf-8"))
+            out.append({"file": f.name, "meta": m, "body": b, "date": f.name[:10]})
+    return out
+
+
+def overlap_errors(blog: str, meta: dict, body: str, file_name: str = "") -> list[str]:
+    """새 글 검수용: 같은 블로그 공개·대기 글 전체와 대표 키워드·주제·구성·소제목·내용·마무리가 겹치면 막는다."""
+    errs: list[str] = []
+    kw = re.sub(r"\s+", "", str(meta.get("keyword") or "")).lower()
+    unit, typ = unit_of(meta), meta.get("type")
+    bs, sh, hd, cl = blocks(body), shingles(body, meta), heads(body, meta), closing(body, meta)
+    struct_hits = []
+    for p in _all_others(blog, file_name):
+        m, b, f = p["meta"], p["body"], p["file"]
+        if kw and kw == re.sub(r"\s+", "", str(m.get("keyword") or "")).lower():
+            errs.append(f"[겹침-키워드] 대표 키워드 '{meta.get('keyword')}'를 {f}가 이미 씁니다. 다른 대표 키워드로.")
+        if unit and unit == unit_of(m) and typ == m.get("type"):
+            errs.append(f"[겹침-주제] 같은 대상·같은 종류({typ}) 글 {f}가 이미 있습니다. 다른 질문(종류)으로 쓰거나 그 글을 보강하세요.")
+        s = struct_sim(bs, blocks(b))
+        if s >= STRUCT_LIMIT:
+            struct_hits.append((f, round(s, 2)))
+        c = jacc(sh, shingles(b, m))
+        if c >= CONTENT_LIMIT:
+            errs.append(f"[겹침-내용] 본문 표현이 {f}와 {c:.2f} 겹칩니다({CONTENT_LIMIT} 미만). 이 대상만의 내용·문장으로 다시 쓰세요.")
+        same_h = hd & heads(b, m)
+        if len(same_h) >= SAME_HEADS:
+            errs.append(f"[겹침-소제목] {f}와 소제목 {len(same_h)}개가 같습니다: {sorted(same_h)[:2]}. 이 글의 질문으로 바꾸세요.")
+        cj = jacc(cl, closing(b, m))
+        if cj >= CLOSE_LIMIT:
+            errs.append(f"[겹침-마무리] 마무리 문단이 {f}와 거의 같습니다({cj:.2f}).")
+    if len(struct_hits) >= 2 or any(s >= STRUCT_ONE for _, s in struct_hits):
+        errs.append(f"[겹침-구성] 소제목·표·문단 배치가 {len(struct_hits)}편과 거의 같습니다({', '.join(f for f, _ in struct_hits[:3])}). 순서·구성을 바꾸세요.")
+    return list(dict.fromkeys(errs))
+
+
 def format_errors(blog: str, meta: dict, file_name: str = "") -> list[str]:
     """형식 쏠림: 관리비는 주제·단지 글을 언제든 쓸 수 있으므로 막는다. 다른 블로그는 보고서로만 알린다."""
     if blog != "gwanribi":
@@ -202,7 +267,8 @@ def run() -> dict:
     lines = [f"# 블로그 전체 점검 ({today})", "",
              "애드센스는 블로그 전체를 본다. 글 한 편씩 보는 검수가 놓치는 사이트 단위 문제를 모았다. "
              "'고칠 것'이 있으면 매일 점검(10:37)이 고친다. 기준: src/sitewide.py 머리말.", ""]
-    for key, (name, _) in BLOGS.items():
+    names = {k: v[0] for k, v in BLOGS.items()} | {"drone": "드론 정보노트"}
+    for key, name in names.items():
         ps = posts(key)
         r: dict = {"posts": len(ps)}
         # 1. 뼈대
@@ -214,13 +280,33 @@ def run() -> dict:
                 if s >= STRUCT_LIMIT or c >= CLOSE_LIMIT:
                     pairs.append((ps[i]["file"], ps[j]["file"], round(s, 2), round(c, 2)))
         r["skeleton_pairs"] = pairs
+        # 1-1. 전체 겹침: 대표 키워드·주제·내용·소제목
+        ov = []
+        for i in range(len(ps)):
+            a = ps[i]
+            for j in range(i + 1, len(ps)):
+                b2 = ps[j]
+                why = []
+                ka = re.sub(r"\s+", "", str(a["meta"].get("keyword") or "")).lower()
+                if ka and ka == re.sub(r"\s+", "", str(b2["meta"].get("keyword") or "")).lower():
+                    why.append("대표 키워드 같음")
+                if unit_of(a["meta"]) and unit_of(a["meta"]) == unit_of(b2["meta"]) and a["meta"].get("type") == b2["meta"].get("type"):
+                    why.append("같은 대상·종류")
+                if (c := jacc(shingles(a["body"], a["meta"]), shingles(b2["body"], b2["meta"]))) >= CONTENT_LIMIT:
+                    why.append(f"내용 겹침 {c:.2f}")
+                if len(h := heads(a["body"], a["meta"]) & heads(b2["body"], b2["meta"])) >= SAME_HEADS:
+                    why.append(f"같은 소제목 {len(h)}개")
+                if why:
+                    ov.append((a["file"], b2["file"], ", ".join(why)))
+        r["overlap_pairs"] = ov
+        pairs = pairs + [(x, y, 0, 0) for x, y, _ in ov]
         # 2. 형식 쏠림
         recent = ps[-RECENT:]
         types = Counter(p["meta"].get("type") for p in recent)
         labels = Counter(l for p in ps for l in (p["meta"].get("labels") or []))
         top_type, top_n = (types.most_common(1)[0] if types else ("-", 0))
         r["type_share"] = {k: v for k, v in types.items()}
-        r["format_concentrated"] = bool(recent) and top_n / len(recent) >= FORMAT_SHARE
+        r["format_concentrated"] = len(recent) >= 4 and top_n / len(recent) >= FORMAT_SHARE
         # 3~5
         r["stale"] = {p["file"]: s for p in ps if (s := stale(key, p, today))}
         r["conflicts"] = conflicts(key, ps)
@@ -232,8 +318,10 @@ def run() -> dict:
         lines.append(f"- 최근 {len(recent)}편 형식: " + ", ".join(f"{k} {v}편" for k, v in types.most_common())
                      + (" → **한 형식에 쏠림(도어웨이 위험), 다른 형식 글 필요**" if r["format_concentrated"] else ""))
         lines.append("- 라벨: " + ", ".join(f"{k} {v}" for k, v in labels.most_common()))
-        for a, b, s, c in pairs[:12]:
+        for a, b, s, c in r["skeleton_pairs"][:12]:
             lines.append(f"- 틀 반복: {a} ↔ {b} (배치 {s}, 마무리 {c})")
+        for a, b, why in ov[:12]:
+            lines.append(f"- 글끼리 겹침: {a} ↔ {b} ({why})")
         for f, s in r["stale"].items():
             lines += [f"- 낡은 글 {f}: {x}" for x in s]
         lines += [f"- 숫자 충돌: {x}" for x in r["conflicts"]]

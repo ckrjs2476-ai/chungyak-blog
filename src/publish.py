@@ -541,7 +541,9 @@ def main() -> int:
         from seo import is_new, seo_errors  # 검색 노출(SEO·AEO·GEO) 필수 항목도 통과해야 발행
         meta["_file"] = f.name
         errs += seo_errors(meta, body, BLOG, new=is_new(f.name))
-        from sitewide import format_errors, skeleton_errors  # 블로그 전체 기준: 틀 반복·형식 쏠림
+        from sitewide import format_errors, overlap_errors, skeleton_errors  # 블로그 전체 기준: 틀 반복·형식 쏠림·전체 겹침
+        if is_new(f.name):
+            errs += overlap_errors(BLOG, meta, body, f.name)
         errs += skeleton_errors(BLOG, meta, body, f.name) + format_errors(BLOG, meta, f.name)
         if errs:
             failed += 1

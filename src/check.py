@@ -576,8 +576,10 @@ if __name__ == "__main__":
     for arg in sys.argv[1:]:
         from seo import _split, is_new, seo_errors, seo_warnings
         m_, b_ = _split(Path(arg).read_text("utf-8"))
-        from sitewide import skeleton_errors
+        from sitewide import overlap_errors, skeleton_errors
         errs = check_file(Path(arg)) + seo_errors(m_, b_, "cheongyak", new=Path(arg).parent.name != "published" and is_new(Path(arg).name)) + skeleton_errors("cheongyak", m_, b_, Path(arg).name)
+        if Path(arg).parent.name != "published" and is_new(Path(arg).name):
+            errs += overlap_errors("cheongyak", m_, b_, Path(arg).name)
         print(f"[{'통과' if not errs else '실패'}] {arg}")
         for e in errs:
             print("  -", e)

@@ -4,6 +4,7 @@
   "cheongyak": {
    "posts": 40,
    "skeleton_pairs": [],
+   "overlap_pairs": [],
    "type_share": {
     "stats": 1,
     "region": 3,
@@ -20,6 +21,7 @@
   "jeonse": {
    "posts": 25,
    "skeleton_pairs": [],
+   "overlap_pairs": [],
    "type_share": {
     "topic": 3,
     "ranking": 1,
@@ -34,6 +36,7 @@
   "gongmoju": {
    "posts": 28,
    "skeleton_pairs": [],
+   "overlap_pairs": [],
    "type_share": {
     "weekly": 1,
     "ipo": 5,
@@ -48,10 +51,24 @@
   "gwanribi": {
    "posts": 26,
    "skeleton_pairs": [],
+   "overlap_pairs": [],
    "type_share": {
     "topic": 2,
     "complex": 5,
     "region": 1
+   },
+   "format_concentrated": false,
+   "stale": {},
+   "conflicts": [],
+   "anomalies": {},
+   "to_fix": 0
+  },
+  "drone": {
+   "posts": 1,
+   "skeleton_pairs": [],
+   "overlap_pairs": [],
+   "type_share": {
+    "rule": 1
    },
    "format_concentrated": false,
    "stale": {},
