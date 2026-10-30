@@ -1,20 +1,6 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "weekly_competition": [
-  {
-   "no": "2026000402",
-   "name": "익산 부송에코르 10년 공공임대주택",
-   "region": "전북",
-   "rank1_avg_rate": 2.91,
-   "best": {
-    "ty": "59.9288A",
-    "rate": 12.94,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 0,
-   "rank1_closed_types": 3,
-   "type_count": 3
-  },
   {
    "no": "2026000508",
    "name": "아크메르 동탄 95",
@@ -163,51 +149,6 @@
     {
      "ty": "84.9663D",
      "price": 89300,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910270",
-   "name": "충정로역자이르네(2차)",
-   "region": "서울",
-   "households": 9,
-   "rcept_date": "2026-10-27",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910270&pblancNo=2026910270",
-   "types": [
-    {
-     "ty": "84.9972A",
-     "price": 243300,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910271",
-   "name": "힐스테이트 레이크 송도 4차(2차)",
-   "region": "인천",
-   "households": 8,
-   "rcept_date": "2026-10-27",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910271&pblancNo=2026910271",
-   "types": [
-    {
-     "ty": "84.99A",
-     "price": 89100,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.96B",
-     "price": 89200,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.99C",
-     "price": 87700,
-     "pyeong_price": null
-    },
-    {
-     "ty": "109.99A",
-     "price": 108200,
      "pyeong_price": null
     }
    ]
@@ -979,8 +920,8 @@
     "min_pyeong": 2433
    },
    "경기": {
-    "count": 12,
-    "avg_pyeong": 2441,
+    "count": 18,
+    "avg_pyeong": 2370,
     "max_pyeong": 4708,
     "min_pyeong": 1606
    },
@@ -1007,6 +948,18 @@
     "avg_pyeong": 2437,
     "max_pyeong": 2437,
     "min_pyeong": 2437
+   },
+   "경북": {
+    "count": 1,
+    "avg_pyeong": 1586,
+    "max_pyeong": 1586,
+    "min_pyeong": 1586
+   },
+   "강원": {
+    "count": 1,
+    "avg_pyeong": 1762,
+    "max_pyeong": 1762,
+    "min_pyeong": 1762
    }
   }
  },
@@ -1059,6 +1012,38 @@
      "다자녀": 122,
      "노부모 부양": 35,
      "기관추천": 126
+    }
+   },
+   {
+    "no": "2026000527",
+    "name": "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택",
+    "region": "경기",
+    "households": 240,
+    "pyeong_avg": 2809,
+    "price_84_min": null,
+    "special_kinds": {
+     "신혼부부": 36,
+     "생애최초": 17,
+     "신생아": 48,
+     "다자녀": 24,
+     "노부모 부양": 7,
+     "청년": 36
+    }
+   },
+   {
+    "no": "2026000528",
+    "name": "광교 자연앤 센트레빌(A17BL) 공공분양주택",
+    "region": "경기",
+    "households": 360,
+    "pyeong_avg": 2790,
+    "price_84_min": 93860,
+    "special_kinds": {
+     "신혼부부": 36,
+     "생애최초": 54,
+     "신생아": 72,
+     "다자녀": 36,
+     "노부모 부양": 18,
+     "기관추천": 54
     }
    },
    {
@@ -1167,6 +1152,22 @@
     }
    },
    {
+    "no": "2026000472",
+    "name": "구리갈매역세권 B-1블록 신안인스빌 디센트",
+    "region": "경기",
+    "households": 213,
+    "pyeong_avg": 2354,
+    "price_84_min": 78500,
+    "special_kinds": {
+     "신혼부부": 32,
+     "생애최초": 36,
+     "신생아": 22,
+     "다자녀": 22,
+     "노부모 부양": 6,
+     "기관추천": 22
+    }
+   },
+   {
     "no": "2026000513",
     "name": "트리븐센텀 1단지",
     "region": "부산",
@@ -1272,6 +1273,15 @@
     "special_kinds": {}
    },
    {
+    "no": "2026820013",
+    "name": "안산신길2 A-6블록 신혼희망타운(공공분양)(본청약)",
+    "region": "경기",
+    "households": 251,
+    "pyeong_avg": 1889,
+    "price_84_min": null,
+    "special_kinds": {}
+   },
+   {
     "no": "2026000525",
     "name": "엘리프 시흥 더프라임",
     "region": "경기",
@@ -1301,6 +1311,54 @@
      "다자녀": 14,
      "노부모 부양": 4,
      "기관추천": 14
+    }
+   },
+   {
+    "no": "2026000533",
+    "name": "안산신길2지구 B-1블록 공공분양주택(본청약)",
+    "region": "경기",
+    "households": 387,
+    "pyeong_avg": 1776,
+    "price_84_min": 58646,
+    "special_kinds": {
+     "신혼부부": 12,
+     "생애최초": 19,
+     "신생아": 25,
+     "다자녀": 12,
+     "노부모 부양": 4,
+     "기관추천": 18
+    }
+   },
+   {
+    "no": "2026000539",
+    "name": "남춘천 센트레빌",
+    "region": "강원",
+    "households": 264,
+    "pyeong_avg": 1762,
+    "price_84_min": 59902,
+    "special_kinds": {
+     "신혼부부": 39,
+     "생애최초": 19,
+     "신생아": 27,
+     "다자녀": 26,
+     "노부모 부양": 8,
+     "기관추천": 27
+    }
+   },
+   {
+    "no": "2026000515",
+    "name": "평택 고덕 우미 린 더 프리미어",
+    "region": "경기",
+    "households": 623,
+    "pyeong_avg": 1741,
+    "price_84_min": 57890,
+    "special_kinds": {
+     "신혼부부": 60,
+     "생애최초": 68,
+     "신생아": 40,
+     "다자녀": 62,
+     "노부모 부양": 18,
+     "기관추천": 40
     }
    },
    {
@@ -1421,6 +1479,22 @@
      "다자녀": 151,
      "노부모 부양": 46,
      "기관추천": 132
+    }
+   },
+   {
+    "no": "2026000523",
+    "name": "형곡 센트럴 아테라",
+    "region": "경북",
+    "households": 135,
+    "pyeong_avg": 1586,
+    "price_84_min": null,
+    "special_kinds": {
+     "신혼부부": 20,
+     "생애최초": 9,
+     "신생아": 14,
+     "다자녀": 13,
+     "노부모 부양": 4,
+     "기관추천": 14
     }
    },
    {
@@ -1556,15 +1630,15 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 2199,
-   "생애최초": 1360,
-   "신생아": 1712,
-   "다자녀": 1723,
-   "노부모 부양": 506,
-   "기관추천": 1453,
-   "청년": 117
+   "신혼부부": 2434,
+   "생애최초": 1582,
+   "신생아": 1960,
+   "다자녀": 1918,
+   "노부모 부양": 571,
+   "기관추천": 1628,
+   "청년": 153
   },
-  "households_total": 19438
+  "households_total": 21911
  },
  "last_month": {
   "month": "2026-09",

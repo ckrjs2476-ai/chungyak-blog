@@ -1,0 +1,195 @@
+{
+ "no": "2026000515",
+ "name": "평택 고덕 우미 린 더 프리미어",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-30",
+ "rank1_date": "2026-11-10",
+ "city": "평택시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-17",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000515&pblancNo=2026000515",
+ "households": 623,
+ "types": [
+  {
+   "ty": "84.9343A",
+   "size": 84,
+   "price": 59130,
+   "area_m2": 110.2002,
+   "general": 109,
+   "special": 200,
+   "pyeong_price": 1774,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "84.9075B",
+   "size": 84,
+   "price": 59130,
+   "area_m2": 110.5732,
+   "general": 21,
+   "special": 40,
+   "pyeong_price": 1768,
+   "special_share_pct": 66
+  },
+  {
+   "ty": "84.8505D",
+   "size": 84,
+   "price": 57890,
+   "area_m2": 111.0782,
+   "general": 10,
+   "special": 20,
+   "pyeong_price": 1723,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "94.3143A",
+   "size": 94,
+   "price": 62010,
+   "area_m2": 121.5382,
+   "general": 42,
+   "special": 7,
+   "pyeong_price": 1687,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "94.2875B",
+   "size": 94,
+   "price": 62010,
+   "area_m2": 121.9112,
+   "general": 20,
+   "special": 4,
+   "pyeong_price": 1681,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "94.3805D",
+   "size": 94,
+   "price": 56790,
+   "area_m2": 122.5975,
+   "general": 5,
+   "special": 1,
+   "pyeong_price": 1531,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "101.8311A",
+   "size": 101,
+   "price": 68190,
+   "area_m2": 131.0502,
+   "general": 65,
+   "special": 10,
+   "pyeong_price": 1720,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "101.8531B",
+   "size": 101,
+   "price": 68100,
+   "area_m2": 131.6827,
+   "general": 48,
+   "special": 6,
+   "pyeong_price": 1710,
+   "special_share_pct": 11
+  },
+  {
+   "ty": "111.5911A",
+   "size": 111,
+   "price": 66760,
+   "area_m2": 142.8475,
+   "general": 6,
+   "special": 0,
+   "pyeong_price": 1545,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "111.4331B",
+   "size": 111,
+   "price": 68100,
+   "area_m2": 143.2625,
+   "general": 9,
+   "special": 0,
+   "pyeong_price": 1571,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 335,
+ "special_total": 288,
+ "special_share_pct": 46,
+ "pyeong_min": 1531,
+ "pyeong_max": 1774,
+ "pyeong_avg": 1741,
+ "price_84_min": 57890,
+ "price_84_max": 59130,
+ "special_kinds": {
+  "신혼부부": 60,
+  "생애최초": 68,
+  "신생아": 40,
+  "다자녀": 62,
+  "노부모 부양": 18,
+  "기관추천": 40
+ },
+ "region_price": {
+  "scope": "평택시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디",
+   "평택역 더센트럴45",
+   "한화포레나 지제역"
+  ],
+  "peer_avg_pyeong": 1784,
+  "diff": -43,
+  "diff_pct": -2,
+  "rank": 2,
+  "of": 5
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 39,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "힐스테이트 시흥더클래스",
+   "중앙하이츠 원종역",
+   "엘리프 역곡",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)"
+  ],
+  "peer_avg_pyeong": 2543,
+  "diff": -802,
+  "diff_pct": -32,
+  "rank": 31,
+  "of": 40
+ },
+ "area_competition": {
+  "scope": "평택시",
+  "peer_count": 3,
+  "peer_avg_rate": 0.6,
+  "peer_max_rate": 1.4
+ },
+ "market": {
+  "region": "경기도 평택시",
+  "lawd": "41220",
+  "months": 12,
+  "updated": "2026-10-31",
+  "n84": 3061,
+  "median84": 36500,
+  "p25_84": 25850,
+  "p75_84": 51825,
+  "new_n84": 811,
+  "new_median84": 56800,
+  "new_build_years": 5,
+  "diff_vs_median84": 22630,
+  "diff_pct_vs_median84": 62,
+  "diff_vs_new_median84": 2330,
+  "diff_pct_vs_new_median84": 4
+ }
+}

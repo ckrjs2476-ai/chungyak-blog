@@ -1,0 +1,164 @@
+{
+ "no": "2026000539",
+ "name": "남춘천 센트레빌",
+ "kind": "apt",
+ "region": "강원",
+ "notice_date": "2026-10-30",
+ "rank1_date": "2026-11-10",
+ "city": "춘천시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-17",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000539&pblancNo=2026000539",
+ "households": 264,
+ "types": [
+  {
+   "ty": "59.996A",
+   "size": 59,
+   "price": 46513,
+   "area_m2": 84.2416,
+   "general": 8,
+   "special": 24,
+   "pyeong_price": 1825,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.9888A",
+   "size": 84,
+   "price": 62486,
+   "area_m2": 116.4647,
+   "general": 35,
+   "special": 31,
+   "pyeong_price": 1774,
+   "special_share_pct": 47
+  },
+  {
+   "ty": "84.9917B",
+   "size": 84,
+   "price": 62994,
+   "area_m2": 118.5978,
+   "general": 13,
+   "special": 21,
+   "pyeong_price": 1756,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.9852C",
+   "size": 84,
+   "price": 60982,
+   "area_m2": 117.14,
+   "general": 15,
+   "special": 18,
+   "pyeong_price": 1721,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9895D",
+   "size": 84,
+   "price": 59902,
+   "area_m2": 116.2402,
+   "general": 18,
+   "special": 14,
+   "pyeong_price": 1704,
+   "special_share_pct": 44
+  },
+  {
+   "ty": "84.9928E",
+   "size": 84,
+   "price": 63043,
+   "area_m2": 117.5139,
+   "general": 15,
+   "special": 19,
+   "pyeong_price": 1773,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "84.9945F",
+   "size": 84,
+   "price": 62904,
+   "area_m2": 117.2546,
+   "general": 14,
+   "special": 19,
+   "pyeong_price": 1773,
+   "special_share_pct": 58
+  }
+ ],
+ "general_total": 118,
+ "special_total": 146,
+ "special_share_pct": 55,
+ "pyeong_min": 1704,
+ "pyeong_max": 1825,
+ "pyeong_avg": 1762,
+ "price_84_min": 59902,
+ "price_84_max": 63043,
+ "special_kinds": {
+  "신혼부부": 39,
+  "생애최초": 19,
+  "신생아": 27,
+  "다자녀": 26,
+  "노부모 부양": 8,
+  "기관추천": 27
+ },
+ "region_price": {
+  "scope": "춘천시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더 리치먼드 리버센트 소양",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_pyeong": 1651,
+  "diff": 111,
+  "diff_pct": 7,
+  "rank": 1,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "강원",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "강릉 성보필리오 더센트럴힐즈",
+   "더 리치먼드 리버센트 소양",
+   "리쉐스302",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_pyeong": 1672,
+  "diff": 90,
+  "diff_pct": 5,
+  "rank": 2,
+  "of": 5
+ },
+ "area_competition": {
+  "scope": "춘천시",
+  "peer_count": 2,
+  "peer_avg_rate": 1.54,
+  "peer_max_rate": 2.69
+ },
+ "market": {
+  "region": "강원특별자치도 춘천시",
+  "lawd": "51110",
+  "months": 12,
+  "updated": "2026-10-30",
+  "n84": 1297,
+  "median84": 32000,
+  "p25_84": 24300,
+  "p75_84": 41000,
+  "new_n84": 212,
+  "new_median84": 51150,
+  "new_build_years": 5,
+  "umd": "효자동",
+  "umd_n84": 43,
+  "umd_median84": 34000,
+  "diff_vs_median84": 31043,
+  "diff_pct_vs_median84": 97,
+  "diff_vs_new_median84": 11893,
+  "diff_pct_vs_new_median84": 23,
+  "diff_vs_umd_median84": 29043,
+  "diff_pct_vs_umd_median84": 85
+ }
+}

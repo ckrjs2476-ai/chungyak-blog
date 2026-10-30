@@ -1,0 +1,106 @@
+{
+ "no": "2026000528",
+ "name": "광교 자연앤 센트레빌(A17BL) 공공분양주택",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-10-30",
+ "rank1_date": "2026-11-10",
+ "city": "수원시",
+ "supply_kind": "국민",
+ "winner_date": "2026-11-17",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": true,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000528&pblancNo=2026000528",
+ "households": 360,
+ "types": [
+  {
+   "ty": "84.7637A",
+   "size": 84,
+   "price": 94930,
+   "area_m2": 111.4847,
+   "general": 10,
+   "special": 30,
+   "pyeong_price": 2815,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.8159B",
+   "size": 84,
+   "price": 94890,
+   "area_m2": 112.5694,
+   "general": 70,
+   "special": 208,
+   "pyeong_price": 2787,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.6192C",
+   "size": 84,
+   "price": 93860,
+   "area_m2": 111.3422,
+   "general": 10,
+   "special": 32,
+   "pyeong_price": 2787,
+   "special_share_pct": 76
+  }
+ ],
+ "general_total": 90,
+ "special_total": 270,
+ "special_share_pct": 75,
+ "pyeong_min": 2787,
+ "pyeong_max": 2815,
+ "pyeong_avg": 2790,
+ "price_84_min": 93860,
+ "price_84_max": 94930,
+ "special_kinds": {
+  "신혼부부": 36,
+  "생애최초": 54,
+  "신생아": 72,
+  "다자녀": 36,
+  "노부모 부양": 18,
+  "기관추천": 54
+ },
+ "region_price": {
+  "scope": "수원시",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택",
+   "수원당수지구 A5블록 신혼희망타운(공공분양) 추가 입주자모집"
+  ],
+  "peer_avg_pyeong": 2270,
+  "diff": 520,
+  "diff_pct": 23,
+  "rank": 2,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 18,
+  "peers": [
+   "화성동탄2지구 C-27블록 공공분양주택",
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)",
+   "고양창릉 S-4블록 공공분양주택(본청약)",
+   "의정부우정 A2블록 공공분양주택(본청약)",
+   "양주회천지구 A-26블록 공공분양주택",
+   "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택",
+   "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택"
+  ],
+  "peer_avg_pyeong": 1975,
+  "diff": 815,
+  "diff_pct": 41,
+  "rank": 3,
+  "of": 19
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 2,
+  "peer_avg_rate": 0.11,
+  "peer_max_rate": 0.13
+ }
+}

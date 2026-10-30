@@ -2,18 +2,22 @@
  "lawd": "30140",
  "name": "대전광역시 중구",
  "months": 12,
- "updated": "2026-10-30",
- "trade_count": 2009,
- "cancel_count": 100,
- "n84": 807,
- "median84": 37800,
+ "updated": "2026-10-31",
+ "trade_count": 2011,
+ "cancel_count": 102,
+ "n84": 808,
+ "median84": 37900,
  "p25_84": 27500,
  "p75_84": 46000,
- "median84_pyeong_excl": 1472,
+ "median84_pyeong_excl": 1475,
  "new_n84": 199,
  "new_median84": 54700,
  "new_build_years": 5,
  "umd84": {
+  "목동": {
+   "n": 137,
+   "median": 43000
+  },
   "산성동": {
    "n": 36,
    "median": 20600
@@ -49,10 +53,6 @@
   "태평동": {
    "n": 164,
    "median": 33000
-  },
-  "목동": {
-   "n": 136,
-   "median": 42750
   },
   "사정동": {
    "n": 31,
@@ -132,9 +132,9 @@
   },
   {
    "month": "2026-10",
-   "count": 136,
-   "n84": 53,
-   "median84": 35500
+   "count": 138,
+   "n84": 54,
+   "median84": 35750
   }
  ],
  "top_apts": [

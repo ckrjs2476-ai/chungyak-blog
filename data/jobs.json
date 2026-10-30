@@ -1,22 +1,12 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "jobs": [
-  {
-   "house_manage_no": "2026000373",
-   "type": "notice",
-   "name": "고덕강일지구 3단지 토지임대부(본청약)",
-   "address": "서울특별시 강동구 강일동 174 일원(고덕강일공공주택지구 3단지)",
-   "priority": 111,
-   "search_volume": 400,
-   "rank1_date": "2026-11-02",
-   "winner_date": "2026-11-26"
-  },
   {
    "house_manage_no": "2026000532",
    "type": "notice",
    "name": "계양신도시 카이브 유보라(AC4BL)",
    "address": "인천광역시 계양구 동양동 420-3번지 일원 (인천계양 테크노밸리 공공주택지구 AC4블록)",
-   "priority": 108,
+   "priority": 107,
    "search_volume": 3790,
    "rank1_date": "2026-11-03",
    "winner_date": "2026-11-11"
@@ -26,7 +16,7 @@
    "type": "notice",
    "name": "GTX운정중앙역 시티프라디움 4단지(후속사업)",
    "address": "경기도 파주시 파주운정3지구 주상복합 4블록(경기도 파주시 동패동 400-7번지 일원)",
-   "priority": 98,
+   "priority": 97,
    "search_volume": 4730,
    "rank1_date": "2026-11-03",
    "winner_date": "2026-11-11"
@@ -36,20 +26,20 @@
    "type": "notice",
    "name": "GTX운정중앙역 시티프라디움 3단지(후속사업)",
    "address": "경기도 파주시 파주운정3지구 주상복합 3블록(경기도 파주시 동패동 1673번지 일원)",
-   "priority": 98,
+   "priority": 97,
    "search_volume": 4730,
    "rank1_date": "2026-11-03",
    "winner_date": "2026-11-10"
   },
   {
-   "house_manage_no": "2026000455",
-   "type": "competition",
-   "name": "신분평 에피트 더웨이시티",
-   "address": "충청북도 청주시 서원구 장성동 135번지 일원(장성지구 A2블럭)",
+   "house_manage_no": "2026000515",
+   "type": "notice",
+   "name": "평택 고덕 우미 린 더 프리미어",
+   "address": "경기도 평택시 고덕 국제화계획지구 내 Abc-33블록",
    "priority": 95,
-   "search_volume": 3560,
-   "rank1_date": "2026-10-28",
-   "winner_date": "2026-11-04"
+   "search_volume": 1850,
+   "rank1_date": "2026-11-10",
+   "winner_date": "2026-11-17"
   },
   {
    "house_manage_no": "2026000492",
@@ -66,8 +56,8 @@
    "type": "notice",
    "name": "화성 향남 롯데캐슬 시그니처",
    "address": "경기도 화성시 만세구 향남읍 상신리 산 13-13 일원",
-   "priority": 85,
-   "search_volume": 2030,
+   "priority": 84,
+   "search_volume": 2210,
    "rank1_date": "2026-11-03",
    "winner_date": "2026-11-10"
   },
@@ -86,7 +76,7 @@
    "type": "notice",
    "name": "중앙하이츠 구성 플랫폼시티",
    "address": "경기도 용인시 기흥구 마북동 298-1번지 일원",
-   "priority": 76,
+   "priority": 75,
    "search_volume": 1960,
    "rank1_date": "2026-11-10",
    "winner_date": "2026-11-18"
@@ -112,14 +102,34 @@
    "winner_date": "2026-10-27"
   },
   {
+   "house_manage_no": "2026000455",
+   "type": "competition",
+   "name": "신분평 에피트 더웨이시티",
+   "address": "충청북도 청주시 서원구 장성동 135번지 일원(장성지구 A2블럭)",
+   "priority": 70,
+   "search_volume": 4040,
+   "rank1_date": "2026-10-28",
+   "winner_date": "2026-11-04"
+  },
+  {
    "house_manage_no": "2026000509",
    "type": "competition",
    "name": "아크메르 동탄 99",
    "address": "경기도 화성특례시 동탄구 반송동 99번지[동탄(1) M1-2-2블록]",
    "priority": 69,
-   "search_volume": 1400,
+   "search_volume": 1430,
    "rank1_date": "2026-10-27",
    "winner_date": "2026-11-04"
+  },
+  {
+   "house_manage_no": "2026000472",
+   "type": "notice",
+   "name": "구리갈매역세권 B-1블록 신안인스빌 디센트",
+   "address": "경기도 구리시 구리갈매역세권 B-1블록",
+   "priority": 69,
+   "search_volume": 10,
+   "rank1_date": "2026-11-10",
+   "winner_date": "2026-11-17"
   },
   {
    "house_manage_no": "2026000495",
@@ -132,74 +142,114 @@
    "winner_date": "2026-11-04"
   },
   {
-   "house_manage_no": "2026000463",
-   "type": "score",
-   "name": "향남역 그로브 스위첸",
-   "address": "경기도 화성특례시 만세구 향남읍 하길리 404-2번지 일원",
-   "priority": 65,
-   "search_volume": 6330,
-   "rank1_date": "2026-10-13",
-   "winner_date": "2026-10-20"
-  },
-  {
    "house_manage_no": "2026000531",
    "type": "notice",
    "name": "시흥거모지구 S-1블록 공공분양(본청약)",
    "address": "경기도 시흥시 거모동, 군자동 일원 시흥거모 공공주택지구 내 S-1블록",
-   "priority": 64,
+   "priority": 63,
    "search_volume": 10,
    "rank1_date": "2026-11-02",
    "winner_date": "2026-11-26"
-  },
-  {
-   "house_manage_no": "2026820012",
-   "type": "notice",
-   "name": "시흥하중지구 A1블록 신혼희망타운(공공분양) 추가입주자모집공고",
-   "address": "경기도 시흥시 하중동 일원 시흥하중 공공주택지구 내 A1블록",
-   "priority": 57,
-   "search_volume": 10,
-   "rank1_date": "2026-11-02",
-   "winner_date": "2026-11-12"
   },
   {
    "house_manage_no": "2026000514",
    "type": "competition",
    "name": "트리븐센텀 2단지",
    "address": "부산광역시 해운대구 반여동 610-5번지 일원",
-   "priority": 50,
-   "search_volume": 280,
+   "priority": 62,
+   "search_volume": 300,
    "rank1_date": "2026-10-27",
    "winner_date": "2026-11-05"
   },
   {
-   "house_manage_no": "2026000402",
-   "type": "competition",
-   "name": "익산 부송에코르 10년 공공임대주택",
-   "address": "전북특별자치도 익산시 부송동 1421(익산 부송4지구 A블록)",
-   "priority": 29,
-   "search_volume": 15,
-   "rank1_date": "2026-10-23",
-   "winner_date": "2026-10-30"
+   "house_manage_no": "2026000523",
+   "type": "notice",
+   "name": "형곡 센트럴 아테라",
+   "address": "경상북도 구미시 형곡동 141-11번지 외 3필지",
+   "priority": 61,
+   "search_volume": 2840,
+   "rank1_date": "2026-11-10",
+   "winner_date": "2026-11-17"
   },
   {
-   "house_manage_no": "2026000435",
+   "house_manage_no": "2026820012",
    "type": "notice",
-   "name": "삼도이동 2지구 토지임대부 공공분양주택",
-   "address": "제주특별자치도 제주시 삼도이동 1246-1 외 4필지",
-   "priority": 21,
+   "name": "시흥하중지구 A1블록 신혼희망타운(공공분양) 추가입주자모집공고",
+   "address": "경기도 시흥시 하중동 일원 시흥하중 공공주택지구 내 A1블록",
+   "priority": 56,
    "search_volume": 10,
-   "rank1_date": "2026-11-17",
-   "winner_date": "2026-11-25"
+   "rank1_date": "2026-11-02",
+   "winner_date": "2026-11-12"
+  },
+  {
+   "house_manage_no": "2026000539",
+   "type": "notice",
+   "name": "남춘천 센트레빌",
+   "address": "강원특별자치도 춘천시 효자동 681-12 일원",
+   "priority": 55,
+   "search_volume": 7410,
+   "rank1_date": "2026-11-10",
+   "winner_date": "2026-11-17"
+  },
+  {
+   "house_manage_no": "2026000528",
+   "type": "notice",
+   "name": "광교 자연앤 센트레빌(A17BL) 공공분양주택",
+   "address": "경기도 수원시 영통구 원천동 633번지 일원",
+   "priority": 44,
+   "search_volume": 71600,
+   "rank1_date": "2026-11-10",
+   "winner_date": "2026-11-17"
+  },
+  {
+   "house_manage_no": "2026000533",
+   "type": "notice",
+   "name": "안산신길2지구 B-1블록 공공분양주택(본청약)",
+   "address": "경기도 안산시 단원구 신길동 일원 안산신길2 공공주택지구 내 B-1블록",
+   "priority": 33,
+   "search_volume": 10,
+   "rank1_date": "2026-11-09",
+   "winner_date": "2026-11-30"
+  },
+  {
+   "house_manage_no": "2026820013",
+   "type": "notice",
+   "name": "안산신길2 A-6블록 신혼희망타운(공공분양)(본청약)",
+   "address": "경기도 안산시 단원구 신길동 일원 안산신길2 공공주택지구 내 A-6블록",
+   "priority": 33,
+   "search_volume": 10,
+   "rank1_date": "2026-11-16",
+   "winner_date": "2026-12-04"
+  },
+  {
+   "house_manage_no": "2026000527",
+   "type": "notice",
+   "name": "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택",
+   "address": "경기도 수원시 영통구 원천동 633번지 일원",
+   "priority": 26,
+   "search_volume": 10,
+   "rank1_date": "2026-11-10",
+   "winner_date": "2026-11-18"
   },
   {
    "house_manage_no": "2026000434",
    "type": "notice",
    "name": "삼도이동 1지구 토지임대부 공공분양주택",
    "address": "제주특별자치도 제주시 삼도이동 1244-1 ",
-   "priority": 21,
-   "search_volume": 10,
+   "priority": 26,
+   "search_volume": 30,
    "rank1_date": "2026-11-17",
    "winner_date": "2026-11-24"
+  },
+  {
+   "house_manage_no": "2026000435",
+   "type": "notice",
+   "name": "삼도이동 2지구 토지임대부 공공분양주택",
+   "address": "제주특별자치도 제주시 삼도이동 1246-1 외 4필지",
+   "priority": 20,
+   "search_volume": 10,
+   "rank1_date": "2026-11-17",
+   "winner_date": "2026-11-25"
   }
  ]
 }

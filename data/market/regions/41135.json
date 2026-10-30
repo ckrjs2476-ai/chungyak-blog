@@ -2,25 +2,25 @@
  "lawd": "41135",
  "name": "경기도 성남시 분당구",
  "months": 12,
- "updated": "2026-10-30",
- "trade_count": 3617,
+ "updated": "2026-10-31",
+ "trade_count": 3628,
  "cancel_count": 94,
- "n84": 753,
+ "n84": 754,
  "median84": 175000,
  "p25_84": 148000,
  "p75_84": 195000,
- "median84_pyeong_excl": 6846,
+ "median84_pyeong_excl": 6842,
  "new_n84": 147,
  "new_median84": 132000,
  "new_build_years": 5,
  "umd84": {
+  "야탑동": {
+   "n": 58,
+   "median": 148000
+  },
   "구미동": {
    "n": 58,
    "median": 152000
-  },
-  "야탑동": {
-   "n": 57,
-   "median": 148000
   },
   "금곡동": {
    "n": 33,
@@ -136,15 +136,15 @@
   },
   {
    "month": "2026-10",
-   "count": 107,
-   "n84": 24,
-   "median84": 172500
+   "count": 118,
+   "n84": 25,
+   "median84": 166000
   }
  ],
  "top_apts": [
   {
    "name": "야탑동 매화마을공무원2",
-   "count": 152,
+   "count": 153,
    "median84": null,
    "built": 1995
   },
@@ -174,14 +174,14 @@
   },
   {
    "name": "금곡동 청솔마을(주공9단지)",
-   "count": 75,
+   "count": 76,
    "median84": null,
    "built": 1995
   },
   {
    "name": "야탑동 장미마을(현대)",
-   "count": 70,
-   "median84": 157400,
+   "count": 71,
+   "median84": 159800,
    "built": 1993
   },
   {
@@ -192,7 +192,7 @@
   },
   {
    "name": "정자동 한솔마을(6단지)(주공)",
-   "count": 63,
+   "count": 64,
    "median84": null,
    "built": 1995
   },
