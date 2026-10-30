@@ -146,6 +146,7 @@ PUBLISH_WINDOWS = {
     "gongmoju": [("07:50", 60), ("17:47", 60)],
     "jeonse": [("12:40", 60), ("19:44", 60)],
     "gwanribi": [("15:52", 60), ("21:13", 60)],
+    "drone": [("09:20", 60), ("20:30", 60)],
 }
 
 
@@ -347,8 +348,8 @@ PAGES_DIR = BASE / "pages"
 PAGES_JSON = (ROOT / "data" / "pages.json") if _blog is None else (BASE / "data" / "pages.json")
 
 
-UNIT_NOUN = {"cheongyak": "단지", "jeonse": "지역", "gongmoju": "회사", "gwanribi": "지역"}
-POST_NOUN = {"cheongyak": "청약 글", "jeonse": "전세 글", "gongmoju": "공모주 글", "gwanribi": "관리비 글"}
+UNIT_NOUN = {"cheongyak": "단지", "jeonse": "지역", "gongmoju": "회사", "gwanribi": "지역", "drone": "주제"}
+POST_NOUN = {"cheongyak": "청약 글", "jeonse": "전세 글", "gongmoju": "공모주 글", "gwanribi": "관리비 글", "drone": "드론 글"}
 HUB_TEXT = {"cheongyak": "지역별 분양가 순위표", "jeonse": "전국 시군구 전세가율 순위표",
             "gongmoju": "최근 공모주 규모 순위표", "gwanribi": "시군구 관리비 순위표"}
 
