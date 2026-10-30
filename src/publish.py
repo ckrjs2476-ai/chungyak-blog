@@ -141,30 +141,51 @@ def to_html(body: str) -> str:
 
 # 공개 시각을 매일 다르게: 블로그별 시간대(시작 시각, 길이 분) 안에서 랜덤으로 Blogger 예약 발행.
 # 시작 시각은 예약 글쓰기 작업 시각과 맞춘다(청약노트 오전만 10~11시). 2026-10-14 시험: 예약해도 영문 주소 유지.
-PUBLISH_WINDOWS = {
-    "cheongyak": [("10:00", 60), ("18:35", 60)],
-    "gongmoju": [("07:50", 60), ("17:47", 60)],
-    "jeonse": [("12:40", 60), ("19:44", 60)],
-    "gwanribi": [("15:52", 60), ("21:13", 60)],
-    "drone": [("09:20", 60), ("20:30", 60)],
-}
+# 발행 시각(2026-10-30 사용자 결정): 같은 블로그 글끼리 최소 5시간 간격, 시각은 랜덤.
+# 글쓰기가 끝나 push되면 10분~2시간 뒤 랜덤 시각으로 예약하고, 직전 글(예약 포함) 발행 시각 + 5시간(+0~40분 랜덤)보다
+# 이르면 그 뒤로 미룬다. 새벽(00:30~07:00)에 걸리면 07:00~08:30 사이 랜덤으로 옮긴다.
+MIN_GAP_HOURS = 5
 
 
-def pick_publish_time(now: datetime | None = None) -> datetime | None:
-    """지금이 어느 시간대 직전·안이면 그 안의 랜덤 시각, 아니면 None(바로 발행).
-    이미 남은 시간이 5분 미만이면 바로 발행한다."""
+def _last_publish_at() -> datetime | None:
+    if not PUBLISHED.exists():
+        return None
+    best = None
+    for p in json.loads(PUBLISHED.read_text("utf-8")).get("posts", []):
+        try:
+            t = datetime.fromisoformat(str(p.get("published_at", "")))
+        except ValueError:
+            continue
+        if t.tzinfo is None:
+            t = t.replace(tzinfo=KST)
+        if p.get("status") == "LIVE" and (best is None or t > best):
+            best = t
+    return best
+
+
+def pick_publish_time(now: datetime | None = None, last: datetime | None = None) -> datetime | None:
+    """예약 발행 시각(KST). 바로 발행해도 되면(간격 충분 + 랜덤 지연이 짧음) None을 돌려주지 않고 항상 미래 시각을 준다."""
     import random
-    now = now or datetime.now(KST)
-    for hm, minutes in PUBLISH_WINDOWS.get(BLOG, []):
-        h, m = map(int, hm.split(":"))
-        start = now.replace(hour=h, minute=m, second=0, microsecond=0)
-        end = start + timedelta(minutes=minutes)
-        if start - timedelta(hours=1) <= now < end:
-            lo = max(now + timedelta(minutes=3), start)
-            if (end - lo).total_seconds() < 300:
-                return None
-            return lo + timedelta(seconds=random.randint(0, int((end - lo).total_seconds())))
-    return None
+    now = (now or datetime.now(KST)).astimezone(KST)
+    last = last if last is not None else _last_publish_at()
+    t = now + timedelta(minutes=random.randint(10, 120))
+    if last is not None:
+        t = max(t, last.astimezone(KST) + timedelta(hours=MIN_GAP_HOURS, minutes=random.randint(0, 40)))
+    night_start = t.replace(hour=0, minute=30, second=0, microsecond=0)
+    if night_start <= t < t.replace(hour=7, minute=0, second=0, microsecond=0):
+        t = t.replace(hour=7, minute=0, second=0, microsecond=0) + timedelta(minutes=random.randint(0, 90))
+    return t.replace(microsecond=0)
+
+
+def is_out(p: dict, now: datetime | None = None) -> bool:
+    """예약 글이 실제로 공개됐는가(published_at이 지났는가). 아직이면 링크하지 않는다."""
+    try:
+        t = datetime.fromisoformat(str(p.get("published_at", "")))
+    except ValueError:
+        return True
+    if t.tzinfo is None:
+        t = t.replace(tzinfo=KST)
+    return t <= (now or datetime.now(KST))
 
 
 def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
@@ -192,7 +213,7 @@ def post_to_blogger(token: str, meta: dict, html: str, draft: bool) -> dict:
     _ok(res, "제목 바꾸기")
     sched = post.get("_scheduled_at")
     post = res.json()
-    if sched:  # 한 시간 안에 공개되므로 기록은 LIVE로 둔다(관련 글·점검 대상에 포함)
+    if sched:  # 예약 글도 기록은 LIVE(발행 시각은 published_at). 관련 글 링크는 시각이 지난 뒤에만(is_out)
         post["status"], post["_scheduled_at"] = "LIVE", sched
     print(f"::notice::제목 바꾼 뒤 주소: {post.get('url', '')} / 상태: {post.get('status', '')}")
     return post
@@ -205,7 +226,7 @@ MAX_LINKS = 6
 
 
 def _live(posts: list[dict]) -> list[dict]:
-    return sorted([p for p in posts if p.get("url") and p.get("status") == "LIVE"],
+    return sorted([p for p in posts if p.get("url") and p.get("status") == "LIVE" and is_out(p)],
                   key=lambda p: p.get("published_at", ""), reverse=True)
 
 

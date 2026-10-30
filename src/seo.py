@@ -185,7 +185,9 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
     if blog in HOSTS:
         host = HOSTS[blog][0]
         pubs = _published(blog)
-        live = {str(r.get("url", "")).split("?")[0].split("#")[0] for r in pubs if r.get("status") == "LIVE" and r.get("url")}
+        now = datetime.now(KST).isoformat()
+        live = {str(r.get("url", "")).split("?")[0].split("#")[0] for r in pubs
+                if r.get("status") == "LIVE" and r.get("url") and str(r.get("published_at", "")) <= now}
         own = [u.split("?")[0].split("#")[0] for u in re.findall(rf"\]\((https?://{host}\.blogspot\.com/[^)\s]*)\)", body)]
         posts_links = [u for u in own if "/p/" not in u and "/search" not in u]
         dead = [u for u in posts_links if u not in live]
