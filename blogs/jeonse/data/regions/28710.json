@@ -1,28 +1,28 @@
 {
  "lawd": "28710",
  "name": "인천광역시 강화군",
- "updated": "2026-10-15",
+ "updated": "2026-10-30",
  "months": 12,
- "jeonse_count": 67,
- "wolse_count": 169,
- "wolse_share_pct": 71.6,
- "renew_share_pct": 0.0,
- "jeonse_n84": 12,
- "jeonse_median84": 14500,
- "sale_n84": 37,
+ "jeonse_count": 74,
+ "wolse_count": 180,
+ "wolse_share_pct": 70.9,
+ "renew_share_pct": 1.4,
+ "jeonse_n84": 15,
+ "jeonse_median84": 14000,
+ "sale_n84": 38,
  "sale_median84": 18000,
- "ratio84": 80.6,
- "jeonse_recent3_median84": 12000,
+ "ratio84": 77.8,
+ "jeonse_recent3_median84": 13000,
  "jeonse_prev3_median84": 14000,
- "jeonse_change_pct": -14.3,
- "apts_with_both": 1,
+ "jeonse_change_pct": -7.1,
+ "apts_with_both": 2,
  "apts_ratio_80_plus": 1,
- "apts_ratio_70_plus": 1,
+ "apts_ratio_70_plus": 2,
  "umd": {
   "선원면 창리": {
-   "jeonse_n": 10,
+   "jeonse_n": 13,
    "jeonse_median84": 14000,
-   "sale_n": 31,
+   "sale_n": 32,
    "sale_median84": 18000,
    "ratio": 77.8
   }
@@ -32,11 +32,21 @@
    "umd": "선원면 창리",
    "apt": "세광엔리치빌1차",
    "built": 2001,
-   "jeonse_n": 9,
+   "jeonse_n": 11,
    "jeonse_median84": 14000,
    "sale_n": 21,
    "sale_median84": 16000,
    "ratio": 87.5
+  },
+  {
+   "umd": "선원면 창리",
+   "apt": "강화서희스타힐스1단지",
+   "built": 2024,
+   "jeonse_n": 2,
+   "jeonse_median84": 28000,
+   "sale_n": 6,
+   "sale_median84": 36500,
+   "ratio": 76.7
   }
  ],
  "low_ratio_apts": [],
@@ -106,11 +116,17 @@
    "jeonse_count": 5,
    "n84": 0,
    "jeonse_median84": null
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 7,
+   "n84": 3,
+   "jeonse_median84": 13000
   }
  ],
  "rank": null,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 8.4,
- "gap84": 3500
+ "ratio_vs_avg_pp": 5.6,
+ "gap84": 4000
 }

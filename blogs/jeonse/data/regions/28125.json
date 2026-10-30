@@ -1,37 +1,37 @@
 {
  "lawd": "28125",
  "name": "인천광역시 제물포구",
- "updated": "2026-10-15",
+ "updated": "2026-10-30",
  "months": 12,
- "jeonse_count": 435,
- "wolse_count": 841,
- "wolse_share_pct": 65.9,
+ "jeonse_count": 456,
+ "wolse_count": 885,
+ "wolse_share_pct": 66.0,
  "renew_share_pct": 23.9,
- "jeonse_n84": 60,
- "jeonse_median84": 21750,
- "sale_n84": 134,
+ "jeonse_n84": 63,
+ "jeonse_median84": 21000,
+ "sale_n84": 141,
  "sale_median84": 28000,
- "ratio84": 77.7,
- "jeonse_recent3_median84": 17000,
+ "ratio84": 75.0,
+ "jeonse_recent3_median84": 14500,
  "jeonse_prev3_median84": 25000,
- "jeonse_change_pct": -32.0,
+ "jeonse_change_pct": -42.0,
  "apts_with_both": 8,
- "apts_ratio_80_plus": 5,
- "apts_ratio_70_plus": 7,
+ "apts_ratio_80_plus": 4,
+ "apts_ratio_70_plus": 8,
  "umd": {
   "송림동": {
    "jeonse_n": 22,
    "jeonse_median84": 25000,
-   "sale_n": 43,
+   "sale_n": 47,
    "sale_median84": 32000,
    "ratio": 78.1
   },
   "송현동": {
    "jeonse_n": 3,
    "jeonse_median84": 16500,
-   "sale_n": 8,
-   "sale_median84": 23750,
-   "ratio": 69.5
+   "sale_n": 9,
+   "sale_median84": 24000,
+   "ratio": 68.8
   },
   "신흥동1가": {
    "jeonse_n": 5,
@@ -48,7 +48,7 @@
    "ratio": 81.1
   },
   "항동7가": {
-   "jeonse_n": 14,
+   "jeonse_n": 16,
    "jeonse_median84": 13000,
    "sale_n": 14,
    "sale_median84": 16500,
@@ -65,16 +65,6 @@
    "sale_n": 13,
    "sale_median84": 26700,
    "ratio": 86.6
-  },
-  {
-   "umd": "항동7가",
-   "apt": "라이프비취3차",
-   "built": 1990,
-   "jeonse_n": 9,
-   "jeonse_median84": 14000,
-   "sale_n": 9,
-   "sale_median84": 16500,
-   "ratio": 84.8
   },
   {
    "umd": "신흥동1가",
@@ -107,14 +97,24 @@
    "ratio": 81.5
   },
   {
+   "umd": "항동7가",
+   "apt": "라이프비취3차",
+   "built": 1990,
+   "jeonse_n": 11,
+   "jeonse_median84": 13000,
+   "sale_n": 9,
+   "sale_median84": 16500,
+   "ratio": 78.8
+  },
+  {
    "umd": "송림동",
    "apt": "풍림아이원",
    "built": 2009,
    "jeonse_n": 14,
    "jeonse_median84": 25000,
-   "sale_n": 18,
-   "sale_median84": 32400,
-   "ratio": 77.2
+   "sale_n": 20,
+   "sale_median84": 32500,
+   "ratio": 76.9
   },
   {
    "umd": "송림동",
@@ -132,9 +132,9 @@
    "built": 1999,
    "jeonse_n": 2,
    "jeonse_median84": 17500,
-   "sale_n": 2,
-   "sale_median84": 25100,
-   "ratio": 69.7
+   "sale_n": 3,
+   "sale_median84": 25000,
+   "ratio": 70.0
   }
  ],
  "low_ratio_apts": [],
@@ -189,33 +189,33 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 35,
+   "jeonse_count": 36,
    "n84": 3,
    "jeonse_median84": 17000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 32,
+   "jeonse_count": 34,
    "n84": 5,
    "jeonse_median84": 18000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 30,
+   "jeonse_count": 31,
    "n84": 3,
    "jeonse_median84": 13000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 7,
-   "n84": 0,
-   "jeonse_median84": null
+   "jeonse_count": 24,
+   "n84": 3,
+   "jeonse_median84": 13000
   }
  ],
- "rank": 61,
+ "rank": 70,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 5.5,
+ "ratio_vs_avg_pp": 2.8,
  "umd_ratio_high": {
   "name": "신흥동3가",
   "ratio": 81.1
@@ -225,5 +225,5 @@
   "ratio": 78.1
  },
  "umd_spread_pp": 3.0,
- "gap84": 6250
+ "gap84": 7000
 }
