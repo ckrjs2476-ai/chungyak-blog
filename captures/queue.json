@@ -1,1 +1,6 @@
-[]
+[
+ {"name": "probe-dr-onestop", "url": "https://drone.onestop.go.kr/", "sleep": 4},
+ {"name": "probe-dr-law", "url": "https://www.law.go.kr/법령/항공안전법", "sleep": 4},
+ {"name": "probe-dr-work24", "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0", "sleep": 5},
+ {"name": "probe-dr-molit", "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0", "sleep": 4}
+]
