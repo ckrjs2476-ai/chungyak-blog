@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 10:41",
+ "updated": "2026-10-30 10:44",
  "stage": 1,
  "band": [
   30,
@@ -13,8 +13,8 @@
    "entity": "영광",
    "entity_id": "00579342",
    "base_score": 100.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
    "score": 100.0,
    "used": false
   },
@@ -25,18 +25,6 @@
    "entity": "동원파츠",
    "entity_id": "00784184",
    "base_score": 100.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "이에스티공모가",
-   "volume": 130,
-   "comp": "중간",
-   "entity": "이에스티",
-   "entity_id": "01378005",
-   "base_score": 85.0,
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 100.0,
@@ -163,15 +151,15 @@
    "used": false
   },
   {
-   "keyword": "에스에프씨공모주",
-   "volume": 30,
+   "keyword": "이에스티공모가",
+   "volume": 130,
    "comp": "중간",
-   "entity": "에스에프씨",
-   "entity_id": "00299109",
+   "entity": "이에스티",
+   "entity_id": "01378005",
    "base_score": 85.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 85.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 93.5,
    "used": false
   },
   {
@@ -283,42 +271,6 @@
    "used": false
   },
   {
-   "keyword": "영광수요예측",
-   "volume": 3890,
-   "comp": "낮음",
-   "entity": "영광",
-   "entity_id": "00579342",
-   "base_score": 40.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 50.6,
-   "used": false
-  },
-  {
-   "keyword": "이에스티수요예측",
-   "volume": 4100,
-   "comp": "낮음",
-   "entity": "이에스티",
-   "entity_id": "01378005",
-   "base_score": 40.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 50.6,
-   "used": false
-  },
-  {
-   "keyword": "래블업수요예측",
-   "volume": 3800,
-   "comp": "낮음",
-   "entity": "래블업",
-   "entity_id": "01956751",
-   "base_score": 40.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 50.6,
-   "used": false
-  },
-  {
    "keyword": "엠비디공모주",
    "volume": 1900,
    "comp": "낮음",
@@ -328,6 +280,42 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 50.6,
+   "used": false
+  },
+  {
+   "keyword": "영광수요예측",
+   "volume": 3890,
+   "comp": "낮음",
+   "entity": "영광",
+   "entity_id": "00579342",
+   "base_score": 40.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 44.0,
+   "used": false
+  },
+  {
+   "keyword": "이에스티수요예측",
+   "volume": 4100,
+   "comp": "낮음",
+   "entity": "이에스티",
+   "entity_id": "01378005",
+   "base_score": 40.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 44.0,
+   "used": false
+  },
+  {
+   "keyword": "래블업수요예측",
+   "volume": 3800,
+   "comp": "낮음",
+   "entity": "래블업",
+   "entity_id": "01956751",
+   "base_score": 40.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 44.0,
    "used": false
   },
   {
@@ -415,18 +403,6 @@
    "used": true
   },
   {
-   "keyword": "래블업공모가",
-   "volume": 240,
-   "comp": "낮음",
-   "entity": "래블업",
-   "entity_id": "01956751",
-   "base_score": 100.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 34.5,
-   "used": true
-  },
-  {
    "keyword": "제이앤티지공모주",
    "volume": 30,
    "comp": "낮음",
@@ -461,6 +437,18 @@
    "why": "",
    "score": 34.0,
    "used": false
+  },
+  {
+   "keyword": "래블업공모가",
+   "volume": 240,
+   "comp": "낮음",
+   "entity": "래블업",
+   "entity_id": "01956751",
+   "base_score": 100.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 30.0,
+   "used": true
   },
   {
    "keyword": "티앤이코리아공모가",
@@ -532,6 +520,18 @@
    "growth": 0.34,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
    "score": 29.3,
+   "used": true
+  },
+  {
+   "keyword": "에스에프씨공모주",
+   "volume": 30,
+   "comp": "중간",
+   "entity": "에스에프씨",
+   "entity_id": "00299109",
+   "base_score": 85.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 25.5,
    "used": true
   },
   {
@@ -660,6 +660,18 @@
    "comp": "낮음",
    "entity": "제논",
    "entity_id": "01950720",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "에스에프씨수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "에스에프씨",
+   "entity_id": "00299109",
    "base_score": 20.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -895,18 +907,6 @@
    "used": false
   },
   {
-   "keyword": "에스에프씨수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "에스에프씨",
-   "entity_id": "00299109",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "씨아이에스케미칼공모주",
    "volume": 10,
    "comp": "낮음",
@@ -1132,6 +1132,18 @@
    "growth": 1.0,
    "why": "",
    "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "에스에프씨공모가",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "에스에프씨",
+   "entity_id": "00299109",
+   "base_score": 17.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 18.7,
    "used": false
   },
   {
@@ -1663,18 +1675,6 @@
    "used": false
   },
   {
-   "keyword": "에스에프씨공모가",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "에스에프씨",
-   "entity_id": "00299109",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
    "keyword": "7월공모주청약일정",
    "volume": 25,
    "comp": "낮음",
@@ -1981,9 +1981,9 @@
    "entity": "래블업",
    "entity_id": "01956751",
    "base_score": 5.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 6.3,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 5.5,
    "used": false
   },
   {
@@ -3049,9 +3049,9 @@
    "entity": "영광",
    "entity_id": "00579342",
    "base_score": 4.2,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 1.4,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 1.3,
    "used": false
   },
   {
@@ -3061,9 +3061,9 @@
    "entity": "이에스티",
    "entity_id": "01378005",
    "base_score": 4.2,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 1.4,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 1.3,
    "used": false
   },
   {

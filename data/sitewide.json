@@ -1,14 +1,15 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "blogs": {
   "cheongyak": {
-   "posts": 38,
+   "posts": 40,
    "skeleton_pairs": [],
    "type_share": {
-    "notice": 1,
-    "region": 4,
     "stats": 1,
-    "competition": 2
+    "region": 3,
+    "competition": 2,
+    "remainder": 1,
+    "notice": 1
    },
    "format_concentrated": false,
    "stale": {},
@@ -17,12 +18,12 @@
    "to_fix": 0
   },
   "jeonse": {
-   "posts": 23,
+   "posts": 25,
    "skeleton_pairs": [],
    "type_share": {
-    "topic": 4,
+    "topic": 3,
     "ranking": 1,
-    "region": 3
+    "region": 4
    },
    "format_concentrated": false,
    "stale": {},
@@ -31,12 +32,12 @@
    "to_fix": 0
   },
   "gongmoju": {
-   "posts": 26,
+   "posts": 28,
    "skeleton_pairs": [],
    "type_share": {
-    "topic": 2,
+    "weekly": 1,
     "ipo": 5,
-    "weekly": 1
+    "topic": 2
    },
    "format_concentrated": false,
    "stale": {},
@@ -45,11 +46,11 @@
    "to_fix": 0
   },
   "gwanribi": {
-   "posts": 24,
+   "posts": 26,
    "skeleton_pairs": [],
    "type_share": {
-    "topic": 4,
-    "complex": 3,
+    "topic": 2,
+    "complex": 5,
     "region": 1
    },
    "format_concentrated": false,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 10:41",
+ "updated": "2026-10-30 10:44",
  "stage": 1,
  "band": [
   30,
@@ -12,18 +12,6 @@
    "comp": "낮음",
    "entity": "우이동",
    "entity_id": "11305:우이동",
-   "base_score": 100.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "북가좌동아파트전세",
-   "volume": 45,
-   "comp": "낮음",
-   "entity": "북가좌동",
-   "entity_id": "11410:북가좌동",
    "base_score": 100.0,
    "growth": 1.0,
    "why": "",
@@ -288,18 +276,6 @@
    "comp": "높음",
    "entity": "한남동",
    "entity_id": "11170:한남동",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
-   "keyword": "성동구아파트전세",
-   "volume": 200,
-   "comp": "높음",
-   "entity": "성동구",
-   "entity_id": "11200",
    "base_score": 70.0,
    "growth": 1.0,
    "why": "",
@@ -1807,18 +1783,6 @@
    "used": false
   },
   {
-   "keyword": "좌동아파트전세",
-   "volume": 90,
-   "comp": "높음",
-   "entity": "좌동",
-   "entity_id": "26350:좌동",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "사하구아파트전세",
    "volume": 130,
    "comp": "높음",
@@ -2971,18 +2935,6 @@
    "used": false
   },
   {
-   "keyword": "동구아파트전세",
-   "volume": 15,
-   "comp": "높음",
-   "entity": "동구",
-   "entity_id": "31170",
-   "base_score": 42.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 42.0,
-   "used": false
-  },
-  {
    "keyword": "청학동아파트전세",
    "volume": 15,
    "comp": "높음",
@@ -3403,6 +3355,18 @@
    "used": false
   },
   {
+   "keyword": "북가좌동아파트전세",
+   "volume": 45,
+   "comp": "낮음",
+   "entity": "북가좌동",
+   "entity_id": "11410:북가좌동",
+   "base_score": 100.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 30.0,
+   "used": true
+  },
+  {
    "keyword": "강일동아파트전세",
    "volume": 45,
    "comp": "낮음",
@@ -3595,6 +3559,54 @@
    "used": false
   },
   {
+   "keyword": "성동구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성동구",
+   "entity_id": "11200",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "성동구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성동구",
+   "entity_id": "11200",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "동구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동구",
+   "entity_id": "31170",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "동구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동구",
+   "entity_id": "31170",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
    "keyword": "아파트전세가율",
    "volume": 30,
    "comp": "중간",
@@ -3616,6 +3628,30 @@
    "growth": 1.0,
    "why": "",
    "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "성동구아파트전세",
+   "volume": 200,
+   "comp": "높음",
+   "entity": "성동구",
+   "entity_id": "11200",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
+  },
+  {
+   "keyword": "좌동아파트전세",
+   "volume": 90,
+   "comp": "높음",
+   "entity": "좌동",
+   "entity_id": "26350:좌동",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
    "used": false
   },
   {
@@ -4020,30 +4056,6 @@
    "comp": "낮음",
    "entity": "금호동1가",
    "entity_id": "11200:금호동1가",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "성동구전세시세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "성동구",
-   "entity_id": "11200",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "성동구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "성동구",
-   "entity_id": "11200",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -4872,30 +4884,6 @@
    "comp": "낮음",
    "entity": "서대신동3가",
    "entity_id": "26140:서대신동3가",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "동구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "동구",
-   "entity_id": "31170",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "동구전세시세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "동구",
-   "entity_id": "31170",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -6736,6 +6724,18 @@
    "growth": 1.0,
    "why": "",
    "score": 14.0,
+   "used": false
+  },
+  {
+   "keyword": "동구아파트전세",
+   "volume": 15,
+   "comp": "높음",
+   "entity": "동구",
+   "entity_id": "31170",
+   "base_score": 42.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 12.6,
    "used": false
   },
   {

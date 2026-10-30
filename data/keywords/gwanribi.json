@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 10:41",
+ "updated": "2026-10-30 10:44",
  "stage": 1,
  "band": [
   30,
@@ -88,18 +88,6 @@
    "growth": 1.1,
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
    "score": 93.5,
-   "used": false
-  },
-  {
-   "keyword": "트리마제관리비",
-   "volume": 100,
-   "comp": "중간",
-   "entity": "트리마제",
-   "entity_id": "A10026988",
-   "base_score": 85.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 85.0,
    "used": false
   },
   {
@@ -257,6 +245,18 @@
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
    "score": 46.2,
    "used": false
+  },
+  {
+   "keyword": "트리마제관리비",
+   "volume": 100,
+   "comp": "중간",
+   "entity": "트리마제",
+   "entity_id": "A10026988",
+   "base_score": 85.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 25.5,
+   "used": true
   },
   {
    "keyword": "나인원한남관리비",
