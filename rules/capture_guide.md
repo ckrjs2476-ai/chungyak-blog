@@ -26,6 +26,10 @@
 | 공모주 | DART 증권신고서 첫 화면(핵심투자위험 알림문이 먼저 뜸) | {"url": "<ipos json의 dart_url>", "sleep": 4} |
 | 전세 온도계 | 국토부 실거래가 '조건별 자료제공' 전월세 조건 화면(시도·시군구 선택) | {"url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "<시도 일부, 예: 서울>"], "wait": 2}, {"pick": ["#srhSggCd", "<시군구 일부, 예: 송파>"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560} |
 | 관리비 돋보기 | K-apt '관리비등 세부항목 지역별 평균' 표(시도별 ㎡당) | {"url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do", "sleep": 4, "crop": {"from": "발생월 기준"}, "height": 760, "width": 1280} |
+| 드론 정보노트 | 드론원스톱 첫 화면(민원 메뉴·금지구역 안내) | {"url": "https://drone.onestop.go.kr/", "sleep": 4} |
+| 드론 정보노트 | 국토부 보도자료 '드론' 검색 결과 | {"url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0", "sleep": 4, "crop": {"from": "보도자료"}, "height": 700} |
+| 드론 정보노트 | 법령 원문(예: 항공안전법) | {"url": "https://www.law.go.kr/법령/항공안전법", "sleep": 4} |
+| 드론 정보노트 | 고용24 '드론' 채용 검색 | {"url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0", "sleep": 5} |
 | (주의) | 실거래가 GIS 지도 단지 검색은 자동 조작으로 결과가 안 나온다(2026-10-25 시험). 전세 캡처는 조건 화면만 쓴다. 캡션에 '내려받았다'고 쓰지 않는다(화면은 조건 선택까지). | |
 
 ## 4. 캡션 쓰는 법 (사람이 쓴 것처럼)
