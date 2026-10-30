@@ -129,7 +129,7 @@ DEF_RE = re.compile(r"[가-힣A-Za-z0-9·()]{2,}\s?(은|는|이란|란|이라는
 DEP_START = re.compile(r"^(이는|이것은|이건|이게|이처럼|이 때문에|이렇게|앞서|위에서|위 표|그래서|그러니|하지만|또한|게다가|그런데)\b")
 
 
-NEW_RULES_FROM = "2026-10-31"  # 이 날짜 이후 파일 이름(YYYY-MM-DD-…)의 원고에만 새 규칙 적용
+NEW_RULES_FROM = "2026-10-30"  # 이 날짜 이후 파일 이름(YYYY-MM-DD-…)의 원고에만 새 규칙 적용
 
 
 def is_new(fname: str) -> bool:
