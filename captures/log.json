@@ -901,5 +901,94 @@
   "bytes": 32910,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000312",
   "at": "2026-10-31 07:53"
+ },
+ {
+  "name": "cy-2026000464-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   555
+  ],
+  "bytes": 22664,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000464&pblancNo=2026000464",
+  "at": "2026-10-31 10:54"
+ },
+ {
+  "name": "cy-2026000463-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   611
+  ],
+  "bytes": 25362,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000463&pblancNo=2026000463",
+  "at": "2026-10-31 10:54"
+ },
+ {
+  "name": "cy-2026000513-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   528
+  ],
+  "bytes": 21500,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000513&pblancNo=2026000513",
+  "at": "2026-10-31 10:54"
+ },
+ {
+  "name": "cy-2026000446-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   528
+  ],
+  "bytes": 21662,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000446&pblancNo=2026000446",
+  "at": "2026-10-31 10:54"
+ },
+ {
+  "name": "js-51130-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7340,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-10-31 10:54"
+ },
+ {
+  "name": "js-26440-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-11200-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-01950720-dart",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367\", waiting until \"networkidle\"\n",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367"
+ },
+ {
+  "name": "ipo-00960234-dart",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616\", waiting until \"networkidle\"\n",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616"
  }
 ]
