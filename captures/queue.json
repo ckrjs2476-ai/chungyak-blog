@@ -1,3 +1,1 @@
-[
- {"name": "js-48250-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경상남도"], "wait": 2}, {"pick": ["#srhSggCd", "김해"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
-]
+[]
