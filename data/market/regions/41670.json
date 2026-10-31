@@ -2,20 +2,20 @@
  "lawd": "41670",
  "name": "경기도 여주시",
  "months": 12,
- "updated": "2026-10-30",
- "trade_count": 745,
+ "updated": "2026-10-31",
+ "trade_count": 750,
  "cancel_count": 53,
- "n84": 286,
- "median84": 28150,
+ "n84": 290,
+ "median84": 28300,
  "p25_84": 20500,
  "p75_84": 45000,
- "median84_pyeong_excl": 1097,
+ "median84_pyeong_excl": 1103,
  "new_n84": 82,
  "new_median84": 46950,
  "new_build_years": 5,
  "umd84": {
   "현암동": {
-   "n": 63,
+   "n": 67,
    "median": 29000
   },
   "연양동": {
@@ -120,9 +120,9 @@
   },
   {
    "month": "2026-10",
-   "count": 48,
-   "n84": 24,
-   "median84": 22500
+   "count": 53,
+   "n84": 28,
+   "median84": 24750
   }
  ],
  "top_apts": [
@@ -134,7 +134,7 @@
   },
   {
    "name": "현암동 벽산",
-   "count": 49,
+   "count": 50,
    "median84": null,
    "built": 1997
   },
@@ -157,16 +157,16 @@
    "built": 2022
   },
   {
+   "name": "현암동 여주아이파크",
+   "count": 31,
+   "median84": 37000,
+   "built": 2020
+  },
+  {
    "name": "홍문동 홍문현대",
    "count": 29,
    "median84": 22000,
    "built": 1996
-  },
-  {
-   "name": "현암동 여주아이파크",
-   "count": 29,
-   "median84": 37500,
-   "built": 2020
   },
   {
    "name": "교동 호반리젠시빌",
