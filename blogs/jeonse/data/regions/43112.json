@@ -1,17 +1,17 @@
 {
  "lawd": "43112",
  "name": "충청북도 청주시 서원구",
- "updated": "2026-10-17",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 1632,
- "wolse_count": 1657,
- "wolse_share_pct": 50.4,
- "renew_share_pct": 19.2,
- "jeonse_n84": 585,
- "jeonse_median84": 26800,
- "sale_n84": 808,
+ "jeonse_count": 1667,
+ "wolse_count": 1708,
+ "wolse_share_pct": 50.6,
+ "renew_share_pct": 19.4,
+ "jeonse_n84": 594,
+ "jeonse_median84": 26900,
+ "sale_n84": 844,
  "sale_median84": 28500,
- "ratio84": 94.0,
+ "ratio84": 94.4,
  "jeonse_recent3_median84": 25400,
  "jeonse_prev3_median84": 26500,
  "jeonse_change_pct": -4.2,
@@ -22,58 +22,58 @@
   "개신동": {
    "jeonse_n": 115,
    "jeonse_median84": 26000,
-   "sale_n": 160,
-   "sale_median84": 20650,
-   "ratio": 125.9
+   "sale_n": 168,
+   "sale_median84": 20250,
+   "ratio": 128.4
   },
   "남이면 가마리": {
-   "jeonse_n": 26,
-   "jeonse_median84": 27350,
-   "sale_n": 61,
+   "jeonse_n": 27,
+   "jeonse_median84": 27700,
+   "sale_n": 63,
    "sale_median84": 33000,
-   "ratio": 82.9
+   "ratio": 83.9
   },
   "모충동": {
    "jeonse_n": 74,
    "jeonse_median84": 30000,
-   "sale_n": 106,
-   "sale_median84": 35650,
-   "ratio": 84.2
+   "sale_n": 109,
+   "sale_median84": 36000,
+   "ratio": 83.3
   },
   "분평동": {
-   "jeonse_n": 40,
-   "jeonse_median84": 18000,
-   "sale_n": 102,
-   "sale_median84": 20950,
-   "ratio": 85.9
+   "jeonse_n": 42,
+   "jeonse_median84": 18200,
+   "sale_n": 107,
+   "sale_median84": 20600,
+   "ratio": 88.3
   },
   "사직동": {
    "jeonse_n": 106,
    "jeonse_median84": 20844,
-   "sale_n": 96,
-   "sale_median84": 30800,
-   "ratio": 67.7
+   "sale_n": 97,
+   "sale_median84": 30700,
+   "ratio": 67.9
   },
   "산남동": {
-   "jeonse_n": 111,
+   "jeonse_n": 114,
    "jeonse_median84": 26500,
-   "sale_n": 131,
+   "sale_n": 141,
    "sale_median84": 28500,
    "ratio": 93.0
   },
   "성화동": {
-   "jeonse_n": 87,
+   "jeonse_n": 90,
    "jeonse_median84": 29000,
-   "sale_n": 88,
+   "sale_n": 94,
    "sale_median84": 33500,
    "ratio": 86.6
   },
   "수곡동": {
    "jeonse_n": 24,
    "jeonse_median84": 14850,
-   "sale_n": 53,
-   "sale_median84": 40500,
-   "ratio": 36.7
+   "sale_n": 54,
+   "sale_median84": 40750,
+   "ratio": 36.4
   }
  },
  "top_ratio_apts": [
@@ -113,7 +113,7 @@
    "built": 2006,
    "jeonse_n": 17,
    "jeonse_median84": 26700,
-   "sale_n": 18,
+   "sale_n": 19,
    "sale_median84": 28000,
    "ratio": 95.4
   },
@@ -129,13 +129,23 @@
   },
   {
    "umd": "산남동",
+   "apt": "산남퀸덤아파트",
+   "built": 2007,
+   "jeonse_n": 30,
+   "jeonse_median84": 25300,
+   "sale_n": 30,
+   "sale_median84": 26850,
+   "ratio": 94.2
+  },
+  {
+   "umd": "산남동",
    "apt": "대우푸르지오",
    "built": 2007,
-   "jeonse_n": 28,
+   "jeonse_n": 30,
    "jeonse_median84": 28000,
-   "sale_n": 32,
-   "sale_median84": 29900,
-   "ratio": 93.6
+   "sale_n": 34,
+   "sale_median84": 29800,
+   "ratio": 94.0
   },
   {
    "umd": "분평동",
@@ -148,14 +158,14 @@
    "ratio": 93.4
   },
   {
-   "umd": "산남동",
-   "apt": "산남퀸덤아파트",
-   "built": 2007,
-   "jeonse_n": 29,
-   "jeonse_median84": 25400,
-   "sale_n": 26,
-   "sale_median84": 27250,
-   "ratio": 93.2
+   "umd": "개신동",
+   "apt": "청주개신푸르지오",
+   "built": 2004,
+   "jeonse_n": 30,
+   "jeonse_median84": 26500,
+   "sale_n": 60,
+   "sale_median84": 28400,
+   "ratio": 93.3
   },
   {
    "umd": "산남동",
@@ -163,19 +173,9 @@
    "built": 2007,
    "jeonse_n": 22,
    "jeonse_median84": 26500,
-   "sale_n": 38,
+   "sale_n": 39,
    "sale_median84": 28500,
    "ratio": 93.0
-  },
-  {
-   "umd": "성화동",
-   "apt": "성화센트럴파크아파트",
-   "built": 2009,
-   "jeonse_n": 21,
-   "jeonse_median84": 23200,
-   "sale_n": 26,
-   "sale_median84": 25000,
-   "ratio": 92.8
   }
  ],
  "low_ratio_apts": [
@@ -281,41 +281,41 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 128,
-   "n84": 46,
-   "jeonse_median84": 25825
+   "jeonse_count": 129,
+   "n84": 47,
+   "jeonse_median84": 26000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 105,
-   "n84": 30,
+   "jeonse_count": 107,
+   "n84": 31,
    "jeonse_median84": 25200
   },
   {
    "month": "2026-09",
-   "jeonse_count": 65,
-   "n84": 21,
-   "jeonse_median84": 26500
+   "jeonse_count": 67,
+   "n84": 22,
+   "jeonse_median84": 26000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 27,
-   "n84": 11,
-   "jeonse_median84": 26500
+   "jeonse_count": 57,
+   "n84": 17,
+   "jeonse_median84": 27000
   }
  ],
  "rank": 17,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 21.8,
+ "ratio_vs_avg_pp": 22.2,
  "umd_ratio_high": {
   "name": "개신동",
-  "ratio": 125.9
+  "ratio": 128.4
  },
  "umd_ratio_low": {
   "name": "수곡동",
-  "ratio": 36.7
+  "ratio": 36.4
  },
- "umd_spread_pp": 89.2,
- "gap84": 1700
+ "umd_spread_pp": 92.0,
+ "gap84": 1600
 }

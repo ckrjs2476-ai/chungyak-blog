@@ -1,15 +1,15 @@
 {
  "lawd": "44810",
  "name": "충청남도 예산군",
- "updated": "2026-10-17",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 187,
- "wolse_count": 201,
- "wolse_share_pct": 51.8,
- "renew_share_pct": 13.4,
- "jeonse_n84": 77,
+ "jeonse_count": 210,
+ "wolse_count": 212,
+ "wolse_share_pct": 50.2,
+ "renew_share_pct": 16.7,
+ "jeonse_n84": 85,
  "jeonse_median84": 19000,
- "sale_n84": 195,
+ "sale_n84": 202,
  "sale_median84": 25000,
  "ratio84": 76.0,
  "jeonse_recent3_median84": 18000,
@@ -20,11 +20,11 @@
  "apts_ratio_70_plus": 2,
  "umd": {
   "삽교읍 목리": {
-   "jeonse_n": 67,
+   "jeonse_n": 75,
    "jeonse_median84": 20000,
-   "sale_n": 84,
-   "sale_median84": 32900,
-   "ratio": 60.8
+   "sale_n": 87,
+   "sale_median84": 33000,
+   "ratio": 60.6
   },
   "예산읍 발연리": {
    "jeonse_n": 3,
@@ -69,21 +69,11 @@
    "umd": "삽교읍 목리",
    "apt": "원목마을이지더원2차아파트",
    "built": 2022,
-   "jeonse_n": 24,
-   "jeonse_median84": 18250,
-   "sale_n": 24,
+   "jeonse_n": 27,
+   "jeonse_median84": 18500,
+   "sale_n": 25,
    "sale_median84": 28000,
-   "ratio": 65.2
-  },
-  {
-   "umd": "삽교읍 목리",
-   "apt": "내포신도시중흥S-클래스더시티",
-   "built": 2024,
-   "jeonse_n": 11,
-   "jeonse_median84": 21000,
-   "sale_n": 20,
-   "sale_median84": 33250,
-   "ratio": 63.2
+   "ratio": 66.1
   },
   {
    "umd": "삽교읍 목리",
@@ -97,12 +87,22 @@
   },
   {
    "umd": "삽교읍 목리",
+   "apt": "내포신도시중흥S-클래스더시티",
+   "built": 2024,
+   "jeonse_n": 15,
+   "jeonse_median84": 20000,
+   "sale_n": 20,
+   "sale_median84": 33250,
+   "ratio": 60.2
+  },
+  {
+   "umd": "삽교읍 목리",
    "apt": "이지더원센트럴에듀",
    "built": 2024,
-   "jeonse_n": 26,
+   "jeonse_n": 27,
    "jeonse_median84": 20000,
-   "sale_n": 30,
-   "sale_median84": 35842,
+   "sale_n": 32,
+   "sale_median84": 35846,
    "ratio": 55.8
   }
  ],
@@ -152,9 +152,9 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 6,
-   "n84": 2,
-   "jeonse_median84": 16875
+   "jeonse_count": 7,
+   "n84": 3,
+   "jeonse_median84": 15750
   },
   {
    "month": "2026-07",
@@ -164,21 +164,21 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 16,
-   "n84": 7,
-   "jeonse_median84": 18000
+   "jeonse_count": 18,
+   "n84": 9,
+   "jeonse_median84": 18900
   },
   {
    "month": "2026-09",
-   "jeonse_count": 16,
+   "jeonse_count": 19,
    "n84": 7,
    "jeonse_median84": 17000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 6,
-   "n84": 4,
-   "jeonse_median84": 17500
+   "jeonse_count": 23,
+   "n84": 9,
+   "jeonse_median84": 18000
   }
  ],
  "rank": 66,

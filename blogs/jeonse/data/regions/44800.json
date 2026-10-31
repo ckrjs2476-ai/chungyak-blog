@@ -1,15 +1,15 @@
 {
  "lawd": "44800",
  "name": "충청남도 홍성군",
- "updated": "2026-10-17",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 1042,
- "wolse_count": 1318,
- "wolse_share_pct": 55.8,
+ "jeonse_count": 1067,
+ "wolse_count": 1420,
+ "wolse_share_pct": 57.1,
  "renew_share_pct": 30.3,
- "jeonse_n84": 687,
+ "jeonse_n84": 706,
  "jeonse_median84": 20000,
- "sale_n84": 457,
+ "sale_n84": 474,
  "sale_median84": 21500,
  "ratio84": 93.0,
  "jeonse_recent3_median84": 16000,
@@ -17,28 +17,28 @@
  "jeonse_change_pct": -20.0,
  "apts_with_both": 16,
  "apts_ratio_80_plus": 1,
- "apts_ratio_70_plus": 6,
+ "apts_ratio_70_plus": 7,
  "umd": {
   "홍북읍 신경리": {
-   "jeonse_n": 418,
+   "jeonse_n": 435,
    "jeonse_median84": 15990,
-   "sale_n": 293,
+   "sale_n": 307,
    "sale_median84": 23500,
    "ratio": 68.0
   },
   "홍성읍 고암리": {
    "jeonse_n": 13,
    "jeonse_median84": 22000,
-   "sale_n": 32,
+   "sale_n": 33,
    "sale_median84": 20500,
    "ratio": 107.3
   },
   "홍성읍 남장리": {
-   "jeonse_n": 245,
+   "jeonse_n": 246,
    "jeonse_median84": 23800,
-   "sale_n": 28,
-   "sale_median84": 11250,
-   "ratio": 211.6
+   "sale_n": 29,
+   "sale_median84": 9500,
+   "ratio": 250.5
   },
   "홍성읍 오관리": {
    "jeonse_n": 3,
@@ -50,9 +50,9 @@
   "홍성읍 옥암리": {
    "jeonse_n": 3,
    "jeonse_median84": 13000,
-   "sale_n": 22,
-   "sale_median84": 15750,
-   "ratio": 82.5
+   "sale_n": 23,
+   "sale_median84": 15800,
+   "ratio": 82.3
   },
   "홍성읍 월산리": {
    "jeonse_n": 5,
@@ -69,9 +69,9 @@
    "built": 2006,
    "jeonse_n": 3,
    "jeonse_median84": 13000,
-   "sale_n": 22,
-   "sale_median84": 15750,
-   "ratio": 82.5
+   "sale_n": 23,
+   "sale_median84": 15800,
+   "ratio": 82.3
   },
   {
    "umd": "홍성읍 남장리",
@@ -82,16 +82,6 @@
    "sale_n": 6,
    "sale_median84": 19450,
    "ratio": 77.1
-  },
-  {
-   "umd": "홍북읍 신경리",
-   "apt": "효성해링턴플레이스",
-   "built": 2014,
-   "jeonse_n": 7,
-   "jeonse_median84": 17500,
-   "sale_n": 17,
-   "sale_median84": 23000,
-   "ratio": 76.1
   },
   {
    "umd": "홍성읍 오관리",
@@ -107,31 +97,21 @@
    "umd": "홍북읍 신경리",
    "apt": "엘에이치스타힐스",
    "built": 2015,
-   "jeonse_n": 16,
+   "jeonse_n": 19,
    "jeonse_median84": 14000,
-   "sale_n": 54,
-   "sale_median84": 18650,
-   "ratio": 75.1
+   "sale_n": 57,
+   "sale_median84": 18600,
+   "ratio": 75.3
   },
   {
    "umd": "홍북읍 신경리",
-   "apt": "내포신도시모아미래도메가시티2차",
-   "built": 2024,
-   "jeonse_n": 30,
-   "jeonse_median84": 21000,
-   "sale_n": 15,
-   "sale_median84": 29900,
-   "ratio": 70.2
-  },
-  {
-   "umd": "홍북읍 신경리",
-   "apt": "극동스타클래스센트럴",
+   "apt": "효성해링턴플레이스",
    "built": 2014,
    "jeonse_n": 8,
-   "jeonse_median84": 15725,
-   "sale_n": 20,
-   "sale_median84": 22700,
-   "ratio": 69.3
+   "jeonse_median84": 17250,
+   "sale_n": 18,
+   "sale_median84": 23150,
+   "ratio": 74.5
   },
   {
    "umd": "홍북읍 신경리",
@@ -139,19 +119,39 @@
    "built": 2025,
    "jeonse_n": 5,
    "jeonse_median84": 25000,
-   "sale_n": 14,
-   "sale_median84": 36200,
-   "ratio": 69.1
+   "sale_n": 16,
+   "sale_median84": 35500,
+   "ratio": 70.4
+  },
+  {
+   "umd": "홍북읍 신경리",
+   "apt": "내포신도시모아미래도메가시티2차",
+   "built": 2024,
+   "jeonse_n": 35,
+   "jeonse_median84": 21000,
+   "sale_n": 16,
+   "sale_median84": 29950,
+   "ratio": 70.1
+  },
+  {
+   "umd": "홍북읍 신경리",
+   "apt": "극동스타클래스센트럴",
+   "built": 2014,
+   "jeonse_n": 8,
+   "jeonse_median84": 15725,
+   "sale_n": 22,
+   "sale_median84": 22550,
+   "ratio": 69.7
   },
   {
    "umd": "홍북읍 신경리",
    "apt": "롯데캐슬",
    "built": 2012,
-   "jeonse_n": 34,
+   "jeonse_n": 37,
    "jeonse_median84": 15000,
-   "sale_n": 34,
-   "sale_median84": 21700,
-   "ratio": 69.1
+   "sale_n": 36,
+   "sale_median84": 21600,
+   "ratio": 69.4
   },
   {
    "umd": "홍북읍 신경리",
@@ -169,9 +169,9 @@
    "umd": "홍북읍 신경리",
    "apt": "내포신도시모아미래도메가시티1차",
    "built": 2024,
-   "jeonse_n": 70,
+   "jeonse_n": 71,
    "jeonse_median84": 16000,
-   "sale_n": 39,
+   "sale_n": 40,
    "sale_median84": 30000,
    "ratio": 53.3
   },
@@ -179,7 +179,7 @@
    "umd": "홍북읍 신경리",
    "apt": "내포신도시대방디에트르에듀시티",
    "built": 2025,
-   "jeonse_n": 47,
+   "jeonse_n": 51,
    "jeonse_median84": 22000,
    "sale_n": 4,
    "sale_median84": 40400,
@@ -201,9 +201,9 @@
    "built": 2023,
    "jeonse_n": 12,
    "jeonse_median84": 22000,
-   "sale_n": 13,
-   "sale_median84": 34500,
-   "ratio": 63.8
+   "sale_n": 14,
+   "sale_median84": 34750,
+   "ratio": 63.3
   },
   {
    "umd": "홍북읍 신경리",
@@ -211,7 +211,7 @@
    "built": 2016,
    "jeonse_n": 27,
    "jeonse_median84": 15000,
-   "sale_n": 44,
+   "sale_n": 46,
    "sale_median84": 23500,
    "ratio": 63.8
   }
@@ -267,27 +267,27 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 62,
-   "n84": 38,
-   "jeonse_median84": 15990
+   "jeonse_count": 64,
+   "n84": 40,
+   "jeonse_median84": 15995
   },
   {
    "month": "2026-08",
-   "jeonse_count": 50,
-   "n84": 32,
+   "jeonse_count": 56,
+   "n84": 36,
    "jeonse_median84": 18500
   },
   {
    "month": "2026-09",
-   "jeonse_count": 36,
-   "n84": 15,
-   "jeonse_median84": 16800
+   "jeonse_count": 42,
+   "n84": 20,
+   "jeonse_median84": 16400
   },
   {
    "month": "2026-10",
-   "jeonse_count": 8,
-   "n84": 6,
-   "jeonse_median84": 18900
+   "jeonse_count": 19,
+   "n84": 14,
+   "jeonse_median84": 15990
   }
  ],
  "rank": 19,
@@ -296,12 +296,12 @@
  "ratio_vs_avg_pp": 20.8,
  "umd_ratio_high": {
   "name": "홍성읍 남장리",
-  "ratio": 211.6
+  "ratio": 250.5
  },
  "umd_ratio_low": {
   "name": "홍북읍 신경리",
   "ratio": 68.0
  },
- "umd_spread_pp": 143.6,
+ "umd_spread_pp": 182.5,
  "gap84": 1500
 }

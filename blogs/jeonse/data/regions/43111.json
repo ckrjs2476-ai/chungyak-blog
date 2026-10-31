@@ -1,17 +1,17 @@
 {
  "lawd": "43111",
  "name": "충청북도 청주시 상당구",
- "updated": "2026-10-17",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 947,
- "wolse_count": 1993,
- "wolse_share_pct": 67.8,
- "renew_share_pct": 21.5,
- "jeonse_n84": 476,
+ "jeonse_count": 981,
+ "wolse_count": 2077,
+ "wolse_share_pct": 67.9,
+ "renew_share_pct": 21.7,
+ "jeonse_n84": 488,
  "jeonse_median84": 32900,
- "sale_n84": 1008,
- "sale_median84": 37850,
- "ratio84": 86.9,
+ "sale_n84": 1037,
+ "sale_median84": 37700,
+ "ratio84": 87.3,
  "jeonse_recent3_median84": 32900,
  "jeonse_prev3_median84": 33900,
  "jeonse_change_pct": -2.9,
@@ -22,9 +22,9 @@
   "금천동": {
    "jeonse_n": 65,
    "jeonse_median84": 18300,
-   "sale_n": 190,
-   "sale_median84": 21350,
-   "ratio": 85.7
+   "sale_n": 197,
+   "sale_median84": 21400,
+   "ratio": 85.5
   },
   "문화동": {
    "jeonse_n": 16,
@@ -34,18 +34,18 @@
    "ratio": 87.2
   },
   "방서동": {
-   "jeonse_n": 91,
+   "jeonse_n": 94,
    "jeonse_median84": 35000,
-   "sale_n": 201,
+   "sale_n": 203,
    "sale_median84": 44500,
    "ratio": 78.7
   },
   "북문로3가": {
-   "jeonse_n": 25,
+   "jeonse_n": 26,
    "jeonse_median84": 30000,
-   "sale_n": 32,
-   "sale_median84": 38200,
-   "ratio": 78.5
+   "sale_n": 33,
+   "sale_median84": 38500,
+   "ratio": 77.9
   },
   "영운동": {
    "jeonse_n": 4,
@@ -55,32 +55,32 @@
    "ratio": 62.2
   },
   "용담동": {
-   "jeonse_n": 32,
-   "jeonse_median84": 27000,
-   "sale_n": 92,
+   "jeonse_n": 33,
+   "jeonse_median84": 29000,
+   "sale_n": 94,
    "sale_median84": 35500,
-   "ratio": 76.1
+   "ratio": 81.7
   },
   "용암동": {
-   "jeonse_n": 192,
+   "jeonse_n": 198,
    "jeonse_median84": 33400,
-   "sale_n": 319,
-   "sale_median84": 42000,
-   "ratio": 79.5
+   "sale_n": 329,
+   "sale_median84": 42300,
+   "ratio": 79.0
   },
   "용정동": {
    "jeonse_n": 13,
    "jeonse_median84": 32000,
-   "sale_n": 44,
-   "sale_median84": 35950,
-   "ratio": 89.0
+   "sale_n": 45,
+   "sale_median84": 36000,
+   "ratio": 88.9
   },
   "탑동": {
-   "jeonse_n": 36,
-   "jeonse_median84": 31750,
-   "sale_n": 78,
+   "jeonse_n": 37,
+   "jeonse_median84": 32000,
+   "sale_n": 81,
    "sale_median84": 41500,
-   "ratio": 76.5
+   "ratio": 77.1
   }
  },
  "top_ratio_apts": [
@@ -100,7 +100,7 @@
    "built": 1991,
    "jeonse_n": 5,
    "jeonse_median84": 13500,
-   "sale_n": 8,
+   "sale_n": 9,
    "sale_median84": 14000,
    "ratio": 96.4
   },
@@ -130,7 +130,7 @@
    "built": 2003,
    "jeonse_n": 4,
    "jeonse_median84": 19250,
-   "sale_n": 19,
+   "sale_n": 20,
    "sale_median84": 20500,
    "ratio": 93.9
   },
@@ -138,11 +138,11 @@
    "umd": "용암동",
    "apt": "현대2",
    "built": 1994,
-   "jeonse_n": 7,
-   "jeonse_median84": 16200,
-   "sale_n": 13,
+   "jeonse_n": 8,
+   "jeonse_median84": 16150,
+   "sale_n": 14,
    "sale_median84": 17500,
-   "ratio": 92.6
+   "ratio": 92.3
   },
   {
    "umd": "용암동",
@@ -165,16 +165,6 @@
    "ratio": 92.1
   },
   {
-   "umd": "금천동",
-   "apt": "장자마을현대(2단지)",
-   "built": 2002,
-   "jeonse_n": 3,
-   "jeonse_median84": 20500,
-   "sale_n": 22,
-   "sale_median84": 22350,
-   "ratio": 91.7
-  },
-  {
    "umd": "탑동",
    "apt": "탑클래스아파트",
    "built": 2014,
@@ -183,6 +173,16 @@
    "sale_n": 16,
    "sale_median84": 27625,
    "ratio": 91.2
+  },
+  {
+   "umd": "금천동",
+   "apt": "뉴타운",
+   "built": 1993,
+   "jeonse_n": 4,
+   "jeonse_median84": 12750,
+   "sale_n": 17,
+   "sale_median84": 14000,
+   "ratio": 91.1
   }
  ],
  "low_ratio_apts": [
@@ -202,19 +202,9 @@
    "built": 2019,
    "jeonse_n": 3,
    "jeonse_median84": 38000,
-   "sale_n": 10,
-   "sale_median84": 53000,
-   "ratio": 71.7
-  },
-  {
-   "umd": "북문로3가",
-   "apt": "청주행정타운코아루휴티스",
-   "built": 2020,
-   "jeonse_n": 25,
-   "jeonse_median84": 30000,
-   "sale_n": 25,
-   "sale_median84": 39000,
-   "ratio": 76.9
+   "sale_n": 11,
+   "sale_median84": 53400,
+   "ratio": 71.2
   },
   {
    "umd": "대성동",
@@ -222,8 +212,18 @@
    "built": 1991,
    "jeonse_n": 2,
    "jeonse_median84": 11500,
-   "sale_n": 14,
-   "sale_median84": 14950,
+   "sale_n": 17,
+   "sale_median84": 15000,
+   "ratio": 76.7
+  },
+  {
+   "umd": "북문로3가",
+   "apt": "청주행정타운코아루휴티스",
+   "built": 2020,
+   "jeonse_n": 26,
+   "jeonse_median84": 30000,
+   "sale_n": 26,
+   "sale_median84": 39000,
    "ratio": 76.9
   },
   {
@@ -288,7 +288,7 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 86,
+   "jeonse_count": 87,
    "n84": 47,
    "jeonse_median84": 33900
   },
@@ -300,29 +300,29 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 61,
+   "jeonse_count": 65,
    "n84": 27,
    "jeonse_median84": 32500
   },
   {
    "month": "2026-10",
-   "jeonse_count": 24,
-   "n84": 13,
-   "jeonse_median84": 32000
+   "jeonse_count": 53,
+   "n84": 25,
+   "jeonse_median84": 33000
   }
  ],
- "rank": 31,
+ "rank": 30,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 14.7,
+ "ratio_vs_avg_pp": 15.1,
  "umd_ratio_high": {
   "name": "용정동",
-  "ratio": 89.0
+  "ratio": 88.9
  },
  "umd_ratio_low": {
-  "name": "용담동",
-  "ratio": 76.1
+  "name": "탑동",
+  "ratio": 77.1
  },
- "umd_spread_pp": 12.9,
- "gap84": 4950
+ "umd_spread_pp": 11.8,
+ "gap84": 4800
 }

@@ -1,37 +1,37 @@
 {
  "lawd": "43150",
  "name": "충청북도 제천시",
- "updated": "2026-10-17",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 271,
- "wolse_count": 854,
- "wolse_share_pct": 75.9,
- "renew_share_pct": 8.9,
- "jeonse_n84": 71,
+ "jeonse_count": 278,
+ "wolse_count": 906,
+ "wolse_share_pct": 76.5,
+ "renew_share_pct": 9.0,
+ "jeonse_n84": 73,
  "jeonse_median84": 25000,
- "sale_n84": 294,
- "sale_median84": 24100,
- "ratio84": 103.7,
- "jeonse_recent3_median84": 24930,
+ "sale_n84": 301,
+ "sale_median84": 23500,
+ "ratio84": 106.4,
+ "jeonse_recent3_median84": 24180,
  "jeonse_prev3_median84": 18000,
- "jeonse_change_pct": 38.5,
+ "jeonse_change_pct": 34.3,
  "apts_with_both": 12,
- "apts_ratio_80_plus": 6,
+ "apts_ratio_80_plus": 5,
  "apts_ratio_70_plus": 11,
  "umd": {
   "강제동": {
    "jeonse_n": 4,
    "jeonse_median84": 24430,
-   "sale_n": 27,
+   "sale_n": 28,
    "sale_median84": 29000,
    "ratio": 84.2
   },
   "신월동": {
-   "jeonse_n": 19,
-   "jeonse_median84": 30000,
+   "jeonse_n": 20,
+   "jeonse_median84": 29500,
    "sale_n": 25,
    "sale_median84": 19000,
-   "ratio": 157.9
+   "ratio": 155.3
   },
   "왕암동": {
    "jeonse_n": 3,
@@ -50,21 +50,21 @@
   "천남동": {
    "jeonse_n": 7,
    "jeonse_median84": 28000,
-   "sale_n": 15,
+   "sale_n": 16,
    "sale_median84": 36000,
    "ratio": 77.8
   },
   "청전동": {
    "jeonse_n": 7,
    "jeonse_median84": 13000,
-   "sale_n": 36,
+   "sale_n": 39,
    "sale_median84": 15500,
    "ratio": 83.9
   },
   "하소동": {
    "jeonse_n": 7,
    "jeonse_median84": 22000,
-   "sale_n": 49,
+   "sale_n": 50,
    "sale_median84": 25500,
    "ratio": 86.3
   }
@@ -76,9 +76,9 @@
    "built": 2015,
    "jeonse_n": 4,
    "jeonse_median84": 24430,
-   "sale_n": 19,
-   "sale_median84": 28350,
-   "ratio": 86.2
+   "sale_n": 20,
+   "sale_median84": 28425,
+   "ratio": 85.9
   },
   {
    "umd": "하소동",
@@ -111,24 +111,14 @@
    "ratio": 82.0
   },
   {
-   "umd": "신월동",
-   "apt": "부영사랑으로",
-   "built": 2006,
-   "jeonse_n": 4,
-   "jeonse_median84": 15150,
-   "sale_n": 21,
-   "sale_median84": 18800,
-   "ratio": 80.6
-  },
-  {
    "umd": "천남동",
    "apt": "코아루",
    "built": 2005,
    "jeonse_n": 2,
    "jeonse_median84": 20000,
-   "sale_n": 6,
-   "sale_median84": 25000,
-   "ratio": 80.0
+   "sale_n": 7,
+   "sale_median84": 24500,
+   "ratio": 81.6
   },
   {
    "umd": "천남동",
@@ -139,6 +129,26 @@
    "sale_n": 9,
    "sale_median84": 36900,
    "ratio": 78.6
+  },
+  {
+   "umd": "신월동",
+   "apt": "부영사랑으로",
+   "built": 2006,
+   "jeonse_n": 5,
+   "jeonse_median84": 14000,
+   "sale_n": 21,
+   "sale_median84": 18800,
+   "ratio": 74.5
+  },
+  {
+   "umd": "청전동",
+   "apt": "두진백로",
+   "built": 1995,
+   "jeonse_n": 4,
+   "jeonse_median84": 13000,
+   "sale_n": 7,
+   "sale_median84": 17500,
+   "ratio": 74.3
   },
   {
    "umd": "장락동",
@@ -159,16 +169,6 @@
    "sale_n": 5,
    "sale_median84": 19500,
    "ratio": 73.1
-  },
-  {
-   "umd": "청전동",
-   "apt": "두진백로",
-   "built": 1995,
-   "jeonse_n": 4,
-   "jeonse_median84": 13000,
-   "sale_n": 5,
-   "sale_median84": 18000,
-   "ratio": 72.2
   }
  ],
  "low_ratio_apts": [
@@ -193,16 +193,6 @@
    "ratio": 71.7
   },
   {
-   "umd": "청전동",
-   "apt": "두진백로",
-   "built": 1995,
-   "jeonse_n": 4,
-   "jeonse_median84": 13000,
-   "sale_n": 5,
-   "sale_median84": 18000,
-   "ratio": 72.2
-  },
-  {
    "umd": "하소동",
    "apt": "청구",
    "built": 2002,
@@ -221,6 +211,16 @@
    "sale_n": 5,
    "sale_median84": 41000,
    "ratio": 73.2
+  },
+  {
+   "umd": "청전동",
+   "apt": "두진백로",
+   "built": 1995,
+   "jeonse_n": 4,
+   "jeonse_median84": 13000,
+   "sale_n": 7,
+   "sale_median84": 17500,
+   "ratio": 74.3
   }
  ],
  "monthly": [
@@ -286,29 +286,29 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 11,
-   "n84": 2,
-   "jeonse_median84": 10250
+   "jeonse_count": 12,
+   "n84": 3,
+   "jeonse_median84": 7500
   },
   {
    "month": "2026-10",
-   "jeonse_count": 3,
-   "n84": 0,
-   "jeonse_median84": null
+   "jeonse_count": 9,
+   "n84": 1,
+   "jeonse_median84": 23500
   }
  ],
- "rank": 11,
+ "rank": 10,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 31.5,
+ "ratio_vs_avg_pp": 34.2,
  "umd_ratio_high": {
   "name": "신월동",
-  "ratio": 157.9
+  "ratio": 155.3
  },
  "umd_ratio_low": {
   "name": "장락동",
   "ratio": 113.6
  },
- "umd_spread_pp": 44.3,
- "gap84": -900
+ "umd_spread_pp": 41.7,
+ "gap84": -1500
 }

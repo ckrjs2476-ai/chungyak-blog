@@ -85,21 +85,21 @@
    "rank": 9
   },
   {
+   "lawd": "43150",
+   "name": "충청북도 제천시",
+   "ratio84": 106.4,
+   "jeonse_median84": 25000,
+   "sale_median84": 23500,
+   "jeonse_change_pct": 34.3,
+   "rank": 10
+  },
+  {
    "lawd": "48310",
    "name": "경상남도 거제시",
    "ratio84": 105.6,
    "jeonse_median84": 18900,
    "sale_median84": 17900,
    "jeonse_change_pct": 2.7,
-   "rank": 10
-  },
-  {
-   "lawd": "43150",
-   "name": "충청북도 제천시",
-   "ratio84": 103.7,
-   "jeonse_median84": 25000,
-   "sale_median84": 24100,
-   "jeonse_change_pct": 38.5,
    "rank": 11
   },
   {
@@ -150,8 +150,8 @@
   {
    "lawd": "43112",
    "name": "충청북도 청주시 서원구",
-   "ratio84": 94.0,
-   "jeonse_median84": 26800,
+   "ratio84": 94.4,
+   "jeonse_median84": 26900,
    "sale_median84": 28500,
    "jeonse_change_pct": -4.2,
    "rank": 17
@@ -258,11 +258,20 @@
   {
    "lawd": "43730",
    "name": "충청북도 옥천군",
-   "ratio84": 87.7,
+   "ratio84": 87.6,
    "jeonse_median84": 23250,
-   "sale_median84": 26525,
+   "sale_median84": 26550,
    "jeonse_change_pct": -5.1,
    "rank": 29
+  },
+  {
+   "lawd": "43111",
+   "name": "충청북도 청주시 상당구",
+   "ratio84": 87.3,
+   "jeonse_median84": 32900,
+   "sale_median84": 37700,
+   "jeonse_change_pct": -2.9,
+   "rank": 30
   },
   {
    "lawd": "48220",
@@ -271,15 +280,6 @@
    "jeonse_median84": 20000,
    "sale_median84": 23000,
    "jeonse_change_pct": -57.0,
-   "rank": 30
-  },
-  {
-   "lawd": "43111",
-   "name": "충청북도 청주시 상당구",
-   "ratio84": 86.9,
-   "jeonse_median84": 32900,
-   "sale_median84": 37850,
-   "jeonse_change_pct": -2.9,
    "rank": 31
   },
   {
@@ -364,31 +364,22 @@
    "rank": 40
   },
   {
-   "lawd": "43130",
-   "name": "충청북도 충주시",
-   "ratio84": 83.3,
-   "jeonse_median84": 24000,
-   "sale_median84": 28800,
-   "jeonse_change_pct": 5.2,
-   "rank": 41
-  },
-  {
    "lawd": "47230",
    "name": "경상북도 영천시",
    "ratio84": 83.0,
    "jeonse_median84": 20750,
    "sale_median84": 25000,
    "jeonse_change_pct": -29.7,
-   "rank": 42
+   "rank": 41
   },
   {
    "lawd": "43745",
    "name": "충청북도 증평군",
-   "ratio84": 82.3,
+   "ratio84": 82.8,
    "jeonse_median84": 20690,
-   "sale_median84": 25150,
+   "sale_median84": 25000,
    "jeonse_change_pct": 8.7,
-   "rank": 43
+   "rank": 42
   },
   {
    "lawd": "44150",
@@ -397,7 +388,7 @@
    "jeonse_median84": 20000,
    "sale_median84": 24350,
    "jeonse_change_pct": -4.8,
-   "rank": 44
+   "rank": 43
   },
   {
    "lawd": "27230",
@@ -406,7 +397,7 @@
    "jeonse_median84": 26750,
    "sale_median84": 32800,
    "jeonse_change_pct": 9.6,
-   "rank": 45
+   "rank": 44
   },
   {
    "lawd": "31110",
@@ -415,7 +406,7 @@
    "jeonse_median84": 39000,
    "sale_median84": 48070,
    "jeonse_change_pct": -2.5,
-   "rank": 46
+   "rank": 45
   },
   {
    "lawd": "47190",
@@ -424,7 +415,7 @@
    "jeonse_median84": 21000,
    "sale_median84": 26000,
    "jeonse_change_pct": 11.4,
-   "rank": 47
+   "rank": 46
   },
   {
    "lawd": "52113",
@@ -433,7 +424,7 @@
    "jeonse_median84": 34000,
    "sale_median84": 42100,
    "jeonse_change_pct": 6.4,
-   "rank": 48
+   "rank": 47
   },
   {
    "lawd": "28245",
@@ -442,7 +433,7 @@
    "jeonse_median84": 29000,
    "sale_median84": 36000,
    "jeonse_change_pct": -6.7,
-   "rank": 49
+   "rank": 48
   },
   {
    "lawd": "26710",
@@ -451,6 +442,15 @@
    "jeonse_median84": 25750,
    "sale_median84": 32100,
    "jeonse_change_pct": -3.5,
+   "rank": 49
+  },
+  {
+   "lawd": "43130",
+   "name": "충청북도 충주시",
+   "ratio84": 79.9,
+   "jeonse_median84": 23000,
+   "sale_median84": 28800,
+   "jeonse_change_pct": -12.5,
    "rank": 50
   },
   {
@@ -814,13 +814,22 @@
    "rank": 90
   },
   {
+   "lawd": "44250",
+   "name": "충청남도 계룡시",
+   "ratio84": 70.4,
+   "jeonse_median84": 16900,
+   "sale_median84": 24000,
+   "jeonse_change_pct": -2.8,
+   "rank": 91
+  },
+  {
    "lawd": "41111",
    "name": "경기도 수원시 장안구",
    "ratio84": 70.4,
    "jeonse_median84": 42000,
    "sale_median84": 59700,
    "jeonse_change_pct": -1.6,
-   "rank": 91
+   "rank": 92
   },
   {
    "lawd": "27290",
@@ -829,7 +838,7 @@
    "jeonse_median84": 26000,
    "sale_median84": 37000,
    "jeonse_change_pct": -3.8,
-   "rank": 92
+   "rank": 93
   },
   {
    "lawd": "26260",
@@ -838,7 +847,7 @@
    "jeonse_median84": 40000,
    "sale_median84": 57000,
    "jeonse_change_pct": -0.9,
-   "rank": 93
+   "rank": 94
   },
   {
    "lawd": "27710",
@@ -847,7 +856,7 @@
    "jeonse_median84": 21000,
    "sale_median84": 30000,
    "jeonse_change_pct": -2.3,
-   "rank": 94
+   "rank": 95
   },
   {
    "lawd": "26170",
@@ -856,7 +865,7 @@
    "jeonse_median84": 33600,
    "sale_median84": 49000,
    "jeonse_change_pct": 7.8,
-   "rank": 95
+   "rank": 96
   },
   {
    "lawd": "41192",
@@ -865,7 +874,7 @@
    "jeonse_median84": 47000,
    "sale_median84": 68500,
    "jeonse_change_pct": 5.4,
-   "rank": 96
+   "rank": 97
   },
   {
    "lawd": "41800",
@@ -874,7 +883,7 @@
    "jeonse_median84": 15300,
    "sale_median84": 22350,
    "jeonse_change_pct": -30.8,
-   "rank": 97
+   "rank": 98
   },
   {
    "lawd": "41220",
@@ -883,7 +892,7 @@
    "jeonse_median84": 25000,
    "sale_median84": 36500,
    "jeonse_change_pct": 0.0,
-   "rank": 98
+   "rank": 99
   },
   {
    "lawd": "41830",
@@ -892,7 +901,7 @@
    "jeonse_median84": 30000,
    "sale_median84": 44000,
    "jeonse_change_pct": 0.0,
-   "rank": 99
+   "rank": 100
   },
   {
    "lawd": "26410",
@@ -901,7 +910,7 @@
    "jeonse_median84": 32000,
    "sale_median84": 47000,
    "jeonse_change_pct": 7.6,
-   "rank": 100
+   "rank": 101
   },
   {
    "lawd": "27200",
@@ -910,7 +919,7 @@
    "jeonse_median84": 27900,
    "sale_median84": 41000,
    "jeonse_change_pct": 2.9,
-   "rank": 101
+   "rank": 102
   },
   {
    "lawd": "26140",
@@ -919,15 +928,6 @@
    "jeonse_median84": 36000,
    "sale_median84": 53000,
    "jeonse_change_pct": -5.0,
-   "rank": 102
-  },
-  {
-   "lawd": "44250",
-   "name": "충청남도 계룡시",
-   "ratio84": 67.8,
-   "jeonse_median84": 16600,
-   "sale_median84": 24500,
-   "jeonse_change_pct": -5.6,
    "rank": 103
   },
   {
@@ -1419,10 +1419,10 @@
   {
    "lawd": "43113",
    "name": "충청북도 청주시 흥덕구",
-   "ratio84": 54.3,
+   "ratio84": 54.4,
    "jeonse_median84": 25500,
-   "sale_median84": 47000,
-   "jeonse_change_pct": 25.5,
+   "sale_median84": 46900,
+   "jeonse_change_pct": 30.4,
    "rank": 158
   },
   {
@@ -1491,10 +1491,10 @@
   {
    "lawd": "43114",
    "name": "충청북도 청주시 청원구",
-   "ratio84": 48.8,
+   "ratio84": 48.9,
    "jeonse_median84": 16542,
-   "sale_median84": 33900,
-   "jeonse_change_pct": 33.3,
+   "sale_median84": 33800,
+   "jeonse_change_pct": 45.1,
    "rank": 166
   },
   {

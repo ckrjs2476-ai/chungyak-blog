@@ -1,72 +1,72 @@
 {
  "lawd": "43130",
  "name": "충청북도 충주시",
- "updated": "2026-10-17",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 1052,
- "wolse_count": 1761,
- "wolse_share_pct": 62.6,
- "renew_share_pct": 20.5,
- "jeonse_n84": 293,
- "jeonse_median84": 24000,
- "sale_n84": 739,
+ "jeonse_count": 1200,
+ "wolse_count": 1899,
+ "wolse_share_pct": 61.3,
+ "renew_share_pct": 24.4,
+ "jeonse_n84": 325,
+ "jeonse_median84": 23000,
+ "sale_n84": 771,
  "sale_median84": 28800,
- "ratio84": 83.3,
- "jeonse_recent3_median84": 25250,
+ "ratio84": 79.9,
+ "jeonse_recent3_median84": 21000,
  "jeonse_prev3_median84": 24000,
- "jeonse_change_pct": 5.2,
+ "jeonse_change_pct": -12.5,
  "apts_with_both": 28,
  "apts_ratio_80_plus": 8,
- "apts_ratio_70_plus": 22,
+ "apts_ratio_70_plus": 21,
  "umd": {
   "교현동": {
    "jeonse_n": 6,
    "jeonse_median84": 25000,
-   "sale_n": 36,
-   "sale_median84": 31150,
-   "ratio": 80.3
+   "sale_n": 37,
+   "sale_median84": 31000,
+   "ratio": 80.6
   },
   "대소원면 본리": {
-   "jeonse_n": 27,
+   "jeonse_n": 29,
    "jeonse_median84": 17000,
    "sale_n": 69,
    "sale_median84": 22900,
    "ratio": 74.2
   },
   "목행동": {
-   "jeonse_n": 13,
+   "jeonse_n": 37,
    "jeonse_median84": 18762,
-   "sale_n": 36,
-   "sale_median84": 22250,
-   "ratio": 84.3
+   "sale_n": 37,
+   "sale_median84": 22500,
+   "ratio": 83.4
   },
   "봉방동": {
    "jeonse_n": 48,
    "jeonse_median84": 28900,
-   "sale_n": 64,
-   "sale_median84": 36950,
-   "ratio": 78.2
+   "sale_n": 69,
+   "sale_median84": 37000,
+   "ratio": 78.1
   },
   "안림동": {
    "jeonse_n": 14,
    "jeonse_median84": 31000,
-   "sale_n": 51,
+   "sale_n": 57,
    "sale_median84": 29000,
    "ratio": 106.9
   },
   "연수동": {
-   "jeonse_n": 26,
-   "jeonse_median84": 25750,
-   "sale_n": 162,
-   "sale_median84": 30600,
-   "ratio": 84.2
+   "jeonse_n": 29,
+   "jeonse_median84": 26000,
+   "sale_n": 168,
+   "sale_median84": 30750,
+   "ratio": 84.6
   },
   "용산동": {
    "jeonse_n": 8,
    "jeonse_median84": 25000,
-   "sale_n": 39,
-   "sale_median84": 37700,
-   "ratio": 66.3
+   "sale_n": 40,
+   "sale_median84": 37950,
+   "ratio": 65.9
   },
   "주덕읍 화곡리": {
    "jeonse_n": 37,
@@ -76,25 +76,25 @@
    "ratio": 62.5
   },
   "중앙탑면 용전리": {
-   "jeonse_n": 86,
+   "jeonse_n": 87,
    "jeonse_median84": 22000,
-   "sale_n": 117,
-   "sale_median84": 28300,
-   "ratio": 77.7
+   "sale_n": 122,
+   "sale_median84": 28350,
+   "ratio": 77.6
   },
   "칠금동": {
    "jeonse_n": 4,
    "jeonse_median84": 20000,
-   "sale_n": 20,
-   "sale_median84": 24550,
-   "ratio": 81.5
+   "sale_n": 21,
+   "sale_median84": 24800,
+   "ratio": 80.6
   },
   "호암동": {
-   "jeonse_n": 22,
-   "jeonse_median84": 32250,
-   "sale_n": 107,
+   "jeonse_n": 24,
+   "jeonse_median84": 34750,
+   "sale_n": 111,
    "sale_median84": 43000,
-   "ratio": 75.0
+   "ratio": 80.8
   }
  },
  "top_ratio_apts": [
@@ -104,9 +104,9 @@
    "built": 2014,
    "jeonse_n": 4,
    "jeonse_median84": 27412,
-   "sale_n": 19,
-   "sale_median84": 30200,
-   "ratio": 90.8
+   "sale_n": 20,
+   "sale_median84": 30250,
+   "ratio": 90.6
   },
   {
    "umd": "안림동",
@@ -114,9 +114,9 @@
    "built": 2007,
    "jeonse_n": 4,
    "jeonse_median84": 24450,
-   "sale_n": 13,
-   "sale_median84": 27300,
-   "ratio": 89.6
+   "sale_n": 16,
+   "sale_median84": 27400,
+   "ratio": 89.2
   },
   {
    "umd": "연수동",
@@ -124,9 +124,9 @@
    "built": 2014,
    "jeonse_n": 5,
    "jeonse_median84": 27000,
-   "sale_n": 14,
-   "sale_median84": 31000,
-   "ratio": 87.1
+   "sale_n": 15,
+   "sale_median84": 31100,
+   "ratio": 86.8
   },
   {
    "umd": "칠금동",
@@ -139,16 +139,6 @@
    "ratio": 85.1
   },
   {
-   "umd": "연수동",
-   "apt": "연수아이파크",
-   "built": 2006,
-   "jeonse_n": 3,
-   "jeonse_median84": 25000,
-   "sale_n": 11,
-   "sale_median84": 30500,
-   "ratio": 82.0
-  },
-  {
    "umd": "용산동",
    "apt": "동일하이빌",
    "built": 2008,
@@ -157,6 +147,16 @@
    "sale_n": 11,
    "sale_median84": 30500,
    "ratio": 82.0
+  },
+  {
+   "umd": "연수동",
+   "apt": "연수아이파크",
+   "built": 2006,
+   "jeonse_n": 3,
+   "jeonse_median84": 25000,
+   "sale_n": 13,
+   "sale_median84": 30800,
+   "ratio": 81.2
   },
   {
    "umd": "안림동",
@@ -174,9 +174,9 @@
    "built": 2017,
    "jeonse_n": 33,
    "jeonse_median84": 23000,
-   "sale_n": 48,
-   "sale_median84": 28750,
-   "ratio": 80.0
+   "sale_n": 51,
+   "sale_median84": 28700,
+   "ratio": 80.1
   },
   {
    "umd": "교현동",
@@ -194,9 +194,9 @@
    "built": 2014,
    "jeonse_n": 20,
    "jeonse_median84": 30000,
-   "sale_n": 46,
-   "sale_median84": 37650,
-   "ratio": 79.7
+   "sale_n": 49,
+   "sale_median84": 37800,
+   "ratio": 79.4
   }
  ],
  "low_ratio_apts": [
@@ -224,7 +224,7 @@
    "umd": "대소원면 본리",
    "apt": "중앙하이츠프리미어충주",
    "built": 2023,
-   "jeonse_n": 20,
+   "jeonse_n": 22,
    "jeonse_median84": 17000,
    "sale_n": 15,
    "sale_median84": 26800,
@@ -236,9 +236,9 @@
    "built": 2002,
    "jeonse_n": 2,
    "jeonse_median84": 16500,
-   "sale_n": 11,
-   "sale_median84": 24800,
-   "ratio": 66.5
+   "sale_n": 12,
+   "sale_median84": 24900,
+   "ratio": 66.3
   },
   {
    "umd": "봉방동",
@@ -296,39 +296,39 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 77,
+   "jeonse_count": 78,
    "n84": 22,
    "jeonse_median84": 24500
   },
   {
    "month": "2026-07",
-   "jeonse_count": 74,
+   "jeonse_count": 75,
    "n84": 24,
    "jeonse_median84": 23050
   },
   {
    "month": "2026-08",
-   "jeonse_count": 63,
-   "n84": 14,
-   "jeonse_median84": 27150
+   "jeonse_count": 66,
+   "n84": 16,
+   "jeonse_median84": 25250
   },
   {
    "month": "2026-09",
-   "jeonse_count": 45,
+   "jeonse_count": 48,
    "n84": 17,
    "jeonse_median84": 32000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 20,
-   "n84": 5,
-   "jeonse_median84": 20000
+   "jeonse_count": 160,
+   "n84": 35,
+   "jeonse_median84": 18762
   }
  ],
- "rank": 41,
+ "rank": 50,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 11.1,
+ "ratio_vs_avg_pp": 7.7,
  "umd_ratio_high": {
   "name": "안림동",
   "ratio": 106.9
@@ -338,5 +338,5 @@
   "ratio": 74.2
  },
  "umd_spread_pp": 32.7,
- "gap84": 4800
+ "gap84": 5800
 }
