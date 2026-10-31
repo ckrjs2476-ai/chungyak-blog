@@ -2,45 +2,45 @@
  "lawd": "48730",
  "name": "경상남도 함안군",
  "months": 12,
- "updated": "2026-10-31",
- "trade_count": 376,
+ "updated": "2026-11-01",
+ "trade_count": 345,
  "cancel_count": 18,
- "n84": 120,
- "median84": 18750,
- "p25_84": 12125,
+ "n84": 113,
+ "median84": 18650,
+ "p25_84": 12250,
  "p75_84": 24000,
- "median84_pyeong_excl": 729,
+ "median84_pyeong_excl": 725,
  "new_n84": 0,
  "new_median84": null,
  "new_build_years": 5,
  "umd84": {
-  "칠원읍 오곡리": {
-   "n": 56,
-   "median": 19225
-  },
   "칠원읍": {
-   "n": 71,
-   "median": 18700
+   "n": 65,
+   "median": 18500
+  },
+  "칠원읍 오곡리": {
+   "n": 51,
+   "median": 19000
   },
   "가야읍 도항리": {
    "n": 17,
    "median": 32700
   },
   "가야읍": {
-   "n": 46,
-   "median": 21450
+   "n": 45,
+   "median": 21900
   },
   "가야읍 검암리": {
    "n": 10,
    "median": 22850
   },
   "가야읍 말산리": {
-   "n": 19,
+   "n": 18,
    "median": 12500
   },
   "칠원읍 구성리": {
-   "n": 6,
-   "median": 9600
+   "n": 5,
+   "median": 9500
   },
   "칠원읍 예곡리": {
    "n": 5,
@@ -52,12 +52,6 @@
   }
  },
  "monthly": [
-  {
-   "month": "2025-11",
-   "count": 31,
-   "n84": 7,
-   "median84": 20200
-  },
   {
    "month": "2025-12",
    "count": 44,
@@ -128,49 +122,49 @@
  "top_apts": [
   {
    "name": "칠원읍 오곡리 GS메트로자이",
-   "count": 64,
-   "median84": 18900,
+   "count": 57,
+   "median84": 18725,
    "built": 2006
   },
   {
    "name": "칠서면 무릉리 칠서에이스1단지",
-   "count": 40,
+   "count": 37,
    "median84": null,
    "built": 2001
   },
   {
    "name": "칠서면 무릉리 칠서에이스2단지",
-   "count": 32,
+   "count": 28,
    "median84": null,
    "built": 2001
   },
   {
    "name": "칠원읍 오곡리 부영벽산블루밍2차",
-   "count": 22,
-   "median84": 26000,
+   "count": 20,
+   "median84": 25900,
    "built": 2014
   },
   {
    "name": "칠원읍 오곡리 벽산블루밍",
-   "count": 20,
-   "median84": 18600,
+   "count": 19,
+   "median84": 18500,
    "built": 2008
   },
   {
    "name": "가야읍 도항리 도항주공1단지",
-   "count": 18,
+   "count": 16,
    "median84": null,
    "built": 2004
   },
   {
    "name": "칠원읍 구성리 칠원동성",
-   "count": 17,
-   "median84": 10100,
+   "count": 16,
+   "median84": 10500,
    "built": 2003
   },
   {
    "name": "가야읍 말산리 태완노블리안",
-   "count": 14,
+   "count": 12,
    "median84": 33100,
    "built": 2014
   },
@@ -181,10 +175,10 @@
    "built": 1998
   },
   {
-   "name": "가야읍 도항리 대경파미르(도항)",
-   "count": 11,
-   "median84": 33250,
-   "built": 2014
+   "name": "가야읍 도항리 동신102동103동",
+   "count": 10,
+   "median84": null,
+   "built": 1991
   }
  ]
 }

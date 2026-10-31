@@ -2,46 +2,40 @@
  "lawd": "26500",
  "name": "부산광역시 수영구",
  "months": 12,
- "updated": "2026-10-31",
- "trade_count": 1855,
- "cancel_count": 135,
- "n84": 802,
- "median84": 71000,
- "p25_84": 50187,
- "p75_84": 96000,
- "median84_pyeong_excl": 2762,
- "new_n84": 152,
+ "updated": "2026-11-01",
+ "trade_count": 1643,
+ "cancel_count": 114,
+ "n84": 701,
+ "median84": 70000,
+ "p25_84": 50000,
+ "p75_84": 95500,
+ "median84_pyeong_excl": 2727,
+ "new_n84": 135,
  "new_median84": 120000,
  "new_build_years": 5,
  "umd84": {
   "민락동": {
-   "n": 273,
-   "median": 85000
+   "n": 237,
+   "median": 85500
   },
   "망미동": {
-   "n": 125,
-   "median": 42800
+   "n": 113,
+   "median": 43900
   },
   "광안동": {
-   "n": 166,
-   "median": 58000
+   "n": 148,
+   "median": 58350
   },
   "남천동": {
-   "n": 194,
+   "n": 162,
    "median": 94500
   },
   "수영동": {
-   "n": 44,
+   "n": 41,
    "median": 58000
   }
  },
  "monthly": [
-  {
-   "month": "2025-11",
-   "count": 212,
-   "n84": 101,
-   "median84": 83000
-  },
   {
    "month": "2025-12",
    "count": 188,
@@ -112,63 +106,63 @@
  "top_apts": [
   {
    "name": "남천동 삼익비치",
-   "count": 221,
-   "median84": 117000,
+   "count": 192,
+   "median84": 118000,
    "built": 1979
   },
   {
    "name": "망미동 수영SKVIEW1단지",
-   "count": 86,
-   "median84": 65900,
+   "count": 78,
+   "median84": 66000,
    "built": 2019
   },
   {
    "name": "민락동 테넌바움294",
-   "count": 78,
-   "median84": 119250,
+   "count": 73,
+   "median84": 113000,
    "built": 2023
   },
   {
    "name": "남천동 더샵남천프레스티지",
-   "count": 65,
-   "median84": 120000,
+   "count": 56,
+   "median84": 122000,
    "built": 2022
   },
   {
    "name": "광안동 광안자이",
-   "count": 56,
-   "median84": 99000,
+   "count": 51,
+   "median84": 101000,
    "built": 2020
   },
   {
-   "name": "민락동 부산더샵센텀포레",
-   "count": 50,
-   "median84": 88500,
-   "built": 2014
-  },
-  {
-   "name": "민락동 센텀비스타동원",
-   "count": 49,
-   "median84": 87650,
-   "built": 2017
-  },
-  {
-   "name": "남천동 뉴비치",
-   "count": 46,
-   "median84": 90250,
-   "built": 1986
-  },
-  {
    "name": "민락동 센텀비치푸르지오",
-   "count": 45,
-   "median84": 56250,
+   "count": 44,
+   "median84": 56000,
    "built": 2003
   },
   {
-   "name": "광안동 비치-그린아파트",
+   "name": "남천동 뉴비치",
    "count": 40,
-   "median84": 40250,
-   "built": 1996
+   "median84": 90650,
+   "built": 1986
+  },
+  {
+   "name": "민락동 센텀비스타동원",
+   "count": 40,
+   "median84": 87800,
+   "built": 2017
+  },
+  {
+   "name": "민락동 부산더샵센텀포레",
+   "count": 40,
+   "median84": 90000,
+   "built": 2014
+  },
+  {
+   "name": "남천동 코오롱하늘채골든비치",
+   "count": 35,
+   "median84": 94800,
+   "built": 2009
   }
  ]
 }

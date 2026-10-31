@@ -2,42 +2,36 @@
  "lawd": "26440",
  "name": "부산광역시 강서구",
  "months": 12,
- "updated": "2026-10-31",
- "trade_count": 1443,
- "cancel_count": 79,
- "n84": 592,
- "median84": 44000,
- "p25_84": 33500,
+ "updated": "2026-11-01",
+ "trade_count": 1291,
+ "cancel_count": 64,
+ "n84": 528,
+ "median84": 43750,
+ "p25_84": 33550,
  "p75_84": 54500,
- "median84_pyeong_excl": 1722,
+ "median84_pyeong_excl": 1711,
  "new_n84": 12,
  "new_median84": 57250,
  "new_build_years": 5,
  "umd84": {
   "명지동": {
-   "n": 555,
-   "median": 44900
+   "n": 495,
+   "median": 44500
   },
   "강동동": {
    "n": 12,
    "median": 57250
   },
   "신호동": {
-   "n": 16,
-   "median": 21000
+   "n": 14,
+   "median": 21250
   },
   "지사동": {
-   "n": 9,
+   "n": 7,
    "median": 22500
   }
  },
  "monthly": [
-  {
-   "month": "2025-11",
-   "count": 152,
-   "n84": 64,
-   "median84": 46900
-  },
   {
    "month": "2025-12",
    "count": 133,
@@ -108,63 +102,63 @@
  "top_apts": [
   {
    "name": "명지동 명지협성휴포레",
-   "count": 117,
+   "count": 105,
    "median84": null,
    "built": 2016
   },
   {
    "name": "명지동 더샵명지퍼스트월드3단지",
-   "count": 99,
+   "count": 89,
    "median84": 59000,
    "built": 2020
   },
   {
    "name": "지사동 협성·DS엘리시안",
-   "count": 87,
-   "median84": 23150,
+   "count": 73,
+   "median84": 23000,
    "built": 2015
   },
   {
    "name": "명지동 부산명지중흥S-클래스프라디움",
-   "count": 73,
+   "count": 66,
    "median84": null,
    "built": 2016
   },
   {
    "name": "명지동 더샵명지퍼스트월드2단지",
-   "count": 71,
-   "median84": 58900,
+   "count": 62,
+   "median84": 58500,
    "built": 2020
   },
   {
    "name": "명지동 에일린의 뜰",
-   "count": 68,
+   "count": 62,
    "median84": 47000,
    "built": 2015
   },
   {
-   "name": "명지동 명지더웨스턴",
-   "count": 59,
-   "median84": 43000,
-   "built": 2018
-  },
-  {
    "name": "지사동 지사금강펜테리움",
-   "count": 57,
+   "count": 56,
    "median84": null,
    "built": 2013
   },
   {
-   "name": "명지동 명지1차 금강펜테리움 센트럴파크",
-   "count": 56,
-   "median84": 41500,
-   "built": 2015
+   "name": "명지동 명지더웨스턴",
+   "count": 54,
+   "median84": 42750,
+   "built": 2018
   },
   {
    "name": "명지동 명지두산위브포세이돈",
-   "count": 56,
+   "count": 51,
    "median84": 32500,
    "built": 2013
+  },
+  {
+   "name": "명지동 명지1차 금강펜테리움 센트럴파크",
+   "count": 50,
+   "median84": 41500,
+   "built": 2015
   }
  ]
 }

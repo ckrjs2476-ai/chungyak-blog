@@ -2,62 +2,52 @@
  "lawd": "48270",
  "name": "경상남도 밀양시",
  "months": 12,
- "updated": "2026-10-31",
- "trade_count": 671,
- "cancel_count": 39,
- "n84": 288,
- "median84": 21950,
- "p25_84": 14837,
- "p75_84": 33950,
- "median84_pyeong_excl": 854,
- "new_n84": 17,
- "new_median84": 35300,
+ "updated": "2026-11-01",
+ "trade_count": 606,
+ "cancel_count": 34,
+ "n84": 260,
+ "median84": 22000,
+ "p25_84": 15325,
+ "p75_84": 34000,
+ "median84_pyeong_excl": 857,
+ "new_n84": 16,
+ "new_median84": 35450,
  "new_build_years": 5,
  "umd84": {
   "삼문동": {
-   "n": 141,
-   "median": 18300
+   "n": 126,
+   "median": 19200
   },
   "내이동": {
-   "n": 84,
-   "median": 31800
+   "n": 77,
+   "median": 32000
   },
   "교동": {
-   "n": 16,
-   "median": 21500
-  },
-  "상남면 예림리": {
-   "n": 6,
-   "median": 14350
+   "n": 14,
+   "median": 21750
   },
   "상남면": {
    "n": 6,
    "median": 14350
   },
+  "상남면 예림리": {
+   "n": 6,
+   "median": 14350
+  },
   "가곡동": {
-   "n": 29,
-   "median": 35000
+   "n": 26,
+   "median": 36250
+  },
+  "하남읍": {
+   "n": 7,
+   "median": 18500
   },
   "하남읍 수산리": {
    "n": 5,
    "median": 21500
-  },
-  "하남읍": {
-   "n": 8,
-   "median": 17750
-  },
-  "하남읍 양동리": {
-   "n": 3,
-   "median": 7400
   }
  },
  "monthly": [
-  {
-   "month": "2025-11",
-   "count": 65,
-   "n84": 28,
-   "median84": 16800
-  },
   {
    "month": "2025-12",
    "count": 46,
@@ -128,63 +118,63 @@
  "top_apts": [
   {
    "name": "삼문동 유성청구타운",
-   "count": 41,
-   "median84": 19350,
+   "count": 35,
+   "median84": 19500,
    "built": 1994
   },
   {
-   "name": "내이동 이편한세상밀양나노밸리",
-   "count": 33,
-   "median84": 35300,
-   "built": 2022
-  },
-  {
    "name": "상남면 예림리 밀양예림대동타운",
-   "count": 32,
+   "count": 30,
    "median84": 14350,
    "built": 1997
   },
   {
    "name": "내이동 쌍용더플래티넘밀양",
-   "count": 32,
-   "median84": 30000,
+   "count": 30,
+   "median84": 30500,
    "built": 2019
   },
   {
+   "name": "내이동 이편한세상밀양나노밸리",
+   "count": 29,
+   "median84": 35450,
+   "built": 2022
+  },
+  {
    "name": "가곡동 밀양가곡주공2",
-   "count": 23,
+   "count": 22,
    "median84": null,
    "built": 1995
   },
   {
-   "name": "가곡동 밀양강푸르지오",
-   "count": 23,
-   "median84": 38500,
-   "built": 2019
-  },
-  {
-   "name": "내이동 e편한세상밀양강",
-   "count": 22,
-   "median84": 38500,
-   "built": 2019
-  },
-  {
    "name": "내이동 밀양나노시티한신더휴",
-   "count": 22,
+   "count": 21,
    "median84": 33700,
    "built": 2020
   },
   {
-   "name": "교동 밀양우신그린피아",
+   "name": "가곡동 밀양강푸르지오",
+   "count": 21,
+   "median84": 38700,
+   "built": 2019
+  },
+  {
+   "name": "내이동 e편한세상밀양강",
    "count": 20,
+   "median84": 38500,
+   "built": 2019
+  },
+  {
+   "name": "교동 밀양우신그린피아",
+   "count": 19,
    "median84": null,
    "built": 1997
   },
   {
-   "name": "내이동 내이현대",
-   "count": 19,
-   "median84": 15100,
-   "built": 1997
+   "name": "삼문동 삼문동지엘리베라움",
+   "count": 17,
+   "median84": 33400,
+   "built": 2014
   }
  ]
 }
