@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 10:44",
+ "updated": "2026-10-31 10:51",
  "stage": 1,
  "band": [
   30,
@@ -149,18 +149,6 @@
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
    "score": 77.0,
    "used": true
-  },
-  {
-   "keyword": "한남더힐관리비",
-   "volume": 140,
-   "comp": "높음",
-   "entity": "한남더힐",
-   "entity_id": "A14077902",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
   },
   {
    "keyword": "관리비평균",
@@ -329,6 +317,18 @@
    "why": "",
    "score": 21.2,
    "used": false
+  },
+  {
+   "keyword": "한남더힐관리비",
+   "volume": 140,
+   "comp": "높음",
+   "entity": "한남더힐",
+   "entity_id": "A14077902",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
   },
   {
    "keyword": "이문아이파크자이관리비",

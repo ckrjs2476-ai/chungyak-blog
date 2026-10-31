@@ -1,45 +1,33 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "blogs": {
   "cheongyak": {
-   "posts": 40,
+   "posts": 42,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "stats": 1,
     "region": 3,
     "competition": 2,
     "remainder": 1,
-    "notice": 1
+    "notice": 2
    },
    "format_concentrated": false,
-   "stale": {},
+   "stale": {
+    "2026-10-22-remainder-1026-remainder.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '10월 29일에 당첨자를 발표합니다'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 1
   },
   "jeonse": {
-   "posts": 25,
+   "posts": 26,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "topic": 3,
     "ranking": 1,
-    "region": 4
-   },
-   "format_concentrated": false,
-   "stale": {},
-   "conflicts": [],
-   "anomalies": {},
-   "to_fix": 0
-  },
-  "gongmoju": {
-   "posts": 28,
-   "skeleton_pairs": [],
-   "overlap_pairs": [],
-   "type_share": {
-    "weekly": 1,
-    "ipo": 5,
+    "region": 5,
     "topic": 2
    },
    "format_concentrated": false,
@@ -48,9 +36,40 @@
    "anomalies": {},
    "to_fix": 0
   },
-  "gwanribi": {
-   "posts": 26,
+  "gongmoju": {
+   "posts": 30,
    "skeleton_pairs": [],
+   "overlap_pairs": [],
+   "type_share": {
+    "ipo": 5,
+    "topic": 3
+   },
+   "format_concentrated": false,
+   "stale": {
+    "2026-10-22-01863318-ipo.md": [
+     "공모가가 확정됐는데 '아직 확정 전'으로 씀"
+    ]
+   },
+   "conflicts": [],
+   "anomalies": {},
+   "to_fix": 1
+  },
+  "gwanribi": {
+   "posts": 28,
+   "skeleton_pairs": [
+    [
+     "2026-10-22-A15380403-complex.md",
+     "2026-10-30-A14077902-complex.md",
+     0.81,
+     0.0
+    ],
+    [
+     "2026-10-28-A44347026-complex.md",
+     "2026-10-30-A14077902-complex.md",
+     0.81,
+     0.01
+    ]
+   ],
    "overlap_pairs": [],
    "type_share": {
     "topic": 2,
@@ -61,14 +80,16 @@
    "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 2
   },
   "drone": {
-   "posts": 1,
+   "posts": 3,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "rule": 1
+    "rule": 1,
+    "basic": 1,
+    "job": 1
    },
    "format_concentrated": false,
    "stale": {},

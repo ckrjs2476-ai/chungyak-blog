@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 10:44",
+ "updated": "2026-10-31 10:51",
  "stage": 1,
  "band": [
   30,
@@ -67,26 +67,14 @@
    "used": false
   },
   {
-   "keyword": "다비오공모가",
-   "volume": 30,
-   "comp": "중간",
-   "entity": "다비오",
-   "entity_id": "01706509",
-   "base_score": 85.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
-  {
    "keyword": "다비오수요예측",
    "volume": 730,
    "comp": "낮음",
    "entity": "다비오",
    "entity_id": "01706509",
    "base_score": 100.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
    "score": 100.0,
    "used": false
   },
@@ -151,6 +139,18 @@
    "used": false
   },
   {
+   "keyword": "다비오공모가",
+   "volume": 30,
+   "comp": "중간",
+   "entity": "다비오",
+   "entity_id": "01706509",
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 93.5,
+   "used": false
+  },
+  {
    "keyword": "이에스티공모가",
    "volume": 130,
    "comp": "중간",
@@ -160,18 +160,6 @@
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
    "score": 93.5,
-   "used": false
-  },
-  {
-   "keyword": "아델공모주",
-   "volume": 100,
-   "comp": "중간",
-   "entity": "아델",
-   "entity_id": "01938746",
-   "base_score": 85.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 85.0,
    "used": false
   },
   {
@@ -523,6 +511,18 @@
    "used": true
   },
   {
+   "keyword": "아델공모주",
+   "volume": 100,
+   "comp": "중간",
+   "entity": "아델",
+   "entity_id": "01938746",
+   "base_score": 85.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 25.5,
+   "used": true
+  },
+  {
    "keyword": "에스에프씨공모주",
    "volume": 30,
    "comp": "중간",
@@ -679,6 +679,30 @@
    "used": false
   },
   {
+   "keyword": "아델공모가",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "아델",
+   "entity_id": "01938746",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "아델수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "아델",
+   "entity_id": "01938746",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
    "keyword": "하나에어로다이내믹스공모가",
    "volume": 10,
    "comp": "중간",
@@ -784,7 +808,7 @@
    "growth": 1.0,
    "why": "",
    "score": 21.2,
-   "used": false
+   "used": true
   },
   {
    "keyword": "8월공모주일정",
@@ -1087,18 +1111,6 @@
    "used": false
   },
   {
-   "keyword": "아델공모가",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "아델",
-   "entity_id": "01938746",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "케이엠에프공모가",
    "volume": 10,
    "comp": "낮음",
@@ -1116,18 +1128,6 @@
    "comp": "낮음",
    "entity": "케이엠에프",
    "entity_id": "01880139",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "아델수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "아델",
-   "entity_id": "01938746",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -1747,18 +1747,6 @@
    "used": true
   },
   {
-   "keyword": "다비오공모주",
-   "volume": 2970,
-   "comp": "중간",
-   "entity": "다비오",
-   "entity_id": "01706509",
-   "base_score": 34.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 11.7,
-   "used": true
-  },
-  {
    "keyword": "1월공모주",
    "volume": 25,
    "comp": "높음",
@@ -1853,6 +1841,18 @@
    "why": "",
    "score": 10.5,
    "used": false
+  },
+  {
+   "keyword": "다비오공모주",
+   "volume": 2970,
+   "comp": "중간",
+   "entity": "다비오",
+   "entity_id": "01706509",
+   "base_score": 34.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 10.2,
+   "used": true
   },
   {
    "keyword": "공모주상장",
