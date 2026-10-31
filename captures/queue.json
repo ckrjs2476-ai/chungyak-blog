@@ -1,1 +1,137 @@
-[]
+[
+ {
+  "name": "cy-2026000464-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000464&pblancNo=2026000464",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "cy-2026000463-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000463&pblancNo=2026000463",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "cy-2026000513-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000513&pblancNo=2026000513",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "cy-2026000446-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000446&pblancNo=2026000446",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "js-51130-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "강원"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "원주"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-26440-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "부산"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "강서"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-11200-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "서울"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "성동"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "ipo-01950720-dart",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367",
+  "sleep": 4
+ },
+ {
+  "name": "ipo-00960234-dart",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616",
+  "sleep": 4
+ }
+]
