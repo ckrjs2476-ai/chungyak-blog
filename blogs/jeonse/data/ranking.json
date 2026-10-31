@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "count": 179,
  "avg_ratio84": 72.2,
  "regions": [
@@ -42,10 +42,10 @@
   {
    "lawd": "30230",
    "name": "대전광역시 대덕구",
-   "ratio84": 117.3,
+   "ratio84": 117.6,
    "jeonse_median84": 36000,
-   "sale_median84": 30700,
-   "jeonse_change_pct": -8.0,
+   "sale_median84": 30600,
+   "jeonse_change_pct": -14.0,
    "rank": 5
   },
   {
@@ -105,10 +105,10 @@
   {
    "lawd": "31170",
    "name": "울산광역시 동구",
-   "ratio84": 101.9,
+   "ratio84": 101.6,
    "jeonse_median84": 32000,
-   "sale_median84": 31400,
-   "jeonse_change_pct": -17.0,
+   "sale_median84": 31500,
+   "jeonse_change_pct": -17.7,
    "rank": 12
   },
   {
@@ -240,9 +240,9 @@
   {
    "lawd": "44133",
    "name": "충청남도 천안시 서북구",
-   "ratio84": 88.5,
+   "ratio84": 88.3,
    "jeonse_median84": 27800,
-   "sale_median84": 31400,
+   "sale_median84": 31500,
    "jeonse_change_pct": -1.8,
    "rank": 27
   },
@@ -252,17 +252,8 @@
    "ratio84": 88.1,
    "jeonse_median84": 22914,
    "sale_median84": 26000,
-   "jeonse_change_pct": -9.1,
+   "jeonse_change_pct": -8.3,
    "rank": 28
-  },
-  {
-   "lawd": "44200",
-   "name": "충청남도 아산시",
-   "ratio84": 87.7,
-   "jeonse_median84": 25000,
-   "sale_median84": 28500,
-   "jeonse_change_pct": 8.3,
-   "rank": 29
   },
   {
    "lawd": "43730",
@@ -271,7 +262,7 @@
    "jeonse_median84": 23250,
    "sale_median84": 26525,
    "jeonse_change_pct": -5.1,
-   "rank": 30
+   "rank": 29
   },
   {
    "lawd": "48220",
@@ -280,7 +271,7 @@
    "jeonse_median84": 20000,
    "sale_median84": 23000,
    "jeonse_change_pct": -57.0,
-   "rank": 31
+   "rank": 30
   },
   {
    "lawd": "43111",
@@ -289,6 +280,15 @@
    "jeonse_median84": 32900,
    "sale_median84": 37850,
    "jeonse_change_pct": -2.9,
+   "rank": 31
+  },
+  {
+   "lawd": "44200",
+   "name": "충청남도 아산시",
+   "ratio84": 86.8,
+   "jeonse_median84": 25000,
+   "sale_median84": 28800,
+   "jeonse_change_pct": 8.3,
    "rank": 32
   },
   {
@@ -312,28 +312,28 @@
   {
    "lawd": "31140",
    "name": "울산광역시 남구",
-   "ratio84": 84.5,
+   "ratio84": 84.3,
    "jeonse_median84": 41000,
-   "sale_median84": 48500,
-   "jeonse_change_pct": 10.3,
+   "sale_median84": 48650,
+   "jeonse_change_pct": 7.7,
    "rank": 35
-  },
-  {
-   "lawd": "30110",
-   "name": "대전광역시 동구",
-   "ratio84": 84.4,
-   "jeonse_median84": 27000,
-   "sale_median84": 32000,
-   "jeonse_change_pct": 0.6,
-   "rank": 36
   },
   {
    "lawd": "31710",
    "name": "울산광역시 울주군",
    "ratio84": 84.2,
-   "jeonse_median84": 30975,
+   "jeonse_median84": 30987,
    "sale_median84": 36800,
    "jeonse_change_pct": 0.0,
+   "rank": 36
+  },
+  {
+   "lawd": "44131",
+   "name": "충청남도 천안시 동남구",
+   "ratio84": 84.2,
+   "jeonse_median84": 21300,
+   "sale_median84": 25300,
+   "jeonse_change_pct": 10.0,
    "rank": 37
   },
   {
@@ -346,13 +346,22 @@
    "rank": 38
   },
   {
+   "lawd": "30110",
+   "name": "대전광역시 동구",
+   "ratio84": 84.1,
+   "jeonse_median84": 27000,
+   "sale_median84": 32100,
+   "jeonse_change_pct": 1.8,
+   "rank": 39
+  },
+  {
    "lawd": "47900",
    "name": "경상북도 예천군",
    "ratio84": 83.6,
    "jeonse_median84": 23000,
    "sale_median84": 27500,
    "jeonse_change_pct": -4.3,
-   "rank": 39
+   "rank": 40
   },
   {
    "lawd": "43130",
@@ -361,7 +370,7 @@
    "jeonse_median84": 24000,
    "sale_median84": 28800,
    "jeonse_change_pct": 5.2,
-   "rank": 40
+   "rank": 41
   },
   {
    "lawd": "47230",
@@ -370,15 +379,6 @@
    "jeonse_median84": 20750,
    "sale_median84": 25000,
    "jeonse_change_pct": -29.7,
-   "rank": 41
-  },
-  {
-   "lawd": "44131",
-   "name": "충청남도 천안시 동남구",
-   "ratio84": 82.4,
-   "jeonse_median84": 21000,
-   "sale_median84": 25500,
-   "jeonse_change_pct": 0.0,
    "rank": 42
   },
   {
@@ -396,7 +396,7 @@
    "ratio84": 82.1,
    "jeonse_median84": 20000,
    "sale_median84": 24350,
-   "jeonse_change_pct": -7.1,
+   "jeonse_change_pct": -4.8,
    "rank": 44
   },
   {
@@ -414,7 +414,7 @@
    "ratio84": 81.1,
    "jeonse_median84": 39000,
    "sale_median84": 48070,
-   "jeonse_change_pct": -3.2,
+   "jeonse_change_pct": -2.5,
    "rank": 46
   },
   {
@@ -571,13 +571,22 @@
    "rank": 63
   },
   {
+   "lawd": "44180",
+   "name": "충청남도 보령시",
+   "ratio84": 76.6,
+   "jeonse_median84": 19350,
+   "sale_median84": 25250,
+   "jeonse_change_pct": 3.7,
+   "rank": 64
+  },
+  {
    "lawd": "51130",
    "name": "강원특별자치도 원주시",
    "ratio84": 76.4,
    "jeonse_median84": 21000,
    "sale_median84": 27500,
    "jeonse_change_pct": 4.8,
-   "rank": 64
+   "rank": 65
   },
   {
    "lawd": "44810",
@@ -586,7 +595,7 @@
    "jeonse_median84": 19000,
    "sale_median84": 25000,
    "jeonse_change_pct": 0.0,
-   "rank": 65
+   "rank": 66
   },
   {
    "lawd": "41287",
@@ -595,7 +604,7 @@
    "jeonse_median84": 31000,
    "sale_median84": 41000,
    "jeonse_change_pct": 6.0,
-   "rank": 66
+   "rank": 67
   },
   {
    "lawd": "41480",
@@ -604,7 +613,7 @@
    "jeonse_median84": 30000,
    "sale_median84": 39800,
    "jeonse_change_pct": 6.9,
-   "rank": 67
+   "rank": 68
   },
   {
    "lawd": "48123",
@@ -613,7 +622,7 @@
    "jeonse_median84": 31000,
    "sale_median84": 41300,
    "jeonse_change_pct": 3.3,
-   "rank": 68
+   "rank": 69
   },
   {
    "lawd": "41410",
@@ -622,7 +631,7 @@
    "jeonse_median84": 42000,
    "sale_median84": 56000,
    "jeonse_change_pct": 0.0,
-   "rank": 69
+   "rank": 70
   },
   {
    "lawd": "28125",
@@ -631,7 +640,7 @@
    "jeonse_median84": 21000,
    "sale_median84": 28000,
    "jeonse_change_pct": -42.0,
-   "rank": 70
+   "rank": 71
   },
   {
    "lawd": "51110",
@@ -640,7 +649,7 @@
    "jeonse_median84": 24000,
    "sale_median84": 32000,
    "jeonse_change_pct": -8.5,
-   "rank": 71
+   "rank": 72
   },
   {
    "lawd": "44270",
@@ -649,7 +658,7 @@
    "jeonse_median84": 18700,
    "sale_median84": 25000,
    "jeonse_change_pct": 12.3,
-   "rank": 72
+   "rank": 73
   },
   {
    "lawd": "47850",
@@ -658,7 +667,7 @@
    "jeonse_median84": 13000,
    "sale_median84": 17500,
    "jeonse_change_pct": -15.4,
-   "rank": 73
+   "rank": 74
   },
   {
    "lawd": "51230",
@@ -667,7 +676,7 @@
    "jeonse_median84": 24500,
    "sale_median84": 33000,
    "jeonse_change_pct": 12.5,
-   "rank": 74
+   "rank": 75
   },
   {
    "lawd": "28237",
@@ -676,15 +685,6 @@
    "jeonse_median84": 31500,
    "sale_median84": 42500,
    "jeonse_change_pct": 9.2,
-   "rank": 75
-  },
-  {
-   "lawd": "44180",
-   "name": "충청남도 보령시",
-   "ratio84": 73.6,
-   "jeonse_median84": 19000,
-   "sale_median84": 25800,
-   "jeonse_change_pct": 1.8,
    "rank": 76
   },
   {
@@ -699,10 +699,10 @@
   {
    "lawd": "31200",
    "name": "울산광역시 북구",
-   "ratio84": 72.4,
+   "ratio84": 72.6,
    "jeonse_median84": 27000,
-   "sale_median84": 37300,
-   "jeonse_change_pct": -10.3,
+   "sale_median84": 37200,
+   "jeonse_change_pct": -9.9,
    "rank": 78
   },
   {
@@ -1032,9 +1032,9 @@
   {
    "lawd": "30200",
    "name": "대전광역시 유성구",
-   "ratio84": 66.0,
+   "ratio84": 65.6,
    "jeonse_median84": 32000,
-   "sale_median84": 48500,
+   "sale_median84": 48800,
    "jeonse_change_pct": 6.5,
    "rank": 115
   },
@@ -1516,21 +1516,21 @@
    "rank": 168
   },
   {
+   "lawd": "36110",
+   "name": "세종특별자치시",
+   "ratio84": 45.0,
+   "jeonse_median84": 27000,
+   "sale_median84": 60000,
+   "jeonse_change_pct": 2.9,
+   "rank": 169
+  },
+  {
    "lawd": "11200",
    "name": "서울특별시 성동구",
    "ratio84": 44.7,
    "jeonse_median84": 80000,
    "sale_median84": 179000,
    "jeonse_change_pct": 5.0,
-   "rank": 169
-  },
-  {
-   "lawd": "36110",
-   "name": "세종특별자치시",
-   "ratio84": 44.5,
-   "jeonse_median84": 26675,
-   "sale_median84": 60000,
-   "jeonse_change_pct": 0.0,
    "rank": 170
   },
   {

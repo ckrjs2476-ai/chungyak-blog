@@ -1,15 +1,15 @@
 {
  "lawd": "31710",
  "name": "울산광역시 울주군",
- "updated": "2026-10-16",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 699,
- "wolse_count": 1123,
- "wolse_share_pct": 61.6,
- "renew_share_pct": 24.7,
- "jeonse_n84": 261,
- "jeonse_median84": 30975,
- "sale_n84": 801,
+ "jeonse_count": 738,
+ "wolse_count": 1179,
+ "wolse_share_pct": 61.5,
+ "renew_share_pct": 24.1,
+ "jeonse_n84": 278,
+ "jeonse_median84": 30987,
+ "sale_n84": 830,
  "sale_median84": 36800,
  "ratio84": 84.2,
  "jeonse_recent3_median84": 30000,
@@ -20,30 +20,30 @@
  "apts_ratio_70_plus": 28,
  "umd": {
   "범서읍 구영리": {
-   "jeonse_n": 24,
-   "jeonse_median84": 35000,
-   "sale_n": 108,
+   "jeonse_n": 26,
+   "jeonse_median84": 35350,
+   "sale_n": 114,
    "sale_median84": 44000,
-   "ratio": 79.5
+   "ratio": 80.3
   },
   "범서읍 굴화리": {
-   "jeonse_n": 40,
+   "jeonse_n": 43,
    "jeonse_median84": 42000,
-   "sale_n": 157,
-   "sale_median84": 54500,
-   "ratio": 77.1
+   "sale_n": 165,
+   "sale_median84": 54700,
+   "ratio": 76.8
   },
   "범서읍 천상리": {
    "jeonse_n": 19,
    "jeonse_median84": 17500,
-   "sale_n": 91,
-   "sale_median84": 20900,
-   "ratio": 83.7
+   "sale_n": 93,
+   "sale_median84": 21000,
+   "ratio": 83.3
   },
   "삼남읍 교동리": {
-   "jeonse_n": 36,
+   "jeonse_n": 40,
    "jeonse_median84": 29000,
-   "sale_n": 77,
+   "sale_n": 79,
    "sale_median84": 36800,
    "ratio": 78.8
   },
@@ -57,9 +57,9 @@
   "언양읍 동부리": {
    "jeonse_n": 5,
    "jeonse_median84": 24000,
-   "sale_n": 33,
-   "sale_median84": 28200,
-   "ratio": 85.1
+   "sale_n": 36,
+   "sale_median84": 27900,
+   "ratio": 86.0
   },
   "언양읍 반천리": {
    "jeonse_n": 5,
@@ -76,37 +76,37 @@
    "ratio": 79.1
   },
   "언양읍 어음리": {
-   "jeonse_n": 26,
-   "jeonse_median84": 31750,
+   "jeonse_n": 28,
+   "jeonse_median84": 31000,
    "sale_n": 29,
    "sale_median84": 43300,
-   "ratio": 73.3
+   "ratio": 71.6
   },
   "온양읍 대안리": {
    "jeonse_n": 12,
    "jeonse_median84": 18500,
-   "sale_n": 57,
-   "sale_median84": 17500,
-   "ratio": 105.7
+   "sale_n": 60,
+   "sale_median84": 17350,
+   "ratio": 106.6
   },
   "온양읍 발리": {
-   "jeonse_n": 15,
+   "jeonse_n": 17,
    "jeonse_median84": 27000,
-   "sale_n": 31,
-   "sale_median84": 32300,
-   "ratio": 83.6
+   "sale_n": 33,
+   "sale_median84": 32000,
+   "ratio": 84.4
   },
   "청량읍 덕하리": {
-   "jeonse_n": 49,
-   "jeonse_median84": 40000,
-   "sale_n": 36,
+   "jeonse_n": 53,
+   "jeonse_median84": 39000,
+   "sale_n": 38,
    "sale_median84": 52500,
-   "ratio": 76.2
+   "ratio": 74.3
   },
   "청량읍 삼정리": {
    "jeonse_n": 4,
    "jeonse_median84": 13000,
-   "sale_n": 23,
+   "sale_n": 24,
    "sale_median84": 15500,
    "ratio": 83.9
   },
@@ -132,9 +132,9 @@
    "built": 1993,
    "jeonse_n": 3,
    "jeonse_median84": 17000,
-   "sale_n": 16,
-   "sale_median84": 16750,
-   "ratio": 101.5
+   "sale_n": 17,
+   "sale_median84": 17000,
+   "ratio": 100.0
   },
   {
    "umd": "온양읍 대안리",
@@ -142,9 +142,19 @@
    "built": 1993,
    "jeonse_n": 2,
    "jeonse_median84": 13900,
-   "sale_n": 7,
-   "sale_median84": 16100,
-   "ratio": 86.3
+   "sale_n": 8,
+   "sale_median84": 16050,
+   "ratio": 86.6
+  },
+  {
+   "umd": "범서읍 구영리",
+   "apt": "동문굿모닝힐",
+   "built": 2007,
+   "jeonse_n": 3,
+   "jeonse_median84": 40000,
+   "sale_n": 15,
+   "sale_median84": 47000,
+   "ratio": 85.1
   },
   {
    "umd": "범서읍 천상리",
@@ -162,7 +172,7 @@
    "built": 1999,
    "jeonse_n": 4,
    "jeonse_median84": 13000,
-   "sale_n": 23,
+   "sale_n": 24,
    "sale_median84": 15500,
    "ratio": 83.9
   },
@@ -197,6 +207,16 @@
    "ratio": 81.7
   },
   {
+   "umd": "범서읍 구영리",
+   "apt": "구영지구푸르지오1단지",
+   "built": 2006,
+   "jeonse_n": 2,
+   "jeonse_median84": 36000,
+   "sale_n": 14,
+   "sale_median84": 44600,
+   "ratio": 80.7
+  },
+  {
    "umd": "범서읍 굴화리",
    "apt": "문수산푸르지오",
    "built": 2014,
@@ -205,26 +225,6 @@
    "sale_n": 25,
    "sale_median84": 55500,
    "ratio": 80.7
-  },
-  {
-   "umd": "범서읍 구영리",
-   "apt": "구영지구푸르지오1단지",
-   "built": 2006,
-   "jeonse_n": 2,
-   "jeonse_median84": 36000,
-   "sale_n": 13,
-   "sale_median84": 44700,
-   "ratio": 80.5
-  },
-  {
-   "umd": "범서읍 구영리",
-   "apt": "동문굿모닝힐",
-   "built": 2007,
-   "jeonse_n": 2,
-   "jeonse_median84": 37850,
-   "sale_n": 15,
-   "sale_median84": 47000,
-   "ratio": 80.5
   }
  ],
  "low_ratio_apts": [
@@ -252,20 +252,20 @@
    "umd": "범서읍 굴화리",
    "apt": "월드메르디앙",
    "built": 2008,
-   "jeonse_n": 2,
-   "jeonse_median84": 40000,
+   "jeonse_n": 4,
+   "jeonse_median84": 41000,
    "sale_n": 14,
    "sale_median84": 59850,
-   "ratio": 66.8
+   "ratio": 68.5
   },
   {
    "umd": "삼남읍 교동리",
    "apt": "울산역신도시동문디이스트",
    "built": 2019,
-   "jeonse_n": 21,
+   "jeonse_n": 23,
    "jeonse_median84": 29000,
-   "sale_n": 28,
-   "sale_median84": 42275,
+   "sale_n": 29,
+   "sale_median84": 42300,
    "ratio": 68.6
   },
   {
@@ -294,7 +294,7 @@
   },
   {
    "month": "2026-01",
-   "jeonse_count": 71,
+   "jeonse_count": 72,
    "n84": 30,
    "jeonse_median84": 33000
   },
@@ -330,9 +330,9 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 62,
-   "n84": 29,
-   "jeonse_median84": 28000
+   "jeonse_count": 64,
+   "n84": 31,
+   "jeonse_median84": 28500
   },
   {
    "month": "2026-08",
@@ -342,29 +342,29 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 43,
-   "n84": 14,
-   "jeonse_median84": 31250
+   "jeonse_count": 46,
+   "n84": 17,
+   "jeonse_median84": 38000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 21,
-   "n84": 6,
-   "jeonse_median84": 35000
+   "jeonse_count": 54,
+   "n84": 18,
+   "jeonse_median84": 31000
   }
  ],
- "rank": 37,
+ "rank": 36,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
  "ratio_vs_avg_pp": 12.0,
  "umd_ratio_high": {
   "name": "온양읍 대안리",
-  "ratio": 105.7
+  "ratio": 106.6
  },
  "umd_ratio_low": {
   "name": "언양읍 어음리",
-  "ratio": 73.3
+  "ratio": 71.6
  },
- "umd_spread_pp": 32.4,
- "gap84": 5825
+ "umd_spread_pp": 35.0,
+ "gap84": 5813
 }

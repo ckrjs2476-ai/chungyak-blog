@@ -1,20 +1,20 @@
 {
  "lawd": "44180",
  "name": "충청남도 보령시",
- "updated": "2026-10-16",
+ "updated": "2026-10-31",
  "months": 12,
- "jeonse_count": 117,
- "wolse_count": 504,
- "wolse_share_pct": 81.2,
- "renew_share_pct": 15.4,
- "jeonse_n84": 34,
- "jeonse_median84": 19000,
- "sale_n84": 215,
- "sale_median84": 25800,
- "ratio84": 73.6,
- "jeonse_recent3_median84": 19350,
+ "jeonse_count": 121,
+ "wolse_count": 518,
+ "wolse_share_pct": 81.1,
+ "renew_share_pct": 14.9,
+ "jeonse_n84": 36,
+ "jeonse_median84": 19350,
+ "sale_n84": 229,
+ "sale_median84": 25250,
+ "ratio84": 76.6,
+ "jeonse_recent3_median84": 19700,
  "jeonse_prev3_median84": 19000,
- "jeonse_change_pct": 1.8,
+ "jeonse_change_pct": 3.7,
  "apts_with_both": 8,
  "apts_ratio_80_plus": 5,
  "apts_ratio_70_plus": 8,
@@ -22,37 +22,37 @@
   "궁촌동": {
    "jeonse_n": 3,
    "jeonse_median84": 19000,
-   "sale_n": 16,
+   "sale_n": 17,
    "sale_median84": 24000,
    "ratio": 79.2
   },
   "대천동": {
-   "jeonse_n": 5,
-   "jeonse_median84": 27600,
-   "sale_n": 29,
-   "sale_median84": 13300,
-   "ratio": 207.5
+   "jeonse_n": 6,
+   "jeonse_median84": 28650,
+   "sale_n": 30,
+   "sale_median84": 13150,
+   "ratio": 217.9
   },
   "동대동": {
    "jeonse_n": 4,
    "jeonse_median84": 30000,
-   "sale_n": 59,
+   "sale_n": 61,
    "sale_median84": 30500,
    "ratio": 98.4
   },
   "명천동": {
-   "jeonse_n": 14,
-   "jeonse_median84": 23500,
-   "sale_n": 66,
+   "jeonse_n": 15,
+   "jeonse_median84": 24000,
+   "sale_n": 70,
    "sale_median84": 37000,
-   "ratio": 63.5
+   "ratio": 64.9
   },
   "죽정동": {
    "jeonse_n": 7,
    "jeonse_median84": 16000,
-   "sale_n": 41,
-   "sale_median84": 14300,
-   "ratio": 111.9
+   "sale_n": 47,
+   "sale_median84": 14500,
+   "ratio": 110.3
   }
  },
  "top_ratio_apts": [
@@ -62,9 +62,19 @@
    "built": 2007,
    "jeonse_n": 4,
    "jeonse_median84": 17200,
-   "sale_n": 12,
+   "sale_n": 14,
    "sale_median84": 19000,
    "ratio": 90.5
+  },
+  {
+   "umd": "명천동",
+   "apt": "명천시티프라디움",
+   "built": 2020,
+   "jeonse_n": 3,
+   "jeonse_median84": 32000,
+   "sale_n": 24,
+   "sale_median84": 36250,
+   "ratio": 88.3
   },
   {
    "umd": "명천동",
@@ -72,9 +82,9 @@
    "built": 2008,
    "jeonse_n": 2,
    "jeonse_median84": 23500,
-   "sale_n": 14,
-   "sale_median84": 27250,
-   "ratio": 86.2
+   "sale_n": 17,
+   "sale_median84": 27000,
+   "ratio": 87.0
   },
   {
    "umd": "동대동",
@@ -97,34 +107,14 @@
    "ratio": 83.5
   },
   {
-   "umd": "명천동",
-   "apt": "명천시티프라디움",
-   "built": 2020,
-   "jeonse_n": 2,
-   "jeonse_median84": 29000,
-   "sale_n": 24,
-   "sale_median84": 36250,
-   "ratio": 80.0
-  },
-  {
    "umd": "궁촌동",
    "apt": "에스케이뷰",
    "built": 2006,
    "jeonse_n": 3,
    "jeonse_median84": 19000,
-   "sale_n": 16,
+   "sale_n": 17,
    "sale_median84": 24000,
    "ratio": 79.2
-  },
-  {
-   "umd": "죽정동",
-   "apt": "성지리벨루스",
-   "built": 2004,
-   "jeonse_n": 2,
-   "jeonse_median84": 13500,
-   "sale_n": 3,
-   "sale_median84": 18400,
-   "ratio": 73.4
   },
   {
    "umd": "대천동",
@@ -135,6 +125,16 @@
    "sale_n": 3,
    "sale_median84": 27000,
    "ratio": 72.2
+  },
+  {
+   "umd": "죽정동",
+   "apt": "성지리벨루스",
+   "built": 2004,
+   "jeonse_n": 2,
+   "jeonse_median84": 13500,
+   "sale_n": 5,
+   "sale_median84": 18900,
+   "ratio": 71.4
   }
  ],
  "low_ratio_apts": [],
@@ -153,9 +153,9 @@
   },
   {
    "month": "2026-01",
-   "jeonse_count": 14,
-   "n84": 6,
-   "jeonse_median84": 23500
+   "jeonse_count": 15,
+   "n84": 7,
+   "jeonse_median84": 24000
   },
   {
    "month": "2026-02",
@@ -207,14 +207,14 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 2,
-   "n84": 1,
-   "jeonse_median84": 18721
+   "jeonse_count": 5,
+   "n84": 2,
+   "jeonse_median84": 25360
   }
  ],
- "rank": 76,
+ "rank": 64,
  "rank_of": 179,
  "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 1.4,
- "gap84": 6800
+ "ratio_vs_avg_pp": 4.4,
+ "gap84": 5900
 }
