@@ -990,5 +990,50 @@
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616\", waiting until \"networkidle\"\n",
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616"
+ },
+ {
+  "name": "js-26440-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7254,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-10-31 10:59"
+ },
+ {
+  "name": "js-11200-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-01950720-dart",
+  "ok": true,
+  "status": 200,
+  "title": "제논/증권신고서(지분증권)/2026.10.26",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 27120,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367",
+  "at": "2026-10-31 10:59"
+ },
+ {
+  "name": "ipo-00960234-dart",
+  "ok": true,
+  "status": 200,
+  "title": "영광와이케이엠씨/증권신고서(지분증권)/2026.10.30",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 30342,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616",
+  "at": "2026-10-31 10:59"
  }
 ]
