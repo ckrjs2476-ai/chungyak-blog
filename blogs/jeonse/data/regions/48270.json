@@ -1,44 +1,37 @@
 {
  "lawd": "48270",
  "name": "경상남도 밀양시",
- "updated": "2026-10-18",
+ "updated": "2026-11-01",
  "months": 12,
- "jeonse_count": 107,
- "wolse_count": 355,
- "wolse_share_pct": 76.8,
- "renew_share_pct": 10.3,
- "jeonse_n84": 39,
+ "jeonse_count": 99,
+ "wolse_count": 329,
+ "wolse_share_pct": 76.9,
+ "renew_share_pct": 8.1,
+ "jeonse_n84": 37,
  "jeonse_median84": 27000,
- "sale_n84": 284,
- "sale_median84": 21950,
- "ratio84": 123.0,
+ "sale_n84": 260,
+ "sale_median84": 22000,
+ "ratio84": 122.7,
  "jeonse_recent3_median84": 27000,
- "jeonse_prev3_median84": 27000,
- "jeonse_change_pct": 0.0,
- "apts_with_both": 9,
- "apts_ratio_80_plus": 7,
- "apts_ratio_70_plus": 9,
+ "jeonse_prev3_median84": 25000,
+ "jeonse_change_pct": 8.0,
+ "apts_with_both": 8,
+ "apts_ratio_80_plus": 6,
+ "apts_ratio_70_plus": 8,
  "umd": {
-  "가곡동": {
-   "jeonse_n": 4,
-   "jeonse_median84": 30000,
-   "sale_n": 29,
-   "sale_median84": 35000,
-   "ratio": 85.7
-  },
   "내이동": {
-   "jeonse_n": 24,
+   "jeonse_n": 23,
    "jeonse_median84": 27000,
-   "sale_n": 84,
-   "sale_median84": 31800,
-   "ratio": 84.9
+   "sale_n": 77,
+   "sale_median84": 32000,
+   "ratio": 84.4
   },
   "삼문동": {
-   "jeonse_n": 8,
-   "jeonse_median84": 24500,
-   "sale_n": 137,
-   "sale_median84": 18300,
-   "ratio": 133.9
+   "jeonse_n": 9,
+   "jeonse_median84": 24000,
+   "sale_n": 126,
+   "sale_median84": 19200,
+   "ratio": 125.0
   }
  },
  "top_ratio_apts": [
@@ -58,9 +51,9 @@
    "built": 2019,
    "jeonse_n": 2,
    "jeonse_median84": 26500,
-   "sale_n": 9,
-   "sale_median84": 30000,
-   "ratio": 88.3
+   "sale_n": 8,
+   "sale_median84": 30500,
+   "ratio": 86.9
   },
   {
    "umd": "내이동",
@@ -68,7 +61,7 @@
    "built": 1997,
    "jeonse_n": 2,
    "jeonse_median84": 13000,
-   "sale_n": 8,
+   "sale_n": 6,
    "sale_median84": 15100,
    "ratio": 86.1
   },
@@ -76,31 +69,11 @@
    "umd": "내이동",
    "apt": "이편한세상밀양나노밸리",
    "built": 2022,
-   "jeonse_n": 5,
-   "jeonse_median84": 29000,
-   "sale_n": 17,
-   "sale_median84": 35300,
-   "ratio": 82.2
-  },
-  {
-   "umd": "삼문동",
-   "apt": "밀양domuto",
-   "built": 2015,
-   "jeonse_n": 2,
-   "jeonse_median84": 23500,
-   "sale_n": 9,
-   "sale_median84": 29000,
-   "ratio": 81.0
-  },
-  {
-   "umd": "삼문동",
-   "apt": "e편한세상밀양삼문",
-   "built": 2018,
-   "jeonse_n": 3,
-   "jeonse_median84": 34000,
-   "sale_n": 14,
-   "sale_median84": 42250,
-   "ratio": 80.5
+   "jeonse_n": 4,
+   "jeonse_median84": 28500,
+   "sale_n": 16,
+   "sale_median84": 35450,
+   "ratio": 80.4
   },
   {
    "umd": "내이동",
@@ -113,14 +86,24 @@
    "ratio": 80.1
   },
   {
-   "umd": "가곡동",
-   "apt": "밀양강푸르지오",
-   "built": 2019,
-   "jeonse_n": 4,
-   "jeonse_median84": 30000,
-   "sale_n": 17,
-   "sale_median84": 38500,
-   "ratio": 77.9
+   "umd": "삼문동",
+   "apt": "e편한세상밀양삼문",
+   "built": 2018,
+   "jeonse_n": 3,
+   "jeonse_median84": 34000,
+   "sale_n": 13,
+   "sale_median84": 42500,
+   "ratio": 80.0
+  },
+  {
+   "umd": "삼문동",
+   "apt": "밀양domuto",
+   "built": 2015,
+   "jeonse_n": 3,
+   "jeonse_median84": 22000,
+   "sale_n": 9,
+   "sale_median84": 29000,
+   "ratio": 75.9
   },
   {
    "umd": "내이동",
@@ -128,19 +111,13 @@
    "built": 2019,
    "jeonse_n": 4,
    "jeonse_median84": 27500,
-   "sale_n": 19,
+   "sale_n": 17,
    "sale_median84": 38500,
    "ratio": 71.4
   }
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 13,
-   "n84": 4,
-   "jeonse_median84": 30000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 11,
@@ -191,26 +168,26 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 8,
+   "jeonse_count": 9,
    "n84": 2,
    "jeonse_median84": 28000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 4,
-   "n84": 2,
-   "jeonse_median84": 28000
+   "jeonse_count": 5,
+   "n84": 3,
+   "jeonse_median84": 22000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 3,
-   "n84": 1,
-   "jeonse_median84": 27000
+   "jeonse_count": 6,
+   "n84": 2,
+   "jeonse_median84": 18900
   }
  ],
- "rank": 3,
+ "rank": 4,
  "rank_of": 179,
- "avg_ratio84_all": 72.2,
- "ratio_vs_avg_pp": 50.8,
- "gap84": -5050
+ "avg_ratio84_all": 72.3,
+ "ratio_vs_avg_pp": 50.4,
+ "gap84": -5000
 }
