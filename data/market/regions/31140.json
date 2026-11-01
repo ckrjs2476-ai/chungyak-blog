@@ -2,62 +2,56 @@
  "lawd": "31140",
  "name": "울산광역시 남구",
  "months": 12,
- "updated": "2026-10-31",
- "trade_count": 4286,
- "cancel_count": 261,
- "n84": 1799,
- "median84": 48600,
+ "updated": "2026-11-01",
+ "trade_count": 3778,
+ "cancel_count": 231,
+ "n84": 1596,
+ "median84": 48500,
  "p25_84": 35000,
- "p75_84": 70800,
- "median84_pyeong_excl": 1904,
- "new_n84": 185,
- "new_median84": 74500,
+ "p75_84": 70500,
+ "median84_pyeong_excl": 1892,
+ "new_n84": 157,
+ "new_median84": 74000,
  "new_build_years": 5,
  "umd84": {
   "야음동": {
-   "n": 500,
-   "median": 70500
+   "n": 446,
+   "median": 70450
   },
   "무거동": {
-   "n": 160,
-   "median": 34750
+   "n": 150,
+   "median": 35800
   },
   "선암동": {
-   "n": 46,
-   "median": 26650
+   "n": 41,
+   "median": 26500
   },
   "옥동": {
-   "n": 158,
-   "median": 41250
+   "n": 134,
+   "median": 39500
   },
   "삼산동": {
-   "n": 195,
+   "n": 169,
    "median": 42000
   },
   "신정동": {
-   "n": 532,
-   "median": 56800
+   "n": 476,
+   "median": 55800
   },
   "두왕동": {
-   "n": 61,
-   "median": 49500
+   "n": 52,
+   "median": 49350
   },
   "달동": {
-   "n": 142,
-   "median": 37800
+   "n": 124,
+   "median": 38250
   },
   "매암동": {
-   "n": 5,
-   "median": 19500
+   "n": 4,
+   "median": 19450
   }
  },
  "monthly": [
-  {
-   "month": "2025-11",
-   "count": 508,
-   "n84": 203,
-   "median84": 50000
-  },
   {
    "month": "2025-12",
    "count": 381,
@@ -128,63 +122,63 @@
  "top_apts": [
   {
    "name": "야음동 번영로하늘채센트럴파크",
-   "count": 111,
-   "median84": 76050,
+   "count": 88,
+   "median84": 76500,
    "built": 2022
   },
   {
    "name": "야음동 대현더샵",
-   "count": 102,
-   "median84": 83800,
+   "count": 87,
+   "median84": 84700,
    "built": 2018
   },
   {
    "name": "삼산동 세양청구마을",
-   "count": 99,
-   "median84": 36000,
+   "count": 85,
+   "median84": 36400,
    "built": 1997
   },
   {
    "name": "야음동 신정현대홈타운2",
-   "count": 96,
-   "median84": 44000,
+   "count": 85,
+   "median84": 45000,
    "built": 1999
   },
   {
    "name": "신정동 울산신정푸르지오",
-   "count": 90,
-   "median84": 68800,
+   "count": 82,
+   "median84": 69000,
    "built": 2012
   },
   {
    "name": "야음동 신정현대홈타운1",
-   "count": 85,
+   "count": 81,
    "median84": 41900,
    "built": 1999
   },
   {
-   "name": "야음동 롯데캐슬골드1단지",
-   "count": 74,
-   "median84": 55000,
-   "built": 2008
-  },
-  {
-   "name": "야음동 더샵번영센트로",
-   "count": 65,
-   "median84": 81900,
-   "built": 2023
-  },
-  {
    "name": "야음동 울산번영로두산위브",
-   "count": 64,
+   "count": 63,
    "median84": 72000,
    "built": 2017
   },
   {
+   "name": "야음동 롯데캐슬골드1단지",
+   "count": 62,
+   "median84": 55600,
+   "built": 2008
+  },
+  {
    "name": "무거동 옥현으뜸마을주공3",
-   "count": 63,
-   "median84": 47800,
+   "count": 57,
+   "median84": 48500,
    "built": 2001
+  },
+  {
+   "name": "무거동 굴화주공1",
+   "count": 56,
+   "median84": null,
+   "built": 1997
   }
  ]
 }
