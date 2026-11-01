@@ -1,34 +1,30 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "blogs": {
   "cheongyak": {
-   "posts": 42,
+   "posts": 44,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "region": 3,
-    "competition": 2,
+    "competition": 1,
     "remainder": 1,
-    "notice": 2
+    "region": 2,
+    "notice": 3,
+    "market": 1
    },
    "format_concentrated": false,
-   "stale": {
-    "2026-10-22-remainder-1026-remainder.md": [
-     "지난 날짜를 앞으로의 일처럼 씀: '10월 29일에 당첨자를 발표합니다'"
-    ]
-   },
+   "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 1
+   "to_fix": 0
   },
   "jeonse": {
-   "posts": 26,
+   "posts": 28,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "ranking": 1,
     "region": 5,
-    "topic": 2
+    "topic": 3
    },
    "format_concentrated": false,
    "stale": {},
@@ -37,59 +33,43 @@
    "to_fix": 0
   },
   "gongmoju": {
-   "posts": 30,
+   "posts": 32,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "ipo": 5,
-    "topic": 3
+    "topic": 3,
+    "ipo": 5
    },
    "format_concentrated": false,
-   "stale": {
-    "2026-10-22-01863318-ipo.md": [
-     "공모가가 확정됐는데 '아직 확정 전'으로 씀"
-    ]
-   },
+   "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 1
+   "to_fix": 0
   },
   "gwanribi": {
-   "posts": 28,
-   "skeleton_pairs": [
-    [
-     "2026-10-22-A15380403-complex.md",
-     "2026-10-30-A14077902-complex.md",
-     0.81,
-     0.0
-    ],
-    [
-     "2026-10-28-A44347026-complex.md",
-     "2026-10-30-A14077902-complex.md",
-     0.81,
-     0.01
-    ]
-   ],
+   "posts": 31,
+   "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "topic": 2,
     "complex": 5,
+    "topic": 2,
     "region": 1
    },
    "format_concentrated": false,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 2
+   "to_fix": 0
   },
   "drone": {
-   "posts": 3,
+   "posts": 5,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "rule": 1,
+    "rule": 2,
     "basic": 1,
-    "job": 1
+    "job": 1,
+    "news": 1
    },
    "format_concentrated": false,
    "stale": {},
