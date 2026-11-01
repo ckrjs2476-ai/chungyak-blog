@@ -1048,5 +1048,108 @@
   "bytes": 7240,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-10-31 12:43"
+ },
+ {
+  "name": "cy-2026000518-special",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   234
+  ],
+  "bytes": 12440,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000518&pblancNo=2026000518",
+  "at": "2026-11-01 11:35"
+ },
+ {
+  "name": "cy-2026000437-special",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   261
+  ],
+  "bytes": 13762,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000437&pblancNo=2026000437",
+  "at": "2026-11-01 11:35"
+ },
+ {
+  "name": "cy-2026000448-special",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   234
+  ],
+  "bytes": 12356,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000448&pblancNo=2026000448",
+  "at": "2026-11-01 11:36"
+ },
+ {
+  "name": "cy-2026000267-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   555
+  ],
+  "bytes": 23782,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000267&pblancNo=2026000267",
+  "at": "2026-11-01 11:36"
+ },
+ {
+  "name": "js-41597-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7320,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-01 11:36"
+ },
+ {
+  "name": "js-41463-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-01880139-dart",
+  "ok": true,
+  "status": 200,
+  "title": "케이엠에프/증권신고서(지분증권)/2026.10.27",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 32700,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000388",
+  "at": "2026-11-01 11:36"
+ },
+ {
+  "name": "ipo-01795859-dart",
+  "ok": true,
+  "status": 200,
+  "title": "엔키화이트햇/증권신고서(지분증권)/2026.10.27",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 32910,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000363",
+  "at": "2026-11-01 11:36"
+ },
+ {
+  "name": "ipo-01543043-dart",
+  "ok": false,
+  "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158\", waiting until \"networkidle\"\n",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158"
  }
 ]
