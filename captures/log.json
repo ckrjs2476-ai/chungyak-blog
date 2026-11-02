@@ -1164,5 +1164,95 @@
   "bytes": 32938,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153",
   "at": "2026-11-01 17:54"
+ },
+ {
+  "name": "cy-2026000492-special",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   289
+  ],
+  "bytes": 14264,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000492&pblancNo=2026000492",
+  "at": "2026-11-02 10:42"
+ },
+ {
+  "name": "cy-2026000075-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   265
+  ],
+  "bytes": 9528,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000075&pblancNo=2026000075",
+  "at": "2026-11-02 10:42"
+ },
+ {
+  "name": "cy-2026000138-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   210
+  ],
+  "bytes": 8554,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000138&pblancNo=2026000138",
+  "at": "2026-11-02 10:42"
+ },
+ {
+  "name": "cy-2026000491-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   500
+  ],
+  "bytes": 20114,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000491&pblancNo=2026000491",
+  "at": "2026-11-02 10:42"
+ },
+ {
+  "name": "ipo-wk1102-dongwon-confirm",
+  "ok": true,
+  "status": 200,
+  "title": "동원파츠/증권신고서(지분증권)/2026.10.30",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 22666,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113",
+  "at": "2026-11-02 10:42"
+ },
+ {
+  "name": "js-41135-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7328,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-02 10:42"
+ },
+ {
+  "name": "js-11500-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-11200-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
  }
 ]
