@@ -1,1 +1,132 @@
-[]
+[
+ {
+  "name": "cy-2026000492-special",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000492&pblancNo=2026000492",
+  "crop": {
+   "from": "특별공급 공급대상",
+   "to": "공급금액, 2순위"
+  }
+ },
+ {
+  "name": "cy-2026000075-price",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000075&pblancNo=2026000075",
+  "crop": {
+   "from": "공급금액, 2순위",
+   "to": "기타사항"
+  }
+ },
+ {
+  "name": "cy-2026000138-price",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000138&pblancNo=2026000138",
+  "crop": {
+   "from": "공급금액, 2순위",
+   "to": "기타사항"
+  }
+ },
+ {
+  "name": "cy-2026000491-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000491&pblancNo=2026000491",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "ipo-wk1102-dongwon-confirm",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113",
+  "sleep": 4
+ },
+ {
+  "name": "js-41135-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경기"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "분당"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-11500-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "서울"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "강서"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-11200-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "서울"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "성동"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
