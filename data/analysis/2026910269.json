@@ -47,6 +47,44 @@
  "special_share_pct": 0,
  "price_84_min": 89300,
  "price_84_max": 89800,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7459A",
+    "supply": 26,
+    "closed_at": "None순위 None",
+    "rate": 1.04,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.8508B",
+    "supply": 76,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 39
+   },
+   {
+    "ty": "84.9663D",
+    "supply": 67,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 53
+   }
+  ],
+  "req_total": 78,
+  "rank1_req": 0,
+  "supply_total": 169,
+  "final_shortfall_total": 92,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.7459A",
+   "rate": 1.04,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 수원시 권선구",
   "lawd": "41113",

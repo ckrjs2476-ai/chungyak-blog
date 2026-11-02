@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "(주)에코월드이엔씨",
+  "CNTRCT_CNCLS_BGNDE": "2026-11-14",
+  "CNTRCT_CNCLS_ENDDE": "2026-11-14",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "https://cent.villiv.co.kr",
+  "HOUSE_MANAGE_NO": "2026910281",
+  "HOUSE_NM": "빌리브센트하이(2차)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 남양주시 화도읍 마석우리 295-32번지 일원",
+  "HSSPLY_ZIP": "12176",
+  "MDHS_TELNO": "15884940",
+  "MVN_PREARNGE_YM": "202612",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910281",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910281&pblancNo=2026910281",
+  "PRZWNER_PRESNATN_DE": "2026-11-12",
+  "RCRIT_PBLANC_DE": "2026-11-02",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-11-09",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-11-09",
+  "TOT_SUPLY_HSHLDCO": 5
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910281",
+   "HOUSE_TY": "084.9760B",
+   "LTTOT_TOP_AMOUNT": "67700",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910281",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 4
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910281",
+   "HOUSE_TY": "098.9850B",
+   "LTTOT_TOP_AMOUNT": "78200",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910281",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [],
+ "score": [],
+ "fetched_at": "2026-11-03T07:51:57.217674+09:00"
+}

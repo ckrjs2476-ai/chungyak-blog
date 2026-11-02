@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "weekly_competition": [
   {
    "no": "2026000508",
@@ -28,20 +28,6 @@
    "final_shortfall_total": 89,
    "rank1_closed_types": 2,
    "type_count": 7
-  },
-  {
-   "no": "2026000507",
-   "name": "광안센텀 비스타동원(조합원 취소분)",
-   "region": "부산",
-   "rank1_avg_rate": 0.79,
-   "best": {
-    "ty": "59.9823",
-    "rate": 7.0,
-    "stage": "2순위 해당지역"
-   },
-   "final_shortfall_total": 0,
-   "rank1_closed_types": 1,
-   "type_count": 4
   },
   {
    "no": "2026000509",
@@ -224,6 +210,26 @@
     {
      "ty": "69.7032",
      "price": 57874,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910281",
+   "name": "빌리브센트하이(2차)",
+   "region": "경기",
+   "households": 5,
+   "rcept_date": "2026-11-09",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910281&pblancNo=2026910281",
+   "types": [
+    {
+     "ty": "84.976B",
+     "price": 67700,
+     "pyeong_price": null
+    },
+    {
+     "ty": "98.985B",
+     "price": 78200,
      "pyeong_price": null
     }
    ]

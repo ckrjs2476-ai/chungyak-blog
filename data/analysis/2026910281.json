@@ -1,0 +1,63 @@
+{
+ "no": "2026910281",
+ "name": "빌리브센트하이(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-11-02",
+ "rank1_date": "2026-11-09",
+ "city": "남양주시",
+ "supply_kind": "",
+ "winner_date": "2026-11-12",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910281&pblancNo=2026910281",
+ "households": 5,
+ "types": [
+  {
+   "ty": "84.976B",
+   "size": 84,
+   "price": 67700,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "98.985B",
+   "size": 98,
+   "price": 78200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 5,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 67700,
+ "price_84_max": 67700,
+ "market": {
+  "region": "경기도 남양주시",
+  "lawd": "41360",
+  "months": 12,
+  "updated": "2026-11-02",
+  "n84": 4379,
+  "median84": 53000,
+  "p25_84": 40000,
+  "p75_84": 81700,
+  "new_n84": 269,
+  "new_median84": 83500,
+  "new_build_years": 5,
+  "umd": "화도읍",
+  "umd_n84": 321,
+  "umd_median84": 31950,
+  "diff_vs_median84": 14700,
+  "diff_pct_vs_median84": 28,
+  "diff_vs_new_median84": -15800,
+  "diff_pct_vs_new_median84": -19,
+  "diff_vs_umd_median84": 35750,
+  "diff_pct_vs_umd_median84": 112
+ }
+}
