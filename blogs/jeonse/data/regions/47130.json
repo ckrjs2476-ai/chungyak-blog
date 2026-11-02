@@ -1,70 +1,70 @@
 {
  "lawd": "47130",
  "name": "경상북도 경주시",
- "updated": "2026-10-19",
+ "updated": "2026-11-02",
  "months": 12,
- "jeonse_count": 2239,
- "wolse_count": 1141,
- "wolse_share_pct": 33.8,
- "renew_share_pct": 66.3,
- "jeonse_n84": 1249,
+ "jeonse_count": 2154,
+ "wolse_count": 1073,
+ "wolse_share_pct": 33.3,
+ "renew_share_pct": 67.2,
+ "jeonse_n84": 1197,
  "jeonse_median84": 10142,
- "sale_n84": 846,
- "sale_median84": 28475,
+ "sale_n84": 814,
+ "sale_median84": 28500,
  "ratio84": 35.6,
- "jeonse_recent3_median84": 10162,
+ "jeonse_recent3_median84": 10142,
  "jeonse_prev3_median84": 10162,
- "jeonse_change_pct": 0.0,
- "apts_with_both": 33,
- "apts_ratio_80_plus": 21,
- "apts_ratio_70_plus": 28,
+ "jeonse_change_pct": -0.2,
+ "apts_with_both": 30,
+ "apts_ratio_80_plus": 19,
+ "apts_ratio_70_plus": 24,
  "umd": {
   "건천읍 화천리": {
-   "jeonse_n": 117,
+   "jeonse_n": 125,
    "jeonse_median84": 21400,
-   "sale_n": 70,
+   "sale_n": 75,
    "sale_median84": 36600,
    "ratio": 58.5
   },
   "도지동": {
-   "jeonse_n": 4,
-   "jeonse_median84": 14000,
-   "sale_n": 30,
+   "jeonse_n": 3,
+   "jeonse_median84": 15000,
+   "sale_n": 26,
    "sale_median84": 17300,
-   "ratio": 80.9
+   "ratio": 86.7
   },
   "동천동": {
-   "jeonse_n": 4,
-   "jeonse_median84": 12000,
-   "sale_n": 36,
-   "sale_median84": 13850,
-   "ratio": 86.6
+   "jeonse_n": 3,
+   "jeonse_median84": 16000,
+   "sale_n": 35,
+   "sale_median84": 13200,
+   "ratio": 121.2
   },
   "외동읍 모화리": {
-   "jeonse_n": 938,
+   "jeonse_n": 907,
    "jeonse_median84": 10142,
-   "sale_n": 7,
-   "sale_median84": 7800,
-   "ratio": 130.0
+   "sale_n": 6,
+   "sale_median84": 7500,
+   "ratio": 135.2
   },
   "외동읍 입실리": {
-   "jeonse_n": 10,
-   "jeonse_median84": 17500,
-   "sale_n": 18,
-   "sale_median84": 19150,
-   "ratio": 91.4
+   "jeonse_n": 8,
+   "jeonse_median84": 17000,
+   "sale_n": 17,
+   "sale_median84": 19000,
+   "ratio": 89.5
   },
   "용강동": {
-   "jeonse_n": 54,
+   "jeonse_n": 45,
    "jeonse_median84": 33600,
-   "sale_n": 203,
-   "sale_median84": 40750,
-   "ratio": 82.5
+   "sale_n": 190,
+   "sale_median84": 41000,
+   "ratio": 82.0
   },
   "진현동": {
    "jeonse_n": 3,
    "jeonse_median84": 25000,
-   "sale_n": 10,
+   "sale_n": 8,
    "sale_median84": 30100,
    "ratio": 83.1
   },
@@ -76,48 +76,28 @@
    "ratio": 105.6
   },
   "현곡면 금장리": {
-   "jeonse_n": 17,
+   "jeonse_n": 13,
    "jeonse_median84": 15700,
-   "sale_n": 49,
-   "sale_median84": 17500,
-   "ratio": 89.7
+   "sale_n": 48,
+   "sale_median84": 17250,
+   "ratio": 91.0
   },
   "현곡면 하구리": {
-   "jeonse_n": 32,
+   "jeonse_n": 31,
    "jeonse_median84": 24000,
-   "sale_n": 124,
-   "sale_median84": 30125,
-   "ratio": 79.7
+   "sale_n": 118,
+   "sale_median84": 30300,
+   "ratio": 79.2
   },
   "황성동": {
-   "jeonse_n": 61,
+   "jeonse_n": 50,
    "jeonse_median84": 24000,
-   "sale_n": 153,
-   "sale_median84": 21000,
-   "ratio": 114.3
+   "sale_n": 152,
+   "sale_median84": 21050,
+   "ratio": 114.0
   }
  },
  "top_ratio_apts": [
-  {
-   "umd": "황성동",
-   "apt": "황성현대1차",
-   "built": 1991,
-   "jeonse_n": 3,
-   "jeonse_median84": 16000,
-   "sale_n": 3,
-   "sale_median84": 15900,
-   "ratio": 100.6
-  },
-  {
-   "umd": "황성동",
-   "apt": "청우3차(301~303동)",
-   "built": 1997,
-   "jeonse_n": 2,
-   "jeonse_median84": 14750,
-   "sale_n": 8,
-   "sale_median84": 14750,
-   "ratio": 100.0
-  },
   {
    "umd": "황성동",
    "apt": "한신",
@@ -132,21 +112,71 @@
    "umd": "현곡면 금장리",
    "apt": "신한토탈",
    "built": 1998,
-   "jeonse_n": 3,
-   "jeonse_median84": 15000,
-   "sale_n": 13,
+   "jeonse_n": 2,
+   "jeonse_median84": 15250,
+   "sale_n": 16,
    "sale_median84": 16000,
-   "ratio": 93.8
+   "ratio": 95.3
   },
   {
    "umd": "황성동",
-   "apt": "황성현대2차",
-   "built": 1992,
-   "jeonse_n": 2,
-   "jeonse_median84": 12750,
-   "sale_n": 12,
-   "sale_median84": 13650,
-   "ratio": 93.4
+   "apt": "황성현대1차",
+   "built": 1991,
+   "jeonse_n": 3,
+   "jeonse_median84": 16000,
+   "sale_n": 4,
+   "sale_median84": 16950,
+   "ratio": 94.4
+  },
+  {
+   "umd": "현곡면 금장리",
+   "apt": "새한센시빌",
+   "built": 2006,
+   "jeonse_n": 4,
+   "jeonse_median84": 15700,
+   "sale_n": 10,
+   "sale_median84": 17500,
+   "ratio": 89.7
+  },
+  {
+   "umd": "황성동",
+   "apt": "황성KCC스위첸",
+   "built": 2018,
+   "jeonse_n": 5,
+   "jeonse_median84": 28700,
+   "sale_n": 14,
+   "sale_median84": 32450,
+   "ratio": 88.4
+  },
+  {
+   "umd": "현곡면 금장리",
+   "apt": "성호마루한뷰",
+   "built": 2018,
+   "jeonse_n": 3,
+   "jeonse_median84": 25000,
+   "sale_n": 7,
+   "sale_median84": 28800,
+   "ratio": 86.8
+  },
+  {
+   "umd": "도지동",
+   "apt": "코아루그랑블",
+   "built": 2010,
+   "jeonse_n": 3,
+   "jeonse_median84": 15000,
+   "sale_n": 25,
+   "sale_median84": 17300,
+   "ratio": 86.7
+  },
+  {
+   "umd": "황성동",
+   "apt": "e편한세상황성",
+   "built": 2016,
+   "jeonse_n": 3,
+   "jeonse_median84": 32000,
+   "sale_n": 15,
+   "sale_median84": 37000,
+   "ratio": 86.5
   },
   {
    "umd": "황성동",
@@ -155,48 +185,18 @@
    "jeonse_n": 2,
    "jeonse_median84": 11250,
    "sale_n": 3,
-   "sale_median84": 12500,
-   "ratio": 90.0
-  },
-  {
-   "umd": "현곡면 금장리",
-   "apt": "새한센시빌",
-   "built": 2006,
-   "jeonse_n": 6,
-   "jeonse_median84": 15600,
-   "sale_n": 11,
-   "sale_median84": 17500,
-   "ratio": 89.1
+   "sale_median84": 13200,
+   "ratio": 85.2
   },
   {
    "umd": "황성동",
-   "apt": "황성KCC스위첸",
-   "built": 2018,
-   "jeonse_n": 5,
-   "jeonse_median84": 28700,
-   "sale_n": 13,
-   "sale_median84": 32400,
-   "ratio": 88.6
-  },
-  {
-   "umd": "황성동",
-   "apt": "신흥로얄맨션2차(102,103동)",
-   "built": 1995,
+   "apt": "황성현대2차",
+   "built": 1992,
    "jeonse_n": 2,
-   "jeonse_median84": 15150,
-   "sale_n": 2,
-   "sale_median84": 17300,
-   "ratio": 87.6
-  },
-  {
-   "umd": "현곡면 금장리",
-   "apt": "성호마루한뷰",
-   "built": 2018,
-   "jeonse_n": 4,
-   "jeonse_median84": 25000,
-   "sale_n": 7,
-   "sale_median84": 28800,
-   "ratio": 86.8
+   "jeonse_median84": 12000,
+   "sale_n": 12,
+   "sale_median84": 14150,
+   "ratio": 84.8
   }
  ],
  "low_ratio_apts": [
@@ -206,29 +206,29 @@
    "built": 2024,
    "jeonse_n": 23,
    "jeonse_median84": 21600,
-   "sale_n": 25,
-   "sale_median84": 36700,
-   "ratio": 58.9
+   "sale_n": 28,
+   "sale_median84": 36750,
+   "ratio": 58.8
   },
   {
    "umd": "건천읍 화천리",
    "apt": "신경주유보라아이비파크2.0",
    "built": 2024,
-   "jeonse_n": 77,
-   "jeonse_median84": 21000,
-   "sale_n": 5,
+   "jeonse_n": 82,
+   "jeonse_median84": 20800,
+   "sale_n": 7,
    "sale_median84": 33133,
-   "ratio": 63.4
+   "ratio": 62.8
   },
   {
    "umd": "건천읍 화천리",
    "apt": "신경주더퍼스트데시앙",
    "built": 2024,
-   "jeonse_n": 16,
-   "jeonse_median84": 23500,
+   "jeonse_n": 19,
+   "jeonse_median84": 24000,
    "sale_n": 40,
-   "sale_median84": 36700,
-   "ratio": 64.0
+   "sale_median84": 37000,
+   "ratio": 64.9
   },
   {
    "umd": "현곡면 하구리",
@@ -236,15 +236,15 @@
    "built": 2024,
    "jeonse_n": 12,
    "jeonse_median84": 26625,
-   "sale_n": 20,
-   "sale_median84": 40850,
-   "ratio": 65.2
+   "sale_n": 19,
+   "sale_median84": 40700,
+   "ratio": 65.4
   },
   {
    "umd": "외동읍 입실리",
    "apt": "경주외동삼부르네상스더테라스",
    "built": 2025,
-   "jeonse_n": 6,
+   "jeonse_n": 4,
    "jeonse_median84": 19000,
    "sale_n": 2,
    "sale_median84": 27614,
@@ -252,12 +252,6 @@
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 164,
-   "n84": 99,
-   "jeonse_median84": 10142
-  },
   {
    "month": "2025-12",
    "jeonse_count": 223,
@@ -302,41 +296,41 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 167,
+   "jeonse_count": 168,
    "n84": 85,
    "jeonse_median84": 10162
   },
   {
    "month": "2026-08",
-   "jeonse_count": 153,
-   "n84": 87,
+   "jeonse_count": 156,
+   "n84": 88,
    "jeonse_median84": 10162
   },
   {
    "month": "2026-09",
-   "jeonse_count": 129,
-   "n84": 79,
+   "jeonse_count": 133,
+   "n84": 83,
    "jeonse_median84": 10142
   },
   {
    "month": "2026-10",
-   "jeonse_count": 52,
-   "n84": 35,
+   "jeonse_count": 123,
+   "n84": 77,
    "jeonse_median84": 10142
   }
  ],
- "rank": 177,
- "rank_of": 179,
+ "rank": 176,
+ "rank_of": 178,
  "avg_ratio84_all": 72.3,
  "ratio_vs_avg_pp": -36.7,
  "umd_ratio_high": {
   "name": "황성동",
-  "ratio": 114.3
+  "ratio": 114.0
  },
  "umd_ratio_low": {
   "name": "건천읍 화천리",
   "ratio": 58.5
  },
- "umd_spread_pp": 55.8,
- "gap84": 18333
+ "umd_spread_pp": 55.5,
+ "gap84": 18358
 }

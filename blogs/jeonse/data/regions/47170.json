@@ -1,44 +1,51 @@
 {
  "lawd": "47170",
  "name": "경상북도 안동시",
- "updated": "2026-10-19",
+ "updated": "2026-11-02",
  "months": 12,
- "jeonse_count": 320,
- "wolse_count": 630,
- "wolse_share_pct": 66.3,
- "renew_share_pct": 32.5,
- "jeonse_n84": 52,
+ "jeonse_count": 325,
+ "wolse_count": 608,
+ "wolse_share_pct": 65.2,
+ "renew_share_pct": 32.3,
+ "jeonse_n84": 54,
  "jeonse_median84": 24675,
- "sale_n84": 356,
- "sale_median84": 29050,
- "ratio84": 84.9,
- "jeonse_recent3_median84": 26000,
- "jeonse_prev3_median84": 25000,
- "jeonse_change_pct": 4.0,
- "apts_with_both": 10,
+ "sale_n84": 333,
+ "sale_median84": 29500,
+ "ratio84": 83.6,
+ "jeonse_recent3_median84": 27000,
+ "jeonse_prev3_median84": 25500,
+ "jeonse_change_pct": 5.9,
+ "apts_with_both": 9,
  "apts_ratio_80_plus": 2,
- "apts_ratio_70_plus": 8,
+ "apts_ratio_70_plus": 7,
  "umd": {
+  "노하동": {
+   "jeonse_n": 3,
+   "jeonse_median84": 23100,
+   "sale_n": 9,
+   "sale_median84": 20200,
+   "ratio": 114.4
+  },
   "당북동": {
    "jeonse_n": 4,
    "jeonse_median84": 35000,
-   "sale_n": 21,
-   "sale_median84": 43800,
-   "ratio": 79.9
+   "sale_n": 20,
+   "sale_median84": 43900,
+   "ratio": 79.7
   },
   "옥동": {
-   "jeonse_n": 5,
+   "jeonse_n": 6,
    "jeonse_median84": 26600,
-   "sale_n": 85,
-   "sale_median84": 35600,
-   "ratio": 74.7
+   "sale_n": 84,
+   "sale_median84": 35800,
+   "ratio": 74.3
   },
   "용상동": {
    "jeonse_n": 19,
    "jeonse_median84": 24780,
-   "sale_n": 56,
-   "sale_median84": 30450,
-   "ratio": 81.4
+   "sale_n": 53,
+   "sale_median84": 30500,
+   "ratio": 81.2
   },
   "풍산읍 막곡리": {
    "jeonse_n": 9,
@@ -70,21 +77,11 @@
    "umd": "용상동",
    "apt": "안동세영리첼",
    "built": 2011,
-   "jeonse_n": 3,
+   "jeonse_n": 2,
    "jeonse_median84": 27900,
-   "sale_n": 26,
+   "sale_n": 24,
    "sale_median84": 32000,
    "ratio": 87.2
-  },
-  {
-   "umd": "당북동",
-   "apt": "안동센트럴자이",
-   "built": 2015,
-   "jeonse_n": 4,
-   "jeonse_median84": 35000,
-   "sale_n": 21,
-   "sale_median84": 43800,
-   "ratio": 79.9
   },
   {
    "umd": "노하동",
@@ -92,9 +89,19 @@
    "built": 2018,
    "jeonse_n": 2,
    "jeonse_median84": 23550,
-   "sale_n": 5,
+   "sale_n": 4,
    "sale_median84": 29500,
    "ratio": 79.8
+  },
+  {
+   "umd": "당북동",
+   "apt": "안동센트럴자이",
+   "built": 2015,
+   "jeonse_n": 4,
+   "jeonse_median84": 35000,
+   "sale_n": 20,
+   "sale_median84": 43900,
+   "ratio": 79.7
   },
   {
    "umd": "법흥동",
@@ -102,7 +109,7 @@
    "built": 2017,
    "jeonse_n": 2,
    "jeonse_median84": 30000,
-   "sale_n": 6,
+   "sale_n": 5,
    "sale_median84": 38000,
    "ratio": 78.9
   },
@@ -127,24 +134,14 @@
    "ratio": 72.7
   },
   {
-   "umd": "용상동",
-   "apt": "용상풍림아이원리버파크",
-   "built": 2023,
-   "jeonse_n": 3,
-   "jeonse_median84": 34000,
-   "sale_n": 2,
-   "sale_median84": 48000,
-   "ratio": 70.8
-  },
-  {
    "umd": "옥동",
    "apt": "안동옥동호반베르디움",
    "built": 2014,
    "jeonse_n": 3,
    "jeonse_median84": 26600,
-   "sale_n": 30,
-   "sale_median84": 41250,
-   "ratio": 64.5
+   "sale_n": 31,
+   "sale_median84": 41300,
+   "ratio": 64.4
   },
   {
    "umd": "송현동",
@@ -159,12 +156,6 @@
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 17,
-   "n84": 1,
-   "jeonse_median84": 26000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 46,
@@ -221,20 +212,20 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 31,
+   "jeonse_count": 32,
    "n84": 8,
    "jeonse_median84": 30000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 9,
-   "n84": 1,
-   "jeonse_median84": 26000
+   "jeonse_count": 30,
+   "n84": 4,
+   "jeonse_median84": 30000
   }
  ],
- "rank": 34,
- "rank_of": 179,
+ "rank": 41,
+ "rank_of": 178,
  "avg_ratio84_all": 72.3,
- "ratio_vs_avg_pp": 12.6,
- "gap84": 4375
+ "ratio_vs_avg_pp": 11.3,
+ "gap84": 4825
 }

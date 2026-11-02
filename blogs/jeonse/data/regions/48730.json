@@ -1,17 +1,17 @@
 {
  "lawd": "48730",
  "name": "경상남도 함안군",
- "updated": "2026-10-19",
+ "updated": "2026-11-02",
  "months": 12,
- "jeonse_count": 37,
- "wolse_count": 50,
- "wolse_share_pct": 57.5,
- "renew_share_pct": 13.5,
- "jeonse_n84": 14,
- "jeonse_median84": 19000,
- "sale_n84": 116,
- "sale_median84": 18575,
- "ratio84": 102.3,
+ "jeonse_count": 32,
+ "wolse_count": 48,
+ "wolse_share_pct": 60.0,
+ "renew_share_pct": 15.6,
+ "jeonse_n84": 10,
+ "jeonse_median84": 18000,
+ "sale_n84": 113,
+ "sale_median84": 18650,
+ "ratio84": 96.5,
  "jeonse_recent3_median84": 12250,
  "jeonse_prev3_median84": 18000,
  "jeonse_change_pct": -31.9,
@@ -20,11 +20,11 @@
  "apts_ratio_70_plus": 2,
  "umd": {
   "칠원읍 오곡리": {
-   "jeonse_n": 12,
-   "jeonse_median84": 20500,
-   "sale_n": 53,
+   "jeonse_n": 8,
+   "jeonse_median84": 19500,
+   "sale_n": 51,
    "sale_median84": 19000,
-   "ratio": 107.9
+   "ratio": 102.6
   }
  },
  "top_ratio_apts": [
@@ -32,7 +32,7 @@
    "umd": "칠원읍 오곡리",
    "apt": "GS메트로자이",
    "built": 2006,
-   "jeonse_n": 6,
+   "jeonse_n": 4,
    "jeonse_median84": 18000,
    "sale_n": 30,
    "sale_median84": 18725,
@@ -42,21 +42,15 @@
    "umd": "칠원읍 오곡리",
    "apt": "부영벽산블루밍2차",
    "built": 2014,
-   "jeonse_n": 5,
-   "jeonse_median84": 22500,
-   "sale_n": 14,
-   "sale_median84": 26000,
-   "ratio": 86.5
+   "jeonse_n": 3,
+   "jeonse_median84": 23000,
+   "sale_n": 12,
+   "sale_median84": 25900,
+   "ratio": 88.8
   }
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 6,
-   "n84": 4,
-   "jeonse_median84": 21150
-  },
   {
    "month": "2025-12",
    "jeonse_count": 4,
@@ -110,11 +104,17 @@
    "jeonse_count": 1,
    "n84": 1,
    "jeonse_median84": 17500
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 1,
+   "n84": 0,
+   "jeonse_median84": null
   }
  ],
  "rank": null,
- "rank_of": 179,
+ "rank_of": 178,
  "avg_ratio84_all": 72.3,
- "ratio_vs_avg_pp": 30.0,
- "gap84": -425
+ "ratio_vs_avg_pp": 24.2,
+ "gap84": 650
 }

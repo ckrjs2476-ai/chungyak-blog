@@ -1,20 +1,20 @@
 {
  "lawd": "48880",
  "name": "경상남도 거창군",
- "updated": "2026-10-19",
+ "updated": "2026-11-02",
  "months": 12,
  "jeonse_count": 34,
- "wolse_count": 80,
- "wolse_share_pct": 70.2,
+ "wolse_count": 71,
+ "wolse_share_pct": 67.6,
  "renew_share_pct": 8.8,
  "jeonse_n84": 19,
  "jeonse_median84": 17000,
- "sale_n84": 173,
- "sale_median84": 19400,
+ "sale_n84": 158,
+ "sale_median84": 19412,
  "ratio84": 87.6,
- "jeonse_recent3_median84": 12500,
- "jeonse_prev3_median84": 21000,
- "jeonse_change_pct": -40.5,
+ "jeonse_recent3_median84": 17200,
+ "jeonse_prev3_median84": 20000,
+ "jeonse_change_pct": -14.0,
  "apts_with_both": 4,
  "apts_ratio_80_plus": 1,
  "apts_ratio_70_plus": 1,
@@ -22,14 +22,14 @@
   "거창읍 가지리": {
    "jeonse_n": 10,
    "jeonse_median84": 22000,
-   "sale_n": 36,
-   "sale_median84": 33950,
-   "ratio": 64.8
+   "sale_n": 34,
+   "sale_median84": 37450,
+   "ratio": 58.7
   },
   "거창읍 상림리": {
    "jeonse_n": 6,
    "jeonse_median84": 10000,
-   "sale_n": 39,
+   "sale_n": 35,
    "sale_median84": 19000,
    "ratio": 52.6
   }
@@ -41,7 +41,7 @@
    "built": 1991,
    "jeonse_n": 6,
    "jeonse_median84": 10000,
-   "sale_n": 9,
+   "sale_n": 7,
    "sale_median84": 11500,
    "ratio": 87.0
   },
@@ -78,12 +78,6 @@
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 1,
-   "n84": 1,
-   "jeonse_median84": 8000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 3,
@@ -143,11 +137,17 @@
    "jeonse_count": 3,
    "n84": 0,
    "jeonse_median84": null
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 1,
+   "n84": 1,
+   "jeonse_median84": 9400
   }
  ],
  "rank": null,
- "rank_of": 179,
+ "rank_of": 178,
  "avg_ratio84_all": 72.3,
  "ratio_vs_avg_pp": 15.3,
- "gap84": 2400
+ "gap84": 2412
 }
