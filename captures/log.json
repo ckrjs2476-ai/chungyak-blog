@@ -1273,5 +1273,128 @@
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "cy-2026000445-special",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   261
+  ],
+  "bytes": 12686,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000445&pblancNo=2026000445",
+  "at": "2026-11-03 10:42"
+ },
+ {
+  "name": "cy-2026000495-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   293
+  ],
+  "bytes": 10084,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000495&pblancNo=2026000495",
+  "at": "2026-11-03 10:43"
+ },
+ {
+  "name": "cy-2026000237-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   348
+  ],
+  "bytes": 11286,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000237&pblancNo=2026000237",
+  "at": "2026-11-03 10:43"
+ },
+ {
+  "name": "cy-2026000164-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   597
+  ],
+  "bytes": 16860,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000164&pblancNo=2026000164",
+  "at": "2026-11-03 10:43"
+ },
+ {
+  "name": "js-41570-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7180,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-03 10:43"
+ },
+ {
+  "name": "js-41480-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-11200-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 19490,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-03 10:44"
+ },
+ {
+  "name": "js-30230-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 6758,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-03 10:44"
+ },
+ {
+  "name": "ipo-01860700-dart",
+  "ok": true,
+  "status": 200,
+  "title": "인터엑스/증권신고서(지분증권)/2026.10.22",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 33732,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478",
+  "at": "2026-11-03 10:44"
+ },
+ {
+  "name": "ipo-01649408-dart",
+  "ok": true,
+  "status": 200,
+  "title": "인텔리빅스/증권신고서(지분증권)/2026.10.20",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 20950,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000360",
+  "at": "2026-11-03 10:45"
  }
 ]
