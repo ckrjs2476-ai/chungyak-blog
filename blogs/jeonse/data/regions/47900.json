@@ -1,15 +1,15 @@
 {
  "lawd": "47900",
  "name": "경상북도 예천군",
- "updated": "2026-10-19",
+ "updated": "2026-11-03",
  "months": 12,
- "jeonse_count": 161,
- "wolse_count": 110,
- "wolse_share_pct": 40.6,
- "renew_share_pct": 28.6,
- "jeonse_n84": 129,
+ "jeonse_count": 151,
+ "wolse_count": 107,
+ "wolse_share_pct": 41.5,
+ "renew_share_pct": 28.5,
+ "jeonse_n84": 120,
  "jeonse_median84": 23000,
- "sale_n84": 325,
+ "sale_n84": 302,
  "sale_median84": 27500,
  "ratio84": 83.6,
  "jeonse_recent3_median84": 22000,
@@ -20,9 +20,9 @@
  "apts_ratio_70_plus": 9,
  "umd": {
   "호명읍 산합리": {
-   "jeonse_n": 129,
+   "jeonse_n": 120,
    "jeonse_median84": 23000,
-   "sale_n": 305,
+   "sale_n": 283,
    "sale_median84": 27800,
    "ratio": 82.7
   }
@@ -32,29 +32,19 @@
    "umd": "호명읍 산합리",
    "apt": "경북도청신도시우방아이유쉘센텀",
    "built": 2017,
-   "jeonse_n": 22,
-   "jeonse_median84": 22250,
+   "jeonse_n": 20,
+   "jeonse_median84": 22750,
    "sale_n": 52,
    "sale_median84": 25700,
-   "ratio": 86.6
-  },
-  {
-   "umd": "호명읍 산합리",
-   "apt": "우방아이유쉘2차",
-   "built": 2016,
-   "jeonse_n": 13,
-   "jeonse_median84": 20000,
-   "sale_n": 18,
-   "sale_median84": 23600,
-   "ratio": 84.7
+   "ratio": 88.5
   },
   {
    "umd": "호명읍 산합리",
    "apt": "동일스위트더파크",
    "built": 2019,
-   "jeonse_n": 21,
+   "jeonse_n": 19,
    "jeonse_median84": 27000,
-   "sale_n": 49,
+   "sale_n": 50,
    "sale_median84": 32000,
    "ratio": 84.4
   },
@@ -64,49 +54,59 @@
    "built": 2018,
    "jeonse_n": 14,
    "jeonse_median84": 23050,
-   "sale_n": 34,
+   "sale_n": 31,
    "sale_median84": 27500,
    "ratio": 83.8
   },
   {
    "umd": "호명읍 산합리",
-   "apt": "경북도청아이파크",
-   "built": 2015,
-   "jeonse_n": 8,
-   "jeonse_median84": 21000,
-   "sale_n": 27,
-   "sale_median84": 26000,
-   "ratio": 80.8
+   "apt": "우방아이유쉘2차",
+   "built": 2016,
+   "jeonse_n": 12,
+   "jeonse_median84": 20000,
+   "sale_n": 16,
+   "sale_median84": 24000,
+   "ratio": 83.3
   },
   {
    "umd": "호명읍 산합리",
    "apt": "우방아이유쉘1차",
    "built": 2016,
-   "jeonse_n": 13,
-   "jeonse_median84": 20000,
-   "sale_n": 30,
-   "sale_median84": 24950,
-   "ratio": 80.2
+   "jeonse_n": 12,
+   "jeonse_median84": 20450,
+   "sale_n": 24,
+   "sale_median84": 25000,
+   "ratio": 81.8
+  },
+  {
+   "umd": "호명읍 산합리",
+   "apt": "경북도청아이파크",
+   "built": 2015,
+   "jeonse_n": 7,
+   "jeonse_median84": 21000,
+   "sale_n": 24,
+   "sale_median84": 25850,
+   "ratio": 81.2
   },
   {
    "umd": "호명읍 산합리",
    "apt": "경북도청신도시호반베르디움1차",
    "built": 2017,
-   "jeonse_n": 11,
+   "jeonse_n": 10,
    "jeonse_median84": 23000,
-   "sale_n": 33,
-   "sale_median84": 30000,
-   "ratio": 76.7
+   "sale_n": 28,
+   "sale_median84": 29000,
+   "ratio": 79.3
   },
   {
    "umd": "호명읍 산합리",
    "apt": "경북도청신도시우방아이유쉘센트럴",
    "built": 2017,
-   "jeonse_n": 15,
-   "jeonse_median84": 21000,
-   "sale_n": 28,
-   "sale_median84": 27650,
-   "ratio": 75.9
+   "jeonse_n": 14,
+   "jeonse_median84": 21500,
+   "sale_n": 25,
+   "sale_median84": 27600,
+   "ratio": 77.9
   },
   {
    "umd": "호명읍 산합리",
@@ -114,19 +114,13 @@
    "built": 2017,
    "jeonse_n": 12,
    "jeonse_median84": 26000,
-   "sale_n": 34,
-   "sale_median84": 34950,
-   "ratio": 74.4
+   "sale_n": 33,
+   "sale_median84": 34700,
+   "ratio": 74.9
   }
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 17,
-   "n84": 15,
-   "jeonse_median84": 20000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 20,
@@ -183,15 +177,15 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 10,
-   "n84": 8,
-   "jeonse_median84": 21000
+   "jeonse_count": 11,
+   "n84": 9,
+   "jeonse_median84": 22000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 2,
-   "n84": 2,
-   "jeonse_median84": 23000
+   "jeonse_count": 8,
+   "n84": 7,
+   "jeonse_median84": 22000
   }
  ],
  "rank": 42,
