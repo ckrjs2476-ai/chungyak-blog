@@ -1,42 +1,42 @@
 {
  "lawd": "52180",
  "name": "전북특별자치도 정읍시",
- "updated": "2026-10-20",
+ "updated": "2026-11-03",
  "months": 12,
- "jeonse_count": 88,
- "wolse_count": 330,
- "wolse_share_pct": 78.9,
- "renew_share_pct": 11.4,
- "jeonse_n84": 33,
- "jeonse_median84": 24000,
- "sale_n84": 209,
+ "jeonse_count": 72,
+ "wolse_count": 309,
+ "wolse_share_pct": 81.1,
+ "renew_share_pct": 13.9,
+ "jeonse_n84": 21,
+ "jeonse_median84": 25000,
+ "sale_n84": 189,
  "sale_median84": 26700,
- "ratio84": 89.9,
+ "ratio84": 93.6,
  "jeonse_recent3_median84": 28000,
- "jeonse_prev3_median84": 25000,
- "jeonse_change_pct": 12.0,
- "apts_with_both": 6,
+ "jeonse_prev3_median84": 20000,
+ "jeonse_change_pct": 40.0,
+ "apts_with_both": 4,
  "apts_ratio_80_plus": 0,
- "apts_ratio_70_plus": 2,
+ "apts_ratio_70_plus": 1,
  "umd": {
   "농소동": {
-   "jeonse_n": 10,
-   "jeonse_median84": 25500,
-   "sale_n": 5,
-   "sale_median84": 15500,
-   "ratio": 164.5
+   "jeonse_n": 5,
+   "jeonse_median84": 30000,
+   "sale_n": 4,
+   "sale_median84": 15350,
+   "ratio": 195.4
   },
   "상동": {
-   "jeonse_n": 16,
-   "jeonse_median84": 23000,
-   "sale_n": 90,
-   "sale_median84": 27900,
-   "ratio": 82.4
+   "jeonse_n": 9,
+   "jeonse_median84": 15000,
+   "sale_n": 84,
+   "sale_median84": 27800,
+   "ratio": 54.0
   },
   "시기동": {
    "jeonse_n": 5,
    "jeonse_median84": 25000,
-   "sale_n": 77,
+   "sale_n": 71,
    "sale_median84": 28000,
    "ratio": 89.3
   }
@@ -53,34 +53,24 @@
    "ratio": 78.4
   },
   {
-   "umd": "상동",
-   "apt": "정읍상동대광로제비앙",
-   "built": 2014,
-   "jeonse_n": 4,
-   "jeonse_median84": 24000,
-   "sale_n": 19,
-   "sale_median84": 31000,
-   "ratio": 77.4
-  },
-  {
    "umd": "시기동",
    "apt": "영무예다음",
    "built": 2019,
    "jeonse_n": 2,
    "jeonse_median84": 27000,
-   "sale_n": 5,
-   "sale_median84": 39500,
-   "ratio": 68.4
+   "sale_n": 4,
+   "sale_median84": 39600,
+   "ratio": 68.2
   },
   {
    "umd": "상동",
    "apt": "현대",
    "built": 1991,
-   "jeonse_n": 4,
-   "jeonse_median84": 10500,
-   "sale_n": 19,
-   "sale_median84": 15900,
-   "ratio": 66.0
+   "jeonse_n": 3,
+   "jeonse_median84": 10000,
+   "sale_n": 20,
+   "sale_median84": 15450,
+   "ratio": 64.7
   },
   {
    "umd": "시기동",
@@ -88,29 +78,13 @@
    "built": 2006,
    "jeonse_n": 2,
    "jeonse_median84": 18000,
-   "sale_n": 17,
+   "sale_n": 15,
    "sale_median84": 28100,
    "ratio": 64.1
-  },
-  {
-   "umd": "상동",
-   "apt": "상동1차영무예다음아파트",
-   "built": 2023,
-   "jeonse_n": 2,
-   "jeonse_median84": 22500,
-   "sale_n": 7,
-   "sale_median84": 42400,
-   "ratio": 53.1
   }
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 19,
-   "n84": 12,
-   "jeonse_median84": 23500
-  },
   {
    "month": "2025-12",
    "jeonse_count": 14,
@@ -161,20 +135,26 @@
   },
   {
    "month": "2026-08",
+   "jeonse_count": 2,
+   "n84": 0,
+   "jeonse_median84": null
+  },
+  {
+   "month": "2026-09",
    "jeonse_count": 1,
    "n84": 0,
    "jeonse_median84": null
   },
   {
    "month": "2026-10",
-   "jeonse_count": 1,
+   "jeonse_count": 2,
    "n84": 1,
    "jeonse_median84": 28000
   }
  ],
- "rank": 24,
+ "rank": 19,
  "rank_of": 178,
  "avg_ratio84_all": 72.3,
- "ratio_vs_avg_pp": 17.6,
- "gap84": 2700
+ "ratio_vs_avg_pp": 21.3,
+ "gap84": 1700
 }

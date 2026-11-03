@@ -1,20 +1,20 @@
 {
  "lawd": "52190",
  "name": "전북특별자치도 남원시",
- "updated": "2026-10-20",
+ "updated": "2026-11-03",
  "months": 12,
- "jeonse_count": 386,
- "wolse_count": 910,
- "wolse_share_pct": 70.2,
- "renew_share_pct": 75.6,
- "jeonse_n84": 13,
- "jeonse_median84": 22100,
- "sale_n84": 146,
+ "jeonse_count": 328,
+ "wolse_count": 852,
+ "wolse_share_pct": 72.2,
+ "renew_share_pct": 72.9,
+ "jeonse_n84": 12,
+ "jeonse_median84": 22550,
+ "sale_n84": 141,
  "sale_median84": 22000,
- "ratio84": 100.5,
+ "ratio84": 102.5,
  "jeonse_recent3_median84": 24190,
- "jeonse_prev3_median84": 21890,
- "jeonse_change_pct": 10.5,
+ "jeonse_prev3_median84": 20781,
+ "jeonse_change_pct": 16.4,
  "apts_with_both": 2,
  "apts_ratio_80_plus": 0,
  "apts_ratio_70_plus": 1,
@@ -29,7 +29,7 @@
   "신정동": {
    "jeonse_n": 3,
    "jeonse_median84": 23000,
-   "sale_n": 19,
+   "sale_n": 18,
    "sale_median84": 35000,
    "ratio": 65.7
   }
@@ -58,12 +58,6 @@
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 72,
-   "n84": 1,
-   "jeonse_median84": 18000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 37,
@@ -120,20 +114,26 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 26,
+   "jeonse_count": 27,
    "n84": 3,
    "jeonse_median84": 24190
   },
   {
    "month": "2026-10",
-   "jeonse_count": 17,
+   "jeonse_count": 29,
    "n84": 1,
    "jeonse_median84": 24190
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 1,
+   "n84": 0,
+   "jeonse_median84": null
   }
  ],
  "rank": null,
  "rank_of": 178,
  "avg_ratio84_all": 72.3,
- "ratio_vs_avg_pp": 28.2,
- "gap84": -100
+ "ratio_vs_avg_pp": 30.2,
+ "gap84": -550
 }
