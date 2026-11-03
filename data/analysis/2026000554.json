@@ -1,0 +1,111 @@
+{
+ "no": "2026000554",
+ "name": "리첼 에듀포레 경산역",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2026-11-03",
+ "rank1_date": "2026-11-16",
+ "city": "경산시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-23",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000554&pblancNo=2026000554",
+ "households": 201,
+ "types": [
+  {
+   "ty": "62.2537",
+   "size": 62,
+   "price": 48070,
+   "area_m2": 83.1444,
+   "general": 16,
+   "special": 26,
+   "pyeong_price": 1911,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "84.9417A",
+   "size": 84,
+   "price": 63363,
+   "area_m2": 111.545,
+   "general": 36,
+   "special": 41,
+   "pyeong_price": 1878,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.8838B",
+   "size": 84,
+   "price": 63811,
+   "area_m2": 112.2603,
+   "general": 20,
+   "special": 27,
+   "pyeong_price": 1879,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.9417C",
+   "size": 84,
+   "price": 61063,
+   "area_m2": 111.4114,
+   "general": 19,
+   "special": 16,
+   "pyeong_price": 1812,
+   "special_share_pct": 46
+  }
+ ],
+ "general_total": 91,
+ "special_total": 110,
+ "special_share_pct": 55,
+ "pyeong_min": 1812,
+ "pyeong_max": 1911,
+ "pyeong_avg": 1874,
+ "price_84_min": 61063,
+ "price_84_max": 63811,
+ "special_kinds": {
+  "신혼부부": 30,
+  "생애최초": 14,
+  "신생아": 20,
+  "다자녀": 20,
+  "노부모 부양": 6,
+  "기관추천": 20
+ },
+ "region_price": {
+  "scope": "경북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "펜타힐즈 더블유 1단지",
+   "형곡 센트럴 아테라"
+  ],
+  "peer_avg_pyeong": 1814,
+  "diff": 60,
+  "diff_pct": 3,
+  "rank": 2,
+  "of": 3
+ },
+ "market": {
+  "region": "경상북도 경산시",
+  "lawd": "47290",
+  "months": 12,
+  "updated": "2026-11-04",
+  "n84": 966,
+  "median84": 26650,
+  "p25_84": 19500,
+  "p75_84": 43025,
+  "new_n84": 235,
+  "new_median84": 50000,
+  "new_build_years": 5,
+  "umd": "사정동",
+  "umd_n84": 7,
+  "umd_median84": 14000,
+  "diff_vs_median84": 37161,
+  "diff_pct_vs_median84": 139,
+  "diff_vs_new_median84": 13811,
+  "diff_pct_vs_new_median84": 28,
+  "diff_vs_umd_median84": 49811,
+  "diff_pct_vs_umd_median84": 356
+ }
+}

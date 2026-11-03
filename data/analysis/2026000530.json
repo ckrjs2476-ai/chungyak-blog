@@ -111,6 +111,79 @@
   "노부모 부양": 18,
   "기관추천": 48
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.3473A",
+    "supply": 137,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.16,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.6971B",
+    "supply": 72,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 53
+   },
+   {
+    "ty": "84.8175C",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 24
+   },
+   {
+    "ty": "84.5968D",
+    "supply": 102,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 57
+   },
+   {
+    "ty": "84.9714E",
+    "supply": 17,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.44,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "92.1964A",
+    "supply": 34,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 12
+   },
+   {
+    "ty": "93.7413A",
+    "supply": 35,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 26
+   },
+   {
+    "ty": "93.8537B",
+    "supply": 51,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   }
+  ],
+  "req_total": 352,
+  "rank1_req": 352,
+  "supply_total": 474,
+  "final_shortfall_total": 206,
+  "closed_types": 2,
+  "rank1_closed_types": 2,
+  "type_count": 8,
+  "rank1_avg_rate": 0.74,
+  "best": {
+   "ty": "84.3473A",
+   "rate": 2.16,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "인천",
   "supply_kind": "민영",
@@ -134,8 +207,25 @@
  },
  "area_competition": {
   "scope": "인천",
-  "peer_count": 13,
-  "peer_avg_rate": 10.54,
+  "peer_count": 14,
+  "peer_avg_rate": 9.95,
   "peer_max_rate": 50.03
+ },
+ "region_competition": {
+  "scope": "인천",
+  "peer_count": 15,
+  "peers": [
+   "힐스테이트 구월아트파크",
+   "검암역자이르네",
+   "더샵 송도그란테르 G5-1블록",
+   "더샵 송도그란테르 G5-3블록",
+   "더샵 송도그란테르 G5-4블록",
+   "더샵 송도그란테르 G5-5블록",
+   "더샵 송도그란테르 G5-6블록",
+   "더샵 송도그란테르 G5-11블록"
+  ],
+  "peer_avg_rate": 9.34,
+  "rank": 13,
+  "of": 16
  }
 }

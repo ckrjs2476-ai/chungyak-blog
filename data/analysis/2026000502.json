@@ -131,6 +131,88 @@
   "노부모 부양": 46,
   "기관추천": 132
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.3522A",
+    "supply": 284,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 252
+   },
+   {
+    "ty": "84.4355B",
+    "supply": 124,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 92
+   },
+   {
+    "ty": "84.1443C",
+    "supply": 390,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 278
+   },
+   {
+    "ty": "84.4447D",
+    "supply": 68,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 6
+   },
+   {
+    "ty": "84.5473E",
+    "supply": 295,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 276
+   },
+   {
+    "ty": "84.8194F",
+    "supply": 76,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 28
+   },
+   {
+    "ty": "84.3216G",
+    "supply": 18,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 14
+   },
+   {
+    "ty": "102.6403",
+    "supply": 55,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 47
+   },
+   {
+    "ty": "112.1044",
+    "supply": 78,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 59
+   },
+   {
+    "ty": "120.3418",
+    "supply": 77,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 59
+   }
+  ],
+  "req_total": 354,
+  "rank1_req": 354,
+  "supply_total": 1465,
+  "final_shortfall_total": 1111,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 10,
+  "rank1_avg_rate": 0.24
+ },
  "region_price": {
   "scope": "화성시",
   "supply_kind": "민영",
@@ -173,5 +255,17 @@
   "peer_count": 3,
   "peer_avg_rate": 0.91,
   "peer_max_rate": 1.3
+ },
+ "region_competition": {
+  "scope": "화성시",
+  "peer_count": 3,
+  "peers": [
+   "향남역 그로브 스위첸",
+   "아크메르 동탄 95",
+   "아크메르 동탄 99"
+  ],
+  "peer_avg_rate": 0.91,
+  "rank": 4,
+  "of": 4
  }
 }

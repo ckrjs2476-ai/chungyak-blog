@@ -1,19 +1,47 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "weekly_competition": [
   {
-   "no": "2026000508",
-   "name": "아크메르 동탄 95",
+   "no": "2026000518",
+   "name": "GTX운정중앙역 시티프라디움 4단지(후속사업)",
    "region": "경기",
-   "rank1_avg_rate": 1.3,
+   "rank1_avg_rate": 51.75,
    "best": {
-    "ty": "84.997C",
-    "rate": 16.88,
+    "ty": "60.9995",
+    "rate": 109.9,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 350,
-   "rank1_closed_types": 3,
-   "type_count": 8
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 2,
+   "type_count": 2
+  },
+  {
+   "no": "2026000517",
+   "name": "GTX운정중앙역 시티프라디움 3단지(후속사업)",
+   "region": "경기",
+   "rank1_avg_rate": 36.48,
+   "best": {
+    "ty": "60.9995",
+    "rate": 249.75,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 5,
+   "type_count": 5
+  },
+  {
+   "no": "2026000496",
+   "name": "청라 아크원 푸르지오",
+   "region": "인천",
+   "rank1_avg_rate": 2.23,
+   "best": {
+    "ty": "84.9443A",
+    "rate": 12.91,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 125,
+   "rank1_closed_types": 4,
+   "type_count": 6
   },
   {
    "no": "2026000455",
@@ -30,52 +58,42 @@
    "type_count": 7
   },
   {
-   "no": "2026000509",
-   "name": "아크메르 동탄 99",
+   "no": "2026000532",
+   "name": "계양신도시 카이브 유보라(AC4BL)",
+   "region": "인천",
+   "rank1_avg_rate": 0.78,
+   "best": {
+    "ty": "84.3473A",
+    "rate": 2.05,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 163,
+   "rank1_closed_types": 2,
+   "type_count": 7
+  },
+  {
+   "no": "2026000530",
+   "name": "계양신도시 카이브 유보라(AC3BL)",
+   "region": "인천",
+   "rank1_avg_rate": 0.74,
+   "best": {
+    "ty": "84.3473A",
+    "rate": 2.16,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 206,
+   "rank1_closed_types": 2,
+   "type_count": 8
+  },
+  {
+   "no": "2026000502",
+   "name": "화성 향남 롯데캐슬 시그니처",
    "region": "경기",
-   "rank1_avg_rate": 0.79,
-   "best": {
-    "ty": "148.9945E",
-    "rate": 4.0,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 197,
-   "rank1_closed_types": 3,
-   "type_count": 9
-  },
-  {
-   "no": "2026000495",
-   "name": "연산 센텀 월드메르디앙",
-   "region": "부산",
-   "rank1_avg_rate": 0.2,
-   "best": {
-    "ty": "59.6263",
-    "rate": 1.33,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 92,
-   "rank1_closed_types": 1,
-   "type_count": 6
-  },
-  {
-   "no": "2026000514",
-   "name": "트리븐센텀 2단지",
-   "region": "부산",
-   "rank1_avg_rate": 0.2,
+   "rank1_avg_rate": 0.24,
    "best": null,
-   "final_shortfall_total": 548,
+   "final_shortfall_total": 1111,
    "rank1_closed_types": 0,
-   "type_count": 5
-  },
-  {
-   "no": "2026000513",
-   "name": "트리븐센텀 1단지",
-   "region": "부산",
-   "rank1_avg_rate": 0.19,
-   "best": null,
-   "final_shortfall_total": 598,
-   "rank1_closed_types": 0,
-   "type_count": 5
+   "type_count": 10
   }
  ],
  "weekly_remainder": [
@@ -135,6 +153,56 @@
     {
      "ty": "84.9663D",
      "price": 89300,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910272",
+   "name": "캐슬앤파밀리에 디아트(4-1생활권 P1구역 M1블록 수루배마을1단지)",
+   "region": "세종",
+   "households": 1,
+   "rcept_date": "2026-11-09",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910272&pblancNo=2026910272",
+   "types": [
+    {
+     "ty": "96.788",
+     "price": 34731,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910273",
+   "name": "캐슬앤파밀리에 디아트(4-1생활권 P1구역 L2블록 수루배마을2단지)",
+   "region": "세종",
+   "households": 1,
+   "rcept_date": "2026-11-09",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910273&pblancNo=2026910273",
+   "types": [
+    {
+     "ty": "59.224",
+     "price": 24579,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910274",
+   "name": "천안 롯데캐슬 더 청당",
+   "region": "충남",
+   "households": 2,
+   "rcept_date": "2026-11-09",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910274&pblancNo=2026910274",
+   "types": [
+    {
+     "ty": "59.9948A",
+     "price": 28460,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9962A",
+     "price": 42550,
      "pyeong_price": null
     }
    ]
@@ -266,80 +334,6 @@
   }
  ],
  "monthly_region_pyeong": {
-  "2025-11": {
-   "경북": {
-    "count": 1,
-    "avg_pyeong": 1195,
-    "max_pyeong": 1195,
-    "min_pyeong": 1195
-   },
-   "경남": {
-    "count": 3,
-    "avg_pyeong": 1934,
-    "max_pyeong": 2680,
-    "min_pyeong": 1473
-   },
-   "경기": {
-    "count": 20,
-    "avg_pyeong": 2265,
-    "max_pyeong": 4518,
-    "min_pyeong": 1343
-   },
-   "울산": {
-    "count": 4,
-    "avg_pyeong": 2002,
-    "max_pyeong": 2352,
-    "min_pyeong": 1550
-   },
-   "전북": {
-    "count": 2,
-    "avg_pyeong": 1438,
-    "max_pyeong": 1692,
-    "min_pyeong": 1183
-   },
-   "부산": {
-    "count": 2,
-    "avg_pyeong": 1392,
-    "max_pyeong": 2030,
-    "min_pyeong": 754
-   },
-   "충남": {
-    "count": 4,
-    "avg_pyeong": 1340,
-    "max_pyeong": 1457,
-    "min_pyeong": 1255
-   },
-   "인천": {
-    "count": 2,
-    "avg_pyeong": 1784,
-    "max_pyeong": 1903,
-    "min_pyeong": 1664
-   },
-   "세종": {
-    "count": 1,
-    "avg_pyeong": 1849,
-    "max_pyeong": 1849,
-    "min_pyeong": 1849
-   },
-   "제주": {
-    "count": 2,
-    "avg_pyeong": 2190,
-    "max_pyeong": 2697,
-    "min_pyeong": 1682
-   },
-   "전남": {
-    "count": 1,
-    "avg_pyeong": 1084,
-    "max_pyeong": 1084,
-    "min_pyeong": 1084
-   },
-   "충북": {
-    "count": 1,
-    "avg_pyeong": 1261,
-    "max_pyeong": 1261,
-    "min_pyeong": 1261
-   }
-  },
   "2025-12": {
    "경기": {
     "count": 11,
@@ -967,13 +961,60 @@
     "max_pyeong": 1762,
     "min_pyeong": 1762
    }
+  },
+  "2026-11": {
+   "경북": {
+    "count": 1,
+    "avg_pyeong": 1874,
+    "max_pyeong": 1874,
+    "min_pyeong": 1874
+   },
+   "경기": {
+    "count": 1,
+    "avg_pyeong": 1736,
+    "max_pyeong": 1736,
+    "min_pyeong": 1736
+   }
   }
  },
  "this_month": {
   "month": "2026-11",
-  "units": [],
-  "special_totals": {},
-  "households_total": 0
+  "units": [
+   {
+    "no": "2026000554",
+    "name": "리첼 에듀포레 경산역",
+    "region": "경북",
+    "households": 201,
+    "pyeong_avg": 1874,
+    "price_84_min": 61063,
+    "special_kinds": {
+     "신혼부부": 30,
+     "생애최초": 14,
+     "신생아": 20,
+     "다자녀": 20,
+     "노부모 부양": 6,
+     "기관추천": 20
+    }
+   },
+   {
+    "no": "2026820014",
+    "name": "남양주왕숙 A-2블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+    "region": "경기",
+    "households": 32,
+    "pyeong_avg": 1736,
+    "price_84_min": null,
+    "special_kinds": {}
+   }
+  ],
+  "special_totals": {
+   "신혼부부": 30,
+   "생애최초": 14,
+   "신생아": 20,
+   "다자녀": 20,
+   "노부모 부양": 6,
+   "기관추천": 20
+  },
+  "households_total": 233
  },
  "last_month": {
   "month": "2026-10",

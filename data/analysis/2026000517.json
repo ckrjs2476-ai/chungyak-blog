@@ -81,6 +81,58 @@
   "노부모 부양": 10,
   "기관추천": 18
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "60.9995",
+    "supply": 12,
+    "closed_at": "1순위 해당지역",
+    "rate": 249.75,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9594",
+    "supply": 29,
+    "closed_at": "1순위 해당지역",
+    "rate": 119.11,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.4998",
+    "supply": 31,
+    "closed_at": "1순위 해당지역",
+    "rate": 42.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "88.5023",
+    "supply": 55,
+    "closed_at": "1순위 해당지역",
+    "rate": 69.12,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "115.3141",
+    "supply": 69,
+    "closed_at": "1순위 해당지역",
+    "rate": 21.52,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 7150,
+  "rank1_req": 7150,
+  "supply_total": 196,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 36.48,
+  "best": {
+   "ty": "60.9995",
+   "rate": 249.75,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "경기",
   "supply_kind": "민영",
@@ -104,8 +156,25 @@
  },
  "area_competition": {
   "scope": "경기",
-  "peer_count": 36,
-  "peer_avg_rate": 2.43,
+  "peer_count": 37,
+  "peer_avg_rate": 2.37,
   "peer_max_rate": 21.98
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 38,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "더 플래티넘 파인애비뉴",
+   "안양 에버포레 자연앤 e편한세상(A1BL)",
+   "힐스테이트 시흥더클래스",
+   "고덕국제신도시 수자인풍경채 1단지",
+   "고덕국제신도시 수자인풍경채 2단지",
+   "중앙하이츠 원종역"
+  ],
+  "peer_avg_rate": 3.67,
+  "rank": 2,
+  "of": 39
  }
 }

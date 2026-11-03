@@ -2,14 +2,14 @@
  "lawd": "41430",
  "name": "경기도 의왕시",
  "months": 12,
- "updated": "2026-11-03",
- "trade_count": 1948,
+ "updated": "2026-11-04",
+ "trade_count": 1960,
  "cancel_count": 41,
- "n84": 983,
+ "n84": 985,
  "median84": 78000,
  "p25_84": 57000,
  "p75_84": 99000,
- "median84_pyeong_excl": 3039,
+ "median84_pyeong_excl": 3041,
  "new_n84": 45,
  "new_median84": 92500,
  "new_build_years": 5,
@@ -19,8 +19,8 @@
    "median": 52500
   },
   "포일동": {
-   "n": 214,
-   "median": 104000
+   "n": 216,
+   "median": 104250
   },
   "내손동": {
    "n": 257,
@@ -110,15 +110,21 @@
   },
   {
    "month": "2026-10",
-   "count": 83,
-   "n84": 36,
-   "median84": 76500
+   "count": 93,
+   "n84": 38,
+   "median84": 79000
+  },
+  {
+   "month": "2026-11",
+   "count": 2,
+   "n84": 0,
+   "median84": null
   }
  ],
  "top_apts": [
   {
    "name": "내손동 의왕내손e편한세상",
-   "count": 145,
+   "count": 146,
    "median84": 108500,
    "built": 2012
   },
@@ -148,7 +154,7 @@
   },
   {
    "name": "오전동 의왕더샵캐슬",
-   "count": 58,
+   "count": 59,
    "median84": 94000,
    "built": 2021
   },
