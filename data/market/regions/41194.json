@@ -2,37 +2,37 @@
  "lawd": "41194",
  "name": "경기도 부천시 소사구",
  "months": 12,
- "updated": "2026-11-02",
- "trade_count": 2291,
+ "updated": "2026-11-03",
+ "trade_count": 2313,
  "cancel_count": 90,
- "n84": 754,
- "median84": 59800,
- "p25_84": 53200,
- "p75_84": 71725,
- "median84_pyeong_excl": 2329,
- "new_n84": 90,
- "new_median84": 78450,
+ "n84": 765,
+ "median84": 59750,
+ "p25_84": 53250,
+ "p75_84": 71750,
+ "median84_pyeong_excl": 2328,
+ "new_n84": 93,
+ "new_median84": 78500,
  "new_build_years": 5,
  "umd84": {
+  "소사본동": {
+   "n": 208,
+   "median": 55350
+  },
+  "송내동": {
+   "n": 142,
+   "median": 60000
+  },
   "범박동": {
-   "n": 183,
+   "n": 189,
    "median": 57700
   },
   "괴안동": {
    "n": 65,
    "median": 45100
   },
-  "소사본동": {
-   "n": 204,
-   "median": 55350
-  },
   "옥길동": {
    "n": 151,
    "median": 67800
-  },
-  "송내동": {
-   "n": 141,
-   "median": 60000
   },
   "심곡본동": {
    "n": 10,
@@ -102,33 +102,39 @@
   },
   {
    "month": "2026-10",
-   "count": 192,
-   "n84": 60,
-   "median84": 59000
+   "count": 210,
+   "n84": 69,
+   "median84": 58500
+  },
+  {
+   "month": "2026-11",
+   "count": 4,
+   "n84": 2,
+   "median84": 80350
   }
  ],
  "top_apts": [
   {
    "name": "범박동 일루미스테이트",
-   "count": 246,
+   "count": 249,
    "median84": 78200,
    "built": 2024
   },
   {
    "name": "소사본동 주공",
-   "count": 96,
+   "count": 97,
    "median84": null,
-   "built": 2006
+   "built": 1995
   },
   {
    "name": "옥길동 옥길센트리뷰",
-   "count": 89,
+   "count": 90,
    "median84": 67800,
    "built": 2017
   },
   {
    "name": "옥길동 옥길데시앙",
-   "count": 80,
+   "count": 81,
    "median84": null,
    "built": 2016
   },
@@ -139,26 +145,26 @@
    "built": 2020
   },
   {
+   "name": "옥길동 옥길호반베르디움",
+   "count": 65,
+   "median84": 78500,
+   "built": 2017
+  },
+  {
    "name": "소사본동 부천소사역푸르지오",
    "count": 65,
    "median84": 77250,
    "built": 2012
   },
   {
-   "name": "옥길동 옥길호반베르디움",
-   "count": 64,
-   "median84": 78500,
-   "built": 2017
-  },
-  {
    "name": "범박동 부천범박힐스테이트1단지",
-   "count": 62,
-   "median84": 52500,
+   "count": 64,
+   "median84": 53000,
    "built": 2004
   },
   {
    "name": "소사본동 소사에스케이뷰",
-   "count": 62,
+   "count": 63,
    "median84": 56800,
    "built": 2004
   },

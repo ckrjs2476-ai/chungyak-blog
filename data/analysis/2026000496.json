@@ -117,5 +117,27 @@
   "peer_count": 13,
   "peer_avg_rate": 10.54,
   "peer_max_rate": 50.03
+ },
+ "market": {
+  "region": "인천광역시 서해구",
+  "lawd": "28275",
+  "months": 12,
+  "updated": "2026-11-03",
+  "n84": 1301,
+  "median84": 59800,
+  "p25_84": 45000,
+  "p75_84": 68000,
+  "new_n84": 336,
+  "new_median84": 62950,
+  "new_build_years": 5,
+  "umd": "청라동",
+  "umd_n84": 451,
+  "umd_median84": 67500,
+  "diff_vs_median84": 32270,
+  "diff_pct_vs_median84": 54,
+  "diff_vs_new_median84": 29120,
+  "diff_pct_vs_new_median84": 46,
+  "diff_vs_umd_median84": 24570,
+  "diff_pct_vs_umd_median84": 36
  }
 }
