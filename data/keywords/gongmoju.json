@@ -1,23 +1,11 @@
 {
- "updated": "2026-11-02 05:38",
+ "updated": "2026-11-03 10:54",
  "stage": 1,
  "band": [
   30,
   1500
  ],
  "keywords": [
-  {
-   "keyword": "동원파츠공모가",
-   "volume": 70,
-   "comp": "중간",
-   "entity": "동원파츠",
-   "entity_id": "00784184",
-   "base_score": 85.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
   {
    "keyword": "동원파츠수요예측",
    "volume": 1270,
@@ -295,30 +283,6 @@
    "used": false
   },
   {
-   "keyword": "진코스텍공모가",
-   "volume": 2900,
-   "comp": "낮음",
-   "entity": "진코스텍",
-   "entity_id": "01158632",
-   "base_score": 40.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 40.0,
-   "used": false
-  },
-  {
-   "keyword": "진코스텍수요예측",
-   "volume": 2340,
-   "comp": "낮음",
-   "entity": "진코스텍",
-   "entity_id": "01158632",
-   "base_score": 40.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 40.0,
-   "used": false
-  },
-  {
    "keyword": "엘리스그룹공모가",
    "volume": 4190,
    "comp": "낮음",
@@ -436,6 +400,18 @@
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 30.0,
+   "used": true
+  },
+  {
+   "keyword": "동원파츠공모가",
+   "volume": 70,
+   "comp": "중간",
+   "entity": "동원파츠",
+   "entity_id": "00784184",
+   "base_score": 85.0,
+   "growth": 0.34,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
+   "score": 29.3,
    "used": true
   },
   {
@@ -655,6 +631,30 @@
    "used": true
   },
   {
+   "keyword": "진코스텍공모가",
+   "volume": 2900,
+   "comp": "낮음",
+   "entity": "진코스텍",
+   "entity_id": "01158632",
+   "base_score": 40.0,
+   "growth": 0.6,
+   "why": "청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 24.0,
+   "used": false
+  },
+  {
+   "keyword": "진코스텍수요예측",
+   "volume": 2340,
+   "comp": "낮음",
+   "entity": "진코스텍",
+   "entity_id": "01158632",
+   "base_score": 40.0,
+   "growth": 0.6,
+   "why": "청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 24.0,
+   "used": false
+  },
+  {
    "keyword": "에스에프씨수요예측",
    "volume": 10,
    "comp": "낮음",
@@ -756,6 +756,30 @@
    "comp": "낮음",
    "entity": "제논",
    "entity_id": "01950720",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "인터엑스공모가",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "인터엑스",
+   "entity_id": "01860700",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "인터엑스수요예측",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "인터엑스",
+   "entity_id": "01860700",
    "base_score": 20.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -1056,42 +1080,6 @@
    "comp": "낮음",
    "entity": "에이엔에이치스트럭쳐",
    "entity_id": "01366675",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "인터엑스공모주",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "인터엑스",
-   "entity_id": "01860700",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "인터엑스공모가",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "인터엑스",
-   "entity_id": "01860700",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "인터엑스수요예측",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "인터엑스",
-   "entity_id": "01860700",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -1963,6 +1951,18 @@
    "used": false
   },
   {
+   "keyword": "인터엑스공모주",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "인터엑스",
+   "entity_id": "01860700",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
+  },
+  {
    "keyword": "이노보테라퓨틱스공모주",
    "volume": 10,
    "comp": "낮음",
@@ -2503,18 +2503,6 @@
    "used": false
   },
   {
-   "keyword": "진코스텍공모주",
-   "volume": 11910,
-   "comp": "낮음",
-   "entity": "진코스텍",
-   "entity_id": "01158632",
-   "base_score": 5.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 5.0,
-   "used": false
-  },
-  {
    "keyword": "엘리스그룹공모주",
    "volume": 66300,
    "comp": "낮음",
@@ -3016,6 +3004,18 @@
    "growth": 1.0,
    "why": "",
    "score": 3.5,
+   "used": false
+  },
+  {
+   "keyword": "진코스텍공모주",
+   "volume": 11910,
+   "comp": "낮음",
+   "entity": "진코스텍",
+   "entity_id": "01158632",
+   "base_score": 5.0,
+   "growth": 0.6,
+   "why": "청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 3.0,
    "used": false
   },
   {
