@@ -1,1 +1,171 @@
-[]
+[
+ {
+  "name": "cy-2026000496-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "cy-2026000126-special",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000126&pblancNo=2026000126",
+  "crop": {
+   "from": "특별공급 공급대상",
+   "to": "공급금액, 2순위"
+  }
+ },
+ {
+  "name": "cy-2026000371-special",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000371&pblancNo=2026000371",
+  "crop": {
+   "from": "특별공급 공급대상",
+   "to": "공급금액, 2순위"
+  }
+ },
+ {
+  "name": "cy-2026000373-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "cy-2026000508-price",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
+  "crop": {
+   "from": "공급금액, 2순위",
+   "to": "기타사항"
+  }
+ },
+ {
+  "name": "js-48170-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 5,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경상남도"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "진주"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-30230-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 5,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "대전"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "대덕"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-41463-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 5,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경기"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "기흥"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-41220-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 5,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경기"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "평택"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "ipo-01077540-dart",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000343",
+  "sleep": 4
+ }
+]
