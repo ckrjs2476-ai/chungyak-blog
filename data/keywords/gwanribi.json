@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 10:54",
+ "updated": "2026-11-04 11:27",
  "stage": 1,
  "band": [
   30,
@@ -5359,18 +5359,6 @@
    "used": false
   },
   {
-   "keyword": "성원관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "성원",
-   "entity_id": "A13905302",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "수락리버시티4단지관리비",
    "volume": 10,
    "comp": "낮음",
@@ -7396,6 +7384,18 @@
    "growth": 1.0,
    "why": "",
    "score": 7.0,
+   "used": false
+  },
+  {
+   "keyword": "성원관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성원",
+   "entity_id": "A13905302",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
    "used": false
   },
   {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 10:54",
+ "updated": "2026-11-04 11:27",
  "stage": 1,
  "band": [
   30,
@@ -2059,18 +2059,6 @@
    "used": false
   },
   {
-   "keyword": "영종구아파트전세",
-   "volume": 95,
-   "comp": "높음",
-   "entity": "영종구",
-   "entity_id": "28155",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "운서동아파트전세",
    "volume": 75,
    "comp": "높음",
@@ -3583,6 +3571,30 @@
    "used": false
   },
   {
+   "keyword": "영종구전세가율",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영종구",
+   "entity_id": "28155",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
+   "keyword": "영종구전세시세",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "영종구",
+   "entity_id": "28155",
+   "base_score": 20.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 22.0,
+   "used": false
+  },
+  {
    "keyword": "아파트전세가율",
    "volume": 40,
    "comp": "중간",
@@ -3605,6 +3617,18 @@
    "why": "",
    "score": 21.2,
    "used": false
+  },
+  {
+   "keyword": "영종구아파트전세",
+   "volume": 95,
+   "comp": "높음",
+   "entity": "영종구",
+   "entity_id": "28155",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
   },
   {
    "keyword": "성동구아파트전세",
@@ -6067,35 +6091,11 @@
    "used": false
   },
   {
-   "keyword": "영종구전세가율",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "영종구",
-   "entity_id": "28155",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "항동7가아파트전세",
    "volume": 10,
    "comp": "낮음",
    "entity": "항동7가",
    "entity_id": "28125:항동7가",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "영종구전세시세",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "영종구",
-   "entity_id": "28155",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",

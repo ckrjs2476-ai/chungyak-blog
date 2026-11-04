@@ -1,30 +1,41 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "blogs": {
   "cheongyak": {
-   "posts": 48,
+   "posts": 50,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "notice": 2,
-    "region": 3,
     "market": 1,
+    "notice": 1,
+    "region": 3,
     "stats": 1,
-    "score": 1
+    "score": 1,
+    "competition": 1
    },
    "format_concentrated": false,
-   "stale": {},
+   "stale": {
+    "2026-10-24-gangdong-market.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 2일 고덕강일 3단지 토지임대부 접수가 시작'"
+    ],
+    "2026-10-25-2026000496-notice.md": [
+     "경쟁률 결과가 나왔는데 본문에 결과 언급이 없음(결과 표는 코드가 붙이지만 본문 안내가 어긋날 수 있음)"
+    ],
+    "2026-10-29-remainder-1102-remainder.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 2일 하루 접수를 받는다고 해요'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 3
   },
   "jeonse": {
-   "posts": 32,
+   "posts": 34,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "topic": 2,
     "region": 5,
+    "topic": 2,
     "ranking": 1
    },
    "format_concentrated": false,
@@ -34,28 +45,41 @@
    "to_fix": 0
   },
   "gongmoju": {
+   "posts": 38,
+   "skeleton_pairs": [],
+   "overlap_pairs": [],
+   "type_share": {
+    "ipo": 5,
+    "weekly": 1,
+    "topic": 2
+   },
+   "format_concentrated": false,
+   "stale": {
+    "2026-10-21-01835829-ipo.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 2일~3일, 납입은 11월 5일이에요'"
+    ],
+    "2026-10-22-00960234-ipo.md": [
+     "공모가가 확정됐는데 '아직 확정 전'으로 씀"
+    ],
+    "2026-10-26-wk1026-weekly.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 2일부터 6일 사이 청약을 시작'"
+    ],
+    "2026-11-02-wk1102-weekly.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 2일부터 13일 사이 청약을 시작'"
+    ]
+   },
+   "conflicts": [],
+   "anomalies": {},
+   "to_fix": 4
+  },
+  "gwanribi": {
    "posts": 36,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "topic": 2,
-    "ipo": 5,
-    "weekly": 1
-   },
-   "format_concentrated": false,
-   "stale": {},
-   "conflicts": [],
-   "anomalies": {},
-   "to_fix": 0
-  },
-  "gwanribi": {
-   "posts": 34,
-   "skeleton_pairs": [],
-   "overlap_pairs": [],
-   "type_share": {
-    "topic": 2,
-    "complex": 5,
-    "region": 1
+    "region": 2,
+    "topic": 1,
+    "complex": 5
    },
    "format_concentrated": false,
    "stale": {},
@@ -64,14 +88,14 @@
    "to_fix": 0
   },
   "drone": {
-   "posts": 9,
+   "posts": 11,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "basic": 2,
-    "job": 2,
     "news": 2,
-    "rule": 2
+    "rule": 2,
+    "basic": 2,
+    "job": 2
    },
    "format_concentrated": false,
    "stale": {},
