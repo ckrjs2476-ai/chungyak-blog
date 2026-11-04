@@ -13,3 +13,11 @@
 
 - 10-31: 오전 8시 시도는 할당량 초과(전날 요청분). 16:20 요청 완료 4건: 드론 기체신고 대상·드론 종류, 청약 한화포레나 지제역·엘리프 시흥 더프라임. 그다음 전세·관리비에서 할당량 초과(할당량은 블로그별이 아니라 계정 전체로 보임, 하루 4~11건).
 - 다음 요청 후보(11-01~): 전세 만세구(hwaseong-manse-gu-jeonse-hagil-ri-2026), 관리비 한남더힐·분당구 관리비 평균, 공모주 12월 공모주(ipo-december-2026-12), 드론 직업 글, 그 뒤 새 글.
+
+- 11-04 (블로그당 하루 2편 규칙 시작, 순서 전세→관리비→공모주→드론→청약): 요청 완료 9건
+  - 전세 hwaseong-manse-gu-jeonse-hagil-ri-2026, gimhae-gusan-dong-jeonse-dong-gap-2026
+  - 관리비 hannam-hill-management-fee-2026-08, management-fee-average-bundang-gu-2026
+  - 공모주 ipo-december-2026-12, adel-ipo-2026-11
+  - 드론 drone-jobs-business-law-2026, drone-night-flight-approval-2026
+  - 청약 gyeongnam-apartment-pyeong-price-2026 (pyeongtaek-apartment-silgeorae-2026-10은 할당량 초과 → 11-05 맨 먼저)
+- 이미 요청한 글(요청 기록 대조용, 슬러그): drone-registration-2kg-2026, drone-types-law-2026, hanwha-forena-jijeyeok-bunyangga-2026-10, elif-siheung-prime-bunyangga-2026-10, sfc-ipo-2026-11
