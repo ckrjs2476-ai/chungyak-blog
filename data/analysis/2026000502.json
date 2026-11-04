@@ -138,80 +138,85 @@
     "supply": 284,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 252
+    "final_shortfall": 238
    },
    {
     "ty": "84.4355B",
     "supply": 124,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 92
+    "final_shortfall": 76
    },
    {
     "ty": "84.1443C",
     "supply": 390,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 278
+    "final_shortfall": 232
    },
    {
     "ty": "84.4447D",
     "supply": 68,
-    "closed_at": null,
-    "rate": null,
-    "final_shortfall": 6
+    "closed_at": "2순위 해당지역",
+    "rate": 2.83,
+    "final_shortfall": 0
    },
    {
     "ty": "84.5473E",
     "supply": 295,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 276
+    "final_shortfall": 269
    },
    {
     "ty": "84.8194F",
     "supply": 76,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 28
+    "final_shortfall": 14
    },
    {
     "ty": "84.3216G",
     "supply": 18,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 14
+    "final_shortfall": 12
    },
    {
     "ty": "102.6403",
     "supply": 55,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 47
+    "final_shortfall": 46
    },
    {
     "ty": "112.1044",
     "supply": 78,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 59
+    "final_shortfall": 49
    },
    {
     "ty": "120.3418",
     "supply": 77,
     "closed_at": null,
     "rate": null,
-    "final_shortfall": 59
+    "final_shortfall": 44
    }
   ],
-  "req_total": 354,
+  "req_total": 501,
   "rank1_req": 354,
   "supply_total": 1465,
-  "final_shortfall_total": 1111,
-  "closed_types": 0,
+  "final_shortfall_total": 980,
+  "closed_types": 1,
   "rank1_closed_types": 0,
   "type_count": 10,
-  "rank1_avg_rate": 0.24
+  "rank1_avg_rate": 0.24,
+  "best": {
+   "ty": "84.4447D",
+   "rate": 2.83,
+   "stage": "2순위 해당지역"
+  }
  },
  "region_price": {
   "scope": "화성시",

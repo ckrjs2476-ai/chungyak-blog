@@ -1,0 +1,81 @@
+{
+ "no": "2026910277",
+ "name": "쌍용 더 플래티넘 센텀",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-11-04",
+ "rank1_date": "2026-11-09",
+ "city": "수영구",
+ "supply_kind": "",
+ "winner_date": "2026-11-12",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910277&pblancNo=2026910277",
+ "households": 53,
+ "types": [
+  {
+   "ty": "63.1378A",
+   "size": 63,
+   "price": 93820,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "63.0513B",
+   "size": 63,
+   "price": 91630,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.3998B",
+   "size": 74,
+   "price": 110210,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.0948",
+   "size": 84,
+   "price": 132100,
+   "area_m2": null,
+   "general": 43,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 53,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 132100,
+ "price_84_max": 132100,
+ "market": {
+  "region": "부산광역시 수영구",
+  "lawd": "26500",
+  "months": 12,
+  "updated": "2026-11-02",
+  "n84": 701,
+  "median84": 70000,
+  "p25_84": 50000,
+  "p75_84": 95500,
+  "new_n84": 135,
+  "new_median84": 120000,
+  "new_build_years": 5,
+  "umd": "망미동",
+  "umd_n84": 113,
+  "umd_median84": 43900,
+  "diff_vs_median84": 62100,
+  "diff_pct_vs_median84": 89,
+  "diff_vs_new_median84": 12100,
+  "diff_pct_vs_new_median84": 10,
+  "diff_vs_umd_median84": 88200,
+  "diff_pct_vs_umd_median84": 201
+ }
+}

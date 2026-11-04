@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "weekly_competition": [
   {
    "no": "2026000518",
@@ -39,23 +39,9 @@
     "rate": 12.91,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 125,
+   "final_shortfall_total": 76,
    "rank1_closed_types": 4,
    "type_count": 6
-  },
-  {
-   "no": "2026000455",
-   "name": "신분평 에피트 더웨이시티",
-   "region": "충북",
-   "rank1_avg_rate": 1.28,
-   "best": {
-    "ty": "75.723A",
-    "rate": 6.5,
-    "stage": "2순위 해당지역"
-   },
-   "final_shortfall_total": 89,
-   "rank1_closed_types": 2,
-   "type_count": 7
   },
   {
    "no": "2026000532",
@@ -67,7 +53,7 @@
     "rate": 2.05,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 163,
+   "final_shortfall_total": 143,
    "rank1_closed_types": 2,
    "type_count": 7
   },
@@ -81,7 +67,7 @@
     "rate": 2.16,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 206,
+   "final_shortfall_total": 179,
    "rank1_closed_types": 2,
    "type_count": 8
   },
@@ -90,8 +76,12 @@
    "name": "화성 향남 롯데캐슬 시그니처",
    "region": "경기",
    "rank1_avg_rate": 0.24,
-   "best": null,
-   "final_shortfall_total": 1111,
+   "best": {
+    "ty": "84.4447D",
+    "rate": 2.83,
+    "stage": "2순위 해당지역"
+   },
+   "final_shortfall_total": 980,
    "rank1_closed_types": 0,
    "type_count": 10
   }
@@ -268,6 +258,36 @@
    ]
   },
   {
+   "no": "2026910277",
+   "name": "쌍용 더 플래티넘 센텀",
+   "region": "부산",
+   "households": 53,
+   "rcept_date": "2026-11-09",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910277&pblancNo=2026910277",
+   "types": [
+    {
+     "ty": "63.1378A",
+     "price": 93820,
+     "pyeong_price": null
+    },
+    {
+     "ty": "63.0513B",
+     "price": 91630,
+     "pyeong_price": null
+    },
+    {
+     "ty": "74.3998B",
+     "price": 110210,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.0948",
+     "price": 132100,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
    "no": "2026910278",
    "name": "숭의역 노르웨이숲 더 스카이",
    "region": "인천",
@@ -298,6 +318,36 @@
     {
      "ty": "98.985B",
      "price": 78200,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910285",
+   "name": "더샵 송도그란테르 G5-6블록",
+   "region": "인천",
+   "households": 1,
+   "rcept_date": "2026-11-09",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910285&pblancNo=2026910285",
+   "types": [
+    {
+     "ty": "118.23K",
+     "price": 176400,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910286",
+   "name": "삼천 하늘채 라비엘",
+   "region": "전북",
+   "households": 5,
+   "rcept_date": "2026-11-09",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910286&pblancNo=2026910286",
+   "types": [
+    {
+     "ty": "74.9823B",
+     "price": 49392,
      "pyeong_price": null
     }
    ]
@@ -1694,6 +1744,20 @@
   "households_total": 21911
  },
  "score_cutoffs_90d": [
+  {
+   "no": "2026000508",
+   "name": "아크메르 동탄 95",
+   "region": "경기",
+   "min": {
+    "score": 35,
+    "ty": "84.997C",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 75,
+    "ty": "84.997C"
+   }
+  },
   {
    "no": "2026000103",
    "name": "더샵 분당하이스트",
