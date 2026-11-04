@@ -1582,5 +1582,49 @@
   "bytes": 31146,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000343",
   "at": "2026-11-04 10:42"
+ },
+ {
+  "name": "js-30230-rt-form",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-41220-rt-form",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-36110-rt-form",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-01378005-dart",
+  "ok": true,
+  "status": 200,
+  "title": "이에스티/증권신고서(지분증권)/2026.10.21",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 21186,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000363",
+  "at": "2026-11-04 11:32"
+ },
+ {
+  "name": "ipo-01956751-dart",
+  "ok": true,
+  "status": 200,
+  "title": "래블업/증권신고서(지분증권)/2026.10.21",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 23000,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000334",
+  "at": "2026-11-04 11:32"
  }
 ]
