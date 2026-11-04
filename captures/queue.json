@@ -1,1 +1,95 @@
-[]
+[
+ {
+  "name": "js-30230-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 8,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "대전"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "대덕"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-41220-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 8,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경기"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "평택"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-41591-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 8,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경기"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "만세"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
