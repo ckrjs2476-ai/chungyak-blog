@@ -1473,5 +1473,114 @@
   "bytes": 6110,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-03 11:01"
+ },
+ {
+  "name": "cy-2026000496-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   571
+  ],
+  "bytes": 23926,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
+  "at": "2026-11-04 10:40"
+ },
+ {
+  "name": "cy-2026000126-special",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   289
+  ],
+  "bytes": 14690,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000126&pblancNo=2026000126",
+  "at": "2026-11-04 10:40"
+ },
+ {
+  "name": "cy-2026000371-special",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   344
+  ],
+  "bytes": 16344,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000371&pblancNo=2026000371",
+  "at": "2026-11-04 10:40"
+ },
+ {
+  "name": "cy-2026000373-schedule",
+  "ok": false,
+  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373"
+ },
+ {
+  "name": "cy-2026000508-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   348
+  ],
+  "bytes": 11576,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
+  "at": "2026-11-04 10:41"
+ },
+ {
+  "name": "js-48170-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7238,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-04 10:41"
+ },
+ {
+  "name": "js-30230-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-41463-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7360,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-04 10:42"
+ },
+ {
+  "name": "js-41220-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-01077540-dart",
+  "ok": true,
+  "status": 200,
+  "title": "씨아이에스케미칼/증권신고서(지분증권)/2026.10.19",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 31146,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000343",
+  "at": "2026-11-04 10:42"
  }
 ]
