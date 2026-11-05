@@ -21,3 +21,10 @@
   - 드론 drone-jobs-business-law-2026, drone-night-flight-approval-2026
   - 청약 gyeongnam-apartment-pyeong-price-2026 (pyeongtaek-apartment-silgeorae-2026-10은 할당량 초과 → 11-05 맨 먼저)
 - 이미 요청한 글(요청 기록 대조용, 슬러그): drone-registration-2kg-2026, drone-types-law-2026, hanwha-forena-jijeyeok-bunyangga-2026-10, elif-siheung-prime-bunyangga-2026-10, sfc-ipo-2026-11
+
+- 11-05 (17:20엔 데스크톱 앱 미연결 → 20:20 재시도): 요청 완료 10건, 할당량 초과 없음
+  - 청약 pyeongtaek-apartment-silgeorae-2026-10, gtx-unjeong-city-pradium-3-4-bunyangga
+  - 관리비 sujeong-gu-apartment-management-fee, apartment-long-term-repair-plan-dongan
+  - 공모주 kmf-ipo-2026-11, enki-whitehat-ipo-2026-12
+  - 드론 drone-news-aviation-safety-act-2026, drone-insurance-duty-2026
+  - 전세 geoje-masan-pocheon-new-complex-jeonse, seoul-gangseo-gu-magok-dong-jeonse-flow
