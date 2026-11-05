@@ -1806,5 +1806,18 @@
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153\", waiting until \"networkidle\"\n",
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153"
+ },
+ {
+  "name": "js-28290-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7246,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-05 19:47"
  }
 ]
