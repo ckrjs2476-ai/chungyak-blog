@@ -18,15 +18,15 @@
    "to_fix": 0
   },
   "jeonse": {
-   "posts": 35,
+   "posts": 36,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "topic": 2,
-    "region": 5,
-    "ranking": 1
+    "region": 6,
+    "ranking": 1,
+    "topic": 1
    },
-   "format_concentrated": false,
+   "format_concentrated": true,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
@@ -42,25 +42,21 @@
     "topic": 2
    },
    "format_concentrated": false,
-   "stale": {
-    "2026-11-02-wk1102-weekly.md": [
-     "지난 날짜를 앞으로의 일처럼 씀: '11월 2일부터 13일 사이 청약을 시작'"
-    ]
-   },
+   "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 1
+   "to_fix": 0
   },
   "gwanribi": {
-   "posts": 38,
+   "posts": 39,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "complex": 6,
+    "complex": 5,
     "region": 1,
-    "topic": 1
+    "topic": 2
    },
-   "format_concentrated": true,
+   "format_concentrated": false,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
