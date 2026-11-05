@@ -1,1 +1,33 @@
-[]
+[
+ {
+  "name": "js-28290-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 8,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "인천"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "검단"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
