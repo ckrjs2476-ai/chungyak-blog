@@ -1,17 +1,15 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "blogs": {
   "cheongyak": {
-   "posts": 50,
+   "posts": 52,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "market": 1,
-    "notice": 1,
     "region": 3,
     "stats": 1,
-    "score": 1,
-    "competition": 1
+    "score": 2,
+    "competition": 2
    },
    "format_concentrated": false,
    "stale": {},
@@ -20,12 +18,12 @@
    "to_fix": 0
   },
   "jeonse": {
-   "posts": 34,
+   "posts": 35,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "region": 5,
     "topic": 2,
+    "region": 5,
     "ranking": 1
    },
    "format_concentrated": false,
@@ -35,7 +33,7 @@
    "to_fix": 0
   },
   "gongmoju": {
-   "posts": 38,
+   "posts": 40,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
@@ -54,28 +52,28 @@
    "to_fix": 1
   },
   "gwanribi": {
-   "posts": 37,
+   "posts": 38,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "topic": 2,
-    "complex": 5,
-    "region": 1
+    "complex": 6,
+    "region": 1,
+    "topic": 1
    },
-   "format_concentrated": false,
+   "format_concentrated": true,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
    "to_fix": 0
   },
   "drone": {
-   "posts": 11,
+   "posts": 13,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
+    "basic": 2,
     "news": 2,
     "rule": 2,
-    "basic": 2,
     "job": 2
    },
    "format_concentrated": false,

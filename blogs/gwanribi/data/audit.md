@@ -1,17 +1,17 @@
-# 애드센스 기준 점검: gwanribi (2026-11-04 11:27 KST)
+# 애드센스 기준 점검: gwanribi (2026-11-05 11:12 KST)
 
-- 공개 글: 36편
+- 공개 글: 38편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
 
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
-- 서울: 23편
-- 단지 관리비: 17편
-- 경기: 13편
+- 서울: 24편
+- 단지 관리비: 18편
+- 경기: 14편
 - 지역 관리비: 11편
-- 관리비 읽는 법: 8편
+- 관리비 읽는 법: 9편
 
 ## 겹침·합치기 후보
 
@@ -39,6 +39,7 @@
 | 100 | [동작구 아파트 관리비 순위, 공용관리비 1위는 ㎡당](https://gwanribi-dotbogi.blogspot.com/2026/10/dongjak-gu-apartment-management-fee.html) `2026-10-17-11590-region.md` | 2882 | 0 | 1 | - |
 | 100 | [미사강변골든센트로 관리비, 개별사용료 ㎡당 2,17](https://gwanribi-dotbogi.blogspot.com/2026/11/misa-gangbyeon-golden-centro-management.html) `2026-11-01-A10028139-complex.md` | 2905 | 0 | 2 | - |
 | 100 | [분당구 관리비 평균, ㎡당 중앙값 2,810원과 세](https://gwanribi-dotbogi.blogspot.com/2026/10/management-fee-average-bundang-gu-2026.html) `2026-10-30-41135-topic.md` | 2859 | 0 | 2 | - |
+| 100 | [상계은빛1단지 관리비, ㎡당 3,728원 노원구 1](https://gwanribi-dotbogi.blogspot.com/2026/11/sanggye-eunbit-1-management-fee-2026-08.html) `2026-11-04-A13983816-complex.md` | 2748 | 0 | 2 | - |
 | 100 | [샛별한양4-2,3차 관리비, 공용관리비 동안구 84](https://gwanribi-dotbogi.blogspot.com/2026/11/saetbyeol-hanyang-4-2-3-management-fee.html) `2026-11-02-A43181102-complex.md` | 2687 | 0 | 2 | - |
 | 100 | [서초구 아파트 관리비, 장기수선충당금 ㎡당 595원](https://gwanribi-dotbogi.blogspot.com/2026/10/seocho-gu-apartment-management-fee-gap.html) `2026-10-18-11650-region.md` | 2955 | 0 | 1 | - |
 | 100 | [소만성원6단지 관리비, 경비비가 공용관리비의 43.](https://gwanribi-dotbogi.blogspot.com/2026/11/soman-sungwon-6-management-fee-2026-09.html) `2026-11-03-A41222218-complex.md` | 2777 | 0 | 2 | - |
@@ -54,6 +55,7 @@
 | 100 | [영통포레파크원 관리비, 공용관리비 96곳 중 8위와](https://gwanribi-dotbogi.blogspot.com/2026/10/yeongtong-forest-park-one-management.html) `2026-10-28-A44347026-complex.md` | 2830 | 0 | 1 | - |
 | 100 | [올림픽파크포레온 관리비, 인건비 ㎡당 297원, 공](https://gwanribi-dotbogi.blogspot.com/2026/10/olympic-park-foreon-management-fee-2026.html) `2026-10-23-A10021122-complex.md` | 2791 | 0 | 1 | - |
 | 100 | [이문아이파크자이 관리비, 청소비 ㎡당 324원·중앙](https://gwanribi-dotbogi.blogspot.com/2026/10/imun-ipark-xi-management-fee-2026-08.html) `2026-10-27-A10020344-complex.md` | 2301 | 0 | 1 | - |
+| 100 | [일산서구 공용관리비, 인건비 중앙값 437원과 주엽](https://gwanribi-dotbogi.blogspot.com/2026/11/common-management-fee-ilsanseo-gu-2026.html) `2026-11-04-41287-topic.md` | 2660 | 0 | 2 | - |
 | 100 | [잠실엘스 관리비, 장기수선충당금 ㎡당 360원으로 ](https://gwanribi-dotbogi.blogspot.com/2026/10/jamsil-els-management-fee-2026-08.html) `2026-10-24-A13822004-complex.md` | 2728 | 0 | 2 | - |
 | 100 | [잠실파크리오 관리비, 공용은 낮고 장기수선충당금은 ](https://gwanribi-dotbogi.blogspot.com/2026/10/jamsil-park-rio-management-fee-2026-08.html) `2026-10-22-A13824006-complex.md` | 2222 | 0 | 2 | - |
 | 100 | [장기수선충당금 계산, 영등포구 관리비 63곳은 ㎡당](https://gwanribi-dotbogi.blogspot.com/2026/10/long-term-repair-reserve-calculation.html) `2026-10-25-11560-topic.md` | 3019 | 0 | 1 | - |

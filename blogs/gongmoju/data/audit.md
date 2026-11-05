@@ -1,14 +1,14 @@
-# 애드센스 기준 점검: gongmoju (2026-11-04 11:27 KST)
+# 애드센스 기준 점검: gongmoju (2026-11-05 11:12 KST)
 
-- 공개 글: 38편
+- 공개 글: 40편
 - 2편 이상에 반복된 문장 비율: 1% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
 
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
-- 일반 기업: 38편
-- 공모 구조: 29편
+- 일반 기업: 40편
+- 공모 구조: 31편
 - 공모주 읽는 법: 9편
 
 ## 겹침·합치기 후보
@@ -17,7 +17,7 @@
 
 ## 반복이 많은 문장 (3편 이상)
 
-- 8편: 공모 숫자는 DART 증권신고서에서 가져왔어요N
+- 9편: 공모 숫자는 DART 증권신고서에서 가져왔어요N
 - 3편: 공모 금액N 인수 조건N 자금 사용 계획은 N월 N일 접수된 DART 기재정정 증권신고서에서 가져왔어요N
 - 3편: N곳 수수료율 중앙값 N%보다
 
@@ -25,11 +25,11 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
-| 85 | [바로팜 공모주 291.9억 원, 자금 46.6%는 ](https://gongmoju-breakdown.blogspot.com/2026/10/baropharm-ipo-2026-11.html) `2026-10-21-01835829-ipo.md` | 2055 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 계획 N억 원 가운데 N억 / 사용 계획 N억 원 가운데 / 신고서 기준 공모 총 |
-| 90 | [넥스아이 공모가 10,500원, 11월 2~6일 공](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-week-2026-10-26.html) `2026-10-26-wk1026-weekly.md` | 2796 | 1 | 2 | - |
+| 85 | [KTE 공모주 535억 원, NH투자증권 단독 인수](https://gongmoju-breakdown.blogspot.com/2026/11/kte-ipo-2026-12.html) `2026-11-04-00208709-ipo.md` | 2544 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 7개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: N월 N일 접수된 첫 증권신고서 / 수수료를 공모 총액으로 나눈 값이에요N / 받 |
+| 90 | [넥스아이 공모가 10,500원, 11월 2~6일 공](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-week-2026-10-26.html) `2026-10-26-wk1026-weekly.md` | 2924 | 1 | 3 | - |
 | 90 | [동원파츠 공모가 23,000원, 11월 2~13일 ](https://gongmoju-breakdown.blogspot.com/2026/11/ipo-week-2026-11-02.html) `2026-11-02-wk1102-weekly.md` | 2850 | 1 | 2 | - |
 | 90 | [동원파츠 공모주 466.9억 원, 자금 계획 30.](https://gongmoju-breakdown.blogspot.com/2026/10/dongwonparts-ipo-2026-11.html) `2026-10-19-00784184-ipo.md` | 1766 | 0 | 1 | - |
-| 90 | [씨아이에스케미칼 공모주 시설자금 89.9%, 비슷한](https://gongmoju-breakdown.blogspot.com/2026/11/cis-chemical-ipo-2026-12.html) `2026-11-03-01077540-ipo.md` | 2390 | 1 | 2 | - |
+| 90 | [씨아이에스케미칼 공모주 시설자금 89.9%, 비슷한](https://gongmoju-breakdown.blogspot.com/2026/11/cis-chemical-ipo-2026-12.html) `2026-11-03-01077540-ipo.md` | 2546 | 1 | 2 | - |
 | 90 | [씨앤엠 공모주 시설자금 71.5%, 수수료율 3.0](https://gongmoju-breakdown.blogspot.com/2026/10/cnm-ipo-2026-11.html) `2026-10-28-00618173-ipo.md` | 2230 | 1 | 3 | - |
 | 90 | [에이엘로봇 공모주 376.8억 원, 설립 3년 차가](https://gongmoju-breakdown.blogspot.com/2026/10/al-robot-ipo-2026-11.html) `2026-10-25-01797635-ipo.md` | 2186 | 1 | 3 | - |
 | 90 | [엠비디 공모주 192억 원, 다섯 갈래 자금 중 타](https://gongmoju-breakdown.blogspot.com/2026/10/mbd-ipo-2026-11.html) `2026-10-29-01705740-ipo.md` | 2289 | 1 | 3 | - |
@@ -48,11 +48,13 @@
 | 100 | [공모주 정정신고서, 25곳 중 기재정정 10곳·발행](https://gongmoju-breakdown.blogspot.com/2026/11/ipo-amended-filing-2026-11.html) `2026-11-04-jeongjeong-topic.md` | 2209 | 0 | 2 | - |
 | 100 | [넥스아이 공모주 525억 원, 자금 계획 86.9%](https://gongmoju-breakdown.blogspot.com/2026/10/nexi-ipo-2026-11.html) `2026-10-22-01863318-ipo.md` | 2358 | 0 | 1 | - |
 | 100 | [다비오 공모주 123억 원, 수수료율 4.63% 다](https://gongmoju-breakdown.blogspot.com/2026/10/dabeeo-ipo-2026-11.html) `2026-10-27-01706509-ipo.md` | 2372 | 0 | 2 | - |
-| 100 | [래블업 공모가 19,000원 확정, 공모주 414.](https://gongmoju-breakdown.blogspot.com/2026/10/lablup-ipo-2026-10.html) `2026-10-18-01956751-ipo.md` | 2002 | 0 | 1 | - |
+| 100 | [데스틴파워 공모주 176억 원, 24곳 중 22위에](https://gongmoju-breakdown.blogspot.com/2026/11/destinpower-ipo-2026-12.html) `2026-11-05-01135039-ipo.md` | 2411 | 0 | 2 | - |
+| 100 | [래블업 공모가 19,000원 확정, 공모주 414.](https://gongmoju-breakdown.blogspot.com/2026/10/lablup-ipo-2026-10.html) `2026-10-18-01956751-ipo.md` | 2098 | 0 | 1 | - |
+| 100 | [바로팜 공모주 291.9억 원, 자금 46.6%는 ](https://gongmoju-breakdown.blogspot.com/2026/10/baropharm-ipo-2026-11.html) `2026-10-21-01835829-ipo.md` | 2082 | 0 | 2 | - |
 | 100 | [아델 공모주 운영자금 95.5%, 27곳 중 1순위](https://gongmoju-breakdown.blogspot.com/2026/10/adel-ipo-2026-11.html) `2026-10-31-01938746-ipo.md` | 2093 | 0 | 3 | - |
 | 100 | [에스에프씨 공모주 1,580억 원, 27곳 중 규모](https://gongmoju-breakdown.blogspot.com/2026/10/sfc-ipo-2026-11.html) `2026-10-30-00299109-ipo.md` | 2219 | 0 | 2 | - |
 | 100 | [엔키화이트햇 공모주 221억 원, 신영증권 단독 인](https://gongmoju-breakdown.blogspot.com/2026/11/enki-whitehat-ipo-2026-12.html) `2026-11-01-01795859-ipo.md` | 2314 | 0 | 2 | - |
-| 100 | [영광와이케이엠씨 공모주 수수료율 4.63%, 중앙값](https://gongmoju-breakdown.blogspot.com/2026/10/ykmc-ipo-2026-11.html) `2026-10-22-00960234-ipo.md` | 2531 | 0 | 2 | - |
+| 100 | [영광와이케이엠씨 공모주 수수료율 4.63%, 중앙값](https://gongmoju-breakdown.blogspot.com/2026/10/ykmc-ipo-2026-11.html) `2026-10-22-00960234-ipo.md` | 2608 | 0 | 2 | - |
 | 100 | [옵토닉스 공모주 220억 원, 316.4억 원 영광](https://gongmoju-breakdown.blogspot.com/2026/10/optonics-ipo-2026-11.html) `2026-10-23-01658035-ipo.md` | 2171 | 0 | 1 | - |
 | 100 | [유캐스트 공모주 152억 원, 정정 뒤 11월 18](https://gongmoju-breakdown.blogspot.com/2026/10/ucast-ipo-2026-10.html) `2026-10-13-01705573-ipo.md` | 1977 | 0 | 3 | - |
 | 100 | [인터엑스 공모주 운영자금 63.5%, 한국투자증권 ](https://gongmoju-breakdown.blogspot.com/2026/11/interx-ipo-2026-12.html) `2026-11-02-01860700-ipo.md` | 2699 | 0 | 3 | - |
