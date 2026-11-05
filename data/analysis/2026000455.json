@@ -167,6 +167,21 @@
    "stage": "2순위 해당지역"
   }
  },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "84.9568A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "84.9568A": 0
+  },
+  "avg_min": 17.0,
+  "max": {
+   "score": 65,
+   "ty": "84.9568A"
+  }
+ },
  "region_price": {
   "scope": "청주시",
   "supply_kind": "민영",
@@ -216,5 +231,15 @@
   "peer_avg_rate": 94.73,
   "rank": 3,
   "of": 4
+ },
+ "region_score": {
+  "scope": "청주시",
+  "peer_count": 2,
+  "peers": [
+   "청주 가경 아이파크 7단지",
+   "청주 가경 아이파크 8단지"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
  }
 }
