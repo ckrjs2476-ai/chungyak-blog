@@ -28,3 +28,6 @@
   - 공모주 kmf-ipo-2026-11, enki-whitehat-ipo-2026-12
   - 드론 drone-news-aviation-safety-act-2026, drone-insurance-duty-2026
   - 전세 geoje-masan-pocheon-new-complex-jeonse, seoul-gangseo-gu-magok-dong-jeonse-flow
+
+- 10-28~10-30 요청분 슬러그(이름으로 적었던 것, 대조용): 청약 bucheon-apartment-bunyang-2025-10-2026, weekly-competition-ranking-2026-10-3w, namyangju-apartment-pyeong-price-2025, remainder-cheongyak-2026-11-02, seoul-apartment-pyeong-price-2026-03-08, trivn-centum-1-2-competition-2026-10, daejeon-apartment-pyeong-price-2025-10 / 전세 seoul-jeonse-ratio-ranking-2026-10, oncheon-dong-asan-dong-vs-complex, ulsan-nam-gu-sinjeong-dong-jeonse-flow, seongdong-gu-jeonse-ratio-2026-10, wonju-si-jeonse-complex-ratio-2026-10, bukgajwa-dong-seoul-dong-gap-jeonse / 공모주 cnm-ipo-2026-11, ipo-week-2026-10-26, jntg-ipo-2026-11, ipo-underwriting-fee-2026-10 / 관리비 apartment-long-term-repair-reserve, imun-ipark-xi-management-fee-2026-08, apartment-heating-cost-gwonseon-gu-2026, hillstate-prugio-suwon-management-fee, trimage-management-fee-2026-08 (순위표·계산기는 /p/ 페이지)
+- 11-06부터 블로그당 하루 3편(사용자 결정): 가장 최근 미요청 글 1편 + 가장 오래된 미요청 글 2편.
