@@ -1,0 +1,161 @@
+{
+ "no": "2026000497",
+ "name": "중화역 라온프라이빗 센트로",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-11-06",
+ "rank1_date": "2026-11-17",
+ "city": "중랑구",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-25",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000497&pblancNo=2026000497",
+ "households": 113,
+ "types": [
+  {
+   "ty": "45.021",
+   "size": 45,
+   "price": 65800,
+   "area_m2": 60.801,
+   "general": 4,
+   "special": 3,
+   "pyeong_price": 3578,
+   "special_share_pct": 43
+  },
+  {
+   "ty": "58.365",
+   "size": 58,
+   "price": 86200,
+   "area_m2": 78.046,
+   "general": 7,
+   "special": 10,
+   "pyeong_price": 3651,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "59.974",
+   "size": 59,
+   "price": 95600,
+   "area_m2": 79.871,
+   "general": 9,
+   "special": 11,
+   "pyeong_price": 3957,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "70.964",
+   "size": 70,
+   "price": 110100,
+   "area_m2": 93.78,
+   "general": 10,
+   "special": 16,
+   "pyeong_price": 3881,
+   "special_share_pct": 62
+  },
+  {
+   "ty": "73.473T",
+   "size": 73,
+   "price": 119200,
+   "area_m2": 99.704,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3952,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.994",
+   "size": 84,
+   "price": 127700,
+   "area_m2": 112.141,
+   "general": 15,
+   "special": 20,
+   "pyeong_price": 3764,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "84.94T",
+   "size": 84,
+   "price": 139100,
+   "area_m2": 114.018,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 4033,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "93.597T",
+   "size": 93,
+   "price": 150600,
+   "area_m2": 125.936,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 3953,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "98.9T",
+   "size": 98,
+   "price": 160900,
+   "area_m2": 131.873,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 4033,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "126.809T",
+   "size": 126,
+   "price": 202100,
+   "area_m2": 168.957,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 3954,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 53,
+ "special_total": 60,
+ "special_share_pct": 53,
+ "pyeong_min": 3578,
+ "pyeong_max": 4033,
+ "pyeong_avg": 3813,
+ "price_84_min": 127700,
+ "price_84_max": 139100,
+ "special_kinds": {
+  "신혼부부": 17,
+  "생애최초": 7,
+  "신생아": 11,
+  "다자녀": 11,
+  "노부모 부양": 3,
+  "기관추천": 11
+ },
+ "region_price": {
+  "scope": "서울",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 10,
+  "peers": [
+   "아크로 리버스카이",
+   "써밋 더힐",
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아",
+   "장위 푸르지오 마크원",
+   "월계 중흥S-클래스 리비에르",
+   "충정로역자이르네",
+   "써밋 클라비온"
+  ],
+  "peer_avg_pyeong": 6278,
+  "diff": -2465,
+  "diff_pct": -39,
+  "rank": 10,
+  "of": 11
+ },
+ "area_competition": {
+  "scope": "서울",
+  "peer_count": 10,
+  "peer_avg_rate": 45.85,
+  "peer_max_rate": 114.79
+ }
+}

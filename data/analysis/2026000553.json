@@ -1,0 +1,101 @@
+{
+ "no": "2026000553",
+ "name": "의정부역 펠리스타워 양우내안애",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-11-06",
+ "rank1_date": "2026-11-17",
+ "city": "의정부시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-24",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000553&pblancNo=2026000553",
+ "households": 414,
+ "types": [
+  {
+   "ty": "59.9777",
+   "size": 59,
+   "price": 63720,
+   "area_m2": 86.9194,
+   "general": 6,
+   "special": 20,
+   "pyeong_price": 2423,
+   "special_share_pct": 77
+  },
+  {
+   "ty": "84.7415A",
+   "size": 84,
+   "price": 85692,
+   "area_m2": 119.5155,
+   "general": 85,
+   "special": 92,
+   "pyeong_price": 2370,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "84.8836B",
+   "size": 84,
+   "price": 83678,
+   "area_m2": 117.8963,
+   "general": 58,
+   "special": 65,
+   "pyeong_price": 2346,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9911C",
+   "size": 84,
+   "price": 86314,
+   "area_m2": 118.8064,
+   "general": 39,
+   "special": 49,
+   "pyeong_price": 2402,
+   "special_share_pct": 56
+  }
+ ],
+ "general_total": 188,
+ "special_total": 226,
+ "special_share_pct": 55,
+ "pyeong_min": 2346,
+ "pyeong_max": 2423,
+ "pyeong_avg": 2373,
+ "price_84_min": 83678,
+ "price_84_max": 86314,
+ "special_kinds": {
+  "신혼부부": 62,
+  "생애최초": 28,
+  "신생아": 41,
+  "다자녀": 41,
+  "노부모 부양": 13,
+  "기관추천": 41
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 40,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "힐스테이트 시흥더클래스",
+   "엘리프 역곡",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "북오산자이 드포레"
+  ],
+  "peer_avg_pyeong": 2523,
+  "diff": -150,
+  "diff_pct": -6,
+  "rank": 15,
+  "of": 41
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 34,
+  "peer_avg_rate": 4.49,
+  "peer_max_rate": 51.75
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "no": "2026000557",
+ "name": "제일풍경채 광주 포에듀",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-11-06",
+ "rank1_date": "2026-11-17",
+ "city": "광주시",
+ "supply_kind": "민영",
+ "winner_date": "2026-11-24",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000557&pblancNo=2026000557",
+ "households": 572,
+ "types": [
+  {
+   "ty": "84.9904A",
+   "size": 84,
+   "price": 69100,
+   "area_m2": 111.9429,
+   "general": 193,
+   "special": 226,
+   "pyeong_price": 2041,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9732B",
+   "size": 84,
+   "price": 69100,
+   "area_m2": 113.054,
+   "general": 72,
+   "special": 81,
+   "pyeong_price": 2021,
+   "special_share_pct": 53
+  }
+ ],
+ "general_total": 265,
+ "special_total": 307,
+ "special_share_pct": 54,
+ "pyeong_min": 2021,
+ "pyeong_max": 2041,
+ "pyeong_avg": 2036,
+ "price_84_min": 69100,
+ "price_84_max": 69100,
+ "special_kinds": {
+  "신혼부부": 84,
+  "생애최초": 39,
+  "신생아": 56,
+  "다자녀": 56,
+  "노부모 부양": 16,
+  "기관추천": 56
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 40,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "힐스테이트 시흥더클래스",
+   "엘리프 역곡",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "북오산자이 드포레"
+  ],
+  "peer_avg_pyeong": 2531,
+  "diff": -495,
+  "diff_pct": -20,
+  "rank": 28,
+  "of": 41
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 34,
+  "peer_avg_rate": 4.49,
+  "peer_max_rate": 51.75
+ }
+}

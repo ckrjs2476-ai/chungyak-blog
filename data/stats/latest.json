@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "weekly_competition": [
   {
    "no": "2026000518",
@@ -88,21 +88,6 @@
  ],
  "weekly_remainder": [
   {
-   "no": "2026910267",
-   "name": "교대역 모아엘가 그랑데",
-   "region": "광주",
-   "households": 1,
-   "rcept_date": "2026-11-03",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910267&pblancNo=2026910267",
-   "types": [
-    {
-     "ty": "59.7791B",
-     "price": 50300,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
    "no": "2026910272",
    "name": "캐슬앤파밀리에 디아트(4-1생활권 P1구역 M1블록 수루배마을1단지)",
    "region": "세종",
@@ -148,6 +133,21 @@
     {
      "ty": "84.9962A",
      "price": 42550,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910276",
+   "name": "인천 검단신도시 AB20-2블록 중흥S-클래스 에듀파크",
+   "region": "인천",
+   "households": 1,
+   "rcept_date": "2026-11-11",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910276&pblancNo=2026910276",
+   "types": [
+    {
+     "ty": "84.8058B",
+     "price": 48400,
      "pyeong_price": null
     }
    ]
@@ -203,6 +203,26 @@
    ]
   },
   {
+   "no": "2026910280",
+   "name": "오남역 서희스타힐스 여의재 3단지 (조합원 취소분)",
+   "region": "경기",
+   "households": 6,
+   "rcept_date": "2026-11-11",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910280&pblancNo=2026910280",
+   "types": [
+    {
+     "ty": "75.4603",
+     "price": 64900,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9596",
+     "price": 70900,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
    "no": "2026910281",
    "name": "빌리브센트하이(2차)",
    "region": "경기",
@@ -238,6 +258,21 @@
     {
      "ty": "84.9796D",
      "price": 119800,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910283",
+   "name": "인천 영종하늘도시 A25블록 대성베르힐(5차)",
+   "region": "인천",
+   "households": 1,
+   "rcept_date": "2026-11-11",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910283&pblancNo=2026910283",
+   "types": [
+    {
+     "ty": "84.1579D",
+     "price": 40040,
      "pyeong_price": null
     }
    ]
@@ -903,23 +938,77 @@
    }
   },
   "2026-11": {
+   "서울": {
+    "count": 1,
+    "avg_pyeong": 3813,
+    "max_pyeong": 3813,
+    "min_pyeong": 3813
+   },
+   "경기": {
+    "count": 4,
+    "avg_pyeong": 1990,
+    "max_pyeong": 2373,
+    "min_pyeong": 1736
+   },
    "경북": {
     "count": 1,
     "avg_pyeong": 1874,
     "max_pyeong": 1874,
     "min_pyeong": 1874
-   },
-   "경기": {
-    "count": 1,
-    "avg_pyeong": 1736,
-    "max_pyeong": 1736,
-    "min_pyeong": 1736
    }
   }
  },
  "this_month": {
   "month": "2026-11",
   "units": [
+   {
+    "no": "2026000497",
+    "name": "중화역 라온프라이빗 센트로",
+    "region": "서울",
+    "households": 113,
+    "pyeong_avg": 3813,
+    "price_84_min": 127700,
+    "special_kinds": {
+     "신혼부부": 17,
+     "생애최초": 7,
+     "신생아": 11,
+     "다자녀": 11,
+     "노부모 부양": 3,
+     "기관추천": 11
+    }
+   },
+   {
+    "no": "2026000553",
+    "name": "의정부역 펠리스타워 양우내안애",
+    "region": "경기",
+    "households": 414,
+    "pyeong_avg": 2373,
+    "price_84_min": 83678,
+    "special_kinds": {
+     "신혼부부": 62,
+     "생애최초": 28,
+     "신생아": 41,
+     "다자녀": 41,
+     "노부모 부양": 13,
+     "기관추천": 41
+    }
+   },
+   {
+    "no": "2026000557",
+    "name": "제일풍경채 광주 포에듀",
+    "region": "경기",
+    "households": 572,
+    "pyeong_avg": 2036,
+    "price_84_min": 69100,
+    "special_kinds": {
+     "신혼부부": 84,
+     "생애최초": 39,
+     "신생아": 56,
+     "다자녀": 56,
+     "노부모 부양": 16,
+     "기관추천": 56
+    }
+   },
    {
     "no": "2026000554",
     "name": "리첼 에듀포레 경산역",
@@ -937,6 +1026,15 @@
     }
    },
    {
+    "no": "2026820015",
+    "name": "시흥 거모 아테라(시흥거모 A-6BL) 신혼희망타운(공공분양)(본청약)",
+    "region": "경기",
+    "households": 480,
+    "pyeong_avg": 1814,
+    "price_84_min": null,
+    "special_kinds": {}
+   },
+   {
     "no": "2026820014",
     "name": "남양주왕숙 A-2블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
     "region": "경기",
@@ -947,14 +1045,14 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 30,
-   "생애최초": 14,
-   "신생아": 20,
-   "다자녀": 20,
-   "노부모 부양": 6,
-   "기관추천": 20
+   "신혼부부": 193,
+   "생애최초": 88,
+   "신생아": 128,
+   "다자녀": 128,
+   "노부모 부양": 38,
+   "기관추천": 128
   },
-  "households_total": 233
+  "households_total": 1812
  },
  "last_month": {
   "month": "2026-10",
