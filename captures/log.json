@@ -1819,5 +1819,89 @@
   "bytes": 7246,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-05 19:47"
+ },
+ {
+  "name": "cy-2026000530-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   626
+  ],
+  "bytes": 27104,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000530&pblancNo=2026000530",
+  "at": "2026-11-06 11:15"
+ },
+ {
+  "name": "cy-2026910277-remndr",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 17868,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910277&pblancNo=2026910277",
+  "at": "2026-11-06 11:15"
+ },
+ {
+  "name": "cy-list-2026-11-06",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈 | APT분양정보",
+  "size": [
+   760,
+   525
+  ],
+  "bytes": 28780,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do",
+  "at": "2026-11-06 11:15"
+ },
+ {
+  "name": "ipo-01366675-dart",
+  "ok": true,
+  "status": 200,
+  "title": "에이엔에이치스트럭쳐/증권신고서(지분증권)/2026.11.03",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 34394,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000106",
+  "at": "2026-11-06 11:15"
+ },
+ {
+  "name": "js-36110-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7522,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-06 11:15"
+ },
+ {
+  "name": "js-43112-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-41650-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7184,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-06 11:16"
  }
 ]
