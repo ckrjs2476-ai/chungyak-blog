@@ -1,1 +1,122 @@
-[]
+[
+ {
+  "name": "cy-2026000530-schedule",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000530&pblancNo=2026000530",
+  "crop": {
+   "from": "청약일정",
+   "to": "특별공급 공급대상"
+  }
+ },
+ {
+  "name": "cy-2026910277-remndr",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910277&pblancNo=2026910277",
+  "sleep": 3,
+  "height": 900
+ },
+ {
+  "name": "cy-list-2026-11-06",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do",
+  "crop": {
+   "from": "주택조회"
+  },
+  "height": 760
+ },
+ {
+  "name": "ipo-01366675-dart",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000106",
+  "sleep": 4
+ },
+ {
+  "name": "js-36110-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 8,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "세종"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "세종"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-43112-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 8,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "충청북"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "서원"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-41650-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 8,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경기"
+    ],
+    "wait": 2.5
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "포천"
+    ],
+    "wait": 2.5
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
