@@ -152,8 +152,33 @@ def _published(blog: str) -> list[dict]:
     return d.get("posts", []) if isinstance(d, dict) else d
 
 
+EXP_RULES_FROM = "2026-11-08"  # 직접 알아보기(캡처 + 1인칭) 필수 시작일
+CAPTURE_RE = re.compile(r"^!\[[^\]]+\]\(captures/[^)]+\)", re.M)
+FIRST_PERSON_RE = re.compile(r"제가[^.!?\n]{2,90}(봤어요|했어요|확인했어요|찾았어요|넣었어요|눌렀어요|봤습니다|했습니다|확인했습니다|찾았습니다|넣었습니다|눌렀습니다)")
+
+
+def experience_errors(body: str) -> list[str]:
+    """직접 알아본 과정: 이번에 실제로 찍은 캡처 1장 이상 + 그 캡처 바로 앞뒤 문단에 '제가 ~해 봤어요' 1문장(사용자 결정 2026-11-07)."""
+    errs: list[str] = []
+    lines = [l for l in body.split("\n")]
+    caps = [i for i, l in enumerate(lines) if CAPTURE_RE.match(l.strip())]
+    if not caps:
+        return ["[경험] 직접 알아본 화면 캡처가 없습니다. 이 글에서 독자가 직접 알아봐야 하는 것(조회·검색·지도·공고·신고서)을 capture로 찍어 `![캡션](captures/<name>.webp)`으로 넣으세요(capture_guide 6-1장)."]
+    near = False
+    for i in caps:
+        ctx = [l for l in lines[max(0, i - 6):i + 7] if l.strip() and not CAPTURE_RE.match(l.strip())]
+        if any(FIRST_PERSON_RE.search(l) for l in ctx):
+            near = True
+            break
+    if not near:
+        errs.append("[경험] 캡처 바로 앞뒤 문단에 '제가 ~에서 ~을 직접 찾아봤어요/확인했어요' 같은 1인칭 문장이 없습니다. 캡처에 찍힌 행동만 쓰세요(capture_guide 6-1장).")
+    return errs
+
+
 def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
     errs: list[str] = []
+    if str(meta.get("_file", ""))[:10] >= EXP_RULES_FROM:
+        errs += experience_errors(body)
     heads = _sections(body)
     paras = _paragraphs(body)
     # 1. SEO 소제목: 내용이 드러나는 문장형
