@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: cheongyak (2026-11-07 11:15 KST)
+# 애드센스 기준 점검: cheongyak (2026-11-07 15:59 KST)
 
 - 공개 글: 56편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -26,11 +26,11 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
-| 75 | [용인 분양 아파트 7곳 평당 분양가, 처인구 1,6](https://daily-cheongyak.blogspot.com/2026/11/yongin-apartment-pyeong-price-2025-12.html) `2026-11-03-yongin-2025-12-2026-08-region.md` | 2299 | 1 | 1 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 최고가는 N억 N만~N억 N만 원이에요N / 발코니 확장과 옵션이 빠진 최고가이고 |
-| 85 | [평택 분양 아파트 평당 분양가 비교, 9곳 중 1순](https://daily-cheongyak.blogspot.com/2026/10/pyeongtaek-apartment-pyeong-price-2026.html) `2026-10-23-pyeongtaek-apr-sep-region.md` | 2843 | 0 | 1 | 다른 글 3편 이상에 이미 나온 표현을 8개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 발코니 확장과 옵션이 빠진 최고가이고N / N㎡ N건의 중앙값은 N억 N만 / N |
+| 75 | [용인 분양 아파트 7곳 평당 분양가, 처인구 1,6](https://daily-cheongyak.blogspot.com/2026/11/yongin-apartment-pyeong-price-2025-12.html) `2026-11-03-yongin-2025-12-2026-08-region.md` | 2299 | 1 | 1 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 최고가는 N억 N만~N억 N만 원이에요N / 중앙값은 N억 N만 원이에요N 준공  |
+| 85 | [평택 분양 아파트 평당 분양가 비교, 9곳 중 1순](https://daily-cheongyak.blogspot.com/2026/10/pyeongtaek-apartment-pyeong-price-2026.html) `2026-10-23-pyeongtaek-apr-sep-region.md` | 2843 | 0 | 1 | 다른 글 3편 이상에 이미 나온 표현을 8개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: N건의 중앙값은 N억 N만 원이에요N / 중앙값은 N억 N만 원이에요N 준공 /  |
 | 90 | [10월 26일 무순위 청약 결과, 문수로 비스타 더](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-26.html) `2026-10-22-remainder-1026-remainder.md` | 2979 | 1 | 2 | - |
 | 90 | [10월 2주 청약 경쟁률 순위, 7곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-2w.html) `2026-10-19-weekly-competition-1012-stats.md` | 2498 | 1 | 2 | - |
-| 90 | [10월 3주 청약 경쟁률 순위, 8곳 중 1순위 전](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-3w.html) `2026-10-26-weekly-competition-1019-stats.md` | 2936 | 1 | 5 | - |
+| 90 | [10월 3주 청약 경쟁률 순위, 8곳 중 1순위 전](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-3w.html) `2026-10-26-weekly-competition-1019-stats.md` | 2972 | 1 | 5 | - |
 | 90 | [더샵 동인센트리체 청약 경쟁률, 1순위 신청 17건](https://daily-cheongyak.blogspot.com/2026/10/the-sharp-dongin-centriche-competition.html) `2026-10-15-2026000494-competition.md` | 1711 | 0 | 1 | - |
 | 90 | [부산 분양 아파트 10월 민영 4곳, 평당 1,78](https://daily-cheongyak.blogspot.com/2026/10/busan-apartment-pyeong-price-2026-10.html) `2026-10-19-busan-2026-10-region.md` | 4150 | 1 | 1 | - |
 | 90 | [서울 분양 아파트 3~8월 19곳, 평당 3,468](https://daily-cheongyak.blogspot.com/2026/10/seoul-apartment-pyeong-price-2026-03-08.html) `2026-10-29-seoul-2026-03-08-region.md` | 2850 | 1 | 1 | - |
@@ -40,7 +40,7 @@
 | 90 | [힐스테이트 거제시그니처 경쟁률, 2순위서 5타입 마](https://daily-cheongyak.blogspot.com/2026/10/hillstate-geoje-signature-competition.html) `2026-10-21-2026000464-competition.md` | 1762 | 0 | 2 | - |
 | 100 | [10월 19일 무순위 청약 7곳 결과, 에코델타 1](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-19.html) `2026-10-15-remainder-1019-remainder.md` | 3254 | 0 | 1 | - |
 | 100 | [10월 분양 아파트 결산, 평당가 1위 아크메르 동](https://daily-cheongyak.blogspot.com/2026/11/october-apartment-supply-result-2026-10.html) `2026-11-02-2026-10-monthly-result-stats.md` | 3649 | 0 | 2 | - |
-| 100 | [11월 2일 무순위 청약, 화서역 아너스빌 84㎡ ](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-11-02.html) `2026-10-29-remainder-1102-remainder.md` | 3121 | 0 | 2 | - |
+| 100 | [11월 2일 무순위 청약, 화서역 아너스빌 84㎡ ](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-11-02.html) `2026-10-29-remainder-1102-remainder.md` | 3272 | 0 | 2 | - |
 | 100 | [11월 9일 무순위 청약, 쌍용 더 플래티넘 센텀 ](https://daily-cheongyak.blogspot.com/2026/11/remainder-cheongyak-2026-11-09.html) `2026-11-05-remainder-1109-remainder.md` | 3266 | 0 | 2 | - |
 | 100 | [GTX운정중앙역 시티프라디움 경쟁률, 4단지 51.](https://daily-cheongyak.blogspot.com/2026/11/gtx-unjeong-city-pradium-3-4.html) `2026-11-04-2026000517-2026000518-competition.md` | 2903 | 0 | 2 | - |
 | 100 | [GTX운정중앙역 시티프라디움 분양가·청약 일정, 4](https://daily-cheongyak.blogspot.com/2026/11/gtx-unjeong-city-pradium-3-4-bunyangga.html) `2026-11-01-2026000517-2026000518-notice.md` | 2827 | 0 | 2 | - |
@@ -51,22 +51,22 @@
 | 100 | [계양신도시 카이브 유보라 분양가·청약 일정, AC3](https://daily-cheongyak.blogspot.com/2026/10/gyeyang-kaib-yubora-ac3-ac4-bunyangga.html) `2026-10-25-2026000530-2026000532-notice.md` | 2595 | 0 | 2 | - |
 | 100 | [남양주 분양 아파트 평당 분양가, 왕숙2 2,094](https://daily-cheongyak.blogspot.com/2026/10/namyangju-apartment-pyeong-price-2025.html) `2026-10-27-namyangju-2025-11-2026-09-region.md` | 2908 | 0 | 1 | - |
 | 100 | [대전 분양 아파트 평당가, 10곳 중 1위 도룡자이](https://daily-cheongyak.blogspot.com/2026/10/daejeon-apartment-pyeong-price-2025-10.html) `2026-10-26-daejeon-2025-10-2026-10-region.md` | 2716 | 0 | 2 | - |
-| 100 | [부천 분양 아파트 13곳, 무순위 785세대에 신청](https://daily-cheongyak.blogspot.com/2026/10/bucheon-apartment-bunyang-2025-10-2026.html) `2026-10-27-bucheon-2025-10-2026-09-region.md` | 3043 | 0 | 1 | - |
+| 100 | [부천 분양 아파트 13곳, 무순위 785세대에 신청](https://daily-cheongyak.blogspot.com/2026/10/bucheon-apartment-bunyang-2025-10-2026.html) `2026-10-27-bucheon-2025-10-2026-09-region.md` | 3060 | 0 | 1 | - |
 | 100 | [산곡역자이힐스테이트앤하늘채 청약 일정·분양가, 평당](https://daily-cheongyak.blogspot.com/2026/10/sangok-station-xi-hillstate-haneulchae.html) `2026-10-09-2026000458-notice.md` | 2584 | 0 | 2 | - |
 | 100 | [삼천 하늘채 라비엘 당첨 가점, 74B 커트라인 5](https://daily-cheongyak.blogspot.com/2026/10/samcheon-haneulchae-raviel-score-2026-10.html) `2026-10-11-2026000445-score.md` | 2003 | 0 | 1 | - |
-| 100 | [수원 분양 아파트 7곳 평당 분양가, 미달 없이 끝](https://daily-cheongyak.blogspot.com/2026/11/suwon-apartment-pyeong-price-2025-10.html) `2026-11-06-suwon-2025-10-2026-09-region.md` | 2670 | 0 | 1 | - |
+| 100 | [수원 분양 아파트 7곳 평당 분양가, 미달 없이 끝](https://daily-cheongyak.blogspot.com/2026/11/suwon-apartment-pyeong-price-2025-10.html) `2026-11-06-suwon-2025-10-2026-09-region.md` | 2621 | 0 | 1 | - |
 | 100 | [숭의역 노르웨이숲 더 스카이 당첨 가점, 69㎡ 최](https://daily-cheongyak.blogspot.com/2026/10/sungui-station-norway-forest-sky-score.html) `2026-10-10-2026000448-score.md` | 1827 | 0 | 1 | - |
 | 100 | [시흥 분양 아파트 10곳, 거모지구 평당 1,756](https://daily-cheongyak.blogspot.com/2026/11/siheung-apartment-bunyang-2025-09-2026.html) `2026-11-01-siheung-2025-09-2026-09-region.md` | 2974 | 0 | 1 | - |
 | 100 | [쌍용 더 플래티넘 한강 청약 일정·분양가, 평당 2](https://daily-cheongyak.blogspot.com/2026/10/ssangyong-platinum-hangang-cheongyak.html) `2026-10-09-2026000468-notice.md` | 2084 | 0 | 2 | - |
 | 100 | [아산 그랑시티필하우스 경쟁률, 2순위까지 1,254](https://daily-cheongyak.blogspot.com/2026/10/asan-grandcity-philhouse-competition.html) `2026-10-21-2026000267-competition.md` | 2001 | 0 | 2 | - |
 | 100 | [아산 그랑시티필하우스 청약 일정·분양가, 평당 1,](https://daily-cheongyak.blogspot.com/2026/10/asan-grandcity-philhouse-cheongyak-2026.html) `2026-10-13-2026000267-notice.md` | 1874 | 0 | 2 | - |
 | 100 | [아이린8차 아파트 경쟁률, 1순위 0.2대 1·45](https://daily-cheongyak.blogspot.com/2026/10/jeju-idoidong-irin-8-competition-2026-10.html) `2026-10-13-2026000444-competition.md` | 1818 | 0 | 1 | - |
-| 100 | [아크메르 동탄 95 당첨 가점, 84C 커트라인 4](https://daily-cheongyak.blogspot.com/2026/11/acmer-dongtan-95-score-2026-11.html) `2026-11-05-2026000508-score.md` | 2249 | 0 | 2 | - |
+| 100 | [아크메르 동탄 95 당첨 가점, 84C 커트라인 4](https://daily-cheongyak.blogspot.com/2026/11/acmer-dongtan-95-score-2026-11.html) `2026-11-05-2026000508-score.md` | 2357 | 0 | 2 | - |
 | 100 | [아크메르 동탄 95·99 분양가·청약 일정, 평당 ](https://daily-cheongyak.blogspot.com/2026/10/acmer-dongtan-95-bunyangga-2026-10.html) `2026-10-18-2026000508-notice.md` | 3234 | 0 | 3 | - |
 | 100 | [아크메르 동탄 경쟁률, 84C 16.88대 1인데 ](https://daily-cheongyak.blogspot.com/2026/10/acmer-dongtan-95-99-competition-2026-10.html) `2026-10-28-2026000508-2026000509-competition.md` | 2716 | 0 | 2 | - |
 | 100 | [안양 분양 아파트 6곳 평당가, 1순위에서 전 타입](https://daily-cheongyak.blogspot.com/2026/11/anyang-apartment-pyeong-price-2025-10.html) `2026-11-03-anyang-2025-10-2026-04-region.md` | 2413 | 0 | 2 | - |
 | 100 | [엘리프 시흥 더프라임 분양가·청약 일정, 거모지구 ](https://daily-cheongyak.blogspot.com/2026/10/elif-siheung-prime-bunyangga-2026-10.html) `2026-10-30-2026000525-notice.md` | 2697 | 0 | 1 | - |
-| 100 | [오산 분양 아파트 평당 분양가, 5곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/11/osan-apartment-pyeong-price-2025-09.html) `2026-11-07-osan-2025-09-2026-07-region.md` | 2207 | 0 | 1 | - |
+| 100 | [오산 분양 아파트 평당 분양가, 5곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/11/osan-apartment-pyeong-price-2025-09.html) `2026-11-07-osan-2025-09-2026-07-region.md` | 2320 | 0 | 1 | - |
 | 100 | [울산 남구 분양 아파트 평당 분양가, 10곳 중 9](https://daily-cheongyak.blogspot.com/2026/10/ulsan-namgu-apartment-pyeong-price-2025.html) `2026-10-23-ulsan-namgu-2025-09-2026-09-region.md` | 2623 | 0 | 1 | - |
 | 100 | [인천 분양 아파트 평당 분양가 비교, 송도 3,78](https://daily-cheongyak.blogspot.com/2026/10/incheon-apartment-pyeong-price-2026-05.html) `2026-10-16-incheon-may-oct-region.md` | 3554 | 0 | 2 | - |
 | 100 | [진주 판문지구 레이크써밋 웰가 당첨 가점, 84A ](https://daily-cheongyak.blogspot.com/2026/10/jinju-panmun-lake-summit-welga-score.html) `2026-10-10-2026000446-score.md` | 1886 | 0 | 1 | - |
