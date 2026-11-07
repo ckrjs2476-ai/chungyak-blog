@@ -2149,5 +2149,23 @@
   "bytes": 16706,
   "url": "https://drone-note.blogspot.com/p/calculator.html",
   "at": "2026-11-07 16:21"
+ },
+ {
+  "name": "test-calc-cheongyak",
+  "ok": false,
+  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"무주택기간\").first\n",
+  "url": "https://daily-cheongyak.blogspot.com/p/calculator.html"
+ },
+ {
+  "name": "test-calc-jeonse",
+  "ok": false,
+  "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#sale\").first\n",
+  "url": "https://jeonse-ondogye.blogspot.com/p/calculator.html"
+ },
+ {
+  "name": "test-calc-gwanribi",
+  "ok": false,
+  "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#fee\").first\n",
+  "url": "https://gwanribi-dotbogi.blogspot.com/p/calculator.html"
  }
 ]
