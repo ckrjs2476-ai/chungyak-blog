@@ -1,7 +1,1 @@
-[
- {"name":"test-calc-cheongyak","url":"https://daily-cheongyak.blogspot.com/p/calculator.html","sleep":3,"width":760,"steps":[{"pick":["#h","10년 이상 11년"]},{"pick":["#f","3명"]},{"pick":["#a","15년 이상"]}],"crop":{"from":"무주택기간","to":"점수는 이렇게"},"pad":16},
- {"name":"test-calc-jeonse","url":"https://jeonse-ondogye.blogspot.com/p/calculator.html","sleep":3,"width":760,"steps":[{"fill":["#sale","50000"]},{"fill":["#dep","38000"]},{"pick":["#reg","성동구"]}],"crop":{"from":"매매가(만 원)","to":"전세가율은 이렇게"},"pad":16},
- {"name":"test-calc-gwanribi","url":"https://gwanribi-dotbogi.blogspot.com/p/calculator.html","sleep":3,"width":760,"steps":[{"fill":["#fee","250000"]},{"fill":["#area","84"]},{"pick":["#reg","송파구"]}],"crop":{"from":"이번 달 관리비 합계","to":"비교 기준은 이렇게"},"pad":16},
- {"name":"test-calc-gongmoju","url":"https://gongmoju-breakdown.blogspot.com/p/calculator.html","sleep":3,"width":760,"steps":[{"pick":["#co","에스에프씨"]},{"fill":["#qty","20"]}],"crop":{"from":"공모 기업","to":"증거금은 이렇게"},"pad":16},
- {"name":"test-calc-drone","url":"https://drone-note.blogspot.com/p/calculator.html","sleep":3,"width":760,"steps":[{"fill":["#w","3"]},{"pick":["#use","사업"]}],"crop":{"from":"최대이륙중량(kg)","to":"이 기준으로 판단해요"},"pad":16}
-]
+[]
