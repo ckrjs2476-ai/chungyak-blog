@@ -48,3 +48,9 @@
   - Blogger 설정(드론 기준): 검색엔진 표시 켜짐, HTTPS 리디렉션 켜짐, 맞춤 robots·헤더 꺼짐, 맞춤 도메인 없음 → 이상 없음.
   - 결론: 설정으로 고칠 수 있는 원인은 못 찾음. 실시간 테스트는 정상이라 Blogger 쪽 일시 오류일 가능성(다른 Blogger 사용자 사례도 시간이 지나면 풀린다는 보고 있음, 확인된 사실 아님).
   - 다음: 11-14에 같은 4편을 다시 검사. 그때도 '리디렉션 오류'면 그 글들만 색인 재요청. 새 요청은 계속 진행.
+
+- 11-07 저녁(20:42~20:48) 9건 요청, 10번째에서 할당량 초과
+  - 드론 4: drone-aerial-photo-permit-2026(11-06 남은 것), drone-anti-drone-2026, drone-spraying-business-2026, drone-no-fly-zone-check-2026
+  - 청약 3: namyangju-apartment-silgeorae-2026-11, hyangnam-station-grove-switzen, hillstate-godeok-elist-a12bl
+  - 전세 2: yongin-suji-gu-jeonse-complex-ratio, songpa-gu-jeonse-ratio-2026-10 (gangnam-gu-jeonse-ratio-2026-10은 할당량 초과로 못 함)
+  - 관리비·공모주 0 → 다음 실행(11-08 21:00)은 관리비 → 공모주 → 전세 → 청약 → 드론 순서
