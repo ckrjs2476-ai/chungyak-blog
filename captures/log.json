@@ -2019,5 +2019,63 @@
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443\", waiting until \"networkidle\"\n",
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443"
+ },
+ {
+  "name": "js-43112-rt-form-b",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   359
+  ],
+  "bytes": 12056,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-07 11:19"
+ },
+ {
+  "name": "js-41465-rt-form",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-11320-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 19356,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-07 11:19"
+ },
+ {
+  "name": "js-41550-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7238,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-07 11:20"
+ },
+ {
+  "name": "ipo-01705573-dart-1021",
+  "ok": true,
+  "status": 200,
+  "title": "유캐스트/증권신고서(지분증권)/2026.10.21",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 30770,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443",
+  "at": "2026-11-07 11:20"
  }
 ]
