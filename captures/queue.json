@@ -1,1 +1,5 @@
-[]
+[
+ {"name":"test-calc-cheongyak","url":"https://daily-cheongyak.blogspot.com/p/calculator.html","sleep":3,"width":760,"dump":true,"steps":[{"pick":["#h","10년 이상 11년"]},{"pick":["#f","3명"]},{"pick":["#a","15년 이상"]}],"crop":{"from":"무주택기간","to":"점수는 이렇게"},"pad":16},
+ {"name":"test-calc-jeonse","url":"https://jeonse-ondogye.blogspot.com/p/calculator.html","sleep":3,"width":760,"dump":true,"steps":[{"fill":["#sale","50000"]},{"fill":["#dep","38000"]},{"pick":["#reg","성동구"]}],"crop":{"from":"매매가(만 원)","to":"전세가율은 이렇게"},"pad":16},
+ {"name":"test-calc-gwanribi","url":"https://gwanribi-dotbogi.blogspot.com/p/calculator.html","sleep":3,"width":760,"steps":[{"fill":["#fee","250000"]},{"fill":["#area","84"]},{"pick":["#reg","송파구"]}],"crop":{"from":"이번 달 관리비 합계","to":"비교 기준은 이렇게"},"pad":16}
+]
