@@ -2167,5 +2167,33 @@
   "ok": false,
   "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#fee\").first\n",
   "url": "https://gwanribi-dotbogi.blogspot.com/p/calculator.html"
+ },
+ {
+  "name": "test2-chart-gwanribi",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11140",
+   "code": "A10088102"
+  },
+  "size": [
+   760,
+   716
+  ],
+  "bytes": 32848,
+  "at": "2026-11-07 16:26"
+ },
+ {
+  "name": "test2-calc-gwanribi",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16734,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-07 16:26"
  }
 ]
