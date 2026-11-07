@@ -375,6 +375,15 @@ HUB_TEXT = {"cheongyak": "지역별 분양가 순위표", "jeonse": "전국 시�
             "gongmoju": "최근 공모주 규모 순위표", "gwanribi": "시군구 관리비 순위표"}
 
 
+CALC_TEXT = {  # 블로그별 계산기 페이지(src/calculators.py, rankings.py --> pages/calculator.md)
+    "cheongyak": ("내 점수로 당첨 가능성을 가늠하려면", "청약 가점 계산기", "에서 최근 단지 커트라인과 바로 견줘 보세요."),
+    "jeonse": ("직접 계약할 집의 숫자를 넣어 보려면", "전세가율 계산기", "에서 시군구 전세가율과 바로 견줘 보십시오."),
+    "gwanribi": ("우리 집 고지서로 비교해 보려면", "㎡당 관리비 계산기", "에 관리비와 면적을 넣어 보세요."),
+    "gongmoju": ("청약에 필요한 돈을 미리 셈해 보려면", "청약 증거금 계산기", "를 써 보세요."),
+    "drone": ("내 드론이 신고·승인·보험 대상인지 보려면", "드론 신고·승인·보험 확인 계산기", "에 무게와 용도를 넣어 보세요."),
+}
+
+
 def method_link() -> str:
     """모든 글 끝에 '분석 방법' 페이지와 매달 갱신하는 순위표(허브) 페이지 링크를 붙인다."""
     if not PAGES_JSON.exists():
@@ -390,9 +399,10 @@ def method_link() -> str:
         out += (f'<p style="margin:.6em 0 0;font-size:14px;color:#333333;">다른 곳과 한눈에 비교하려면 매달 갱신하는 '
                 f'<a href="{hub}" style="color:#1a56db;">{HUB_TEXT.get(BLOG, "순위표")}</a>를 보세요.</p>')
     calc = pages.get("calculator.md", {}).get("url")
-    if calc and BLOG == "cheongyak":
-        out += (f'<p style="margin:.6em 0 0;font-size:14px;color:#333333;">내 점수로 당첨 가능성을 가늠하려면 '
-                f'<a href="{calc}" style="color:#1a56db;">청약 가점 계산기</a>에서 최근 단지 커트라인과 바로 견줘 보세요.</p>')
+    if calc and BLOG in CALC_TEXT:
+        lead, name, tail = CALC_TEXT[BLOG]
+        out += (f'<p style="margin:.6em 0 0;font-size:14px;color:#333333;">{lead} '
+                f'<a href="{calc}" style="color:#1a56db;">{name}</a>{tail}</p>')
     return out
 
 

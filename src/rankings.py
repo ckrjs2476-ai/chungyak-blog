@@ -49,7 +49,7 @@ def jeonse(now: str) -> str:
     rows = [head, sep]
     for x in r.get("regions", []):
         row = (f"| {x['rank']} | {x['name']} | {x['ratio84']}% | {won(x['jeonse_median84'])} | {won(x['sale_median84'])} | "
-               f"{x['jeonse_change_pct']:+}% |")
+               f"{(format(x['jeonse_change_pct'], '+') + '%') if x.get('jeonse_change_pct') is not None else '-'} |")
         if has_hist:
             row += f" {chg(ch, x['lawd'], 'ratio84', '%p')} |"
         rows.append(row)
@@ -205,6 +205,9 @@ def main() -> int:
         print(f"{key}: ranking.md {len(text):,}자")
     (ROOT / "pages" / "calculator.md").write_text(cheongyak_calc(now), "utf-8")
     print("cheongyak: calculator.md")
+    import calculators  # 전세·관리비·공모주·드론 계산기 페이지
+    for line in calculators.write_all():
+        print(line)
     return 0
 
 

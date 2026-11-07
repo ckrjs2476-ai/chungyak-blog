@@ -220,7 +220,7 @@ def cheongyak_region(c):
 
 def gongmoju_size(c):
     s = _load("blogs/gongmoju/data/summary.json")
-    ipos = [x for x in s["ipos"] if x.get("total")]
+    ipos = [x for x in s["ipos"] if x.get("total") and x.get("total_rank")]  # 스팩(순위 없음) 제외
     me = next((x for x in ipos if x["corp_code"] == c["corp_code"]), None)
     if not me:
         raise ValueError("summary.json에 없는 기업")
@@ -228,7 +228,7 @@ def gongmoju_size(c):
     return _bars(ipos[:22], lambda x: _cut(x["corp_name"], 14), lambda x: round(x["total"] / 1e8, 1), _cut(me["corp_name"], 14),
                  ACCENT["gongmoju"], f"최근 {s.get('days', '')}일 공모 기업 공모 규모", "억 원 (공모가 × 공모주식수)",
                  ref=s.get("median_total_eok"), ref_label="중앙값",
-                 note=f"DART 증권신고서, {s.get('count', '')}곳(스팩 포함), {s.get('updated', '')} 집계")
+                 note=f"DART 증권신고서, {s.get('count', '')}곳(스팩 제외), {s.get('updated', '')} 집계")
 
 
 def history(c):

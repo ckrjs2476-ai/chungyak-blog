@@ -32,6 +32,7 @@ jobs:
           BLOG_KEY=jeonse BLOGGER_BLOG_ID=5197834942352686134 python src/publish.py --pages
           BLOG_KEY=gongmoju BLOGGER_BLOG_ID=899799118910718337 python src/publish.py --pages
           BLOG_KEY=gwanribi BLOGGER_BLOG_ID=1893946611364166783 python src/publish.py --pages
+          BLOG_KEY=drone BLOGGER_BLOG_ID=8375892125195492822 python src/publish.py --pages
       - name: 저장
         if: always()
         run: |
