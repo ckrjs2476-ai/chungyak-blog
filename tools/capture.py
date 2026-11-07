@@ -26,8 +26,27 @@ def top_of(page, text):
     return box["y"] + y, box
 
 
+charts = [it for it in items if it.get("chart")]  # 데이터로 그리는 차트(tools/chart.py)
+items = [it for it in items if not it.get("chart")]
+if charts:
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import chart as chart_tool
+    for it in charts:
+        try:
+            im = chart_tool.render(it["chart"])
+            out = Path("captures") / f"{it['name']}.webp"
+            im.save(out, "WEBP", quality=88, method=6)
+            log.append({"name": it["name"], "ok": True, "chart": it["chart"], "size": [im.width, im.height],
+                        "bytes": out.stat().st_size,
+                        "at": time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 9 * 3600))})
+            print(f"::notice::차트 {it['name']} {im.width}x{im.height}")
+        except Exception as e:  # noqa: BLE001
+            log.append({"name": it["name"], "ok": False, "chart": it["chart"], "error": str(e)[:300]})
+            print(f"::warning::차트 실패 {it['name']}: {str(e)[:200]}")
+
 with sync_playwright() as pw:
-    b = pw.chromium.launch()
+    b = pw.chromium.launch() if items else None
     for it in items:
         page = b.new_page(viewport={"width": it.get("width", 1100), "height": 900}, device_scale_factor=1, locale="ko-KR")
         try:
@@ -89,7 +108,8 @@ with sync_playwright() as pw:
             log.append({"name": it["name"], "ok": False, "error": str(e)[:300], "url": it["url"]})
             print(f"::warning::캡처 실패 {it['name']}: {str(e)[:200]}")
         page.close()
-    b.close()
+    if b:
+        b.close()
 old = json.loads(Path("captures/log.json").read_text("utf-8")) if Path("captures/log.json").exists() else []
 Path("captures/log.json").write_text(json.dumps((old + log)[-200:], ensure_ascii=False, indent=1), "utf-8")
 Q.write_text("[]", "utf-8")
