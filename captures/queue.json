@@ -1,5 +1,1 @@
-[
- {"name": "drone-ua-flight-zone-2026-airportal", "url": "https://airportal.go.kr/airplane/airspace01.do", "sleep": 5, "crop": {"from": "총 48건"}, "height": 760},
- {"name": "drone-ua-flight-zone-2026-airportal-b", "url": "https://airportal.go.kr/airplane/airspace01.do", "sleep": 5, "crop": {"from": "UA 31"}, "height": 620},
- {"name": "drone-ua-flight-zone-2026-calc-1", "page": "blogs/drone/pages/calculator.md", "width": 760, "steps": [{"fill": ["#w", "30"]}, {"pick": ["#use", "취미"]}, {"pick": ["#where", "밖"]}], "crop": {"from": "최대이륙중량(kg)", "to": "이 기준으로 판단해요"}, "pad": 16}
-]
+[]
