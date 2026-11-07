@@ -2090,5 +2090,20 @@
   "bytes": 7262,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-07 12:44"
+ },
+ {
+  "name": "test-chart-jeonse-11200",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11200",
+   "highlight": "금호동2가"
+  },
+  "size": [
+   760,
+   588
+  ],
+  "bytes": 20074,
+  "at": "2026-11-07 16:15"
  }
 ]
