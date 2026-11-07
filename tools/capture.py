@@ -50,7 +50,17 @@ with sync_playwright() as pw:
     for it in items:
         page = b.new_page(viewport={"width": it.get("width", 1100), "height": 900}, device_scale_factor=1, locale="ko-KR")
         try:
-            r = page.goto(it["url"], timeout=45000, wait_until="networkidle")
+            if it.get("page"):  # 계산기 등 우리 고정 페이지: 공개 페이지와 같은 원고(md)를 그대로 띄운다
+                r = None             # (러너 IP에 구글 보안문자가 뜨는 날이 있어 blogspot 주소 대신, 2026-11-07)
+                import markdown
+                raw = Path(it["page"]).read_text("utf-8")
+                body = raw.split("---", 2)[2] if raw.startswith("---") else raw
+                page.set_content('<html><head><meta charset="utf-8"><style>body{font-family:"Noto Sans CJK KR","Noto Sans KR",sans-serif;'
+                                 'font-size:16px;line-height:1.7;color:#222;max-width:720px;margin:20px auto;padding:0 16px}'
+                                 'table{border-collapse:collapse}td,th{border:1px solid #ddd;padding:4px 8px}</style></head><body>'
+                                 + markdown.markdown(body, extensions=["tables"]) + "</body></html>", wait_until="load")
+            else:
+                r = page.goto(it["url"], timeout=45000, wait_until="networkidle")
             time.sleep(it.get("sleep", 1.5))
             for st in it.get("steps", []):  # 검색 조작: {"click": "글자"} / {"click_css": "선택자"} / {"fill": ["선택자", "값"]}
                 if "click" in st:          # {"select": ["선택자", "보이는 글자"]} / {"wait": 초} / {"press": ["선택자", "Enter"]}
@@ -100,12 +110,12 @@ with sync_playwright() as pw:
                 im = im.resize((760, round(im.height * 760 / im.width)), Image.LANCZOS)
             out = Path("captures") / f"{it['name']}.webp"
             im.save(out, "WEBP", quality=72, method=6)
-            log.append({"name": it["name"], "ok": True, "status": r.status if r else None, "title": page.title(),
-                        "size": [im.width, im.height], "bytes": out.stat().st_size, "url": it["url"],
+            log.append({"name": it["name"], "ok": True, "status": r.status if r else None, "title": page.title() or it.get("page"),
+                        "size": [im.width, im.height], "bytes": out.stat().st_size, "url": it.get("url") or it.get("page"),
                         "at": time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 9 * 3600))})
             print(f"::notice::캡처 {it['name']} {im.width}x{im.height} {out.stat().st_size // 1024}KB")
         except Exception as e:  # noqa: BLE001
-            log.append({"name": it["name"], "ok": False, "error": str(e)[:300], "url": it["url"]})
+            log.append({"name": it["name"], "ok": False, "error": str(e)[:300], "url": it.get("url") or it.get("page")})
             print(f"::warning::캡처 실패 {it['name']}: {str(e)[:200]}")
         page.close()
     if b:

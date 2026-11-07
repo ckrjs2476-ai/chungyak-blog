@@ -30,6 +30,13 @@
 | 드론 정보노트 | 국토부 보도자료 '드론' 검색 결과 | {"url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0", "sleep": 4, "crop": {"from": "보도자료"}, "height": 700} |
 | 드론 정보노트 | 법령 원문(예: 항공안전법) | {"url": "https://www.law.go.kr/법령/항공안전법", "sleep": 4} |
 | 드론 정보노트 | 고용24 '드론' 채용 검색 | {"url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0", "sleep": 5} |
+| 청약노트 | 계산기: 가점 계산(조건 바꿔 넣기) | {"page": "pages/calculator.md", "width": 760, "steps": [{"pick": ["#h", "<예: 10년 이상 11년>"]}, {"pick": ["#f", "<예: 3명>"]}, {"pick": ["#a", "<예: 15년 이상>"]}], "crop": {"from": "무주택기간", "to": "점수는 이렇게"}, "pad": 16} |
+| 전세 온도계 | 계산기: 전세가율 | {"page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "<매매가 만 원>"]}, {"fill": ["#dep", "<보증금 만 원>"]}, {"pick": ["#reg", "<시군구 이름 일부>"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16} |
+| 관리비 돋보기 | 계산기: ㎡당 관리비 | {"page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "<관리비 원>"]}, {"fill": ["#area", "<㎡>"]}, {"pick": ["#reg", "<시군구 이름 일부>"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16} |
+| 공모주 | 계산기: 청약 증거금 | {"page": "blogs/gongmoju/pages/calculator.md", "width": 760, "steps": [{"pick": ["#co", "<회사 이름>"]}, {"fill": ["#qty", "<주식 수>"]}], "crop": {"from": "공모 기업", "to": "증거금은 이렇게"}, "pad": 16} |
+| 드론 정보노트 | 계산기: 신고·승인·보험 | {"page": "blogs/drone/pages/calculator.md", "width": 760, "steps": [{"fill": ["#w", "<kg>"]}, {"pick": ["#use", "<취미|사업|공공>"]}, {"pick": ["#where", "<관제권|비행금지|150m 이상|밖>"]}], "crop": {"from": "최대이륙중량(kg)", "to": "이 기준으로 판단해요"}, "pad": 16} |
+| (계산기 공통) | "page"는 공개 계산기 페이지와 같은 원고·같은 코드를 띄워 찍는다(깃허브 서버 IP에 구글 보안문자가 뜨는 날이 있어 2026-11-07부터). 조건 하나에 캡처 한 장, 이름은 <글 슬러그>-calc-1/2/3. 본문에 계산기 링크(data/pages.json의 calculator.md url) 1번. | |
+| (차트) | 데이터 차트는 {"name": "...", "chart": {...}} — 종류·필요한 값은 tools/chart.py 첫머리. 숫자를 넣지 않고 대상만 고른다. | |
 | (주의) | 실거래가 GIS 지도 단지 검색은 자동 조작으로 결과가 안 나온다(2026-10-25 시험). 전세 캡처는 조건 화면만 쓴다. 캡션에 '내려받았다'고 쓰지 않는다(화면은 조건 선택까지). | |
 
 ## 4. 캡션 쓰는 법 (사람이 쓴 것처럼)
