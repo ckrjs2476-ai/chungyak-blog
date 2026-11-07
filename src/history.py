@@ -48,6 +48,10 @@ def current(blog: str) -> dict[str, dict[str, float]]:
     elif blog == "gongmoju":
         s = _load(ROOT / "blogs/gongmoju/data/summary.json") or {}
         out["_all"] = {k: s[k] for k in ("count", "median_total_eok", "median_fee_pct") if s.get(k) is not None}
+        for x in s.get("ipos", []):  # 회사 단위(공모가 확정·정정으로 바뀜, 후속 글 근거) 2026-11-07부터
+            if x.get("corp_code"):
+                out[x["corp_code"]] = {k: v for k, v in (("price", x.get("price")), ("total_rank", x.get("total_rank")),
+                                                          ("total_eok", round(x["total"] / 1e8, 1) if x.get("total") else None)) if v is not None}
     elif blog == "cheongyak":
         st = _load(ROOT / "data/stats/latest.json") or {}
         tm = st.get("this_month") or {}

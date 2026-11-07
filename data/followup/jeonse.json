@@ -1,0 +1,205 @@
+{
+ "updated": "2026-11-07",
+ "candidates": [
+  {
+   "id": "jeonse:36110:2026-10-17",
+   "kind": "post_change",
+   "entity": "36110",
+   "days_since": 21,
+   "post": {
+    "title": "세종시 아파트 전세 2억 6,675만 원, 전세가율 44.5%",
+    "url": "https://jeonse-ondogye.blogspot.com/2026/10/sejong-si-jeonse-ratio-2026-10.html",
+    "file": "2026-10-17-36110-region.md",
+    "keyword": "세종시 아파트 전세",
+    "type": "region",
+    "published_at": "2026-10-17"
+   },
+   "metrics": {
+    "ratio84": {
+     "label": "84㎡ 전세가율",
+     "unit": "%",
+     "from": 44.5,
+     "from_date": "2026-10-18",
+     "to": 45.0,
+     "to_date": "2026-11-02",
+     "diff": 0.5,
+     "abs_diff": 0.5,
+     "pct": 1.1,
+     "baseline_after_post": true
+    },
+    "jeonse_median84": {
+     "label": "84㎡ 전세 중앙값",
+     "unit": "만 원",
+     "from": 26675.0,
+     "from_date": "2026-10-18",
+     "to": 27000.0,
+     "to_date": "2026-11-02",
+     "diff": 325.0,
+     "abs_diff": 325.0,
+     "pct": 1.2,
+     "baseline_after_post": true
+    }
+   }
+  },
+  {
+   "id": "jeonse:41360:2026-10-15",
+   "kind": "post_change",
+   "entity": "41360",
+   "days_since": 23,
+   "post": {
+    "title": "남양주시 아파트 전세, 묵현리 97.2% 대 다산동 55.6% 전세가율",
+    "url": "https://jeonse-ondogye.blogspot.com/2026/10/namyangju-si-jeonse-flow-2026-10.html",
+    "file": "2026-10-15-41360-region.md",
+    "keyword": "남양주시 아파트 전세",
+    "type": "region",
+    "published_at": "2026-10-15"
+   },
+   "metrics": {
+    "ratio84": {
+     "label": "84㎡ 전세가율",
+     "unit": "%",
+     "from": 64.2,
+     "from_date": "2026-10-18",
+     "to": 64.8,
+     "to_date": "2026-10-30",
+     "diff": 0.6,
+     "abs_diff": 0.6,
+     "pct": 0.9,
+     "baseline_after_post": true
+    },
+    "sale_median84": {
+     "label": "84㎡ 매매 중앙값",
+     "unit": "만 원",
+     "from": 54500.0,
+     "from_date": "2026-10-18",
+     "to": 54000.0,
+     "to_date": "2026-10-30",
+     "diff": -500.0,
+     "abs_diff": 500.0,
+     "pct": -0.9,
+     "baseline_after_post": true
+    }
+   }
+  },
+  {
+   "id": "jeonse:11680:2026-10-14",
+   "kind": "post_change",
+   "entity": "11680",
+   "days_since": 24,
+   "post": {
+    "title": "강남구 아파트 전세, 전세가율 32.4%로 179곳 중 가장 낮아",
+    "url": "https://jeonse-ondogye.blogspot.com/2026/10/gangnam-gu-jeonse-ratio-2026-10.html",
+    "file": "2026-10-14-11680-region.md",
+    "keyword": "강남구 아파트 전세",
+    "type": "region",
+    "published_at": "2026-10-14"
+   },
+   "metrics": {
+    "jeonse_median84": {
+     "label": "84㎡ 전세 중앙값",
+     "unit": "만 원",
+     "from": 96000.0,
+     "from_date": "2026-10-18",
+     "to": 96600.0,
+     "to_date": "2026-10-28",
+     "diff": 600.0,
+     "abs_diff": 600.0,
+     "pct": 0.6,
+     "baseline_after_post": true
+    },
+    "sale_median84": {
+     "label": "84㎡ 매매 중앙값",
+     "unit": "만 원",
+     "from": 296500.0,
+     "from_date": "2026-10-18",
+     "to": 298000.0,
+     "to_date": "2026-10-28",
+     "diff": 1500.0,
+     "abs_diff": 1500.0,
+     "pct": 0.5,
+     "baseline_after_post": true
+    }
+   }
+  },
+  {
+   "id": "jeonse:41597:2026-10-16",
+   "kind": "post_change",
+   "entity": "41597",
+   "days_since": 22,
+   "post": {
+    "title": "동탄구 아파트 전세 4억 2,000만 원, 동별 전세가율은 21.7%p 차이",
+    "url": "https://jeonse-ondogye.blogspot.com/2026/10/dongtan-gu-jeonse-dong-gap-2026-10.html",
+    "file": "2026-10-16-41597-region.md",
+    "keyword": "동탄구 아파트 전세",
+    "type": "region",
+    "published_at": "2026-10-16"
+   },
+   "metrics": {
+    "ratio84": {
+     "label": "84㎡ 전세가율",
+     "unit": "%",
+     "from": 56.8,
+     "from_date": "2026-10-18",
+     "to": 56.5,
+     "to_date": "2026-10-30",
+     "diff": -0.3,
+     "abs_diff": 0.3,
+     "pct": -0.5,
+     "baseline_after_post": true
+    },
+    "sale_median84": {
+     "label": "84㎡ 매매 중앙값",
+     "unit": "만 원",
+     "from": 74000.0,
+     "from_date": "2026-10-18",
+     "to": 74350.0,
+     "to_date": "2026-10-30",
+     "diff": 350.0,
+     "abs_diff": 350.0,
+     "pct": 0.5,
+     "baseline_after_post": true
+    }
+   }
+  },
+  {
+   "id": "jeonse:11710:2026-10-13",
+   "kind": "post_change",
+   "entity": "11710",
+   "days_since": 25,
+   "post": {
+    "title": "송파구 아파트 전세, 전세가율 40.7%로 거여동 56.9%·신천동 35.5% 갈려",
+    "url": "https://jeonse-ondogye.blogspot.com/2026/10/songpa-gu-jeonse-ratio-2026-10.html",
+    "file": "2026-10-13-11710-region.md",
+    "keyword": "송파구 아파트 전세",
+    "type": "region",
+    "published_at": "2026-10-13"
+   },
+   "metrics": {
+    "ratio84": {
+     "label": "84㎡ 전세가율",
+     "unit": "%",
+     "from": 40.7,
+     "from_date": "2026-10-18",
+     "to": 40.5,
+     "to_date": "2026-10-28",
+     "diff": -0.2,
+     "abs_diff": 0.2,
+     "pct": -0.5,
+     "baseline_after_post": true
+    },
+    "sale_median84": {
+     "label": "84㎡ 매매 중앙값",
+     "unit": "만 원",
+     "from": 209000.0,
+     "from_date": "2026-10-18",
+     "to": 210000.0,
+     "to_date": "2026-10-28",
+     "diff": 1000.0,
+     "abs_diff": 1000.0,
+     "pct": 0.5,
+     "baseline_after_post": true
+    }
+   }
+  }
+ ]
+}

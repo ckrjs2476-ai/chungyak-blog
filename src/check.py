@@ -239,6 +239,13 @@ def history_numbers(blog: str, keys: list[str] | None = None, prefixes: list[str
     for ent, v in ch.items():
         if keys is None or ent in want or any(ent.startswith(x) for x in prefixes or [] if x):
             _walk_nums(v, out)
+    # 결과로 맞춰 보는 후속 글 후보(src/followup.py): 같은 대상의 '글 올린 날 값 → 지금 값'과 달별 결과 표
+    fp = ROOT / "data" / "followup" / f"{blog}.json"
+    if fp.exists():
+        for c in json.loads(fp.read_text("utf-8")).get("candidates", []):
+            ent = str(c.get("entity", ""))
+            if keys is None or ent in want or ent.startswith("month:") or any(ent.startswith(x) for x in prefixes or [] if x):
+                _walk_nums({k: v for k, v in c.items() if k not in ("post", "id")}, out)
     return out
 
 

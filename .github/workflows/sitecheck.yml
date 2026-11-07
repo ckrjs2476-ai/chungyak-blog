@@ -30,6 +30,8 @@ jobs:
         run: python src/seo.py
       - name: 우리만의 시간 기록 쌓기(4주·12주 변화 계산)
         run: python src/history.py
+      - name: 결과로 맞춰 보는 후속 글 후보
+        run: python src/followup.py
       - name: 키워드 성장 적합도 다시 계산(검색량 API 호출 없음)
         run: python src/keywords.py --rescore
       - name: 블로그 전체 점검(틀 반복·형식 쏠림·낡은 글·기준일·이상값)
@@ -40,7 +42,7 @@ jobs:
         run: |
           git config user.name "sitecheck-bot"
           git config user.email "sitecheck-bot@users.noreply.github.com"
-          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md data/value_report.md data/value_brief.md blogs/*/data/value_brief.md data/readiness.md data/seo_report.md data/keywords data/history data/sitewide.md data/sitewide.json
+          git add data/sitecheck.md data/sitecheck.json data/audit.md blogs/*/data/audit.md data/value_report.md data/value_brief.md blogs/*/data/value_brief.md data/readiness.md data/seo_report.md data/keywords data/history data/followup data/sitewide.md data/sitewide.json
           git diff --cached --quiet && exit 0
           git commit -m "sitecheck $(date -u +%F)"
           git pull --rebase && git push
