@@ -1,5 +1,6 @@
 [
  {"name": "gw-11410-calc-84", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "260616"]}, {"fill": ["#area", "84"]}, {"pick": ["#reg", "서대문"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16},
  {"name": "gw-11410-calc-114", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "260616"]}, {"fill": ["#area", "114"]}, {"pick": ["#reg", "서대문"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16},
- {"name": "gw-11410-sido-chart", "chart": {"type": "gwanribi_sido", "lawd": "11410"}}
+ {"name": "gw-11410-sido-chart", "chart": {"type": "gwanribi_sido", "lawd": "11410"}},
+ {"name": "cy-2026000367-price", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000367&pblancNo=2026000367", "crop": {"from": "공급금액, 2순위", "to": "기타사항"}}
 ]
