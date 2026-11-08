@@ -1,31 +1,5 @@
 [
  {
-  "name": "cy-2026000468-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   344
-  ],
-  "bytes": 15994,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000468&pblancNo=2026000468",
-  "at": "2026-10-25 10:40"
- },
- {
-  "name": "js-44200-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7280,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-25 12:43"
- },
- {
   "name": "ipo-01797635-dart",
   "ok": true,
   "status": 200,
@@ -2299,5 +2273,33 @@
   "bytes": 78950,
   "url": "https://www.droneportal.or.kr/main/web/contents/M020-05-02",
   "at": "2026-11-08 19:58"
+ },
+ {
+  "name": "gw-41135-ipark-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41135",
+   "code": "A46381114"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16874,
+  "at": "2026-11-08 21:16"
+ },
+ {
+  "name": "gw-kapt-sido-avg-2026-11-08",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20642,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-11-08 21:16"
  }
 ]
