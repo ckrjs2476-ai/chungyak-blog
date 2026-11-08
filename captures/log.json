@@ -1,43 +1,5 @@
 [
  {
-  "name": "probe-kapt-sido-table",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   451
-  ],
-  "bytes": 20586,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-10-25 10:29"
- },
- {
-  "name": "probe-rt-danji3",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 GIS서비스",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 65574,
-  "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=",
-  "at": "2026-10-25 10:30"
- },
- {
-  "name": "probe-rt-xls2",
-  "ok": false,
-  "error": "Locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#search-btn\").first\n    - locator resolved to <button type=\"button\" id=\"search-btn\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - re",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "probe-rt-xls2",
-  "ok": false,
-  "error": "Locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"검색\", exact=True).first\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
   "name": "probe-rt-xls3",
   "ok": true,
   "status": 200,
@@ -2283,5 +2245,59 @@
   "bytes": 14606,
   "url": "blogs/jeonse/pages/calculator.md",
   "at": "2026-11-08 19:47"
+ },
+ {
+  "name": "js-52111-dong-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "52111",
+   "highlight": "효자동1가"
+  },
+  "size": [
+   760,
+   428
+  ],
+  "bytes": 17228,
+  "at": "2026-11-08 19:54"
+ },
+ {
+  "name": "js-52111-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7464,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-08 19:55"
+ },
+ {
+  "name": "jeonju-wansan-gu-jeonse-ratio-2026-11-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 15828,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-08 19:55"
+ },
+ {
+  "name": "jeonju-wansan-gu-jeonse-ratio-2026-11-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 15648,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-08 19:55"
  }
 ]
