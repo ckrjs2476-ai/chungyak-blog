@@ -1,96 +1,5 @@
 [
  {
-  "name": "cy-2026000508-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   399
-  ],
-  "bytes": 17942,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
-  "at": "2026-10-25 10:03"
- },
- {
-  "name": "cy-2026000509-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   427
-  ],
-  "bytes": 19472,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000509&pblancNo=2026000509",
-  "at": "2026-10-25 10:03"
- },
- {
-  "name": "test-cy-list-results",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈 | APT분양정보",
-  "size": [
-   760,
-   525
-  ],
-  "bytes": 28304,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do",
-  "at": "2026-10-25 10:07"
- },
- {
-  "name": "test-ipo-dart",
-  "ok": true,
-  "status": 200,
-  "title": "SimwonAmericaCorp./증권신고서(지분증권)/2026.10.12",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 31674,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000149",
-  "at": "2026-10-25 10:07"
- },
- {
-  "name": "probe-rt",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 18678,
-  "url": "https://rt.molit.go.kr/",
-  "at": "2026-10-25 10:22"
- },
- {
-  "name": "probe-kapt",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 48832,
-  "url": "https://www.k-apt.go.kr/",
-  "at": "2026-10-25 10:22"
- },
- {
-  "name": "probe-kapt-cmpx",
-  "ok": true,
-  "status": 404,
-  "title": "hotfix K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 4932,
-  "url": "https://www.k-apt.go.kr/kaptinfo/openkaptinfo.do",
-  "at": "2026-10-25 10:22"
- },
- {
   "name": "probe-rt-gis",
   "ok": true,
   "status": 200,
@@ -2273,5 +2182,89 @@
   "bytes": 19438,
   "url": "pages/calculator.md",
   "at": "2026-11-08 09:52"
+ },
+ {
+  "name": "cy-2026910266-remndr",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 17860,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910266&pblancNo=2026910266",
+  "at": "2026-11-08 10:42"
+ },
+ {
+  "name": "cy-2026910259-remndr",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 17348,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259",
+  "at": "2026-11-08 10:42"
+ },
+ {
+  "name": "cy-2026820014-sched",
+  "ok": false,
+  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820014&pblancNo=2026820014"
+ },
+ {
+  "name": "js-same-deposit-2026-11-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14966,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-08 10:43"
+ },
+ {
+  "name": "js-41465-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7286,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-08 10:43"
+ },
+ {
+  "name": "ipo-01705573-dart-1108",
+  "ok": true,
+  "status": 200,
+  "title": "유캐스트/증권신고서(지분증권)/2026.10.21",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 30770,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443",
+  "at": "2026-11-08 10:43"
+ },
+ {
+  "name": "ipo-00784184-dart-1108",
+  "ok": true,
+  "status": 200,
+  "title": "동원파츠/증권신고서(지분증권)/2026.10.30",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 22666,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113",
+  "at": "2026-11-08 10:43"
  }
 ]
