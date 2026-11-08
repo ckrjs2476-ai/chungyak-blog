@@ -1,1 +1,9 @@
-[]
+[
+ {"name": "cy-2026910266-remndr", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910266&pblancNo=2026910266", "sleep": 3},
+ {"name": "cy-2026910259-remndr", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259", "sleep": 3},
+ {"name": "cy-2026820014-sched", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820014&pblancNo=2026820014", "crop": {"from": "청약일정", "to": "특별공급 공급대상"}},
+ {"name": "js-same-deposit-2026-11-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "29500"]}, {"fill": ["#dep", "28000"]}, {"pick": ["#reg", "영도구"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+ {"name": "js-41465-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경기"], "wait": 2}, {"pick": ["#srhSggCd", "수지"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
+ {"name": "ipo-01705573-dart-1108", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443", "sleep": 4},
+ {"name": "ipo-00784184-dart-1108", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113", "sleep": 4}
+]
