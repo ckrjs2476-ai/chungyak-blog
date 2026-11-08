@@ -344,7 +344,8 @@ def rerender(only: set[str] | None = None) -> int:
         p["labels"] = list(meta.get("labels") or [])
         block = related_block(no, exclude_id=p["blogger_id"], labels=p["labels"])
         p["related_html"] = block
-        html = build_card(meta) + to_html(body) + result_block(meta) + method_link() + block
+        html = (build_card(meta) + to_html(body) + result_block(meta) + method_link()
+                + seo_extras(p.get("file", ""), str(p.get("published_at", ""))[:10], body) + block)
         p["result_sig"] = result_sig(meta)
         _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}",
                            json={"content": html, "title": meta["title"], "labels": p["labels"]},
@@ -404,6 +405,72 @@ def method_link() -> str:
         out += (f'<p style="margin:.6em 0 0;font-size:14px;color:#333333;">{lead} '
                 f'<a href="{calc}" style="color:#1a56db;">{name}</a>{tail}</p>')
     return out
+
+
+# ---- 구글·AI 답변 노출 보강 (rules/brief_common.md 10장, 2026-11-08) ----
+SOURCE_TEXT = {
+    "cheongyak": "청약홈 입주자모집공고·청약 결과, 국토교통부 실거래가",
+    "jeonse": "국토교통부 아파트 매매·전월세 실거래가",
+    "gongmoju": "금융감독원 전자공시(DART) 증권신고서",
+    "gwanribi": "공동주택관리정보시스템(K-apt) 공개 관리비",
+    "drone": "국가법령정보센터 법령, 국토교통부·한국교통안전공단 공고",
+}
+
+
+def _git_date(path: Path) -> str:
+    try:
+        import subprocess
+        r = subprocess.run(["git", "log", "-1", "--format=%cs", "--", str(path)], cwd=ROOT, capture_output=True, text=True, timeout=20)
+        return r.stdout.strip()
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+def faq_jsonld(body: str) -> str:
+    """질문형 소제목 + 바로 아래 첫 문단을 FAQPage 구조화 데이터로(본문에 보이는 내용 그대로). 질문 소제목이 있을 때만."""
+    try:
+        import seo
+    except Exception:  # noqa: BLE001
+        return ""
+    qa = []
+    for h, sec in seo._sections(body):
+        h = h.strip()
+        if not seo.QUESTION_HEAD.search(h):
+            continue
+        paras = [x for x in seo._paragraphs(sec) if not x.lstrip().startswith(("|", "!", "<"))]
+        if not paras:
+            continue
+        ans = seo._plain(paras[0]).strip()
+        if len(ans) < 15:
+            continue
+        qa.append({"@type": "Question", "name": h.rstrip(), "acceptedAnswer": {"@type": "Answer", "text": ans[:400]}})
+        if len(qa) == 6:
+            break
+    if not qa:
+        return ""
+    data = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": qa}, ensure_ascii=False)
+    return '<script type="application/ld+json">' + data.replace("</", "<\\/") + "</script>"
+
+
+def byline_block(file: str, published: str) -> str:
+    """글쓴이·처음 올린 날·마지막으로 고친 날(원고 파일의 실제 마지막 수정일)·자료 출처. 날짜를 지어내지 않는다."""
+    pages = json.loads(PAGES_JSON.read_text("utf-8")) if PAGES_JSON.exists() else {}
+    about = (pages.get("about.md") or {}).get("url")
+    who = f'<a href="{about}" style="color:#1a56db;">데이터노트</a>' if about else "데이터노트"
+    edited = _git_date(DONE / file) if file else ""
+    parts = [f"글쓴이 {who}"]
+    if published:
+        parts.append(f"처음 올림 {published}")
+    if edited and published and edited > published:
+        parts.append(f"마지막 수정 {edited}")
+    if BLOG in SOURCE_TEXT:
+        parts.append(f"자료 {SOURCE_TEXT[BLOG]}")
+    return ('<p class="post-byline-box" style="margin:1.4em 0 0;padding:10px 12px;border-top:1px solid #e5e7eb;'
+            'font-size:13px;color:#555555;line-height:1.7;">' + " · ".join(parts) + "</p>")
+
+
+def seo_extras(file: str, published: str, body: str) -> str:
+    return byline_block(file, published) + faq_jsonld(body)
 
 
 # ---- 청약노트 공고 글: 경쟁률·당첨 가점이 나오면 결과를 글 끝에 이어 붙인다 (rules/unique_value.md 2장) ----
@@ -585,7 +652,8 @@ def main() -> int:
             continue
         token = token or access_token()
         no = str(meta.get(UNIT_KEY) or "")
-        html = build_card(meta) + to_html(body) + result_block(meta) + method_link() + related_block(no, labels=meta.get("labels"))
+        html = (build_card(meta) + to_html(body) + result_block(meta) + method_link()
+                + seo_extras("", datetime.now(KST).date().isoformat(), body) + related_block(no, labels=meta.get("labels")))
         post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post, f.name)
         try:  # 발행 시점 숫자 근거를 얼려 둔다(이후 데이터가 다시 계산돼도 이 글은 발행일 기준으로 검사)

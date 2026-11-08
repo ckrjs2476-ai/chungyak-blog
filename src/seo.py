@@ -152,7 +152,8 @@ def _published(blog: str) -> list[dict]:
     return d.get("posts", []) if isinstance(d, dict) else d
 
 
-EXP_RULES_FROM = "2026-11-08"  # 직접 알아보기(캡처 + 1인칭) 필수 시작일
+EXP_RULES_FROM = "2026-11-08"
+LINK2_FROM = "2026-11-09"  # 새 글 내부 링크 2개 이상(공개 글 10편 이상 블로그)  # 직접 알아보기(캡처 + 1인칭) 필수 시작일
 CAPTURE_RE = re.compile(r"^!\[[^\]]+\]\(captures/[^)]+\)", re.M)
 FIRST_PERSON_RE = re.compile(r"제가[^.!?\n]{2,90}(봤어요|했어요|확인했어요|찾았어요|넣었어요|눌렀어요|봤습니다|했습니다|확인했습니다|찾았습니다|넣었습니다|눌렀습니다)")
 
@@ -220,6 +221,9 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
             errs.append(f"[내부 링크] 공개 목록(published.json)에 없는 주소: {dead[:2]}")
         if len(live) >= 3 and not posts_links:
             errs.append("[내부 링크] 같은 블로그 공개 글로 가는 문맥 링크가 없습니다(1~2개, published.json의 LIVE 주소, 링크 문구는 그 글의 내용으로).")
+        elif (len(live) >= 10 and len(set(posts_links)) < 2
+              and str(meta.get("_file", ""))[:10] >= LINK2_FROM):  # 2026-11-09~ (마케팅 스킬 반영: 주제 묶음·AI 검색 확장 질문)
+            errs.append("[내부 링크] 공개 글이 10편 넘는 블로그는 서로 다른 같은 블로그 글 링크가 2개 이상 필요합니다(이 글 다음에 독자가 물을 질문에 답하는 글로).")
     # 7. 중복(대표 키워드·주제·구성·내용)은 sitewide.overlap_errors()가 블로그 전체 글과 비교해 막는다.
     # 8. 검색자 질문: 실제 검색어에서 뽑은 질문을 머리말에 적고 소제목에 반영
     qlist = [str(q) for q in (meta.get("questions") or [])]
