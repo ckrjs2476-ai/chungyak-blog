@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "name": "drone-industry-plan-2026-portal",
+  "url": "https://www.droneportal.or.kr/main/web/contents/M020-05-02",
+  "sleep": 6,
+  "crop": {
+   "from": "신고현황"
+  },
+  "height": 220,
+  "pad": 120
+ },
+ {
+  "name": "drone-industry-plan-2026-portal-b",
+  "url": "https://www.droneportal.or.kr/main/web/contents/M020-05-02",
+  "sleep": 6,
+  "crop": {
+   "from": "사업용"
+  },
+  "height": 420,
+  "pad": 100
+ },
+ {
+  "name": "drone-industry-plan-2026-portal-full",
+  "url": "https://www.droneportal.or.kr/main/web/contents/M020-05-02",
+  "sleep": 6,
+  "full": true
+ }
+]
