@@ -1,1 +1,4 @@
-[]
+[
+  {"name": "cy-oct-result-followup-calc-1", "page": "pages/calculator.md", "width": 760, "steps": [{"pick": ["#h", "15년 이상"]}, {"pick": ["#f", "3명"]}, {"pick": ["#a", "15년 이상"]}], "crop": {"from": "무주택기간", "to": "점수는 이렇게"}, "pad": 16},
+  {"name": "cy-oct-result-followup-calc-2", "page": "pages/calculator.md", "width": 760, "steps": [{"pick": ["#h", "10년 이상 11년"]}, {"pick": ["#f", "2명"]}, {"pick": ["#a", "13년 이상 14년"]}], "crop": {"from": "무주택기간", "to": "점수는 이렇게"}, "pad": 16}
+]
