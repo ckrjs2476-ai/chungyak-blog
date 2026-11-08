@@ -1,6 +1,1 @@
-[
- {"name": "js-48310-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경남"], "wait": 2}, {"pick": ["#srhSggCd", "거제"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
- {"name": "geoje-si-jeonse-ratio-2026-11-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "15250"]}, {"fill": ["#dep", "20500"]}, {"pick": ["#reg", "거제"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "geoje-si-jeonse-ratio-2026-11-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "36900"]}, {"fill": ["#dep", "21000"]}, {"pick": ["#reg", "거제"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "js-48310-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "48310", "highlight": "장평동"}}
-]
+[]
