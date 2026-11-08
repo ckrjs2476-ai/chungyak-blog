@@ -1,57 +1,5 @@
 [
  {
-  "name": "probe-rt-gis",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 GIS서비스",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 65366,
-  "url": "https://rt.molit.go.kr/pt/gis/gis.do?srhThingSecd=A&mobileAt=",
-  "at": "2026-10-25 10:24"
- },
- {
-  "name": "probe-rt-xls",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 23416,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-25 10:24"
- },
- {
-  "name": "probe-kapt-sido",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 30410,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-10-25 10:25"
- },
- {
-  "name": "probe-kapt-cmp",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 13190,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiSearchCompare.do",
-  "at": "2026-10-25 10:25"
- },
- {
   "name": "probe-kapt-info",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://www.k-apt.go.kr/apiinfo/goApiInfoSearch.do\nCall log:\n  - navigating to \"https://www.k-apt.go.kr/apiinfo/goApiInfoSearch.do\", waiting until \"networkidle\"\n",
@@ -2266,5 +2214,58 @@
   "bytes": 22666,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113",
   "at": "2026-11-08 10:43"
+ },
+ {
+  "name": "gw-11410-sido-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "11410"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 22872,
+  "at": "2026-11-08 18:38"
+ },
+ {
+  "name": "gw-11410-calc-84",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16918,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-08 18:38"
+ },
+ {
+  "name": "gw-11410-calc-114",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16856,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-08 18:38"
+ },
+ {
+  "name": "cy-2026000367-price",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   459
+  ],
+  "bytes": 13882,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000367&pblancNo=2026000367",
+  "at": "2026-11-08 18:38"
  }
 ]
