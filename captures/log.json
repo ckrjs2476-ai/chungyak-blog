@@ -1,31 +1,5 @@
 [
  {
-  "name": "ipo-01797635-dart",
-  "ok": true,
-  "status": 200,
-  "title": "에이엘로봇/증권신고서(지분증권)/2026.10.12",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33800,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000490",
-  "at": "2026-10-25 17:50"
- },
- {
-  "name": "cy-2026000496-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   344
-  ],
-  "bytes": 16712,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
-  "at": "2026-10-25 18:38"
- },
- {
   "name": "ipo-01025617-dart",
   "ok": true,
   "status": 200,
@@ -2301,5 +2275,32 @@
   "bytes": 20642,
   "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
   "at": "2026-11-08 21:16"
+ },
+ {
+  "name": "ipo-week-2026-11-09-size",
+  "ok": true,
+  "chart": {
+   "type": "gongmoju_size",
+   "corp_code": "00299109"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 26478,
+  "at": "2026-11-09 07:52"
+ },
+ {
+  "name": "ipo-01025617-dart-1109",
+  "ok": true,
+  "status": 200,
+  "title": "하나에어로다이내믹스/증권신고서(지분증권)/2026.10.16",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 34930,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000159",
+  "at": "2026-11-09 07:52"
  }
 ]
