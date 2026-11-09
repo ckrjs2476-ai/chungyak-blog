@@ -54,3 +54,9 @@
   - 청약 3: namyangju-apartment-silgeorae-2026-11, hyangnam-station-grove-switzen, hillstate-godeok-elist-a12bl
   - 전세 2: yongin-suji-gu-jeonse-complex-ratio, songpa-gu-jeonse-ratio-2026-10 (gangnam-gu-jeonse-ratio-2026-10은 할당량 초과로 못 함)
   - 관리비·공모주 0 → 다음 실행(11-08 21:00)은 관리비 → 공모주 → 전세 → 청약 → 드론 순서
+
+- 11-09 오전(09:59~10:05) 9건 요청, 10번째(청약 october-notice-price-vs-result-2026-10)에서 할당량 초과
+  - 관리비 3: ipark-bundang-management-fee-2026-08, gangnam-gu-apartment-management-fee, songpa-gu-apartment-management-fee-2026
+  - 공모주 3: ipo-week-2026-11-09, intellivix-ipo-2026-10, younggwang-ipo-2026-10
+  - 전세 3: gangnam-gu-jeonse-ratio-2026-10(11-07 남은 것), jeonju-wansan-gu-jeonse-ratio-2026-11, namyangju-si-jeonse-flow-2026-10
+  - 다음 실행 11-10 10:20: 청약(october-notice-price-vs-result-2026-10 먼저) → 드론 → 관리비 → 공모주 → 전세
