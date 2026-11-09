@@ -1,1 +1,10 @@
-[]
+[
+ {"name": "helio-city-management-fee-2026-08-chart", "chart": {"type": "gwanribi_complex", "lawd": "11710", "code": "A10025850"}},
+ {"name": "olympic-park-foreon-management-fee-2026-08-chart", "chart": {"type": "gwanribi_complex", "lawd": "11740", "code": "A10021122"}},
+ {"name": "gangnam-gu-apartment-management-fee-2026-08-chart", "chart": {"type": "gwanribi_sido", "lawd": "11680"}},
+ {"name": "jamsil-park-rio-management-fee-2026-08-calc-1", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "244860"]}, {"fill": ["#area", "84"]}, {"pick": ["#reg", "송파"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16},
+ {"name": "gasan-doosan-weve-management-fee-2026-08-calc-1", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "264180"]}, {"fill": ["#area", "84"]}, {"pick": ["#reg", "금천"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16},
+ {"name": "bupyeong-gunpo-chuncheon-jeonse-ratio-complexes-2026-10-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "42000"]}, {"fill": ["#dep", "31500"]}, {"pick": ["#reg", "부평"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+ {"name": "ipo-00299109-dart-size", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099", "sleep": 4},
+ {"name": "cy-2026000373-schedule", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373", "crop": {"from": "청약일정", "to": "특별공급 공급대상"}}
+]
