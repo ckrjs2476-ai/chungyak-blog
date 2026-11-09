@@ -1,1 +1,4 @@
-[]
+[
+ {"name": "gw-kapt-sido-avg-2026-11-09-songpa", "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do", "sleep": 4, "crop": {"from": "발생월 기준"}, "height": 760, "width": 1280},
+ {"name": "cy-2026000373-schedule", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373", "sleep": 3, "crop": {"from": "청약일정"}, "height": 620}
+]
