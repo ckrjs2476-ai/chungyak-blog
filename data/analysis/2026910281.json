@@ -38,20 +38,51 @@
  "special_share_pct": 0,
  "price_84_min": 67700,
  "price_84_max": 67700,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.976B",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 1.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "98.985B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 7.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 13,
+  "rank1_req": 0,
+  "supply_total": 5,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "98.985B",
+   "rate": 7.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 남양주시",
   "lawd": "41360",
   "months": 12,
-  "updated": "2026-11-09",
-  "n84": 4449,
+  "updated": "2026-11-10",
+  "n84": 4480,
   "median84": 52800,
   "p25_84": 40000,
-  "p75_84": 81500,
+  "p75_84": 81000,
   "new_n84": 273,
   "new_median84": 83000,
   "new_build_years": 5,
   "umd": "화도읍",
-  "umd_n84": 329,
+  "umd_n84": 332,
   "umd_median84": 32000,
   "diff_vs_median84": 14900,
   "diff_pct_vs_median84": 28,

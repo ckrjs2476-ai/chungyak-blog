@@ -27,6 +27,30 @@
  "general_total": 1,
  "special_total": 0,
  "special_share_pct": 0,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.224",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 5667.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 5667,
+  "rank1_req": 0,
+  "supply_total": 1,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 1,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.224",
+   "rate": 5667.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "세종특별자치시",
   "lawd": "36110",

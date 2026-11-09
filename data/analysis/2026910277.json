@@ -56,6 +56,51 @@
  "special_share_pct": 0,
  "price_84_min": 132100,
  "price_84_max": 132100,
+ "competition": {
+  "types": [
+   {
+    "ty": "63.0513B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "63.1378A",
+    "supply": 5,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "74.3998B",
+    "supply": 3,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 3
+   },
+   {
+    "ty": "84.0948",
+    "supply": 43,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 40
+   }
+  ],
+  "req_total": 7,
+  "rank1_req": 0,
+  "supply_total": 53,
+  "final_shortfall_total": 46,
+  "closed_types": 1,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "63.0513B",
+   "rate": 1.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "부산광역시 수영구",
   "lawd": "26500",
