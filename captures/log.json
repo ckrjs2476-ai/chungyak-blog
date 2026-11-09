@@ -1,24 +1,5 @@
 [
  {
-  "name": "js-26440-rt-form",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-11260-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7256,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-28 12:46"
- },
- {
   "name": "cy-2026000464-price",
   "ok": true,
   "status": 200,
@@ -2307,5 +2288,31 @@
   "ok": false,
   "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373"
+ },
+ {
+  "name": "gw-kapt-sido-avg-2026-11-09-songpa",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20642,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-11-09 11:05"
+ },
+ {
+  "name": "cy-2026000373-schedule",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   428
+  ],
+  "bytes": 20454,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
+  "at": "2026-11-09 11:05"
  }
 ]
