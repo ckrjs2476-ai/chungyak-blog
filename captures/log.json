@@ -1,43 +1,5 @@
 [
  {
-  "name": "js-41360-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-28185-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-01705573-dart",
-  "ok": true,
-  "status": 200,
-  "title": "유캐스트/증권신고서(지분증권)/2026.10.21",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 30500,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443",
-  "at": "2026-10-29 10:43"
- },
- {
-  "name": "ipo-01543043-dart",
-  "ok": true,
-  "status": 200,
-  "title": "티앤이코리아/증권신고서(지분증권)/2026.10.16",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 22996,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158",
-  "at": "2026-10-29 10:43"
- },
- {
   "name": "ipo-00579342-dart",
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000239\", waiting until \"networkidle\"\n",
@@ -2324,5 +2286,59 @@
   "bytes": 19224,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000518&pblancNo=2026000518",
   "at": "2026-11-09 18:38"
+ },
+ {
+  "name": "js-41281-dong-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "41281",
+   "highlight": "고양동"
+  },
+  "size": [
+   760,
+   620
+  ],
+  "bytes": 19608,
+  "at": "2026-11-09 19:49"
+ },
+ {
+  "name": "goyang-deogyang-gu-jeonse-dong-gap-2026-11-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 15228,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-09 19:49"
+ },
+ {
+  "name": "goyang-deogyang-gu-jeonse-dong-gap-2026-11-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 14948,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-09 19:49"
+ },
+ {
+  "name": "js-41281-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7332,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-09 19:49"
  }
 ]

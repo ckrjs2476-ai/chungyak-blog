@@ -1,6 +1,1 @@
-[
- {"name": "js-41281-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "41281", "highlight": "고양동"}},
- {"name": "goyang-deogyang-gu-jeonse-dong-gap-2026-11-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "28500"]}, {"fill": ["#dep", "25000"]}, {"pick": ["#reg", "덕양"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "goyang-deogyang-gu-jeonse-dong-gap-2026-11-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "115000"]}, {"fill": ["#dep", "61000"]}, {"pick": ["#reg", "덕양"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "js-41281-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경기"], "wait": 2}, {"pick": ["#srhSggCd", "덕양"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
-]
+[]
