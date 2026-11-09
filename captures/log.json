@@ -1,31 +1,5 @@
 [
  {
-  "name": "cy-2026000464-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   293
-  ],
-  "bytes": 10224,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000464&pblancNo=2026000464",
-  "at": "2026-10-29 10:42"
- },
- {
-  "name": "cy-2026000494-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   500
-  ],
-  "bytes": 19864,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000494&pblancNo=2026000494",
-  "at": "2026-10-29 10:42"
- },
- {
   "name": "cy-2026000498-special",
   "ok": true,
   "status": 200,
@@ -2314,5 +2288,33 @@
   "bytes": 20454,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
   "at": "2026-11-09 11:05"
+ },
+ {
+  "name": "seodaemun-gu-management-fee-2026-08-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11410",
+   "code": "A10023482"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16838,
+  "at": "2026-11-09 11:26"
+ },
+ {
+  "name": "gw-kapt-sido-avg-2026-11-09-seodaemun",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20642,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-11-09 11:26"
  }
 ]
