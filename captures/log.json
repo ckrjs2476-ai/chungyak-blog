@@ -1,24 +1,5 @@
 [
  {
-  "name": "cy-2026000498-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   234
-  ],
-  "bytes": 12430,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000498&pblancNo=2026000498",
-  "at": "2026-10-29 10:42"
- },
- {
-  "name": "cy-2026000444-schedule",
-  "ok": false,
-  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000444&pblancNo=2026000444"
- },
- {
   "name": "js-11680-rt-form",
   "ok": true,
   "status": 200,
@@ -2316,5 +2297,32 @@
   "bytes": 20642,
   "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
   "at": "2026-11-09 11:26"
+ },
+ {
+  "name": "js-51170-gangwon-sido-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_sido",
+   "lawd": "51170"
+  },
+  "size": [
+   760,
+   428
+  ],
+  "bytes": 12618,
+  "at": "2026-11-09 12:43"
+ },
+ {
+  "name": "js-51170-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7354,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-09 12:43"
  }
 ]
