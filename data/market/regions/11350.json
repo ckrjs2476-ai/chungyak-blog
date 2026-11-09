@@ -2,20 +2,20 @@
  "lawd": "11350",
  "name": "서울특별시 노원구",
  "months": 12,
- "updated": "2026-11-08",
- "trade_count": 7104,
+ "updated": "2026-11-09",
+ "trade_count": 7130,
  "cancel_count": 161,
- "n84": 1413,
+ "n84": 1420,
  "median84": 83000,
  "p25_84": 68000,
  "p75_84": 97500,
- "median84_pyeong_excl": 3234,
+ "median84_pyeong_excl": 3240,
  "new_n84": 68,
  "new_median84": 114150,
  "new_build_years": 5,
  "umd84": {
   "상계동": {
-   "n": 409,
+   "n": 411,
    "median": 68500
   },
   "월계동": {
@@ -27,12 +27,12 @@
    "median": 79000
   },
   "중계동": {
-   "n": 333,
-   "median": 86000
+   "n": 337,
+   "median": 86300
   },
   "하계동": {
-   "n": 163,
-   "median": 89800
+   "n": 164,
+   "median": 89900
   }
  },
  "monthly": [
@@ -98,9 +98,9 @@
   },
   {
    "month": "2026-10",
-   "count": 271,
-   "n84": 61,
-   "median84": 85500
+   "count": 297,
+   "n84": 68,
+   "median84": 86200
   },
   {
    "month": "2026-11",
@@ -135,16 +135,16 @@
    "built": 1988
   },
   {
+   "name": "중계동 중계무지개",
+   "count": 142,
+   "median84": null,
+   "built": 1991
+  },
+  {
    "name": "상계동 상계주공14(고층)",
    "count": 141,
    "median84": null,
    "built": 1989
-  },
-  {
-   "name": "중계동 중계무지개",
-   "count": 141,
-   "median84": null,
-   "built": 1991
   },
   {
    "name": "상계동 보람아파트",
@@ -160,7 +160,7 @@
   },
   {
    "name": "상계동 상계주공16(고층)",
-   "count": 128,
+   "count": 129,
    "median84": null,
    "built": 1988
   },
