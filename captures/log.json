@@ -1,24 +1,5 @@
 [
  {
-  "name": "js-41360-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7240,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-29 10:48"
- },
- {
-  "name": "js-28185-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
   "name": "ipo-00579342-dart",
   "ok": true,
   "status": 200,
@@ -2347,5 +2328,31 @@
   "bytes": 15072,
   "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
   "at": "2026-11-09 21:17"
+ },
+ {
+  "name": "dr-work24-drone-search-2026-11-09",
+  "ok": true,
+  "status": 200,
+  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
+  "size": [
+   760,
+   2185
+  ],
+  "bytes": 73284,
+  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0",
+  "at": "2026-11-10 08:58"
+ },
+ {
+  "name": "dr-work24-drone-pilot-search-2026-11-09",
+  "ok": true,
+  "status": 200,
+  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
+  "size": [
+   760,
+   1934
+  ],
+  "bytes": 65758,
+  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%EC%A1%B0%EC%A2%85",
+  "at": "2026-11-10 08:58"
  }
 ]
