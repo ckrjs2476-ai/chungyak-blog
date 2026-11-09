@@ -1,11 +1,5 @@
 [
  {
-  "name": "ipo-00579342-dart",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000239\", waiting until \"networkidle\"\n",
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000239"
- },
- {
   "name": "gw-kapt-sido-avg-2026-10-29",
   "ok": true,
   "status": 200,
@@ -2340,5 +2334,18 @@
   "bytes": 7332,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-09 19:49"
+ },
+ {
+  "name": "drone-show-hangang-2026-seoul",
+  "ok": true,
+  "status": 200,
+  "title": "보도자료 | 서울특별시",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 69074,
+  "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=463788",
+  "at": "2026-11-09 20:12"
  }
 ]
