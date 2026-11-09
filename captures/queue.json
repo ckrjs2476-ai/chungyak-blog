@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "name": "drone-show-hangang-2026-seoul",
+  "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=463788",
+  "sleep": 4,
+  "width": 1100,
+  "crop": {
+   "from": "상반기"
+  },
+  "height": 700,
+  "pad": 16
+ }
+]
