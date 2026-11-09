@@ -1,102 +1,5 @@
 [
  {
-  "name": "cy-2026000508-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   626
-  ],
-  "bytes": 27534,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
-  "at": "2026-10-28 10:51"
- },
- {
-  "name": "cy-2026000354-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   459
-  ],
-  "bytes": 14276,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000354&pblancNo=2026000354",
-  "at": "2026-10-28 10:51"
- },
- {
-  "name": "cy-2026000458-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   376
-  ],
-  "bytes": 11962,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000458&pblancNo=2026000458",
-  "at": "2026-10-28 10:51"
- },
- {
-  "name": "js-31140-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7258,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-28 10:51"
- },
- {
-  "name": "js-26440-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-01706509-dart",
-  "ok": true,
-  "status": 200,
-  "title": "다비오/증권신고서(지분증권)/2026.10.08",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 30590,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000705",
-  "at": "2026-10-28 10:52"
- },
- {
-  "name": "ipo-01863318-dart",
-  "ok": true,
-  "status": 200,
-  "title": "넥스아이/증권신고서(지분증권)/2026.10.16",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32818,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000268",
-  "at": "2026-10-28 10:52"
- },
- {
-  "name": "gw-kapt-sido-avg-2026-10-28",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   451
-  ],
-  "bytes": 20592,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-10-28 10:52"
- },
- {
   "name": "js-26440-rt-form",
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2302,5 +2205,107 @@
   "bytes": 12192,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000502&pblancNo=2026000502",
   "at": "2026-11-09 09:57"
+ },
+ {
+  "name": "helio-city-management-fee-2026-08-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11710",
+   "code": "A10025850"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16026,
+  "at": "2026-11-09 10:41"
+ },
+ {
+  "name": "olympic-park-foreon-management-fee-2026-08-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11740",
+   "code": "A10021122"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16598,
+  "at": "2026-11-09 10:41"
+ },
+ {
+  "name": "gangnam-gu-apartment-management-fee-2026-08-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "11680"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 22956,
+  "at": "2026-11-09 10:41"
+ },
+ {
+  "name": "jamsil-park-rio-management-fee-2026-08-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16682,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-09 10:41"
+ },
+ {
+  "name": "gasan-doosan-weve-management-fee-2026-08-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16746,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-09 10:41"
+ },
+ {
+  "name": "bupyeong-gunpo-chuncheon-jeonse-ratio-complexes-2026-10-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14692,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-09 10:41"
+ },
+ {
+  "name": "ipo-00299109-dart-size",
+  "ok": true,
+  "status": 200,
+  "title": "에스에프씨/증권신고서(지분증권)/2026.11.04",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 33138,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099",
+  "at": "2026-11-09 10:41"
+ },
+ {
+  "name": "cy-2026000373-schedule",
+  "ok": false,
+  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373"
  }
 ]
