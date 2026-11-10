@@ -1,51 +1,51 @@
 {
  "lawd": "11320",
  "name": "서울특별시 도봉구",
- "updated": "2026-10-27",
+ "updated": "2026-11-10",
  "months": 12,
- "jeonse_count": 2794,
- "wolse_count": 2230,
- "wolse_share_pct": 44.4,
- "renew_share_pct": 44.8,
- "jeonse_n84": 860,
- "jeonse_median84": 41500,
- "sale_n84": 903,
- "sale_median84": 61500,
- "ratio84": 67.5,
- "jeonse_recent3_median84": 45000,
- "jeonse_prev3_median84": 42000,
- "jeonse_change_pct": 7.1,
- "apts_with_both": 67,
- "apts_ratio_80_plus": 2,
+ "jeonse_count": 2638,
+ "wolse_count": 2115,
+ "wolse_share_pct": 44.5,
+ "renew_share_pct": 45.1,
+ "jeonse_n84": 806,
+ "jeonse_median84": 42000,
+ "sale_n84": 901,
+ "sale_median84": 62000,
+ "ratio84": 67.7,
+ "jeonse_recent3_median84": 44000,
+ "jeonse_prev3_median84": 43750,
+ "jeonse_change_pct": 0.6,
+ "apts_with_both": 69,
+ "apts_ratio_80_plus": 3,
  "apts_ratio_70_plus": 18,
  "umd": {
   "도봉동": {
-   "jeonse_n": 215,
-   "jeonse_median84": 39000,
-   "sale_n": 217,
+   "jeonse_n": 208,
+   "jeonse_median84": 39795,
+   "sale_n": 213,
    "sale_median84": 60000,
-   "ratio": 65.0
+   "ratio": 66.3
   },
   "방학동": {
-   "jeonse_n": 174,
+   "jeonse_n": 159,
    "jeonse_median84": 38850,
-   "sale_n": 238,
+   "sale_n": 235,
    "sale_median84": 55500,
    "ratio": 70.0
   },
   "쌍문동": {
-   "jeonse_n": 164,
-   "jeonse_median84": 39950,
-   "sale_n": 166,
-   "sale_median84": 54850,
-   "ratio": 72.8
+   "jeonse_n": 152,
+   "jeonse_median84": 40000,
+   "sale_n": 170,
+   "sale_median84": 55000,
+   "ratio": 72.7
   },
   "창동": {
-   "jeonse_n": 307,
-   "jeonse_median84": 49000,
-   "sale_n": 282,
+   "jeonse_n": 287,
+   "jeonse_median84": 50000,
+   "sale_n": 283,
    "sale_median84": 87000,
-   "ratio": 56.3
+   "ratio": 57.5
   }
  },
  "top_ratio_apts": [
@@ -58,6 +58,16 @@
    "sale_n": 9,
    "sale_median84": 54900,
    "ratio": 85.6
+  },
+  {
+   "umd": "도봉동",
+   "apt": "극동",
+   "built": 1991,
+   "jeonse_n": 3,
+   "jeonse_median84": 41000,
+   "sale_n": 15,
+   "sale_median84": 49000,
+   "ratio": 83.7
   },
   {
    "umd": "방학동",
@@ -81,6 +91,26 @@
   },
   {
    "umd": "쌍문동",
+   "apt": "금호1",
+   "built": 1990,
+   "jeonse_n": 2,
+   "jeonse_median84": 42820,
+   "sale_n": 9,
+   "sale_median84": 55000,
+   "ratio": 77.9
+  },
+  {
+   "umd": "쌍문동",
+   "apt": "한양6",
+   "built": 2002,
+   "jeonse_n": 26,
+   "jeonse_median84": 42000,
+   "sale_n": 22,
+   "sale_median84": 54000,
+   "ratio": 77.8
+  },
+  {
+   "umd": "쌍문동",
    "apt": "현대2",
    "built": 1993,
    "jeonse_n": 6,
@@ -91,13 +121,23 @@
   },
   {
    "umd": "쌍문동",
-   "apt": "한양6",
-   "built": 2002,
-   "jeonse_n": 31,
-   "jeonse_median84": 41000,
-   "sale_n": 22,
-   "sale_median84": 53950,
-   "ratio": 76.0
+   "apt": "e편한세상",
+   "built": 2007,
+   "jeonse_n": 6,
+   "jeonse_median84": 51500,
+   "sale_n": 5,
+   "sale_median84": 66250,
+   "ratio": 77.7
+  },
+  {
+   "umd": "방학동",
+   "apt": "신동아아파트2",
+   "built": 1992,
+   "jeonse_n": 6,
+   "jeonse_median84": 39500,
+   "sale_n": 11,
+   "sale_median84": 52500,
+   "ratio": 75.2
   },
   {
    "umd": "쌍문동",
@@ -108,46 +148,6 @@
    "sale_n": 6,
    "sale_median84": 47050,
    "ratio": 74.4
-  },
-  {
-   "umd": "방학동",
-   "apt": "방학동삼성래미안1",
-   "built": 2002,
-   "jeonse_n": 5,
-   "jeonse_median84": 61000,
-   "sale_n": 3,
-   "sale_median84": 82500,
-   "ratio": 73.9
-  },
-  {
-   "umd": "도봉동",
-   "apt": "극동",
-   "built": 1991,
-   "jeonse_n": 2,
-   "jeonse_median84": 36000,
-   "sale_n": 15,
-   "sale_median84": 49000,
-   "ratio": 73.5
-  },
-  {
-   "umd": "창동",
-   "apt": "LIG건영캐스빌",
-   "built": 2002,
-   "jeonse_n": 2,
-   "jeonse_median84": 47500,
-   "sale_n": 6,
-   "sale_median84": 65000,
-   "ratio": 73.1
-  },
-  {
-   "umd": "쌍문동",
-   "apt": "e편한세상",
-   "built": 2007,
-   "jeonse_n": 9,
-   "jeonse_median84": 48000,
-   "sale_n": 5,
-   "sale_median84": 66250,
-   "ratio": 72.5
   }
  ],
  "low_ratio_apts": [
@@ -157,19 +157,29 @@
    "built": 1988,
    "jeonse_n": 2,
    "jeonse_median84": 29000,
-   "sale_n": 3,
-   "sale_median84": 90000,
-   "ratio": 32.2
+   "sale_n": 4,
+   "sale_median84": 88500,
+   "ratio": 32.8
   },
   {
    "umd": "창동",
    "apt": "주공19단지(창동리버타운)",
    "built": 1988,
-   "jeonse_n": 7,
+   "jeonse_n": 5,
    "jeonse_median84": 37500,
-   "sale_n": 6,
-   "sale_median84": 97750,
-   "ratio": 38.4
+   "sale_n": 7,
+   "sale_median84": 98000,
+   "ratio": 38.3
+  },
+  {
+   "umd": "도봉동",
+   "apt": "삼환도봉",
+   "built": 1987,
+   "jeonse_n": 8,
+   "jeonse_median84": 29000,
+   "sale_n": 2,
+   "sale_median84": 63000,
+   "ratio": 46.0
   },
   {
    "umd": "창동",
@@ -185,30 +195,14 @@
    "umd": "창동",
    "apt": "상아1차아파트",
    "built": 1987,
-   "jeonse_n": 9,
-   "jeonse_median84": 40000,
+   "jeonse_n": 12,
+   "jeonse_median84": 41000,
    "sale_n": 3,
    "sale_median84": 84000,
-   "ratio": 47.6
-  },
-  {
-   "umd": "창동",
-   "apt": "동아청솔",
-   "built": 1997,
-   "jeonse_n": 41,
-   "jeonse_median84": 50000,
-   "sale_n": 26,
-   "sale_median84": 103000,
-   "ratio": 48.5
+   "ratio": 48.8
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 244,
-   "n84": 78,
-   "jeonse_median84": 40000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 262,
@@ -253,41 +247,47 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 228,
-   "n84": 71,
-   "jeonse_median84": 46000
+   "jeonse_count": 227,
+   "n84": 70,
+   "jeonse_median84": 45500
   },
   {
    "month": "2026-08",
-   "jeonse_count": 177,
-   "n84": 73,
+   "jeonse_count": 181,
+   "n84": 76,
    "jeonse_median84": 43000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 170,
-   "n84": 41,
+   "jeonse_count": 174,
+   "n84": 43,
    "jeonse_median84": 45000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 163,
-   "n84": 48,
+   "jeonse_count": 214,
+   "n84": 58,
    "jeonse_median84": 44000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 30,
+   "n84": 10,
+   "jeonse_median84": 53250
   }
  ],
- "rank": 108,
+ "rank": 104,
  "rank_of": 178,
  "avg_ratio84_all": 72.3,
- "ratio_vs_avg_pp": -4.8,
+ "ratio_vs_avg_pp": -4.6,
  "umd_ratio_high": {
   "name": "쌍문동",
-  "ratio": 72.8
+  "ratio": 72.7
  },
  "umd_ratio_low": {
   "name": "창동",
-  "ratio": 56.3
+  "ratio": 57.5
  },
- "umd_spread_pp": 16.5,
+ "umd_spread_pp": 15.2,
  "gap84": 20000
 }
