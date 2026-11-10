@@ -1,1 +1,4 @@
-[]
+[
+  {"name": "mapo-gu-management-fee-2026-08-size-chart", "chart": {"type": "gwanribi_complex", "lawd": "11440", "code": "A12175203"}},
+  {"name": "gw-calc-mapo-raemian-prugio-84-1110", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "257460"]}, {"fill": ["#area", "84"]}, {"pick": ["#reg", "마포구"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16}
+]
