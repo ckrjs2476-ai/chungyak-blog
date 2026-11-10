@@ -2,18 +2,22 @@
  "lawd": "28177",
  "name": "인천광역시 미추홀구",
  "months": 12,
- "updated": "2026-11-09",
- "trade_count": 2718,
+ "updated": "2026-11-10",
+ "trade_count": 2736,
  "cancel_count": 126,
- "n84": 760,
+ "n84": 762,
  "median84": 39000,
- "p25_84": 29212,
+ "p25_84": 29237,
  "p75_84": 55000,
- "median84_pyeong_excl": 1517,
+ "median84_pyeong_excl": 1518,
  "new_n84": 123,
  "new_median84": 59500,
  "new_build_years": 5,
  "umd84": {
+  "용현동": {
+   "n": 247,
+   "median": 33500
+  },
   "학익동": {
    "n": 146,
    "median": 34500
@@ -21,10 +25,6 @@
   "주안동": {
    "n": 162,
    "median": 46000
-  },
-  "용현동": {
-   "n": 245,
-   "median": 33400
   },
   "도화동": {
    "n": 99,
@@ -102,39 +102,39 @@
   },
   {
    "month": "2026-10",
-   "count": 213,
-   "n84": 38,
-   "median84": 42150
+   "count": 218,
+   "n84": 39,
+   "median84": 42400
   },
   {
    "month": "2026-11",
-   "count": 30,
-   "n84": 6,
-   "median84": 47600
+   "count": 43,
+   "n84": 7,
+   "median84": 46500
   }
  ],
  "top_apts": [
   {
    "name": "주안동 힐스테이트푸르지오주안",
-   "count": 176,
+   "count": 177,
    "median84": 66900,
    "built": 2023
   },
   {
    "name": "용현동 인천 SK Sky VIEW",
-   "count": 136,
-   "median84": 57250,
+   "count": 139,
+   "median84": 57125,
    "built": 2016
   },
   {
    "name": "주안동 주안파크자이더플래티넘",
-   "count": 113,
+   "count": 114,
    "median84": 58125,
    "built": 2023
   },
   {
    "name": "도화동 더샵인천스카이타워1단지",
-   "count": 76,
+   "count": 77,
    "median84": 55000,
    "built": 2020
   },
@@ -164,14 +164,14 @@
   },
   {
    "name": "숭의동 스타디움센트럴시티",
-   "count": 45,
+   "count": 46,
    "median84": 48500,
    "built": 2022
   },
   {
    "name": "용현동 용현엘크루윈드포레",
-   "count": 44,
-   "median84": 44400,
+   "count": 45,
+   "median84": 44500,
    "built": 2018
   }
  ]
