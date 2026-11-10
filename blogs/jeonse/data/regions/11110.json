@@ -1,72 +1,72 @@
 {
  "lawd": "11110",
  "name": "서울특별시 종로구",
- "updated": "2026-10-27",
+ "updated": "2026-11-10",
  "months": 12,
- "jeonse_count": 752,
- "wolse_count": 1397,
- "wolse_share_pct": 65.0,
- "renew_share_pct": 42.3,
- "jeonse_n84": 276,
+ "jeonse_count": 690,
+ "wolse_count": 1312,
+ "wolse_share_pct": 65.5,
+ "renew_share_pct": 41.6,
+ "jeonse_n84": 244,
  "jeonse_median84": 81000,
- "sale_n84": 144,
- "sale_median84": 120000,
- "ratio84": 67.5,
+ "sale_n84": 140,
+ "sale_median84": 120500,
+ "ratio84": 67.2,
  "jeonse_recent3_median84": 83000,
- "jeonse_prev3_median84": 85000,
- "jeonse_change_pct": -2.4,
- "apts_with_both": 15,
+ "jeonse_prev3_median84": 88500,
+ "jeonse_change_pct": -6.2,
+ "apts_with_both": 14,
  "apts_ratio_80_plus": 1,
  "apts_ratio_70_plus": 1,
  "umd": {
   "명륜2가": {
-   "jeonse_n": 29,
-   "jeonse_median84": 76000,
+   "jeonse_n": 22,
+   "jeonse_median84": 77000,
    "sale_n": 25,
    "sale_median84": 115000,
-   "ratio": 66.1
+   "ratio": 67.0
   },
   "무악동": {
-   "jeonse_n": 79,
-   "jeonse_median84": 75600,
+   "jeonse_n": 73,
+   "jeonse_median84": 78000,
    "sale_n": 41,
-   "sale_median84": 151980,
-   "ratio": 49.7
+   "sale_median84": 152000,
+   "ratio": 51.3
   },
   "숭인동": {
    "jeonse_n": 10,
    "jeonse_median84": 61450,
-   "sale_n": 13,
-   "sale_median84": 113000,
-   "ratio": 54.4
+   "sale_n": 12,
+   "sale_median84": 113750,
+   "ratio": 54.0
   },
   "창신동": {
-   "jeonse_n": 17,
+   "jeonse_n": 15,
    "jeonse_median84": 56000,
-   "sale_n": 27,
+   "sale_n": 25,
    "sale_median84": 98000,
    "ratio": 57.1
   },
   "평동": {
-   "jeonse_n": 34,
-   "jeonse_median84": 115500,
-   "sale_n": 9,
+   "jeonse_n": 30,
+   "jeonse_median84": 118500,
+   "sale_n": 8,
    "sale_median84": 250000,
-   "ratio": 46.2
+   "ratio": 47.4
   },
   "평창동": {
-   "jeonse_n": 8,
+   "jeonse_n": 7,
    "jeonse_median84": 55000,
    "sale_n": 5,
    "sale_median84": 80700,
    "ratio": 68.2
   },
   "홍파동": {
-   "jeonse_n": 77,
-   "jeonse_median84": 120750,
+   "jeonse_n": 64,
+   "jeonse_median84": 124500,
    "sale_n": 11,
    "sale_median84": 264500,
-   "ratio": 45.7
+   "ratio": 47.1
   }
  },
  "top_ratio_apts": [
@@ -84,11 +84,11 @@
    "umd": "명륜2가",
    "apt": "아남1",
    "built": 1995,
-   "jeonse_n": 29,
-   "jeonse_median84": 76000,
+   "jeonse_n": 22,
+   "jeonse_median84": 77000,
    "sale_n": 25,
    "sale_median84": 115000,
-   "ratio": 66.1
+   "ratio": 67.0
   },
   {
    "umd": "창신동",
@@ -99,16 +99,6 @@
    "sale_n": 8,
    "sale_median84": 94000,
    "ratio": 63.8
-  },
-  {
-   "umd": "창신동",
-   "apt": "브라운스톤창신",
-   "built": 2006,
-   "jeonse_n": 2,
-   "jeonse_median84": 53000,
-   "sale_n": 4,
-   "sale_median84": 88500,
-   "ratio": 59.9
   },
   {
    "umd": "평창동",
@@ -124,9 +114,9 @@
    "umd": "무악동",
    "apt": "인왕산2차아이파크",
    "built": 2015,
-   "jeonse_n": 9,
+   "jeonse_n": 7,
    "jeonse_median84": 78000,
-   "sale_n": 7,
+   "sale_n": 6,
    "sale_median84": 142000,
    "ratio": 54.9
   },
@@ -151,16 +141,6 @@
    "ratio": 53.7
   },
   {
-   "umd": "창신동",
-   "apt": "두산",
-   "built": 1999,
-   "jeonse_n": 10,
-   "jeonse_median84": 58000,
-   "sale_n": 13,
-   "sale_median84": 110000,
-   "ratio": 52.7
-  },
-  {
    "umd": "숭인동",
    "apt": "종로센트레빌",
    "built": 2008,
@@ -169,6 +149,26 @@
    "sale_n": 8,
    "sale_median84": 114500,
    "ratio": 52.4
+  },
+  {
+   "umd": "창신동",
+   "apt": "두산",
+   "built": 1999,
+   "jeonse_n": 9,
+   "jeonse_median84": 58000,
+   "sale_n": 12,
+   "sale_median84": 111000,
+   "ratio": 52.3
+  },
+  {
+   "umd": "창신동",
+   "apt": "동대문맨션",
+   "built": 1973,
+   "jeonse_n": 2,
+   "jeonse_median84": 31000,
+   "sale_n": 2,
+   "sale_median84": 59954,
+   "ratio": 51.7
   }
  ],
  "low_ratio_apts": [
@@ -176,41 +176,41 @@
    "umd": "홍파동",
    "apt": "경희궁자이(2단지)",
    "built": 2017,
-   "jeonse_n": 77,
-   "jeonse_median84": 120750,
+   "jeonse_n": 64,
+   "jeonse_median84": 124500,
    "sale_n": 11,
    "sale_median84": 264500,
-   "ratio": 45.7
+   "ratio": 47.1
   },
   {
    "umd": "평동",
    "apt": "경희궁자이(3단지)",
    "built": 2017,
-   "jeonse_n": 34,
-   "jeonse_median84": 115500,
-   "sale_n": 9,
+   "jeonse_n": 30,
+   "jeonse_median84": 118500,
+   "sale_n": 8,
    "sale_median84": 250000,
-   "ratio": 46.2
+   "ratio": 47.4
   },
   {
    "umd": "무악동",
    "apt": "현대",
    "built": 2000,
-   "jeonse_n": 26,
-   "jeonse_median84": 70750,
+   "jeonse_n": 23,
+   "jeonse_median84": 70000,
    "sale_n": 14,
    "sale_median84": 145730,
-   "ratio": 48.5
+   "ratio": 48.0
   },
   {
    "umd": "무악동",
    "apt": "인왕산아이파크",
    "built": 2008,
-   "jeonse_n": 34,
+   "jeonse_n": 33,
    "jeonse_median84": 80000,
-   "sale_n": 16,
-   "sale_median84": 155650,
-   "ratio": 51.4
+   "sale_n": 17,
+   "sale_median84": 156000,
+   "ratio": 51.3
   },
   {
    "umd": "창신동",
@@ -224,12 +224,6 @@
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 87,
-   "n84": 38,
-   "jeonse_median84": 94500
-  },
   {
    "month": "2025-12",
    "jeonse_count": 90,
@@ -262,7 +256,7 @@
   },
   {
    "month": "2026-05",
-   "jeonse_count": 69,
+   "jeonse_count": 70,
    "n84": 20,
    "jeonse_median84": 83500
   },
@@ -280,35 +274,41 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 39,
+   "jeonse_count": 40,
    "n84": 9,
    "jeonse_median84": 110000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 36,
+   "jeonse_count": 37,
    "n84": 11,
    "jeonse_median84": 75000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 40,
-   "n84": 20,
+   "jeonse_count": 52,
+   "n84": 23,
    "jeonse_median84": 83000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 10,
+   "n84": 3,
+   "jeonse_median84": 100000
   }
  ],
- "rank": 108,
+ "rank": 110,
  "rank_of": 178,
- "avg_ratio84_all": 72.3,
- "ratio_vs_avg_pp": -4.8,
+ "avg_ratio84_all": 72.4,
+ "ratio_vs_avg_pp": -5.2,
  "umd_ratio_high": {
   "name": "명륜2가",
-  "ratio": 66.1
+  "ratio": 67.0
  },
  "umd_ratio_low": {
   "name": "홍파동",
-  "ratio": 45.7
+  "ratio": 47.1
  },
- "umd_spread_pp": 20.4,
- "gap84": 39000
+ "umd_spread_pp": 19.9,
+ "gap84": 39500
 }
