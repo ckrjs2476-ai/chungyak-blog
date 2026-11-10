@@ -1,14 +1,42 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "weekly_competition": [
   {
-   "no": "2026000518",
-   "name": "GTX운정중앙역 시티프라디움 4단지(후속사업)",
+   "no": "2026000528",
+   "name": "광교 자연앤 센트레빌(A17BL) 공공분양주택",
    "region": "경기",
-   "rank1_avg_rate": 51.75,
+   "rank1_avg_rate": 184.3,
    "best": {
-    "ty": "60.9995",
-    "rate": 109.9,
+    "ty": "84.7637A",
+    "rate": 203.33,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 3,
+   "type_count": 3
+  },
+  {
+   "no": "2026000527",
+   "name": "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택",
+   "region": "경기",
+   "rank1_avg_rate": 100.46,
+   "best": {
+    "ty": "59.9657B",
+    "rate": 111.31,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 4,
+   "type_count": 4
+  },
+  {
+   "no": "2026000472",
+   "name": "구리갈매역세권 B-1블록 신안인스빌 디센트",
+   "region": "경기",
+   "rank1_avg_rate": 23.59,
+   "best": {
+    "ty": "84.6686",
+    "rate": 10.73,
     "stage": "1순위 해당지역"
    },
    "final_shortfall_total": 0,
@@ -16,74 +44,66 @@
    "type_count": 2
   },
   {
-   "no": "2026000517",
-   "name": "GTX운정중앙역 시티프라디움 3단지(후속사업)",
-   "region": "경기",
-   "rank1_avg_rate": 36.48,
+   "no": "2026000523",
+   "name": "형곡 센트럴 아테라",
+   "region": "경북",
+   "rank1_avg_rate": 8.72,
    "best": {
-    "ty": "60.9995",
-    "rate": 249.75,
+    "ty": "59.9883A",
+    "rate": 8.43,
     "stage": "1순위 해당지역"
    },
    "final_shortfall_total": 0,
-   "rank1_closed_types": 5,
-   "type_count": 5
+   "rank1_closed_types": 1,
+   "type_count": 1
   },
   {
-   "no": "2026000496",
-   "name": "청라 아크원 푸르지오",
-   "region": "인천",
-   "rank1_avg_rate": 2.23,
+   "no": "2026000539",
+   "name": "남춘천 센트레빌",
+   "region": "강원",
+   "rank1_avg_rate": 0.87,
    "best": {
-    "ty": "84.9443A",
-    "rate": 12.91,
-    "stage": "1순위 해당지역"
+    "ty": "84.9888A",
+    "rate": 10.0,
+    "stage": "1순위 기타지역"
    },
-   "final_shortfall_total": 76,
-   "rank1_closed_types": 4,
-   "type_count": 6
-  },
-  {
-   "no": "2026000532",
-   "name": "계양신도시 카이브 유보라(AC4BL)",
-   "region": "인천",
-   "rank1_avg_rate": 0.78,
-   "best": {
-    "ty": "84.3473A",
-    "rate": 2.05,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 143,
-   "rank1_closed_types": 2,
+   "final_shortfall_total": 85,
+   "rank1_closed_types": 3,
    "type_count": 7
   },
   {
-   "no": "2026000530",
-   "name": "계양신도시 카이브 유보라(AC3BL)",
-   "region": "인천",
-   "rank1_avg_rate": 0.74,
+   "no": "2026000515",
+   "name": "평택 고덕 우미 린 더 프리미어",
+   "region": "경기",
+   "rank1_avg_rate": 0.33,
    "best": {
-    "ty": "84.3473A",
-    "rate": 2.16,
+    "ty": "111.5911A",
+    "rate": 2.5,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 179,
-   "rank1_closed_types": 2,
-   "type_count": 8
+   "final_shortfall_total": 391,
+   "rank1_closed_types": 1,
+   "type_count": 10
   },
   {
-   "no": "2026000502",
-   "name": "화성 향남 롯데캐슬 시그니처",
+   "no": "2026000499",
+   "name": "한화포레나 지제역",
    "region": "경기",
-   "rank1_avg_rate": 0.24,
-   "best": {
-    "ty": "84.4447D",
-    "rate": 2.83,
-    "stage": "2순위 해당지역"
-   },
-   "final_shortfall_total": 980,
+   "rank1_avg_rate": 0.28,
+   "best": null,
+   "final_shortfall_total": 740,
    "rank1_closed_types": 0,
-   "type_count": 10
+   "type_count": 5
+  },
+  {
+   "no": "2026000525",
+   "name": "엘리프 시흥 더프라임",
+   "region": "경기",
+   "rank1_avg_rate": 0.13,
+   "best": null,
+   "final_shortfall_total": 250,
+   "rank1_closed_types": 0,
+   "type_count": 2
   }
  ],
  "weekly_remainder": [
@@ -273,6 +293,41 @@
     {
      "ty": "84.1579D",
      "price": 40040,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910284",
+   "name": "중동역 다채로움 더원",
+   "region": "경기",
+   "households": 23,
+   "rcept_date": "2026-11-16",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910284&pblancNo=2026910284",
+   "types": [
+    {
+     "ty": "54.8244",
+     "price": 54900,
+     "pyeong_price": null
+    },
+    {
+     "ty": "59.9935B",
+     "price": 59200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "60.7403",
+     "price": 61200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9888A",
+     "price": 75300,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9933B",
+     "price": 79300,
      "pyeong_price": null
     }
    ]
@@ -1843,20 +1898,6 @@
    "max": {
     "score": 69,
     "ty": "84.9861B"
-   }
-  },
-  {
-   "no": "2026000382",
-   "name": "두산위브더제니스 부천",
-   "region": "경기",
-   "min": {
-    "score": 0,
-    "ty": "59.94A",
-    "reside": "해당지역"
-   },
-   "max": {
-    "score": 64,
-    "ty": "59.94A"
    }
   },
   {

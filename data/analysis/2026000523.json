@@ -38,5 +38,29 @@
   "다자녀": 13,
   "노부모 부양": 4,
   "기관추천": 14
+ },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9883A",
+    "supply": 61,
+    "closed_at": "1순위 해당지역",
+    "rate": 8.43,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 532,
+  "rank1_req": 532,
+  "supply_total": 61,
+  "final_shortfall_total": 0,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 1,
+  "rank1_avg_rate": 8.72,
+  "best": {
+   "ty": "59.9883A",
+   "rate": 8.43,
+   "stage": "1순위 해당지역"
+  }
  }
 }

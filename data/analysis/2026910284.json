@@ -1,0 +1,90 @@
+{
+ "no": "2026910284",
+ "name": "중동역 다채로움 더원",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-11-10",
+ "rank1_date": "2026-11-16",
+ "city": "부천시",
+ "supply_kind": "",
+ "winner_date": "2026-11-19",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910284&pblancNo=2026910284",
+ "households": 23,
+ "types": [
+  {
+   "ty": "54.8244",
+   "size": 54,
+   "price": 54900,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9935B",
+   "size": 59,
+   "price": 59200,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "60.7403",
+   "size": 60,
+   "price": 61200,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9888A",
+   "size": 84,
+   "price": 75300,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9933B",
+   "size": 84,
+   "price": 79300,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 23,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 75300,
+ "price_84_max": 79300,
+ "market": {
+  "region": "경기도 부천시 소사구",
+  "lawd": "41194",
+  "months": 12,
+  "updated": "2026-11-10",
+  "n84": 781,
+  "median84": 59500,
+  "p25_84": 53100,
+  "p75_84": 71550,
+  "new_n84": 93,
+  "new_median84": 78500,
+  "new_build_years": 5,
+  "umd": "송내동",
+  "umd_n84": 144,
+  "umd_median84": 60000,
+  "diff_vs_median84": 19800,
+  "diff_pct_vs_median84": 33,
+  "diff_vs_new_median84": 800,
+  "diff_pct_vs_new_median84": 1,
+  "diff_vs_umd_median84": 19300,
+  "diff_pct_vs_umd_median84": 32
+ }
+}

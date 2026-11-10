@@ -131,6 +131,93 @@
   "노부모 부양": 18,
   "기관추천": 40
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9343A",
+    "supply": 277,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 159
+   },
+   {
+    "ty": "84.9075B",
+    "supply": 60,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 54
+   },
+   {
+    "ty": "84.8505D",
+    "supply": 29,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 21
+   },
+   {
+    "ty": "94.3143A",
+    "supply": 48,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "94.2875B",
+    "supply": 24,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 22
+   },
+   {
+    "ty": "94.3805D",
+    "supply": 6,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "101.8311A",
+    "supply": 74,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 57
+   },
+   {
+    "ty": "101.8531B",
+    "supply": 52,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 51
+   },
+   {
+    "ty": "111.5911A",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 2.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "111.4331B",
+    "supply": 9,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   }
+  ],
+  "req_total": 194,
+  "rank1_req": 194,
+  "supply_total": 585,
+  "final_shortfall_total": 391,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 10,
+  "rank1_avg_rate": 0.33,
+  "best": {
+   "ty": "111.5911A",
+   "rate": 2.5,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "평택시",
   "supply_kind": "민영",
@@ -171,9 +258,22 @@
  },
  "area_competition": {
   "scope": "평택시",
-  "peer_count": 3,
-  "peer_avg_rate": 0.6,
+  "peer_count": 4,
+  "peer_avg_rate": 0.52,
   "peer_max_rate": 1.4
+ },
+ "region_competition": {
+  "scope": "평택시",
+  "peer_count": 4,
+  "peers": [
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디",
+   "평택역 더센트럴45",
+   "한화포레나 지제역"
+  ],
+  "peer_avg_rate": 0.52,
+  "rank": 2,
+  "of": 5
  },
  "market": {
   "region": "경기도 평택시",

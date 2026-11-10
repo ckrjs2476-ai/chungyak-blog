@@ -101,6 +101,72 @@
   "노부모 부양": 8,
   "기관추천": 27
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.996A",
+    "supply": 14,
+    "closed_at": "1순위 해당지역",
+    "rate": 3.07,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9888A",
+    "supply": 64,
+    "closed_at": "1순위 기타지역",
+    "rate": 10.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9917B",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 16
+   },
+   {
+    "ty": "84.9852C",
+    "supply": 33,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 27
+   },
+   {
+    "ty": "84.9895D",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 29
+   },
+   {
+    "ty": "84.9928E",
+    "supply": 31,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.42,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9945F",
+    "supply": 32,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   }
+  ],
+  "req_total": 208,
+  "rank1_req": 208,
+  "supply_total": 238,
+  "final_shortfall_total": 85,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 7,
+  "rank1_avg_rate": 0.87,
+  "best": {
+   "ty": "84.9888A",
+   "rate": 10.0,
+   "stage": "1순위 기타지역"
+  }
+ },
  "region_price": {
   "scope": "춘천시",
   "supply_kind": "민영",
@@ -139,11 +205,22 @@
   "peer_avg_rate": 1.54,
   "peer_max_rate": 2.69
  },
+ "region_competition": {
+  "scope": "춘천시",
+  "peer_count": 2,
+  "peers": [
+   "더 리치먼드 리버센트 소양",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_rate": 1.54,
+  "rank": 2,
+  "of": 3
+ },
  "market": {
   "region": "강원특별자치도 춘천시",
   "lawd": "51110",
   "months": 12,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "n84": 1208,
   "median84": 32000,
   "p25_84": 24025,

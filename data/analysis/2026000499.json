@@ -81,6 +81,53 @@
   "노부모 부양": 31,
   "기관추천": 93
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9424A",
+    "supply": 403,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 197
+   },
+   {
+    "ty": "84.9927B",
+    "supply": 198,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 178
+   },
+   {
+    "ty": "84.9839C",
+    "supply": 157,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 131
+   },
+   {
+    "ty": "84.9199D",
+    "supply": 117,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 99
+   },
+   {
+    "ty": "116.9134",
+    "supply": 147,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 135
+   }
+  ],
+  "req_total": 282,
+  "rank1_req": 282,
+  "supply_total": 1022,
+  "final_shortfall_total": 740,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.28
+ },
  "region_price": {
   "scope": "평택시",
   "supply_kind": "민영",
@@ -123,6 +170,18 @@
   "peer_count": 3,
   "peer_avg_rate": 0.6,
   "peer_max_rate": 1.4
+ },
+ "region_competition": {
+  "scope": "평택시",
+  "peer_count": 3,
+  "peers": [
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "고덕국제신도시 수자인하우스디",
+   "평택역 더센트럴45"
+  ],
+  "peer_avg_rate": 0.6,
+  "rank": 2,
+  "of": 4
  },
  "market": {
   "region": "경기도 평택시",
