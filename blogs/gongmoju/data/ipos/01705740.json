@@ -1,11 +1,11 @@
 {
  "corp_code": "01705740",
  "corp_name": "엠비디",
- "rcept_no": "20261015000329",
- "rcept_dt": "20261015",
- "report_nm": "[기재정정]증권신고서(지분증권)",
+ "rcept_no": "20261110000253",
+ "rcept_dt": "20261110",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
  "corp_cls": "E",
- "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000329",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000253",
  "subscription": "2026년 11월 12일 ~ 2026년 11월 13일",
  "payment_date": "2026년 11월 17일",
  "notice_date": "2026년 11월 12일",
@@ -77,7 +77,7 @@
   "일반청약자환매청구권"
  ],
  "is_spac": false,
- "price_confirmed": false,
+ "price_confirmed": true,
  "correction_requested": false,
  "lead_underwriter": "하나증권",
  "underwriting_fee_pct": 5.15,
@@ -85,17 +85,17 @@
  "fund_matches_total": true,
  "fund_uses_unreliable": false,
  "company_age_years": 11,
- "total_rank": 20,
- "total_rank_of": 23,
- "total_vs_median_pct": -34.2,
+ "total_rank": 21,
+ "total_rank_of": 24,
+ "total_vs_median_pct": -30.9,
  "top_fund_use": {
   "use": "운영자금",
   "amount": 6750000000,
   "share_pct": 34.8,
   "amount_eok": 67.5
  },
- "compare_median_total": 29192000000,
- "compare_count": 23,
+ "compare_median_total": 27796000000,
+ "compare_count": 24,
  "median_fee_pct": 4.59,
- "compare_median_total_eok": 291.9
+ "compare_median_total_eok": 278.0
 }
