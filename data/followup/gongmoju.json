@@ -1,4 +1,33 @@
 {
- "updated": "2026-11-07",
- "candidates": []
+ "updated": "2026-11-10",
+ "candidates": [
+  {
+   "id": "gongmoju:01705573:2026-10-13",
+   "kind": "post_change",
+   "entity": "01705573",
+   "days_since": 28,
+   "post": {
+    "title": "유캐스트 공모주 152억 원, 정정 뒤 11월 18~19일 청약",
+    "url": "https://gongmoju-breakdown.blogspot.com/2026/10/ucast-ipo-2026-10.html",
+    "file": "2026-10-13-01705573-ipo.md",
+    "keyword": "유캐스트 공모주",
+    "type": "ipo",
+    "published_at": "2026-10-13"
+   },
+   "metrics": {
+    "total_rank": {
+     "label": "공모 규모 순위(큰 순)",
+     "unit": "위",
+     "from": 23.0,
+     "from_date": "2026-11-09",
+     "to": 22.0,
+     "to_date": "2026-11-10",
+     "diff": -1.0,
+     "abs_diff": 1.0,
+     "pct": -4.3,
+     "baseline_after_post": true
+    }
+   }
+  }
+ ]
 }
