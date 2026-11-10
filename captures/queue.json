@@ -1,4 +1,1 @@
-[
- {"name": "js-41390-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "41390", "highlight": "정왕동"}},
- {"name": "js-41390-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경기"], "wait": 2}, {"pick": ["#srhSggCd", "시흥"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
-]
+[]
