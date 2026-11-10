@@ -60,3 +60,9 @@
   - 공모주 3: ipo-week-2026-11-09, intellivix-ipo-2026-10, younggwang-ipo-2026-10
   - 전세 3: gangnam-gu-jeonse-ratio-2026-10(11-07 남은 것), jeonju-wansan-gu-jeonse-ratio-2026-11, namyangju-si-jeonse-flow-2026-10
   - 다음 실행 11-10 10:20: 청약(october-notice-price-vs-result-2026-10 먼저) → 드론 → 관리비 → 공모주 → 전세
+
+- 11-10 오전(10:20~10:27) 9건 요청, 10번째(공모주 ipo-offer-price-2026-11)에서 '오류 발생, 나중에 다시 시도'(할당량으로 봄)
+  - 청약 3: october-notice-price-vs-result-2026-10(11-09 남은 것), yeosu-apartment-pyeong-price-2025-10, sangok-station-xi-hillstate-haneulchae
+  - 드론 3: drone-pilot-salary-work24-2026, drone-delivery-status-2026, drone-survey-law-2026
+  - 관리비 3: apartment-security-fee-uijeongbu-2026-08, gangdong-gu-apartment-management-fee, gwanak-gu-apartment-management-fee-by
+  - 다음 실행 11-11 10:40: 공모주(ipo-offer-price-2026-11 먼저) → 전세 → 청약 → 드론 → 관리비
