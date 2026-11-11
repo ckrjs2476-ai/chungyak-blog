@@ -1,0 +1,2364 @@
+<html><head></head><body>
+	
+
+
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>비행 계획 / 비행가능 지역 검색</title>
+	<link rel="stylesheet" href="/resources/css/layout.css">
+	<link rel="stylesheet" href="/resources/css/style.css">
+	<link rel="stylesheet" href="/resources/css/media.css">
+	<link rel="stylesheet" href="/resources/css/reset.css">
+	<link rel="stylesheet" href="/resources/css/test.css">
+	<script src="https://t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	<link rel="stylesheet" href="/resources/vendor/openlayers-5.3.0/ol.css">
+	<link rel="stylesheet" href="/resources/vendor/openlayers-5.3.0/ol-ext.css">
+
+	<script src="/resources/vendor/openlayers-5.3.0/proj4.js"></script>
+	<script src="/resources/vendor/openlayers-5.3.0/ol.js"></script>
+	<script src="/resources/vendor/openlayers-5.3.0/ol-ext.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.bxslider.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.serialize-object.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/inputmask.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/jquery.inputmask.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/bxslider.js"></script>
+	<script src="/resources/js/custom.js"></script>
+	<script src="/resources/js/common.js"></script>
+	<script src="/resources/js/vmap.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+
+	<style>
+		/* 지도 마커위에 팝업창 크기 */
+		.popover{
+			width: 126px;
+			/*height: 69px; */
+			height: 79px;
+			font-size: 12px;
+			cursor: pointer;
+
+		}
+		.popover:hover{
+			font-size: 13px;
+			font-weight: 500;
+		}
+
+		#marker {
+			/*width: 20px;*/
+			/*height: 20px;*/
+			border: 1px solid #088;
+			border-radius: 10px;
+			background-color: #0FF;
+			opacity: 0.5;
+		}
+		.popover .arrow{
+			display: none!important;
+		}
+		.popover-body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 5px;
+		}
+		.popover-body:nth-child(1){
+			font-size: 14px;
+			font-weight: 600;
+		}
+
+		/* bootstrap 불러오면서 깨지는 부분 강제 수정 */
+		.pop-title > h1{
+			margin: .67em 0;
+		}
+
+		*,
+		*::before,
+		*::after{
+			box-sizing: content-box;
+		}
+
+		label {
+			display: contents!important;
+		}
+
+		#legend > div {
+			flex-wrap: wrap;
+		}
+
+		#legend.flight_wrap.dr_popup {
+			width: 300px;
+			height: 530px;
+			max-width: 300px;
+			max-height: 530px;
+			overflow-y: auto;
+		}
+
+		@media screen and (max-width: 600px) {
+			#legend.flight_wrap.dr_popup {
+				width: 50vw;
+				height: 60vh;
+				max-width: none;
+				max-height: none;
+				overflow-y: auto;
+				overflow-x: hidden;
+				box-sizing: border-box;
+			}
+		}
+
+		/*#legend.flight_wrap.dr_popup::-webkit-scrollbar-thumb {*/
+		/*	background: #888;*/
+		/*}*/
+
+		/* 항만구역 마커 라벨 */
+		.popover .popover-body .port-marker-label {
+			color: #2563EB !important;
+			font-weight: 700;
+		}
+
+		/* 항만구역 담당기관 정보 */
+		#PLAN_FLIGHT_ADDR_ID_DESC_POPUP .port-info,
+		#PLAN_FLIGHT_ADDR_ID_DESC_POPUP .port-info div {
+			color: #2563EB !important;
+			line-height: 1.7;
+		}
+
+		/* 항만 담당기관 간 여백 */
+		#PLAN_FLIGHT_ADDR_ID_DESC_POPUP .port-info {
+			margin-top: 8px;
+		}
+
+		/* 마커 팝업 높이 자동 조절 */
+		.popover {
+			height: auto !important;
+			min-height: 79px;
+		}
+
+
+		/* 감독기관 글씨 크기 축소 */
+		#PLAN_FLIGHT_ADDR_ID_DESC_POPUP .port-info .port-supervisor {
+			font-size: 12px;
+		}
+
+		/* 항만구역 비고 안내 */
+		#PLAN_AREA_ADDR_ID_ETC_POPUP .port-notice {
+			color: #2563EB !important;
+			line-height: 1.7;
+		}
+
+	</style>
+
+	<script type="text/javascript">
+
+
+
+		var vmap;
+
+		//lt_c_aisdngc:위험지역 추가 2022-07-26
+		//LT_C_AISOBLS:장애물공역 추가 2022-10-07
+		//LT_C_AISPCA:사전협의구역 추가 2022-11-03
+		//LT_C_AISTEMP: 강원입시구역 추가 2024-01-18
+
+		
+
+		
+		// 일반인용
+		var layerid = ['LT_C_AISALTC', 'LT_C_AISCTRC', 'LT_C_AISPRHC', 'LT_C_AISATZC', 'LT_C_AISRESC', 'LT_C_AISUAC', 'LT_C_AISFLDC', 'LT_C_ADEMD', 'LT_C_AISDNGC','LT_C_AISPCA','LT_C_AISOBLS','LT_C_AISTEMP','LT_C_UO301','LT_C_WGISNPGUG','LT_C_AISDRONEZONE', 'LT_C_AISPORT'];
+		//console.log("2-한글-"+layerid);
+		
+
+
+		var latitude = 0.0;
+		var longitude = 0.0;
+		// mini marker popup
+		var flightZone = { PUBLIC: "비행승인 불필요", ANOTHER : "관할기관" };
+		var flightDesc = { PUBLIC: "조종사 준수사항 준수", ANOTHER: "비행승인 필요", NOADDR: "주소 확인 필요"};
+
+		var flightDesc2 = { PUBLIC: "(주간 및 25kg이하)", ANOTHER: "(관할부서 확인)"};
+		// popup data
+		var popupTitle = { PUBLIC: "비행승인 불필요", ANOTHER: "비행승인 필요" , NOADDR: "주소 확인 필요"}
+		var popupDesc = {
+			PUBLIC: '주간에 고도 150m 미만, 최대이륙중량 25kg 이하의 무인동력비행장치는 비행승인 없이 비행이 가능합니다.',
+			ANOTHER: '해당지역은 드론 비행 시, 관할기관에 비행승인을 받아야 합니다.'
+		}
+		var _address
+		var bbox;
+		var popupEl;
+		var ajaxResult;
+
+		var chk_area; // 에어리어 확인용
+		var chk_dong; // 동 확인용
+		var chk_layerid;
+		let lay_str; // 글씨추가(문화재등)
+		var portFeatures = []; // 항만구역 조회 결과
+
+
+
+
+		// popup variable
+		var popup;
+
+		$(document).ready(function(){
+
+			initOLMap();
+
+			initEvents();
+		});
+
+		// 비행 가능 지역 확인
+		function checkFlightLayer(typeName) {
+			ajaxResult = new Array();
+
+			var params = {
+				service : 'WFS',
+				key : vworldKey,
+				domain : vworldDomain,
+				version : '1.1.0',
+				request : 'GetFeature',
+				typename : typeName ,
+				output : 'text/javascript',
+				srsname : 'EPSG:3857',
+				bbox : bbox.xmin+','+bbox.ymin+','+bbox.xmax+','+bbox.ymax
+			}
+
+			//let str = JSON.stringify(params); // <> parse()
+			//console.log('checkFlightLayer-0-'+str);
+
+			$.ajax({
+				type: "get",
+				url: 'https://api.vworld.kr/req/wfs',
+				dataType: "jsonp",
+				data: params,
+				async: false,
+				jsonpCallback: 'parseResponse',
+				success: function (data, textStatus, jqXHR) {
+					// 데이터를 확인하고 싶을 때. 2022-04-18 좌표
+					// let str = JSON.stringify(feature); // <> parse()
+					// console.log('checkFlightLayer-1-'+str);
+					// features 배열에서 id만 추출
+					chk_layerid = data.features.map(feature => feature.id);
+					// id 값 출력
+					//console.log('추출된 id 값들:', chk_layerid);
+
+
+					resultValue(data.totalFeatures)
+					//lt_c_aisdngc:위험지역 추가 2022-07-26
+					//LT_C_AISOBLS:장애물공역 추가 2022-10-07
+					//LT_C_AISPCA:사전협의구역 추가 2022-11-03
+
+					// 리턴값 없게 비행불가 확인
+					//                     경계구역, 비행금지구역, 비행제한구역, 위험지역,  장애물공역,    사전협의구역
+					// 여기에 레이어 추가시 레이어값 표시됨 2026-05-28
+					checkFlightLayer2('lt_c_aisaltc,lt_c_aisprhc,lt_c_aisresc,lt_c_aisdngc,lt_c_aistemp,lt_c_aisctrc,lt_c_aisdronezone,lt_c_aisuac,lt_c_aisport','lt_c_aispca')
+					//checkFlightLayer2('lt_c_aisaltc,lt_c_aisprhc,lt_c_aisresc,lt_c_aisdngc,lt_c_aistemp,lt_c_aisctrc,lt_c_aisatzc,lt_c_aisfldc,lt_c_aisdngc,lt_c_aistemp,lt_c_uo301,lt_c_wgisnpgug','lt_c_aispca')
+
+				},
+				error: function (e) {
+					//let str = JSON.stringify(e); // params: 파라미터 확인하는것~
+					//console.log('checkFlightLayer-1-'+str);
+					console.error(e)
+					alert("문제가 발생했습니다. 다시 지도를 클릭해주세요.")
+				}
+			})
+		}
+
+		// 항만 담당기관 정보 표시 2026-10-21
+		function updatePortInfo() {
+			var $target = $("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP");
+
+			// 기존 항만정보 제거
+			$target.find(".port-info").remove();
+
+			if (!portFeatures || portFeatures.length === 0) return;
+
+			var $div = $("<div>").addClass("port-info");
+
+			$("<div>")
+					.text("※ 항만시설 별도 승인 필요")
+					.appendTo($div);
+
+			portFeatures.forEach(function(feature) {
+				var p = feature.properties || {};
+
+				$("<div>")
+						.text("(문의) " + (p.port_opr || "-") +
+								" (" + (p.info_tel || "-") + ")")
+						.appendTo($div);
+
+
+				$("<div>")
+						.addClass("port-supervisor")
+						.text(" (" + (p.sup_org || "-") + " "
+								+ (p.mgr_tel || "-") + ")")
+						.appendTo($div);
+			});
+			$target.append($div);
+		}
+
+		// 비행 가능 지역 확인
+		function checkFlightLayer2(typeName) {
+
+			var params = {
+				service : 'WFS',
+				key : vworldKey,
+				domain : vworldDomain,
+				version : '1.1.0',
+				request : 'GetFeature',
+				typename : typeName ,
+				output : 'text/javascript',
+				srsname : 'EPSG:3857',
+				bbox : bbox.xmin+','+bbox.ymin+','+bbox.xmax+','+bbox.ymax
+			}
+
+			//let str = JSON.stringify(params); // <> parse()
+			//console.log('checkFlightLayer2-0-'+str);
+			$.ajax({
+				type: "get",
+				url: 'https://api.vworld.kr/req/wfs',
+				dataType: "jsonp",
+				data: params,
+				async: false,
+				jsonpCallback: 'parseResponse',
+				success: function (data, textStatus, jqXHR) {
+					// 데이터를 확인하고 싶을 때. 2022-04-18
+					let str = JSON.stringify(data.features); // params: 파라미터 확인하는것~
+					// console.log('checkFlightLayer2-2-'+str);
+
+					// 항만구역 정보 추출
+					portFeatures = (data.features || []).filter(function(feature) {
+						return feature.id &&
+								feature.id.toLowerCase().startsWith('lt_c_aisport.');
+					});
+
+
+					// area별로 확인하기 위함 2023-10-17
+
+					chk_area = "";
+					if (str.indexOf('P61A')>0){
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>P61A<br/>" +
+								"– 고리원전 ☎ 051-726-2053, 2054<br/>– 새울원전 ☎ 052-715-2892, 2897";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					if (str.indexOf('P62A')>0){
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>P62A – 월성원전 ☎ 054-779-3165";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					if (str.indexOf('P63A')>0){
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>P63A – 한빛원전 ☎ 061-357-2823";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					if (str.indexOf('P64A')>0){
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>P64A – 한울원전 ☎ 054-785-1061";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					if (str.indexOf('P65A')>0){
+						chk_area = "P65A";
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>P65A – 한국원자력 연구원 ☎ 042-868-2093";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					var msg = "";
+					var hasBlock = false;
+					if (str.includes('PYEONGTAEK CTLZ')) {
+						hasBlock = true;
+						msg += "<br/>※ (평택) 공지사항(‘평택기지’ 검색) 확인";
+					}
+					if (str.includes('OSAN CTLZ')) {
+						hasBlock = true;
+						msg += "<br/>※ (오산) 공지사항(‘오산’ 검색) 확인";
+					}
+					if (hasBlock) {
+						var title = "<span class='red'>드론 원스톱 신청 불가</span>";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = title + msg;
+					}
+					if (str.indexOf('SUWON CTLZ')>0) {
+						//var chk_nm = "<br/>" + "※ 군 담당자 [ ☎ 031-220-1224 ]"
+						//var chk_nm = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"※ 군 담당자 [ ☎ 031-220-1224 ]";
+						//document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					if (str.indexOf('SEOSAN TCA AREA A')>0) {
+						//var chk_nm = "<br/>" + "※ 군 담당자 [ ☎ 031-220-1224 ]"
+						//var chk_nm = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"※ 군 담당자 [ ☎ 031-220-1224 ]";
+						//document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+
+
+
+					// P61A, P62A 원전지역은 담당자가 다름 20250325
+					// if (str.indexOf('P61A')>0) {
+					// 	var chk_nm = "※ P61A 원전지역입니다.";
+					// 	document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					// }
+					// if (str.indexOf('P62A')>0) {
+					// 	var chk_nm = "※ P62A 원전지역입니다.";
+					// 	document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					// }
+
+					if (str.indexOf('GUNSAN TCA AREA A') > 0) {
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>※ (군산) 공지사항(‘군산’ 검색) 확인";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					if ((str.indexOf('A2') > 0 && str.indexOf('A20T') === -1)) {
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>※ (천안) 공지사항(‘천안’ 검색) 확인";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+					if (str.indexOf('R155A') > 0 || str.indexOf('R155B') > 0) {
+						var chk_nm = "<span class='red'>드론 원스톱 신청 불가</span>" + "<br/>※ (김천) 공지사항(‘김천’ 검색) 확인";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm;
+					}
+
+					if (str.indexOf('A20T')>0){
+						chk_area = "A20T";
+
+						var chk_nm = "<br/><br/>"+"※ A20T – 군사목적의 헬기 등 항공기 운항이 빈번하므로 주의 필요";
+						if (str.indexOf('SEOSAN')>0) {
+							chk_nm = chk_nm + "<br/><br/>" + "※ 비행신청 前 공지사항 페이지 “서산 관제권 비행신청 메뉴얼” 필독";
+							chk_nm = chk_nm + "<br/>" + "- 비행구역이 군사지역을 포함하고 있는 경우 비행승인 불가합니다.";
+							chk_nm = chk_nm + "<br/>" + "- 항공안전을 위해 관제권 內 드론 비행고도는 제한될 수 있습니다.";
+							chk_nm = chk_nm + "<br/>" + "- 항공촬영은 별도기관(육군 32사단) 승인을 받아야 하며, 군부대 인근일 시 비행신청서를 통해 촬영관련, 통제, 제한사항이 추가 발부될 수 있습니다.";
+							chk_nm = chk_nm + "<br/>" + "- 비행신청서 보완사항 및 제한사항 발부 시 반드시 준수 바랍니다.";
+							chk_nm = chk_nm + "<br/>" + "- 관련법령 및 법규에 대해 숙지 후 비행 바랍니다.";
+						}
+
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm ;
+					}else if (str.indexOf('A19T')>0){
+						chk_area = "A19T";
+						var chk_nm = "<br/>"+"※ A19T – 군사목적의 헬기 등 항공기 운항이 빈번하므로 주의 필요";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}else if (chk_dong == '청사'){
+						var chk_nm = "<br/><br/>"+"※ 정부청사(세종·대전) 드론 비행/촬영 사전허가 필요- 공지사항(‘정부청사‘ 검색) 확인";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+						// 해군부산기지방호전대 문구 추가 2024-08-16
+					}else if (chk_dong == '해군부산기지방호전대') {
+						var chk_nm = "<br/><br/>"+"※ 부산 남구 용호동 소재 신선대, 백운포 체육공원, 오륙도 일대에서 드론 비행 및 항공촬영을 희망할 경우 해군부산기지방호전대로 전화(051-679-1842)하여 안내를 받으시기 바랍니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}else if (chk_dong == '해군인천해역방어사령부') { //해군인천해역방어사령부 문구 추가 2025-06-09 yhseo
+						var chk_nm = "<br/><br/>"+"※ 인천시 중구 소재 연안부두, 월미도 일대에서 드론비행 및 항공촬영을 희망할 경우 해군 인천해역방어사령부로 전화(032-452-4334)하여 안내를 받으시기 바랍니다. " +
+								"군사기지에 허가없이 비행할 경우 항공안전법, 군사기지보호법에 의해 처벌 받을 수 있습니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}else if (chk_dong == '해병9여단') { //해병9여단 문구 추가 2025-09-15 yhseo
+						var chk_nm = "<br/><br/>"+"※ 서귀포시 강정동 일대 제주 강정크루즈터미널에서 드론비행 및 항공촬영을 희망할 경우 해군 해병9여단으로 전화(064-905-3212)하여 안내를 받으시기 바랍니다." +
+								"군사기지에 허가없이 비행할 경우 항공안전법, 군사기지보호법에 의해 처벌 받을 수 있습니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}else if (str.indexOf('lt_c_aisuac.47')>0) {//인천 서구 UA62 문구추가 yhseo
+						var chk_nm = "<br/><br/>"+"※ (UA 62) 해당 공역 내 비행 계획이 있을 경우 반드시 사전에 항공안전기술원 드론비행시험센터로 온라인 신청 및 협의하시기 바랍니다. 항공안전기술원(인천 드론비행시험센터) ☎ 032-567-5748";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+						var chk_nm2 = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"(UA 62) 항공안전기술원(인천 드론비행시험센터) ☎ 032-567-5748";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm2;
+					}else if (chk_dong == '고아읍') {//고아읍 문구추가 2025-12-17 yhseo
+						var chk_nm = "<br/><br/>"+"※ 구미시 고아읍 일대에는 촬영 금지시설이 위치해있어, 해당 시설이 촬영될 경우 관련 법규에 따라 처벌을 받을 수 있습니다." +
+								"<br/>드론 비행 전 촬영 금지시설로 전화(054-482-5166) 하여 안내를 받으시기 바랍니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}else if (chk_dong == '흥해읍') {//흥해읍 문구추가 2026-04-15
+						var chk_nm = "<br/><br/>"+"※ 포항시 흥해읍 일대에는 촬영 금지시설(국가 중요 시설)이 위치해 있어, 해당 시설이 촬영될 경우 관련 법규에 따라 처벌받을 수 있습니다." +
+								"<br/>흥해읍 일대 드론 촬영 시 사전에 국가 중요 시설로 전화(054-245-7617) 하여 안내를 받으시기 바랍니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}else if (str.indexOf('lt_c_aisdronezone.7')>0) {// 화성 드론비행시험센터 문구추가 2026-05-18 yhseo
+						var chk_nm = "<br/><br/>"+"※ 해당 공역 내 비행 계획이 있을 경우 반드시 사전에 항공안전기술원 드론 비행시험센터로 온라인 신청 및 협의 하시길 바랍니다. 항공안전기술원(화성 드론비행시험센터) ☎ 031-356-5520(5524)";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+						var chk_nm2 = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"항공안전기술원(화성 드론비행시험센터) ☎ 031-356-5520(5524)";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm2;
+					}else if (str.indexOf('lt_c_aisuac.44')>0) {// 항공안전기술원 관련 문구추가 2026-05-28 yhseo
+						var chk_nm = "<br/><br/>"+"※ (UA 59) 해당 공역 내 비행 계획이 있을 경우 반드시 사전에 항공안전기술원 드론비행시험센터로 온라인 신청 및 협의하시기 바랍니다. 항공안전기술원(고성 드론비행시험센터) ☎ 055-673-5748";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+						var chk_nm2 = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"항공안전기술원(고성 드론비행시험센터) ☎ 055-673-5748";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm2;
+					}else if (str.indexOf('lt_c_aisuac.45')>0) {
+						var chk_nm = "<br/><br/>"+"※ (UA 60) 해당 공역 내 비행 계획이 있을 경우 반드시 사전에 항공안전기술원 드론비행시험센터로 온라인 신청 및 협의하시기 바랍니다. 항공안전기술원(영월 드론비행시험센터) ☎ 033-375-5747(5748)";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+						var chk_nm2 = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"항공안전기술원(영월 드론비행시험센터) ☎ 033-375-5747(5748)";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm2;
+					}else if (str.indexOf('lt_c_aisuac.46')>0) {
+						var chk_nm = "<br/><br/>"+"※ (UA 61) 해당 공역 내 비행 계획이 있을 경우 반드시 사전에 항공안전기술원 드론비행시험센터로 온라인 신청 및 협의하시기 바랍니다. 항공안전기술원(보은 드론비행시험센터) ☎ 043-543-5747";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+						var chk_nm2 = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"항공안전기술원(보은 드론비행시험센터) ☎ 043-543-5747";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm2;
+					}else if (str.indexOf('lt_c_aisdronezone.6')>0) {
+						var chk_nm = "<br/><br/>"+"※ 해당 공역 내 비행 계획이 있을 경우 반드시 사전에 항공안전기술원 드론비행시험센터로 온라인 신청 및 협의하시기 바랍니다. 항공안전기술원(의성 드론비행시험센터) ☎ 054-832-5748(1689)";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+						var chk_nm2 = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"항공안전기술원(의성 드론비행시험센터) ☎ 054-832-5748(1689)";
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm2;
+					}
+							// else if (chk_dong == 'UA19') {//UA19 문구추가 2026-01-14 yhseo
+							// 	var chk_nm = "<br/><br/>"+"※ (UA 19) 해당 공역 내 비행 계획이 있을 경우 반드시 사전에 항공안전기술원 드론비행시험센터 온라인 신청 및 협의하시기 바랍니다. 항공안전기술원(화성 드론비행시험센터) ☎ 031-356-5520 / 031-356-5524";
+							// 	document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+							// 	var chk_nm2 = document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML+"<br/>"+"(UA 19) 항공안전기술원(화성 드론비행시험센터) ☎ 031-356-5520 / 031-356-5524";
+							// 	document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = chk_nm2;
+					// }
+					else if (chk_dong == '속달동') { // 속달동 문구추가 2026-06-08 yhseo
+						var chk_nm = "<br/><br/>"+"※ 군포시 속달동 일대에는 촬영 금지시설(국가 중요 시설)이 위치해 있어, 해당 시설이 촬영될 경우 관련 법규에 따라 처벌받을 수 있습니다." +
+								"<br/>드론 비행 전 사전에 촬영 금지시설로 전화(070-7790-1310) 하여 안내를 받으시기 바랍니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}
+					else if (chk_dong == '용문산') { // 용문산 문구추가 2026-06-30 yhseo
+						var chk_nm = "<br/><br/>"+"※ 경기도 양평군 용문산 정상 일대에 촬영 금지시설(국가 중요 시설)이 위치하고 있습니다." +
+								"<br/>해당 시설이 촬영될 경우 관련 법규에 따라 처벌받을 수 있으니, 드론 비행 전 촬영 금지시설 협조를 위해 전화(070-7790-1210) 하여 안내를 받으시기 바랍니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}
+					else if (chk_dong == '북면') { // 가평군 북면(화악리) 비고란 문구 추가 2026-07-02 yhseo
+						var chk_nm = "<br/><br/>"+"※ 가평군 화악리 산 228 일대에는 촬영 금지시설(국가 중요 시설)이 위치해 있습니다." +
+								"<br/>해당 시설이 촬영될 경우 관련 법규에 따라 처벌받을 수 있으니, 드론 비행 전 촬영 금지시설 협조를 위해 전화(070-7790-1510) 하여 안내를 받으시기 바랍니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}
+					else if (chk_dong == '옥천면') { // 옥천면 용천리 관련 문구 추가(상기 용문산과 지역이 겹쳐서 따로 문구를 추가 수정함) 2026-07-03 yhseo
+						var chk_nm = "<br/><br/>"+"※ 경기도 양평군 용문산 정상 및 옥천면 용천리 일대 에는 촬영 금지시설(국가 중요 시설)이 위치해 있습니다." +
+								"<br/>해당 시설이 촬영될 경우 관련 법규에 따라 처벌받을 수 있으니, 드론 비행 전 촬영 금지시설 협조를 위해 전화(070-7790-1210) 하여 안내를 받으시기 바랍니다.";
+						document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+					}
+					else {
+						var chk_nm = "";
+					}
+					document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = "※ 사유지, 해수욕장, 국립공원, 문화재, 청와대, 교도소, 군부대, 국가중요시설, 항만 등은 해당지역의 소유자 및 관리사무소가 있을 경우 반드시 사전에 협의하시기 바랍니다."
+							+chk_nm;
+
+					// 항만구역 비고란 안내 추가
+					if (portFeatures && portFeatures.length > 0) {
+						var portNotice = "<br/><br/>"
+								+ "※ 항만시설 안내는 참고용 정보이며, 관련 법령·제도 및 운영 상황에 따라 변경될 수 있습니다. "
+								+ "정확한 사항은 관계 법령 및 소관 기관의 공식 안내를 확인하시기 바랍니다.";
+
+						$("#PLAN_AREA_ADDR_ID_ETC_POPUP").append(
+								$("<span>").addClass("port-notice").html(portNotice)
+						);
+					}
+
+					// 항만 담당기관 정보 갱신
+					updatePortInfo();
+
+					//resultValue(data.totalFeatures)
+					setTimeout(function() { addMarker(); }, 185)
+				},
+				error: function (e) {
+					//let str = JSON.stringify(e); // params: 파라미터 확인하는것~
+					//console.log('checkFlightLayer2-2-'+str);
+					console.error(e)
+					alert("문제가 발생했습니다. 다시 지도를 클릭해주세요.")
+				}
+			})
+		}
+
+		function resultValue(result){
+			// let str = JSON.stringify(result[0]); // params: 파라미터 확인하는것~
+			// console.log('resultValue-2-'+str);
+
+			ajaxResult.push(result)
+		}
+
+		// 마커 등록
+		function addMarker() {
+			//console.log('addMarker-0-'+longitude+"/"+latitude);
+			var coordinates = ol.proj.transform([longitude, latitude], 'EPSG:4326', 'EPSG:3857')
+			var result = false;
+
+			var feature = new ol.Feature({
+				geometry: new ol.geom.Point(coordinates),
+				name: 'map_marker'
+			});
+//console.log('addMarker-0-'+longitude+"/"+latitude+"/"+coordinates);
+			if (popupEl) {
+				popupEl.removeEventListener("click", markerClickHandler);
+			}
+
+			clickMarker.getSource().clear();
+			clickMarker.getSource().addFeature(feature);
+
+			// const pos = ol.fromLonLat([longitude, latitude]);
+			var el = document.getElementById('popup')
+
+			popup = new ol.Overlay({
+				element: el
+			});
+
+			vmap.addOverlay(popup)
+
+			const marker = new ol.Overlay({
+				position: coordinates,
+				positioning: 'bottom-center',
+				element: document.getElementById('marker'),
+				stopEvent: false,
+			});
+			vmap.addOverlay(marker)
+
+			const element = popup.getElement();
+
+			$(element).popover('dispose');
+			popup.setPosition(coordinates);
+
+
+			//let str = JSON.stringify($(element)); // params: 파라미터 확인하는것~
+			//console.log('addMarker-' + str);
+
+			/*
+				addMarker-[1,0] : 관제권
+				addMarker-[0,1] : 비행금지구역
+				addMarker-[1,1] : 경계구역, 비행금지구역
+				addMarker-[1,1] : 관제권, 비행금지구역
+
+			 */
+
+			for (var i = 0; i < ajaxResult.length; i++) {
+				if (ajaxResult[i] == 0) {
+					//console.log('true - 비행가능-'+i+"/"+ajaxResult[i] );
+					result = true
+				} else {
+					//console.log('false - 비행불가능')
+					//console.log('false - 비행불가능-'+i+"/"+ajaxResult[i]);
+					result = false
+					break;
+				}
+			}
+
+			if (_address == '' || _address == undefined) {
+				//console.log("check _address - ", _address)
+				result = false
+			}
+
+			// 임시비행금지구역 설정 2023-07-31
+			/*
+			if(imsi_not_flight == '1'){
+				result = false
+			}
+			 */
+			//imsi_not_flight = result;
+			//console.log("popup-"+imsi_not_flight);
+			//alert("aaa-"+document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML);
+
+			// 주소 검색이 안될시 주소검색 필요 띄우기 2023-10-26
+			let popupBox ="";
+			if (document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML == "주소가 검색되지 않았습니다.")
+			{
+				popupBox = '<span><br>' + flightDesc.NOADDR + '</span>'
+				//alert("y-"+popupBox);
+
+			}else {
+				// 문화재보호도, 국립자연공원 별도 표기 2024-12-11
+
+
+				// 전체 레이어 값
+				let allLayers = layerid;
+
+				// 제외할 레이어
+				let excludedLayers = ['lt_c_uo301', 'lt_c_wgisnpgug', 'lt_c_aisdronezone', 'lt_c_aisuac'];
+
+				// '.' 이전의 값만 추출하고 중복 제거
+				let uniqueLayerIds = [...new Set(chk_layerid.map(layer => layer.split('.')[0]))];
+
+				// allLayers에서 유효한 레이어 확인
+				let isValidLayer = uniqueLayerIds.every(layer =>
+						allLayers.map(item => item.toLowerCase()).includes(layer)
+				);
+
+				// excludedLayers 외 다른 레이어가 포함되어 있는지 확인
+				let hasOtherLayers = uniqueLayerIds.some(layer => !excludedLayers.includes(layer));
+
+				// 최종 result 계산
+				let result = isValidLayer
+						? hasOtherLayers // excludedLayers 외 다른 레이어가 있다면 true
+						: true; // allLayers에 없는 레이어가 포함된 경우 result는 true
+
+
+
+
+				let str1 = JSON.stringify(chk_layerid); // params: 파라미터 확인하는것~
+				//console.log('비행승인-initPilot-'+chk_layerid.length+"/"+str1);
+
+				// 부산 위험지역 승인불필요 레이어 2025-11-19
+				let exLayers = ['lt_c_aisdngc.17', 'lt_c_aisdngc.29','lt_c_aisdngc.30','lt_c_aisdngc.31','lt_c_aisdngc.32','lt_c_aisdngc.33'];
+
+				// 항만비행금지구역 여부 2026-10-21
+				let isPortLayer = chk_layerid.some(function(layer) {
+					return layer.toLowerCase().startsWith('lt_c_aisport.');
+				});
+
+				if (!result && uniqueLayerIds.some(layer => layer.startsWith('lt_c_uo301'))) {
+					lay_str= '(문화재보호도)';
+				} else if (!result &&  uniqueLayerIds.some(layer => layer.startsWith('lt_c_wgisnpgug'))) {
+					lay_str= '(국립자연공원)';
+				} else if (!result && uniqueLayerIds.some(layer => layer.startsWith('lt_c_aisdronezone'))) {
+					lay_str= '(드론시범사업구역)';
+				} else {
+					lay_str='';
+				}
+
+				for (let layer of exLayers) {
+					if (str1.includes(layer)) {
+						result = false;
+						lay_str = '(부산위험지역)';
+						//alert('str= ' + str1);
+						break;
+					}
+				}
+
+
+				//console.log("addmarker-"+uniqueLayerIds+"/"+lay_str);
+
+				if (isPortLayer) {
+					result = true;
+				}
+
+				popupBox =
+						'<span>' + (!result ? flightZone.PUBLIC : flightZone.ANOTHER) + '</span>' +
+						'<span>' + (!result ? flightDesc.PUBLIC : flightDesc.ANOTHER) + '</span>' +
+						'<span>' + (!result ? flightDesc2.PUBLIC : flightDesc2.ANOTHER) + '</span>' +
+						'<span>' + lay_str + '</span>' +
+						(isPortLayer ? '<span class="port-marker-label">(항만)</span>' : '');
+
+
+				//alert("N-"+popupBox);
+			}
+
+			// 마커위에 뜨는 조그만한 팝업창임
+			$(element).popover({
+				container: element,
+				placement: 'top',
+				animation: false,
+				html: true,
+				content: popupBox
+			});
+			//console.log(element);
+			$(element).popover('show');
+
+			popupEl = document.querySelector('.popover')
+			//console.log(popupEl);
+
+			if (popupEl){
+				popupEl.addEventListener("click", markerClickHandler);
+			}
+		}
+
+		function markerClickHandler(e){
+			//console.log('markerClickHandler-0-'+e);
+			showPopup()
+		}
+
+		// 마커 비활성화
+		function hidePopup(e){
+			//console.log('hidePopup-0-');
+			var divDesc = document.getElementById('map-description')
+			divDesc.style.opacity = '0'
+			divDesc.style.zIndex = '0'
+
+		}
+
+		// 팝업 설정
+		function showPopup(){
+			var result = false;
+			//console.log('showPopup-0-');
+			// 하나라도 true면 비행가능
+
+			for (var i = 0; i < ajaxResult.length; i++){
+				//console.log('showPopup-'+ajaxResult[i])
+				if ( ajaxResult[i] == 0 ) {
+					result = true
+				}else {
+					result = false
+					break;
+				}
+			}
+
+			var divDesc = document.getElementById('map-description')
+			var popupAddressEL = document.getElementById('map-description-address')
+			var popupMainTitleEl =  document.getElementById('map-description-maintitle')
+			var popupDescEl = document.getElementById('map-description-sub-description')
+
+			// chk_area = A20T 가져오기 OK
+			//console.log('showPopup-'+chk_area+"/"+divDesc+"/"+popupAddressEL+"/"+popupMainTitleEl+"/"+popupDescEl);
+			//console.log('showPopup-'+lay_str);
+
+			divDesc.style.opacity = '1'
+			divDesc.style.zIndex = '9999'
+
+
+			if ( result ) {
+				//console.log("showPopup-Y-"+lay_str);
+				popupMainTitleEl.innerText = popupTitle.PUBLIC
+				popupMainTitleEl.style.color = "blue"
+				popupDescEl.innerText = popupDesc.PUBLIC
+			}else {
+
+				if (lay_str !== null && lay_str !== "" && lay_str !== "(부산위험지역)" && lay_str !== "(드론시범사업구역)") {
+					//console.log("showPopup-N1-"+lay_str);
+					popupMainTitleEl.innerText = popupTitle.PUBLIC
+					popupMainTitleEl.style.color = "blue"
+					popupDescEl.innerText = "문화재 또는 국립공원에서의 비행/촬영은 문화유산법 제35조, 자연공원법 제29조에 따라 담당부서, 기관 등과 사전 협의가 필요합니다."
+				}else if (lay_str !== null  && lay_str !== "" && (lay_str == "(부산위험지역)" || lay_str == "(드론시범사업구역)")){
+					//lay_str = "";
+					popupMainTitleEl.innerText = popupTitle.PUBLIC
+					popupMainTitleEl.style.color = "blue"
+					popupDescEl.innerText ="주간에 고도 150m 미만, 최대이륙중량 25kg 이하의 무인동력비행장치는 비행승인 없이 비행이 가능합니다."
+				}else {
+					//console.log("showPopup-N2-"+lay_str);
+					popupMainTitleEl.innerText = popupTitle.ANOTHER
+					popupMainTitleEl.style.color = "red"
+					popupDescEl.innerText = popupDesc.ANOTHER
+				}
+			}
+			// 주소 검색이 안될시 주소검색 필요 띠우기 2023-10-26
+			if (!_address) {
+				popupMainTitleEl.innerText = popupTitle.NOADDR
+				popupMainTitleEl.style.color = "#00B050"
+				popupDescEl.innerText = "주소가 검색되지 않아, 비행 가능 여부 확인이 불가능합니다. 주변지역을 선택하신 후 해당 지역의 담당자에게 비행 가능 여부를 확인해주세요."
+				popupAddressEL.innerText = '주소: 대한민국'
+			}else {
+				// 주소 검색이 안될시 주소검색 필요 띠우기 2023-10-26
+				if (!_address) {
+					popupMainTitleEl.innerText = popupTitle.NOADDR
+					popupMainTitleEl.style.color = "green"
+					popupDescEl.innerText = "주소가 검색되지 않아, 비행 가능 여부 확인이 불가능합니다. 주변지역을 선택하신 후 해당 지역의 담당자에게 비행 가능 여부를 확인해주세요."
+					popupAddressEL.innerText = '주소: 대한민국'
+				}else {
+					//console.log('showPopup-1-'+chk_area);
+					/*
+                    var chk_nm =""; // A20T, A19T 구역별 메시지 설정 2024-06-13
+                    if (chk_area =='A20T'){
+                        //console.log('showPopup-2-'+chk_area);
+                        chk_nm = "※ A20T – 군사목적의 헬기 등 항공기 운항이 빈번하므로 주의 필요";
+                        //document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm ;
+                    }else if (chk_area == 'A19T') {
+                        //console.log('showPopup-3-'+chk_area);
+                        chk_nm = "※ A19T – 군사목적의 헬기 등 항공기 운항이 빈번하므로 주의 필요";
+                        //document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+                    }
+
+                     */
+					//console.log('showPopup-4-'+chk_nm);
+					//popupAddressEL.innerText = '주소: ' + _address + chk_nm ;
+					popupAddressEL.innerText = '주소: ' + _address ;
+				}
+				/*
+                                    if (str.indexOf('A20T')>0){
+                                        chk_area = "A20T";
+                                        var chk_nm = "<br/>"+"※ A20T – 군사목적의 헬기 등 항공기 운항이 빈번하므로 주의 필요";
+                                        //document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm ;
+                                    }else if (str.indexOf('A19T')>0) {
+                                        chk_area = "A19T";
+                                        var chk_nm = "<br/>" + "※ A19T – 군사목적의 헬기 등 항공기 운항이 빈번하므로 주의 필요";
+                                        //document.querySelector("#PLAN_AREA_ADDR_ID_ETC_POPUP").innerHTML = chk_nm;
+                                    }
+
+                                        popupAddressEL.innerText = '주소: ' + _address
+                */
+			}
+		}
+
+
+
+		// 주소 콜백
+		function callback(FULLADDR, ADDRTYPE) {
+			//console.log('callback-'+FULLADDR+'/'+ADDRTYPE);
+			vmap.getLayers().forEach(function(layer){
+				if(layer.get("id")=="LT_C_ADEMD"){
+					if(!isEmpty(FULLADDR)) {
+						markerLayer.getSource().clear();
+
+						getAddrToCoordinate(FULLADDR, ADDRTYPE);
+					}else {
+						alert("상세지번을 선택 해 주세요.");
+					}
+				}
+			});
+		}
+
+		// New 주소검색
+		function  searchAddressWithPlan(type){
+			//console.log('searchAddressWithPlan-0-');
+			let parent = document.querySelector('#plan-pop-base');
+			let flag = document.querySelector('#plan-pop-base > .flightplan')
+			let div = document.createElement("div")
+			div.id = 'addressSearchPopup'
+			parent.insertBefore(div, flag)
+
+
+			$.ajax({
+				type: "get",
+				url: "/juso/popupJusoModList?type=" + type,
+				dataType: "html",
+				contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+				timeout: 3000,
+				success: function (data, textStatus, jqXHR) {
+					//console.log(data);
+					$("#addressSearchPopup").empty();
+					$("#addressSearchPopup").html(data);
+
+					// window.scrollBy({top: -500, behavior: 'smooth'})
+				},
+				error: function (e) {
+					console.error(e)
+					alert("주소를 도로명 주소로 입력해주십시오.");
+				}
+			})
+		}
+
+		// GPS
+		function getGPS(opt) {
+			opt = opt || {};
+			var delay     = (opt.delay !== undefined) ? opt.delay : 3000; // 기본: 기존 동작 유지
+			var showAlert = !!opt.showAlert;                              // 버튼 클릭 시에만 알림
+
+			var options = {
+				enableHighAccuracy: true,
+				timeout: 10000,
+				maximumAge: 100
+			};
+
+			// GPS 순서 변경 2026-05-18 yhseo
+			function success(position) {
+				if (popup != null) {
+					const element = popup.getElement();
+					$(element).popover('dispose');
+				}
+
+				latitude  = position.coords.latitude;
+				longitude = position.coords.longitude;
+
+				var coordinate = ol.proj.transform([longitude, latitude], 'EPSG:4326', 'EPSG:3857');
+
+				if (vmap != null) {
+					vmap.getView().setCenter(ol.proj.fromLonLat([longitude * 1, latitude * 1]));
+					vmap.getView().setZoom(13);
+				}
+
+				setTimeout(function () {
+					bbox = getPixelToBBOX();
+					singleClickEvent(coordinate, null);
+				}, 300);
+			}
+
+			function error(err) {
+				console.error("getGPS() error", err.code, err.message);
+				if (!showAlert) return;
+
+				if (err.code === err.PERMISSION_DENIED) {
+					alert("GPS 권한이 없습니다. 단말기 설정을 확인해주세요.");
+				} else if (err.code === err.POSITION_UNAVAILABLE) {
+					alert("현재 위치를 확인할 수 없습니다. GPS가 켜져 있는지 확인해주세요.");
+				} else if (err.code === err.TIMEOUT) {
+					alert("위치 확인 시간이 초과되었습니다. 다시 시도해주세요.");
+				} else {
+					alert("GPS 동작이 되지 않습니다. 시스템 관리자에게 문의해주세요.");
+				}
+			}
+
+			if (!navigator.geolocation) {
+				console.error('Geolocation is not supported by your browser');
+				if (showAlert) alert("GPS 동작이 되지 않습니다. 시스템 관리자에게 문의해주세요.");
+				return;
+			}
+
+			setTimeout(function () {
+				navigator.geolocation.getCurrentPosition(success, error, options);
+			}, delay);
+		}
+
+
+		function initEvents() {
+			//console.log('initEvents-0-');
+			var close = document.querySelector('#map-description-close')
+			close.addEventListener("click", hidePopup)
+
+			$("#GPS_btn").click(function () {
+				getGPS({ delay: 0, showAlert: true });   // 버튼: 즉시 실행 + 실패 시 안내
+			});
+
+			if (isMobile.any()){
+				getGPS();
+
+				$("#GPS_btn").show()
+			}else {
+				$("#GPS_btn").hide()
+			}
+
+			// 범례체크박스
+			$('input[name="ltc"]').change(function() {
+				var value = $(this).attr('id');
+				var checked = $(this).prop('checked');
+				var $label = $(this).next();            // find a label element
+
+				var findLayer;
+				vmap.getLayers().forEach(function (layer, i) {
+					if (layer.get("id") === value.toUpperCase()) {
+						if(checked) {
+							layer.setVisible(true);
+						} else {
+							layer.setVisible(false);
+						}
+					}
+				});
+			});
+
+
+
+			$('#legendDiv').click(function() {
+				$('#legend').toggle();
+			});
+
+			$("#notam_check_btn").on("click", function () {
+				//alert("a");
+				if (notamLayer.getSource().getFeatures().length > 0) {
+					notamLayer.getSource().clear();
+					$(this).removeClass("btn-danger").addClass("btn-info");
+					//$(this).text("NOTAM 확인");
+					$(this).html("NOTAM확인");
+					return;
+				}
+
+				// 부모 페이지에서 날짜 가져오기
+				const $parent = $(window.parent.document);
+				const bgngYmd = "";//$parent.find("#PLAN_START_YMD").val();
+				const endYmd  = "";//$parent.find("#PLAN_END_YMD").val();
+
+				// 팝업 내 좌표/반경 확인
+				const lot    = $("#PLAN_GIS_X_POPUP").val();
+				const lat    = $("#PLAN_GIS_Y_POPUP").val();
+				const radius = $("#PLAN_RADIUS_POPUP").val();
+				/*
+                        console.log("=== NOTAM 조회 파라미터 확인 ===");
+                        console.log("시작일(부모):", bgngYmd);
+                        console.log("종료일(부모):", endYmd);
+                        console.log("위도:", lot);
+                        console.log("경도:", lat);
+                        console.log("반경:", radius);
+
+                 */
+/*
+				if (!bgngYmd || !endYmd) {
+					alert("비행 시작일/종료일을 입력해주세요.");
+					return;
+				}
+ */
+
+				$.ajax({
+					url: "/civilaffairs/affairs/notam_qual_yn",  // Controller URL 확인 필요
+					type: "POST",
+					dataType: "json",
+
+					data: {
+						bgng_ymd : bgngYmd,
+						end_ymd  : endYmd,
+						lot      : lot,
+						lat      : lat,
+						radius   : radius,
+						qcode    : ""
+					},
+
+					beforeSend: function (xhr) {
+						xhr.overrideMimeType("application/json; charset=utf-8");
+					},
+
+					success: function (res) {
+						// console.log("NOTAM 조회 결과", res);
+
+						if (!res || !res.head || res.head.code !== "000") {
+							alert("유효한 NOTAM 정보가 없습니다.");
+							return;
+						}
+
+						const list = Array.isArray(res.data) ? res.data : [];
+
+						if (list.length === 0) {
+							alert("해당 기간/구역의 NOTAM 정보가 없습니다.");
+							return;
+						}
+
+						// 지도에 원 그리기
+						//console.log("2. drawNotamCircles 호출 전 - 레이어 수:", vmap.getLayers().getLength());
+						drawNotamCircles(list);
+
+						$("#notam_check_btn")
+								.removeClass("btn-info")
+								.addClass("btn-danger")
+								.html("NOTAM취소");
+								//.html("NOTAM 취소 (" + list.length + "건)");
+
+						//console.log("3. drawNotamCircles 호출 후 - 레이어 수:", vmap.getLayers().getLength());
+
+						let message = "✔ [항공고시보 정보] " + list.length + "건\n\n";
+
+						list.forEach(function(item, idx) {
+							message += "── " + (idx + 1) + "번째 ──\n";
+							message += "QCODE : "    + (item.qcode    || "-") + "\n";
+							message += "Notam No. : "+ (item.notam_no || "-") + "\n";
+							message += "시작일시 : " + (item.bgng_dt  || "-") + "\n";
+							message += "종료일시 : " + (item.end_dt   || "-") + "\n";
+							message += "위도 : "     + (item.lot      || "-") + "\n";
+							message += "경도 : "     + (item.lat      || "-") + "\n";
+							message += "반경 : "     + (item.radius   || "-") + " m\n";
+							message += "FULL TEXT : "+ (item.full_text|| "-") + "\n\n";
+						});
+
+						//console.log("NOTAM- "+message);
+						//alert(message);
+					},
+
+					error: function (xhr, status, error) {
+						console.log("NOTAM 조회 오류:", status, error);
+						alert("조회 중 오류가 발생했습니다.");
+					}
+				});
+			})
+
+		}
+
+
+
+		function initOLMap() {
+			var vectorStyle = function(feature) {
+				var style = new ol.style.Style({
+					stroke: new ol.style.Stroke({
+						//color: [159, 169, 190, 5], //행정구역 경계선 색상변경 2025-11-24 yhseo 회색
+						color: [227,106,41, 5], //행정구역 경계선 색상변경 2025-11-24 yhseo
+						width: 2
+					}),
+					fill: new ol.style.Fill({
+						//  color: [250,248,244, .5]
+						color: [250,248,244, .2]  // 지도 뒷배경이 흐려서 밝게 변경 2023-07-28
+					})
+				});
+				return [style];
+			};
+
+			var p = new ol.proj.Projection({
+				code: 'EPSG:3857',
+				units: 'm'
+			});
+
+			vmap = new ol.Map({
+				target: 'map',
+				layers: [
+					new ol.layer.Tile({
+						title: "VWorld Map",
+						baseLayer: true,
+						source: new ol.source.XYZ({
+							url: 'https://api.vworld.kr/req/wmts/1.0.0/'+ vworldKey +'/Base/{z}/{y}/{x}.png'
+						})
+					}),
+					new ol.layer.Tile({
+						title: "VWorld Map Satellite",
+						baseLayer: true,
+						visible: false,
+						source: new ol.source.XYZ({
+							url: 'https://api.vworld.kr/req/wmts/1.0.0/'+ vworldKey +'/Satellite/{z}/{y}/{x}.jpeg'
+						})
+					})
+				],
+				view: new ol.View({
+					center: ol.proj.fromLonLat([127.263806,36.505047]),
+					zoom: 7,
+					minZoom : 7,
+					maxZoom : 18
+				}),
+				controls: ol.control.defaults().extend([new ol.control.LayerPopup()])
+			});
+
+			clickMarker = new ol.layer.Vector({
+				id: "clickMarkerLayer",
+				displayInLayerSwitcher: false,
+				source: new ol.source.Vector({
+					projection: p,
+				}),
+				style:[new ol.style.Style({
+					image: new ol.style.Icon(/** @type {olx.style.IconOptions} */({
+						scale: 0.8,
+						src: 'https://map.vworld.kr/images/ol3/marker_blue.png'
+						//src: '/resources/img/sub/marker.png'
+					}))
+				})
+				]
+			});
+			clickMarker.setZIndex(2)
+
+			/*
+            // 기존
+            vmap = new ol.Map({
+                target: 'map',
+                layers: [
+                    new ol.layer.Tile({
+                        source: new ol.source.XYZ({
+                            url: 'https://api.vworld.kr/req/wmts/1.0.0/1E667B74-AF88-3086-AE3E-BAE3FF8AE1DF/Base/{z}/{y}/{x}.png'
+                        })
+                    })
+                ],
+                view: new ol.View({
+                    center: ol.proj.fromLonLat([127.263806,36.505047]),
+                    zoom: 7,
+                    minZoom : 7,
+                    maxZoom : 18
+                })
+            });
+             */
+
+			//브이월드 공역 불러오기
+			layerid.forEach(function(element){
+				var layer_tile = new ol.layer.Tile({
+					id: element,
+					name: "wms_theme", //vmap 올린 레이어를 삭제하거나 수정,변경할때 접근할 name 속성
+					// projection: vmap.getView().getProjection().getCode(),
+					projection: p, // 변경
+					displayInLayerSwitcher: false, // 추가
+					// extent: vmap.getView().getProjection().getExtent(), //[-20037508.34, -20037508.34, 20037508.34, 20037508.34]
+					// tilePixelRatio: 1,
+					// tileSize: [512, 512],
+					source: new ol.source.TileWMS({
+						url: "https://api.vworld.kr/req/wms?",
+						params: {
+							LAYERS: element.toLowerCase(),
+							STYLES: element.toLowerCase(),
+							CRS: vmap.getView().getProjection().getCode(),
+							apikey: vworldKey,
+							DOMAIN:"https://loacalhost",
+							FORMAT: "image/png",
+							WIDTH:512,
+							HEIGHT:512,
+							server:"dev"
+						}
+					})
+				});
+				layer_tile.setVisible(true);
+				vmap.addLayer(layer_tile);
+			});
+
+			markerLayer = new ol.layer.Vector({
+				id: "markerLayer",
+				displayInLayerSwitcher: false,
+				source: new ol.source.Vector({
+					projection: p,
+				}),
+				style:[new ol.style.Style({
+					image: new ol.style.Icon(/** @type {olx.style.IconOptions} */({
+						src: '/resources/img/sub/marker.png'
+					}))
+				})
+				]
+			});
+
+			//source 원 반경 레이어
+			srcLocLayer = new ol.layer.Vector({
+				id: "srcLocLayer",
+				displayInLayerSwitcher: false,
+				source: new ol.source.Vector({
+					projection: p,
+				}),
+				style:[new ol.style.Style({
+					stroke: new ol.style.Stroke({
+						color: 'blue',
+						width: 3
+					}),
+					fill: new ol.style.Fill({
+						color: 'rgba(0, 0, 255, 0.1)'
+					})
+				})
+				]
+			});
+
+			// NOTAM 원 반경 레이어
+			notamLayer = new ol.layer.Vector({
+				id: "notamLayer",
+				displayInLayerSwitcher: false,
+				source: new ol.source.Vector(),
+				style: new ol.style.Style({
+					stroke: new ol.style.Stroke({
+						color: 'rgba(255, 0, 0, 0.8)',   // 빨간 테두리
+						width: 2
+					}),
+					fill: new ol.style.Fill({
+						color: 'rgba(255, 0, 0, 0.15)'   // 반투명 빨간 채우기
+					})
+				}),
+				zIndex: 10   // ← 추가
+			});
+
+			vmap.addLayer(notamLayer);
+
+			//임시 원 반경 레이어
+			tempLocLayer = new ol.layer.Vector({
+				id: "tempLocLayer",
+				displayInLayerSwitcher: false,
+				source: new ol.source.Vector({
+					projection: p,
+				}),
+				style:[new ol.style.Style({
+					stroke: new ol.style.Stroke({
+						color: 'red',
+						width: 3
+					}),
+					fill: new ol.style.Fill({
+						color: 'rgba(0, 0, 255, 0.1)'
+					})
+				})
+				]
+			});
+
+			//읍면동 레이어
+			srcEmdLayer = new ol.layer.Vector({
+				id: "srcEmdLayer",
+				displayInLayerSwitcher: false,
+				source: new ol.source.Vector(),
+				style: vectorStyle
+			});
+
+			//tempEmdvectorLayer = new ol.layer.Vector({
+			tempEmdLayer = new ol.layer.Vector({
+				id: "tempEmdLayer",
+				displayInLayerSwitcher: false,
+				source: new ol.source.Vector(),
+				style: vectorStyle
+			});
+
+			vmap.on('singleclick', function(evt) {
+				markerLayer.getSource().clear();
+				//alert("12");
+				singleClickEvent(evt.coordinate, evt);
+				//alert("13");
+			});
+
+			vmap.addLayer(srcLocLayer);
+			vmap.addLayer(tempLocLayer);
+			vmap.addLayer(markerLayer);
+			vmap.addLayer(srcEmdLayer);
+			vmap.addLayer(tempEmdLayer);
+			vmap.addLayer(clickMarker)
+
+		}
+
+		function drawNotamCircles(notamList) {
+
+			notamLayer.getSource().clear();
+
+			if (!notamList || notamList.length === 0) return;
+
+			notamList.forEach(function(item) {
+
+				const lon    = parseFloat(item.lot);   // lot = 경도 (127.x)
+				const lat    = parseFloat(item.lat);   // lat = 위도  (36.x ~ 38.x)
+				const radius = parseFloat(item.radius);
+
+				//console.log("NOTAM 원 그리기:", item.notam_no, "lon:", lon, "lat:", lat, "radius:", radius);
+
+				if (isNaN(lon) || isNaN(lat) || isNaN(radius)) {
+					console.warn("좌표/반경 파싱 실패:", item);
+					return;
+				}
+
+				const center = ol.proj.fromLonLat([lon, lat]);
+				const circle = new ol.geom.Circle(center, radius);
+
+				const feature = new ol.Feature({
+					geometry : circle,
+					notam_no : item.notam_no  || "",
+					qcode    : item.qcode     || "",
+					bgng_dt  : item.bgng_dt   || "",
+					end_dt   : item.end_dt    || "",
+					full_text: item.full_text || ""
+				});
+
+				notamLayer.getSource().addFeature(feature);
+			});
+			// 추가
+			/*
+            console.log("notamLayer feature 수:", notamLayer.getSource().getFeatures().length);
+            console.log("notamLayer visible:", notamLayer.getVisible());
+            console.log("notamLayer zIndex:", notamLayer.getZIndex());
+
+             */
+		}
+
+		function singleClickEvent(coordinate, evt) {
+			//let str2 = JSON.stringify(evt); // params: 파라미터 확인하는것~
+			//console.log('singleClickEvent-0-'+coordinate+"/"+evt);
+			//console.log(evt);
+
+			//alert("21");
+			hidePopup()
+			portFeatures = [];
+			$("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP .port-info").remove();
+
+
+			var unTrans = ol.proj.transform(coordinate,'EPSG:3857', 'EPSG:4326')
+			longitude = unTrans[0]
+			latitude = unTrans[1]
+
+			//console.log('singleClickEvent-1-'+latitude+','+longitude) //2022-04-22
+
+			if ( evt != null ){
+				bbox = pixelToBBOX(evt.pixel[0], evt.pixel[1], vmap)
+				//console.log('singleClickEvent-2-'+evt.pixel[0]+','+evt.pixel[1]) //2022-04-22
+			}
+
+			if(true) {
+				var realRadius;
+				var features = new Array();
+
+				// 비행가능 여부 확인
+				//lt_c_aisdngc:위험지역 추가 2022-07-26
+				//LT_C_AISOBLS:장애물공역 추가 2022-10-07
+				//LT_C_AISPCA:사전협의구역 추가 2022-11-03
+
+
+				// 리턴값 있게 비행불가 확인
+				//                관제권,   비행장교통구역, 경량항공기 이착륙장, 위험지역, 장애물공역,  사전협의구역
+				//checkFlightLayer('lt_c_aisctrc,lt_c_aisatzc,lt_c_aisfldc,lt_c_aistemp','lt_c_aisdngc','lt_c_aisobls','lt_c_aispca') // 콤마주의
+				// 여기에 레이어 추가시 비행승인 필요로 표시됨 2026-05-28
+				//checkFlightLayer('lt_c_aisaltc,lt_c_aisprhc,lt_c_aisresc,lt_c_aisdngc,lt_c_aistemp,lt_c_aisctrc,lt_c_aisatzc,lt_c_aisfldc,lt_c_aisdngc,lt_c_aistemp,lt_c_uo301,lt_c_wgisnpgug,lt_c_aisdronezone','lt_c_aispca')
+				checkFlightLayer('lt_c_aisaltc,lt_c_aisprhc,lt_c_aisresc,lt_c_aisdngc,lt_c_aistemp,lt_c_aisctrc,lt_c_aisatzc,lt_c_aisfldc,lt_c_uo301,lt_c_wgisnpgug,lt_c_aisdronezone,lt_c_aisport','lt_c_aispca')
+
+				// 메인 화면의 경우 default 5
+				oldVal = 5;
+				realRadius = drawMeter(vmap, 5, coordinate);
+
+				//그리기
+
+				vmap.getLayers().forEach(function(layer){
+					if (layer.get('id') == 'tempLocLayer') {
+						//클리어
+						layer.getSource().clear();
+						//추가
+						var feature = new ol.Feature({geometry: new ol.geom.Circle(coordinate, realRadius*1)});
+						layer.getSource().addFeature(feature);
+					}
+				});
+
+				var coor84 = ol.proj.transform(coordinate, "EPSG:3857", "EPSG:4326");
+				$("#PLAN_GIS_POPUP").val(ol.coordinate.toStringHDMS(coor84));
+				$("#PLAN_GIS_X_POPUP").val(coor84[0]);
+				$("#PLAN_GIS_Y_POPUP").val(coor84[1]);
+
+				//반경에 걸친 읍면동 feature취득
+				features = getDongAreaList(coordinate, $("#PLAN_RADIUS_POPUP").val());
+
+				//중심점 주소 취득
+				getAddr(ol.proj.transform(coordinate, "EPSG:3857", "EPSG:4326"));
+				//alert("22");
+			}
+		}
+/* // 사용안해서 삭제 2026-06-08
+		function setLegend() {
+			//console.log('setLegend-0-');
+			layerid.forEach(function(element) {
+				var imgSrc = "https://api.vworld.kr/req/image?key=1E667B74-AF88-3086-AE3E-BAE3FF8AE1DF&service=image&request=GetLegendGraphic&format=png&type=ALL&layer="+element.toLowerCase()+"&style="+element.toLowerCase();
+				$('#wms_image').html("<img src='"+imgSrc+"'>");
+			});
+		}
+*/
+		function ProjToWGS84(coordinate) {
+			//console.log('ProjToWGS84-0-');
+			var source = 'EPSG:3857';
+			var destination = 'EPSG:4326';
+			var value = ol.proj.transform(coordinate, source, destination);
+
+			return value;
+			//return ol.coordinate.format(value, '{y}, {x}', 7);
+			//return ol.proj.fromLonLat(coordinate, destination);
+		}
+
+		function realTimeEvent(param) {
+			//console.log('realTimeEvent-0-');
+			var gisX = $("#PLAN_GIS_X_POPUP").val() * 1;
+			var gisY = $("#PLAN_GIS_Y_POPUP").val() * 1;
+
+			if(!isEmpty(gisX) && !isEmpty(gisY)) {
+
+				var coor = ol.proj.transform([gisX, gisY], "EPSG:4326", "EPSG:3857");
+				var currentVal = $(param).val();
+
+				if(currentVal == oldVal) {
+					//return;
+				} else {
+					$("#PLAN_RADIUS_POPUP").val(currentVal);
+				}
+				/*
+                    // 0인 상태로 신청을 했을 경우 alert 띄워주는 식으로 변경
+                    else if (currentVal * 1 == 0) {
+                        $("#PLAN_RADIUS_POPUP").val(100);
+                    }
+                */
+				features = getDongAreaList(coor, $("#PLAN_RADIUS_POPUP").val());
+
+				//실제 반경으로 수정
+				var realRadius = drawMeter(vmap, $("#PLAN_RADIUS_POPUP").val(), coor);
+
+				vmap.getLayers().forEach(function(layer){
+					if (layer.get('id') === 'tempLocLayer') {
+						layer.getSource().clear();
+						var feature = new ol.Feature({geometry: new ol.geom.Circle(coor, realRadius*1)});
+						layer.getSource().addFeature(feature);
+					}
+				});
+
+			}
+		}
+
+		//원주율 실제거리 계산
+		function drawMeter(map, radius, cood) {
+			//console.log('drawMeter-0-');
+			var view = map.getView(); // 맴객체의 뷰
+			var projection = view.getProjection(); // 프로젝션 정보를 가지고옴 EPGS:3857
+			var resolutionAtEquator = view.getResolution(); //해상도
+			var pointResolution = ol.proj.getPointResolution(projection,resolutionAtEquator, cood); //점포인트의 해상도 Openlayers 4버전??
+
+			var resolutionFactor = resolutionAtEquator/pointResolution;
+			var radius = (radius / ol.proj.Units.METERS_PER_UNIT.m) * resolutionFactor;
+			return radius;
+		}
+
+		//해당 반경내 모든 읍면동코드를 가져옴
+		function getDongAreaList(coordinate, radius) {
+			//console.log('getDongAreaList-0-');
+			var features = new Array();
+			var geomfilter = 'POINT('+coordinate[0]+' '+coordinate[1]+')';
+
+			var paramData = {
+				KEY : vworldKey,
+				DOMAIN : vworldDomain,
+				SERVICE : "DATA",
+				VERSION : "2.0",
+				REQUEST : "getfeature",
+				FORMAT : "json",
+				SIZE : "1000",
+				PAGE : "1",
+				DATA : "LT_C_ADEMD_INFO",
+				GEOMETRY : "true",
+				ATTRIBUTE : "true",
+				CRS : "EPSG:3857",
+				BUFFER : radius,
+				GEOMFILTER : geomfilter,
+			};
+
+			$.ajax({
+				type: "get",
+				url: "https://api.vworld.kr/req/data",
+				data : paramData,
+				dataType: 'jsonp',
+				async: false,
+				success: function(data) {
+					if(!isEmpty(data.response.result)) {
+						// xmin, ymin, xmax, ymax
+						// console.log("getDongAreaList - ", data.response.result.featureCollection.bbox)
+						features = (new ol.format.GeoJSON()).readFeatures(data.response.result.featureCollection)
+
+						 //let str3 = JSON.stringify(data); // addr_id 값
+						 //console.log('getAddr0-'+str3);
+					} else {
+						features = null;
+					}
+
+				},complete: function(){
+					if(!isEmpty(features)) {
+						var radius = drawMeter(vmap, radius, coordinate);
+						vmap.getLayers().forEach(function(layer){
+							if(layer.get("id") === "tempEmdLayer"){
+								layer.getSource().clear();
+								layer.getSource().addFeatures(features);
+								layer.getSource().changed();
+							}
+						});
+
+						var areaAddrIdList = new Array();
+						/*
+                                                getAddr-{"response":{"service":{"name":"DATA","version":"2.0","operation":"getfeature","time":"21(ms)"},"status":"OK",
+                                                        "record":{"total":"1","current":"1"},"page":{"total":"1","current":"1","size":"1000"},
+                                                        "result":{"featureCollection":{"type":"FeatureCollection",
+                                                                "bbox":[14284912.907798242,4428537.332435782,14301999.420326425,4440243.43424587],
+                                                                "features":[{"type":"Feature","geometry":{"type":"MultiPolygon",
+                                                                        "coordinates":[[[[14290875.568237072,4438927.571615472],[14291070.261294272,4438910.68992811],[14291201.157728117,4438915.33169454],[14291307.164101176,4438935.224394541],[14291408.289503057,4438965.021215687],[14291486.217481015,4439004.259946791],[14291676.588805787,4439069.370143895],[14291695.463014195,4438985.5864666095],[14291716.43416557,4438877.368959312],[14291724.446220482,4438843.096389349],[14291734.137552649,4438806.716094133],[14291741.819659783,4438779.183394519],[14291746.68699256,4438761.504006353],[14291763.057313051,4438700.682025942],[14291766.465016285,4438598.056137229],[14291758.467143416,4438579.743307262],[14291764.99500239,4438581.277761662],[14291764.73756544,4438575.431121002],[14291868.533232953,4438494.674343866],[14291957.421341388,4438478.305253812],[14292051.404855384,4438443.843463308],[14292087.29707989,4438448.509055024],[14292144.03527254,4438436.411374046],[14292165.789879456,4438419.317502014],[14292220.445934806,4438349.965545124],[14292245.540334437,4438332.478774678],[14292256.385057675,4438264.608758811],[14292255.124167975,4438206.049824122],[14292254.72874785,4438170.723797029],[14292257.014362762,4438156.890252036],[14292263.892588038,4438127.090600388],[14292274.054992137,4438119.302102083],[14292289.910763158,4438107.605714119],[14292351.401883354,4438104.597627731],[14292402.698562989,4438105.204417336],[14292513.757856533,4438089.709911],[14292563.297455462,4438062.068234895],[14292685.75918995,4437993.063693289],[14292809.242609031,4438041.610652319],[14292896.134117005,4438084.723296129],[14292902.628261393,4438095.69820595],[14292973.110804651,4438102.640047835],[14293032.707134917,4438081.269244504],[14293121.409435779,4438012.1407451965],[14293135.997851437,4438007.104863077],[14293273.878554586,4438015.630439106],[14293409.055602858,4438019.248091089],[14293484.886104511,4438021.232208669],[14293511.1984389,4438086.5092985],[14293512.093684603,4438087.319967149],[14293514.46821947,4438087.535945805],[14293596.955794433,4438103.223798932],[14293715.440611612,4438146.327627856],[14293764.81647134,4438200.353580591],[14293880.685252113,4438217.119078743],[14293936.356849596,4438215.913686295],[14294004.134929433,4438188.347055635],[14294102.843878763,4438165.0960496925],[14294155.08589081,4438127.585134242],[14294259.202294428,4438069.294716571],[14294325.830941461,4438011.054117151],[14294377.619460065,4437941.561319875],[14294422.551104503,4437904.1611136105],[14294486.093586903,4437877.339289596],[14294584.894133221,4437852.998718296],[14294639.821427325,4437883.921449695],[14294883.130573694,4437752.237323435],[14295002.698118206,4437592.373354142],[14295157.068598913,4437347.707705827],[14295164.65403654,4437340.667065832],[14295283.86070231,4437296.868709474],[14295386.36752383,4437315.363460381],[14295536.802136725,4437293.56950019],[14295697.267956426,4437323.014428655],[14295702.071605813,4437147.902316511],[14295707.108558614,4437038.924476654],[14295672.127403816,4436995.132810371],[14295664.945453223,4436888.567937203],[14295657.317795295,4436785.826229161],[14295716.199148787,4436699.94756198],[14295778.31889486,4436623.990062543],[14295818.334439619,4436545.878467243],[14295849.552376669,4436496.864895424],[14295943.31778024,4436494.323565499],[14296023.148947408,4436487.19618564],[14296203.522769857,4436487.314766311],[14296297.780517919,4436443.448350096],[14296311.727406472,4436411.02414378],[14296336.981405376,4436390.490536606],[14296355.558484167,4436349.434338603],[14296356.196096223,4436320.53332455],[14296386.93190712,4436244.913154566],[14296398.962357532,4436217.777820055],[14296418.927211514,4436148.946174596],[14296416.555728048,4436031.511855788],[14296431.31897954,4435989.365269869],[14296484.030059878,4435972.009302287],[14296539.081329087,4435935.475454889],[14296600.81103883,4435877.410750662],[14296624.039030153,4435834.756888606],[14296679.98818929,4435757.016382128],[14296699.298960079,4435727.080726045],[14296701.93088341,4435683.545944332],[14296731.815698365,4435587.687049046],[14296742.878899766,4435549.335073485],[14296776.671579575,4435514.081992298],[14296806.480186755,4435482.317939367],[14296892.08613244,4435420.511802154],[14296924.571750041,4435409.766341038],[14296933.973547583,4435406.514503898],[14297021.283760095,4435386.668984189],[14297065.341280153,4435338.159720311],[14297095.131641481,4435330.909356917],[14297173.457303759,4435286.011434017],[14297264.44336553,4435206.360872202],[14297384.59367853,4435182.894708055],[14297463.649062997,4435196.710830297],[14297482.44229935,4435182.31538216],[14297501.807122268,4435148.3826410035],[14297713.405064749,4434993.650227276],[14297731.452305295,4434958.679086213],[14297899.89450294,4434846.684233873],[14297994.2202712,4434643.683317115],[14298044.522200039,4434568.626271966],[14298045.35063036,4434567.405855758],[14298046.431639256,4434566.6012244],[14298251.806680728,4434409.424200015],[14298267.437072614,4434362.7079768265],[14298321.396716006,4434312.816329894],[14298412.676414652,4434245.969800177],[14298455.347822659,4434246.28034108],[14298524.672678992,4434275.997686761],[14298741.352801228,4434238.473886387],[14298792.835325388,4434247.261976149],[14298830.105337642,4434287.17630422],[14298888.471159525,4434299.587008618],[14298997.617409829,4434209.976216788],[14299060.076764014,4434141.180795878],[14299186.152120225,4434122.779944504],[14299263.035667276,4434076.045345619],[14299293.339506404,4434087.370948453],[14299425.155262303,4434037.263343702],[14299647.93577132,4433983.142124144],[14299848.792460317,4433878.088943419],[14300003.469968215,4433750.57963224],[14300097.123084156,4433733.2008442925],[14300154.446917096,4433773.116335101],[14300362.878453467,4433780.279449083],[14300479.465510085,4433858.067494811],[14300677.32488522,4433799.97031256],[14300891.329990452,4433768.134577768],[14301004.136609042,4433761.016319281],[14301037.60859944,4433733.789011426],[14301079.37436409,4433670.324021072],[14301249.311653905,4433653.489930052],[14301356.794732207,4433630.769572959],[14301503.477453256,4433629.899801038],[14301560.124515006,4433601.271330271],[14301734.92222429,4433614.19022487],[14301887.235439207,4433515.706241428],[14301929.01308336,4433411.407888669],[14301945.906006113,4433263.926388728],[14301999.420326425,4433176.191936616],[14301929.856449146,4433150.601335922],[14301823.919230634,4433096.236358865],[14301775.103828296,4433025.527857035],[14301748.41515346,4432996.682084078],[14301676.193995105,4432922.650503235],[14301645.587955525,4432910.7312803855],[14301564.729430404,4432884.412091598],[14301530.910771437,4432849.087082263],[14301489.160302458,4432803.216590087],[14301480.556292795,4432792.367354882],[14301480.078535328,4432791.745862335],[14301470.251221912,4432764.79526911],[14301345.988881145,4432666.193041734],[14301177.527478123,4432532.505782026],[14301129.10488681,4432499.602920764],[14300979.532309111,4432397.938558018],[14300916.839062087,4432353.684633086],[14300899.903402923,4432341.749197912],[14300889.366950655,4432242.917865695],[14300889.182486678,4432241.036587921],[14300811.730840709,4432189.364419069],[14300786.056497082,4432170.385969232],[14300766.066689074,4432147.750665936],[14300674.743461492,4432044.401866719],[14300650.556872947,4432015.39941731],[14300642.719893537,4432005.988005916],[14300641.179956786,4432004.914941412],[14300629.418060718,4431996.741494295],[14300622.628558995,4431991.983779312],[14300595.044693397,4431970.681204026],[14300482.682687325,4431852.440613829],[14300414.22863725,4431778.389551304],[14300411.448711896,4431775.372801396],[14300449.362751124,4431521.867603904],[14300455.498916782,4431458.279979817],[14300482.709038844,4431271.185043257],[14300482.850778582,4431270.201885439],[14300416.714868363,4431086.861768376],[14300367.452410446,4430990.75463701],[14300364.75526485,4430985.503377371],[14300362.582284208,4430981.261621709],[14300331.770320266,4430950.362506059],[14300329.153379636,4430947.737203707],[14300261.654174069,4430685.009573478],[14300198.24160748,4430641.437110471],[14300164.475666003,4430503.72504593],[14300155.809751522,4430483.38795308],[14300143.532162463,4430459.14621144],[14300122.969693905,4430429.423321799],[14300145.093452297,4430374.575057396],[14300146.002775181,4430275.350716386],[14300111.102150634,4430196.323213828],[14300145.813393584,4429911.9274901],[14300039.23220512,4429912.623367098],[14299901.39115036,4429952.659783518],[14299745.069882518,4429925.254416893],[14299654.385711297,4429918.565959472],[14299615.731172448,4429854.262806194],[14299454.416936532,4429687.9651960805],[14299457.818159878,4429649.681298419],[14299443.085718809,4429638.497114354],[14299430.64269834,4429629.001362365],[14299285.602607798,4429454.221683318],[14299209.23324075,4429428.292963228],[14299037.130804101,4429464.093705741],[14298949.252032265,4429399.991942931],[14298820.912011141,4429347.838636523],[14298735.784175292,4429264.088814695],[14298711.821680088,4429259.474362015],[14298550.932002632,4429182.091312972],[14298483.108398844,4429093.3738371935],[14298436.304823073,4429075.813592898],[14298232.705820901,4429008.408212355],[14298069.93716239,4428987.196498039],[14298052.804739865,4428984.947303257],[14298069.086728696,4429035.227265193],[14298068.31262905,4429036.4185173735],[14298065.066060582,4429041.651933466],[14298003.614455445,4429131.235800307],[14297956.939706942,4429178.846110015],[14297755.654490307,4429210.56286024],[14297712.763508625,4429217.033193964],[14297699.561662162,4429219.219851342],[14297633.849831918,4429264.737362954],[14297606.972269898,4429285.480539917],[14297527.126171155,4429296.83524129],[14297470.84478338,4429276.99300199],[14297435.382871153,4429277.479566102],[14297372.912261434,4429319.758729258],[14297350.994731367,4429331.5614335295],[14297273.635703826,4429330.245323042],[14297196.221329287,4429317.40025173],[14297140.15315449,4429329.7361564785],[14297098.851779426,4429311.593938232],[14297081.546969498,4429302.763038616],[14296914.02150187,4429324.675309311],[14296762.035288509,4429366.800913791],[14296697.373499162,4429385.6882224055],[14296645.841308342,4429357.870516268],[14296597.713536847,4429327.017679744],[14296568.302423816,4429307.474488599],[14296480.10111838,4429164.184088462],[14296365.650249923,4429170.825921809],[14296275.325935725,4429081.832690097],[14296258.071771404,4428965.455609917],[14296155.40532277,4428889.454128371],[14296142.944926612,4428838.683222557],[14296039.801443085,4428754.700879675],[14296038.052199628,4428753.271103214],[14296035.737109134,4428749.7512230035],[14295987.087622589,4428672.805985882],[14295853.653612347,4428628.704923612],[14295740.661325183,4428572.254046599],[14295510.84336403,4428645.039034168],[14295427.067226266,4428537.593409422],[14295350.330003895,4428537.332435782],[14295235.875585383,4428561.910606022],[14295199.076769205,4428555.024906603],[14295054.753201244,4428560.075211906],[14294789.339608952,4428665.070797731],[14294747.963236073,4428667.290857492],[14294660.986461032,4428759.277085452],[14294579.636982597,4428831.372725077],[14294463.872586455,4428836.666837327],[14294352.976566756,4428864.011255943],[14294138.104437042,4428875.269844363],[14293992.524626065,4428860.99077081],[14293989.872832494,4428861.888842308],[14293986.639085962,4428863.547411843],[14293812.270875722,4428951.995172172],[14293702.337100461,4429005.423531877],[14293586.078044271,4428997.174645502],[14293556.995588673,4429025.30004407],[14293443.755769677,4429077.0287649585],[14293334.9332208,4429072.661300297],[14293281.730264965,4429104.905696515],[14293213.59862857,4429155.64243235],[14293186.159640348,4429145.009275103],[14293076.096217988,4429153.843023262],[14293041.932263684,4429077.649989571],[14292939.526159119,4429028.360225182],[14292867.310604583,4429063.858974923],[14292714.160119861,4429044.220984429],[14292389.782964217,4429041.825844843],[14292321.768058809,4429062.326814698],[14292150.886570696,4429051.745271908],[14292125.377330074,4429008.6254821],[14292077.358852373,4428995.389793897],[14292052.202806316,4428967.79896373],[14292031.033825982,4428940.774734332],[14291984.41775895,4428932.576914293],[14291877.76053595,4428986.083897317],[14291827.690835332,4429025.916138709],[14291766.637415359,4429038.729153569],[14291688.41290164,4429071.956111718],[14291677.306697553,4429155.359232146],[14291533.202362068,4429253.8386853],[14291439.979934197,4429343.6620067945],[14291367.268935818,4429337.249697681],[14291331.037666034,4429327.214177694],[14291272.147865308,4429301.184575364],[14291257.909448015,4429312.914371148],[14291167.908085113,4429398.455281492],[14291151.370148791,4429412.345856748],[14291099.419011416,4429456.2232722975],[14291082.12099882,4429482.835397048],[14291022.786871606,4429492.99314309],[14290971.074435107,4429484.52107145],[14290965.093893316,4429474.448110605],[14290886.788109653,4429407.14002182],[14290786.63224441,4429338.238620201],[14290730.207614318,4429338.60229107],[14290696.551033782,4429354.336783303],[14290678.188573655,4429370.106806104],[14290672.815602705,4429374.174652744],[14290653.75385787,4429392.355593423],[14290630.545419024,4429468.1662482945],[14290625.477089832,4429480.087636852],[14290582.105915057,4429552.608523175],[14290508.012717713,4429641.616249693],[14290478.739357293,4429626.658054699],[14290439.338129058,4429614.895405325],[14290388.051026268,4429620.4110504985],[14290326.24306407,4429636.800317952],[14290269.328399686,4429642.279351433],[14290213.66992746,4429634.20016575],[14290185.323985154,4429646.397383546],[14290146.796197679,4429704.458573072],[14290123.564734811,4429704.809884264],[14290076.18378904,4429668.891886556],[14289986.2622277,4429647.553076444],[14289957.237728612,4429663.691707868],[14289931.085917005,4429688.1164584905],[14289929.99786031,4429689.0252553355],[14289930.476393852,4429690.540553843],[14289940.74761007,4429722.048375246],[14289942.609650098,4429763.98342602],[14289956.73798435,4429795.896124572],[14289957.037025144,4429834.419069076],[14289938.486358045,4429858.715420332],[14289929.722052813,4429884.285485507],[14289912.885311967,4429969.673902748],[14289825.313252361,4430065.931569215],[14289794.25740482,4430125.959852121],[14289725.712201849,4430145.503901707],[14289549.874700598,4430179.985370762],[14289498.469300887,4430185.904028059],[14289465.492846468,4430172.171094927],[14289393.411285033,4430184.663041902],[14289387.910428973,4430187.159774959],[14289379.03082715,4430190.967787317],[14289329.187656472,4430215.378613038],[14289275.925166832,4430229.911324624],[14289187.324079089,4430256.797729115],[14289129.871498946,4430202.716088528],[14289087.093178295,4430151.565754146],[14288979.843914516,4430035.405196902],[14288938.120972868,4429993.853366027],[14288825.220599178,4430115.63849299],[14288777.715095915,4430141.062535262],[14288751.471388709,4430155.5295570195],[14288723.540456265,4430153.1227810215],[14288677.691074954,4430091.4767448865],[14288631.132511754,4430100.558778975],[14288603.672176173,4430039.421550789],[14288550.48482847,4429989.383763443],[14288546.452788696,4429991.957759577],[14288539.667116847,4429987.070247123],[14288543.754111394,4429978.010074609],[14288542.719089758,4429945.995738026],[14288542.178172382,4429940.415326504],[14288538.773288844,4429935.775441425],[14288534.496336477,4429932.976826511],[14288527.623816533,4429916.881334655],[14288451.245135274,4429885.592000242],[14288435.880512651,4429878.478897768],[14288382.845979413,4429835.651337109],[14288361.251961134,4429834.940774844],[14288358.632227428,4429835.057195318],[14288311.993119488,4429810.897875586],[14288259.872262934,4429802.502366045],[14288230.024782903,4429799.485227079],[14288232.88152324,4429763.240189516],[14288215.419933554,4429713.585115545],[14288091.928793032,4429565.207917569],[14288089.725240178,4429560.158403912],[14288096.521891404,4429544.743942742],[14288097.16940762,4429505.080314109],[14288104.918170845,4429484.3105175905],[14288112.748804113,4429463.255212828],[14288119.458480323,4429447.5704916185],[14288112.219337052,4429416.209203339],[14288106.172405718,4429386.292929074],[14288106.700040923,4429375.180042977],[14288084.480550118,4429361.639123754],[14288077.040251363,4429369.173636925],[14288045.142334279,4429377.775549931],[14288020.538763845,4429384.516212611],[14287965.087092092,4429404.576321507],[14287890.315390818,4429416.858016959],[14287878.796646336,4429498.260386334],[14287819.780413557,4429517.989307935],[14287791.192461506,4429519.685313393],[14287750.972138068,4429534.01913832],[14287702.650409125,4429550.70266236],[14287698.392126981,4429554.200749545],[14287624.351917718,4429622.959007607],[14287593.244240297,4429745.506527707],[14287580.057058033,4429836.821869517],[14287579.543790875,4429906.857057326],[14287566.020388464,4429938.138601947],[14287554.68476394,4429958.817648415],[14287553.903879367,4429961.186523628],[14287550.80972336,4429960.874067426],[14287504.473614356,4429956.188897381],[14287445.618189767,4429950.117072411],[14287421.90037744,4429938.374499754],[14287343.869901095,4429961.5178582845],[14287296.348775735,4429970.22081818],[14287282.792887412,4430023.053575096],[14287226.341024851,4430048.339506906],[14287223.698049441,4430087.337449786],[14287198.289361527,4430103.108906573],[14287197.789967833,4430147.2758137835],[14287170.632258723,4430167.703466767],[14287095.534384413,4430219.068870115],[14286918.315571155,4430338.015501233],[14286849.403128237,4430362.389027668],[14286769.87827282,4430396.29106107],[14286747.118638763,4430404.988641279],[14286739.824500836,4430403.966490541],[14286714.51931801,4430401.1133348355],[14286642.750473214,4430366.640311602],[14286607.019436441,4430369.514487381],[14286579.86767229,4430333.792620284],[14286512.279671812,4430339.861144],[14286479.925252307,4430345.401379892],[14286456.876230555,4430348.602154655],[14286453.616395902,4430350.006215179],[14286413.205129433,4430370.980850129],[14286404.984724544,4430397.564453323],[14286390.23933773,4430445.528141851],[14286352.447458697,4430508.313510688],[14286344.15659676,4430562.634039776],[14286338.291729156,4430600.494115987],[14286334.365725683,4430628.3469721675],[14286241.633633975,4430723.751329912],[14286117.354070803,4430676.121990362],[14286021.000422934,4430617.533782377],[14285935.454209246,4430574.332950029],[14285901.281375363,4430567.965437273],[14285862.591291746,4430560.890796909],[14285854.831763126,4430564.5909232],[14285852.973931681,4430567.765424431],[14285837.348393759,4430572.1630412005],[14285834.184245842,4430573.085708307],[14285802.192917617,4430582.481792507],[14285781.99085051,4430588.3806013875],[14285766.706057852,4430592.825705871],[14285754.648894375,4430596.383733012],[14285753.031886019,4430596.211678589],[14285746.295714937,4430593.6642164225],[14285734.255489118,4430578.208376451],[14285721.341411449,4430567.63068233],[14285709.60427147,4430557.972400619],[14285704.490938947,4430557.622529079],[14285697.984651405,4430559.366125532],[14285688.848065961,4430556.284627999],[14285682.783686515,4430556.486481586],[14285684.399753105,4430552.155741682],[14285681.249199387,4430547.928101911],[14285664.566350717,4430532.734346688],[14285659.657909969,4430528.648639367],[14285652.525937596,4430520.0055206185],[14285649.204534132,4430510.741794367],[14285626.985904608,4430498.972557229],[14285618.701904487,4430489.612242384],[14285611.429570097,4430481.392308325],[14285600.675024826,4430467.9597703945],[14285581.049885796,4430443.655589909],[14285560.472547308,4430424.353171749],[14285528.183467593,4430411.05302192],[14285512.20649613,4430404.478145084],[14285498.66434723,4430399.05496837],[14285488.690562831,4430394.221788873],[14285473.585665565,4430383.225614134],[14285472.753879389,4430391.16725783],[14285428.418943956,4430378.267118299],[14285425.361481566,4430421.951304513],[14285416.86746291,4430500.055571756],[14285405.900611907,4430611.349226109],[14285378.89110831,4430725.84708385],[14285358.441733114,4430806.046056099],[14285348.579531593,4430846.913871389],[14285342.922258109,4430879.966696051],[14285306.783220062,4430876.429448423],[14285300.649068808,4430880.655370409],[14285297.074940758,4430907.827075859],[14285295.42317447,4430928.547981812],[14285290.112784885,4430944.438767152],[14285284.494906442,4430955.904742589],[14285289.297348158,4430974.333523275],[14285299.888043005,4431092.465624346],[14285287.468329614,4431096.298063893],[14285251.265754795,4431107.345985977],[14285179.96284236,4431128.872022657],[14285133.857465,4431200.329080922],[14285083.82664571,4431198.150376347],[14285054.63839778,4431219.3746004505],[14285072.60449041,4431246.821096993],[14285019.411984887,4431324.501912676],[14285014.14599204,4431335.088355791],[14285014.974251607,4431346.083496098],[14285014.763547106,4431353.259639979],[14285009.821755394,4431358.289786981],[14285003.510414517,4431361.36232005],[14284988.449270662,4431365.08152919],[14284991.87152527,4431369.407019459],[14284994.815512214,4431371.915543058],[14284999.605210224,4431379.556607131],[14285012.921563692,4431384.886438933],[14285012.361420603,4431387.224379921],[14285022.783495642,4431400.336255369],[14285026.518917652,4431404.382848948],[14285021.531520883,4431411.088204898],[14285029.32462253,4431413.195805575],[14285033.30040779,4431420.011524838],[14285036.673339602,4431417.884401973],[14285044.931298526,4431419.996562259],[14285050.628017189,4431426.796937791],[14285043.572826717,4431429.199028175],[14285041.851188581,4431435.149554401],[14285041.51642642,4431446.795411289],[14285048.188132564,4431456.923659208],[14285050.183403643,4431463.002361638],[14285046.645710122,4431465.630349499],[14285038.01665942,4431473.579914855],[14285068.570308948,4431500.101466083],[14285069.221757492,4431516.143410414],[14285067.412823115,4431525.428096008],[14285071.725635096,4431531.424201087],[14285066.695339255,4431534.292588703],[14285056.007382257,4431542.506170202],[14285044.97807134,4431558.345669437],[14284912.907798242,4431635.9574883375],[14284915.181215148,4431690.814854262],[14284992.80045299,4431765.782401436],[14285027.168303685,4431828.632204149],[14285043.248353072,4431872.857760578],[14285047.737808907,4431898.787822594],[14285054.350985697,4431937.746178033],[14285099.08092222,4432014.288786242],[14285097.356549479,4432016.725259048],[14285089.726755604,4432022.394287457],[14285082.884153476,4432038.342184095],[14285072.620347288,4432051.368862985],[14285068.05947783,4432071.42354752],[14285058.222271899,4432081.9066173],[14285064.129933437,4432093.39309036],[14285062.8730669,4432098.995861158],[14285054.592448564,4432109.738568959],[14285041.992512261,4432119.260605897],[14285032.377583968,4432123.042816775],[14285012.983059535,4432158.127618149],[14285006.266040578,4432169.3672432145],[14284998.191082034,4432174.695474072],[14285002.914936176,4432177.914747102],[14284995.881684594,4432195.340025027],[14284994.4836769,4432198.804309573],[14284991.390014265,4432206.467532168],[14284988.212694025,4432214.295842597],[14284986.27665146,4432228.800399368],[14284988.898168046,4432244.94786604],[14284986.79449286,4432263.1841114685],[14284982.824890777,4432423.960478509],[14285152.542268453,4432524.562128597],[14285211.461446997,4432561.152397584],[14285291.0980925,4432610.859718411],[14285360.02121289,4432651.443075455],[14285447.33875165,4432711.557170743],[14285517.139139902,4432760.340171288],[14285597.084268741,4432825.2766933385],[14285636.786586178,4432857.39150031],[14285707.738947853,4432934.133673245],[14285880.545719558,4433091.263087194],[14286071.559130345,4433243.834153061],[14286084.951202968,4433255.207003454],[14286182.458474386,4433352.442369088],[14286250.295947326,4433432.392469765],[14286255.10953025,4433440.096116916],[14286238.146791907,4433514.285924442],[14286230.503257768,4433620.81332909],[14286218.448860226,4433629.069039916],[14286216.014675891,4433632.559312506],[14286249.934250407,4433674.966224943],[14286273.496329984,4433698.421639328],[14286282.2632365,4433710.4966406105],[14286285.01067766,4433757.934829066],[14286287.397862446,4433798.7650999995],[14286294.357295066,4433824.518283232],[14286279.446305634,4433860.302732393],[14286261.45557572,4433901.434804926],[14286256.562295023,4433966.59358254],[14286248.175577244,4434059.544687289],[14286247.459617447,4434071.897532137],[14286247.438986875,4434106.475396225],[14286259.983024156,4434182.063244878],[14286269.879228162,4434242.986368516],[14286277.318755282,4434292.660546103],[14286277.127061212,4434321.474374835],[14286262.611742234,4434434.305190392],[14286256.91817932,4434472.158710302],[14286255.748873284,4434476.544468246],[14286246.805135988,4434597.021402845],[14286244.275144285,4434618.377408735],[14286252.76030453,4434652.898727935],[14286288.304679947,4434741.658265301],[14286323.909402987,4434835.307605975],[14286376.117548723,4434950.324150464],[14286403.156824466,4435069.1603471],[14286453.505037026,4435173.621040497],[14286521.872066572,4435290.572858541],[14286616.312411375,4435395.079595671],[14286689.565431574,4435447.397977955],[14286806.542213663,4435365.090208924],[14286777.786883017,4435435.565944933],[14286778.624762768,4435458.861914828],[14286757.241569325,4435541.221828365],[14286754.488284737,4435618.862047343],[14286772.40641818,4435700.7112062955],[14286780.019695597,4435721.9267997425],[14286828.979468117,4435845.209801995],[14286852.190065918,4435943.62726067],[14286868.980989002,4436059.640846931],[14286915.390443033,4436155.361343069],[14286961.288103065,4436201.216858585],[14286831.07396779,4436302.406812386],[14286750.413089659,4436329.08054854],[14286753.185344465,4436347.823937386],[14286745.878017318,4436351.737024348],[14286692.833234271,4436385.154952165],[14286664.453181326,4436392.420372908],[14286660.664310776,4436393.5855226],[14286630.094712894,4436402.3360620765],[14286619.15009087,4436404.4707919285],[14286552.199394353,4436428.834474024],[14286522.518971112,4436439.146695817],[14286511.28180449,4436442.351598231],[14286485.470556194,4436444.605672784],[14286470.249953432,4436448.538552039],[14286438.504141452,4436457.382053021],[14286362.266776793,4436519.715916433],[14286322.679979809,4436524.089254523],[14286288.558447747,4436550.339240573],[14286253.107759863,4436572.628272296],[14286214.087491661,4436584.48519609],[14286158.342862519,4436620.973637331],[14286105.125309395,4436650.742998795],[14286071.301318811,4436688.507978929],[14286000.855911838,4436722.657336849],[14285983.733542409,4436768.210931191],[14285972.620636623,4436782.904516712],[14285943.925441703,4436814.461139038],[14285919.774433248,4436814.9864756465],[14285878.640319243,4436837.680472986],[14285780.891102696,4436880.422228827],[14285731.141060183,4436913.373007394],[14285646.832239557,4436955.314784745],[14285563.682503905,4436985.237051034],[14285376.530196756,4437041.459660437],[14285337.948510656,4437253.088715801],[14285397.913525855,4437379.151387564],[14285444.045739826,4437433.952631454],[14285465.51582972,4437460.119467348],[14285514.745044576,4437557.195893883],[14285543.87346276,4437588.638728514],[14285519.000254825,4437684.684578065],[14285552.951579817,4437715.2841653535],[14285638.88457074,4437791.111747134],[14285775.814535722,4437869.56398457],[14285804.048840271,4437934.4469810035],[14285818.805035837,4438000.909113702],[14285849.815796921,4438085.107113272],[14285879.094627222,4438127.924574582],[14285914.983148182,4438186.015960472],[14285928.37137999,4438206.844552232],[14285990.22330189,4438230.35829445],[14286012.416013768,4438240.143355737],[14286016.699689666,4438240.748721753],[14286025.082929822,4438245.760893018],[14286027.336176194,4438251.6868425775],[14286035.644838102,4438256.457360009],[14286047.428962775,4438272.637994308],[14286057.696902197,4438286.222138756],[14286070.976797737,4438302.923206659],[14286075.72260157,4438309.165623038],[14286106.460051851,4438349.435413891],[14286091.651872171,4438401.1937868465],[14286147.404486654,4438416.041236439],[14286176.972270818,4438448.384652752],[14286203.94952005,4438474.218200226],[14286260.65256821,4438494.345310151],[14286318.309586866,4438515.606638987],[14286369.941537822,4438622.165011752],[14286404.302909406,4438658.603639511],[14286434.052047683,4438662.17042378],[14286497.063911453,4438635.860927091],[14286548.363369225,4438632.761173173],[14286656.316160662,4438619.635589792],[14286685.282955958,4438628.728445694],[14286774.262699483,4438607.985232406],[14286788.325105298,4438604.152327078],[14286832.182605894,4438592.705335561],[14286884.209107174,4438586.412761188],[14286903.792266482,4438567.39666553],[14286949.90790737,4438546.526887677],[14287029.596355937,4438493.301225512],[14287064.44641042,4438470.132378298],[14287090.574315302,4438447.6476388015],[14287122.502603352,4438410.349849787],[14287136.429755896,4438385.225973077],[14287187.509406706,4438342.782662901],[14287361.978472605,4438501.031524358],[14287368.397631044,4438507.008760357],[14287371.693818305,4438511.591703213],[14287386.824327337,4438524.827968367],[14287390.671219768,4438528.431357316],[14287507.65733617,4438645.671776784],[14287563.168019427,4438701.3024279745],[14287415.181390487,4438860.456936653],[14287352.073385105,4438959.603733501],[14287315.569709977,4439058.287222061],[14287296.460724285,4439228.417303729],[14287303.934250133,4439359.025955423],[14287324.724651443,4439443.904382737],[14287332.763451088,4439474.730830713],[14287338.30790612,4439541.548636784],[14287348.401966115,4439582.348530958],[14287355.415194474,4439609.9252184145],[14287363.864723604,4439643.441597461],[14287411.342478653,4439727.256993707],[14287421.043682931,4439750.083428625],[14287508.027282678,4439859.655012306],[14287616.338067895,4439955.333852863],[14287679.78708206,4440012.564141235],[14287805.046141388,4440072.569807771],[14288106.389677433,4440133.697807972],[14288384.29705912,4440156.932366686],[14288381.143232273,4440216.019829706],[14288533.11612382,4440230.342739909],[14288725.468461536,4440243.43424587],[14288873.199085465,4440211.514306552],[14288900.500624064,4440170.600078635],[14288982.681511955,4440116.85100442],[14289050.12084121,4440067.766195539],[14289158.7929655,4440000.28436657],[14289214.99660925,4439937.430871423],[14289296.413758714,4439867.757404095],[14289408.631619575,4439785.093732806],[14289514.576456824,4439716.215032476],[14289709.882485742,4439604.604282866],[14289853.806203842,4439528.249358686],[14289922.30991701,4439492.339227897],[14290027.311768778,4439385.060113374],[14290143.612901999,4439292.80368793],[14290248.001015685,4439223.939258386],[14290417.721171824,4439131.114177604],[14290626.024996236,4439027.984707509],[14290723.775845222,4438991.956588365],[14290806.438527571,4438950.668797545],[14290875.568237072,4438927.571615472]]]]},
+                                                        "properties":{"emd_eng_nm":"Danyang-eup","emd_kor_nm":"단양읍","full_nm":"충청북도 단양군 단양읍","emd_cd":"43800250"},"id":"LT_C_ADEMD_INFO.209732"}]}}}}
+                        */
+						//담당자 표시 (비행승인)
+						features.forEach(function(dongcode) {
+							var data = getCivilaffairsUser("user", applyType.FLIGHT, dongcode.values_.emd_cd);
+
+							 //let str4 = JSON.stringify(data); // addr_id 값
+							 //console.log('getAddr1-'+applyType.FLIGHT+"/"+dongcode.values_.emd_cd+"/"+str4);
+
+							//UA공역-'lt_c_aisuac'
+
+							if (data != null) {
+								data.forEach(function (item, index, array) {
+									//2026-03-23 TS 보안취약점 점검 ORG_DEP_DESC null 체크 추가 - ORG_DEP_DESC null 체크 추가
+									if (item.ORG_DEP_DESC != null) {
+
+										if (areaAddrIdList.indexOf(item.ORG_DEP_DESC) !== 0) {
+											if (item.ORG_DEP_DESC.indexOf("군 담당자") == -1) {
+												var str = "";
+												str += item.ORG_DEP_DESC.split("[")[0]
+												//console.log('1-'+str);
+												str += item.ORG_DEP_DESC.split("[")[1].split("[")[0].split("]")[0].split("|")[1]
+												//console.log('2-'+str);
+												areaAddrIdList.push(str);
+
+												//let str2 = JSON.stringify(item); // addr_id 값
+												//console.log('checkFlightLayer2-dongcode-'+str2);
+
+												// 충남 태안군 안면읍, 남면 은 한서대학교를 추가하자 2023-04-24
+												if (dongcode.values_.emd_cd == "44825253" || dongcode.values_.emd_cd == "44825320") {
+													areaAddrIdList.push("비행장교통구역-태안-한서대학교 ☎ 041-671-6165~6");
+												} else if (dongcode.values_.emd_cd == "43800250" || dongcode.values_.emd_cd == "43800320" //  UA45 단양 선택할 경우은 UA45 DANYANG  단양군 043-420-2564를 추가하자 2023-04-24
+														|| dongcode.values_.emd_cd == "43800350" || dongcode.values_.emd_cd == "43800310") {
+													areaAddrIdList.push("UA45 단양군청 체육레저과 043-420-2963");
+												}
+
+												var imsi_not_flight = false;
+												for (var i = 0; i < ajaxResult.length; i++) {
+													if (ajaxResult[i] == 0) {
+														//console.log('true - 비행가능')
+														imsi_not_flight = true
+													} else {
+														//console.log('false - 비행불가능')
+														imsi_not_flight = false
+														break;
+													}
+												}
+												if (_address == '' || _address == undefined) {
+													//console.log("check _address - ", _address)
+													imsi_not_flight = false
+												}
+
+												//console.log(imsi_not_flight+"/"+dongcode.values_.emd_cd.substr(0,4)+"/"+ajaxResult);
+												// 2023-09-12 군산 관제권에 대한 담당기관 전화번호 추가(군산시, 김제시 진봉면)
+												// area별로 확인하기 위함 2023-10-17
+												// alert("chk_area-1-"+chk_area);
+												//checkFlightLayer2('lt_c_aisaltc,lt_c_aisprhc,lt_c_aisresc,lt_c_aisdngc','lt_c_aisobls','lt_c_aispca')
+												//alert("chk_area-2-"+chk_area);
+
+												if (imsi_not_flight == false && (dongcode.values_.emd_cd.substr(0, 4) == "4513" || dongcode.values_.emd_cd == "45210410")) {
+													//alert("군산 관제권");
+													//areaAddrIdList.push("군산 관제권 - 미공군 운항실 063-470-4707");
+													// 다시 변경 202310-19
+													areaAddrIdList.push("군산 관제권 - ※ 공지사항 참조 ('군산공항' 검색) <a href=\"https://drone.onestop.go.kr/board/notice/read?id=141\"> ☞바로가기</a> <br> 이메일 신청 · 접수");
+
+												} else if (imsi_not_flight == false && (dongcode.values_.emd_cd == "41220113" || dongcode.values_.emd_cd == "41220115" || dongcode.values_.emd_cd == "41220116"
+														|| dongcode.values_.emd_cd == "41220117" || dongcode.values_.emd_cd == "41220118" || dongcode.values_.emd_cd == "41220119"
+														|| dongcode.values_.emd_cd == "41220120" || dongcode.values_.emd_cd == "41220121" || dongcode.values_.emd_cd == "41220122"
+														|| dongcode.values_.emd_cd == "41220123" || dongcode.values_.emd_cd == "41220250" || dongcode.values_.emd_cd == "41220253"
+														|| dongcode.values_.emd_cd == "41220340" || dongcode.values_.emd_cd == "41220370" || dongcode.values_.emd_cd == "44133250"
+														|| dongcode.values_.emd_cd == "44200360" || dongcode.values_.emd_cd == "44200370")) {
+													// 평택 관제권 비행담당자 내용 추가 2023-10-17
+													//areaAddrIdList.push("평택 관제권 신청 방법 : 공지사항(‘평택기지’ 검색) 확인");
+												}
+
+												// 정부청사 지역 선택시 비고 변경 2023-10-17
+												// alert("dong-"+dongcode.values_.emd_cd);
+												//console.log("dong-"+dongcode.values_.emd_cd);
+
+												// console.log("동 이름-"+dongcode.values_.emd_kor_nm);
+												// console.log("확인: ", dongcode);
+												if (dongcode.values_.emd_cd == "30170113" || dongcode.values_.emd_cd == "30170112" || dongcode.values_.emd_cd == "30170128"
+														|| dongcode.values_.emd_cd == "36110110" || dongcode.values_.emd_cd == "36110107" || dongcode.values_.emd_cd == "36110114") {
+													chk_dong = "청사";
+												} else if (dongcode.values_.emd_cd == "26290000" || dongcode.values_.emd_cd.substring(0, 6) == "262901"//   2024-08-16
+														|| dongcode.values_.emd_cd == "26200000" || dongcode.values_.emd_cd.substring(0, 6) == "262001"
+														|| dongcode.values_.emd_cd == "26500000" || dongcode.values_.emd_cd.substring(0, 6) == "265001") {
+													chk_dong = "해군부산기지방호전대";
+												} else if (dongcode.values_.emd_kor_nm == '항동7가' || dongcode.values_.emd_kor_nm == '북성동1가') { // 해군인천해역방어사령부 추가 2025-06-09 yhseo
+													chk_dong = "해군인천해역방어사령부";
+												} else if (dongcode.values_.emd_kor_nm == '강정동') {
+													chk_dong = "해병9여단";
+												} else if (dongcode.values_.emd_kor_nm == '왕길동' || dongcode.values_.emd_cd == "28260119" || dongcode.values_.emd_kor_nm == '검암동'
+														|| dongcode.values_.emd_cd == "28260101" || dongcode.values_.emd_kor_nm == '경서동' || dongcode.values_.emd_kor_nm == '청라동') {
+													chk_dong = "UA62";
+												} else if (dongcode.values_.emd_kor_nm == '고아읍') { // 고아읍 비고란 문구 추가 2025-12-17 yhseo
+													chk_dong = "고아읍";
+												} else if (["41273110", "41273111", "41273112", "41273113", "41590340", "41590330", "41590262", "41590320", "41271103", "41590140"].includes(dongcode.values_.emd_cd)) { // UA19 문구추가 2026-01-14 yhseo
+													chk_dong = "UA19";
+												} else if (dongcode.values_.emd_kor_nm == '흥해읍') {
+													chk_dong = "흥해읍";
+												} else if (dongcode.values_.emd_kor_nm == '속달동') { //속달동 비고란 문구 추가 2026-06-08 yhseo
+													chk_dong = "속달동";
+												} else if (dongcode.values_.emd_cd == '41830400') { // 용문면 비고란 문구 추가 2026-06-30 yhseo
+													chk_dong = "용문산";
+												} else if (dongcode.values_.emd_cd == '41820350') { // 가평군 북면(화악리) 비고란 문구 추가 2026-07-02 yhseo
+													chk_dong = "북면";
+												} else if (dongcode.values_.emd_cd == '41830340') { // 양평군 옥천면 비고란 문구 추가 2026-07-03 yhseo
+													chk_dong = "옥천면";
+												}
+												else {
+													chk_dong = "";
+												}
+
+												// 임시비행금지구역 설정 2023-07-31
+												// 전라북도 부안군 하서면, 변산면 은 임시비행금지구역 추가하자 2023-07-31
+												/*
+												if (dongcode.values_.emd_cd == "45800400" || dongcode.values_.emd_cd == "45800360"){
+													//alert("기간: 7.28(금)~8.14(월), 구역: 전북 부안군 하서면,변산면 일대 임시비행금지 구역입니다."+" 비행승인을 받아주세요");
+													imsi_not_flight = "1";
+												}
+												 */
+												//console.log(imsi_not_flight);
+
+
+											} else {
+												areaAddrIdList.push(item.ORG_DEP_DESC);
+											}
+										}
+									}
+								});
+							}
+						});
+						areaAddrIdList.reduce(function(a,b){if(a.indexOf(b)<0)a.push(b);return a;},[]); // 담당자/전화/이름
+
+
+						//console.log('getAddr-'+areaAddrIdList);
+
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = areaAddrIdList.join("<br/>");
+
+						// 항만 담당기관 정보 추가
+						updatePortInfo();
+
+						areaAddrIdList = new Array();
+
+						//담당자 표시 (특별비행 승인)
+						features.forEach(function(dongcode) {
+							var data = getCivilaffairsUser("user", applyType.SPECIAL, dongcode.values_.emd_cd);
+							if (data != null) {
+								data.forEach(function (item, index, array) {
+									//2026-03-23 TS 보안취약점 점검 ORG_DEP_DESC null 체크 추가 - ORG_DEP_DESC null 체크 추가
+									if (item.ORG_DEP_DESC != null) {
+
+										if (areaAddrIdList.indexOf(item.ORG_DEP_DESC) !== 0) {
+											if (item.ORG_DEP_DESC.indexOf("군 담당자") == -1) {
+												var str = "";
+												str += item.ORG_DEP_DESC.split("[")[0]
+												str += item.ORG_DEP_DESC.split("[")[1].split("[")[0].split("]")[0].split("|")[1]
+												areaAddrIdList.push(str);
+											} else {
+												areaAddrIdList.push(item.ORG_DEP_DESC);
+											}
+										}
+									}
+								});
+							}
+						});
+						areaAddrIdList.reduce(function(a,b){if(a.indexOf(b)<0)a.push(b);return a;},[]);
+						document.querySelector("#PLAN_SPECIAL_ADDR_ID_DESC_POPUP").innerHTML = areaAddrIdList.join("<br/>")
+						areaAddrIdList = new Array()
+
+						//담당자 표시 (항공사진 촬영)
+						features.forEach(function(dongcode) {
+							var data = getCivilaffairsUser("user", applyType.AEROPHOTOS, dongcode.values_.emd_cd);
+							if (data != null) {
+								data.forEach(function (item, index, array) {
+									//2026-03-23 TS 보안취약점 점검 ORG_DEP_DESC null 체크 추가 - ORG_DEP_DESC null 체크 추가
+									if (item.ORG_DEP_DESC != null) {
+										if (areaAddrIdList.indexOf(item.ORG_DEP_DESC) !== 0) {
+											if (item.ORG_DEP_DESC.indexOf("군 담당자") == -1) {
+												var str = "";
+												str += item.ORG_DEP_DESC.split("[")[0]
+												str += item.ORG_DEP_DESC.split("[")[1].split("[")[0].split("]")[0].split("|")[1]
+												areaAddrIdList.push(str);
+											} else {
+												areaAddrIdList.push(item.ORG_DEP_DESC);
+											}
+										}
+									}
+								});
+							}
+						});
+						areaAddrIdList.reduce(function(a,b){if(a.indexOf(b)<0)a.push(b);return a;},[]);
+
+						document.querySelector("#PLAN_AREA_ADDR_ID_DESC_POPUP").innerHTML = areaAddrIdList.join("<br/>")
+					} else {
+						document.querySelector("#PLAN_FLIGHT_ADDR_ID_DESC_POPUP").innerHTML = "주소가 검색되지 않았습니다."
+						document.querySelector("#PLAN_SPECIAL_ADDR_ID_DESC_POPUP").innerHTML = "주소가 검색되지 않았습니다."
+						document.querySelector("#PLAN_AREA_ADDR_ID_DESC_POPUP").innerHTML = "주소가 검색되지 않았습니다."
+					}
+					// 항만 담당기관 정보 추가
+					updatePortInfo();
+				},
+
+				error: function(xhr, stat, err) {}
+			});
+			return features;
+		}
+
+		//중심점 주소 취득
+		function getAddr(points) {
+			//console.log('getAddr-0-');
+			var url = "https://api.vworld.kr/req/address?service=address&version=2.0&key=" + vworldKey + "&type=BOTH&request=GetAddress&point=" +points;
+
+			// 지도 API 이상 점검 - 주소 동 이상 - 2022-04-14
+			//alert(url);
+			//console.log('getAddr-'+url);
+
+			// 데이터를 확인하고 싶을 때. 2022-04-18 좌표
+			//let str = JSON.stringify(url); // <> parse()
+			//console.log('checkFlightLayer-1-'+str);
+
+
+			$.ajax({
+				url: url,
+				async: false,
+				type: "get",
+				dataType: 'jsonp',
+				success: function(data) {
+					if(data.response.status === "OK") {
+						var zipcd;
+						if(!isEmpty(data.response.result[0].zipcode)) {
+							zipcd = "(" + data.response.result[0].zipcode + ") ";
+						} else {
+							zipcd = "";
+						}
+						/*
+                        $("#PLAN_ADDR_POPUP").val(data.response.result[0].text);
+                        $("#PLAN_ZIP_CD_POPUP").val(data.response.result[0].zipcode);
+                        $("#PLAN_ZIP_ADDR_POPUP").val(zipcd + data.response.result[0].text);
+                        $("#PLAN_ADDR_ID_POPUP").val(data.response.result[0].structure.level4LC.substring(0, 8));
+                        $("#PLAN_ADDR_ID_DESC_POPUP" + activeindex).val(data.response.result[0].structure.level4LC.substring(0, 8));
+                         */
+						document.querySelector("#PLAN_ZIP_ADDR_POPUP").innerText = zipcd + data.response.result[0].text
+						_address = zipcd + data.response.result[0].text
+
+					} else {
+						// $("#PLAN_ADDR_POPUP").val("");
+						// $("#PLAN_ZIP_CD_POPUP").val("");
+						// $("#PLAN_ZIP_ADDR_POPUP").val("");
+						document.querySelector("#PLAN_ZIP_ADDR_POPUP").innerText = "주소가 검색되지 않았습니다."
+						_address = ""
+						// $("#PLAN_ADDR_ID_POPUP").val("");
+						//$("#PLAN_ADDR_ID_DESC_POPUP" + activeindex).val("");
+					}
+				},
+				error: function(xhr, stat, err) {console.error("error:   " + xhr);},
+				complete: function (data) {
+				}
+			});
+		}
+
+		// 주소팁 취득
+		function getTipInfo(addrid) {
+			//console.log('getTipInfo-0-');
+			var result = null;
+			$.ajax({
+				type : "POST",
+				url : "/civilappeal/flight/getTipinfoAjax",
+				dataType : "json",
+				data : {'ADDR_ID': addrid, 'APPLY_TYPE': 3},
+				async: false,
+				//timeout: 5000, // 시간설정이 안되 있었음 2023-03-28(점검중)
+				success : function(data){
+					result = data.LABEL_PLAN_AREA_TIP;
+				},error: function(xhr,  Status, error) {
+					console.error(Status)
+				}
+			});
+			return result;
+		}
+
+		function moveDongCd(dongCd) {
+			//console.log('moveDongCd-0-');
+			vmap.getLayers().forEach(function(layer){
+				if(layer.get("name")=="wms_theme") {
+					var paramData = {
+						"key" : vworldKey,
+						"domain": vworldDomain,
+						"service": "data",
+						"version": "2.0",
+						"request": "getfeature",
+						"format": "json",
+						"size": "100",
+						"page": "1",
+						"data": "LT_C_ADEMD_INFO",
+						"geometry": true,
+						"attribute": true,
+						"crs": "EPSG:3857",
+						"attrFilter": "emd_cd:=:"+dongCd
+					};
+
+					$.ajax({
+						type: "get",
+						url: "https://api.vworld.kr/req/data",
+						data : paramData,
+						dataType: 'jsonp',
+						async: false,
+						jsonpCallback:"parseResponse",
+						success: function(data) {
+							//let str = JSON.stringify(data); // params: 파라미터 확인하는것~
+							//console.log('3-'+str);
+
+							if(data.response.status === "OK") {
+								var featureArray = (new ol.format.GeoJSON()).readFeatures(data.response.result.featureCollection);
+								for (var i = 0; i < featureArray.length; i++) {
+									var feature = featureArray[i];
+									vmap.getView().fit(feature.getGeometry().getExtent(), { size: vmap.getSize(), maxZoom: vmap.getView().getMaxZoom() });
+								}
+
+							}
+						},
+
+						error: function(xhr, stat, err) {}
+					});
+				}
+			});
+		}
+
+		function planValidate() {
+			//console.log('planValidate-0-');
+			var rtv = false;
+			if(
+					$.trim($("#PLAN_ZIP_ADDR_POPUP").val()).length > 0 &&
+					$.trim($("#PLAN_GIS_POPUP").val()).length > 0 &&
+					$.trim($("#PLAN_RADIUS_POPUP").val()).length > 0 &&
+					$.trim($("#PLAN_ALTITUDE_FT_POPUP").val()).length > 0 &&
+					$.trim($("#PLAN_ALTITUDE_M_POPUP").val()).length > 0 ) {
+				//$.trim($("#PLAN_PURPOSE_ETC_POPUP").val()).length > 0) {
+				rtv = true;
+			}
+			return rtv;
+		}
+
+		function addTemplayerToOrgayer(featureId) {
+			//tempEmpLayer -> empLayer
+			//console.log('addTemplayerToOrgayer-0-');
+
+			vmap.getLayers().forEach(function(layer){
+				if (layer.get('id') == 'tempEmdLayer') {
+
+					//추가
+					var i = 0;
+					layer.getSource().getFeatures().forEach(function(feature) {
+
+						var feature = layer.getSource().getFeatures()[i];
+						feature.setProperties("featureId", featureId);
+						srcEmdLayer.getSource().addFeature(feature);
+						i++;
+					});
+					srcEmdLayer.getSource().changed();
+					i = null;
+				}
+			});
+
+			//tempLocLayer -> locaLayer
+			vmap.getLayers().forEach(function(layer){
+				if (layer.get('id') == 'tempLocLayer') {
+
+					//추가
+					var i = 0;
+					layer.getSource().getFeatures().forEach(function(feature) {
+						var feature = layer.getSource().getFeatures()[i];
+						feature.setProperties("featureId", featureId);
+						srcLocLayer.getSource().addFeature(feature);
+						i++;
+					});
+					i = null;
+					srcLocLayer.getSource().changed();
+				}
+			});
+
+
+		}
+
+		function reDraw() {
+			//console.log('reDraw-0-');
+			srcLocLayer.getSource().clear();
+			srcEmdLayer.getSource().clear();
+
+			for (var i = 0; i < flight.PLAN_LIST.length; i++) {
+				vmap.getLayers().forEach(function(layer){
+					var gisX = flight.PLAN_LIST[i].PLAN_GIS_X * 1;
+					var gisY = flight.PLAN_LIST[i].PLAN_GIS_Y * 1;
+					var coor = ol.proj.transform([gisX, gisY], "EPSG:4326", "EPSG:3857");
+					if (layer.get('id') == 'srcLocLayer') {
+						//추가
+						var radius = flight.PLAN_LIST[i].PLAN_RADIUS * 1;
+						var realRadius = drawMeter(vmap, radius, coor);
+
+						//var featureId = Math.floor(Math.random() * 9999999);
+						//2026-03-23 TS 보안취약점 점검 - xss
+						var featureId = crypto.getRandomValues(new Uint32Array(1))[0];
+						var feature = new ol.Feature({geometry: new ol.geom.Circle(coor, realRadius*1)});
+						feature.setProperties("featureId", featureId);
+
+						layer.getSource().addFeature(feature);
+					}
+					layer.getSource().changed();
+
+
+					var features = new Array();
+					var geomfilter = 'POINT('+coor[0]+' '+ coor[1] +')';
+
+					var paramData = {
+						KEY : vworldKey,
+						DOMAIN : vworldDomain,
+						SERVICE : "DATA",
+						VERSION : "2.0",
+						REQUEST : "getfeature",
+						FORMAT : "json",
+						SIZE : "1000",
+						PAGE : "1",
+						DATA : "LT_C_ADEMD_INFO",
+						GEOMETRY : "true",
+						ATTRIBUTE : "true",
+						CRS : "EPSG:3857",
+						BUFFER : radius,
+						GEOMFILTER : geomfilter,
+					};
+
+					$.ajax({
+						type: "get",
+						url: "https://api.vworld.kr/req/data",
+						data : paramData,
+						dataType: 'jsonp',
+						async: false,
+						success: function(data) {
+							//console.log('reDraw - ', data)
+							if(!isEmpty(data.response.result)) {
+								features = (new ol.format.GeoJSON()).readFeatures(data.response.result.featureCollection)
+							} else {
+								features = null;
+							}
+						},complete: function(){
+							if(!isEmpty(features)) {
+								var radius = drawMeter(vmap, radius, coor);
+								vmap.getLayers().forEach(function(layer){
+									if(layer.get("id") === "srcEmdLayer"){
+										layer.getSource().addFeatures(features);
+										layer.getSource().changed();
+									}
+								});
+							}
+						},
+						error: function(xhr, stat, err) {}
+					});
+
+				});
+			}
+		}
+
+		function getAddrToCoordinate(ADDR, ADDR_TYPE) {
+			//console.log('getAddrToCoordinate-00-'+ADDR);
+
+			// 무슨이유인지 부산, 울산만 광역시를 붙여줘야 하다 ;; 2022-12-13
+			var txtAddr = ADDR.toString();
+			if (txtAddr.match(/^부산(?!동)/)) { // '부산'으로 시작하면서 뒤에 '동'이 아닌 경우
+				var txtAddr2 = txtAddr.replace(/^부산(?!동)/, "부산광역시");
+				ADDR = txtAddr2;
+				//console.log('getAddrToCoordinate-010-'+txtAddr2+"/"+txtAddr2.indexOf("부산")+"/"+txtAddr2.indexOf("울산"));
+			}else if (txtAddr.match(/^울산(?!동)/)) { // '울산'으로 시작하면서 뒤에 '동'이 아닌 경우
+				var txtAddr2 = txtAddr.replace(/^울산(?!동)/, "울산광역시");
+				ADDR = txtAddr2;
+				//console.log('getAddrToCoordinate-020-'+txtAddr+"/"+txtAddr.indexOf("부산")+"/"+txtAddr.indexOf("울산"));
+			}else if (txtAddr.indexOf("강원")>-1){
+				//var txtAddr2 = txtAddr.replace("강원","강원특별자치도");
+				//ADDR = txtAddr2;
+				//console.log('getAddrToCoordinate-020-'+txtAddr+"/"+txtAddr.indexOf("부산")+"/"+txtAddr.indexOf("울산"));
+			}
+
+
+			//console.log('getAddrToCoordinate-030-'+ADDR+"/"+ADDR_TYPE);
+
+			var rtvData;
+			var S_status;
+			if (ADDR_TYPE === "J")
+				ADDR_TYPE = "PARCEL";
+			else
+				ADDR_TYPE = "ROAD";
+
+			var paramData = {
+				KEY : vworldKey,
+				DOMAIN : vworldDomain,
+				SERVICE : "address",
+				VERSION : "2.0",
+				REQUEST : "GetCoord",
+				FORMAT : "json",
+				TYPE : ADDR_TYPE,
+				ADDRESS : ADDR,
+				REFINE : false,
+				CRS : "EPSG:3857",
+			};
+
+			// 데이터를 확인하고 싶을 때. 2022-04-18 좌표
+			//let str = JSON.stringify(paramData); // <> parse()
+			//console.log('getAddrToCoordinate-001-'+str);
+
+			$.ajax({
+				type: "get",
+				url: "https://api.vworld.kr/req/address",
+				data : paramData,
+				dataType: 'jsonp',
+				async: false,
+
+				success: function(data) {
+					//console.log(location.hash);
+
+					//let str2 = JSON.stringify(data); // <> parse()
+					//console.log('getAddrToCoordinate-01-'+str2);
+
+
+					//console.log('getAddrToCoordinate-01-'+data.url);
+					//let str = JSON.stringify(data); // <> parse()
+					//console.log('getAddrToCoordinate-01-'+str);
+					//alert(str);
+					if (data.response.status === "OK") {
+						S_status = "OK"
+						rtvData = data.response.result.point;
+					} else {
+						S_status = "NOT_FOUND"
+						// vworld 와 juso.go.kr 주소가 다를시 이상내역 표시 2023-03-01
+						//alert("Vworld 에 해당 지역 좌표가 없습니다.\n\n 마우스로 좌표를 클릭해 주세요"); // NOT_FOUND 로 가져옴 실패
+
+					}
+					rtvData = data.response.result.point;
+					//console.log('getAddrToCoordinate-02-'+str);
+					// 좌표를 NOT_FOUND 로 가져옴 실패 2022-06-28
+					/*
+                    var rtvOK;
+                    rtvOK = data.response.status;
+                    if (rtvOK.toString() == "OK"){
+                        rtvData = data.response.result.point;
+                        //console.log('getAddrToCoordinate-02-'+rtvData.x*1+','+rtvData.y*1);
+                    }else{
+                        alert("Vworld 에 해당 지역 좌표가 없습니다."); // NOT_FOUND 로 가져옴 실패
+                        data.abort(); //강제 종료
+                    };
+                     */
+					//////////////////////////////////////////
+
+					//alert("OK");
+
+				},
+
+
+				/*
+                        {"response":{
+                                    "service":{"name":"address","version":"2.0","operation":"GetCoord","time":"23(ms)"},
+                                    "status":"OK",
+                                    "input":{"type":"PARCEL","address":"서울 중구 을지로7가 62-1"},
+                                    "result":{"crs":"EPSG:3857","point":{"x":"14138571.478934936","y":"4518222.026135471"}}
+                                    }
+                        }
+
+                                error: function(){
+                                    console.log("fail");
+                                    alert("fail");
+                                    //alert("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+                                }
+                                */
+
+				error: function(xhr, stat, err) {
+					// 데이터를 확인하고 싶을 때. 2022-04-18 좌표
+					//let str = JSON.stringify(paramData); // <> parse()
+					//console.log('01-'+str);
+					//	console.log('getAddrToCoordinate-03-');
+					console.error("error:   " + xhr);
+				},
+
+
+				complete: function () {
+					//console.log('getAddrToCoordinate-04-');
+					if (S_status === "OK") { // 데이터를 가져올때만 실행시키자 2023-03-22
+						var coordinates = [rtvData.x, rtvData.y];
+						var feature = new ol.Feature({
+							geometry: new ol.geom.Point(coordinates),
+							name: 'marker'
+						});
+						markerLayer.getSource().addFeature(feature);
+
+						vmap.getView().setCenter([rtvData.x * 1, rtvData.y * 1]);
+						vmap.getView().setZoom(13);
+
+						bbox = getPixelToBBOX();
+
+						// 2022-04-22
+						//var min = vmap.getCoordinateFromPixel([x -4,y+4])
+						//var max = vmap.getCoordinateFromPixel([x +4,y-4])
+						//bbox.xmin = min[0]
+						//bbox.ymin = min[1]
+						//bbox.xmax = max[0]
+						//bbox.ymax = max[1]
+
+						// 계산식 추가 - 초기화 2022-04-22
+						bbox.xmin = rtvData.x * 1 - 80.2437258008867
+						bbox.ymin = rtvData.y * 1 - 85.2488416503183
+						bbox.xmax = rtvData.x * 1 + 72.6303307004272
+						bbox.ymax = rtvData.y * 1 + 67.6252149199135
+
+						//console.log('getAddrToCoordinate-05-'+bbox.xmin+','+bbox.ymin+','+bbox.xmax+','+bbox.ymax);
+
+						singleClickEvent([rtvData.x * 1, rtvData.y * 1]);
+
+					}
+				}
+
+			});
+			//console.log('getAddrToCoordinate-00-end');
+		}
+
+
+	</script>
+
+
+<div style="display: none;">
+	<div id="marker" title="Marker"></div>
+	<!-- Popup -->
+	<div id="popup"></div>
+</div>
+
+
+
+<div class="flightplan home-flight">
+	<div class="pop-con1 regi-wrap flight-map-wrap home-flight-map">
+		<div id="map" style="height: 100%;">
+			<!-- Popup -->
+			<div class="map-description map-description-container" id="map-description">
+				<div class="map-description map-description-top">
+					<p>안내사항</p>
+				</div>
+				<div class="map-description map-description-description">
+					<div class="map-description map-description-title">
+						<span class="map-description-maintitle" id="map-description-maintitle">비행승인 필요</span>
+					</div>
+					<div class="map-description map-description-address" id="map-description-address">주소: 주소가 검색되지 않았습니다.</div>
+					<div class="map-description map-description-sub-description" id="map-description-sub-description"></div>
+					<div class="map-description map-description-caution" id="map-description-caution">※ 사유지, 해수욕장, 국립공원, 문화재, 청와대, 교도소, 군부대, 국가중요시설, 항만 등은 해당지역의 소유자 및 관리사무소가 있을 경우 반드시 사전에 협의하시기 바랍니다.</div>
+				</div>
+				<div class="map-description map-description-bottom" id="map-description-bottom">
+					<div class="map-description map-description-close" id="map-description-close">닫기</div>
+				</div>
+			</div>
+
+
+			<div id="dr_layerPopup2">
+
+				<!--</div>
+                <div id="dr_layerPopup2" class="dr_layerPopup_in">
+                -->
+				<div class="app-info1 app-info can" id="legendDiv" style="bottom: 3.5rem;"><i class="fa fa-bars" aria-hidden="true"></i> 범례</div>
+				<!--<div class="flight_wrap dr_popup" id="mapinfodetail">-->
+				<div class="flight_wrap dr_popup" id="legend">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; margin-right: 15px">
+						<button id="toggleAllBtn" onclick="toggleCheckboxes()" class="btn btn-dark">전체 해제</button>
+						<button onclick="closePopup()" class="btn btn-danger">닫기</button>
+					</div>
+
+					<p><input type="checkbox" name="ltc" id="lt_c_aisuac" value="lt_c_aisuac" checked=""><span class="pink"></span> <label for=""> UA)초경량비행장치공역</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisctrc" value="lt_c_aisctrc" checked=""><span class="green"></span> <label for=""> 관제권</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisaltc" value="lt_c_aisaltc" checked=""><span class="brown"></span> <label for=""> 경계구역</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisprhc" value="lt_c_aisprhc" checked=""><span class="red"></span> <label for=""> 비행금지구역</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisresc" value="lt_c_aisresc" checked=""><span class="green1"></span> <label for=""> 비행제한구역</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisatzc" value="lt_c_aisatzc" checked=""><span class="gray"></span> <label for=""> 비행장교통구역</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisfldc" value="lt_c_aisfldc" checked=""><span class="cyan"></span> <label for=""> 경량항공기 이착륙장</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisdngc" value="lt_c_aisdngc" checked=""><span class="aqua"></span> <label for=""> 위험지역</label></p> <!--//lt_c_aisdngc:위험지역 추가 2022-07-26 -->
+					<p><input type="checkbox" name="ltc" id="lt_c_aisdronezone" value="lt_c_aisdronezone" checked=""><span class="can2"></span> <label for=""> 드론시범사업구역</label></p> <!--//lt_c_aisdronezone:드론시범사업구역 추가 2025-11-18 -->
+					<!--//LT_C_AISOBLS:장애물공역 추가 2022-10-07 -->
+					<!-- <p><input type="checkbox" name="ltc" id="lt_c_aisobls" value="lt_c_aisobls" checked><span class="cyan"></span> <label for=""> 장애물공역</label></p> -->
+					
+					<p><input type="checkbox" name="ltc" id="lt_c_aisobls" value="lt_c_aisobls" checked=""><span class="cyan"></span> <label for=""> 장애물공역</label></p>
+					<!--//LT_C_AISPCA:사전협의구역 추가 2022-11-03 -->
+					<p><input type="checkbox" name="ltc" id="lt_c_aispca" value="lt_c_aispca" checked=""><span class="magenta"></span> <label for=""> 사전협의구역</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aistemp" value="lt_c_aistemp" checked=""><span class="red"></span> <label for=""> 임시비행금지구역</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_uo301" value="lt_c_uo301" checked=""><span class="green2"></span> <label for=""> 문화재보호도</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_wgisnpgug" value="lt_c_wgisnpgug" checked=""><span class="green3"></span> <label for=""> 국립자연공원</label></p>
+					<p><input type="checkbox" name="ltc" id="lt_c_aisport" value="lt_c_aisport" checked=""><span class="red"></span> <label for=""> 항만시설</label></p>
+
+				</div>
+			</div>
+
+			<script>
+				function toggleCheckboxes() {
+					const toggleButton = document.getElementById("toggleAllBtn");
+					const isSelectAll = toggleButton.textContent === "전체 선택";
+
+					//버튼 상태 변경
+					toggleButton.textContent = isSelectAll ? "전체 해제" : "전체 선택";
+
+					//체크박스 상태 변경
+					document.querySelectorAll("input[name='ltc']").forEach(node => {
+						node.checked = isSelectAll;   //체크 여부 변경
+						node.value = isSelectAll ? '1' : '0'; // value값 변경
+
+						node.dispatchEvent(new Event("change"));
+					});
+				}
+
+				// 기존 개별 체크박스 변경 이벤트 유지
+				$('input[name="ltc"]').change(function() {
+					var value = $(this).attr('id');
+					var checked = $(this).prop('checked');
+
+					vmap.getLayers().forEach(function (layer) {
+						if (layer.get("id") === value.toUpperCase()) {
+							layer.setVisible(checked);
+						}
+					});
+				});
+
+				function closePopup() {
+					$('#legend').hide();
+				}
+
+			</script>
+
+
+			<div id="dr_layerPopup2">
+
+				<div id="dr_layerPopup2">
+					<a href="javascript:;" onclick="utils.jusoToCoor(callback);">
+						<div class="main-address-btn" style="bottom: 6rem;">
+							주소검색
+						</div>
+					</a>
+
+					<a href="http://aim.koca.go.kr/xNotam/?type=map" target="_blank">
+						<div class="main-address-btn" style="position:absolute; right:1rem; bottom:1rem;">
+							항공고시보
+						</div>
+					</a>
+				</div>
+
+				
+				
+
+			</div>
+
+
+			<div id="GPS_btn" style="display: none;">
+				<i class="fas fa-map-marker" aria-hidden="true"></i>
+			</div>
+
+
+		<div class="ol-viewport" data-view="5" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" width="660" height="787" style="width: 100%; height: 100%; display: block;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul></ul><button type="button" title="Attributions"><span>i</span></button></div><div class="ol-layerswitcher-popup ol-unselectable ol-control ol-collapsed"><button type="button"></button><div class="ol-switchertopdiv"></div><div class="ol-switcherbottomdiv"></div><ul class="panel"><li class="ol-header"></li><li class="select">VWorld Map</li><li class="">VWorld Map Satellite</li></ul></div></div></div></div>
+
+	</div>
+
+
+	<div class="pop-table flight-table home-flight-table">
+		<div class="table-wrap">
+			<table class="flight">
+				<tbody>
+				<tr>
+					<th>주소</th>
+					<td colspan="3" id="PLAN_ZIP_ADDR_POPUP"><input type="hidden" id="PLAN_ZIP_CD_POPUP"> <input type="hidden" id="PLAN_ADDR_POPUP"> <input type="hidden" id="PLAN_ADDR_ID_POPUP"></td>
+				</tr>
+				<tr>
+					<th>비행구역<br>담당자</th>
+					<td colspan="3" id="PLAN_FLIGHT_ADDR_ID_DESC_POPUP"></td>
+				</tr>
+				<tr>
+					<th>특별비행<br>담당자</th>
+					<td colspan="3" id="PLAN_SPECIAL_ADDR_ID_DESC_POPUP"></td>
+				</tr>
+				<tr>
+					<th>항공촬영<br>담당자</th>
+					<td colspan="3" id="PLAN_AREA_ADDR_ID_DESC_POPUP"></td>
+				</tr>
+				<tr>
+					<th rowspan="5">비고</th>
+					<td rowspan="5" colspan="3" id="PLAN_AREA_ADDR_ID_ETC_POPUP">※ 사유지, 해수욕장, 국립공원, 문화재, 청와대, 교도소, 군부대, 국가중요시설, 항만 등은 해당지역의 소유자 및 관리사무소가 있을 경우 반드시 사전에 협의하시기 바랍니다.
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+
+
+</body></html>
