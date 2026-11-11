@@ -1,0 +1,909 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="naver-site-verification" content="cf5981ae3e667e322de98f3c0ab36abe8430c6a4">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>드론원스톱 민원서비스</title>
+	<link rel="stylesheet" type="text/css" href="/resources/css/layout.css?v=20260401">
+	<link rel="stylesheet" type="text/css" href="/resources/css/style.css?v=20260401">
+	<link rel="stylesheet" type="text/css" href="/resources/css/media.css?v=20260401">
+	<link rel="stylesheet" type="text/css" href="/resources/css/reset.css?v=20260401">
+	 
+
+    
+	
+	<script src="/resources/vendor/jQuery-3.3.1/jquery-d.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.bxslider.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.serialize-object.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/inputmask.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/jquery.inputmask.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/bxslider.js"></script>
+	<script src="/resources/js/custom.js?v=1"></script>
+	<script src="/resources/js/common.js?v=1"></script>
+	<script src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.offcanvas.js"></script>
+</head>
+<body onload="javascript:commonMassage('');">
+	<div id="header">
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+
+		// 타 사이트 검색시 8443 제거하기 20250730
+		const fromSearchEngine = /google|naver|bing|daum/.test(document.referrer);
+		const isAdminPort = window.location.port === '8443';
+
+		if (fromSearchEngine && isAdminPort) {
+			const newUrl = window.location.protocol + '//' + window.location.hostname + window.location.pathname + window.location.search;
+			window.location.href = newUrl;
+		}
+
+		$('#dr_navi').dr_naviFullWide({
+			subState : false, // 메뉴활성시 서브메뉴의 오픈유무(true,false)
+			motionType : 'slide', // 모션타입(none,fade,slide)
+			motionSpeed : 300, // 모션속도(밀리초)
+			delayTime : 200
+			// 메뉴아웃시 되돌아가는 딜레이시간(밀리초)
+		});
+
+		$('#user_mo_navi').kj_mo_navi22({
+			motionSpeed : 500, // 모션속도(밀리초)
+			delayTime : 2000
+			// 클릭아웃시 딜레이시간(페이지인식인경우)
+		});
+
+		// MainMenu 마우스오버 이벤트
+		$(".dr_main > li").mouseover(function() {
+			var explain = $(this).data("explain");
+			var text = $(this).data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// SubMenu 마우스오버 이벤트
+		$(".dr_subSet > ul > li").mouseover(function() {
+			var explain = $(this).parent().data("explain");
+			var text = $(this).parent().data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// 로그인정보 팝업
+		$("#dr_layerPopup").dr_layerPopup({
+			mouseEvent : "click"
+		});
+
+/*
+		function PageCounter() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				data : {"URL_ID" : click_bidx, "URL_NM" : click_type},
+				url : "/pagecounter/setPageCounterAjax",
+				timeout: 5000,
+				success: function(data){
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('PageCounter-계획000-'+str1);
+					alert(str1);
+				},
+				error: function(xhr,  Status, error) {
+					console.log(Status)
+				}
+			});
+		};
+
+
+		$(".m_h_contents").click(function() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				url : "/pagecounter/setPageCounter",
+				data: {
+					bidx : click_bidx,
+					type : click_type
+				},
+				error: function (request, status, error) {
+					//alert(request.responseText)
+				},
+				success: function (html) {
+					//  $('#store_list').html(html);
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('m_h_contents-계획000-'+str1);
+					alert(str1);
+				}
+			});
+
+		});
+		*/
+
+		// 실시간 시간정보
+		//let time = 60;
+/*
+		let min = "";
+		let sec = "";
+		let time = //= session.getMaxInactiveInterval()  ;
+
+		let x = setInterval(function () {
+
+			min = parseInt(time/60);
+			sec = time % 60;
+
+			document.getElementById("demo").innerHTML ="<spen style='color:#1d75b3  ;'>로그인 유지시간 - "+ min + "분" + sec + "초</span>";
+			time--;
+
+			if (time < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "시간초과";
+
+
+				alert("로그인 유지 시간(30분)이 초과 되었습니다.");
+				location.href='/member/login/login';
+			}
+		}, 1000);
+*/
+
+
+	});
+</script>
+
+<!-- /* 대국민 네이버접속기록 남기기 2023-05-10 */ -->
+<!--
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "17b3f25fcf4fff0";
+	if(window.wcs) {
+		wcs_do();
+	}
+</script>
+-->
+
+
+
+<div id="lnb">
+
+	<div class="area">
+
+        <!--  시계가 보여질 div -->
+        
+		<ul>
+			
+
+
+			<!--관리자레이어팝업-->
+			
+				<!-- 서버 접속Port 확인 -->
+				
+					
+					
+						<li><a href="/member/login/login">로그인</a></li>
+						
+						
+						<li><a href="/member/join/register">회원가입</a></li>
+					
+				
+			
+		</ul>
+	</div>
+</div>
+
+<div class="head_sub">
+	<div id="dr_navi">
+
+
+		<div class="navbar-header">
+			<button class="navbar-toggle offcanvas-toggle pull-right js-offcanvas-has-events" data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+				<span class="mobile_menu"> <i aria-hidden="true" class="fa fa-bars"></i>
+				</span>
+			</button>
+			<h1>
+				<a href="/"> <strong class="sound">드론원스톱 민원서비스 로고</strong>
+				</a>
+			</h1>
+			<!-- <span class="mobile_user"> <i aria-hidden="true" class="fa fa-user"></i></span> -->
+		</div>
+
+		<!--일반 유저 mobile 메뉴 시작-->
+		<div class="navbar-offcanvas navbar-offcanvas-touch offcanvas-transform js-offcanas-done" id="js-bootstrap-offcanvas">
+			<div id="mobi_user_menu">
+				<div class="m_top" id="mobile_user_menu_close">
+					<span>메뉴닫기</span>
+					<button class="navbar-toggle offcanvas-toggle pull-right " data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+						<i aria-hidden="true" class="fa fa-times"></i>
+					</button>
+				</div>
+				<ul class="kj_mo_navi" id="user_mo_navi">
+					<li class="kj_mo"><a class="mo1 mo" href="#">민원 시스템 안내 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<!--
+							<li><a class="m_h_contents" href="/introduce/systemintro1/" data-pos="/introduce/systemintro1/" data-item-id="각종 신청 작성 안내">각종 신청 작성 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro2/" data-pos="/introduce/systemintro2/" data-item-id="민원 유형별 처리 안내">민원 유형별 처리 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro3/" data-pos="/introduce/systemintro3/" data-item-id="처리 부서 안내">처리 부서 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro4/" data-pos="/introduce/systemintro4/" data-item-id="각종 민원 법률 정보">각종 민원 법률 정보</a></li>
+							-->
+							<li><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+							<li><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+							<li><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+							<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+
+						</ul></li>
+					<li class="kj_mo"><a class="mo2 mo" href="#">민원신청 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+							<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+							<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+							<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+							<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+							<li><a href="/civilappeal/flightphotos/registerF"><font color="black" size="4"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반모바일 메뉴  2022-05-02 비행/사진 동시신청 -->
+						</ul></li>
+					<li class="kj_mo"><a class="mo3 mo" href="#">정보마당 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/board/notice/list">공지사항</a></li>
+							<li><a href="/board/faq/list">FAQ</a></li>
+							<!-- 2022-02-11 Q&A 메뉴 drop-->
+							<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+						</ul></li>
+					
+            
+                <li class="kj_mo"><a class="mo5 mo" href="#">회원서비스 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+                </a>
+                    <ul>
+                        <li><a href="/member/join/register">회원가입</a></li>
+                        <li><a href="/member/login/login">로그인</a></li>
+                        <li><a href="/member/login/searchinfo">아이디/비밀번호찾기</a></li>
+                    </ul></li>
+            
+        </ul>
+    </div>
+</div>
+<!--mobile 메뉴 끝-->
+
+<!--일반 유저 desktop 메뉴 시작-->
+<div id="desk_user_menu">
+    <ul class="dr_main kk">
+        <li class="first" data-explain="민원 시스템 안내" data-text="System Introduce"><a href="#">민원 시스템 안내</a></li>
+        <li data-explain="민원신청" data-text="Civil application"><a href="#">민원신청</a></li>
+        <li data-explain="정보마당" data-text="Information"><a href="#">정보마당</a></li>
+        
+        
+            <li class="last" data-explain="회원서비스" data-text="Members"><a href="#">회원서비스</a></li>
+        
+
+    </ul>
+    <div class="dr_mask">
+        <div class="menu_img">
+            <div class="inner_line">
+                <p id="menu_text">
+                    <strong>Civil application</strong>
+                </p>
+                <h2 id="menu_explain">민원신청</h2>
+            </div>
+        </div>
+        <div class="dr_subSet">
+            <ul class="m1 tmenu" data-explain="민원 시스템 안내" data-text="System Introduce">
+                <li><a href="/introduce/systemintro1" id="desk_user_m01">각종 신청 작성 안내</a></li>
+                <li><a href="/introduce/systemintro2" id="desk_user_m02">민원 유형별 처리 안내</a></li>
+                <li><a href="/introduce/systemintro3" id="desk_user_m03">처리 부서 안내</a></li>
+                <li><a href="/introduce/systemintro4" id="desk_user_m04">각종 민원 법률 정보</a></li>
+            </ul>
+            <ul class="m2 tmenu" data-explain="민원신청" data-text="Civil application">
+                <li><a href="/civilappeal/aircraft/register" id="desk_user_m11">비행장치 신고</a></li>
+                <li><a href="/civilappeal/business/register" id="desk_user_m12">사업등록 신고</a></li>
+                <li><a href="/civilappeal/flight/register" id="desk_user_m13">비행승인 신청</a></li>
+                <li><a href="/civilappeal/special/register" id="desk_user_m14">특별비행승인 신청</a></li>
+                <li><a href="/civilappeal/aerophotos/register" id="desk_user_m15">항공촬영 신청</a></li>
+                <li><a href="/civilappeal/flightphotos/registerF" id="desk_user_m16"><font color="black" size="3"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반메뉴 2022-05-02 비행/사진 동시신청 -->
+            </ul>
+            <ul class="m3 tmenu" data-explain="정보마당" data-text="Information">
+                <li><a href="/board/notice/list" id="desk_user_m21">공지사항</a></li>
+                <li><a href="/board/faq/list" id="desk_user_m22">FAQ</a></li>
+                <!-- <li><a href="/board/qna/list" id="desk_user_m23">Q&A</a></li> -->
+            </ul>
+            
+            
+                <ul class="m5 tmenu" data-explain="회원서비스" data-text="Members">
+                    <li><a href="/member/join/register" id="desk_user_m41">회원가입</a></li>
+                    <li><a href="/member/login/login" id="desk_user_m42">로그인</a></li>
+                    <li><a href="/member/login/searchinfo" id="desk_user_m43">아이디/비밀번호찾기</a></li>
+                </ul>
+            
+        </div>
+    </div>
+</div>
+<!--desktop 메뉴 끝-->
+</div>
+</div></div>
+    <div id="main">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+	<meta charset="UTF-8">
+	
+	
+	<title>드론 원스톱 민원 포털</title>
+	<style>
+		.area {
+			height: 100%;
+		}
+		.banner__innerbox{
+			display: flex;
+			flex-direction: column;
+			margin-top: 10px !important;
+			max-height: 300px;
+			height: 100%;
+		}
+		.banner__innerbox ul {
+			margin-top: 8px !important;
+		}
+		.banner__innerbox ul li{
+			min-height: 120px;
+		}
+		.banner__innerbox .banner__text{
+			position: relative;
+			max-width: 96%;
+			width: 100%;
+			margin-top: 32px;
+			text-align: start;
+			font-weight: 500 !important;
+		}
+		.m_box_wrap2-1 {
+			background: #ffffff url(../../resources/img/main/r_bg011.png) no-repeat 96% 109px !important;
+		}
+		.m_box_wrap2-1 {
+			background: #ffffff url(../../resources/img/main/r_bg011.png) no-repeat center bottom !important
+		}
+		.m_box_wrap2-1 > p{
+			margin-top: 15px !important;
+		}
+
+		/* 금지구역 알림사항 box 스타일 2026-03-23 yhseo */
+		.notice-box{
+			display:flex;
+			align-items:center;
+			border:1px solid #4aa3ff;
+			background:#f3f7fb;
+			padding:15px;
+			border-radius:8px;
+			margin-bottom: 10px;
+		}
+		.notice-icon{
+			font-size:40px;
+			color:#f0ad4e;
+			margin-right:15px;
+			flex-shrink:0;
+		}
+		.notice-text p{
+			margin:3px 0;
+			line-height:1.3;
+		}
+
+		.info_list span{
+			font-size: 14px;
+		}
+
+		.c_box_wrap {
+			text-align: left;
+		}
+
+		.c_box_wrap span {
+			font-size: 13px;
+		}
+		.c_box_wrap a {
+			vertical-align: baseline;
+			text-decoration: none;
+			color: black;
+		}
+	</style>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// [비행 계획 / 비행가능 지역 검색]
+			$("#flightArea").click(function() {
+				var pop = utils.popupCenter("/common/flightArea", "flightArea", 900, 600);
+			});
+
+			// 추가 Cesium 지도 팝업
+			$("#cesiumMap").click(function(e) {
+				e.preventDefault();
+				utils.popupCenter("/common/cesiumMap", "cesiumMap", 1200, 800);
+			});
+
+			openWin();
+		});
+
+		function openWin() {
+			//alert("function openWin");
+			var popupList = [{"REG_YMD_VW":"2026-10-02","POPUP_TYPE":"1","POPUP_SJ":"청와대 임시비행금지구역 설정 안내","FILE_PATH":"/9/2026/10/02/0fdf2fb9-ddcf-424e-90db-5fad93032faa.png","POPUP_ID":272,"REG_NM":"김서희","START_YMD":"20260929","LOGIN_TYPE":"1","LOCATION_TOP":0,"ACT_FILE_ID":5012780,"CHG_USER":"0000290184","LOCATION_LEFT":0,"ACT_FILE_NM":"최종일자.png","SIZE_HEIGHT":900,"CHG_DATE":"20261002174735","USE_TYPE":"1","SIZE_WIDTH":700,"END_YMD":"20261226"},{"REG_YMD_VW":"2026-09-03","POPUP_TYPE":"1","POPUP_SJ":"(농업용드론) P518 비행금지구역 비행승인 및 인가절차 안내","FILE_PATH":"/9/2026/07/01/f37ef1b8-da92-4962-8749-ef17c3a4a78f.PNG","POPUP_ID":279,"REG_NM":"시스템관리자","START_YMD":"20260701","LOGIN_TYPE":"1","LOCATION_TOP":0,"ACT_FILE_ID":4707118,"CHG_USER":"0000000000","LOCATION_LEFT":0,"ACT_FILE_NM":"팝업.PNG","SIZE_HEIGHT":856,"CHG_DATE":"20260903104941","USE_TYPE":"1","SIZE_WIDTH":756,"END_YMD":"20261231"},{"REG_YMD_VW":"2026-09-03","POPUP_TYPE":"1","POPUP_SJ":"드론 비행금지구역 처벌이 강화됩니다.","FILE_PATH":"/9/2026/08/26/ca1fdca4-f02d-48df-a53b-8ab2e791f028.png","POPUP_ID":286,"REG_NM":"시스템관리자","START_YMD":"20260826","LOGIN_TYPE":"1","LOCATION_TOP":0,"ACT_FILE_ID":4880088,"CHG_USER":"0000000000","LOCATION_LEFT":0,"ACT_FILE_NM":"드론 비행금지구역 처벌 강화.png","SIZE_HEIGHT":838,"CHG_DATE":"20260903104655","USE_TYPE":"1","SIZE_WIDTH":676,"END_YMD":"20261231"},{"REG_YMD_VW":"2026-11-10","POPUP_TYPE":"1","POPUP_SJ":"브이월드 시스템 점검에 따른 이용 제한 안내","FILE_PATH":"/9/2026/11/10/8fd141a2-18ff-4bb7-86d3-a732526044dc.png","POPUP_ID":297,"REG_NM":"시스템관리자","START_YMD":"20261110","LOGIN_TYPE":"1","LOCATION_TOP":0,"ACT_FILE_ID":5132053,"CHG_USER":"0000000000","LOCATION_LEFT":0,"ACT_FILE_NM":"브이월드_시스템점검공지.png","SIZE_HEIGHT":225,"CHG_DATE":"20261110160318","USE_TYPE":"1","SIZE_WIDTH":1212,"END_YMD":"20261128"}];
+			$.each(popupList, function(index, data) {
+				var id     = data.POPUP_ID;
+				var result = getCookie("popupWin_" + id);
+				if (result != "done") {
+					var title  = data.POPUP_SJ;
+					var file   = data.FILE_PATH;
+					var imgSrc = format("/file/download?filePath={0}", encodeURI(data.FILE_PATH));
+					var width  = data.SIZE_WIDTH ? data.SIZE_WIDTH : 600;
+					var height = data.SIZE_HEIGHT ? data.SIZE_HEIGHT : 480;
+					var left   = data.LOCATION_TOP;
+					var top    = data.LOCATION_LEFT;
+					var url    = format("/common/popupView?id={0}", id);
+					var name   = format("popupWin_{0}", id); //"_blank"
+					var specs  = format("scrollbars=no, toolbar=no, location=no, status=no, menubar=no, resizable=no, "
+							+ "width={0}, height={1}, left={2}, top={3}", width, parseInt(height)+98, left, top);
+
+					//url =  XSSCheck(url,0);
+					var popup  = window.open(url, name, specs);
+
+					//alert("function openWin");
+					// POST로 데이터 전송
+					postPopup(url, {'id':id, 'imgSrc':imgSrc, 'title':title, 'width':width, 'height':height, 'popupId': id}, name);
+				}
+			});
+
+			//	<!-- 로그인시 자동팝업 2022-06-17  -->
+			//   window.open("/civilappeal/flight/popupContact?applyType=3",'_blank','toolbar=no,location=no,status=no,menubar=no, scrollbars=auto,resizable=no,width=800,height=600 top=10 left=10')
+
+		}
+
+
+
+	</script>
+
+
+
+<div id="wrap">
+	<div id="section">
+		<div class="banner">
+			<div class="area">
+				<div class="bn_con bn_con01 banner__innerbox">
+					<div>
+						<strong class="b_tit01"><span>드론 원스톱</span> 민원 포털 서비스</strong>
+					</div>
+					<div class="banner__apply">
+						<ul class="apply_list">
+							<li><a href="/civilappeal/aircraft/register"><span>비행장치<br>신고서 등록</span><span style="font-size: 11px !important; margin-top: 0 !important;"><br>(평일기준 7일 소요)</span></a></li>
+							<li><a href="/civilappeal/business/register"><span>사업등록<br>신고서 등록</span><span style="font-size: 11px !important; margin-top: 0 !important;"><br>(평일기준 14일 소요)</span></a></li>
+							<li><a href="/civilappeal/flight/register"><span>비행승인<br>신청서 등록</span><span style="font-size: 11px !important; margin-top: 0 !important;"><br>(평일기준 3일 소요)</span></a></li>
+							<li><a href="/civilappeal/special/register"><span>특별비행<br>승인</span><span style="font-size: 11px !important; margin-top: 0 !important;"><br>(평일기준 30일 소요)</span></a></li>
+							<li><a href="/civilappeal/aerophotos/register"><span>항공 촬영<br>신청서 등록</span><span style="font-size: 11px !important; margin-top: 0 !important;"><br>(평일기준 4일 소요)</span></a></li>
+						</ul>
+
+						<ul class="info_list">
+							<li><a href="/introduce/systemintro1"><span>각종 신청<br>작성 안내</span></a></li>
+							<li><a href="/introduce/systemintro2"><span>민원 유형별<br>처리 안내</span></a></li>
+							<li><a href="/introduce/systemintro3"><span>민원 처리<br>부서 안내</span></a></li>
+							<li><a href="/introduce/systemintro4"><span>각종 민원<br>법률 정보</span></a></li>
+						</ul>
+					</div>
+					<div class="banner__text">
+						
+						
+						
+						
+					</div>
+				</div>
+				<div class="bn_con bn_con02">
+					<div class="img_con">
+						<img src="/resources/img/main/bn_img1.png" alt="드론원스톱 민원서비스">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contents">
+			<div class="area">
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div class="notice-box">
+					<div class="notice-icon">
+						<i class="fa-solid fa-triangle-exclamation"></i>
+					</div>
+					<div class="notice-text">
+						<p>
+							<i class="fa-solid fa-circle" style="font-size:4px;"></i><span class="red"> 비행 금지구역</span>에서 관할 기관의 사전 승인 없이 비행하거나, 초경량비행장치 <span class="red">불법 사용 시</span>에는
+							<span class="red">항공안전법 처벌 대상</span>이니 주의 바랍니다.
+						</p>
+						<p>
+							<i class="fa-solid fa-circle" style="font-size:4px;"></i> 추락된 무인기 및 불법 운용 의심 비행 장치 발견 시
+							<span class="red">국가정보원(111), 경찰(112), 군 부대(1338)</span>로 신고 부탁드립니다.
+						</p>
+						<p>
+							<i class="fa-solid fa-circle" style="font-size:4px;"></i> 비행승인 대상지역에서 <span class="red">승인을 받지 않고 비행할 경우</span> 과태료 150만원(1차 위반)이 부과됩니다.
+						</p>
+					</div>
+				</div>
+				<div class="r_box_wrap">
+					<div class="r_box01 box_con">
+						<div class="box_info">
+							<h2>비행 계획 / 비행가능<br>지역 검색</h2>
+							<p>
+								<strong>드론비행 계획 전 꼭 필요한 서비스 미리 확인하고 신청하세요!
+								</strong>
+							</p>
+							<div class="btn_wrap">
+								<div id="flightArea">
+									<a href="#">지도로 확인하기 <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="m_box_wrap m_box_wrap1">
+					<div class="m_box01 box_con">
+						<div class="box_info">
+							<h2>나의 민원 신청 현황</h2>
+							<p>
+								<strong>다양한 민원신청으로부터
+									신청민원에 대한 정보를 확인하세요.
+								</strong>
+							</p>
+							<div class="btn_wrap">
+								<div>
+									<a href="/mypage/civilappealhis/list">
+										로그인
+										
+										<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--
+                  <div class="m_box_wrap m_box_wrap2">
+                    <div class="m_box01 box_con">
+                          <div class="box_info">
+                            <h2>자주 묻는 질문</h2>
+                            <p>
+                                <strong>다양한 민원 사례를 바탕으로
+                                FAQ를 작성하였습니다.
+                                </strong>
+                            </p>
+                            <div class="btn_wrap">
+                                <div>
+                                    <a href="/board/faq/list">바로가기 <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+				<div class="m_box_wrap m_box_wrap2-1">
+					<div class="m_box01 box_con">
+						<div class="box_info">
+							<h2>드론 미승인 비행 근절 캠페인 영상</h2>
+							<p style="margin-top: 15px">
+								<strong>미승인 드론불법비행 근절을 위해
+									누구나 알고 있어야 할 영상.
+								</strong>
+							</p>
+							<div class="btn_wrap">
+								<div>
+									<!--<a href="https://www.youtube.com/watch?v=OCJNVL8S5fo">바로가기 <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>-->
+									<a href="https://www.youtube.com/watch?v=OCJNVL8S5fo" target="_blank">바로가기<i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="m_box_wrap m_box_wrap3">
+					<div class="m_box01 box_con">
+						<div class="box_info">
+							<h2>공지사항</h2>
+							<p>
+								<strong>드론 원스톱 민원처리 시스템의
+									다양한 소식들을 만나보세요.
+								</strong>
+							</p>
+							<div class="btn_wrap">
+								<div>
+									<a href="/board/notice/list">더보기 <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="c_box_wrap">
+					<div class="c_box01 c_box_con">
+						<div class="box_info">
+							<h2>문의 연락처 안내</h2>
+							<ul style="font-size:13px; line-height:1.574; padding:5px 5px; list-style:none;">
+								<li style="border-bottom:1px solid #e0e0e0; padding:8px 0;">
+									<span style="color:#555;">장치신고 문의</span><br>
+
+									<table style="border-collapse:collapse; font-size:13px;">
+										<tbody><tr>
+											<td style="white-space:nowrap;">
+												<div style="display:flex; align-items:center;">
+													<span style="margin-right:3px;">- ☎ </span>
+													<span style="margin-left:auto;"> 054-459-</span>
+												</div>
+											</td>
+											<td style="white-space:nowrap;">7942~5</td>
+										</tr>
+										<tr>
+											<td style="white-space:nowrap; padding-right:6px;">· 변경·말소:</td>
+											<td style="white-space:nowrap;"><a href="tel:054-459-7943">7942</a></td>
+										</tr>
+										<tr>
+											<td style="white-space:nowrap; padding-right:6px;">· 신규:</td>
+											<td style="white-space:nowrap;"><a href="tel:054-459-7945">7945</a></td>
+										</tr>
+									</tbody></table>
+								</li>
+								<li style="border-bottom:1px solid #e0e0e0; padding:8px 0;">
+									<span style="color:#555; font-size:12px;">사용사업 등록 문의</span><br>
+									<span>- <a href="tel:054-459-7946">☎ 054-459-7946</a>~9</span>
+								</li>
+								<li style="border:1.3px solid #f0ad4e; box-shadow:0 0 0 1px #f0ad4e; padding:8px 0;">
+									<span style="color:#555; margin-left: 5px;">비행승인 · 항공촬영 문의</span><br>
+									<a href="/introduce/systemintro3" style="color:#1c7189; font-size: 12px; margin-left: 5px;">☎ 각 부서 연락처 안내 <span style="color:blue;">☞바로가기</span></a>
+								</li>
+								<li style="padding:8px 0;">
+									<span style="font-weight: bold;">시스템 장애문의</span><br>
+									<span>- <a href="tel:054-459-7412">☎ 054-459-7412, 7935</a></span><br>
+									<span style="font-size: 11px">(평일 09:00~18:00 / 중식 12:00~13:00)</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</div>
+    <div id="footer">
+
+<script src="/resources/vendor/db_banner7/js/jquery.DB_slideStepMove.min.js"></script>
+<script src="/resources/vendor/jQuery-tmpl-1.0.0/jquery.tmpl.min.js"></script>
+
+
+
+<!-- /* 구글접속기록 남기기 2023-05-10 */ -->
+<!-- Google tag (gtag.js) -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVJGCL7SSX"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-FVJGCL7SSX');
+</script>
+-->
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	let x = setInterval(function () {
+
+		initKindex();
+
+	}, 60*60*1000); // 2023-03-24 자기장정보 1시간에 한번씩 불러오기
+	//}, 10000); // 2023-03-24 자기장정보 10초에 한번씩 불러오기
+
+	initKindex();
+
+//	initWeather();
+
+	// [이용약관]
+	$("#pop-tos").click(function() {
+		utils.popupCenter("/common/terms/ToS", "popupToS", 1024, 720);
+	});
+
+
+	// [개인정보처리방침]
+	$("#pop-policy").click(function() {
+		//utils.popupCenter("/common/terms/privatePolicy", "popupPolicy", 1024, 720);
+		// 2026-08-01 한국교통안전공단 사이트로 변경
+		utils.popupCenter("https://main.kotsa.or.kr/portal/contents.do?menuCode=07020100", "popupPolicy", 1024, 720);
+	});
+});
+
+function initKindex() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getKindexAjax.ajax",
+		dataType: "json",
+		contentType: 'application/json; charset=UTF-8',
+		cache: false, // 캐싱 비활성화
+		headers: {
+			"Cache-Control": "no-cache, no-store, must-revalidate", // 캐시 무효화
+		},
+		//timeout: 5000,
+		success: function(data){
+			let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+			//console.log('비행승인-계획000-'+str1);
+
+			// alert(str1);
+			$("#KP_LEVEL").css("w_info mag " + data.KP_LEVEL);
+			$("#KP_VALUE").text(data.KP_VALUE + "kp")
+			$("#KP_MAX_VALUE").text(data.KP_MAX_VALUE + "kp")
+		},
+		error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+		}
+	});
+}
+
+
+
+
+function initWeather() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getWeatherAjax",
+	    dataType: "json",
+	    contentType: 'application/json; charset=UTF-8',
+
+	    success: function(data){
+	    	// console.log(data);
+
+	    	$(".DB_moveSet").empty();
+	    	$("#weatherTemplate").tmpl(data).appendTo(".DB_moveSet");
+
+	    	// 날씨 슬라이드
+	    	var mq = window.matchMedia("(max-width: 479px)");
+	        var distance = (mq.matches) ? 90 : 60;
+	        $('.DB_banner7').DB_slideStepMove({
+	           motionDirection: 'y',           //모션방향('none','x','y')
+	           moveDistance: distance,         //이동거리(li기준)
+	           moveSpeed: 300,                 //이동속도
+	           autoRollingTime: 5000           //자동롤링시간(밀리초)
+	      });
+
+	    },
+	    error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+	    }
+	});
+}
+
+//더보기 팝업
+// document.addEventListener("DOMContentLoaded", function() {
+// 	const popupLink = document.getElementById("popup-link");
+// 	const popup = document.getElementById("popup");
+// 	const popupClose = document.getElementById("popup-close");
+//
+// 	let isPopupOpen = false;
+// 	//더보기로 열고 닫기
+// 	popupLink.addEventListener("click", function() {
+// 		if (isPopupOpen) {
+// 			popup.style.display = "none"; // 팝업이 이미 열려 있으면 닫기
+// 		} else {
+// 			popup.style.display = "block"; // 팝업이 닫혀 있으면 열기
+// 		}
+// 		isPopupOpen = !isPopupOpen; // 팝업 상태 저장
+// 	});
+// 	//닫기x 아이콘으로 닫기
+// 	popupClose.addEventListener("click", function() {
+// 		popup.style.display = "none";
+// 		isPopupOpen = false; // 팝업을 닫으면 상태를 닫힌 상태로 설정
+// 	});
+// });
+</script>
+
+
+<!-- 날씨 템플릿 -->
+
+
+<div class="area">
+	<ul>
+		<li><a href="javascript:;" id="pop-tos">이용약관</a></li>
+		<li><a href="javascript:;" id="pop-policy"><h3 style="font-weight:bold;">개인정보처리방침</h3></a></li>
+
+		<li><span style="font-size: 16px"><span class="red">관제권(공항주변)</span> 및 <span class="red">원전 주변</span>은 <span class="red">드론 비행승인 대상지역</span>이며 드론 탐지시스템이 운영 중에 있습니다.</span></li>
+	</ul>
+
+	<!--//더보기 팝업 231130 msh 모바일 깨짐 수정 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 기상정보 -->
+	<div class="w_info_wrap">
+		
+
+	<!-- 자기장정보 -->
+	<div id="KP_LEVEL" class="w_info mag g1" title="지구자기장 지수">
+    	<span class="sound">자기장정보</span>
+    	<p class="w_ct">자기장지수(현재) : <span id="KP_VALUE" class="KP_VALUE" value="">3kp</span><br>24시간 최대<span class="KP_MAX_VALUE"> : </span><span id="KP_MAX_VALUE" value="">4kp</span></p>
+	</div>
+   </div> 
+</div>
+
+<!-- 소속기관홈페이지 -->
+<div class="footer_sub">
+	<div class="area">
+		<div class="f_logo"><span class="sound">드론 로고</span></div>
+			<p class="copyright">
+			Copyright (c) Ministry of Land, Infrastructure and Transport. All Rights reserved<br>
+			드론민원포털서비스에 접수된 민원은 관련 법률 및 법령과 시행규칙에 의거하여 처리됩니다.</p>
+		<div class="pt_hp">
+		<form action="">
+			<select name="" id="" onchange="if(this.value) window.open(this.value);">
+				<option value="">소속기관 홈페이지</option>
+				<option value="http://www.molit.go.kr/sroa/intro.do">서울지방항공청</option>
+				<option value="http://www.molit.go.kr/broa/intro.do">부산지방항공청</option>
+				<option value="http://www.molit.go.kr/jroa/intro.do">제주지방항공청</option>
+				<option value="https://www.kotsa.or.kr/">한국교통안전공단</option>
+				<option value="https://www.kotsa.or.kr/edrone">드론정보통합시스템</option>
+			</select>
+		</form>
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+<form target="popupWin_272" method="post" action="/common/popupView?id=272"><input type="hidden" name="id" value="272"><input type="hidden" name="imgSrc" value="/file/download?filePath=/9/2026/10/02/0fdf2fb9-ddcf-424e-90db-5fad93032faa.png"><input type="hidden" name="title" value="청와대 임시비행금지구역 설정 안내"><input type="hidden" name="width" value="700"><input type="hidden" name="height" value="900"><input type="hidden" name="popupId" value="272"></form><form target="popupWin_279" method="post" action="/common/popupView?id=279"><input type="hidden" name="id" value="279"><input type="hidden" name="imgSrc" value="/file/download?filePath=/9/2026/07/01/f37ef1b8-da92-4962-8749-ef17c3a4a78f.PNG"><input type="hidden" name="title" value="(농업용드론) P518 비행금지구역 비행승인 및 인가절차 안내"><input type="hidden" name="width" value="756"><input type="hidden" name="height" value="856"><input type="hidden" name="popupId" value="279"></form><form target="popupWin_286" method="post" action="/common/popupView?id=286"><input type="hidden" name="id" value="286"><input type="hidden" name="imgSrc" value="/file/download?filePath=/9/2026/08/26/ca1fdca4-f02d-48df-a53b-8ab2e791f028.png"><input type="hidden" name="title" value="드론 비행금지구역 처벌이 강화됩니다."><input type="hidden" name="width" value="676"><input type="hidden" name="height" value="838"><input type="hidden" name="popupId" value="286"></form><form target="popupWin_297" method="post" action="/common/popupView?id=297"><input type="hidden" name="id" value="297"><input type="hidden" name="imgSrc" value="/file/download?filePath=/9/2026/11/10/8fd141a2-18ff-4bb7-86d3-a732526044dc.png"><input type="hidden" name="title" value="브이월드 시스템 점검에 따른 이용 제한 안내"><input type="hidden" name="width" value="1212"><input type="hidden" name="height" value="225"><input type="hidden" name="popupId" value="297"></form></body></html>

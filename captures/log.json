@@ -1,44 +1,5 @@
 [
  {
-  "name": "js-11650-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7242,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-30 10:49"
- },
- {
-  "name": "probe-dr-onestop",
-  "ok": true,
-  "status": 200,
-  "title": "드론원스톱 민원서비스",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 29372,
-  "url": "https://drone.onestop.go.kr/",
-  "at": "2026-10-30 15:04"
- },
- {
-  "name": "probe-dr-law",
-  "ok": true,
-  "status": 200,
-  "title": "항공안전법",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 39998,
-  "url": "https://www.law.go.kr/법령/항공안전법",
-  "at": "2026-10-30 15:05"
- },
- {
   "name": "probe-dr-work24",
   "ok": true,
   "status": 200,
@@ -2367,5 +2328,44 @@
   "bytes": 29372,
   "url": "https://drone.onestop.go.kr/",
   "at": "2026-11-11 09:03"
+ },
+ {
+  "name": "dr-law-port-security-52b-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "국제항해선박및항만시설의보안에관한법률",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 43360,
+  "url": "https://www.law.go.kr/법령/국제항해선박및항만시설의보안에관한법률/제52조",
+  "at": "2026-11-11 09:04"
+ },
+ {
+  "name": "dr-law-port-security-52c-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "국제항해선박및항만시설의보안에관한법률",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 43360,
+  "url": "https://www.law.go.kr/법령/국제항해선박및항만시설의보안에관한법률/제52조",
+  "at": "2026-11-11 09:05"
+ },
+ {
+  "name": "dr-onestop-map-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "드론원스톱 민원서비스",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 29266,
+  "url": "https://drone.onestop.go.kr/",
+  "at": "2026-11-11 09:05"
  }
 ]

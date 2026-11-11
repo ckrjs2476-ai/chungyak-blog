@@ -1,5 +1,1 @@
-[
- {"name": "dr-law-port-security-52b-2026-11-11", "url": "https://www.law.go.kr/법령/국제항해선박및항만시설의보안에관한법률/제52조", "sleep": 5, "steps": [{"js": "window.scrollTo(0,560); document.querySelectorAll('iframe').forEach(f=>{try{f.contentWindow.scrollTo(0,560)}catch(e){}}); document.querySelectorAll('div').forEach(d=>{if(d.scrollHeight>d.clientHeight+50){d.scrollTop=560}})", "wait": 1.5}]},
- {"name": "dr-law-port-security-52c-2026-11-11", "url": "https://www.law.go.kr/법령/국제항해선박및항만시설의보안에관한법률/제52조", "sleep": 5, "steps": [{"js": "window.scrollTo(0,1100); document.querySelectorAll('iframe').forEach(f=>{try{f.contentWindow.scrollTo(0,1100)}catch(e){}}); document.querySelectorAll('div').forEach(d=>{if(d.scrollHeight>d.clientHeight+50){d.scrollTop=1100}})", "wait": 1.5}]},
- {"name": "dr-onestop-map-2026-11-11", "url": "https://drone.onestop.go.kr/", "sleep": 4, "steps": [{"click": "지도로 확인하기", "wait": 8}], "dump": true}
-]
+[]
