@@ -1,18 +1,5 @@
 [
  {
-  "name": "cy-2026000518-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   234
-  ],
-  "bytes": 12440,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000518&pblancNo=2026000518",
-  "at": "2026-11-01 11:35"
- },
- {
   "name": "cy-2026000437-special",
   "ok": true,
   "status": 200,
@@ -2418,5 +2405,20 @@
   "bytes": 25194,
   "url": "https://www.law.go.kr/법령/드론활용의촉진및기반조성에관한법률/제2조",
   "at": "2026-11-11 20:08"
+ },
+ {
+  "name": "gw-41463-geumhwa3-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41463",
+   "code": "A44695804"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 17084,
+  "at": "2026-11-11 21:15"
  }
 ]
