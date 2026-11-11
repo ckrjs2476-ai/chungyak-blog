@@ -1,18 +1,5 @@
 [
  {
-  "name": "js-41135-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7328,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-02 10:42"
- },
- {
   "name": "js-11500-rt-form",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2433,5 +2420,18 @@
   "bytes": 37780,
   "url": "https://www.law.go.kr/LSW/lsSc.do?menuId=1&subMenuId=15&tabMenuId=81&query=%EB%93%9C%EB%A1%A0",
   "at": "2026-11-12 08:50"
+ },
+ {
+  "name": "dr-law-defense-drone-hq-decree-2026-11-12",
+  "ok": true,
+  "status": 200,
+  "title": "국방드론본부령",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 34558,
+  "url": "https://www.law.go.kr/법령/국방드론본부령",
+  "at": "2026-11-12 08:51"
  }
 ]
