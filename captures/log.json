@@ -1,31 +1,5 @@
 [
  {
-  "name": "ipo-01938746-dart",
-  "ok": true,
-  "status": 200,
-  "title": "아델/증권신고서(지분증권)/2026.10.27",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32910,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000312",
-  "at": "2026-10-31 07:53"
- },
- {
-  "name": "cy-2026000464-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   555
-  ],
-  "bytes": 22664,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000464&pblancNo=2026000464",
-  "at": "2026-10-31 10:54"
- },
- {
   "name": "cy-2026000463-schedule",
   "ok": true,
   "status": 200,
@@ -2383,5 +2357,36 @@
   ],
   "bytes": 16476,
   "at": "2026-11-11 11:25"
+ },
+ {
+  "name": "js-11710-ratio-history",
+  "ok": true,
+  "chart": {
+   "type": "history",
+   "blog": "jeonse",
+   "entity": "11710",
+   "metric": "ratio84",
+   "title": "송파구 84㎡ 전세가율 기록",
+   "unit": "%"
+  },
+  "size": [
+   760,
+   380
+  ],
+  "bytes": 11304,
+  "at": "2026-11-11 12:43"
+ },
+ {
+  "name": "js-11710-rt-form-1111",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7302,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-11 12:43"
  }
 ]
