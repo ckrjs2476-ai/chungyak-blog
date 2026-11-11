@@ -1,1 +1,44 @@
-[]
+[
+ {
+  "name": "js-11710-ratio-history",
+  "chart": {
+   "type": "history",
+   "blog": "jeonse",
+   "entity": "11710",
+   "metric": "ratio84",
+   "title": "송파구 84㎡ 전세가율 기록",
+   "unit": "%"
+  }
+ },
+ {
+  "name": "js-11710-rt-form-1111",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "서울"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "송파"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
