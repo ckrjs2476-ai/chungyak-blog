@@ -1,31 +1,5 @@
 [
  {
-  "name": "ipo-01783687-dart",
-  "ok": true,
-  "status": 200,
-  "title": "이노보테라퓨틱스/증권신고서(지분증권)/2026.10.21",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32938,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153",
-  "at": "2026-11-01 17:54"
- },
- {
-  "name": "cy-2026000492-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   289
-  ],
-  "bytes": 14264,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000492&pblancNo=2026000492",
-  "at": "2026-11-02 10:42"
- },
- {
   "name": "cy-2026000075-price",
   "ok": true,
   "status": 200,
@@ -2433,5 +2407,31 @@
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "spac-ipo-2026-11-dart",
+  "ok": true,
+  "status": 200,
+  "title": "신영해피투모로우제12호기업인수목적/증권신고서(지분증권)/2026.11.11",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 33172,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000235",
+  "at": "2026-11-12 07:54"
+ },
+ {
+  "name": "spac-ipo-2026-11-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gongmoju/pages/calculator.md",
+  "size": [
+   760,
+   459
+  ],
+  "bytes": 26912,
+  "url": "blogs/gongmoju/pages/calculator.md",
+  "at": "2026-11-12 07:55"
  }
 ]
