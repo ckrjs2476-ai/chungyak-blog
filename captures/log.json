@@ -1,30 +1,6 @@
 [
  {
   "name": "js-26440-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-11200-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-01950720-dart",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367\", waiting until \"networkidle\"\n",
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367"
- },
- {
-  "name": "ipo-00960234-dart",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616\", waiting until \"networkidle\"\n",
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616"
- },
- {
-  "name": "js-26440-rt-form",
   "ok": true,
   "status": 200,
   "title": "국토교통부 실거래가공개시스템 자료제공",
@@ -2390,5 +2366,50 @@
   "bytes": 7346,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-11 19:47"
+ },
+ {
+  "name": "dr-law-drone-act-2-2026-11-11",
+  "ok": false,
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%93%9C%EB%A1%A0%ED%99%9C%EC%9A%A9%EC%9D%98%EC%B4%89%EC%A7%84%EB%B0%8F%EA%B8%B0%EB%B0%98%EC%A1%B0%EC%84%B1%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0/%EC%A0%9C2%EC%A1%B0\nCall log:\n  - navigating to \"https://www.law",
+  "url": "https://www.law.go.kr/법령/드론활용의촉진및기반조성에관한법률/제2조"
+ },
+ {
+  "name": "dr-law-drone-rule-2-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "드론활용의촉진및기반조성에관한법률시행규칙",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 16630,
+  "url": "https://www.law.go.kr/법령/드론활용의촉진및기반조성에관한법률시행규칙/제2조",
+  "at": "2026-11-11 19:59"
+ },
+ {
+  "name": "dr-law-aviation-safety-2-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "항공안전법",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 40452,
+  "url": "https://www.law.go.kr/법령/항공안전법/제2조",
+  "at": "2026-11-11 20:00"
+ },
+ {
+  "name": "dr-elaw-drone-act-en-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "Statutes of the Republic of Korea",
+  "size": [
+   760,
+   900
+  ],
+  "bytes": 91336,
+  "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=71365&type=part&key=41",
+  "at": "2026-11-11 20:00"
  }
 ]
