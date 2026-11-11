@@ -1,1 +1,154 @@
-[]
+[
+ {
+  "name": "gwb-11740-complex-chart",
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11740",
+   "code": "A10026852"
+  }
+ },
+ {
+  "name": "gwb-11590-complex-chart",
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11590",
+   "code": "A15609303"
+  }
+ },
+ {
+  "name": "gwb-11620-sido-chart",
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "11620"
+  }
+ },
+ {
+  "name": "gwb-11650-sido-chart",
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "11650"
+  }
+ },
+ {
+  "name": "gwb-A10027817-calc-1",
+  "page": "blogs/gwanribi/pages/calculator.md",
+  "width": 760,
+  "steps": [
+   {
+    "fill": [
+     "#fee",
+     "4092"
+    ]
+   },
+   {
+    "fill": [
+     "#area",
+     "1"
+    ]
+   },
+   {
+    "pick": [
+     "#reg",
+     "서대문"
+    ]
+   }
+  ],
+  "crop": {
+   "from": "이번 달 관리비 합계",
+   "to": "비교 기준은 이렇게"
+  },
+  "pad": 16
+ },
+ {
+  "name": "gwb-A13822004-calc-1",
+  "page": "blogs/gwanribi/pages/calculator.md",
+  "width": 760,
+  "steps": [
+   {
+    "fill": [
+     "#fee",
+     "3015"
+    ]
+   },
+   {
+    "fill": [
+     "#area",
+     "1"
+    ]
+   },
+   {
+    "pick": [
+     "#reg",
+     "송파"
+    ]
+   }
+  ],
+  "crop": {
+   "from": "이번 달 관리비 합계",
+   "to": "비교 기준은 이렇게"
+  },
+  "pad": 16
+ },
+ {
+  "name": "js-47130-rt-condition",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "경상북"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "경주"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ },
+ {
+  "name": "js-sunchang-rt-condition",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "전북"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "순창"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
