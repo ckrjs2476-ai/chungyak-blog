@@ -1,31 +1,5 @@
 [
  {
-  "name": "cy-2026000446-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   528
-  ],
-  "bytes": 21662,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000446&pblancNo=2026000446",
-  "at": "2026-10-31 10:54"
- },
- {
-  "name": "js-51130-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7340,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-31 10:54"
- },
- {
   "name": "js-26440-rt-form",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2388,5 +2362,33 @@
   "bytes": 11456,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000440&pblancNo=2025000440",
   "at": "2026-11-11 18:43"
+ },
+ {
+  "name": "js-11380-dong-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11380",
+   "highlight": "진관동"
+  },
+  "size": [
+   760,
+   428
+  ],
+  "bytes": 14536,
+  "at": "2026-11-11 19:47"
+ },
+ {
+  "name": "js-11380-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7346,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-11 19:47"
  }
 ]
