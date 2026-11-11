@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "weekly_competition": [
   {
    "no": "2026000528",
@@ -58,6 +58,20 @@
    "type_count": 1
   },
   {
+   "no": "2026000535",
+   "name": "중앙하이츠 구성 플랫폼시티",
+   "region": "경기",
+   "rank1_avg_rate": 5.56,
+   "best": {
+    "ty": "59.967A",
+    "rate": 4.14,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 6,
+   "type_count": 6
+  },
+  {
    "no": "2026000539",
    "name": "남춘천 센트레빌",
    "region": "강원",
@@ -67,7 +81,7 @@
     "rate": 10.0,
     "stage": "1순위 기타지역"
    },
-   "final_shortfall_total": 85,
+   "final_shortfall_total": 67,
    "rank1_closed_types": 3,
    "type_count": 7
   },
@@ -81,7 +95,7 @@
     "rate": 2.5,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 391,
+   "final_shortfall_total": 351,
    "rank1_closed_types": 1,
    "type_count": 10
   },
@@ -91,7 +105,7 @@
    "region": "경기",
    "rank1_avg_rate": 0.28,
    "best": null,
-   "final_shortfall_total": 740,
+   "final_shortfall_total": 686,
    "rank1_closed_types": 0,
    "type_count": 5
   },
@@ -101,7 +115,7 @@
    "region": "경기",
    "rank1_avg_rate": 0.13,
    "best": null,
-   "final_shortfall_total": 250,
+   "final_shortfall_total": 231,
    "rank1_closed_types": 0,
    "type_count": 2
   }
@@ -363,6 +377,21 @@
    ]
   },
   {
+   "no": "2026910288",
+   "name": "안양자이 더 포레스트",
+   "region": "경기",
+   "households": 1,
+   "rcept_date": "2026-11-16",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910288&pblancNo=2026910288",
+   "types": [
+    {
+     "ty": "59.9871A",
+     "price": 68270,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
    "no": "2026910290",
    "name": "청계 노르웨이숲(14차)",
    "region": "서울",
@@ -373,6 +402,66 @@
     {
      "ty": "39.695",
      "price": 73826,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910291",
+   "name": "송도자이 더 스타(3차)",
+   "region": "인천",
+   "households": 1,
+   "rcept_date": "2026-11-16",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910291&pblancNo=2026910291",
+   "types": [
+    {
+     "ty": "151.3362P",
+     "price": 237890,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910293",
+   "name": "이천자이 더 리체",
+   "region": "경기",
+   "households": 3,
+   "rcept_date": "2026-11-16",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910293&pblancNo=2026910293",
+   "types": [
+    {
+     "ty": "84.94B",
+     "price": 49290,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.94C",
+     "price": 51390,
+     "pyeong_price": null
+    },
+    {
+     "ty": "120.58",
+     "price": 69700,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910297",
+   "name": "평택 고덕 국제신도시 A-55 대광로제비앙 모아엘가(4차)",
+   "region": "경기",
+   "households": 3,
+   "rcept_date": "2026-11-16",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910297&pblancNo=2026910297",
+   "types": [
+    {
+     "ty": "84.9452A",
+     "price": 50600,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9704B",
+     "price": 50600,
      "pyeong_price": null
     }
    ]
@@ -1803,6 +1892,34 @@
  },
  "score_cutoffs_90d": [
   {
+   "no": "2026000517",
+   "name": "GTX운정중앙역 시티프라디움 3단지(후속사업)",
+   "region": "경기",
+   "min": {
+    "score": 64,
+    "ty": "84.4998",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 74,
+    "ty": "84.9594"
+   }
+  },
+  {
+   "no": "2026000496",
+   "name": "청라 아크원 푸르지오",
+   "region": "인천",
+   "min": {
+    "score": 36,
+    "ty": "84.921B",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 67,
+    "ty": "84.921B"
+   }
+  },
+  {
    "no": "2026000508",
    "name": "아크메르 동탄 95",
    "region": "경기",
@@ -1884,20 +2001,6 @@
    "max": {
     "score": 69,
     "ty": "84.9722B"
-   }
-  },
-  {
-   "no": "2026000377",
-   "name": "의왕역 한신더휴",
-   "region": "경기",
-   "min": {
-    "score": 0,
-    "ty": "49.9881",
-    "reside": "해당지역"
-   },
-   "max": {
-    "score": 69,
-    "ty": "84.9861B"
    }
   },
   {
@@ -2220,6 +2323,20 @@
    "max": {
     "score": 54,
     "ty": "59.6263"
+   }
+  },
+  {
+   "no": "2026000530",
+   "name": "계양신도시 카이브 유보라(AC3BL)",
+   "region": "인천",
+   "min": {
+    "score": 0,
+    "ty": "84.3473A",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "84.3473A"
    }
   }
  ]

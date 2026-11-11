@@ -38,12 +38,43 @@
  "special_share_pct": 0,
  "price_84_min": 70900,
  "price_84_max": 70900,
+ "competition": {
+  "types": [
+   {
+    "ty": "75.4603",
+    "supply": 4,
+    "closed_at": "None순위 None",
+    "rate": 3.25,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9596",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 5.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 23,
+  "rank1_req": 0,
+  "supply_total": 6,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9596",
+   "rate": 5.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 남양주시",
   "lawd": "41360",
   "months": 12,
-  "updated": "2026-11-11",
-  "n84": 4480,
+  "updated": "2026-11-12",
+  "n84": 4491,
   "median84": 52800,
   "p25_84": 40000,
   "p75_84": 81000,

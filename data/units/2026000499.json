@@ -27,7 +27,7 @@
   "HSSPLY_ADRES": "경기도 평택시 세교동 725번지 일원",
   "HSSPLY_ZIP": "18026",
   "IMPRMN_BSNS_AT": "N",
-  "LRSCL_BLDLND_AT": "Y",
+  "LRSCL_BLDLND_AT": "N",
   "MDAT_TRGET_AREA_SECD": "N",
   "MDHS_TELNO": "16611098",
   "MVN_PREARNGE_YM": "202911",
@@ -150,7 +150,7 @@
  ],
  "competition": [
   {
-   "CMPET_RATE": "1.15",
+   "CMPET_RATE": "(△264)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9424A",
    "MODEL_NO": "01",
@@ -174,19 +174,31 @@
    "SUPLY_HSHLDCO": 403
   },
   {
-   "CMPET_RATE": null,
+   "CMPET_RATE": "(△177)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9424A",
    "MODEL_NO": "01",
    "PBLANC_NO": "2026000499",
-   "REQ_CNT": "0",
-   "RESIDE_SECD": "03",
-   "RESIDE_SENM": "기타경기",
-   "SUBSCRPT_RANK_CODE": 1,
+   "REQ_CNT": "20",
+   "RESIDE_SECD": "01",
+   "RESIDE_SENM": "해당지역",
+   "SUBSCRPT_RANK_CODE": 2,
    "SUPLY_HSHLDCO": 403
   },
   {
-   "CMPET_RATE": "(△49)",
+   "CMPET_RATE": "(△166)",
+   "HOUSE_MANAGE_NO": "2026000499",
+   "HOUSE_TY": "084.9424A",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026000499",
+   "REQ_CNT": "11",
+   "RESIDE_SECD": "02",
+   "RESIDE_SENM": "기타지역",
+   "SUBSCRPT_RANK_CODE": 2,
+   "SUPLY_HSHLDCO": 403
+  },
+  {
+   "CMPET_RATE": "(△188)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9927B",
    "MODEL_NO": "02",
@@ -210,19 +222,31 @@
    "SUPLY_HSHLDCO": 198
   },
   {
-   "CMPET_RATE": null,
+   "CMPET_RATE": "(△171)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9927B",
    "MODEL_NO": "02",
    "PBLANC_NO": "2026000499",
-   "REQ_CNT": "0",
-   "RESIDE_SECD": "03",
-   "RESIDE_SENM": "기타경기",
-   "SUBSCRPT_RANK_CODE": 1,
+   "REQ_CNT": "7",
+   "RESIDE_SECD": "01",
+   "RESIDE_SENM": "해당지역",
+   "SUBSCRPT_RANK_CODE": 2,
    "SUPLY_HSHLDCO": 198
   },
   {
-   "CMPET_RATE": "(△28)",
+   "CMPET_RATE": "(△167)",
+   "HOUSE_MANAGE_NO": "2026000499",
+   "HOUSE_TY": "084.9927B",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026000499",
+   "REQ_CNT": "4",
+   "RESIDE_SECD": "02",
+   "RESIDE_SENM": "기타지역",
+   "SUBSCRPT_RANK_CODE": 2,
+   "SUPLY_HSHLDCO": 198
+  },
+  {
+   "CMPET_RATE": "(△138)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9839C",
    "MODEL_NO": "03",
@@ -246,19 +270,31 @@
    "SUPLY_HSHLDCO": 157
   },
   {
-   "CMPET_RATE": null,
+   "CMPET_RATE": "(△129)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9839C",
    "MODEL_NO": "03",
    "PBLANC_NO": "2026000499",
-   "REQ_CNT": "0",
-   "RESIDE_SECD": "03",
-   "RESIDE_SENM": "기타경기",
-   "SUBSCRPT_RANK_CODE": 1,
+   "REQ_CNT": "2",
+   "RESIDE_SECD": "01",
+   "RESIDE_SENM": "해당지역",
+   "SUBSCRPT_RANK_CODE": 2,
    "SUPLY_HSHLDCO": 157
   },
   {
-   "CMPET_RATE": "(△24)",
+   "CMPET_RATE": "(△127)",
+   "HOUSE_MANAGE_NO": "2026000499",
+   "HOUSE_TY": "084.9839C",
+   "MODEL_NO": "03",
+   "PBLANC_NO": "2026000499",
+   "REQ_CNT": "2",
+   "RESIDE_SECD": "02",
+   "RESIDE_SENM": "기타지역",
+   "SUBSCRPT_RANK_CODE": 2,
+   "SUPLY_HSHLDCO": 157
+  },
+  {
+   "CMPET_RATE": "(△106)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9199D",
    "MODEL_NO": "04",
@@ -282,19 +318,31 @@
    "SUPLY_HSHLDCO": 117
   },
   {
-   "CMPET_RATE": null,
+   "CMPET_RATE": "(△99)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "084.9199D",
    "MODEL_NO": "04",
    "PBLANC_NO": "2026000499",
    "REQ_CNT": "0",
-   "RESIDE_SECD": "03",
-   "RESIDE_SENM": "기타경기",
-   "SUBSCRPT_RANK_CODE": 1,
+   "RESIDE_SECD": "01",
+   "RESIDE_SENM": "해당지역",
+   "SUBSCRPT_RANK_CODE": 2,
    "SUPLY_HSHLDCO": 117
   },
   {
-   "CMPET_RATE": "(△36)",
+   "CMPET_RATE": "(△99)",
+   "HOUSE_MANAGE_NO": "2026000499",
+   "HOUSE_TY": "084.9199D",
+   "MODEL_NO": "04",
+   "PBLANC_NO": "2026000499",
+   "REQ_CNT": "0",
+   "RESIDE_SECD": "02",
+   "RESIDE_SENM": "기타지역",
+   "SUBSCRPT_RANK_CODE": 2,
+   "SUPLY_HSHLDCO": 117
+  },
+  {
+   "CMPET_RATE": "(△139)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "116.9134 ",
    "MODEL_NO": "05",
@@ -318,18 +366,30 @@
    "SUPLY_HSHLDCO": 147
   },
   {
-   "CMPET_RATE": null,
+   "CMPET_RATE": "(△131)",
    "HOUSE_MANAGE_NO": "2026000499",
    "HOUSE_TY": "116.9134 ",
    "MODEL_NO": "05",
    "PBLANC_NO": "2026000499",
-   "REQ_CNT": "0",
-   "RESIDE_SECD": "03",
-   "RESIDE_SENM": "기타경기",
-   "SUBSCRPT_RANK_CODE": 1,
+   "REQ_CNT": "4",
+   "RESIDE_SECD": "01",
+   "RESIDE_SENM": "해당지역",
+   "SUBSCRPT_RANK_CODE": 2,
+   "SUPLY_HSHLDCO": 147
+  },
+  {
+   "CMPET_RATE": "(△127)",
+   "HOUSE_MANAGE_NO": "2026000499",
+   "HOUSE_TY": "116.9134 ",
+   "MODEL_NO": "05",
+   "PBLANC_NO": "2026000499",
+   "REQ_CNT": "4",
+   "RESIDE_SECD": "02",
+   "RESIDE_SENM": "기타지역",
+   "SUBSCRPT_RANK_CODE": 2,
    "SUPLY_HSHLDCO": 147
   }
  ],
  "score": [],
- "fetched_at": "2026-11-11T10:56:20.342470+09:00"
+ "fetched_at": "2026-11-12T02:08:32.748244+09:00"
 }

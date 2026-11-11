@@ -1,0 +1,58 @@
+{
+ "no": "2026910297",
+ "name": "평택 고덕 국제신도시 A-55 대광로제비앙 모아엘가(4차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-11-11",
+ "rank1_date": "2026-11-16",
+ "city": "평택시",
+ "supply_kind": "",
+ "winner_date": "2026-11-19",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910297&pblancNo=2026910297",
+ "households": 3,
+ "types": [
+  {
+   "ty": "84.9452A",
+   "size": 84,
+   "price": 50600,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9704B",
+   "size": 84,
+   "price": 50600,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 50600,
+ "price_84_max": 50600,
+ "market": {
+  "region": "경기도 평택시",
+  "lawd": "41220",
+  "months": 12,
+  "updated": "2026-11-11",
+  "n84": 2897,
+  "median84": 36500,
+  "p25_84": 25850,
+  "p75_84": 52000,
+  "new_n84": 775,
+  "new_median84": 56800,
+  "new_build_years": 5,
+  "diff_vs_median84": 14100,
+  "diff_pct_vs_median84": 39,
+  "diff_vs_new_median84": -6200,
+  "diff_pct_vs_new_median84": -11
+ }
+}
