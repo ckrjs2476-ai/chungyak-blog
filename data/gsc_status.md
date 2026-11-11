@@ -66,3 +66,10 @@
   - 드론 3: drone-pilot-salary-work24-2026, drone-delivery-status-2026, drone-survey-law-2026
   - 관리비 3: apartment-security-fee-uijeongbu-2026-08, gangdong-gu-apartment-management-fee, gwanak-gu-apartment-management-fee-by
   - 다음 실행 11-11 10:40: 공모주(ipo-offer-price-2026-11 먼저) → 전세 → 청약 → 드론 → 관리비
+
+- 11-11 오전(10:41~10:48) 11건 요청, 12번째(드론 drone-law-three-acts-2026)에서 할당량 초과
+  - 공모주 3: ipo-offer-price-2026-11(11-10 남은 것), mothers-pharm-ipo-2026-12, est-ipo-2026-10
+  - 전세 3: siheung-si-jeonse-complex-spread-2026-11, dongtan-gu-jeonse-dong-gap-2026-10, sejong-si-jeonse-ratio-2026-10
+  - 청약 3: weekly-competition-ranking-2026-11-1w, ssangyong-platinum-hangang-cheongyak, jinju-panmun-lake-summit-welga-score
+  - 드론 2: drone-show-hangang-2026, drone-battery-wh-flight-2026
+  - 다음 실행 11-12 11:00: 드론(drone-law-three-acts-2026 먼저) → 관리비 → 공모주 → 전세 → 청약
