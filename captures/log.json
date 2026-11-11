@@ -1,95 +1,5 @@
 [
  {
-  "name": "cy-2026000437-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   261
-  ],
-  "bytes": 13762,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000437&pblancNo=2026000437",
-  "at": "2026-11-01 11:35"
- },
- {
-  "name": "cy-2026000448-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   234
-  ],
-  "bytes": 12356,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000448&pblancNo=2026000448",
-  "at": "2026-11-01 11:36"
- },
- {
-  "name": "cy-2026000267-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   555
-  ],
-  "bytes": 23782,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000267&pblancNo=2026000267",
-  "at": "2026-11-01 11:36"
- },
- {
-  "name": "js-41597-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7320,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-01 11:36"
- },
- {
-  "name": "js-41463-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-01880139-dart",
-  "ok": true,
-  "status": 200,
-  "title": "케이엠에프/증권신고서(지분증권)/2026.10.27",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32700,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000388",
-  "at": "2026-11-01 11:36"
- },
- {
-  "name": "ipo-01795859-dart",
-  "ok": true,
-  "status": 200,
-  "title": "엔키화이트햇/증권신고서(지분증권)/2026.10.27",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32910,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000363",
-  "at": "2026-11-01 11:36"
- },
- {
-  "name": "ipo-01543043-dart",
-  "ok": false,
-  "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158\", waiting until \"networkidle\"\n",
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000158"
- },
- {
   "name": "ipo-01783687-dart",
   "ok": true,
   "status": 200,
@@ -2420,5 +2330,108 @@
   ],
   "bytes": 17084,
   "at": "2026-11-11 21:15"
+ },
+ {
+  "name": "gwb-11740-complex-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11740",
+   "code": "A10026852"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16598,
+  "at": "2026-11-11 22:44"
+ },
+ {
+  "name": "gwb-11590-complex-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11590",
+   "code": "A15609303"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16250,
+  "at": "2026-11-11 22:44"
+ },
+ {
+  "name": "gwb-11620-sido-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "11620"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 22914,
+  "at": "2026-11-11 22:44"
+ },
+ {
+  "name": "gwb-11650-sido-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "11650"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 22856,
+  "at": "2026-11-11 22:44"
+ },
+ {
+  "name": "gwb-A10027817-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16936,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-11 22:44"
+ },
+ {
+  "name": "gwb-A13822004-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16582,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-11 22:44"
+ },
+ {
+  "name": "js-47130-rt-condition",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7272,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-11 22:44"
+ },
+ {
+  "name": "js-sunchang-rt-condition",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
  }
 ]
