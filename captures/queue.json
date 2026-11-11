@@ -1,1 +1,33 @@
-[]
+[
+ {
+  "name": "js-sunchang-rt-condition",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 5,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "전북"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "순창"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
