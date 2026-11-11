@@ -1,33 +1,4 @@
 [
- {
-  "name": "js-sunchang-rt-condition",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "sleep": 5,
-  "pad": 20,
-  "steps": [
-   {
-    "click": "전월세",
-    "exact": true,
-    "wait": 1.5
-   },
-   {
-    "pick": [
-     "#srhSidoCd",
-     "전북"
-    ],
-    "wait": 2
-   },
-   {
-    "pick": [
-     "#srhSggCd",
-     "순창"
-    ],
-    "wait": 2
-   }
-  ],
-  "crop": {
-   "from": "연립/다세대"
-  },
-  "height": 560
- }
+ {"name": "spac-ipo-2026-11-dart", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000235", "sleep": 4},
+ {"name": "spac-ipo-2026-11-calc-1", "page": "blogs/gongmoju/pages/calculator.md", "width": 760, "steps": [{"pick": ["#co", "신영해피투모로우제12호"]}, {"fill": ["#qty", "1000"]}], "crop": {"from": "공모 기업", "to": "증거금은 이렇게"}, "pad": 16}
 ]
