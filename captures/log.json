@@ -1,63 +1,5 @@
 [
  {
-  "name": "cy-2026000267-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   293
-  ],
-  "bytes": 10194,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000267&pblancNo=2026000267",
-  "at": "2026-10-30 10:45"
- },
- {
-  "name": "js-11740-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7232,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-10-30 10:45"
- },
- {
-  "name": "js-11650-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-01705740-dart",
-  "ok": true,
-  "status": 200,
-  "title": "엠비디/증권신고서(지분증권)/2026.10.15",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 31064,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000329",
-  "at": "2026-10-30 10:49"
- },
- {
-  "name": "ipo-01835829-dart",
-  "ok": true,
-  "status": 200,
-  "title": "바로팜/증권신고서(지분증권)/2026.10.15",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33140,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015000345",
-  "at": "2026-10-30 10:49"
- },
- {
   "name": "js-11650-rt-form",
   "ok": true,
   "status": 200,
@@ -2360,5 +2302,70 @@
   "bytes": 25938,
   "url": "blogs/gongmoju/pages/calculator.md",
   "at": "2026-11-11 07:53"
+ },
+ {
+  "name": "dr-korea-port-drone-map-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "항만 내 드론 비행 금지 정보, 이제는 지도에서 바로 확인하세요! - 보도자료 | 브리핑룸 | 대한민국 정책브리핑",
+  "size": [
+   760,
+   3058
+  ],
+  "bytes": 146814,
+  "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788552",
+  "at": "2026-11-11 09:02"
+ },
+ {
+  "name": "dr-law-port-security-33-2-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "국제항해선박및항만시설의보안에관한법률",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 27028,
+  "url": "https://www.law.go.kr/법령/국제항해선박및항만시설의보안에관한법률/제33조의2",
+  "at": "2026-11-11 09:02"
+ },
+ {
+  "name": "dr-law-port-security-33-3-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "국제항해선박및항만시설의보안에관한법률",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 7228,
+  "url": "https://www.law.go.kr/법령/국제항해선박및항만시설의보안에관한법률/제33조의3",
+  "at": "2026-11-11 09:02"
+ },
+ {
+  "name": "dr-law-port-security-52-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "국제항해선박및항만시설의보안에관한법률",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 43360,
+  "url": "https://www.law.go.kr/법령/국제항해선박및항만시설의보안에관한법률/제52조",
+  "at": "2026-11-11 09:03"
+ },
+ {
+  "name": "dr-onestop-home-2026-11-11",
+  "ok": true,
+  "status": 200,
+  "title": "드론원스톱 민원서비스",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 29372,
+  "url": "https://drone.onestop.go.kr/",
+  "at": "2026-11-11 09:03"
  }
 ]
