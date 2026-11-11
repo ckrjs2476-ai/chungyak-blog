@@ -2,20 +2,20 @@
  "lawd": "11350",
  "name": "서울특별시 노원구",
  "months": 12,
- "updated": "2026-11-10",
- "trade_count": 7161,
- "cancel_count": 161,
- "n84": 1426,
+ "updated": "2026-11-11",
+ "trade_count": 7188,
+ "cancel_count": 162,
+ "n84": 1431,
  "median84": 83000,
  "p25_84": 68000,
- "p75_84": 97725,
- "median84_pyeong_excl": 3240,
- "new_n84": 69,
- "new_median84": 114300,
+ "p75_84": 97700,
+ "median84_pyeong_excl": 3247,
+ "new_n84": 70,
+ "new_median84": 114500,
  "new_build_years": 5,
  "umd84": {
   "상계동": {
-   "n": 412,
+   "n": 415,
    "median": 68500
   },
   "월계동": {
@@ -23,11 +23,11 @@
    "median": 93700
   },
   "공릉동": {
-   "n": 272,
-   "median": 78750
+   "n": 273,
+   "median": 79000
   },
   "중계동": {
-   "n": 339,
+   "n": 340,
    "median": 86000
   },
   "하계동": {
@@ -98,21 +98,21 @@
   },
   {
    "month": "2026-10",
-   "count": 326,
-   "n84": 74,
-   "median84": 86200
+   "count": 351,
+   "n84": 78,
+   "median84": 87700
   },
   {
    "month": "2026-11",
-   "count": 6,
-   "n84": 1,
-   "median84": 106000
+   "count": 8,
+   "n84": 2,
+   "median84": 110500
   }
  ],
  "top_apts": [
   {
    "name": "상계동 상계주공9(고층)",
-   "count": 167,
+   "count": 169,
    "median84": null,
    "built": 1988
   },
@@ -124,7 +124,7 @@
   },
   {
    "name": "중계동 중계그린1단지",
-   "count": 164,
+   "count": 165,
    "median84": null,
    "built": 1990
   },
@@ -136,13 +136,13 @@
   },
   {
    "name": "상계동 상계주공14(고층)",
-   "count": 143,
+   "count": 145,
    "median84": null,
    "built": 1989
   },
   {
    "name": "중계동 중계무지개",
-   "count": 143,
+   "count": 144,
    "median84": null,
    "built": 1991
   },
@@ -154,7 +154,7 @@
   },
   {
    "name": "공릉동 태강아파트(아이파크)",
-   "count": 133,
+   "count": 135,
    "median84": null,
    "built": 1999
   },
@@ -166,7 +166,7 @@
   },
   {
    "name": "상계동 상계주공1(고층)",
-   "count": 126,
+   "count": 127,
    "median84": null,
    "built": 1988
   }
