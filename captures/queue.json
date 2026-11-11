@@ -1,1 +1,4 @@
-[]
+[
+  {"name": "js-11380-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "11380", "highlight": "진관동"}},
+  {"name": "js-11380-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "서울"], "wait": 2}, {"pick": ["#srhSggCd", "은평"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
+]
