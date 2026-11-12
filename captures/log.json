@@ -1,62 +1,5 @@
 [
  {
-  "name": "js-48170-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7238,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-04 10:41"
- },
- {
-  "name": "js-30230-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-41463-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7360,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-04 10:42"
- },
- {
-  "name": "js-41220-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-01077540-dart",
-  "ok": true,
-  "status": 200,
-  "title": "씨아이에스케미칼/증권신고서(지분증권)/2026.10.19",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 31146,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000343",
-  "at": "2026-11-04 10:42"
- },
- {
-  "name": "js-30230-rt-form",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
   "name": "js-41220-rt-form",
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2482,5 +2425,88 @@
   "bytes": 16336,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-12 21:16"
+ },
+ {
+  "name": "gw-11545-gasan-doosan-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11545",
+   "code": "A15380403"
+  },
+  "size": [
+   760,
+   780
+  ],
+  "bytes": 34224,
+  "at": "2026-11-12 22:40"
+ },
+ {
+  "name": "gw-11560-dangsan-daewoo-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11560",
+   "code": "A15004201"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 15702,
+  "at": "2026-11-12 22:40"
+ },
+ {
+  "name": "gw-41117-gyeonggi-sido-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "41117"
+  },
+  "size": [
+   760,
+   940
+  ],
+  "bytes": 29842,
+  "at": "2026-11-12 22:40"
+ },
+ {
+  "name": "gw-calc-mokdong-trapalace-84-1112",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16936,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-12 22:40"
+ },
+ {
+  "name": "gw-calc-omokcheon-ssangyong-84-1112",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16874,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-12 22:40"
+ },
+ {
+  "name": "gw-calc-imun-ipark-xi-84-1112",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16954,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-12 22:41"
  }
 ]
