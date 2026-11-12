@@ -1,18 +1,6 @@
 [
  {
   "name": "js-11500-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-11200-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-11500-rt-form",
   "ok": true,
   "status": 200,
   "title": "국토교통부 실거래가공개시스템 자료제공",
@@ -2433,5 +2421,31 @@
   "bytes": 34558,
   "url": "https://www.law.go.kr/법령/국방드론본부령",
   "at": "2026-11-12 08:51"
+ },
+ {
+  "name": "cheongna-arkone-prugio-score-2026-11-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "pages/calculator.md",
+  "size": [
+   760,
+   431
+  ],
+  "bytes": 19306,
+  "url": "pages/calculator.md",
+  "at": "2026-11-12 09:52"
+ },
+ {
+  "name": "cheongna-arkone-prugio-score-2026-11-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "pages/calculator.md",
+  "size": [
+   760,
+   431
+  ],
+  "bytes": 19142,
+  "url": "pages/calculator.md",
+  "at": "2026-11-12 09:53"
  }
 ]
