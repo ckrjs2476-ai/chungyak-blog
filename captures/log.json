@@ -1,18 +1,5 @@
 [
  {
-  "name": "cy-2026000371-special",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   344
-  ],
-  "bytes": 16344,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000371&pblancNo=2026000371",
-  "at": "2026-11-04 10:40"
- },
- {
   "name": "cy-2026000373-schedule",
   "ok": false,
   "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
@@ -2473,5 +2460,18 @@
   "bytes": 16630,
   "url": "blogs/drone/pages/calculator.md",
   "at": "2026-11-12 20:25"
+ },
+ {
+  "name": "dr-onestop-biz-docs-2026-11-12",
+  "ok": true,
+  "status": 200,
+  "title": "드론원스톱 민원서비스",
+  "size": [
+   760,
+   567
+  ],
+  "bytes": 27420,
+  "url": "https://drone.onestop.go.kr/introduce/systemintro2",
+  "at": "2026-11-12 20:27"
  }
 ]
