@@ -1,24 +1,5 @@
 [
  {
-  "name": "cy-2026000373-schedule",
-  "ok": false,
-  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373"
- },
- {
-  "name": "cy-2026000508-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   348
-  ],
-  "bytes": 11576,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
-  "at": "2026-11-04 10:41"
- },
- {
   "name": "js-48170-rt-form",
   "ok": true,
   "status": 200,
@@ -2473,5 +2454,33 @@
   "bytes": 27420,
   "url": "https://drone.onestop.go.kr/introduce/systemintro2",
   "at": "2026-11-12 20:27"
+ },
+ {
+  "name": "gw-41220-songdam-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41220",
+   "code": "A10027298"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 17028,
+  "at": "2026-11-12 21:15"
+ },
+ {
+  "name": "gw-calc-songdam-84-1112",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16336,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-12 21:16"
  }
 ]
