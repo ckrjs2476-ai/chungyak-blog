@@ -1,44 +1,5 @@
 [
  {
-  "name": "ipo-01860700-dart",
-  "ok": true,
-  "status": 200,
-  "title": "인터엑스/증권신고서(지분증권)/2026.10.22",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33732,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478",
-  "at": "2026-11-03 10:44"
- },
- {
-  "name": "ipo-01649408-dart",
-  "ok": true,
-  "status": 200,
-  "title": "인텔리빅스/증권신고서(지분증권)/2026.10.20",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 20950,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000360",
-  "at": "2026-11-03 10:45"
- },
- {
-  "name": "js-41480-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7188,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-03 10:55"
- },
- {
   "name": "js-11200-rt-form",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2466,5 +2427,44 @@
   "bytes": 15360,
   "url": "blogs/jeonse/pages/calculator.md",
   "at": "2026-11-12 19:47"
+ },
+ {
+  "name": "dr-onestop-home-2026-11-12",
+  "ok": true,
+  "status": 200,
+  "title": "드론원스톱 민원서비스",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 29372,
+  "url": "https://drone.onestop.go.kr/",
+  "at": "2026-11-12 20:00"
+ },
+ {
+  "name": "dr-onestop-notice-229-2026-11-12",
+  "ok": true,
+  "status": 200,
+  "title": "드론원스톱 민원서비스",
+  "size": [
+   760,
+   967
+  ],
+  "bytes": 24236,
+  "url": "https://drone.onestop.go.kr/board/notice/read?id=229",
+  "at": "2026-11-12 20:00"
+ },
+ {
+  "name": "dr-datagokr-onestop-stats-2026-11-12",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 서울지방항공청_드론 원스톱 민원서비스 민원 통계_20250630 | 공공데이터포털",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 39636,
+  "url": "https://www.data.go.kr/data/15144338/fileData.do",
+  "at": "2026-11-12 20:00"
  }
 ]
