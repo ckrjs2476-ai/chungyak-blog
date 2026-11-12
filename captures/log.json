@@ -1,18 +1,5 @@
 [
  {
-  "name": "js-41570-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7180,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-03 10:43"
- },
- {
   "name": "js-41480-rt-form",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2458,5 +2445,18 @@
   "bytes": 25400,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910290&pblancNo=2026910290",
   "at": "2026-11-12 18:39"
+ },
+ {
+  "name": "cy-2026000291-price-1112",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   210
+  ],
+  "bytes": 8504,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000291&pblancNo=2026000291",
+  "at": "2026-11-12 18:43"
  }
 ]
