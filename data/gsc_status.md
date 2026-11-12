@@ -73,3 +73,10 @@
   - 청약 3: weekly-competition-ranking-2026-11-1w, ssangyong-platinum-hangang-cheongyak, jinju-panmun-lake-summit-welga-score
   - 드론 2: drone-show-hangang-2026, drone-battery-wh-flight-2026
   - 다음 실행 11-12 11:00: 드론(drone-law-three-acts-2026 먼저) → 관리비 → 공모주 → 전세 → 청약
+
+- 11-12 오전(10:58~11:12) 10건 요청, 11번째(전세 jeonse-ratio-top-regions-2026-10)에서 할당량 초과
+  - 드론 3: drone-law-three-acts-2026(11-11 남은 것), drone-defense-hq-2026, drone-taxi-uam-schedule-2026
+  - 관리비 3: geumhwa-jugong-3-management-fee-2026-09, dongjak-gu-apartment-management-fee, seocho-gu-apartment-management-fee-gap
+  - 공모주 3: spac-ipo-2026-11, lablup-ipo-2026-10, ipo-week-2026-10-19
+  - 전세 1: seoul-eunpyeong-gu-jeonse-jingwan-dong (처음에 주소 월을 2026/10으로 잘못 넣어 404로 거부됨 → 2026/11 바른 주소로 다시 요청. 할당량은 안 씀)
+  - 다음 실행 11-13 11:22: 전세(jeonse-ratio-top-regions-2026-10 먼저) → 청약 → 드론 → 관리비 → 공모주. 주소는 published.json의 url을 그대로 쓴다.
