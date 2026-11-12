@@ -2,33 +2,33 @@
  "lawd": "11350",
  "name": "서울특별시 노원구",
  "months": 12,
- "updated": "2026-11-11",
- "trade_count": 7188,
+ "updated": "2026-11-12",
+ "trade_count": 7230,
  "cancel_count": 162,
- "n84": 1431,
+ "n84": 1440,
  "median84": 83000,
  "p25_84": 68000,
- "p75_84": 97700,
- "median84_pyeong_excl": 3247,
+ "p75_84": 97775,
+ "median84_pyeong_excl": 3248,
  "new_n84": 70,
  "new_median84": 114500,
  "new_build_years": 5,
  "umd84": {
+  "공릉동": {
+   "n": 277,
+   "median": 79000
+  },
   "상계동": {
-   "n": 415,
+   "n": 417,
    "median": 68500
   },
   "월계동": {
-   "n": 237,
-   "median": 93700
-  },
-  "공릉동": {
-   "n": 273,
-   "median": 79000
+   "n": 238,
+   "median": 94100
   },
   "중계동": {
-   "n": 340,
-   "median": 86000
+   "n": 342,
+   "median": 86150
   },
   "하계동": {
    "n": 166,
@@ -98,51 +98,51 @@
   },
   {
    "month": "2026-10",
-   "count": 351,
-   "n84": 78,
-   "median84": 87700
+   "count": 388,
+   "n84": 85,
+   "median84": 86900
   },
   {
    "month": "2026-11",
-   "count": 8,
-   "n84": 2,
-   "median84": 110500
+   "count": 13,
+   "n84": 4,
+   "median84": 99500
   }
  ],
  "top_apts": [
   {
    "name": "상계동 상계주공9(고층)",
-   "count": 169,
+   "count": 170,
    "median84": null,
    "built": 1988
   },
   {
    "name": "상계동 상계주공6(고층)",
-   "count": 166,
+   "count": 167,
    "median84": null,
    "built": 1988
   },
   {
    "name": "중계동 중계그린1단지",
-   "count": 165,
+   "count": 166,
    "median84": null,
    "built": 1990
   },
   {
    "name": "상계동 상계주공7(고층)",
-   "count": 161,
+   "count": 163,
    "median84": null,
    "built": 1988
   },
   {
    "name": "상계동 상계주공14(고층)",
-   "count": 145,
+   "count": 147,
    "median84": null,
    "built": 1989
   },
   {
    "name": "중계동 중계무지개",
-   "count": 144,
+   "count": 146,
    "median84": null,
    "built": 1991
   },
@@ -160,13 +160,13 @@
   },
   {
    "name": "상계동 상계주공16(고층)",
-   "count": 129,
+   "count": 130,
    "median84": null,
    "built": 1988
   },
   {
    "name": "상계동 상계주공1(고층)",
-   "count": 127,
+   "count": 128,
    "median84": null,
    "built": 1988
   }
