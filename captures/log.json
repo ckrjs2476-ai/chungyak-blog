@@ -1,44 +1,5 @@
 [
  {
-  "name": "js-41463-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 6782,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-03 11:00"
- },
- {
-  "name": "js-41220-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 6110,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-03 11:01"
- },
- {
-  "name": "cy-2026000496-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   571
-  ],
-  "bytes": 23926,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
-  "at": "2026-11-04 10:40"
- },
- {
   "name": "cy-2026000126-special",
   "ok": true,
   "status": 200,
@@ -2480,5 +2441,37 @@
   "bytes": 12600,
   "url": "https://drone.onestop.go.kr/civilappeal/flightphotos/registerF",
   "at": "2026-11-12 20:19"
+ },
+ {
+  "name": "dr-onestop-biz-docs-2026-11-12",
+  "ok": false,
+  "error": "보이는 '초경량비행장치사업자등록' 없음",
+  "url": "https://drone.onestop.go.kr/introduce/systemintro2"
+ },
+ {
+  "name": "dr-onestop-calc-1-2026-11-12",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16824,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-12 20:22"
+ },
+ {
+  "name": "dr-onestop-calc-2-2026-11-12",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14694,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-12 20:23"
  }
 ]
