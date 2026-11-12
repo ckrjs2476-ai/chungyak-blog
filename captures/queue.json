@@ -1,1 +1,5 @@
-[]
+[
+  {"name": "js-48129-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "48129", "highlight": "용원동"}},
+  {"name": "js-48129-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경상남"], "wait": 2}, {"pick": ["#srhSggCd", "진해"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
+  {"name": "js-48129-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "22950"]}, {"fill": ["#dep", "25750"]}, {"pick": ["#reg", "진해"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16}
+]
