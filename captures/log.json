@@ -1,11 +1,5 @@
 [
  {
-  "name": "js-41220-rt-form",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
   "name": "js-36110-rt-form",
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2508,5 +2502,20 @@
   "bytes": 16954,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-12 22:41"
+ },
+ {
+  "name": "gw-11530-dcube-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11530",
+   "code": "A15277302"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16292,
+  "at": "2026-11-12 22:46"
  }
 ]
