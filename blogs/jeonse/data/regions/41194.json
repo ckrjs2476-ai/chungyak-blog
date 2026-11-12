@@ -1,65 +1,65 @@
 {
  "lawd": "41194",
  "name": "경기도 부천시 소사구",
- "updated": "2026-10-29",
+ "updated": "2026-11-12",
  "months": 12,
- "jeonse_count": 1713,
- "wolse_count": 1237,
- "wolse_share_pct": 41.9,
- "renew_share_pct": 27.6,
- "jeonse_n84": 540,
- "jeonse_median84": 43000,
- "sale_n84": 805,
- "sale_median84": 59900,
- "ratio84": 71.8,
- "jeonse_recent3_median84": 41000,
+ "jeonse_count": 1631,
+ "wolse_count": 1152,
+ "wolse_share_pct": 41.4,
+ "renew_share_pct": 27.3,
+ "jeonse_n84": 494,
+ "jeonse_median84": 42995,
+ "sale_n84": 791,
+ "sale_median84": 59500,
+ "ratio84": 72.3,
+ "jeonse_recent3_median84": 45000,
  "jeonse_prev3_median84": 42000,
- "jeonse_change_pct": -2.4,
+ "jeonse_change_pct": 7.1,
  "apts_with_both": 43,
- "apts_ratio_80_plus": 3,
- "apts_ratio_70_plus": 23,
+ "apts_ratio_80_plus": 2,
+ "apts_ratio_70_plus": 20,
  "umd": {
   "괴안동": {
-   "jeonse_n": 59,
-   "jeonse_median84": 49000,
-   "sale_n": 69,
-   "sale_median84": 55000,
-   "ratio": 89.1
+   "jeonse_n": 52,
+   "jeonse_median84": 54600,
+   "sale_n": 68,
+   "sale_median84": 43500,
+   "ratio": 125.5
   },
   "범박동": {
-   "jeonse_n": 101,
+   "jeonse_n": 94,
    "jeonse_median84": 42000,
-   "sale_n": 192,
-   "sale_median84": 57900,
-   "ratio": 72.5
+   "sale_n": 195,
+   "sale_median84": 57500,
+   "ratio": 73.0
   },
   "소사본동": {
-   "jeonse_n": 145,
-   "jeonse_median84": 42000,
-   "sale_n": 220,
-   "sale_median84": 55100,
-   "ratio": 76.2
+   "jeonse_n": 120,
+   "jeonse_median84": 38925,
+   "sale_n": 216,
+   "sale_median84": 55350,
+   "ratio": 70.3
   },
   "송내동": {
-   "jeonse_n": 120,
-   "jeonse_median84": 37250,
-   "sale_n": 154,
+   "jeonse_n": 117,
+   "jeonse_median84": 37500,
+   "sale_n": 147,
    "sale_median84": 60000,
-   "ratio": 62.1
+   "ratio": 62.5
   },
   "심곡본동": {
-   "jeonse_n": 17,
-   "jeonse_median84": 23000,
+   "jeonse_n": 16,
+   "jeonse_median84": 24000,
    "sale_n": 10,
    "sale_median84": 33650,
-   "ratio": 68.4
+   "ratio": 71.3
   },
   "옥길동": {
-   "jeonse_n": 98,
-   "jeonse_median84": 46000,
-   "sale_n": 160,
-   "sale_median84": 67500,
-   "ratio": 68.1
+   "jeonse_n": 95,
+   "jeonse_median84": 46800,
+   "sale_n": 155,
+   "sale_median84": 68000,
+   "ratio": 68.8
   }
  },
  "top_ratio_apts": [
@@ -79,7 +79,7 @@
    "built": 1996,
    "jeonse_n": 16,
    "jeonse_median84": 34000,
-   "sale_n": 32,
+   "sale_n": 29,
    "sale_median84": 40000,
    "ratio": 85.0
   },
@@ -89,19 +89,19 @@
    "built": 2010,
    "jeonse_n": 3,
    "jeonse_median84": 35000,
-   "sale_n": 5,
-   "sale_median84": 43500,
-   "ratio": 80.5
+   "sale_n": 4,
+   "sale_median84": 44500,
+   "ratio": 78.7
   },
   {
    "umd": "범박동",
-   "apt": "부천범박힐스테이트 6단지",
-   "built": 2003,
-   "jeonse_n": 4,
-   "jeonse_median84": 37500,
-   "sale_n": 7,
-   "sale_median84": 48000,
-   "ratio": 78.1
+   "apt": "부천범박힐스테이트2단지",
+   "built": 2004,
+   "jeonse_n": 6,
+   "jeonse_median84": 41500,
+   "sale_n": 5,
+   "sale_median84": 53000,
+   "ratio": 78.3
   },
   {
    "umd": "괴안동",
@@ -129,9 +129,29 @@
    "built": 2003,
    "jeonse_n": 5,
    "jeonse_median84": 35000,
-   "sale_n": 13,
-   "sale_median84": 46000,
-   "ratio": 76.1
+   "sale_n": 12,
+   "sale_median84": 45750,
+   "ratio": 76.5
+  },
+  {
+   "umd": "괴안동",
+   "apt": "삼익세라믹",
+   "built": 1988,
+   "jeonse_n": 2,
+   "jeonse_median84": 30500,
+   "sale_n": 9,
+   "sale_median84": 40000,
+   "ratio": 76.2
+  },
+  {
+   "umd": "심곡본동",
+   "apt": "아남",
+   "built": 1992,
+   "jeonse_n": 4,
+   "jeonse_median84": 23000,
+   "sale_n": 3,
+   "sale_median84": 30500,
+   "ratio": 75.4
   },
   {
    "umd": "송내동",
@@ -142,29 +162,29 @@
    "sale_n": 6,
    "sale_median84": 46500,
    "ratio": 75.3
-  },
-  {
-   "umd": "괴안동",
-   "apt": "삼익세라믹",
-   "built": 1988,
-   "jeonse_n": 5,
-   "jeonse_median84": 30000,
-   "sale_n": 8,
-   "sale_median84": 40000,
-   "ratio": 75.0
-  },
-  {
-   "umd": "송내동",
-   "apt": "송내대우",
-   "built": 2001,
-   "jeonse_n": 5,
-   "jeonse_median84": 32000,
-   "sale_n": 11,
-   "sale_median84": 43000,
-   "ratio": 74.4
   }
  ],
  "low_ratio_apts": [
+  {
+   "umd": "송내동",
+   "apt": "송내e-편한세상",
+   "built": 2008,
+   "jeonse_n": 2,
+   "jeonse_median84": 24000,
+   "sale_n": 3,
+   "sale_median84": 46500,
+   "ratio": 51.6
+  },
+  {
+   "umd": "송내동",
+   "apt": "우성",
+   "built": 1990,
+   "jeonse_n": 25,
+   "jeonse_median84": 32000,
+   "sale_n": 11,
+   "sale_median84": 57000,
+   "ratio": 56.1
+  },
   {
    "umd": "괴안동",
    "apt": "거산",
@@ -176,53 +196,27 @@
    "ratio": 56.4
   },
   {
-   "umd": "송내동",
-   "apt": "우성",
-   "built": 1990,
-   "jeonse_n": 26,
-   "jeonse_median84": 32500,
+   "umd": "옥길동",
+   "apt": "부천옥길자이",
+   "built": 2018,
+   "jeonse_n": 3,
+   "jeonse_median84": 43000,
    "sale_n": 10,
-   "sale_median84": 57050,
-   "ratio": 57.0
+   "sale_median84": 73950,
+   "ratio": 58.1
   },
   {
    "umd": "소사본동",
    "apt": "힐스테이트소사역",
    "built": 2025,
-   "jeonse_n": 45,
-   "jeonse_median84": 55000,
+   "jeonse_n": 30,
+   "jeonse_median84": 56000,
    "sale_n": 5,
-   "sale_median84": 94800,
-   "ratio": 58.0
-  },
-  {
-   "umd": "옥길동",
-   "apt": "부천옥길자이",
-   "built": 2018,
-   "jeonse_n": 5,
-   "jeonse_median84": 46000,
-   "sale_n": 9,
-   "sale_median84": 73900,
-   "ratio": 62.2
-  },
-  {
-   "umd": "소사본동",
-   "apt": "부천소사역푸르지오",
-   "built": 2012,
-   "jeonse_n": 24,
-   "jeonse_median84": 48000,
-   "sale_n": 37,
-   "sale_median84": 77000,
-   "ratio": 62.3
+   "sale_median84": 95000,
+   "ratio": 58.9
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 174,
-   "n84": 65,
-   "jeonse_median84": 46000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 178,
@@ -231,77 +225,83 @@
   },
   {
    "month": "2026-01",
-   "jeonse_count": 171,
+   "jeonse_count": 181,
    "n84": 60,
    "jeonse_median84": 43500
   },
   {
    "month": "2026-02",
-   "jeonse_count": 148,
+   "jeonse_count": 154,
    "n84": 48,
    "jeonse_median84": 42250
   },
   {
    "month": "2026-03",
-   "jeonse_count": 165,
+   "jeonse_count": 174,
    "n84": 58,
    "jeonse_median84": 44000
   },
   {
    "month": "2026-04",
-   "jeonse_count": 160,
+   "jeonse_count": 168,
    "n84": 36,
    "jeonse_median84": 42000
   },
   {
    "month": "2026-05",
-   "jeonse_count": 150,
+   "jeonse_count": 154,
    "n84": 38,
    "jeonse_median84": 43500
   },
   {
    "month": "2026-06",
-   "jeonse_count": 133,
+   "jeonse_count": 134,
    "n84": 51,
    "jeonse_median84": 42000
   },
   {
    "month": "2026-07",
-   "jeonse_count": 131,
-   "n84": 34,
-   "jeonse_median84": 40500
+   "jeonse_count": 132,
+   "n84": 35,
+   "jeonse_median84": 41000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 109,
-   "n84": 33,
-   "jeonse_median84": 45000
+   "jeonse_count": 110,
+   "n84": 34,
+   "jeonse_median84": 46000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 118,
-   "n84": 36,
-   "jeonse_median84": 42500
+   "jeonse_count": 122,
+   "n84": 39,
+   "jeonse_median84": 40000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 76,
-   "n84": 19,
-   "jeonse_median84": 40000
+   "jeonse_count": 98,
+   "n84": 25,
+   "jeonse_median84": 45000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 26,
+   "n84": 8,
+   "jeonse_median84": 46000
   }
  ],
- "rank": 82,
+ "rank": 81,
  "rank_of": 178,
  "avg_ratio84_all": 72.4,
- "ratio_vs_avg_pp": -0.6,
+ "ratio_vs_avg_pp": -0.1,
  "umd_ratio_high": {
   "name": "괴안동",
-  "ratio": 89.1
+  "ratio": 125.5
  },
  "umd_ratio_low": {
   "name": "송내동",
-  "ratio": 62.1
+  "ratio": 62.5
  },
- "umd_spread_pp": 27.0,
- "gap84": 16900
+ "umd_spread_pp": 63.0,
+ "gap84": 16505
 }
