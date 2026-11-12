@@ -2,36 +2,36 @@
  "lawd": "41410",
  "name": "경기도 군포시",
  "months": 12,
- "updated": "2026-11-12",
- "trade_count": 4578,
+ "updated": "2026-11-13",
+ "trade_count": 4617,
  "cancel_count": 128,
- "n84": 787,
- "median84": 56000,
- "p25_84": 50000,
- "p75_84": 65500,
+ "n84": 798,
+ "median84": 55900,
+ "p25_84": 49800,
+ "p75_84": 65000,
  "median84_pyeong_excl": 2179,
  "new_n84": 39,
  "new_median84": 117200,
  "new_build_years": 5,
  "umd84": {
-  "당정동": {
-   "n": 147,
-   "median": 49500
-  },
   "당동": {
-   "n": 197,
-   "median": 52500
+   "n": 201,
+   "median": 52300
   },
   "산본동": {
-   "n": 205,
-   "median": 80000
+   "n": 206,
+   "median": 79750
   },
   "대야미동": {
-   "n": 76,
-   "median": 51850
+   "n": 78,
+   "median": 51600
+  },
+  "당정동": {
+   "n": 150,
+   "median": 49500
   },
   "부곡동": {
-   "n": 56,
+   "n": 57,
    "median": 58000
   },
   "도마교동": {
@@ -106,65 +106,65 @@
   },
   {
    "month": "2026-10",
-   "count": 514,
-   "n84": 82,
-   "median84": 58650
+   "count": 523,
+   "n84": 86,
+   "median84": 58000
   },
   {
    "month": "2026-11",
-   "count": 63,
-   "n84": 12,
-   "median84": 52750
+   "count": 93,
+   "n84": 19,
+   "median84": 52500
   }
  ],
  "top_apts": [
   {
    "name": "금정동 충무주공(872)",
-   "count": 249,
+   "count": 251,
    "median84": null,
    "built": 1992
   },
   {
    "name": "금정동 율곡",
-   "count": 217,
+   "count": 219,
    "median84": null,
    "built": 1994
   },
   {
    "name": "산본동 세종",
-   "count": 192,
+   "count": 193,
    "median84": 73500,
    "built": 1994
   },
   {
-   "name": "금정동 주공(1단지)",
-   "count": 167,
-   "median84": null,
-   "built": 1992
-  },
-  {
    "name": "산본동 우륵",
-   "count": 166,
+   "count": 168,
    "median84": 63500,
    "built": 1994
   },
   {
+   "name": "금정동 주공(1단지)",
+   "count": 168,
+   "median84": null,
+   "built": 1992
+  },
+  {
    "name": "산본동 래미안하이어스",
-   "count": 155,
+   "count": 156,
    "median84": 106000,
    "built": 2010
+  },
+  {
+   "name": "산본동 주공11",
+   "count": 134,
+   "median84": null,
+   "built": 1991
   },
   {
    "name": "산본동 개나리주공13",
    "count": 134,
    "median84": null,
    "built": 1995
-  },
-  {
-   "name": "산본동 주공11",
-   "count": 132,
-   "median84": null,
-   "built": 1991
   },
   {
    "name": "산본동 주공9단지금강",
@@ -174,7 +174,7 @@
   },
   {
    "name": "산본동 한라주공4-2",
-   "count": 103,
+   "count": 105,
    "median84": null,
    "built": 1997
   }

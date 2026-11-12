@@ -1,0 +1,128 @@
+{
+ "no": "2026000457",
+ "name": "부천대장 하우스토리 디센트(부천대장지구 A2BL) 공공분양주택",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-11-12",
+ "rank1_date": "2026-11-24",
+ "city": "부천시",
+ "supply_kind": "국민",
+ "winner_date": "2026-12-01",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000457&pblancNo=2026000457",
+ "households": 548,
+ "types": [
+  {
+   "ty": "59.71A",
+   "size": 59,
+   "price": 61345,
+   "area_m2": 81.0969,
+   "general": 37,
+   "special": 205,
+   "pyeong_price": 2501,
+   "special_share_pct": 85
+  },
+  {
+   "ty": "59.99B",
+   "size": 59,
+   "price": 61520,
+   "area_m2": 81.4772,
+   "general": 18,
+   "special": 108,
+   "pyeong_price": 2496,
+   "special_share_pct": 86
+  },
+  {
+   "ty": "59.99C",
+   "size": 59,
+   "price": 61515,
+   "area_m2": 81.4772,
+   "general": 3,
+   "special": 11,
+   "pyeong_price": 2496,
+   "special_share_pct": 79
+  },
+  {
+   "ty": "74.98A",
+   "size": 74,
+   "price": 75423,
+   "area_m2": 101.8363,
+   "general": 8,
+   "special": 42,
+   "pyeong_price": 2448,
+   "special_share_pct": 84
+  },
+  {
+   "ty": "84.95A",
+   "size": 84,
+   "price": 85406,
+   "area_m2": 115.3774,
+   "general": 16,
+   "special": 100,
+   "pyeong_price": 2447,
+   "special_share_pct": 86
+  }
+ ],
+ "general_total": 82,
+ "special_total": 466,
+ "special_share_pct": 85,
+ "pyeong_min": 2447,
+ "pyeong_max": 2501,
+ "pyeong_avg": 2483,
+ "price_84_min": 85406,
+ "price_84_max": 85406,
+ "special_kinds": {
+  "신혼부부": 55,
+  "생애최초": 82,
+  "신생아": 110,
+  "다자녀": 55,
+  "노부모 부양": 27,
+  "기관추천": 82
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 21,
+  "peers": [
+   "화성동탄2지구 C-27블록 공공분양주택",
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)",
+   "고양창릉 S-4블록 공공분양주택(본청약)",
+   "의정부우정 A2블록 공공분양주택(본청약)",
+   "양주회천지구 A-26블록 공공분양주택",
+   "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택",
+   "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택"
+  ],
+  "peer_avg_pyeong": 1995,
+  "diff": 488,
+  "diff_pct": 24,
+  "rank": 6,
+  "of": 22
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 4,
+  "peer_avg_rate": 71.25,
+  "peer_max_rate": 184.3
+ },
+ "market": {
+  "region": "경기도 부천시 오정구",
+  "lawd": "41196",
+  "months": 12,
+  "updated": "2026-10-16",
+  "n84": 93,
+  "median84": 59800,
+  "p25_84": 48600,
+  "p75_84": 74000,
+  "new_n84": 10,
+  "new_median84": 50000,
+  "new_build_years": 5,
+  "diff_vs_median84": 25606,
+  "diff_pct_vs_median84": 43,
+  "diff_vs_new_median84": 35406,
+  "diff_pct_vs_new_median84": 71
+ }
+}
