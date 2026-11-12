@@ -1,38 +1,17 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "blogs": {
   "cheongyak": {
-   "posts": 63,
-   "skeleton_pairs": [
-    [
-     "2026-11-01-2026000517-2026000518-notice.md",
-     "2026-11-11-2026000525-competition.md",
-     0.8,
-     0.0
-    ]
-   ],
-   "overlap_pairs": [],
-   "type_share": {
-    "market": 1,
-    "region": 3,
-    "monthly": 1,
-    "stats": 1,
-    "competition": 2
-   },
-   "format_concentrated": false,
-   "stale": {},
-   "conflicts": [],
-   "anomalies": {},
-   "to_fix": 1
-  },
-  "jeonse": {
-   "posts": 47,
+   "posts": 65,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "region": 5,
-    "ranking": 2,
-    "topic": 1
+    "monthly": 1,
+    "region": 2,
+    "stats": 1,
+    "competition": 2,
+    "score": 1,
+    "remainder": 1
    },
    "format_concentrated": false,
    "stale": {},
@@ -40,13 +19,28 @@
    "anomalies": {},
    "to_fix": 0
   },
-  "gongmoju": {
-   "posts": 45,
+  "jeonse": {
+   "posts": 49,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "ipo": 4,
-    "topic": 3,
+    "region": 6,
+    "ranking": 1,
+    "topic": 1
+   },
+   "format_concentrated": true,
+   "stale": {},
+   "conflicts": [],
+   "anomalies": {},
+   "to_fix": 0
+  },
+  "gongmoju": {
+   "posts": 46,
+   "skeleton_pairs": [],
+   "overlap_pairs": [],
+   "type_share": {
+    "topic": 4,
+    "ipo": 3,
     "weekly": 1
    },
    "format_concentrated": false,
@@ -56,12 +50,12 @@
    "to_fix": 0
   },
   "gwanribi": {
-   "posts": 50,
+   "posts": 52,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "complex": 5,
-    "region": 2,
+    "complex": 4,
+    "region": 3,
     "topic": 1
    },
    "format_concentrated": false,
@@ -71,13 +65,13 @@
    "to_fix": 0
   },
   "drone": {
-   "posts": 25,
+   "posts": 27,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
+    "basic": 2,
     "rule": 2,
     "news": 3,
-    "basic": 2,
     "job": 1
    },
    "format_concentrated": false,
