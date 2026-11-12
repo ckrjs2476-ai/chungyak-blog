@@ -1,24 +1,5 @@
 [
  {
-  "name": "js-36110-rt-form",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-01378005-dart",
-  "ok": true,
-  "status": 200,
-  "title": "이에스티/증권신고서(지분증권)/2026.10.21",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 21186,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000363",
-  "at": "2026-11-04 11:32"
- },
- {
   "name": "ipo-01956751-dart",
   "ok": true,
   "status": 200,
@@ -2517,5 +2498,32 @@
   ],
   "bytes": 16292,
   "at": "2026-11-12 22:46"
+ },
+ {
+  "name": "ipo-01912128-size",
+  "ok": true,
+  "chart": {
+   "type": "gongmoju_size",
+   "corp_code": "01912128"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 26740,
+  "at": "2026-11-13 07:53"
+ },
+ {
+  "name": "ipo-01912128-dart",
+  "ok": true,
+  "status": 200,
+  "title": "태석광학/증권신고서(지분증권)/2026.11.12",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 29060,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000748",
+  "at": "2026-11-13 07:53"
  }
 ]
