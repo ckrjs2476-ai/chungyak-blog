@@ -1,0 +1,109 @@
+{
+ "corp_code": "01912128",
+ "corp_name": "태석광학",
+ "rcept_no": "20261112000748",
+ "rcept_dt": "20261112",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000748",
+ "subscription": "2026년 12월 14일 ~ 2026년 12월 15일",
+ "payment_date": "2026년 12월 17일",
+ "notice_date": "2026년 12월 14일",
+ "allot_date": "2026년 12월 17일",
+ "stock_kind": "보통주",
+ "shares": 2478000,
+ "face_value": 500,
+ "price": 17500,
+ "total": 43365000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "신한투자증권",
+   "shares": 1734600,
+   "amount": 30355500000,
+   "fee": 647728781,
+   "how": "총액인수"
+  },
+  {
+   "name": "대신증권",
+   "shares": 743400,
+   "amount": 13009500000,
+   "fee": 239570919,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 10000000000,
+   "share_pct": 33.4,
+   "amount_eok": 100.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 10680233360,
+   "share_pct": 35.7,
+   "amount_eok": 106.8
+  },
+  {
+   "use": "타법인증권 취득자금",
+   "amount": 8512000000,
+   "share_pct": 28.5,
+   "amount_eok": 85.1
+  },
+  {
+   "use": "발행제비용",
+   "amount": 717751640,
+   "share_pct": 2.4,
+   "amount_eok": 7.2
+  }
+ ],
+ "fund_total": 29909985000,
+ "sellers": [
+  {
+   "name": "권명석",
+   "relation": "최대주주",
+   "shares": 826000
+  }
+ ],
+ "sell_shares": 826000,
+ "company": {
+  "corp_name": "주식회사 태석광학",
+  "ceo_nm": "권명석",
+  "induty_code": "27195",
+  "est_dt": "20151105",
+  "hm_url": "www.taeseokoptical.com/",
+  "adres": "서울특별시 강서구 화곡로68길 15 (등촌동) 509호"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "신한투자증권",
+ "underwriting_fee_pct": 2.05,
+ "total_eok": 433.6,
+ "fund_matches_total": false,
+ "fund_uses_unreliable": false,
+ "company_age_years": 11,
+ "total_rank": 6,
+ "total_rank_of": 23,
+ "total_vs_median_pct": 64.3,
+ "sell_share_pct": 33.3,
+ "top_fund_use": {
+  "use": "운영자금",
+  "amount": 10680233360,
+  "share_pct": 35.7,
+  "amount_eok": 106.8
+ },
+ "compare_median_total": 26400000000,
+ "compare_count": 23,
+ "median_fee_pct": 4.12,
+ "compare_median_total_eok": 264.0
+}
