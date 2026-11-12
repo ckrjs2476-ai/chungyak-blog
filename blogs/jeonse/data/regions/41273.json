@@ -1,40 +1,40 @@
 {
  "lawd": "41273",
  "name": "경기도 안산시 단원구",
- "updated": "2026-10-29",
+ "updated": "2026-11-12",
  "months": 12,
- "jeonse_count": 3092,
- "wolse_count": 2137,
- "wolse_share_pct": 40.9,
- "renew_share_pct": 37.6,
- "jeonse_n84": 709,
+ "jeonse_count": 2971,
+ "wolse_count": 2027,
+ "wolse_share_pct": 40.6,
+ "renew_share_pct": 38.2,
+ "jeonse_n84": 677,
  "jeonse_median84": 35000,
- "sale_n84": 703,
- "sale_median84": 54000,
- "ratio84": 64.8,
- "jeonse_recent3_median84": 35500,
- "jeonse_prev3_median84": 35000,
- "jeonse_change_pct": 1.4,
+ "sale_n84": 681,
+ "sale_median84": 53800,
+ "ratio84": 65.1,
+ "jeonse_recent3_median84": 35350,
+ "jeonse_prev3_median84": 36000,
+ "jeonse_change_pct": -1.8,
  "apts_with_both": 47,
  "apts_ratio_80_plus": 1,
- "apts_ratio_70_plus": 12,
+ "apts_ratio_70_plus": 14,
  "umd": {
   "고잔동": {
-   "jeonse_n": 245,
-   "jeonse_median84": 41400,
-   "sale_n": 257,
-   "sale_median84": 65000,
-   "ratio": 63.7
+   "jeonse_n": 229,
+   "jeonse_median84": 42000,
+   "sale_n": 246,
+   "sale_median84": 65450,
+   "ratio": 64.2
   },
   "선부동": {
-   "jeonse_n": 168,
+   "jeonse_n": 159,
    "jeonse_median84": 34650,
    "sale_n": 126,
-   "sale_median84": 55000,
-   "ratio": 63.0
+   "sale_median84": 54900,
+   "ratio": 63.1
   },
   "신길동": {
-   "jeonse_n": 60,
+   "jeonse_n": 56,
    "jeonse_median84": 28000,
    "sale_n": 73,
    "sale_median84": 37800,
@@ -48,16 +48,16 @@
    "ratio": 75.0
   },
   "원곡동": {
-   "jeonse_n": 94,
+   "jeonse_n": 89,
    "jeonse_median84": 30000,
-   "sale_n": 106,
+   "sale_n": 100,
    "sale_median84": 44500,
    "ratio": 67.4
   },
   "초지동": {
-   "jeonse_n": 138,
+   "jeonse_n": 140,
    "jeonse_median84": 33000,
-   "sale_n": 138,
+   "sale_n": 133,
    "sale_median84": 47500,
    "ratio": 69.5
   }
@@ -85,23 +85,13 @@
   },
   {
    "umd": "신길동",
-   "apt": "휴먼시아3단지",
-   "built": 2009,
-   "jeonse_n": 8,
-   "jeonse_median84": 28000,
-   "sale_n": 4,
-   "sale_median84": 36400,
-   "ratio": 76.9
-  },
-  {
-   "umd": "신길동",
    "apt": "휴먼시아6단지",
    "built": 2009,
-   "jeonse_n": 8,
+   "jeonse_n": 6,
    "jeonse_median84": 30000,
-   "sale_n": 9,
-   "sale_median84": 39000,
-   "ratio": 76.9
+   "sale_n": 10,
+   "sale_median84": 38850,
+   "ratio": 77.2
   },
   {
    "umd": "신길동",
@@ -114,14 +104,24 @@
    "ratio": 76.3
   },
   {
+   "umd": "신길동",
+   "apt": "휴먼시아3단지",
+   "built": 2009,
+   "jeonse_n": 7,
+   "jeonse_median84": 28000,
+   "sale_n": 3,
+   "sale_median84": 37000,
+   "ratio": 75.7
+  },
+  {
    "umd": "선부동",
    "apt": "수정한양",
    "built": 1991,
    "jeonse_n": 6,
    "jeonse_median84": 29500,
-   "sale_n": 7,
-   "sale_median84": 39500,
-   "ratio": 74.7
+   "sale_n": 6,
+   "sale_median84": 39250,
+   "ratio": 75.2
   },
   {
    "umd": "신길동",
@@ -129,7 +129,7 @@
    "built": 2013,
    "jeonse_n": 8,
    "jeonse_median84": 34000,
-   "sale_n": 13,
+   "sale_n": 11,
    "sale_median84": 45500,
    "ratio": 74.7
   },
@@ -137,21 +137,11 @@
    "umd": "신길동",
    "apt": "휴먼시아4단지",
    "built": 2012,
-   "jeonse_n": 4,
-   "jeonse_median84": 27750,
+   "jeonse_n": 5,
+   "jeonse_median84": 27500,
    "sale_n": 6,
    "sale_median84": 37300,
-   "ratio": 74.4
-  },
-  {
-   "umd": "선부동",
-   "apt": "공작한양(고층)",
-   "built": 1992,
-   "jeonse_n": 7,
-   "jeonse_median84": 25000,
-   "sale_n": 5,
-   "sale_median84": 34500,
-   "ratio": 72.5
+   "ratio": 73.7
   },
   {
    "umd": "와동",
@@ -160,8 +150,18 @@
    "jeonse_n": 4,
    "jeonse_median84": 30000,
    "sale_n": 2,
-   "sale_median84": 42000,
-   "ratio": 71.4
+   "sale_median84": 41450,
+   "ratio": 72.4
+  },
+  {
+   "umd": "초지동",
+   "apt": "주공그린빌12",
+   "built": 2003,
+   "jeonse_n": 12,
+   "jeonse_median84": 32000,
+   "sale_n": 11,
+   "sale_median84": 45500,
+   "ratio": 70.3
   }
  ],
  "low_ratio_apts": [
@@ -171,9 +171,19 @@
    "built": 2019,
    "jeonse_n": 3,
    "jeonse_median84": 42000,
-   "sale_n": 9,
-   "sale_median84": 85000,
-   "ratio": 49.4
+   "sale_n": 8,
+   "sale_median84": 84000,
+   "ratio": 50.0
+  },
+  {
+   "umd": "초지동",
+   "apt": "초지역메이저타운푸르지오메트로단지",
+   "built": 2019,
+   "jeonse_n": 17,
+   "jeonse_median84": 44000,
+   "sale_n": 10,
+   "sale_median84": 86450,
+   "ratio": 50.9
   },
   {
    "umd": "원곡동",
@@ -186,22 +196,12 @@
    "ratio": 51.9
   },
   {
-   "umd": "초지동",
-   "apt": "초지역메이저타운푸르지오메트로단지",
-   "built": 2019,
-   "jeonse_n": 16,
-   "jeonse_median84": 45000,
-   "sale_n": 10,
-   "sale_median84": 85950,
-   "ratio": 52.4
-  },
-  {
    "umd": "고잔동",
    "apt": "안산레이크타운푸르지오",
    "built": 2016,
-   "jeonse_n": 53,
+   "jeonse_n": 51,
    "jeonse_median84": 52000,
-   "sale_n": 49,
+   "sale_n": 43,
    "sale_median84": 98500,
    "ratio": 52.8
   },
@@ -217,12 +217,6 @@
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 244,
-   "n84": 52,
-   "jeonse_median84": 34825
-  },
   {
    "month": "2025-12",
    "jeonse_count": 283,
@@ -243,8 +237,8 @@
   },
   {
    "month": "2026-03",
-   "jeonse_count": 339,
-   "n84": 81,
+   "jeonse_count": 340,
+   "n84": 82,
    "jeonse_median84": 35000
   },
   {
@@ -255,8 +249,8 @@
   },
   {
    "month": "2026-05",
-   "jeonse_count": 269,
-   "n84": 71,
+   "jeonse_count": 270,
+   "n84": 72,
    "jeonse_median84": 36000
   },
   {
@@ -267,7 +261,7 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 241,
+   "jeonse_count": 242,
    "n84": 57,
    "jeonse_median84": 34000
   },
@@ -279,29 +273,35 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 208,
-   "n84": 44,
+   "jeonse_count": 213,
+   "n84": 46,
    "jeonse_median84": 35000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 179,
-   "n84": 46,
+   "jeonse_count": 245,
+   "n84": 56,
    "jeonse_median84": 35000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 49,
+   "n84": 6,
+   "jeonse_median84": 34000
   }
  ],
- "rank": 124,
+ "rank": 123,
  "rank_of": 178,
  "avg_ratio84_all": 72.4,
- "ratio_vs_avg_pp": -7.6,
+ "ratio_vs_avg_pp": -7.3,
  "umd_ratio_high": {
   "name": "신길동",
   "ratio": 74.1
  },
  "umd_ratio_low": {
   "name": "선부동",
-  "ratio": 63.0
+  "ratio": 63.1
  },
- "umd_spread_pp": 11.1,
- "gap84": 19000
+ "umd_spread_pp": 11.0,
+ "gap84": 18800
 }
