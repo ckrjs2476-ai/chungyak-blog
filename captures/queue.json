@@ -1,1 +1,5 @@
-[]
+[
+  {"name": "dr-onestop-home-2026-11-12", "url": "https://drone.onestop.go.kr/", "sleep": 4, "dump": true},
+  {"name": "dr-onestop-notice-229-2026-11-12", "url": "https://drone.onestop.go.kr/board/notice/read?id=229", "sleep": 4, "dump": true, "full": true},
+  {"name": "dr-datagokr-onestop-stats-2026-11-12", "url": "https://www.data.go.kr/data/15144338/fileData.do", "sleep": 5, "dump": true, "crop": {"from": "미리보기"}, "height": 700}
+]
