@@ -1,24 +1,5 @@
 [
  {
-  "name": "js-11500-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7236,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-02 10:59"
- },
- {
-  "name": "js-11200-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
   "name": "cy-2026000445-special",
   "ok": true,
   "status": 200,
@@ -2447,5 +2428,33 @@
   "bytes": 19142,
   "url": "pages/calculator.md",
   "at": "2026-11-12 09:53"
+ },
+ {
+  "name": "gw-11350-sanggye-jugong13-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11350",
+   "code": "A13981901"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16808,
+  "at": "2026-11-12 11:30"
+ },
+ {
+  "name": "gw-calc-sanggye-jugong13-84-1112",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16822,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-12 11:30"
  }
 ]
