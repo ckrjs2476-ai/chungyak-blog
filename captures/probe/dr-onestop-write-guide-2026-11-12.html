@@ -1,0 +1,931 @@
+<!DOCTYPE html><html><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>드론원스톱 민원서비스</title>
+
+	<link rel="stylesheet" type="text/css" href="/resources/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/ie.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/media.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
+<!--	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet"> -->
+	<script src="https://t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	
+	<script src="/resources/vendor/jQuery-3.3.1/jquery-d.min.js"></script>
+	<script src="/resources/vendor/jQuery-migrate-1.4.1/jquery-migrate-1.4.1.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.bxslider.min.js"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.serialize-object.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/inputmask.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/jquery.inputmask.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/bxslider.js"></script>
+	<script src="/resources/js/custom.js?v=1"></script>
+	<script src="/resources/js/common.js?v=1"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate-comm.js"></script>
+	<script src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.offcanvas.js"></script>
+
+	<!-- jquery-ui -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.css">
+	<script src="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<!-- datatables -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Responsive-2.2.2/css/responsive.bootstrap.css">
+
+	<script type="text/javascript" src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/responsive.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/RowsGroup-1.0.0/js/dataTables.rowsGroup.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-lang.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-custom.js"></script>
+
+	<!-- CKEDITOR -->
+	<script type="text/javascript" src="/resources/vendor/ckeditor/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
+
+	<!-- Jquery MASK -->
+	<script type="text/javascript" src="/resources/vendor/jQuery-Mask-1.14.16/jquery.mask.min.js"></script>
+
+	<!-- moment -->
+	<script type="text/javascript" src="/resources/vendor/moment-2.24.0/moment-with-locales.min.js"></script>
+
+	<!-- air-datepicker -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/air-datepicker-2.2.3/css/datepicker.min.css">
+	<script type="text/javascript" src="/resources/vendor/air-datepicker-2.2.3/js/datepicker.min.js"></script>
+	<script src="/resources/vendor/air-datepicker-2.2.3/js/i18n/datepicker.ko.js"></script> <!-- Include English language -->
+
+	<!-- colorbox -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/colorbox-1.4.22/css/colorbox.css">
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.tiny-draggable.min.js"></script>
+	<script src="/resources/vendor/colorbox-1.4.22/js/jquery.colorbox.js"></script>
+
+</head>
+
+<body onload="javascript:commonMassage('');">
+	<div id="wrap">
+		<!-- header -->
+		<div id="header">
+			
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+
+		// 타 사이트 검색시 8443 제거하기 20250730
+		const fromSearchEngine = /google|naver|bing|daum/.test(document.referrer);
+		const isAdminPort = window.location.port === '8443';
+
+		if (fromSearchEngine && isAdminPort) {
+			const newUrl = window.location.protocol + '//' + window.location.hostname + window.location.pathname + window.location.search;
+			window.location.href = newUrl;
+		}
+
+		$('#dr_navi').dr_naviFullWide({
+			subState : false, // 메뉴활성시 서브메뉴의 오픈유무(true,false)
+			motionType : 'slide', // 모션타입(none,fade,slide)
+			motionSpeed : 300, // 모션속도(밀리초)
+			delayTime : 200
+			// 메뉴아웃시 되돌아가는 딜레이시간(밀리초)
+		});
+
+		$('#user_mo_navi').kj_mo_navi22({
+			motionSpeed : 500, // 모션속도(밀리초)
+			delayTime : 2000
+			// 클릭아웃시 딜레이시간(페이지인식인경우)
+		});
+
+		// MainMenu 마우스오버 이벤트
+		$(".dr_main > li").mouseover(function() {
+			var explain = $(this).data("explain");
+			var text = $(this).data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// SubMenu 마우스오버 이벤트
+		$(".dr_subSet > ul > li").mouseover(function() {
+			var explain = $(this).parent().data("explain");
+			var text = $(this).parent().data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// 로그인정보 팝업
+		$("#dr_layerPopup").dr_layerPopup({
+			mouseEvent : "click"
+		});
+
+/*
+		function PageCounter() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				data : {"URL_ID" : click_bidx, "URL_NM" : click_type},
+				url : "/pagecounter/setPageCounterAjax",
+				timeout: 5000,
+				success: function(data){
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('PageCounter-계획000-'+str1);
+					alert(str1);
+				},
+				error: function(xhr,  Status, error) {
+					console.log(Status)
+				}
+			});
+		};
+
+
+		$(".m_h_contents").click(function() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				url : "/pagecounter/setPageCounter",
+				data: {
+					bidx : click_bidx,
+					type : click_type
+				},
+				error: function (request, status, error) {
+					//alert(request.responseText)
+				},
+				success: function (html) {
+					//  $('#store_list').html(html);
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('m_h_contents-계획000-'+str1);
+					alert(str1);
+				}
+			});
+
+		});
+		*/
+
+		// 실시간 시간정보
+		//let time = 60;
+/*
+		let min = "";
+		let sec = "";
+		let time = //= session.getMaxInactiveInterval()  ;
+
+		let x = setInterval(function () {
+
+			min = parseInt(time/60);
+			sec = time % 60;
+
+			document.getElementById("demo").innerHTML ="<spen style='color:#1d75b3  ;'>로그인 유지시간 - "+ min + "분" + sec + "초</span>";
+			time--;
+
+			if (time < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "시간초과";
+
+
+				alert("로그인 유지 시간(30분)이 초과 되었습니다.");
+				location.href='/member/login/login';
+			}
+		}, 1000);
+*/
+
+
+	});
+</script>
+
+<!-- /* 대국민 네이버접속기록 남기기 2023-05-10 */ -->
+<!--
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "17b3f25fcf4fff0";
+	if(window.wcs) {
+		wcs_do();
+	}
+</script>
+-->
+
+
+
+<div id="lnb">
+
+	<div class="area">
+
+        <!--  시계가 보여질 div -->
+        
+		<ul>
+			
+
+
+			<!--관리자레이어팝업-->
+			
+				<!-- 서버 접속Port 확인 -->
+				
+					
+					
+						<li><a href="/member/login/login">로그인</a></li>
+						
+						
+						<li><a href="/member/join/register">회원가입</a></li>
+					
+				
+			
+		</ul>
+	</div>
+</div>
+
+<div class="head_sub">
+	<div id="dr_navi">
+
+
+		<div class="navbar-header">
+			<button class="navbar-toggle offcanvas-toggle pull-right js-offcanvas-has-events" data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+				<span class="mobile_menu"> <i aria-hidden="true" class="fa fa-bars"></i>
+				</span>
+			</button>
+			<h1>
+				<a href="/"> <strong class="sound">드론원스톱 민원서비스 로고</strong>
+				</a>
+			</h1>
+			<!-- <span class="mobile_user"> <i aria-hidden="true" class="fa fa-user"></i></span> -->
+		</div>
+
+		<!--일반 유저 mobile 메뉴 시작-->
+		<div class="navbar-offcanvas navbar-offcanvas-touch offcanvas-transform js-offcanas-done" id="js-bootstrap-offcanvas">
+			<div id="mobi_user_menu">
+				<div class="m_top" id="mobile_user_menu_close">
+					<span>메뉴닫기</span>
+					<button class="navbar-toggle offcanvas-toggle pull-right " data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+						<i aria-hidden="true" class="fa fa-times"></i>
+					</button>
+				</div>
+				<ul class="kj_mo_navi" id="user_mo_navi">
+					<li class="kj_mo"><a class="mo1 mo kj_mo_select" href="#">민원 시스템 안내 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul style="display: block;">
+							<!--
+							<li><a class="m_h_contents" href="/introduce/systemintro1/" data-pos="/introduce/systemintro1/" data-item-id="각종 신청 작성 안내">각종 신청 작성 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro2/" data-pos="/introduce/systemintro2/" data-item-id="민원 유형별 처리 안내">민원 유형별 처리 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro3/" data-pos="/introduce/systemintro3/" data-item-id="처리 부서 안내">처리 부서 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro4/" data-pos="/introduce/systemintro4/" data-item-id="각종 민원 법률 정보">각종 민원 법률 정보</a></li>
+							-->
+							<li><a href="/introduce/systemintro1/" class="kj_mo_select">각종 신청 작성 안내</a></li>
+							<li><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+							<li><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+							<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+
+						</ul></li>
+					<li class="kj_mo"><a class="mo2 mo" href="#">민원신청 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+							<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+							<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+							<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+							<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+							<li><a href="/civilappeal/flightphotos/registerF"><font color="black" size="4"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반모바일 메뉴  2022-05-02 비행/사진 동시신청 -->
+						</ul></li>
+					<li class="kj_mo"><a class="mo3 mo" href="#">정보마당 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/board/notice/list">공지사항</a></li>
+							<li><a href="/board/faq/list">FAQ</a></li>
+							<!-- 2022-02-11 Q&A 메뉴 drop-->
+							<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+						</ul></li>
+					
+            
+                <li class="kj_mo"><a class="mo5 mo" href="#">회원서비스 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+                </a>
+                    <ul>
+                        <li><a href="/member/join/register">회원가입</a></li>
+                        <li><a href="/member/login/login">로그인</a></li>
+                        <li><a href="/member/login/searchinfo">아이디/비밀번호찾기</a></li>
+                    </ul></li>
+            
+        </ul>
+    </div>
+</div>
+<!--mobile 메뉴 끝-->
+
+<!--일반 유저 desktop 메뉴 시작-->
+<div id="desk_user_menu">
+    <ul class="dr_main kk">
+        <li class="first" data-explain="민원 시스템 안내" data-text="System Introduce"><a href="#">민원 시스템 안내</a></li>
+        <li data-explain="민원신청" data-text="Civil application"><a href="#">민원신청</a></li>
+        <li data-explain="정보마당" data-text="Information"><a href="#">정보마당</a></li>
+        
+        
+            <li class="last" data-explain="회원서비스" data-text="Members"><a href="#">회원서비스</a></li>
+        
+
+    </ul>
+    <div class="dr_mask">
+        <div class="menu_img">
+            <div class="inner_line">
+                <p id="menu_text">
+                    <strong>Civil application</strong>
+                </p>
+                <h2 id="menu_explain">민원신청</h2>
+            </div>
+        </div>
+        <div class="dr_subSet">
+            <ul class="m1 tmenu" data-explain="민원 시스템 안내" data-text="System Introduce">
+                <li><a href="/introduce/systemintro1" id="desk_user_m01">각종 신청 작성 안내</a></li>
+                <li><a href="/introduce/systemintro2" id="desk_user_m02">민원 유형별 처리 안내</a></li>
+                <li><a href="/introduce/systemintro3" id="desk_user_m03">처리 부서 안내</a></li>
+                <li><a href="/introduce/systemintro4" id="desk_user_m04">각종 민원 법률 정보</a></li>
+            </ul>
+            <ul class="m2 tmenu" data-explain="민원신청" data-text="Civil application">
+                <li><a href="/civilappeal/aircraft/register" id="desk_user_m11">비행장치 신고</a></li>
+                <li><a href="/civilappeal/business/register" id="desk_user_m12">사업등록 신고</a></li>
+                <li><a href="/civilappeal/flight/register" id="desk_user_m13">비행승인 신청</a></li>
+                <li><a href="/civilappeal/special/register" id="desk_user_m14">특별비행승인 신청</a></li>
+                <li><a href="/civilappeal/aerophotos/register" id="desk_user_m15">항공촬영 신청</a></li>
+                <li><a href="/civilappeal/flightphotos/registerF" id="desk_user_m16"><font color="black" size="3"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반메뉴 2022-05-02 비행/사진 동시신청 -->
+            </ul>
+            <ul class="m3 tmenu" data-explain="정보마당" data-text="Information">
+                <li><a href="/board/notice/list" id="desk_user_m21">공지사항</a></li>
+                <li><a href="/board/faq/list" id="desk_user_m22">FAQ</a></li>
+                <!-- <li><a href="/board/qna/list" id="desk_user_m23">Q&A</a></li> -->
+            </ul>
+            
+            
+                <ul class="m5 tmenu" data-explain="회원서비스" data-text="Members">
+                    <li><a href="/member/join/register" id="desk_user_m41">회원가입</a></li>
+                    <li><a href="/member/login/login" id="desk_user_m42">로그인</a></li>
+                    <li><a href="/member/login/searchinfo" id="desk_user_m43">아이디/비밀번호찾기</a></li>
+                </ul>
+            
+        </div>
+    </div>
+</div>
+<!--desktop 메뉴 끝-->
+</div>
+</div>
+		</div>
+		<!-- //header -->
+		<!-- section -->
+		<div id="section">
+			<div class="sub_contents">
+				<!-- 페이지위치표시 -->
+				<div class="navi">
+					<ul class="area" id="page_id">
+						<li><img src="/resources/img/sub/home.png" alt="홈"></li>
+						<li>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name1">민원시스템 안내 </span>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name2">각종 신청 작성 안내</span>
+						</li>
+					</ul>
+				</div>
+				<!-- 페이지위치표시 -->
+				<div class="area">
+					<div id="l_con" class="l_con">
+						
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	// 사이드 메뉴 show, active 처리 (페이지 접근시)
+	var url = location.href.split('/'); // [3]:대메뉴 [4]:중메뉴 [5]:소메뉴(function)
+	var href = url[3] + "/" + url[4] + "/";
+	if (url[4] === "login") { // member/login/login, member/login/searchinfo 때문에..
+		if (url[5] === "login")
+			href = href + url[5];
+		else
+			href = href + "searchinfo"
+	}
+	var dom  = $(".side_menu a[href*='" + href + "']");
+	dom.parent().parent().parent().parent().show();
+	dom.parent().addClass("active");
+
+	// 모바일 메뉴
+	dom = $(".kj_mo a[href*='" + href + "']");
+	dom.parent().parent().siblings("a").addClass("kj_mo_select");
+	dom.parent().parent().show();
+	dom.addClass("kj_mo_select");
+
+	// Set MenuPath - User
+	var menuName1 = $("div[style=''] .page_info h2").text();
+	var menuName2 = $(".side_menu .active").text()
+	$('#menu-name1').text(menuName1);
+	$('#menu-name2').text(menuName2);
+});
+</script>
+
+<div style="">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Introduce</strong>
+			</p>
+			<h2>민원시스템 안내 </h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li class="active"><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+			<li><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+			<li><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+			<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Civil application</strong>
+			</p>
+			<h2>민원신청</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+			<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+			<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+			<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+			<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+			<li><a href="/civilappeal/flightphotos/registerF">비행/촬영 원스톱 신청</a></li> <!--왼쪽메뉴 2022-05-02 비행/사진 동시신청 -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Information</strong>
+			</p>
+			<h2>정보마당</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/board/notice/list">공지사항</a></li>
+			<li><a href="/board/faq/list">FAQ</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Mypage</strong>
+			</p>
+			<h2>마이페이지</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<!--<li><a href="/mypage/civilappeal/list">민원 신청 현황</a></li>-->
+			<li><a href="/mypage/civilappealhis/list">민원 신청 이력</a></li>
+			<li><a href="/common/inadvance/list">비행승인 사전확인이력</a></li>
+			<li><a href="/mypage/myac/list">내 장치 관리</a></li>
+			
+			<li><a href="/mypage/member/modify">정보수정/탈퇴</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/mypage/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Members</strong>
+			</p>
+			<h2>회원서비스</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/member/join/register">회원가입</a></li>
+			<li><a href="/member/login/login">로그인</a></li>
+			<li><a href="/member/login/searchinfo">아이디/비밀번호 찾기</a></li>
+		</ul>
+	</div>
+</div>
+					</div>
+					<div id="r_con" class="r_con">
+						
+
+<link rel="stylesheet" href="/resources/vendor/prettyphotos/css/prettyPhoto.css">
+<script src="/resources/vendor/prettyphotos/js/jquery.prettyPhoto.js"></script>
+
+<div class="sub_area">
+	<div class="mypage introduce ptpgallery liststgrid portfolio3">
+		<div class="title-box">
+			<h2>각종신청작성안내</h2>
+		</div>
+		<div class="board-wrap bd-n">
+			<div class="tab-wrap">
+				<ul>
+					<li class="active"><a href="javascript:;">드론의 정의</a></li>
+					<li><a href="javascript:;">드론 비행/항공촬영 절차</a></li>
+					<li><a href="javascript:;">드론 민원서비스 관련 기관</a></li>
+				</ul>
+			</div>
+
+
+
+			<div class="tab-conts">
+				<ul>
+					<li class="on">
+						<div class="terms2">
+							<div class="terms-contents bbt">
+								<div class="title-box">
+									<h3>드론의 정의</h3>
+								</div>
+								<div class="map-wrap">
+									<div class="app-wrap dron-wrap">
+										<ol>
+											<li>
+												<p>
+													<strong>초경량비행장치</strong>
+												</p>
+											</li>
+											<li>
+												<p>
+													<strong>무인비행장치</strong>
+												</p>
+											</li>
+											<li>
+												<p>
+													<strong>무인동력비행장치</strong>
+												</p>
+											</li>
+											<li>
+												<p>
+													<strong>드론</strong>
+												</p>
+											</li>
+										</ol>
+									</div>
+								</div>
+								<div class="map-wrap">
+									<h4>관련법령</h4>
+									<div class="law">
+										<h5>항공안전법 제1조(정의)</h5>
+										<p>“초경량비행장치” 란 항공기와 경량항공기 외에 공기의 반작용으로 뜰 수 있는 장치로서 자체중량,
+											좌석 수 등 국토교통부령으로 정하는 기준에 해당하는 동력 비행장치, 행글라이더, 패러글라이더, 기구류 및
+											무인비행장치 등을 말한다.</p>
+									</div>
+									<div class="law">
+										<h5>항공안전법 시행규칙 제5조 (초경량비행장치의 기준)</h5>
+										<p>무인비행장치 : 사람이 탑승하지 아니하는 것으로서 다음 각 목의 비행장치<br>가. 무인동력비행장치 : 연료의
+											중량을 제외한 자체중량이 150킬로그램 이하인 무인비행기, 무인헬리콥터 또는 무인멀티콥터</p>
+									</div>
+								</div>
+							</div>
+							<div class="terms-contents">
+								<div class="title-box">
+									<h3 class="mb30">드론 안전 관리 제도</h3>
+								</div>
+
+								<p>① 아래 지역은 장치 무게나 비행 목적에 관계없이 드론을 날리기전 반드시 허가가 필요합니다.</p>
+								<ul class="icon">
+									<li>
+										<p class="img">
+											<img src="/resources/img/sub/in1.png" alt="비행장 주변 관제권">
+										</p>
+										<div class="title">
+											<h5>비행장 주변 관제권</h5>
+											<span>(반경 9.3km)</span>
+										</div>
+									</li>
+									<li>
+										<p class="img">
+											<img src="/resources/img/sub/in2.png" alt="비행금지구역">
+										</p>
+										<div class="title">
+											<h5>비행금지구역</h5>
+											<span>(서울 강북지역, 휴전선 및 원전 주변)</span>
+										</div>
+									</li>
+									<li>
+										<p class="img">
+											<img src="/resources/img/sub/in3.png" alt="고도 150m 이상">
+										</p>
+										<div class="title">
+											<h5>고도 150m 이상</h5>
+											<span>고도 150m 이상</span>
+										</div>
+									</li>
+								</ul>
+
+								<div class="table-wrap">
+									<p>② 전국 관제권 및 비행금지구역 현황은 다음과 같습니다.</p>
+									<p class="map">
+										<img src="/resources/img/sub/map.jpg" alt="전국 관제권 및 비행금지구역 현황">
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="terms2">
+							<div class="terms-contents">
+								<div class="title-box">
+									<h3>드론 비행승인·항공촬영 절차</h3>
+								</div>
+							</div>
+							<div class="terms-contents">
+								<p>
+									<a href="/resources/img/sub/dron1_.jpg" rel="prettyPhoto[gallery3]"><img src="/resources/img/sub/dron1.png" alt="드론 비행 항공촬영 절차"></a>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="terms2">
+							<div class="terms-contents">
+								<div class="title-box">
+									<h3><!-- 드론 민원서비스 관련 기관 --></h3>
+								</div>
+							</div>
+							<div class="terms-contents">
+								<p>
+									<a href="/resources/img/sub/dron2_.jpg" rel="prettyPhoto[gallery3]"><img src="/resources/img/sub/dron2.png" alt=""></a>
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //section -->
+		<!-- footer -->
+		<div id="footer">
+			
+
+<script src="/resources/vendor/db_banner7/js/jquery.DB_slideStepMove.min.js"></script>
+<script src="/resources/vendor/jQuery-tmpl-1.0.0/jquery.tmpl.min.js"></script>
+
+
+
+<!-- /* 구글접속기록 남기기 2023-05-10 */ -->
+<!-- Google tag (gtag.js) -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVJGCL7SSX"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-FVJGCL7SSX');
+</script>
+-->
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	let x = setInterval(function () {
+
+		initKindex();
+
+	}, 60*60*1000); // 2023-03-24 자기장정보 1시간에 한번씩 불러오기
+	//}, 10000); // 2023-03-24 자기장정보 10초에 한번씩 불러오기
+
+	initKindex();
+
+//	initWeather();
+
+	// [이용약관]
+	$("#pop-tos").click(function() {
+		utils.popupCenter("/common/terms/ToS", "popupToS", 1024, 720);
+	});
+
+
+	// [개인정보처리방침]
+	$("#pop-policy").click(function() {
+		//utils.popupCenter("/common/terms/privatePolicy", "popupPolicy", 1024, 720);
+		// 2026-08-01 한국교통안전공단 사이트로 변경
+		utils.popupCenter("https://main.kotsa.or.kr/portal/contents.do?menuCode=07020100", "popupPolicy", 1024, 720);
+	});
+});
+
+function initKindex() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getKindexAjax.ajax",
+		dataType: "json",
+		contentType: 'application/json; charset=UTF-8',
+		cache: false, // 캐싱 비활성화
+		headers: {
+			"Cache-Control": "no-cache, no-store, must-revalidate", // 캐시 무효화
+		},
+		//timeout: 5000,
+		success: function(data){
+			let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+			//console.log('비행승인-계획000-'+str1);
+
+			// alert(str1);
+			$("#KP_LEVEL").css("w_info mag " + data.KP_LEVEL);
+			$("#KP_VALUE").text(data.KP_VALUE + "kp")
+			$("#KP_MAX_VALUE").text(data.KP_MAX_VALUE + "kp")
+		},
+		error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+		}
+	});
+}
+
+
+
+
+function initWeather() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getWeatherAjax",
+	    dataType: "json",
+	    contentType: 'application/json; charset=UTF-8',
+
+	    success: function(data){
+	    	// console.log(data);
+
+	    	$(".DB_moveSet").empty();
+	    	$("#weatherTemplate").tmpl(data).appendTo(".DB_moveSet");
+
+	    	// 날씨 슬라이드
+	    	var mq = window.matchMedia("(max-width: 479px)");
+	        var distance = (mq.matches) ? 90 : 60;
+	        $('.DB_banner7').DB_slideStepMove({
+	           motionDirection: 'y',           //모션방향('none','x','y')
+	           moveDistance: distance,         //이동거리(li기준)
+	           moveSpeed: 300,                 //이동속도
+	           autoRollingTime: 5000           //자동롤링시간(밀리초)
+	      });
+
+	    },
+	    error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+	    }
+	});
+}
+
+//더보기 팝업
+// document.addEventListener("DOMContentLoaded", function() {
+// 	const popupLink = document.getElementById("popup-link");
+// 	const popup = document.getElementById("popup");
+// 	const popupClose = document.getElementById("popup-close");
+//
+// 	let isPopupOpen = false;
+// 	//더보기로 열고 닫기
+// 	popupLink.addEventListener("click", function() {
+// 		if (isPopupOpen) {
+// 			popup.style.display = "none"; // 팝업이 이미 열려 있으면 닫기
+// 		} else {
+// 			popup.style.display = "block"; // 팝업이 닫혀 있으면 열기
+// 		}
+// 		isPopupOpen = !isPopupOpen; // 팝업 상태 저장
+// 	});
+// 	//닫기x 아이콘으로 닫기
+// 	popupClose.addEventListener("click", function() {
+// 		popup.style.display = "none";
+// 		isPopupOpen = false; // 팝업을 닫으면 상태를 닫힌 상태로 설정
+// 	});
+// });
+</script>
+
+
+<!-- 날씨 템플릿 -->
+
+
+<div class="area">
+	<ul>
+		<li><a href="javascript:;" id="pop-tos">이용약관</a></li>
+		<li><a href="javascript:;" id="pop-policy"><h3 style="font-weight:bold;">개인정보처리방침</h3></a></li>
+
+		<li><span style="font-size: 16px"><span class="red">관제권(공항주변)</span> 및 <span class="red">원전 주변</span>은 <span class="red">드론 비행승인 대상지역</span>이며 드론 탐지시스템이 운영 중에 있습니다.</span></li>
+	</ul>
+
+	<!--//더보기 팝업 231130 msh 모바일 깨짐 수정 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 기상정보 -->
+	<div class="w_info_wrap">
+		
+
+	<!-- 자기장정보 -->
+	<div id="KP_LEVEL" class="w_info mag g1" title="지구자기장 지수">
+    	<span class="sound">자기장정보</span>
+    	<p class="w_ct">자기장지수(현재) : <span id="KP_VALUE" class="KP_VALUE" value="">3kp</span><br>24시간 최대<span class="KP_MAX_VALUE"> : </span><span id="KP_MAX_VALUE" value="">4kp</span></p>
+	</div>
+   </div> 
+</div>
+
+<!-- 소속기관홈페이지 -->
+<div class="footer_sub">
+	<div class="area">
+		<div class="f_logo"><span class="sound">드론 로고</span></div>
+			<p class="copyright">
+			Copyright (c) Ministry of Land, Infrastructure and Transport. All Rights reserved<br>
+			드론민원포털서비스에 접수된 민원은 관련 법률 및 법령과 시행규칙에 의거하여 처리됩니다.</p>
+		<div class="pt_hp">
+		<form action="">
+			<select name="" id="" onchange="if(this.value) window.open(this.value);">
+				<option value="">소속기관 홈페이지</option>
+				<option value="http://www.molit.go.kr/sroa/intro.do">서울지방항공청</option>
+				<option value="http://www.molit.go.kr/broa/intro.do">부산지방항공청</option>
+				<option value="http://www.molit.go.kr/jroa/intro.do">제주지방항공청</option>
+				<option value="https://www.kotsa.or.kr/">한국교통안전공단</option>
+				<option value="https://www.kotsa.or.kr/edrone">드론정보통합시스템</option>
+			</select>
+		</form>
+		</div>
+	</div>
+</div>
+
+
+		</div>
+		<!-- //footer -->
+	</div>
+
+	<!-- pop-layer -->
+	<div class="dim-layer">
+	    <div class="dimBg"></div>
+	    <div id="pop-layer" class="pop-layer">
+	        <div class="pop-container">
+	            <div class="pop-conts">
+	                <!--content //-->
+	                <p class="ctxt mb20">메시지<br>
+	                	처리가 완료되었습니다.
+	                </p>
+	                <div class="btn-r">
+	                    <a href="#" class="btn-layerClose">닫기</a>
+	                </div>
+	                <!--// content-->
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><button type="button" id="cboxClose"></button></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>

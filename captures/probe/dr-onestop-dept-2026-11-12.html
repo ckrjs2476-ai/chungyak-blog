@@ -1,0 +1,1496 @@
+<!DOCTYPE html><html><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>드론원스톱 민원서비스</title>
+
+	<link rel="stylesheet" type="text/css" href="/resources/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/ie.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/media.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
+<!--	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet"> -->
+	<script src="https://t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	
+	<script src="/resources/vendor/jQuery-3.3.1/jquery-d.min.js"></script>
+	<script src="/resources/vendor/jQuery-migrate-1.4.1/jquery-migrate-1.4.1.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.bxslider.min.js"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.serialize-object.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/inputmask.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/jquery.inputmask.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/bxslider.js"></script>
+	<script src="/resources/js/custom.js?v=1"></script>
+	<script src="/resources/js/common.js?v=1"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate-comm.js"></script>
+	<script src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.offcanvas.js"></script>
+
+	<!-- jquery-ui -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.css">
+	<script src="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<!-- datatables -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Responsive-2.2.2/css/responsive.bootstrap.css">
+
+	<script type="text/javascript" src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/responsive.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/RowsGroup-1.0.0/js/dataTables.rowsGroup.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-lang.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-custom.js"></script>
+
+	<!-- CKEDITOR -->
+	<script type="text/javascript" src="/resources/vendor/ckeditor/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
+
+	<!-- Jquery MASK -->
+	<script type="text/javascript" src="/resources/vendor/jQuery-Mask-1.14.16/jquery.mask.min.js"></script>
+
+	<!-- moment -->
+	<script type="text/javascript" src="/resources/vendor/moment-2.24.0/moment-with-locales.min.js"></script>
+
+	<!-- air-datepicker -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/air-datepicker-2.2.3/css/datepicker.min.css">
+	<script type="text/javascript" src="/resources/vendor/air-datepicker-2.2.3/js/datepicker.min.js"></script>
+	<script src="/resources/vendor/air-datepicker-2.2.3/js/i18n/datepicker.ko.js"></script> <!-- Include English language -->
+
+	<!-- colorbox -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/colorbox-1.4.22/css/colorbox.css">
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.tiny-draggable.min.js"></script>
+	<script src="/resources/vendor/colorbox-1.4.22/js/jquery.colorbox.js"></script>
+
+</head>
+
+<body onload="javascript:commonMassage('');">
+	<div id="wrap">
+		<!-- header -->
+		<div id="header">
+			
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+
+		// 타 사이트 검색시 8443 제거하기 20250730
+		const fromSearchEngine = /google|naver|bing|daum/.test(document.referrer);
+		const isAdminPort = window.location.port === '8443';
+
+		if (fromSearchEngine && isAdminPort) {
+			const newUrl = window.location.protocol + '//' + window.location.hostname + window.location.pathname + window.location.search;
+			window.location.href = newUrl;
+		}
+
+		$('#dr_navi').dr_naviFullWide({
+			subState : false, // 메뉴활성시 서브메뉴의 오픈유무(true,false)
+			motionType : 'slide', // 모션타입(none,fade,slide)
+			motionSpeed : 300, // 모션속도(밀리초)
+			delayTime : 200
+			// 메뉴아웃시 되돌아가는 딜레이시간(밀리초)
+		});
+
+		$('#user_mo_navi').kj_mo_navi22({
+			motionSpeed : 500, // 모션속도(밀리초)
+			delayTime : 2000
+			// 클릭아웃시 딜레이시간(페이지인식인경우)
+		});
+
+		// MainMenu 마우스오버 이벤트
+		$(".dr_main > li").mouseover(function() {
+			var explain = $(this).data("explain");
+			var text = $(this).data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// SubMenu 마우스오버 이벤트
+		$(".dr_subSet > ul > li").mouseover(function() {
+			var explain = $(this).parent().data("explain");
+			var text = $(this).parent().data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// 로그인정보 팝업
+		$("#dr_layerPopup").dr_layerPopup({
+			mouseEvent : "click"
+		});
+
+/*
+		function PageCounter() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				data : {"URL_ID" : click_bidx, "URL_NM" : click_type},
+				url : "/pagecounter/setPageCounterAjax",
+				timeout: 5000,
+				success: function(data){
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('PageCounter-계획000-'+str1);
+					alert(str1);
+				},
+				error: function(xhr,  Status, error) {
+					console.log(Status)
+				}
+			});
+		};
+
+
+		$(".m_h_contents").click(function() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				url : "/pagecounter/setPageCounter",
+				data: {
+					bidx : click_bidx,
+					type : click_type
+				},
+				error: function (request, status, error) {
+					//alert(request.responseText)
+				},
+				success: function (html) {
+					//  $('#store_list').html(html);
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('m_h_contents-계획000-'+str1);
+					alert(str1);
+				}
+			});
+
+		});
+		*/
+
+		// 실시간 시간정보
+		//let time = 60;
+/*
+		let min = "";
+		let sec = "";
+		let time = //= session.getMaxInactiveInterval()  ;
+
+		let x = setInterval(function () {
+
+			min = parseInt(time/60);
+			sec = time % 60;
+
+			document.getElementById("demo").innerHTML ="<spen style='color:#1d75b3  ;'>로그인 유지시간 - "+ min + "분" + sec + "초</span>";
+			time--;
+
+			if (time < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "시간초과";
+
+
+				alert("로그인 유지 시간(30분)이 초과 되었습니다.");
+				location.href='/member/login/login';
+			}
+		}, 1000);
+*/
+
+
+	});
+</script>
+
+<!-- /* 대국민 네이버접속기록 남기기 2023-05-10 */ -->
+<!--
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "17b3f25fcf4fff0";
+	if(window.wcs) {
+		wcs_do();
+	}
+</script>
+-->
+
+
+
+<div id="lnb">
+
+	<div class="area">
+
+        <!--  시계가 보여질 div -->
+        
+		<ul>
+			
+
+
+			<!--관리자레이어팝업-->
+			
+				<!-- 서버 접속Port 확인 -->
+				
+					
+					
+						<li><a href="/member/login/login">로그인</a></li>
+						
+						
+						<li><a href="/member/join/register">회원가입</a></li>
+					
+				
+			
+		</ul>
+	</div>
+</div>
+
+<div class="head_sub">
+	<div id="dr_navi">
+
+
+		<div class="navbar-header">
+			<button class="navbar-toggle offcanvas-toggle pull-right js-offcanvas-has-events" data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+				<span class="mobile_menu"> <i aria-hidden="true" class="fa fa-bars"></i>
+				</span>
+			</button>
+			<h1>
+				<a href="/"> <strong class="sound">드론원스톱 민원서비스 로고</strong>
+				</a>
+			</h1>
+			<!-- <span class="mobile_user"> <i aria-hidden="true" class="fa fa-user"></i></span> -->
+		</div>
+
+		<!--일반 유저 mobile 메뉴 시작-->
+		<div class="navbar-offcanvas navbar-offcanvas-touch offcanvas-transform js-offcanas-done" id="js-bootstrap-offcanvas">
+			<div id="mobi_user_menu">
+				<div class="m_top" id="mobile_user_menu_close">
+					<span>메뉴닫기</span>
+					<button class="navbar-toggle offcanvas-toggle pull-right " data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+						<i aria-hidden="true" class="fa fa-times"></i>
+					</button>
+				</div>
+				<ul class="kj_mo_navi" id="user_mo_navi">
+					<li class="kj_mo"><a class="mo1 mo kj_mo_select" href="#">민원 시스템 안내 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul style="display: block;">
+							<!--
+							<li><a class="m_h_contents" href="/introduce/systemintro1/" data-pos="/introduce/systemintro1/" data-item-id="각종 신청 작성 안내">각종 신청 작성 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro2/" data-pos="/introduce/systemintro2/" data-item-id="민원 유형별 처리 안내">민원 유형별 처리 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro3/" data-pos="/introduce/systemintro3/" data-item-id="처리 부서 안내">처리 부서 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro4/" data-pos="/introduce/systemintro4/" data-item-id="각종 민원 법률 정보">각종 민원 법률 정보</a></li>
+							-->
+							<li><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+							<li><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+							<li><a href="/introduce/systemintro3/" class="kj_mo_select">처리 부서 안내</a></li>
+							<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+
+						</ul></li>
+					<li class="kj_mo"><a class="mo2 mo" href="#">민원신청 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+							<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+							<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+							<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+							<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+							<li><a href="/civilappeal/flightphotos/registerF"><font color="black" size="4"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반모바일 메뉴  2022-05-02 비행/사진 동시신청 -->
+						</ul></li>
+					<li class="kj_mo"><a class="mo3 mo" href="#">정보마당 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/board/notice/list">공지사항</a></li>
+							<li><a href="/board/faq/list">FAQ</a></li>
+							<!-- 2022-02-11 Q&A 메뉴 drop-->
+							<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+						</ul></li>
+					
+            
+                <li class="kj_mo"><a class="mo5 mo" href="#">회원서비스 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+                </a>
+                    <ul>
+                        <li><a href="/member/join/register">회원가입</a></li>
+                        <li><a href="/member/login/login">로그인</a></li>
+                        <li><a href="/member/login/searchinfo">아이디/비밀번호찾기</a></li>
+                    </ul></li>
+            
+        </ul>
+    </div>
+</div>
+<!--mobile 메뉴 끝-->
+
+<!--일반 유저 desktop 메뉴 시작-->
+<div id="desk_user_menu">
+    <ul class="dr_main kk">
+        <li class="first" data-explain="민원 시스템 안내" data-text="System Introduce"><a href="#">민원 시스템 안내</a></li>
+        <li data-explain="민원신청" data-text="Civil application"><a href="#">민원신청</a></li>
+        <li data-explain="정보마당" data-text="Information"><a href="#">정보마당</a></li>
+        
+        
+            <li class="last" data-explain="회원서비스" data-text="Members"><a href="#">회원서비스</a></li>
+        
+
+    </ul>
+    <div class="dr_mask">
+        <div class="menu_img">
+            <div class="inner_line">
+                <p id="menu_text">
+                    <strong>Civil application</strong>
+                </p>
+                <h2 id="menu_explain">민원신청</h2>
+            </div>
+        </div>
+        <div class="dr_subSet">
+            <ul class="m1 tmenu" data-explain="민원 시스템 안내" data-text="System Introduce">
+                <li><a href="/introduce/systemintro1" id="desk_user_m01">각종 신청 작성 안내</a></li>
+                <li><a href="/introduce/systemintro2" id="desk_user_m02">민원 유형별 처리 안내</a></li>
+                <li><a href="/introduce/systemintro3" id="desk_user_m03">처리 부서 안내</a></li>
+                <li><a href="/introduce/systemintro4" id="desk_user_m04">각종 민원 법률 정보</a></li>
+            </ul>
+            <ul class="m2 tmenu" data-explain="민원신청" data-text="Civil application">
+                <li><a href="/civilappeal/aircraft/register" id="desk_user_m11">비행장치 신고</a></li>
+                <li><a href="/civilappeal/business/register" id="desk_user_m12">사업등록 신고</a></li>
+                <li><a href="/civilappeal/flight/register" id="desk_user_m13">비행승인 신청</a></li>
+                <li><a href="/civilappeal/special/register" id="desk_user_m14">특별비행승인 신청</a></li>
+                <li><a href="/civilappeal/aerophotos/register" id="desk_user_m15">항공촬영 신청</a></li>
+                <li><a href="/civilappeal/flightphotos/registerF" id="desk_user_m16"><font color="black" size="3"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반메뉴 2022-05-02 비행/사진 동시신청 -->
+            </ul>
+            <ul class="m3 tmenu" data-explain="정보마당" data-text="Information">
+                <li><a href="/board/notice/list" id="desk_user_m21">공지사항</a></li>
+                <li><a href="/board/faq/list" id="desk_user_m22">FAQ</a></li>
+                <!-- <li><a href="/board/qna/list" id="desk_user_m23">Q&A</a></li> -->
+            </ul>
+            
+            
+                <ul class="m5 tmenu" data-explain="회원서비스" data-text="Members">
+                    <li><a href="/member/join/register" id="desk_user_m41">회원가입</a></li>
+                    <li><a href="/member/login/login" id="desk_user_m42">로그인</a></li>
+                    <li><a href="/member/login/searchinfo" id="desk_user_m43">아이디/비밀번호찾기</a></li>
+                </ul>
+            
+        </div>
+    </div>
+</div>
+<!--desktop 메뉴 끝-->
+</div>
+</div>
+		</div>
+		<!-- //header -->
+		<!-- section -->
+		<div id="section">
+			<div class="sub_contents">
+				<!-- 페이지위치표시 -->
+				<div class="navi">
+					<ul class="area" id="page_id">
+						<li><img src="/resources/img/sub/home.png" alt="홈"></li>
+						<li>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name1">민원시스템 안내 </span>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name2">처리 부서 안내</span>
+						</li>
+					</ul>
+				</div>
+				<!-- 페이지위치표시 -->
+				<div class="area">
+					<div id="l_con" class="l_con">
+						
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	// 사이드 메뉴 show, active 처리 (페이지 접근시)
+	var url = location.href.split('/'); // [3]:대메뉴 [4]:중메뉴 [5]:소메뉴(function)
+	var href = url[3] + "/" + url[4] + "/";
+	if (url[4] === "login") { // member/login/login, member/login/searchinfo 때문에..
+		if (url[5] === "login")
+			href = href + url[5];
+		else
+			href = href + "searchinfo"
+	}
+	var dom  = $(".side_menu a[href*='" + href + "']");
+	dom.parent().parent().parent().parent().show();
+	dom.parent().addClass("active");
+
+	// 모바일 메뉴
+	dom = $(".kj_mo a[href*='" + href + "']");
+	dom.parent().parent().siblings("a").addClass("kj_mo_select");
+	dom.parent().parent().show();
+	dom.addClass("kj_mo_select");
+
+	// Set MenuPath - User
+	var menuName1 = $("div[style=''] .page_info h2").text();
+	var menuName2 = $(".side_menu .active").text()
+	$('#menu-name1').text(menuName1);
+	$('#menu-name2').text(menuName2);
+});
+</script>
+
+<div style="">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Introduce</strong>
+			</p>
+			<h2>민원시스템 안내 </h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+			<li><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+			<li class="active"><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+			<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Civil application</strong>
+			</p>
+			<h2>민원신청</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+			<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+			<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+			<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+			<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+			<li><a href="/civilappeal/flightphotos/registerF">비행/촬영 원스톱 신청</a></li> <!--왼쪽메뉴 2022-05-02 비행/사진 동시신청 -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Information</strong>
+			</p>
+			<h2>정보마당</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/board/notice/list">공지사항</a></li>
+			<li><a href="/board/faq/list">FAQ</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Mypage</strong>
+			</p>
+			<h2>마이페이지</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<!--<li><a href="/mypage/civilappeal/list">민원 신청 현황</a></li>-->
+			<li><a href="/mypage/civilappealhis/list">민원 신청 이력</a></li>
+			<li><a href="/common/inadvance/list">비행승인 사전확인이력</a></li>
+			<li><a href="/mypage/myac/list">내 장치 관리</a></li>
+			
+			<li><a href="/mypage/member/modify">정보수정/탈퇴</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/mypage/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Members</strong>
+			</p>
+			<h2>회원서비스</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/member/join/register">회원가입</a></li>
+			<li><a href="/member/login/login">로그인</a></li>
+			<li><a href="/member/login/searchinfo">아이디/비밀번호 찾기</a></li>
+		</ul>
+	</div>
+</div>
+					</div>
+					<div id="r_con" class="r_con">
+						
+
+<div class="sub_area">
+	<div class="mypage introduce">
+		<div class="title-box">
+			<h2>처리부서안내</h2>
+		</div>
+		<div class="board-wrap bd-n">
+
+			<div class="regi-wrap mt30">
+
+				<div class="table-wrap contact">
+					<h3>초경량비행장치 비행승인 관할 기관 연락처</h3>
+
+					<table>
+						<colgroup>
+							<col style="width:220px;">
+							<col style="width:220px;">
+							<col style="width:52%;">
+							<col style="width:48%;">
+						</colgroup>
+						<thead>
+						<tr>
+							<th colspan="2" style="width: 25%">구분</th>
+							<th>관할기관</th>
+							<th>연락처</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td colspan="2" class="gray">인천, 경기 서부<br>(화성, 시흥, 의왕,
+								군포, 과천, 수원, 오산, 평택, 강화 등)
+							</td>
+							<td>서울지방항공청<br>(항공운항과)</td>
+							<td>TP : 032-740-2157, 2351<br> FAX : 032-740-2159
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="gray">서울, 경기 동부<br>(부천, 광명, 김포,
+								고양, 구리, 여주, 이천, 성남, 광주, 용인, 안성, 가평, 양평, 의정부, 남양주 등)
+							</td>
+							<td>김포항공관리사무소<br>(안전운항과)</td>
+							<td>TP : 02-2660-5733</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="gray">강원 영동지역<br>(고성, 속초, 양양,
+								강릉, 동해, 삼척, 태백 등)
+							</td>
+							<td>양양공항출장소</td>
+							<td>TP : 033-670-7206</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="gray">강원 영서지역<br>(철원, 화천, 양구,
+								인제, 춘천, 홍천, 원주, 횡성, 평창, 영월, 정선 등)
+							</td>
+							<td>원주공항출장소</td>
+							<td>TP : 033-340-8202</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="gray">충청남북도</td>
+							<td>청주공항출장소</td>
+							<td>TP : 043-210-6204</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="gray">전라북도</td>
+							<td>군산공항출장소</td>
+							<td>TP : 063-471-5820</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="gray">전라남도, 경상남북도, 부산, 대구, 울산, 광주 등<br>(관제권 외 지역)</td>
+							<td>부산지방항공청<br>(항공운항과)</td>
+							<td>TP : 051-974-2155<br>FAX : 051-971-1219
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" rowspan="2" class="gray">제주</td>
+							<td>제주지방항공청<br>(안전운항과)</td>
+							<td>TP : 064-797-1744<br> FAX : 064-797-1759
+							</td>
+						</tr>
+						<tr>
+							<td>정석비행장</td>
+							<td>TP : 064-780-0353</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="table-wrap contact">
+					<h3>관제권 및 군 관할 구역 비행승인 관련기관 연락처</h3>
+
+					<table>
+						<colgroup>
+							<col style="width:220px;">
+							<col style="width:220px;">
+							<col style="width:52%;">
+							<col style="width:48%;">
+						</colgroup>
+						<thead>
+						<tr>
+							<th colspan="2" style="width: 25%">구분</th>
+							<th>관할기관</th>
+							<th>연락처</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td rowspan="5" class="gray">관제권</td>
+							<td>울진공항 및 관제권</td>
+							<td>울진공항출장소</td>
+							<td>TP : 054-787-8031</td>
+						</tr>
+						<tr>
+							<td>울산공항 및 관제권</td>
+							<td>울산공항출장소</td>
+							<td>TP : 052-219-6211</td>
+						</tr>
+						<tr>
+							<td>여수공항 및 관제권</td>
+							<td>여수공항출장소</td>
+							<td>TP : 061-689-6234</td>
+						</tr>
+						<tr>
+							<td>무안공항 및 관제권</td>
+							<td>무안공항출장소</td>
+							<td>TP : 061-455-2217</td>
+						</tr>
+						<tr>
+							<td>비행장교통구역 - 태안</td>
+							<td>한서대학교</td>
+							<td>TP : 041-671-6165~6</td>
+						</tr>
+						<tr>
+							<td rowspan="13" class="gray">군 관할 관제권<br>(공군)</td>
+							<td>서울</td>
+							<td>서울기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 031-720-3232 <br> FAX : 031-720-4459</td>
+						</tr>
+						<tr>
+							<td>수원</td>
+							<td>수원기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 031-220-1224~5 <br> FAX : 031-220-1167</td>
+						</tr>
+						<tr>
+							<td>원주</td>
+							<td>원주기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>(주간) 033-730-4217,4222 <br> (야간) 033-730-4222~3 <br> FAX : 033-747-7801</td>
+						</tr>
+						<tr>
+							<td>강릉</td>
+							<td>강릉기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 033-649-3026 <br> FAX : 033-649-3790</td>
+						</tr>
+						<tr>
+							<td>청주</td>
+							<td>청주기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 043-200-3055 <br> FAX : 043-200-4679 </td>
+						</tr>
+						<tr>
+							<td>충주</td>
+							<td>충주기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 043-849-3570~1 <br> FAX : 043-849-5599</td>
+						</tr>
+						<tr>
+							<td>해미</td>
+							<td>서산기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 041-689-2029 <br> FAX : 041-689-4455 </td>
+						</tr>
+						<tr>
+							<td>성무</td>
+							<td>성무기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 043-290-5510</td>
+						</tr>
+						<tr>
+							<td>부산 ,김해<br>(관제권 내 지역)</td>
+							<td>부산기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 051-979-2304, 2306</td>
+						</tr>
+						<tr>
+							<td>대구</td>
+							<td>대구기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 053-989-3203~4 <br> FAX : 053-989-4698</td>
+						</tr>
+						<tr>
+							<td>예천</td>
+							<td>예천기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 054-650-4728 <br> FAX : 054-650-5757 </td>
+						</tr>
+						<tr>
+							<td>진주, 사천</td>
+							<td>사천기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 055-850-3250~1 <br>FAX: 055-850-5454 </td>
+						</tr>
+						<tr>
+							<td>광주</td>
+							<td>광주기지<br>(항공작전과 무인항공기통제팀)</td>
+							<td>TP : 062-940-1313~4 </td>
+						</tr>
+						<tr>
+							<td rowspan="4" class="gray">군 관할 관제권<br>(해군)</td>
+							<td>포항공항 및 관제권</td>
+							<td>포항기지</td>
+							<td>TP : 054-290-6325</td>
+						</tr>
+						<tr>
+							<td>목포공항 및 관제권</td>
+							<td>목포기지</td>
+							<td>TP : 061-263-3021</td>
+						</tr>
+						<tr>
+							<td>진해관제권</td>
+							<td>진해기지사령부</td>
+							<td>TP : 055-549-4232</td>
+						</tr>
+						<tr>
+							<td>포승</td>
+							<td>2함대사령부</td>
+							<td>TP : 031-685-4344</td>
+						</tr>
+						<tr>
+							<td rowspan="3" class="gray">군 관할 관제권<br>(육군)</td>
+							<td>이천</td>
+							<td>항공사령부<br>(비행정보반)</td>
+							<td>TP : 031-644-3705~6</td>
+						</tr>
+						<tr>
+							<td>논산</td>
+							<td>육군항공학교<br>(관제근무대)</td>
+							<td>TP : 041-731-6491</td>
+						</tr>
+						<tr>
+							<td>속초</td>
+							<td>육군 3군단<br>(항공작전과)</td>
+							<td>TP : 033-460-7383</td>
+						</tr>
+						<tr>
+							<td rowspan="7" class="gray">군 관할 비행장교통구역<br>(육군)</td>
+							<td>홍천/현리</td>
+							<td>육군 3군단<br>(항공작전과)</td>
+							<td>TP : 033-460-7383</td>
+						</tr>
+						<tr>
+							<td>가평</td>
+							<td>육군 5군단<br>(항공작전과)</td>
+							<td>TP : 031-530-3383~4</td>
+						</tr>
+						<tr>
+							<td>양평/덕소/용인</td>
+							<td>육군 7군단<br>(항공작전과)</td>
+							<td>TP : 031-640-3383</td>
+						</tr>
+						<tr>
+							<td>전주/영천</td>
+							<td>육군 제2작전사<br>(화력항공과)</td>
+							<td>TP : 053-750-3364</td>
+						</tr>
+						<tr>
+							<td>춘천</td>
+							<td>육군 2군단<br>(항공작전과)</td>
+							<td>TP : 033-249-6276</td>
+						</tr>
+						<tr>
+							<td>금왕</td>
+							<td>육군 특수전사<br>(작전지원과)</td>
+							<td>TP : 02-3403-3351</td>
+						</tr>
+						<tr>
+							<td>조치원/하남/부천</td>
+							<td>육군 항공사령부<br>(비행정보반)</td>
+							<td>TP : 031-644-3705~6</td>
+						</tr>
+						<tr>
+							<td rowspan="3" class="gray">군 관할 관제권<br>(미군)</td>
+							<td>오산</td>
+							<td>오산기지<br>(美공군 운항실)</td>
+							
+							<td>※ 공지사항 참조<br> ('오산' 검색 / <a href="https://drone.onestop.go.kr/board/notice/read?id=224" style="vertical-align: baseline; text-decoration: none;"> ☞바로가기</a>)<br>이메일 신청 · 접수</td>
+						</tr>
+						<tr>
+							<td>군산</td>
+							<td>군산기지<br>(美공군 운항실)</td>
+							<td>※ 공지사항 참조<br> ('군산공항' 검색 / <a href="https://drone.onestop.go.kr/board/notice/read?id=141" target="_blank" style="vertical-align: baseline; text-decoration: none;"> ☞바로가기</a>)<br>이메일 신청 · 접수</td>
+						</tr>
+						<tr>
+							<td>평택</td>
+							<td>미육군 평택기지<br>(험프리 운항실)</td>
+							<!--<td>TP : 0503-355-1003<br>(문의 후 신청)<br> <p style="color : red;">*공지사항 참조</td>-->
+							<td>※ 공지사항 참조<br> ('평택' 검색 / <a href="https://drone.onestop.go.kr/board/notice/read?id=68" target="_blank" style="vertical-align: baseline; text-decoration: none;"> ☞바로가기</a>)<br>이메일 신청 · 접수</td>
+						</tr>
+						<tr>
+							<td rowspan="17" class="gray">비행금지구역</td>
+							<td>P73<br>(서울도심)</td>
+							<td>수도방위사령부</td>
+							<td>TP : 02-524-3346</td>
+						</tr>
+						<tr>
+							<td>P518(휴전선지역)<br>- 김포시, 강화군</td>
+							<td>수도군단</td>
+							<td>TP : 031-440-3384</td>
+						</tr>
+						<tr>
+							<td>P518(휴전선지역)<br>- 고양시, 파주시, 양주시(남면, 광적면, 장흥면), 연천군(왕징면, 미산면, 중면 황산리)</td>
+							<td>1군단</td>
+							<td>TP : 031-550-0085</td>
+						</tr>
+						<tr>
+							<td>P518(휴전선지역)<br>- 철원군(근남면), 춘천시, 화천군</td>
+							<td>2군단</td>
+							<td>TP : 033-249-6276</td>
+						</tr>
+						<tr>
+							<td>P518(휴전선지역)<br>- 인제군, 고성군, 속초시, 양양군, 양구군</td>
+							<td>3군단</td>
+							<td>TP : 033-460-7383</td>
+						</tr>
+						<tr>
+							<td>P518(휴전선지역)<br>- 동두천시, 양주시(1군단 지역 제외 전체), 의정부시, 포천시, 연천군(1군단 지역 제외 전체), 철원군(근남면 제외 전체), 가평군</td>
+							<td>5군단</td>
+							<td>TP : 031-530-3383~4</td>
+						</tr>
+						<tr>
+							<td>P61A<br>(고리원전)</td>
+							<td>원전 고리본부</td>
+							<td>TP : 051-726-2053, 2054</td>
+						</tr>
+						<tr>
+							<td>P61A<br>(새울원전)</td>
+							<td>원전 새울본부</td>
+							<td>TP : 052-715-2892, 2897</td>
+						</tr>
+						<tr>
+							<td>P62A<br>(월성원전)</td>
+							<td>원전 월성본부</td>
+							<td>TP : 054-779-3165</td>
+						</tr>
+						<tr>
+							<td>P63A<br>(한빛원전)</td>
+							<td>원전 한빛본부</td>
+							<td>TP : 061-357-2823</td>
+						</tr>
+						<tr>
+							<td>P64A<br>(한울원전)</td>
+							<td>원전 한울본부</td>
+							<td>TP : 054-785-1061</td>
+						</tr>
+						<tr>
+							<td>P65A<br>(한국원자력연구원)</td>
+							<td>한국원자력연구원</td>
+							<td>TP : 042-868-2093</td>
+						</tr>
+						<tr>
+							<td>P61B<br>(고리/새울원전)</td>
+							<td rowspan="4">부산지방항공청<br>(항공운항과)</td>
+							<td rowspan="4">TP : 051-974-2155<br>FAX : 051-971-1219</td>
+						</tr>
+						<tr>
+							<td>P62B<br>(월성원전)</td>
+						</tr>
+						<tr>
+							<td>P63B<br>(한빛원전)</td>
+						</tr>
+						<tr>
+							<td>P64B<br>(한울원전)</td>
+						</tr>
+						<tr>
+							<td>P65B<br>(한국원자력연구원)</td>
+							<td>청주공항출장소</td>
+							<td>TP : 043-210-6204</td>
+						</tr>
+						<tr>
+							<td rowspan="9" class="gray">비행제한구역</td>
+							<td>R75<br>(수도권지역)</td>
+							<td>수도방위사령부</td>
+							<td>TP : 02-524-3346</td>
+						</tr>
+						<tr>
+							<td>R17, R74, R80, R81, R84, R88, R97, R104, R105, R107, R110, R111</td>
+							<td>공군작전사령부<br>(작전훈련과)</td>
+							<td>TP : 031-669-3014</td>
+						</tr>
+						<tr>
+							<td>R1, R10, R19, R20, R21, R77, R122, R127, R129, R138, R139, R157, R158</td>
+							<td>공군작전사령부<br>(공역관리과)</td>
+							<td>TP : 031-669-5054</td>
+						</tr>
+						<tr>
+							<td>R114</td>
+							<td>육군 항공사령부(비행정보반)</td>
+							<td>TP : 031-644-3705~6</td>
+						</tr>
+						<tr>
+							<td>R35, R152</td>
+							<td>육군 특수전사(작전지원과)</td>
+							<td>TP : 02-3403-3351</td>
+						</tr>
+						<tr>
+							<td>R72, R99, R100, R115, R116, R117, R118, R119, R120, R121, R123, R124, R125, R126, R128, R133, R135, R136, R153, R156</td>
+							<td>해군작전사령부</td>
+							<td>TP : 051-679-3116</td>
+						</tr>
+						<tr>
+							<td>R89, R90, R116, R131, R132, R134, R137, R154</td>
+							<td>해병대사령부</td>
+							<td>TP : 031-8012-3724</td>
+						</tr>
+						<tr>
+							<td>R108</td>
+							<td>국방과학연구소</td>
+							<td>TP : 041-671-2208</td>
+						</tr>
+						<tr>
+							<td>R155</td>
+							<td>미8군사령부</td>
+							<td>TP : 0503-355-2497
+						</td></tr>
+						<tr>
+							<td rowspan="6" class="gray">주의공역</td>
+							<td>군 작전구역</td>
+							<td rowspan="3">공군작전사령부<br>(공역관리과)</td>
+							<td rowspan="3">TP : 031-669-5054</td>
+						</tr>
+						<tr>
+							<td>위험구역</td>
+						</tr>
+						<tr>
+							<td>경계구역<br>(A18, A19, A19T, A20T)</td>
+						</tr>
+						<tr>
+							<td>경계구역(A2)</td>
+							<td>미8군사령부</td>
+							<td>※ 공지사항 참조
+								<br>('미8군' 검색 / <a href="https://drone.onestop.go.kr/board/notice/read?id=640" target="_blank" style="vertical-align: baseline; text-decoration: none;">☞바로가기</a>)
+								<br>이메일 신청 · 접수
+							</td>
+						</tr>
+						<tr>
+							<td>경계구역(A810)</td>
+							<td>육군 항공사령부(비행정보반)</td>
+							<td>TP : 031-644-3705~6</td>
+						</tr>
+						<tr>
+							<td>경계구역(A811)</td>
+							<td>수도군단</td>
+							<td>TP : 031-440-3383~4</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+
+
+				<div class="table-wrap contact">
+					<h3>항공촬영 민원처리 책임부대 연락처</h3>
+
+					<table>
+						<colgroup>
+							<col style="width:440px;">
+							<col style="width:100%;">
+						</colgroup>
+						<thead>
+						<tr>
+							<th>구분</th>
+							<th>연락처</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td class="gray">서울특별시</td>
+							<td>TP : 02-524-3345, 3346</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 춘천시(사북면 제외), 화천군(간동면)</td>
+							<td>TP : 033-249-6066</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 화천군(간동면, 사내면 제외), 철원군(원동면, 원남면)</td>
+							<td>TP : 033-440-5204</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 춘천시(사북면), 철원군(근남면, 근동면), 화천군(사내면)</td>
+							<td>TP : 033-440-6264</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 철원군(임남면), 양구군(양구읍, 국토정중앙면, 해안면, 동면, 방산면)</td>
+							<td>TP : 033-480-6207</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 인제군(인제읍, 서화면, 북면)</td>
+							<td>TP : 033-460-6207</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 인제군(기린면)</td>
+							<td>TP : 033-460-5022</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 인제군(상남면, 남면)</td>
+							<td>TP : 033-460-5705</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 고성군(간성읍, 거진읍, 현내읍, 죽왕면, 수동면), 강원도 양양군(손양면‧서면‧현북면‧현남면)</td>
+							<td>TP : 033-639-6216</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 고성군(토성면), 속초시, 양양군(양양읍‧강현면)</td>
+							<td>TP : 033-670-6222</td>
+						</tr>
+						<tr>
+							<td class="gray">강릉시, 동해시, 삼척시</td>
+							<td>TP : 033-571-6207</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도(원주시, 횡성군, 평창군, 홍천군, 영월군, 정선군, 태백시)</td>
+							<td>TP : 033-741-6231</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 철원군 갈말읍(문혜리, 토성리), 근북면
+								<br>강원도 철원군 김화읍(도창리, 학사리, 생창리), 철원군 서면(자등리, 와수리)</td>
+							<td>TP : 033-450-6211</td>
+						</tr>
+						<tr>
+							<td class="gray">강원도 철원군 동송읍(내포리, 외촌리, 관우리, 사요리, 관전리, 중리, 월하리, 대위리, 화지리, 오덕리, 이평리, 오지리, 장흥리), 철원읍
+								<br>강원도 철원군 갈말읍(상사리, 동막리, 지포리, 군탄리, 내대리)
+								<br>경기도 포천시(관인면 - 사정리, 삼율리, 초과리), (영북면 - 야미리, 자일리)
+							</td>
+							<td>TP : 031-539-6221</td>
+						</tr>
+						<tr>
+							<td class="gray">광주광역시, 전라남도</td>
+							<td>TP : 062-260-6211</td>
+						</tr>
+						<tr>
+							<td class="gray">대전광역시, 충청남도, 세종특별자치시</td>
+							<td>TP : 042-829-6205,6208</td> <!-- 2024-08-16 변경사항-->
+						</tr>
+						<tr>
+							<td class="gray">전라북도</td>
+							<td>TP : 063-640-9222</td>
+						</tr>
+						<tr>
+							<td class="gray">충청북도</td>
+							<td>TP : 043-835-6205</td>
+						</tr>
+						<tr>
+							<td class="gray">경상남도(창원시 진해구 양산시, 거제시 중 장목면만 제외)</td>
+							<td>TP : 055-259-6209</td>
+						</tr>
+						<tr>
+							<td class="gray">대구광역시, 경상북도(울릉도, 독도, 경주시 양북면 제외)</td>
+							<td>TP : 053-320-6204~5</td>
+						</tr>
+						<tr>
+							<td class="gray">부산광역시(부산 강서구 성북동, 가덕도동 제외), 울산광역시</td>
+							<td>TP : 051-730-6209</td>
+						</tr>
+						<tr>
+							<td class="gray">경상남도 창원시 진해구, 거제시 장목면, 부산광역시 (강서구 성북동, 가덕도동)</td>
+							<td>TP : 055-549-4185, 4173</td>
+						</tr>
+						<tr>
+							<td class="gray">울릉도, 독도</td>
+							<td>TP : 033-539-4234</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 포천시(이동면, 일동면)</td>
+							<td>TP : 031-531-0555 → 교환 985-2217</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 포천시(내촌면), 남양주시(진접읍, 오남읍)</td>
+							<td>TP : 031-528-7110</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 포천시(영북면)</td>
+							<td>TP : 031-539-7306</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 포천시(소흘읍, 군내면, 가산면, 포천동, 선단동, 동교동)</td>
+							<td>TP : 031-530-3088</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 가평군 가평읍(두말리, 경반리, 마장리, 승안리, 읍내리, 하색리, 대곡리) 경기도 가평군 북면(이곡리)</td>
+							<td>TP : 031-580-6202 / 031-582-4140</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 파주시(광탄면), 고양시(벽제동, 고양동, 대자동),  양주시(장흥면)</td>
+							<td>TP : 02-748-1111 → 교환 810-6212</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 파주시(문산읍, 파주읍, 법원읍, 군내면, 장단면, 진서면, 광탄면, 파평면)</td>
+							<td>TP : 031-940-6204</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 고양시(내유동, 내곡동, 대장동, 화정동, 성서동, 식사동, 중산동, 정발산동, 장항동, 마두동, 백석동, 풍동, 산황동, 사리현동, 지영동, 설문동, 문봉동, 성석동, 일산동, 주엽동, 탄현동, 대화동, 덕이동, 가좌동, 구산동, 법곳동, 주교동,토당동, 신평동, 강매동, 행주내동, 행주외동, 행신동)
+								<br>경기도 파주시(금촌동, 운전동, 아동동, 검산동, 맥금동, 교하동, 야당동, 다율동, 오도동, 상지석동, 산남동, 동패동, 당하동, 문발동, 송촌동, 목동동, 하지석동, 서패동, 신촌동, 연다산동, 와동동, 금릉동, 조리읍, 월롱면, 탄현면)</td>
+							<td>TP : 02-748-1111 → 교환 809-6211</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 파주시(적성면, 법원읍, 광탄면, 진동면), 양주시(남면, 광적면, 백석읍), 연천군(장남면, 백학면, 왕징면, 미산면, 중면)</td>
+							<td>TP : 031-770-4436</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 고양시(원당동, 신원동, 원흥동, 도내동, 성사동, 오금동, 삼송동, 동산동, 용두동, 고양동, 대자동, 현천동, 덕은동, 향동동, 지축동, 화전동, 관산동), 양주시(장흥면)</td>
+							<td>TP : 02-300-6211</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 고양시(북한동, 효자동, 지축동), 양주시(장흥면)</td>
+							<td>TP : 02-748-1111 → 교환 872-6203</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 구리시, 경기도 남양주시(진건읍, 화도읍, 와부읍, 별내면, 퇴계원면, 조안면, 양정동, 지금동, 수석동, 호평동 / 평내동 / 금곡동 / 도농동 / 별내동, 다산동, 삼패동) </td>
+							<td>TP : 031-595-0458</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 동두천시, 연천군(군남면) </td>
+							<td>TP : 02-748-1111→교환 828-6221 일반) 031-820-6220</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 포천시(창수면), 연천군(전곡읍, 청산면, 신서면, 연천읍)</td>
+							<td>TP : 02-748-1111→교환 805-6221 일반) 031-830-6221</td>
+						</tr>
+						<tr>
+							<td class="gray">양주시(마전동, 광사동, 만송동, 삼숭동, 고읍동, 산북동, 율정동, 회암동)</td>
+							<td>TP : 02-748-1111 → 교환 849-6213</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 양평군(강상면, 강하면 제외한 전 지역), 가평군(설악면) 경기도 여주시(북내면, 천송동, 강천면, 대신면, 오학동, 신륵사,현암동)</td>
+							<td>TP : 033-430-6219</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 포천시(신북면, 영중면, 화현면, 어룡동, 신읍동) 경기도 의정부시, 양주시</td>
+							<td>TP : 031-828-6208</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 가평군(조종면, 상면, 청평면), 가평군 북면(백둔리, 도대리, 적목리), 가평읍(상색리, 이화리, 달전리, 금대리, 산유리, 복장리), 포천시(일동면, 신북면, 영중면, 화현면), 포천시 이동면(연곡리), 남양주시(수동면)</td>
+							<td>TP : 031-589-6206</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 김포시(양촌면, 대곶면, 통진읍, 월곶면, 하성면을 제외한 전 지역), 부천시 인천광역시 옹진군 영흥면,덕적면,자월면,연평면 제외), (중구 중산동 매도, 중구 무의동 제외), (서구 원창동 세어도 제외) </td>
+							<td>TP : 032-510-9226</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 김포시(대곶면 약암리 초지대교 ~ 운양동 용화사 이북지역만 해당), 강화도</td>
+							<td>TP : 032-454-3222</td>
+						</tr>
+						<tr>
+							<td class="gray">인천광역시(옹진군 자월면, 중구 중산동 매도· 운염도, 서구 원창동 세어도, 중구 무의동), 경기도 안산시(단원구 풍도동)</td>
+							<td>TP : 032-452-4213</td>
+						</tr>
+						<tr>
+							<td class="gray">인천광역시 옹진군 덕적면</td>
+							<td>TP : 031-685-4221</td>
+						</tr>
+						<tr>
+							<td class="gray">인천광역시 옹진군 백령면, 대청면, 소청면</td>
+							<td>TP : 032-837-3223</td>
+						</tr>
+						<tr>
+							<td class="gray">인천광역시 옹진군 연평면</td>
+							<td>TP : 032-830-3205</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 안양시, 화성시, 수원시, 평택시, 광명시, 시흥시, 안산시, 오산시, 군포시, 의왕시, 과천시, 인천광역시(옹진군 영흥면)</td>
+							<td>TP : 031-290-9225</td>
+						</tr>
+						<tr>
+							<td class="gray">경기도 용인시, 이천시, 하남시, 광주시, 성남시, 안성시, 양평군 (강상면, 강하면) 경기도 여주시(가남읍, 점동면, 능서리, 산북면, 금사면, 흥천면, 여흥동, 중앙동, 연라동, 우만동, 상거동, 월송동, 연양동, 단현동, 창동, 능현동)</td>
+							<td>TP : 031-329-6208</td>
+						</tr>
+						<tr>
+							<td class="gray">경북 포항시, 경주시(양북면), 감포읍, 양북면, 양남면, 강동면</td>
+							<td>TP : 054-299-3222</td>
+						</tr>
+						<tr>
+							<td class="gray">제주특별자치도</td>
+							<td>TP : 064-905-0302</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+
+
+
+
+				<div class="table-wrap contact mb0">
+					<h3>장치신고 및 사업등록 연락처</h3>
+
+					<table>
+						<colgroup>
+							<col style="width:220px;">
+							<col style="width:240px;">
+							<col style="width:100%;">
+						</colgroup>
+						<thead>
+						<tr>
+							<th>구분</th>
+							<th>관할기관</th>
+							<th>연락처</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td class="gray">장치신고</td>
+							<td>한국교통안전공단 드론관리처</td>
+							<td>TP : 054-459-7942~5<br>
+								(변경·말소) 054-459-7943<br>
+								(신규) 054-459-7945</td>
+						</tr>
+						<tr>
+							<td class="gray">사업등록</td>
+							<td>한국교통안전공단 드론관리처</td>
+							<td>TP : 054-459-7946~9</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //section -->
+		<!-- footer -->
+		<div id="footer">
+			
+
+<script src="/resources/vendor/db_banner7/js/jquery.DB_slideStepMove.min.js"></script>
+<script src="/resources/vendor/jQuery-tmpl-1.0.0/jquery.tmpl.min.js"></script>
+
+
+
+<!-- /* 구글접속기록 남기기 2023-05-10 */ -->
+<!-- Google tag (gtag.js) -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVJGCL7SSX"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-FVJGCL7SSX');
+</script>
+-->
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	let x = setInterval(function () {
+
+		initKindex();
+
+	}, 60*60*1000); // 2023-03-24 자기장정보 1시간에 한번씩 불러오기
+	//}, 10000); // 2023-03-24 자기장정보 10초에 한번씩 불러오기
+
+	initKindex();
+
+//	initWeather();
+
+	// [이용약관]
+	$("#pop-tos").click(function() {
+		utils.popupCenter("/common/terms/ToS", "popupToS", 1024, 720);
+	});
+
+
+	// [개인정보처리방침]
+	$("#pop-policy").click(function() {
+		//utils.popupCenter("/common/terms/privatePolicy", "popupPolicy", 1024, 720);
+		// 2026-08-01 한국교통안전공단 사이트로 변경
+		utils.popupCenter("https://main.kotsa.or.kr/portal/contents.do?menuCode=07020100", "popupPolicy", 1024, 720);
+	});
+});
+
+function initKindex() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getKindexAjax.ajax",
+		dataType: "json",
+		contentType: 'application/json; charset=UTF-8',
+		cache: false, // 캐싱 비활성화
+		headers: {
+			"Cache-Control": "no-cache, no-store, must-revalidate", // 캐시 무효화
+		},
+		//timeout: 5000,
+		success: function(data){
+			let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+			//console.log('비행승인-계획000-'+str1);
+
+			// alert(str1);
+			$("#KP_LEVEL").css("w_info mag " + data.KP_LEVEL);
+			$("#KP_VALUE").text(data.KP_VALUE + "kp")
+			$("#KP_MAX_VALUE").text(data.KP_MAX_VALUE + "kp")
+		},
+		error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+		}
+	});
+}
+
+
+
+
+function initWeather() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getWeatherAjax",
+	    dataType: "json",
+	    contentType: 'application/json; charset=UTF-8',
+
+	    success: function(data){
+	    	// console.log(data);
+
+	    	$(".DB_moveSet").empty();
+	    	$("#weatherTemplate").tmpl(data).appendTo(".DB_moveSet");
+
+	    	// 날씨 슬라이드
+	    	var mq = window.matchMedia("(max-width: 479px)");
+	        var distance = (mq.matches) ? 90 : 60;
+	        $('.DB_banner7').DB_slideStepMove({
+	           motionDirection: 'y',           //모션방향('none','x','y')
+	           moveDistance: distance,         //이동거리(li기준)
+	           moveSpeed: 300,                 //이동속도
+	           autoRollingTime: 5000           //자동롤링시간(밀리초)
+	      });
+
+	    },
+	    error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+	    }
+	});
+}
+
+//더보기 팝업
+// document.addEventListener("DOMContentLoaded", function() {
+// 	const popupLink = document.getElementById("popup-link");
+// 	const popup = document.getElementById("popup");
+// 	const popupClose = document.getElementById("popup-close");
+//
+// 	let isPopupOpen = false;
+// 	//더보기로 열고 닫기
+// 	popupLink.addEventListener("click", function() {
+// 		if (isPopupOpen) {
+// 			popup.style.display = "none"; // 팝업이 이미 열려 있으면 닫기
+// 		} else {
+// 			popup.style.display = "block"; // 팝업이 닫혀 있으면 열기
+// 		}
+// 		isPopupOpen = !isPopupOpen; // 팝업 상태 저장
+// 	});
+// 	//닫기x 아이콘으로 닫기
+// 	popupClose.addEventListener("click", function() {
+// 		popup.style.display = "none";
+// 		isPopupOpen = false; // 팝업을 닫으면 상태를 닫힌 상태로 설정
+// 	});
+// });
+</script>
+
+
+<!-- 날씨 템플릿 -->
+
+
+<div class="area">
+	<ul>
+		<li><a href="javascript:;" id="pop-tos">이용약관</a></li>
+		<li><a href="javascript:;" id="pop-policy"><h3 style="font-weight:bold;">개인정보처리방침</h3></a></li>
+
+		<li><span style="font-size: 16px"><span class="red">관제권(공항주변)</span> 및 <span class="red">원전 주변</span>은 <span class="red">드론 비행승인 대상지역</span>이며 드론 탐지시스템이 운영 중에 있습니다.</span></li>
+	</ul>
+
+	<!--//더보기 팝업 231130 msh 모바일 깨짐 수정 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 기상정보 -->
+	<div class="w_info_wrap">
+		
+
+	<!-- 자기장정보 -->
+	<div id="KP_LEVEL" class="w_info mag g1" title="지구자기장 지수">
+    	<span class="sound">자기장정보</span>
+    	<p class="w_ct">자기장지수(현재) : <span id="KP_VALUE" class="KP_VALUE" value="">3kp</span><br>24시간 최대<span class="KP_MAX_VALUE"> : </span><span id="KP_MAX_VALUE" value="">4kp</span></p>
+	</div>
+   </div> 
+</div>
+
+<!-- 소속기관홈페이지 -->
+<div class="footer_sub">
+	<div class="area">
+		<div class="f_logo"><span class="sound">드론 로고</span></div>
+			<p class="copyright">
+			Copyright (c) Ministry of Land, Infrastructure and Transport. All Rights reserved<br>
+			드론민원포털서비스에 접수된 민원은 관련 법률 및 법령과 시행규칙에 의거하여 처리됩니다.</p>
+		<div class="pt_hp">
+		<form action="">
+			<select name="" id="" onchange="if(this.value) window.open(this.value);">
+				<option value="">소속기관 홈페이지</option>
+				<option value="http://www.molit.go.kr/sroa/intro.do">서울지방항공청</option>
+				<option value="http://www.molit.go.kr/broa/intro.do">부산지방항공청</option>
+				<option value="http://www.molit.go.kr/jroa/intro.do">제주지방항공청</option>
+				<option value="https://www.kotsa.or.kr/">한국교통안전공단</option>
+				<option value="https://www.kotsa.or.kr/edrone">드론정보통합시스템</option>
+			</select>
+		</form>
+		</div>
+	</div>
+</div>
+
+
+		</div>
+		<!-- //footer -->
+	</div>
+
+	<!-- pop-layer -->
+	<div class="dim-layer">
+	    <div class="dimBg"></div>
+	    <div id="pop-layer" class="pop-layer">
+	        <div class="pop-container">
+	            <div class="pop-conts">
+	                <!--content //-->
+	                <p class="ctxt mb20">메시지<br>
+	                	처리가 완료되었습니다.
+	                </p>
+	                <div class="btn-r">
+	                    <a href="#" class="btn-layerClose">닫기</a>
+	                </div>
+	                <!--// content-->
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><button type="button" id="cboxClose"></button></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>

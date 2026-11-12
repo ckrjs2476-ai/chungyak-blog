@@ -1,0 +1,1385 @@
+<!DOCTYPE html><html lang="ko"><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>드론원스톱 민원서비스</title>
+
+	<link rel="stylesheet" type="text/css" href="/resources/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/ie.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/media.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
+<!--	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet"> -->
+	<script src="https://t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	
+	<script src="/resources/vendor/jQuery-3.3.1/jquery-d.min.js"></script>
+	<script src="/resources/vendor/jQuery-migrate-1.4.1/jquery-migrate-1.4.1.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.bxslider.min.js"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.serialize-object.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/inputmask.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/jquery.inputmask.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/bxslider.js"></script>
+	<script src="/resources/js/custom.js?v=1"></script>
+	<script src="/resources/js/common.js?v=1"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate-comm.js"></script>
+	<script src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.offcanvas.js"></script>
+
+	<!-- jquery-ui -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.css">
+	<script src="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<!-- datatables -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Responsive-2.2.2/css/responsive.bootstrap.css">
+
+	<script type="text/javascript" src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/responsive.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/RowsGroup-1.0.0/js/dataTables.rowsGroup.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-lang.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-custom.js"></script>
+
+	<!-- CKEDITOR -->
+	<script type="text/javascript" src="/resources/vendor/ckeditor/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
+
+	<!-- Jquery MASK -->
+	<script type="text/javascript" src="/resources/vendor/jQuery-Mask-1.14.16/jquery.mask.min.js"></script>
+
+	<!-- moment -->
+	<script type="text/javascript" src="/resources/vendor/moment-2.24.0/moment-with-locales.min.js"></script>
+
+	<!-- air-datepicker -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/air-datepicker-2.2.3/css/datepicker.min.css">
+	<script type="text/javascript" src="/resources/vendor/air-datepicker-2.2.3/js/datepicker.min.js"></script>
+	<script src="/resources/vendor/air-datepicker-2.2.3/js/i18n/datepicker.ko.js"></script> <!-- Include English language -->
+
+	<!-- colorbox -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/colorbox-1.4.22/css/colorbox.css">
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.tiny-draggable.min.js"></script>
+	<script src="/resources/vendor/colorbox-1.4.22/js/jquery.colorbox.js"></script>
+
+</head>
+
+<body onload="javascript:commonMassage('');">
+	<div id="wrap">
+		<!-- header -->
+		<div id="header">
+			
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+
+		// 타 사이트 검색시 8443 제거하기 20250730
+		const fromSearchEngine = /google|naver|bing|daum/.test(document.referrer);
+		const isAdminPort = window.location.port === '8443';
+
+		if (fromSearchEngine && isAdminPort) {
+			const newUrl = window.location.protocol + '//' + window.location.hostname + window.location.pathname + window.location.search;
+			window.location.href = newUrl;
+		}
+
+		$('#dr_navi').dr_naviFullWide({
+			subState : false, // 메뉴활성시 서브메뉴의 오픈유무(true,false)
+			motionType : 'slide', // 모션타입(none,fade,slide)
+			motionSpeed : 300, // 모션속도(밀리초)
+			delayTime : 200
+			// 메뉴아웃시 되돌아가는 딜레이시간(밀리초)
+		});
+
+		$('#user_mo_navi').kj_mo_navi22({
+			motionSpeed : 500, // 모션속도(밀리초)
+			delayTime : 2000
+			// 클릭아웃시 딜레이시간(페이지인식인경우)
+		});
+
+		// MainMenu 마우스오버 이벤트
+		$(".dr_main > li").mouseover(function() {
+			var explain = $(this).data("explain");
+			var text = $(this).data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// SubMenu 마우스오버 이벤트
+		$(".dr_subSet > ul > li").mouseover(function() {
+			var explain = $(this).parent().data("explain");
+			var text = $(this).parent().data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// 로그인정보 팝업
+		$("#dr_layerPopup").dr_layerPopup({
+			mouseEvent : "click"
+		});
+
+/*
+		function PageCounter() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				data : {"URL_ID" : click_bidx, "URL_NM" : click_type},
+				url : "/pagecounter/setPageCounterAjax",
+				timeout: 5000,
+				success: function(data){
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('PageCounter-계획000-'+str1);
+					alert(str1);
+				},
+				error: function(xhr,  Status, error) {
+					console.log(Status)
+				}
+			});
+		};
+
+
+		$(".m_h_contents").click(function() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				url : "/pagecounter/setPageCounter",
+				data: {
+					bidx : click_bidx,
+					type : click_type
+				},
+				error: function (request, status, error) {
+					//alert(request.responseText)
+				},
+				success: function (html) {
+					//  $('#store_list').html(html);
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('m_h_contents-계획000-'+str1);
+					alert(str1);
+				}
+			});
+
+		});
+		*/
+
+		// 실시간 시간정보
+		//let time = 60;
+/*
+		let min = "";
+		let sec = "";
+		let time = //= session.getMaxInactiveInterval()  ;
+
+		let x = setInterval(function () {
+
+			min = parseInt(time/60);
+			sec = time % 60;
+
+			document.getElementById("demo").innerHTML ="<spen style='color:#1d75b3  ;'>로그인 유지시간 - "+ min + "분" + sec + "초</span>";
+			time--;
+
+			if (time < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "시간초과";
+
+
+				alert("로그인 유지 시간(30분)이 초과 되었습니다.");
+				location.href='/member/login/login';
+			}
+		}, 1000);
+*/
+
+
+	});
+</script>
+
+<!-- /* 대국민 네이버접속기록 남기기 2023-05-10 */ -->
+<!--
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "17b3f25fcf4fff0";
+	if(window.wcs) {
+		wcs_do();
+	}
+</script>
+-->
+
+
+
+<div id="lnb">
+
+	<div class="area">
+
+        <!--  시계가 보여질 div -->
+        
+		<ul>
+			
+
+
+			<!--관리자레이어팝업-->
+			
+				<!-- 서버 접속Port 확인 -->
+				
+					
+					
+						<li><a href="/member/login/login">로그인</a></li>
+						
+						
+						<li><a href="/member/join/register">회원가입</a></li>
+					
+				
+			
+		</ul>
+	</div>
+</div>
+
+<div class="head_sub">
+	<div id="dr_navi">
+
+
+		<div class="navbar-header">
+			<button class="navbar-toggle offcanvas-toggle pull-right js-offcanvas-has-events" data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+				<span class="mobile_menu"> <i aria-hidden="true" class="fa fa-bars"></i>
+				</span>
+			</button>
+			<h1>
+				<a href="/"> <strong class="sound">드론원스톱 민원서비스 로고</strong>
+				</a>
+			</h1>
+			<!-- <span class="mobile_user"> <i aria-hidden="true" class="fa fa-user"></i></span> -->
+		</div>
+
+		<!--일반 유저 mobile 메뉴 시작-->
+		<div class="navbar-offcanvas navbar-offcanvas-touch offcanvas-transform js-offcanas-done" id="js-bootstrap-offcanvas">
+			<div id="mobi_user_menu">
+				<div class="m_top" id="mobile_user_menu_close">
+					<span>메뉴닫기</span>
+					<button class="navbar-toggle offcanvas-toggle pull-right " data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+						<i aria-hidden="true" class="fa fa-times"></i>
+					</button>
+				</div>
+				<ul class="kj_mo_navi" id="user_mo_navi">
+					<li class="kj_mo"><a class="mo1 mo" href="#">민원 시스템 안내 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<!--
+							<li><a class="m_h_contents" href="/introduce/systemintro1/" data-pos="/introduce/systemintro1/" data-item-id="각종 신청 작성 안내">각종 신청 작성 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro2/" data-pos="/introduce/systemintro2/" data-item-id="민원 유형별 처리 안내">민원 유형별 처리 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro3/" data-pos="/introduce/systemintro3/" data-item-id="처리 부서 안내">처리 부서 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro4/" data-pos="/introduce/systemintro4/" data-item-id="각종 민원 법률 정보">각종 민원 법률 정보</a></li>
+							-->
+							<li><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+							<li><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+							<li><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+							<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+
+						</ul></li>
+					<li class="kj_mo"><a class="mo2 mo" href="#">민원신청 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+							<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+							<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+							<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+							<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+							<li><a href="/civilappeal/flightphotos/registerF"><font color="black" size="4"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반모바일 메뉴  2022-05-02 비행/사진 동시신청 -->
+						</ul></li>
+					<li class="kj_mo"><a class="mo3 mo" href="#">정보마당 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/board/notice/list">공지사항</a></li>
+							<li><a href="/board/faq/list">FAQ</a></li>
+							<!-- 2022-02-11 Q&A 메뉴 drop-->
+							<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+						</ul></li>
+					
+            
+                <li class="kj_mo"><a class="mo5 mo kj_mo_select" href="#">회원서비스 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+                </a>
+                    <ul style="display: block;">
+                        <li><a href="/member/join/register">회원가입</a></li>
+                        <li><a href="/member/login/login" class="kj_mo_select">로그인</a></li>
+                        <li><a href="/member/login/searchinfo">아이디/비밀번호찾기</a></li>
+                    </ul></li>
+            
+        </ul>
+    </div>
+</div>
+<!--mobile 메뉴 끝-->
+
+<!--일반 유저 desktop 메뉴 시작-->
+<div id="desk_user_menu">
+    <ul class="dr_main kk">
+        <li class="first" data-explain="민원 시스템 안내" data-text="System Introduce"><a href="#">민원 시스템 안내</a></li>
+        <li data-explain="민원신청" data-text="Civil application"><a href="#">민원신청</a></li>
+        <li data-explain="정보마당" data-text="Information"><a href="#">정보마당</a></li>
+        
+        
+            <li class="last" data-explain="회원서비스" data-text="Members"><a href="#">회원서비스</a></li>
+        
+
+    </ul>
+    <div class="dr_mask">
+        <div class="menu_img">
+            <div class="inner_line">
+                <p id="menu_text">
+                    <strong>Civil application</strong>
+                </p>
+                <h2 id="menu_explain">민원신청</h2>
+            </div>
+        </div>
+        <div class="dr_subSet">
+            <ul class="m1 tmenu" data-explain="민원 시스템 안내" data-text="System Introduce">
+                <li><a href="/introduce/systemintro1" id="desk_user_m01">각종 신청 작성 안내</a></li>
+                <li><a href="/introduce/systemintro2" id="desk_user_m02">민원 유형별 처리 안내</a></li>
+                <li><a href="/introduce/systemintro3" id="desk_user_m03">처리 부서 안내</a></li>
+                <li><a href="/introduce/systemintro4" id="desk_user_m04">각종 민원 법률 정보</a></li>
+            </ul>
+            <ul class="m2 tmenu" data-explain="민원신청" data-text="Civil application">
+                <li><a href="/civilappeal/aircraft/register" id="desk_user_m11">비행장치 신고</a></li>
+                <li><a href="/civilappeal/business/register" id="desk_user_m12">사업등록 신고</a></li>
+                <li><a href="/civilappeal/flight/register" id="desk_user_m13">비행승인 신청</a></li>
+                <li><a href="/civilappeal/special/register" id="desk_user_m14">특별비행승인 신청</a></li>
+                <li><a href="/civilappeal/aerophotos/register" id="desk_user_m15">항공촬영 신청</a></li>
+                <li><a href="/civilappeal/flightphotos/registerF" id="desk_user_m16"><font color="black" size="3"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반메뉴 2022-05-02 비행/사진 동시신청 -->
+            </ul>
+            <ul class="m3 tmenu" data-explain="정보마당" data-text="Information">
+                <li><a href="/board/notice/list" id="desk_user_m21">공지사항</a></li>
+                <li><a href="/board/faq/list" id="desk_user_m22">FAQ</a></li>
+                <!-- <li><a href="/board/qna/list" id="desk_user_m23">Q&A</a></li> -->
+            </ul>
+            
+            
+                <ul class="m5 tmenu" data-explain="회원서비스" data-text="Members">
+                    <li><a href="/member/join/register" id="desk_user_m41">회원가입</a></li>
+                    <li><a href="/member/login/login" id="desk_user_m42">로그인</a></li>
+                    <li><a href="/member/login/searchinfo" id="desk_user_m43">아이디/비밀번호찾기</a></li>
+                </ul>
+            
+        </div>
+    </div>
+</div>
+<!--desktop 메뉴 끝-->
+</div>
+</div>
+		</div>
+		<!-- //header -->
+		<!-- section -->
+		<div id="section">
+			<div class="sub_contents">
+				<!-- 페이지위치표시 -->
+				<div class="navi">
+					<ul class="area" id="page_id">
+						<li><img src="/resources/img/sub/home.png" alt="홈"></li>
+						<li>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name1">회원서비스</span>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name2">로그인</span>
+						</li>
+					</ul>
+				</div>
+				<!-- 페이지위치표시 -->
+				<div class="area">
+					<div id="l_con" class="l_con">
+						
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	// 사이드 메뉴 show, active 처리 (페이지 접근시)
+	var url = location.href.split('/'); // [3]:대메뉴 [4]:중메뉴 [5]:소메뉴(function)
+	var href = url[3] + "/" + url[4] + "/";
+	if (url[4] === "login") { // member/login/login, member/login/searchinfo 때문에..
+		if (url[5] === "login")
+			href = href + url[5];
+		else
+			href = href + "searchinfo"
+	}
+	var dom  = $(".side_menu a[href*='" + href + "']");
+	dom.parent().parent().parent().parent().show();
+	dom.parent().addClass("active");
+
+	// 모바일 메뉴
+	dom = $(".kj_mo a[href*='" + href + "']");
+	dom.parent().parent().siblings("a").addClass("kj_mo_select");
+	dom.parent().parent().show();
+	dom.addClass("kj_mo_select");
+
+	// Set MenuPath - User
+	var menuName1 = $("div[style=''] .page_info h2").text();
+	var menuName2 = $(".side_menu .active").text()
+	$('#menu-name1').text(menuName1);
+	$('#menu-name2').text(menuName2);
+});
+</script>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Introduce</strong>
+			</p>
+			<h2>민원시스템 안내 </h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+			<li><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+			<li><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+			<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Civil application</strong>
+			</p>
+			<h2>민원신청</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+			<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+			<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+			<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+			<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+			<li><a href="/civilappeal/flightphotos/registerF">비행/촬영 원스톱 신청</a></li> <!--왼쪽메뉴 2022-05-02 비행/사진 동시신청 -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Information</strong>
+			</p>
+			<h2>정보마당</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/board/notice/list">공지사항</a></li>
+			<li><a href="/board/faq/list">FAQ</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Mypage</strong>
+			</p>
+			<h2>마이페이지</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<!--<li><a href="/mypage/civilappeal/list">민원 신청 현황</a></li>-->
+			<li><a href="/mypage/civilappealhis/list">민원 신청 이력</a></li>
+			<li><a href="/common/inadvance/list">비행승인 사전확인이력</a></li>
+			<li><a href="/mypage/myac/list">내 장치 관리</a></li>
+			
+			<li><a href="/mypage/member/modify">정보수정/탈퇴</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/mypage/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Members</strong>
+			</p>
+			<h2>회원서비스</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/member/join/register">회원가입</a></li>
+			<li class="active"><a href="/member/login/login">로그인</a></li>
+			<li><a href="/member/login/searchinfo">아이디/비밀번호 찾기</a></li>
+		</ul>
+	</div>
+</div>
+					</div>
+					<div id="r_con" class="r_con">
+						
+
+
+
+<script src="/resources/vendor/jQuery-3.3.1/jquery.cookie.js"></script>
+
+
+
+
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>드론원스톱 로그인</title>
+
+
+
+<!-- 수정된 anyidAdaptor.jsp 포함 -->
+<!--<script>console.log("anyidAdaptor.jsp LOADED");</script>-->
+
+
+
+
+
+
+
+
+    <script>
+        var anyidAdaptor = anyidAdaptor || {};
+
+
+        /*이용기관 수정 영역 Start*/
+        anyidAdaptor.orgLogin = function (data) {
+            alert("이용기관 자체 로그인!!!");
+            //정부 통합인증SDK_연계가이드 4.4.1.3 이용기관 로그인(토글 off) 참조
+            //제공되는 라이브러리 메소드로 인증데이터 decrypt 이후 자체 로그인 로직 개발
+
+        }
+        /*이용기관 수정 영역 End*/
+
+
+        /*이용기관 문구수정 영역 Start*/
+        anyidAdaptor.JoinConfirm = function (portalJoinUri, memberData) {
+            if (!confirm('Any-ID 사용자등록 하시겠습니까?')) {
+                anyidAdaptor.orgLogin(anyidAdaptor.certData);
+                return;
+            } else {
+                anyidAdaptor.receiveAnyIdJoin(portalJoinUri, memberData);
+            }
+        }
+        /*이용기관 문구수정 영역 End*/
+
+
+        anyidAdaptor.portalJoinUri = "null";
+        anyidAdaptor.certData = null;
+        anyidAdaptor.ssoByPass = "0"; // 변경된 변수명 사용
+        anyidAdaptor.niRegYn = "null";
+        anyidAdaptor.agencyContextPath = "";
+
+
+        anyidAdaptor.success = function (data) {
+            if (anyidAdaptor.ssoByPass != 0 || !data.useSso) {
+                anyidAdaptor.orgLogin(data);
+            } else {
+                anyidAdaptor.certData = data;
+                anyidAdaptor.userCheck();
+            }
+        }
+
+        anyidAdaptor.userCheck = function () {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", anyidAdaptor.agencyContextPath + "/oidc/userCheck", true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    if (response.success) {
+                        anyidAdaptor.ssoLogin();
+                    } else {
+                        setTimeout(function () {
+                            anyidAdaptor.receiveAnyIdJoin(response.uri, response.data);
+                        }, 100);
+                    }
+                }
+            };
+
+            let jsonObject = new Object();
+            jsonObject.txId = anyidAdaptor.certData.txId;
+            jsonObject.ssob = anyidAdaptor.certData.ssob;
+            jsonObject.userSeCd = anyidAdaptor.certData.userSeCd;
+
+            let jsonStr = JSON.stringify(jsonObject);
+            let encodedString = btoa(jsonStr);
+
+            var data = "data=" + encodedString + "&txId=" + anyidAdaptor.certData.txId;
+            xhr.send(data);
+
+        }
+
+        //anyid가입
+        anyidAdaptor.receiveAnyIdJoin = function (portalJoinUri, memberData) {
+
+            var url = portalJoinUri + encodeURIComponent(memberData);
+            anyidAdaptor.popup(url, "openAnyIdRegistUserIdv", 700, 740);
+
+            window.addEventListener("message", function (event) {
+                var result;
+                try {
+                    result = JSON.parse(event.data);
+                } catch (error) {
+                    console.error("Received message is not valid JSON:", error);
+                    return;
+                }
+
+                if (!result.funcName || (result.funcName !== "trmsAgreComplete" && result.funcName !== "registUserComplete")) {
+                    return;
+                }
+                if (result.status === "success") {
+                    if (result.trmsAgreYn == "Y") {
+                        anyidAdaptor.ssoLogin();
+                    } else {
+                        anyidAdaptor.orgLogin(anyidAdaptor.certData);
+                    }
+                } else {
+
+                    anyidAdaptor.orgLogin(anyidAdaptor.certData);
+                }
+
+            }, false);
+        }
+
+        // 팝업 호출
+        anyidAdaptor.popup = function (url, name, width, height) {
+            let left = (screen.width) ? (screen.width - width) / 2 : 0;
+            let top = (screen.height) ? (screen.height - height) / 2 : 0;
+            let popup = window.open(url, name, "resizable=yes,toolbar=no,scrollbars=yes,location=no,top=" + top + "px,left=" + left + "px,width=" + width + "px,height=" + height + "px");
+            if (popup) {
+                popup.focus();
+            }
+        }
+
+        anyidAdaptor.ssoLogin = function () {
+            let jsonObject = new Object();
+            jsonObject.txId = anyidAdaptor.certData.txId;
+            jsonObject.ssob = anyidAdaptor.certData.ssob;
+            jsonObject.userSeCd = anyidAdaptor.certData.userSeCd;
+            jsonObject.afData = anyidAdaptor.certData.afData;
+            let jsonStr = JSON.stringify(jsonObject);
+
+            let encodedString = btoa(jsonStr);
+            var baseUrl = window.location.origin + anyidAdaptor.agencyContextPath + "/oidc/ssoLogin";
+            var urlWithParams = baseUrl + "?data=" + encodedString;
+            window.location.href = urlWithParams;
+
+        }
+
+        anyidAdaptor.ssoLoginPageSub = function (baseUrl, endPoint, acrValues) {
+            var subUrl = "";
+
+            if (endPoint && endPoint.trim() !== "") {
+                subUrl = "?endPoint=" + encodeURIComponent(endPoint);
+            }
+
+            if (!acrValues && acrValues.trim() == "") {
+                acrValues = "3";
+            }
+
+            if (acrValues && acrValues.trim() !== "") {
+                if (subUrl == "") {
+                    subUrl = "?";
+                } else {
+                    subUrl = subUrl + "&";
+                }
+                subUrl = subUrl + "acrValues=" + acrValues;
+            }
+
+            window.location.replace(baseUrl + subUrl);
+        }
+
+        /*글로벌 로그아웃*/
+        anyidAdaptor.ssoLogout = function (endPoint) {
+            endPoint = typeof endPoint !== 'undefined' ? endPoint : "/";
+            var baseUrl = window.location.origin + anyidAdaptor.agencyContextPath + "/oidc/ssoLogout";
+            baseUrl = baseUrl + "?endPoint=" + encodeURIComponent(endPoint);
+            window.location.replace(baseUrl);
+        }
+        /*레벨업 기능*/
+        anyidAdaptor.reAuthLevel = function (endPoint, acrValues) {
+            endPoint = typeof endPoint !== 'undefined' ? endPoint : "/";
+            var baseUrl = window.location.origin + anyidAdaptor.agencyContextPath + "/oidc/reAuthLevel";
+            anyidAdaptor.ssoLoginPageSub(baseUrl, endPoint, acrValues);
+
+        }
+
+        /* 로그인 버튼
+        	항상 이함수가 선행되어야 합니다.
+        	endPoint: 로그인후 최종적으로 가게되는 페이지
+        	acrValues: 인증등급 -> 숫자로
+
+        */
+
+        /*로그인 버튼에 들어가는 페이지*/
+        anyidAdaptor.ssoLoginPage = function (endPoint, acrValues) {
+            endPoint = typeof endPoint !== 'undefined' ? endPoint : "/";
+            var baseUrl = window.location.origin + anyidAdaptor.agencyContextPath + "/oidc/auth";
+            anyidAdaptor.ssoLoginPageSub(baseUrl, endPoint, acrValues);
+        }
+
+        /**/
+        anyidAdaptor.ssoSvcToSvc = function (url, endPoint) {
+            var baseUrl = url + "/oidc/svcToSvc?endPoint=" + encodeURIComponent(endPoint);
+            window.open(baseUrl, "_blank");
+        }
+
+        //console.log("anyidAdaptor initialized successfully");
+
+    </script>
+
+
+
+
+
+
+
+<script src="/resources/vendor/jQuery-3.3.1/jquery.cookie.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+	// 로그인 결과 메시지 처리
+	var loginMsg = "";
+
+	if (loginMsg === "no_anyid_link") {
+		//alert("ANY-ID 인증은 성공했으나 연동된 계정이 없습니다.\n먼저 일반 로그인 후 마이페이지에서 계정 연동을 진행해주세요.");
+		alert("ANY-ID 인증은 성공했으나 연동된 계정이 없습니다.\n회원가입을 먼저 진행해주세요.");
+		// CI 없을시 아래 진행
+		location.href = "/member/join/register";
+
+	}
+
+// ✅ 아이디 찾기에서 넘어온 경우 아이디 자동 입력 2026-06-09
+	var params = new URLSearchParams(window.location.search);
+	var memberId = params.get("member_id");
+	if (memberId) {
+		$("#MEMBER_ID").val(decodeURIComponent(memberId));
+	}
+
+	// ANY-ID 로그인 버튼
+	$("#anyidLoginBtn").click(function() {
+		window.location.href = "/sso/login?endPoint=" + encodeURIComponent("/");
+	});
+
+
+    // ▼ 이 케이스 추가 // CI 없으면 세션에 플래그 설정 2026-04-27 ci값
+	if (loginMsg === "need_pcc_auth") {
+		openPccPopup();
+	}
+
+	function openPccPopup() {
+		var width = 430, height = 640;
+		var left  = (screen.width  - width)  / 2;
+		var top   = (screen.height - height) / 2;
+		window.open(
+				'/member/pcc/popup',
+				'pccPopup',
+				'width=' + width + ',height=' + height +
+				',left=' + left + ',top=' + top +
+				',toolbar=no,scrollbars=no,menubar=no'
+		);
+	}
+
+// 팝업에서 완료 후 호출되는 콜백
+	function onPccComplete(result) {
+		if (result === 'success') {
+			location.href = '/main'; // 또는 메인 URL
+		} else {
+			if (confirm('본인인증을 완료해야 일부 서비스 이용이 가능합니다.\n나중에 인증하시겠습니까?')) {
+				location.href = '/main';
+			} else {
+				openPccPopup();
+			}
+		}
+	}
+	////////////////////////////////////////////////////////
+
+	// 아이디 입력 필드의 값이 변경될 때마다 실행될 함수
+	$("#MEMBER_ID").on('input', function() {
+		// 현재 입력된 값에서 공백을 제거한 후 다시 입력 필드에 설정
+		var cleanedValue = $(this).val().replace(/\s/g, '');
+		$(this).val(cleanedValue);
+	});
+
+	// 최초 쿠키에 login_id라는 쿠키값이 존재하면
+	var login_id = $.cookie('login_id');
+	if (login_id) {
+		//아이디에 쿠키값을 담는다
+		$("#MEMBER_ID").val(login_id);
+		//아이디저장 체크박스 체크를 해놓는다
+		$("#idSaveCheck").prop("checked", true);
+	}
+
+	// [로그인]
+	$("#loginbtn").click(function() {
+		login();
+
+		// 로그인시 팝업창 보여주기 2022-06-17
+		//openWin = open ('/civilappeal/flight/popupContact?applyType=3','login','toolbar=no,scrollbars=no,menubar=no,width=800,height=600,left=400,top=150');
+	});
+
+	// [회원가입]
+	$("#signbtn").click(function() {
+		location.href = "/member/join/register";
+	});
+
+	// 편집(등록, 수정, 삭제) 결과처리
+	/*
+	var result =  "";
+	if (result == 'confirm') {
+		login();
+	} else if (result == 'error') {
+		alert("비정상적인 접근 입니다. 다시 인증해 주세요");
+	}
+	*/
+
+	// [ANY-ID 로그인] - 수정된 anyidAdaptor 사용
+	$("#anyidLoginBtn").on("click", function (e) {
+		e.preventDefault();
+		e.stopPropagation();
+
+		//console.log("ANY-ID 로그인 버튼 클릭");
+
+		try {
+			if (typeof anyidAdaptor !== 'undefined' && anyidAdaptor.ssoLoginPage) {
+				//console.log("Using anyidAdaptor.ssoLoginPage");
+				anyidAdaptor.ssoLoginPage('', '');
+			} else {
+				//console.log("anyidAdaptor not available, using fallback");
+				window.location.href = "/oidc/auth";
+			}
+		} catch (err) {
+			//console.error("ANY-ID login error:", err);
+			//console.log("Fallback to direct OIDC");
+			window.location.href = "/oidc/auth";
+		}
+	});
+
+	// 편집(등록, 수정, 삭제) 결과처리
+	var result = "";
+	if (result == 'confirm') {
+		login();
+	} else if (result == 'error') {
+		alert("비정상적인 접근 입니다. 다시 인증해 주세요");
+	}
+
+});
+
+function login() {
+
+	if ($("#idSaveCheck").prop("checked")) {
+		$.cookie('login_id', $("#MEMBER_ID").val());
+	} else {
+		//아이디저장 미체크면 쿠키에 정보가 있던간에 삭제
+		$.removeCookie("login_id");
+
+	}
+}
+
+// ANY-ID 관련 함수들
+function reAuth(trgtLv) {
+	try {
+		if (trgtLv == "" || trgtLv == null) {
+			location.href = "/sample/login.jsp";
+		} else {
+			authByLevel(trgtLv);
+		}
+	} catch (e) {
+		console.error("reAuth error:", e);
+		location.href = "/sample/login.jsp";
+	}
+}
+
+function authByLevel(trgtLv) {
+	try {
+		var acrVal = "";
+
+		
+
+		if (acrVal != null && acrVal != "") {
+			if (trgtLv < acrVal) {
+				if (typeof anyidAdaptor !== 'undefined' && anyidAdaptor.reAuthLevel) {
+					anyidAdaptor.reAuthLevel("/sample/login.jsp", trgtLv.toString());
+				}
+			}
+		}
+	} catch (e) {
+		console.error("authByLevel error:", e);
+	}
+}
+
+function ssoLoginPageTest(endPoint) {
+	try {
+		var baseUrl = window.location.origin + "/oidc/auth";
+
+		if (endPoint && endPoint.trim() !== "") {
+			let encodedString = btoa(endPoint);
+			window.location.replace(baseUrl + "?endPoint=" + encodedString);
+		} else {
+			window.location.replace(baseUrl)
+		}
+	} catch (e) {
+		console.error("ssoLoginPageTest error:", e);
+		window.location.href = "/oidc/auth";
+	}
+}
+
+
+function anyidLogin() {
+
+	//dbgAlert("AnyidC typeof = " + typeof AnyidC);
+
+	//alert("페이지 로드시 AnyidC 타입: " + typeof window.AnyidC);
+
+	// noinspection JSUnresolvedFunction
+	AnyidC.LOAD_MODULE({
+		cfg: "/config/config.anyidc.json",
+
+		success: function (data) {
+			//dbgAlert("2. ANY-ID 인증 SUCCESS 콜백 진입");
+
+			var ci = data.ci || data.CI || (data.user && data.user.ci);
+			//dbgAlert("3. CI 값 확인\nCI = " + (ci ? ci : "NULL"));
+
+			document.getElementById("LOGIN_TYPE").value = "ANYID";
+			document.getElementById("ANYID_CI").value = ci || "";
+			/*
+                            dbgAlert(
+                                    "4. hidden 세팅 완료\n" +
+                                    "LOGIN_TYPE=ANYID\n" +
+                                    "ANYID_CI=" + document.getElementById("ANYID_CI").value
+                            );
+
+                            dbgAlert("5. form.submit() 호출 직전");
+            */
+			document.getElementById("loginForm").submit();
+
+			// 이 alert가 보이면 submit이 막힌 것
+			//dbgAlert("❌ 6. 이 alert가 보이면 submit이 실행되지 않은 것");
+		},
+
+		fail: function (err) {
+			//dbgAlert("ANY-ID 인증 FAIL\n" + JSON.stringify(err));
+		}
+	});
+}
+function dbgAlert(msg) {
+	alert(
+			"[ANYID DEBUG]\n\n" +
+			msg +
+			"\n\n(확인 누르면 다음 단계로 진행됩니다)"
+	);
+}
+
+
+document.addEventListener("DOMContentLoaded", function() {
+	var f = document.getElementById("loginForm");
+	if (f) {
+		f.addEventListener("submit", function(e) {
+			//dbgAlert("loginForm submit event fired (action=" + f.action + ")");
+		});
+	}
+});
+</script>
+
+<style>
+
+
+
+	.anyid-status {
+		background: #f8f9fa;
+		border: 1px solid #dee2e6;
+		border-radius: 8px;
+		padding: 20px;
+		margin: 20px 0;
+		text-align: center;
+	}
+
+	.anyid-user-info {
+		margin: 15px 0;
+		font-size: 16px;
+	}
+
+	.anyid-buttons {
+		margin: 10px 0;
+	}
+
+	.anyid-buttons a {
+		display: inline-block;
+		margin: 5px;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 4px;
+		min-width: 120px;
+		cursor: pointer;
+	}
+
+	.btn-anyid-logout {
+		background: #dc3545;
+		color: white;
+		border: 1px solid #dc3545;
+	}
+
+	.btn-anyid-levelup {
+		background: #28a745;
+		color: white;
+		border: 1px solid #28a745;
+	}
+
+
+	/* 추가된 스타일 */
+	/* 아이디와 비밀번호 입력창 너비 통일 */
+	.password-container {
+		position: relative;
+		width: 100%;
+	}
+
+	.password-container input#MEMBER_ID,
+	.password-container input#PASSWORD {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	/* 비밀번호 보기 버튼 */
+	#passwordToggle {
+		position: absolute;
+		right: 10px;
+		top: 75%;
+		transform: translateY(-50%);
+		min-width: 120px;
+		border: 0;
+		background: transparent;
+		color: #3495B1;
+		cursor: pointer;
+	}
+
+
+</style>
+
+<!--.login .btn_wrap button.passwordToggle { background: #ffa200; color: #fff;border: 1px solid #ffa200; margin-left: 10px;margin-bottom: 42px; width: 100%;} -->
+
+
+<div class="sub_area">
+	<h2>로그인</h2>
+	<div class="sub_content">
+		<div class="login">
+			<p class="login_txt">
+				<strong>드론원스톱 민원서비스에 <br>오신 걸 환영합니다.</strong>
+
+				
+
+				
+			</p>
+
+			<!-- ANY-ID 로그인 상태 표시 영역 -->
+			
+				
+				
+					<!-- 일반 로그인 폼 -->
+					<form id="loginForm" action="/member/login/loginPost" method="POST">
+						<div class="password-container">
+							<input type="text" placeholder="아이디" name="MEMBER_ID" id="MEMBER_ID" value="" autocapitalize="off" required="">
+							<input type="password" placeholder="비밀번호" name="PASSWORD" id="PASSWORD" value="" autocapitalize="off" required="">
+							<button type="button" id="passwordToggle" onclick="showPassword('PASSWORD', '', 'passwordToggle')"> (비밀번호 보기) </button>
+						</div>
+
+
+						<div class="id_save">
+							<ul>
+								<li><input type="checkbox" name="idSaveCheck" id="idSaveCheck"> <label for="idSaveCheck">아이디 저장</label></li>
+								<li><a href="/member/login/searchinfo">아이디 / 비밀번호 찾기</a></li>
+							</ul>
+						</div>
+
+						<div class="btn_wrap">
+							<button type="submit" id="loginbtn" class="login_btn">일반 로그인</button>
+							<button type="button" id="signbtn" class="sign_btn">회원가입</button>
+
+							<input type="hidden" name="LOGIN_TYPE" id="LOGIN_TYPE" value="NORMAL">
+							<input type="hidden" name="ANYID_CI" id="ANYID_CI" value="">
+
+							<!-- ANY-ID 로그인 버튼 -->
+							<!--<button type="button" id="anyidLoginBtn" class="login_btn" style="margin-top:12px;" onclick="anyidLogin()">ANY-ID 로그인</button> -->
+
+
+						</div>
+
+					</form>
+				
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //section -->
+		<!-- footer -->
+		<div id="footer">
+			
+
+<script src="/resources/vendor/db_banner7/js/jquery.DB_slideStepMove.min.js"></script>
+<script src="/resources/vendor/jQuery-tmpl-1.0.0/jquery.tmpl.min.js"></script>
+
+
+
+<!-- /* 구글접속기록 남기기 2023-05-10 */ -->
+<!-- Google tag (gtag.js) -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVJGCL7SSX"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-FVJGCL7SSX');
+</script>
+-->
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	let x = setInterval(function () {
+
+		initKindex();
+
+	}, 60*60*1000); // 2023-03-24 자기장정보 1시간에 한번씩 불러오기
+	//}, 10000); // 2023-03-24 자기장정보 10초에 한번씩 불러오기
+
+	initKindex();
+
+//	initWeather();
+
+	// [이용약관]
+	$("#pop-tos").click(function() {
+		utils.popupCenter("/common/terms/ToS", "popupToS", 1024, 720);
+	});
+
+
+	// [개인정보처리방침]
+	$("#pop-policy").click(function() {
+		//utils.popupCenter("/common/terms/privatePolicy", "popupPolicy", 1024, 720);
+		// 2026-08-01 한국교통안전공단 사이트로 변경
+		utils.popupCenter("https://main.kotsa.or.kr/portal/contents.do?menuCode=07020100", "popupPolicy", 1024, 720);
+	});
+});
+
+function initKindex() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getKindexAjax.ajax",
+		dataType: "json",
+		contentType: 'application/json; charset=UTF-8',
+		cache: false, // 캐싱 비활성화
+		headers: {
+			"Cache-Control": "no-cache, no-store, must-revalidate", // 캐시 무효화
+		},
+		//timeout: 5000,
+		success: function(data){
+			let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+			//console.log('비행승인-계획000-'+str1);
+
+			// alert(str1);
+			$("#KP_LEVEL").css("w_info mag " + data.KP_LEVEL);
+			$("#KP_VALUE").text(data.KP_VALUE + "kp")
+			$("#KP_MAX_VALUE").text(data.KP_MAX_VALUE + "kp")
+		},
+		error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+		}
+	});
+}
+
+
+
+
+function initWeather() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getWeatherAjax",
+	    dataType: "json",
+	    contentType: 'application/json; charset=UTF-8',
+
+	    success: function(data){
+	    	// console.log(data);
+
+	    	$(".DB_moveSet").empty();
+	    	$("#weatherTemplate").tmpl(data).appendTo(".DB_moveSet");
+
+	    	// 날씨 슬라이드
+	    	var mq = window.matchMedia("(max-width: 479px)");
+	        var distance = (mq.matches) ? 90 : 60;
+	        $('.DB_banner7').DB_slideStepMove({
+	           motionDirection: 'y',           //모션방향('none','x','y')
+	           moveDistance: distance,         //이동거리(li기준)
+	           moveSpeed: 300,                 //이동속도
+	           autoRollingTime: 5000           //자동롤링시간(밀리초)
+	      });
+
+	    },
+	    error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+	    }
+	});
+}
+
+//더보기 팝업
+// document.addEventListener("DOMContentLoaded", function() {
+// 	const popupLink = document.getElementById("popup-link");
+// 	const popup = document.getElementById("popup");
+// 	const popupClose = document.getElementById("popup-close");
+//
+// 	let isPopupOpen = false;
+// 	//더보기로 열고 닫기
+// 	popupLink.addEventListener("click", function() {
+// 		if (isPopupOpen) {
+// 			popup.style.display = "none"; // 팝업이 이미 열려 있으면 닫기
+// 		} else {
+// 			popup.style.display = "block"; // 팝업이 닫혀 있으면 열기
+// 		}
+// 		isPopupOpen = !isPopupOpen; // 팝업 상태 저장
+// 	});
+// 	//닫기x 아이콘으로 닫기
+// 	popupClose.addEventListener("click", function() {
+// 		popup.style.display = "none";
+// 		isPopupOpen = false; // 팝업을 닫으면 상태를 닫힌 상태로 설정
+// 	});
+// });
+</script>
+
+
+<!-- 날씨 템플릿 -->
+
+
+<div class="area">
+	<ul>
+		<li><a href="javascript:;" id="pop-tos">이용약관</a></li>
+		<li><a href="javascript:;" id="pop-policy"><h3 style="font-weight:bold;">개인정보처리방침</h3></a></li>
+
+		<li><span style="font-size: 16px"><span class="red">관제권(공항주변)</span> 및 <span class="red">원전 주변</span>은 <span class="red">드론 비행승인 대상지역</span>이며 드론 탐지시스템이 운영 중에 있습니다.</span></li>
+	</ul>
+
+	<!--//더보기 팝업 231130 msh 모바일 깨짐 수정 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 기상정보 -->
+	<div class="w_info_wrap">
+		
+
+	<!-- 자기장정보 -->
+	<div id="KP_LEVEL" class="w_info mag g1" title="지구자기장 지수">
+    	<span class="sound">자기장정보</span>
+    	<p class="w_ct">자기장지수(현재) : <span id="KP_VALUE" class="KP_VALUE" value="">3kp</span><br>24시간 최대<span class="KP_MAX_VALUE"> : </span><span id="KP_MAX_VALUE" value="">4kp</span></p>
+	</div>
+   </div> 
+</div>
+
+<!-- 소속기관홈페이지 -->
+<div class="footer_sub">
+	<div class="area">
+		<div class="f_logo"><span class="sound">드론 로고</span></div>
+			<p class="copyright">
+			Copyright (c) Ministry of Land, Infrastructure and Transport. All Rights reserved<br>
+			드론민원포털서비스에 접수된 민원은 관련 법률 및 법령과 시행규칙에 의거하여 처리됩니다.</p>
+		<div class="pt_hp">
+		<form action="">
+			<select name="" id="" onchange="if(this.value) window.open(this.value);">
+				<option value="">소속기관 홈페이지</option>
+				<option value="http://www.molit.go.kr/sroa/intro.do">서울지방항공청</option>
+				<option value="http://www.molit.go.kr/broa/intro.do">부산지방항공청</option>
+				<option value="http://www.molit.go.kr/jroa/intro.do">제주지방항공청</option>
+				<option value="https://www.kotsa.or.kr/">한국교통안전공단</option>
+				<option value="https://www.kotsa.or.kr/edrone">드론정보통합시스템</option>
+			</select>
+		</form>
+		</div>
+	</div>
+</div>
+
+
+		</div>
+		<!-- //footer -->
+	</div>
+
+	<!-- pop-layer -->
+	<div class="dim-layer">
+	    <div class="dimBg"></div>
+	    <div id="pop-layer" class="pop-layer">
+	        <div class="pop-container">
+	            <div class="pop-conts">
+	                <!--content //-->
+	                <p class="ctxt mb20">메시지<br>
+	                	처리가 완료되었습니다.
+	                </p>
+	                <div class="btn-r">
+	                    <a href="#" class="btn-layerClose">닫기</a>
+	                </div>
+	                <!--// content-->
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><button type="button" id="cboxClose"></button></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>

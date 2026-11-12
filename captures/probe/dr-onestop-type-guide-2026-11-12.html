@@ -1,0 +1,1499 @@
+<!DOCTYPE html><html><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>드론원스톱 민원서비스</title>
+
+	<link rel="stylesheet" type="text/css" href="/resources/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/ie.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/media.css">
+	<link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
+<!--	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet"> -->
+	<script src="https://t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	
+	<script src="/resources/vendor/jQuery-3.3.1/jquery-d.min.js"></script>
+	<script src="/resources/vendor/jQuery-migrate-1.4.1/jquery-migrate-1.4.1.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.bxslider.min.js"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.serialize-object.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/inputmask.min.js"></script>
+	<script src="/resources/vendor/inputMask-5.0.0/jquery.inputmask.min.js"></script>
+	<script src="/resources/vendor/jQuery-3.3.1/bxslider.js"></script>
+	<script src="/resources/js/custom.js?v=1"></script>
+	<script src="/resources/js/common.js?v=1"></script>
+	<script src="/resources/vendor/jQuery-validation-1.19.1/jquery.validate-comm.js"></script>
+	<script src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.offcanvas.js"></script>
+
+	<!-- jquery-ui -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.css">
+	<script src="/resources/vendor/jQuery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<!-- datatables -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/datatables/Responsive-2.2.2/css/responsive.bootstrap.css">
+
+	<script type="text/javascript" src="/resources/vendor/datatables/Bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/Responsive-2.2.2/js/responsive.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/RowsGroup-1.0.0/js/dataTables.rowsGroup.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-lang.js"></script>
+	<script type="text/javascript" src="/resources/vendor/datatables/datatables-custom.js"></script>
+
+	<!-- CKEDITOR -->
+	<script type="text/javascript" src="/resources/vendor/ckeditor/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
+
+	<!-- Jquery MASK -->
+	<script type="text/javascript" src="/resources/vendor/jQuery-Mask-1.14.16/jquery.mask.min.js"></script>
+
+	<!-- moment -->
+	<script type="text/javascript" src="/resources/vendor/moment-2.24.0/moment-with-locales.min.js"></script>
+
+	<!-- air-datepicker -->
+ 	<link rel="stylesheet" type="text/css" href="/resources/vendor/air-datepicker-2.2.3/css/datepicker.min.css">
+	<script type="text/javascript" src="/resources/vendor/air-datepicker-2.2.3/js/datepicker.min.js"></script>
+	<script src="/resources/vendor/air-datepicker-2.2.3/js/i18n/datepicker.ko.js"></script> <!-- Include English language -->
+
+	<!-- colorbox -->
+	<link rel="stylesheet" type="text/css" href="/resources/vendor/colorbox-1.4.22/css/colorbox.css">
+	<script src="/resources/vendor/jQuery-3.3.1/jquery.tiny-draggable.min.js"></script>
+	<script src="/resources/vendor/colorbox-1.4.22/js/jquery.colorbox.js"></script>
+
+</head>
+
+<body onload="javascript:commonMassage('');">
+	<div id="wrap">
+		<!-- header -->
+		<div id="header">
+			
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+
+		// 타 사이트 검색시 8443 제거하기 20250730
+		const fromSearchEngine = /google|naver|bing|daum/.test(document.referrer);
+		const isAdminPort = window.location.port === '8443';
+
+		if (fromSearchEngine && isAdminPort) {
+			const newUrl = window.location.protocol + '//' + window.location.hostname + window.location.pathname + window.location.search;
+			window.location.href = newUrl;
+		}
+
+		$('#dr_navi').dr_naviFullWide({
+			subState : false, // 메뉴활성시 서브메뉴의 오픈유무(true,false)
+			motionType : 'slide', // 모션타입(none,fade,slide)
+			motionSpeed : 300, // 모션속도(밀리초)
+			delayTime : 200
+			// 메뉴아웃시 되돌아가는 딜레이시간(밀리초)
+		});
+
+		$('#user_mo_navi').kj_mo_navi22({
+			motionSpeed : 500, // 모션속도(밀리초)
+			delayTime : 2000
+			// 클릭아웃시 딜레이시간(페이지인식인경우)
+		});
+
+		// MainMenu 마우스오버 이벤트
+		$(".dr_main > li").mouseover(function() {
+			var explain = $(this).data("explain");
+			var text = $(this).data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// SubMenu 마우스오버 이벤트
+		$(".dr_subSet > ul > li").mouseover(function() {
+			var explain = $(this).parent().data("explain");
+			var text = $(this).parent().data("text");
+			$("#menu_explain").text(explain);
+			$("#menu_text").text(text);
+		});
+
+		// 로그인정보 팝업
+		$("#dr_layerPopup").dr_layerPopup({
+			mouseEvent : "click"
+		});
+
+/*
+		function PageCounter() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				data : {"URL_ID" : click_bidx, "URL_NM" : click_type},
+				url : "/pagecounter/setPageCounterAjax",
+				timeout: 5000,
+				success: function(data){
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('PageCounter-계획000-'+str1);
+					alert(str1);
+				},
+				error: function(xhr,  Status, error) {
+					console.log(Status)
+				}
+			});
+		};
+
+
+		$(".m_h_contents").click(function() {
+			/// 해당 클릭된 놈의 attr id 값..
+			var click_bidx = $(this).attr("data-item-id");
+			var click_type = $(this).attr("data-pos");
+			$.ajax({
+				type : "post",
+				dataType: "json",
+				url : "/pagecounter/setPageCounter",
+				data: {
+					bidx : click_bidx,
+					type : click_type
+				},
+				error: function (request, status, error) {
+					//alert(request.responseText)
+				},
+				success: function (html) {
+					//  $('#store_list').html(html);
+					let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+					console.log('m_h_contents-계획000-'+str1);
+					alert(str1);
+				}
+			});
+
+		});
+		*/
+
+		// 실시간 시간정보
+		//let time = 60;
+/*
+		let min = "";
+		let sec = "";
+		let time = //= session.getMaxInactiveInterval()  ;
+
+		let x = setInterval(function () {
+
+			min = parseInt(time/60);
+			sec = time % 60;
+
+			document.getElementById("demo").innerHTML ="<spen style='color:#1d75b3  ;'>로그인 유지시간 - "+ min + "분" + sec + "초</span>";
+			time--;
+
+			if (time < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "시간초과";
+
+
+				alert("로그인 유지 시간(30분)이 초과 되었습니다.");
+				location.href='/member/login/login';
+			}
+		}, 1000);
+*/
+
+
+	});
+</script>
+
+<!-- /* 대국민 네이버접속기록 남기기 2023-05-10 */ -->
+<!--
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "17b3f25fcf4fff0";
+	if(window.wcs) {
+		wcs_do();
+	}
+</script>
+-->
+
+
+
+<div id="lnb">
+
+	<div class="area">
+
+        <!--  시계가 보여질 div -->
+        
+		<ul>
+			
+
+
+			<!--관리자레이어팝업-->
+			
+				<!-- 서버 접속Port 확인 -->
+				
+					
+					
+						<li><a href="/member/login/login">로그인</a></li>
+						
+						
+						<li><a href="/member/join/register">회원가입</a></li>
+					
+				
+			
+		</ul>
+	</div>
+</div>
+
+<div class="head_sub">
+	<div id="dr_navi">
+
+
+		<div class="navbar-header">
+			<button class="navbar-toggle offcanvas-toggle pull-right js-offcanvas-has-events" data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+				<span class="mobile_menu"> <i aria-hidden="true" class="fa fa-bars"></i>
+				</span>
+			</button>
+			<h1>
+				<a href="/"> <strong class="sound">드론원스톱 민원서비스 로고</strong>
+				</a>
+			</h1>
+			<!-- <span class="mobile_user"> <i aria-hidden="true" class="fa fa-user"></i></span> -->
+		</div>
+
+		<!--일반 유저 mobile 메뉴 시작-->
+		<div class="navbar-offcanvas navbar-offcanvas-touch offcanvas-transform js-offcanas-done" id="js-bootstrap-offcanvas">
+			<div id="mobi_user_menu">
+				<div class="m_top" id="mobile_user_menu_close">
+					<span>메뉴닫기</span>
+					<button class="navbar-toggle offcanvas-toggle pull-right " data-target="#js-bootstrap-offcanvas" data-toggle="offcanvas" style="float: left;" type="button">
+						<i aria-hidden="true" class="fa fa-times"></i>
+					</button>
+				</div>
+				<ul class="kj_mo_navi" id="user_mo_navi">
+					<li class="kj_mo"><a class="mo1 mo kj_mo_select" href="#">민원 시스템 안내 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul style="display: block;">
+							<!--
+							<li><a class="m_h_contents" href="/introduce/systemintro1/" data-pos="/introduce/systemintro1/" data-item-id="각종 신청 작성 안내">각종 신청 작성 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro2/" data-pos="/introduce/systemintro2/" data-item-id="민원 유형별 처리 안내">민원 유형별 처리 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro3/" data-pos="/introduce/systemintro3/" data-item-id="처리 부서 안내">처리 부서 안내</a></li>
+							<li><a class="m_h_contents" href="/introduce/systemintro4/" data-pos="/introduce/systemintro4/" data-item-id="각종 민원 법률 정보">각종 민원 법률 정보</a></li>
+							-->
+							<li><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+							<li><a href="/introduce/systemintro2/" class="kj_mo_select">민원 유형별 처리 안내</a></li>
+							<li><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+							<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+
+						</ul></li>
+					<li class="kj_mo"><a class="mo2 mo" href="#">민원신청 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+							<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+							<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+							<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+							<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+							<li><a href="/civilappeal/flightphotos/registerF"><font color="black" size="4"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반모바일 메뉴  2022-05-02 비행/사진 동시신청 -->
+						</ul></li>
+					<li class="kj_mo"><a class="mo3 mo" href="#">정보마당 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+					</a>
+						<ul>
+							<li><a href="/board/notice/list">공지사항</a></li>
+							<li><a href="/board/faq/list">FAQ</a></li>
+							<!-- 2022-02-11 Q&A 메뉴 drop-->
+							<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+						</ul></li>
+					
+            
+                <li class="kj_mo"><a class="mo5 mo" href="#">회원서비스 <i aria-hidden="true" class="fa fa-chevron-down right-icon"></i> <i aria-hidden="true" class="fa fa-chevron-up right-icon"></i>
+                </a>
+                    <ul>
+                        <li><a href="/member/join/register">회원가입</a></li>
+                        <li><a href="/member/login/login">로그인</a></li>
+                        <li><a href="/member/login/searchinfo">아이디/비밀번호찾기</a></li>
+                    </ul></li>
+            
+        </ul>
+    </div>
+</div>
+<!--mobile 메뉴 끝-->
+
+<!--일반 유저 desktop 메뉴 시작-->
+<div id="desk_user_menu">
+    <ul class="dr_main kk">
+        <li class="first" data-explain="민원 시스템 안내" data-text="System Introduce"><a href="#">민원 시스템 안내</a></li>
+        <li data-explain="민원신청" data-text="Civil application"><a href="#">민원신청</a></li>
+        <li data-explain="정보마당" data-text="Information"><a href="#">정보마당</a></li>
+        
+        
+            <li class="last" data-explain="회원서비스" data-text="Members"><a href="#">회원서비스</a></li>
+        
+
+    </ul>
+    <div class="dr_mask">
+        <div class="menu_img">
+            <div class="inner_line">
+                <p id="menu_text">
+                    <strong>Civil application</strong>
+                </p>
+                <h2 id="menu_explain">민원신청</h2>
+            </div>
+        </div>
+        <div class="dr_subSet">
+            <ul class="m1 tmenu" data-explain="민원 시스템 안내" data-text="System Introduce">
+                <li><a href="/introduce/systemintro1" id="desk_user_m01">각종 신청 작성 안내</a></li>
+                <li><a href="/introduce/systemintro2" id="desk_user_m02">민원 유형별 처리 안내</a></li>
+                <li><a href="/introduce/systemintro3" id="desk_user_m03">처리 부서 안내</a></li>
+                <li><a href="/introduce/systemintro4" id="desk_user_m04">각종 민원 법률 정보</a></li>
+            </ul>
+            <ul class="m2 tmenu" data-explain="민원신청" data-text="Civil application">
+                <li><a href="/civilappeal/aircraft/register" id="desk_user_m11">비행장치 신고</a></li>
+                <li><a href="/civilappeal/business/register" id="desk_user_m12">사업등록 신고</a></li>
+                <li><a href="/civilappeal/flight/register" id="desk_user_m13">비행승인 신청</a></li>
+                <li><a href="/civilappeal/special/register" id="desk_user_m14">특별비행승인 신청</a></li>
+                <li><a href="/civilappeal/aerophotos/register" id="desk_user_m15">항공촬영 신청</a></li>
+                <li><a href="/civilappeal/flightphotos/registerF" id="desk_user_m16"><font color="black" size="3"><b>비행/촬영 원스톱 신청</b></font></a></li> <!--헤드메뉴 일반메뉴 2022-05-02 비행/사진 동시신청 -->
+            </ul>
+            <ul class="m3 tmenu" data-explain="정보마당" data-text="Information">
+                <li><a href="/board/notice/list" id="desk_user_m21">공지사항</a></li>
+                <li><a href="/board/faq/list" id="desk_user_m22">FAQ</a></li>
+                <!-- <li><a href="/board/qna/list" id="desk_user_m23">Q&A</a></li> -->
+            </ul>
+            
+            
+                <ul class="m5 tmenu" data-explain="회원서비스" data-text="Members">
+                    <li><a href="/member/join/register" id="desk_user_m41">회원가입</a></li>
+                    <li><a href="/member/login/login" id="desk_user_m42">로그인</a></li>
+                    <li><a href="/member/login/searchinfo" id="desk_user_m43">아이디/비밀번호찾기</a></li>
+                </ul>
+            
+        </div>
+    </div>
+</div>
+<!--desktop 메뉴 끝-->
+</div>
+</div>
+		</div>
+		<!-- //header -->
+		<!-- section -->
+		<div id="section">
+			<div class="sub_contents">
+				<!-- 페이지위치표시 -->
+				<div class="navi">
+					<ul class="area" id="page_id">
+						<li><img src="/resources/img/sub/home.png" alt="홈"></li>
+						<li>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name1">민원시스템 안내 </span>
+							<i class="fa fa-angle-right" aria-hidden="true"></i><span id="menu-name2">민원 유형별 처리 안내</span>
+						</li>
+					</ul>
+				</div>
+				<!-- 페이지위치표시 -->
+				<div class="area">
+					<div id="l_con" class="l_con">
+						
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	// 사이드 메뉴 show, active 처리 (페이지 접근시)
+	var url = location.href.split('/'); // [3]:대메뉴 [4]:중메뉴 [5]:소메뉴(function)
+	var href = url[3] + "/" + url[4] + "/";
+	if (url[4] === "login") { // member/login/login, member/login/searchinfo 때문에..
+		if (url[5] === "login")
+			href = href + url[5];
+		else
+			href = href + "searchinfo"
+	}
+	var dom  = $(".side_menu a[href*='" + href + "']");
+	dom.parent().parent().parent().parent().show();
+	dom.parent().addClass("active");
+
+	// 모바일 메뉴
+	dom = $(".kj_mo a[href*='" + href + "']");
+	dom.parent().parent().siblings("a").addClass("kj_mo_select");
+	dom.parent().parent().show();
+	dom.addClass("kj_mo_select");
+
+	// Set MenuPath - User
+	var menuName1 = $("div[style=''] .page_info h2").text();
+	var menuName2 = $(".side_menu .active").text()
+	$('#menu-name1').text(menuName1);
+	$('#menu-name2').text(menuName2);
+});
+</script>
+
+<div style="">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Introduce</strong>
+			</p>
+			<h2>민원시스템 안내 </h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/introduce/systemintro1/">각종 신청 작성 안내</a></li>
+			<li class="active"><a href="/introduce/systemintro2/">민원 유형별 처리 안내</a></li>
+			<li><a href="/introduce/systemintro3/">처리 부서 안내</a></li>
+			<li><a href="/introduce/systemintro4/">각종 민원 법률 정보</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Civil application</strong>
+			</p>
+			<h2>민원신청</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/civilappeal/aircraft/register">비행장치 신고</a></li>
+			<li><a href="/civilappeal/business/register">사업등록 신고</a></li>
+			<li><a href="/civilappeal/flight/register">비행승인 신청</a></li>
+			<li><a href="/civilappeal/special/register">특별비행승인 신청</a></li>
+			<li><a href="/civilappeal/aerophotos/register">항공촬영 신청</a></li>
+			<li><a href="/civilappeal/flightphotos/registerF">비행/촬영 원스톱 신청</a></li> <!--왼쪽메뉴 2022-05-02 비행/사진 동시신청 -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Information</strong>
+			</p>
+			<h2>정보마당</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/board/notice/list">공지사항</a></li>
+			<li><a href="/board/faq/list">FAQ</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/board/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Mypage</strong>
+			</p>
+			<h2>마이페이지</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<!--<li><a href="/mypage/civilappeal/list">민원 신청 현황</a></li>-->
+			<li><a href="/mypage/civilappealhis/list">민원 신청 이력</a></li>
+			<li><a href="/common/inadvance/list">비행승인 사전확인이력</a></li>
+			<li><a href="/mypage/myac/list">내 장치 관리</a></li>
+			
+			<li><a href="/mypage/member/modify">정보수정/탈퇴</a></li>
+			<!-- 2022-02-11 Q&A 메뉴 drop-->
+			<!-- <li><a href="/mypage/qna/list">Q&A</a></li> -->
+		</ul>
+	</div>
+</div>
+
+<div style="display: none">
+	<div class="l_top">
+		<div class="page_info">
+			<p>
+				<strong>Members</strong>
+			</p>
+			<h2>회원서비스</h2>
+		</div>
+	</div>
+	<div class="side_menu">
+		<ul>
+			<li><a href="/member/join/register">회원가입</a></li>
+			<li><a href="/member/login/login">로그인</a></li>
+			<li><a href="/member/login/searchinfo">아이디/비밀번호 찾기</a></li>
+		</ul>
+	</div>
+</div>
+					</div>
+					<div id="r_con" class="r_con">
+						
+
+<div class="sub_area">
+    <div class="mypage introduce introduce2">
+        <div class="title-box">
+            <h2>민원 유형별 처리 안내</h2>
+        </div>
+        <div class="board-wrap bd-n">
+            <div class="tab-wrap">
+                <ul>
+                    <li class="active"><a href="javascript:;">초경량비행장치신고</a></li>
+                    <li><a href="javascript:;">초경량비행장치 사업자등록 </a></li>
+                    <li><a href="javascript:;">초경량비행장치 비행승인</a></li>
+                    <li><a href="javascript:;">항공촬영 신청</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-conts">
+                <ul>
+                    <!--초경량비행장치신고-->
+                    <li class="on">
+                        <div class="terms2">
+                            <div class="terms-contents">
+                                <div class="title-box">
+                                    <h3 class="mb40">초경량비행장치신고</h3>
+                                </div>
+
+                                <div class="map-wrap">
+                                    <h4>초경량비행장치란?</h4>
+                                    <div class="law law1">
+                                        <h5>초경량비행장치</h5>
+                                        <p>“초경량비행장치”란 자체중량, 좌석 수 등 국토교통부령으로 정하는 기준에 해당하는 동력비행장치, 행글라이더, 패러글라이더, 기구류 및
+                                            무인비행장치 등을 말한다.</p>
+                                    </div>
+                                </div>
+                                <div class="table-wrap drtable contact">
+                                    <table class="tb_board td_border">
+                                        <colgroup>
+                                            <col style="width:17%">
+                                            <col style="width:23%">
+                                            <col style="width:60%">
+                                        </colgroup>
+                                        <thead>
+                                        <tr>
+                                            <th colspan="2" scope="col">장치유형</th>
+                                            <th scope="col">초경량비행장치 기준</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="td-th">동력 비행장치</td>
+                                            <td class="td-th">조종형, 체중이동형</td>
+                                            <td>동력을 이용하는 것으로서 탑승자, 연료 및 비상용 장비의 중량을 제외한 자체중량이 115kg 이하이며, 좌석인 1개인 고정익
+                                                비행장치
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td-th">행글라이더</td>
+                                            <td>탑승자 및 비상용 장비의 중량을 제외한 자체중량이 70kg 이하로서 체중이동, 타면조종 등의 방법으로 조종하는 비행장치</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td-th">패러글라이더</td>
+                                            <td>탑승자 및 비상용 장비의 중량을 제외한 자체중량이 70kg 이하로서 날개에 부착된 줄을 이용하여 조종하는 비행장치</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td-th">기구류</td>
+                                            <td class="td-th">열기류, 가스기구</td>
+                                            <td>기체의 성질·온도차 등을 이용하는 유인자유기구, 무인자유기구(기구 외부에 2킬로그램 이상의 물건을 매달고 비행하는 것만 해당),
+                                                계류식 기구
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2" class="td-th">무인비행장치</td>
+                                            <td class="td-th">무인동력비행장치<br>(무인비행기,무인멀티헬리곱터,무인멀티콥터)</td>
+                                            <td>사람이 탑승하지 아니하는 것으로서 연료의 중량을 제외한 자체중량이 150kg 이하인 무인비행기, 무인헬리콥터 또는 무인멀티콥터
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td-th">무인비행선</td>
+                                            <td>연료의 중량을 제외한 자체중량이 180킬로그램 이하이고 길이가 20미터 이하인 무인비행선</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td-th">회전익비행장치</td>
+                                            <td class="td-th">초경량헬리콥터, 초경량자이로플레인</td>
+                                            <td>탑승자, 연료 및 비상용 장비의 중량을 제외한 자체중량이 115kg 이하이며, 좌석인 1개인 헬리콥터 또는 자이로플레인</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td-th">동력패러글라이더</td>
+                                            <td>
+                                                패러글라이더에 추진력을 얻는 장치를 부착한 다음 각 목의 어느 하나에 해당하는 비행장치<br>
+                                                착륙장치가 없는 비행장치 또는 착륙장치가 있는 것으로서 탑승자, 연료 및 비상용 장비의 중량을 제외한 자체중량이 115kg
+                                                이하이며, 좌석인 1개인 비행장치
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td-th">낙하산류</td>
+                                            <td>항력(抗力)을 발생시켜 대기(大氣) 중을 낙하하는 사람 또는 물체의 속도를 느리게 하는 비행장치</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td-th">기타</td>
+                                            <td>그 밖에 국토교통부장관이 종류, 크기, 중량, 용도 등을 고려하여 정하여 고시하는 비행장치</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="map-wrap">
+                                    <h4>등록신청 구비서류</h4>
+                                    <div class="law">
+                                        <h5>초경량비행장치신고서</h5>
+                                        <p>항공안전법 시행규칙 별지 제116호 서식 신고서 </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>첨부서류</h5>
+                                        <ul class="lists">
+                                            <li>초경량비행장치를 소유하거나 사용할 수 있는 권리가 있음을 증명하는 서류</li>
+                                            <li>초경량비행장치의 제원 및 성능표</li>
+                                            <li>초경량비행장치의 사진(가로15cm×세로10cm)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="terms-contents mt60">
+                                <div class="title-box">
+                                    <h3 class="mb40">초경량비행장치유형</h3>
+                                </div>
+
+                                <div class="map-wrap">
+
+                                    <h4>동력비행장치</h4>
+                                    <div class="law">
+                                        <h5>타명 조종형(ULP : Ultra Light Plane)</h5>
+                                        <p><img src="/resources/img/sub/dimg1.jpg" alt="타명 조종형(ULP : Ultra Light Plane)"><span>일반 항공기와 구조적으로 유사하며, 무게 및 탑승 인원에 제한을 받음.</span>
+                                        </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>체중 이동형(ULM : Ultra Light Motorize)</h5>
+                                        <p><img src="/resources/img/sub/dimg2.jpg" alt="체중 이동형(ULM : Ultra Light Motorize)"><span>행글라이더에 엔진을 부착 평지에서 이륙 가능. 체중을 이용. 방향 조종</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+
+                                    <h4>회전익비행장치</h4>
+                                    <div class="law">
+                                        <h5>초경량 자이로플레인</h5>
+                                        <p><img src="/resources/img/sub/dimg3.jpg" alt="초경량 자이로플레인"><span>고정익과 회전익의 조합형이라 할 수 있으며, 1개 이상의 회전익에서 양력을 얻는 비행장치</span>
+                                        </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>초결량 헬리콥터</h5>
+                                        <p><img src="/resources/img/sub/dimg4.jpg" alt="초결량 헬리콥터"><span>일반 헬리콥터와 구조적으로 유사하며, 무게 및 탑승인원에 제한을 받음</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+
+                                    <h4>동력패러글라이더 </h4>
+                                    <div class="law">
+                                        <h5>착륙장치가 없는 동력패러글라이더</h5>
+                                        <p><img src="/resources/img/sub/dimg5.jpg" alt="착륙장치가 없는 동력패러글라이더"><span>낙하산류 조종자의 등에 엔진을 매고, 조종 줄을 사용하여 비행장치의 방향과 속도를 조종. </span>
+                                        </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>착륙장치가 있는 동력패러글라이더</h5>
+                                        <p><img src="/resources/img/sub/dimg6.jpg" alt="착륙장치가 있는 동력패러글라이더"><span>패러글라이더에 동체(Trike : 삼륜차)를 장착한 것으로 무게 및 탑승인원에 제한을 받음</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+
+                                    <h4>인력활공기</h4>
+                                    <div class="law">
+                                        <h5>행글라이더</h5>
+                                        <p><img src="/resources/img/sub/dimg7.jpg" alt="행글라이더"><span>탑승자가 공중에서 체중을 이동, 방향조종<br><small class="blue">* 조작쉽고, 비교적 안전함</small></span></p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>패러글라이더</h5>
+                                        <p><img src="/resources/img/sub/dimg8.jpg" alt="패러글라이더"><span>동력장치 없이 사람이 달려가며 이륙, 비행 후 두발로 착륙하는 비행장치</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+
+                                    <h4>기구류</h4>
+                                    <div class="law">
+                                        <h5>자유 기구</h5>
+                                        <p><img src="/resources/img/sub/dimg9.jpg" alt="자유 기구"><span>온도차에 의한 공기부력으로 상승하는 기구, 버너(Burner) 및 사람이 타는 탑승장치와 연료 용기를 탑재</span>
+                                        </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>계류식 기구</h5>
+                                        <p><img src="/resources/img/sub/dimg10.jpg" alt="계류식 기구"><span>공기보다 가벼운 헬륨가스 부력을 이용하며, 연결된 케이블을 풀거나 감는 방식으로 상승 및 강하하는 기구</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+
+                                    <h4>무인비행장치</h4>
+                                    <div class="law">
+                                        <h5>무인비행기</h5>
+                                        <p><img src="/resources/img/sub/dimg11.jpg" alt="무인비행기"><span>사람이 타지 않고 무선 통신을 이용하여 조종하며, 레저, 정찰, 촬영, 감시용으로 사용</span>
+                                        </p>
+                                    </div>
+                                    <div class="law law3">
+                                        <h5>무인헬리콥터</h5>
+                                        <p><img src="/resources/img/sub/dimg12.jpg" alt="무인헬리콥터"><span>구조적으로 회전익항공기와 같고 촬영, 농약살포 등으로 활용</span>
+                                        </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>무인멀티콥터</h5>
+                                        <p><img src="/resources/img/sub/dimg13.jpg" alt="무인멀티콥터"><span>일반적으로 레저, 정찰, 촬영, 감시용으로 사용되며, 규제가 상대적으로 적은 자체중량 12kg 이하가 주류를 이루고 있음.</span>
+                                        </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>무인비행선</h5>
+                                        <p><img src="/resources/img/sub/dimg14.jpg" alt="계류식 기구"><span>기구에 추진장치를 부착하여 이동. 각종 행사. 축하비행 및 광고 등에 사용</span>
+                                        </p>
+                                    </div>
+                                    <div class="law">
+                                        <h5>무인수직이착륙기</h5>
+                                        <p><img src="/resources/img/sub/dimg15.png" alt="계류식 기구"><span>일반적으로 정찰, 항공촬영, 해안 감시 등으로 사용되며, 수직으로 이착륙할 수 있는 장치로서 고정익과 회전익의 특성을 가짐</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <!--초경량비행장치신고-->
+
+                    <!--초경량비행장치사업자등록-->
+                    <li>
+                        <div class="terms2">
+                            <div class="terms-contents">
+                                <div class="title-box">
+                                    <h3 class="mb40">초경량비행장치사업자등록</h3>
+                                </div>
+
+
+                                <div class="map-wrap">
+                                    <h4>등록신청 구비서류</h4>
+                                    <div class="law law1">
+                                        <h5>등록신청서</h5>
+                                        <ul class="indent5">
+                                            <li class="indent4">- 항공사업법 시행규칙 별지 제26호의2 서식 등록신청서</li>
+                                            <li class="indent4">* 행정수수료 1만원 납부내역(입금내역 등)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="law law1">
+                                        <h5>첨부서류</h5>
+
+                                        <ol>
+                                            <li class="indent7"><b>1) 사업계획서 (항공사업법 제48조제1항)</b>
+                                                <ol class="indent">
+                                                    <li class="indent8">
+                                                        <h6>가. 사업목적 및 범위</h6>
+                                                        <h6>나. 초경량비행장치의 안전성 점검 계획 및 사고 대응 매뉴얼 등을 포함한 안전관리 대책</h6>
+                                                        <h6>다. 자본금(기체무게와 상관없이 자본금 기재)</h6>
+                                                        <h6>라. 상호·대표자의 성명과 사업소의 명칭 및 소재지</h6>
+                                                        <h6>마. 사용시설·설비 및 장비 개요(드론 외 사업에 사용되는 주요장비 기재)</h6>
+                                                        <h6>바. 종사자 인력의 개요(반드시 조종자 표시 포함)</h6>
+                                                        <h6>사. 사업 개시 예정일</h6>
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+
+                                        <ol>
+                                            <li class="indent7"><b>2) 부동산을 사용할 수 있음을 증명하는 서류(사무실 임대차 계약서 등)</b></li>
+                                        </ol>
+                                        <ol>
+                                            <li class="indent7"><b>3) 자본금 입증서류</b>(최대이륙중량 25kg 초과 무인비행장치를 사용할 경우에만 제출)
+                                                <ol class="indent9">
+                                                    <li>- (법인) 법인등기의 납입자본금(납입자본금 3천만원 이상), (개인) 예금잔액 증명서 등(자산평가액 3,000만원
+                                                        이상)
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                        <ol>
+                                            <li class="indent7"><b>4) 조종자</b> (사업계획서 종사자 인력개요에 명단 기재)
+                                                <ol class="indent9">
+                                                    <li>- 최대이륙중량 250g초과 시 자격증 사본 앞,뒷면 첨부</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                        <ol>
+                                            <li class="indent7"><b>5) 초경량비행장치신고증명서 사본 (초경량비행장치 1대 이상) </b>
+                                                <ol class="indent9">
+                                                    <li>- 최대이륙중량 25kg 초과 시 항공안전기술원의 안전성인증서 추가 첨부</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+
+                                        <ol>
+                                            <li class="indent7"><b>6) 보험가입증서</b>
+                                                <ol class="indent9">
+                                                    <li>- 「자동차손해배상 보장법 시행령」 제3조제1항에 따른 기체별 대인 1억5천만원 이상 가입</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+
+                                        <ol>
+                                            <li class="indent7"><b>7) 기타</b>
+                                                <ol class="indent9">
+                                                    <li>- 법인등기부등본(법인의 경우, 대표 임원 및 자본금 확인 용도) 또는 사업자등록증</li>
+                                                    <li>- 대표 및 등기임원(감사 포함) 주민등록번호</li>
+                                                    <li>* 항공사업법 제9조(면허의 결격사유 등)에 의하여 대표 및 임원에 대한 면허 결격사유 해당여부 확인을 위해
+                                                        주민등록번호 필요
+                                                    </li>
+                                                    <li><b>- 조종교육은 고정적이고 상시적으로 운영하는 비행 실습장을 사업장으로 등록하고자 할 경우, </b>
+                                                        <ul class="indent">
+                                                            <li>① 부동산 사용권리 증빙</li>
+                                                            <li>② 안전 장비 및 시설(안전모, 안전펜스 등) 현황 및 사진</li>
+                                                            <li>③ 실습장 안전관리 대책 등 제출</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>- 자체 제작한 드론의 경우 <b>최대이륙중량을 입증할 수 있는 서류</b></li>
+                                                    <li>* 제작사 매뉴얼, 설계 자료 또는 최대이륙중량 상태에서의 무게 측정 사진</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--초경량비행장치사업자등록-->
+
+
+                    <!--초경량비행장치 비행승인-->
+                    <li>
+                        <div class="terms2">
+                            <div class="terms-contents">
+                                <div class="title-box">
+                                    <h3 class="mb40">초경량비행장치 비행승인</h3>
+                                </div>
+
+
+                                <div class="map-wrap">
+                                    <h4>초경량비행장치 비행승인 대상</h4>
+                                    <div class="law law1">
+                                        <ul class="indent5">
+                                            <li class="indent4"> - 사업에 사용되는 행글라이더, 패러글라이더, 계류식 무인비행장치, 낙하산류</li>
+                                            <li class="indent4">- 고도 150m 이상으로 비행하는 경우</li>
+                                            <li class="indent4">- 최대 이륙중량 25kg 초과하는 경우의 무인동력비행장치(농업용은 관제권·비행금지구역 내 비행만
+                                                포함)
+                                            </li>
+                                            <li class="indent4">- 자체중량(연료제외) 12kg 초과 길이 7m 초과하는 비행선</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="map-wrap mt40">
+                                    <h4>비행승인 절차</h4>
+                                    <div class="law2">
+                                        <ul class="indent5">
+                                            <li class="indent4"> - 사업에 사용되는 행글라이더, 패러글라이더, 계류식 무인비행장치, 낙하산류</li>
+                                            <li class="indent4">- 고도 150m 이상으로 비행하는 경우</li>
+                                            <li class="indent4">- 최대 이륙중량 25kg 초과하는 경우의 무인동력비행장치(농업용은 관제권·비행금지구역 내 비행만
+                                                포함)
+                                            </li>
+                                            <li class="indent4">- 자체중량(연료제외) 12kg 초과 길이 7m 초과하는 비행선</li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div class="map-wrap">
+                                        <div class="table-wrap drtable contact drtable2">
+                                            <table class="tb_board td_border">
+                                                <colgroup>
+                                                    <col style="width:100px">
+                                                    <col style="width:18%">
+                                                    <col style="width:22%">
+                                                    <col style="width:20%">
+                                                    <col style="width:20%">
+                                                    <col style="width:20%">
+                                                </colgroup>
+                                                <thead>
+                                                <tr>
+                                                    <th>구분</th>
+                                                    <th>비행금지구역<br>(P73, P65등)</th>
+                                                    <th>비행제한구역<br>(R-75)</th>
+                                                    <th>민간관제권<br>(반경 9.3km)</th>
+                                                    <th>군관제권<br>(반경 9.3km)</th>
+                                                    <th>기타 지역<br>(고도 150m 이하)</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>항공촬영<br>(국방부)</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>○<br>(공역 승인 포함)</td>
+                                                    <td>△</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>비행승인<br>(국방부)</td>
+                                                    <td>○</td>
+                                                    <td>○</td>
+                                                    <td>X</td>
+                                                    <td>○</td>
+                                                    <td>X</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>비행승인<br>(국토부)</td>
+                                                    <td>○</td>
+                                                    <td>X</td>
+                                                    <td>○</td>
+                                                    <td>X</td>
+                                                    <td>X</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>공통사항</td>
+                                                    <td colspan="5" class="left">
+                                                        <ul>
+                                                            <li class="indent6">① 25kg 초과 기체로 비행시 고도에 상관없이 비행승인 필요</li>
+                                                            <li class="indent6">② 공역이 2개 이상 겹칠 경우 각 기관 허가 사항 모두 적용</li>
+                                                            <li class="indent6">③ 비행제한구역 및 기타 지역에서 150m 이상 고도에서 비행할 경우
+                                                                비행승인 필요
+                                                            </li>
+                                                            <li class="indent6">④ △ : 국가/군사 시설 유무에 따라 달라질 수 있어 국방부에 문의
+                                                                필요
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="map-wrap mt40">
+                                    <h4>드론 비행 협의</h4>
+                                    <div class="law law1">
+                                        <h5>협의 대상</h5>
+                                        <ul class="indent5">
+                                            <li class="indent4">- 비행장 중심으로부터 반경 3km내에서 비행하고자 하는 경우</li>
+                                            <li class="indent4">※ 비행장은 인천국제공항 등 민간공항과 육군, 해군, 공군이 운영하는 군비행장, 한서대학교와 같은
+                                                사설비행장이 있습니다.
+                                            </li>
+                                            <li class="indent4">- 이착륙장 중심으로부터 반경 3km내에서 비행하고자 하는 경우</li>
+                                            <li class="indent4">※ 이착륙장은 경량항공기 및 초경량비행장치가 이착륙할 수 있도록 허가 받은 장소를 말합니다</li>
+                                        </ul>
+                                    </div>
+                                    <br><br>
+                                    <div class="law law1">
+                                        <h5>협의 절차</h5>
+                                        <ul class="indent5">
+                                            <li class="indent4">- 비행장은 비행장을 관할하는 기관과 방문 협의</li>
+                                            <li class="indent4">- 이착륙장(항공기, 경량항공기)은 운영자와 방문 협의</li>
+                                        </ul>
+                                    </div>
+                                </div>
+								<div class="map-wrap mt40">
+									<h4>드론! 이것도 모르고 날리면 벌금폭탄 맞습니다!</h4>
+									<div>
+										<iframe width="640" height="480" src="https://www.youtube.com/embed/0yEt_JeHRYg?rel=0&amp;autoplay=1&amp;mute=1&amp;loop=1;playlist=0yEt_JeHRYg" frameborder="0"></iframe>
+									</div>
+								</div>
+                                <div class="map-wrap mt40">
+                                    <h4>수도권 미승인 드론 비행 금지</h4>
+                                    <div>
+                                        <img src="/resources/doc/img_20230329.jpg" width="703" height="5200/">
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+                                    <h4>조종자 준수 사항</h4>
+                                    <ul class="icon icon1 iconm">
+                                        <li>
+                                            <p class="img gray1">
+                                                <img src="/resources/img/sub/i1.gif" alt="사고나 분실에 대비">
+                                            </p>
+                                            <div class="title">
+                                                <h5>사고나 분실에 대비</h5>
+                                                <span>사고나 분실에 대비해 장치에는 소유자 이름, 연락처를 기재 하도록 합니다.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="img gray2">
+                                                <img src="/resources/img/sub/i2.gif" alt="육안거리 내에서 비행">
+                                            </p>
+                                            <div class="title">
+                                                <h5>육안거리 내에서 비행</h5>
+                                                <span>항상 육안거리 내에서 비행합니다.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="img gray1">
+                                                <img src="/resources/img/sub/i3.gif" alt="야간에 비행하지 않습니다.">
+                                            </p>
+                                            <div class="title">
+                                                <h5>야간에 비행하지 않습니다.</h5>
+                                                <span>(야간 : 일몰 후 부터 일출 전까지)</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="icon icon1">
+                                        <li>
+                                            <p class="img gray2">
+                                                <img src="/resources/img/sub/i4.gif" alt="사람이많 은 곳 위로 비행을 자제합니다.">
+                                            </p>
+                                            <div class="title">
+                                                <h5>사람이 많은 곳 위로 비행을 자제합니다.</h5>
+                                                <span>(인구밀집 지역 위 위험한 방식으로 비행금지)</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="img gray1">
+                                                <img src="/resources/img/sub/i5.gif" alt="음주 상태에서 조종금지">
+                                            </p>
+                                            <div class="title">
+                                                <h5>음주 상태에서 조종금지</h5>
+                                                <span>음주 상태에서 조종하지 않습니다.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="img gray2">
+                                                <img src="/resources/img/sub/i6.gif" alt="비행 중 위험한 낙하물을 투하금지">
+                                            </p>
+                                            <div class="title">
+                                                <h5>비행 중 위험한 낙하물을 투하금지</h5>
+                                                <span>비행 중 위험한 낙하물을 투하하지 않습니다.</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="icon icon1 iconm1">
+                                        <li>
+                                            <p class="img gray1">
+                                                <img src="/resources/img/sub/i7.gif" alt="항공 촬영시 관할 기관의 사전 승인">
+                                            </p>
+                                            <div class="title">
+                                                <h5>항공 촬영시 관할 기관의 사전 승인</h5>
+                                                <span>항공 촬영시 관할 기관의 사전 승인이 필요합니다.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="img gray2">
+                                                <img src="/resources/img/sub/i8.gif" alt="비행하기전 해당제품의 메뉴얼을 숙지">
+                                            </p>
+                                            <div class="title">
+                                                <h5>비행하기전 해당제품의 메뉴얼을 숙지</h5>
+                                                <span>비행하기전 해당제품의 메뉴얼을 숙지합니다.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="img gray1">
+                                                <img src="/resources/img/sub/i9.gif" alt="전파인증을 받은 제품인지 확인">
+                                            </p>
+                                            <div class="title">
+                                                <h5>전파인증을 받은 제품인지 확인</h5>
+                                                <span>전파인증을 받은 제품인지 확인합니다.</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <!--
+                                                <div class="map-wrap mt40">
+                                                    <h4>비행금지구역(Prohibited Areas)</h4>
+                                                    <p class="map map2">
+                                                        <img src="/resources/img/sub/map2.png" alt="전국 관제권 및 비행금지구역 현황">
+                                                    </p>
+
+                                                              <div class="law law4">
+                                                                        <h5>P-73 해당지역</h5>
+                                                                        <p>서울시 중구, 용산구, 성동구, 서대문구, 강북구, 동대문구, 종로구, 성북구</p>
+                                                                    </div>
+                                                                      <div class="law law4">
+                                                                        <h5>P-75 해당지역</h5>
+                                                                        <p>서울시 강서구, 양천구, 영등포구, 동작구, 관악구, 서초구, 강남구, 송파구(가락동, 송파동, 방이동, 잠실동), 강동구(천호동, 풍납동, 암사동, 성내동)</p>
+                                                                    </div>
+                                                </div>
+                                -->
+
+                            </div>
+                        </div>
+                    </li>
+                    <!--초경량비행장치 비행승인-->
+
+
+                    <!--항공사진촬영신청-->
+                    <li>
+                        <div class="terms2">
+                            <div class="terms-contents">
+                                <div class="title-box">
+                                    <h3 class="mb40">드론 항공촬영 절차</h3>
+                                </div>
+
+
+                                <div class="map-wrap">
+                                    <h4>1. 목적</h4>
+                                    <div class="law2">
+                                        <p class="indent">이 절차는 「국가정보원법」 제3조 및 「보안업무규정」 제33조의 규정에 의한 「국가보안시설 및 보호장비
+                                            관리지침」 제33조, 「군사기지 및 군사시설보호법」에 따른 국가보안시설 및 군사시설이 촬영되지 않도록 하기 위해 필요한 사항을 규정함을
+                                            목적으로 합니다.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="map-wrap mt40">
+                                    <h4>2. 활용범위</h4>
+                                    <div class="law2">
+                                        <p class="indent">이 절차는 항공기 및 초경량비행장치를 이용한 항공촬영 신청 민원을 처리하는 업무에 적용합니다.</p>
+                                    </div>
+
+                                </div>
+                                <div class="map-wrap mt40">
+                                    <h4>3. 보안책임</h4>
+                                    <div class="law2">
+                                        <ul class="indent">
+                                            <li class="indent2">가. 촬영금지시설 촬영 시 「군사기지 및 군사시설보호법」 등 관련 법에 따른 법적 책임은 항공촬영을
+                                                하는 개인, 업체 및 기관에 있습니다.
+                                            </li>
+                                            <li class="indent2"> 나. 이 절차를 적용받는 드론촬영 신청자는 개인정보보호의 책임이 있으며, 항공촬영을 하는 개인,
+                                                업체 및 기관의 대표는 항공촬영 후 촬영 영상에 대한 보안책임을 지며 비밀사항을 지득하거나 점유 시 이를 보호할 책임이 있고,
+                                                누출되지 않도록 하여야 합니다.
+                                            </li>
+                                            <li class="indent2"> 다. 지역책임부대장은 민원인이 항공촬영 신청 시 촬영금지시설이 촬영되지 않도록 안내하여야 합니다.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+                                    <h4>4. 항공촬영 신청</h4>
+                                    <div class="law2">
+                                        <ul class="indent">
+                                            <li class="indent2">가. 초경량비행장치를 이용하여 항공촬영을 하고자 하는 자는 개활지 등 촬영금지시설이 명백하게 없는
+                                                곳에서의 촬영을 제외하고는 촬영금지시설 포함 여부를 확인하기 위해 드론원스톱민원서비스 등을 통해 항공촬영 신청을 하여야 합니다.
+                                            </li>
+                                            <li class="indent2">(단, 신청에 대한 확인의 유효기간은 1년에 한한다.)
+                                            </li>
+                                            <li class="indent2">나. 드론촬영 신청자는 촬영 4일전(근무일 기준)까지 인터넷 드론 원스톱 민원서비스 또는 모바일 앱
+                                                등을 이용하여 신청합니다.
+                                            </li>
+                                            <li class="indent2">다. 전국단위 초경량비행장치 항공촬영 신청에 대한 민원처리는 육군 제 17보병사단에서 실시하며,
+                                                항공촬영 신청서를 문서, 팩스, 기관메일, 등을 이용하여 접수 및 처리합니다.
+                                                <ul class="indent">
+                                                    <li>※ 항공촬영 신청 관련 문의 : 국방부 정보본부 보안암호정책과(02-748-2344)</li>
+                                                    <li>※ 지역별 항공촬영 업무 책임부대 연락처는 항공촬영 신청란에 게시</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="map-wrap mt40">
+                                    <h4>5. 항공촬영 금지시설</h4>
+                                    <div class="law2">
+                                        <ul class="indent">
+                                            <li class="indent2">가. 다음 각 호에 해당되는 시설에 대하여는 드론촬영을 금지합니다.
+                                                <ul class="indent">
+                                                    <li>1) 국가보안시설 및 군사보안시설</li>
+                                                    <li>2) 비행장, 군항, 유도탄 기지 등 군사시설</li>
+                                                    <li>3) 기타 군수산업시설 등 국가안보 상 중요한 시설․지역</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+                                    <h4>6. 보안조치</h4>
+                                    <div class="law2">
+                                        <ul class="indent">
+                                            <li class="indent2">가. 항공촬영 신청 민원에 대해 촬영금지시설 포함 여부를 안내할 때는 촬영금지시설의 유⋅무를
+                                                안내하며, 구체적인 시설명칭은 사용하지 않고 다음 각 호의 내용을 포함합니다.
+                                                <ul class="indent">
+                                                    <li>1) 민원인이 신청한 촬영지역을 명시</li>
+                                                    <li>2) 촬영금지시설 촬영 시 관련법규정 및 처벌조항 고지</li>
+                                                    <li>3) 항공촬영 민원처리담당관 직책</li>
+                                                    <li>4) 연락 가능한 부대 전화번호</li>
+                                                </ul>
+                                            </li>
+                                            <li class="indent2">나. 항공촬영 민원인에 대한 촬영장소 현장 통제는 촬영금지시설이 촬영될 가능성이 명백한 경우에
+                                                한하며, 이 경우 지역책임부대장은 사전에 객관적인 기준을 수립하고, 필요시 촬영금지시설 보안담당자에게 개인정보를 제외하고
+                                                촬영신청과 관련된 내용을 통보합니다.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="map-wrap mt40">
+                                    <h4>7. 비행승인</h4>
+                                    <div class="law2">
+                                        <ul class="indent">
+                                            <li class="indent2">가. 항공촬영은 비행승인과는 별개의 절차로, 비행승인이 필요할 때는 국토교통부에 비행승인을 받아야
+                                                합니다. 다만, 비행금지구역을 비행할 경우 항공촬영 신청자는 해당 지역의 공역(空域)관리기관(합참,수방사,공군 등)의 별도
+                                                승인을 받아야 합니다.
+                                            </li>
+                                            <li class="indent2">나. 군사작전 지역 내 비행 및 군 시설 이용이 필요할 경우 사전에 관할 군부대와 협조하여야 합니다.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </li>
+                    <!--항공사진촬영신청-->
+
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //section -->
+		<!-- footer -->
+		<div id="footer">
+			
+
+<script src="/resources/vendor/db_banner7/js/jquery.DB_slideStepMove.min.js"></script>
+<script src="/resources/vendor/jQuery-tmpl-1.0.0/jquery.tmpl.min.js"></script>
+
+
+
+<!-- /* 구글접속기록 남기기 2023-05-10 */ -->
+<!-- Google tag (gtag.js) -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FVJGCL7SSX"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-FVJGCL7SSX');
+</script>
+-->
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	let x = setInterval(function () {
+
+		initKindex();
+
+	}, 60*60*1000); // 2023-03-24 자기장정보 1시간에 한번씩 불러오기
+	//}, 10000); // 2023-03-24 자기장정보 10초에 한번씩 불러오기
+
+	initKindex();
+
+//	initWeather();
+
+	// [이용약관]
+	$("#pop-tos").click(function() {
+		utils.popupCenter("/common/terms/ToS", "popupToS", 1024, 720);
+	});
+
+
+	// [개인정보처리방침]
+	$("#pop-policy").click(function() {
+		//utils.popupCenter("/common/terms/privatePolicy", "popupPolicy", 1024, 720);
+		// 2026-08-01 한국교통안전공단 사이트로 변경
+		utils.popupCenter("https://main.kotsa.or.kr/portal/contents.do?menuCode=07020100", "popupPolicy", 1024, 720);
+	});
+});
+
+function initKindex() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getKindexAjax.ajax",
+		dataType: "json",
+		contentType: 'application/json; charset=UTF-8',
+		cache: false, // 캐싱 비활성화
+		headers: {
+			"Cache-Control": "no-cache, no-store, must-revalidate", // 캐시 무효화
+		},
+		//timeout: 5000,
+		success: function(data){
+			let str1 = JSON.stringify(data); // params: 파라미터 확인하는것~
+			//console.log('비행승인-계획000-'+str1);
+
+			// alert(str1);
+			$("#KP_LEVEL").css("w_info mag " + data.KP_LEVEL);
+			$("#KP_VALUE").text(data.KP_VALUE + "kp")
+			$("#KP_MAX_VALUE").text(data.KP_MAX_VALUE + "kp")
+		},
+		error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+		}
+	});
+}
+
+
+
+
+function initWeather() {
+
+	$.ajax({
+		method: "GET",
+		url: "/weather/getWeatherAjax",
+	    dataType: "json",
+	    contentType: 'application/json; charset=UTF-8',
+
+	    success: function(data){
+	    	// console.log(data);
+
+	    	$(".DB_moveSet").empty();
+	    	$("#weatherTemplate").tmpl(data).appendTo(".DB_moveSet");
+
+	    	// 날씨 슬라이드
+	    	var mq = window.matchMedia("(max-width: 479px)");
+	        var distance = (mq.matches) ? 90 : 60;
+	        $('.DB_banner7').DB_slideStepMove({
+	           motionDirection: 'y',           //모션방향('none','x','y')
+	           moveDistance: distance,         //이동거리(li기준)
+	           moveSpeed: 300,                 //이동속도
+	           autoRollingTime: 5000           //자동롤링시간(밀리초)
+	      });
+
+	    },
+	    error: function(xhr,  Status, error) {
+			//2026-03-23 TS 보안취약점 점검 log 삭제
+			//console.log(Status)
+	    }
+	});
+}
+
+//더보기 팝업
+// document.addEventListener("DOMContentLoaded", function() {
+// 	const popupLink = document.getElementById("popup-link");
+// 	const popup = document.getElementById("popup");
+// 	const popupClose = document.getElementById("popup-close");
+//
+// 	let isPopupOpen = false;
+// 	//더보기로 열고 닫기
+// 	popupLink.addEventListener("click", function() {
+// 		if (isPopupOpen) {
+// 			popup.style.display = "none"; // 팝업이 이미 열려 있으면 닫기
+// 		} else {
+// 			popup.style.display = "block"; // 팝업이 닫혀 있으면 열기
+// 		}
+// 		isPopupOpen = !isPopupOpen; // 팝업 상태 저장
+// 	});
+// 	//닫기x 아이콘으로 닫기
+// 	popupClose.addEventListener("click", function() {
+// 		popup.style.display = "none";
+// 		isPopupOpen = false; // 팝업을 닫으면 상태를 닫힌 상태로 설정
+// 	});
+// });
+</script>
+
+
+<!-- 날씨 템플릿 -->
+
+
+<div class="area">
+	<ul>
+		<li><a href="javascript:;" id="pop-tos">이용약관</a></li>
+		<li><a href="javascript:;" id="pop-policy"><h3 style="font-weight:bold;">개인정보처리방침</h3></a></li>
+
+		<li><span style="font-size: 16px"><span class="red">관제권(공항주변)</span> 및 <span class="red">원전 주변</span>은 <span class="red">드론 비행승인 대상지역</span>이며 드론 탐지시스템이 운영 중에 있습니다.</span></li>
+	</ul>
+
+	<!--//더보기 팝업 231130 msh 모바일 깨짐 수정 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 기상정보 -->
+	<div class="w_info_wrap">
+		
+
+	<!-- 자기장정보 -->
+	<div id="KP_LEVEL" class="w_info mag g1" title="지구자기장 지수">
+    	<span class="sound">자기장정보</span>
+    	<p class="w_ct">자기장지수(현재) : <span id="KP_VALUE" class="KP_VALUE" value="">3kp</span><br>24시간 최대<span class="KP_MAX_VALUE"> : </span><span id="KP_MAX_VALUE" value="">4kp</span></p>
+	</div>
+   </div> 
+</div>
+
+<!-- 소속기관홈페이지 -->
+<div class="footer_sub">
+	<div class="area">
+		<div class="f_logo"><span class="sound">드론 로고</span></div>
+			<p class="copyright">
+			Copyright (c) Ministry of Land, Infrastructure and Transport. All Rights reserved<br>
+			드론민원포털서비스에 접수된 민원은 관련 법률 및 법령과 시행규칙에 의거하여 처리됩니다.</p>
+		<div class="pt_hp">
+		<form action="">
+			<select name="" id="" onchange="if(this.value) window.open(this.value);">
+				<option value="">소속기관 홈페이지</option>
+				<option value="http://www.molit.go.kr/sroa/intro.do">서울지방항공청</option>
+				<option value="http://www.molit.go.kr/broa/intro.do">부산지방항공청</option>
+				<option value="http://www.molit.go.kr/jroa/intro.do">제주지방항공청</option>
+				<option value="https://www.kotsa.or.kr/">한국교통안전공단</option>
+				<option value="https://www.kotsa.or.kr/edrone">드론정보통합시스템</option>
+			</select>
+		</form>
+		</div>
+	</div>
+</div>
+
+
+		</div>
+		<!-- //footer -->
+	</div>
+
+	<!-- pop-layer -->
+	<div class="dim-layer">
+	    <div class="dimBg"></div>
+	    <div id="pop-layer" class="pop-layer">
+	        <div class="pop-container">
+	            <div class="pop-conts">
+	                <!--content //-->
+	                <p class="ctxt mb20">메시지<br>
+	                	처리가 완료되었습니다.
+	                </p>
+	                <div class="btn-r">
+	                    <a href="#" class="btn-layerClose">닫기</a>
+	                </div>
+	                <!--// content-->
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><button type="button" id="cboxClose"></button></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>
