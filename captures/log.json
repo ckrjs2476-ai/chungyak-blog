@@ -1,31 +1,5 @@
 [
  {
-  "name": "ipo-01956751-dart",
-  "ok": true,
-  "status": 200,
-  "title": "래블업/증권신고서(지분증권)/2026.10.21",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 23000,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000334",
-  "at": "2026-11-04 11:32"
- },
- {
-  "name": "js-30230-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7266,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-04 11:34"
- },
- {
   "name": "js-41220-rt-form",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2525,5 +2499,31 @@
   "bytes": 29060,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000748",
   "at": "2026-11-13 07:53"
+ },
+ {
+  "name": "dr-law-uam-act-2-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "도심항공교통활용촉진및지원에관한법률",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 46952,
+  "url": "https://www.law.go.kr/법령/도심항공교통활용촉진및지원에관한법률/제2조",
+  "at": "2026-11-13 08:57"
+ },
+ {
+  "name": "dr-law-search-uam-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "법령 > 현행법령 > 법령명 | 국가법령정보센터",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 20654,
+  "url": "https://www.law.go.kr/LSW/lsSc.do?menuId=1&subMenuId=15&tabMenuId=81&query=%EB%8F%84%EC%8B%AC%ED%95%AD%EA%B3%B5%EA%B5%90%ED%86%B5",
+  "at": "2026-11-13 08:58"
  }
 ]
