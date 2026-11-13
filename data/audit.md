@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: cheongyak (2026-11-13 14:51 KST)
+# 애드센스 기준 점검: cheongyak (2026-11-13 17:04 KST)
 
 - 공개 글: 66편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -25,12 +25,12 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
-| 85 | [11월 9일 무순위 청약, 쌍용 더 플래티넘 센텀 ](https://daily-cheongyak.blogspot.com/2026/11/remainder-cheongyak-2026-11-09.html) `2026-11-05-remainder-1109-remainder.md` | 3271 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 분양가는 발코니 확장과 옵션이 빠진 / 당첨자 발표는 N월 N일N 계약은 / N㎡ |
+| 85 | [11월 9일 무순위 청약, 쌍용 더 플래티넘 센텀 ](https://daily-cheongyak.blogspot.com/2026/11/remainder-cheongyak-2026-11-09.html) `2026-11-05-remainder-1109-remainder.md` | 3271 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 중앙값 N억 N만 원보다 N / N㎡ 최고가 N억 N만 원은 / 국토교통부 실거래 |
 | 90 | [10월 26일 무순위 청약 결과, 문수로 비스타 더](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-26.html) `2026-10-22-remainder-1026-remainder.md` | 3086 | 1 | 2 | - |
 | 90 | [10월 2주 청약 경쟁률 순위, 7곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-2w.html) `2026-10-19-weekly-competition-1012-stats.md` | 2498 | 1 | 2 | - |
 | 90 | [더샵 동인센트리체 청약 경쟁률, 1순위 신청 17건](https://daily-cheongyak.blogspot.com/2026/10/the-sharp-dongin-centriche-competition.html) `2026-10-15-2026000494-competition.md` | 1731 | 0 | 1 | - |
 | 90 | [부산 분양 아파트 10월 민영 4곳, 평당 1,78](https://daily-cheongyak.blogspot.com/2026/10/busan-apartment-pyeong-price-2026-10.html) `2026-10-19-busan-2026-10-region.md` | 4170 | 1 | 1 | - |
-| 90 | [서울 분양 아파트 3~8월 19곳, 평당 3,468](https://daily-cheongyak.blogspot.com/2026/10/seoul-apartment-pyeong-price-2026-03-08.html) `2026-10-29-seoul-2026-03-08-region.md` | 2850 | 1 | 1 | - |
+| 90 | [서울 분양 아파트 3~8월 19곳, 평당 3,468](https://daily-cheongyak.blogspot.com/2026/10/seoul-apartment-pyeong-price-2026-03-08.html) `2026-10-29-seoul-2026-03-08-region.md` | 2888 | 1 | 1 | - |
 | 90 | [용인 분양 아파트 7곳 평당 분양가, 처인구 1,6](https://daily-cheongyak.blogspot.com/2026/11/yongin-apartment-pyeong-price-2025-12.html) `2026-11-03-yongin-2025-12-2026-08-region.md` | 2320 | 1 | 1 | - |
 | 90 | [천안 서북구 아파트 실거래가, 84㎡ 중앙값 3억 ](https://daily-cheongyak.blogspot.com/2026/10/cheonan-seobuk-gu-apartment-silgeorae.html) `2026-10-17-cheonan-seobuk-market.md` | 2999 | 1 | 1 | - |
 | 90 | [천안 아이파크 시티 2단지 청약 일정·분양가, 평당](https://daily-cheongyak.blogspot.com/2026/10/cheonan-ipark-city-2-cheongyak-2026-10.html) `2026-10-12-2026000498-notice.md` | 1794 | 0 | 1 | - |
@@ -48,7 +48,7 @@
 | 100 | [GTX운정중앙역 시티프라디움 분양가·청약 일정, 4](https://daily-cheongyak.blogspot.com/2026/11/gtx-unjeong-city-pradium-3-4-bunyangga.html) `2026-11-01-2026000517-2026000518-notice.md` | 2827 | 0 | 2 | - |
 | 100 | [강동구 아파트 실거래가, 신축 84㎡ 중앙값 20억](https://daily-cheongyak.blogspot.com/2026/10/gangdong-gu-apartment-silgeorae-2026-10.html) `2026-10-24-gangdong-market.md` | 3117 | 0 | 1 | - |
 | 100 | [경기 분양 아파트 9·10월 평당 분양가 비교, 9](https://daily-cheongyak.blogspot.com/2026/10/gyeonggi-apartment-pyeong-price-2026-09.html) `2026-10-16-gyeonggi-sep-oct-region.md` | 3421 | 0 | 3 | - |
-| 100 | [경남 분양 아파트 3~10월, 진주는 전 타입 마감](https://daily-cheongyak.blogspot.com/2026/10/gyeongnam-apartment-pyeong-price-2026.html) `2026-10-31-gyeongnam-2026-03-10-region.md` | 2435 | 0 | 2 | - |
+| 100 | [경남 분양 아파트 3~10월, 진주는 전 타입 마감](https://daily-cheongyak.blogspot.com/2026/10/gyeongnam-apartment-pyeong-price-2026.html) `2026-10-31-gyeongnam-2026-03-10-region.md` | 2471 | 0 | 2 | - |
 | 100 | [계양신도시 카이브 유보라 경쟁률, 1순위 0.74·](https://daily-cheongyak.blogspot.com/2026/11/gyeyang-kaib-yubora-ac3-ac4-competition.html) `2026-11-06-2026000530-2026000532-competition.md` | 2924 | 0 | 2 | - |
 | 100 | [계양신도시 카이브 유보라 분양가·청약 일정, AC3](https://daily-cheongyak.blogspot.com/2026/10/gyeyang-kaib-yubora-ac3-ac4-bunyangga.html) `2026-10-25-2026000530-2026000532-notice.md` | 2646 | 0 | 2 | - |
 | 100 | [남양주 분양 아파트 평당 분양가, 왕숙2 2,094](https://daily-cheongyak.blogspot.com/2026/10/namyangju-apartment-pyeong-price-2025.html) `2026-10-27-namyangju-2025-11-2026-09-region.md` | 2947 | 0 | 1 | - |
@@ -70,7 +70,7 @@
 | 100 | [아크메르 동탄 경쟁률, 84C 16.88대 1인데 ](https://daily-cheongyak.blogspot.com/2026/10/acmer-dongtan-95-99-competition-2026-10.html) `2026-10-28-2026000508-2026000509-competition.md` | 2770 | 0 | 2 | - |
 | 100 | [안양 분양 아파트 6곳 평당가, 1순위에서 전 타입](https://daily-cheongyak.blogspot.com/2026/11/anyang-apartment-pyeong-price-2025-10.html) `2026-11-03-anyang-2025-10-2026-04-region.md` | 2413 | 0 | 2 | - |
 | 100 | [엘리프 시흥 더프라임 경쟁률, 286세대에 1순위 ](https://daily-cheongyak.blogspot.com/2026/11/elif-siheung-prime-competition-2026-11.html) `2026-11-11-2026000525-competition.md` | 2791 | 0 | 2 | - |
-| 100 | [엘리프 시흥 더프라임 분양가·청약 일정, 거모지구 ](https://daily-cheongyak.blogspot.com/2026/10/elif-siheung-prime-bunyangga-2026-10.html) `2026-10-30-2026000525-notice.md` | 2697 | 0 | 1 | - |
+| 100 | [엘리프 시흥 더프라임 분양가·청약 일정, 거모지구 ](https://daily-cheongyak.blogspot.com/2026/10/elif-siheung-prime-bunyangga-2026-10.html) `2026-10-30-2026000525-notice.md` | 2733 | 0 | 1 | - |
 | 100 | [여수 분양 아파트 4곳, 소제지구 두 블록 결과가 ](https://daily-cheongyak.blogspot.com/2026/11/yeosu-apartment-pyeong-price-2025-10.html) `2026-11-10-yeosu-2025-10-2026-04-region.md` | 2415 | 0 | 2 | - |
 | 100 | [오산 분양 아파트 평당 분양가, 5곳 모두 1순위 ](https://daily-cheongyak.blogspot.com/2026/11/osan-apartment-pyeong-price-2025-09.html) `2026-11-07-osan-2025-09-2026-07-region.md` | 2320 | 0 | 1 | - |
 | 100 | [울산 남구 분양 아파트 평당 분양가, 10곳 중 9](https://daily-cheongyak.blogspot.com/2026/10/ulsan-namgu-apartment-pyeong-price-2025.html) `2026-10-23-ulsan-namgu-2025-09-2026-09-region.md` | 2623 | 0 | 1 | - |
@@ -81,11 +81,11 @@
 | 100 | [청주 가경 아이파크 경쟁률, 7단지 194.59대 ](https://daily-cheongyak.blogspot.com/2026/10/cheongju-gagyeong-ipark-competition.html) `2026-10-22-cheongju-gagyeong-ipark-region.md` | 2519 | 0 | 2 | - |
 | 100 | [청주 가경 아이파크 당첨 가점, 84A 커트라인 8](https://daily-cheongyak.blogspot.com/2026/11/cheongju-gagyeong-ipark-7-8-score-2026.html) `2026-11-02-2026000492-score.md` | 2293 | 0 | 2 | - |
 | 100 | [트리븐센텀 2단지 분양가·청약 일정, 평당 2,34](https://daily-cheongyak.blogspot.com/2026/10/trivn-centum-2-bunyangga-2026-10.html) `2026-10-18-2026000514-notice.md` | 2786 | 0 | 1 | - |
-| 100 | [트리븐센텀 경쟁률, 1단지 0.19대 1·2단지 0](https://daily-cheongyak.blogspot.com/2026/10/trivn-centum-1-2-competition-2026-10.html) `2026-10-28-2026000513-2026000514-competition.md` | 2439 | 0 | 2 | - |
+| 100 | [트리븐센텀 경쟁률, 1단지 0.19대 1·2단지 0](https://daily-cheongyak.blogspot.com/2026/10/trivn-centum-1-2-competition-2026-10.html) `2026-10-28-2026000513-2026000514-competition.md` | 2482 | 0 | 2 | - |
 | 100 | [평택 분양 아파트 평당 분양가 비교, 9곳 중 1순](https://daily-cheongyak.blogspot.com/2026/10/pyeongtaek-apartment-pyeong-price-2026.html) `2026-10-23-pyeongtaek-apr-sep-region.md` | 2902 | 0 | 1 | - |
 | 100 | [평택 아파트 실거래가, 고덕동 84㎡ 중앙값 5억 ](https://daily-cheongyak.blogspot.com/2026/10/pyeongtaek-apartment-silgeorae-2026-10.html) `2026-10-31-pyeongtaek-market.md` | 3836 | 0 | 2 | - |
 | 100 | [한화포레나 지제역 경쟁률, 1순위 0.28대 1·8](https://daily-cheongyak.blogspot.com/2026/11/hanwha-forena-jijeyeok-competition-2026.html) `2026-11-11-2026000499-competition.md` | 3226 | 0 | 3 | - |
-| 100 | [한화포레나 지제역 분양가·청약 일정, 평당 2,14](https://daily-cheongyak.blogspot.com/2026/10/hanwha-forena-jijeyeok-bunyangga-2026-10.html) `2026-10-30-2026000499-notice.md` | 2670 | 0 | 1 | - |
+| 100 | [한화포레나 지제역 분양가·청약 일정, 평당 2,14](https://daily-cheongyak.blogspot.com/2026/10/hanwha-forena-jijeyeok-bunyangga-2026-10.html) `2026-10-30-2026000499-notice.md` | 2710 | 0 | 1 | - |
 | 100 | [향남역 그로브 스위첸 청약 경쟁률, 1순위 0.64](https://daily-cheongyak.blogspot.com/2026/10/hyangnam-station-grove-switzen_0183861663.html) `2026-10-14-2026000463-competition.md` | 2413 | 0 | 2 | - |
 | 100 | [향남역 그로브 스위첸 청약 일정·분양가, 평당 1,](https://daily-cheongyak.blogspot.com/2026/10/hyangnam-station-grove-switzen.html) `2026-10-07-2026000463-notice.md` | 2032 | 0 | 2 | - |
 | 100 | [화성 분양 아파트 평당가, 향남 1,606만 원·동](https://daily-cheongyak.blogspot.com/2026/11/hwaseong-apartment-pyeong-price-2025-11.html) `2026-11-09-hwaseong-2025-11-2026-10-region.md` | 3812 | 0 | 2 | - |
