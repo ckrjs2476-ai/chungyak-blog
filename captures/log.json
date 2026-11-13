@@ -1,24 +1,5 @@
 [
  {
-  "name": "ipo-01783687-dart",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153\", waiting until \"networkidle\"\n",
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153"
- },
- {
-  "name": "js-28290-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7246,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-05 19:47"
- },
- {
   "name": "cy-2026000530-schedule",
   "ok": true,
   "status": 200,
@@ -2557,5 +2538,33 @@
   "bytes": 16946,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-13 13:53"
+ },
+ {
+  "name": "gw-41273-ansan-prugio-briparc-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41273",
+   "code": "A10023355"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16698,
+  "at": "2026-11-13 14:58"
+ },
+ {
+  "name": "gw-calc-misa-golden-centro-84-1113",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16530,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-13 14:58"
  }
 ]
