@@ -19,7 +19,7 @@ def main() -> int:
     today = datetime.now(KST).date()
     site = {r["key"]: r for r in json.loads((ROOT / "data/sitecheck.json").read_text("utf-8"))} if (ROOT / "data/sitecheck.json").exists() else {}
     value = (ROOT / "data/value_report.md").read_text("utf-8") if (ROOT / "data/value_report.md").exists() else ""
-    lines = [f"# 애드센스 신청 준비 상태 ({today})", "", "기준: rules/growth_plan.md 2장. 모두 '충족'이어야 신청한다. 신청은 11/17 무렵 4개 같은 날(드론 제외, 사용자 결정 2026-11-09).", ""]
+    lines = [f"# 애드센스 신청 준비 상태 ({today})", "", "기준: rules/growth_plan.md 2장. 모두 '충족'이어야 신청한다. 신청은 11/20 4개 같은 날(드론 제외, 사용자 결정 2026-11-09, 11/13에 11/17→11/20으로 미룸).", ""]
     for key, (name, base) in BLOGS.items():
         files = sorted((base / "posts/published").glob("*.md"))
         n = len(files)
