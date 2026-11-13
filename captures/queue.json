@@ -1,1 +1,5 @@
-[]
+[
+ {"name": "js-44200-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "44200", "highlight": "온천동"}},
+ {"name": "js-44200-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "충청남"], "wait": 2}, {"pick": ["#srhSggCd", "아산"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
+ {"name": "js-44200-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "23000"]}, {"fill": ["#dep", "29500"]}, {"pick": ["#reg", "아산"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16}
+]
