@@ -1,50 +1,5 @@
 [
  {
-  "name": "ipo-01077540-dart-1105",
-  "ok": true,
-  "status": 200,
-  "title": "씨아이에스케미칼/증권신고서(지분증권)/2026.11.05",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 31826,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000234",
-  "at": "2026-11-07 10:42"
- },
- {
-  "name": "ipo-00299109-dart-1104",
-  "ok": true,
-  "status": 200,
-  "title": "에스에프씨/증권신고서(지분증권)/2026.11.04",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33138,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099",
-  "at": "2026-11-07 10:43"
- },
- {
-  "name": "ipo-01705573-dart-1021",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443\", waiting until \"networkidle\"\n",
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443"
- },
- {
-  "name": "js-43112-rt-form-b",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   359
-  ],
-  "bytes": 12056,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-07 11:19"
- },
- {
   "name": "js-41465-rt-form",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2587,5 +2542,57 @@
   "bytes": 9508,
   "url": "blogs/drone/pages/calculator.md",
   "at": "2026-11-13 20:00"
+ },
+ {
+  "name": "dr-work24-droneshow-result-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
+  "size": [
+   760,
+   290
+  ],
+  "bytes": 3242,
+  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%EC%87%BC",
+  "at": "2026-11-13 20:01"
+ },
+ {
+  "name": "dr-law-biz-scope6-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "항공사업법시행규칙",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 18028,
+  "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제6조",
+  "at": "2026-11-13 20:02"
+ },
+ {
+  "name": "dr-law-aviation-biz-def-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "항공사업법",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 48370,
+  "url": "https://www.law.go.kr/법령/항공사업법/제2조",
+  "at": "2026-11-13 20:02"
+ },
+ {
+  "name": "dr-law-insurance-rule-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "항공사업법시행규칙",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 42064,
+  "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제70조",
+  "at": "2026-11-13 20:02"
  }
 ]
