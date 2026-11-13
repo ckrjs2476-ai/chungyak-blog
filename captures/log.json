@@ -1,24 +1,5 @@
 [
  {
-  "name": "test-calc-drone",
-  "ok": true,
-  "status": 200,
-  "title": "드론 신고·승인·보험 확인 계산기",
-  "size": [
-   760,
-   433
-  ],
-  "bytes": 16706,
-  "url": "https://drone-note.blogspot.com/p/calculator.html",
-  "at": "2026-11-07 16:21"
- },
- {
-  "name": "test-calc-cheongyak",
-  "ok": false,
-  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"무주택기간\").first\n",
-  "url": "https://daily-cheongyak.blogspot.com/p/calculator.html"
- },
- {
   "name": "test-calc-jeonse",
   "ok": false,
   "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#sale\").first\n",
@@ -2624,5 +2605,31 @@
   "bytes": 7342,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-13 22:44"
+ },
+ {
+  "name": "dr-alliance-events-2026-11-14",
+  "ok": true,
+  "status": 200,
+  "title": "회의 및 행사 이력 < 운영 현황 < 드론산업 얼라이언스 | 드론정보포털",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 24504,
+  "url": "https://www.droneportal.or.kr/main/web/contents/M090-02-02",
+  "at": "2026-11-14 08:58"
+ },
+ {
+  "name": "dr-alliance-org-2026-11-14",
+  "ok": true,
+  "status": 200,
+  "title": "운영 목적 < 운영 목적 및 체계 < 드론산업 얼라이언스 | 드론정보포털",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 21800,
+  "url": "https://www.droneportal.or.kr/main/web/contents/M090-01-01",
+  "at": "2026-11-14 08:58"
  }
 ]
