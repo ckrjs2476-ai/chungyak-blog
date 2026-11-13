@@ -80,3 +80,11 @@
   - 공모주 3: spac-ipo-2026-11, lablup-ipo-2026-10, ipo-week-2026-10-19
   - 전세 1: seoul-eunpyeong-gu-jeonse-jingwan-dong (처음에 주소 월을 2026/10으로 잘못 넣어 404로 거부됨 → 2026/11 바른 주소로 다시 요청. 할당량은 안 씀)
   - 다음 실행 11-13 11:22: 전세(jeonse-ratio-top-regions-2026-10 먼저) → 청약 → 드론 → 관리비 → 공모주. 주소는 published.json의 url을 그대로 쓴다.
+
+- 11-13 오전(11:23~11:33) 11건 요청, 12번째(관리비 ilsan-doosan-weve-zenith-management-fee)에서 할당량 초과
+  - 전세 3: jeonse-ratio-top-regions-2026-10(11-12 남은 것), cheongju-heungdeok-gu-jeonse-flow-2026, changwon-jinhae-gu-jeonse-complex-ratio
+  - 청약 3: remainder-cheongyak-2026-11-16, cheongna-arkone-prugio-score-2026-11, hanwha-forena-jijeyeok-competition-2026 (bucheon-daejang-housetory-decent는 예약 발행 11:48 전이라 404로 거부됨 → 할당량 안 씀, 다음에 요청)
+  - 드론 3: drone-uam-meaning-law-2026, drone-onestop-civil-menu-2026, drone-english-term-2026
+  - 관리비 2: hillstate-songdam-management-fee-2026-08, nowon-gu-apartment-management-fee
+  - 주의: published.json의 published_at이 지금보다 뒤인 글(예약 발행)은 건너뛴다.
+  - 다음 실행 11-14 11:44: 관리비(ilsan-doosan-weve-zenith-management-fee 먼저) → 공모주 → 전세 → 청약(bucheon-daejang-housetory-decent 포함) → 드론
