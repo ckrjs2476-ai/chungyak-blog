@@ -1,0 +1,128 @@
+{
+ "no": "2026000563",
+ "name": "더샵 트리센트(조합원 자격상실 세대분)",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-11-13",
+ "rank1_date": "2026-11-24",
+ "city": "남구",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-01",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000563&pblancNo=2026000563",
+ "households": 103,
+ "types": [
+  {
+   "ty": "59.5981",
+   "size": 59,
+   "price": 62800,
+   "area_m2": 81.3915,
+   "general": 26,
+   "special": 32,
+   "pyeong_price": 2551,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "75.4145",
+   "size": 75,
+   "price": 76000,
+   "area_m2": 101.9566,
+   "general": 9,
+   "special": 16,
+   "pyeong_price": 2464,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84.4817",
+   "size": 84,
+   "price": 84900,
+   "area_m2": 114.2913,
+   "general": 8,
+   "special": 12,
+   "pyeong_price": 2456,
+   "special_share_pct": 60
+  }
+ ],
+ "general_total": 43,
+ "special_total": 60,
+ "special_share_pct": 58,
+ "pyeong_min": 2456,
+ "pyeong_max": 2551,
+ "pyeong_avg": 2511,
+ "price_84_min": 84900,
+ "price_84_max": 84900,
+ "special_kinds": {
+  "신혼부부": 16,
+  "생애최초": 8,
+  "신생아": 11,
+  "다자녀": 11,
+  "노부모 부양": 3,
+  "기관추천": 11
+ },
+ "region_price": {
+  "scope": "남구",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "더샵 트리센트",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_pyeong": 2708,
+  "diff": -197,
+  "diff_pct": -7,
+  "rank": 2,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 12,
+  "peers": [
+   "알티에로 광안",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트",
+   "두산위브더제니스 대연",
+   "쌍용 더 플래티넘 센텀",
+   "에코델타시티 금강펜테리움 에코리버",
+   "연제갤러리자이"
+  ],
+  "peer_avg_pyeong": 2579,
+  "diff": -68,
+  "diff_pct": -3,
+  "rank": 5,
+  "of": 13
+ },
+ "area_competition": {
+  "scope": "남구",
+  "peer_count": 2,
+  "peer_avg_rate": 10.57,
+  "peer_max_rate": 18.29
+ },
+ "market": {
+  "region": "부산광역시 남구",
+  "lawd": "26290",
+  "months": 12,
+  "updated": "2026-11-13",
+  "n84": 895,
+  "median84": 52000,
+  "p25_84": 33500,
+  "p75_84": 73500,
+  "new_n84": 139,
+  "new_median84": 62800,
+  "new_build_years": 5,
+  "umd": "문현동",
+  "umd_n84": 190,
+  "umd_median84": 45900,
+  "diff_vs_median84": 32900,
+  "diff_pct_vs_median84": 63,
+  "diff_vs_new_median84": 22100,
+  "diff_pct_vs_new_median84": 35,
+  "diff_vs_umd_median84": 39000,
+  "diff_pct_vs_umd_median84": 85
+ }
+}

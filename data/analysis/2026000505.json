@@ -1,0 +1,101 @@
+{
+ "no": "2026000505",
+ "name": "경희궁 에피트",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-11-13",
+ "rank1_date": "2026-11-26",
+ "city": "종로구",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-04",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000505&pblancNo=2026000505",
+ "households": 134,
+ "types": [
+  {
+   "ty": "39.9342",
+   "size": 39,
+   "price": 118241,
+   "area_m2": 54.2361,
+   "general": 5,
+   "special": 0,
+   "pyeong_price": 7207,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9926",
+   "size": 59,
+   "price": 189843,
+   "area_m2": 78.3717,
+   "general": 13,
+   "special": 18,
+   "pyeong_price": 8008,
+   "special_share_pct": 58
+  },
+  {
+   "ty": "84.9794A",
+   "size": 84,
+   "price": 257484,
+   "area_m2": 111.357,
+   "general": 25,
+   "special": 28,
+   "pyeong_price": 7644,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.994B",
+   "size": 84,
+   "price": 251744,
+   "area_m2": 110.9884,
+   "general": 19,
+   "special": 26,
+   "pyeong_price": 7498,
+   "special_share_pct": 58
+  }
+ ],
+ "general_total": 62,
+ "special_total": 72,
+ "special_share_pct": 54,
+ "pyeong_min": 7207,
+ "pyeong_max": 8008,
+ "pyeong_avg": 7663,
+ "price_84_min": 251744,
+ "price_84_max": 257484,
+ "special_kinds": {
+  "신혼부부": 20,
+  "생애최초": 9,
+  "신생아": 13,
+  "다자녀": 13,
+  "노부모 부양": 4,
+  "기관추천": 13
+ },
+ "region_price": {
+  "scope": "서울",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 10,
+  "peers": [
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아",
+   "장위 푸르지오 마크원",
+   "월계 중흥S-클래스 리비에르",
+   "충정로역자이르네",
+   "써밋 클라비온",
+   "쌍용 더 플래티넘 서대문",
+   "브라운스톤 월곡 센트럴"
+  ],
+  "peer_avg_pyeong": 5530,
+  "diff": 2133,
+  "diff_pct": 39,
+  "rank": 1,
+  "of": 11
+ },
+ "area_competition": {
+  "scope": "서울",
+  "peer_count": 8,
+  "peer_avg_rate": 50.76,
+  "peer_max_rate": 114.79
+ }
+}

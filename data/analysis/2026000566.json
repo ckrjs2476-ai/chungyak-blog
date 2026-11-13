@@ -1,0 +1,101 @@
+{
+ "no": "2026000566",
+ "name": "호반써밋 초량",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-11-13",
+ "rank1_date": "2026-11-24",
+ "city": "동구",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-01",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000566&pblancNo=2026000566",
+ "households": 236,
+ "types": [
+  {
+   "ty": "59.9445A",
+   "size": 59,
+   "price": 56320,
+   "area_m2": 82.4368,
+   "general": 24,
+   "special": 35,
+   "pyeong_price": 2258,
+   "special_share_pct": 59
+  },
+  {
+   "ty": "59.9942B",
+   "size": 59,
+   "price": 54820,
+   "area_m2": 82.2479,
+   "general": 18,
+   "special": 24,
+   "pyeong_price": 2203,
+   "special_share_pct": 57
+  },
+  {
+   "ty": "70.9993A",
+   "size": 70,
+   "price": 62830,
+   "area_m2": 96.6802,
+   "general": 17,
+   "special": 18,
+   "pyeong_price": 2148,
+   "special_share_pct": 51
+  },
+  {
+   "ty": "84.9763A",
+   "size": 84,
+   "price": 74680,
+   "area_m2": 110.2579,
+   "general": 40,
+   "special": 60,
+   "pyeong_price": 2239,
+   "special_share_pct": 60
+  }
+ ],
+ "general_total": 99,
+ "special_total": 137,
+ "special_share_pct": 58,
+ "pyeong_min": 2148,
+ "pyeong_max": 2258,
+ "pyeong_avg": 2224,
+ "price_84_min": 74680,
+ "price_84_max": 74680,
+ "special_kinds": {
+  "신혼부부": 46,
+  "생애최초": 16,
+  "신생아": 23,
+  "다자녀": 23,
+  "노부모 부양": 6,
+  "기관추천": 23
+ },
+ "region_price": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 12,
+  "peers": [
+   "알티에로 광안",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트",
+   "두산위브더제니스 대연",
+   "쌍용 더 플래티넘 센텀",
+   "에코델타시티 금강펜테리움 에코리버",
+   "연제갤러리자이"
+  ],
+  "peer_avg_pyeong": 2603,
+  "diff": -379,
+  "diff_pct": -15,
+  "rank": 9,
+  "of": 13
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 11,
+  "peer_avg_rate": 2.2,
+  "peer_max_rate": 18.29
+ }
+}

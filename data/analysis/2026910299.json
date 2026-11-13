@@ -1,0 +1,81 @@
+{
+ "no": "2026910299",
+ "name": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-11-13",
+ "rank1_date": "2026-11-18",
+ "city": "용인시",
+ "supply_kind": "",
+ "winner_date": "2026-11-23",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910299&pblancNo=2026910299",
+ "households": 19,
+ "types": [
+  {
+   "ty": "59.9671A",
+   "size": 59,
+   "price": 44500,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.9936A",
+   "size": 74,
+   "price": 53200,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9999A",
+   "size": 84,
+   "price": 57900,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9989B",
+   "size": 84,
+   "price": 55300,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 19,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 55300,
+ "price_84_max": 57900,
+ "market": {
+  "region": "경기도 용인시 처인구",
+  "lawd": "41461",
+  "months": 12,
+  "updated": "2026-11-13",
+  "n84": 1016,
+  "median84": 42000,
+  "p25_84": 31500,
+  "p75_84": 52875,
+  "new_n84": 126,
+  "new_median84": 61000,
+  "new_build_years": 5,
+  "umd": "양지읍",
+  "umd_n84": 27,
+  "umd_median84": 48500,
+  "diff_vs_median84": 15900,
+  "diff_pct_vs_median84": 38,
+  "diff_vs_new_median84": -3100,
+  "diff_pct_vs_new_median84": -5,
+  "diff_vs_umd_median84": 9400,
+  "diff_pct_vs_umd_median84": 19
+ }
+}

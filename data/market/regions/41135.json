@@ -2,25 +2,25 @@
  "lawd": "41135",
  "name": "경기도 성남시 분당구",
  "months": 12,
- "updated": "2026-11-13",
- "trade_count": 3665,
+ "updated": "2026-11-14",
+ "trade_count": 3673,
  "cancel_count": 93,
- "n84": 763,
+ "n84": 764,
  "median84": 177000,
  "p25_84": 149000,
  "p75_84": 197000,
- "median84_pyeong_excl": 6889,
+ "median84_pyeong_excl": 6892,
  "new_n84": 144,
  "new_median84": 132000,
  "new_build_years": 5,
  "umd84": {
+  "정자동": {
+   "n": 71,
+   "median": 183000
+  },
   "수내동": {
    "n": 48,
    "median": 214000
-  },
-  "정자동": {
-   "n": 70,
-   "median": 183000
   },
   "분당동": {
    "n": 47,
@@ -130,21 +130,21 @@
   },
   {
    "month": "2026-10",
-   "count": 209,
+   "count": 213,
    "n84": 48,
    "median84": 184500
   },
   {
    "month": "2026-11",
-   "count": 33,
-   "n84": 8,
-   "median84": 176000
+   "count": 37,
+   "n84": 9,
+   "median84": 190000
   }
  ],
  "top_apts": [
   {
    "name": "야탑동 매화마을공무원2",
-   "count": 158,
+   "count": 159,
    "median84": null,
    "built": 1995
   },
@@ -162,7 +162,7 @@
   },
   {
    "name": "서현동 시범한양",
-   "count": 101,
+   "count": 102,
    "median84": 205000,
    "built": 1991
   },

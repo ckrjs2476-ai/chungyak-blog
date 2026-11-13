@@ -1,0 +1,116 @@
+{
+ "no": "2026000558",
+ "name": "화정1지구 아르엘",
+ "kind": "apt",
+ "region": "울산",
+ "notice_date": "2026-11-13",
+ "rank1_date": "2026-11-24",
+ "city": "동구",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-01",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000558&pblancNo=2026000558",
+ "households": 802,
+ "types": [
+  {
+   "ty": "59.986A",
+   "size": 59,
+   "price": 43590,
+   "area_m2": 81.5717,
+   "general": 26,
+   "special": 44,
+   "pyeong_price": 1767,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.998A",
+   "size": 84,
+   "price": 56690,
+   "area_m2": 114.2209,
+   "general": 191,
+   "special": 296,
+   "pyeong_price": 1641,
+   "special_share_pct": 61
+  },
+  {
+   "ty": "84.9906B",
+   "size": 84,
+   "price": 55830,
+   "area_m2": 113.4841,
+   "general": 16,
+   "special": 32,
+   "pyeong_price": 1626,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "84.999C",
+   "size": 84,
+   "price": 56690,
+   "area_m2": 114.508,
+   "general": 15,
+   "special": 30,
+   "pyeong_price": 1637,
+   "special_share_pct": 67
+  },
+  {
+   "ty": "101.9938A",
+   "size": 101,
+   "price": 61310,
+   "area_m2": 136.2247,
+   "general": 117,
+   "special": 27,
+   "pyeong_price": 1488,
+   "special_share_pct": 19
+  },
+  {
+   "ty": "101.956T",
+   "size": 101,
+   "price": 59550,
+   "area_m2": 135.7376,
+   "general": 5,
+   "special": 3,
+   "pyeong_price": 1450,
+   "special_share_pct": 38
+  }
+ ],
+ "general_total": 370,
+ "special_total": 432,
+ "special_share_pct": 54,
+ "pyeong_min": 1450,
+ "pyeong_max": 1767,
+ "pyeong_avg": 1621,
+ "price_84_min": 55830,
+ "price_84_max": 56690,
+ "special_kinds": {
+  "신혼부부": 100,
+  "생애최초": 48,
+  "신생아": 66,
+  "다자녀": 124,
+  "노부모 부양": 28,
+  "기관추천": 66
+ },
+ "region_price": {
+  "scope": "울산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "센텀 엘카사",
+   "그랑라크 에일린의 뜰",
+   "문수로 비스타 더파크"
+  ],
+  "peer_avg_pyeong": 1960,
+  "diff": -339,
+  "diff_pct": -17,
+  "rank": 3,
+  "of": 4
+ },
+ "area_competition": {
+  "scope": "울산",
+  "peer_count": 3,
+  "peer_avg_rate": 0.68,
+  "peer_max_rate": 1.02
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "no": "2026000540",
+ "name": "엘리프 논산 디에디션",
+ "kind": "apt",
+ "region": "충남",
+ "notice_date": "2026-11-13",
+ "rank1_date": "2026-11-24",
+ "city": "논산시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-02",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000540&pblancNo=2026000540",
+ "households": 499,
+ "types": [
+  {
+   "ty": "84.9946A",
+   "size": 84,
+   "price": 53200,
+   "area_m2": 111.465,
+   "general": 169,
+   "special": 203,
+   "pyeong_price": 1578,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.9806B",
+   "size": 84,
+   "price": 53200,
+   "area_m2": 112.2658,
+   "general": 42,
+   "special": 48,
+   "pyeong_price": 1567,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.968C",
+   "size": 84,
+   "price": 50800,
+   "area_m2": 112.0655,
+   "general": 20,
+   "special": 17,
+   "pyeong_price": 1499,
+   "special_share_pct": 46
+  }
+ ],
+ "general_total": 231,
+ "special_total": 268,
+ "special_share_pct": 54,
+ "pyeong_min": 1499,
+ "pyeong_max": 1578,
+ "pyeong_avg": 1570,
+ "price_84_min": 50800,
+ "price_84_max": 53200,
+ "special_kinds": {
+  "신혼부부": 73,
+  "생애최초": 34,
+  "신생아": 49,
+  "다자녀": 49,
+  "노부모 부양": 14,
+  "기관추천": 49
+ },
+ "region_price": {
+  "scope": "충남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 10,
+  "peers": [
+   "백석시그니처자이 1단지",
+   "백석시그니처자이 2단지",
+   "아산 그랑시티필하우스",
+   "업성 푸르지오 레이크시티 2단지",
+   "아산테크노밸리 더원 7차 (Ab4BL)",
+   "천안 아이파크 시티 1단지(2회차)",
+   "천안 아이파크 시티 3단지",
+   "두정역 푸르지오 그랑피크"
+  ],
+  "peer_avg_pyeong": 1601,
+  "diff": -31,
+  "diff_pct": -2,
+  "rank": 8,
+  "of": 11
+ },
+ "area_competition": {
+  "scope": "충남",
+  "peer_count": 10,
+  "peer_avg_rate": 0.64,
+  "peer_max_rate": 3.22
+ }
+}

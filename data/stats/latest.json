@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "weekly_competition": [
   {
    "no": "2026000528",
@@ -137,26 +137,6 @@
    ]
   },
   {
-   "no": "2026910279",
-   "name": "봉담자이 프라이드시티",
-   "region": "경기",
-   "households": 2,
-   "rcept_date": "2026-11-10",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910279&pblancNo=2026910279",
-   "types": [
-    {
-     "ty": "84.7822A",
-     "price": 46220,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.3879B",
-     "price": 45770,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
    "no": "2026910280",
    "name": "오남역 서희스타힐스 여의재 3단지 (조합원 취소분)",
    "region": "경기",
@@ -172,26 +152,6 @@
     {
      "ty": "84.9596",
      "price": 70900,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910282",
-   "name": "광명 시티프라디움 에듀하임",
-   "region": "경기",
-   "households": 21,
-   "rcept_date": "2026-11-10",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910282&pblancNo=2026910282",
-   "types": [
-    {
-     "ty": "59.7421B",
-     "price": 82700,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9796D",
-     "price": 119800,
      "pyeong_price": null
     }
    ]
@@ -347,6 +307,36 @@
     {
      "ty": "84.9704B",
      "price": 50600,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910299",
+   "name": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
+   "region": "경기",
+   "households": 19,
+   "rcept_date": "2026-11-18",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910299&pblancNo=2026910299",
+   "types": [
+    {
+     "ty": "59.9671A",
+     "price": 44500,
+     "pyeong_price": null
+    },
+    {
+     "ty": "74.9936A",
+     "price": 53200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9999A",
+     "price": 57900,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9989B",
+     "price": 55300,
      "pyeong_price": null
     }
    ]
@@ -989,22 +979,72 @@
     "min_pyeong": 1736
    },
    "서울": {
-    "count": 1,
-    "avg_pyeong": 3813,
-    "max_pyeong": 3813,
+    "count": 3,
+    "avg_pyeong": 5638,
+    "max_pyeong": 7663,
     "min_pyeong": 3813
+   },
+   "충남": {
+    "count": 1,
+    "avg_pyeong": 1570,
+    "max_pyeong": 1570,
+    "min_pyeong": 1570
    },
    "경북": {
     "count": 1,
     "avg_pyeong": 1874,
     "max_pyeong": 1874,
     "min_pyeong": 1874
+   },
+   "울산": {
+    "count": 1,
+    "avg_pyeong": 1621,
+    "max_pyeong": 1621,
+    "min_pyeong": 1621
+   },
+   "부산": {
+    "count": 2,
+    "avg_pyeong": 2368,
+    "max_pyeong": 2511,
+    "min_pyeong": 2224
    }
   }
  },
  "this_month": {
   "month": "2026-11",
   "units": [
+   {
+    "no": "2026000505",
+    "name": "경희궁 에피트",
+    "region": "서울",
+    "households": 134,
+    "pyeong_avg": 7663,
+    "price_84_min": 251744,
+    "special_kinds": {
+     "신혼부부": 20,
+     "생애최초": 9,
+     "신생아": 13,
+     "다자녀": 13,
+     "노부모 부양": 4,
+     "기관추천": 13
+    }
+   },
+   {
+    "no": "2026000560",
+    "name": "해링턴 플레이스 문래",
+    "region": "서울",
+    "households": 218,
+    "pyeong_avg": 5438,
+    "price_84_min": 177500,
+    "special_kinds": {
+     "신혼부부": 32,
+     "생애최초": 15,
+     "신생아": 21,
+     "다자녀": 21,
+     "노부모 부양": 7,
+     "기관추천": 21
+    }
+   },
    {
     "no": "2026000497",
     "name": "중화역 라온프라이빗 센트로",
@@ -1038,6 +1078,22 @@
     }
    },
    {
+    "no": "2026000563",
+    "name": "더샵 트리센트(조합원 자격상실 세대분)",
+    "region": "부산",
+    "households": 103,
+    "pyeong_avg": 2511,
+    "price_84_min": 84900,
+    "special_kinds": {
+     "신혼부부": 16,
+     "생애최초": 8,
+     "신생아": 11,
+     "다자녀": 11,
+     "노부모 부양": 3,
+     "기관추천": 11
+    }
+   },
+   {
     "no": "2026000457",
     "name": "부천대장 하우스토리 디센트(부천대장지구 A2BL) 공공분양주택",
     "region": "경기",
@@ -1067,6 +1123,22 @@
      "다자녀": 41,
      "노부모 부양": 13,
      "기관추천": 41
+    }
+   },
+   {
+    "no": "2026000566",
+    "name": "호반써밋 초량",
+    "region": "부산",
+    "households": 236,
+    "pyeong_avg": 2224,
+    "price_84_min": 74680,
+    "special_kinds": {
+     "신혼부부": 46,
+     "생애최초": 16,
+     "신생아": 23,
+     "다자녀": 23,
+     "노부모 부양": 6,
+     "기관추천": 23
     }
    },
    {
@@ -1118,17 +1190,49 @@
     "pyeong_avg": 1736,
     "price_84_min": null,
     "special_kinds": {}
+   },
+   {
+    "no": "2026000558",
+    "name": "화정1지구 아르엘",
+    "region": "울산",
+    "households": 802,
+    "pyeong_avg": 1621,
+    "price_84_min": 55830,
+    "special_kinds": {
+     "신혼부부": 100,
+     "생애최초": 48,
+     "신생아": 66,
+     "다자녀": 124,
+     "노부모 부양": 28,
+     "기관추천": 66
+    }
+   },
+   {
+    "no": "2026000540",
+    "name": "엘리프 논산 디에디션",
+    "region": "충남",
+    "households": 499,
+    "pyeong_avg": 1570,
+    "price_84_min": 50800,
+    "special_kinds": {
+     "신혼부부": 73,
+     "생애최초": 34,
+     "신생아": 49,
+     "다자녀": 49,
+     "노부모 부양": 14,
+     "기관추천": 49
+    }
    }
   ],
   "special_totals": {
-   "신혼부부": 301,
-   "생애최초": 194,
-   "신생아": 273,
-   "다자녀": 280,
-   "노부모 부양": 92,
-   "기관추천": 245
+   "신혼부부": 588,
+   "생애최초": 324,
+   "신생아": 456,
+   "다자녀": 521,
+   "노부모 부양": 154,
+   "기관추천": 428
   },
-  "households_total": 3344
+  "households_total": 5336
  },
  "last_month": {
   "month": "2026-10",

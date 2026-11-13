@@ -1,0 +1,113 @@
+{
+ "no": "2026000560",
+ "name": "해링턴 플레이스 문래",
+ "kind": "apt",
+ "region": "서울",
+ "notice_date": "2026-11-13",
+ "rank1_date": "2026-11-24",
+ "city": "영등포구",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-02",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": true,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000560&pblancNo=2026000560",
+ "households": 218,
+ "types": [
+  {
+   "ty": "84.9409A",
+   "size": 84,
+   "price": 182700,
+   "area_m2": 109.7007,
+   "general": 51,
+   "special": 59,
+   "pyeong_price": 5506,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9708B",
+   "size": 84,
+   "price": 178500,
+   "area_m2": 110.4326,
+   "general": 25,
+   "special": 29,
+   "pyeong_price": 5343,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.9894C",
+   "size": 84,
+   "price": 177500,
+   "area_m2": 108.7429,
+   "general": 25,
+   "special": 29,
+   "pyeong_price": 5396,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 101,
+ "special_total": 117,
+ "special_share_pct": 54,
+ "pyeong_min": 5343,
+ "pyeong_max": 5506,
+ "pyeong_avg": 5438,
+ "price_84_min": 177500,
+ "price_84_max": 182700,
+ "special_kinds": {
+  "신혼부부": 32,
+  "생애최초": 15,
+  "신생아": 21,
+  "다자녀": 21,
+  "노부모 부양": 7,
+  "기관추천": 21
+ },
+ "region_price": {
+  "scope": "서울",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 10,
+  "peers": [
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아",
+   "장위 푸르지오 마크원",
+   "월계 중흥S-클래스 리비에르",
+   "충정로역자이르네",
+   "써밋 클라비온",
+   "쌍용 더 플래티넘 서대문",
+   "브라운스톤 월곡 센트럴"
+  ],
+  "peer_avg_pyeong": 5752,
+  "diff": -314,
+  "diff_pct": -5,
+  "rank": 6,
+  "of": 11
+ },
+ "area_competition": {
+  "scope": "서울",
+  "peer_count": 8,
+  "peer_avg_rate": 50.76,
+  "peer_max_rate": 114.79
+ },
+ "market": {
+  "region": "서울특별시 영등포구",
+  "lawd": "11560",
+  "months": 12,
+  "updated": "2026-11-13",
+  "n84": 887,
+  "median84": 133000,
+  "p25_84": 99000,
+  "p75_84": 159000,
+  "new_n84": 37,
+  "new_median84": 184500,
+  "new_build_years": 5,
+  "umd": "문래동3가",
+  "umd_n84": 34,
+  "umd_median84": 178000,
+  "diff_vs_median84": 49700,
+  "diff_pct_vs_median84": 37,
+  "diff_vs_new_median84": -1800,
+  "diff_pct_vs_new_median84": -1,
+  "diff_vs_umd_median84": 4700,
+  "diff_pct_vs_umd_median84": 3
+ }
+}
