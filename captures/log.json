@@ -1,44 +1,5 @@
 [
  {
-  "name": "cy-2026000120-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   459
-  ],
-  "bytes": 14370,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000120&pblancNo=2026000120",
-  "at": "2026-11-05 11:47"
- },
- {
-  "name": "cy-2026000149-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   210
-  ],
-  "bytes": 8484,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000149&pblancNo=2026000149",
-  "at": "2026-11-05 11:47"
- },
- {
-  "name": "js-27710-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7232,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-05 11:48"
- },
- {
   "name": "js-43112-rt-form",
   "ok": false,
   "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -2536,5 +2497,45 @@
   "bytes": 16316,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-13 11:29"
+ },
+ {
+  "name": "js-48-gyeongnam-sido-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_sido",
+   "lawd": "48121"
+  },
+  "size": [
+   760,
+   524
+  ],
+  "bytes": 16790,
+  "at": "2026-11-13 12:43"
+ },
+ {
+  "name": "js-48121-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 15416,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-13 12:43"
+ },
+ {
+  "name": "js-48121-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7430,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-13 12:43"
  }
 ]
