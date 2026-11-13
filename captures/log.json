@@ -1,24 +1,5 @@
 [
  {
-  "name": "js-41465-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-11320-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 19356,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-07 11:19"
- },
- {
   "name": "js-41550-rt-form",
   "ok": true,
   "status": 200,
@@ -2594,5 +2575,33 @@
   "bytes": 42064,
   "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제70조",
   "at": "2026-11-13 20:02"
+ },
+ {
+  "name": "gw-41117-gwanggyo-hoban-verdium-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41117",
+   "code": "A44377204"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16654,
+  "at": "2026-11-13 21:16"
+ },
+ {
+  "name": "gw-calc-gwanggyo-hoban-verdium-84",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 17008,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-13 21:16"
  }
 ]
