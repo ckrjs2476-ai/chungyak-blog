@@ -1,1 +1,3 @@
-[]
+[
+  {"name": "js-seoul-jongno-rt-form-1113b", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 6, "pad": 20, "steps": [{"wait": 2}, {"click": "전월세", "exact": true, "wait": 2}, {"pick": ["#srhSidoCd", "서울"], "wait": 2.5}, {"pick": ["#srhSggCd", "종로"], "wait": 2.5}], "crop": {"from": "연립/다세대"}, "height": 560}
+]
