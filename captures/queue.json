@@ -1,1 +1,9 @@
-[]
+[
+  {"name": "cy-2026000463-schedule-1113", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000463&pblancNo=2026000463", "crop": {"from": "청약일정", "to": "특별공급 공급대상"}},
+  {"name": "cy-namyangju-rt-form-1113", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"pick": ["#srhSidoCd", "경기"], "wait": 2}, {"pick": ["#srhSggCd", "남양주"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
+  {"name": "js-seoul-jongno-rt-form-1113", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "서울"], "wait": 2}, {"pick": ["#srhSggCd", "종로"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
+  {"name": "ipo-01797635-dart-1113", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000140", "sleep": 4},
+  {"name": "gw-calc-saetbyeol-hanyang-84-1113", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "276276"]}, {"fill": ["#area", "84"]}, {"pick": ["#reg", "동안구"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16},
+  {"name": "gw-41281-soman-sungwon6-chart", "chart": {"type": "gwanribi_complex", "lawd": "41281", "code": "A41222218"}},
+  {"name": "gw-kapt-sido-avg-2026-11-13-dongan", "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do", "sleep": 4, "crop": {"from": "발생월 기준"}, "height": 760, "width": 1280}
+]
