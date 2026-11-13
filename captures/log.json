@@ -1,77 +1,5 @@
 [
  {
-  "name": "js-41550-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7238,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-07 11:20"
- },
- {
-  "name": "ipo-01705573-dart-1021",
-  "ok": true,
-  "status": 200,
-  "title": "유캐스트/증권신고서(지분증권)/2026.10.21",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 30770,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443",
-  "at": "2026-11-07 11:20"
- },
- {
-  "name": "js-44250-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7262,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-07 12:44"
- },
- {
-  "name": "test-chart-jeonse-11200",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "11200",
-   "highlight": "금호동2가"
-  },
-  "size": [
-   760,
-   588
-  ],
-  "bytes": 20074,
-  "at": "2026-11-07 16:15"
- },
- {
-  "name": "test-calc-cheongyak",
-  "ok": false,
-  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"무주택기간\").first\n",
-  "url": "https://daily-cheongyak.blogspot.com/p/calculator.html"
- },
- {
-  "name": "test-calc-jeonse",
-  "ok": false,
-  "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#sale\").first\n",
-  "url": "https://jeonse-ondogye.blogspot.com/p/calculator.html"
- },
- {
-  "name": "test-calc-gwanribi",
-  "ok": false,
-  "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#fee\").first\n",
-  "url": "https://gwanribi-dotbogi.blogspot.com/p/calculator.html"
- },
- {
   "name": "test-calc-gongmoju",
   "ok": true,
   "status": 200,
@@ -2603,5 +2531,98 @@
   "bytes": 17008,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-13 21:16"
+ },
+ {
+  "name": "gw-41281-soman-sungwon6-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41281",
+   "code": "A41222218"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 17090,
+  "at": "2026-11-13 22:41"
+ },
+ {
+  "name": "cy-2026000463-schedule-1113",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   611
+  ],
+  "bytes": 25288,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000463&pblancNo=2026000463",
+  "at": "2026-11-13 22:41"
+ },
+ {
+  "name": "cy-namyangju-rt-form-1113",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7340,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-13 22:41"
+ },
+ {
+  "name": "js-seoul-jongno-rt-form-1113",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 6544,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-13 22:42"
+ },
+ {
+  "name": "ipo-01797635-dart-1113",
+  "ok": true,
+  "status": 200,
+  "title": "에이엘로봇/증권신고서(지분증권)/2026.10.30",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 40088,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000140",
+  "at": "2026-11-13 22:42"
+ },
+ {
+  "name": "gw-calc-saetbyeol-hanyang-84-1113",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16836,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-13 22:42"
+ },
+ {
+  "name": "gw-kapt-sido-avg-2026-11-13-dongan",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20622,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-11-13 22:42"
  }
 ]
