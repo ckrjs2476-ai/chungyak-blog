@@ -1,69 +1,5 @@
 [
  {
-  "name": "js-43112-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-28237-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 6110,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-05 11:48"
- },
- {
-  "name": "js-41220-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7230,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-05 11:49"
- },
- {
-  "name": "ipo-00208709-dart",
-  "ok": true,
-  "status": 200,
-  "title": "KTE/증권신고서(지분증권)/2026.10.28",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32368,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336",
-  "at": "2026-11-05 11:49"
- },
- {
-  "name": "ipo-01135039-dart",
-  "ok": true,
-  "status": 200,
-  "title": "데스틴파워/증권신고서(지분증권)/2026.10.28",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32904,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000434",
-  "at": "2026-11-05 11:49"
- },
- {
-  "name": "ipo-01366675-dart",
-  "ok": false,
-  "error": "Page.goto: net::ERR_CONNECTION_RESET at https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000106\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000106\", waiting until \"networkidle\"\n",
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000106"
- },
- {
   "name": "ipo-01783687-dart",
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153\", waiting until \"networkidle\"\n",
@@ -2537,5 +2473,89 @@
   "bytes": 7430,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-13 12:43"
+ },
+ {
+  "name": "gw-41117-yeongtong-forestparkone-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41117",
+   "code": "A44347026"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16358,
+  "at": "2026-11-13 13:53"
+ },
+ {
+  "name": "gw-11170-hannam-thehill-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11170",
+   "code": "A14077902"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 14350,
+  "at": "2026-11-13 13:53"
+ },
+ {
+  "name": "gw-41131-sanseong-xi-1-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41131",
+   "code": "A10022845"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 15648,
+  "at": "2026-11-13 13:53"
+ },
+ {
+  "name": "gw-calc-trimage-84-1113",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16940,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-13 13:53"
+ },
+ {
+  "name": "gw-calc-arte-xi-84-1113",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16894,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-13 13:53"
+ },
+ {
+  "name": "gw-calc-sanun11-forelaum-84-1113",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16946,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-13 13:53"
  }
 ]
