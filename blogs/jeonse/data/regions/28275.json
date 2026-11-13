@@ -1,54 +1,54 @@
 {
  "lawd": "28275",
  "name": "인천광역시 서해구",
- "updated": "2026-10-30",
+ "updated": "2026-11-13",
  "months": 12,
- "jeonse_count": 3706,
- "wolse_count": 2379,
- "wolse_share_pct": 39.1,
- "renew_share_pct": 40.6,
- "jeonse_n84": 1492,
+ "jeonse_count": 3508,
+ "wolse_count": 2194,
+ "wolse_share_pct": 38.5,
+ "renew_share_pct": 40.3,
+ "jeonse_n84": 1405,
  "jeonse_median84": 36000,
- "sale_n84": 1434,
+ "sale_n84": 1336,
  "sale_median84": 59900,
  "ratio84": 60.1,
  "jeonse_recent3_median84": 37000,
- "jeonse_prev3_median84": 35700,
- "jeonse_change_pct": 3.6,
- "apts_with_both": 70,
- "apts_ratio_80_plus": 13,
- "apts_ratio_70_plus": 32,
+ "jeonse_prev3_median84": 36000,
+ "jeonse_change_pct": 2.8,
+ "apts_with_both": 65,
+ "apts_ratio_80_plus": 11,
+ "apts_ratio_70_plus": 29,
  "umd": {
   "가정동": {
-   "jeonse_n": 362,
+   "jeonse_n": 344,
    "jeonse_median84": 37000,
-   "sale_n": 456,
-   "sale_median84": 62500,
-   "ratio": 59.2
+   "sale_n": 413,
+   "sale_median84": 62000,
+   "ratio": 59.7
   },
   "가좌동": {
-   "jeonse_n": 45,
-   "jeonse_median84": 24500,
-   "sale_n": 111,
-   "sale_median84": 41000,
-   "ratio": 59.8
+   "jeonse_n": 48,
+   "jeonse_median84": 30500,
+   "sale_n": 103,
+   "sale_median84": 41400,
+   "ratio": 73.7
   },
   "검암동": {
-   "jeonse_n": 116,
-   "jeonse_median84": 30750,
-   "sale_n": 81,
-   "sale_median84": 42200,
-   "ratio": 72.9
+   "jeonse_n": 105,
+   "jeonse_median84": 31000,
+   "sale_n": 79,
+   "sale_median84": 42300,
+   "ratio": 73.3
   },
   "경서동": {
-   "jeonse_n": 42,
-   "jeonse_median84": 26440,
-   "sale_n": 48,
+   "jeonse_n": 41,
+   "jeonse_median84": 26000,
+   "sale_n": 47,
    "sale_median84": 42500,
-   "ratio": 62.2
+   "ratio": 61.2
   },
   "공촌동": {
-   "jeonse_n": 5,
+   "jeonse_n": 4,
    "jeonse_median84": 23000,
    "sale_n": 7,
    "sale_median84": 28500,
@@ -57,57 +57,47 @@
   "석남동": {
    "jeonse_n": 43,
    "jeonse_median84": 28000,
-   "sale_n": 49,
-   "sale_median84": 39000,
-   "ratio": 71.8
+   "sale_n": 46,
+   "sale_median84": 38500,
+   "ratio": 72.7
   },
   "신현동": {
-   "jeonse_n": 100,
+   "jeonse_n": 92,
    "jeonse_median84": 35000,
-   "sale_n": 111,
+   "sale_n": 110,
    "sale_median84": 55500,
    "ratio": 63.1
   },
   "심곡동": {
-   "jeonse_n": 32,
+   "jeonse_n": 33,
    "jeonse_median84": 24000,
-   "sale_n": 61,
+   "sale_n": 52,
    "sale_median84": 31000,
    "ratio": 77.4
   },
   "연희동": {
-   "jeonse_n": 9,
+   "jeonse_n": 10,
    "jeonse_median84": 21000,
-   "sale_n": 15,
+   "sale_n": 13,
    "sale_median84": 29200,
    "ratio": 71.9
   },
   "청라동": {
-   "jeonse_n": 738,
+   "jeonse_n": 685,
    "jeonse_median84": 37000,
-   "sale_n": 495,
-   "sale_median84": 67000,
-   "ratio": 55.2
+   "sale_n": 466,
+   "sale_median84": 67500,
+   "ratio": 54.8
   }
  },
  "top_ratio_apts": [
-  {
-   "umd": "경서동",
-   "apt": "우정에쉐르",
-   "built": 2006,
-   "jeonse_n": 3,
-   "jeonse_median84": 25000,
-   "sale_n": 4,
-   "sale_median84": 28000,
-   "ratio": 89.3
-  },
   {
    "umd": "가좌동",
    "apt": "범양파크",
    "built": 1990,
    "jeonse_n": 3,
    "jeonse_median84": 22000,
-   "sale_n": 10,
+   "sale_n": 9,
    "sale_median84": 25000,
    "ratio": 88.0
   },
@@ -123,11 +113,21 @@
   },
   {
    "umd": "경서동",
+   "apt": "우정에쉐르",
+   "built": 2006,
+   "jeonse_n": 4,
+   "jeonse_median84": 24500,
+   "sale_n": 4,
+   "sale_median84": 28000,
+   "ratio": 87.5
+  },
+  {
+   "umd": "경서동",
    "apt": "태평샹베르1차",
    "built": 2005,
    "jeonse_n": 6,
    "jeonse_median84": 25000,
-   "sale_n": 10,
+   "sale_n": 9,
    "sale_median84": 28800,
    "ratio": 86.8
   },
@@ -142,24 +142,24 @@
    "ratio": 86.0
   },
   {
-   "umd": "가정동",
-   "apt": "하나1",
-   "built": 1989,
-   "jeonse_n": 3,
-   "jeonse_median84": 15000,
-   "sale_n": 3,
-   "sale_median84": 17500,
-   "ratio": 85.7
-  },
-  {
    "umd": "연희동",
    "apt": "태영",
    "built": 1996,
    "jeonse_n": 2,
    "jeonse_median84": 24000,
-   "sale_n": 3,
-   "sale_median84": 28700,
-   "ratio": 83.6
+   "sale_n": 2,
+   "sale_median84": 28350,
+   "ratio": 84.7
+  },
+  {
+   "umd": "석남동",
+   "apt": "석남동경남아너스빌",
+   "built": 2006,
+   "jeonse_n": 8,
+   "jeonse_median84": 26000,
+   "sale_n": 5,
+   "sale_median84": 31700,
+   "ratio": 82.0
   },
   {
    "umd": "경서동",
@@ -167,29 +167,29 @@
    "built": 2005,
    "jeonse_n": 8,
    "jeonse_median84": 24500,
-   "sale_n": 6,
-   "sale_median84": 29500,
-   "ratio": 83.1
+   "sale_n": 7,
+   "sale_median84": 30000,
+   "ratio": 81.7
   },
   {
-   "umd": "심곡동",
-   "apt": "삼성",
-   "built": 1997,
-   "jeonse_n": 2,
-   "jeonse_median84": 25100,
-   "sale_n": 6,
-   "sale_median84": 30300,
-   "ratio": 82.8
+   "umd": "가좌동",
+   "apt": "진주2",
+   "built": 1984,
+   "jeonse_n": 3,
+   "jeonse_median84": 22000,
+   "sale_n": 5,
+   "sale_median84": 27000,
+   "ratio": 81.5
   },
   {
-   "umd": "석남동",
-   "apt": "석남동경남아너스빌",
-   "built": 2006,
+   "umd": "검암동",
+   "apt": "신명스카이뷰2",
+   "built": 2003,
    "jeonse_n": 6,
-   "jeonse_median84": 26000,
-   "sale_n": 6,
-   "sale_median84": 31850,
-   "ratio": 81.6
+   "jeonse_median84": 26750,
+   "sale_n": 7,
+   "sale_median84": 33000,
+   "ratio": 81.1
   }
  ],
  "low_ratio_apts": [
@@ -197,60 +197,54 @@
    "umd": "청라동",
    "apt": "청라국제금융단지한양수자인레이크블루",
    "built": 2019,
-   "jeonse_n": 94,
+   "jeonse_n": 80,
    "jeonse_median84": 40000,
-   "sale_n": 51,
-   "sale_median84": 79500,
-   "ratio": 50.3
+   "sale_n": 49,
+   "sale_median84": 79700,
+   "ratio": 50.2
+  },
+  {
+   "umd": "청라동",
+   "apt": "청라힐스테이트",
+   "built": 2012,
+   "jeonse_n": 17,
+   "jeonse_median84": 32000,
+   "sale_n": 7,
+   "sale_median84": 59500,
+   "ratio": 53.8
+  },
+  {
+   "umd": "청라동",
+   "apt": "청라호수공원한신더휴",
+   "built": 2020,
+   "jeonse_n": 59,
+   "jeonse_median84": 40000,
+   "sale_n": 36,
+   "sale_median84": 73875,
+   "ratio": 54.1
   },
   {
    "umd": "청라동",
    "apt": "청라국제업무단지센텀대광로제비앙",
    "built": 2018,
    "jeonse_n": 60,
-   "jeonse_median84": 35000,
-   "sale_n": 27,
-   "sale_median84": 64700,
-   "ratio": 54.1
+   "jeonse_median84": 35350,
+   "sale_n": 26,
+   "sale_median84": 64750,
+   "ratio": 54.6
   },
   {
-   "umd": "청라동",
-   "apt": "청라호수공원한신더휴",
-   "built": 2020,
-   "jeonse_n": 66,
-   "jeonse_median84": 40000,
-   "sale_n": 36,
-   "sale_median84": 73500,
-   "ratio": 54.4
-  },
-  {
-   "umd": "청라동",
-   "apt": "청라힐스테이트",
-   "built": 2012,
-   "jeonse_n": 16,
-   "jeonse_median84": 32000,
-   "sale_n": 8,
-   "sale_median84": 58500,
-   "ratio": 54.7
-  },
-  {
-   "umd": "청라동",
-   "apt": "청라29블럭호반베르디움",
-   "built": 2012,
-   "jeonse_n": 160,
-   "jeonse_median84": 36000,
-   "sale_n": 93,
-   "sale_median84": 64700,
-   "ratio": 55.6
+   "umd": "가정동",
+   "apt": "루원더퍼스트",
+   "built": 2019,
+   "jeonse_n": 6,
+   "jeonse_median84": 30500,
+   "sale_n": 3,
+   "sale_median84": 55300,
+   "ratio": 55.2
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 333,
-   "n84": 143,
-   "jeonse_median84": 35000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 359,
@@ -259,8 +253,8 @@
   },
   {
    "month": "2026-01",
-   "jeonse_count": 408,
-   "n84": 187,
+   "jeonse_count": 409,
+   "n84": 188,
    "jeonse_median84": 36000
   },
   {
@@ -301,21 +295,27 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 235,
+   "jeonse_count": 236,
    "n84": 105,
    "jeonse_median84": 37000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 218,
-   "n84": 80,
-   "jeonse_median84": 37750
+   "jeonse_count": 224,
+   "n84": 82,
+   "jeonse_median84": 38000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 207,
-   "n84": 75,
+   "jeonse_count": 264,
+   "n84": 100,
    "jeonse_median84": 37000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 70,
+   "n84": 28,
+   "jeonse_median84": 36000
   }
  ],
  "rank": 138,
@@ -328,8 +328,8 @@
  },
  "umd_ratio_low": {
   "name": "청라동",
-  "ratio": 55.2
+  "ratio": 54.8
  },
- "umd_spread_pp": 22.2,
+ "umd_spread_pp": 22.6,
  "gap84": 23900
 }

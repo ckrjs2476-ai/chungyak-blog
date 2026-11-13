@@ -1,37 +1,37 @@
 {
  "lawd": "28200",
  "name": "인천광역시 남동구",
- "updated": "2026-10-30",
+ "updated": "2026-11-13",
  "months": 12,
- "jeonse_count": 3334,
- "wolse_count": 4562,
- "wolse_share_pct": 57.8,
- "renew_share_pct": 31.6,
- "jeonse_n84": 993,
- "jeonse_median84": 31500,
- "sale_n84": 1334,
- "sale_median84": 43500,
- "ratio84": 72.4,
- "jeonse_recent3_median84": 33000,
- "jeonse_prev3_median84": 32000,
- "jeonse_change_pct": 3.1,
- "apts_with_both": 67,
+ "jeonse_count": 3088,
+ "wolse_count": 4331,
+ "wolse_share_pct": 58.4,
+ "renew_share_pct": 31.7,
+ "jeonse_n84": 914,
+ "jeonse_median84": 32000,
+ "sale_n84": 1301,
+ "sale_median84": 44000,
+ "ratio84": 72.7,
+ "jeonse_recent3_median84": 34000,
+ "jeonse_prev3_median84": 32250,
+ "jeonse_change_pct": 5.4,
+ "apts_with_both": 65,
  "apts_ratio_80_plus": 12,
- "apts_ratio_70_plus": 57,
+ "apts_ratio_70_plus": 53,
  "umd": {
   "간석동": {
-   "jeonse_n": 146,
+   "jeonse_n": 135,
    "jeonse_median84": 30000,
-   "sale_n": 221,
-   "sale_median84": 41000,
-   "ratio": 73.2
+   "sale_n": 207,
+   "sale_median84": 41500,
+   "ratio": 72.3
   },
   "구월동": {
-   "jeonse_n": 296,
-   "jeonse_median84": 34000,
-   "sale_n": 337,
-   "sale_median84": 49800,
-   "ratio": 68.3
+   "jeonse_n": 272,
+   "jeonse_median84": 34550,
+   "sale_n": 332,
+   "sale_median84": 50000,
+   "ratio": 69.1
   },
   "남촌동": {
    "jeonse_n": 4,
@@ -41,45 +41,35 @@
    "ratio": 73.9
   },
   "논현동": {
-   "jeonse_n": 257,
-   "jeonse_median84": 31500,
+   "jeonse_n": 246,
+   "jeonse_median84": 32900,
    "sale_n": 340,
-   "sale_median84": 45750,
-   "ratio": 68.9
+   "sale_median84": 46000,
+   "ratio": 71.5
   },
   "도림동": {
-   "jeonse_n": 11,
-   "jeonse_median84": 26000,
+   "jeonse_n": 9,
+   "jeonse_median84": 27000,
    "sale_n": 19,
    "sale_median84": 32000,
-   "ratio": 81.2
+   "ratio": 84.4
   },
   "만수동": {
-   "jeonse_n": 137,
-   "jeonse_median84": 25000,
-   "sale_n": 223,
+   "jeonse_n": 113,
+   "jeonse_median84": 24000,
+   "sale_n": 212,
    "sale_median84": 30500,
-   "ratio": 82.0
+   "ratio": 78.7
   },
   "서창동": {
-   "jeonse_n": 142,
+   "jeonse_n": 135,
    "jeonse_median84": 32000,
-   "sale_n": 180,
+   "sale_n": 177,
    "sale_median84": 43700,
    "ratio": 73.2
   }
  },
  "top_ratio_apts": [
-  {
-   "umd": "만수동",
-   "apt": "한국",
-   "built": 1992,
-   "jeonse_n": 8,
-   "jeonse_median84": 23000,
-   "sale_n": 19,
-   "sale_median84": 26800,
-   "ratio": 85.8
-  },
   {
    "umd": "간석동",
    "apt": "우성",
@@ -87,8 +77,28 @@
    "jeonse_n": 4,
    "jeonse_median84": 26000,
    "sale_n": 11,
-   "sale_median84": 30500,
-   "ratio": 85.2
+   "sale_median84": 30000,
+   "ratio": 86.7
+  },
+  {
+   "umd": "만수동",
+   "apt": "한국",
+   "built": 1992,
+   "jeonse_n": 8,
+   "jeonse_median84": 23000,
+   "sale_n": 18,
+   "sale_median84": 26650,
+   "ratio": 86.3
+  },
+  {
+   "umd": "구월동",
+   "apt": "동아(260-5)",
+   "built": 1991,
+   "jeonse_n": 2,
+   "jeonse_median84": 24000,
+   "sale_n": 8,
+   "sale_median84": 28250,
+   "ratio": 85.0
   },
   {
    "umd": "도림동",
@@ -109,6 +119,16 @@
    "sale_n": 8,
    "sale_median84": 40350,
    "ratio": 84.3
+  },
+  {
+   "umd": "논현동",
+   "apt": "유호엔시티201동",
+   "built": 2013,
+   "jeonse_n": 13,
+   "jeonse_median84": 27000,
+   "sale_n": 4,
+   "sale_median84": 32050,
+   "ratio": 84.2
   },
   {
    "umd": "도림동",
@@ -144,31 +164,11 @@
    "umd": "만수동",
    "apt": "대동",
    "built": 1992,
-   "jeonse_n": 13,
+   "jeonse_n": 14,
    "jeonse_median84": 23000,
-   "sale_n": 9,
+   "sale_n": 8,
    "sale_median84": 27700,
    "ratio": 83.0
-  },
-  {
-   "umd": "논현동",
-   "apt": "유호엔시티101-103동",
-   "built": 2013,
-   "jeonse_n": 15,
-   "jeonse_median84": 28000,
-   "sale_n": 11,
-   "sale_median84": 34400,
-   "ratio": 81.4
-  },
-  {
-   "umd": "간석동",
-   "apt": "현대(893-0)",
-   "built": 1991,
-   "jeonse_n": 8,
-   "jeonse_median84": 26000,
-   "sale_n": 3,
-   "sale_median84": 32000,
-   "ratio": 81.2
   }
  ],
  "low_ratio_apts": [
@@ -186,11 +186,11 @@
    "umd": "구월동",
    "apt": "신세계",
    "built": 1980,
-   "jeonse_n": 11,
-   "jeonse_median84": 15200,
+   "jeonse_n": 12,
+   "jeonse_median84": 15600,
    "sale_n": 7,
    "sale_median84": 25700,
-   "ratio": 59.1
+   "ratio": 60.7
   },
   {
    "umd": "구월동",
@@ -206,30 +206,24 @@
    "umd": "간석동",
    "apt": "간석래미안자이",
    "built": 2008,
-   "jeonse_n": 23,
+   "jeonse_n": 22,
    "jeonse_median84": 35000,
-   "sale_n": 43,
+   "sale_n": 42,
    "sale_median84": 55500,
    "ratio": 63.1
   },
   {
    "umd": "구월동",
-   "apt": "대우재한신휴플러스",
-   "built": 2011,
-   "jeonse_n": 3,
-   "jeonse_median84": 31000,
-   "sale_n": 4,
-   "sale_median84": 46500,
-   "ratio": 66.7
+   "apt": "롯데캐슬골드",
+   "built": 2007,
+   "jeonse_n": 67,
+   "jeonse_median84": 33500,
+   "sale_n": 84,
+   "sale_median84": 50275,
+   "ratio": 66.6
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 364,
-   "n84": 109,
-   "jeonse_median84": 29000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 287,
@@ -274,41 +268,47 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 292,
+   "jeonse_count": 294,
    "n84": 73,
    "jeonse_median84": 33000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 246,
-   "n84": 79,
-   "jeonse_median84": 32900
+   "jeonse_count": 251,
+   "n84": 80,
+   "jeonse_median84": 32885
   },
   {
    "month": "2026-09",
-   "jeonse_count": 222,
-   "n84": 60,
+   "jeonse_count": 230,
+   "n84": 61,
    "jeonse_median84": 33000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 195,
-   "n84": 60,
-   "jeonse_median84": 34250
+   "jeonse_count": 241,
+   "n84": 76,
+   "jeonse_median84": 35000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 57,
+   "n84": 12,
+   "jeonse_median84": 34500
   }
  ],
- "rank": 79,
+ "rank": 77,
  "rank_of": 178,
  "avg_ratio84_all": 72.4,
- "ratio_vs_avg_pp": 0.0,
+ "ratio_vs_avg_pp": 0.3,
  "umd_ratio_high": {
   "name": "만수동",
-  "ratio": 82.0
+  "ratio": 78.7
  },
  "umd_ratio_low": {
   "name": "구월동",
-  "ratio": 68.3
+  "ratio": 69.1
  },
- "umd_spread_pp": 13.7,
+ "umd_spread_pp": 9.6,
  "gap84": 12000
 }

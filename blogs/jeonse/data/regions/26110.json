@@ -1,37 +1,30 @@
 {
  "lawd": "26110",
  "name": "부산광역시 중구",
- "updated": "2026-10-30",
+ "updated": "2026-11-13",
  "months": 12,
  "jeonse_count": 76,
- "wolse_count": 131,
- "wolse_share_pct": 63.3,
+ "wolse_count": 125,
+ "wolse_share_pct": 62.2,
  "renew_share_pct": 28.9,
- "jeonse_n84": 9,
- "jeonse_median84": 15000,
- "sale_n84": 19,
+ "jeonse_n84": 8,
+ "jeonse_median84": 14900,
+ "sale_n84": 21,
  "sale_median84": 23000,
- "ratio84": 65.2,
+ "ratio84": 64.8,
  "jeonse_recent3_median84": 16400,
  "jeonse_prev3_median84": 13100,
  "jeonse_change_pct": 25.2,
- "apts_with_both": 1,
+ "apts_with_both": 2,
  "apts_ratio_80_plus": 1,
- "apts_ratio_70_plus": 1,
+ "apts_ratio_70_plus": 2,
  "umd": {
-  "대청동4가": {
-   "jeonse_n": 3,
-   "jeonse_median84": 14000,
-   "sale_n": 4,
-   "sale_median84": 23000,
-   "ratio": 60.9
-  },
   "영주동": {
    "jeonse_n": 4,
    "jeonse_median84": 14900,
-   "sale_n": 9,
-   "sale_median84": 18000,
-   "ratio": 82.8
+   "sale_n": 11,
+   "sale_median84": 24000,
+   "ratio": 62.1
   }
  },
  "top_ratio_apts": [
@@ -44,16 +37,20 @@
    "sale_n": 3,
    "sale_median84": 18000,
    "ratio": 83.9
+  },
+  {
+   "umd": "부평동4가",
+   "apt": "예그린",
+   "built": 2012,
+   "jeonse_n": 2,
+   "jeonse_median84": 17650,
+   "sale_n": 2,
+   "sale_median84": 24750,
+   "ratio": 71.3
   }
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 2,
-   "n84": 1,
-   "jeonse_median84": 15000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 14,
@@ -116,7 +113,13 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 2,
+   "jeonse_count": 3,
+   "n84": 0,
+   "jeonse_median84": null
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 1,
    "n84": 0,
    "jeonse_median84": null
   }
@@ -124,6 +127,6 @@
  "rank": null,
  "rank_of": 178,
  "avg_ratio84_all": 72.4,
- "ratio_vs_avg_pp": -7.2,
- "gap84": 8000
+ "ratio_vs_avg_pp": -7.6,
+ "gap84": 8100
 }
