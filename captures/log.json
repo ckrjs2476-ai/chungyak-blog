@@ -1,18 +1,5 @@
 [
  {
-  "name": "js-41650-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7184,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-06 11:16"
- },
- {
   "name": "cy-2026000449-price",
   "ok": true,
   "status": 200,
@@ -2575,5 +2562,23 @@
   "bytes": 14838,
   "url": "blogs/jeonse/pages/calculator.md",
   "at": "2026-11-13 19:46"
+ },
+ {
+  "name": "js-44200-rank-history",
+  "ok": true,
+  "chart": {
+   "type": "history",
+   "blog": "jeonse",
+   "entity": "44200",
+   "metric": "rank",
+   "title": "아산시 전세가율 순위 기록",
+   "unit": "위(순위표 178곳 중)"
+  },
+  "size": [
+   760,
+   380
+  ],
+  "bytes": 13702,
+  "at": "2026-11-13 19:49"
  }
 ]
