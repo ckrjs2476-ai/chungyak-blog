@@ -1,1 +1,5 @@
-[]
+[
+  {"name": "js-48-gyeongnam-sido-chart", "chart": {"type": "jeonse_sido", "lawd": "48121"}},
+  {"name": "js-48121-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "92200"]}, {"fill": ["#dep", "51000"]}, {"pick": ["#reg", "의창"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+  {"name": "js-48121-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경상남도"], "wait": 2}, {"pick": ["#srhSggCd", "의창"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
+]
