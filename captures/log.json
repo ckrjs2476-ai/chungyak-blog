@@ -1,89 +1,5 @@
 [
  {
-  "name": "cy-2026000449-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   348
-  ],
-  "bytes": 11436,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000449&pblancNo=2026000449",
-  "at": "2026-11-07 10:41"
- },
- {
-  "name": "cy-2026000316-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   321
-  ],
-  "bytes": 10754,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000316&pblancNo=2026000316",
-  "at": "2026-11-07 10:41"
- },
- {
-  "name": "cy-2026000508-special84c",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   399
-  ],
-  "bytes": 17960,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
-  "at": "2026-11-07 10:41"
- },
- {
-  "name": "cy-2026910269-remndr",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 17720,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910269&pblancNo=2026910269",
-  "at": "2026-11-07 10:41"
- },
- {
-  "name": "js-27260-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7226,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-07 10:41"
- },
- {
-  "name": "js-41465-rt-form",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-43112-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 20250,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-07 10:42"
- },
- {
   "name": "ipo-01077540-dart-1105",
   "ok": true,
   "status": 200,
@@ -2580,5 +2496,96 @@
   ],
   "bytes": 13702,
   "at": "2026-11-13 19:49"
+ },
+ {
+  "name": "dr-work24-droneshow-search-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 25016,
+  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%EC%87%BC",
+  "at": "2026-11-13 19:59"
+ },
+ {
+  "name": "dr-work24-drone-show-search-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 25022,
+  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%87%BC",
+  "at": "2026-11-13 19:59"
+ },
+ {
+  "name": "dr-law-biz-scope-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "항공사업법시행규칙",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 7032,
+  "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제6조의3",
+  "at": "2026-11-13 19:59"
+ },
+ {
+  "name": "dr-law-biz-reg-req-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "항공사업법시행령",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 9824,
+  "url": "https://www.law.go.kr/법령/항공사업법시행령/제23조",
+  "at": "2026-11-13 20:00"
+ },
+ {
+  "name": "dr-onestop-type-guide-2026-11-13",
+  "ok": true,
+  "status": 200,
+  "title": "드론원스톱 민원서비스",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 19602,
+  "url": "https://drone.onestop.go.kr/introduce/systemintro2",
+  "at": "2026-11-13 20:00"
+ },
+ {
+  "name": "dr-show-calc-1-2026-11-13",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   245
+  ],
+  "bytes": 9598,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-13 20:00"
+ },
+ {
+  "name": "dr-show-calc-2-2026-11-13",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   245
+  ],
+  "bytes": 9508,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-13 20:00"
  }
 ]

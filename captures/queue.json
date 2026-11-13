@@ -1,9 +1,1 @@
-[
-  {"name": "dr-work24-droneshow-search-2026-11-13", "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%EC%87%BC", "sleep": 5, "dump": true},
-  {"name": "dr-work24-drone-show-search-2026-11-13", "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%87%BC", "sleep": 5, "dump": true},
-  {"name": "dr-law-biz-scope-2026-11-13", "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제6조의3", "sleep": 5, "dump": true},
-  {"name": "dr-law-biz-reg-req-2026-11-13", "url": "https://www.law.go.kr/법령/항공사업법시행령/제23조", "sleep": 5, "dump": true},
-  {"name": "dr-onestop-type-guide-2026-11-13", "url": "https://drone.onestop.go.kr/introduce/systemintro2", "sleep": 4, "dump": true},
-  {"name": "dr-show-calc-1-2026-11-13", "page": "blogs/drone/pages/calculator.md", "steps": [{"fill": ["#w", "1.5"]}, {"pick": ["#use", "사업"]}, {"pick": ["#where", "밖"]}], "crop": {"from": "최대이륙중량(kg)", "to": "이 기준으로 판단해요"}},
-  {"name": "dr-show-calc-2-2026-11-13", "page": "blogs/drone/pages/calculator.md", "steps": [{"fill": ["#w", "1.5"]}, {"pick": ["#use", "사업"]}, {"pick": ["#where", "비행금지구역 안"]}], "crop": {"from": "최대이륙중량(kg)", "to": "이 기준으로 판단해요"}}
-]
+[]
