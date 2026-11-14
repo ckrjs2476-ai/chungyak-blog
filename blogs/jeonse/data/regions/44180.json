@@ -1,58 +1,58 @@
 {
  "lawd": "44180",
  "name": "충청남도 보령시",
- "updated": "2026-10-31",
+ "updated": "2026-11-14",
  "months": 12,
- "jeonse_count": 121,
- "wolse_count": 518,
- "wolse_share_pct": 81.1,
- "renew_share_pct": 14.9,
- "jeonse_n84": 36,
- "jeonse_median84": 19350,
- "sale_n84": 229,
- "sale_median84": 25250,
- "ratio84": 76.6,
- "jeonse_recent3_median84": 19700,
- "jeonse_prev3_median84": 19000,
- "jeonse_change_pct": 3.7,
+ "jeonse_count": 321,
+ "wolse_count": 479,
+ "wolse_share_pct": 59.9,
+ "renew_share_pct": 68.5,
+ "jeonse_n84": 148,
+ "jeonse_median84": 19301,
+ "sale_n84": 210,
+ "sale_median84": 24050,
+ "ratio84": 80.3,
+ "jeonse_recent3_median84": 19301,
+ "jeonse_prev3_median84": 18721,
+ "jeonse_change_pct": 3.1,
  "apts_with_both": 8,
- "apts_ratio_80_plus": 5,
+ "apts_ratio_80_plus": 6,
  "apts_ratio_70_plus": 8,
  "umd": {
   "궁촌동": {
    "jeonse_n": 3,
    "jeonse_median84": 19000,
-   "sale_n": 17,
-   "sale_median84": 24000,
-   "ratio": 79.2
+   "sale_n": 15,
+   "sale_median84": 23500,
+   "ratio": 80.9
   },
   "대천동": {
    "jeonse_n": 6,
    "jeonse_median84": 28650,
-   "sale_n": 30,
-   "sale_median84": 13150,
-   "ratio": 217.9
+   "sale_n": 31,
+   "sale_median84": 13000,
+   "ratio": 220.4
   },
   "동대동": {
-   "jeonse_n": 4,
+   "jeonse_n": 3,
    "jeonse_median84": 30000,
-   "sale_n": 61,
+   "sale_n": 59,
    "sale_median84": 30500,
    "ratio": 98.4
   },
   "명천동": {
-   "jeonse_n": 15,
-   "jeonse_median84": 24000,
-   "sale_n": 70,
-   "sale_median84": 37000,
-   "ratio": 64.9
+   "jeonse_n": 128,
+   "jeonse_median84": 19301,
+   "sale_n": 57,
+   "sale_median84": 36500,
+   "ratio": 52.9
   },
   "죽정동": {
    "jeonse_n": 7,
    "jeonse_median84": 16000,
-   "sale_n": 47,
-   "sale_median84": 14500,
-   "ratio": 110.3
+   "sale_n": 44,
+   "sale_median84": 14450,
+   "ratio": 110.7
   }
  },
  "top_ratio_apts": [
@@ -62,7 +62,7 @@
    "built": 2007,
    "jeonse_n": 4,
    "jeonse_median84": 17200,
-   "sale_n": 14,
+   "sale_n": 13,
    "sale_median84": 19000,
    "ratio": 90.5
   },
@@ -70,27 +70,17 @@
    "umd": "명천동",
    "apt": "명천시티프라디움",
    "built": 2020,
-   "jeonse_n": 3,
+   "jeonse_n": 4,
    "jeonse_median84": 32000,
-   "sale_n": 24,
+   "sale_n": 18,
    "sale_median84": 36250,
    "ratio": 88.3
-  },
-  {
-   "umd": "명천동",
-   "apt": "명천코아루",
-   "built": 2008,
-   "jeonse_n": 2,
-   "jeonse_median84": 23500,
-   "sale_n": 17,
-   "sale_median84": 27000,
-   "ratio": 87.0
   },
   {
    "umd": "동대동",
    "apt": "동대센트럴파크",
    "built": 2017,
-   "jeonse_n": 3,
+   "jeonse_n": 2,
    "jeonse_median84": 30000,
    "sale_n": 7,
    "sale_median84": 35000,
@@ -98,13 +88,23 @@
   },
   {
    "umd": "명천동",
+   "apt": "명천코아루",
+   "built": 2008,
+   "jeonse_n": 3,
+   "jeonse_median84": 23000,
+   "sale_n": 15,
+   "sale_median84": 27000,
+   "ratio": 85.2
+  },
+  {
+   "umd": "명천동",
    "apt": "더베스트예미지",
    "built": 2019,
    "jeonse_n": 3,
    "jeonse_median84": 33000,
-   "sale_n": 15,
-   "sale_median84": 39500,
-   "ratio": 83.5
+   "sale_n": 11,
+   "sale_median84": 40000,
+   "ratio": 82.5
   },
   {
    "umd": "궁촌동",
@@ -112,9 +112,9 @@
    "built": 2006,
    "jeonse_n": 3,
    "jeonse_median84": 19000,
-   "sale_n": 17,
-   "sale_median84": 24000,
-   "ratio": 79.2
+   "sale_n": 15,
+   "sale_median84": 23500,
+   "ratio": 80.9
   },
   {
    "umd": "대천동",
@@ -140,12 +140,6 @@
  "low_ratio_apts": [],
  "monthly": [
   {
-   "month": "2025-11",
-   "jeonse_count": 6,
-   "n84": 1,
-   "jeonse_median84": 30000
-  },
-  {
    "month": "2025-12",
    "jeonse_count": 8,
    "n84": 2,
@@ -153,7 +147,7 @@
   },
   {
    "month": "2026-01",
-   "jeonse_count": 15,
+   "jeonse_count": 17,
    "n84": 7,
    "jeonse_median84": 24000
   },
@@ -207,14 +201,20 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 5,
-   "n84": 2,
-   "jeonse_median84": 25360
+   "jeonse_count": 6,
+   "n84": 3,
+   "jeonse_median84": 22000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 203,
+   "n84": 112,
+   "jeonse_median84": 19301
   }
  ],
- "rank": 61,
+ "rank": 50,
  "rank_of": 178,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 4.1,
- "gap84": 5900
+ "ratio_vs_avg_pp": 7.8,
+ "gap84": 4749
 }

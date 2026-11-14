@@ -1,51 +1,51 @@
 {
  "lawd": "31170",
  "name": "울산광역시 동구",
- "updated": "2026-10-31",
+ "updated": "2026-11-14",
  "months": 12,
- "jeonse_count": 804,
- "wolse_count": 943,
- "wolse_share_pct": 54.0,
- "renew_share_pct": 30.5,
- "jeonse_n84": 305,
+ "jeonse_count": 737,
+ "wolse_count": 890,
+ "wolse_share_pct": 54.7,
+ "renew_share_pct": 30.0,
+ "jeonse_n84": 270,
  "jeonse_median84": 32000,
- "sale_n84": 599,
- "sale_median84": 31500,
- "ratio84": 101.6,
- "jeonse_recent3_median84": 30250,
- "jeonse_prev3_median84": 36750,
- "jeonse_change_pct": -17.7,
- "apts_with_both": 18,
- "apts_ratio_80_plus": 8,
+ "sale_n84": 569,
+ "sale_median84": 31300,
+ "ratio84": 102.2,
+ "jeonse_recent3_median84": 32000,
+ "jeonse_prev3_median84": 31500,
+ "jeonse_change_pct": 1.6,
+ "apts_with_both": 17,
+ "apts_ratio_80_plus": 6,
  "apts_ratio_70_plus": 14,
  "umd": {
   "방어동": {
-   "jeonse_n": 20,
+   "jeonse_n": 21,
    "jeonse_median84": 17000,
-   "sale_n": 127,
-   "sale_median84": 20400,
-   "ratio": 83.3
+   "sale_n": 120,
+   "sale_median84": 19900,
+   "ratio": 85.4
   },
   "서부동": {
-   "jeonse_n": 127,
-   "jeonse_median84": 40000,
-   "sale_n": 173,
-   "sale_median84": 56000,
-   "ratio": 71.4
+   "jeonse_n": 97,
+   "jeonse_median84": 42000,
+   "sale_n": 157,
+   "sale_median84": 55600,
+   "ratio": 75.5
   },
   "전하동": {
-   "jeonse_n": 117,
+   "jeonse_n": 111,
    "jeonse_median84": 29900,
-   "sale_n": 171,
+   "sale_n": 167,
    "sale_median84": 38500,
    "ratio": 77.7
   },
   "화정동": {
    "jeonse_n": 39,
    "jeonse_median84": 32000,
-   "sale_n": 90,
-   "sale_median84": 40900,
-   "ratio": 78.2
+   "sale_n": 87,
+   "sale_median84": 41000,
+   "ratio": 78.0
   }
  },
  "top_ratio_apts": [
@@ -53,51 +53,31 @@
    "umd": "전하동",
    "apt": "전하동현대홈타운",
    "built": 2002,
-   "jeonse_n": 18,
-   "jeonse_median84": 22700,
-   "sale_n": 23,
-   "sale_median84": 24900,
-   "ratio": 91.2
-  },
-  {
-   "umd": "화정동",
-   "apt": "현대파라다이스1",
-   "built": 1992,
-   "jeonse_n": 2,
-   "jeonse_median84": 14650,
-   "sale_n": 2,
-   "sale_median84": 16900,
-   "ratio": 86.7
+   "jeonse_n": 20,
+   "jeonse_median84": 22900,
+   "sale_n": 22,
+   "sale_median84": 24800,
+   "ratio": 92.3
   },
   {
    "umd": "전하동",
    "apt": "대경넥스빌",
    "built": 2004,
-   "jeonse_n": 16,
-   "jeonse_median84": 21950,
+   "jeonse_n": 13,
+   "jeonse_median84": 22900,
    "sale_n": 21,
-   "sale_median84": 26000,
-   "ratio": 84.4
-  },
-  {
-   "umd": "서부동",
-   "apt": "서부성원상떼빌",
-   "built": 2005,
-   "jeonse_n": 23,
-   "jeonse_median84": 26000,
-   "sale_n": 39,
-   "sale_median84": 31000,
-   "ratio": 83.9
+   "sale_median84": 25750,
+   "ratio": 88.9
   },
   {
    "umd": "전하동",
    "apt": "스위첸웰츠타워2단지",
    "built": 2023,
-   "jeonse_n": 13,
-   "jeonse_median84": 40000,
+   "jeonse_n": 12,
+   "jeonse_median84": 41000,
    "sale_n": 7,
    "sale_median84": 48000,
-   "ratio": 83.3
+   "ratio": 85.4
   },
   {
    "umd": "전하동",
@@ -105,49 +85,69 @@
    "built": 2011,
    "jeonse_n": 14,
    "jeonse_median84": 33500,
-   "sale_n": 24,
-   "sale_median84": 40200,
-   "ratio": 83.3
+   "sale_n": 22,
+   "sale_median84": 40000,
+   "ratio": 83.8
+  },
+  {
+   "umd": "서부동",
+   "apt": "서부성원상떼빌",
+   "built": 2005,
+   "jeonse_n": 20,
+   "jeonse_median84": 25200,
+   "sale_n": 38,
+   "sale_median84": 31000,
+   "ratio": 81.3
   },
   {
    "umd": "전하동",
    "apt": "전하아이파크",
    "built": 2012,
-   "jeonse_n": 13,
+   "jeonse_n": 12,
    "jeonse_median84": 35000,
-   "sale_n": 13,
-   "sale_median84": 43000,
-   "ratio": 81.4
+   "sale_n": 14,
+   "sale_median84": 43075,
+   "ratio": 81.3
   },
   {
    "umd": "화정동",
    "apt": "힐스테이트 이스턴베이",
    "built": 2015,
    "jeonse_n": 32,
-   "jeonse_median84": 33500,
+   "jeonse_median84": 33000,
    "sale_n": 68,
    "sale_median84": 41500,
-   "ratio": 80.7
+   "ratio": 79.5
+  },
+  {
+   "umd": "전하동",
+   "apt": "스위첸웰츠타워1차",
+   "built": 2022,
+   "jeonse_n": 15,
+   "jeonse_median84": 39000,
+   "sale_n": 9,
+   "sale_median84": 49400,
+   "ratio": 78.9
+  },
+  {
+   "umd": "서부동",
+   "apt": "울산지웰시티자이2단지",
+   "built": 2023,
+   "jeonse_n": 45,
+   "jeonse_median84": 44000,
+   "sale_n": 49,
+   "sale_median84": 56000,
+   "ratio": 78.6
   },
   {
    "umd": "전하동",
    "apt": "e편한세상전하1단지",
    "built": 2013,
-   "jeonse_n": 13,
-   "jeonse_median84": 34500,
+   "jeonse_n": 10,
+   "jeonse_median84": 34050,
    "sale_n": 23,
-   "sale_median84": 43200,
-   "ratio": 79.9
-  },
-  {
-   "umd": "전하동",
-   "apt": "전하동정림명가의아침",
-   "built": 2012,
-   "jeonse_n": 3,
-   "jeonse_median84": 15000,
-   "sale_n": 7,
-   "sale_median84": 19000,
-   "ratio": 78.9
+   "sale_median84": 43500,
+   "ratio": 78.3
   }
  ],
  "low_ratio_apts": [
@@ -177,19 +177,9 @@
    "built": 2014,
    "jeonse_n": 4,
    "jeonse_median84": 22575,
-   "sale_n": 17,
-   "sale_median84": 37500,
-   "ratio": 60.2
-  },
-  {
-   "umd": "방어동",
-   "apt": "문현아이파크",
-   "built": 2007,
-   "jeonse_n": 3,
-   "jeonse_median84": 19500,
-   "sale_n": 17,
-   "sale_median84": 28100,
-   "ratio": 69.4
+   "sale_n": 16,
+   "sale_median84": 36900,
+   "ratio": 61.2
   },
   {
    "umd": "서부동",
@@ -197,18 +187,22 @@
    "built": 1992,
    "jeonse_n": 2,
    "jeonse_median84": 14500,
-   "sale_n": 6,
-   "sale_median84": 20000,
-   "ratio": 72.5
+   "sale_n": 7,
+   "sale_median84": 20500,
+   "ratio": 70.7
+  },
+  {
+   "umd": "방어동",
+   "apt": "문현아이파크",
+   "built": 2007,
+   "jeonse_n": 3,
+   "jeonse_median84": 19500,
+   "sale_n": 14,
+   "sale_median84": 27600,
+   "ratio": 70.7
   }
  ],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 89,
-   "n84": 42,
-   "jeonse_median84": 27900
-  },
   {
    "month": "2025-12",
    "jeonse_count": 78,
@@ -265,29 +259,35 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 46,
+   "jeonse_count": 50,
    "n84": 20,
    "jeonse_median84": 32000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 47,
-   "n84": 18,
-   "jeonse_median84": 22950
+   "jeonse_count": 54,
+   "n84": 21,
+   "jeonse_median84": 23000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 11,
+   "n84": 4,
+   "jeonse_median84": 26475
   }
  ],
- "rank": 13,
+ "rank": 12,
  "rank_of": 178,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 29.1,
+ "ratio_vs_avg_pp": 29.7,
  "umd_ratio_high": {
   "name": "방어동",
-  "ratio": 83.3
+  "ratio": 85.4
  },
  "umd_ratio_low": {
   "name": "서부동",
-  "ratio": 71.4
+  "ratio": 75.5
  },
- "umd_spread_pp": 11.9,
- "gap84": -500
+ "umd_spread_pp": 9.9,
+ "gap84": -700
 }
