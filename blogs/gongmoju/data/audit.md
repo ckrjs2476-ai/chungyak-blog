@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: gongmoju (2026-11-13 17:04 KST)
+# 애드센스 기준 점검: gongmoju (2026-11-14 16:56 KST)
 
 - 공개 글: 47편
 - 2편 이상에 반복된 문장 비율: 1% (목표 5% 미만)
@@ -31,7 +31,7 @@
 | 90 | [넥스아이 공모가 10,500원, 11월 2~6일 공](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-week-2026-10-26.html) `2026-10-26-wk1026-weekly.md` | 2929 | 1 | 3 | - |
 | 90 | [동원파츠 공모가 23,000원, 11월 2~13일 ](https://gongmoju-breakdown.blogspot.com/2026/11/ipo-week-2026-11-02.html) `2026-11-02-wk1102-weekly.md` | 2950 | 1 | 2 | - |
 | 90 | [동원파츠 공모주 466.9억 원, 자금 계획 30.](https://gongmoju-breakdown.blogspot.com/2026/10/dongwonparts-ipo-2026-11.html) `2026-10-19-00784184-ipo.md` | 1771 | 0 | 1 | - |
-| 90 | [씨아이에스케미칼 공모주 시설자금 89.9%, 비슷한](https://gongmoju-breakdown.blogspot.com/2026/11/cis-chemical-ipo-2026-12.html) `2026-11-03-01077540-ipo.md` | 2546 | 1 | 2 | - |
+| 90 | [씨아이에스케미칼 공모주 시설자금 89.9%, 비슷한](https://gongmoju-breakdown.blogspot.com/2026/11/cis-chemical-ipo-2026-12.html) `2026-11-03-01077540-ipo.md` | 2555 | 1 | 2 | - |
 | 90 | [씨앤엠 공모주 시설자금 71.5%, 수수료율 3.0](https://gongmoju-breakdown.blogspot.com/2026/10/cnm-ipo-2026-11.html) `2026-10-28-00618173-ipo.md` | 2247 | 1 | 3 | - |
 | 90 | [에스에프씨 공모주 1,580억 원, 27곳 중 규모](https://gongmoju-breakdown.blogspot.com/2026/10/sfc-ipo-2026-11.html) `2026-10-30-00299109-ipo.md` | 2256 | 1 | 2 | - |
 | 90 | [에이엔에이치스트럭쳐 공모주, 자금 41.4%를 빚 ](https://gongmoju-breakdown.blogspot.com/2026/11/anh-structure-ipo-2026-11.html) `2026-11-06-01366675-ipo.md` | 2407 | 1 | 2 | - |
@@ -41,12 +41,12 @@
 | 90 | [이노보테라퓨틱스 공모주 440억 원, 27곳 중 7](https://gongmoju-breakdown.blogspot.com/2026/11/innovo-therapeutics-ipo-2026-12.html) `2026-11-01-01783687-ipo.md` | 2561 | 1 | 2 | - |
 | 90 | [이에스티 공모주 시설자금 80.7%, 수수료율 3.](https://gongmoju-breakdown.blogspot.com/2026/10/est-ipo-2026-10.html) `2026-10-17-01378005-ipo.md` | 1725 | 0 | 2 | - |
 | 100 | [12월 공모주 7곳, 27곳 중 규모 4위부터 27](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-december-2026-12.html) `2026-10-30-december-topic.md` | 2933 | 0 | 3 | - |
-| 100 | [KTE 공모주 535억 원, NH투자증권 단독 인수](https://gongmoju-breakdown.blogspot.com/2026/11/kte-ipo-2026-12.html) `2026-11-04-00208709-ipo.md` | 2699 | 0 | 2 | - |
+| 100 | [KTE 공모주 535억 원, NH투자증권 단독 인수](https://gongmoju-breakdown.blogspot.com/2026/11/kte-ipo-2026-12.html) `2026-11-04-00208709-ipo.md` | 2696 | 0 | 2 | - |
 | 100 | [Simwon America 공모주 669.6억 원,](https://gongmoju-breakdown.blogspot.com/2026/10/simwon-america-ipo-2026-11.html) `2026-10-24-02038432-ipo.md` | 2683 | 0 | 2 | - |
 | 100 | [공모주 공모 규모, 28곳 중앙값 293.5억 원 ](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-offering-size-2026-10.html) `2026-10-25-gyumo-topic.md` | 2593 | 0 | 3 | - |
 | 100 | [공모주 구주매출, 최근 공모 27곳 중 4곳만 기존](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-secondary-sale-2026-10.html) `2026-10-20-gujumaechul-topic.md` | 2250 | 0 | 2 | - |
 | 100 | [공모주 발행제비용, 자금 계획의 2.2%부터 7.7](https://gongmoju-breakdown.blogspot.com/2026/11/ipo-issuance-cost-2026-11.html) `2026-11-03-balhaengbiyong-topic.md` | 2659 | 0 | 3 | - |
-| 100 | [공모주 설립 연수, 10년 안 된 6곳 중 시설자금](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-company-age-2026-10.html) `2026-10-28-seollip-topic.md` | 2597 | 0 | 2 | - |
+| 100 | [공모주 설립 연수, 10년 안 된 6곳 중 시설자금](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-company-age-2026-10.html) `2026-10-28-seollip-topic.md` | 2722 | 0 | 2 | - |
 | 100 | [공모주 인수단, 30곳 중 증권사가 둘 이상인 5곳](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-underwriting-syndicate-2026-10.html) `2026-10-29-insudan-topic.md` | 3278 | 0 | 3 | - |
 | 100 | [공모주 인수수수료율, 28곳 중 3% 밑은 규모 1](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-underwriting-fee-2026-10.html) `2026-10-21-susuryo-topic.md` | 3267 | 0 | 4 | - |
 | 100 | [공모주 자금 사용 목적, 25곳 중 14곳은 시설자](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-use-of-proceeds-2026-10.html) `2026-10-24-jageumyongdo-topic.md` | 2829 | 0 | 1 | - |
