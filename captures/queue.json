@@ -1,1 +1,5 @@
-[]
+[
+  {"name": "js-41360-ratio-history", "chart": {"type": "history", "blog": "jeonse", "entity": "41360", "metric": "ratio84", "title": "남양주시 84㎡ 전세가율 기록", "unit": "%"}},
+  {"name": "js-41360-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "54500"]}, {"fill": ["#dep", "35000"]}, {"pick": ["#reg", "남양주"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+  {"name": "js-41360-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "52500"]}, {"fill": ["#dep", "34650"]}, {"pick": ["#reg", "남양주"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16}
+]
