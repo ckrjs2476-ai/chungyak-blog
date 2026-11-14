@@ -1,17 +1,5 @@
 [
  {
-  "name": "test-calc-jeonse",
-  "ok": false,
-  "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#sale\").first\n",
-  "url": "https://jeonse-ondogye.blogspot.com/p/calculator.html"
- },
- {
-  "name": "test-calc-gwanribi",
-  "ok": false,
-  "error": "Locator.fill: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"#fee\").first\n",
-  "url": "https://gwanribi-dotbogi.blogspot.com/p/calculator.html"
- },
- {
   "name": "test2-chart-gwanribi",
   "ok": true,
   "chart": {
@@ -2631,5 +2619,31 @@
   "bytes": 21800,
   "url": "https://www.droneportal.or.kr/main/web/contents/M090-01-01",
   "at": "2026-11-14 08:58"
+ },
+ {
+  "name": "dr-alliance-members-2nd-2026-11-14",
+  "ok": true,
+  "status": 200,
+  "title": "회의 및 행사 이력 < 운영 현황 < 드론산업 얼라이언스 | 드론정보포털",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 11174,
+  "url": "https://www.droneportal.or.kr/main/web/contents/M090-02-02",
+  "at": "2026-11-14 09:00"
+ },
+ {
+  "name": "dr-alliance-members-1st-2026-11-14",
+  "ok": true,
+  "status": 200,
+  "title": "회의 및 행사 이력 < 운영 현황 < 드론산업 얼라이언스 | 드론정보포털",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 11150,
+  "url": "https://www.droneportal.or.kr/main/web/contents/M090-02-02",
+  "at": "2026-11-14 09:00"
  }
 ]
