@@ -1,31 +1,5 @@
 [
  {
-  "name": "cy-2026910266-remndr",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 17860,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910266&pblancNo=2026910266",
-  "at": "2026-11-08 10:42"
- },
- {
-  "name": "cy-2026910259-remndr",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 17348,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259",
-  "at": "2026-11-08 10:42"
- },
- {
   "name": "cy-2026820014-sched",
   "ok": false,
   "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
@@ -2645,5 +2619,33 @@
   "bytes": 7306,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-14 18:39"
+ },
+ {
+  "name": "js-11590-dong-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11590",
+   "highlight": "흑석동"
+  },
+  "size": [
+   760,
+   396
+  ],
+  "bytes": 14164,
+  "at": "2026-11-14 19:46"
+ },
+ {
+  "name": "js-11590-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14964,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-14 19:46"
  }
 ]
