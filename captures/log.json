@@ -1,44 +1,5 @@
 [
  {
-  "name": "drone-ua-flight-zone-2026-airportal",
-  "ok": true,
-  "status": 200,
-  "title": "항공정보포털시스템",
-  "size": [
-   760,
-   525
-  ],
-  "bytes": 26698,
-  "url": "https://airportal.go.kr/airplane/airspace01.do",
-  "at": "2026-11-08 08:52"
- },
- {
-  "name": "drone-ua-flight-zone-2026-airportal-b",
-  "ok": true,
-  "status": 200,
-  "title": "항공정보포털시스템",
-  "size": [
-   760,
-   428
-  ],
-  "bytes": 15688,
-  "url": "https://airportal.go.kr/airplane/airspace01.do",
-  "at": "2026-11-08 08:52"
- },
- {
-  "name": "drone-ua-flight-zone-2026-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/drone/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 12002,
-  "url": "blogs/drone/pages/calculator.md",
-  "at": "2026-11-08 08:52"
- },
- {
   "name": "cy-oct-result-followup-calc-1",
   "ok": true,
   "status": null,
@@ -2647,5 +2608,49 @@
   "bytes": 16808,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-14 11:25"
+ },
+ {
+  "name": "js-41360-ratio-history",
+  "ok": true,
+  "chart": {
+   "type": "history",
+   "blog": "jeonse",
+   "entity": "41360",
+   "metric": "ratio84",
+   "title": "남양주시 84㎡ 전세가율 기록",
+   "unit": "%"
+  },
+  "size": [
+   760,
+   380
+  ],
+  "bytes": 12734,
+  "at": "2026-11-14 12:43"
+ },
+ {
+  "name": "js-41360-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14714,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-14 12:44"
+ },
+ {
+  "name": "js-41360-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14608,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-14 12:44"
  }
 ]
