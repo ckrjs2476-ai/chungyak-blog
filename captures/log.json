@@ -1,18 +1,5 @@
 [
  {
-  "name": "ipo-01705573-dart-1108",
-  "ok": true,
-  "status": 200,
-  "title": "유캐스트/증권신고서(지분증권)/2026.10.21",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 30770,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443",
-  "at": "2026-11-08 10:43"
- },
- {
   "name": "ipo-00784184-dart-1108",
   "ok": true,
   "status": 200,
@@ -2654,5 +2641,18 @@
   "bytes": 44900,
   "url": "https://www.mlit.go.jp/koku/koku_fr10_000040.html",
   "at": "2026-11-14 20:10"
+ },
+ {
+  "name": "gw-elevator-kapt-sido-1114",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20630,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-11-14 21:15"
  }
 ]
