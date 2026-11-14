@@ -1,71 +1,5 @@
 [
  {
-  "name": "ipo-00784184-dart-1108",
-  "ok": true,
-  "status": 200,
-  "title": "동원파츠/증권신고서(지분증권)/2026.10.30",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 22666,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000113",
-  "at": "2026-11-08 10:43"
- },
- {
-  "name": "gw-11410-sido-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_sido",
-   "lawd": "11410"
-  },
-  "size": [
-   760,
-   844
-  ],
-  "bytes": 22872,
-  "at": "2026-11-08 18:38"
- },
- {
-  "name": "gw-11410-calc-84",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16918,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-08 18:38"
- },
- {
-  "name": "gw-11410-calc-114",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16856,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-08 18:38"
- },
- {
-  "name": "cy-2026000367-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   459
-  ],
-  "bytes": 13882,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000367&pblancNo=2026000367",
-  "at": "2026-11-08 18:38"
- },
- {
   "name": "js-48310-dong-chart",
   "ok": true,
   "chart": {
@@ -2654,5 +2588,74 @@
   "bytes": 20630,
   "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
   "at": "2026-11-14 21:15"
+ },
+ {
+  "name": "sanggye-eunbit-1-management-fee-2026-08-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11350",
+   "code": "A13983816"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16552,
+  "at": "2026-11-14 22:40"
+ },
+ {
+  "name": "godeok-dahaev-management-fee-2026-08-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41220",
+   "code": "A10021455"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 17304,
+  "at": "2026-11-14 22:40"
+ },
+ {
+  "name": "homaesil-bellseom-city-14-management-fee-2026-08-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16538,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-14 22:40"
+ },
+ {
+  "name": "busan-jeonse-ratio-ranking-2026-11-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14970,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-14 22:40"
+ },
+ {
+  "name": "ipo-00299109-dart-1114",
+  "ok": true,
+  "status": 200,
+  "title": "에스에프씨/증권신고서(지분증권)/2026.11.04",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 33218,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099",
+  "at": "2026-11-14 22:40"
  }
 ]
