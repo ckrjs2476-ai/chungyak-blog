@@ -2,28 +2,28 @@
  "lawd": "41430",
  "name": "경기도 의왕시",
  "months": 12,
- "updated": "2026-11-14",
- "trade_count": 2020,
- "cancel_count": 42,
- "n84": 1013,
- "median84": 78000,
- "p25_84": 57000,
+ "updated": "2026-11-15",
+ "trade_count": 2026,
+ "cancel_count": 43,
+ "n84": 1014,
+ "median84": 78150,
+ "p25_84": 57225,
  "p75_84": 99000,
- "median84_pyeong_excl": 3041,
+ "median84_pyeong_excl": 3044,
  "new_n84": 48,
  "new_median84": 93200,
  "new_build_years": 5,
  "umd84": {
-  "오전동": {
-   "n": 302,
-   "median": 52850
-  },
   "내손동": {
-   "n": 263,
+   "n": 264,
    "median": 97000
   },
+  "오전동": {
+   "n": 301,
+   "median": 52700
+  },
   "학의동": {
-   "n": 110,
+   "n": 111,
    "median": 82000
   },
   "왕곡동": {
@@ -110,15 +110,15 @@
   },
   {
    "month": "2026-10",
-   "count": 137,
+   "count": 138,
    "n84": 58,
-   "median84": 79000
+   "median84": 81500
   },
   {
    "month": "2026-11",
-   "count": 18,
-   "n84": 8,
-   "median84": 87000
+   "count": 23,
+   "n84": 9,
+   "median84": 80000
   }
  ],
  "top_apts": [
@@ -130,7 +130,7 @@
   },
   {
    "name": "오전동 모락산현대",
-   "count": 99,
+   "count": 100,
    "median84": null,
    "built": 2002
   },
@@ -166,8 +166,8 @@
   },
   {
    "name": "학의동 의왕백운 해링턴 플레이스 1단지",
-   "count": 51,
-   "median84": 82000,
+   "count": 52,
+   "median84": 82250,
    "built": 2019
   },
   {
