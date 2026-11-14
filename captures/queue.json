@@ -1,1 +1,7 @@
-[]
+[
+ {"name": "sanggye-eunbit-1-management-fee-2026-08-chart", "chart": {"type": "gwanribi_complex", "lawd": "11350", "code": "A13983816"}},
+ {"name": "godeok-dahaev-management-fee-2026-08-chart", "chart": {"type": "gwanribi_complex", "lawd": "41220", "code": "A10021455"}},
+ {"name": "homaesil-bellseom-city-14-management-fee-2026-08-calc-1", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "1750"]}, {"fill": ["#area", "1"]}, {"pick": ["#reg", "권선"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16},
+ {"name": "busan-jeonse-ratio-ranking-2026-11-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "24300"]}, {"fill": ["#dep", "29000"]}, {"pick": ["#reg", "영도"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+ {"name": "ipo-00299109-dart-1114", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099", "sleep": 4}
+]
