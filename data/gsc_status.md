@@ -88,3 +88,10 @@
   - 관리비 2: hillstate-songdam-management-fee-2026-08, nowon-gu-apartment-management-fee
   - 주의: published.json의 published_at이 지금보다 뒤인 글(예약 발행)은 건너뛴다.
   - 다음 실행 11-14 11:44: 관리비(ilsan-doosan-weve-zenith-management-fee 먼저) → 공모주 → 전세 → 청약(bucheon-daejang-housetory-decent 포함) → 드론
+
+- 11-14 오전(11:45~11:53) 11건 요청, 12번째(청약 gyeyang-kaib-yubora-score-2026-11)에서 할당량 초과
+  - 관리비 3: ilsan-doosan-weve-zenith-management-fee(11-13 남은 것), gwanggyo-hoban-verdium-management-fee, misa-gangbyeon-riche-nhf-management-fee
+  - 공모주 3: taeseok-optical-ipo-2026-12, ipo-head-office-region-2026-11, destinpower-ipo-2026-12
+  - 전세 3: asan-si-jeonse-flow-2026-11, gyeongnam-jeonse-ratio-ranking-2026-11, songpa-gu-jeonse-ratio-4weeks-2026-11
+  - 청약 2: bucheon-daejang-housetory-decent(11-13 예약 발행이라 미룬 것), harrington-place-mullae-bunyangga-2026
+  - 다음 실행 11-15 12:03: 청약(gyeyang-kaib-yubora-score-2026-11 먼저) → 드론 → 관리비 → 공모주 → 전세. 11-18(수)은 쉬는 날이라 그날 잡히면 11-19로 옮김.
