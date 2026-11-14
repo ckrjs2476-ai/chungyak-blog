@@ -1,37 +1,5 @@
 [
  {
-  "name": "cy-2026820014-sched",
-  "ok": false,
-  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820014&pblancNo=2026820014"
- },
- {
-  "name": "js-same-deposit-2026-11-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14966,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-08 10:43"
- },
- {
-  "name": "js-41465-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7286,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-08 10:43"
- },
- {
   "name": "ipo-01705573-dart-1108",
   "ok": true,
   "status": 200,
@@ -2647,5 +2615,44 @@
   "bytes": 14964,
   "url": "blogs/jeonse/pages/calculator.md",
   "at": "2026-11-14 19:46"
+ },
+ {
+  "name": "drone-japan-regulation-2026-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14746,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-14 20:10"
+ },
+ {
+  "name": "drone-japan-regulation-2026-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16992,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-14 20:10"
+ },
+ {
+  "name": "drone-japan-regulation-2026-mlit",
+  "ok": true,
+  "status": 200,
+  "title": "航空：飛行ルール（航空法第11章）の対象となる機体 - 国土交通省",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 44900,
+  "url": "https://www.mlit.go.jp/koku/koku_fr10_000040.html",
+  "at": "2026-11-14 20:10"
  }
 ]
