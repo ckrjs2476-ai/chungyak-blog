@@ -1,20 +1,20 @@
 {
  "lawd": "44710",
  "name": "충청남도 금산군",
- "updated": "2026-10-31",
+ "updated": "2026-11-14",
  "months": 12,
- "jeonse_count": 55,
- "wolse_count": 109,
- "wolse_share_pct": 66.5,
- "renew_share_pct": 9.1,
- "jeonse_n84": 16,
+ "jeonse_count": 52,
+ "wolse_count": 93,
+ "wolse_share_pct": 64.1,
+ "renew_share_pct": 11.5,
+ "jeonse_n84": 15,
  "jeonse_median84": 18000,
- "sale_n84": 42,
- "sale_median84": 25050,
- "ratio84": 71.9,
- "jeonse_recent3_median84": 7500,
+ "sale_n84": 44,
+ "sale_median84": 26000,
+ "ratio84": 69.2,
+ "jeonse_recent3_median84": null,
  "jeonse_prev3_median84": 19000,
- "jeonse_change_pct": -60.5,
+ "jeonse_change_pct": null,
  "apts_with_both": 3,
  "apts_ratio_80_plus": 0,
  "apts_ratio_70_plus": 0,
@@ -22,9 +22,9 @@
   "금산읍 아인리": {
    "jeonse_n": 5,
    "jeonse_median84": 18000,
-   "sale_n": 7,
-   "sale_median84": 23000,
-   "ratio": 78.3
+   "sale_n": 10,
+   "sale_median84": 25750,
+   "ratio": 69.9
   },
   "금산읍 양지리": {
    "jeonse_n": 4,
@@ -34,7 +34,7 @@
    "ratio": 67.0
   },
   "금산읍 중도리": {
-   "jeonse_n": 5,
+   "jeonse_n": 4,
    "jeonse_median84": 18000,
    "sale_n": 13,
    "sale_median84": 24600,
@@ -58,9 +58,9 @@
    "built": 2015,
    "jeonse_n": 2,
    "jeonse_median84": 16500,
-   "sale_n": 4,
-   "sale_median84": 25750,
-   "ratio": 64.1
+   "sale_n": 7,
+   "sale_median84": 26000,
+   "ratio": 63.5
   },
   {
    "umd": "금산읍 중도리",
@@ -75,12 +75,6 @@
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 5,
-   "n84": 1,
-   "jeonse_median84": 9000
-  },
   {
    "month": "2025-12",
    "jeonse_count": 9,
@@ -143,6 +137,12 @@
   },
   {
    "month": "2026-10",
+   "jeonse_count": 2,
+   "n84": 0,
+   "jeonse_median84": null
+  },
+  {
+   "month": "2026-11",
    "jeonse_count": 1,
    "n84": 0,
    "jeonse_median84": null
@@ -151,6 +151,6 @@
  "rank": null,
  "rank_of": 178,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": -0.6,
- "gap84": 7050
+ "ratio_vs_avg_pp": -3.3,
+ "gap84": 8000
 }

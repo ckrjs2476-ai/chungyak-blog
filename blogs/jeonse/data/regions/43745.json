@@ -1,20 +1,20 @@
 {
  "lawd": "43745",
  "name": "충청북도 증평군",
- "updated": "2026-10-31",
+ "updated": "2026-11-14",
  "months": 12,
- "jeonse_count": 159,
- "wolse_count": 263,
- "wolse_share_pct": 62.3,
- "renew_share_pct": 11.3,
- "jeonse_n84": 43,
+ "jeonse_count": 160,
+ "wolse_count": 251,
+ "wolse_share_pct": 61.1,
+ "renew_share_pct": 11.2,
+ "jeonse_n84": 42,
  "jeonse_median84": 20690,
- "sale_n84": 99,
- "sale_median84": 25000,
- "ratio84": 82.8,
- "jeonse_recent3_median84": 22500,
- "jeonse_prev3_median84": 20690,
- "jeonse_change_pct": 8.7,
+ "sale_n84": 91,
+ "sale_median84": 24800,
+ "ratio84": 83.4,
+ "jeonse_recent3_median84": 25000,
+ "jeonse_prev3_median84": 22500,
+ "jeonse_change_pct": 11.1,
  "apts_with_both": 4,
  "apts_ratio_80_plus": 2,
  "apts_ratio_70_plus": 3,
@@ -22,52 +22,52 @@
   "증평읍 미암리": {
    "jeonse_n": 11,
    "jeonse_median84": 23500,
-   "sale_n": 17,
+   "sale_n": 15,
    "sale_median84": 31000,
    "ratio": 75.8
   },
   "증평읍 송산리": {
    "jeonse_n": 4,
    "jeonse_median84": 25500,
-   "sale_n": 11,
-   "sale_median84": 37800,
-   "ratio": 67.5
+   "sale_n": 10,
+   "sale_median84": 37650,
+   "ratio": 67.7
   },
   "증평읍 장동리": {
-   "jeonse_n": 6,
-   "jeonse_median84": 22750,
+   "jeonse_n": 5,
+   "jeonse_median84": 22500,
    "sale_n": 44,
    "sale_median84": 18750,
-   "ratio": 121.3
+   "ratio": 120.0
   },
   "증평읍 초중리": {
    "jeonse_n": 3,
    "jeonse_median84": 18000,
-   "sale_n": 11,
-   "sale_median84": 20500,
-   "ratio": 87.8
+   "sale_n": 10,
+   "sale_median84": 20350,
+   "ratio": 88.5
   }
  },
  "top_ratio_apts": [
+  {
+   "umd": "증평읍 장동리",
+   "apt": "대성베르힐리오파크",
+   "built": 2015,
+   "jeonse_n": 4,
+   "jeonse_median84": 23250,
+   "sale_n": 22,
+   "sale_median84": 26275,
+   "ratio": 88.5
+  },
   {
    "umd": "증평읍 초중리",
    "apt": "한라비발디",
    "built": 2006,
    "jeonse_n": 3,
    "jeonse_median84": 18000,
-   "sale_n": 11,
-   "sale_median84": 20500,
-   "ratio": 87.8
-  },
-  {
-   "umd": "증평읍 장동리",
-   "apt": "대성베르힐리오파크",
-   "built": 2015,
-   "jeonse_n": 5,
-   "jeonse_median84": 23000,
-   "sale_n": 22,
-   "sale_median84": 26275,
-   "ratio": 87.5
+   "sale_n": 10,
+   "sale_median84": 20350,
+   "ratio": 88.5
   },
   {
    "umd": "증평읍 미암리",
@@ -75,7 +75,7 @@
    "built": 2021,
    "jeonse_n": 11,
    "jeonse_median84": 23500,
-   "sale_n": 17,
+   "sale_n": 15,
    "sale_median84": 31000,
    "ratio": 75.8
   },
@@ -85,19 +85,13 @@
    "built": 2023,
    "jeonse_n": 4,
    "jeonse_median84": 25500,
-   "sale_n": 11,
-   "sale_median84": 37800,
-   "ratio": 67.5
+   "sale_n": 10,
+   "sale_median84": 37650,
+   "ratio": 67.7
   }
  ],
  "low_ratio_apts": [],
  "monthly": [
-  {
-   "month": "2025-11",
-   "jeonse_count": 8,
-   "n84": 2,
-   "jeonse_median84": 23500
-  },
   {
    "month": "2025-12",
    "jeonse_count": 10,
@@ -160,14 +154,20 @@
   },
   {
    "month": "2026-10",
+   "jeonse_count": 9,
+   "n84": 1,
+   "jeonse_median84": 25000
+  },
+  {
+   "month": "2026-11",
    "jeonse_count": 5,
    "n84": 0,
    "jeonse_median84": null
   }
  ],
- "rank": 44,
+ "rank": 41,
  "rank_of": 178,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 10.3,
- "gap84": 4310
+ "ratio_vs_avg_pp": 10.9,
+ "gap84": 4110
 }
