@@ -1,50 +1,5 @@
 [
  {
-  "name": "gasan-doosan-weve-management-fee-2026-08-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16746,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-09 10:41"
- },
- {
-  "name": "bupyeong-gunpo-chuncheon-jeonse-ratio-complexes-2026-10-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14692,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-09 10:41"
- },
- {
-  "name": "ipo-00299109-dart-size",
-  "ok": true,
-  "status": 200,
-  "title": "에스에프씨/증권신고서(지분증권)/2026.11.04",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33138,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099",
-  "at": "2026-11-09 10:41"
- },
- {
-  "name": "cy-2026000373-schedule",
-  "ok": false,
-  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373"
- },
- {
   "name": "gw-kapt-sido-avg-2026-11-09-songpa",
   "ok": true,
   "status": 200,
@@ -2645,5 +2600,59 @@
   "bytes": 20634,
   "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
   "at": "2026-11-15 22:43"
+ },
+ {
+  "name": "js-ranking-1019-jeonbuk-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_sido",
+   "lawd": "52770"
+  },
+  "size": [
+   760,
+   428
+  ],
+  "bytes": 13700,
+  "at": "2026-11-15 22:44"
+ },
+ {
+  "name": "js-43114-dong-chart-cr",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "43114"
+  },
+  "size": [
+   760,
+   428
+  ],
+  "bytes": 16396,
+  "at": "2026-11-15 22:44"
+ },
+ {
+  "name": "js-ranking-1019-rt-sunchang",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7462,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-15 22:45"
+ },
+ {
+  "name": "js-43114-rt-form-cheongwon",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7466,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-15 22:45"
  }
 ]
