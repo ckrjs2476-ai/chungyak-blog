@@ -1,47 +1,5 @@
 [
  {
-  "name": "seodaemun-gu-management-fee-2026-08-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11410",
-   "code": "A10023482"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16838,
-  "at": "2026-11-09 11:26"
- },
- {
-  "name": "gw-kapt-sido-avg-2026-11-09-seodaemun",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   451
-  ],
-  "bytes": 20642,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-11-09 11:26"
- },
- {
-  "name": "js-51170-gangwon-sido-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_sido",
-   "lawd": "51170"
-  },
-  "size": [
-   760,
-   428
-  ],
-  "bytes": 12618,
-  "at": "2026-11-09 12:43"
- },
- {
   "name": "js-51170-rt-form",
   "ok": true,
   "status": 200,
@@ -2655,5 +2613,37 @@
   "bytes": 33184,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000327",
   "at": "2026-11-16 07:53"
+ },
+ {
+  "name": "dr-jeonju-dronesoccer-wc-2026-11-15",
+  "ok": true,
+  "status": 200,
+  "title": "전주시 대표사이트 > 전주소식 > 알림마당 > 새소식 > 2025 전주드론축구월드컵(FIDA World Cup Jeonju 2025) 개최 안내(읽기)",
+  "size": [
+   760,
+   518
+  ],
+  "bytes": 29816,
+  "url": "https://www.jeonju.go.kr/planweb/board/view.9is?dataUid=9be517a89719f440019973cd46fc2c42&contentUid=ff8080818990c349018b041a87373953&tmpField14=&boardUid=ff8080818990c349018b1dbaa78e4b41&page=12",
+  "at": "2026-11-16 08:48"
+ },
+ {
+  "name": "dr-jeonju-dronesoccer-wc-full-2026-11-15",
+  "ok": true,
+  "status": 200,
+  "title": "전주시 대표사이트 > 전주소식 > 알림마당 > 새소식 > 2025 전주드론축구월드컵(FIDA World Cup Jeonju 2025) 개최 안내(읽기)",
+  "size": [
+   760,
+   2234
+  ],
+  "bytes": 92972,
+  "url": "https://www.jeonju.go.kr/planweb/board/view.9is?dataUid=9be517a89719f440019973cd46fc2c42&contentUid=ff8080818990c349018b041a87373953&tmpField14=&boardUid=ff8080818990c349018b1dbaa78e4b41&page=12",
+  "at": "2026-11-16 08:48"
+ },
+ {
+  "name": "dr-ktv-dronesoccer-2026-11-15",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.ktv.go.kr/content/view?content_id=738804&unit=266\", waiting until \"networkidle\"\n",
+  "url": "https://www.ktv.go.kr/content/view?content_id=738804&unit=266"
  }
 ]
