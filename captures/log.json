@@ -1,19 +1,5 @@
 [
  {
-  "name": "ipo-week-2026-11-09-size",
-  "ok": true,
-  "chart": {
-   "type": "gongmoju_size",
-   "corp_code": "00299109"
-  },
-  "size": [
-   760,
-   844
-  ],
-  "bytes": 26478,
-  "at": "2026-11-09 07:52"
- },
- {
   "name": "ipo-01025617-dart-1109",
   "ok": true,
   "status": 200,
@@ -2660,5 +2646,20 @@
   "bytes": 28616,
   "url": "https://www.privacy.go.kr/front/filming/selectFilmingList.do?pageIndex=1676",
   "at": "2026-11-15 20:07"
+ },
+ {
+  "name": "gw-41480-sannae2-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41480",
+   "code": "A10026541"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 17020,
+  "at": "2026-11-15 21:16"
  }
 ]
