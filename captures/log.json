@@ -1,31 +1,5 @@
 [
  {
-  "name": "gw-kapt-sido-avg-2026-11-09-songpa",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   451
-  ],
-  "bytes": 20642,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-11-09 11:05"
- },
- {
-  "name": "cy-2026000373-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   428
-  ],
-  "bytes": 20454,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
-  "at": "2026-11-09 11:05"
- },
- {
   "name": "seodaemun-gu-management-fee-2026-08-chart",
   "ok": true,
   "chart": {
@@ -2654,5 +2628,32 @@
   "bytes": 7466,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-15 22:45"
+ },
+ {
+  "name": "ipo-week-2026-11-16-size",
+  "ok": true,
+  "chart": {
+   "type": "gongmoju_size",
+   "corp_code": "01938746"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 26626,
+  "at": "2026-11-16 07:53"
+ },
+ {
+  "name": "ipo-01938746-dart-1116",
+  "ok": true,
+  "status": 200,
+  "title": "아델/증권신고서(지분증권)/2026.11.11",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 33184,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000327",
+  "at": "2026-11-16 07:53"
  }
 ]
