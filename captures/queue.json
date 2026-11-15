@@ -1,1 +1,10 @@
-[]
+[
+ {"name": "cy-2026000498-price-seobuk", "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000498&pblancNo=2026000498", "crop": {"from": "공급금액, 2순위", "to": "기타사항"}},
+ {"name": "js-ranking-1019-rt-sunchang", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "전북"], "wait": 2}, {"pick": ["#srhSggCd", "순창"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
+ {"name": "js-43114-rt-form-cheongwon", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "충청북"], "wait": 2}, {"pick": ["#srhSggCd", "청원"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560},
+ {"name": "ipo-wk1019-createz-dart", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000283", "sleep": 4},
+ {"name": "ipo-00960234-dart-guju", "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000649", "sleep": 4},
+ {"name": "gw-11560-yeongdeungpo-sido-chart", "chart": {"type": "gwanribi_sido", "lawd": "11560"}},
+ {"name": "gw-11710-ricenz-chart", "chart": {"type": "gwanribi_complex", "lawd": "11710", "code": "A13822003"}},
+ {"name": "gw-41287-kapt-sido-common", "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do", "sleep": 4, "crop": {"from": "발생월 기준"}, "height": 760, "width": 1280}
+]
