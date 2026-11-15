@@ -1,114 +1,5 @@
 [
  {
-  "name": "ipo-01025617-dart-1109",
-  "ok": true,
-  "status": 200,
-  "title": "하나에어로다이내믹스/증권신고서(지분증권)/2026.10.16",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 34930,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000159",
-  "at": "2026-11-09 07:52"
- },
- {
-  "name": "drone-free-zone-2026-molit",
-  "ok": true,
-  "status": 200,
-  "title": "보도자료",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 6806,
-  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0%ED%8A%B9%EB%B3%84%EC%9E%90%EC%9C%A0%ED%99%94%EA%B5%AC%EC%97%AD",
-  "at": "2026-11-09 08:51"
- },
- {
-  "name": "drone-free-zone-2026-law",
-  "ok": true,
-  "status": 200,
-  "title": "드론활용의촉진및기반조성에관한법률",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 43876,
-  "url": "https://www.law.go.kr/법령/드론활용의촉진및기반조성에관한법률",
-  "at": "2026-11-09 08:51"
- },
- {
-  "name": "cy-2026000502-price",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   403
-  ],
-  "bytes": 12192,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000502&pblancNo=2026000502",
-  "at": "2026-11-09 09:57"
- },
- {
-  "name": "helio-city-management-fee-2026-08-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11710",
-   "code": "A10025850"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16026,
-  "at": "2026-11-09 10:41"
- },
- {
-  "name": "olympic-park-foreon-management-fee-2026-08-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11740",
-   "code": "A10021122"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16598,
-  "at": "2026-11-09 10:41"
- },
- {
-  "name": "gangnam-gu-apartment-management-fee-2026-08-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_sido",
-   "lawd": "11680"
-  },
-  "size": [
-   760,
-   844
-  ],
-  "bytes": 22956,
-  "at": "2026-11-09 10:41"
- },
- {
-  "name": "jamsil-park-rio-management-fee-2026-08-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16682,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-09 10:41"
- },
- {
   "name": "gasan-doosan-weve-management-fee-2026-08-calc-1",
   "ok": true,
   "status": null,
@@ -2661,5 +2552,98 @@
   ],
   "bytes": 17020,
   "at": "2026-11-15 21:16"
+ },
+ {
+  "name": "gw-11560-yeongdeungpo-sido-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_sido",
+   "lawd": "11560"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 22916,
+  "at": "2026-11-15 22:41"
+ },
+ {
+  "name": "gw-11710-ricenz-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11710",
+   "code": "A13822003"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 15366,
+  "at": "2026-11-15 22:41"
+ },
+ {
+  "name": "cy-2026000498-price-seobuk",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   182
+  ],
+  "bytes": 7714,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000498&pblancNo=2026000498",
+  "at": "2026-11-15 22:41"
+ },
+ {
+  "name": "js-ranking-1019-rt-sunchang",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "js-43114-rt-form-cheongwon",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "ipo-wk1019-createz-dart",
+  "ok": true,
+  "status": 200,
+  "title": "크리에이츠/증권신고서(지분증권)/2026.10.19",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 23266,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000283",
+  "at": "2026-11-15 22:43"
+ },
+ {
+  "name": "ipo-00960234-dart-guju",
+  "ok": true,
+  "status": 200,
+  "title": "영광와이케이엠씨/증권신고서(지분증권)/2026.10.08",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 31808,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000649",
+  "at": "2026-11-15 22:43"
+ },
+ {
+  "name": "gw-41287-kapt-sido-common",
+  "ok": true,
+  "status": 200,
+  "title": "K-apt 공동주택관리정보시스템",
+  "size": [
+   760,
+   451
+  ],
+  "bytes": 20634,
+  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
+  "at": "2026-11-15 22:43"
  }
 ]
