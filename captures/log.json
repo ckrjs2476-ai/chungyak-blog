@@ -1,18 +1,5 @@
 [
  {
-  "name": "gw-kapt-sido-avg-2026-11-08",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   451
-  ],
-  "bytes": 20642,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-11-08 21:16"
- },
- {
   "name": "ipo-week-2026-11-09-size",
   "ok": true,
   "chart": {
@@ -2660,5 +2647,18 @@
   "bytes": 40776,
   "url": "https://www.privacy.go.kr/front/filming/selectFilmingList.do",
   "at": "2026-11-15 20:00"
+ },
+ {
+  "name": "dr-privacy-filming-last-2026-11-15",
+  "ok": true,
+  "status": 200,
+  "title": "촬영지역 조회 | 개인정보 포털",
+  "size": [
+   760,
+   860
+  ],
+  "bytes": 28616,
+  "url": "https://www.privacy.go.kr/front/filming/selectFilmingList.do?pageIndex=1676",
+  "at": "2026-11-15 20:07"
  }
 ]
