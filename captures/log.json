@@ -1,44 +1,5 @@
 [
  {
-  "name": "drone-industry-plan-2026-portal",
-  "ok": true,
-  "status": 200,
-  "title": "드론과 기체 < 드론통계 < 드론정보 | 드론정보포털",
-  "size": [
-   760,
-   152
-  ],
-  "bytes": 6428,
-  "url": "https://www.droneportal.or.kr/main/web/contents/M020-05-02",
-  "at": "2026-11-08 19:57"
- },
- {
-  "name": "drone-industry-plan-2026-portal-b",
-  "ok": true,
-  "status": 200,
-  "title": "드론과 기체 < 드론통계 < 드론정보 | 드론정보포털",
-  "size": [
-   760,
-   290
-  ],
-  "bytes": 12624,
-  "url": "https://www.droneportal.or.kr/main/web/contents/M020-05-02",
-  "at": "2026-11-08 19:58"
- },
- {
-  "name": "drone-industry-plan-2026-portal-full",
-  "ok": true,
-  "status": 200,
-  "title": "드론과 기체 < 드론통계 < 드론정보 | 드론정보포털",
-  "size": [
-   760,
-   2493
-  ],
-  "bytes": 78950,
-  "url": "https://www.droneportal.or.kr/main/web/contents/M020-05-02",
-  "at": "2026-11-08 19:58"
- },
- {
   "name": "gw-41135-ipark-chart",
   "ok": true,
   "chart": {
@@ -2657,5 +2618,49 @@
   "bytes": 14444,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000634&pblancNo=2025000634",
   "at": "2026-11-15 18:38"
+ },
+ {
+  "name": "js-11740-ratio-history",
+  "ok": true,
+  "chart": {
+   "type": "history",
+   "blog": "jeonse",
+   "entity": "11740",
+   "metric": "ratio84",
+   "title": "강동구 84㎡ 전세가율 기록",
+   "unit": "%"
+  },
+  "size": [
+   760,
+   380
+  ],
+  "bytes": 11262,
+  "at": "2026-11-15 19:47"
+ },
+ {
+  "name": "js-11740-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14836,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-15 19:47"
+ },
+ {
+  "name": "js-11740-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14980,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-15 19:47"
  }
 ]
