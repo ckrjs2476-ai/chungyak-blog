@@ -95,3 +95,10 @@
   - 전세 3: asan-si-jeonse-flow-2026-11, gyeongnam-jeonse-ratio-ranking-2026-11, songpa-gu-jeonse-ratio-4weeks-2026-11
   - 청약 2: bucheon-daejang-housetory-decent(11-13 예약 발행이라 미룬 것), harrington-place-mullae-bunyangga-2026
   - 다음 실행 11-15 12:03: 청약(gyeyang-kaib-yubora-score-2026-11 먼저) → 드론 → 관리비 → 공모주 → 전세. 11-18(수)은 쉬는 날이라 그날 잡히면 11-19로 옮김.
+
+- 11-15 낮(12:04~12:11) 11건 요청, 12번째(공모주 ipo-amended-filing-2026-11)에서 할당량 초과
+  - 청약 3: gyeyang-kaib-yubora-score-2026-11(11-14 남은 것), dongnae-apartment-pyeong-price-2025-09, siheung-apartment-silgeorae-2026-11
+  - 드론 3: drone-show-korea-dsk-2026, drone-japan-regulation-2026, drone-industry-alliance-2026
+  - 관리비 3: gangbuk-gu-apartment-management-fee-gap, apartment-elevator-fee-suji-gu-2026-09, sanseong-xi-prugio-1-management-fee
+  - 공모주 2: ipo-lead-manager-2026-11, kte-ipo-2026-12
+  - 다음 실행 11-16 12:22: 공모주(ipo-amended-filing-2026-11 먼저) → 전세 → 청약 → 드론 → 관리비
