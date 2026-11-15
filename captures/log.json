@@ -1,20 +1,5 @@
 [
  {
-  "name": "gw-41135-ipark-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41135",
-   "code": "A46381114"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16874,
-  "at": "2026-11-08 21:16"
- },
- {
   "name": "gw-kapt-sido-avg-2026-11-08",
   "ok": true,
   "status": 200,
@@ -2662,5 +2647,18 @@
   "bytes": 14980,
   "url": "blogs/jeonse/pages/calculator.md",
   "at": "2026-11-15 19:47"
+ },
+ {
+  "name": "dr-privacy-filming-list-2026-11-15",
+  "ok": true,
+  "status": 200,
+  "title": "촬영지역 조회 | 개인정보 포털",
+  "size": [
+   760,
+   1054
+  ],
+  "bytes": 40776,
+  "url": "https://www.privacy.go.kr/front/filming/selectFilmingList.do",
+  "at": "2026-11-15 20:00"
  }
 ]
