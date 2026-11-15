@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: jeonse (2026-11-15 15:37 KST)
+# 애드센스 기준 점검: jeonse (2026-11-15 16:59 KST)
 
 - 공개 글: 53편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -59,7 +59,7 @@
 | 100 | [수지구 아파트 전세 5억 7,000만 원, 111개](https://jeonse-ondogye.blogspot.com/2026/11/yongin-suji-gu-jeonse-complex-ratio.html) `2026-11-06-41465-region.md` | 3601 | 0 | 2 | - |
 | 100 | [시흥시 아파트 전세, 정왕동 76.0%와 배곧동 6](https://jeonse-ondogye.blogspot.com/2026/11/siheung-si-jeonse-complex-spread-2026-11.html) `2026-11-10-41390-region.md` | 3575 | 0 | 2 | - |
 | 100 | [신정동 아파트 전세 5억 1,500만 원, 울산에서](https://jeonse-ondogye.blogspot.com/2026/10/ulsan-nam-gu-sinjeong-dong-jeonse-flow.html) `2026-10-27-31140-region.md` | 2671 | 0 | 1 | - |
-| 100 | [아산시 아파트 전세 10월 3억 1,500만 원, ](https://jeonse-ondogye.blogspot.com/2026/11/asan-si-jeonse-flow-2026-11.html) `2026-11-13-44200-region.md` | 3112 | 0 | 2 | - |
+| 100 | [아산시 아파트 전세 10월 3억 1,500만 원(1](https://jeonse-ondogye.blogspot.com/2026/11/asan-si-jeonse-flow-2026-11.html) `2026-11-13-44200-region.md` | 3112 | 0 | 2 | - |
 | 100 | [안성시 아파트 전세, 월세 비중 74.2%인데 전세](https://jeonse-ondogye.blogspot.com/2026/10/anseong-jeju-seosan-wolse-share-jeonse.html) `2026-10-24-wolse-share-topic.md` | 3035 | 0 | 1 | - |
 | 100 | [연수구 아파트 전세 3억 9,375만 원, 3.6%](https://jeonse-ondogye.blogspot.com/2026/10/yeonsu-gu-jeonse-flow-2026-10.html) `2026-10-21-28185-region.md` | 2511 | 0 | 1 | - |
 | 100 | [영종구 아파트 전세 2억 8,000만 원, 7곳 전](https://jeonse-ondogye.blogspot.com/2026/11/yeongjong-gu-same-deposit-jeonse-ratio.html) `2026-11-03-same-deposit-topic.md` | 2902 | 0 | 2 | - |
@@ -76,6 +76,6 @@
 | 100 | [충청남도 아파트 전세 11개 시군구, 계룡시만 평균](https://jeonse-ondogye.blogspot.com/2026/11/chungnam-jeonse-ratio-ranking-2026-11.html) `2026-11-07-chungnam-ranking.md` | 3335 | 0 | 2 | - |
 | 100 | [파주시 아파트 전세, 98개 단지 중 70곳이 전세](https://jeonse-ondogye.blogspot.com/2026/10/paju-si-jeonse-apt-ratio-2026-10.html) `2026-10-22-41480-region.md` | 3293 | 0 | 1 | - |
 | 100 | [평택 고덕동 아파트 전세 3억 원, 전세가율 53.](https://jeonse-ondogye.blogspot.com/2026/10/pyeongtaek-godeok-dong-jeonse-gap-2026.html) `2026-10-23-41220-region.md` | 3390 | 0 | 1 | - |
-| 100 | [흥덕구 아파트 전세 석 달 30.4%, 2억 5,5](https://jeonse-ondogye.blogspot.com/2026/11/cheongju-heungdeok-gu-jeonse-flow-2026.html) `2026-11-12-43113-region.md` | 3638 | 0 | 2 | - |
+| 100 | [흥덕구 아파트 전세 석 달 30.4%(10월 31일](https://jeonse-ondogye.blogspot.com/2026/11/cheongju-heungdeok-gu-jeonse-flow-2026.html) `2026-11-12-43113-region.md` | 3638 | 0 | 2 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.
