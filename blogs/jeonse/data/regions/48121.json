@@ -1,56 +1,56 @@
 {
  "lawd": "48121",
  "name": "경상남도 창원시 의창구",
- "updated": "2026-11-01",
+ "updated": "2026-11-15",
  "months": 12,
- "jeonse_count": 1221,
- "wolse_count": 904,
- "wolse_share_pct": 42.5,
- "renew_share_pct": 20.9,
- "jeonse_n84": 552,
- "jeonse_median84": 39000,
- "sale_n84": 762,
- "sale_median84": 34562,
- "ratio84": 112.8,
+ "jeonse_count": 1265,
+ "wolse_count": 938,
+ "wolse_share_pct": 42.6,
+ "renew_share_pct": 21.1,
+ "jeonse_n84": 570,
+ "jeonse_median84": 39250,
+ "sale_n84": 790,
+ "sale_median84": 34500,
+ "ratio84": 113.8,
  "jeonse_recent3_median84": 40000,
  "jeonse_prev3_median84": 40000,
  "jeonse_change_pct": 0.0,
- "apts_with_both": 27,
+ "apts_with_both": 28,
  "apts_ratio_80_plus": 15,
  "apts_ratio_70_plus": 21,
  "umd": {
   "도계동": {
    "jeonse_n": 4,
    "jeonse_median84": 17500,
-   "sale_n": 21,
-   "sale_median84": 19000,
-   "ratio": 92.1
+   "sale_n": 22,
+   "sale_median84": 18975,
+   "ratio": 92.2
   },
   "동정동": {
-   "jeonse_n": 3,
-   "jeonse_median84": 10000,
+   "jeonse_n": 4,
+   "jeonse_median84": 13000,
    "sale_n": 22,
    "sale_median84": 30850,
-   "ratio": 32.4
+   "ratio": 42.1
   },
   "봉림동": {
    "jeonse_n": 5,
    "jeonse_median84": 34000,
-   "sale_n": 24,
-   "sale_median84": 41000,
-   "ratio": 82.9
+   "sale_n": 26,
+   "sale_median84": 41250,
+   "ratio": 82.4
   },
   "북면 감계리": {
-   "jeonse_n": 110,
-   "jeonse_median84": 23425,
-   "sale_n": 222,
-   "sale_median84": 29500,
-   "ratio": 79.4
+   "jeonse_n": 113,
+   "jeonse_median84": 23850,
+   "sale_n": 233,
+   "sale_median84": 30500,
+   "ratio": 78.2
   },
   "북면 무동리": {
-   "jeonse_n": 69,
+   "jeonse_n": 71,
    "jeonse_median84": 16000,
-   "sale_n": 88,
+   "sale_n": 93,
    "sale_median84": 18000,
    "ratio": 88.9
   },
@@ -62,18 +62,18 @@
    "ratio": 77.8
   },
   "중동": {
-   "jeonse_n": 139,
+   "jeonse_n": 143,
    "jeonse_median84": 51000,
-   "sale_n": 109,
-   "sale_median84": 92200,
-   "ratio": 55.3
+   "sale_n": 110,
+   "sale_median84": 92350,
+   "ratio": 55.2
   },
   "팔용동": {
-   "jeonse_n": 94,
-   "jeonse_median84": 30000,
-   "sale_n": 179,
-   "sale_median84": 53000,
-   "ratio": 56.6
+   "jeonse_n": 98,
+   "jeonse_median84": 31500,
+   "sale_n": 185,
+   "sale_median84": 52900,
+   "ratio": 59.5
   }
  },
  "top_ratio_apts": [
@@ -81,11 +81,11 @@
    "umd": "북면 무동리",
    "apt": "창원무동STX칸1차",
    "built": 2015,
-   "jeonse_n": 23,
-   "jeonse_median84": 16500,
-   "sale_n": 35,
+   "jeonse_n": 24,
+   "jeonse_median84": 16450,
+   "sale_n": 36,
    "sale_median84": 18000,
-   "ratio": 91.7
+   "ratio": 91.4
   },
   {
    "umd": "북면 무동리",
@@ -93,7 +93,7 @@
    "built": 2015,
    "jeonse_n": 7,
    "jeonse_median84": 15500,
-   "sale_n": 4,
+   "sale_n": 5,
    "sale_median84": 17000,
    "ratio": 91.2
   },
@@ -108,10 +108,20 @@
    "ratio": 89.4
   },
   {
+   "umd": "북면 감계리",
+   "apt": "감계아내에코프리미엄1차",
+   "built": 2014,
+   "jeonse_n": 26,
+   "jeonse_median84": 22500,
+   "sale_n": 27,
+   "sale_median84": 25300,
+   "ratio": 88.9
+  },
+  {
    "umd": "북면 무동리",
    "apt": "휴먼빌1단지",
    "built": 2013,
-   "jeonse_n": 19,
+   "jeonse_n": 20,
    "jeonse_median84": 16000,
    "sale_n": 18,
    "sale_median84": 18000,
@@ -119,33 +129,13 @@
   },
   {
    "umd": "북면 감계리",
-   "apt": "창원감계힐스테이트4차",
-   "built": 2017,
-   "jeonse_n": 11,
-   "jeonse_median84": 25000,
-   "sale_n": 13,
-   "sale_median84": 28200,
-   "ratio": 88.7
-  },
-  {
-   "umd": "북면 감계리",
    "apt": "창원감계힐스테이트1차",
    "built": 2014,
    "jeonse_n": 13,
    "jeonse_median84": 25000,
-   "sale_n": 30,
-   "sale_median84": 28250,
-   "ratio": 88.5
-  },
-  {
-   "umd": "북면 감계리",
-   "apt": "감계아내에코프리미엄1차",
-   "built": 2014,
-   "jeonse_n": 26,
-   "jeonse_median84": 22500,
-   "sale_n": 26,
-   "sale_median84": 25450,
-   "ratio": 88.4
+   "sale_n": 31,
+   "sale_median84": 28200,
+   "ratio": 88.7
   },
   {
    "umd": "북면 감계리",
@@ -159,9 +149,19 @@
   },
   {
    "umd": "북면 감계리",
+   "apt": "창원감계힐스테이트4차",
+   "built": 2017,
+   "jeonse_n": 12,
+   "jeonse_median84": 24800,
+   "sale_n": 13,
+   "sale_median84": 28200,
+   "ratio": 87.9
+  },
+  {
+   "umd": "북면 감계리",
    "apt": "휴먼빌",
    "built": 2014,
-   "jeonse_n": 12,
+   "jeonse_n": 13,
    "jeonse_median84": 23000,
    "sale_n": 17,
    "sale_median84": 26300,
@@ -173,21 +173,31 @@
    "built": 2017,
    "jeonse_n": 12,
    "jeonse_median84": 29000,
-   "sale_n": 24,
+   "sale_n": 26,
    "sale_median84": 33800,
    "ratio": 85.8
   }
  ],
  "low_ratio_apts": [
   {
+   "umd": "명서동",
+   "apt": "명곡두산위브",
+   "built": 2010,
+   "jeonse_n": 2,
+   "jeonse_median84": 28154,
+   "sale_n": 6,
+   "sale_median84": 54585,
+   "ratio": 51.6
+  },
+  {
    "umd": "중동",
    "apt": "창원중동유니시티1단지",
    "built": 2019,
-   "jeonse_n": 23,
+   "jeonse_n": 26,
    "jeonse_median84": 52000,
-   "sale_n": 24,
-   "sale_median84": 94850,
-   "ratio": 54.8
+   "sale_n": 25,
+   "sale_median84": 95000,
+   "ratio": 54.7
   },
   {
    "umd": "중동",
@@ -203,7 +213,7 @@
    "umd": "중동",
    "apt": "창원중동유니시티4단지",
    "built": 2019,
-   "jeonse_n": 48,
+   "jeonse_n": 49,
    "jeonse_median84": 52000,
    "sale_n": 32,
    "sale_median84": 93500,
@@ -218,16 +228,6 @@
    "sale_n": 34,
    "sale_median84": 89650,
    "ratio": 55.8
-  },
-  {
-   "umd": "팔용동",
-   "apt": "벽산블루밍B",
-   "built": 1999,
-   "jeonse_n": 29,
-   "jeonse_median84": 27000,
-   "sale_n": 32,
-   "sale_median84": 39850,
-   "ratio": 67.8
   }
  ],
  "monthly": [
@@ -281,35 +281,41 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 87,
+   "jeonse_count": 88,
    "n84": 44,
    "jeonse_median84": 40000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 87,
-   "n84": 46,
+   "jeonse_count": 90,
+   "n84": 49,
    "jeonse_median84": 40000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 79,
-   "n84": 31,
-   "jeonse_median84": 30500
+   "jeonse_count": 91,
+   "n84": 39,
+   "jeonse_median84": 28154
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 28,
+   "n84": 7,
+   "jeonse_median84": 50000
   }
  ],
- "rank": 7,
+ "rank": 6,
  "rank_of": 178,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 40.3,
+ "ratio_vs_avg_pp": 41.3,
  "umd_ratio_high": {
   "name": "북면 무동리",
   "ratio": 88.9
  },
  "umd_ratio_low": {
   "name": "중동",
-  "ratio": 55.3
+  "ratio": 55.2
  },
- "umd_spread_pp": 33.6,
- "gap84": -4438
+ "umd_spread_pp": 33.7,
+ "gap84": -4750
 }

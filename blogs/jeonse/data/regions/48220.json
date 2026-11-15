@@ -1,37 +1,37 @@
 {
  "lawd": "48220",
  "name": "경상남도 통영시",
- "updated": "2026-11-01",
+ "updated": "2026-11-15",
  "months": 12,
- "jeonse_count": 150,
- "wolse_count": 351,
+ "jeonse_count": 156,
+ "wolse_count": 366,
  "wolse_share_pct": 70.1,
- "renew_share_pct": 12.0,
- "jeonse_n84": 61,
+ "renew_share_pct": 11.5,
+ "jeonse_n84": 63,
  "jeonse_median84": 20000,
- "sale_n84": 321,
+ "sale_n84": 330,
  "sale_median84": 23000,
  "ratio84": 87.0,
- "jeonse_recent3_median84": 9000,
+ "jeonse_recent3_median84": 9750,
  "jeonse_prev3_median84": 21000,
- "jeonse_change_pct": -57.1,
- "apts_with_both": 10,
- "apts_ratio_80_plus": 5,
- "apts_ratio_70_plus": 9,
+ "jeonse_change_pct": -53.6,
+ "apts_with_both": 13,
+ "apts_ratio_80_plus": 6,
+ "apts_ratio_70_plus": 11,
  "umd": {
   "광도면 안정리": {
    "jeonse_n": 11,
    "jeonse_median84": 12000,
-   "sale_n": 25,
-   "sale_median84": 12700,
-   "ratio": 94.5
+   "sale_n": 26,
+   "sale_median84": 12850,
+   "ratio": 93.4
   },
   "광도면 죽림리": {
-   "jeonse_n": 25,
-   "jeonse_median84": 23000,
-   "sale_n": 155,
-   "sale_median84": 26000,
-   "ratio": 88.5
+   "jeonse_n": 26,
+   "jeonse_median84": 22500,
+   "sale_n": 160,
+   "sale_median84": 25850,
+   "ratio": 87.0
   },
   "무전동": {
    "jeonse_n": 3,
@@ -50,16 +50,16 @@
   "북신동": {
    "jeonse_n": 12,
    "jeonse_median84": 27500,
-   "sale_n": 43,
-   "sale_median84": 17300,
-   "ratio": 159.0
+   "sale_n": 45,
+   "sale_median84": 16800,
+   "ratio": 163.7
   },
   "용남면 동달리": {
-   "jeonse_n": 6,
-   "jeonse_median84": 8750,
+   "jeonse_n": 7,
+   "jeonse_median84": 9000,
    "sale_n": 22,
    "sale_median84": 21000,
-   "ratio": 41.7
+   "ratio": 42.9
   }
  },
  "top_ratio_apts": [
@@ -69,9 +69,9 @@
    "built": 2010,
    "jeonse_n": 4,
    "jeonse_median84": 12250,
-   "sale_n": 10,
-   "sale_median84": 12650,
-   "ratio": 96.8
+   "sale_n": 11,
+   "sale_median84": 12700,
+   "ratio": 96.5
   },
   {
    "umd": "광도면 안정리",
@@ -99,9 +99,9 @@
    "built": 2014,
    "jeonse_n": 3,
    "jeonse_median84": 21000,
-   "sale_n": 8,
-   "sale_median84": 23950,
-   "ratio": 87.7
+   "sale_n": 9,
+   "sale_median84": 24000,
+   "ratio": 87.5
   },
   {
    "umd": "광도면 죽림리",
@@ -109,9 +109,19 @@
    "built": 2018,
    "jeonse_n": 6,
    "jeonse_median84": 28000,
-   "sale_n": 31,
-   "sale_median84": 33800,
-   "ratio": 82.8
+   "sale_n": 32,
+   "sale_median84": 33650,
+   "ratio": 83.2
+  },
+  {
+   "umd": "광도면 죽림리",
+   "apt": "코아루2단지",
+   "built": 2018,
+   "jeonse_n": 2,
+   "jeonse_median84": 21000,
+   "sale_n": 3,
+   "sale_median84": 25800,
+   "ratio": 81.4
   },
   {
    "umd": "북신동",
@@ -134,6 +144,16 @@
    "ratio": 76.4
   },
   {
+   "umd": "용남면 동달리",
+   "apt": "미진이지비아2차",
+   "built": 2016,
+   "jeonse_n": 2,
+   "jeonse_median84": 18000,
+   "sale_n": 12,
+   "sale_median84": 23900,
+   "ratio": 75.3
+  },
+  {
    "umd": "북신동",
    "apt": "진우하이야트맨션",
    "built": 1990,
@@ -142,6 +162,28 @@
    "sale_n": 2,
    "sale_median84": 12350,
    "ratio": 74.5
+  }
+ ],
+ "low_ratio_apts": [
+  {
+   "umd": "용남면 동달리",
+   "apt": "청구",
+   "built": 2000,
+   "jeonse_n": 5,
+   "jeonse_median84": 8500,
+   "sale_n": 10,
+   "sale_median84": 14300,
+   "ratio": 59.4
+  },
+  {
+   "umd": "북신동",
+   "apt": "일성한빛타운",
+   "built": 1995,
+   "jeonse_n": 2,
+   "jeonse_median84": 8500,
+   "sale_n": 2,
+   "sale_median84": 13650,
+   "ratio": 62.3
   },
   {
    "umd": "광도면 죽림리",
@@ -154,17 +196,26 @@
    "ratio": 70.2
   },
   {
+   "umd": "북신동",
+   "apt": "진우하이야트맨션",
+   "built": 1990,
+   "jeonse_n": 2,
+   "jeonse_median84": 9200,
+   "sale_n": 2,
+   "sale_median84": 12350,
+   "ratio": 74.5
+  },
+  {
    "umd": "용남면 동달리",
-   "apt": "청구",
-   "built": 2000,
-   "jeonse_n": 5,
-   "jeonse_median84": 8500,
-   "sale_n": 10,
-   "sale_median84": 14300,
-   "ratio": 59.4
+   "apt": "미진이지비아2차",
+   "built": 2016,
+   "jeonse_n": 2,
+   "jeonse_median84": 18000,
+   "sale_n": 12,
+   "sale_median84": 23900,
+   "ratio": 75.3
   }
  ],
- "low_ratio_apts": [],
  "monthly": [
   {
    "month": "2025-12",
@@ -228,9 +279,15 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 7,
+   "jeonse_count": 10,
    "n84": 5,
    "jeonse_median84": 20000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 3,
+   "n84": 2,
+   "jeonse_median84": 19000
   }
  ],
  "rank": 32,
@@ -239,12 +296,12 @@
  "ratio_vs_avg_pp": 14.5,
  "umd_ratio_high": {
   "name": "북신동",
-  "ratio": 159.0
+  "ratio": 163.7
  },
  "umd_ratio_low": {
   "name": "광도면 죽림리",
-  "ratio": 88.5
+  "ratio": 87.0
  },
- "umd_spread_pp": 70.5,
+ "umd_spread_pp": 76.7,
  "gap84": 3000
 }

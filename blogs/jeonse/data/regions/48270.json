@@ -1,37 +1,37 @@
 {
  "lawd": "48270",
  "name": "경상남도 밀양시",
- "updated": "2026-11-01",
+ "updated": "2026-11-15",
  "months": 12,
- "jeonse_count": 99,
- "wolse_count": 329,
- "wolse_share_pct": 76.9,
- "renew_share_pct": 8.1,
- "jeonse_n84": 37,
+ "jeonse_count": 104,
+ "wolse_count": 342,
+ "wolse_share_pct": 76.7,
+ "renew_share_pct": 7.7,
+ "jeonse_n84": 39,
  "jeonse_median84": 27000,
- "sale_n84": 260,
+ "sale_n84": 269,
  "sale_median84": 22000,
  "ratio84": 122.7,
  "jeonse_recent3_median84": 27000,
  "jeonse_prev3_median84": 25000,
  "jeonse_change_pct": 8.0,
  "apts_with_both": 8,
- "apts_ratio_80_plus": 6,
+ "apts_ratio_80_plus": 5,
  "apts_ratio_70_plus": 8,
  "umd": {
   "내이동": {
-   "jeonse_n": 23,
+   "jeonse_n": 24,
    "jeonse_median84": 27000,
-   "sale_n": 77,
-   "sale_median84": 32000,
-   "ratio": 84.4
+   "sale_n": 81,
+   "sale_median84": 32500,
+   "ratio": 83.1
   },
   "삼문동": {
-   "jeonse_n": 9,
-   "jeonse_median84": 24000,
-   "sale_n": 126,
+   "jeonse_n": 10,
+   "jeonse_median84": 24500,
+   "sale_n": 127,
    "sale_median84": 19200,
-   "ratio": 125.0
+   "ratio": 127.6
   }
  },
  "top_ratio_apts": [
@@ -67,19 +67,9 @@
   },
   {
    "umd": "내이동",
-   "apt": "이편한세상밀양나노밸리",
-   "built": 2022,
-   "jeonse_n": 4,
-   "jeonse_median84": 28500,
-   "sale_n": 16,
-   "sale_median84": 35450,
-   "ratio": 80.4
-  },
-  {
-   "umd": "내이동",
    "apt": "밀양나노시티한신더휴",
    "built": 2020,
-   "jeonse_n": 11,
+   "jeonse_n": 12,
    "jeonse_median84": 27000,
    "sale_n": 7,
    "sale_median84": 33700,
@@ -94,6 +84,16 @@
    "sale_n": 13,
    "sale_median84": 42500,
    "ratio": 80.0
+  },
+  {
+   "umd": "내이동",
+   "apt": "이편한세상밀양나노밸리",
+   "built": 2022,
+   "jeonse_n": 4,
+   "jeonse_median84": 28500,
+   "sale_n": 18,
+   "sale_median84": 35800,
+   "ratio": 79.6
   },
   {
    "umd": "삼문동",
@@ -111,7 +111,7 @@
    "built": 2019,
    "jeonse_n": 4,
    "jeonse_median84": 27500,
-   "sale_n": 17,
+   "sale_n": 18,
    "sale_median84": 38500,
    "ratio": 71.4
   }
@@ -180,14 +180,29 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 6,
-   "n84": 2,
-   "jeonse_median84": 18900
+   "jeonse_count": 9,
+   "n84": 3,
+   "jeonse_median84": 27000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 2,
+   "n84": 1,
+   "jeonse_median84": 37000
   }
  ],
  "rank": 3,
  "rank_of": 178,
  "avg_ratio84_all": 72.5,
  "ratio_vs_avg_pp": 50.2,
+ "umd_ratio_high": {
+  "name": "삼문동",
+  "ratio": 127.6
+ },
+ "umd_ratio_low": {
+  "name": "내이동",
+  "ratio": 83.1
+ },
+ "umd_spread_pp": 44.5,
  "gap84": -5000
 }
