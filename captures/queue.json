@@ -1,1 +1,5 @@
-[]
+[
+  {"name": "js-11740-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "142600"]}, {"fill": ["#dep", "68425"]}, {"pick": ["#reg", "강동"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+  {"name": "js-11740-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "147000"]}, {"fill": ["#dep", "69000"]}, {"pick": ["#reg", "강동"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+  {"name": "js-11740-ratio-history", "chart": {"type": "history", "blog": "jeonse", "entity": "11740", "metric": "ratio84", "title": "강동구 84㎡ 전세가율 기록", "unit": "%"}}
+]
