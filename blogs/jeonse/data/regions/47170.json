@@ -1,20 +1,20 @@
 {
  "lawd": "47170",
  "name": "경상북도 안동시",
- "updated": "2026-11-02",
+ "updated": "2026-11-16",
  "months": 12,
- "jeonse_count": 325,
- "wolse_count": 608,
- "wolse_share_pct": 65.2,
- "renew_share_pct": 32.3,
- "jeonse_n84": 54,
- "jeonse_median84": 24675,
- "sale_n84": 333,
- "sale_median84": 29500,
- "ratio84": 83.6,
- "jeonse_recent3_median84": 27000,
+ "jeonse_count": 338,
+ "wolse_count": 637,
+ "wolse_share_pct": 65.3,
+ "renew_share_pct": 32.8,
+ "jeonse_n84": 57,
+ "jeonse_median84": 24780,
+ "sale_n84": 345,
+ "sale_median84": 29100,
+ "ratio84": 85.2,
+ "jeonse_recent3_median84": 28000,
  "jeonse_prev3_median84": 25500,
- "jeonse_change_pct": 5.9,
+ "jeonse_change_pct": 9.8,
  "apts_with_both": 9,
  "apts_ratio_80_plus": 2,
  "apts_ratio_70_plus": 7,
@@ -22,44 +22,51 @@
   "노하동": {
    "jeonse_n": 3,
    "jeonse_median84": 23100,
-   "sale_n": 9,
-   "sale_median84": 20200,
-   "ratio": 114.4
+   "sale_n": 10,
+   "sale_median84": 24250,
+   "ratio": 95.3
   },
   "당북동": {
    "jeonse_n": 4,
    "jeonse_median84": 35000,
-   "sale_n": 20,
-   "sale_median84": 43900,
-   "ratio": 79.7
+   "sale_n": 22,
+   "sale_median84": 44000,
+   "ratio": 79.5
+  },
+  "송현동": {
+   "jeonse_n": 3,
+   "jeonse_median84": 12000,
+   "sale_n": 52,
+   "sale_median84": 32000,
+   "ratio": 37.5
   },
   "옥동": {
    "jeonse_n": 6,
    "jeonse_median84": 26600,
-   "sale_n": 84,
-   "sale_median84": 35800,
-   "ratio": 74.3
+   "sale_n": 86,
+   "sale_median84": 35500,
+   "ratio": 74.9
   },
   "용상동": {
-   "jeonse_n": 19,
+   "jeonse_n": 20,
    "jeonse_median84": 24780,
-   "sale_n": 53,
-   "sale_median84": 30500,
-   "ratio": 81.2
+   "sale_n": 56,
+   "sale_median84": 30450,
+   "ratio": 81.4
   },
   "풍산읍 막곡리": {
-   "jeonse_n": 9,
+   "jeonse_n": 10,
    "jeonse_median84": 25000,
-   "sale_n": 5,
-   "sale_median84": 34400,
-   "ratio": 72.7
+   "sale_n": 6,
+   "sale_median84": 34350,
+   "ratio": 72.8
   },
   "풍천면 갈전리": {
    "jeonse_n": 3,
    "jeonse_median84": 22000,
-   "sale_n": 7,
-   "sale_median84": 21835,
-   "ratio": 100.8
+   "sale_n": 8,
+   "sale_median84": 22667,
+   "ratio": 97.1
   }
  },
  "top_ratio_apts": [
@@ -69,9 +76,9 @@
    "built": 2020,
    "jeonse_n": 3,
    "jeonse_median84": 22000,
-   "sale_n": 7,
-   "sale_median84": 21835,
-   "ratio": 100.8
+   "sale_n": 8,
+   "sale_median84": 22667,
+   "ratio": 97.1
   },
   {
    "umd": "용상동",
@@ -79,7 +86,7 @@
    "built": 2011,
    "jeonse_n": 2,
    "jeonse_median84": 27900,
-   "sale_n": 24,
+   "sale_n": 25,
    "sale_median84": 32000,
    "ratio": 87.2
   },
@@ -89,7 +96,7 @@
    "built": 2018,
    "jeonse_n": 2,
    "jeonse_median84": 23550,
-   "sale_n": 4,
+   "sale_n": 5,
    "sale_median84": 29500,
    "ratio": 79.8
   },
@@ -99,9 +106,9 @@
    "built": 2015,
    "jeonse_n": 4,
    "jeonse_median84": 35000,
-   "sale_n": 20,
-   "sale_median84": 43900,
-   "ratio": 79.7
+   "sale_n": 22,
+   "sale_median84": 44000,
+   "ratio": 79.5
   },
   {
    "umd": "법흥동",
@@ -127,11 +134,11 @@
    "umd": "풍산읍 막곡리",
    "apt": "영무예다음포레스트",
    "built": 2024,
-   "jeonse_n": 9,
+   "jeonse_n": 10,
    "jeonse_median84": 25000,
-   "sale_n": 5,
-   "sale_median84": 34400,
-   "ratio": 72.7
+   "sale_n": 6,
+   "sale_median84": 34350,
+   "ratio": 72.8
   },
   {
    "umd": "옥동",
@@ -149,9 +156,9 @@
    "built": 2001,
    "jeonse_n": 2,
    "jeonse_median84": 12000,
-   "sale_n": 8,
-   "sale_median84": 22500,
-   "ratio": 53.3
+   "sale_n": 9,
+   "sale_median84": 22000,
+   "ratio": 54.5
   }
  ],
  "low_ratio_apts": [],
@@ -212,20 +219,26 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 32,
+   "jeonse_count": 34,
    "n84": 8,
    "jeonse_median84": 30000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 30,
-   "n84": 4,
-   "jeonse_median84": 30000
+   "jeonse_count": 35,
+   "n84": 5,
+   "jeonse_median84": 26000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 6,
+   "n84": 2,
+   "jeonse_median84": 28500
   }
  ],
- "rank": 40,
- "rank_of": 178,
+ "rank": 34,
+ "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 11.1,
- "gap84": 4825
+ "ratio_vs_avg_pp": 12.7,
+ "gap84": 4320
 }

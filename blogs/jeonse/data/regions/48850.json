@@ -1,17 +1,17 @@
 {
  "lawd": "48850",
  "name": "경상남도 하동군",
- "updated": "2026-11-02",
+ "updated": "2026-11-16",
  "months": 12,
- "jeonse_count": 3,
- "wolse_count": 29,
- "wolse_share_pct": 90.6,
+ "jeonse_count": 4,
+ "wolse_count": 30,
+ "wolse_share_pct": 88.2,
  "renew_share_pct": 0.0,
- "jeonse_n84": 3,
- "jeonse_median84": 10000,
+ "jeonse_n84": 4,
+ "jeonse_median84": 14880,
  "sale_n84": 22,
  "sale_median84": 15150,
- "ratio84": 66.0,
+ "ratio84": 98.2,
  "jeonse_recent3_median84": 8000,
  "jeonse_prev3_median84": 19761,
  "jeonse_change_pct": -59.5,
@@ -22,6 +22,12 @@
  "top_ratio_apts": [],
  "low_ratio_apts": [],
  "monthly": [
+  {
+   "month": "2025-12",
+   "jeonse_count": 1,
+   "n84": 1,
+   "jeonse_median84": 20089
+  },
   {
    "month": "2026-01",
    "jeonse_count": 1,
@@ -42,8 +48,8 @@
   }
  ],
  "rank": null,
- "rank_of": 178,
+ "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": -6.5,
- "gap84": 5150
+ "ratio_vs_avg_pp": 25.7,
+ "gap84": 270
 }

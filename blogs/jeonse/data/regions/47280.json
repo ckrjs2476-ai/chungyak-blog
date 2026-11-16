@@ -1,37 +1,37 @@
 {
  "lawd": "47280",
  "name": "경상북도 문경시",
- "updated": "2026-11-02",
+ "updated": "2026-11-16",
  "months": 12,
- "jeonse_count": 21,
- "wolse_count": 87,
- "wolse_share_pct": 80.6,
- "renew_share_pct": 14.3,
- "jeonse_n84": 13,
- "jeonse_median84": 26250,
- "sale_n84": 63,
+ "jeonse_count": 22,
+ "wolse_count": 89,
+ "wolse_share_pct": 80.2,
+ "renew_share_pct": 18.2,
+ "jeonse_n84": 12,
+ "jeonse_median84": 27125,
+ "sale_n84": 67,
  "sale_median84": 28700,
- "ratio84": 91.5,
- "jeonse_recent3_median84": 28000,
+ "ratio84": 94.5,
+ "jeonse_recent3_median84": 33000,
  "jeonse_prev3_median84": 30000,
- "jeonse_change_pct": -6.7,
+ "jeonse_change_pct": 10.0,
  "apts_with_both": 3,
  "apts_ratio_80_plus": 1,
- "apts_ratio_70_plus": 3,
+ "apts_ratio_70_plus": 2,
  "umd": {
   "모전동": {
    "jeonse_n": 7,
    "jeonse_median84": 30000,
-   "sale_n": 44,
+   "sale_n": 46,
    "sale_median84": 29900,
    "ratio": 100.3
   },
   "문경읍 하리": {
-   "jeonse_n": 5,
-   "jeonse_median84": 21000,
-   "sale_n": 6,
-   "sale_median84": 29250,
-   "ratio": 71.8
+   "jeonse_n": 4,
+   "jeonse_median84": 20500,
+   "sale_n": 7,
+   "sale_median84": 29800,
+   "ratio": 68.8
   }
  },
  "top_ratio_apts": [
@@ -59,11 +59,11 @@
    "umd": "문경읍 하리",
    "apt": "문경지엘리베라움더퍼스트",
    "built": 2022,
-   "jeonse_n": 5,
-   "jeonse_median84": 21000,
-   "sale_n": 6,
-   "sale_median84": 29250,
-   "ratio": 71.8
+   "jeonse_n": 4,
+   "jeonse_median84": 20500,
+   "sale_n": 7,
+   "sale_median84": 29800,
+   "ratio": 68.8
   }
  ],
  "low_ratio_apts": [],
@@ -118,20 +118,32 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 5,
-   "n84": 4,
-   "jeonse_median84": 28000
+   "jeonse_count": 4,
+   "n84": 3,
+   "jeonse_median84": 33000
   },
   {
    "month": "2026-09",
    "jeonse_count": 3,
    "n84": 0,
    "jeonse_median84": null
+  },
+  {
+   "month": "2026-10",
+   "jeonse_count": 1,
+   "n84": 0,
+   "jeonse_median84": null
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 1,
+   "n84": 0,
+   "jeonse_median84": null
   }
  ],
  "rank": null,
- "rank_of": 178,
+ "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 19.0,
- "gap84": 2450
+ "ratio_vs_avg_pp": 22.0,
+ "gap84": 1575
 }

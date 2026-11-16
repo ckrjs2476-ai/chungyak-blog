@@ -1,15 +1,15 @@
 {
  "lawd": "47210",
  "name": "경상북도 영주시",
- "updated": "2026-11-02",
+ "updated": "2026-11-16",
  "months": 12,
- "jeonse_count": 355,
- "wolse_count": 179,
- "wolse_share_pct": 33.5,
- "renew_share_pct": 78.0,
- "jeonse_n84": 245,
+ "jeonse_count": 389,
+ "wolse_count": 185,
+ "wolse_share_pct": 32.2,
+ "renew_share_pct": 79.2,
+ "jeonse_n84": 273,
  "jeonse_median84": 17402,
- "sale_n84": 212,
+ "sale_n84": 225,
  "sale_median84": 26000,
  "ratio84": 66.9,
  "jeonse_recent3_median84": 17402,
@@ -20,18 +20,18 @@
  "apts_ratio_70_plus": 3,
  "umd": {
   "가흥동": {
-   "jeonse_n": 233,
+   "jeonse_n": 260,
    "jeonse_median84": 17402,
-   "sale_n": 69,
-   "sale_median84": 37300,
-   "ratio": 46.7
+   "sale_n": 72,
+   "sale_median84": 36750,
+   "ratio": 47.4
   },
   "휴천동": {
    "jeonse_n": 11,
    "jeonse_median84": 34000,
-   "sale_n": 60,
-   "sale_median84": 19600,
-   "ratio": 173.5
+   "sale_n": 63,
+   "sale_median84": 19700,
+   "ratio": 172.6
   }
  },
  "top_ratio_apts": [
@@ -59,11 +59,11 @@
    "umd": "가흥동",
    "apt": "영주가흥더리브스위트엠",
    "built": 2021,
-   "jeonse_n": 4,
-   "jeonse_median84": 32500,
+   "jeonse_n": 5,
+   "jeonse_median84": 30000,
    "sale_n": 27,
    "sale_median84": 42000,
-   "ratio": 77.4
+   "ratio": 71.4
   },
   {
    "umd": "휴천동",
@@ -79,11 +79,11 @@
    "umd": "가흥동",
    "apt": "영주가흥사랑으로부영",
    "built": 2016,
-   "jeonse_n": 226,
+   "jeonse_n": 252,
    "jeonse_median84": 17402,
-   "sale_n": 14,
-   "sale_median84": 34850,
-   "ratio": 49.9
+   "sale_n": 16,
+   "sale_median84": 34750,
+   "ratio": 50.1
   }
  ],
  "low_ratio_apts": [],
@@ -145,28 +145,34 @@
   {
    "month": "2026-09",
    "jeonse_count": 144,
-   "n84": 103,
+   "n84": 104,
    "jeonse_median84": 17402
   },
   {
    "month": "2026-10",
-   "jeonse_count": 93,
-   "n84": 68,
+   "jeonse_count": 94,
+   "n84": 69,
+   "jeonse_median84": 17402
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 33,
+   "n84": 26,
    "jeonse_median84": 17402
   }
  ],
- "rank": 110,
- "rank_of": 178,
+ "rank": 111,
+ "rank_of": 179,
  "avg_ratio84_all": 72.5,
  "ratio_vs_avg_pp": -5.6,
  "umd_ratio_high": {
   "name": "휴천동",
-  "ratio": 173.5
+  "ratio": 172.6
  },
  "umd_ratio_low": {
   "name": "가흥동",
-  "ratio": 46.7
+  "ratio": 47.4
  },
- "umd_spread_pp": 126.8,
+ "umd_spread_pp": 125.2,
  "gap84": 8598
 }

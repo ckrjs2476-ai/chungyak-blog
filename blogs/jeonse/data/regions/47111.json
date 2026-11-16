@@ -1,51 +1,51 @@
 {
  "lawd": "47111",
  "name": "경상북도 포항시 남구",
- "updated": "2026-11-02",
+ "updated": "2026-11-16",
  "months": 12,
- "jeonse_count": 1369,
- "wolse_count": 1320,
- "wolse_share_pct": 49.1,
- "renew_share_pct": 50.4,
- "jeonse_n84": 753,
+ "jeonse_count": 1440,
+ "wolse_count": 1374,
+ "wolse_share_pct": 48.8,
+ "renew_share_pct": 50.5,
+ "jeonse_n84": 799,
  "jeonse_median84": 15031,
- "sale_n84": 550,
- "sale_median84": 29000,
- "ratio84": 51.8,
+ "sale_n84": 571,
+ "sale_median84": 29900,
+ "ratio84": 50.3,
  "jeonse_recent3_median84": 15031,
  "jeonse_prev3_median84": 15031,
  "jeonse_change_pct": 0.0,
- "apts_with_both": 34,
+ "apts_with_both": 35,
  "apts_ratio_80_plus": 21,
- "apts_ratio_70_plus": 30,
+ "apts_ratio_70_plus": 31,
  "umd": {
   "대잠동": {
-   "jeonse_n": 83,
+   "jeonse_n": 90,
    "jeonse_median84": 27000,
-   "sale_n": 130,
-   "sale_median84": 37800,
-   "ratio": 71.4
+   "sale_n": 135,
+   "sale_median84": 38000,
+   "ratio": 71.1
   },
   "상도동": {
-   "jeonse_n": 11,
-   "jeonse_median84": 26000,
+   "jeonse_n": 13,
+   "jeonse_median84": 25100,
    "sale_n": 18,
    "sale_median84": 30750,
-   "ratio": 84.6
+   "ratio": 81.6
   },
   "송도동": {
-   "jeonse_n": 3,
-   "jeonse_median84": 10609,
+   "jeonse_n": 4,
+   "jeonse_median84": 14304,
    "sale_n": 11,
    "sale_median84": 19000,
-   "ratio": 55.8
+   "ratio": 75.3
   },
   "연일읍 생지리": {
-   "jeonse_n": 3,
-   "jeonse_median84": 11000,
-   "sale_n": 13,
+   "jeonse_n": 4,
+   "jeonse_median84": 10500,
+   "sale_n": 15,
    "sale_median84": 14700,
-   "ratio": 74.8
+   "ratio": 71.4
   },
   "연일읍 오천리": {
    "jeonse_n": 6,
@@ -55,39 +55,39 @@
    "ratio": 87.2
   },
   "연일읍 유강리": {
-   "jeonse_n": 19,
+   "jeonse_n": 20,
    "jeonse_median84": 15300,
-   "sale_n": 44,
-   "sale_median84": 17450,
-   "ratio": 87.7
+   "sale_n": 45,
+   "sale_median84": 17400,
+   "ratio": 87.9
   },
   "오천읍 구정리": {
-   "jeonse_n": 4,
-   "jeonse_median84": 19500,
+   "jeonse_n": 5,
+   "jeonse_median84": 20000,
    "sale_n": 27,
    "sale_median84": 22400,
-   "ratio": 87.1
+   "ratio": 89.3
   },
   "오천읍 문덕리": {
-   "jeonse_n": 9,
-   "jeonse_median84": 17000,
+   "jeonse_n": 10,
+   "jeonse_median84": 16500,
    "sale_n": 34,
    "sale_median84": 20000,
-   "ratio": 85.0
+   "ratio": 82.5
   },
   "오천읍 용산리": {
-   "jeonse_n": 16,
-   "jeonse_median84": 21750,
-   "sale_n": 7,
-   "sale_median84": 32000,
-   "ratio": 68.0
+   "jeonse_n": 19,
+   "jeonse_median84": 21000,
+   "sale_n": 9,
+   "sale_median84": 32300,
+   "ratio": 65.0
   },
   "오천읍 원리": {
-   "jeonse_n": 463,
-   "jeonse_median84": 13527,
-   "sale_n": 44,
-   "sale_median84": 30725,
-   "ratio": 44.0
+   "jeonse_n": 480,
+   "jeonse_median84": 12475,
+   "sale_n": 46,
+   "sale_median84": 31200,
+   "ratio": 40.0
   },
   "이동": {
    "jeonse_n": 11,
@@ -97,18 +97,18 @@
    "ratio": 79.1
   },
   "지곡동": {
-   "jeonse_n": 66,
+   "jeonse_n": 75,
    "jeonse_median84": 28000,
-   "sale_n": 83,
+   "sale_n": 87,
    "sale_median84": 37200,
    "ratio": 75.3
   },
   "효자동": {
-   "jeonse_n": 32,
+   "jeonse_n": 34,
    "jeonse_median84": 28000,
-   "sale_n": 64,
-   "sale_median84": 35950,
-   "ratio": 77.9
+   "sale_n": 69,
+   "sale_median84": 35500,
+   "ratio": 78.9
   }
  },
  "top_ratio_apts": [
@@ -153,6 +153,16 @@
    "ratio": 96.4
   },
   {
+   "umd": "연일읍 유강리",
+   "apt": "대림한숲타운1차",
+   "built": 1999,
+   "jeonse_n": 5,
+   "jeonse_median84": 13000,
+   "sale_n": 13,
+   "sale_median84": 14000,
+   "ratio": 92.9
+  },
+  {
    "umd": "효자동",
    "apt": "승리",
    "built": 1992,
@@ -171,16 +181,6 @@
    "sale_n": 11,
    "sale_median84": 17400,
    "ratio": 92.0
-  },
-  {
-   "umd": "연일읍 유강리",
-   "apt": "대림한숲타운1차",
-   "built": 1999,
-   "jeonse_n": 4,
-   "jeonse_median84": 13000,
-   "sale_n": 12,
-   "sale_median84": 14200,
-   "ratio": 91.5
   },
   {
    "umd": "연일읍 유강리",
@@ -218,11 +218,11 @@
    "umd": "지곡동",
    "apt": "삼성그린빌라",
    "built": 1999,
-   "jeonse_n": 15,
-   "jeonse_median84": 28000,
+   "jeonse_n": 17,
+   "jeonse_median84": 27000,
    "sale_n": 17,
    "sale_median84": 45000,
-   "ratio": 62.2
+   "ratio": 60.0
   },
   {
    "umd": "송도동",
@@ -238,31 +238,31 @@
    "umd": "오천읍 용산리",
    "apt": "포항아이파크",
    "built": 2024,
-   "jeonse_n": 16,
-   "jeonse_median84": 21750,
-   "sale_n": 7,
-   "sale_median84": 32000,
-   "ratio": 68.0
+   "jeonse_n": 19,
+   "jeonse_median84": 21000,
+   "sale_n": 9,
+   "sale_median84": 32300,
+   "ratio": 65.0
   },
   {
    "umd": "지곡동",
    "apt": "LG그린빌라",
    "built": 2001,
-   "jeonse_n": 8,
-   "jeonse_median84": 30500,
-   "sale_n": 19,
-   "sale_median84": 44000,
-   "ratio": 69.3
+   "jeonse_n": 9,
+   "jeonse_median84": 31000,
+   "sale_n": 21,
+   "sale_median84": 44500,
+   "ratio": 69.7
   },
   {
-   "umd": "효자동",
-   "apt": "효자풍림아이원",
-   "built": 2012,
-   "jeonse_n": 10,
-   "jeonse_median84": 28000,
-   "sale_n": 15,
-   "sale_median84": 39200,
-   "ratio": 71.4
+   "umd": "연일읍 생지리",
+   "apt": "형산강변타운",
+   "built": 1995,
+   "jeonse_n": 3,
+   "jeonse_median84": 10000,
+   "sale_n": 3,
+   "sale_median84": 14200,
+   "ratio": 70.4
   }
  ],
  "monthly": [
@@ -280,8 +280,8 @@
   },
   {
    "month": "2026-02",
-   "jeonse_count": 158,
-   "n84": 100,
+   "jeonse_count": 159,
+   "n84": 101,
    "jeonse_median84": 15031
   },
   {
@@ -292,14 +292,14 @@
   },
   {
    "month": "2026-04",
-   "jeonse_count": 134,
-   "n84": 73,
+   "jeonse_count": 135,
+   "n84": 74,
    "jeonse_median84": 15031
   },
   {
    "month": "2026-05",
-   "jeonse_count": 119,
-   "n84": 59,
+   "jeonse_count": 120,
+   "n84": 60,
    "jeonse_median84": 15031
   },
   {
@@ -310,8 +310,8 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 88,
-   "n84": 47,
+   "jeonse_count": 89,
+   "n84": 48,
    "jeonse_median84": 15031
   },
   {
@@ -322,29 +322,35 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 75,
-   "n84": 37,
-   "jeonse_median84": 15031
+   "jeonse_count": 80,
+   "n84": 40,
+   "jeonse_median84": 16000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 95,
-   "n84": 58,
+   "jeonse_count": 121,
+   "n84": 76,
+   "jeonse_median84": 16515
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 36,
+   "n84": 21,
    "jeonse_median84": 15031
   }
  ],
- "rank": 162,
- "rank_of": 178,
+ "rank": 163,
+ "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": -20.7,
+ "ratio_vs_avg_pp": -22.2,
  "umd_ratio_high": {
   "name": "연일읍 유강리",
-  "ratio": 87.7
+  "ratio": 87.9
  },
  "umd_ratio_low": {
   "name": "오천읍 원리",
-  "ratio": 44.0
+  "ratio": 40.0
  },
- "umd_spread_pp": 43.7,
- "gap84": 13969
+ "umd_spread_pp": 47.9,
+ "gap84": 14869
 }

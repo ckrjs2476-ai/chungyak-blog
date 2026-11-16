@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-15",
- "count": 178,
+ "updated": "2026-11-16",
+ "count": 179,
  "avg_ratio84": 72.5,
  "regions": [
   {
@@ -189,7 +189,7 @@
    "ratio84": 92.7,
    "jeonse_median84": 21320,
    "sale_median84": 23000,
-   "jeonse_change_pct": -2.9,
+   "jeonse_change_pct": 1.7,
    "rank": 21
   },
   {
@@ -220,8 +220,8 @@
    "rank": 24
   },
   {
-   "lawd": "41500",
-   "name": "경기도 이천시",
+   "lawd": "44133",
+   "name": "충청남도 천안시 서북구",
    "ratio84": 88.9,
    "jeonse_median84": 28000,
    "sale_median84": 31500,
@@ -229,8 +229,8 @@
    "rank": 25
   },
   {
-   "lawd": "44133",
-   "name": "충청남도 천안시 서북구",
+   "lawd": "41500",
+   "name": "경기도 이천시",
    "ratio84": 88.9,
    "jeonse_median84": 28000,
    "sale_median84": 31500,
@@ -301,21 +301,21 @@
    "rank": 33
   },
   {
+   "lawd": "47170",
+   "name": "경상북도 안동시",
+   "ratio84": 85.2,
+   "jeonse_median84": 24780,
+   "sale_median84": 29100,
+   "jeonse_change_pct": 9.8,
+   "rank": 34
+  },
+  {
    "lawd": "47190",
    "name": "경상북도 구미시",
    "ratio84": 84.9,
    "jeonse_median84": 22000,
    "sale_median84": 25900,
-   "jeonse_change_pct": 2.2,
-   "rank": 34
-  },
-  {
-   "lawd": "47150",
-   "name": "경상북도 김천시",
-   "ratio84": 84.7,
-   "jeonse_median84": 25000,
-   "sale_median84": 29500,
-   "jeonse_change_pct": 1.9,
+   "jeonse_change_pct": 0.9,
    "rank": 35
   },
   {
@@ -328,13 +328,22 @@
    "rank": 36
   },
   {
+   "lawd": "47150",
+   "name": "경상북도 김천시",
+   "ratio84": 84.3,
+   "jeonse_median84": 25000,
+   "sale_median84": 29650,
+   "jeonse_change_pct": 1.9,
+   "rank": 37
+  },
+  {
    "lawd": "52130",
    "name": "전북특별자치도 군산시",
    "ratio84": 84.2,
    "jeonse_median84": 18019,
    "sale_median84": 21400,
    "jeonse_change_pct": 21.1,
-   "rank": 37
+   "rank": 38
   },
   {
    "lawd": "44131",
@@ -343,7 +352,7 @@
    "jeonse_median84": 21000,
    "sale_median84": 25075,
    "jeonse_change_pct": 28.3,
-   "rank": 38
+   "rank": 39
   },
   {
    "lawd": "47900",
@@ -352,15 +361,6 @@
    "jeonse_median84": 23000,
    "sale_median84": 27500,
    "jeonse_change_pct": -4.3,
-   "rank": 39
-  },
-  {
-   "lawd": "47170",
-   "name": "경상북도 안동시",
-   "ratio84": 83.6,
-   "jeonse_median84": 24675,
-   "sale_median84": 29500,
-   "jeonse_change_pct": 5.9,
    "rank": 40
   },
   {
@@ -481,12 +481,12 @@
    "rank": 53
   },
   {
-   "lawd": "26320",
-   "name": "부산광역시 북구",
+   "lawd": "26380",
+   "name": "부산광역시 사하구",
    "ratio84": 79.4,
-   "jeonse_median84": 27395,
-   "sale_median84": 34500,
-   "jeonse_change_pct": 0.0,
+   "jeonse_median84": 20000,
+   "sale_median84": 25200,
+   "jeonse_change_pct": 7.5,
    "rank": 54
   },
   {
@@ -499,12 +499,12 @@
    "rank": 55
   },
   {
-   "lawd": "26380",
-   "name": "부산광역시 사하구",
+   "lawd": "26320",
+   "name": "부산광역시 북구",
    "ratio84": 79.4,
-   "jeonse_median84": 20000,
-   "sale_median84": 25200,
-   "jeonse_change_pct": 7.5,
+   "jeonse_median84": 27395,
+   "sale_median84": 34500,
+   "jeonse_change_pct": 0.0,
    "rank": 56
   },
   {
@@ -634,21 +634,21 @@
    "rank": 70
   },
   {
-   "lawd": "28125",
-   "name": "인천광역시 제물포구",
-   "ratio84": 74.7,
-   "jeonse_median84": 21000,
-   "sale_median84": 28100,
-   "jeonse_change_pct": -43.4,
-   "rank": 71
-  },
-  {
    "lawd": "47850",
    "name": "경상북도 칠곡군",
    "ratio84": 74.7,
    "jeonse_median84": 13000,
    "sale_median84": 17400,
    "jeonse_change_pct": 45.0,
+   "rank": 71
+  },
+  {
+   "lawd": "28125",
+   "name": "인천광역시 제물포구",
+   "ratio84": 74.7,
+   "jeonse_median84": 21000,
+   "sale_median84": 28100,
+   "jeonse_change_pct": -43.4,
    "rank": 72
   },
   {
@@ -697,21 +697,21 @@
    "rank": 77
   },
   {
-   "lawd": "27140",
-   "name": "대구광역시 동구",
-   "ratio84": 73.2,
-   "jeonse_median84": 27800,
-   "sale_median84": 38000,
-   "jeonse_change_pct": 0.0,
-   "rank": 78
-  },
-  {
    "lawd": "31200",
    "name": "울산광역시 북구",
    "ratio84": 73.2,
    "jeonse_median84": 27300,
    "sale_median84": 37300,
    "jeonse_change_pct": 1.2,
+   "rank": 78
+  },
+  {
+   "lawd": "27140",
+   "name": "대구광역시 동구",
+   "ratio84": 73.2,
+   "jeonse_median84": 27800,
+   "sale_median84": 38000,
+   "jeonse_change_pct": 0.0,
    "rank": 79
   },
   {
@@ -769,13 +769,22 @@
    "rank": 85
   },
   {
+   "lawd": "47230",
+   "name": "경상북도 영천시",
+   "ratio84": 72.1,
+   "jeonse_median84": 18750,
+   "sale_median84": 26000,
+   "jeonse_change_pct": -14.8,
+   "rank": 86
+  },
+  {
    "lawd": "41630",
    "name": "경기도 양주시",
    "ratio84": 72.1,
    "jeonse_median84": 24150,
    "sale_median84": 33500,
    "jeonse_change_pct": 5.0,
-   "rank": 86
+   "rank": 87
   },
   {
    "lawd": "41370",
@@ -784,7 +793,7 @@
    "jeonse_median84": 29000,
    "sale_median84": 40400,
    "jeonse_change_pct": 4.3,
-   "rank": 87
+   "rank": 88
   },
   {
    "lawd": "41570",
@@ -793,15 +802,6 @@
    "jeonse_median84": 33000,
    "sale_median84": 46000,
    "jeonse_change_pct": 3.0,
-   "rank": 88
-  },
-  {
-   "lawd": "51230",
-   "name": "강원특별자치도 삼척시",
-   "ratio84": 71.6,
-   "jeonse_median84": 24000,
-   "sale_median84": 33500,
-   "jeonse_change_pct": 17.4,
    "rank": 89
   },
   {
@@ -814,13 +814,22 @@
    "rank": 90
   },
   {
+   "lawd": "51230",
+   "name": "강원특별자치도 삼척시",
+   "ratio84": 71.6,
+   "jeonse_median84": 24000,
+   "sale_median84": 33500,
+   "jeonse_change_pct": 17.4,
+   "rank": 91
+  },
+  {
    "lawd": "26290",
    "name": "부산광역시 남구",
    "ratio84": 71.2,
    "jeonse_median84": 37000,
    "sale_median84": 52000,
    "jeonse_change_pct": 18.2,
-   "rank": 91
+   "rank": 92
   },
   {
    "lawd": "41595",
@@ -829,15 +838,6 @@
    "jeonse_median84": 31500,
    "sale_median84": 44450,
    "jeonse_change_pct": 6.2,
-   "rank": 92
-  },
-  {
-   "lawd": "41111",
-   "name": "경기도 수원시 장안구",
-   "ratio84": 70.2,
-   "jeonse_median84": 42000,
-   "sale_median84": 59850,
-   "jeonse_change_pct": -1.2,
    "rank": 93
   },
   {
@@ -850,13 +850,22 @@
    "rank": 94
   },
   {
+   "lawd": "41111",
+   "name": "경기도 수원시 장안구",
+   "ratio84": 70.2,
+   "jeonse_median84": 42000,
+   "sale_median84": 59850,
+   "jeonse_change_pct": -1.2,
+   "rank": 95
+  },
+  {
    "lawd": "27710",
    "name": "대구광역시 달성군",
    "ratio84": 69.4,
    "jeonse_median84": 21000,
    "sale_median84": 30250,
    "jeonse_change_pct": 9.2,
-   "rank": 95
+   "rank": 96
   },
   {
    "lawd": "41192",
@@ -865,7 +874,7 @@
    "jeonse_median84": 47000,
    "sale_median84": 68000,
    "jeonse_change_pct": 6.0,
-   "rank": 96
+   "rank": 97
   },
   {
    "lawd": "41461",
@@ -874,7 +883,7 @@
    "jeonse_median84": 29000,
    "sale_median84": 42000,
    "jeonse_change_pct": 0.0,
-   "rank": 97
+   "rank": 98
   },
   {
    "lawd": "41830",
@@ -883,7 +892,7 @@
    "jeonse_median84": 30000,
    "sale_median84": 43625,
    "jeonse_change_pct": 25.0,
-   "rank": 98
+   "rank": 99
   },
   {
    "lawd": "41220",
@@ -892,15 +901,6 @@
    "jeonse_median84": 25000,
    "sale_median84": 36500,
    "jeonse_change_pct": 0.0,
-   "rank": 99
-  },
-  {
-   "lawd": "50130",
-   "name": "제주특별자치도 서귀포시",
-   "ratio84": 68.3,
-   "jeonse_median84": 28000,
-   "sale_median84": 41000,
-   "jeonse_change_pct": 20.0,
    "rank": 100
   },
   {
@@ -913,13 +913,22 @@
    "rank": 101
   },
   {
+   "lawd": "50130",
+   "name": "제주특별자치도 서귀포시",
+   "ratio84": 68.3,
+   "jeonse_median84": 28000,
+   "sale_median84": 41000,
+   "jeonse_change_pct": 20.0,
+   "rank": 102
+  },
+  {
    "lawd": "27200",
    "name": "대구광역시 남구",
    "ratio84": 68.3,
    "jeonse_median84": 28000,
    "sale_median84": 41000,
    "jeonse_change_pct": 2.1,
-   "rank": 102
+   "rank": 103
   },
   {
    "lawd": "30170",
@@ -928,7 +937,7 @@
    "jeonse_median84": 30500,
    "sale_median84": 44725,
    "jeonse_change_pct": 6.7,
-   "rank": 103
+   "rank": 104
   },
   {
    "lawd": "26140",
@@ -937,7 +946,7 @@
    "jeonse_median84": 36000,
    "sale_median84": 53000,
    "jeonse_change_pct": -5.3,
-   "rank": 104
+   "rank": 105
   },
   {
    "lawd": "11320",
@@ -946,7 +955,7 @@
    "jeonse_median84": 42000,
    "sale_median84": 62000,
    "jeonse_change_pct": 0.6,
-   "rank": 105
+   "rank": 106
   },
   {
    "lawd": "48125",
@@ -955,7 +964,7 @@
    "jeonse_median84": 23000,
    "sale_median84": 34000,
    "jeonse_change_pct": 9.1,
-   "rank": 106
+   "rank": 107
   },
   {
    "lawd": "50110",
@@ -964,7 +973,7 @@
    "jeonse_median84": 27000,
    "sale_median84": 40000,
    "jeonse_change_pct": 27.3,
-   "rank": 107
+   "rank": 108
   },
   {
    "lawd": "41117",
@@ -973,7 +982,7 @@
    "jeonse_median84": 52500,
    "sale_median84": 78000,
    "jeonse_change_pct": 1.9,
-   "rank": 108
+   "rank": 109
   },
   {
    "lawd": "11110",
@@ -982,7 +991,7 @@
    "jeonse_median84": 81000,
    "sale_median84": 120500,
    "jeonse_change_pct": -6.2,
-   "rank": 109
+   "rank": 110
   },
   {
    "lawd": "47210",
@@ -991,7 +1000,7 @@
    "jeonse_median84": 17402,
    "sale_median84": 26000,
    "jeonse_change_pct": 0.0,
-   "rank": 110
+   "rank": 111
   },
   {
    "lawd": "11305",
@@ -1000,7 +1009,7 @@
    "jeonse_median84": 50000,
    "sale_median84": 75000,
    "jeonse_change_pct": 9.6,
-   "rank": 111
+   "rank": 112
   },
   {
    "lawd": "41196",
@@ -1009,7 +1018,7 @@
    "jeonse_median84": 39900,
    "sale_median84": 59800,
    "jeonse_change_pct": 20.0,
-   "rank": 112
+   "rank": 113
   },
   {
    "lawd": "44250",
@@ -1018,7 +1027,7 @@
    "jeonse_median84": 16000,
    "sale_median84": 24000,
    "jeonse_change_pct": 0.0,
-   "rank": 113
+   "rank": 114
   },
   {
    "lawd": "41463",
@@ -1027,7 +1036,7 @@
    "jeonse_median84": 40000,
    "sale_median84": 60300,
    "jeonse_change_pct": 7.5,
-   "rank": 114
+   "rank": 115
   },
   {
    "lawd": "30200",
@@ -1036,7 +1045,7 @@
    "jeonse_median84": 32081,
    "sale_median84": 48500,
    "jeonse_change_pct": 2.4,
-   "rank": 115
+   "rank": 116
   },
   {
    "lawd": "41281",
@@ -1045,7 +1054,7 @@
    "jeonse_median84": 47200,
    "sale_median84": 71500,
    "jeonse_change_pct": 2.1,
-   "rank": 116
+   "rank": 117
   },
   {
    "lawd": "41360",
@@ -1054,7 +1063,7 @@
    "jeonse_median84": 34650,
    "sale_median84": 52500,
    "jeonse_change_pct": -18.3,
-   "rank": 117
+   "rank": 118
   },
   {
    "lawd": "28155",
@@ -1063,7 +1072,7 @@
    "jeonse_median84": 28000,
    "sale_median84": 42500,
    "jeonse_change_pct": 3.1,
-   "rank": 118
+   "rank": 119
   },
   {
    "lawd": "41113",
@@ -1072,7 +1081,7 @@
    "jeonse_median84": 36000,
    "sale_median84": 55000,
    "jeonse_change_pct": 9.3,
-   "rank": 119
+   "rank": 120
   },
   {
    "lawd": "41210",
@@ -1081,7 +1090,7 @@
    "jeonse_median84": 56860,
    "sale_median84": 87000,
    "jeonse_change_pct": 5.0,
-   "rank": 120
+   "rank": 121
   },
   {
    "lawd": "28290",
@@ -1090,7 +1099,7 @@
    "jeonse_median84": 33000,
    "sale_median84": 50500,
    "jeonse_change_pct": 3.0,
-   "rank": 121
+   "rank": 122
   },
   {
    "lawd": "11260",
@@ -1099,7 +1108,7 @@
    "jeonse_median84": 49350,
    "sale_median84": 75600,
    "jeonse_change_pct": 0.0,
-   "rank": 122
+   "rank": 123
   },
   {
    "lawd": "41273",
@@ -1108,7 +1117,7 @@
    "jeonse_median84": 35000,
    "sale_median84": 53800,
    "jeonse_change_pct": -1.8,
-   "rank": 123
+   "rank": 124
   },
   {
    "lawd": "41390",
@@ -1117,7 +1126,7 @@
    "jeonse_median84": 35000,
    "sale_median84": 54000,
    "jeonse_change_pct": 2.0,
-   "rank": 124
+   "rank": 125
   },
   {
    "lawd": "11545",
@@ -1126,7 +1135,7 @@
    "jeonse_median84": 46500,
    "sale_median84": 72000,
    "jeonse_change_pct": 20.0,
-   "rank": 125
+   "rank": 126
   },
   {
    "lawd": "41310",
@@ -1135,7 +1144,7 @@
    "jeonse_median84": 48000,
    "sale_median84": 74500,
    "jeonse_change_pct": 0.0,
-   "rank": 126
+   "rank": 127
   },
   {
    "lawd": "41430",
@@ -1144,7 +1153,7 @@
    "jeonse_median84": 50000,
    "sale_median84": 78000,
    "jeonse_change_pct": 0.0,
-   "rank": 127
+   "rank": 128
   },
   {
    "lawd": "26470",
@@ -1153,7 +1162,7 @@
    "jeonse_median84": 38000,
    "sale_median84": 59500,
    "jeonse_change_pct": 0.0,
-   "rank": 128
+   "rank": 129
   },
   {
    "lawd": "41271",
@@ -1162,15 +1171,6 @@
    "jeonse_median84": 30000,
    "sale_median84": 47000,
    "jeonse_change_pct": 18.6,
-   "rank": 129
-  },
-  {
-   "lawd": "43750",
-   "name": "충청북도 진천군",
-   "ratio84": 63.6,
-   "jeonse_median84": 18000,
-   "sale_median84": 28300,
-   "jeonse_change_pct": 49.4,
    "rank": 130
   },
   {
@@ -1183,13 +1183,22 @@
    "rank": 131
   },
   {
+   "lawd": "43750",
+   "name": "충청북도 진천군",
+   "ratio84": 63.6,
+   "jeonse_median84": 18000,
+   "sale_median84": 28300,
+   "jeonse_change_pct": 49.4,
+   "rank": 132
+  },
+  {
    "lawd": "11350",
    "name": "서울특별시 노원구",
    "ratio84": 62.7,
    "jeonse_median84": 52000,
    "sale_median84": 83000,
    "jeonse_change_pct": 4.4,
-   "rank": 132
+   "rank": 133
   },
   {
    "lawd": "11530",
@@ -1198,7 +1207,7 @@
    "jeonse_median84": 50000,
    "sale_median84": 80500,
    "jeonse_change_pct": 7.1,
-   "rank": 133
+   "rank": 134
   },
   {
    "lawd": "11290",
@@ -1207,7 +1216,7 @@
    "jeonse_median84": 59000,
    "sale_median84": 97000,
    "jeonse_change_pct": 3.3,
-   "rank": 134
+   "rank": 135
   },
   {
    "lawd": "11620",
@@ -1216,7 +1225,7 @@
    "jeonse_median84": 58000,
    "sale_median84": 96000,
    "jeonse_change_pct": 9.2,
-   "rank": 135
+   "rank": 136
   },
   {
    "lawd": "27260",
@@ -1225,7 +1234,7 @@
    "jeonse_median84": 35000,
    "sale_median84": 58000,
    "jeonse_change_pct": 7.0,
-   "rank": 136
+   "rank": 137
   },
   {
    "lawd": "11230",
@@ -1234,7 +1243,7 @@
    "jeonse_median84": 65000,
    "sale_median84": 108000,
    "jeonse_change_pct": 4.1,
-   "rank": 137
+   "rank": 138
   },
   {
    "lawd": "41465",
@@ -1243,7 +1252,7 @@
    "jeonse_median84": 57750,
    "sale_median84": 96000,
    "jeonse_change_pct": 0.8,
-   "rank": 138
+   "rank": 139
   },
   {
    "lawd": "28275",
@@ -1252,15 +1261,6 @@
    "jeonse_median84": 36000,
    "sale_median84": 59900,
    "jeonse_change_pct": 2.8,
-   "rank": 139
-  },
-  {
-   "lawd": "26350",
-   "name": "부산광역시 해운대구",
-   "ratio84": 60.0,
-   "jeonse_median84": 36000,
-   "sale_median84": 60000,
-   "jeonse_change_pct": 2.7,
    "rank": 140
   },
   {
@@ -1273,13 +1273,22 @@
    "rank": 141
   },
   {
+   "lawd": "26350",
+   "name": "부산광역시 해운대구",
+   "ratio84": 60.0,
+   "jeonse_median84": 36000,
+   "sale_median84": 60000,
+   "jeonse_change_pct": 2.7,
+   "rank": 142
+  },
+  {
    "lawd": "52800",
    "name": "전북특별자치도 부안군",
    "ratio84": 59.7,
    "jeonse_median84": 18500,
    "sale_median84": 31000,
    "jeonse_change_pct": -17.8,
-   "rank": 142
+   "rank": 143
   },
   {
    "lawd": "41115",
@@ -1288,7 +1297,7 @@
    "jeonse_median84": 42000,
    "sale_median84": 71000,
    "jeonse_change_pct": 12.6,
-   "rank": 143
+   "rank": 144
   },
   {
    "lawd": "28185",
@@ -1297,7 +1306,7 @@
    "jeonse_median84": 38000,
    "sale_median84": 64850,
    "jeonse_change_pct": 2.6,
-   "rank": 144
+   "rank": 145
   },
   {
    "lawd": "41173",
@@ -1306,7 +1315,7 @@
    "jeonse_median84": 52500,
    "sale_median84": 89945,
    "jeonse_change_pct": 4.8,
-   "rank": 145
+   "rank": 146
   },
   {
    "lawd": "27170",
@@ -1315,7 +1324,7 @@
    "jeonse_median84": 28000,
    "sale_median84": 48950,
    "jeonse_change_pct": -11.6,
-   "rank": 146
+   "rank": 147
   },
   {
    "lawd": "11470",
@@ -1324,7 +1333,7 @@
    "jeonse_median84": 65000,
    "sale_median84": 114500,
    "jeonse_change_pct": 6.2,
-   "rank": 147
+   "rank": 148
   },
   {
    "lawd": "47290",
@@ -1333,7 +1342,7 @@
    "jeonse_median84": 15090,
    "sale_median84": 26700,
    "jeonse_change_pct": 20.4,
-   "rank": 148
+   "rank": 149
   },
   {
    "lawd": "41450",
@@ -1342,7 +1351,7 @@
    "jeonse_median84": 62000,
    "sale_median84": 110000,
    "jeonse_change_pct": 0.0,
-   "rank": 149
+   "rank": 150
   },
   {
    "lawd": "26500",
@@ -1351,7 +1360,7 @@
    "jeonse_median84": 39900,
    "sale_median84": 70850,
    "jeonse_change_pct": 0.3,
-   "rank": 150
+   "rank": 151
   },
   {
    "lawd": "41597",
@@ -1360,7 +1369,7 @@
    "jeonse_median84": 42000,
    "sale_median84": 75000,
    "jeonse_change_pct": 9.3,
-   "rank": 151
+   "rank": 152
   },
   {
    "lawd": "41131",
@@ -1369,7 +1378,7 @@
    "jeonse_median84": 68000,
    "sale_median84": 122600,
    "jeonse_change_pct": 25.6,
-   "rank": 152
+   "rank": 153
   },
   {
    "lawd": "11500",
@@ -1378,7 +1387,7 @@
    "jeonse_median84": 57700,
    "sale_median84": 104000,
    "jeonse_change_pct": 4.2,
-   "rank": 153
+   "rank": 154
   },
   {
    "lawd": "48129",
@@ -1387,7 +1396,7 @@
    "jeonse_median84": 13987,
    "sale_median84": 25500,
    "jeonse_change_pct": 0.0,
-   "rank": 154
+   "rank": 155
   },
   {
    "lawd": "48330",
@@ -1396,7 +1405,7 @@
    "jeonse_median84": 18000,
    "sale_median84": 33000,
    "jeonse_change_pct": 5.4,
-   "rank": 155
+   "rank": 156
   },
   {
    "lawd": "43113",
@@ -1405,7 +1414,7 @@
    "jeonse_median84": 25500,
    "sale_median84": 47000,
    "jeonse_change_pct": 13.3,
-   "rank": 156
+   "rank": 157
   },
   {
    "lawd": "41591",
@@ -1414,7 +1423,7 @@
    "jeonse_median84": 21409,
    "sale_median84": 39500,
    "jeonse_change_pct": -1.2,
-   "rank": 157
+   "rank": 158
   },
   {
    "lawd": "11380",
@@ -1423,7 +1432,7 @@
    "jeonse_median84": 50000,
    "sale_median84": 92500,
    "jeonse_change_pct": 1.1,
-   "rank": 158
+   "rank": 159
   },
   {
    "lawd": "11560",
@@ -1432,7 +1441,7 @@
    "jeonse_median84": 70000,
    "sale_median84": 132000,
    "jeonse_change_pct": 4.2,
-   "rank": 159
+   "rank": 160
   },
   {
    "lawd": "43114",
@@ -1441,7 +1450,7 @@
    "jeonse_median84": 17500,
    "sale_median84": 33400,
    "jeonse_change_pct": 20.0,
-   "rank": 160
+   "rank": 161
   },
   {
    "lawd": "11440",
@@ -1450,16 +1459,16 @@
    "jeonse_median84": 80000,
    "sale_median84": 153000,
    "jeonse_change_pct": 5.0,
-   "rank": 161
+   "rank": 162
   },
   {
    "lawd": "47111",
    "name": "경상북도 포항시 남구",
-   "ratio84": 51.8,
+   "ratio84": 50.3,
    "jeonse_median84": 15031,
-   "sale_median84": 29000,
+   "sale_median84": 29900,
    "jeonse_change_pct": 0.0,
-   "rank": 162
+   "rank": 163
   },
   {
    "lawd": "27110",
@@ -1468,7 +1477,7 @@
    "jeonse_median84": 28000,
    "sale_median84": 56700,
    "jeonse_change_pct": 1.4,
-   "rank": 163
+   "rank": 164
   },
   {
    "lawd": "11590",
@@ -1477,7 +1486,7 @@
    "jeonse_median84": 75000,
    "sale_median84": 153500,
    "jeonse_change_pct": -2.2,
-   "rank": 164
+   "rank": 165
   },
   {
    "lawd": "52710",
@@ -1486,7 +1495,7 @@
    "jeonse_median84": 17735,
    "sale_median84": 36900,
    "jeonse_change_pct": 69.2,
-   "rank": 165
+   "rank": 166
   },
   {
    "lawd": "11740",
@@ -1495,7 +1504,7 @@
    "jeonse_median84": 69000,
    "sale_median84": 147000,
    "jeonse_change_pct": 9.9,
-   "rank": 166
+   "rank": 167
   },
   {
    "lawd": "11140",
@@ -1504,7 +1513,7 @@
    "jeonse_median84": 73000,
    "sale_median84": 159500,
    "jeonse_change_pct": 2.7,
-   "rank": 167
+   "rank": 168
   },
   {
    "lawd": "36110",
@@ -1513,7 +1522,7 @@
    "jeonse_median84": 27000,
    "sale_median84": 60000,
    "jeonse_change_pct": 1.9,
-   "rank": 168
+   "rank": 169
   },
   {
    "lawd": "11200",
@@ -1522,7 +1531,7 @@
    "jeonse_median84": 81000,
    "sale_median84": 180000,
    "jeonse_change_pct": 1.2,
-   "rank": 169
+   "rank": 170
   },
   {
    "lawd": "11215",
@@ -1531,7 +1540,7 @@
    "jeonse_median84": 78000,
    "sale_median84": 185000,
    "jeonse_change_pct": 5.0,
-   "rank": 170
+   "rank": 171
   },
   {
    "lawd": "41135",
@@ -1540,7 +1549,7 @@
    "jeonse_median84": 72500,
    "sale_median84": 176000,
    "jeonse_change_pct": 2.0,
-   "rank": 171
+   "rank": 172
   },
   {
    "lawd": "11170",
@@ -1549,7 +1558,7 @@
    "jeonse_median84": 78000,
    "sale_median84": 193900,
    "jeonse_change_pct": 0.0,
-   "rank": 172
+   "rank": 173
   },
   {
    "lawd": "41290",
@@ -1558,7 +1567,7 @@
    "jeonse_median84": 94000,
    "sale_median84": 236500,
    "jeonse_change_pct": -1.6,
-   "rank": 173
+   "rank": 174
   },
   {
    "lawd": "11710",
@@ -1567,7 +1576,7 @@
    "jeonse_median84": 85000,
    "sale_median84": 215000,
    "jeonse_change_pct": 0.7,
-   "rank": 174
+   "rank": 175
   },
   {
    "lawd": "11650",
@@ -1576,7 +1585,7 @@
    "jeonse_median84": 100000,
    "sale_median84": 257750,
    "jeonse_change_pct": -12.0,
-   "rank": 175
+   "rank": 176
   },
   {
    "lawd": "47130",
@@ -1585,7 +1594,7 @@
    "jeonse_median84": 10142,
    "sale_median84": 28500,
    "jeonse_change_pct": -0.2,
-   "rank": 176
+   "rank": 177
   },
   {
    "lawd": "26440",
@@ -1594,7 +1603,7 @@
    "jeonse_median84": 15230,
    "sale_median84": 44000,
    "jeonse_change_pct": 0.0,
-   "rank": 177
+   "rank": 178
   },
   {
    "lawd": "11680",
@@ -1603,7 +1612,7 @@
    "jeonse_median84": 95000,
    "sale_median84": 300000,
    "jeonse_change_pct": 5.6,
-   "rank": 178
+   "rank": 179
   }
  ]
 }

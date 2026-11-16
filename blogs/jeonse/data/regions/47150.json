@@ -1,22 +1,22 @@
 {
  "lawd": "47150",
  "name": "경상북도 김천시",
- "updated": "2026-11-02",
+ "updated": "2026-11-16",
  "months": 12,
- "jeonse_count": 384,
- "wolse_count": 473,
+ "jeonse_count": 401,
+ "wolse_count": 495,
  "wolse_share_pct": 55.2,
- "renew_share_pct": 41.7,
- "jeonse_n84": 197,
+ "renew_share_pct": 41.9,
+ "jeonse_n84": 207,
  "jeonse_median84": 25000,
- "sale_n84": 405,
- "sale_median84": 29500,
- "ratio84": 84.7,
+ "sale_n84": 428,
+ "sale_median84": 29650,
+ "ratio84": 84.3,
  "jeonse_recent3_median84": 26500,
  "jeonse_prev3_median84": 26000,
  "jeonse_change_pct": 1.9,
  "apts_with_both": 18,
- "apts_ratio_80_plus": 9,
+ "apts_ratio_80_plus": 10,
  "apts_ratio_70_plus": 15,
  "umd": {
   "덕곡동": {
@@ -29,23 +29,23 @@
   "부곡동": {
    "jeonse_n": 23,
    "jeonse_median84": 28000,
-   "sale_n": 72,
-   "sale_median84": 17650,
-   "ratio": 158.6
+   "sale_n": 73,
+   "sale_median84": 17800,
+   "ratio": 157.3
   },
   "신음동": {
    "jeonse_n": 11,
    "jeonse_median84": 16000,
-   "sale_n": 46,
+   "sale_n": 47,
    "sale_median84": 18000,
    "ratio": 88.9
   },
   "율곡동": {
-   "jeonse_n": 114,
+   "jeonse_n": 124,
    "jeonse_median84": 26000,
-   "sale_n": 216,
-   "sale_median84": 34900,
-   "ratio": 74.5
+   "sale_n": 235,
+   "sale_median84": 35000,
+   "ratio": 74.3
   },
   "응명동": {
    "jeonse_n": 9,
@@ -68,21 +68,21 @@
   },
   {
    "umd": "율곡동",
+   "apt": "김천혁신도시골드클래스",
+   "built": 2016,
+   "jeonse_n": 4,
+   "jeonse_median84": 30700,
+   "sale_n": 11,
+   "sale_median84": 36000,
+   "ratio": 85.3
+  },
+  {
+   "umd": "율곡동",
    "apt": "경북혁신케이씨씨스위첸",
    "built": 2013,
    "jeonse_n": 8,
    "jeonse_median84": 26000,
-   "sale_n": 26,
-   "sale_median84": 30500,
-   "ratio": 85.2
-  },
-  {
-   "umd": "율곡동",
-   "apt": "김천혁신도시영무예다음1차",
-   "built": 2014,
-   "jeonse_n": 20,
-   "jeonse_median84": 26000,
-   "sale_n": 25,
+   "sale_n": 28,
    "sale_median84": 30500,
    "ratio": 85.2
   },
@@ -97,6 +97,16 @@
    "ratio": 85.1
   },
   {
+   "umd": "율곡동",
+   "apt": "김천혁신도시영무예다음1차",
+   "built": 2014,
+   "jeonse_n": 22,
+   "jeonse_median84": 26000,
+   "sale_n": 26,
+   "sale_median84": 30600,
+   "ratio": 85.0
+  },
+  {
    "umd": "신음동",
    "apt": "현대1",
    "built": 1996,
@@ -108,13 +118,13 @@
   },
   {
    "umd": "율곡동",
-   "apt": "김천혁신도시골드클래스",
+   "apt": "사랑으로부영1단지",
    "built": 2016,
-   "jeonse_n": 4,
-   "jeonse_median84": 30700,
-   "sale_n": 9,
-   "sale_median84": 36700,
-   "ratio": 83.7
+   "jeonse_n": 41,
+   "jeonse_median84": 23800,
+   "sale_n": 35,
+   "sale_median84": 28750,
+   "ratio": 82.8
   },
   {
    "umd": "율곡동",
@@ -122,39 +132,29 @@
    "built": 2015,
    "jeonse_n": 3,
    "jeonse_median84": 28000,
-   "sale_n": 4,
-   "sale_median84": 33750,
-   "ratio": 83.0
-  },
-  {
-   "umd": "율곡동",
-   "apt": "사랑으로부영1단지",
-   "built": 2016,
-   "jeonse_n": 39,
-   "jeonse_median84": 23800,
-   "sale_n": 34,
-   "sale_median84": 28775,
-   "ratio": 82.7
+   "sale_n": 5,
+   "sale_median84": 34500,
+   "ratio": 81.2
   },
   {
    "umd": "율곡동",
    "apt": "센트럴파크한신휴플러스",
    "built": 2016,
-   "jeonse_n": 6,
-   "jeonse_median84": 35500,
-   "sale_n": 19,
-   "sale_median84": 43300,
-   "ratio": 82.0
+   "jeonse_n": 7,
+   "jeonse_median84": 35000,
+   "sale_n": 20,
+   "sale_median84": 43325,
+   "ratio": 80.8
   },
   {
    "umd": "율곡동",
-   "apt": "힐스테이트 율곡",
-   "built": 2015,
-   "jeonse_n": 13,
-   "jeonse_median84": 32000,
-   "sale_n": 41,
-   "sale_median84": 40200,
-   "ratio": 79.6
+   "apt": "한신더휴 퍼스트리움",
+   "built": 2016,
+   "jeonse_n": 18,
+   "jeonse_median84": 32500,
+   "sale_n": 25,
+   "sale_median84": 40500,
+   "ratio": 80.2
   }
  ],
  "low_ratio_apts": [
@@ -202,11 +202,11 @@
    "umd": "율곡동",
    "apt": "김천혁신도시이지더원",
    "built": 2016,
-   "jeonse_n": 4,
-   "jeonse_median84": 28700,
-   "sale_n": 20,
+   "jeonse_n": 5,
+   "jeonse_median84": 29000,
+   "sale_n": 23,
    "sale_median84": 37000,
-   "ratio": 77.6
+   "ratio": 78.4
   }
  ],
  "monthly": [
@@ -272,23 +272,29 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 24,
-   "n84": 13,
-   "jeonse_median84": 26500
+   "jeonse_count": 31,
+   "n84": 17,
+   "jeonse_median84": 27300
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 10,
+   "n84": 6,
+   "jeonse_median84": 27250
   }
  ],
- "rank": 35,
- "rank_of": 178,
+ "rank": 37,
+ "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 12.2,
+ "ratio_vs_avg_pp": 11.8,
  "umd_ratio_high": {
   "name": "부곡동",
-  "ratio": 158.6
+  "ratio": 157.3
  },
  "umd_ratio_low": {
   "name": "율곡동",
-  "ratio": 74.5
+  "ratio": 74.3
  },
- "umd_spread_pp": 84.1,
- "gap84": 4500
+ "umd_spread_pp": 83.0,
+ "gap84": 4650
 }
