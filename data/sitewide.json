@@ -1,16 +1,16 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "blogs": {
   "cheongyak": {
-   "posts": 71,
+   "posts": 72,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "score": 2,
     "remainder": 1,
     "notice": 2,
+    "score": 1,
     "market": 1,
-    "region": 2
+    "region": 3
    },
    "format_concentrated": false,
    "stale": {},
@@ -34,13 +34,13 @@
    "to_fix": 0
   },
   "gongmoju": {
-   "posts": 48,
+   "posts": 49,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "ipo": 3,
     "topic": 4,
-    "weekly": 1
+    "weekly": 2,
+    "ipo": 2
    },
    "format_concentrated": false,
    "stale": {},
@@ -64,14 +64,14 @@
    "to_fix": 0
   },
   "drone": {
-   "posts": 33,
+   "posts": 34,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "news": 3,
     "rule": 3,
     "job": 1,
-    "basic": 1
+    "basic": 2,
+    "news": 2
    },
    "format_concentrated": false,
    "stale": {},
