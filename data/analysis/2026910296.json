@@ -1,0 +1,90 @@
+{
+ "no": "2026910296",
+ "name": "힐스테이트 거제시그니처(1회차)",
+ "kind": "remndr",
+ "region": "경남",
+ "notice_date": "2026-11-16",
+ "rank1_date": "2026-11-23",
+ "city": "거제시",
+ "supply_kind": "",
+ "winner_date": "2026-11-26",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910296&pblancNo=2026910296",
+ "households": 129,
+ "types": [
+  {
+   "ty": "84.9469B",
+   "size": 84,
+   "price": 58660,
+   "area_m2": null,
+   "general": 97,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "112.9922A",
+   "size": 112,
+   "price": 79750,
+   "area_m2": null,
+   "general": 17,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "132.982A",
+   "size": 132,
+   "price": 93870,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "138.9652P",
+   "size": 138,
+   "price": 138820,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "165.9676P",
+   "size": 165,
+   "price": 165950,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 129,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 58660,
+ "price_84_max": 58660,
+ "market": {
+  "region": "경상남도 거제시",
+  "lawd": "48310",
+  "months": 12,
+  "updated": "2026-11-17",
+  "n84": 1147,
+  "median84": 17800,
+  "p25_84": 13400,
+  "p75_84": 24000,
+  "new_n84": 185,
+  "new_median84": 39800,
+  "new_build_years": 5,
+  "umd": "옥포동",
+  "umd_n84": 124,
+  "umd_median84": 16000,
+  "diff_vs_median84": 40860,
+  "diff_pct_vs_median84": 230,
+  "diff_vs_new_median84": 18860,
+  "diff_pct_vs_new_median84": 47,
+  "diff_vs_umd_median84": 42660,
+  "diff_pct_vs_umd_median84": 267
+ }
+}

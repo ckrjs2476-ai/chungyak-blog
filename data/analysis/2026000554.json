@@ -71,6 +71,46 @@
   "노부모 부양": 6,
   "기관추천": 20
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "62.2537",
+    "supply": 42,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 41
+   },
+   {
+    "ty": "84.9417A",
+    "supply": 77,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 77
+   },
+   {
+    "ty": "84.8838B",
+    "supply": 45,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 44
+   },
+   {
+    "ty": "84.9417C",
+    "supply": 35,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   }
+  ],
+  "req_total": 3,
+  "rank1_req": 3,
+  "supply_total": 199,
+  "final_shortfall_total": 196,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.02
+ },
  "region_price": {
   "scope": "경북",
   "supply_kind": "민영",
@@ -91,6 +131,17 @@
   "peer_count": 2,
   "peer_avg_rate": 5.56,
   "peer_max_rate": 8.72
+ },
+ "region_competition": {
+  "scope": "경북",
+  "peer_count": 2,
+  "peers": [
+   "펜타힐즈 더블유 1단지",
+   "형곡 센트럴 아테라"
+  ],
+  "peer_avg_rate": 5.56,
+  "rank": 3,
+  "of": 3
  },
  "market": {
   "region": "경상북도 경산시",

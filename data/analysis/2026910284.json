@@ -65,22 +65,74 @@
  "special_share_pct": 0,
  "price_84_min": 75300,
  "price_84_max": 79300,
+ "competition": {
+  "types": [
+   {
+    "ty": "54.8244",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 1.57,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9935B",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 4.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "60.7403",
+    "supply": 5,
+    "closed_at": "None순위 None",
+    "rate": 2.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9888A",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 2.5,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9933B",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 1.29,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 47,
+  "rank1_req": 0,
+  "supply_total": 23,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "59.9935B",
+   "rate": 4.5,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 부천시 소사구",
   "lawd": "41194",
   "months": 12,
-  "updated": "2026-11-16",
-  "n84": 794,
-  "median84": 59500,
+  "updated": "2026-11-17",
+  "n84": 798,
+  "median84": 59700,
   "p25_84": 53200,
   "p75_84": 71525,
   "new_n84": 95,
   "new_median84": 78500,
   "new_build_years": 5,
   "umd": "송내동",
-  "umd_n84": 147,
+  "umd_n84": 148,
   "umd_median84": 60000,
-  "diff_vs_median84": 19800,
+  "diff_vs_median84": 19600,
   "diff_pct_vs_median84": 33,
   "diff_vs_new_median84": 800,
   "diff_pct_vs_new_median84": 1,

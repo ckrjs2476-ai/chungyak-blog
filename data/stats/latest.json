@@ -1,5 +1,5 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "weekly_competition": [
   {
    "no": "2026000528",
@@ -118,6 +118,16 @@
    "final_shortfall_total": 231,
    "rank1_closed_types": 0,
    "type_count": 2
+  },
+  {
+   "no": "2026000554",
+   "name": "리첼 에듀포레 경산역",
+   "region": "경북",
+   "rank1_avg_rate": 0.02,
+   "best": null,
+   "final_shortfall_total": 196,
+   "rank1_closed_types": 0,
+   "type_count": 4
   }
  ],
  "weekly_remainder": [
@@ -237,6 +247,41 @@
     {
      "ty": "120.58",
      "price": 69700,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910296",
+   "name": "힐스테이트 거제시그니처(1회차)",
+   "region": "경남",
+   "households": 129,
+   "rcept_date": "2026-11-23",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910296&pblancNo=2026910296",
+   "types": [
+    {
+     "ty": "84.9469B",
+     "price": 58660,
+     "pyeong_price": null
+    },
+    {
+     "ty": "112.9922A",
+     "price": 79750,
+     "pyeong_price": null
+    },
+    {
+     "ty": "132.982A",
+     "price": 93870,
+     "pyeong_price": null
+    },
+    {
+     "ty": "138.9652P",
+     "price": 138820,
+     "pyeong_price": null
+    },
+    {
+     "ty": "165.9676P",
+     "price": 165950,
      "pyeong_price": null
     }
    ]
