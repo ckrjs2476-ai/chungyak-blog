@@ -47,6 +47,37 @@
   "신생아": 14,
   "청년": 6
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "49.5837A",
+    "supply": 6,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 2
+   },
+   {
+    "ty": "59.9783A",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 1.62,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 26,
+  "rank1_req": 26,
+  "supply_total": 19,
+  "final_shortfall_total": 2,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 2,
+  "rank1_avg_rate": 1.37,
+  "best": {
+   "ty": "59.9783A",
+   "rate": 1.62,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "제주",
   "supply_kind": "국민",
@@ -70,11 +101,24 @@
   "peer_avg_rate": 0.1,
   "peer_max_rate": 0.2
  },
+ "region_competition": {
+  "scope": "제주",
+  "peer_count": 4,
+  "peers": [
+   "신제주 동문디이스트 시그니처원Ⅰ",
+   "신제주 동문디이스트 시그니처원Ⅱ",
+   "삼도이동 1지구 토지임대부 공공분양주택",
+   "제주시 이도이동 아이린8차 아파트"
+  ],
+  "peer_avg_rate": 0.93,
+  "rank": 2,
+  "of": 5
+ },
  "market": {
   "region": "제주특별자치도 제주시",
   "lawd": "50110",
   "months": 12,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "n84": 586,
   "median84": 40300,
   "p25_84": 30475,

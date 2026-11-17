@@ -71,6 +71,51 @@
   "노부모 부양": 13,
   "기관추천": 41
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9777",
+    "supply": 6,
+    "closed_at": "1순위 해당지역",
+    "rate": 12.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.7415A",
+    "supply": 152,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 81
+   },
+   {
+    "ty": "84.8836B",
+    "supply": 111,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 63
+   },
+   {
+    "ty": "84.9911C",
+    "supply": 75,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 34
+   }
+  ],
+  "req_total": 304,
+  "rank1_req": 304,
+  "supply_total": 344,
+  "final_shortfall_total": 178,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 4,
+  "rank1_avg_rate": 0.88,
+  "best": {
+   "ty": "59.9777",
+   "rate": 12.0,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "경기",
   "supply_kind": "민영",
@@ -97,6 +142,23 @@
   "peer_count": 39,
   "peer_avg_rate": 4.68,
   "peer_max_rate": 51.75
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 40,
+  "peers": [
+   "오남역 서희스타힐스 여의재 3단지",
+   "더샵 분당하이스트",
+   "힐스테이트 시흥더클래스",
+   "엘리프 역곡",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "북오산자이 드포레"
+  ],
+  "peer_avg_rate": 4.56,
+  "rank": 20,
+  "of": 41
  },
  "market": {
   "region": "경기도 의정부시",
