@@ -345,7 +345,7 @@ def rerender(only: set[str] | None = None) -> int:
         block = related_block(no, exclude_id=p["blogger_id"], labels=p["labels"])
         p["related_html"] = block
         html = (build_card(meta) + to_html(body) + result_block(meta) + method_link()
-                + seo_extras(p.get("file", ""), str(p.get("published_at", ""))[:10], body) + block)
+                + seo_extras(p.get("file", ""), str(p.get("published_at", ""))[:10], body, meta, p.get("url", "")) + block)
         p["result_sig"] = result_sig(meta)
         _ok(requests.patch(f"{API}/blogs/{blog}/posts/{p['blogger_id']}",
                            json={"content": html, "title": meta["title"], "labels": p["labels"]},
@@ -469,8 +469,31 @@ def byline_block(file: str, published: str) -> str:
             'font-size:13px;color:#555555;line-height:1.7;">' + " · ".join(parts) + "</p>")
 
 
-def seo_extras(file: str, published: str, body: str) -> str:
-    return byline_block(file, published) + faq_jsonld(body)
+def article_jsonld(meta: dict, file: str, published: str, url: str = "") -> str:
+    """BlogPosting 구조화 데이터: 제목·설명·처음 올린 날·실제 마지막 수정일(git)·글쓴이·주제어. 구글 AI 개요·AI 모드가 보는 작성자·날짜 신호(2026-11-18)."""
+    if not meta or not meta.get("title"):
+        return ""
+    pages = json.loads(PAGES_JSON.read_text("utf-8")) if PAGES_JSON.exists() else {}
+    about = (pages.get("about.md") or {}).get("url")
+    edited = _git_date(DONE / file) if file else ""
+    d = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": str(meta["title"])[:110],
+         "inLanguage": "ko-KR", "author": {"@type": "Person", "name": "데이터노트", **({"url": about} if about else {})}}
+    if meta.get("description"):
+        d["description"] = str(meta["description"])
+    if published:
+        d["datePublished"] = published
+        d["dateModified"] = edited if edited and edited > published else published
+    if url:
+        d["mainEntityOfPage"] = url
+    kws = [str(meta.get("keyword") or "")] + [str(q) for q in (meta.get("questions") or [])]
+    kws = [k for k in dict.fromkeys(kws) if k]
+    if kws:
+        d["keywords"] = ", ".join(kws[:6])
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+
+def seo_extras(file: str, published: str, body: str, meta: dict | None = None, url: str = "") -> str:
+    return byline_block(file, published) + faq_jsonld(body) + article_jsonld(meta or {}, file, published, url)
 
 
 # ---- 청약노트 공고 글: 경쟁률·당첨 가점이 나오면 결과를 글 끝에 이어 붙인다 (rules/unique_value.md 2장) ----
@@ -653,7 +676,7 @@ def main() -> int:
         token = token or access_token()
         no = str(meta.get(UNIT_KEY) or "")
         html = (build_card(meta) + to_html(body) + result_block(meta) + method_link()
-                + seo_extras("", datetime.now(KST).date().isoformat(), body) + related_block(no, labels=meta.get("labels")))
+                + seo_extras("", datetime.now(KST).date().isoformat(), body, meta) + related_block(no, labels=meta.get("labels")))
         post = post_to_blogger(token, meta, html, draft)
         record(meta, body, post, f.name)
         try:  # 발행 시점 숫자 근거를 얼려 둔다(이후 데이터가 다시 계산돼도 이 글은 발행일 기준으로 검사)

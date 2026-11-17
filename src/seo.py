@@ -153,6 +153,7 @@ def _published(blog: str) -> list[dict]:
 
 
 EXP_RULES_FROM = "2026-11-08"
+DRONE_GEO_FROM = "2026-11-18"  # 드론: AI 검색(ChatGPT·Gemini·Claude)·구글 AI 개요/AI 모드 기준을 막는 규칙으로(사용자 요청 11/18)
 LINK2_FROM = "2026-11-09"  # 새 글 내부 링크 2개 이상(공개 글 10편 이상 블로그)  # 직접 알아보기(캡처 + 1인칭) 필수 시작일
 CAPTURE_RE = re.compile(r"^!\[[^\]]+\]\(captures/[^)]+\)", re.M)
 FIRST_PERSON_RE = re.compile(r"제가[^.!?\n]{0,90}(봤어요|했어요|확인했어요|찾았어요|넣었어요|눌렀어요|봤습니다|했습니다|확인했습니다|찾았습니다|넣었습니다|눌렀습니다|(알아|찾아|살펴|따져|세어|비교해|조회해|검색해|확인해|넣어|열어|계산해|돌려|골라)\s?본 결과)")  # "제가 직접 알아본 결과입니다"(사용자 요청 2026-11-09)
@@ -235,6 +236,44 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
         hit = sum(1 for h, _ in heads if any(w in h for w in words))
         if hit < 2:
             errs.append(f"[검색자] questions의 말이 소제목 {hit}개에만 들어갔습니다(2개 이상). 검색자 질문에 답하는 소제목으로.")
+    if blog == "drone" and str(meta.get("_file", ""))[:10] >= DRONE_GEO_FROM:
+        errs += drone_geo_errors(meta, body)
+    return errs
+
+
+def drone_geo_errors(meta: dict, body: str) -> list[str]:
+    """드론 정보노트 AI 검색 기준(2026-11-18~ 새 원고). 근거: AI 답변은 검색 색인에서 글을 찾아(RAG) 질문을 여러 갈래로 쪼개 검색(fan-out)하고,
+    숫자·출처가 같은 문장에 있는 짧은 문단을 떼어 인용한다."""
+    errs: list[str] = []
+    heads = _sections(body)
+    paras = _paragraphs(body)
+    kw = str(meta.get("keyword", "")).strip()
+    qlist = [str(q) for q in (meta.get("questions") or [])]
+    if len(qlist) < 3:
+        errs.append("[AI검색] 머리말 questions가 3개 미만입니다. AI는 질문을 여러 갈래로 쪼개 검색하니 이어서 물을 질문까지 3~5개(실제 검색어에서 본 말).")
+    if paras:
+        first = _sentences(_plain(paras[0]))
+        if len(first) > 3 or (first and not (NUM_RE.search(first[0]) or (kw and kw.split()[0] in first[0]))):
+            errs.append("[AI검색] 첫 문단은 3문장 이내, 첫 문장에 질문의 답(숫자나 대상 이름)이 바로 나와야 합니다. AI 개요가 가장 먼저 가져가는 문장입니다.")
+    answered = 0
+    for _, sec in heads:
+        pp = _paragraphs(sec)
+        f1 = _sentences(_plain(pp[0]))[:1] if pp else []
+        if f1 and NUM_RE.search(f1[0]):
+            answered += 1
+    if heads and answered / len(heads) < 0.5:
+        errs.append(f"[AI검색] 소제목 아래 첫 문장에 숫자·기준이 든 답이 {answered}/{len(heads)}개입니다(절반 이상). '몇 kg·며칠·몇 m·몇 원'처럼 떼어 인용할 수 있는 답으로.")
+    srcs = CITE_RE.findall(_plain(" ".join(paras)))
+    if len(srcs) < 2:
+        errs.append("[AI검색] 출처를 밝힌 문장이 2개 미만입니다. 주요 숫자마다 같은 문장 안에 출처('항공안전법 시행규칙 제○조에 따르면')를.")
+    if kw and body.count(kw) > 6:
+        errs.append(f"[AI검색] 대표 키워드 '{kw}'가 {body.count(kw)}번 반복됩니다(6번 이하). 반복은 효과가 없고 어색해집니다.")
+    sents = _sentences(_plain(" ".join(paras)))
+    long = [x for x in sents if len(x) > 110]
+    if sents and len(long) / len(sents) > 0.15:
+        errs.append(f"[AI검색] 110자 넘는 문장이 {len(long)}개입니다(15% 이하). AI 답변은 짧은 문장을 잘라 인용합니다.")
+    if "|" not in body:
+        errs.append("[AI검색] 비교·기준 표가 없습니다(1개 이상).")
     return errs
 
 
