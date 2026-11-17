@@ -446,6 +446,11 @@ def faq_jsonld(body: str) -> str:
         qa.append({"@type": "Question", "name": h.rstrip(), "acceptedAnswer": {"@type": "Answer", "text": ans[:400]}})
         if len(qa) == 6:
             break
+    for q, a in seo.qa_pairs(body):  # 글 끝 '자주 묻는 질문' 묶음(드론 2026-11-18~)
+        if len(qa) >= 10:
+            break
+        if len(a) >= 10 and not any(x["name"] == q for x in qa):
+            qa.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a[:400]}})
     if not qa:
         return ""
     data = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": qa}, ensure_ascii=False)

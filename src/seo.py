@@ -24,7 +24,7 @@ SOURCES = r"(항공안전법|국가법령정보센터|법령 원문|시행규칙
 CITE_RE = re.compile(SOURCES + r"[^.\n]{0,40}?(따르면|기준|자료|공고|집계|공시|에서|에 공개|에 등록|에 올라|을 낸|를 낸|원문|원자료|가져)")
 VAGUE_ANCHOR = re.compile(r"\[(여기|이곳|더 ?보기|클릭|링크|바로가기)\]\(")
 DATE_RE = re.compile(r"(20\d\d년\s*\d{1,2}월(\s*\d{1,2}일)?|20\d\d[-.]\d{1,2}([-.]\d{1,2})?|\d{1,2}월\s*\d{1,2}일)")
-NUM_RE = re.compile(r"\d[\d,]*(\.\d+)?\s*(억|만|천|원|세대|㎡|%|대\s*1|점|건|곳|개|배|위|kg|g|m|km|명|시간|분|년|개월|일)")
+NUM_RE = re.compile(r"\d[\d,]*(\.\d+)?\s*(억|만|천|원|세대|㎡|%|대\s*1|점|건|곳|개|배|위|kg|g|cm|mm|m|km|Wh|mAh|명|시간|분|초|년|개월|일|회|조|항|세|도)")
 PRONOUN_START = re.compile(r"^(이는|이것은|이건|그래서|그러나|하지만|또한|게다가|이 때문에|이처럼|그런데)\b")
 
 
@@ -241,6 +241,14 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
     return errs
 
 
+QA_RE = re.compile(r"^Q\.\s*(.+?\?)\s*\n\s*A\.\s*(.+)$", re.M)
+
+
+def qa_pairs(body: str) -> list[tuple[str, str]]:
+    """본문 끝 '### 자주 묻는 질문' 묶음: 'Q. 질문?' 다음 줄 'A. 답'(같은 문단, 굵게 쓰지 않음)."""
+    return [(q.strip(), _plain(a).strip()) for q, a in QA_RE.findall(body)]
+
+
 def drone_geo_errors(meta: dict, body: str) -> list[str]:
     """드론 정보노트 AI 검색 기준(2026-11-18~ 새 원고). 근거: AI 답변은 검색 색인에서 글을 찾아(RAG) 질문을 여러 갈래로 쪼개 검색(fan-out)하고,
     숫자·출처가 같은 문장에 있는 짧은 문단을 떼어 인용한다."""
@@ -274,6 +282,18 @@ def drone_geo_errors(meta: dict, body: str) -> list[str]:
         errs.append(f"[AI검색] 110자 넘는 문장이 {len(long)}개입니다(15% 이하). AI 답변은 짧은 문장을 잘라 인용합니다.")
     if "|" not in body:
         errs.append("[AI검색] 비교·기준 표가 없습니다(1개 이상).")
+    qa = qa_pairs(body)
+    if len(qa) < 3:
+        errs.append("[Q&A] 글 끝(다음 행동 문단 앞)에 '### 자주 묻는 질문' 아래 Q&A가 3개 이상 필요합니다. 형식: 'Q. 질문?' 다음 줄 'A. 답'(같은 문단, 굵게 쓰지 않음). 질문은 소제목과 다른 이어지는 질문, 실제 검색어에서.")
+    else:
+        heads_txt = " ".join(h for h, _ in heads)
+        for q, a in qa:
+            if q in heads_txt:
+                errs.append(f"[Q&A] '{q[:20]}'는 소제목과 같은 질문입니다. 소제목에서 다루지 않은 이어지는 질문으로.")
+                break
+            if len(_sentences(a)) > 2 or not NUM_RE.search(a):
+                errs.append(f"[Q&A] '{q[:20]}'의 답은 2문장 이내, 숫자·기준이 들어간 답으로.")
+                break
     return errs
 
 
