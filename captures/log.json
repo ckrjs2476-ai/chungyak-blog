@@ -1,44 +1,5 @@
 [
  {
-  "name": "dr-law-aviation-safety-129-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "항공안전법",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 38076,
-  "url": "https://www.law.go.kr/법령/항공안전법/제129조",
-  "at": "2026-11-11 20:04"
- },
- {
-  "name": "dr-law-aviation-business-2-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "항공사업법",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 48370,
-  "url": "https://www.law.go.kr/법령/항공사업법/제2조",
-  "at": "2026-11-11 20:05"
- },
- {
-  "name": "dr-law-drone-act-2c-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "드론활용의촉진및기반조성에관한법률",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 25194,
-  "url": "https://www.law.go.kr/법령/드론활용의촉진및기반조성에관한법률/제2조",
-  "at": "2026-11-11 20:08"
- },
- {
   "name": "gw-41463-geumhwa3-chart",
   "ok": true,
   "chart": {
@@ -2636,5 +2597,68 @@
   ],
   "bytes": 18052,
   "at": "2026-11-18 02:47"
+ },
+ {
+  "name": "ipo-00566418-size",
+  "ok": true,
+  "chart": {
+   "type": "gongmoju_size",
+   "corp_code": "00566418"
+  },
+  "size": [
+   760,
+   844
+  ],
+  "bytes": 26540,
+  "at": "2026-11-18 07:53"
+ },
+ {
+  "name": "gm-mds-korea-ipo-2026-12-card",
+  "ok": true,
+  "card": {
+   "blog": "gongmoju",
+   "layout": "points",
+   "title": "엠디에스코리아 공모주, 돈은 어디에 쓰나요?",
+   "answer": "자금 계획의 91.3%가 시설자금이에요",
+   "points": [
+    {
+     "label": "시설자금 비중",
+     "value": "91.3%"
+    },
+    {
+     "label": "공모 규모",
+     "value": "213.8억 원"
+    },
+    {
+     "label": "22곳 중 규모",
+     "value": "16위"
+    },
+    {
+     "label": "설립",
+     "value": "29년 차"
+    }
+   ],
+   "source": "DART 증권신고서",
+   "date": "2026-11-17"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 21206,
+  "at": "2026-11-18 07:53"
+ },
+ {
+  "name": "ipo-00566418-dart",
+  "ok": true,
+  "status": 200,
+  "title": "엠디에스코리아/증권신고서(지분증권)/2026.11.17",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 31168,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000221",
+  "at": "2026-11-18 07:53"
  }
 ]
