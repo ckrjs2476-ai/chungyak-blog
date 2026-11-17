@@ -2,33 +2,33 @@
  "lawd": "11350",
  "name": "서울특별시 노원구",
  "months": 12,
- "updated": "2026-11-16",
- "trade_count": 7257,
+ "updated": "2026-11-17",
+ "trade_count": 7294,
  "cancel_count": 163,
- "n84": 1443,
+ "n84": 1448,
  "median84": 83000,
  "p25_84": 68000,
- "p75_84": 97800,
- "median84_pyeong_excl": 3249,
+ "p75_84": 97950,
+ "median84_pyeong_excl": 3248,
  "new_n84": 70,
  "new_median84": 114500,
  "new_build_years": 5,
  "umd84": {
+  "상계동": {
+   "n": 420,
+   "median": 68800
+  },
+  "중계동": {
+   "n": 345,
+   "median": 86000
+  },
   "공릉동": {
    "n": 277,
    "median": 79000
   },
-  "상계동": {
-   "n": 418,
-   "median": 68650
-  },
   "월계동": {
-   "n": 238,
-   "median": 94100
-  },
-  "중계동": {
-   "n": 343,
-   "median": 86000
+   "n": 239,
+   "median": 94500
   },
   "하계동": {
    "n": 167,
@@ -98,41 +98,47 @@
   },
   {
    "month": "2026-10",
-   "count": 406,
-   "n84": 88,
-   "median84": 86350
+   "count": 434,
+   "n84": 89,
+   "median84": 85800
   },
   {
    "month": "2026-11",
-   "count": 22,
-   "n84": 4,
+   "count": 31,
+   "n84": 8,
    "median84": 99500
   }
  ],
  "top_apts": [
   {
    "name": "상계동 상계주공9(고층)",
-   "count": 170,
-   "median84": null,
-   "built": 1988
-  },
-  {
-   "name": "상계동 상계주공6(고층)",
-   "count": 167,
-   "median84": null,
-   "built": 1988
-  },
-  {
-   "name": "상계동 상계주공7(고층)",
-   "count": 166,
+   "count": 171,
    "median84": null,
    "built": 1988
   },
   {
    "name": "중계동 중계그린1단지",
-   "count": 166,
+   "count": 169,
    "median84": null,
    "built": 1990
+  },
+  {
+   "name": "상계동 상계주공6(고층)",
+   "count": 168,
+   "median84": null,
+   "built": 1988
+  },
+  {
+   "name": "상계동 상계주공7(고층)",
+   "count": 167,
+   "median84": null,
+   "built": 1988
+  },
+  {
+   "name": "중계동 중계무지개",
+   "count": 148,
+   "median84": null,
+   "built": 1991
   },
   {
    "name": "상계동 상계주공14(고층)",
@@ -141,26 +147,20 @@
    "built": 1989
   },
   {
-   "name": "중계동 중계무지개",
-   "count": 146,
-   "median84": null,
-   "built": 1991
-  },
-  {
    "name": "상계동 보람아파트",
-   "count": 138,
+   "count": 140,
    "median84": null,
    "built": 1988
   },
   {
    "name": "공릉동 태강아파트(아이파크)",
-   "count": 137,
+   "count": 138,
    "median84": null,
    "built": 1999
   },
   {
    "name": "상계동 상계주공16(고층)",
-   "count": 129,
+   "count": 130,
    "median84": null,
    "built": 1988
   },

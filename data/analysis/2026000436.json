@@ -199,5 +199,27 @@
   ],
   "peer_avg_min": 0.0,
   "diff": 0.0
+ },
+ "market": {
+  "region": "울산광역시 중구",
+  "lawd": "31110",
+  "months": 12,
+  "updated": "2026-11-17",
+  "n84": 846,
+  "median84": 48070,
+  "p25_84": 26750,
+  "p75_84": 57425,
+  "new_n84": 184,
+  "new_median84": 68200,
+  "new_build_years": 5,
+  "umd": "학성동",
+  "umd_n84": 33,
+  "umd_median84": 29000,
+  "diff_vs_median84": 27030,
+  "diff_pct_vs_median84": 56,
+  "diff_vs_new_median84": 6900,
+  "diff_pct_vs_new_median84": 10,
+  "diff_vs_umd_median84": 46100,
+  "diff_pct_vs_umd_median84": 159
  }
 }

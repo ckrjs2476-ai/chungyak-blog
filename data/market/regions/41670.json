@@ -2,18 +2,22 @@
  "lawd": "41670",
  "name": "경기도 여주시",
  "months": 12,
- "updated": "2026-11-16",
- "trade_count": 711,
+ "updated": "2026-11-17",
+ "trade_count": 717,
  "cancel_count": 48,
- "n84": 274,
- "median84": 29150,
+ "n84": 275,
+ "median84": 29000,
  "p25_84": 20500,
- "p75_84": 44850,
- "median84_pyeong_excl": 1140,
+ "p75_84": 44800,
+ "median84_pyeong_excl": 1136,
  "new_n84": 81,
  "new_median84": 46000,
  "new_build_years": 5,
  "umd84": {
+  "연양동": {
+   "n": 21,
+   "median": 19000
+  },
   "현암동": {
    "n": 64,
    "median": 29400
@@ -25,10 +29,6 @@
   "천송동": {
    "n": 17,
    "median": 45500
-  },
-  "연양동": {
-   "n": 20,
-   "median": 19050
   },
   "멱곡동": {
    "n": 8,
@@ -120,15 +120,15 @@
   },
   {
    "month": "2026-11",
-   "count": 16,
-   "n84": 9,
-   "median84": 41600
+   "count": 22,
+   "n84": 10,
+   "median84": 40800
   }
  ],
  "top_apts": [
   {
    "name": "점봉동 부영사랑으로",
-   "count": 56,
+   "count": 57,
    "median84": null,
    "built": 2000
   },
@@ -164,21 +164,21 @@
   },
   {
    "name": "교동 호반리젠시빌",
-   "count": 26,
+   "count": 27,
    "median84": 21700,
    "built": 2003
+  },
+  {
+   "name": "홍문동 홍문현대",
+   "count": 25,
+   "median84": 21750,
+   "built": 1996
   },
   {
    "name": "교동 예일세띠앙",
    "count": 25,
    "median84": 29500,
    "built": 2006
-  },
-  {
-   "name": "홍문동 홍문현대",
-   "count": 24,
-   "median84": 21750,
-   "built": 1996
   },
   {
    "name": "홍문동 동원",
