@@ -102,3 +102,10 @@
   - 관리비 3: gangbuk-gu-apartment-management-fee-gap, apartment-elevator-fee-suji-gu-2026-09, sanseong-xi-prugio-1-management-fee
   - 공모주 2: ipo-lead-manager-2026-11, kte-ipo-2026-12
   - 다음 실행 11-16 12:22: 공모주(ipo-amended-filing-2026-11 먼저) → 전세 → 청약 → 드론 → 관리비
+
+- 11-18 새벽(01:04~01:13) 11건 요청, 12번째(관리비 sannae-2-centralium-management-fee-2026)에서 할당량 초과 (11/16~17 쉼, 11/18 01시 재개)
+  - 공모주 3: ipo-amended-filing-2026-11(11-15 남은 것), ipo-week-2026-11-16, anh-structure-ipo-2026-11
+  - 전세 3: gangdong-gu-jeonse-ratio-4weeks-2026-11, daegu-dalseo-gu-jeonse-sangin-dong-2026, seoul-dongjak-gu-jeonse-heukseok-dong
+  - 청약 3: jeju-si-apartment-pyeong-price-2025-11, yeongjong-apartment-pyeong-price-2025, elif-siheung-prime-competition-2026-11
+  - 드론 2: drone-soccer-rules-worldcup-2026, drone-filming-notice-privacy-2026
+  - 다음 실행 11-19 11:00: 관리비(sannae-2-centralium-management-fee-2026 먼저) → 공모주 → 전세 → 청약 → 드론
