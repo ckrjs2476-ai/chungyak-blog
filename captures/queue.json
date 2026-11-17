@@ -173,5 +173,35 @@
   "name": "dr-flight-rules-310-1117",
   "url": "https://www.law.go.kr/법령/항공안전법시행규칙/제310조",
   "sleep": 4
+ },
+ {
+  "name": "dr-safety-cert-calc-2",
+  "page": "blogs/drone/pages/calculator.md",
+  "width": 760,
+  "steps": [
+   {
+    "fill": [
+     "#w",
+     "150"
+    ]
+   },
+   {
+    "pick": [
+     "#use",
+     "사업"
+    ]
+   },
+   {
+    "pick": [
+     "#where",
+     "밖"
+    ]
+   }
+  ],
+  "crop": {
+   "from": "최대이륙중량(kg)",
+   "to": "이 기준으로 판단해요"
+  },
+  "pad": 16
  }
 ]
