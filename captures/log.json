@@ -1,202 +1,5 @@
 [
  {
-  "name": "dr-onestop-flightarea-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "비행 계획 / 비행가능 지역 검색",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 7472,
-  "url": "https://drone.onestop.go.kr/common/flightArea",
-  "at": "2026-11-11 09:07"
- },
- {
-  "name": "dr-onestop-port-legend-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "비행 계획 / 비행가능 지역 검색",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 15596,
-  "url": "https://drone.onestop.go.kr/common/flightArea",
-  "at": "2026-11-11 09:09"
- },
- {
-  "name": "cy-2026000525-schedule",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   460
-  ],
-  "bytes": 19600,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000525&pblancNo=2026000525",
-  "at": "2026-11-11 09:51"
- },
- {
-  "name": "gw-41287-zenith-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41287",
-   "code": "A41178504"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16476,
-  "at": "2026-11-11 11:25"
- },
- {
-  "name": "js-11710-ratio-history",
-  "ok": true,
-  "chart": {
-   "type": "history",
-   "blog": "jeonse",
-   "entity": "11710",
-   "metric": "ratio84",
-   "title": "송파구 84㎡ 전세가율 기록",
-   "unit": "%"
-  },
-  "size": [
-   760,
-   380
-  ],
-  "bytes": 11304,
-  "at": "2026-11-11 12:43"
- },
- {
-  "name": "js-11710-rt-form-1111",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7302,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-11 12:43"
- },
- {
-  "name": "cy-2026000499-special-1111",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   316
-  ],
-  "bytes": 15862,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000499&pblancNo=2026000499",
-  "at": "2026-11-11 18:38"
- },
- {
-  "name": "cy-2025000440-price-1111",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   348
-  ],
-  "bytes": 11456,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000440&pblancNo=2025000440",
-  "at": "2026-11-11 18:43"
- },
- {
-  "name": "js-11380-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "11380",
-   "highlight": "진관동"
-  },
-  "size": [
-   760,
-   428
-  ],
-  "bytes": 14536,
-  "at": "2026-11-11 19:47"
- },
- {
-  "name": "js-11380-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7346,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-11 19:47"
- },
- {
-  "name": "dr-law-drone-act-2-2026-11-11",
-  "ok": false,
-  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%93%9C%EB%A1%A0%ED%99%9C%EC%9A%A9%EC%9D%98%EC%B4%89%EC%A7%84%EB%B0%8F%EA%B8%B0%EB%B0%98%EC%A1%B0%EC%84%B1%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0/%EC%A0%9C2%EC%A1%B0\nCall log:\n  - navigating to \"https://www.law",
-  "url": "https://www.law.go.kr/법령/드론활용의촉진및기반조성에관한법률/제2조"
- },
- {
-  "name": "dr-law-drone-rule-2-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "드론활용의촉진및기반조성에관한법률시행규칙",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 16630,
-  "url": "https://www.law.go.kr/법령/드론활용의촉진및기반조성에관한법률시행규칙/제2조",
-  "at": "2026-11-11 19:59"
- },
- {
-  "name": "dr-law-aviation-safety-2-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "항공안전법",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 40452,
-  "url": "https://www.law.go.kr/법령/항공안전법/제2조",
-  "at": "2026-11-11 20:00"
- },
- {
-  "name": "dr-elaw-drone-act-en-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "Statutes of the Republic of Korea",
-  "size": [
-   760,
-   900
-  ],
-  "bytes": 91336,
-  "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=71365&type=part&key=41",
-  "at": "2026-11-11 20:00"
- },
- {
-  "name": "dr-law-aviation-safety-122-2026-11-11",
-  "ok": true,
-  "status": 200,
-  "title": "항공안전법",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 27966,
-  "url": "https://www.law.go.kr/법령/항공안전법/제122조",
-  "at": "2026-11-11 20:04"
- },
- {
   "name": "dr-law-aviation-safety-127-2026-11-11",
   "ok": true,
   "status": 200,
@@ -2618,5 +2421,197 @@
   "bytes": 38958,
   "url": "https://www.law.go.kr/법령/항공안전법",
   "at": "2026-11-18 01:14"
+ },
+ {
+  "name": "js-donggap-11410-chart1117",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11410",
+   "highlight": "북가좌동"
+  },
+  "size": [
+   760,
+   492
+  ],
+  "bytes": 17246,
+  "at": "2026-11-18 01:33"
+ },
+ {
+  "name": "js-newcomplex-48310-chart1117",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "48310",
+   "highlight": "장평동"
+  },
+  "size": [
+   760,
+   492
+  ],
+  "bytes": 17094,
+  "at": "2026-11-18 01:33"
+ },
+ {
+  "name": "cy-2026000373-sched-gangdong1117b",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 23480,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
+  "at": "2026-11-18 01:34"
+ },
+ {
+  "name": "js-donggap-rt-seodaemun1117b",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7378,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-18 01:34"
+ },
+ {
+  "name": "js-newcomplex-rt-geoje1117b",
+  "ok": false,
+  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
+ },
+ {
+  "name": "dr-no-fly-zone-calc-1b",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14236,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-18 01:34"
+ },
+ {
+  "name": "dr-delivery-molit-1117b",
+  "ok": true,
+  "status": 200,
+  "title": "보도자료",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 14176,
+  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%B0%B0%EC%86%A1",
+  "at": "2026-11-18 01:35"
+ },
+ {
+  "name": "dr-delivery-molit-1117c",
+  "ok": true,
+  "status": 200,
+  "title": "보도자료",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 7988,
+  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0%EB%B0%B0%EC%86%A1",
+  "at": "2026-11-18 01:35"
+ },
+ {
+  "name": "dr-utm-molit-1117b",
+  "ok": true,
+  "status": 200,
+  "title": "보도자료",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 6542,
+  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EA%B5%90%ED%86%B5%EA%B4%80%EB%A6%AC",
+  "at": "2026-11-18 01:35"
+ },
+ {
+  "name": "dr-utm-molit-1117c",
+  "ok": true,
+  "status": 200,
+  "title": "보도자료",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 9602,
+  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=K-%EB%93%9C%EB%A1%A0",
+  "at": "2026-11-18 01:36"
+ },
+ {
+  "name": "dr-antidrone-molit-1117b",
+  "ok": true,
+  "status": 200,
+  "title": "보도자료",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 6524,
+  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EC%95%88%ED%8B%B0%EB%93%9C%EB%A1%A0",
+  "at": "2026-11-18 01:36"
+ },
+ {
+  "name": "dr-antidrone-molit-1117c",
+  "ok": true,
+  "status": 200,
+  "title": "보도자료",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 6538,
+  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0%20%EB%B0%A9%EC%96%B4",
+  "at": "2026-11-18 01:36"
+ },
+ {
+  "name": "dr-flight-rules-310-1117",
+  "ok": true,
+  "status": 200,
+  "title": "항공안전법 시행규칙 > 법령 > 본문 | 국가법령정보센터",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 60466,
+  "url": "https://www.law.go.kr/법령/항공안전법시행규칙/제310조",
+  "at": "2026-11-18 01:36"
+ },
+ {
+  "name": "dr-safety-cert-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 15126,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-18 01:37"
+ },
+ {
+  "name": "ipo-wk1026-nexi-dart1016",
+  "ok": true,
+  "status": 200,
+  "title": "넥스아이/증권신고서(지분증권)/2026.10.16",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 35636,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000268",
+  "at": "2026-11-18 01:37"
  }
 ]
