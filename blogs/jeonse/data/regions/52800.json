@@ -1,17 +1,17 @@
 {
  "lawd": "52800",
  "name": "전북특별자치도 부안군",
- "updated": "2026-11-03",
+ "updated": "2026-11-17",
  "months": 12,
- "jeonse_count": 85,
- "wolse_count": 32,
- "wolse_share_pct": 27.4,
- "renew_share_pct": 52.9,
- "jeonse_n84": 68,
+ "jeonse_count": 87,
+ "wolse_count": 35,
+ "wolse_share_pct": 28.7,
+ "renew_share_pct": 51.7,
+ "jeonse_n84": 69,
  "jeonse_median84": 18500,
- "sale_n84": 43,
- "sale_median84": 31000,
- "ratio84": 59.7,
+ "sale_n84": 44,
+ "sale_median84": 30500,
+ "ratio84": 60.7,
  "jeonse_recent3_median84": 18500,
  "jeonse_prev3_median84": 22500,
  "jeonse_change_pct": -17.8,
@@ -20,11 +20,11 @@
  "apts_ratio_70_plus": 1,
  "umd": {
   "부안읍 봉덕리": {
-   "jeonse_n": 65,
+   "jeonse_n": 66,
    "jeonse_median84": 18500,
-   "sale_n": 38,
-   "sale_median84": 30500,
-   "ratio": 60.7
+   "sale_n": 39,
+   "sale_median84": 30000,
+   "ratio": 61.7
   }
  },
  "top_ratio_apts": [
@@ -123,14 +123,20 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 55,
+   "jeonse_count": 56,
    "n84": 55,
    "jeonse_median84": 18500
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 1,
+   "n84": 1,
+   "jeonse_median84": 6000
   }
  ],
- "rank": 143,
+ "rank": 136,
  "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": -12.8,
- "gap84": 12500
+ "ratio_vs_avg_pp": -11.8,
+ "gap84": 12000
 }

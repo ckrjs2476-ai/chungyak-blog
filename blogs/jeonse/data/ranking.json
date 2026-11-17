@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "count": 179,
  "avg_ratio84": 72.5,
  "regions": [
@@ -360,7 +360,7 @@
    "ratio84": 83.6,
    "jeonse_median84": 23000,
    "sale_median84": 27500,
-   "jeonse_change_pct": -4.3,
+   "jeonse_change_pct": 0.0,
    "rank": 40
   },
   {
@@ -643,22 +643,13 @@
    "rank": 71
   },
   {
-   "lawd": "47850",
-   "name": "경상북도 칠곡군",
-   "ratio84": 74.7,
-   "jeonse_median84": 13000,
-   "sale_median84": 17400,
-   "jeonse_change_pct": 45.0,
-   "rank": 72
-  },
-  {
    "lawd": "41480",
    "name": "경기도 파주시",
    "ratio84": 74.3,
    "jeonse_median84": 29500,
    "sale_median84": 39700,
    "jeonse_change_pct": 10.3,
-   "rank": 73
+   "rank": 72
   },
   {
    "lawd": "28237",
@@ -667,6 +658,15 @@
    "jeonse_median84": 31500,
    "sale_median84": 42500,
    "jeonse_change_pct": 7.4,
+   "rank": 73
+  },
+  {
+   "lawd": "47850",
+   "name": "경상북도 칠곡군",
+   "ratio84": 74.1,
+   "jeonse_median84": 13000,
+   "sale_median84": 17550,
+   "jeonse_change_pct": 45.0,
    "rank": 74
   },
   {
@@ -1219,13 +1219,22 @@
    "rank": 135
   },
   {
+   "lawd": "52800",
+   "name": "전북특별자치도 부안군",
+   "ratio84": 60.7,
+   "jeonse_median84": 18500,
+   "sale_median84": 30500,
+   "jeonse_change_pct": -17.8,
+   "rank": 136
+  },
+  {
    "lawd": "11620",
    "name": "서울특별시 관악구",
    "ratio84": 60.4,
    "jeonse_median84": 58000,
    "sale_median84": 96000,
    "jeonse_change_pct": 9.2,
-   "rank": 136
+   "rank": 137
   },
   {
    "lawd": "27260",
@@ -1234,7 +1243,7 @@
    "jeonse_median84": 35000,
    "sale_median84": 58000,
    "jeonse_change_pct": 7.0,
-   "rank": 137
+   "rank": 138
   },
   {
    "lawd": "11230",
@@ -1243,7 +1252,7 @@
    "jeonse_median84": 65000,
    "sale_median84": 108000,
    "jeonse_change_pct": 4.1,
-   "rank": 138
+   "rank": 139
   },
   {
    "lawd": "41465",
@@ -1252,7 +1261,7 @@
    "jeonse_median84": 57750,
    "sale_median84": 96000,
    "jeonse_change_pct": 0.8,
-   "rank": 139
+   "rank": 140
   },
   {
    "lawd": "28275",
@@ -1261,7 +1270,7 @@
    "jeonse_median84": 36000,
    "sale_median84": 59900,
    "jeonse_change_pct": 2.8,
-   "rank": 140
+   "rank": 141
   },
   {
    "lawd": "26350",
@@ -1270,7 +1279,7 @@
    "jeonse_median84": 36000,
    "sale_median84": 60000,
    "jeonse_change_pct": 2.7,
-   "rank": 141
+   "rank": 142
   },
   {
    "lawd": "41133",
@@ -1279,15 +1288,6 @@
    "jeonse_median84": 52500,
    "sale_median84": 87500,
    "jeonse_change_pct": 0.0,
-   "rank": 142
-  },
-  {
-   "lawd": "52800",
-   "name": "전북특별자치도 부안군",
-   "ratio84": 59.7,
-   "jeonse_median84": 18500,
-   "sale_median84": 31000,
-   "jeonse_change_pct": -17.8,
    "rank": 143
   },
   {
@@ -1338,10 +1338,10 @@
   {
    "lawd": "47290",
    "name": "경상북도 경산시",
-   "ratio84": 56.5,
+   "ratio84": 56.7,
    "jeonse_median84": 15090,
-   "sale_median84": 26700,
-   "jeonse_change_pct": 20.4,
+   "sale_median84": 26600,
+   "jeonse_change_pct": 17.6,
    "rank": 149
   },
   {
