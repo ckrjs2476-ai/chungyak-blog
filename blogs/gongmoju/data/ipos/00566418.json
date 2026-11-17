@@ -1,0 +1,96 @@
+{
+ "corp_code": "00566418",
+ "corp_name": "엠디에스코리아",
+ "rcept_no": "20261117000221",
+ "rcept_dt": "20261117",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000221",
+ "subscription": "2026년 12월 14일 ~ 2026년 12월 15일",
+ "payment_date": "2026년 12월 17일",
+ "notice_date": "2026년 12월 14일",
+ "allot_date": "2026년 12월 17일",
+ "stock_kind": "보통주",
+ "shares": 2250000,
+ "face_value": 500,
+ "price": 9500,
+ "total": 21375000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "미래에셋증권",
+   "shares": 2250000,
+   "amount": 21375000000,
+   "fee": 770568750,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 17940000000,
+   "share_pct": 91.3,
+   "amount_eok": 179.4
+  },
+  {
+   "use": "운영자금",
+   "amount": 847444250,
+   "share_pct": 4.3,
+   "amount_eok": 8.5
+  },
+  {
+   "use": "발행제비용",
+   "amount": 853805750,
+   "share_pct": 4.3,
+   "amount_eok": 8.5
+  }
+ ],
+ "fund_total": 19641250000,
+ "sellers": [
+  {
+   "name": "홍희숙",
+   "relation": "최대주주 등",
+   "shares": 250000
+  }
+ ],
+ "sell_shares": 250000,
+ "company": {
+  "corp_name": "(주)엠디에스코리아",
+  "ceo_nm": "문동준",
+  "induty_code": "10899",
+  "est_dt": "19970331",
+  "hm_url": "mdskorea.co.kr",
+  "adres": "경기도 파주시 파주읍 가마울길 212-17"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "미래에셋증권",
+ "underwriting_fee_pct": 3.6,
+ "total_eok": 213.8,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 29,
+ "total_rank": 16,
+ "total_rank_of": 22,
+ "total_vs_median_pct": -23.5,
+ "sell_share_pct": 11.1,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 17940000000,
+  "share_pct": 91.3,
+  "amount_eok": 179.4
+ },
+ "compare_median_total": 27950000000,
+ "compare_count": 22,
+ "median_fee_pct": 4.1,
+ "compare_median_total_eok": 279.5
+}

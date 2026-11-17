@@ -1,0 +1,114 @@
+{
+ "corp_code": "01044092",
+ "corp_name": "이나인페이",
+ "rcept_no": "20261117000140",
+ "rcept_dt": "20261117",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000140",
+ "subscription": "2026년 12월 16일 ~ 2026년 12월 17일",
+ "payment_date": "2026년 12월 21일",
+ "notice_date": "2026년 12월 16일",
+ "allot_date": "2026년 12월 21일",
+ "stock_kind": "보통주",
+ "shares": 6400000,
+ "face_value": 500,
+ "price": 7500,
+ "total": 48000000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한국투자증권",
+   "shares": 6400000,
+   "amount": 48000000000,
+   "fee": 1224999937,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 3500000000,
+   "share_pct": 12.8,
+   "amount_eok": 35.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 5542777564,
+   "share_pct": 20.3,
+   "amount_eok": 55.4
+  },
+  {
+   "use": "타법인증권취득자금",
+   "amount": 17400000000,
+   "share_pct": 63.9,
+   "amount_eok": 174.0
+  },
+  {
+   "use": "발행제비용",
+   "amount": 807219936,
+   "share_pct": 3.0,
+   "amount_eok": 8.1
+  }
+ ],
+ "fund_total": 27249997500,
+ "sellers": [
+  {
+   "name": "이종민",
+   "relation": "최대주주 본인",
+   "shares": 900000
+  },
+  {
+   "name": "이광순",
+   "relation": "최대주주의 부",
+   "shares": 1000000
+  },
+  {
+   "name": "이민경",
+   "relation": "최대주주의 형제",
+   "shares": 500000
+  },
+  {
+   "name": "이민지",
+   "relation": "최대주주의 형제",
+   "shares": 500000
+  }
+ ],
+ "sell_shares": 2900000,
+ "company": {
+  "corp_name": "주식회사 이나인페이",
+  "ceo_nm": "전혁구",
+  "induty_code": "66199",
+  "est_dt": "20070801",
+  "hm_url": "",
+  "adres": "서울특별시 관악구 남부순환로 1793 (봉천동, 백광빌딩) 803호"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": true,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "한국투자증권",
+ "underwriting_fee_pct": 2.55,
+ "total_eok": 480.0,
+ "fund_matches_total": false,
+ "fund_uses_unreliable": false,
+ "company_age_years": 19,
+ "sell_share_pct": 45.3,
+ "top_fund_use": {
+  "use": "타법인증권취득자금",
+  "amount": 17400000000,
+  "share_pct": 63.9,
+  "amount_eok": 174.0
+ },
+ "compare_median_total": 27950000000,
+ "compare_count": 22,
+ "median_fee_pct": 4.1,
+ "compare_median_total_eok": 279.5
+}

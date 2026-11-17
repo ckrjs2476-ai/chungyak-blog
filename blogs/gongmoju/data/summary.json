@@ -1,11 +1,11 @@
 {
  "updated": "2026-11-17",
  "days": 89,
- "count": 21,
- "spac_count": 2,
- "median_total": 29500000000,
- "median_total_eok": 295.0,
- "median_fee_pct": 4.11,
+ "count": 22,
+ "spac_count": 3,
+ "median_total": 27950000000,
+ "median_total_eok": 279.5,
+ "median_fee_pct": 4.1,
  "ipos": [
   {
    "corp_code": "00299109",
@@ -38,6 +38,14 @@
    "price": 19000,
    "total": 53504000000,
    "total_rank": 4
+  },
+  {
+   "corp_code": "01044092",
+   "corp_name": "이나인페이",
+   "subscription": "2026년 12월 16일 ~ 2026년 12월 17일",
+   "price": 7500,
+   "total": 48000000000,
+   "total_rank": null
   },
   {
    "corp_code": "01783687",
@@ -128,12 +136,20 @@
    "total_rank": 15
   },
   {
+   "corp_code": "00566418",
+   "corp_name": "엠디에스코리아",
+   "subscription": "2026년 12월 14일 ~ 2026년 12월 15일",
+   "price": 9500,
+   "total": 21375000000,
+   "total_rank": 16
+  },
+  {
    "corp_code": "01950720",
    "corp_name": "제논",
    "subscription": "2026년 12월 14일 ~ 2026년 12월 15일",
    "price": 9700,
    "total": 21340000000,
-   "total_rank": 16
+   "total_rank": 17
   },
   {
    "corp_code": "01025617",
@@ -141,7 +157,7 @@
    "subscription": "2026년 11월 10일 ~ 2026년 11월 11일",
    "price": 4700,
    "total": 20680000000,
-   "total_rank": 17
+   "total_rank": 18
   },
   {
    "corp_code": "01705740",
@@ -149,7 +165,7 @@
    "subscription": "2026년 11월 12일 ~ 2026년 11월 13일",
    "price": 9600,
    "total": 19200000000,
-   "total_rank": 18
+   "total_rank": 19
   },
   {
    "corp_code": "01135039",
@@ -157,7 +173,7 @@
    "subscription": "2026년 12월 11일 ~ 2026년 12월 14일",
    "price": 8000,
    "total": 17600000000,
-   "total_rank": 19
+   "total_rank": 20
   },
   {
    "corp_code": "01705573",
@@ -165,7 +181,7 @@
    "subscription": "2026년 11월 18일 ~ 2026년 11월 19일",
    "price": 19000,
    "total": 15200000000,
-   "total_rank": 20
+   "total_rank": 21
   },
   {
    "corp_code": "02040710",
@@ -189,7 +205,7 @@
    "subscription": "2026년 12월 09일 ~ 2026년 12월 10일",
    "price": 12300,
    "total": 12300000000,
-   "total_rank": 21
+   "total_rank": 22
   }
  ]
 }

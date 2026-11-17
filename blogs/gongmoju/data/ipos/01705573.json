@@ -1,11 +1,11 @@
 {
  "corp_code": "01705573",
  "corp_name": "유캐스트",
- "rcept_no": "20261021000443",
- "rcept_dt": "20261021",
- "report_nm": "[기재정정]증권신고서(지분증권)",
+ "rcept_no": "20261117000109",
+ "rcept_dt": "20261117",
+ "report_nm": "[발행조건확정]증권신고서(지분증권)",
  "corp_cls": "E",
- "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000109",
  "subscription": "2026년 11월 18일 ~ 2026년 11월 19일",
  "payment_date": "2026년 11월 23일",
  "notice_date": "2026년 11월 18일",
@@ -78,7 +78,7 @@
   "일반청약자환매청구권"
  ],
  "is_spac": false,
- "price_confirmed": false,
+ "price_confirmed": true,
  "correction_requested": false,
  "lead_underwriter": "유진증권",
  "underwriting_fee_pct": 7.21,
@@ -86,17 +86,17 @@
  "fund_matches_total": true,
  "fund_uses_unreliable": false,
  "company_age_years": 15,
- "total_rank": 20,
- "total_rank_of": 21,
- "total_vs_median_pct": -48.5,
+ "total_rank": 21,
+ "total_rank_of": 22,
+ "total_vs_median_pct": -45.6,
  "top_fund_use": {
   "use": "시설자금",
   "amount": 9450000000,
   "share_pct": 60.4,
   "amount_eok": 94.5
  },
- "compare_median_total": 29500000000,
- "compare_count": 21,
- "median_fee_pct": 4.11,
- "compare_median_total_eok": 295.0
+ "compare_median_total": 27950000000,
+ "compare_count": 22,
+ "median_fee_pct": 4.1,
+ "compare_median_total_eok": 279.5
 }
