@@ -10,6 +10,7 @@ GEO 연구(통계·출처 문장·읽기 쉬운 문장)를 원고에서 기계�
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from datetime import datetime, timedelta, timezone
@@ -244,6 +245,25 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
 QA_RE = re.compile(r"^Q\.\s*(.+?\?)\s*\n\s*A\.\s*(.+)$", re.M)
 
 
+def _drone_real_queries() -> set[str]:
+    """드론 키워드 수집(네이버 연관 검색어·구글 자동완성)에 실제로 나온 말. 띄어쓰기 없이, 4글자 이상, '드론' 한 단어 제외."""
+    f = ROOT / "blogs" / "drone" / "data" / "keywords.json"
+    try:
+        items = json.loads(f.read_text("utf-8"))
+    except Exception:  # noqa: BLE001
+        return set()
+    items = items if isinstance(items, list) else items.get("keywords", [])
+    out = set()
+    for it in items:
+        if not isinstance(it, dict) or it.get("excluded"):
+            continue
+        for k in [it.get("kw", "")] + list(it.get("google_suggest") or []):
+            k = re.sub(r"[^가-힣A-Za-z0-9]", "", str(k))
+            if len(k) >= 4 and k != "드론":
+                out.add(k)
+    return out
+
+
 def qa_pairs(body: str) -> list[tuple[str, str]]:
     """본문 끝 '### 자주 묻는 질문' 묶음: 'Q. 질문?' 다음 줄 'A. 답'(같은 문단, 굵게 쓰지 않음)."""
     return [(q.strip(), _plain(a).strip()) for q, a in QA_RE.findall(body)]
@@ -283,6 +303,12 @@ def drone_geo_errors(meta: dict, body: str) -> list[str]:
     if "|" not in body:
         errs.append("[AI검색] 비교·기준 표가 없습니다(1개 이상).")
     qa = qa_pairs(body)
+    real = _drone_real_queries()
+    if real and qa:
+        norm = lambda x: re.sub(r"[^가-힣A-Za-z0-9]", "", x)
+        hits = sum(1 for q, _ in qa if any(k in norm(q) for k in real))
+        if hits < min(3, len(qa)):
+            errs.append(f"[Q&A] 실제 검색어가 들어간 질문이 {hits}개입니다(3개 이상). blogs/drone/data/keywords.json의 kw·google_suggest(사람들이 실제로 검색한 말)를 질문에 그대로 넣으세요.")
     if len(qa) < 3:
         errs.append("[Q&A] 글 끝(다음 행동 문단 앞)에 '### 자주 묻는 질문' 아래 Q&A가 3개 이상 필요합니다. 형식: 'Q. 질문?' 다음 줄 'A. 답'(같은 문단, 굵게 쓰지 않음). 질문은 소제목과 다른 이어지는 질문, 실제 검색어에서.")
     else:
