@@ -245,6 +245,35 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
 QA_RE = re.compile(r"^Q\.\s*(.+?\?)\s*\n\s*A\.\s*(.+)$", re.M)
 
 
+def card_errors(body: str) -> list[str]:
+    """글 요약 그림(tools/card.py) 1장: 앞쪽 절반 안에, 대체 글(alt) 20자 이상, 그림 속 숫자는 본문에 있는 것만(captures/log.json 대조)."""
+    errs: list[str] = []
+    imgs = [(m.start(), m.group(1), m.group(2)) for m in re.finditer(r"!\[([^\]]*)\]\(captures/([\w.-]+-card(?:-\d+)?)\.webp\)", body)]
+    if not imgs:
+        return ["[요약 그림] 본문 내용을 우리가 다시 정리한 요약 그림(captures/<이름>-card.webp, tools/card.py)이 없습니다. 첫 문단 다음이나 첫 소제목 안에 1장."]
+    pos, alt, name = imgs[0]
+    if pos > len(body) / 2:
+        errs.append("[요약 그림] 요약 그림은 글 앞쪽 절반 안(첫 문단 다음·첫 소제목 안)에 둡니다.")
+    if len(alt.strip()) < 20:
+        errs.append("[요약 그림] 대체 글(alt)이 20자 미만입니다. 그림이 말하는 핵심 답과 숫자를 한 문장으로(검색엔진·AI는 그림 대신 이 글을 읽습니다).")
+    try:
+        log = json.loads((ROOT / "captures" / "log.json").read_text("utf-8"))
+        spec = next((x.get("card") for x in reversed(log) if x.get("name") == name and x.get("ok") and x.get("card")), None)
+    except Exception:  # noqa: BLE001
+        spec = None
+    if spec is None:
+        errs.append(f"[요약 그림] captures/log.json에 '{name}' 그림 기록이 없습니다. queue.json에 card 항목을 넣어 capture 워크플로로 만드세요.")
+        return errs
+    import sys as _s
+    _s.path.insert(0, str(ROOT / "tools"))
+    import card as _card
+    plain = re.sub(r"\s+", "", _plain(body))
+    miss = [n for n in _card.card_numbers(spec) if re.sub(r"\s+", "", n) not in plain]
+    if miss:
+        errs.append(f"[요약 그림] 그림 속 숫자 {miss[:3]}가 본문에 없습니다. 그림은 본문 내용을 정리한 것이어야 합니다.")
+    return errs
+
+
 def _drone_real_queries() -> set[str]:
     """드론 키워드 수집(네이버 연관 검색어·구글 자동완성)에 실제로 나온 말. 띄어쓰기 없이, 4글자 이상, '드론' 한 단어 제외."""
     f = ROOT / "blogs" / "drone" / "data" / "keywords.json"
@@ -302,6 +331,7 @@ def drone_geo_errors(meta: dict, body: str) -> list[str]:
         errs.append(f"[AI검색] 110자 넘는 문장이 {len(long)}개입니다(15% 이하). AI 답변은 짧은 문장을 잘라 인용합니다.")
     if "|" not in body:
         errs.append("[AI검색] 비교·기준 표가 없습니다(1개 이상).")
+    errs += card_errors(body)
     qa = qa_pairs(body)
     real = _drone_real_queries()
     if real and qa:

@@ -45,8 +45,30 @@ if charts:
             log.append({"name": it["name"], "ok": False, "chart": it["chart"], "error": str(e)[:300]})
             print(f"::warning::차트 실패 {it['name']}: {str(e)[:200]}")
 
+cards = [it for it in items if it.get("card")]  # 글 요약 이미지(tools/card.py, 2026-11-18)
+items = [it for it in items if not it.get("card")]
 with sync_playwright() as pw:
-    b = pw.chromium.launch() if items else None
+    b = pw.chromium.launch() if (items or cards) else None
+    if cards:
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import card as card_tool
+    for it in cards:
+        page = b.new_page(viewport={"width": 760, "height": 900}, device_scale_factor=2, locale="ko-KR")
+        try:
+            page.set_content(card_tool.build_html(it["card"]), wait_until="load")
+            png = page.locator("#card").screenshot()
+            im = Image.open(io.BytesIO(png)).convert("RGB")
+            im = im.resize((760, round(im.height * 760 / im.width)), Image.LANCZOS)
+            out = Path("captures") / f"{it['name']}.webp"
+            im.save(out, "WEBP", quality=88, method=6)
+            log.append({"name": it["name"], "ok": True, "card": it["card"], "size": [im.width, im.height],
+                        "bytes": out.stat().st_size, "at": time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 9 * 3600))})
+            print(f"::notice::요약 그림 {it['name']} {im.width}x{im.height}")
+        except Exception as e:  # noqa: BLE001
+            log.append({"name": it["name"], "ok": False, "card": it["card"], "error": str(e)[:300]})
+            print(f"::warning::요약 그림 실패 {it['name']}: {str(e)[:200]}")
+        page.close()
     for it in items:
         page = b.new_page(viewport={"width": it.get("width", 1100), "height": 900}, device_scale_factor=1, locale="ko-KR")
         try:
