@@ -1,37 +1,5 @@
 [
  {
-  "name": "dr-onestop-dept-2026-11-12",
-  "ok": true,
-  "status": 200,
-  "title": "드론원스톱 민원서비스",
-  "size": [
-   760,
-   7349
-  ],
-  "bytes": 261388,
-  "url": "https://drone.onestop.go.kr/introduce/systemintro3",
-  "at": "2026-11-12 20:19"
- },
- {
-  "name": "dr-onestop-flightphotos-2026-11-12",
-  "ok": true,
-  "status": 200,
-  "title": "드론원스톱 민원서비스",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 12600,
-  "url": "https://drone.onestop.go.kr/civilappeal/flightphotos/registerF",
-  "at": "2026-11-12 20:19"
- },
- {
-  "name": "dr-onestop-biz-docs-2026-11-12",
-  "ok": false,
-  "error": "보이는 '초경량비행장치사업자등록' 없음",
-  "url": "https://drone.onestop.go.kr/introduce/systemintro2"
- },
- {
   "name": "dr-onestop-calc-1-2026-11-12",
   "ok": true,
   "status": null,
@@ -3373,5 +3341,69 @@
   "bytes": 9136,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000368&pblancNo=2026000368",
   "at": "2026-11-18 18:40"
+ },
+ {
+  "name": "js-11440-dong-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11440",
+   "highlight": "망원동"
+  },
+  "size": [
+   760,
+   684
+  ],
+  "bytes": 21186,
+  "at": "2026-11-18 19:48"
+ },
+ {
+  "name": "js-mapo-gu-jeonse-rank-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "마포구 아파트 전세가율, 4주 새 순위는 왜 밀렸을까?",
+   "answer": "비율은 1.1%p 내렸고, 비율이 그대로인 용산구도 22계단 밀렸습니다",
+   "points": [
+    {
+     "label": "84㎡ 전세가율(11월 10일)",
+     "value": "52.3%"
+    },
+    {
+     "label": "179곳 중 순위(11월 18일)",
+     "value": "162위"
+    },
+    {
+     "label": "84㎡ 전세 중앙값",
+     "value": "8억 원"
+    },
+    {
+     "label": "84㎡ 매매 중앙값",
+     "value": "15억 3,000만 원"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-18"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 29946,
+  "at": "2026-11-18 19:48"
+ },
+ {
+  "name": "js-11440-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14846,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-18 19:48"
  }
 ]
