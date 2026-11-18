@@ -1,1 +1,39 @@
-[]
+[
+ {
+  "name": "gw-apartment-repair-fee-gimpo-2026-09-card",
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "김포 아파트 수선비, ㎡당 얼마였을까?",
+   "answer": "김포시 128곳 중앙값 43원, 고촌읍 두 단지는 154원과 0원",
+   "points": [
+    {
+     "label": "김포시 수선비 중앙값",
+     "value": "43원"
+    },
+    {
+     "label": "수기마을 힐스테이트 2단지",
+     "value": "154원"
+    },
+    {
+     "label": "김포현대힐스테이트1단지",
+     "value": "0원(시설유지비 144원)"
+    },
+    {
+     "label": "김포시 시설유지비 중앙값",
+     "value": "28원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 9월 부과분",
+   "date": "2026-11-15"
+  }
+ },
+ {
+  "name": "gw-41570-sugi-hillstate-2-chart",
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41570",
+   "code": "A41581210"
+  }
+ }
+]
