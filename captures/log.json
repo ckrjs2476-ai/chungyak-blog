@@ -1,44 +1,5 @@
 [
  {
-  "name": "dr-onestop-home-2026-11-12",
-  "ok": true,
-  "status": 200,
-  "title": "드론원스톱 민원서비스",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 29372,
-  "url": "https://drone.onestop.go.kr/",
-  "at": "2026-11-12 20:00"
- },
- {
-  "name": "dr-onestop-notice-229-2026-11-12",
-  "ok": true,
-  "status": 200,
-  "title": "드론원스톱 민원서비스",
-  "size": [
-   760,
-   967
-  ],
-  "bytes": 24236,
-  "url": "https://drone.onestop.go.kr/board/notice/read?id=229",
-  "at": "2026-11-12 20:00"
- },
- {
-  "name": "dr-datagokr-onestop-stats-2026-11-12",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 서울지방항공청_드론 원스톱 민원서비스 민원 통계_20250630 | 공공데이터포털",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 39636,
-  "url": "https://www.data.go.kr/data/15144338/fileData.do",
-  "at": "2026-11-12 20:00"
- },
- {
   "name": "dr-onestop-type-guide-2026-11-12",
   "ok": true,
   "status": 200,
@@ -3308,5 +3269,80 @@
   "bytes": 14674,
   "url": "blogs/jeonse/pages/calculator.md",
   "at": "2026-11-18 12:42"
+ },
+ {
+  "name": "js-47113-dong-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "47113",
+   "highlight": "창포동"
+  },
+  "size": [
+   760,
+   556
+  ],
+  "bytes": 20442,
+  "at": "2026-11-18 12:53"
+ },
+ {
+  "name": "js-pohang-buk-gu-jeonse-complex-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "포항 북구 아파트 전세가율, 남구와 얼마나 다를까?",
+   "answer": "북구 92.7%(21위), 남구 50.3%(163위)",
+   "compare": {
+    "head": [
+     "구분",
+     "포항시 북구",
+     "포항시 남구"
+    ],
+    "rows": [
+     [
+      "84㎡ 전세가율",
+      "92.7%",
+      "50.3%"
+     ],
+     [
+      "179곳 중 순위",
+      "21위",
+      "163위"
+     ],
+     [
+      "80% 이상 단지",
+      "72곳 중 47곳",
+      "35곳 중 21곳"
+     ],
+     [
+      "84㎡ 전세 중앙값",
+      "2억 1,320만 원",
+      "1억 5,031만 원"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-18"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 28988,
+  "at": "2026-11-18 12:53"
+ },
+ {
+  "name": "js-47113-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14948,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-18 12:53"
  }
 ]
