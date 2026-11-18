@@ -1,23 +1,23 @@
 {
  "lawd": "51170",
  "name": "강원특별자치도 동해시",
- "updated": "2026-11-04",
+ "updated": "2026-11-18",
  "months": 12,
- "jeonse_count": 1344,
- "wolse_count": 1120,
- "wolse_share_pct": 45.5,
- "renew_share_pct": 66.8,
- "jeonse_n84": 185,
- "jeonse_median84": 21683,
- "sale_n84": 240,
- "sale_median84": 27200,
- "ratio84": 79.7,
+ "jeonse_count": 1409,
+ "wolse_count": 1189,
+ "wolse_share_pct": 45.8,
+ "renew_share_pct": 67.4,
+ "jeonse_n84": 197,
+ "jeonse_median84": 21490,
+ "sale_n84": 247,
+ "sale_median84": 27500,
+ "ratio84": 78.1,
  "jeonse_recent3_median84": 19800,
  "jeonse_prev3_median84": 14661,
  "jeonse_change_pct": 35.1,
  "apts_with_both": 10,
  "apts_ratio_80_plus": 2,
- "apts_ratio_70_plus": 8,
+ "apts_ratio_70_plus": 7,
  "umd": {
   "부곡동": {
    "jeonse_n": 5,
@@ -26,33 +26,40 @@
    "sale_median84": 14650,
    "ratio": 95.6
   },
+  "북평동": {
+   "jeonse_n": 8,
+   "jeonse_median84": 14770,
+   "sale_n": 19,
+   "sale_median84": 37300,
+   "ratio": 39.6
+  },
   "이도동": {
    "jeonse_n": 5,
    "jeonse_median84": 22000,
-   "sale_n": 38,
+   "sale_n": 39,
    "sale_median84": 29000,
    "ratio": 75.9
   },
   "천곡동": {
    "jeonse_n": 108,
    "jeonse_median84": 21973,
-   "sale_n": 63,
-   "sale_median84": 16500,
-   "ratio": 133.2
+   "sale_n": 66,
+   "sale_median84": 16650,
+   "ratio": 132.0
   },
   "평릉동": {
    "jeonse_n": 47,
    "jeonse_median84": 14661,
-   "sale_n": 24,
-   "sale_median84": 29750,
-   "ratio": 49.3
+   "sale_n": 25,
+   "sale_median84": 29500,
+   "ratio": 49.7
   },
   "효가동": {
-   "jeonse_n": 17,
+   "jeonse_n": 21,
    "jeonse_median84": 19800,
-   "sale_n": 34,
-   "sale_median84": 26550,
-   "ratio": 74.6
+   "sale_n": 35,
+   "sale_median84": 26900,
+   "ratio": 73.6
   }
  },
  "top_ratio_apts": [
@@ -82,9 +89,9 @@
    "built": 2018,
    "jeonse_n": 2,
    "jeonse_median84": 27000,
-   "sale_n": 4,
-   "sale_median84": 34250,
-   "ratio": 78.8
+   "sale_n": 5,
+   "sale_median84": 36000,
+   "ratio": 75.0
   },
   {
    "umd": "이도동",
@@ -105,16 +112,6 @@
    "sale_n": 14,
    "sale_median84": 33850,
    "ratio": 73.9
-  },
-  {
-   "umd": "천곡동",
-   "apt": "현대1차",
-   "built": 1992,
-   "jeonse_n": 3,
-   "jeonse_median84": 10800,
-   "sale_n": 14,
-   "sale_median84": 15025,
-   "ratio": 71.9
   },
   {
    "umd": "천곡동",
@@ -147,14 +144,24 @@
    "ratio": 69.9
   },
   {
+   "umd": "천곡동",
+   "apt": "현대1차",
+   "built": 1992,
+   "jeonse_n": 3,
+   "jeonse_median84": 10800,
+   "sale_n": 16,
+   "sale_median84": 15475,
+   "ratio": 69.8
+  },
+  {
    "umd": "효가동",
    "apt": "동해자이",
    "built": 2024,
    "jeonse_n": 6,
    "jeonse_median84": 28350,
-   "sale_n": 15,
-   "sale_median84": 51000,
-   "ratio": 55.6
+   "sale_n": 16,
+   "sale_median84": 51100,
+   "ratio": 55.5
   }
  ],
  "low_ratio_apts": [],
@@ -173,7 +180,7 @@
   },
   {
    "month": "2026-02",
-   "jeonse_count": 98,
+   "jeonse_count": 99,
    "n84": 7,
    "jeonse_median84": 20000
   },
@@ -197,7 +204,7 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 105,
+   "jeonse_count": 106,
    "n84": 19,
    "jeonse_median84": 14661
   },
@@ -209,41 +216,41 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 80,
+   "jeonse_count": 81,
    "n84": 10,
    "jeonse_median84": 19800
   },
   {
    "month": "2026-09",
-   "jeonse_count": 97,
-   "n84": 5,
+   "jeonse_count": 98,
+   "n84": 6,
    "jeonse_median84": 19800
   },
   {
    "month": "2026-10",
-   "jeonse_count": 80,
+   "jeonse_count": 83,
    "n84": 2,
    "jeonse_median84": 34000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 4,
-   "n84": 0,
-   "jeonse_median84": null
+   "jeonse_count": 62,
+   "n84": 11,
+   "jeonse_median84": 14770
   }
  ],
- "rank": 53,
- "rank_of": 179,
- "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 7.2,
+ "rank": 62,
+ "rank_of": 180,
+ "avg_ratio84_all": 72.6,
+ "ratio_vs_avg_pp": 5.5,
  "umd_ratio_high": {
   "name": "천곡동",
-  "ratio": 133.2
+  "ratio": 132.0
  },
  "umd_ratio_low": {
   "name": "평릉동",
-  "ratio": 49.3
+  "ratio": 49.7
  },
- "umd_spread_pp": 83.9,
- "gap84": 5517
+ "umd_spread_pp": 82.3,
+ "gap84": 6010
 }

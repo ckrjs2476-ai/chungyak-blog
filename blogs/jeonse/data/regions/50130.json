@@ -1,44 +1,44 @@
 {
  "lawd": "50130",
  "name": "제주특별자치도 서귀포시",
- "updated": "2026-11-04",
+ "updated": "2026-11-18",
  "months": 12,
- "jeonse_count": 370,
- "wolse_count": 997,
- "wolse_share_pct": 72.9,
- "renew_share_pct": 25.4,
- "jeonse_n84": 171,
+ "jeonse_count": 381,
+ "wolse_count": 1037,
+ "wolse_share_pct": 73.1,
+ "renew_share_pct": 25.2,
+ "jeonse_n84": 176,
  "jeonse_median84": 28000,
- "sale_n84": 227,
+ "sale_n84": 234,
  "sale_median84": 41000,
  "ratio84": 68.3,
- "jeonse_recent3_median84": 30000,
+ "jeonse_recent3_median84": 31000,
  "jeonse_prev3_median84": 25000,
- "jeonse_change_pct": 20.0,
- "apts_with_both": 11,
+ "jeonse_change_pct": 24.0,
+ "apts_with_both": 12,
  "apts_ratio_80_plus": 2,
  "apts_ratio_70_plus": 10,
  "umd": {
   "강정동": {
-   "jeonse_n": 40,
+   "jeonse_n": 42,
    "jeonse_median84": 35000,
-   "sale_n": 62,
+   "sale_n": 64,
    "sale_median84": 50000,
    "ratio": 70.0
   },
   "동홍동": {
    "jeonse_n": 16,
    "jeonse_median84": 28700,
-   "sale_n": 52,
+   "sale_n": 54,
    "sale_median84": 30250,
    "ratio": 94.9
   },
   "서호동": {
    "jeonse_n": 77,
    "jeonse_median84": 23961,
-   "sale_n": 22,
-   "sale_median84": 43850,
-   "ratio": 54.6
+   "sale_n": 25,
+   "sale_median84": 44000,
+   "ratio": 54.5
   },
   "서홍동": {
    "jeonse_n": 3,
@@ -48,7 +48,7 @@
    "ratio": 68.8
   },
   "중문동": {
-   "jeonse_n": 25,
+   "jeonse_n": 27,
    "jeonse_median84": 31000,
    "sale_n": 33,
    "sale_median84": 43800,
@@ -62,15 +62,15 @@
    "built": 1991,
    "jeonse_n": 2,
    "jeonse_median84": 17500,
-   "sale_n": 4,
-   "sale_median84": 21500,
-   "ratio": 81.4
+   "sale_n": 5,
+   "sale_median84": 21200,
+   "ratio": 82.5
   },
   {
    "umd": "중문동",
    "apt": "중문남해오네뜨오션힐",
    "built": 2016,
-   "jeonse_n": 5,
+   "jeonse_n": 6,
    "jeonse_median84": 25000,
    "sale_n": 13,
    "sale_median84": 31200,
@@ -92,9 +92,9 @@
    "built": 2013,
    "jeonse_n": 10,
    "jeonse_median84": 29500,
-   "sale_n": 7,
-   "sale_median84": 38000,
-   "ratio": 77.6
+   "sale_n": 8,
+   "sale_median84": 38250,
+   "ratio": 77.1
   },
   {
    "umd": "강정동",
@@ -102,7 +102,7 @@
    "built": 2017,
    "jeonse_n": 8,
    "jeonse_median84": 35000,
-   "sale_n": 13,
+   "sale_n": 14,
    "sale_median84": 46000,
    "ratio": 76.1
   },
@@ -130,7 +130,7 @@
    "umd": "강정동",
    "apt": "제주강정유승한내들퍼스트오션",
    "built": 2017,
-   "jeonse_n": 11,
+   "jeonse_n": 13,
    "jeonse_median84": 38000,
    "sale_n": 21,
    "sale_median84": 51800,
@@ -152,7 +152,7 @@
    "built": 2016,
    "jeonse_n": 15,
    "jeonse_median84": 36000,
-   "sale_n": 28,
+   "sale_n": 29,
    "sale_median84": 51000,
    "ratio": 70.6
   }
@@ -164,9 +164,19 @@
    "built": 2015,
    "jeonse_n": 24,
    "jeonse_median84": 29000,
-   "sale_n": 15,
+   "sale_n": 17,
    "sale_median84": 45000,
    "ratio": 64.4
+  },
+  {
+   "umd": "중문동",
+   "apt": "포레나제주중문",
+   "built": 2023,
+   "jeonse_n": 2,
+   "jeonse_median84": 36500,
+   "sale_n": 4,
+   "sale_median84": 53900,
+   "ratio": 67.7
   },
   {
    "umd": "강정동",
@@ -174,7 +184,7 @@
    "built": 2016,
    "jeonse_n": 15,
    "jeonse_median84": 36000,
-   "sale_n": 28,
+   "sale_n": 29,
    "sale_median84": 51000,
    "ratio": 70.6
   },
@@ -192,27 +202,17 @@
    "umd": "강정동",
    "apt": "제주강정유승한내들퍼스트오션",
    "built": 2017,
-   "jeonse_n": 11,
+   "jeonse_n": 13,
    "jeonse_median84": 38000,
    "sale_n": 21,
    "sale_median84": 51800,
    "ratio": 73.4
-  },
-  {
-   "umd": "동홍동",
-   "apt": "대림이편한세상",
-   "built": 2001,
-   "jeonse_n": 3,
-   "jeonse_median84": 25000,
-   "sale_n": 4,
-   "sale_median84": 34000,
-   "ratio": 73.5
   }
  ],
  "monthly": [
   {
    "month": "2025-12",
-   "jeonse_count": 43,
+   "jeonse_count": 44,
    "n84": 17,
    "jeonse_median84": 33000
   },
@@ -266,35 +266,35 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 23,
+   "jeonse_count": 24,
    "n84": 7,
    "jeonse_median84": 32000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 23,
+   "jeonse_count": 24,
    "n84": 9,
    "jeonse_median84": 23961
   },
   {
    "month": "2026-11",
-   "jeonse_count": 2,
-   "n84": 0,
-   "jeonse_median84": null
+   "jeonse_count": 10,
+   "n84": 5,
+   "jeonse_median84": 36000
   }
  ],
- "rank": 101,
- "rank_of": 179,
- "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": -4.2,
+ "rank": 104,
+ "rank_of": 180,
+ "avg_ratio84_all": 72.6,
+ "ratio_vs_avg_pp": -4.3,
  "umd_ratio_high": {
   "name": "동홍동",
   "ratio": 94.9
  },
  "umd_ratio_low": {
   "name": "서호동",
-  "ratio": 54.6
+  "ratio": 54.5
  },
- "umd_spread_pp": 40.3,
+ "umd_spread_pp": 40.4,
  "gap84": 13000
 }

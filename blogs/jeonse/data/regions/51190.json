@@ -1,15 +1,15 @@
 {
  "lawd": "51190",
  "name": "강원특별자치도 태백시",
- "updated": "2026-11-04",
+ "updated": "2026-11-18",
  "months": 12,
- "jeonse_count": 456,
- "wolse_count": 571,
- "wolse_share_pct": 55.6,
- "renew_share_pct": 83.1,
+ "jeonse_count": 461,
+ "wolse_count": 634,
+ "wolse_share_pct": 57.9,
+ "renew_share_pct": 82.9,
  "jeonse_n84": 86,
  "jeonse_median84": 19573,
- "sale_n84": 86,
+ "sale_n84": 89,
  "sale_median84": 18000,
  "ratio84": 108.7,
  "jeonse_recent3_median84": 19573,
@@ -22,7 +22,7 @@
   "황지동": {
    "jeonse_n": 84,
    "jeonse_median84": 19573,
-   "sale_n": 62,
+   "sale_n": 64,
    "sale_median84": 20400,
    "ratio": 95.9
   }
@@ -44,16 +44,16 @@
    "built": 2007,
    "jeonse_n": 3,
    "jeonse_median84": 13000,
-   "sale_n": 9,
-   "sale_median84": 17800,
-   "ratio": 73.0
+   "sale_n": 10,
+   "sale_median84": 17750,
+   "ratio": 73.2
   }
  ],
  "low_ratio_apts": [],
  "monthly": [
   {
    "month": "2025-12",
-   "jeonse_count": 49,
+   "jeonse_count": 50,
    "n84": 5,
    "jeonse_median84": 19380
   },
@@ -89,7 +89,7 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 87,
+   "jeonse_count": 88,
    "n84": 33,
    "jeonse_median84": 19573
   },
@@ -101,7 +101,7 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 42,
+   "jeonse_count": 43,
    "n84": 20,
    "jeonse_median84": 19573
   },
@@ -116,11 +116,17 @@
    "jeonse_count": 8,
    "n84": 0,
    "jeonse_median84": null
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 2,
+   "n84": 0,
+   "jeonse_median84": null
   }
  ],
  "rank": 8,
- "rank_of": 179,
- "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 36.2,
+ "rank_of": 180,
+ "avg_ratio84_all": 72.6,
+ "ratio_vs_avg_pp": 36.1,
  "gap84": -1573
 }
