@@ -1,76 +1,5 @@
 [
  {
-  "name": "gw-41117-yeongtong-forestparkone-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41117",
-   "code": "A44347026"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16358,
-  "at": "2026-11-13 13:53"
- },
- {
-  "name": "gw-11170-hannam-thehill-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11170",
-   "code": "A14077902"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 14350,
-  "at": "2026-11-13 13:53"
- },
- {
-  "name": "gw-41131-sanseong-xi-1-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41131",
-   "code": "A10022845"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 15648,
-  "at": "2026-11-13 13:53"
- },
- {
-  "name": "gw-calc-trimage-84-1113",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16940,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-13 13:53"
- },
- {
-  "name": "gw-calc-arte-xi-84-1113",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16894,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-13 13:53"
- },
- {
   "name": "gw-calc-sanun11-forelaum-84-1113",
   "ok": true,
   "status": null,
@@ -3919,5 +3848,104 @@
   ],
   "bytes": 26588,
   "at": "2026-11-18 23:43"
+ },
+ {
+  "name": "dr-drone-used-drone-transfer-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "중고 드론, 사고팔 때 기한은?",
+   "answer": "주인이 바뀌면 30일 안에 이전신고, 부서지면 15일 안에 말소",
+   "compare": {
+    "head": [
+     "경우",
+     "할 일",
+     "기한·기준"
+    ],
+    "rows": [
+     [
+      "소유자 바뀜",
+      "변경·이전신고",
+      "30일 이내"
+     ],
+     [
+      "멸실·해체",
+      "말소신고",
+      "15일 이내"
+     ],
+     [
+      "개인 직구 반입",
+      "전파 평가 면제",
+      "모델별 1대"
+     ],
+     [
+      "면제 기체 되팔기",
+      "적합성평가",
+      "받아야 함"
+     ]
+    ]
+   },
+   "source": "생활법령정보·법제처 21-0097·국립전파연구원",
+   "date": "2026-11-19"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 28802,
+  "at": "2026-11-19 08:58"
+ },
+ {
+  "name": "dr-drone-used-drone-transfer-2026-easylaw",
+  "ok": true,
+  "status": 200,
+  "title": "무인비행장치(드론) > 드론 비행 전 준비절차 > 드론 장치신고 및 사업등록 등 > 드론 장치신고 (본문) | 찾기쉬운 생활법령정보",
+  "size": [
+   760,
+   290
+  ],
+  "bytes": 17164,
+  "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1",
+  "at": "2026-11-19 08:58"
+ },
+ {
+  "name": "dr-drone-used-drone-transfer-2026-easylaw-full",
+  "ok": true,
+  "status": 200,
+  "title": "무인비행장치(드론) > 드론 비행 전 준비절차 > 드론 장치신고 및 사업등록 등 > 드론 장치신고 (본문) | 찾기쉬운 생활법령정보",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 37216,
+  "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1",
+  "at": "2026-11-19 08:59"
+ },
+ {
+  "name": "dr-drone-used-drone-transfer-2026-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14692,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-19 08:59"
+ },
+ {
+  "name": "dr-drone-used-drone-transfer-2026-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16854,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-19 08:59"
  }
 ]
