@@ -56,6 +56,51 @@
  "special_share_pct": 0,
  "price_84_min": 55300,
  "price_84_max": 57900,
+ "competition": {
+  "types": [
+   {
+    "ty": "59.9671A",
+    "supply": 12,
+    "closed_at": "None순위 None",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.9936A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 1.33,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9989B",
+    "supply": 1,
+    "closed_at": "None순위 None",
+    "rate": 4.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9999A",
+    "supply": 3,
+    "closed_at": "None순위 None",
+    "rate": 6.0,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 42,
+  "rank1_req": 0,
+  "supply_total": 19,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.9999A",
+   "rate": 6.0,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "경기도 용인시 처인구",
   "lawd": "41461",

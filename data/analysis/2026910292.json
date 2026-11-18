@@ -1,0 +1,58 @@
+{
+ "no": "2026910292",
+ "name": "검암역 푸르지오 프라베뉴 (B-1BL) 공공분양주택",
+ "kind": "remndr",
+ "region": "인천",
+ "notice_date": "2026-11-18",
+ "rank1_date": "2026-11-23",
+ "city": "서해구",
+ "supply_kind": "",
+ "winner_date": "2026-11-30",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910292&pblancNo=2026910292",
+ "households": 9,
+ "types": [
+  {
+   "ty": "84.4783B",
+   "size": 84,
+   "price": 62940,
+   "area_m2": null,
+   "general": 7,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9219C",
+   "size": 84,
+   "price": 62340,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 9,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 62340,
+ "price_84_max": 62940,
+ "market": {
+  "region": "인천광역시 서해구",
+  "lawd": "28275",
+  "months": 12,
+  "updated": "2026-11-18",
+  "n84": 1350,
+  "median84": 59900,
+  "p25_84": 45000,
+  "p75_84": 68300,
+  "new_n84": 347,
+  "new_median84": 63000,
+  "new_build_years": 5,
+  "diff_vs_median84": 3040,
+  "diff_pct_vs_median84": 5,
+  "diff_vs_new_median84": -60,
+  "diff_pct_vs_new_median84": 0
+ }
+}

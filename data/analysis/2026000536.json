@@ -1,0 +1,106 @@
+{
+ "no": "2026000536",
+ "name": "구미 파크원 데시앙",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2026-11-18",
+ "rank1_date": "2026-11-24",
+ "city": "구미시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-02",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000536&pblancNo=2026000536",
+ "households": 1355,
+ "types": [
+  {
+   "ty": "84.7279A",
+   "size": 84,
+   "price": 52600,
+   "area_m2": 114.9023,
+   "general": 279,
+   "special": 335,
+   "pyeong_price": 1513,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.995B",
+   "size": 84,
+   "price": 52100,
+   "area_m2": 115.6361,
+   "general": 19,
+   "special": 21,
+   "pyeong_price": 1489,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "98.9841A",
+   "size": 98,
+   "price": 59800,
+   "area_m2": 133.296,
+   "general": 231,
+   "special": 33,
+   "pyeong_price": 1483,
+   "special_share_pct": 12
+  },
+  {
+   "ty": "98.8582B",
+   "size": 98,
+   "price": 59400,
+   "area_m2": 134.9121,
+   "general": 174,
+   "special": 26,
+   "pyeong_price": 1455,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "110.78",
+   "size": 110,
+   "price": 70800,
+   "area_m2": 148.8352,
+   "general": 207,
+   "special": 30,
+   "pyeong_price": 1573,
+   "special_share_pct": 13
+  }
+ ],
+ "general_total": 910,
+ "special_total": 445,
+ "special_share_pct": 33,
+ "pyeong_min": 1455,
+ "pyeong_max": 1573,
+ "pyeong_avg": 1508,
+ "price_84_min": 52100,
+ "price_84_max": 52600,
+ "special_kinds": {
+  "신혼부부": 98,
+  "생애최초": 44,
+  "신생아": 65,
+  "다자녀": 134,
+  "노부모 부양": 39,
+  "기관추천": 65
+ },
+ "region_price": {
+  "scope": "경북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "펜타힐즈 더블유 1단지",
+   "형곡 센트럴 아테라",
+   "리첼 에듀포레 경산역"
+  ],
+  "peer_avg_pyeong": 1834,
+  "diff": -326,
+  "diff_pct": -18,
+  "rank": 4,
+  "of": 4
+ },
+ "area_competition": {
+  "scope": "경북",
+  "peer_count": 3,
+  "peer_avg_rate": 3.71,
+  "peer_max_rate": 8.72
+ }
+}

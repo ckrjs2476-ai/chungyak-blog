@@ -167,6 +167,23 @@
    "stage": "1순위 기타지역"
   }
  },
+ "score": {
+  "min": {
+   "score": 0,
+   "ty": "59.996A",
+   "reside": "기타지역"
+  },
+  "type_min": {
+   "59.996A": 0,
+   "84.9888A": 0,
+   "84.9928E": 0
+  },
+  "avg_min": 17.3,
+  "max": {
+   "score": 62,
+   "ty": "84.9928E"
+  }
+ },
  "region_price": {
   "scope": "춘천시",
   "supply_kind": "민영",
@@ -216,24 +233,34 @@
   "rank": 2,
   "of": 3
  },
+ "region_score": {
+  "scope": "춘천시",
+  "peer_count": 2,
+  "peers": [
+   "더 리치먼드 리버센트 소양",
+   "춘천 리버뷰 아이파크"
+  ],
+  "peer_avg_min": 0.0,
+  "diff": 0.0
+ },
  "market": {
   "region": "강원특별자치도 춘천시",
   "lawd": "51110",
   "months": 12,
-  "updated": "2026-11-18",
-  "n84": 1231,
+  "updated": "2026-11-19",
+  "n84": 1233,
   "median84": 32000,
-  "p25_84": 24100,
+  "p25_84": 24050,
   "p75_84": 41000,
   "new_n84": 197,
-  "new_median84": 51800,
+  "new_median84": 51500,
   "new_build_years": 5,
   "umd": "효자동",
   "umd_n84": 41,
   "umd_median84": 34900,
   "diff_vs_median84": 31043,
   "diff_pct_vs_median84": 97,
-  "diff_vs_new_median84": 11243,
+  "diff_vs_new_median84": 11543,
   "diff_pct_vs_new_median84": 22,
   "diff_vs_umd_median84": 28143,
   "diff_pct_vs_umd_median84": 81

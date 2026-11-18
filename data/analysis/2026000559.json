@@ -1,0 +1,108 @@
+{
+ "no": "2026000559",
+ "name": "두산위브 트레지움 익산",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-11-18",
+ "rank1_date": "2026-11-24",
+ "city": "익산시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-01",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000559&pblancNo=2026000559",
+ "households": 251,
+ "types": [
+  {
+   "ty": "59.85A",
+   "size": 59,
+   "price": 37807,
+   "area_m2": 81.52,
+   "general": 11,
+   "special": 12,
+   "pyeong_price": 1533,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "59.85B",
+   "size": 59,
+   "price": 35289,
+   "area_m2": 81.16,
+   "general": 31,
+   "special": 37,
+   "pyeong_price": 1437,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "84.88",
+   "size": 84,
+   "price": 48422,
+   "area_m2": 111.23,
+   "general": 73,
+   "special": 87,
+   "pyeong_price": 1439,
+   "special_share_pct": 54
+  }
+ ],
+ "general_total": 115,
+ "special_total": 136,
+ "special_share_pct": 54,
+ "pyeong_min": 1437,
+ "pyeong_max": 1533,
+ "pyeong_avg": 1447,
+ "price_84_min": 48422,
+ "price_84_max": 48422,
+ "special_kinds": {
+  "신혼부부": 37,
+  "생애최초": 17,
+  "신생아": 25,
+  "다자녀": 25,
+  "노부모 부양": 7,
+  "기관추천": 25
+ },
+ "region_price": {
+  "scope": "전북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "익산 펠리피아",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_pyeong": 1443,
+  "diff": 4,
+  "diff_pct": 0,
+  "rank": 3,
+  "of": 4
+ },
+ "area_competition": {
+  "scope": "전북",
+  "peer_count": 3,
+  "peer_avg_rate": 5.0,
+  "peer_max_rate": 14.78
+ },
+ "market": {
+  "region": "전북특별자치도 익산시",
+  "lawd": "52140",
+  "months": 12,
+  "updated": "2026-11-18",
+  "n84": 947,
+  "median84": 23000,
+  "p25_84": 14350,
+  "p75_84": 30000,
+  "new_n84": 207,
+  "new_median84": 34500,
+  "new_build_years": 5,
+  "umd": "동산동",
+  "umd_n84": 87,
+  "umd_median84": 16700,
+  "diff_vs_median84": 25422,
+  "diff_pct_vs_median84": 111,
+  "diff_vs_new_median84": 13922,
+  "diff_pct_vs_new_median84": 40,
+  "diff_vs_umd_median84": 31722,
+  "diff_pct_vs_umd_median84": 190
+ }
+}
