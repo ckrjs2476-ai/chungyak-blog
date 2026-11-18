@@ -1,20 +1,20 @@
 {
  "lawd": "52710",
  "name": "전북특별자치도 완주군",
- "updated": "2026-11-03",
+ "updated": "2026-11-18",
  "months": 12,
- "jeonse_count": 556,
- "wolse_count": 465,
- "wolse_share_pct": 45.5,
- "renew_share_pct": 56.8,
- "jeonse_n84": 255,
+ "jeonse_count": 571,
+ "wolse_count": 481,
+ "wolse_share_pct": 45.7,
+ "renew_share_pct": 55.7,
+ "jeonse_n84": 260,
  "jeonse_median84": 17735,
- "sale_n84": 446,
- "sale_median84": 36900,
- "ratio84": 48.1,
- "jeonse_recent3_median84": 30000,
+ "sale_n84": 459,
+ "sale_median84": 37100,
+ "ratio84": 47.8,
+ "jeonse_recent3_median84": 32000,
  "jeonse_prev3_median84": 17735,
- "jeonse_change_pct": 69.2,
+ "jeonse_change_pct": 80.4,
  "apts_with_both": 14,
  "apts_ratio_80_plus": 4,
  "apts_ratio_70_plus": 11,
@@ -27,11 +27,11 @@
    "ratio": 96.4
   },
   "봉동읍 둔산리": {
-   "jeonse_n": 18,
+   "jeonse_n": 19,
    "jeonse_median84": 14850,
-   "sale_n": 77,
-   "sale_median84": 18300,
-   "ratio": 81.1
+   "sale_n": 78,
+   "sale_median84": 18150,
+   "ratio": 81.8
   },
   "삼례읍 삼례리": {
    "jeonse_n": 4,
@@ -41,30 +41,30 @@
    "ratio": 76.0
   },
   "삼례읍 수계리": {
-   "jeonse_n": 57,
-   "jeonse_median84": 33000,
-   "sale_n": 95,
+   "jeonse_n": 59,
+   "jeonse_median84": 34000,
+   "sale_n": 103,
    "sale_median84": 47500,
-   "ratio": 69.5
+   "ratio": 71.6
   },
   "용진읍 운곡리": {
-   "jeonse_n": 20,
+   "jeonse_n": 21,
    "jeonse_median84": 29000,
-   "sale_n": 51,
-   "sale_median84": 37700,
-   "ratio": 76.9
+   "sale_n": 52,
+   "sale_median84": 37600,
+   "ratio": 77.1
   },
   "이서면 갈산리": {
-   "jeonse_n": 21,
-   "jeonse_median84": 31400,
+   "jeonse_n": 22,
+   "jeonse_median84": 31700,
    "sale_n": 98,
    "sale_median84": 42500,
-   "ratio": 73.9
+   "ratio": 74.6
   },
   "이서면 용서리": {
    "jeonse_n": 10,
    "jeonse_median84": 22500,
-   "sale_n": 48,
+   "sale_n": 50,
    "sale_median84": 30700,
    "ratio": 73.3
   },
@@ -93,7 +93,7 @@
    "built": 2007,
    "jeonse_n": 10,
    "jeonse_median84": 14925,
-   "sale_n": 24,
+   "sale_n": 25,
    "sale_median84": 17500,
    "ratio": 85.3
   },
@@ -111,11 +111,11 @@
    "umd": "용진읍 운곡리",
    "apt": "모아미래도센트럴시티1차",
    "built": 2023,
-   "jeonse_n": 13,
+   "jeonse_n": 14,
    "jeonse_median84": 30000,
-   "sale_n": 39,
-   "sale_median84": 37500,
-   "ratio": 80.0
+   "sale_n": 40,
+   "sale_median84": 37250,
+   "ratio": 80.5
   },
   {
    "umd": "봉동읍 제내리",
@@ -126,6 +126,16 @@
    "sale_n": 11,
    "sale_median84": 17900,
    "ratio": 79.6
+  },
+  {
+   "umd": "이서면 갈산리",
+   "apt": "이노힐스아파트",
+   "built": 2013,
+   "jeonse_n": 7,
+   "jeonse_median84": 31400,
+   "sale_n": 41,
+   "sale_median84": 40650,
+   "ratio": 77.2
   },
   {
    "umd": "용진읍 운곡리",
@@ -141,7 +151,7 @@
    "umd": "삼례읍 수계리",
    "apt": "완주삼봉우미린에코포레",
    "built": 2022,
-   "jeonse_n": 14,
+   "jeonse_n": 15,
    "jeonse_median84": 35500,
    "sale_n": 33,
    "sale_median84": 47000,
@@ -159,16 +169,6 @@
   },
   {
    "umd": "이서면 갈산리",
-   "apt": "이노힐스아파트",
-   "built": 2013,
-   "jeonse_n": 6,
-   "jeonse_median84": 30200,
-   "sale_n": 41,
-   "sale_median84": 40650,
-   "ratio": 74.3
-  },
-  {
-   "umd": "이서면 갈산리",
    "apt": "혁신도시 코오롱 하늘채 아파트 1단지",
    "built": 2014,
    "jeonse_n": 15,
@@ -181,33 +181,33 @@
  "low_ratio_apts": [
   {
    "umd": "삼례읍 수계리",
-   "apt": "완주푸르지오더퍼스트",
-   "built": 2022,
-   "jeonse_n": 7,
-   "jeonse_median84": 31000,
-   "sale_n": 24,
-   "sale_median84": 49700,
-   "ratio": 62.4
-  },
-  {
-   "umd": "삼례읍 수계리",
    "apt": "완주중흥S-클래스에듀파크",
    "built": 2023,
    "jeonse_n": 36,
    "jeonse_median84": 30000,
-   "sale_n": 38,
-   "sale_median84": 47250,
-   "ratio": 63.5
+   "sale_n": 44,
+   "sale_median84": 47000,
+   "ratio": 63.8
   },
   {
    "umd": "봉동읍 둔산리",
    "apt": "라송센트럴카운티",
    "built": 2009,
-   "jeonse_n": 2,
+   "jeonse_n": 3,
    "jeonse_median84": 14700,
    "sale_n": 19,
    "sale_median84": 22800,
    "ratio": 64.5
+  },
+  {
+   "umd": "삼례읍 수계리",
+   "apt": "완주푸르지오더퍼스트",
+   "built": 2022,
+   "jeonse_n": 8,
+   "jeonse_median84": 32500,
+   "sale_n": 26,
+   "sale_median84": 49700,
+   "ratio": 65.4
   },
   {
    "umd": "이서면 용서리",
@@ -215,7 +215,7 @@
    "built": 2015,
    "jeonse_n": 10,
    "jeonse_median84": 22500,
-   "sale_n": 48,
+   "sale_n": 50,
    "sale_median84": 30700,
    "ratio": 73.3
   },
@@ -281,9 +281,9 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 12,
-   "n84": 5,
-   "jeonse_median84": 28300
+   "jeonse_count": 15,
+   "n84": 7,
+   "jeonse_median84": 32000
   },
   {
    "month": "2026-09",
@@ -293,23 +293,29 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 16,
-   "n84": 7,
-   "jeonse_median84": 35000
+   "jeonse_count": 19,
+   "n84": 8,
+   "jeonse_median84": 33775
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 9,
+   "n84": 2,
+   "jeonse_median84": 35500
   }
  ],
  "rank": 166,
  "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": -24.4,
+ "ratio_vs_avg_pp": -24.7,
  "umd_ratio_high": {
   "name": "봉동읍 둔산리",
-  "ratio": 81.1
+  "ratio": 81.8
  },
  "umd_ratio_low": {
   "name": "삼례읍 수계리",
-  "ratio": 69.5
+  "ratio": 71.6
  },
- "umd_spread_pp": 11.6,
- "gap84": 19165
+ "umd_spread_pp": 10.2,
+ "gap84": 19365
 }

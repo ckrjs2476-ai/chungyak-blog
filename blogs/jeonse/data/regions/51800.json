@@ -1,25 +1,36 @@
 {
  "lawd": "51800",
  "name": "강원특별자치도 양구군",
- "updated": "2026-11-03",
+ "updated": "2026-11-18",
  "months": 12,
- "jeonse_count": 3,
- "wolse_count": 27,
- "wolse_share_pct": 90.0,
+ "jeonse_count": 4,
+ "wolse_count": 28,
+ "wolse_share_pct": 87.5,
  "renew_share_pct": 0.0,
- "jeonse_n84": 1,
+ "jeonse_n84": 2,
  "jeonse_median84": 23000,
- "sale_n84": 21,
- "sale_median84": 17500,
- "ratio84": 131.4,
- "jeonse_recent3_median84": null,
+ "sale_n84": 23,
+ "sale_median84": 22500,
+ "ratio84": 102.2,
+ "jeonse_recent3_median84": 23000,
  "jeonse_prev3_median84": 23000,
- "jeonse_change_pct": null,
- "apts_with_both": 0,
+ "jeonse_change_pct": 0.0,
+ "apts_with_both": 1,
  "apts_ratio_80_plus": 0,
- "apts_ratio_70_plus": 0,
+ "apts_ratio_70_plus": 1,
  "umd": {},
- "top_ratio_apts": [],
+ "top_ratio_apts": [
+  {
+   "umd": "양구읍 상리",
+   "apt": "서희스타힐스",
+   "built": 2013,
+   "jeonse_n": 2,
+   "jeonse_median84": 23000,
+   "sale_n": 8,
+   "sale_median84": 32250,
+   "ratio": 71.3
+  }
+ ],
  "low_ratio_apts": [],
  "monthly": [
   {
@@ -39,11 +50,17 @@
    "jeonse_count": 1,
    "n84": 1,
    "jeonse_median84": 23000
+  },
+  {
+   "month": "2026-11",
+   "jeonse_count": 1,
+   "n84": 1,
+   "jeonse_median84": 23000
   }
  ],
  "rank": null,
  "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 58.9,
- "gap84": -5500
+ "ratio_vs_avg_pp": 29.7,
+ "gap84": -500
 }

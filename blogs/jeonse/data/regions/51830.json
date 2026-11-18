@@ -1,17 +1,17 @@
 {
  "lawd": "51830",
  "name": "강원특별자치도 양양군",
- "updated": "2026-11-03",
+ "updated": "2026-11-18",
  "months": 12,
- "jeonse_count": 78,
- "wolse_count": 89,
- "wolse_share_pct": 53.3,
- "renew_share_pct": 5.1,
+ "jeonse_count": 81,
+ "wolse_count": 92,
+ "wolse_share_pct": 53.2,
+ "renew_share_pct": 4.9,
  "jeonse_n84": 27,
  "jeonse_median84": 22000,
- "sale_n84": 40,
- "sale_median84": 27900,
- "ratio84": 78.9,
+ "sale_n84": 43,
+ "sale_median84": 28000,
+ "ratio84": 78.6,
  "jeonse_recent3_median84": null,
  "jeonse_prev3_median84": 21000,
  "jeonse_change_pct": null,
@@ -19,6 +19,13 @@
  "apts_ratio_80_plus": 2,
  "apts_ratio_70_plus": 3,
  "umd": {
+  "강현면 강선리": {
+   "jeonse_n": 3,
+   "jeonse_median84": 21000,
+   "sale_n": 3,
+   "sale_median84": 25800,
+   "ratio": 81.4
+  },
   "양양읍 구교리": {
    "jeonse_n": 11,
    "jeonse_median84": 24000,
@@ -29,16 +36,16 @@
   "양양읍 내곡리": {
    "jeonse_n": 4,
    "jeonse_median84": 19500,
-   "sale_n": 22,
-   "sale_median84": 28600,
-   "ratio": 68.2
+   "sale_n": 23,
+   "sale_median84": 29000,
+   "ratio": 67.2
   },
   "양양읍 연창리": {
    "jeonse_n": 7,
    "jeonse_median84": 21000,
-   "sale_n": 6,
-   "sale_median84": 28150,
-   "ratio": 74.6
+   "sale_n": 7,
+   "sale_median84": 28000,
+   "ratio": 75.0
   }
  },
  "top_ratio_apts": [
@@ -58,9 +65,9 @@
    "built": 2019,
    "jeonse_n": 3,
    "jeonse_median84": 21000,
-   "sale_n": 2,
-   "sale_median84": 25000,
-   "ratio": 84.0
+   "sale_n": 3,
+   "sale_median84": 25800,
+   "ratio": 81.4
   },
   {
    "umd": "양양읍 연창리",
@@ -68,9 +75,9 @@
    "built": 2018,
    "jeonse_n": 7,
    "jeonse_median84": 21000,
-   "sale_n": 6,
-   "sale_median84": 28150,
-   "ratio": 74.6
+   "sale_n": 7,
+   "sale_median84": 28000,
+   "ratio": 75.0
   },
   {
    "umd": "양양읍 구교리",
@@ -147,14 +154,14 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 2,
+   "jeonse_count": 5,
    "n84": 0,
    "jeonse_median84": null
   }
  ],
- "rank": 58,
+ "rank": 59,
  "rank_of": 179,
  "avg_ratio84_all": 72.5,
- "ratio_vs_avg_pp": 6.4,
- "gap84": 5900
+ "ratio_vs_avg_pp": 6.1,
+ "gap84": 6000
 }
