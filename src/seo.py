@@ -267,9 +267,10 @@ def card_errors(body: str) -> list[str]:
     if spec is None:
         errs.append(f"[요약 그림] captures/log.json에 '{name}' 그림 기록이 없습니다. queue.json에 card 항목을 넣어 capture 워크플로로 만드세요.")
         return errs
-    import sys as _s
-    _s.path.insert(0, str(ROOT / "tools"))
-    import card as _card
+    import importlib.util as _iu  # src/card.py(청약 카드)와 이름이 겹쳐 경로로 직접 불러온다
+    _sp = _iu.spec_from_file_location("summary_card", ROOT / "tools" / "card.py")
+    _card = _iu.module_from_spec(_sp)
+    _sp.loader.exec_module(_card)
     plain = re.sub(r"\s+", "", _plain(body))
     miss = [n for n in _card.card_numbers(spec) if re.sub(r"\s+", "", n) not in plain]
     if miss:
