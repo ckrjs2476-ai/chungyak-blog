@@ -254,5 +254,45 @@
    "source": "법제처 생활법령정보",
    "date": "2026-11-02"
   }
+ },
+ {
+  "name": "dr-drone-tech-advanced-list-2026-law",
+  "url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000266916",
+  "sleep": 4
+ },
+ {
+  "name": "dr-drone-tech-advanced-list-2026-card",
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "드론 기술, 정부 첨단기술 목록엔 몇 개?",
+   "answer": "35개 분야 3,122개 중 드론 분야는 39개",
+   "compare": {
+    "head": [
+     "구분",
+     "항목 수",
+     "비중"
+    ],
+    "rows": [
+     [
+      "산업용 드론",
+      "18개",
+      "46.2%"
+     ],
+     [
+      "UAM",
+      "21개",
+      "53.8%"
+     ],
+     [
+      "2021년 선정",
+      "38개",
+      "97.4%"
+     ]
+    ]
+   },
+   "source": "산업통상부고시 제2025-10호 별표1",
+   "date": "2026-11-18"
+  }
  }
 ]
