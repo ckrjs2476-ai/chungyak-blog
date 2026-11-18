@@ -8,3 +8,6 @@
 - 방법: Bing URL Submission 화면 → Submit URLs → 주소 붙여넣기 → Submit
 - IndexNow: 블로거는 루트에 키 파일을 올릴 수 없어 사용 불가
 - 다음: 새 글은 하루 1번(11:00 색인 요청 때) Bing에도 제출
+
+## 2026-11-18 09:52 티스토리
+- aisseomeok 81 / vjkog 48 / korea-drone 1 = 130건 제출(각 블로그 sitemap.xml의 공개 글 주소, 모바일 /m/ 주소 제외)
