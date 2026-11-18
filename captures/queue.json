@@ -1,1 +1,45 @@
-[]
+[
+ {
+  "name": "cy-jeonju-apartment-pyeong-price-2025-11-2026-09-card",
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "전주 분양 아파트, 값이 낮으면 1순위도 몰렸을까?",
+   "answer": "라 테라스 0.22대 1, 송천 아르티엠 더 숲 21.16대 1",
+   "compare": {
+    "head": [
+     "구분",
+     "송천 아르티엠 더 숲",
+     "아르티엠 라 테라스"
+    ],
+    "rows": [
+     [
+      "3.3㎡당 평균",
+      "1,692만 원",
+      "1,484만 원"
+     ],
+     [
+      "84㎡ 최고가",
+      "5억 6,990만 원",
+      "5억 2,600만 원"
+     ],
+     [
+      "1순위 평균",
+      "21.16대 1",
+      "0.22대 1"
+     ]
+    ]
+   },
+   "source": "청약홈 모집공고·경쟁률",
+   "date": "2026-11-18"
+  }
+ },
+ {
+  "name": "cy-2026000368-price-1118",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000368&pblancNo=2026000368",
+  "crop": {
+   "from": "공급금액, 2순위",
+   "to": "기타사항"
+  }
+ }
+]
