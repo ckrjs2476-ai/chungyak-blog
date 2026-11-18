@@ -1,1 +1,370 @@
-[]
+[
+ {
+  "name": "cy-hanwha-forena-jijeyeok-competition-2026-11-card",
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "한화포레나 지제역 1순위, 어디서 신청이 몰렸을까?",
+   "answer": "1순위 평균 0.28대 1, 84A만 해당지역 몫을 넘겼어요",
+   "points": [
+    {
+     "label": "1순위 신청",
+     "value": "282건"
+    },
+    {
+     "label": "84A 해당지역",
+     "value": "1.15대 1"
+    },
+    {
+     "label": "1순위 뒤 남은 세대",
+     "value": "740세대"
+    },
+    {
+     "label": "평택 민영 4곳 중 3.3㎡당",
+     "value": "2,145만 원"
+    }
+   ],
+   "source": "청약홈 경쟁률 자료",
+   "date": "2026-11-11"
+  }
+ },
+ {
+  "name": "cy-hyangnam-station-grove-switzen-cheongyak-2026-10-card",
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "향남역 그로브 스위첸 분양가, 경기 평균과 견주면?",
+   "answer": "경기 민영 평균보다 31% 낮았지만 1순위 평균은 0.64대 1",
+   "compare": {
+    "head": [
+     "비교",
+     "3.3㎡당 평균"
+    ],
+    "rows": [
+     [
+      "향남역 그로브 스위첸",
+      "1,668만 원"
+     ],
+     [
+      "경기 민영 40곳 평균",
+      "2,412만 원"
+     ],
+     [
+      "화성 민영 2곳 평균",
+      "2,058만 원"
+     ]
+    ]
+   },
+   "source": "청약홈 모집공고·경쟁률 자료",
+   "date": "2026-10-13"
+  }
+ },
+ {
+  "name": "cy-hillstate-godeok-elist-a12bl-competition-2026-10-card",
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "힐스테이트 고덕엘리스트 A12BL, 시세와 신청은?",
+   "answer": "84A 최고가는 고덕동 시세보다 3% 높았고 1순위는 0.13대 1",
+   "points": [
+    {
+     "label": "84A 최고가",
+     "value": "5억 8,420만 원"
+    },
+    {
+     "label": "고덕동 84㎡ 실거래 중앙값",
+     "value": "5억 6,600만 원"
+    },
+    {
+     "label": "공급과 1순위 신청",
+     "value": "892세대에 114건"
+    },
+    {
+     "label": "최종 미달",
+     "value": "751세대"
+    }
+   ],
+   "source": "청약홈·국토교통부 실거래가",
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "name": "js-seoul-gangseo-gu-magok-dong-jeonse-flow-2026-11-card",
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "강서구 84㎡ 전세 중앙값, 8월에 무슨 일이?",
+   "answer": "8월 중앙값만 2억 9,811만 원, 최근 3개월 변화율은 -5.0%",
+   "points": [
+    {
+     "label": "7월 중앙값",
+     "value": "5억 원"
+    },
+    {
+     "label": "8월 중앙값",
+     "value": "2억 9,811만 원"
+    },
+    {
+     "label": "9월 중앙값",
+     "value": "6억 3,000만 원"
+    },
+    {
+     "label": "강서구 전세가율",
+     "value": "55.3% · 154위"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-10-27"
+  }
+ },
+ {
+  "name": "js-yeongjong-gu-same-deposit-jeonse-ratio-2026-11-card",
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "같은 보증금 2억 8,000만 원, 전세가율은 왜 다를까?",
+   "answer": "보증금은 같아도 매매 중앙값 차이로 49.1~94.9%",
+   "compare": {
+    "head": [
+     "시군구",
+     "전세가율",
+     "매매·전세 간격"
+    ],
+    "rows": [
+     [
+      "부산 영도구",
+      "94.9%",
+      "1,500만 원"
+     ],
+     [
+      "인천 영종구",
+      "66.7%",
+      "1억 4,000만 원"
+     ],
+     [
+      "대구 중구",
+      "49.1%",
+      "2억 9,000만 원"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-02"
+  }
+ },
+ {
+  "name": "js-daegu-dalseong-gun-jeonse-complex-ratio-2026-11-card",
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "달성군 아파트 전세, 대구에서 어느 정도일까?",
+   "answer": "대구 8개 구군 중 보증금이 가장 낮고 전세가율은 70.0%",
+   "points": [
+    {
+     "label": "84㎡ 전세 가운데값",
+     "value": "2억 1,000만 원"
+    },
+    {
+     "label": "84㎡ 매매 가운데값",
+     "value": "3억 원"
+    },
+    {
+     "label": "80% 넘은 단지",
+     "value": "59개 단지 중 8곳"
+    },
+    {
+     "label": "다사읍 2021년 준공 단지",
+     "value": "52.2%"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-10-30"
+  }
+ },
+ {
+  "name": "gm-est-ipo-2026-10-card",
+  "card": {
+   "blog": "gongmoju",
+   "layout": "points",
+   "title": "이에스티 공모주, 모은 돈은 어디에 쓸까?",
+   "answer": "자금 계획의 80.7%가 시설자금, 운영자금 줄은 없어요",
+   "points": [
+    {
+     "label": "시설자금",
+     "value": "193.9억 원"
+    },
+    {
+     "label": "공모 총액",
+     "value": "233.2억 원 · 26곳 중 16위"
+    },
+    {
+     "label": "인수수수료율",
+     "value": "3.6% (중앙값 4.12%)"
+    },
+    {
+     "label": "확정 공모가",
+     "value": "10,600원"
+    }
+   ],
+   "source": "DART 증권신고서",
+   "date": "2026-10-18"
+  }
+ },
+ {
+  "name": "gm-lablup-ipo-2026-10-card",
+  "card": {
+   "blog": "gongmoju",
+   "layout": "compare",
+   "title": "래블업 공모 총액, 다른 회사와 견주면?",
+   "answer": "공모가 19,000원 확정, 414.2억 원으로 28곳 중 7위",
+   "compare": {
+    "head": [
+     "순위",
+     "회사",
+     "공모 총액"
+    ],
+    "rows": [
+     [
+      "6위",
+      "이노보테라퓨틱스",
+      "440억 원"
+     ],
+     [
+      "7위",
+      "래블업",
+      "414.2억 원"
+     ],
+     [
+      "8위",
+      "아델",
+      "390.6억 원"
+     ]
+    ]
+   },
+   "source": "DART 증권신고서",
+   "date": "2026-10-27"
+  }
+ },
+ {
+  "name": "gm-dongwonparts-ipo-2026-11-card",
+  "card": {
+   "blog": "gongmoju",
+   "layout": "points",
+   "title": "동원파츠 공모주, 숫자로 보면?",
+   "answer": "29년 차 회사의 466.9억 원 공모, 자금 계획 중 기타 30.8%",
+   "points": [
+    {
+     "label": "설립",
+     "value": "1997년 6월"
+    },
+    {
+     "label": "공모 총액",
+     "value": "466.9억 원 · 26곳 중 5위"
+    },
+    {
+     "label": "기타 자금",
+     "value": "146.8억 원"
+    },
+    {
+     "label": "신고서 기준 공모가",
+     "value": "23,000원"
+    }
+   ],
+   "source": "DART 증권신고서",
+   "date": "2026-10-19"
+  }
+ },
+ {
+  "name": "gw-yangcheon-gu-apartment-management-fee-ranking-2026-08-card",
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "양천구 아파트 관리비, ㎡당 가장 높은 곳은?",
+   "answer": "1위 목동트라팰리스 5,552원, 중앙값보다 104.1% 높아요",
+   "points": [
+    {
+     "label": "목동트라팰리스",
+     "value": "5,552원"
+    },
+    {
+     "label": "목동현대하이페리온2차",
+     "value": "5,277원"
+    },
+    {
+     "label": "목동현대하이페리온",
+     "value": "4,885원"
+    },
+    {
+     "label": "양천구 60곳 중앙값",
+     "value": "2,720원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-18"
+  }
+ },
+ {
+  "name": "gw-olympic-park-foreon-management-fee-2026-08-card",
+  "card": {
+   "blog": "gwanribi",
+   "layout": "compare",
+   "title": "올림픽파크포레온 공용관리비, 어느 칸이 낮았을까?",
+   "answer": "공용관리비 ㎡당 872원, 강동구 55위",
+   "compare": {
+    "head": [
+     "항목",
+     "올림픽파크포레온",
+     "강동구 중앙값"
+    ],
+    "rows": [
+     [
+      "인건비",
+      "297원",
+      "417원"
+     ],
+     [
+      "경비비",
+      "209원",
+      "297원"
+     ],
+     [
+      "청소비",
+      "253원",
+      "200원"
+     ]
+    ]
+   },
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-14"
+  }
+ },
+ {
+  "name": "gw-dmc-park-view-xi-management-fee-2026-08-card",
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "DMC파크뷰자이 관리비, 어느 칸이 컸을까?",
+   "answer": "세대 평균 32만 4,463원, ㎡당 4,092원 · 서대문구 2위",
+   "points": [
+    {
+     "label": "개별사용료",
+     "value": "2,335원"
+    },
+    {
+     "label": "공용관리비",
+     "value": "1,509원"
+    },
+    {
+     "label": "장기수선충당금",
+     "value": "248원"
+    },
+    {
+     "label": "서대문구 합계 중앙값",
+     "value": "2,540원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-19"
+  }
+ }
+]
