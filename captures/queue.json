@@ -1,1 +1,5 @@
-[]
+[
+ {"name": "js-pohang-buk-gu-jeonse-complex-2026-11-card", "card": {"blog": "jeonse", "layout": "compare", "title": "포항 북구 아파트 전세가율, 남구와 얼마나 다를까?", "answer": "북구 92.7%(21위), 남구 50.3%(163위)", "compare": {"head": ["구분", "포항시 북구", "포항시 남구"], "rows": [["84㎡ 전세가율", "92.7%", "50.3%"], ["179곳 중 순위", "21위", "163위"], ["80% 이상 단지", "72곳 중 47곳", "35곳 중 21곳"], ["84㎡ 전세 중앙값", "2억 1,320만 원", "1억 5,031만 원"]]}, "source": "국토교통부 실거래가", "date": "2026-11-18"}},
+ {"name": "js-47113-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "47113", "highlight": "창포동"}},
+ {"name": "js-47113-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "41300"]}, {"fill": ["#dep", "23000"]}, {"pick": ["#reg", "포항시 북구"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16}
+]
