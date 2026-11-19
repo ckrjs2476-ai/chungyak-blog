@@ -1,51 +1,5 @@
 [
  {
-  "name": "gw-41131-sanseong-xi-prugio1-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41131",
-   "code": "A10022845"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 15648,
-  "at": "2026-11-14 11:25"
- },
- {
-  "name": "gw-calc-sanseong-xi-prugio1-84-1114",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16808,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-14 11:25"
- },
- {
-  "name": "js-41360-ratio-history",
-  "ok": true,
-  "chart": {
-   "type": "history",
-   "blog": "jeonse",
-   "entity": "41360",
-   "metric": "ratio84",
-   "title": "남양주시 84㎡ 전세가율 기록",
-   "unit": "%"
-  },
-  "size": [
-   760,
-   380
-  ],
-  "bytes": 12734,
-  "at": "2026-11-14 12:43"
- },
- {
   "name": "js-41360-calc-1",
   "ok": true,
   "status": null,
@@ -4500,5 +4454,66 @@
   ],
   "bytes": 26350,
   "at": "2026-11-19 22:42"
+ },
+ {
+  "name": "dr-drone-us-regulation-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "미국 드론 규제, 한국과 무엇이 다른가요?",
+   "answer": "미국은 250g부터 등록, 한국은 2kg 초과부터 신고해요",
+   "compare": {
+    "head": [
+     "기준",
+     "한국",
+     "미국"
+    ],
+    "rows": [
+     [
+      "등록·신고 시작",
+      "2kg 초과",
+      "250g 이상"
+     ],
+     [
+      "승인 없이 날 높이",
+      "150m 미만",
+      "400피트(약 122m)"
+     ],
+     [
+      "승인 필요한 공역",
+      "관제권 반경 9.3km",
+      "Class B·C·D 관제공역"
+     ]
+    ]
+   },
+   "source": "FAA 등록·취미 비행 안내, 찾기쉬운 생활법령정보",
+   "date": "2026-11-20"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 28342,
+  "at": "2026-11-20 08:54"
+ },
+ {
+  "name": "dr-drone-us-regulation-2026-faa",
+  "ok": false,
+  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"All drones must be registered\").first\n",
+  "url": "https://www.faa.gov/uas/getting_started/register_drone"
+ },
+ {
+  "name": "dr-drone-us-regulation-2026-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14648,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-20 08:54"
  }
 ]
