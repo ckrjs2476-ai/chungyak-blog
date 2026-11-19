@@ -1,44 +1,5 @@
 [
  {
-  "name": "gw-calc-misa-golden-centro-84-1113",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16530,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-13 14:58"
- },
- {
-  "name": "gyeyang-kaib-yubora-score-2026-11-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "pages/calculator.md",
-  "size": [
-   760,
-   431
-  ],
-  "bytes": 18990,
-  "url": "pages/calculator.md",
-  "at": "2026-11-13 18:38"
- },
- {
-  "name": "gyeyang-kaib-yubora-score-2026-11-calc-2",
-  "ok": true,
-  "status": null,
-  "title": "pages/calculator.md",
-  "size": [
-   760,
-   431
-  ],
-  "bytes": 18696,
-  "url": "pages/calculator.md",
-  "at": "2026-11-13 18:38"
- },
- {
   "name": "cy-2026000241-price-1113",
   "ok": true,
   "status": 200,
@@ -3979,5 +3940,75 @@
   "bytes": 10080,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000420&pblancNo=2026000420",
   "at": "2026-11-19 09:52"
+ },
+ {
+  "name": "gw-11260-jungnangsup-city-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11260",
+   "code": "A10023952"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16058,
+  "at": "2026-11-19 11:27"
+ },
+ {
+  "name": "gw-jungnang-gu-apartment-management-fee-by-heat-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "compare",
+   "title": "중랑구 관리비, 난방 방식 따라 얼마나 달랐을까?",
+   "answer": "개별난방 26곳 ㎡당 2,714원, 지역난방 18곳 2,392원",
+   "compare": {
+    "head": [
+     "구분",
+     "개별난방(26곳)",
+     "지역난방(18곳)"
+    ],
+    "rows": [
+     [
+      "㎡당 합계 중앙값",
+      "2,714원",
+      "2,392원"
+     ],
+     [
+      "개별사용료 중앙값",
+      "1,252원",
+      "1,065원"
+     ],
+     [
+      "㎡당 합계가 가장 높은 단지",
+      "3,871원",
+      "3,471원"
+     ]
+    ]
+   },
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-21"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 30328,
+  "at": "2026-11-19 11:27"
+ },
+ {
+  "name": "gw-calc-jungnang-84-1119",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16914,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-19 11:27"
  }
 ]
