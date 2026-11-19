@@ -2,36 +2,36 @@
  "lawd": "41410",
  "name": "경기도 군포시",
  "months": 12,
- "updated": "2026-11-19",
- "trade_count": 4689,
- "cancel_count": 129,
- "n84": 810,
- "median84": 55650,
- "p25_84": 49700,
+ "updated": "2026-11-20",
+ "trade_count": 4706,
+ "cancel_count": 130,
+ "n84": 815,
+ "median84": 55500,
+ "p25_84": 49800,
  "p75_84": 65000,
- "median84_pyeong_excl": 2175,
+ "median84_pyeong_excl": 2172,
  "new_n84": 40,
  "new_median84": 117600,
  "new_build_years": 5,
  "umd84": {
+  "당정동": {
+   "n": 153,
+   "median": 49500
+  },
   "당동": {
    "n": 204,
    "median": 52275
   },
   "금정동": {
-   "n": 74,
-   "median": 111250
+   "n": 75,
+   "median": 111000
   },
   "산본동": {
    "n": 210,
    "median": 79500
   },
-  "당정동": {
-   "n": 151,
-   "median": 49500
-  },
   "도마교동": {
-   "n": 35,
+   "n": 37,
    "median": 64000
   },
   "대야미동": {
@@ -106,21 +106,21 @@
   },
   {
    "month": "2026-10",
-   "count": 537,
-   "n84": 89,
-   "median84": 58000
+   "count": 538,
+   "n84": 90,
+   "median84": 57750
   },
   {
    "month": "2026-11",
-   "count": 151,
-   "n84": 28,
-   "median84": 52150
+   "count": 167,
+   "n84": 32,
+   "median84": 53000
   }
  ],
  "top_apts": [
   {
    "name": "금정동 충무주공(872)",
-   "count": 256,
+   "count": 258,
    "median84": null,
    "built": 1992
   },
@@ -132,8 +132,14 @@
   },
   {
    "name": "산본동 세종",
-   "count": 194,
+   "count": 195,
    "median84": 73500,
+   "built": 1994
+  },
+  {
+   "name": "산본동 우륵",
+   "count": 170,
+   "median84": 63500,
    "built": 1994
   },
   {
@@ -141,12 +147,6 @@
    "count": 169,
    "median84": null,
    "built": 1992
-  },
-  {
-   "name": "산본동 우륵",
-   "count": 169,
-   "median84": 63500,
-   "built": 1994
   },
   {
    "name": "산본동 래미안하이어스",
@@ -162,7 +162,7 @@
   },
   {
    "name": "산본동 주공11",
-   "count": 136,
+   "count": 137,
    "median84": null,
    "built": 1991
   },

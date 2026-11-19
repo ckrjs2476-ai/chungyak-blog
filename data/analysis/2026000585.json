@@ -1,0 +1,113 @@
+{
+ "no": "2026000585",
+ "name": "고양 한신더휴 퍼스트원",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-11-19",
+ "rank1_date": "2026-12-01",
+ "city": "고양시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-09",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000585&pblancNo=2026000585",
+ "households": 102,
+ "types": [
+  {
+   "ty": "59.8728",
+   "size": 59,
+   "price": 64472,
+   "area_m2": 79.7293,
+   "general": 7,
+   "special": 19,
+   "pyeong_price": 2673,
+   "special_share_pct": 73
+  },
+  {
+   "ty": "71.9348",
+   "size": 71,
+   "price": 72944,
+   "area_m2": 92.7098,
+   "general": 21,
+   "special": 24,
+   "pyeong_price": 2601,
+   "special_share_pct": 53
+  },
+  {
+   "ty": "84.9614",
+   "size": 84,
+   "price": 84579,
+   "area_m2": 106.6083,
+   "general": 13,
+   "special": 18,
+   "pyeong_price": 2623,
+   "special_share_pct": 58
+  }
+ ],
+ "general_total": 41,
+ "special_total": 61,
+ "special_share_pct": 60,
+ "pyeong_min": 2601,
+ "pyeong_max": 2673,
+ "pyeong_avg": 2626,
+ "price_84_min": 84579,
+ "price_84_max": 84579,
+ "special_kinds": {
+  "신혼부부": 16,
+  "생애최초": 8,
+  "신생아": 11,
+  "다자녀": 11,
+  "노부모 부양": 4,
+  "기관추천": 11
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 37,
+  "peers": [
+   "더샵 분당하이스트",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "북오산자이 드포레",
+   "고덕국제신도시 수자인하우스디",
+   "양주 회천지구 A-8BL 로제비앙 엘가",
+   "이천 휴먼빌 클래스원",
+   "의왕역 SK VIEW",
+   "남양주 진접 서한이다음(S1BL)"
+  ],
+  "peer_avg_pyeong": 2551,
+  "diff": 75,
+  "diff_pct": 3,
+  "rank": 10,
+  "of": 38
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 36,
+  "peer_avg_rate": 4.7,
+  "peer_max_rate": 51.75
+ },
+ "market": {
+  "region": "경기도 고양시 덕양구",
+  "lawd": "41281",
+  "months": 12,
+  "updated": "2026-11-20",
+  "n84": 2092,
+  "median84": 71950,
+  "p25_84": 54000,
+  "p75_84": 87000,
+  "new_n84": 266,
+  "new_median84": 114000,
+  "new_build_years": 5,
+  "umd": "행신동",
+  "umd_n84": 215,
+  "umd_median84": 51500,
+  "diff_vs_median84": 12629,
+  "diff_pct_vs_median84": 18,
+  "diff_vs_new_median84": -29421,
+  "diff_pct_vs_new_median84": -26,
+  "diff_vs_umd_median84": 33079,
+  "diff_pct_vs_umd_median84": 64
+ }
+}

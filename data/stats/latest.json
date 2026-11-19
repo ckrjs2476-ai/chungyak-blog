@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "weekly_competition": [
   {
    "no": "2026000497",
@@ -11,7 +11,7 @@
     "rate": 65.5,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 1,
+   "final_shortfall_total": 0,
    "rank1_closed_types": 9,
    "type_count": 10
   },
@@ -80,41 +80,6 @@
  ],
  "weekly_remainder": [
   {
-   "no": "2026910284",
-   "name": "중동역 다채로움 더원",
-   "region": "경기",
-   "households": 23,
-   "rcept_date": "2026-11-16",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910284&pblancNo=2026910284",
-   "types": [
-    {
-     "ty": "54.8244",
-     "price": 54900,
-     "pyeong_price": null
-    },
-    {
-     "ty": "59.9935B",
-     "price": 59200,
-     "pyeong_price": null
-    },
-    {
-     "ty": "60.7403",
-     "price": 61200,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9888A",
-     "price": 75300,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9933B",
-     "price": 79300,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
    "no": "2026910287",
    "name": "더샵 청주그리니티(2차)",
    "region": "충북",
@@ -125,51 +90,6 @@
     {
      "ty": "99.8624A",
      "price": 37708,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910288",
-   "name": "안양자이 더 포레스트",
-   "region": "경기",
-   "households": 1,
-   "rcept_date": "2026-11-16",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910288&pblancNo=2026910288",
-   "types": [
-    {
-     "ty": "59.9871A",
-     "price": 68270,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910290",
-   "name": "청계 노르웨이숲(14차)",
-   "region": "서울",
-   "households": 6,
-   "rcept_date": "2026-11-16",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910290&pblancNo=2026910290",
-   "types": [
-    {
-     "ty": "39.695",
-     "price": 73826,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910291",
-   "name": "송도자이 더 스타(3차)",
-   "region": "인천",
-   "households": 1,
-   "rcept_date": "2026-11-16",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910291&pblancNo=2026910291",
-   "types": [
-    {
-     "ty": "151.3362P",
-     "price": 237890,
      "pyeong_price": null
     }
    ]
@@ -190,31 +110,6 @@
     {
      "ty": "84.9219C",
      "price": 62340,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910293",
-   "name": "이천자이 더 리체",
-   "region": "경기",
-   "households": 3,
-   "rcept_date": "2026-11-16",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910293&pblancNo=2026910293",
-   "types": [
-    {
-     "ty": "84.94B",
-     "price": 49290,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.94C",
-     "price": 51390,
-     "pyeong_price": null
-    },
-    {
-     "ty": "120.58",
-     "price": 69700,
      "pyeong_price": null
     }
    ]
@@ -285,26 +180,6 @@
    ]
   },
   {
-   "no": "2026910297",
-   "name": "평택 고덕 국제신도시 A-55 대광로제비앙 모아엘가(4차)",
-   "region": "경기",
-   "households": 3,
-   "rcept_date": "2026-11-16",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910297&pblancNo=2026910297",
-   "types": [
-    {
-     "ty": "84.9452A",
-     "price": 50600,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.9704B",
-     "price": 50600,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
    "no": "2026910299",
    "name": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
    "region": "경기",
@@ -330,6 +205,66 @@
     {
      "ty": "84.9989B",
      "price": 55300,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910300",
+   "name": "산곡역자이힐스테이트앤하늘채",
+   "region": "인천",
+   "households": 550,
+   "rcept_date": "2026-11-24",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910300&pblancNo=2026910300",
+   "types": [
+    {
+     "ty": "50.26A",
+     "price": 55600,
+     "pyeong_price": null
+    },
+    {
+     "ty": "50.26B",
+     "price": 56000,
+     "pyeong_price": null
+    },
+    {
+     "ty": "59.99B",
+     "price": 78000,
+     "pyeong_price": null
+    },
+    {
+     "ty": "75.56A",
+     "price": 91000,
+     "pyeong_price": null
+    },
+    {
+     "ty": "75.62B",
+     "price": 89400,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.92A",
+     "price": 94100,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.98B",
+     "price": 102200,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910307",
+   "name": "인천 검단신도시 AB13블록 호반써밋Ⅲ",
+   "region": "인천",
+   "households": 1,
+   "rcept_date": "2026-11-24",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910307&pblancNo=2026910307",
+   "types": [
+    {
+     "ty": "97.9655P",
+     "price": 64280,
      "pyeong_price": null
     }
    ]
@@ -1011,8 +946,8 @@
   },
   "2026-11": {
    "경기": {
-    "count": 6,
-    "avg_pyeong": 2244,
+    "count": 8,
+    "avg_pyeong": 2315,
     "max_pyeong": 3019,
     "min_pyeong": 1736
    },
@@ -1022,17 +957,17 @@
     "max_pyeong": 7663,
     "min_pyeong": 3813
    },
+   "충남": {
+    "count": 2,
+    "avg_pyeong": 1743,
+    "max_pyeong": 1916,
+    "min_pyeong": 1570
+   },
    "경북": {
     "count": 2,
     "avg_pyeong": 1691,
     "max_pyeong": 1874,
     "min_pyeong": 1508
-   },
-   "충남": {
-    "count": 1,
-    "avg_pyeong": 1570,
-    "max_pyeong": 1570,
-    "min_pyeong": 1570
    },
    "울산": {
     "count": 1,
@@ -1122,6 +1057,22 @@
     }
    },
    {
+    "no": "2026000585",
+    "name": "고양 한신더휴 퍼스트원",
+    "region": "경기",
+    "households": 102,
+    "pyeong_avg": 2626,
+    "price_84_min": 84579,
+    "special_kinds": {
+     "신혼부부": 16,
+     "생애최초": 8,
+     "신생아": 11,
+     "다자녀": 11,
+     "노부모 부양": 4,
+     "기관추천": 11
+    }
+   },
+   {
     "no": "2026000563",
     "name": "더샵 트리센트(조합원 자격상실 세대분)",
     "region": "부산",
@@ -1151,6 +1102,22 @@
      "다자녀": 55,
      "노부모 부양": 27,
      "기관추천": 82
+    }
+   },
+   {
+    "no": "2026000575",
+    "name": "왕숙 한신더휴 센텀(남양주 왕숙 A-17BL) 공공분양주택",
+    "region": "경기",
+    "households": 379,
+    "pyeong_avg": 2435,
+    "price_84_min": null,
+    "special_kinds": {
+     "신혼부부": 34,
+     "생애최초": 54,
+     "신생아": 70,
+     "다자녀": 34,
+     "노부모 부양": 11,
+     "기관추천": 50
     }
    },
    {
@@ -1199,6 +1166,22 @@
      "다자녀": 56,
      "노부모 부양": 16,
      "기관추천": 56
+    }
+   },
+   {
+    "no": "2026000521",
+    "name": "더샵 천안라크원",
+    "region": "충남",
+    "households": 1032,
+    "pyeong_avg": 1916,
+    "price_84_min": 66180,
+    "special_kinds": {
+     "신혼부부": 63,
+     "생애최초": 29,
+     "신생아": 42,
+     "다자녀": 102,
+     "노부모 부양": 30,
+     "기관추천": 42
     }
    },
    {
@@ -1301,14 +1284,14 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 723,
-   "생애최초": 385,
-   "신생아": 546,
-   "다자녀": 680,
-   "노부모 부양": 200,
-   "기관추천": 518
+   "신혼부부": 836,
+   "생애최초": 476,
+   "신생아": 669,
+   "다자녀": 827,
+   "노부모 부양": 245,
+   "기관추천": 621
   },
-  "households_total": 6942
+  "households_total": 8455
  },
  "last_month": {
   "month": "2026-10",
@@ -2101,20 +2084,6 @@
    }
   },
   {
-   "no": "2026000388",
-   "name": "시티오씨엘 9단지 오션파크뷰",
-   "region": "인천",
-   "min": {
-    "score": 0,
-    "ty": "59.9801",
-    "reside": "기타지역"
-   },
-   "max": {
-    "score": 64,
-    "ty": "59.9801"
-   }
-  },
-  {
    "no": "2026000393",
    "name": "시흥 은계 에피트(조합원 취소분)",
    "region": "경기",
@@ -2420,6 +2389,20 @@
    "max": {
     "score": 69,
     "ty": "84.3473A"
+   }
+  },
+  {
+   "no": "2026000535",
+   "name": "중앙하이츠 구성 플랫폼시티",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.967A",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 69,
+    "ty": "79.978"
    }
   },
   {
