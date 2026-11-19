@@ -1,1 +1,6 @@
-[]
+[
+ {"name": "js-wonju-si-jeonse-ratio-4weeks-2026-11-card", "card": {"blog": "jeonse", "layout": "points", "title": "원주시 전세가율은 4주 새 얼마나 움직였을까?", "answer": "76.4%에서 80.0%로, 매매 중앙값은 그대로였습니다", "points": [{"label": "84㎡ 전세가율", "value": "76.4% → 80.0%"}, {"label": "84㎡ 전세 중앙값", "value": "2억 1,000만 → 2억 2,000만 원"}, {"label": "84㎡ 매매 중앙값", "value": "2억 7,500만 원 그대로"}, {"label": "전세가율 순위", "value": "65위 → 53위"}], "source": "국토교통부 실거래가", "date": "2026-11-19"}},
+ {"name": "js-51130-rank-history", "chart": {"type": "history", "blog": "jeonse", "entity": "51130", "metric": "rank", "title": "원주시 84㎡ 전세가율 순위 기록", "unit": "위"}},
+ {"name": "js-51130-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "27500"]}, {"fill": ["#dep", "21000"]}, {"pick": ["#reg", "원주시"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+ {"name": "js-51130-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "27500"]}, {"fill": ["#dep", "22000"]}, {"pick": ["#reg", "원주시"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16}
+]
