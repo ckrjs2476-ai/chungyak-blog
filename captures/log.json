@@ -1,18 +1,5 @@
 [
  {
-  "name": "dr-work24-drone-show-search-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 25022,
-  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%87%BC",
-  "at": "2026-11-13 19:59"
- },
- {
   "name": "dr-law-biz-scope-2026-11-13",
   "ok": true,
   "status": 200,
@@ -4057,5 +4044,42 @@
   "bytes": 25554,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910295&pblancNo=2026910295",
   "at": "2026-11-19 18:39"
+ },
+ {
+  "name": "cy-gimhae-apartment-pyeong-price-2025-10-2026-06-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "김해 신문동 같은 날 공고한 두 단지, 결과는?",
+   "answer": "3.3㎡당 더 낮은 웰라움 라시엘은 370세대가 남고 아이파크는 미달 없이 마감",
+   "compare": {
+    "head": [
+     "2026년 6월 19일 공고",
+     "3.3㎡당 평균",
+     "1순위 신청"
+    ],
+    "rows": [
+     [
+      "신문 대상 웰라움 라시엘",
+      "1,502만 원",
+      "3건"
+     ],
+     [
+      "김해 신문 센트럴 아이파크",
+      "1,652만 원",
+      "1,458건"
+     ]
+    ]
+   },
+   "source": "청약홈 모집공고·경쟁률",
+   "date": "2026-11-19"
+  },
+  "size": [
+   760,
+   413
+  ],
+  "bytes": 27518,
+  "at": "2026-11-19 18:44"
  }
 ]
