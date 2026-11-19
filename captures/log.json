@@ -1,36 +1,5 @@
 [
  {
-  "name": "js-44200-rank-history",
-  "ok": true,
-  "chart": {
-   "type": "history",
-   "blog": "jeonse",
-   "entity": "44200",
-   "metric": "rank",
-   "title": "아산시 전세가율 순위 기록",
-   "unit": "위(순위표 178곳 중)"
-  },
-  "size": [
-   760,
-   380
-  ],
-  "bytes": 13702,
-  "at": "2026-11-13 19:49"
- },
- {
-  "name": "dr-work24-droneshow-search-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 25016,
-  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%EC%87%BC",
-  "at": "2026-11-13 19:59"
- },
- {
   "name": "dr-work24-drone-show-search-2026-11-13",
   "ok": true,
   "status": 200,
@@ -4039,5 +4008,54 @@
   "bytes": 7218,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-19 12:43"
+ },
+ {
+  "name": "cy-remainder-cheongyak-2026-11-23-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "연제갤러리자이 무순위 315세대, 본청약 땐 어땠나?",
+   "answer": "10월 1순위 평균 1.63대 1, 네 타입 모두 미달 없이 마감됐던 단지",
+   "points": [
+    {
+     "label": "10월 본청약 공급",
+     "value": "459세대"
+    },
+    {
+     "label": "11월 23일 무순위",
+     "value": "315세대"
+    },
+    {
+     "label": "84D 1순위 해당지역",
+     "value": "1.08대 1"
+    },
+    {
+     "label": "84A 최고가",
+     "value": "9억 1,560만 → 8억 8,940만 원"
+    }
+   ],
+   "source": "청약홈 모집공고·경쟁률",
+   "date": "2026-11-19"
+  },
+  "size": [
+   760,
+   485
+  ],
+  "bytes": 29874,
+  "at": "2026-11-19 18:39"
+ },
+ {
+  "name": "cy-2026910295-remndr",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   728
+  ],
+  "bytes": 25554,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910295&pblancNo=2026910295",
+  "at": "2026-11-19 18:39"
  }
 ]
