@@ -109,3 +109,12 @@
   - 청약 3: jeju-si-apartment-pyeong-price-2025-11, yeongjong-apartment-pyeong-price-2025, elif-siheung-prime-competition-2026-11
   - 드론 2: drone-soccer-rules-worldcup-2026, drone-filming-notice-privacy-2026
   - 다음 실행 11-19 11:00: 관리비(sannae-2-centralium-management-fee-2026 먼저) → 공모주 → 전세 → 청약 → 드론
+
+- 11-19 오전(11:00~11:09) 15건 요청, 모두 '색인 생성 요청됨'(할당량 초과 없음, 15건에서 멈춤)
+  - 관리비 3: sannae-2-centralium-management-fee-2026(11-18 남은 것), apartment-repair-fee-gimpo-2026-09, mecenatpolis-management-fee-2026-08
+  - 공모주 3: mds-korea-ipo-2026-12, cis-chemical-ipo-2026-12, ipo-issuance-cost-2026-11
+  - 전세 3: seoul-mapo-gu-jeonse-ratio-rank-2026-11, pohang-buk-gu-jeonse-complex-ratio-2026, namyangju-si-jeonse-ratio-4weeks-2026-11
+  - 청약 3: ulju-gun-apartment-pyeong-price-2025-09, jeonju-apartment-pyeong-price-2025-11, icheon-apartment-pyeong-price-2025-11
+  - 드론 3: drone-used-drone-transfer-2026, drone-kids-toy-drone-rules-2026, drone-tech-advanced-list-2026
+  - 방법 메모: 검사 결과 확인은 [role=dialog] 글자로 본다(본문 innerText에는 안 잡힘). 다른 속성으로 옮길 때 navigate가 거부되면 location.href로 이동.
+  - 다음 실행 11-20 11:00: 공모주 → 전세 → 청약 → 드론 → 관리비
