@@ -1,1 +1,6 @@
-[]
+[
+ {"name": "js-hanam-si-jeonse-deokpung-dong-2026-11-card", "card": {"blog": "jeonse", "layout": "compare", "title": "하남시 아파트 전세, 동마다 전세가율이 얼마나 다를까?", "answer": "덕풍동 66.0%, 학암동 42.4%로 23.6%p 갈립니다", "compare": {"head": ["구분", "덕풍동", "학암동"], "rows": [["84㎡ 전세가율", "66.0%", "42.4%"], ["84㎡ 전세 중앙값", "5억 1,450만 원", "7억 원"], ["84㎡ 매매 중앙값", "7억 7,900만 원", "16억 5,000만 원"]]}, "source": "국토교통부 실거래가", "date": "2026-11-12"}},
+ {"name": "js-41450-dong-chart", "chart": {"type": "jeonse_dong", "lawd": "41450", "highlight": "덕풍동"}},
+ {"name": "js-41450-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "77900"]}, {"fill": ["#dep", "51450"]}, {"pick": ["#reg", "하남시"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+ {"name": "js-41450-rt", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "경기"], "wait": 2}, {"pick": ["#srhSggCd", "하남"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
+]
