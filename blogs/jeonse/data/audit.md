@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: jeonse (2026-11-19 17:31 KST)
+# 애드센스 기준 점검: jeonse (2026-11-19 19:11 KST)
 
 - 공개 글: 57편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -24,8 +24,8 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
-| 85 | [강동구 전세가율 변화, 석 달 보증금 9.9% 올라](https://jeonse-ondogye.blogspot.com/2026/11/gangdong-gu-jeonse-ratio-4weeks-2026-11.html) `2026-11-15-11740-topic.md` | 3309 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 7개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 그 앞 석 달 N억 / N월 N일 N N월 N일 / N위이고N N곳 평균 N보다  |
-| 85 | [동작구 아파트 전세 7억 5,000만 원, 흑석동 ](https://jeonse-ondogye.blogspot.com/2026/11/seoul-dongjak-gu-jeonse-heukseok-dong.html) `2026-11-14-11590-region.md` | 3280 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: N월 N일 N N월 N일 / N일 N억 N만 원N N월 / 매매가 칸에 N 보증금 |
+| 85 | [강동구 전세가율 변화, 석 달 보증금 9.9% 올라](https://jeonse-ondogye.blogspot.com/2026/11/gangdong-gu-jeonse-ratio-4weeks-2026-11.html) `2026-11-15-11740-topic.md` | 3309 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 7개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: N억 N만 원에서 N억 N만 / N위이고N N곳 평균 N보다 Np / N월 N일  |
+| 85 | [동작구 아파트 전세 7억 5,000만 원, 흑석동 ](https://jeonse-ondogye.blogspot.com/2026/11/seoul-dongjak-gu-jeonse-heukseok-dong.html) `2026-11-14-11590-region.md` | 3280 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: N월 N일 N억 N만 원N / N일 N억 N만 원N N월 / N일 순위표에 오른  |
 | 90 | [검단구 아파트 전세, 마전동 81.4%와 원당동 5](https://jeonse-ondogye.blogspot.com/2026/11/incheon-geomdan-gu-jeonse-dong-gap-2026.html) `2026-11-05-28290-region.md` | 3189 | 1 | 2 | - |
 | 90 | [부평구 아파트 전세가율 75.0%, 군포·춘천과 같](https://jeonse-ondogye.blogspot.com/2026/10/bupyeong-gunpo-chuncheon-jeonse-ratio.html) `2026-10-21-28237-topic.md` | 3267 | 1 | 1 | - |
 | 90 | [분당구 아파트 전세, 같은 7억 원에 대장동 54.](https://jeonse-ondogye.blogspot.com/2026/11/seongnam-bundang-gu-jeonse-dong-gap.html) `2026-11-01-41135-region.md` | 3201 | 1 | 1 | - |

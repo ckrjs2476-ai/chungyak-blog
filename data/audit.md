@@ -1,6 +1,6 @@
-# 애드센스 기준 점검: cheongyak (2026-11-19 17:31 KST)
+# 애드센스 기준 점검: cheongyak (2026-11-19 19:11 KST)
 
-- 공개 글: 75편
+- 공개 글: 76편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
@@ -9,9 +9,9 @@
 
 - 수도권: 45편
 - 청약통계: 37편
-- 청약 결과: 31편
-- 지방: 26편
-- 청약일정: 18편
+- 청약 결과: 32편
+- 지방: 27편
+- 청약일정: 19편
 
 ## 겹침·합치기 후보
 
@@ -25,8 +25,10 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
-| 85 | [남양주 분양 아파트 평당 분양가, 왕숙2 2,094](https://daily-cheongyak.blogspot.com/2026/10/namyangju-apartment-pyeong-price-2025.html) `2026-10-27-namyangju-2025-11-2026-09-region.md` | 2947 | 0 | 1 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: N곳 평균 N만 원보다 N / 민영 N곳 평균 N만 원보다 / 공고를 직접 열어  |
+| 85 | [남양주 분양 아파트 평당 분양가, 왕숙2 2,094](https://daily-cheongyak.blogspot.com/2026/10/namyangju-apartment-pyeong-price-2025.html) `2026-10-27-namyangju-2025-11-2026-09-region.md` | 2947 | 0 | 1 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 민영 N곳 평균 N만 원보다 / 공고를 직접 열어 본 결과N / 지은 지 N년이  |
 | 90 | [10월 26일 무순위 청약 결과, 문수로 비스타 더](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-10-26.html) `2026-10-22-remainder-1026-remainder.md` | 3086 | 1 | 2 | - |
+| 90 | [11월 16일 무순위 청약, 청계 노르웨이숲 14차](https://daily-cheongyak.blogspot.com/2026/11/remainder-cheongyak-2026-11-16.html) `2026-11-12-remainder-1116-remainder.md` | 4091 | 1 | 4 | - |
+| 90 | [11월 23일 무순위 청약, 연제갤러리자이 315세](https://daily-cheongyak.blogspot.com/2026/11/remainder-cheongyak-2026-11-23.html) `2026-11-19-remainder-1123-remainder.md` | 4030 | 1 | 3 | - |
 | 90 | [더샵 동인센트리체 청약 경쟁률, 1순위 신청 17건](https://daily-cheongyak.blogspot.com/2026/10/the-sharp-dongin-centriche-competition.html) `2026-10-15-2026000494-competition.md` | 1731 | 0 | 1 | - |
 | 90 | [부산 분양 아파트 10월 민영 4곳, 평당 1,78](https://daily-cheongyak.blogspot.com/2026/10/busan-apartment-pyeong-price-2026-10.html) `2026-10-19-busan-2026-10-region.md` | 4170 | 1 | 1 | - |
 | 90 | [서울 분양 아파트 3~8월 19곳, 평당 3,468](https://daily-cheongyak.blogspot.com/2026/10/seoul-apartment-pyeong-price-2026-03-08.html) `2026-10-29-seoul-2026-03-08-region.md` | 2888 | 1 | 1 | - |
@@ -42,7 +44,6 @@
 | 100 | [10월 3주 청약 경쟁률 순위, 8곳 중 1순위 전](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-3w.html) `2026-10-26-weekly-competition-1019-stats.md` | 3009 | 0 | 5 | - |
 | 100 | [10월 공고 청약 결과, 경쟁률 1위는 평당가 23](https://daily-cheongyak.blogspot.com/2026/11/october-notice-price-vs-result-2026-10.html) `2026-11-08-2026-10-followup-monthly.md` | 3065 | 0 | 2 | - |
 | 100 | [10월 분양 아파트 결산, 평당가 1위 아크메르 동](https://daily-cheongyak.blogspot.com/2026/11/october-apartment-supply-result-2026-10.html) `2026-11-02-2026-10-monthly-result-stats.md` | 3844 | 0 | 2 | - |
-| 100 | [11월 16일 무순위 청약, 청계 노르웨이숲 14차](https://daily-cheongyak.blogspot.com/2026/11/remainder-cheongyak-2026-11-16.html) `2026-11-12-remainder-1116-remainder.md` | 4091 | 0 | 4 | - |
 | 100 | [11월 1주 청약 경쟁률 순위, 운정 4단지 51.](https://daily-cheongyak.blogspot.com/2026/11/weekly-competition-ranking-2026-11-1w.html) `2026-11-09-weekly-competition-1102-stats.md` | 3052 | 0 | 3 | - |
 | 100 | [11월 2일 무순위 청약, 화서역 아너스빌 84㎡ ](https://daily-cheongyak.blogspot.com/2026/10/remainder-cheongyak-2026-11-02.html) `2026-10-29-remainder-1102-remainder.md` | 3282 | 0 | 2 | - |
 | 100 | [11월 9일 무순위 청약, 쌍용 더 플래티넘 센텀 ](https://daily-cheongyak.blogspot.com/2026/11/remainder-cheongyak-2026-11-09.html) `2026-11-05-remainder-1109-remainder.md` | 3291 | 0 | 2 | - |
