@@ -1,18 +1,5 @@
 [
  {
-  "name": "js-41360-calc-2",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14608,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-14 12:44"
- },
- {
   "name": "cy-siheung-rt-form-1114",
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -4515,5 +4502,18 @@
   "bytes": 6770,
   "url": "https://www.faa.gov/uas/getting_started/register_drone",
   "at": "2026-11-20 08:55"
+ },
+ {
+  "name": "dr-drone-us-regulation-2026-easylaw",
+  "ok": true,
+  "status": 200,
+  "title": "무인비행장치(드론) > 드론 비행 전 준비절차 > 드론 장치신고 및 사업등록 등 > 드론 장치신고 (본문) | 찾기쉬운 생활법령정보",
+  "size": [
+   760,
+   345
+  ],
+  "bytes": 23346,
+  "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1",
+  "at": "2026-11-20 08:57"
  }
 ]
