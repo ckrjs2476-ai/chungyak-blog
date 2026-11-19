@@ -1,1 +1,76 @@
-[]
+[
+ {
+  "name": "dr-drone-us-regulation-2026-card",
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "미국 드론 규제, 한국과 무엇이 다른가요?",
+   "answer": "미국은 250g부터 등록, 한국은 2kg 초과부터 신고해요",
+   "compare": {
+    "head": [
+     "기준",
+     "한국",
+     "미국"
+    ],
+    "rows": [
+     [
+      "등록·신고 시작",
+      "2kg 초과",
+      "250g 이상"
+     ],
+     [
+      "승인 없이 날 높이",
+      "150m 미만",
+      "400피트(약 122m)"
+     ],
+     [
+      "승인 필요한 공역",
+      "관제권 반경 9.3km",
+      "Class B·C·D 관제공역"
+     ]
+    ]
+   },
+   "source": "FAA 등록·취미 비행 안내, 찾기쉬운 생활법령정보",
+   "date": "2026-11-20"
+  }
+ },
+ {
+  "name": "dr-drone-us-regulation-2026-faa",
+  "url": "https://www.faa.gov/uas/getting_started/register_drone",
+  "sleep": 4,
+  "crop": {
+   "from": "All drones must be registered"
+  },
+  "height": 700
+ },
+ {
+  "name": "dr-drone-us-regulation-2026-calc-1",
+  "page": "blogs/drone/pages/calculator.md",
+  "width": 760,
+  "steps": [
+   {
+    "fill": [
+     "#w",
+     "1"
+    ]
+   },
+   {
+    "pick": [
+     "#use",
+     "취미"
+    ]
+   },
+   {
+    "pick": [
+     "#where",
+     "밖"
+    ]
+   }
+  ],
+  "crop": {
+   "from": "최대이륙중량(kg)",
+   "to": "이 기준으로 판단해요"
+  },
+  "pad": 16
+ }
+]
