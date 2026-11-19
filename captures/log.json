@@ -1,33 +1,5 @@
 [
  {
-  "name": "gw-calc-sanun11-forelaum-84-1113",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16946,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-13 13:53"
- },
- {
-  "name": "gw-41273-ansan-prugio-briparc-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41273",
-   "code": "A10023355"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16698,
-  "at": "2026-11-13 14:58"
- },
- {
   "name": "gw-calc-misa-golden-centro-84-1113",
   "ok": true,
   "status": null,
@@ -3947,5 +3919,65 @@
   "bytes": 16854,
   "url": "blogs/drone/pages/calculator.md",
   "at": "2026-11-19 08:59"
+ },
+ {
+  "name": "cy-ulju-gun-apartment-pyeong-price-2025-09-2026-09-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "울주군 분양 아파트, 1순위가 찬 곳은?",
+   "answer": "3.3㎡당 826만 원 문수데시앙2단지 공가세대 두 번뿐",
+   "compare": {
+    "head": [
+     "울주군 단지",
+     "3.3㎡당",
+     "1순위 평균"
+    ],
+    "rows": [
+     [
+      "문수데시앙2단지 (25년 9월)",
+      "826만 원",
+      "7.07대 1"
+     ],
+     [
+      "문수데시앙2단지 (26년 8월)",
+      "826만 원",
+      "5.91대 1"
+     ],
+     [
+      "센텀 엘카사",
+      "1,208만 원",
+      "0.03대 1"
+     ],
+     [
+      "유승한내들 에듀포레",
+      "1,550만 원",
+      "0.23대 1"
+     ]
+    ]
+   },
+   "source": "청약홈 모집공고·경쟁률",
+   "date": "2026-11-19"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 30368,
+  "at": "2026-11-19 09:52"
+ },
+ {
+  "name": "cy-2026000420-price-1119",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   293
+  ],
+  "bytes": 10080,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000420&pblancNo=2026000420",
+  "at": "2026-11-19 09:52"
  }
 ]
