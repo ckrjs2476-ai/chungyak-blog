@@ -1,46 +1,5 @@
 [
  {
-  "name": "dr-law-insurance-rule-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "항공사업법시행규칙",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 42064,
-  "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제70조",
-  "at": "2026-11-13 20:02"
- },
- {
-  "name": "gw-41117-gwanggyo-hoban-verdium-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41117",
-   "code": "A44377204"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16654,
-  "at": "2026-11-13 21:16"
- },
- {
-  "name": "gw-calc-gwanggyo-hoban-verdium-84",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 17008,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-13 21:16"
- },
- {
   "name": "gw-41281-soman-sungwon6-chart",
   "ok": true,
   "chart": {
@@ -4118,5 +4077,69 @@
   "bytes": 14480,
   "url": "blogs/drone/pages/calculator.md",
   "at": "2026-11-19 20:21"
+ },
+ {
+  "name": "gw-11620-hillstate-newforet-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11620",
+   "code": "A10023661"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16192,
+  "at": "2026-11-19 21:16"
+ },
+ {
+  "name": "gw-hillstate-newforet-management-fee-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "힐스테이트뉴포레 관리비, 어느 칸이 높았을까?",
+   "answer": "개별사용료 ㎡당 1,603원으로 관악구 33곳 중 1위였어요",
+   "points": [
+    {
+     "label": "전기료 ㎡당",
+     "value": "1,340원 (구 중앙값 740원)"
+    },
+    {
+     "label": "㎡당 합계",
+     "value": "2,856원 (25곳 중 7위)"
+    },
+    {
+     "label": "공용관리비 ㎡당",
+     "value": "1,124원 (1,000세대 이상 대비 +29.8%)"
+    },
+    {
+     "label": "장기수선충당금 ㎡당",
+     "value": "129원 (25곳 중 24위)"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-14"
+  },
+  "size": [
+   760,
+   521
+  ],
+  "bytes": 38428,
+  "at": "2026-11-19 21:16"
+ },
+ {
+  "name": "gw-calc-gwanak-84-1119",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14210,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-19 21:16"
  }
 ]
