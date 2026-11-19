@@ -118,3 +118,6 @@
   - 드론 3: drone-used-drone-transfer-2026, drone-kids-toy-drone-rules-2026, drone-tech-advanced-list-2026
   - 방법 메모: 검사 결과 확인은 [role=dialog] 글자로 본다(본문 innerText에는 안 잡힘). 다른 속성으로 옮길 때 navigate가 거부되면 location.href로 이동.
   - 다음 실행 11-20 11:00: 공모주 → 전세 → 청약 → 드론 → 관리비
+
+- 11-19 19시 리디렉션 재검사: 공모주 cnm-ipo-2026-11 여전히 "리디렉션 오류"(마지막 크롤링 10-28), 실제 URL 테스트는 "등록할 수 있음" → 지금은 정상, 색인 재요청함.
+- 참고: 라벨 8편 미만 경고(전세 읽는 법 5, 관리비 읽는 법 7)는 sitecheck가 최근 글 피드만 세서 생긴 것. 실제 라벨 피드는 12편·13편으로 충족.
