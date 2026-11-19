@@ -1,59 +1,5 @@
 [
  {
-  "name": "cy-2026000241-price-1113",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   321
-  ],
-  "bytes": 11094,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000241&pblancNo=2026000241",
-  "at": "2026-11-13 18:44"
- },
- {
-  "name": "js-44200-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "44200",
-   "highlight": "온천동"
-  },
-  "size": [
-   760,
-   780
-  ],
-  "bytes": 28614,
-  "at": "2026-11-13 19:46"
- },
- {
-  "name": "js-44200-rt-form",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7280,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-13 19:46"
- },
- {
-  "name": "js-44200-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14838,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-13 19:46"
- },
- {
   "name": "js-44200-rank-history",
   "ok": true,
   "chart": {
@@ -4010,5 +3956,88 @@
   "bytes": 16914,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-19 11:27"
+ },
+ {
+  "name": "js-41450-dong-chart",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "41450",
+   "highlight": "덕풍동"
+  },
+  "size": [
+   760,
+   396
+  ],
+  "bytes": 13598,
+  "at": "2026-11-19 12:43"
+ },
+ {
+  "name": "js-hanam-si-jeonse-deokpung-dong-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "하남시 아파트 전세, 동마다 전세가율이 얼마나 다를까?",
+   "answer": "덕풍동 66.0%, 학암동 42.4%로 23.6%p 갈립니다",
+   "compare": {
+    "head": [
+     "구분",
+     "덕풍동",
+     "학암동"
+    ],
+    "rows": [
+     [
+      "84㎡ 전세가율",
+      "66.0%",
+      "42.4%"
+     ],
+     [
+      "84㎡ 전세 중앙값",
+      "5억 1,450만 원",
+      "7억 원"
+     ],
+     [
+      "84㎡ 매매 중앙값",
+      "7억 7,900만 원",
+      "16억 5,000만 원"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-12"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 27646,
+  "at": "2026-11-19 12:43"
+ },
+ {
+  "name": "js-41450-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14458,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-19 12:43"
+ },
+ {
+  "name": "js-41450-rt",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7218,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-19 12:43"
  }
 ]
