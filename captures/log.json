@@ -1,109 +1,5 @@
 [
  {
-  "name": "dr-law-biz-scope-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "항공사업법시행규칙",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 7032,
-  "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제6조의3",
-  "at": "2026-11-13 19:59"
- },
- {
-  "name": "dr-law-biz-reg-req-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "항공사업법시행령",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 9824,
-  "url": "https://www.law.go.kr/법령/항공사업법시행령/제23조",
-  "at": "2026-11-13 20:00"
- },
- {
-  "name": "dr-onestop-type-guide-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "드론원스톱 민원서비스",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 19602,
-  "url": "https://drone.onestop.go.kr/introduce/systemintro2",
-  "at": "2026-11-13 20:00"
- },
- {
-  "name": "dr-show-calc-1-2026-11-13",
-  "ok": true,
-  "status": null,
-  "title": "blogs/drone/pages/calculator.md",
-  "size": [
-   760,
-   245
-  ],
-  "bytes": 9598,
-  "url": "blogs/drone/pages/calculator.md",
-  "at": "2026-11-13 20:00"
- },
- {
-  "name": "dr-show-calc-2-2026-11-13",
-  "ok": true,
-  "status": null,
-  "title": "blogs/drone/pages/calculator.md",
-  "size": [
-   760,
-   245
-  ],
-  "bytes": 9508,
-  "url": "blogs/drone/pages/calculator.md",
-  "at": "2026-11-13 20:00"
- },
- {
-  "name": "dr-work24-droneshow-result-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "채용정보 상세검색 | 일자리 찾기 | 채용정보",
-  "size": [
-   760,
-   290
-  ],
-  "bytes": 3242,
-  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%EC%87%BC",
-  "at": "2026-11-13 20:01"
- },
- {
-  "name": "dr-law-biz-scope6-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "항공사업법시행규칙",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 18028,
-  "url": "https://www.law.go.kr/법령/항공사업법시행규칙/제6조",
-  "at": "2026-11-13 20:02"
- },
- {
-  "name": "dr-law-aviation-biz-def-2026-11-13",
-  "ok": true,
-  "status": 200,
-  "title": "항공사업법",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 48370,
-  "url": "https://www.law.go.kr/법령/항공사업법/제2조",
-  "at": "2026-11-13 20:02"
- },
- {
   "name": "dr-law-insurance-rule-2026-11-13",
   "ok": true,
   "status": 200,
@@ -4081,5 +3977,146 @@
   ],
   "bytes": 27518,
   "at": "2026-11-19 18:44"
+ },
+ {
+  "name": "js-51130-rank-history",
+  "ok": true,
+  "chart": {
+   "type": "history",
+   "blog": "jeonse",
+   "entity": "51130",
+   "metric": "rank",
+   "title": "원주시 84㎡ 전세가율 순위 기록",
+   "unit": "위"
+  },
+  "size": [
+   760,
+   380
+  ],
+  "bytes": 13200,
+  "at": "2026-11-19 20:21"
+ },
+ {
+  "name": "js-wonju-si-jeonse-ratio-4weeks-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "원주시 전세가율은 4주 새 얼마나 움직였을까?",
+   "answer": "76.4%에서 80.0%로, 매매 중앙값은 그대로였습니다",
+   "points": [
+    {
+     "label": "84㎡ 전세가율",
+     "value": "76.4% → 80.0%"
+    },
+    {
+     "label": "84㎡ 전세 중앙값",
+     "value": "2억 1,000만 → 2억 2,000만 원"
+    },
+    {
+     "label": "84㎡ 매매 중앙값",
+     "value": "2억 7,500만 원 그대로"
+    },
+    {
+     "label": "전세가율 순위",
+     "value": "65위 → 53위"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-19"
+  },
+  "size": [
+   760,
+   485
+  ],
+  "bytes": 32956,
+  "at": "2026-11-19 20:21"
+ },
+ {
+  "name": "dr-drone-facility-inspection-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "points",
+   "title": "드론 안전점검, 법정 주기는 그대로일까?",
+   "answer": "드론은 사각지대를 찍는 도구, 점검 횟수는 시설물안전법 주기를 따라요",
+   "points": [
+    {
+     "label": "A등급 정기안전점검",
+     "value": "반기 1회 이상"
+    },
+    {
+     "label": "D·E등급 정기안전점검",
+     "value": "1년 3회 이상"
+    },
+    {
+     "label": "A등급 정밀안전진단",
+     "value": "6년 1회 이상"
+    },
+    {
+     "label": "국유재산 점검 완료(9월)",
+     "value": "6,558건 중 84.1%"
+    }
+   ],
+   "source": "K-water 시설물 안전관리·재정경제부",
+   "date": "2026-11-19"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 32670,
+  "at": "2026-11-19 20:21"
+ },
+ {
+  "name": "js-51130-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 12922,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-19 20:21"
+ },
+ {
+  "name": "js-51130-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 12960,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-19 20:21"
+ },
+ {
+  "name": "dr-drone-facility-inspection-2026-kwater",
+  "ok": false,
+  "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935\nCall log:\n  - navigating to \"https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935\", waiting until \"networkidle\"\n",
+  "url": "https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935"
+ },
+ {
+  "name": "dr-drone-facility-inspection-2026-work24",
+  "ok": false,
+  "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%A0%90%EA%B2%80\nCall log:\n  - navigating to \"https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%A0%90%EA%B2%",
+  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%A0%90%EA%B2%80"
+ },
+ {
+  "name": "dr-drone-facility-inspection-2026-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/drone/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14480,
+  "url": "blogs/drone/pages/calculator.md",
+  "at": "2026-11-19 20:21"
  }
 ]
