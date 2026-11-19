@@ -1,29 +1,39 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "blogs": {
   "cheongyak": {
-   "posts": 74,
-   "skeleton_pairs": [],
+   "posts": 75,
+   "skeleton_pairs": [
+    [
+     "2026-11-18-jeonju-2025-11-2026-09-region.md",
+     "2026-11-19-ulju-2025-09-2026-09-region.md",
+     0.8,
+     0.0
+    ]
+   ],
    "overlap_pairs": [],
    "type_share": {
-    "score": 1,
     "notice": 1,
     "market": 1,
-    "region": 5
+    "region": 6
    },
-   "format_concentrated": false,
-   "stale": {},
+   "format_concentrated": true,
+   "stale": {
+    "2026-10-18-2026000514-notice.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 17일부터 사흘 동안 계약해요'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 2
   },
   "jeonse": {
-   "posts": 57,
+   "posts": 58,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "region": 5,
     "ranking": 1,
+    "region": 5,
     "topic": 2
    },
    "format_concentrated": false,
@@ -42,19 +52,23 @@
     "ipo": 3
    },
    "format_concentrated": false,
-   "stale": {},
+   "stale": {
+    "2026-10-29-01705740-ipo.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 17일 납입·배정이에요'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 1
   },
   "gwanribi": {
-   "posts": 60,
+   "posts": 61,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "complex": 5,
+    "complex": 4,
     "topic": 2,
-    "region": 1
+    "region": 2
    },
    "format_concentrated": false,
    "stale": {},
@@ -63,13 +77,13 @@
    "to_fix": 0
   },
   "drone": {
-   "posts": 36,
+   "posts": 37,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "basic": 3,
     "news": 3,
-    "rule": 2
+    "rule": 3,
+    "basic": 2
    },
    "format_concentrated": false,
    "stale": {},

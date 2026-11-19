@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 10:51",
+ "updated": "2026-11-19 17:31",
  "stage": 1,
  "band": [
   30,
@@ -2880,30 +2880,6 @@
    "comp": "낮음",
    "entity": "상봉프레미어스엠코",
    "entity_id": "A13122002",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "중랑구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "중랑구",
-   "entity_id": "region:11260",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "중랑구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "중랑구",
-   "entity_id": "region:11260",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -7265,6 +7241,30 @@
    "why": "",
    "score": 7.0,
    "used": false
+  },
+  {
+   "keyword": "중랑구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중랑구",
+   "entity_id": "region:11260",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "중랑구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중랑구",
+   "entity_id": "region:11260",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
   },
   {
    "keyword": "강북구관리비",
