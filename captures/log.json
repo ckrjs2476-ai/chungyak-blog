@@ -1,18 +1,5 @@
 [
  {
-  "name": "js-ranking-1019-rt-sunchang",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7462,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-15 22:45"
- },
- {
   "name": "js-43114-rt-form-cheongwon",
   "ok": true,
   "status": 200,
@@ -5062,5 +5049,47 @@
   "bytes": 15910,
   "url": "https://www.korea.kr/common/docViewer.do?tblKey=EDN&fileId=197757352",
   "at": "2026-11-21 08:46"
+ },
+ {
+  "name": "dr-drone-pesticide-spray-volume-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "드론 농약 살포량을 늘리면 방제가가 오를까요?",
+   "answer": "소형 10L 기체는 10a당 0.8L→5L로 50.9%→76.1%",
+   "compare": {
+    "head": [
+     "기체",
+     "10a당 0.8L",
+     "10a당 5L"
+    ],
+    "rows": [
+     [
+      "소형 10L",
+      "50.9%",
+      "76.1%"
+     ],
+     [
+      "중형 20L",
+      "76.7%",
+      "80.5%"
+     ],
+     [
+      "대형 40L(일반노즐)",
+      "82.2%",
+      "90.9%"
+     ]
+    ]
+   },
+   "source": "농촌진흥청 보도자료(벼멸구 방제가, 7일차)",
+   "date": "2026-06-29"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 25934,
+  "at": "2026-11-21 08:56"
  }
 ]
