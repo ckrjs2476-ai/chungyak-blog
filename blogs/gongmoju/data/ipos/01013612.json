@@ -1,0 +1,96 @@
+{
+ "corp_code": "01013612",
+ "corp_name": "피지티",
+ "rcept_no": "20261120000538",
+ "rcept_dt": "20261120",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000538",
+ "subscription": "2026년 12월 17일 ~ 2026년 12월 18일",
+ "payment_date": "2026년 12월 22일",
+ "notice_date": "2026년 12월 17일",
+ "allot_date": "2026년 12월 22일",
+ "stock_kind": "보통주",
+ "shares": 1400000,
+ "face_value": 500,
+ "price": 18000,
+ "total": 25200000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "한국투자증권",
+   "shares": 1330000,
+   "amount": 23940000000,
+   "fee": 1111320000,
+   "how": "총액인수"
+  },
+  {
+   "name": "유안타증권",
+   "shares": 70000,
+   "amount": 1260000000,
+   "fee": 56700000,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 20000000000,
+   "share_pct": 77.1,
+   "amount_eok": 200.0
+  },
+  {
+   "use": "운영자금",
+   "amount": 4736000000,
+   "share_pct": 18.2,
+   "amount_eok": 47.4
+  },
+  {
+   "use": "발행제비용",
+   "amount": 1220000000,
+   "share_pct": 4.7,
+   "amount_eok": 12.2
+  }
+ ],
+ "fund_total": 25956000000,
+ "sellers": [],
+ "sell_shares": null,
+ "company": {
+  "corp_name": "(주)피지티",
+  "ceo_nm": "한성호",
+  "induty_code": "2049",
+  "est_dt": "20110601",
+  "hm_url": "www.pgtchem.com",
+  "adres": "경상북도 포항시 남구 철강산단로 284 (호동629)"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "한국투자증권",
+ "underwriting_fee_pct": 4.63,
+ "total_eok": 252.0,
+ "fund_matches_total": true,
+ "fund_uses_unreliable": false,
+ "company_age_years": 15,
+ "total_rank": 11,
+ "total_rank_of": 20,
+ "total_vs_median_pct": -2.3,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 20000000000,
+  "share_pct": 77.1,
+  "amount_eok": 200.0
+ },
+ "compare_median_total": 25800000000,
+ "compare_count": 20,
+ "median_fee_pct": 4.11,
+ "compare_median_total_eok": 258.0
+}
