@@ -1,44 +1,5 @@
 [
  {
-  "name": "homaesil-bellseom-city-14-management-fee-2026-08-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16538,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-14 22:40"
- },
- {
-  "name": "busan-jeonse-ratio-ranking-2026-11-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14970,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-14 22:40"
- },
- {
-  "name": "ipo-00299109-dart-1114",
-  "ok": true,
-  "status": 200,
-  "title": "에스에프씨/증권신고서(지분증권)/2026.11.04",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33218,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000099",
-  "at": "2026-11-14 22:40"
- },
- {
   "name": "ipo-lead-underwriter-2026-11-dart",
   "ok": true,
   "status": 200,
@@ -4621,5 +4582,73 @@
   "bytes": 12444,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000051&pblancNo=2026000051",
   "at": "2026-11-20 18:38"
+ },
+ {
+  "name": "js-11680-dong",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11680",
+   "highlight": "개포동"
+  },
+  "size": [
+   760,
+   556
+  ],
+  "bytes": 18126,
+  "at": "2026-11-20 19:49"
+ },
+ {
+  "name": "js-gangnam-gu-gaepo-dong-jeonse-4weeks-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "강남구 전세가율이 내린 4주, 동별 숫자는?",
+   "answer": "구는 31.7%로 내려갔지만 개포동·도곡동은 올랐습니다",
+   "compare": {
+    "head": [
+     "84㎡ 전세가율",
+     "10월 18일",
+     "11월 13일"
+    ],
+    "rows": [
+     [
+      "강남구",
+      "32.4%",
+      "31.7%"
+     ],
+     [
+      "개포동",
+      "38.6%",
+      "39.0%"
+     ],
+     [
+      "도곡동",
+      "37.2%",
+      "38.5%"
+     ],
+     [
+      "청담동",
+      "38.8%",
+      "37.3%"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가, 이 블로그 매일 기록",
+   "date": "2026-11-13"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 27042,
+  "at": "2026-11-20 19:49"
+ },
+ {
+  "name": "js-11680-rt",
+  "ok": false,
+  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
  }
 ]
