@@ -1,46 +1,5 @@
 [
  {
-  "name": "js-11590-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "11590",
-   "highlight": "흑석동"
-  },
-  "size": [
-   760,
-   396
-  ],
-  "bytes": 14164,
-  "at": "2026-11-14 19:46"
- },
- {
-  "name": "js-11590-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14964,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-14 19:46"
- },
- {
-  "name": "drone-japan-regulation-2026-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/drone/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14746,
-  "url": "blogs/drone/pages/calculator.md",
-  "at": "2026-11-14 20:10"
- },
- {
   "name": "drone-japan-regulation-2026-calc-2",
   "ok": true,
   "status": null,
@@ -4545,5 +4504,80 @@
   "bytes": 8998,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000521&pblancNo=2026000521",
   "at": "2026-11-20 09:53"
+ },
+ {
+  "name": "gw-11710-olympic-athletes-village-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11710",
+   "code": "A13805002"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16622,
+  "at": "2026-11-20 11:27"
+ },
+ {
+  "name": "gw-olympic-athletes-village-management-fee-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "compare",
+   "title": "올림픽선수기자촌 관리비, 어느 칸이 송파구와 달랐나요?",
+   "answer": "경비비 ㎡당 989원이 공용관리비의 58.3%를 차지했어요",
+   "compare": {
+    "head": [
+     "구분",
+     "올림픽선수기자촌",
+     "송파구 중앙값"
+    ],
+    "rows": [
+     [
+      "경비비 ㎡당",
+      "989원",
+      "358원"
+     ],
+     [
+      "인건비 ㎡당",
+      "306원",
+      "446원"
+     ],
+     [
+      "공용관리비 ㎡당",
+      "1,698원",
+      "1,195원"
+     ],
+     [
+      "㎡당 합계",
+      "3,382원",
+      "2,711원"
+     ]
+    ]
+   },
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-13"
+  },
+  "size": [
+   760,
+   517
+  ],
+  "bytes": 29940,
+  "at": "2026-11-20 11:27"
+ },
+ {
+  "name": "gw-calc-songpa-84-1120",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14230,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-20 11:27"
  }
 ]
