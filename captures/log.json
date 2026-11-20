@@ -1,48 +1,5 @@
 [
  {
-  "name": "gw-11305-hanil-uandi-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11305",
-   "code": "A14272303"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 14720,
-  "at": "2026-11-15 11:26"
- },
- {
-  "name": "gw-calc-hanil-uandi-84-1115",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16922,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-15 11:26"
- },
- {
-  "name": "js-27290-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "27290",
-   "highlight": "상인동"
-  },
-  "size": [
-   760,
-   684
-  ],
-  "bytes": 20492,
-  "at": "2026-11-15 12:43"
- },
- {
   "name": "js-27290-calc-1",
   "ok": true,
   "status": null,
@@ -4673,5 +4630,92 @@
   "bytes": 30182,
   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148902824",
   "at": "2026-11-20 19:58"
+ },
+ {
+  "name": "gw-41595-sindongtan-forest-xi-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "41595",
+   "code": "A10023329"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16030,
+  "at": "2026-11-20 21:16"
+ },
+ {
+  "name": "gw-sindongtan-forest-xi-management-fee-2026-09-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "신동탄포레자이 관리비, 병점구에서 몇 위였나요?",
+   "answer": "㎡당 합계 3,391원, 53곳 중 3위였고 전기료 칸이 가장 크게 갈렸어요",
+   "points": [
+    {
+     "label": "㎡당 합계 (병점구 중앙값 2,525원)",
+     "value": "3,391원"
+    },
+    {
+     "label": "전기료 ㎡당 (중앙값 658원)",
+     "value": "1,538원"
+    },
+    {
+     "label": "공용관리비 ㎡당 (중앙값 1,049원)",
+     "value": "1,213원"
+    },
+    {
+     "label": "장기수선충당금 ㎡당 (중앙값 367원)",
+     "value": "100원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 9월 부과분",
+   "date": "2026-11-20"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 31986,
+  "at": "2026-11-20 21:17"
+ },
+ {
+  "name": "gw-sindongtan-forest-xi-management-fee-2026-09-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "신동탄포레자이 관리비, 병점구에서 몇 위였나요?",
+   "answer": "합계 3,391원은 병점구 53곳 중 3위였어요",
+   "points": [
+    {
+     "label": "㎡당 합계 (병점구 중앙값 2,525원)",
+     "value": "3,391원"
+    },
+    {
+     "label": "전기료 ㎡당 (중앙값 658원)",
+     "value": "1,538원"
+    },
+    {
+     "label": "공용관리비 ㎡당 (중앙값 1,049원)",
+     "value": "1,213원"
+    },
+    {
+     "label": "장기수선충당금 ㎡당 (중앙값 367원)",
+     "value": "100원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 9월 부과분",
+   "date": "2026-11-20"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 29448,
+  "at": "2026-11-20 21:17"
  }
 ]
