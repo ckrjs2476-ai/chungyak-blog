@@ -1,46 +1,5 @@
 [
  {
-  "name": "gw-41287-kapt-sido-common",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   451
-  ],
-  "bytes": 20634,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-11-15 22:43"
- },
- {
-  "name": "js-ranking-1019-jeonbuk-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_sido",
-   "lawd": "52770"
-  },
-  "size": [
-   760,
-   428
-  ],
-  "bytes": 13700,
-  "at": "2026-11-15 22:44"
- },
- {
-  "name": "js-43114-dong-chart-cr",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "43114"
-  },
-  "size": [
-   760,
-   428
-  ],
-  "bytes": 16396,
-  "at": "2026-11-15 22:44"
- },
- {
   "name": "js-ranking-1019-rt-sunchang",
   "ok": true,
   "status": 200,
@@ -5064,5 +5023,44 @@
   "bytes": 32086,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000538",
   "at": "2026-11-21 07:54"
+ },
+ {
+  "name": "dr-korea-bph-drone-pr-2026-11-21",
+  "ok": true,
+  "status": 200,
+  "title": "'큰 기체', '하향풍', '충분한 농약량' 벼멸구 무인항공기 방제 효과 높다 - 보도자료 | 브리핑룸 | 대한민국 정책브리핑",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 35688,
+  "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156769181",
+  "at": "2026-11-21 08:45"
+ },
+ {
+  "name": "dr-korea-bph-drone-pr-view-2026-11-21",
+  "ok": true,
+  "status": 200,
+  "title": "문서뷰어",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 27126,
+  "url": "https://www.korea.kr/common/docViewer.do?fileId=198500985&tblKey=GMN",
+  "at": "2026-11-21 08:46"
+ },
+ {
+  "name": "dr-korea-spray-manual-view-2026-11-21",
+  "ok": true,
+  "status": 200,
+  "title": "문서뷰어",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 15910,
+  "url": "https://www.korea.kr/common/docViewer.do?tblKey=EDN&fileId=197757352",
+  "at": "2026-11-21 08:46"
  }
 ]
