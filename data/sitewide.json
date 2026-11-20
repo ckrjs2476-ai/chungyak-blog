@@ -2,7 +2,7 @@
  "date": "2026-11-20",
  "blogs": {
   "cheongyak": {
-   "posts": 77,
+   "posts": 78,
    "skeleton_pairs": [
     [
      "2026-10-10-2026000446-score.md",
@@ -11,9 +11,9 @@
      0.0
     ],
     [
-     "2026-11-06-2026000530-2026000532-competition.md",
-     "2026-11-20-2026000521-notice.md",
-     0.81,
+     "2026-10-19-weekly-competition-1012-stats.md",
+     "2026-11-20-asan-2025-09-2026-10-region.md",
+     0.8,
      0.0
     ]
    ],
@@ -24,17 +24,13 @@
     "notice": 1
    },
    "format_concentrated": true,
-   "stale": {
-    "2026-11-18-icheon-2025-11-2026-07-region.md": [
-     "지난 날짜를 앞으로의 일처럼 씀: '11월 18일 청약홈 경쟁률 자료 기준이에요'"
-    ]
-   },
+   "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 3
+   "to_fix": 2
   },
   "jeonse": {
-   "posts": 60,
+   "posts": 61,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
@@ -57,46 +53,35 @@
     "ipo": 3
    },
    "format_concentrated": false,
-   "stale": {
-    "2026-10-30-00299109-ipo.md": [
-     "지난 날짜를 앞으로의 일처럼 씀: '11월 18일 하루에 수수료율이 가장 낮은 공모와 가장 높은 공모가 함께'"
-    ]
-   },
+   "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 1
+   "to_fix": 0
   },
   "gwanribi": {
-   "posts": 63,
-   "skeleton_pairs": [
-    [
-     "2026-11-05-A10026603-complex.md",
-     "2026-11-20-A13805002-complex.md",
-     0.81,
-     0.0
-    ]
-   ],
+   "posts": 64,
+   "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "complex": 5,
     "region": 2,
+    "complex": 5,
     "topic": 1
    },
    "format_concentrated": false,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 1
+   "to_fix": 0
   },
   "drone": {
-   "posts": 39,
+   "posts": 40,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "rule": 3,
     "news": 2,
-    "basic": 2,
-    "job": 1
+    "basic": 3,
+    "job": 1,
+    "rule": 2
    },
    "format_concentrated": false,
    "stale": {},

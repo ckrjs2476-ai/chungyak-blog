@@ -1,164 +1,5 @@
 [
  {
-  "name": "js-27290-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14822,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-15 12:43"
- },
- {
-  "name": "cy-2025000634-special-1115",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   289
-  ],
-  "bytes": 14444,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000634&pblancNo=2025000634",
-  "at": "2026-11-15 18:38"
- },
- {
-  "name": "js-11740-ratio-history",
-  "ok": true,
-  "chart": {
-   "type": "history",
-   "blog": "jeonse",
-   "entity": "11740",
-   "metric": "ratio84",
-   "title": "강동구 84㎡ 전세가율 기록",
-   "unit": "%"
-  },
-  "size": [
-   760,
-   380
-  ],
-  "bytes": 11262,
-  "at": "2026-11-15 19:47"
- },
- {
-  "name": "js-11740-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14836,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-15 19:47"
- },
- {
-  "name": "js-11740-calc-2",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14980,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-15 19:47"
- },
- {
-  "name": "dr-privacy-filming-list-2026-11-15",
-  "ok": true,
-  "status": 200,
-  "title": "촬영지역 조회 | 개인정보 포털",
-  "size": [
-   760,
-   1054
-  ],
-  "bytes": 40776,
-  "url": "https://www.privacy.go.kr/front/filming/selectFilmingList.do",
-  "at": "2026-11-15 20:00"
- },
- {
-  "name": "dr-privacy-filming-last-2026-11-15",
-  "ok": true,
-  "status": 200,
-  "title": "촬영지역 조회 | 개인정보 포털",
-  "size": [
-   760,
-   860
-  ],
-  "bytes": 28616,
-  "url": "https://www.privacy.go.kr/front/filming/selectFilmingList.do?pageIndex=1676",
-  "at": "2026-11-15 20:07"
- },
- {
-  "name": "gw-41480-sannae2-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41480",
-   "code": "A10026541"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 17020,
-  "at": "2026-11-15 21:16"
- },
- {
-  "name": "gw-11560-yeongdeungpo-sido-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_sido",
-   "lawd": "11560"
-  },
-  "size": [
-   760,
-   844
-  ],
-  "bytes": 22916,
-  "at": "2026-11-15 22:41"
- },
- {
-  "name": "gw-11710-ricenz-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11710",
-   "code": "A13822003"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 15366,
-  "at": "2026-11-15 22:41"
- },
- {
-  "name": "cy-2026000498-price-seobuk",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   182
-  ],
-  "bytes": 7714,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000498&pblancNo=2026000498",
-  "at": "2026-11-15 22:41"
- },
- {
-  "name": "js-ranking-1019-rt-sunchang",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
   "name": "js-43114-rt-form-cheongwon",
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
@@ -4717,5 +4558,474 @@
   ],
   "bytes": 29448,
   "at": "2026-11-20 21:17"
+ },
+ {
+  "name": "cy-sungui-station-norway-forest-the-sky-score-2026-10-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "숭의역 노르웨이숲 더 스카이, 싼 단지인가요?",
+   "answer": "인천 분양가로는 14곳 중 12위, 숭의동 시세보다는 115% 높았어요",
+   "compare": {
+    "head": [
+     "비교 기준",
+     "금액",
+     "84㎡ 최고가와 차이"
+    ],
+    "rows": [
+     [
+      "숭의동 84㎡ 중앙값",
+      "3억 4,000만 원",
+      "115% 높음"
+     ],
+     [
+      "미추홀구 84㎡ 중앙값",
+      "3억 8,500만 원",
+      "90% 높음"
+     ],
+     [
+      "미추홀구 신축 중앙값",
+      "5억 9,300만 원",
+      "24% 높음"
+     ]
+    ]
+   },
+   "source": "청약홈 입주자모집공고·당첨 발표, 국토교통부 실거래가",
+   "date": "2026-10-10"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 29548,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "cy-hyangnam-station-grove-switzen-competition-2026-10-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "향남역 그로브 스위첸 청약 경쟁률은?",
+   "answer": "1순위 평균 0.64대 1, 마감은 71㎡와 147P 두 타입뿐이었어요",
+   "points": [
+    {
+     "label": "84A 해당지역 신청",
+     "value": "210건"
+    },
+    {
+     "label": "84D 해당지역 신청",
+     "value": "5건"
+    },
+    {
+     "label": "71㎡ 해당지역 경쟁률",
+     "value": "4.05대 1"
+    },
+    {
+     "label": "3.3㎡당 평균 분양가",
+     "value": "1,668만 원"
+    }
+   ],
+   "source": "청약홈 경쟁률",
+   "date": "2026-10-14"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 23466,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "cy-hillstate-geoje-signature-bunyangga-2026-10-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "힐스테이트 거제시그니처 평당가, 경남에서 몇 위인가요?",
+   "answer": "3.3㎡당 1,730만 원으로 경남 13곳 가운데 2위예요",
+   "compare": {
+    "head": [
+     "비교 범위",
+     "평균 3.3㎡당",
+     "이 단지 순위"
+    ],
+    "rows": [
+     [
+      "경남 민영 12곳",
+      "1,587만 원",
+      "13곳 중 2위"
+     ],
+     [
+      "거제시 민영 2곳",
+      "1,567만 원",
+      "3곳 중 1위"
+     ]
+    ]
+   },
+   "source": "청약홈 입주자모집공고",
+   "date": "2026-10-14"
+  },
+  "size": [
+   760,
+   423
+  ],
+  "bytes": 23826,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "js-cheongju-heungdeok-gu-jeonse-flow-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "흥덕구 전세 석 달 30.4%, 정말 오른 값입니까?",
+   "answer": "2억 5,500만 원 계약이 몰린 달이 비교에서 빠진 결과에 가깝습니다",
+   "points": [
+    {
+     "label": "3개월 변화율 (10월 31일 계산)",
+     "value": "30.4%"
+    },
+    {
+     "label": "3월 84㎡ 전세 신고",
+     "value": "474건"
+    },
+    {
+     "label": "10월 84㎡ 전세 신고",
+     "value": "69건"
+    },
+    {
+     "label": "봉산리 84㎡ 전세 가운데값",
+     "value": "2억 5,500만 원"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-10-31"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 28562,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "js-seoul-dongjak-gu-jeonse-heukseok-dong-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "동작구 전세, 보증금 높은 동이 비율도 높습니까?",
+   "answer": "흑석동 보증금은 9억 300만 원으로 가장 높고 전세가율은 39.6%로 가장 낮습니다",
+   "compare": {
+    "head": [
+     "동작구 동",
+     "84㎡ 전세 중앙값",
+     "전세가율"
+    ],
+    "rows": [
+     [
+      "흑석동",
+      "9억 300만 원",
+      "39.6%"
+     ],
+     [
+      "동작동",
+      "8억 7,375만 원",
+      "56.8%"
+     ],
+     [
+      "상도동",
+      "7억 5,000만 원",
+      "45.0%"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-14"
+  },
+  "size": [
+   760,
+   460
+  ],
+  "bytes": 28154,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "js-namyangju-si-jeonse-ratio-4weeks-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "남양주 전세가율은 보증금이 내렸는데 왜 올랐습니까?",
+   "answer": "매매 중앙값이 3.7% 내리는 동안 보증금은 1.0%만 내려 66.0%가 됐습니다",
+   "points": [
+    {
+     "label": "전세가율 10월 18일",
+     "value": "64.2%"
+    },
+    {
+     "label": "전세가율 11월 13일",
+     "value": "66.0%"
+    },
+    {
+     "label": "매매 중앙값 변화",
+     "value": "-2,000만 원"
+    },
+    {
+     "label": "전세 중앙값 변화",
+     "value": "-350만 원"
+    }
+   ],
+   "source": "국토교통부 실거래가, 이 블로그 매일 기록",
+   "date": "2026-11-13"
+  },
+  "size": [
+   760,
+   480
+  ],
+  "bytes": 30956,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "gm-sfc-ipo-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "gongmoju",
+   "layout": "compare",
+   "title": "에스에프씨 공모 규모, 최근 공모 중 몇 위인가요?",
+   "answer": "신고서 기준 1,580억 원으로 27곳 중 규모 1위예요",
+   "compare": {
+    "head": [
+     "순위",
+     "회사",
+     "공모 총액"
+    ],
+    "rows": [
+     [
+      "1위",
+      "에스에프씨",
+      "1,580억 원"
+     ],
+     [
+      "2위",
+      "제이앤티지",
+      "1,135.2억 원"
+     ],
+     [
+      "3위",
+      "SimwonAmericaCorp.",
+      "669.6억 원"
+     ]
+    ]
+   },
+   "source": "DART 증권신고서",
+   "date": "2026-10-31"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 22434,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "gm-optonics-ipo-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "gongmoju",
+   "layout": "points",
+   "title": "옵토닉스 공모주 수수료율은 높은 편인가요?",
+   "answer": "수수료율 5.15%, 28곳 중앙값 4.12%를 넘어요",
+   "points": [
+    {
+     "label": "신고서 기준 공모 총액",
+     "value": "220억 원"
+    },
+    {
+     "label": "공모 총액 순위",
+     "value": "28곳 중 19위"
+    },
+    {
+     "label": "한국투자증권이 받는 돈",
+     "value": "11.3억 원"
+    },
+    {
+     "label": "인수수수료율",
+     "value": "5.15%"
+    }
+   ],
+   "source": "DART 증권신고서",
+   "date": "2026-10-24"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 25368,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "gm-genon-ipo-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "gongmoju",
+   "layout": "compare",
+   "title": "제논 공모 자금은 어디에 쓰나요?",
+   "answer": "시설자금이 155.9억 원으로 70.9%를 차지해요",
+   "compare": {
+    "head": [
+     "사용처",
+     "금액",
+     "비중"
+    ],
+    "rows": [
+     [
+      "시설자금",
+      "155.9억 원",
+      "70.9%"
+     ],
+     [
+      "운영자금",
+      "54.3억 원",
+      "24.7%"
+     ],
+     [
+      "발행제비용",
+      "9.6억 원",
+      "4.3%"
+     ]
+    ]
+   },
+   "source": "DART 증권신고서",
+   "date": "2026-10-27"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 19650,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "gw-helio-city-management-fee-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "compare",
+   "title": "헬리오시티 관리비, 어느 칸이 무거웠나요?",
+   "answer": "개별사용료가 ㎡당 1,870원으로 송파구 중앙값보다 43.5% 높았어요",
+   "compare": {
+    "head": [
+     "덩어리",
+     "헬리오시티 ㎡당",
+     "송파구 중앙값"
+    ],
+    "rows": [
+     [
+      "공용관리비",
+      "1,005원",
+      "1,195원"
+     ],
+     [
+      "개별사용료",
+      "1,870원",
+      "1,303원"
+     ],
+     [
+      "장기수선충당금",
+      "91원",
+      "200원"
+     ]
+    ]
+   },
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-21"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 26568,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "gw-yeongdeungpo-gu-apartment-management-fee-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "영등포구 아파트 관리비 평균은 얼마인가요?",
+   "answer": "68개 단지 ㎡당 중앙값은 2,628원, 세대 평균은 26만 2,710원 수준이에요",
+   "points": [
+    {
+     "label": "전기료 ㎡당 중앙값",
+     "value": "866원"
+    },
+    {
+     "label": "인건비 ㎡당 중앙값",
+     "value": "444원"
+    },
+    {
+     "label": "경비비 ㎡당 중앙값",
+     "value": "356원"
+    },
+    {
+     "label": "마포구 ㎡당 중앙값",
+     "value": "2,831원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-11-02"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 28002,
+  "at": "2026-11-20 22:41"
+ },
+ {
+  "name": "gw-soman-sungwon-6-management-fee-2026-09-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "compare",
+   "title": "소만성원6단지 공용관리비, 덕양구에서 어디쯤인가요?",
+   "answer": "㎡당 1,575원으로 덕양구 125곳 중 9위였어요",
+   "compare": {
+    "head": [
+     "공용관리비 줄",
+     "소만성원6단지 ㎡당",
+     "덕양구 중앙값"
+    ],
+    "rows": [
+     [
+      "경비비",
+      "688원",
+      "278원"
+     ],
+     [
+      "인건비",
+      "532원",
+      "433원"
+     ],
+     [
+      "청소비",
+      "174원",
+      "192원"
+     ]
+    ]
+   },
+   "source": "공동주택관리정보시스템(K-apt) 2026년 9월 부과분",
+   "date": "2026-11-03"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 26104,
+  "at": "2026-11-20 22:41"
  }
 ]
