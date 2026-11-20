@@ -1,1 +1,49 @@
-[]
+[
+ {
+  "name": "gm-pgt-ipo-2026-12-card",
+  "card": {
+   "blog": "gongmoju",
+   "layout": "compare",
+   "title": "피지티 공모주 수수료율은 어디쯤인가요?",
+   "answer": "4.63%로 20곳 중앙값 4.11%보다 높아요",
+   "compare": {
+    "head": [
+     "항목",
+     "피지티",
+     "20곳 기준"
+    ],
+    "rows": [
+     [
+      "인수수수료율",
+      "4.63%",
+      "중앙값 4.11%"
+     ],
+     [
+      "공모 규모",
+      "252억 원",
+      "중앙값 258억 원"
+     ],
+     [
+      "규모 순위",
+      "11위",
+      "20곳 중"
+     ]
+    ]
+   },
+   "source": "DART 증권신고서",
+   "date": "2026-11-20"
+  }
+ },
+ {
+  "name": "ipo-01013612-size",
+  "chart": {
+   "type": "gongmoju_size",
+   "corp_code": "01013612"
+  }
+ },
+ {
+  "name": "ipo-01013612-dart",
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000538",
+  "sleep": 4
+ }
+]
