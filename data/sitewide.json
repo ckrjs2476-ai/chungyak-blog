@@ -1,28 +1,45 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "blogs": {
   "cheongyak": {
-   "posts": 76,
-   "skeleton_pairs": [],
+   "posts": 77,
+   "skeleton_pairs": [
+    [
+     "2026-10-10-2026000446-score.md",
+     "2026-10-28-2026000513-2026000514-competition.md",
+     0.8,
+     0.0
+    ],
+    [
+     "2026-11-06-2026000530-2026000532-competition.md",
+     "2026-11-20-2026000521-notice.md",
+     0.81,
+     0.0
+    ]
+   ],
    "overlap_pairs": [],
    "type_share": {
-    "market": 1,
     "region": 6,
-    "remainder": 1
+    "remainder": 1,
+    "notice": 1
    },
    "format_concentrated": true,
-   "stale": {},
+   "stale": {
+    "2026-11-18-icheon-2025-11-2026-07-region.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 18일 청약홈 경쟁률 자료 기준이에요'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 3
   },
   "jeonse": {
-   "posts": 59,
+   "posts": 60,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "region": 5,
-    "topic": 3
+    "topic": 3,
+    "region": 5
    },
    "format_concentrated": false,
    "stale": {},
@@ -40,28 +57,39 @@
     "ipo": 3
    },
    "format_concentrated": false,
-   "stale": {},
+   "stale": {
+    "2026-10-30-00299109-ipo.md": [
+     "지난 날짜를 앞으로의 일처럼 씀: '11월 18일 하루에 수수료율이 가장 낮은 공모와 가장 높은 공모가 함께'"
+    ]
+   },
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 1
   },
   "gwanribi": {
-   "posts": 62,
-   "skeleton_pairs": [],
+   "posts": 63,
+   "skeleton_pairs": [
+    [
+     "2026-11-05-A10026603-complex.md",
+     "2026-11-20-A13805002-complex.md",
+     0.81,
+     0.0
+    ]
+   ],
    "overlap_pairs": [],
    "type_share": {
-    "topic": 2,
-    "complex": 4,
-    "region": 2
+    "complex": 5,
+    "region": 2,
+    "topic": 1
    },
    "format_concentrated": false,
    "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 0
+   "to_fix": 1
   },
   "drone": {
-   "posts": 38,
+   "posts": 39,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {

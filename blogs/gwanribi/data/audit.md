@@ -1,14 +1,14 @@
-# 애드센스 기준 점검: gwanribi (2026-11-19 19:11 KST)
+# 애드센스 기준 점검: gwanribi (2026-11-20 17:30 KST)
 
-- 공개 글: 61편
+- 공개 글: 63편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
 
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
-- 서울: 32편
-- 단지 관리비: 31편
+- 서울: 34편
+- 단지 관리비: 33편
 - 경기: 29편
 - 지역 관리비: 17편
 - 관리비 읽는 법: 13편
@@ -25,9 +25,9 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
+| 85 | [잠실파크리오 관리비, 공용은 낮고 장기수선충당금은 ](https://gwanribi-dotbogi.blogspot.com/2026/10/jamsil-park-rio-management-fee-2026-08.html) `2026-10-22-A13824006-complex.md` | 2478 | 0 | 2 | 다른 글 3편 이상에 이미 나온 표현을 7개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: N원으로 송파구 중앙값 N원보다 N / N곳의 공용관리비 중앙값은 ㎡당 N원이었어 |
 | 90 | [관악구 아파트 관리비, 공용관리비 300~499세대](https://gwanribi-dotbogi.blogspot.com/2026/10/gwanak-gu-apartment-management-fee-by.html) `2026-10-16-11620-region.md` | 3170 | 1 | 3 | - |
 | 90 | [나인원한남 관리비, 개별사용료 ㎡당 4,507원으로](https://gwanribi-dotbogi.blogspot.com/2026/10/nine-one-hannam-management-fee-2026-08.html) `2026-10-26-A10025192-complex.md` | 2602 | 0 | 0 | - |
-| 90 | [산내마을2단지 센트럴리움 관리비, 개별사용료 792](https://gwanribi-dotbogi.blogspot.com/2026/11/sannae-2-centralium-management-fee-2026.html) `2026-11-15-A10026541-complex.md` | 2663 | 1 | 3 | - |
 | 90 | [아파트 관리비 고지서, 성동구 56곳은 ㎡당 1,7](https://gwanribi-dotbogi.blogspot.com/2026/10/apartment-management-fee-bill-seongdong.html) `2026-10-25-11200-topic.md` | 2937 | 1 | 4 | - |
 | 90 | [장안구 아파트 관리비 1위 꽃뫼노을마을신안, 장기수](https://gwanribi-dotbogi.blogspot.com/2026/10/jangan-gu-apartment-management-fee-gap.html) `2026-10-28-41111-region.md` | 3006 | 1 | 2 | - |
 | 90 | [힐스테이트푸르지오수원 관리비, 공용관리비 ㎡당 1,](https://gwanribi-dotbogi.blogspot.com/2026/10/hillstate-prugio-suwon-management-fee.html) `2026-10-29-A10023630-complex.md` | 3373 | 0 | 0 | - |
@@ -44,15 +44,16 @@
 | 100 | [금화마을주공3단지 관리비, 장기수선충당금 ㎡당 66](https://gwanribi-dotbogi.blogspot.com/2026/11/geumhwa-jugong-3-management-fee-2026-09.html) `2026-11-11-A44695804-complex.md` | 2825 | 0 | 2 | - |
 | 100 | [김포 아파트 수선비, 관리비 128곳 중앙값 43원](https://gwanribi-dotbogi.blogspot.com/2026/11/apartment-repair-fee-gimpo-2026-09.html) `2026-11-18-41570-topic.md` | 2891 | 0 | 2 | - |
 | 100 | [노원구 아파트 관리비, 경비비 ㎡당 중앙값 431원](https://gwanribi-dotbogi.blogspot.com/2026/11/nowon-gu-apartment-management-fee.html) `2026-11-12-11350-region.md` | 3061 | 0 | 2 | - |
-| 100 | [동작구 아파트 관리비 순위, 공용관리비 1위는 ㎡당](https://gwanribi-dotbogi.blogspot.com/2026/10/dongjak-gu-apartment-management-fee.html) `2026-10-17-11590-region.md` | 3009 | 0 | 1 | - |
+| 100 | [동작구 아파트 관리비 순위, 공용관리비 1위는 ㎡당](https://gwanribi-dotbogi.blogspot.com/2026/10/dongjak-gu-apartment-management-fee.html) `2026-10-17-11590-region.md` | 3058 | 0 | 1 | - |
 | 100 | [마포구 아파트 관리비, 1,000세대 이상 9곳 ㎡](https://gwanribi-dotbogi.blogspot.com/2026/11/mapo-gu-apartment-management-fee-by.html) `2026-11-10-11440-region.md` | 3808 | 0 | 3 | - |
 | 100 | [메세나폴리스 관리비, ㎡당 5,875원 마포구 53](https://gwanribi-dotbogi.blogspot.com/2026/11/mecenatpolis-management-fee-2026-08.html) `2026-11-18-A12174601-complex.md` | 2735 | 0 | 2 | - |
 | 100 | [미사강변골든센트로 관리비, 개별사용료 ㎡당 2,17](https://gwanribi-dotbogi.blogspot.com/2026/11/misa-gangbyeon-golden-centro-management.html) `2026-11-01-A10028139-complex.md` | 3145 | 0 | 2 | - |
 | 100 | [미사강변리슈빌NHF 관리비, 공용 560원·합계 1](https://gwanribi-dotbogi.blogspot.com/2026/11/misa-gangbyeon-riche-nhf-management-fee.html) `2026-11-13-A10026523-complex.md` | 2729 | 0 | 2 | - |
 | 100 | [분당구 관리비 평균, ㎡당 중앙값 2,810원과 세](https://gwanribi-dotbogi.blogspot.com/2026/10/management-fee-average-bundang-gu-2026.html) `2026-10-30-41135-topic.md` | 3008 | 0 | 2 | - |
+| 100 | [산내마을2단지 센트럴리움 관리비, 개별사용료 792](https://gwanribi-dotbogi.blogspot.com/2026/11/sannae-2-centralium-management-fee-2026.html) `2026-11-15-A10026541-complex.md` | 2663 | 0 | 3 | - |
 | 100 | [산성역자이푸르지오1단지 관리비, 공용 ㎡당 584원](https://gwanribi-dotbogi.blogspot.com/2026/11/sanseong-xi-prugio-1-management-fee.html) `2026-11-14-A10022845-complex.md` | 3112 | 0 | 3 | - |
 | 100 | [상계은빛1단지 관리비, ㎡당 3,728원 노원구 1](https://gwanribi-dotbogi.blogspot.com/2026/11/sanggye-eunbit-1-management-fee-2026-08.html) `2026-11-04-A13983816-complex.md` | 2964 | 0 | 2 | - |
-| 100 | [샛별한양4-2,3차 관리비, 공용관리비 동안구 84](https://gwanribi-dotbogi.blogspot.com/2026/11/saetbyeol-hanyang-4-2-3-management-fee.html) `2026-11-02-A43181102-complex.md` | 2809 | 0 | 2 | - |
+| 100 | [샛별한양4-2,3차 관리비, 공용관리비 동안구 84](https://gwanribi-dotbogi.blogspot.com/2026/11/saetbyeol-hanyang-4-2-3-management-fee.html) `2026-11-02-A43181102-complex.md` | 2848 | 0 | 2 | - |
 | 100 | [서대문구 아파트 관리비, 1위 힐스테이트 홍은포레스](https://gwanribi-dotbogi.blogspot.com/2026/11/seodaemun-gu-apartment-management-fee.html) `2026-11-09-11410-region.md` | 3719 | 0 | 3 | - |
 | 100 | [서초구 아파트 관리비, 장기수선충당금 ㎡당 595원](https://gwanribi-dotbogi.blogspot.com/2026/10/seocho-gu-apartment-management-fee-gap.html) `2026-10-18-11650-region.md` | 3047 | 0 | 1 | - |
 | 100 | [소만성원6단지 관리비, 경비비가 공용관리비의 43.](https://gwanribi-dotbogi.blogspot.com/2026/11/soman-sungwon-6-management-fee-2026-09.html) `2026-11-03-A41222218-complex.md` | 2894 | 0 | 2 | - |
@@ -70,6 +71,7 @@
 | 100 | [영통구 공용관리비, 1위 광교휴먼시아20단지 ㎡당 ](https://gwanribi-dotbogi.blogspot.com/2026/10/common-management-fee-yeongtong-gu-2026.html) `2026-10-26-41117-topic.md` | 3004 | 0 | 1 | - |
 | 100 | [영통구 아파트 전기료, 관리비 ㎡당 중앙값 854원](https://gwanribi-dotbogi.blogspot.com/2026/11/apartment-electricity-fee-yeongtong-gu.html) `2026-11-05-41117-topic.md` | 2402 | 0 | 2 | - |
 | 100 | [영통포레파크원 관리비, 공용관리비 96곳 중 8위와](https://gwanribi-dotbogi.blogspot.com/2026/10/yeongtong-forest-park-one-management.html) `2026-10-28-A44347026-complex.md` | 2940 | 0 | 1 | - |
+| 100 | [올림픽선수기자촌 관리비, 경비비 ㎡당 989원과 공](https://gwanribi-dotbogi.blogspot.com/2026/11/olympic-athletes-village-management-fee.html) `2026-11-20-A13805002-complex.md` | 2884 | 0 | 2 | - |
 | 100 | [올림픽파크포레온 관리비, 인건비 ㎡당 297원, 공](https://gwanribi-dotbogi.blogspot.com/2026/10/olympic-park-foreon-management-fee-2026.html) `2026-10-23-A10021122-complex.md` | 2955 | 0 | 1 | - |
 | 100 | [의정부 아파트 경비비, 143곳 관리비로 본 ㎡당 ](https://gwanribi-dotbogi.blogspot.com/2026/11/apartment-security-fee-uijeongbu-2026-08.html) `2026-11-09-41150-topic.md` | 3102 | 0 | 3 | - |
 | 100 | [이문아이파크자이 관리비, 청소비 ㎡당 324원·중앙](https://gwanribi-dotbogi.blogspot.com/2026/10/imun-ipark-xi-management-fee-2026-08.html) `2026-10-27-A10020344-complex.md` | 2465 | 0 | 1 | - |
@@ -77,14 +79,14 @@
 | 100 | [일산서구 공용관리비, 인건비 중앙값 437원과 주엽](https://gwanribi-dotbogi.blogspot.com/2026/11/common-management-fee-ilsanseo-gu-2026.html) `2026-11-04-41287-topic.md` | 2801 | 0 | 2 | - |
 | 100 | [잠실리센츠 관리비, ㎡당 3,269원 송파구 74곳](https://gwanribi-dotbogi.blogspot.com/2026/11/jamsil-ricenz-management-fee-2026-08.html) `2026-11-07-A13822003-complex.md` | 2636 | 0 | 2 | - |
 | 100 | [잠실엘스 관리비, 장기수선충당금 ㎡당 360원으로 ](https://gwanribi-dotbogi.blogspot.com/2026/10/jamsil-els-management-fee-2026-08.html) `2026-10-24-A13822004-complex.md` | 2857 | 0 | 2 | - |
-| 100 | [잠실파크리오 관리비, 공용은 낮고 장기수선충당금은 ](https://gwanribi-dotbogi.blogspot.com/2026/10/jamsil-park-rio-management-fee-2026-08.html) `2026-10-22-A13824006-complex.md` | 2478 | 0 | 2 | - |
 | 100 | [장기수선충당금 계산, 영등포구 관리비 63곳은 ㎡당](https://gwanribi-dotbogi.blogspot.com/2026/10/long-term-repair-reserve-calculation.html) `2026-10-25-11560-topic.md` | 3162 | 0 | 1 | - |
 | 100 | [중랑구 아파트 관리비, 개별난방 ㎡당 2,714원과](https://gwanribi-dotbogi.blogspot.com/2026/11/jungnang-gu-apartment-management-fee-by.html) `2026-11-19-11260-region.md` | 3405 | 0 | 2 | - |
 | 100 | [트리마제 관리비, ㎡당 7,503원으로 성동구 56](https://gwanribi-dotbogi.blogspot.com/2026/10/trimage-management-fee-2026-08.html) `2026-10-29-A10026988-complex.md` | 3363 | 0 | 1 | - |
-| 100 | [한남더힐 관리비, 공용관리비 ㎡당 4,328원으로 ](https://gwanribi-dotbogi.blogspot.com/2026/10/hannam-hill-management-fee-2026-08.html) `2026-10-30-A14077902-complex.md` | 2952 | 0 | 2 | - |
+| 100 | [한남더힐 관리비, 공용관리비 ㎡당 4,328원으로 ](https://gwanribi-dotbogi.blogspot.com/2026/10/hannam-hill-management-fee-2026-08.html) `2026-10-30-A14077902-complex.md` | 2993 | 0 | 2 | - |
 | 100 | [해밀마을신안인스빌 관리비, ㎡당 3,405원 남양주](https://gwanribi-dotbogi.blogspot.com/2026/11/haemil-maeul-shinan-insville-management.html) `2026-11-07-A47294813-complex.md` | 2955 | 0 | 2 | - |
 | 100 | [헬리오시티 관리비, 개별사용료 ㎡당 1,870원으로](https://gwanribi-dotbogi.blogspot.com/2026/10/helio-city-management-fee-2026-08.html) `2026-10-21-A10025850-complex.md` | 2522 | 0 | 1 | - |
 | 100 | [호매실벨섬시티 14단지 관리비, 공용관리비 606원](https://gwanribi-dotbogi.blogspot.com/2026/11/homaesil-bellseom-city-14-management.html) `2026-11-05-A10026603-complex.md` | 2997 | 0 | 2 | - |
+| 100 | [힐스테이트뉴포레 관리비, 전기료 ㎡당 1,340원과](https://gwanribi-dotbogi.blogspot.com/2026/11/hillstate-newforet-management-fee-2026.html) `2026-11-19-A10023661-complex.md` | 2951 | 0 | 3 | - |
 | 100 | [힐스테이트송담 관리비, 평택시 130곳 중 4위와 ](https://gwanribi-dotbogi.blogspot.com/2026/11/hillstate-songdam-management-fee-2026-08.html) `2026-11-12-A10027298-complex.md` | 2922 | 0 | 2 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.

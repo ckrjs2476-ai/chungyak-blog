@@ -1,23 +1,11 @@
 {
- "updated": "2026-11-19 19:11",
+ "updated": "2026-11-20 17:31",
  "stage": 1,
  "band": [
   30,
   1500
  ],
  "keywords": [
-  {
-   "keyword": "씨앤엠공모가",
-   "volume": 160,
-   "comp": "중간",
-   "entity": "씨앤엠",
-   "entity_id": "00618173",
-   "base_score": 85.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
   {
    "keyword": "마더스제약공모가",
    "volume": 50,
@@ -31,35 +19,11 @@
    "used": false
   },
   {
-   "keyword": "제이앤티지공모가",
-   "volume": 190,
-   "comp": "중간",
-   "entity": "제이앤티지",
-   "entity_id": "01403198",
-   "base_score": 85.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
-  {
    "keyword": "유캐스트공모가",
    "volume": 170,
    "comp": "중간",
    "entity": "유캐스트",
    "entity_id": "01705573",
-   "base_score": 85.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 100.0,
-   "used": false
-  },
-  {
-   "keyword": "엠비디공모가",
-   "volume": 140,
-   "comp": "중간",
-   "entity": "엠비디",
-   "entity_id": "01705740",
    "base_score": 85.0,
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
@@ -112,6 +76,42 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 100.0,
+   "used": false
+  },
+  {
+   "keyword": "씨앤엠공모가",
+   "volume": 160,
+   "comp": "중간",
+   "entity": "씨앤엠",
+   "entity_id": "00618173",
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 93.5,
+   "used": false
+  },
+  {
+   "keyword": "제이앤티지공모가",
+   "volume": 190,
+   "comp": "중간",
+   "entity": "제이앤티지",
+   "entity_id": "01403198",
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 93.5,
+   "used": false
+  },
+  {
+   "keyword": "엠비디공모가",
+   "volume": 140,
+   "comp": "중간",
+   "entity": "엠비디",
+   "entity_id": "01705740",
+   "base_score": 85.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 93.5,
    "used": false
   },
   {
@@ -319,30 +319,6 @@
    "used": false
   },
   {
-   "keyword": "씨앤엠수요예측",
-   "volume": 1880,
-   "comp": "중간",
-   "entity": "씨앤엠",
-   "entity_id": "00618173",
-   "base_score": 34.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 43.0,
-   "used": false
-  },
-  {
-   "keyword": "제이앤티지수요예측",
-   "volume": 2630,
-   "comp": "중간",
-   "entity": "제이앤티지",
-   "entity_id": "01403198",
-   "base_score": 34.0,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 43.0,
-   "used": false
-  },
-  {
    "keyword": "유캐스트수요예측",
    "volume": 2630,
    "comp": "중간",
@@ -352,6 +328,30 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 43.0,
+   "used": false
+  },
+  {
+   "keyword": "씨앤엠수요예측",
+   "volume": 1880,
+   "comp": "중간",
+   "entity": "씨앤엠",
+   "entity_id": "00618173",
+   "base_score": 34.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 37.4,
+   "used": false
+  },
+  {
+   "keyword": "제이앤티지수요예측",
+   "volume": 2630,
+   "comp": "중간",
+   "entity": "제이앤티지",
+   "entity_id": "01403198",
+   "base_score": 34.0,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 37.4,
    "used": false
   },
   {
@@ -396,30 +396,6 @@
    "comp": "중간",
    "entity": "하나에어로다이내믹스",
    "entity_id": "01025617",
-   "base_score": 34.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 37.4,
-   "used": false
-  },
-  {
-   "keyword": "크리에이츠수요예측",
-   "volume": 3020,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 34.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 37.4,
-   "used": false
-  },
-  {
-   "keyword": "티앤이코리아수요예측",
-   "volume": 2980,
-   "comp": "중간",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
    "base_score": 34.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -568,6 +544,30 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 25.3,
+   "used": false
+  },
+  {
+   "keyword": "크리에이츠수요예측",
+   "volume": 3020,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 34.0,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 22.4,
+   "used": false
+  },
+  {
+   "keyword": "티앤이코리아수요예측",
+   "volume": 2980,
+   "comp": "중간",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 34.0,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 22.4,
    "used": false
   },
   {
@@ -1459,30 +1459,6 @@
    "used": false
   },
   {
-   "keyword": "씨앤엠공모주",
-   "volume": 3200,
-   "comp": "낮음",
-   "entity": "씨앤엠",
-   "entity_id": "00618173",
-   "base_score": 40.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 13.8,
-   "used": true
-  },
-  {
-   "keyword": "엠비디수요예측",
-   "volume": 3870,
-   "comp": "낮음",
-   "entity": "엠비디",
-   "entity_id": "01705740",
-   "base_score": 40.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 13.8,
-   "used": true
-  },
-  {
    "keyword": "8월공모주",
    "volume": 20,
    "comp": "중간",
@@ -1555,6 +1531,30 @@
    "used": false
   },
   {
+   "keyword": "씨앤엠공모주",
+   "volume": 3200,
+   "comp": "낮음",
+   "entity": "씨앤엠",
+   "entity_id": "00618173",
+   "base_score": 40.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 12.0,
+   "used": true
+  },
+  {
+   "keyword": "엠비디수요예측",
+   "volume": 3870,
+   "comp": "낮음",
+   "entity": "엠비디",
+   "entity_id": "01705740",
+   "base_score": 40.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 12.0,
+   "used": true
+  },
+  {
    "keyword": "동원파츠공모가",
    "volume": 4390,
    "comp": "낮음",
@@ -1576,18 +1576,6 @@
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 12.0,
-   "used": true
-  },
-  {
-   "keyword": "제이앤티지공모주",
-   "volume": 3840,
-   "comp": "중간",
-   "entity": "제이앤티지",
-   "entity_id": "01403198",
-   "base_score": 34.0,
-   "growth": 0.34,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약일 전후라 지금 검색이 몰림",
-   "score": 11.7,
    "used": true
   },
   {
@@ -1711,23 +1699,11 @@
    "used": false
   },
   {
-   "keyword": "크리에이츠공모가",
-   "volume": 1860,
+   "keyword": "제이앤티지공모주",
+   "volume": 3840,
    "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 34.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 10.2,
-   "used": true
-  },
-  {
-   "keyword": "티앤이코리아공모가",
-   "volume": 3560,
-   "comp": "중간",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
+   "entity": "제이앤티지",
+   "entity_id": "01403198",
    "base_score": 34.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -1903,6 +1879,30 @@
    "used": false
   },
   {
+   "keyword": "크리에이츠공모가",
+   "volume": 1860,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 34.0,
+   "growth": 0.18,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 6.1,
+   "used": true
+  },
+  {
+   "keyword": "티앤이코리아공모가",
+   "volume": 3560,
+   "comp": "중간",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 34.0,
+   "growth": 0.18,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 6.1,
+   "used": true
+  },
+  {
    "keyword": "엠디에스코리아공모주",
    "volume": 10,
    "comp": "낮음",
@@ -1960,18 +1960,6 @@
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
    "score": 5.5,
-   "used": false
-  },
-  {
-   "keyword": "엠비디공모주",
-   "volume": 7950,
-   "comp": "중간",
-   "entity": "엠비디",
-   "entity_id": "01705740",
-   "base_score": 4.2,
-   "growth": 1.26,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
-   "score": 5.3,
    "used": false
   },
   {
@@ -2491,6 +2479,18 @@
    "used": false
   },
   {
+   "keyword": "엠비디공모주",
+   "volume": 7950,
+   "comp": "중간",
+   "entity": "엠비디",
+   "entity_id": "01705740",
+   "base_score": 4.2,
+   "growth": 1.1,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
+   "score": 4.6,
+   "used": false
+  },
+  {
    "keyword": "동원파츠수요예측",
    "volume": 7060,
    "comp": "중간",
@@ -2508,30 +2508,6 @@
    "comp": "중간",
    "entity": "이에스티",
    "entity_id": "01378005",
-   "base_score": 4.2,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 4.6,
-   "used": false
-  },
-  {
-   "keyword": "크리에이츠공모주",
-   "volume": 9580,
-   "comp": "중간",
-   "entity": "크리에이츠",
-   "entity_id": "01540903",
-   "base_score": 4.2,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 4.6,
-   "used": false
-  },
-  {
-   "keyword": "티앤이코리아공모주",
-   "volume": 7170,
-   "comp": "중간",
-   "entity": "티앤이코리아",
-   "entity_id": "01543043",
    "base_score": 4.2,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -3016,6 +2992,30 @@
    "growth": 0.6,
    "why": "청약이 한 달 넘게 지나 검색이 줄어듦",
    "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "크리에이츠공모주",
+   "volume": 9580,
+   "comp": "중간",
+   "entity": "크리에이츠",
+   "entity_id": "01540903",
+   "base_score": 4.2,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 2.8,
+   "used": false
+  },
+  {
+   "keyword": "티앤이코리아공모주",
+   "volume": 7170,
+   "comp": "중간",
+   "entity": "티앤이코리아",
+   "entity_id": "01543043",
+   "base_score": 4.2,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 2.8,
    "used": false
   },
   {
