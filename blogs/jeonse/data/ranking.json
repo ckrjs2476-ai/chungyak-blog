@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "count": 180,
  "avg_ratio84": 72.6,
  "regions": [
@@ -229,8 +229,8 @@
    "rank": 25
   },
   {
-   "lawd": "44133",
-   "name": "충청남도 천안시 서북구",
+   "lawd": "41500",
+   "name": "경기도 이천시",
    "ratio84": 88.9,
    "jeonse_median84": 28000,
    "sale_median84": 31500,
@@ -238,8 +238,8 @@
    "rank": 26
   },
   {
-   "lawd": "41500",
-   "name": "경기도 이천시",
+   "lawd": "44133",
+   "name": "충청남도 천안시 서북구",
    "ratio84": 88.9,
    "jeonse_median84": 28000,
    "sale_median84": 31500,
@@ -490,12 +490,12 @@
    "rank": 54
   },
   {
-   "lawd": "26380",
-   "name": "부산광역시 사하구",
+   "lawd": "26320",
+   "name": "부산광역시 북구",
    "ratio84": 79.4,
-   "jeonse_median84": 20000,
-   "sale_median84": 25200,
-   "jeonse_change_pct": 7.5,
+   "jeonse_median84": 27395,
+   "sale_median84": 34500,
+   "jeonse_change_pct": 0.0,
    "rank": 55
   },
   {
@@ -508,12 +508,12 @@
    "rank": 56
   },
   {
-   "lawd": "26320",
-   "name": "부산광역시 북구",
+   "lawd": "26380",
+   "name": "부산광역시 사하구",
    "ratio84": 79.4,
-   "jeonse_median84": 27395,
-   "sale_median84": 34500,
-   "jeonse_change_pct": 0.0,
+   "jeonse_median84": 20000,
+   "sale_median84": 25200,
+   "jeonse_change_pct": 7.5,
    "rank": 57
   },
   {
@@ -652,22 +652,13 @@
    "rank": 72
   },
   {
-   "lawd": "47850",
-   "name": "경상북도 칠곡군",
-   "ratio84": 74.1,
-   "jeonse_median84": 13000,
-   "sale_median84": 17550,
-   "jeonse_change_pct": 45.0,
-   "rank": 73
-  },
-  {
    "lawd": "51820",
    "name": "강원특별자치도 고성군",
    "ratio84": 74.1,
    "jeonse_median84": 20000,
    "sale_median84": 27000,
    "jeonse_change_pct": 0.0,
-   "rank": 74
+   "rank": 73
   },
   {
    "lawd": "28237",
@@ -676,6 +667,15 @@
    "jeonse_median84": 31500,
    "sale_median84": 42500,
    "jeonse_change_pct": 7.4,
+   "rank": 74
+  },
+  {
+   "lawd": "47850",
+   "name": "경상북도 칠곡군",
+   "ratio84": 74.1,
+   "jeonse_median84": 13000,
+   "sale_median84": 17550,
+   "jeonse_change_pct": 45.0,
    "rank": 75
   },
   {
@@ -706,21 +706,21 @@
    "rank": 78
   },
   {
-   "lawd": "31200",
-   "name": "울산광역시 북구",
-   "ratio84": 73.2,
-   "jeonse_median84": 27300,
-   "sale_median84": 37300,
-   "jeonse_change_pct": 1.2,
-   "rank": 79
-  },
-  {
    "lawd": "27140",
    "name": "대구광역시 동구",
    "ratio84": 73.2,
    "jeonse_median84": 27800,
    "sale_median84": 38000,
    "jeonse_change_pct": 0.0,
+   "rank": 79
+  },
+  {
+   "lawd": "31200",
+   "name": "울산광역시 북구",
+   "ratio84": 73.2,
+   "jeonse_median84": 27300,
+   "sale_median84": 37300,
+   "jeonse_change_pct": 1.2,
    "rank": 80
   },
   {
@@ -733,21 +733,21 @@
    "rank": 81
   },
   {
-   "lawd": "51230",
-   "name": "강원특별자치도 삼척시",
-   "ratio84": 72.7,
-   "jeonse_median84": 24000,
-   "sale_median84": 33000,
-   "jeonse_change_pct": 17.4,
-   "rank": 82
-  },
-  {
    "lawd": "28200",
    "name": "인천광역시 남동구",
    "ratio84": 72.7,
    "jeonse_median84": 32000,
    "sale_median84": 44000,
    "jeonse_change_pct": 5.4,
+   "rank": 82
+  },
+  {
+   "lawd": "51230",
+   "name": "강원특별자치도 삼척시",
+   "ratio84": 72.7,
+   "jeonse_median84": 24000,
+   "sale_median84": 33000,
+   "jeonse_change_pct": 17.4,
    "rank": 83
   },
   {
@@ -787,21 +787,21 @@
    "rank": 87
   },
   {
-   "lawd": "47230",
-   "name": "경상북도 영천시",
-   "ratio84": 72.1,
-   "jeonse_median84": 18750,
-   "sale_median84": 26000,
-   "jeonse_change_pct": -14.8,
-   "rank": 88
-  },
-  {
    "lawd": "41630",
    "name": "경기도 양주시",
    "ratio84": 72.1,
    "jeonse_median84": 24150,
    "sale_median84": 33500,
    "jeonse_change_pct": 5.0,
+   "rank": 88
+  },
+  {
+   "lawd": "47230",
+   "name": "경상북도 영천시",
+   "ratio84": 72.1,
+   "jeonse_median84": 18750,
+   "sale_median84": 26000,
+   "jeonse_change_pct": -14.8,
    "rank": 89
   },
   {
@@ -850,21 +850,21 @@
    "rank": 94
   },
   {
-   "lawd": "26260",
-   "name": "부산광역시 동래구",
-   "ratio84": 70.2,
-   "jeonse_median84": 40000,
-   "sale_median84": 57000,
-   "jeonse_change_pct": -2.5,
-   "rank": 95
-  },
-  {
    "lawd": "41111",
    "name": "경기도 수원시 장안구",
    "ratio84": 70.2,
    "jeonse_median84": 42000,
    "sale_median84": 59850,
    "jeonse_change_pct": -1.2,
+   "rank": 95
+  },
+  {
+   "lawd": "26260",
+   "name": "부산광역시 동래구",
+   "ratio84": 70.2,
+   "jeonse_median84": 40000,
+   "sale_median84": 57000,
+   "jeonse_change_pct": -2.5,
    "rank": 96
   },
   {
@@ -913,21 +913,21 @@
    "rank": 101
   },
   {
-   "lawd": "26170",
-   "name": "부산광역시 동구",
-   "ratio84": 68.3,
-   "jeonse_median84": 33600,
-   "sale_median84": 49175,
-   "jeonse_change_pct": 7.8,
-   "rank": 102
-  },
-  {
    "lawd": "50130",
    "name": "제주특별자치도 서귀포시",
    "ratio84": 68.3,
    "jeonse_median84": 28000,
    "sale_median84": 41000,
    "jeonse_change_pct": 24.0,
+   "rank": 102
+  },
+  {
+   "lawd": "26170",
+   "name": "부산광역시 동구",
+   "ratio84": 68.3,
+   "jeonse_median84": 33600,
+   "sale_median84": 49175,
+   "jeonse_change_pct": 7.8,
    "rank": 103
   },
   {
@@ -1183,21 +1183,21 @@
    "rank": 131
   },
   {
-   "lawd": "11410",
-   "name": "서울특별시 서대문구",
-   "ratio84": 63.6,
-   "jeonse_median84": 70000,
-   "sale_median84": 110000,
-   "jeonse_change_pct": 1.0,
-   "rank": 132
-  },
-  {
    "lawd": "43750",
    "name": "충청북도 진천군",
    "ratio84": 63.6,
    "jeonse_median84": 18000,
    "sale_median84": 28300,
    "jeonse_change_pct": 49.4,
+   "rank": 132
+  },
+  {
+   "lawd": "11410",
+   "name": "서울특별시 서대문구",
+   "ratio84": 63.6,
+   "jeonse_median84": 70000,
+   "sale_median84": 110000,
+   "jeonse_change_pct": 1.0,
    "rank": 133
   },
   {
@@ -1282,21 +1282,21 @@
    "rank": 142
   },
   {
-   "lawd": "41133",
-   "name": "경기도 성남시 중원구",
-   "ratio84": 60.0,
-   "jeonse_median84": 52500,
-   "sale_median84": 87500,
-   "jeonse_change_pct": 0.0,
-   "rank": 143
-  },
-  {
    "lawd": "26350",
    "name": "부산광역시 해운대구",
    "ratio84": 60.0,
    "jeonse_median84": 36000,
    "sale_median84": 60000,
    "jeonse_change_pct": 2.7,
+   "rank": 143
+  },
+  {
+   "lawd": "41133",
+   "name": "경기도 성남시 중원구",
+   "ratio84": 60.0,
+   "jeonse_median84": 52500,
+   "sale_median84": 87500,
+   "jeonse_change_pct": 0.0,
    "rank": 144
   },
   {
