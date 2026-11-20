@@ -2,18 +2,22 @@
  "lawd": "28245",
  "name": "인천광역시 계양구",
  "months": 12,
- "updated": "2026-11-19",
- "trade_count": 2622,
+ "updated": "2026-11-20",
+ "trade_count": 2632,
  "cancel_count": 117,
- "n84": 572,
+ "n84": 573,
  "median84": 36000,
  "p25_84": 30000,
- "p75_84": 42787,
- "median84_pyeong_excl": 1401,
+ "p75_84": 42800,
+ "median84_pyeong_excl": 1402,
  "new_n84": 69,
  "new_median84": 64000,
  "new_build_years": 5,
  "umd84": {
+  "서운동": {
+   "n": 21,
+   "median": 58500
+  },
   "박촌동": {
    "n": 41,
    "median": 41250
@@ -21,10 +25,6 @@
   "효성동": {
    "n": 132,
    "median": 29500
-  },
-  "서운동": {
-   "n": 20,
-   "median": 59150
   },
   "작전동": {
    "n": 151,
@@ -126,33 +126,33 @@
   },
   {
    "month": "2026-10",
-   "count": 219,
+   "count": 221,
    "n84": 49,
    "median84": 37000
   },
   {
    "month": "2026-11",
-   "count": 77,
-   "n84": 16,
-   "median84": 38650
+   "count": 85,
+   "n84": 17,
+   "median84": 38800
   }
  ],
  "top_apts": [
   {
    "name": "작전동 힐스테이트자이계양",
-   "count": 122,
+   "count": 123,
    "median84": 83000,
    "built": 2024
   },
   {
    "name": "병방동 학마을한진",
-   "count": 98,
+   "count": 99,
    "median84": null,
    "built": 1998
   },
   {
    "name": "효성동 e편한세상 계양 더프리미어",
-   "count": 95,
+   "count": 96,
    "median84": 62850,
    "built": 2021
   },
@@ -164,7 +164,7 @@
   },
   {
    "name": "병방동 학마을서해",
-   "count": 71,
+   "count": 72,
    "median84": null,
    "built": 1997
   },

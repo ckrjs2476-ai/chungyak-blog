@@ -2,25 +2,25 @@
  "lawd": "26440",
  "name": "부산광역시 강서구",
  "months": 12,
- "updated": "2026-11-16",
- "trade_count": 1332,
+ "updated": "2026-11-20",
+ "trade_count": 1351,
  "cancel_count": 66,
- "n84": 545,
- "median84": 44000,
- "p25_84": 33600,
+ "n84": 552,
+ "median84": 43750,
+ "p25_84": 33500,
  "p75_84": 54500,
- "median84_pyeong_excl": 1713,
+ "median84_pyeong_excl": 1711,
  "new_n84": 12,
  "new_median84": 57250,
  "new_build_years": 5,
  "umd84": {
-  "명지동": {
-   "n": 511,
-   "median": 44800
-  },
   "지사동": {
-   "n": 8,
+   "n": 10,
    "median": 22250
+  },
+  "명지동": {
+   "n": 516,
+   "median": 44750
   },
   "강동동": {
    "n": 12,
@@ -95,20 +95,20 @@
   {
    "month": "2026-10",
    "count": 123,
-   "n84": 54,
-   "median84": 43250
+   "n84": 55,
+   "median84": 43000
   },
   {
    "month": "2026-11",
-   "count": 24,
-   "n84": 11,
-   "median84": 48800
+   "count": 43,
+   "n84": 17,
+   "median84": 46200
   }
  ],
  "top_apts": [
   {
    "name": "명지동 명지협성휴포레",
-   "count": 109,
+   "count": 110,
    "median84": null,
    "built": 2016
   },
@@ -120,13 +120,13 @@
   },
   {
    "name": "지사동 협성·DS엘리시안",
-   "count": 76,
+   "count": 81,
    "median84": 23000,
    "built": 2015
   },
   {
    "name": "명지동 부산명지중흥S-클래스프라디움",
-   "count": 73,
+   "count": 75,
    "median84": null,
    "built": 2016
   },
@@ -150,13 +150,13 @@
   },
   {
    "name": "명지동 명지두산위브포세이돈",
-   "count": 55,
+   "count": 56,
    "median84": 32500,
    "built": 2013
   },
   {
    "name": "명지동 명지더웨스턴",
-   "count": 54,
+   "count": 55,
    "median84": 42750,
    "built": 2018
   },
