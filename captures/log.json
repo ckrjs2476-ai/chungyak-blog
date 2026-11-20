@@ -1,44 +1,5 @@
 [
  {
-  "name": "drone-japan-regulation-2026-calc-2",
-  "ok": true,
-  "status": null,
-  "title": "blogs/drone/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16992,
-  "url": "blogs/drone/pages/calculator.md",
-  "at": "2026-11-14 20:10"
- },
- {
-  "name": "drone-japan-regulation-2026-mlit",
-  "ok": true,
-  "status": 200,
-  "title": "航空：飛行ルール（航空法第11章）の対象となる機体 - 国土交通省",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 44900,
-  "url": "https://www.mlit.go.jp/koku/koku_fr10_000040.html",
-  "at": "2026-11-14 20:10"
- },
- {
-  "name": "gw-elevator-kapt-sido-1114",
-  "ok": true,
-  "status": 200,
-  "title": "K-apt 공동주택관리정보시스템",
-  "size": [
-   760,
-   451
-  ],
-  "bytes": 20630,
-  "url": "https://www.k-apt.go.kr/apiinfo/goApiInfoBySido.do",
-  "at": "2026-11-14 21:15"
- },
- {
   "name": "sanggye-eunbit-1-management-fee-2026-08-chart",
   "ok": true,
   "chart": {
@@ -4579,5 +4540,67 @@
   "bytes": 14230,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-20 11:27"
+ },
+ {
+  "name": "js-daejeon-yuseong-gu-jeonse-wolse-share-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "유성구 아파트 임대 계약, 월세는 얼마나 될까?",
+   "answer": "12개월 신고 가운데 월세가 60.0%로 대전 5개 구 중 가장 높습니다",
+   "points": [
+    {
+     "label": "월세 비중",
+     "value": "60.0% (월세 5,641건 · 전세 3,757건)"
+    },
+    {
+     "label": "84㎡ 전세가율",
+     "value": "66.1% (180곳 중 117위)"
+    },
+    {
+     "label": "84㎡ 전세 중앙값",
+     "value": "3억 2,081만 원"
+    },
+    {
+     "label": "전세 중 갱신 계약",
+     "value": "27.0%"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-14"
+  },
+  "size": [
+   760,
+   485
+  ],
+  "bytes": 35400,
+  "at": "2026-11-20 12:43"
+ },
+ {
+  "name": "js-30200-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14862,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-20 12:43"
+ },
+ {
+  "name": "js-30200-rt",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7348,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-20 12:44"
  }
 ]
