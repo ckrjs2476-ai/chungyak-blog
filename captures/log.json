@@ -1,35 +1,5 @@
 [
  {
-  "name": "sanggye-eunbit-1-management-fee-2026-08-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11350",
-   "code": "A13983816"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16552,
-  "at": "2026-11-14 22:40"
- },
- {
-  "name": "godeok-dahaev-management-fee-2026-08-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41220",
-   "code": "A10021455"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 17304,
-  "at": "2026-11-14 22:40"
- },
- {
   "name": "homaesil-bellseom-city-14-management-fee-2026-08-calc-1",
   "ok": true,
   "status": null,
@@ -4602,5 +4572,54 @@
   "bytes": 7348,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-20 12:44"
+ },
+ {
+  "name": "cy-asan-apartment-bunyang-2025-09-2026-10-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "아산 분양 아파트, 1순위에서 찬 곳은?",
+   "answer": "6곳 중 탕정면 2곳만 1순위 평균 1대 1을 넘겼어요",
+   "points": [
+    {
+     "label": "탕정자이 메트로시티",
+     "value": "3.3㎡당 1,638만 원 · 5.97대 1"
+    },
+    {
+     "label": "동일하이빌 파크레인",
+     "value": "3.3㎡당 1,549만 원 · 3.81대 1"
+    },
+    {
+     "label": "나머지 4곳 1순위 평균",
+     "value": "0.01~0.5대 1"
+    },
+    {
+     "label": "탕정면 84㎡ 실거래 가운데 값",
+     "value": "5억 4,500만 원"
+    }
+   ],
+   "source": "청약홈 공고·경쟁률, 국토교통부 실거래가",
+   "date": "2026-11-20"
+  },
+  "size": [
+   760,
+   485
+  ],
+  "bytes": 33600,
+  "at": "2026-11-20 18:38"
+ },
+ {
+  "name": "cy-2026000051-price-1120",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   403
+  ],
+  "bytes": 12444,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000051&pblancNo=2026000051",
+  "at": "2026-11-20 18:38"
  }
 ]
