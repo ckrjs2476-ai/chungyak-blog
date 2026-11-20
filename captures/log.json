@@ -1,31 +1,5 @@
 [
  {
-  "name": "drone-show-korea-dsk-2026-busan",
-  "ok": true,
-  "status": 200,
-  "title": "부산시, 「DSK(드론쇼코리아) 2026」 개최… 산업 혁신 플랫폼 도약! : 부산소식 : 보도·해명자료 : 보도자료 : 부산광역시",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 35582,
-  "url": "https://www.busan.go.kr/nbtnewsBU/1719593",
-  "at": "2026-11-15 08:45"
- },
- {
-  "name": "drone-show-korea-dsk-2026-2027",
-  "ok": true,
-  "status": 200,
-  "title": "DSK 2027",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 32746,
-  "url": "https://www.droneshowkorea.com/",
-  "at": "2026-11-15 08:45"
- },
- {
   "name": "gw-11305-hanil-uandi-chart",
   "ok": true,
   "chart": {
@@ -4650,5 +4624,54 @@
   "bytes": 7336,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-20 19:51"
+ },
+ {
+  "name": "dr-drone-gps-kass-accuracy-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "points",
+   "title": "GPS 드론 위치, 얼마나 틀리나요?",
+   "answer": "보정 없는 GPS는 15~33m, KASS 보정 신호를 받으면 1~1.6m예요",
+   "points": [
+    {
+     "label": "GPS만 쓸 때 위치 오차",
+     "value": "15~33m"
+    },
+    {
+     "label": "KASS 보정 뒤 위치 오차",
+     "value": "1~1.6m"
+    },
+    {
+     "label": "KASS 정밀위치신호 첫 제공",
+     "value": "2022년 12월 15일"
+    },
+    {
+     "label": "KASS 지상 기준국",
+     "value": "전국 7곳"
+    }
+   ],
+   "source": "국토교통부(대한민국 정책브리핑)",
+   "date": "2026-11-20"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 29410,
+  "at": "2026-11-20 19:58"
+ },
+ {
+  "name": "dr-drone-gps-kass-accuracy-2026-kass",
+  "ok": true,
+  "status": 200,
+  "title": "‘GPS 위치 오차 1m이내로’…항공위성 1호기 발사 성공 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+  "size": [
+   760,
+   359
+  ],
+  "bytes": 30182,
+  "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148902824",
+  "at": "2026-11-20 19:58"
  }
 ]
