@@ -1,0 +1,168 @@
+{
+ "no": "2026000591",
+ "name": "소사 휴먼빌",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-11-20",
+ "rank1_date": "2026-12-01",
+ "city": "부천시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-08",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000591&pblancNo=2026000591",
+ "households": 45,
+ "types": [
+  {
+   "ty": "59.9906A",
+   "size": 59,
+   "price": 55932,
+   "area_m2": 80.3427,
+   "general": 4,
+   "special": 5,
+   "pyeong_price": 2301,
+   "special_share_pct": 56
+  },
+  {
+   "ty": "59.2735B",
+   "size": 59,
+   "price": 54986,
+   "area_m2": 81.1004,
+   "general": 6,
+   "special": 6,
+   "pyeong_price": 2241,
+   "special_share_pct": 50
+  },
+  {
+   "ty": "59.2599C",
+   "size": 59,
+   "price": 55051,
+   "area_m2": 81.0979,
+   "general": 2,
+   "special": 0,
+   "pyeong_price": 2244,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.1615D",
+   "size": 59,
+   "price": 49355,
+   "area_m2": 80.9618,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2015,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.5869A",
+   "size": 84,
+   "price": 78256,
+   "area_m2": 112.3305,
+   "general": 4,
+   "special": 6,
+   "pyeong_price": 2303,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.6433B",
+   "size": 84,
+   "price": 78307,
+   "area_m2": 113.7312,
+   "general": 4,
+   "special": 6,
+   "pyeong_price": 2276,
+   "special_share_pct": 60
+  },
+  {
+   "ty": "84.9848C",
+   "size": 84,
+   "price": 78847,
+   "area_m2": 114.4169,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2278,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 22,
+ "special_total": 23,
+ "special_share_pct": 51,
+ "pyeong_min": 2015,
+ "pyeong_max": 2303,
+ "pyeong_avg": 2270,
+ "price_84_min": 78256,
+ "price_84_max": 78847,
+ "special_kinds": {
+  "신혼부부": 7,
+  "생애최초": 4,
+  "신생아": 4,
+  "다자녀": 4,
+  "기관추천": 4
+ },
+ "region_price": {
+  "scope": "부천시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "중동역 다채로움 더원",
+   "상동역 롯데캐슬 시그니처",
+   "두산위브더제니스 부천"
+  ],
+  "peer_avg_pyeong": 3393,
+  "diff": -1123,
+  "diff_pct": -33,
+  "rank": 4,
+  "of": 4
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 38,
+  "peers": [
+   "더샵 분당하이스트",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "북오산자이 드포레",
+   "고덕국제신도시 수자인하우스디",
+   "양주 회천지구 A-8BL 로제비앙 엘가",
+   "이천 휴먼빌 클래스원",
+   "의왕역 SK VIEW",
+   "남양주 진접 서한이다음(S1BL)"
+  ],
+  "peer_avg_pyeong": 2553,
+  "diff": -283,
+  "diff_pct": -11,
+  "rank": 20,
+  "of": 39
+ },
+ "area_competition": {
+  "scope": "부천시",
+  "peer_count": 3,
+  "peer_avg_rate": 1.39,
+  "peer_max_rate": 1.92
+ },
+ "market": {
+  "region": "경기도 부천시 소사구",
+  "lawd": "41194",
+  "months": 12,
+  "updated": "2026-11-21",
+  "n84": 805,
+  "median84": 59700,
+  "p25_84": 53200,
+  "p75_84": 71500,
+  "new_n84": 95,
+  "new_median84": 78500,
+  "new_build_years": 5,
+  "umd": "소사본동",
+  "umd_n84": 217,
+  "umd_median84": 55400,
+  "diff_vs_median84": 19147,
+  "diff_pct_vs_median84": 32,
+  "diff_vs_new_median84": 347,
+  "diff_pct_vs_new_median84": 0,
+  "diff_vs_umd_median84": 23447,
+  "diff_pct_vs_umd_median84": 42
+ }
+}

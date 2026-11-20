@@ -2,18 +2,22 @@
  "lawd": "30140",
  "name": "대전광역시 중구",
  "months": 12,
- "updated": "2026-11-20",
- "trade_count": 1963,
+ "updated": "2026-11-21",
+ "trade_count": 1966,
  "cancel_count": 101,
- "n84": 775,
- "median84": 37800,
+ "n84": 776,
+ "median84": 37775,
  "p25_84": 27000,
  "p75_84": 46000,
- "median84_pyeong_excl": 1472,
+ "median84_pyeong_excl": 1471,
  "new_n84": 189,
  "new_median84": 55000,
  "new_build_years": 5,
  "umd84": {
+  "오류동": {
+   "n": 44,
+   "median": 39250
+  },
   "용두동": {
    "n": 19,
    "median": 37500
@@ -45,10 +49,6 @@
   "문화동": {
    "n": 90,
    "median": 40750
-  },
-  "오류동": {
-   "n": 43,
-   "median": 39500
   },
   "산성동": {
    "n": 33,
@@ -122,15 +122,15 @@
   },
   {
    "month": "2026-10",
-   "count": 177,
+   "count": 178,
    "n84": 70,
    "median84": 37250
   },
   {
    "month": "2026-11",
-   "count": 94,
-   "n84": 37,
-   "median84": 42000
+   "count": 96,
+   "n84": 38,
+   "median84": 41600
   }
  ],
  "top_apts": [
@@ -183,16 +183,16 @@
    "built": 2011
   },
   {
+   "name": "용두동 미르마을",
+   "count": 50,
+   "median84": 39250,
+   "built": 2005
+  },
+  {
    "name": "태평동 태평",
    "count": 50,
    "median84": 29700,
    "built": 2000
-  },
-  {
-   "name": "용두동 미르마을",
-   "count": 49,
-   "median84": 39250,
-   "built": 2005
   }
  ]
 }

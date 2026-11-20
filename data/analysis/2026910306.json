@@ -1,0 +1,81 @@
+{
+ "no": "2026910306",
+ "name": "광안센텀 비스타동원(조합원 취소분)",
+ "kind": "remndr",
+ "region": "부산",
+ "notice_date": "2026-11-20",
+ "rank1_date": "2026-11-25",
+ "city": "수영구",
+ "supply_kind": "",
+ "winner_date": "2026-11-30",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910306&pblancNo=2026910306",
+ "households": 39,
+ "types": [
+  {
+   "ty": "59.9823",
+   "size": 59,
+   "price": 67400,
+   "area_m2": null,
+   "general": 13,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "59.9782C",
+   "size": 59,
+   "price": 66100,
+   "area_m2": null,
+   "general": 5,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.962A",
+   "size": 84,
+   "price": 91400,
+   "area_m2": null,
+   "general": 17,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9413B",
+   "size": 84,
+   "price": 86700,
+   "area_m2": null,
+   "general": 4,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 39,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 86700,
+ "price_84_max": 91400,
+ "market": {
+  "region": "부산광역시 수영구",
+  "lawd": "26500",
+  "months": 12,
+  "updated": "2026-11-20",
+  "n84": 734,
+  "median84": 71000,
+  "p25_84": 50675,
+  "p75_84": 95625,
+  "new_n84": 145,
+  "new_median84": 120000,
+  "new_build_years": 5,
+  "umd": "광안동",
+  "umd_n84": 151,
+  "umd_median84": 58000,
+  "diff_vs_median84": 20400,
+  "diff_pct_vs_median84": 29,
+  "diff_vs_new_median84": -28600,
+  "diff_pct_vs_new_median84": -24,
+  "diff_vs_umd_median84": 33400,
+  "diff_pct_vs_umd_median84": 58
+ }
+}

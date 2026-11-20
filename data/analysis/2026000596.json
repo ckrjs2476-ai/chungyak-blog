@@ -1,0 +1,81 @@
+{
+ "no": "2026000596",
+ "name": "고창 데시앙 2블록(민영)",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-11-20",
+ "rank1_date": "2026-12-01",
+ "city": "고창군",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-08",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000596&pblancNo=2026000596",
+ "households": 177,
+ "types": [
+  {
+   "ty": "104.9069A",
+   "size": 104,
+   "price": 56170,
+   "area_m2": 132.7335,
+   "general": 71,
+   "special": 12,
+   "pyeong_price": 1399,
+   "special_share_pct": 14
+  },
+  {
+   "ty": "104.9904B",
+   "size": 104,
+   "price": 55870,
+   "area_m2": 132.421,
+   "general": 15,
+   "special": 3,
+   "pyeong_price": 1395,
+   "special_share_pct": 17
+  },
+  {
+   "ty": "125.1302A",
+   "size": 125,
+   "price": 67060,
+   "area_m2": 157.9738,
+   "general": 67,
+   "special": 9,
+   "pyeong_price": 1403,
+   "special_share_pct": 12
+  }
+ ],
+ "general_total": 153,
+ "special_total": 24,
+ "special_share_pct": 14,
+ "pyeong_min": 1395,
+ "pyeong_max": 1403,
+ "pyeong_avg": 1400,
+ "special_kinds": {
+  "다자녀": 18,
+  "노부모 부양": 6
+ },
+ "region_price": {
+  "scope": "전북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "익산 펠리피아",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘",
+   "두산위브 트레지움 익산"
+  ],
+  "peer_avg_pyeong": 1444,
+  "diff": -44,
+  "diff_pct": -3,
+  "rank": 4,
+  "of": 5
+ },
+ "area_competition": {
+  "scope": "전북",
+  "peer_count": 3,
+  "peer_avg_rate": 5.0,
+  "peer_max_rate": 14.78
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "no": "2026000597",
+ "name": "고창 데시앙 3블록(공공분양)",
+ "kind": "apt",
+ "region": "전북",
+ "notice_date": "2026-11-20",
+ "rank1_date": "2026-12-01",
+ "city": "고창군",
+ "supply_kind": "국민",
+ "winner_date": "2026-12-08",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000597&pblancNo=2026000597",
+ "households": 531,
+ "types": [
+  {
+   "ty": "84.9076A",
+   "size": 84,
+   "price": 42940,
+   "area_m2": 109.7892,
+   "general": 83,
+   "special": 268,
+   "pyeong_price": 1293,
+   "special_share_pct": 76
+  },
+  {
+   "ty": "84.9589B",
+   "size": 84,
+   "price": 43030,
+   "area_m2": 111.8434,
+   "general": 18,
+   "special": 45,
+   "pyeong_price": 1272,
+   "special_share_pct": 71
+  },
+  {
+   "ty": "84.9022C",
+   "size": 84,
+   "price": 42910,
+   "area_m2": 110.062,
+   "general": 25,
+   "special": 82,
+   "pyeong_price": 1289,
+   "special_share_pct": 77
+  },
+  {
+   "ty": "84.9295D",
+   "size": 84,
+   "price": 43010,
+   "area_m2": 109.8158,
+   "general": 2,
+   "special": 8,
+   "pyeong_price": 1295,
+   "special_share_pct": 80
+  }
+ ],
+ "general_total": 128,
+ "special_total": 403,
+ "special_share_pct": 76,
+ "pyeong_min": 1272,
+ "pyeong_max": 1295,
+ "pyeong_avg": 1290,
+ "price_84_min": 42910,
+ "price_84_max": 43030,
+ "special_kinds": {
+  "신혼부부": 54,
+  "생애최초": 80,
+  "신생아": 107,
+  "다자녀": 54,
+  "노부모 부양": 27,
+  "기관추천": 81
+ },
+ "region_price": {
+  "scope": "전북",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "군산 세경아파트 우선분양전환 후 잔여세대 ",
+   "고창 데시앙 2블록(공공분양)"
+  ],
+  "peer_avg_pyeong": 790,
+  "diff": 500,
+  "diff_pct": 63,
+  "rank": 2,
+  "of": 3
+ },
+ "area_competition": {
+  "scope": "전북",
+  "peer_count": 2,
+  "peer_avg_rate": 1.48,
+  "peer_max_rate": 2.91
+ }
+}
