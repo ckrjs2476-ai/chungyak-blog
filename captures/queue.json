@@ -1,1 +1,48 @@
-[]
+[
+ {
+  "name": "js-gangneung-si-jeonse-complex-ratio-2026-11-card",
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "강릉시 아파트 전세가율 89.9%는 몇 위일까?",
+   "answer": "180곳 중 25위, 단지 48곳 중 29곳이 80%를 넘습니다",
+   "points": [
+    {"label": "강릉시 84㎡ 전세가율", "value": "89.9%"},
+    {"label": "180곳 중 순위", "value": "25위"},
+    {"label": "80% 넘는 단지", "value": "48곳 중 29곳"},
+    {"label": "강릉호반베르디움오션아파트(2023년)", "value": "52.0%"}
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-21"
+  }
+ },
+ {
+  "name": "js-51150-dong",
+  "chart": {"type": "jeonse_dong", "lawd": "51150", "highlight": "내곡동"}
+ },
+ {
+  "name": "js-51150-calc-1",
+  "page": "blogs/jeonse/pages/calculator.md",
+  "width": 760,
+  "steps": [{"fill": ["#sale", "19000"]}, {"fill": ["#dep", "18000"]}, {"pick": ["#reg", "강릉시"]}],
+  "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"},
+  "pad": 16
+ },
+ {
+  "name": "js-51150-calc-2",
+  "page": "blogs/jeonse/pages/calculator.md",
+  "width": 760,
+  "steps": [{"fill": ["#sale", "53500"]}, {"fill": ["#dep", "35000"]}, {"pick": ["#reg", "강릉시"]}],
+  "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"},
+  "pad": 16
+ },
+ {
+  "name": "js-51150-rt",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "강원"], "wait": 2}, {"pick": ["#srhSggCd", "강릉"], "wait": 2}],
+  "crop": {"from": "연립/다세대"},
+  "height": 560
+ }
+]
