@@ -1,14 +1,14 @@
-# 애드센스 기준 점검: gongmoju (2026-11-20 17:30 KST)
+# 애드센스 기준 점검: gongmoju (2026-11-21 17:16 KST)
 
-- 공개 글: 50편
+- 공개 글: 51편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
 - 약한 글(점수 70 미만): 0편
 - 겹침·합치기 후보: 0쌍
 
 ## 라벨별 글 수 (라벨마다 8편 이상 권장)
 
-- 일반 기업: 49편
-- 공모 구조: 38편
+- 일반 기업: 50편
+- 공모 구조: 39편
 - 공모주 읽는 법: 13편
 
 ## 겹침·합치기 후보
@@ -26,13 +26,15 @@
 
 | 점수 | 글 | 글자 | 틀 문장 | 본문 내부 링크 | 검수 오류 |
 | --- | --- | --- | --- | --- | --- |
-| 75 | [에스에프씨 공모주 1,580억 원, 27곳 중 규모](https://gongmoju-breakdown.blogspot.com/2026/10/sfc-ipo-2026-11.html) `2026-10-30-00299109-ipo.md` | 2256 | 1 | 2 | 키워드 '에스에프씨 공모주'는 월 6,890회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
+| 75 | [에스에프씨 공모주 1,580억 원, 27곳 중 규모](https://gongmoju-breakdown.blogspot.com/2026/10/sfc-ipo-2026-11.html) `2026-10-30-00299109-ipo.md` | 2299 | 1 | 2 | 키워드 '에스에프씨 공모주'는 월 6,890회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
 | 75 | [에이엘로봇 공모주 376.8억 원, 설립 3년 차가](https://gongmoju-breakdown.blogspot.com/2026/10/al-robot-ipo-2026-11.html) `2026-10-25-01797635-ipo.md` | 2197 | 1 | 3 | 키워드 '에이엘로봇 공모주'는 월 15,690회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
 | 85 | [넥스아이 공모주 525억 원, 자금 계획 86.9%](https://gongmoju-breakdown.blogspot.com/2026/10/nexi-ipo-2026-11.html) `2026-10-22-01863318-ipo.md` | 2410 | 0 | 1 | 키워드 '넥스아이 공모주'는 월 12,850회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
 | 85 | [동원파츠 공모주 466.9억 원, 자금 계획 30.](https://gongmoju-breakdown.blogspot.com/2026/10/dongwonparts-ipo-2026-11.html) `2026-10-19-00784184-ipo.md` | 1819 | 0 | 1 | 키워드 '동원파츠 공모주'는 월 22,320회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
+| 85 | [마더스제약 공모주, 수수료율 2.06%로 23곳 중](https://gongmoju-breakdown.blogspot.com/2026/11/mothers-pharm-ipo-2026-12.html) `2026-11-11-01136597-ipo.md` | 2651 | 0 | 3 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 총액인수는 증권사가 공모 주식 전부를 / 공모가 N원은 N월 N일 접수된 / N원 |
 | 85 | [바로팜 공모주 291.9억 원, 자금 46.6%는 ](https://gongmoju-breakdown.blogspot.com/2026/10/baropharm-ipo-2026-11.html) `2026-10-21-01835829-ipo.md` | 2126 | 0 | 2 | 키워드 '바로팜 공모주'는 월 16,000회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
 | 85 | [영광와이케이엠씨 공모주 수수료율 4.63%, 중앙값](https://gongmoju-breakdown.blogspot.com/2026/10/ykmc-ipo-2026-11.html) `2026-10-22-00960234-ipo.md` | 2614 | 0 | 2 | 키워드 '영광와이케이엠씨 공모주'는 월 4,730회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
-| 85 | [옵토닉스 공모주 220억 원, 316.4억 원 영광](https://gongmoju-breakdown.blogspot.com/2026/10/optonics-ipo-2026-11.html) `2026-10-23-01658035-ipo.md` | 2169 | 0 | 1 | 키워드 '옵토닉스 공모주'는 월 19,310회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
+| 85 | [옵토닉스 공모주 220억 원, 316.4억 원 영광](https://gongmoju-breakdown.blogspot.com/2026/10/optonics-ipo-2026-11.html) `2026-10-23-01658035-ipo.md` | 2209 | 0 | 1 | 키워드 '옵토닉스 공모주'는 월 19,310회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
+| 85 | [인터엑스 공모주 운영자금 63.5%, 한국투자증권 ](https://gongmoju-breakdown.blogspot.com/2026/11/interx-ipo-2026-12.html) `2026-11-02-01860700-ipo.md` | 2740 | 0 | 3 | 다른 글 3편 이상에 이미 나온 표현을 6개 썼습니다(5개까지). 이 대상만의 말로 바꿔 주세요: 신고서 본문 '자금의 사용목적' 세부 / 신고서를 직접 열어 본 결과N / N원은 |
 | 85 | [인텔리빅스 공모주, 설립 26년 차에 운영자금 69](https://gongmoju-breakdown.blogspot.com/2026/10/intellivix-ipo-2026-10.html) `2026-10-15-01649408-ipo.md` | 2060 | 0 | 3 | 키워드 '인텔리빅스 공모가'는 월 5,120회로 지금 단계 구간(~1,500)보다 훨씬 큽니다. 더 구체적인 키워드로 바꿔 주세요. |
 | 90 | [공모주 본사 지역, 24곳 중 서울 7곳은 규모 4](https://gongmoju-breakdown.blogspot.com/2026/11/ipo-head-office-region-2026-11.html) `2026-11-07-bonjeom-topic.md` | 2723 | 1 | 2 | - |
 | 90 | [넥스아이 공모가 10,500원, 11월 2~6일 공](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-week-2026-10-26.html) `2026-10-26-wk1026-weekly.md` | 3067 | 1 | 3 | - |
@@ -59,7 +61,6 @@
 | 100 | [다비오 공모주 123억 원, 수수료율 4.63% 다](https://gongmoju-breakdown.blogspot.com/2026/10/dabeeo-ipo-2026-11.html) `2026-10-27-01706509-ipo.md` | 2438 | 0 | 2 | - |
 | 100 | [데스틴파워 공모주 176억 원, 24곳 중 22위에](https://gongmoju-breakdown.blogspot.com/2026/11/destinpower-ipo-2026-12.html) `2026-11-05-01135039-ipo.md` | 2532 | 0 | 2 | - |
 | 100 | [래블업 공모가 19,000원 확정, 공모주 414.](https://gongmoju-breakdown.blogspot.com/2026/10/lablup-ipo-2026-10.html) `2026-10-18-01956751-ipo.md` | 2142 | 0 | 1 | - |
-| 100 | [마더스제약 공모주, 수수료율 2.06%로 23곳 중](https://gongmoju-breakdown.blogspot.com/2026/11/mothers-pharm-ipo-2026-12.html) `2026-11-11-01136597-ipo.md` | 2651 | 0 | 3 | - |
 | 100 | [스팩 공모주 5곳, 공모가 2,000원에 규모 10](https://gongmoju-breakdown.blogspot.com/2026/11/spac-ipo-2026-11.html) `2026-11-12-spac-topic.md` | 2963 | 0 | 2 | - |
 | 100 | [아델 공모주 운영자금 95.5%, 27곳 중 1순위](https://gongmoju-breakdown.blogspot.com/2026/10/adel-ipo-2026-11.html) `2026-10-31-01938746-ipo.md` | 2129 | 0 | 3 | - |
 | 100 | [아델 청약일 11월 23~24일, 2주 사이 공모주](https://gongmoju-breakdown.blogspot.com/2026/11/ipo-week-2026-11-16.html) `2026-11-16-wk1116-weekly.md` | 3002 | 0 | 4 | - |
@@ -68,13 +69,13 @@
 | 100 | [엠디에스코리아 공모주, 자금 91.3%가 시설자금인](https://gongmoju-breakdown.blogspot.com/2026/11/mds-korea-ipo-2026-12.html) `2026-11-18-00566418-ipo.md` | 2496 | 0 | 3 | - |
 | 100 | [영광 공모주, 인수수수료율 3.09%로 최근 공모 ](https://gongmoju-breakdown.blogspot.com/2026/10/younggwang-ipo-2026-10.html) `2026-10-16-00579342-ipo.md` | 1836 | 0 | 2 | - |
 | 100 | [유캐스트 공모주 152억 원, 정정 뒤 11월 18](https://gongmoju-breakdown.blogspot.com/2026/10/ucast-ipo-2026-10.html) `2026-10-13-01705573-ipo.md` | 2064 | 0 | 3 | - |
-| 100 | [인터엑스 공모주 운영자금 63.5%, 한국투자증권 ](https://gongmoju-breakdown.blogspot.com/2026/11/interx-ipo-2026-12.html) `2026-11-02-01860700-ipo.md` | 2740 | 0 | 3 | - |
-| 100 | [제논 공모주 시설자금 155.9억 원, 비중 70.](https://gongmoju-breakdown.blogspot.com/2026/10/genon-ipo-2026-11.html) `2026-10-23-01950720-ipo.md` | 2502 | 0 | 2 | - |
+| 100 | [제논 공모주 시설자금 155.9억 원, 비중 70.](https://gongmoju-breakdown.blogspot.com/2026/10/genon-ipo-2026-11.html) `2026-10-23-01950720-ipo.md` | 2544 | 0 | 2 | - |
 | 100 | [제이앤티지 공모주 수수료율 2.52%, 대신증권·N](https://gongmoju-breakdown.blogspot.com/2026/10/jntg-ipo-2026-11.html) `2026-10-27-01403198-ipo.md` | 2588 | 0 | 2 | - |
 | 100 | [케이엠에프 공모주 수수료율 3.09%, 같은 300](https://gongmoju-breakdown.blogspot.com/2026/10/kmf-ipo-2026-11.html) `2026-10-31-01880139-ipo.md` | 2347 | 0 | 2 | - |
 | 100 | [크리에이츠 공모가 15,000원, 10월 19~23](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-week-2026-10-19.html) `2026-10-19-wk1019-weekly.md` | 2869 | 0 | 3 | - |
 | 100 | [태석광학 공모주 433.6억 원, 23곳 중 규모 ](https://gongmoju-breakdown.blogspot.com/2026/11/taeseok-optical-ipo-2026-12.html) `2026-11-13-01912128-ipo.md` | 2767 | 0 | 5 | - |
 | 100 | [티앤이코리아 공모주, 302.4억 원 중 운영자금 ](https://gongmoju-breakdown.blogspot.com/2026/10/tnekorea-ipo-2026-10.html) `2026-10-14-01543043-ipo.md` | 2270 | 0 | 2 | - |
+| 100 | [피지티 공모주 수수료율 4.63%, 일반 기업 20](https://gongmoju-breakdown.blogspot.com/2026/11/pgt-ipo-2026-12.html) `2026-11-21-01013612-ipo.md` | 2624 | 0 | 3 | - |
 | 100 | [하나에어로다이내믹스 공모주 시설자금 95.2%, 운](https://gongmoju-breakdown.blogspot.com/2026/10/hana-aerodynamics-ipo-2026-11.html) `2026-10-26-01025617-ipo.md` | 2364 | 0 | 1 | - |
 
 비공개·통합·삭제는 사용자와 상의한 뒤에만 한다. 보강(내용 추가·문장 수정)은 바로 해도 된다.

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 17:31",
+ "updated": "2026-11-21 17:17",
  "stage": 1,
  "band": [
   30,
@@ -120,18 +120,6 @@
    "comp": "중간",
    "entity": "방배동",
    "entity_id": "11650:방배동",
-   "base_score": 85.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 85.0,
-   "used": false
-  },
-  {
-   "keyword": "개포동아파트전세",
-   "volume": 170,
-   "comp": "중간",
-   "entity": "개포동",
-   "entity_id": "11680:개포동",
    "base_score": 85.0,
    "growth": 1.0,
    "why": "",
@@ -1771,18 +1759,6 @@
    "used": false
   },
   {
-   "keyword": "태전동아파트전세",
-   "volume": 480,
-   "comp": "높음",
-   "entity": "태전동",
-   "entity_id": "41610:태전동",
-   "base_score": 70.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 70.0,
-   "used": false
-  },
-  {
    "keyword": "범물동아파트전세",
    "volume": 35,
    "comp": "높음",
@@ -3139,6 +3115,18 @@
    "used": false
   },
   {
+   "keyword": "개포동아파트전세",
+   "volume": 170,
+   "comp": "중간",
+   "entity": "개포동",
+   "entity_id": "11680:개포동",
+   "base_score": 85.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 25.5,
+   "used": true
+  },
+  {
    "keyword": "중랑구아파트전세",
    "volume": 330,
    "comp": "중간",
@@ -3557,6 +3545,18 @@
    "why": "",
    "score": 21.2,
    "used": false
+  },
+  {
+   "keyword": "태전동아파트전세",
+   "volume": 480,
+   "comp": "높음",
+   "entity": "태전동",
+   "entity_id": "41610:태전동",
+   "base_score": 70.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 21.0,
+   "used": true
   },
   {
    "keyword": "성동구아파트전세",

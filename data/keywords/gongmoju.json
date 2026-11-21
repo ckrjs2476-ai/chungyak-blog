@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 17:31",
+ "updated": "2026-11-21 17:17",
  "stage": 1,
  "band": [
   30,
@@ -1939,18 +1939,6 @@
    "used": false
   },
   {
-   "keyword": "인텔리빅스공모주",
-   "volume": 18290,
-   "comp": "낮음",
-   "entity": "인텔리빅스",
-   "entity_id": "01649408",
-   "base_score": 5.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 5.5,
-   "used": false
-  },
-  {
    "keyword": "넥스아이수요예측",
    "volume": 6430,
    "comp": "낮음",
@@ -2515,18 +2503,6 @@
    "used": false
   },
   {
-   "keyword": "인텔리빅스수요예측",
-   "volume": 6690,
-   "comp": "중간",
-   "entity": "인텔리빅스",
-   "entity_id": "01649408",
-   "base_score": 4.2,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 4.6,
-   "used": false
-  },
-  {
    "keyword": "옵토닉스수요예측",
    "volume": 5680,
    "comp": "중간",
@@ -2971,6 +2947,18 @@
    "used": false
   },
   {
+   "keyword": "인텔리빅스공모주",
+   "volume": 18290,
+   "comp": "낮음",
+   "entity": "인텔리빅스",
+   "entity_id": "01649408",
+   "base_score": 5.0,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 3.3,
+   "used": false
+  },
+  {
    "keyword": "디티에스공모주",
    "volume": 10320,
    "comp": "낮음",
@@ -2992,6 +2980,18 @@
    "growth": 0.6,
    "why": "청약이 한 달 넘게 지나 검색이 줄어듦",
    "score": 3.0,
+   "used": false
+  },
+  {
+   "keyword": "인텔리빅스수요예측",
+   "volume": 6690,
+   "comp": "중간",
+   "entity": "인텔리빅스",
+   "entity_id": "01649408",
+   "base_score": 4.2,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 2.8,
    "used": false
   },
   {
@@ -3077,18 +3077,6 @@
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 1.5,
    "used": false
-  },
-  {
-   "keyword": "인텔리빅스공모가",
-   "volume": 5120,
-   "comp": "낮음",
-   "entity": "인텔리빅스",
-   "entity_id": "01649408",
-   "base_score": 5.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 1.5,
-   "used": true
   },
   {
    "keyword": "옵토닉스공모주",
@@ -3197,6 +3185,18 @@
    "why": "",
    "score": 1.1,
    "used": false
+  },
+  {
+   "keyword": "인텔리빅스공모가",
+   "volume": 5120,
+   "comp": "낮음",
+   "entity": "인텔리빅스",
+   "entity_id": "01649408",
+   "base_score": 5.0,
+   "growth": 0.18,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 0.9,
+   "used": true
   },
   {
    "keyword": "공모주일정",
