@@ -1,50 +1,5 @@
 [
  {
-  "name": "dr-jeonju-dronesoccer-wc-2026-11-15",
-  "ok": true,
-  "status": 200,
-  "title": "전주시 대표사이트 > 전주소식 > 알림마당 > 새소식 > 2025 전주드론축구월드컵(FIDA World Cup Jeonju 2025) 개최 안내(읽기)",
-  "size": [
-   760,
-   518
-  ],
-  "bytes": 29816,
-  "url": "https://www.jeonju.go.kr/planweb/board/view.9is?dataUid=9be517a89719f440019973cd46fc2c42&contentUid=ff8080818990c349018b041a87373953&tmpField14=&boardUid=ff8080818990c349018b1dbaa78e4b41&page=12",
-  "at": "2026-11-16 08:48"
- },
- {
-  "name": "dr-jeonju-dronesoccer-wc-full-2026-11-15",
-  "ok": true,
-  "status": 200,
-  "title": "전주시 대표사이트 > 전주소식 > 알림마당 > 새소식 > 2025 전주드론축구월드컵(FIDA World Cup Jeonju 2025) 개최 안내(읽기)",
-  "size": [
-   760,
-   2234
-  ],
-  "bytes": 92972,
-  "url": "https://www.jeonju.go.kr/planweb/board/view.9is?dataUid=9be517a89719f440019973cd46fc2c42&contentUid=ff8080818990c349018b041a87373953&tmpField14=&boardUid=ff8080818990c349018b1dbaa78e4b41&page=12",
-  "at": "2026-11-16 08:48"
- },
- {
-  "name": "dr-ktv-dronesoccer-2026-11-15",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.ktv.go.kr/content/view?content_id=738804&unit=266\", waiting until \"networkidle\"\n",
-  "url": "https://www.ktv.go.kr/content/view?content_id=738804&unit=266"
- },
- {
-  "name": "cy-2026000434-price-1116",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   182
-  ],
-  "bytes": 7730,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000434&pblancNo=2026000434",
-  "at": "2026-11-16 09:51"
- },
- {
   "name": "gw-41360-haemil-chart1117",
   "ok": true,
   "chart": {
@@ -5148,5 +5103,93 @@
   ],
   "bytes": 33868,
   "at": "2026-11-21 11:27"
+ },
+ {
+  "name": "js-41610-dong",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "41610",
+   "highlight": "태전동"
+  },
+  "size": [
+   760,
+   780
+  ],
+  "bytes": 25178,
+  "at": "2026-11-21 12:43"
+ },
+ {
+  "name": "js-gwangju-si-taejeon-dong-jeonse-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "태전동 아파트 전세, 광주시 전세가율과 얼마나 다를까?",
+   "answer": "광주시는 78.0%인데 전세 신고가 가장 많은 태전동은 66.3%입니다",
+   "compare": {
+    "head": [
+     "84㎡ 기준",
+     "전세 중앙값",
+     "전세가율"
+    ],
+    "rows": [
+     [
+      "광주시 전체",
+      "3억 2,000만 원",
+      "78.0%"
+     ],
+     [
+      "태전동",
+      "3억 4,500만 원",
+      "66.3%"
+     ],
+     [
+      "역동",
+      "4억 5,000만 원",
+      "63.4%"
+     ],
+     [
+      "초월읍 대쌍령리",
+      "3억 1,500만 원",
+      "105.0%"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-12"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 31942,
+  "at": "2026-11-21 12:43"
+ },
+ {
+  "name": "js-41610-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14380,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-21 12:43"
+ },
+ {
+  "name": "js-41610-rt",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7276,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-21 12:44"
  }
 ]
