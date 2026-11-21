@@ -1,33 +1,5 @@
 [
  {
-  "name": "gw-41360-haemil-chart1117",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41360",
-   "code": "A47294813"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 17826,
-  "at": "2026-11-18 01:07"
- },
- {
-  "name": "cy-2026000403-price-ulsan1117",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   321
-  ],
-  "bytes": 10768,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000403&pblancNo=2026000403",
-  "at": "2026-11-18 01:07"
- },
- {
   "name": "cy-2026000373-sched-gangdong1117",
   "ok": false,
   "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
@@ -5191,5 +5163,65 @@
   "bytes": 7276,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-21 12:44"
+ },
+ {
+  "name": "cy-busan-namgu-apartment-silgeorae-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "부산 남구 아파트 실거래가, 동마다 얼마나 다를까?",
+   "answer": "남구 84㎡ 908건은 5억 2,000만 원이 한가운데, 대연동은 7억 4,250만 원",
+   "compare": {
+    "head": [
+     "84㎡ 기준",
+     "거래",
+     "가운데 값"
+    ],
+    "rows": [
+     [
+      "남구 전체",
+      "908건",
+      "5억 2,000만 원"
+     ],
+     [
+      "대연동",
+      "406건",
+      "7억 4,250만 원"
+     ],
+     [
+      "문현동",
+      "191건",
+      "4억 5,800만 원"
+     ],
+     [
+      "더샵 트리센트 공고가",
+      "84㎡ 최고가",
+      "8억 4,900만 원"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가·청약홈",
+   "date": "2026-11-21"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 30362,
+  "at": "2026-11-21 18:39"
+ },
+ {
+  "name": "cy-busan-namgu-rt-1121",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7350,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-21 18:40"
  }
 ]
