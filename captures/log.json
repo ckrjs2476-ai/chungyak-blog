@@ -1,32 +1,5 @@
 [
  {
-  "name": "js-43114-rt-form-cheongwon",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7466,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-15 22:45"
- },
- {
-  "name": "ipo-week-2026-11-16-size",
-  "ok": true,
-  "chart": {
-   "type": "gongmoju_size",
-   "corp_code": "01938746"
-  },
-  "size": [
-   760,
-   844
-  ],
-  "bytes": 26626,
-  "at": "2026-11-16 07:53"
- },
- {
   "name": "ipo-01938746-dart-1116",
   "ok": true,
   "status": 200,
@@ -5091,5 +5064,60 @@
   ],
   "bytes": 25934,
   "at": "2026-11-21 08:56"
+ },
+ {
+  "name": "cy-sosa-humanvill-bunyangga-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "소사 휴먼빌 84㎡ 분양가, 소사구 시세와 비교하면?",
+   "answer": "84C 7억 8,847만 원, 소사구 신축 가운데 값과 0% 차이",
+   "compare": {
+    "head": [
+     "소사구 84㎡ 묶음",
+     "가운데 값",
+     "거래 수"
+    ],
+    "rows": [
+     [
+      "준공 5년 이내",
+      "7억 8,500만 원",
+      "95건"
+     ],
+     [
+      "소사구 전체",
+      "5억 9,700만 원",
+      "805건"
+     ],
+     [
+      "소사본동",
+      "5억 5,400만 원",
+      "217건"
+     ]
+    ]
+   },
+   "source": "청약홈 모집공고·국토교통부 실거래",
+   "date": "2026-11-21"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 26748,
+  "at": "2026-11-21 09:53"
+ },
+ {
+  "name": "cy-2026000591-price-1121",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   321
+  ],
+  "bytes": 10914,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000591&pblancNo=2026000591",
+  "at": "2026-11-21 09:53"
  }
 ]
