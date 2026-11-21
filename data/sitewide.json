@@ -2,39 +2,30 @@
  "date": "2026-11-21",
  "blogs": {
   "cheongyak": {
-   "posts": 79,
+   "posts": 80,
    "skeleton_pairs": [
     [
      "2026-10-10-2026000446-score.md",
      "2026-10-28-2026000513-2026000514-competition.md",
      0.8,
      0.0
-    ],
-    [
-     "2026-10-19-weekly-competition-1012-stats.md",
-     "2026-11-20-asan-2025-09-2026-10-region.md",
-     0.8,
-     0.0
     ]
    ],
    "overlap_pairs": [],
    "type_share": {
-    "region": 5,
+    "region": 4,
     "remainder": 1,
-    "notice": 2
+    "notice": 2,
+    "market": 1
    },
    "format_concentrated": false,
-   "stale": {
-    "2026-11-18-icheon-2025-11-2026-07-region.md": [
-     "지난 날짜를 앞으로의 일처럼 씀: '11월 19일, 계약일은 11월 26일이에요'"
-    ]
-   },
+   "stale": {},
    "conflicts": [],
    "anomalies": {},
-   "to_fix": 3
+   "to_fix": 1
   },
   "jeonse": {
-   "posts": 62,
+   "posts": 63,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
@@ -63,12 +54,12 @@
    "to_fix": 0
   },
   "gwanribi": {
-   "posts": 65,
+   "posts": 66,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "complex": 5,
     "topic": 2,
+    "complex": 5,
     "region": 1
    },
    "format_concentrated": false,
@@ -78,14 +69,14 @@
    "to_fix": 0
   },
   "drone": {
-   "posts": 41,
+   "posts": 42,
    "skeleton_pairs": [],
    "overlap_pairs": [],
    "type_share": {
-    "basic": 3,
+    "basic": 2,
     "news": 2,
     "job": 1,
-    "rule": 2
+    "rule": 3
    },
    "format_concentrated": false,
    "stale": {},
