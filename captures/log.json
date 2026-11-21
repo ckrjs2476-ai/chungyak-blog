@@ -1,20 +1,5 @@
 [
  {
-  "name": "js-newcomplex-48310-chart1117",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "48310",
-   "highlight": "장평동"
-  },
-  "size": [
-   760,
-   492
-  ],
-  "bytes": 17094,
-  "at": "2026-11-18 01:33"
- },
- {
   "name": "cy-2026000373-sched-gangdong1117b",
   "ok": true,
   "status": 200,
@@ -5689,5 +5674,18 @@
   "ok": false,
   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.rra.go.kr/ko/notice/D_e_faq2_1.do?fa_type=a&fa_category=compt\", waiting until \"networkidle\"\n",
   "url": "https://www.rra.go.kr/ko/notice/D_e_faq2_1.do?fa_type=a&fa_category=compt"
+ },
+ {
+  "name": "dr-drone-controller-frequency-2026-law",
+  "ok": true,
+  "status": 200,
+  "title": "전파법 > 법령 > 본문 | 국가법령정보센터",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 37780,
+  "url": "https://www.law.go.kr/법령/전파법",
+  "at": "2026-11-22 08:58"
  }
 ]
