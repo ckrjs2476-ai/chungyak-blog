@@ -1,18 +1,5 @@
 [
  {
-  "name": "ipo-01938746-dart-1116",
-  "ok": true,
-  "status": 200,
-  "title": "아델/증권신고서(지분증권)/2026.11.11",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33184,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000327",
-  "at": "2026-11-16 07:53"
- },
- {
   "name": "dr-jeonju-dronesoccer-wc-2026-11-15",
   "ok": true,
   "status": 200,
@@ -5119,5 +5106,47 @@
   "bytes": 10914,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000591&pblancNo=2026000591",
   "at": "2026-11-21 09:53"
+ },
+ {
+  "name": "gw-common-management-fee-namyangju-2026-09-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "compare",
+   "title": "남양주 공용관리비, ㎡당 1위가 세대 평균도 1위일까?",
+   "answer": "㎡당 1위 별사랑마을2-7단지는 1,944원, 세대 평균은 8만 1,307원으로 중앙값 아래",
+   "compare": {
+    "head": [
+     "남양주 131곳",
+     "공용관리비 ㎡당",
+     "세대 평균"
+    ],
+    "rows": [
+     [
+      "남양주 중앙값",
+      "994원",
+      "9만 8,210원"
+     ],
+     [
+      "별사랑마을2-7단지(1위)",
+      "1,944원",
+      "8만 1,307원"
+     ],
+     [
+      "덕소주공1단지(6위)",
+      "1,576원",
+      "12만 1,996원"
+     ]
+    ]
+   },
+   "source": "공동주택관리정보시스템(K-apt) 9월 부과분",
+   "date": "2026-11-05"
+  },
+  "size": [
+   760,
+   460
+  ],
+  "bytes": 33868,
+  "at": "2026-11-21 11:27"
  }
 ]
