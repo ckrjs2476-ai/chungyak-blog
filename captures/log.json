@@ -1,49 +1,5 @@
 [
  {
-  "name": "cy-2026000373-sched-gangdong1117",
-  "ok": false,
-  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"특별공급 공급대상\").first\n",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373"
- },
- {
-  "name": "cy-2026000515-price-pyeongtaek1117",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   403
-  ],
-  "bytes": 12044,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000515&pblancNo=2026000515",
-  "at": "2026-11-18 01:08"
- },
- {
-  "name": "js-donggap-rt-seodaemun1117",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-newcomplex-rt-geoje1117",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "ipo-jageum-adel-dart1117",
-  "ok": true,
-  "status": 200,
-  "title": "아델/증권신고서(지분증권)/2026.10.12",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 30830,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000445",
-  "at": "2026-11-18 01:09"
- },
- {
   "name": "ipo-wk1026-nexi-dart1117",
   "ok": true,
   "status": 200,
@@ -5223,5 +5179,95 @@
   "bytes": 7350,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-21 18:40"
+ },
+ {
+  "name": "js-51150-dong",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "51150",
+   "highlight": "내곡동"
+  },
+  "size": [
+   760,
+   492
+  ],
+  "bytes": 17242,
+  "at": "2026-11-21 19:49"
+ },
+ {
+  "name": "js-gangneung-si-jeonse-complex-ratio-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "강릉시 아파트 전세가율 89.9%는 몇 위일까?",
+   "answer": "180곳 중 25위, 단지 48곳 중 29곳이 80%를 넘습니다",
+   "points": [
+    {
+     "label": "강릉시 84㎡ 전세가율",
+     "value": "89.9%"
+    },
+    {
+     "label": "180곳 중 순위",
+     "value": "25위"
+    },
+    {
+     "label": "80% 넘는 단지",
+     "value": "48곳 중 29곳"
+    },
+    {
+     "label": "강릉호반베르디움오션아파트(2023년)",
+     "value": "52.0%"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-21"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 28464,
+  "at": "2026-11-21 19:49"
+ },
+ {
+  "name": "js-51150-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 15298,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-21 19:49"
+ },
+ {
+  "name": "js-51150-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 15332,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-21 19:49"
+ },
+ {
+  "name": "js-51150-rt",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7374,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-21 19:50"
  }
 ]
