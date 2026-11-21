@@ -129,3 +129,9 @@
 - 11-20 11:01 공모주 interx-ipo-2026-12 1건 요청 후 다음 요청에서 할당량 초과(어제 11:00~11:09 15건 + 19시 1건이 아직 24시간 안이라 할당량이 안 돌아옴). 오늘 새로 요청한 글: 공모주 interx-ipo-2026-12
   - 방법 메모: 결과 화면에서 바로 다음 주소를 입력하면 최근 검색 목록이 열려 앞 주소가 다시 검사됨 → 주소마다 속성 개요 화면으로 새로 이동한 뒤 입력.
   - 다음 실행 11-21 11:20(어제 요청 시각보다 뒤): 공모주(ipo-week-2026-11-02 먼저) → 전세 → 청약 → 드론 → 관리비
+
+- 11-21 오전(11:21~11:27) 5건 요청, 6번째(전세 wonju-si-jeonse-ratio-4weeks-2026-11)에서 할당량 초과
+  - 공모주 3: ipo-week-2026-11-02, pgt-ipo-2026-12, innovo-therapeutics-ipo-2026-12
+  - 전세 2: gangnam-gu-gaepo-dong-jeonse-4weeks, daejeon-yuseong-gu-jeonse-wolse-share
+  - 방법 메모: 개요 화면 이동 → find '모든 URL 검사' → triple_click(ref) → type → Enter. JS focus만으로는 입력이 안 됨.
+  - 다음 실행 11-22 11:41: 전세(wonju-si-jeonse-ratio-4weeks-2026-11 먼저) → 청약 → 드론 → 관리비 → 공모주
