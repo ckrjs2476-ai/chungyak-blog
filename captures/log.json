@@ -1,70 +1,5 @@
 [
  {
-  "name": "dr-delivery-molit-1117c",
-  "ok": true,
-  "status": 200,
-  "title": "보도자료",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 7988,
-  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0%EB%B0%B0%EC%86%A1",
-  "at": "2026-11-18 01:35"
- },
- {
-  "name": "dr-utm-molit-1117b",
-  "ok": true,
-  "status": 200,
-  "title": "보도자료",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 6542,
-  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EA%B5%90%ED%86%B5%EA%B4%80%EB%A6%AC",
-  "at": "2026-11-18 01:35"
- },
- {
-  "name": "dr-utm-molit-1117c",
-  "ok": true,
-  "status": 200,
-  "title": "보도자료",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 9602,
-  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=K-%EB%93%9C%EB%A1%A0",
-  "at": "2026-11-18 01:36"
- },
- {
-  "name": "dr-antidrone-molit-1117b",
-  "ok": true,
-  "status": 200,
-  "title": "보도자료",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 6524,
-  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EC%95%88%ED%8B%B0%EB%93%9C%EB%A1%A0",
-  "at": "2026-11-18 01:36"
- },
- {
-  "name": "dr-antidrone-molit-1117c",
-  "ok": true,
-  "status": 200,
-  "title": "보도자료",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 6538,
-  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%93%9C%EB%A1%A0%20%EB%B0%A9%EC%96%B4",
-  "at": "2026-11-18 01:36"
- },
- {
   "name": "dr-flight-rules-310-1117",
   "ok": true,
   "status": 200,
@@ -5742,5 +5677,106 @@
   "bytes": 16760,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-22 11:27"
+ },
+ {
+  "name": "js-30110-dong",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "30110",
+   "highlight": "가양동"
+  },
+  "size": [
+   760,
+   524
+  ],
+  "bytes": 16264,
+  "at": "2026-11-22 12:44"
+ },
+ {
+  "name": "js-daejeon-dong-gu-jeonse-gap-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "대전 동구 전세가율 87.5%, 금액으로는 얼마 차이일까?",
+   "answer": "84㎡ 전세 중앙값 2억 8,000만 원, 매매 중앙값과 4,000만 원 차이",
+   "compare": {
+    "head": [
+     "대전 구",
+     "84㎡ 전세가율",
+     "매매 중앙값과 간격"
+    ],
+    "rows": [
+     [
+      "동구",
+      "87.5%",
+      "4,000만 원"
+     ],
+     [
+      "중구",
+      "76.7%",
+      "8,800만 원"
+     ],
+     [
+      "서구",
+      "68.2%",
+      "1억 4,225만 원"
+     ],
+     [
+      "유성구",
+      "66.1%",
+      "1억 6,419만 원"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-14"
+  },
+  "size": [
+   760,
+   517
+  ],
+  "bytes": 30884,
+  "at": "2026-11-22 12:44"
+ },
+ {
+  "name": "js-30110-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14628,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-22 12:45"
+ },
+ {
+  "name": "js-30110-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14638,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-22 12:45"
+ },
+ {
+  "name": "js-30110-rt",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7286,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-22 12:45"
  }
 ]
