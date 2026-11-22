@@ -1,33 +1,5 @@
 [
  {
-  "name": "dr-drone-tech-advanced-list-2026-law",
-  "ok": true,
-  "status": 200,
-  "title": "첨단기술 및 제품의 범위 > 행정규칙 | 국가법령정보센터",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 33248,
-  "url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000266916",
-  "at": "2026-11-18 09:56"
- },
- {
-  "name": "gw-11440-mecenatpolis-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11440",
-   "code": "A12174601"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16304,
-  "at": "2026-11-18 11:27"
- },
- {
   "name": "gw-mecenatpolis-management-fee-2026-08-card",
   "ok": true,
   "card": {
@@ -5654,5 +5626,31 @@
   "ok": false,
   "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"주요내용\").first\n",
   "url": "https://community.lawmaking.go.kr/gcom/ogLmPp/88852?opnOpYn=Y"
+ },
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-easylaw2",
+  "ok": true,
+  "status": 200,
+  "title": "무인비행장치(드론) > 드론 비행하기 > 드론 비행승인 > 특별비행승인 신청 < 책자형 생활법령 : 모바일 생활법령",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 37618,
+  "url": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=2",
+  "at": "2026-11-23 08:56"
+ },
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-lawmaking2",
+  "ok": true,
+  "status": 200,
+  "title": "국민참여입법센터",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 6630,
+  "url": "https://community.lawmaking.go.kr/gcom/ogLmPp/88852?opnOpYn=Y",
+  "at": "2026-11-23 08:56"
  }
 ]
