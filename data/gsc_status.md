@@ -135,3 +135,7 @@
   - 전세 2: gangnam-gu-gaepo-dong-jeonse-4weeks, daejeon-yuseong-gu-jeonse-wolse-share
   - 방법 메모: 개요 화면 이동 → find '모든 URL 검사' → triple_click(ref) → type → Enter. JS focus만으로는 입력이 안 됨.
   - 다음 실행 11-22 11:41: 전세(wonju-si-jeonse-ratio-4weeks-2026-11 먼저) → 청약 → 드론 → 관리비 → 공모주
+
+- 11-22 11:42 전세 wonju-si-jeonse-ratio-4weeks-2026-11 1건 요청, 다음 전세·청약 주소에서 모두 할당량 초과(다른 속성도 막힘 → 계정 단위 할당량으로 보임)
+  - 요청 가능 수가 11-19 16건 → 11-20 1건 → 11-21 5건 → 11-22 1건으로 줄어듦. 같은 계정의 티스토리 색인 작업(매일 14:23, 2건)도 같은 할당량을 쓰는 것으로 보임.
+  - 다음 실행 11-23 12:02: 전세(gangneung-si-jeonse-complex-ratio-2026 먼저) → 청약 → 드론 → 관리비 → 공모주
