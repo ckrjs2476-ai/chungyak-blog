@@ -1,37 +1,5 @@
 [
  {
-  "name": "js-newcomplex-rt-geoje1117b",
-  "ok": false,
-  "error": "Page.goto: net::ERR_EMPTY_RESPONSE at https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "dr-no-fly-zone-calc-1b",
-  "ok": true,
-  "status": null,
-  "title": "blogs/drone/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14236,
-  "url": "blogs/drone/pages/calculator.md",
-  "at": "2026-11-18 01:34"
- },
- {
-  "name": "dr-delivery-molit-1117b",
-  "ok": true,
-  "status": 200,
-  "title": "보도자료",
-  "size": [
-   760,
-   484
-  ],
-  "bytes": 14176,
-  "url": "https://www.molit.go.kr/USR/NEWS/m_71/lst.jsp?search_section=&search=%EB%B0%B0%EC%86%A1",
-  "at": "2026-11-18 01:35"
- },
- {
   "name": "dr-delivery-molit-1117c",
   "ok": true,
   "status": 200,
@@ -5710,5 +5678,69 @@
   "bytes": 14824,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000103&pblancNo=2026000103",
   "at": "2026-11-22 09:52"
+ },
+ {
+  "name": "gw-11320-changdong-jugong4-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11320",
+   "code": "A13204104"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 15556,
+  "at": "2026-11-22 11:27"
+ },
+ {
+  "name": "gw-dobong-gu-apartment-management-fee-by-size-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "도봉구 대단지 관리비, ㎡당 얼마였나요?",
+   "answer": "1,000세대 이상은 공용 1,008원으로 가장 낮고 합계 2,468원으로 가장 높았어요",
+   "points": [
+    {
+     "label": "1,000세대 이상 공용관리비 중앙값",
+     "value": "1,008원"
+    },
+    {
+     "label": "1,000세대 이상 ㎡당 합계 중앙값",
+     "value": "2,468원"
+    },
+    {
+     "label": "500~999세대 ㎡당 합계 중앙값",
+     "value": "2,409원"
+    },
+    {
+     "label": "창동주공4단지 공용관리비(50곳 중 1위)",
+     "value": "1,635원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-21"
+  },
+  "size": [
+   760,
+   480
+  ],
+  "bytes": 33980,
+  "at": "2026-11-22 11:27"
+ },
+ {
+  "name": "gw-calc-dobong-59-1122",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16760,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-22 11:27"
  }
 ]
