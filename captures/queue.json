@@ -1,1 +1,51 @@
-[]
+[
+ {
+  "name": "js-daejeon-dong-gu-jeonse-gap-2026-11-card",
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "대전 동구 전세가율 87.5%, 금액으로는 얼마 차이일까?",
+   "answer": "84㎡ 전세 중앙값 2억 8,000만 원, 매매 중앙값과 4,000만 원 차이",
+   "compare": {
+    "head": ["대전 구", "84㎡ 전세가율", "매매 중앙값과 간격"],
+    "rows": [
+     ["동구", "87.5%", "4,000만 원"],
+     ["중구", "76.7%", "8,800만 원"],
+     ["서구", "68.2%", "1억 4,225만 원"],
+     ["유성구", "66.1%", "1억 6,419만 원"]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-14"
+  }
+ },
+ {
+  "name": "js-30110-dong",
+  "chart": {"type": "jeonse_dong", "lawd": "30110", "highlight": "가양동"}
+ },
+ {
+  "name": "js-30110-calc-1",
+  "page": "blogs/jeonse/pages/calculator.md",
+  "width": 760,
+  "steps": [{"fill": ["#sale", "32000"]}, {"fill": ["#dep", "28000"]}, {"pick": ["#reg", "대전광역시 동구"]}],
+  "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"},
+  "pad": 16
+ },
+ {
+  "name": "js-30110-calc-2",
+  "page": "blogs/jeonse/pages/calculator.md",
+  "width": 760,
+  "steps": [{"fill": ["#sale", "57500"]}, {"fill": ["#dep", "36500"]}, {"pick": ["#reg", "대전광역시 동구"]}],
+  "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"},
+  "pad": 16
+ },
+ {
+  "name": "js-30110-rt",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "대전"], "wait": 2}, {"pick": ["#srhSggCd", "동구"], "wait": 2}],
+  "crop": {"from": "연립/다세대"},
+  "height": 560
+ }
+]
