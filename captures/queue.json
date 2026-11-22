@@ -1,1 +1,37 @@
-[]
+[
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-card",
+  "card": {
+   "blog": "drone",
+   "layout": "steps",
+   "title": "소방드론 긴급비행 특례, 어떻게 바뀌어 왔나요?",
+   "answer": "2018년 4개 분야가 늘었고, 입법예고안대로면 11개가 9개로 줄어요",
+   "steps": [
+    "2017년 7월 18일 공익목적 긴급비행 특례 국회 통과",
+    "2018년 11월 22일 소방·산림에 4개 분야 추가",
+    "2026년 9월 30일 입법예고, 산림 2개 제외안",
+    "2026년 10월 15일 기준 공공목적 11개 특별비행승인 면제"
+   ],
+   "source": "국토교통부·법제처 생활법령정보",
+   "date": "2026-11-23"
+  }
+ },
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-easylaw",
+  "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=2",
+  "sleep": 4,
+  "crop": {
+   "from": "긴급"
+  },
+  "height": 700
+ },
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-lawmaking",
+  "url": "https://community.lawmaking.go.kr/gcom/ogLmPp/88852?opnOpYn=Y",
+  "sleep": 4,
+  "crop": {
+   "from": "주요내용"
+  },
+  "height": 700
+ }
+]
