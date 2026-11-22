@@ -1,41 +1,5 @@
 [
  {
-  "name": "dr-drone-soccer-rules-worldcup-2026-card",
-  "ok": true,
-  "card": {
-   "blog": "drone",
-   "layout": "points",
-   "title": "드론 축구 규칙, 한눈에 보면?",
-   "answer": "5명이 뛰어도 골은 골잡이 1명만 넣어요",
-   "points": [
-    {
-     "label": "팀당 선수",
-     "value": "5명"
-    },
-    {
-     "label": "세트 길이",
-     "value": "3분"
-    },
-    {
-     "label": "세트 수",
-     "value": "3세트"
-    },
-    {
-     "label": "골 넣는 선수",
-     "value": "1명"
-    }
-   ],
-   "source": "공공기관 드론 축구 자료",
-   "date": "2026-11-16"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 18052,
-  "at": "2026-11-18 02:47"
- },
- {
   "name": "ipo-00566418-size",
   "ok": true,
   "chart": {
@@ -5846,5 +5810,41 @@
   "bytes": 8322,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000585&pblancNo=2026000585",
   "at": "2026-11-22 18:40"
+ },
+ {
+  "name": "cy-yeongdeungpo-apartment-bunyang-2026-03-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "영등포 아파트 분양, 어디에 가장 몰렸나요?",
+   "answer": "신길센트럴시티 취소분이 1순위 282.55대 1로 가장 높았어요",
+   "points": [
+    {
+     "label": "신길센트럴시티 취소분",
+     "value": "5,450만 원 · 282.55대 1"
+    },
+    {
+     "label": "더샵 프리엘라",
+     "value": "5,132만 원 · 89.24대 1"
+    },
+    {
+     "label": "써밋 클라비온",
+     "value": "7,393만 원 · 66.78대 1"
+    },
+    {
+     "label": "신길센트럴시티 3월",
+     "value": "5,501만 원 · 31.86대 1"
+    }
+   ],
+   "source": "청약홈 공고·경쟁률 (3.3㎡당 평균 분양가)",
+   "date": "2026-11-22"
+  },
+  "size": [
+   760,
+   521
+  ],
+  "bytes": 34444,
+  "at": "2026-11-22 18:44"
  }
 ]
