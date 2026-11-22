@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: jeonse (2026-11-22 15:40 KST)
+# 애드센스 기준 점검: jeonse (2026-11-22 16:59 KST)
 
 - 공개 글: 63편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -50,7 +50,7 @@
 | 100 | [동작구 아파트 전세 7억 5,000만 원, 흑석동 ](https://jeonse-ondogye.blogspot.com/2026/11/seoul-dongjak-gu-jeonse-heukseok-dong.html) `2026-11-14-11590-region.md` | 3343 | 0 | 2 | - |
 | 100 | [동탄구 아파트 전세 4억 2,000만 원, 동별 전](https://jeonse-ondogye.blogspot.com/2026/10/dongtan-gu-jeonse-dong-gap-2026-10.html) `2026-10-16-41597-region.md` | 2653 | 0 | 1 | - |
 | 100 | [마곡동 아파트 전세 5억 7,096만 원, 강서구 ](https://jeonse-ondogye.blogspot.com/2026/11/seoul-gangseo-gu-magok-dong-jeonse-flow.html) `2026-11-01-11500-region.md` | 3755 | 0 | 1 | - |
-| 100 | [마포구 아파트 전세, 4주 새 138위에서 162위](https://jeonse-ondogye.blogspot.com/2026/11/seoul-mapo-gu-jeonse-ratio-rank-2026-11.html) `2026-11-18-11440-region.md` | 3529 | 0 | 2 | - |
+| 100 | [마포구 아파트 전세, 보증금 8억 원 그대로 매매가](https://jeonse-ondogye.blogspot.com/2026/11/seoul-mapo-gu-jeonse-ratio-rank-2026-11.html) `2026-11-18-11440-region.md` | 3529 | 0 | 2 | - |
 | 100 | [만세구 아파트 전세 2,465건 중 1,279건이 ](https://jeonse-ondogye.blogspot.com/2026/10/hwaseong-manse-gu-jeonse-hagil-ri-2026.html) `2026-10-30-41591-region.md` | 3216 | 0 | 1 | - |
 | 100 | [부산 강서구 아파트 전세, 단지 25곳 중 12곳이](https://jeonse-ondogye.blogspot.com/2026/10/busan-gangseo-gu-jeonse-complex-ratio.html) `2026-10-27-26440-region.md` | 2641 | 0 | 1 | - |
 | 100 | [부산 아파트 전세, 구군 전세가율 영도구 94.9%](https://jeonse-ondogye.blogspot.com/2026/11/busan-jeonse-ratio-ranking-2026-11.html) `2026-11-02-busan-ranking.md` | 3777 | 0 | 1 | - |

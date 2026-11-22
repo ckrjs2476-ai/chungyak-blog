@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 17:17",
+ "updated": "2026-11-22 17:00",
  "stage": 1,
  "band": [
   30,
@@ -307,18 +307,6 @@
    "used": false
   },
   {
-   "keyword": "이에스티공모가",
-   "volume": 2800,
-   "comp": "낮음",
-   "entity": "이에스티",
-   "entity_id": "01378005",
-   "base_score": 40.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 44.0,
-   "used": false
-  },
-  {
    "keyword": "유캐스트수요예측",
    "volume": 2630,
    "comp": "중간",
@@ -348,30 +336,6 @@
    "comp": "중간",
    "entity": "제이앤티지",
    "entity_id": "01403198",
-   "base_score": 34.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 37.4,
-   "used": false
-  },
-  {
-   "keyword": "영광공모가",
-   "volume": 4040,
-   "comp": "중간",
-   "entity": "영광",
-   "entity_id": "00579342",
-   "base_score": 34.0,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 37.4,
-   "used": false
-  },
-  {
-   "keyword": "영광수요예측",
-   "volume": 4290,
-   "comp": "중간",
-   "entity": "영광",
-   "entity_id": "00579342",
    "base_score": 34.0,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -499,6 +463,18 @@
    "used": true
   },
   {
+   "keyword": "이에스티공모가",
+   "volume": 2800,
+   "comp": "낮음",
+   "entity": "이에스티",
+   "entity_id": "01378005",
+   "base_score": 40.0,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 26.4,
+   "used": false
+  },
+  {
    "keyword": "씨아이에스케미칼공모주",
    "volume": 30,
    "comp": "중간",
@@ -544,6 +520,30 @@
    "growth": 1.26,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약일 전후라 지금 검색이 몰림",
    "score": 25.3,
+   "used": false
+  },
+  {
+   "keyword": "영광공모가",
+   "volume": 4040,
+   "comp": "중간",
+   "entity": "영광",
+   "entity_id": "00579342",
+   "base_score": 34.0,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 22.4,
+   "used": false
+  },
+  {
+   "keyword": "영광수요예측",
+   "volume": 4290,
+   "comp": "중간",
+   "entity": "영광",
+   "entity_id": "00579342",
+   "base_score": 34.0,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 22.4,
    "used": false
   },
   {
@@ -1735,18 +1735,6 @@
    "used": true
   },
   {
-   "keyword": "래블업공모가",
-   "volume": 3440,
-   "comp": "중간",
-   "entity": "래블업",
-   "entity_id": "01956751",
-   "base_score": 34.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 10.2,
-   "used": true
-  },
-  {
    "keyword": "제논공모주",
    "volume": 1590,
    "comp": "중간",
@@ -1877,6 +1865,18 @@
    "why": "",
    "score": 7.0,
    "used": false
+  },
+  {
+   "keyword": "래블업공모가",
+   "volume": 3440,
+   "comp": "중간",
+   "entity": "래블업",
+   "entity_id": "01956751",
+   "base_score": 34.0,
+   "growth": 0.18,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 6.1,
+   "used": true
   },
   {
    "keyword": "크리에이츠공모가",
@@ -2491,18 +2491,6 @@
    "used": false
   },
   {
-   "keyword": "이에스티수요예측",
-   "volume": 5560,
-   "comp": "중간",
-   "entity": "이에스티",
-   "entity_id": "01378005",
-   "base_score": 4.2,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 4.6,
-   "used": false
-  },
-  {
    "keyword": "옵토닉스수요예측",
    "volume": 5680,
    "comp": "중간",
@@ -2532,30 +2520,6 @@
    "comp": "중간",
    "entity": "에이엘로봇",
    "entity_id": "01797635",
-   "base_score": 4.2,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 4.6,
-   "used": false
-  },
-  {
-   "keyword": "래블업공모주",
-   "volume": 11260,
-   "comp": "중간",
-   "entity": "래블업",
-   "entity_id": "01956751",
-   "base_score": 4.2,
-   "growth": 1.1,
-   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
-   "score": 4.6,
-   "used": false
-  },
-  {
-   "keyword": "래블업수요예측",
-   "volume": 5080,
-   "comp": "중간",
-   "entity": "래블업",
-   "entity_id": "01956751",
    "base_score": 4.2,
    "growth": 1.1,
    "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크)",
@@ -2983,6 +2947,42 @@
    "used": false
   },
   {
+   "keyword": "이에스티수요예측",
+   "volume": 5560,
+   "comp": "중간",
+   "entity": "이에스티",
+   "entity_id": "01378005",
+   "base_score": 4.2,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 2.8,
+   "used": false
+  },
+  {
+   "keyword": "래블업공모주",
+   "volume": 11260,
+   "comp": "중간",
+   "entity": "래블업",
+   "entity_id": "01956751",
+   "base_score": 4.2,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 2.8,
+   "used": false
+  },
+  {
+   "keyword": "래블업수요예측",
+   "volume": 5080,
+   "comp": "중간",
+   "entity": "래블업",
+   "entity_id": "01956751",
+   "base_score": 4.2,
+   "growth": 0.66,
+   "why": "이미 쓴 대상의 다른 질문(주제 묶음·내부 링크); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 2.8,
+   "used": false
+  },
+  {
    "keyword": "인텔리빅스수요예측",
    "volume": 6690,
    "comp": "중간",
@@ -3052,30 +3052,6 @@
    "growth": 0.6,
    "why": "청약이 한 달 넘게 지나 검색이 줄어듦",
    "score": 2.5,
-   "used": false
-  },
-  {
-   "keyword": "영광공모주",
-   "volume": 44560,
-   "comp": "낮음",
-   "entity": "영광",
-   "entity_id": "00579342",
-   "base_score": 5.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 1.5,
-   "used": false
-  },
-  {
-   "keyword": "이에스티공모주",
-   "volume": 19170,
-   "comp": "낮음",
-   "entity": "이에스티",
-   "entity_id": "01378005",
-   "base_score": 5.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 1.5,
    "used": false
   },
   {
@@ -3184,6 +3160,30 @@
    "growth": 1.0,
    "why": "",
    "score": 1.1,
+   "used": false
+  },
+  {
+   "keyword": "영광공모주",
+   "volume": 44560,
+   "comp": "낮음",
+   "entity": "영광",
+   "entity_id": "00579342",
+   "base_score": 5.0,
+   "growth": 0.18,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 0.9,
+   "used": false
+  },
+  {
+   "keyword": "이에스티공모주",
+   "volume": 19170,
+   "comp": "낮음",
+   "entity": "이에스티",
+   "entity_id": "01378005",
+   "base_score": 5.0,
+   "growth": 0.18,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁); 청약이 한 달 넘게 지나 검색이 줄어듦",
+   "score": 0.9,
    "used": false
   },
   {

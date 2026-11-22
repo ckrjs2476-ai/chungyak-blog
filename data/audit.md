@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: cheongyak (2026-11-22 15:38 KST)
+# 애드센스 기준 점검: cheongyak (2026-11-22 16:59 KST)
 
 - 공개 글: 81편
 - 2편 이상에 반복된 문장 비율: 0% (목표 5% 미만)
@@ -87,7 +87,7 @@
 | 100 | [이천 분양 아파트 4곳 평당가, 가장 싼 예미지 1](https://daily-cheongyak.blogspot.com/2026/11/icheon-apartment-pyeong-price-2025-11.html) `2026-11-18-icheon-2025-11-2026-07-region.md` | 2844 | 0 | 2 | - |
 | 100 | [인천 분양 아파트 평당 분양가 비교, 송도 3,78](https://daily-cheongyak.blogspot.com/2026/10/incheon-apartment-pyeong-price-2026-05.html) `2026-10-16-incheon-may-oct-region.md` | 3580 | 0 | 2 | - |
 | 100 | [전주 분양 아파트 6곳 평당가, 1순위 34.65대](https://daily-cheongyak.blogspot.com/2026/11/jeonju-apartment-pyeong-price-2025-11.html) `2026-11-18-jeonju-2025-11-2026-09-region.md` | 2346 | 0 | 2 | - |
-| 100 | [제주시 분양 아파트 평당가, 연동 3,628만 원·](https://daily-cheongyak.blogspot.com/2026/11/jeju-si-apartment-pyeong-price-2025-11.html) `2026-11-16-jeju-si-2025-11-2026-10-region.md` | 3458 | 0 | 2 | - |
+| 100 | [제주시 분양 아파트 평당가, 민영 6곳 1,673만](https://daily-cheongyak.blogspot.com/2026/11/jeju-si-apartment-pyeong-price-2025-11.html) `2026-11-16-jeju-si-2025-11-2026-10-region.md` | 3458 | 0 | 2 | - |
 | 100 | [진주 판문지구 레이크써밋 웰가 당첨 가점, 84A ](https://daily-cheongyak.blogspot.com/2026/10/jinju-panmun-lake-summit-welga-score.html) `2026-10-10-2026000446-score.md` | 1940 | 0 | 1 | - |
 | 100 | [천안 분양 아파트 14곳, 9월 이후 1순위 경쟁률](https://daily-cheongyak.blogspot.com/2026/10/cheonan-apartment-pyeong-price-2026-02.html) `2026-10-20-cheonan-feb-oct-region.md` | 2809 | 0 | 2 | - |
 | 100 | [천안 서북구 아파트 실거래가, 84㎡ 중앙값 3억 ](https://daily-cheongyak.blogspot.com/2026/10/cheonan-seobuk-gu-apartment-silgeorae.html) `2026-10-17-cheonan-seobuk-market.md` | 3093 | 0 | 1 | - |

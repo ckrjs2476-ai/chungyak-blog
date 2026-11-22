@@ -1,4 +1,4 @@
-# 애드센스 기준 점검: gongmoju (2026-11-22 15:38 KST)
+# 애드센스 기준 점검: gongmoju (2026-11-22 16:59 KST)
 
 - 공개 글: 51편
 - 2편 이상에 반복된 문장 비율: 1% (목표 5% 미만)
@@ -45,7 +45,7 @@
 | 90 | [이노보테라퓨틱스 공모주 440억 원, 27곳 중 7](https://gongmoju-breakdown.blogspot.com/2026/11/innovo-therapeutics-ipo-2026-12.html) `2026-11-01-01783687-ipo.md` | 2561 | 1 | 2 | - |
 | 90 | [이에스티 공모주 시설자금 80.7%, 수수료율 3.](https://gongmoju-breakdown.blogspot.com/2026/10/est-ipo-2026-10.html) `2026-10-17-01378005-ipo.md` | 1773 | 0 | 2 | - |
 | 90 | [태석광학 공모주 433.6억 원, 23곳 중 규모 ](https://gongmoju-breakdown.blogspot.com/2026/11/taeseok-optical-ipo-2026-12.html) `2026-11-13-01912128-ipo.md` | 2927 | 1 | 5 | - |
-| 100 | [12월 공모주 7곳, 27곳 중 규모 4위부터 27](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-december-2026-12.html) `2026-10-30-december-topic.md` | 3862 | 0 | 5 | - |
+| 100 | [12월 공모주 10월 31일 기준 7곳, 27곳 중](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-december-2026-12.html) `2026-10-30-december-topic.md` | 3862 | 0 | 5 | - |
 | 100 | [KTE 공모주 535억 원, NH투자증권 단독 인수](https://gongmoju-breakdown.blogspot.com/2026/11/kte-ipo-2026-12.html) `2026-11-04-00208709-ipo.md` | 2696 | 0 | 2 | - |
 | 100 | [Simwon America 공모주 669.6억 원,](https://gongmoju-breakdown.blogspot.com/2026/10/simwon-america-ipo-2026-11.html) `2026-10-24-02038432-ipo.md` | 2748 | 0 | 2 | - |
 | 100 | [공모주 공모 규모, 28곳 중앙값 293.5억 원 ](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-offering-size-2026-10.html) `2026-10-25-gyumo-topic.md` | 2593 | 0 | 3 | - |

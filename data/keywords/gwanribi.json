@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 17:17",
+ "updated": "2026-11-22 17:00",
  "stage": 1,
  "band": [
   30,
@@ -1212,18 +1212,6 @@
    "comp": "낮음",
    "entity": "서울숲2차푸르지오",
    "entity_id": "A13378102",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "서울숲리버뷰자이관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "서울숲리버뷰자이",
-   "entity_id": "A10026207",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -3595,18 +3583,6 @@
    "used": false
   },
   {
-   "keyword": "도봉구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "도봉구",
-   "entity_id": "region:11320",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "미아벽산임대관리비",
    "volume": 10,
    "comp": "낮음",
@@ -3648,18 +3624,6 @@
    "comp": "낮음",
    "entity": "에피소드수유838",
    "entity_id": "A10023955",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "도봉구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "도봉구",
-   "entity_id": "region:11320",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -7241,6 +7205,42 @@
    "why": "",
    "score": 7.0,
    "used": false
+  },
+  {
+   "keyword": "서울숲리버뷰자이관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "서울숲리버뷰자이",
+   "entity_id": "A10026207",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
+  },
+  {
+   "keyword": "도봉구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "도봉구",
+   "entity_id": "region:11320",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "도봉구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "도봉구",
+   "entity_id": "region:11320",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
   },
   {
    "keyword": "중랑구관리비",
