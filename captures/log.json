@@ -1,125 +1,5 @@
 [
  {
-  "name": "dr-drone-no-fly-zone-check-2026-card",
-  "ok": true,
-  "card": {
-   "blog": "drone",
-   "layout": "compare",
-   "title": "드론 비행금지구역, 승인은 누가 하나요?",
-   "answer": "12곳 중 7곳 국방부, 5곳 국토교통부",
-   "compare": {
-    "head": [
-     "공역",
-     "이름",
-     "승인 기관"
-    ],
-    "rows": [
-     [
-      "비행금지구역 7곳",
-      "P518·P73·P61A~P65A",
-      "국방부"
-     ],
-     [
-      "비행금지구역 5곳",
-      "P61B~P65B",
-      "국토교통부"
-     ],
-     [
-      "비행제한구역",
-      "R-75",
-      "국방부"
-     ]
-    ]
-   },
-   "source": "법제처 생활법령정보",
-   "date": "2026-11-02"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 23732,
-  "at": "2026-11-18 09:56"
- },
- {
-  "name": "dr-drone-tech-advanced-list-2026-card",
-  "ok": true,
-  "card": {
-   "blog": "drone",
-   "layout": "compare",
-   "title": "드론 기술, 정부 첨단기술 목록엔 몇 개?",
-   "answer": "35개 분야 3,122개 중 드론 분야는 39개",
-   "compare": {
-    "head": [
-     "구분",
-     "항목 수",
-     "비중"
-    ],
-    "rows": [
-     [
-      "산업용 드론",
-      "18개",
-      "46.2%"
-     ],
-     [
-      "UAM",
-      "21개",
-      "53.8%"
-     ],
-     [
-      "2021년 선정",
-      "38개",
-      "97.4%"
-     ]
-    ]
-   },
-   "source": "산업통상부고시 제2025-10호 별표1",
-   "date": "2026-11-18"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 21768,
-  "at": "2026-11-18 09:56"
- },
- {
-  "name": "cy-icheon-apartment-pyeong-price-2025-11-2026-07-card",
-  "ok": true,
-  "card": {
-   "blog": "cheongyak",
-   "layout": "points",
-   "title": "이천 분양 아파트 4곳, 1순위는 어디로?",
-   "answer": "가장 싼 예미지에 509건, 나머지 세 곳은 11~20건",
-   "points": [
-    {
-     "label": "예미지 3.3㎡당 평균",
-     "value": "1,625만 원"
-    },
-    {
-     "label": "예미지 1순위 신청",
-     "value": "509건"
-    },
-    {
-     "label": "칸타빌 에듀파크 3.3㎡당",
-     "value": "1,825만 원"
-    },
-    {
-     "label": "휴먼빌 클래스원 남은 세대",
-     "value": "505세대"
-    }
-   ],
-   "source": "청약홈 모집공고·경쟁률",
-   "date": "2026-11-18"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 25122,
-  "at": "2026-11-18 09:56"
- },
- {
   "name": "dr-drone-tech-advanced-list-2026-law",
   "ok": true,
   "status": 200,
@@ -5731,5 +5611,48 @@
   "bytes": 29876,
   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000343",
   "at": "2026-11-23 07:53"
+ },
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "steps",
+   "title": "소방드론 긴급비행 특례, 어떻게 바뀌어 왔나요?",
+   "answer": "2018년 4개 분야가 늘었고, 입법예고안대로면 11개가 9개로 줄어요",
+   "steps": [
+    "2017년 7월 18일 공익목적 긴급비행 특례 국회 통과",
+    "2018년 11월 22일 소방·산림에 4개 분야 추가",
+    "2026년 9월 30일 입법예고, 산림 2개 제외안",
+    "2026년 10월 15일 기준 공공목적 11개 특별비행승인 면제"
+   ],
+   "source": "국토교통부·법제처 생활법령정보",
+   "date": "2026-11-23"
+  },
+  "size": [
+   760,
+   500
+  ],
+  "bytes": 37234,
+  "at": "2026-11-23 08:53"
+ },
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-easylaw",
+  "ok": true,
+  "status": 200,
+  "title": "생활법령 포털 | 찾기쉬운 생활법령",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 29608,
+  "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=2",
+  "at": "2026-11-23 08:54"
+ },
+ {
+  "name": "dr-drone-fire-drone-emergency-2026-lawmaking",
+  "ok": false,
+  "error": "Locator.wait_for: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"주요내용\").first\n",
+  "url": "https://community.lawmaking.go.kr/gcom/ogLmPp/88852?opnOpYn=Y"
  }
 ]
