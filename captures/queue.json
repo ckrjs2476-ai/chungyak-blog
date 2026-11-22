@@ -1,1 +1,99 @@
-[]
+[
+ {
+  "name": "js-anyang-dongan-gu-jeonse-flow-2026-11-card",
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "안양 동안구 아파트 전세, 석 달 새 얼마나 올랐을까?",
+   "answer": "84㎡ 최근 3개월 중앙값 5억 5,000만 원, 앞선 석 달보다 4.8% 올랐습니다",
+   "points": [
+    {
+     "label": "최근 3개월 전세 중앙값",
+     "value": "5억 5,000만 원"
+    },
+    {
+     "label": "10월 전세 중앙값",
+     "value": "5억 7,000만 원"
+    },
+    {
+     "label": "12개월 84㎡ 전세가율",
+     "value": "58.4%"
+    },
+    {
+     "label": "평촌동·호계동 전세가율",
+     "value": "48.7% · 64.4%"
+    }
+   ],
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-10"
+  }
+ },
+ {
+  "name": "js-41173-dong",
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "41173",
+   "highlight": "호계동"
+  }
+ },
+ {
+  "name": "js-41173-calc-1",
+  "page": "blogs/jeonse/pages/calculator.md",
+  "width": 760,
+  "steps": [
+   {
+    "fill": [
+     "#sale",
+     "89945"
+    ]
+   },
+   {
+    "fill": [
+     "#dep",
+     "52500"
+    ]
+   },
+   {
+    "pick": [
+     "#reg",
+     "안양시 동안구"
+    ]
+   }
+  ],
+  "crop": {
+   "from": "매매가(만 원)",
+   "to": "전세가율은 이렇게"
+  },
+  "pad": 16
+ },
+ {
+  "name": "js-41173-calc-2",
+  "page": "blogs/jeonse/pages/calculator.md",
+  "width": 760,
+  "steps": [
+   {
+    "fill": [
+     "#sale",
+     "89945"
+    ]
+   },
+   {
+    "fill": [
+     "#dep",
+     "55000"
+    ]
+   },
+   {
+    "pick": [
+     "#reg",
+     "안양시 동안구"
+    ]
+   }
+  ],
+  "crop": {
+   "from": "매매가(만 원)",
+   "to": "전세가율은 이렇게"
+  },
+  "pad": 16
+ }
+]
