@@ -1,31 +1,5 @@
 [
  {
-  "name": "dr-safety-cert-calc-2",
-  "ok": true,
-  "status": null,
-  "title": "blogs/drone/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 15126,
-  "url": "blogs/drone/pages/calculator.md",
-  "at": "2026-11-18 01:37"
- },
- {
-  "name": "ipo-wk1026-nexi-dart1016",
-  "ok": true,
-  "status": 200,
-  "title": "넥스아이/증권신고서(지분증권)/2026.10.16",
-  "size": [
-   760,
-   622
-  ],
-  "bytes": 35636,
-  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000268",
-  "at": "2026-11-18 01:37"
- },
- {
   "name": "dr-drone-soccer-rules-worldcup-2026-card",
   "ok": true,
   "card": {
@@ -5812,5 +5786,65 @@
   ],
   "bytes": 32894,
   "at": "2026-11-22 12:47"
+ },
+ {
+  "name": "cy-goyang-apartment-bunyang-2025-09-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "고양 분양 아파트, 3.3㎡당 얼마였나요?",
+   "answer": "공고 6건 중 퍼스트원 2,626만 원이 가장 높고 창릉 S-3 1,967만 원이 가장 낮아요",
+   "compare": {
+    "head": [
+     "단지",
+     "3.3㎡당 평균",
+     "경기 안 순위"
+    ],
+    "rows": [
+     [
+      "한신더휴 퍼스트원 (민영)",
+      "2,626만 원",
+      "38곳 중 10위"
+     ],
+     [
+      "창릉 S-4블록 (공공)",
+      "2,488만 원",
+      "11곳 중 2위"
+     ],
+     [
+      "창릉 우미 린 그레니티 (공공)",
+      "2,289만 원",
+      "16곳 중 4위"
+     ],
+     [
+      "창릉 S-3블록 (공공)",
+      "1,967만 원",
+      "11곳 중 8위"
+     ]
+    ]
+   },
+   "source": "청약홈 공고 (공고일 이전 6개월 경기 비교)",
+   "date": "2026-11-22"
+  },
+  "size": [
+   760,
+   507
+  ],
+  "bytes": 35320,
+  "at": "2026-11-22 18:40"
+ },
+ {
+  "name": "cy-2026000585-price-1122",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   210
+  ],
+  "bytes": 8322,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000585&pblancNo=2026000585",
+  "at": "2026-11-22 18:40"
  }
 ]
