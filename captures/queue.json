@@ -1,1 +1,5 @@
-[]
+[
+ {"name": "gw-dobong-gu-apartment-management-fee-by-size-2026-08-card", "card": {"blog": "gwanribi", "layout": "points", "title": "도봉구 대단지 관리비, ㎡당 얼마였나요?", "answer": "1,000세대 이상은 공용 1,008원으로 가장 낮고 합계 2,468원으로 가장 높았어요", "points": [{"label": "1,000세대 이상 공용관리비 중앙값", "value": "1,008원"}, {"label": "1,000세대 이상 ㎡당 합계 중앙값", "value": "2,468원"}, {"label": "500~999세대 ㎡당 합계 중앙값", "value": "2,409원"}, {"label": "창동주공4단지 공용관리비(50곳 중 1위)", "value": "1,635원"}], "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분", "date": "2026-10-21"}},
+ {"name": "gw-11320-changdong-jugong4-chart", "chart": {"type": "gwanribi_complex", "lawd": "11320", "code": "A13204104"}},
+ {"name": "gw-calc-dobong-59-1122", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "150000"]}, {"fill": ["#area", "59"]}, {"pick": ["#reg", "도봉구"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16}
+]
