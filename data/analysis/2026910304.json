@@ -1,0 +1,90 @@
+{
+ "no": "2026910304",
+ "name": "더샵 분당하이스트(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-11-23",
+ "rank1_date": "2026-11-30",
+ "city": "성남시",
+ "supply_kind": "",
+ "winner_date": "2026-12-03",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910304&pblancNo=2026910304",
+ "households": 34,
+ "types": [
+  {
+   "ty": "74A",
+   "size": 74,
+   "price": 234200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "74.44D",
+   "size": 74,
+   "price": 230200,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 298100,
+   "area_m2": null,
+   "general": 18,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84C",
+   "size": 84,
+   "price": 273900,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.64G",
+   "size": 84,
+   "price": 292000,
+   "area_m2": null,
+   "general": 12,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 34,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 273900,
+ "price_84_max": 298100,
+ "market": {
+  "region": "경기도 성남시 분당구",
+  "lawd": "41135",
+  "months": 12,
+  "updated": "2026-11-24",
+  "n84": 789,
+  "median84": 177000,
+  "p25_84": 149000,
+  "p75_84": 198000,
+  "new_n84": 149,
+  "new_median84": 132500,
+  "new_build_years": 5,
+  "umd": "정자동",
+  "umd_n84": 73,
+  "umd_median84": 183000,
+  "diff_vs_median84": 121100,
+  "diff_pct_vs_median84": 68,
+  "diff_vs_new_median84": 165600,
+  "diff_pct_vs_new_median84": 125,
+  "diff_vs_umd_median84": 115100,
+  "diff_pct_vs_umd_median84": 63
+ }
+}

@@ -38,6 +38,37 @@
  "special_share_pct": 0,
  "price_84_min": 62340,
  "price_84_max": 62940,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.4783B",
+    "supply": 7,
+    "closed_at": "None순위 None",
+    "rate": 101.71,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9219C",
+    "supply": 2,
+    "closed_at": "None순위 None",
+    "rate": 53.5,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 819,
+  "rank1_req": 0,
+  "supply_total": 9,
+  "final_shortfall_total": 0,
+  "closed_types": 2,
+  "rank1_closed_types": 0,
+  "type_count": 2,
+  "rank1_avg_rate": 0.0,
+  "best": {
+   "ty": "84.4783B",
+   "rate": 101.71,
+   "stage": "None순위 None"
+  }
+ },
  "market": {
   "region": "인천광역시 서해구",
   "lawd": "28275",

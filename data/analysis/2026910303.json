@@ -1,0 +1,58 @@
+{
+ "no": "2026910303",
+ "name": "동탄신도시 금강펜테리움 7차 센트럴파크(2차)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-11-23",
+ "rank1_date": "2026-11-30",
+ "city": "화성시",
+ "supply_kind": "",
+ "winner_date": "2026-12-03",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910303&pblancNo=2026910303",
+ "households": 4,
+ "types": [
+  {
+   "ty": "84.9676A",
+   "size": 84,
+   "price": 55320,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9264B",
+   "size": 84,
+   "price": 55810,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 4,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 55320,
+ "price_84_max": 55810,
+ "market": {
+  "region": "경기도 화성시 동탄구",
+  "lawd": "41597",
+  "months": 12,
+  "updated": "2026-10-26",
+  "n84": 3912,
+  "median84": 74000,
+  "p25_84": 63800,
+  "p75_84": 92000,
+  "new_n84": 112,
+  "new_median84": 124750,
+  "new_build_years": 5,
+  "diff_vs_median84": -18190,
+  "diff_pct_vs_median84": -25,
+  "diff_vs_new_median84": -68940,
+  "diff_pct_vs_new_median84": -55
+ }
+}

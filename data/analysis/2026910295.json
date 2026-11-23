@@ -55,5 +55,45 @@
  "special_total": 0,
  "special_share_pct": 0,
  "price_84_min": 88940,
- "price_84_max": 90250
+ "price_84_max": 90250,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7933D",
+    "supply": 155,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 147
+   },
+   {
+    "ty": "84.878C",
+    "supply": 26,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 23
+   },
+   {
+    "ty": "84.9052B",
+    "supply": 81,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 78
+   },
+   {
+    "ty": "84.9587A",
+    "supply": 53,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   }
+  ],
+  "req_total": 32,
+  "rank1_req": 0,
+  "supply_total": 315,
+  "final_shortfall_total": 283,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 4,
+  "rank1_avg_rate": 0.0
+ }
 }

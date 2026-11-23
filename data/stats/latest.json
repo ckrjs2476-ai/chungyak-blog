@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "weekly_competition": [
   {
    "no": "2026000497",
@@ -66,19 +66,34 @@
    "final_shortfall_total": 466,
    "rank1_closed_types": 0,
    "type_count": 2
-  },
-  {
-   "no": "2026000554",
-   "name": "리첼 에듀포레 경산역",
-   "region": "경북",
-   "rank1_avg_rate": 0.02,
-   "best": null,
-   "final_shortfall_total": 195,
-   "rank1_closed_types": 0,
-   "type_count": 4
   }
  ],
  "weekly_remainder": [
+  {
+   "no": "2026910289",
+   "name": "이안 엑소디움 에이펙스",
+   "region": "대구",
+   "households": 6,
+   "rcept_date": "2026-11-30",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910289&pblancNo=2026910289",
+   "types": [
+    {
+     "ty": "84.8856A",
+     "price": 64970,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9465B",
+     "price": 64350,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9213C",
+     "price": 65800,
+     "pyeong_price": null
+    }
+   ]
+  },
   {
    "no": "2026910292",
    "name": "검암역 푸르지오 프라베뉴 (B-1BL) 공공분양주택",
@@ -230,6 +245,116 @@
    ]
   },
   {
+   "no": "2026910301",
+   "name": "이천 서희스타힐스 SKY (조합원 취소분)",
+   "region": "경기",
+   "households": 3,
+   "rcept_date": "2026-12-01",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910301&pblancNo=2026910301",
+   "types": [
+    {
+     "ty": "84.98A",
+     "price": 65460,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.99C",
+     "price": 63050,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910302",
+   "name": "한화포레나 영흥숲(4차)",
+   "region": "경기",
+   "households": 2,
+   "rcept_date": "2026-12-01",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910302&pblancNo=2026910302",
+   "types": [
+    {
+     "ty": "66.8113",
+     "price": 51220,
+     "pyeong_price": null
+    },
+    {
+     "ty": "68.9883",
+     "price": 57600,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910303",
+   "name": "동탄신도시 금강펜테리움 7차 센트럴파크(2차)",
+   "region": "경기",
+   "households": 4,
+   "rcept_date": "2026-11-30",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910303&pblancNo=2026910303",
+   "types": [
+    {
+     "ty": "84.9676A",
+     "price": 55320,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9264B",
+     "price": 55810,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910304",
+   "name": "더샵 분당하이스트(2차)",
+   "region": "경기",
+   "households": 34,
+   "rcept_date": "2026-11-30",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910304&pblancNo=2026910304",
+   "types": [
+    {
+     "ty": "74A",
+     "price": 234200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "74.44D",
+     "price": 230200,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84A",
+     "price": 298100,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84C",
+     "price": 273900,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.64G",
+     "price": 292000,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910305",
+   "name": "판교TH212(2차)",
+   "region": "경기",
+   "households": 1,
+   "rcept_date": "2026-11-30",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910305&pblancNo=2026910305",
+   "types": [
+    {
+     "ty": "128.8329C",
+     "price": 159300,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
    "no": "2026910306",
    "name": "광안센텀 비스타동원(조합원 취소분)",
    "region": "부산",
@@ -316,6 +441,21 @@
      "ty": "59.767C",
      "price": 40968,
      "pyeong_price": 1695
+    }
+   ]
+  },
+  {
+   "no": "2026930048",
+   "name": "동탄신도시 금강펜테리움 7차 센트럴파크 불법행위재공급",
+   "region": "경기",
+   "households": 1,
+   "rcept_date": "2026-11-30",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930048&pblancNo=2026930048",
+   "types": [
+    {
+     "ty": "84.9676A",
+     "price": 55320,
+     "pyeong_price": 1637
     }
    ]
   }

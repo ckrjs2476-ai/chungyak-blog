@@ -65,20 +65,67 @@
  "special_share_pct": 0,
  "price_84_min": 58660,
  "price_84_max": 58660,
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9469B",
+    "supply": 97,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 97
+   },
+   {
+    "ty": "112.9922A",
+    "supply": 17,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 17
+   },
+   {
+    "ty": "132.982A",
+    "supply": 13,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 13
+   },
+   {
+    "ty": "138.9652P",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   },
+   {
+    "ty": "165.9676P",
+    "supply": 1,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 1
+   }
+  ],
+  "req_total": 0,
+  "rank1_req": 0,
+  "supply_total": 129,
+  "final_shortfall_total": 129,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 5,
+  "rank1_avg_rate": 0.0
+ },
  "market": {
   "region": "경상남도 거제시",
   "lawd": "48310",
   "months": 12,
-  "updated": "2026-11-23",
-  "n84": 1166,
+  "updated": "2026-11-24",
+  "n84": 1175,
   "median84": 17500,
   "p25_84": 13300,
   "p75_84": 24000,
-  "new_n84": 189,
+  "new_n84": 192,
   "new_median84": 39800,
   "new_build_years": 5,
   "umd": "옥포동",
-  "umd_n84": 128,
+  "umd_n84": 129,
   "umd_median84": 16000,
   "diff_vs_median84": 41160,
   "diff_pct_vs_median84": 235,

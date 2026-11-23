@@ -1,0 +1,56 @@
+{
+ "kind": "remndr",
+ "detail": {
+  "BSNS_MBY_NM": "안흥동 지역주택조합",
+  "CNTRCT_CNCLS_BGNDE": "2026-12-08",
+  "CNTRCT_CNCLS_ENDDE": "2026-12-08",
+  "GNRL_RCEPT_BGNDE": null,
+  "GNRL_RCEPT_ENDDE": null,
+  "HMPG_ADRES": "http://www.이천서희스타힐스스카이.com",
+  "HOUSE_MANAGE_NO": "2026910301",
+  "HOUSE_NM": "이천 서희스타힐스 SKY (조합원 취소분)",
+  "HOUSE_SECD": "04",
+  "HOUSE_SECD_NM": "무순위",
+  "HSSPLY_ADRES": "경기도 이천시 안흥동 279-1번지 일원",
+  "HSSPLY_ZIP": "17378",
+  "MDHS_TELNO": "15776803",
+  "MVN_PREARNGE_YM": "202901",
+  "NSPRC_NM": null,
+  "PBLANC_NO": "2026910301",
+  "PBLANC_URL": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910301&pblancNo=2026910301",
+  "PRZWNER_PRESNATN_DE": "2026-12-04",
+  "RCRIT_PBLANC_DE": "2026-11-23",
+  "SPSPLY_RCEPT_BGNDE": null,
+  "SPSPLY_RCEPT_ENDDE": null,
+  "SUBSCRPT_AREA_CODE": "410",
+  "SUBSCRPT_AREA_CODE_NM": "경기",
+  "SUBSCRPT_RCEPT_BGNDE": "2026-12-01",
+  "SUBSCRPT_RCEPT_ENDDE": "2026-12-01",
+  "TOT_SUPLY_HSHLDCO": 3
+ },
+ "models": [
+  {
+   "HOUSE_MANAGE_NO": "2026910301",
+   "HOUSE_TY": "084.9800A",
+   "LTTOT_TOP_AMOUNT": "65460",
+   "MODEL_NO": "01",
+   "PBLANC_NO": "2026910301",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 2
+  },
+  {
+   "HOUSE_MANAGE_NO": "2026910301",
+   "HOUSE_TY": "084.9900C",
+   "LTTOT_TOP_AMOUNT": "63050",
+   "MODEL_NO": "02",
+   "PBLANC_NO": "2026910301",
+   "SPSPLY_HSHLDCO": 0,
+   "SUPLY_AR": null,
+   "SUPLY_HSHLDCO": 1
+  }
+ ],
+ "competition": [],
+ "score": [],
+ "fetched_at": "2026-11-24T06:27:17.060241+09:00"
+}

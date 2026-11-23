@@ -1,0 +1,63 @@
+{
+ "no": "2026910301",
+ "name": "이천 서희스타힐스 SKY (조합원 취소분)",
+ "kind": "remndr",
+ "region": "경기",
+ "notice_date": "2026-11-23",
+ "rank1_date": "2026-12-01",
+ "city": "이천시",
+ "supply_kind": "",
+ "winner_date": "2026-12-04",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910301&pblancNo=2026910301",
+ "households": 3,
+ "types": [
+  {
+   "ty": "84.98A",
+   "size": 84,
+   "price": 65460,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.99C",
+   "size": 84,
+   "price": 63050,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 3,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 63050,
+ "price_84_max": 65460,
+ "market": {
+  "region": "경기도 이천시",
+  "lawd": "41500",
+  "months": 12,
+  "updated": "2026-11-24",
+  "n84": 826,
+  "median84": 31500,
+  "p25_84": 20975,
+  "p75_84": 37825,
+  "new_n84": 191,
+  "new_median84": 42000,
+  "new_build_years": 5,
+  "umd": "안흥동",
+  "umd_n84": 80,
+  "umd_median84": 42000,
+  "diff_vs_median84": 33960,
+  "diff_pct_vs_median84": 108,
+  "diff_vs_new_median84": 23460,
+  "diff_pct_vs_new_median84": 56,
+  "diff_vs_umd_median84": 23460,
+  "diff_pct_vs_umd_median84": 56
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "no": "2026910289",
+ "name": "이안 엑소디움 에이펙스",
+ "kind": "remndr",
+ "region": "대구",
+ "notice_date": "2026-11-23",
+ "rank1_date": "2026-11-30",
+ "city": "달서구",
+ "supply_kind": "",
+ "winner_date": "2026-12-03",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910289&pblancNo=2026910289",
+ "households": 6,
+ "types": [
+  {
+   "ty": "84.8856A",
+   "size": 84,
+   "price": 64970,
+   "area_m2": null,
+   "general": 2,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9465B",
+   "size": 84,
+   "price": 64350,
+   "area_m2": null,
+   "general": 3,
+   "special": 0,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "84.9213C",
+   "size": 84,
+   "price": 65800,
+   "area_m2": null,
+   "general": 1,
+   "special": 0,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 6,
+ "special_total": 0,
+ "special_share_pct": 0,
+ "price_84_min": 64350,
+ "price_84_max": 65800,
+ "market": {
+  "region": "대구광역시 달서구",
+  "lawd": "27290",
+  "months": 12,
+  "updated": "2026-11-23",
+  "n84": 2248,
+  "median84": 35650,
+  "p25_84": 25500,
+  "p75_84": 50200,
+  "new_n84": 489,
+  "new_median84": 58650,
+  "new_build_years": 5,
+  "umd": "감삼동",
+  "umd_n84": 210,
+  "umd_median84": 51400,
+  "diff_vs_median84": 30150,
+  "diff_pct_vs_median84": 85,
+  "diff_vs_new_median84": 7150,
+  "diff_pct_vs_new_median84": 12,
+  "diff_vs_umd_median84": 14400,
+  "diff_pct_vs_umd_median84": 28
+ }
+}
