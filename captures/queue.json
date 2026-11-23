@@ -1,1 +1,5 @@
-[]
+[
+ {"name": "gw-dongdaemun-gu-apartment-management-fee-ranking-2026-08-card", "card": {"blog": "gwanribi", "layout": "points", "title": "동대문구 아파트 관리비 1위와 56위는 얼마나 벌어졌나요?", "answer": "1위 청계한신휴플러스 ㎡당 5,285원, 56위는 1,641원으로 3.22배였어요", "points": [{"label": "1위 청계한신휴플러스 ㎡당 합계", "value": "5,285원"}, {"label": "56위 휘경리오포레2단지 아파트 ㎡당 합계", "value": "1,641원"}, {"label": "동대문구 ㎡당 합계 중앙값 (56곳)", "value": "2,528원"}, {"label": "청계한신휴플러스 전기료 ㎡당", "value": "3,128원"}], "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분", "date": "2026-10-22"}},
+ {"name": "gw-11230-cheonggye-hanshin-chart", "chart": {"type": "gwanribi_complex", "lawd": "11230", "code": "A13003005"}},
+ {"name": "gw-calc-dongdaemun-84-1123", "page": "blogs/gwanribi/pages/calculator.md", "width": 760, "steps": [{"fill": ["#fee", "210000"]}, {"fill": ["#area", "84"]}, {"pick": ["#reg", "동대문구"]}], "crop": {"from": "이번 달 관리비 합계", "to": "비교 기준은 이렇게"}, "pad": 16}
+]
