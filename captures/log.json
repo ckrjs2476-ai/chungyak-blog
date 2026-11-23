@@ -1,56 +1,5 @@
 [
  {
-  "name": "js-11440-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "11440",
-   "highlight": "망원동"
-  },
-  "size": [
-   760,
-   684
-  ],
-  "bytes": 21186,
-  "at": "2026-11-18 19:48"
- },
- {
-  "name": "js-mapo-gu-jeonse-rank-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "points",
-   "title": "마포구 아파트 전세가율, 4주 새 순위는 왜 밀렸을까?",
-   "answer": "비율은 1.1%p 내렸고, 비율이 그대로인 용산구도 22계단 밀렸습니다",
-   "points": [
-    {
-     "label": "84㎡ 전세가율(11월 10일)",
-     "value": "52.3%"
-    },
-    {
-     "label": "179곳 중 순위(11월 18일)",
-     "value": "162위"
-    },
-    {
-     "label": "84㎡ 전세 중앙값",
-     "value": "8억 원"
-    },
-    {
-     "label": "84㎡ 매매 중앙값",
-     "value": "15억 3,000만 원"
-    }
-   ],
-   "source": "국토교통부 실거래가",
-   "date": "2026-11-18"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 29946,
-  "at": "2026-11-18 19:48"
- },
- {
   "name": "js-11440-calc-1",
   "ok": true,
   "status": null,
@@ -5605,5 +5554,65 @@
   "bytes": 7386,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-23 12:45"
+ },
+ {
+  "name": "cy-weekly-competition-ranking-2026-11-3w-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "11월 3주 청약 경쟁률, 어디가 가장 높았나요?",
+   "answer": "중화역 19.85대 1이 1위지만 서울 11곳 중에서는 9위예요",
+   "compare": {
+    "head": [
+     "단지",
+     "1순위 평균",
+     "지역 안 순위"
+    ],
+    "rows": [
+     [
+      "중화역 라온프라이빗 센트로",
+      "19.85대 1",
+      "서울 11곳 중 9위"
+     ],
+     [
+      "삼도이동 1지구 토지임대부",
+      "3.43대 1",
+      "제주 5곳 중 1위"
+     ],
+     [
+      "의정부역 펠리스타워 양우내안애",
+      "0.88대 1",
+      "경기 41곳 중 20위"
+     ],
+     [
+      "제일풍경채 광주 포에듀",
+      "0.1대 1",
+      "경기 41곳 중 38위"
+     ]
+    ]
+   },
+   "source": "청약홈 경쟁률 (11월 16·17일 1순위)",
+   "date": "2026-11-23"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 35124,
+  "at": "2026-11-23 18:41"
+ },
+ {
+  "name": "cy-2026000557-schedule-1123",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   445
+  ],
+  "bytes": 16944,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000557&pblancNo=2026000557",
+  "at": "2026-11-23 18:41"
  }
 ]
