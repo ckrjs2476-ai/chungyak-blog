@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22 17:00",
+ "updated": "2026-11-23 09:47",
  "stage": 1,
  "band": [
   30,
@@ -9,6 +9,18 @@
   {
    "keyword": "장기수선충당금계산",
    "volume": 140,
+   "comp": "낮음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "base_score": 100.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
+   "score": 100.0,
+   "used": true
+  },
+  {
+   "keyword": "관리비항목",
+   "volume": 40,
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -32,7 +44,7 @@
   },
   {
    "keyword": "아파트장기수선충당금",
-   "volume": 1130,
+   "volume": 1040,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -44,7 +56,7 @@
   },
   {
    "keyword": "아파트관리비고지서",
-   "volume": 240,
+   "volume": 210,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -92,19 +104,7 @@
   },
   {
    "keyword": "아파트장기수선계획",
-   "volume": 80,
-   "comp": "중간",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "base_score": 85.0,
-   "growth": 1.1,
-   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 93.5,
-   "used": true
-  },
-  {
-   "keyword": "관리비항목",
-   "volume": 50,
+   "volume": 70,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -116,7 +116,7 @@
   },
   {
    "keyword": "장기수선계획",
-   "volume": 370,
+   "volume": 360,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -140,7 +140,7 @@
   },
   {
    "keyword": "아파트난방비",
-   "volume": 110,
+   "volume": 120,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -163,68 +163,56 @@
    "used": false
   },
   {
-   "keyword": "장기수선충당금적립및사용현황",
-   "volume": 15,
-   "comp": "중간",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "base_score": 51.0,
-   "growth": 1.1,
-   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 56.1,
-   "used": false
-  },
-  {
-   "keyword": "장기수선충당금항목",
-   "volume": 15,
-   "comp": "중간",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "base_score": 51.0,
-   "growth": 1.1,
-   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 56.1,
-   "used": false
-  },
-  {
    "keyword": "장기수선충당금사용",
    "volume": 15,
-   "comp": "높음",
+   "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "base_score": 42.0,
+   "base_score": 51.0,
    "growth": 1.1,
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 46.2,
+   "score": 56.1,
    "used": false
   },
   {
    "keyword": "난방비줄이는방법",
    "volume": 25,
-   "comp": "높음",
+   "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "base_score": 42.0,
+   "base_score": 51.0,
    "growth": 1.1,
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 46.2,
+   "score": 56.1,
    "used": false
   },
   {
    "keyword": "관리비고지서대행",
    "volume": 15,
-   "comp": "높음",
+   "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
-   "base_score": 42.0,
+   "base_score": 51.0,
    "growth": 1.1,
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 46.2,
+   "score": 56.1,
    "used": false
   },
   {
+   "keyword": "트리마제관리비",
+   "volume": 65,
+   "comp": "낮음",
+   "entity": "트리마제",
+   "entity_id": "A10026988",
+   "base_score": 100.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 30.0,
+   "used": true
+  },
+  {
    "keyword": "나인원한남관리비",
-   "volume": 190,
+   "volume": 150,
    "comp": "중간",
    "entity": "나인원 한남",
    "entity_id": "A10025192",
@@ -235,20 +223,8 @@
    "used": true
   },
   {
-   "keyword": "트리마제관리비",
-   "volume": 80,
-   "comp": "중간",
-   "entity": "트리마제",
-   "entity_id": "A10026988",
-   "base_score": 85.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 25.5,
-   "used": true
-  },
-  {
    "keyword": "메세나폴리스관리비",
-   "volume": 90,
+   "volume": 100,
    "comp": "중간",
    "entity": "메세나폴리스",
    "entity_id": "A12174601",
@@ -259,8 +235,20 @@
    "used": true
   },
   {
+   "keyword": "아파트관리비확인",
+   "volume": 50,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 25.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 25.0,
+   "used": false
+  },
+  {
    "keyword": "아파트관리비비교",
-   "volume": 70,
+   "volume": 60,
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
@@ -272,7 +260,7 @@
   },
   {
    "keyword": "관리비확인",
-   "volume": 80,
+   "volume": 70,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -283,7 +271,43 @@
    "used": false
   },
   {
-   "keyword": "아파트관리비확인",
+   "keyword": "관리비프로그램",
+   "volume": 40,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 21.2,
+   "growth": 1.0,
+   "why": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "관리비부과",
+   "volume": 50,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 21.2,
+   "growth": 1.0,
+   "why": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "건물관리비",
+   "volume": 60,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 21.2,
+   "growth": 1.0,
+   "why": "",
+   "score": 21.2,
+   "used": false
+  },
+  {
+   "keyword": "관리비부과대행",
    "volume": 50,
    "comp": "중간",
    "entity": "",
@@ -308,7 +332,7 @@
   },
   {
    "keyword": "한남더힐관리비",
-   "volume": 200,
+   "volume": 190,
    "comp": "높음",
    "entity": "한남더힐",
    "entity_id": "A14077902",
@@ -1063,18 +1087,6 @@
    "used": false
   },
   {
-   "keyword": "용산베르디움프렌즈관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "용산 베르디움 프렌즈",
-   "entity_id": "A10024333",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "서울숲더샵관리비",
    "volume": 10,
    "comp": "낮음",
@@ -1783,6 +1795,18 @@
    "used": false
   },
   {
+   "keyword": "광진구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "광진구",
+   "entity_id": "region:11215",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
    "keyword": "광진구아파트관리비",
    "volume": 10,
    "comp": "낮음",
@@ -1836,6 +1860,18 @@
    "comp": "낮음",
    "entity": "광장현대5단지",
    "entity_id": "A14381512",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "광장힐스테이트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "광장힐스테이트",
+   "entity_id": "A14375301",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -2844,6 +2880,18 @@
    "comp": "낮음",
    "entity": "청량리한신1차",
    "entity_id": "A13086703",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "회기역하트리움관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "회기역 하트리움",
+   "entity_id": "A10023368",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -4255,6 +4303,18 @@
    "used": false
   },
   {
+   "keyword": "상계주공12단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "상계주공12단지",
+   "entity_id": "A13982202",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
    "keyword": "중계한화꿈에그린관리비",
    "volume": 10,
    "comp": "낮음",
@@ -4795,6 +4855,18 @@
    "used": false
   },
   {
+   "keyword": "상계주공4단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "상계주공4단지",
+   "entity_id": "A13920706",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
    "keyword": "상계한신3차관리비",
    "volume": 10,
    "comp": "낮음",
@@ -4920,6 +4992,18 @@
    "comp": "낮음",
    "entity": "상계수락파크빌",
    "entity_id": "A13983810",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "상계주공9단지관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "상계주공9단지",
+   "entity_id": "A13921005",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -5851,6 +5935,18 @@
    "used": false
   },
   {
+   "keyword": "홍제원현대관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "홍제원 현대",
+   "entity_id": "A12078704",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
    "keyword": "홍제현대관리비",
    "volume": 10,
    "comp": "낮음",
@@ -6048,6 +6144,18 @@
    "comp": "낮음",
    "entity": "도화현대홈타운",
    "entity_id": "A12181404",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "마포그랑자이관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "마포그랑자이",
+   "entity_id": "A10025003",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -6583,6 +6691,30 @@
    "used": false
   },
   {
+   "keyword": "장기수선충당금적립및사용현황",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "base_score": 17.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
+   "score": 18.7,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금항목",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "base_score": 17.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
+   "score": 18.7,
+   "used": false
+  },
+  {
    "keyword": "장기수선계획컨설팅",
    "volume": 10,
    "comp": "중간",
@@ -6596,6 +6728,18 @@
   },
   {
    "keyword": "집합건물장기수선계획",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "base_score": 17.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
+   "score": 18.7,
+   "used": false
+  },
+  {
+   "keyword": "장기수선계획검토",
    "volume": 10,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
@@ -6631,8 +6775,8 @@
    "used": false
   },
   {
-   "keyword": "관리비프로그램",
-   "volume": 40,
+   "keyword": "관리비",
+   "volume": 1380,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6667,32 +6811,8 @@
    "used": false
   },
   {
-   "keyword": "관리비부과",
-   "volume": 60,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.5,
-   "used": false
-  },
-  {
-   "keyword": "건물관리비",
-   "volume": 60,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 17.5,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.5,
-   "used": false
-  },
-  {
-   "keyword": "관리비부과대행",
-   "volume": 60,
+   "keyword": "건물관리비용",
+   "volume": 30,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6751,6 +6871,18 @@
    "used": false
   },
   {
+   "keyword": "용산베르디움프렌즈관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "용산 베르디움 프렌즈",
+   "entity_id": "A10024333",
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.0,
+   "used": false
+  },
+  {
    "keyword": "용산원효루미니관리비",
    "volume": 10,
    "comp": "중간",
@@ -6799,18 +6931,6 @@
    "used": false
   },
   {
-   "keyword": "회기역하트리움관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "회기역 하트리움",
-   "entity_id": "A10023368",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
    "keyword": "신내4단지관리비",
    "volume": 10,
    "comp": "중간",
@@ -6847,35 +6967,23 @@
    "used": false
   },
   {
+   "keyword": "상계주공6단지관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "상계주공6단지",
+   "entity_id": "A13920707",
+   "base_score": 17.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 17.0,
+   "used": false
+  },
+  {
    "keyword": "상계주공15단지관리비",
    "volume": 10,
    "comp": "중간",
    "entity": "상계주공15단지",
    "entity_id": "A13920802",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
-   "keyword": "홍제원현대관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "홍제원 현대",
-   "entity_id": "A12078704",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
-   "keyword": "마포그랑자이관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "마포그랑자이",
-   "entity_id": "A10025003",
    "base_score": 17.0,
    "growth": 1.0,
    "why": "",
@@ -6908,18 +7016,6 @@
   },
   {
    "keyword": "장기수선계획프로그램",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "base_score": 14.0,
-   "growth": 1.1,
-   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 15.4,
-   "used": false
-  },
-  {
-   "keyword": "장기수선계획검토",
    "volume": 10,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
@@ -6968,7 +7064,7 @@
   },
   {
    "keyword": "관리비계산",
-   "volume": 25,
+   "volume": 15,
    "comp": "낮음",
    "entity": "",
    "entity_id": "",
@@ -6991,47 +7087,11 @@
    "used": false
   },
   {
-   "keyword": "광진구관리비",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "광진구",
-   "entity_id": "region:11215",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "광장힐스테이트관리비",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "광장힐스테이트",
-   "entity_id": "A14375301",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
    "keyword": "청량리역한양수자인그라시엘관리비",
    "volume": 10,
    "comp": "높음",
    "entity": "청량리역 한양수자인 그라시엘",
    "entity_id": "A10023188",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "상계주공12단지관리비",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "상계주공12단지",
-   "entity_id": "A13982202",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -7056,42 +7116,6 @@
    "comp": "높음",
    "entity": "상계주공3단지",
    "entity_id": "A13971502",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "상계주공4단지관리비",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "상계주공4단지",
-   "entity_id": "A13920706",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "상계주공6단지관리비",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "상계주공6단지",
-   "entity_id": "A13920707",
-   "base_score": 14.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 14.0,
-   "used": false
-  },
-  {
-   "keyword": "상계주공9단지관리비",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "상계주공9단지",
-   "entity_id": "A13921005",
    "base_score": 14.0,
    "growth": 1.0,
    "why": "",
@@ -7124,7 +7148,7 @@
   },
   {
    "keyword": "아파트관리비혜택",
-   "volume": 20,
+   "volume": 15,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -7159,44 +7183,20 @@
    "used": false
   },
   {
-   "keyword": "건물관리비용",
-   "volume": 20,
-   "comp": "높음",
+   "keyword": "관리사무소",
+   "volume": 3020,
+   "comp": "중간",
    "entity": "",
    "entity_id": "",
-   "base_score": 10.5,
+   "base_score": 8.5,
    "growth": 1.0,
    "why": "",
-   "score": 10.5,
+   "score": 8.5,
    "used": false
   },
   {
    "keyword": "아파트관리비",
-   "volume": 3030,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 7.0,
-   "used": false
-  },
-  {
-   "keyword": "관리비",
-   "volume": 1510,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 7.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 7.0,
-   "used": false
-  },
-  {
-   "keyword": "관리사무소",
-   "volume": 3150,
+   "volume": 2820,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -7212,30 +7212,6 @@
    "comp": "낮음",
    "entity": "서울숲리버뷰자이",
    "entity_id": "A10026207",
-   "base_score": 20.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 6.0,
-   "used": true
-  },
-  {
-   "keyword": "도봉구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "도봉구",
-   "entity_id": "region:11320",
-   "base_score": 20.0,
-   "growth": 0.3,
-   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
-   "score": 6.0,
-   "used": false
-  },
-  {
-   "keyword": "도봉구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "도봉구",
-   "entity_id": "region:11320",
    "base_score": 20.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -7284,6 +7260,30 @@
    "comp": "낮음",
    "entity": "강북구",
    "entity_id": "region:11305",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
+  },
+  {
+   "keyword": "도봉구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "도봉구",
+   "entity_id": "region:11320",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "도봉구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "도봉구",
+   "entity_id": "region:11320",
    "base_score": 20.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -7423,6 +7423,30 @@
    "used": true
   },
   {
+   "keyword": "관리비관리",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
+   "keyword": "아파트관리비관리",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 5.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 5.0,
+   "used": false
+  },
+  {
    "keyword": "광장삼성12차관리비",
    "volume": 10,
    "comp": "낮음",
@@ -7556,7 +7580,7 @@
   },
   {
    "keyword": "장기수선충당금",
-   "volume": 12340,
+   "volume": 11660,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -7567,19 +7591,7 @@
    "used": false
   },
   {
-   "keyword": "빌딩관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 4.2,
-   "growth": 1.0,
-   "why": "",
-   "score": 4.2,
-   "used": false
-  },
-  {
-   "keyword": "아파트관리비관리",
+   "keyword": "관리비부과프로그램",
    "volume": 10,
    "comp": "중간",
    "entity": "",
@@ -7639,18 +7651,6 @@
    "used": false
   },
   {
-   "keyword": "관리비부과프로그램",
-   "volume": 10,
-   "comp": "높음",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 3.5,
-   "growth": 1.0,
-   "why": "",
-   "score": 3.5,
-   "used": false
-  },
-  {
    "keyword": "관리비ERP",
    "volume": 10,
    "comp": "높음",
@@ -7663,7 +7663,7 @@
    "used": false
   },
   {
-   "keyword": "관리비관리",
+   "keyword": "빌딩관리비",
    "volume": 10,
    "comp": "높음",
    "entity": "",
