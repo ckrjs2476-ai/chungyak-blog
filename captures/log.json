@@ -1,62 +1,5 @@
 [
  {
-  "name": "gw-mecenatpolis-management-fee-2026-08-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "compare",
-   "title": "메세나폴리스 관리비, 어느 칸이 컸을까?",
-   "answer": "㎡당 5,875원, 마포구 53곳 중 1위",
-   "compare": {
-    "head": [
-     "칸",
-     "메세나폴리스",
-     "마포구 중앙값"
-    ],
-    "rows": [
-     [
-      "개별사용료 ㎡당",
-      "3,229원",
-      "1,358원"
-     ],
-     [
-      "공용관리비 ㎡당",
-      "2,552원",
-      "1,213원"
-     ],
-     [
-      "장기수선충당금 ㎡당",
-      "94원",
-      "275원"
-     ]
-    ]
-   },
-   "source": "K-apt 8월 부과분",
-   "date": "2026-10-18"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 23352,
-  "at": "2026-11-18 11:27"
- },
- {
-  "name": "js-48310-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "48310",
-   "highlight": "장평동"
-  },
-  "size": [
-   760,
-   492
-  ],
-  "bytes": 17094,
-  "at": "2026-11-18 12:42"
- },
- {
   "name": "js-geoje-si-jeonse-complex-2026-11-card",
   "ok": true,
   "card": {
@@ -5652,5 +5595,54 @@
   "bytes": 6630,
   "url": "https://community.lawmaking.go.kr/gcom/ogLmPp/88852?opnOpYn=Y",
   "at": "2026-11-23 08:56"
+ },
+ {
+  "name": "cy-yangju-apartment-pyeong-price-2025-10-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "양주 분양 아파트, 1순위는 얼마나 찼나요?",
+   "answer": "민영 4곳 모두 1순위 평균 1대 1 아래, 1순위 마감 타입은 대방 디에트르 84A 하나예요",
+   "points": [
+    {
+     "label": "로제비앙 엘가 (3.3㎡당 1,553만 원)",
+     "value": "0.02대 1"
+    },
+    {
+     "label": "더 플래티넘 센트럴포레 (1,805만 원)",
+     "value": "0.08대 1"
+    },
+    {
+     "label": "회천중앙역 파라곤 (1,494만 원)",
+     "value": "0.17대 1"
+    },
+    {
+     "label": "대방 디에트르 (1,662만 원)",
+     "value": "0.85대 1"
+    }
+   ],
+   "source": "청약홈 공고·1순위 결과",
+   "date": "2026-11-23"
+  },
+  "size": [
+   760,
+   480
+  ],
+  "bytes": 30568,
+  "at": "2026-11-23 09:53"
+ },
+ {
+  "name": "cy-2026000049-price-1123",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   238
+  ],
+  "bytes": 9084,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000049&pblancNo=2026000049",
+  "at": "2026-11-23 09:53"
  }
 ]
