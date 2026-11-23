@@ -15,6 +15,8 @@ value: "드론법·항공안전법·항공사업법의 국가법령정보센터 
 
 드론은 영어로 drone이 맞지만, 우리 법령 영문본에서는 드론을 unmanned aerial vehicle, unmanned aircraft로 부르고, 드론이 들어가는 상위 범주는 ultra-light vehicle로 불러요. 같은 '초경량비행장치'가 항공안전법 영문본에선 ultra-light vehicle, 항공사업법 영문본에선 ultra-light aircraft로 옮겨져 있어서, 한국어 용어 6개에 영어 이름이 7가지 붙어요.
 
+![드론법 영문본은 drone, 항공안전법 영문본은 unmanned aerial vehicle·unmanned aircraft로 옮겨요](captures/dr-drone-english-term-2026-card.webp)
+
 이 글은 2026년 11월 11일 국가법령정보센터 원문과 한국법제연구원 영문 법령 사이트를 함께 열어 맞춰 본 결과예요. 같은 한국어 용어가 영문본마다 다르게 옮겨진 곳 두 군데, 그리고 영문본이 반영한 법률 번호가 현행 원문보다 늦은 정도를 표로 묶었어요.
 
 ## 드론 영어로 법령 영문본에서도 drone이라고 쓰나요?
