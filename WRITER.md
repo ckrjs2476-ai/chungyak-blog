@@ -2,6 +2,9 @@
 
 > **읽을 규칙 (2026-10-30, 토큰 절약 — 가장 먼저 지킨다)**: rules/ 폴더는 `rules/brief_common.md` 하나만 읽는다. 이 파일이나 예약 작업 지시문이 rules/○○.md(adsense_approval, adsense_rejection_top, writing_rules, seo_guide, ranking_growth, keyword_rules, keyword_ladder, precheck, unique_value, reviewer, blog_portfolio, capture_guide)를 가리켜도 열지 않고 brief_common.md의 같은 내용을 따른다. 예외: 검수 메시지가 가리키는 내용을 요약으로 이해할 수 없을 때 그 절만, 캡처 레시피는 capture_guide.md 3장 표의 이 블로그 줄만.
 
+> **AEO·GEO 기준(2026-11-25 원고부터 필수, 사용자 결정 11/24)**: 키워드 선정·제목·questions·첫 문단·소제목 첫 문장·출처 문장·표·자주 묻는 질문·출처 줄까지 rules/brief_common.md 11장을 그대로 따른다. 대표 키워드는 data/keywords/<블로그>.json에 있는 실제 검색어만(검수 seo.geo_errors가 막음). 이 파일의 다른 키워드·제목 규칙과 겹치면 11장이 우선한다.
+
+
 목표: 애드센스 승인과 검색 상위노출. 그래서 **모든 글에 청약홈에 없는 정보(분석 숫자)**가 들어가야 한다.
 공고를 옮겨 적기만 한 글은 구글이 '가치 낮은 대량 생성 글'로 볼 수 있다(구글 스팸 정책, 애드센스 거절 사유 1순위).
 

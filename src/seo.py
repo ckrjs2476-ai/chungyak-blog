@@ -155,6 +155,7 @@ def _published(blog: str) -> list[dict]:
 
 EXP_RULES_FROM = "2026-11-08"
 CARD_FROM = "2026-11-18"  # 5개 블로그 요약 그림(brief_common 9-4)
+ALL_GEO_FROM = "2026-11-25"  # 청약·전세·공모주·관리비도 AI 검색·AEO·GEO 기준(사용자 요청 11/24)
 SOURCE_FROM = "2026-11-24"  # 글 맨 끝 출처 줄(src/sources.py)
 DRONE_GEO_FROM = "2026-11-18"  # 드론: AI 검색(ChatGPT·Gemini·Claude)·구글 AI 개요/AI 모드 기준을 막는 규칙으로(사용자 요청 11/18)
 LINK2_FROM = "2026-11-09"  # 새 글 내부 링크 2개 이상(공개 글 10편 이상 블로그)  # 직접 알아보기(캡처 + 1인칭) 필수 시작일
@@ -249,6 +250,8 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
             errs.append(f"[검색자] questions의 말이 소제목 {hit}개에만 들어갔습니다(2개 이상). 검색자 질문에 답하는 소제목으로.")
     if blog == "drone" and str(meta.get("_file", ""))[:10] >= DRONE_GEO_FROM:
         errs += drone_geo_errors(meta, body)
+    elif blog != "drone" and str(meta.get("_file", ""))[:10] >= ALL_GEO_FROM:
+        errs += geo_errors(meta, body, blog)
     return errs
 
 
@@ -285,6 +288,24 @@ def card_errors(body: str) -> list[str]:
     return errs
 
 
+def _real_queries(blog: str) -> set[str]:
+    """블로그별 실제 검색어(네이버 키워드 도구·자동완성에서 수집한 말). 띄어쓰기 없이 4글자 이상."""
+    if blog == "drone":
+        return _drone_real_queries()
+    f = ROOT / "data" / "keywords" / f"{blog}.json"
+    try:
+        d = json.loads(f.read_text("utf-8"))
+    except Exception:  # noqa: BLE001
+        return set()
+    items = d if isinstance(d, list) else d.get("keywords", [])
+    out = set()
+    for it in items:
+        k = re.sub(r"[^가-힣A-Za-z0-9]", "", str(it.get("keyword", "")) if isinstance(it, dict) else "")
+        if len(k) >= 4:
+            out.add(k)
+    return out
+
+
 def _drone_real_queries() -> set[str]:
     """드론 키워드 수집(네이버 연관 검색어·구글 자동완성)에 실제로 나온 말. 띄어쓰기 없이, 4글자 이상, '드론' 한 단어 제외."""
     f = ROOT / "blogs" / "drone" / "data" / "keywords.json"
@@ -310,7 +331,11 @@ def qa_pairs(body: str) -> list[tuple[str, str]]:
 
 
 def drone_geo_errors(meta: dict, body: str) -> list[str]:
-    """드론 정보노트 AI 검색 기준(2026-11-18~ 새 원고). 근거: AI 답변은 검색 색인에서 글을 찾아(RAG) 질문을 여러 갈래로 쪼개 검색(fan-out)하고,
+    return geo_errors(meta, body, "drone")
+
+
+def geo_errors(meta: dict, body: str, blog: str = "drone") -> list[str]:
+    """AI 검색·AEO·GEO 기준(드론 2026-11-18~, 나머지 4개 블로그 2026-11-25~ 새 원고). 드론 정보노트에서 시작한 기준(2026-11-18~ 새 원고). 근거: AI 답변은 검색 색인에서 글을 찾아(RAG) 질문을 여러 갈래로 쪼개 검색(fan-out)하고,
     숫자·출처가 같은 문장에 있는 짧은 문단을 떼어 인용한다."""
     errs: list[str] = []
     heads = _sections(body)
@@ -343,12 +368,18 @@ def drone_geo_errors(meta: dict, body: str) -> list[str]:
     if "|" not in body:
         errs.append("[AI검색] 비교·기준 표가 없습니다(1개 이상).")
     qa = qa_pairs(body)
-    real = _drone_real_queries()
+    real = _real_queries(blog)
+    need_real = 3 if blog == "drone" else 2
+    src_file = "blogs/drone/data/keywords.json의 kw·google_suggest" if blog == "drone" else f"data/keywords/{blog}.json의 keyword"
     if real and qa:
         norm = lambda x: re.sub(r"[^가-힣A-Za-z0-9]", "", x)
         hits = sum(1 for q, _ in qa if any(k in norm(q) for k in real))
-        if hits < min(3, len(qa)):
-            errs.append(f"[Q&A] 실제 검색어가 들어간 질문이 {hits}개입니다(3개 이상). blogs/drone/data/keywords.json의 kw·google_suggest(사람들이 실제로 검색한 말)를 질문에 그대로 넣으세요.")
+        if hits < min(need_real, len(qa)):
+            errs.append(f"[Q&A] 실제 검색어가 들어간 질문이 {hits}개입니다({need_real}개 이상). {src_file}(사람들이 실제로 검색한 말)를 띄어쓰기만 넣어 질문에 그대로 쓰세요.")
+    if real and blog != "drone":
+        kwn = re.sub(r"[^가-힣A-Za-z0-9]", "", str(meta.get("keyword", "")))
+        if kwn and not any(kwn == k or kwn in k or k in kwn for k in real):
+            errs.append(f"[AI검색] 대표 키워드 '{meta.get('keyword')}'가 실제 검색어 목록({src_file})에 없습니다. 사람들이 실제로 검색한 말을 대표 키워드로.")
     if len(qa) < 3:
         errs.append("[Q&A] 글 끝(다음 행동 문단 앞)에 '### 자주 묻는 질문' 아래 Q&A가 3개 이상 필요합니다. 형식: 'Q. 질문?' 다음 줄 'A. 답'(같은 문단, 굵게 쓰지 않음). 질문은 소제목과 다른 이어지는 질문, 실제 검색어에서.")
     else:
