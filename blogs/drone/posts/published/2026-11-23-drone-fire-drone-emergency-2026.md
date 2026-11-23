@@ -111,3 +111,5 @@ Q. 산불드론도 공공목적 긴급비행 특례에 들어가나요?
 A. 산불 진화·예방은 11개 중 3번 목적이라 들어가요. 입법예고안에서 빠지는 2개는 6번 산림 방제·순찰과 7번 산림보호사업 화물 수송이에요.
 
 공공기관에서 드론 운용을 맡고 있다면, [국가법령정보센터](https://www.law.go.kr/)에서 항공안전법 시행규칙 제313조의2의 공포일을 찾아 산림 6·7번이 실제로 빠졌는지부터 맞춰 보세요.
+
+출처: [생활법령정보 특별비행승인 신청 안내](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=2) · [공공데이터포털 소방청 드론 보유 현황](https://www.data.go.kr/data/15086125/fileData.do) · [국민참여입법센터 항공안전법 시행규칙 일부개정령안](https://community.lawmaking.go.kr/gcom/ogLmPp/88852?opnOpYn=Y) · [국가법령정보센터](https://www.law.go.kr/)

@@ -99,3 +99,5 @@ PU는 프로젝트유닛을 줄인 말이에요. 2차 총회 순서는 PU 과제
 총회 가입 현황은 드론정보포털 '드론산업 얼라이언스 > 운영 현황 > 회의 및 행사 이력'에 회차별 탭으로 올라와요. 다음 회차 표가 올라오면 이 글의 표와 같은 줄을 맞대 보면 어느 칸이 움직였는지 바로 보여요.
 
 다음 표에서 볼 줄은 중견·중소기업 195, 개인 108, 합계 401 세 칸이에요. 1차에서 2차 사이 늘어난 27 가운데 25가 이 두 칸에서 나왔기 때문이에요.
+
+출처: [드론정보포털 운영 목적 화면](https://www.droneportal.or.kr/main/web/contents/M090-01-01) · [정책브리핑 정책뉴스](https://www.korea.kr/news/policyNewsView.do?newsId=148960702) · [드론정보포털 '회의 및 행사 이력' (드론산업 얼라이언스 > 운영 현황)](https://www.droneportal.or.kr/main/web/contents/M090-02-02) · [KTV 국민방송 'K-드론, 이렇게 달라진다!](https://m.ktv.go.kr/news/sphere/T000024/view?content_id=728249)

@@ -69,3 +69,5 @@ SimwonAmericaCorp.는 청약일이 11월 5일로 적혀 있는데, 데이터의 
 ![씨아이에스케미칼 10월 19일 첫 증권신고서 화면, 알림문 위에 정정 차수 표시가 없어요](captures/ipo-01077540-dart.webp)
 
 공모 숫자는 11월 3일 데이터 기준으로 DART 증권신고서에서 가져왔어요. 회사별 원문은 [KTE 증권신고서 DART 원문](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336)처럼 접수번호로 열 수 있고, 투자 판단은 각 회사 투자설명서 원문을 보고 직접 하셔야 해요.
+
+출처: [KTE 증권신고서 DART 원문](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336)

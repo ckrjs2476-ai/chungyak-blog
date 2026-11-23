@@ -91,3 +91,5 @@ A. 촬영금지시설은 신청과 관계없이 누구도 항공촬영할 수 �
 ## 11월 13일 개정법 시행 뒤 다시 확인할 기준일
 
 생활법령정보는 2026년 11월 13일 시행되는 항공안전법 개정분을 검토해 내용을 고칠 예정이라고 밝혀 두었어요. 그날 이후 촬영이라면 드론원스톱(drone.onestop.go.kr)에 신청하기 전에 '항공촬영 신청' 항목의 기준일이 2026년 10월 15일에서 바뀌었는지부터 보세요.
+
+출처: [법제처 찾기쉬운 생활법령정보의 '항공촬영 신청' 항목](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=3&cciNo=2&cnpClsNo=1) · [정책브리핑에 올린 보도자료](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156540678) · [생활법령정보 100문100답 '드론 항공촬영](https://www.easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=94&onhunqueSeq=6202) · [생활법령정보 카드뉴스 '드론으로 항공사진 촬영을 하려면 신청이 필요한가요](https://easylaw.go.kr/CSP/EasyLawInfoR.laf?csmSeq=1814&easySeq=2836)

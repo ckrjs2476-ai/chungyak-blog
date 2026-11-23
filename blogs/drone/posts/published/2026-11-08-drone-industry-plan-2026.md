@@ -96,3 +96,5 @@ Q. 드론 기체신고 누적 대수는 해마다 얼마나 늘었나요?
 A. 드론정보포털 기준 누적 기체신고 증가율은 2021년 93.8%가 가장 컸고, 2024년에는 23.8% 늘어 64,863대가 됐어요.
 
 사업용 소계가 5만 3000대를 넘는지는 그 표의 사업용 소계 줄 하나만 보면 바로 확인돼요.
+
+출처: [2017년 12월 22일 정책뉴스](https://www.korea.kr/news/issueQAView.do?newsId=148846195) · [드론정보포털 드론통계 화면](https://www.droneportal.or.kr/main/web/contents/M020-05-02) · [정책브리핑 보도자료 '국토부, 드론산업 규모 5년내 20배 육성위한 종합](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156244834) · [정책브리핑 정책위키 '드론산업](https://m.korea.kr/special/policyCurationView.do?newsId=148867190)

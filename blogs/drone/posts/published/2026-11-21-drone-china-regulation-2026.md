@@ -114,3 +114,5 @@ Q. 중국에서 드론 보험 없이 날리면 벌금이 있어요?
 A. 보험 의무 대상인데 가입하지 않으면 조례 제48조에 따라 2천~2만 위안 벌금이에요. 비영업 미형·경형 비행은 제12조 의무 대상이 아니에요.
 
 중국에 드론을 가져가기 전이라면, 기체의 빈 무게를 먼저 재서 5단계 중 어디에 드는지 확인해 보세요. 그다음 날릴 곳이 지역 정부가 공표한 관제공역 안인지 보는 순서가 조례 구조와 맞아요.
+
+출처: [생활법령정보 비행승인 안내](https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=1) · [중국 정부망(gov.cn) — 无人驾驶航空器飞行管理暂行条例(무인조종항공기](https://www.gov.cn/zhengce/content/202306/content_6888799.htm) · [찾기쉬운 생활법령정보(모바일) — 드론 장치신고](https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1)

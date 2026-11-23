@@ -91,3 +91,5 @@ DART에서 회사 이름으로 증권신고서를 열면 왼쪽 문서목차 1�
 ![아델 신고서는 알림문 창부터, 왼쪽 목차에 V. 자금의 사용목적이 보여요](captures/ipo-jageum-adel-dart1117.webp)
 
 양 끝 사례는 운영자금 95.5%의 [아델 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000445), 시설자금 97.8%의 [에스에프씨 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368), 기타 76.5%의 [이노보테라퓨틱스 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153), 채무상환 41.4%의 [에이엔에이치스트럭쳐 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375)에서 바로 확인할 수 있어요. 청약 여부 같은 투자 판단은 회사별 투자설명서를 직접 읽고 내려 주세요. 이노보테라퓨틱스가 기타로 묶은 344.3억 원은 25곳의 자금 표에서 이름 없이 잡힌 줄 가운데 가장 큰 금액이라, 신고서 본문에 적힌 세부 용도에 따라 1순위 묶음이 달라질 수 있어요.
+
+출처: [아델 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000445) · [에스에프씨 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368) · [이노보테라퓨틱스 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000153) · [에이엔에이치스트럭쳐 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261020000375)

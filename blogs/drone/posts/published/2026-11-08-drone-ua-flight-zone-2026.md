@@ -107,3 +107,5 @@ Q. 드론비행장 목록은 공공데이터포털 파일과 항공정보포털�
 A. 공공데이터포털 파일(2026년 2월 26일 등록)에는 항공정보포털 48곳 목록에 없는 UA 3 약산(반경 0.7km)이 들어 있어요. 두 자료가 완전히 같지는 않아서 코드를 정했다면 항공정보포털 좌표를 기준으로 봐요.
 
 가려는 UA가 정해졌다면 항공정보포털에서 그 코드의 수평범위 좌표와 수직범위를 먼저 적어 두세요. 100FT AGL로 적힌 14곳 중 하나라면 기체의 고도 제한을 30m 안쪽으로 맞춰 두는 것이 날리기 전 마지막 확인이에요.
+
+출처: [항공정보포털 초경량비행장치 비행공역 화면](https://airportal.go.kr/airplane/airspace01.do) · [항공안전법 시행규칙 제308조 제1항](https://www.law.go.kr/LSW/lumLsLinkPop.do?lspttninfSeq=140100) · [공공데이터포털 초경량비행장치공역 파일](https://www.data.go.kr/data/15061946/fileData.do) · [국토교통부 항공교통본부 공역 안내 (molit.go.kr/atmo)](https://www.molit.go.kr/atmo/USR/WPGE0201/m_37007/DTL.jsp)

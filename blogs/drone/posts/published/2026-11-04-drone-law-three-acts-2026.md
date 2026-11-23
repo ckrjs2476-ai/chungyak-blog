@@ -114,3 +114,5 @@ A. 2024년 8월 14일 시행된 제20295호에 따라 드론공원 안에서는 
 
 Q. 한국 드론 법에서 비행승인 기준은 어느 조문에 있나요?  
 A. 비행승인은 항공안전법 제127조에 있어요. 고도 150m 이상이나 최대이륙중량 25kg 초과 비행이 승인 대상이에요.
+
+출처: [정책브리핑 정책위키 '드론산업'](https://m.korea.kr/special/policyCurationView.do?newsId=148867190) · [제정·개정문 목록](https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=013479&chrClsCd=010202&lsRvsGubun=all) · [국가법령정보센터 — 드론법 본문 화면](https://www.law.go.kr/lsInfoP.do?lsId=013479&ancYnChk=0) · [정책브리핑 '드론법 시행, 일상 속 드론 시대가 온다!](https://www.korea.kr/news/reporterView.do?newsId=148872104)

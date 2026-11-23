@@ -96,3 +96,5 @@ value: "11월 9일 무순위 물량을 같은 단지 본청약 공고·결과와
 쌍용 더 플래티넘 센텀은 9월에 공급 46세대에 신청 56건이 들어와 2순위에서 모두 찼는데, 11월 9일에는 공고 53세대 전부가 다시 접수를 받았어요. 세대별 자격과 거주 요건은 [청약홈 쌍용 더 플래티넘 센텀 무순위 공고문](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910277&pblancNo=2026910277)에 나와 있어요.
 
 > 숫자는 청약홈 모집공고 데이터를 바탕으로 정리했어요. 신청 전에는 반드시 입주자모집공고 원문을 확인해 주세요.
+
+출처: [청약홈 쌍용 더 플래티넘 센텀 무순위 공고문](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910277&pblancNo=2026910277)

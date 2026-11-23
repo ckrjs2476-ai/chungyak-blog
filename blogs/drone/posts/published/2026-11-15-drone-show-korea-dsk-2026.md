@@ -86,3 +86,5 @@ DSK 2027 개요에 적힌 전시 분야는 8개예요. Drone(드론 박람회), 
 ## 2027년 행사 전에 확인할 곳
 
 2027년 참가 기업 수와 부대 공연 여부는 2026년 11월 15일 현재 공식 자료에 나와 있지 않아요. 지난 두 해 정부 보도자료는 개막 2~7일 전에 나왔어요(2025년 우주항공청 2월 19일, 2026년 부산시 2월 23일). 2026년 숫자의 원문은 [부산광역시 보도자료](https://www.busan.go.kr/nbtnewsBU/1719593) 첨부파일(PDF·HWPX)에 있어요. 2027년 회차는 2월 24일 수요일 개막이라, 23개국·318개사와 견줄 새 숫자는 그 앞 일주일 안에 나온 자료에서 맞춰 보면 돼요.
+
+출처: [부산광역시 보도자료](https://www.busan.go.kr/nbtnewsBU/1719593) · [산업통상자원부 보도자료 아시아 최대 「2025 드론쇼코리아」 개막](https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170196/view) · [우주항공청 보도자료 아시아 최대 드론전시회 「DSK 2025(드론쇼코리아](https://www.kasa.go.kr/prog/bbsArticle/BBSMSTR_000000000010/view.do?bbsId=BBSMSTR_000000000010&nttId=B000000001098Us2nV1) · [DSK 공식 누리집 (주최 측 행사 안내, droneshowkorea.c](https://www.droneshowkorea.com/)

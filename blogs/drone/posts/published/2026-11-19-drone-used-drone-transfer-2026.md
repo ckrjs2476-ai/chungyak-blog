@@ -98,3 +98,5 @@ Q. 부서진 드론 말소신고 안 하면 과태료가 얼마예요?
 A. 사유가 생긴 날부터 15일 안에 말소신고를 안 하면 항공안전법 제166조제7항제1호에 따라 30만 원 이하 과태료예요.
 
 거래하는 날에는 신고증명서의 신고번호를 서로 맞춰 보고, 직구로 들여온 기체라면 판매 글을 올리기 전에 적합성평가 대상인지부터 국립전파연구원에 물어보세요.
+
+출처: [찾기쉬운 생활법령정보의 드론 장치신고 안내](https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1) · [법제처 법령해석 21-0097](https://www.law.go.kr/LSW/expcInfoP.do?expcSeq=328279) · [국립전파연구원 적합성평가 FAQ](https://www.rra.go.kr/ko/notice/D_e_faq2_1.do?fa_type=b&fa_category=compt) · [생활법령정보 드론 안전성 인증 안내](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=2&cciNo=2&cnpClsNo=1)

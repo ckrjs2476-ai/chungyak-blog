@@ -85,3 +85,5 @@ value: "인수 증권사가 둘 이상인 공모 5곳의 인수인 칸을 증권
 10월 27일 집계 27곳의 회사 전체 수수료율을 줄 세운 분포는 [공모주 인수수수료율 글](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-underwriting-fee-2026-10.html)에, 7.21%가 나온 회사 하나를 깊게 본 내용은 [유캐스트 공모 구조 글](https://gongmoju-breakdown.blogspot.com/2026/10/ucast-ipo-2026-10.html)에 있어요.
 
 다섯 곳 인수단의 증권사별 수수료는 유캐스트 신영증권 3,000만 원이 가장 작고 에스에프씨 미래에셋증권 21.8억 원이 가장 커요. 신영증권 3,000만 원과 인터엑스 BNK투자증권 6,000만 원 같은 작은 몫 조건이 발행조건확정 신고서에서 그대로 남는지가 다음에 확인할 대목이고, 이 숫자를 투자 판단에 넣을 때는 각 회사 투자설명서의 인수인 항목이 기준이에요.
+
+출처: [에스에프씨 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368) · [제이앤티지 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000426) · [아델 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000312) · [인터엑스 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478)

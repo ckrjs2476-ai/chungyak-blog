@@ -82,3 +82,5 @@ value: "공모 27곳을 설립 연수 구간으로 나눠 자금 사용 1순위 
 27곳의 설립일과 자금 사용 비중, 공모 총액은 각 회사의 DART 증권신고서와 기업 개요에서 가져왔어요. 3년 차 [에이엘로봇 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000140), 9년 차 [제논 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367), 규모가 붙어 있는 [케이엠에프 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000388)와 [씨앤엠 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412)에 자금 사용 목적 표가 그대로 있어요.
 
 1순위 항목을 업력과 상관없이 모아 센 표는 [공모주 자금 사용 목적 글](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-use-of-proceeds-2026-10.html)에, 3년 차 회사 하나를 깊게 본 내용은 [에이엘로봇 공모 구조 글](https://gongmoju-breakdown.blogspot.com/2026/10/al-robot-ipo-2026-11.html)에 있어요. 6곳·14곳·7곳으로 나눈 이 표는 자금 표 모양을 견준 것이라, 구간 하나의 비율을 투자 판단으로 바로 옮기기에는 회사 수가 적어요.
+
+출처: [에이엘로봇 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000140) · [제논 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000367) · [케이엠에프 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000388) · [씨앤엠 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000412)

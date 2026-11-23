@@ -102,3 +102,5 @@ value: "11월 2일 무순위로 다시 나온 타입을 같은 단지 9월 본�
 화서역 무순위의 신청 자격과 거주 요건은 [청약홈 화서역 호수공원 아너스빌 무순위 공고](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910269&pblancNo=2026910269)에 적혀 있어요.
 
 > 이 글은 청약홈 공고 데이터를 바탕으로 정리했어요. 신청 전에는 반드시 입주자모집공고 원문을 확인해 주세요.
+
+출처: [청약홈 화서역 호수공원 아너스빌 무순위 공고](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910269&pblancNo=2026910269)

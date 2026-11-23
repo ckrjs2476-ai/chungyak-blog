@@ -104,3 +104,5 @@ DART 정정 신고서에 따르면 KTE는 12월 14~15일, 데스틴파워는 12�
 ![KTE는 11월 12일 정정 신고서가 먼저 열려요, 알림문에 제1차 정정 표시](captures/ipo-december-kte-dart1117.webp)
 
 10월 24일 집계 28곳의 규모가 어떻게 퍼져 있었는지는 [공모주 공모 규모 분포 글](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-offering-size-2026-10.html)에 구간별로 나눠 두었어요. 발행조건확정 신고서가 나오면 인터엑스 300억 원이 중앙값 295억 원 위에 남는지, 다비오 123억 원이 27위에 그대로 있는지부터 다시 맞춰 볼 생각이에요. KTE 535억 원과 다비오 123억 원은 공모 크기만 견준 숫자라, 투자 판단의 근거로 쓰라고 적은 값이 아니에요.
+
+출처: [KTE 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336) · [다비오 기재정정 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000682) · [인터엑스 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022000478)

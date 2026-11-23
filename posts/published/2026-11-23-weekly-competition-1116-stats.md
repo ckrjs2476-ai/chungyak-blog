@@ -100,3 +100,5 @@ value: "11월 16·17일 1순위를 받은 6곳을 경쟁률로 세운 뒤, 각 �
 이번 주 6곳 중 1순위에서 전 타입이 끝난 곳은 삼도이동 1지구(2개 중 2개) 한 곳뿐이었어요. 경기 비교 범위의 최고값 51.75대 1은 [11월 1주 청약 경쟁률 순위](https://daily-cheongyak.blogspot.com/2026/11/weekly-competition-ranking-2026-11-1w.html)에서 1위였던 GTX운정중앙역 시티프라디움 4단지 기록이에요.
 
 > 숫자는 청약홈 모집공고와 경쟁률 데이터를 바탕으로 정리했어요. 신청 전에는 입주자모집공고 원문을 확인해 주세요.
+
+출처: [APT 분양정보 목록](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do)

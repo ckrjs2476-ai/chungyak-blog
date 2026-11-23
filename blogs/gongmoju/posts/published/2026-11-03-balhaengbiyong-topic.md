@@ -82,3 +82,5 @@ SimwonAmericaCorp.는 발행제비용 비중이 20.4%로 적혀 있지만 표에
 규모 순위와 수수료율 중앙값은 11월 2일 집계, 최근 89일 일반 기업 공모 26곳 기준이고 스팩은 뺐어요. 발행제비용과 수수료 금액은 DART 증권신고서의 자금의 사용목적·인수인 정보에서 가져왔어요. 원문은 [KTE 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336), [데스틴파워 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000434), [유캐스트 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443), [영광와이케이엠씨 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616), [넥스아이 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000467)에서 볼 수 있어요.
 
 수수료율 하나만 줄 세운 분포는 [공모주 인수수수료율 글](https://gongmoju-breakdown.blogspot.com/2026/10/ipo-underwriting-fee-2026-10.html)에 있어요. 발행제비용 줄은 공모가가 확정될 때 다시 적히는 숫자이고, 투자 판단은 투자설명서 원문을 보고 직접 하셔야 해요.
+
+출처: [KTE 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000336) · [데스틴파워 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000434) · [유캐스트 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261021000443) · [영광와이케이엠씨 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000616)

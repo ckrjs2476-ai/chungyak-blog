@@ -132,3 +132,5 @@ value: "11월 16일 무순위 6곳을 같은 단지의 지난 회차(청계 노�
 14차 세대별 자격과 거주 요건은 [청약홈 청계 노르웨이숲(14차) 무순위 공고문](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910290&pblancNo=2026910290)에 나와 있어요.
 
 > 이 글의 숫자는 청약홈 모집공고 데이터를 바탕으로 정리했어요. 신청 전에는 반드시 입주자모집공고 원문을 확인해 주세요.
+
+출처: [청약홈 청계 노르웨이숲(14차) 무순위 공고문](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910290&pblancNo=2026910290)

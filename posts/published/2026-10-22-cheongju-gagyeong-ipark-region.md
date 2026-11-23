@@ -84,3 +84,5 @@ value: "청약홈은 단지별 경쟁률만 보여 주지만, 이 글은 같은 
 공고 원문은 [청약홈 가경 아이파크 7단지 공고](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000491&pblancNo=2026000491)와 [8단지 공고](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000492&pblancNo=2026000492)에서 볼 수 있어요.
 
 > 숫자는 10월 28일 기준 청약홈 공고 데이터를 바탕으로 정리했어요. 신청 전에는 반드시 입주자모집공고 원문을 확인해 주세요.
+
+출처: [청약홈 가경 아이파크 7단지 공고](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000491&pblancNo=2026000491) · [8단지 공고](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000492&pblancNo=2026000492)

@@ -96,3 +96,5 @@ value: "2023년 드론작전사령부령 보도자료와 2026년 국방드론본
 취미로 날리든 사업으로 날리든 기체신고, 비행승인, 비행금지구역은 지금처럼 국토교통부 소관 항공안전법을 따라요. 군 비행장이나 국방부 쪽 금지구역 승인 창구가 이번 개편으로 옮겨졌다는 내용은 11월 2일·3일 국방부 자료 어디에도 없었어요.
 
 국방부 쪽 비행금지구역 승인을 실제로 받아야 한다면, 국방드론본부가 아니라 드론원스톱 지도에서 그 구역 담당 기관을 먼저 확인하는 순서예요. 금지구역마다 승인 기관이 어떻게 갈리는지는 [비행금지구역 이름별 승인 기관과 확인 순서](https://drone-note.blogspot.com/2026/11/drone-no-fly-zone-check-2026.html)에 정리해 두었어요.
+
+출처: [정책브리핑 정책뉴스](https://www.korea.kr/news/policyNewsView.do?newsId=148974771) · [국방부 보도자료 「드론작전사령부령」 제정·공포](https://m.korea.kr/briefing/pressReleaseView.do?newsId=156577160) · [정책브리핑 사진 '국방부, 군 최초 합동전투부대 드론작전사 창설](https://www.korea.kr/multi/policyPhotoView.do?bbsKey=57175) · [정책브리핑 '국방 드론·대드론 발전 정책 발표](https://www.korea.kr/briefing/policyBriefingView.do?newsId=156768313)

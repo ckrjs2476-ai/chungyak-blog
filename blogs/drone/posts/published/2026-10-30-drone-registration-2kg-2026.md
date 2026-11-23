@@ -104,3 +104,5 @@ Q. 2kg이하 취미용 드론 비행승인은 따로 받아야 하나요?
 A. 비행제한공역에서는 신고 면제 대상인 2kg 이하 드론도 승인을 따로 받아야 해요. 항공안전법 시행규칙 제308조에 따라 비행승인신청서를 지방항공청장 등에게 내요.
 
 새로 드론을 들였다면 사양표에서 최대이륙중량과 쓸 용도부터 적어 두세요. 그 두 줄이면 신고 대상인지 바로 갈리고, 날릴 장소는 [드론원스톱 민원서비스](https://drone.onestop.go.kr/) 지도에서 따로 확인하면 돼요.
+
+출처: [국가법령정보센터의 시행령 제24조 원문](https://www.law.go.kr/LSW/lsLinkProc.do?lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&mode=10&chrClsCd=010202&gubun=admRul&lsId=34532&datClsCd=010102&joNo=002400001) · [항공안전법 시행령 개정 연혁](https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=012843&chrClsCd=010202&lsRvsGubun=all) · [제122조 조문](https://law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1000593645&chrClsCd=010202) · [항공안전법 시행규칙 제308조](https://www.law.go.kr/LSW/lumLsLinkPop.do?lspttninfSeq=140100)

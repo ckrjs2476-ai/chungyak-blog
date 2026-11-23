@@ -90,3 +90,5 @@ Q. 드론 시설물 점검은 지하철 어느 구간에서 시험했나요?
 A. 서울교통공사는 2023년 9월 1호선 청량리역 터널과 당산철교에서 3차 실증을 했어요.
 
 점검 대상 시설이 관제권이나 비행금지구역 안이라면 계산기 결과의 승인 칸이 달라지니, 띄우기 전에 [드론 비행금지구역을 지도로 확인하는 방법](https://drone-note.blogspot.com/2026/11/drone-no-fly-zone-check-2026.html)으로 위치부터 맞춰 보세요.
+
+출처: [시설물 안전점검 주기 별표 17](https://www.law.go.kr/LSW/flDownload.do?flSeq=149472307) · [서울시 내 손안에 서울 기사](https://mediahub.seoul.go.kr/archives/2009326) · [한국수자원공사(K-water) 시설물 안전관리 안내](https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935) · [서울시설공단 자동차전용도로 자산관리](https://sisul.or.kr/open_content/driveway/business/asset.jsp)

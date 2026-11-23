@@ -102,3 +102,5 @@ Q. 드론조종사 시급 공고는 한 주에 얼마를 받나요?
 A. 보조교관 시급 15,000원 공고는 주 3일 18시간 근무라 한 주에 270,000원에서 288,000원이에요. 시급 자체는 2026년 최저 시간급 10,320원보다 높아요.
 
 다시 찾을 때는 검색어 범위를 '전체'에서 '제목'으로 바꾸고, 검색어를 '드론'과 '무인항공기'로 한 번씩 넣어 보세요. 급여를 비교할 생각이라면 결과에서 '회사내규' 공고를 따로 세고, 월급 공고는 상여 표시가 있는지 공고 상세에서 확인하면 돼요.
+
+출처: [최저임금위원회 연도별 결정현황](https://www.minimumwage.go.kr/minWage/policy/decisionMain.do) · [고용24 채용정보 상세검색, 검색어 '드론조종' (검색어 범위 '전체',](https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%EC%A1%B0%EC%A2%85) · [고용24 채용정보 상세검색, 검색어 '드론' (같은 조건)](https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0) · [고용노동부 보도자료 '2026년 적용 최저임금 시간급 10,320원](https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18144)

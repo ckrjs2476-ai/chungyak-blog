@@ -81,3 +81,5 @@ Q. 드론기술로 GPS 방해 전파를 찾을 수도 있나요?
 A. 과학기술정보통신부 2025년 8월 19일 훈련에서 공군이 가진 전파탐지 드론이 방해 전파 발생 지점 탐색에 투입됐어요. 그 훈련에는 혼신제거팀 4개도 현장에 나갔어요.
 
 보정 전 오차 상한 33m와 보정 뒤 1.6m 사이에는 31.4m가 남아요. 쓰는 기체가 KASS 보정 신호를 받는지는 기체 설명서의 위성항법 항목에서 먼저 찾아볼 만해요.
+
+출처: [대한민국 정책브리핑 2022년 6월 23일 기사](https://www.korea.kr/news/policyNewsView.do?newsId=148902824) · [국토지리정보원 2008년 4월 21일 브리핑](https://www.korea.kr/briefing/policyBriefingView.do?newsId=148650991) · [대한민국 정책브리핑 정책뉴스 — 한국형 항공위성서비스 12월부터 본격 운](https://www.korea.kr/news/policyNewsView.do?newsId=148901142) · [정책브리핑 보도자료 — 항공위성서비스(KASS) 정밀위치신호… 15일 첫](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156542249)

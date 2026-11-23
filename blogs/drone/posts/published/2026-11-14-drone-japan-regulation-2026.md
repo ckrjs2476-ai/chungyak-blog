@@ -95,3 +95,5 @@ value: "일본 국토교통성 등록·비행 규칙 자료와 한국 생활법�
 일본 등록·비행 규칙 원문은 2026년 11월 14일 확인 기준으로 [일본 국토교통성 비행 규칙 대상 기체 안내](https://www.mlit.go.jp/koku/koku_fr10_000040.html)에서 링크로 이어져요.
 
 한국 신고 기준 원문은 [찾기쉬운 생활법령정보 드론 장치신고](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1)에서 같은 날 확인했어요. 가져갈 기체의 배터리 포함 무게를 먼저 저울에 달아 100g을 넘는지부터 보면, 일본 등록이 필요한지가 바로 갈려요.
+
+출처: [찾기쉬운 생활법령정보 드론 장치신고](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1) · [일본 국토교통성 '비행 규칙(항공법 제11장) 대상 기체](https://www.mlit.go.jp/koku/koku_fr10_000040.html) · [일본 국토교통성 '비행금지공역과 비행방법](https://www.mlit.go.jp/koku/koku_fr10_000041.html) · [일본 국토교통성 무인항공기 비행 매뉴얼(표준매뉴얼①)](https://www.mlit.go.jp/common/001975917.pdf)

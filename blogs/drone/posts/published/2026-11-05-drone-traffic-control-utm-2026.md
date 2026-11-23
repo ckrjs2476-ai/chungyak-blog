@@ -96,3 +96,5 @@ A. 국토교통부가 2021년 4월 25일 낸 K-드론시스템 실증지원사�
 ## 드론관제 쪽 일, 실증 분야 3개에서 출발해요
 
 국토교통부가 2021년 4월 25일 낸 K-드론시스템 실증지원사업 공모는 총 7억 1,000만원 규모였고, 분야는 공항, 도심, 장거리·해양배송 3개였어요. 지금 사업의 2단계 24개월은 2026년 12월 31일에 끝나요. 다음으로 볼 자료는 항공안전기술원 '미래항공 > 드론교통관리' 메뉴의 결과 공지예요. 그 공지에 FIMS 운영 기관과 USS 사업자 기준이 담기는지가 드론관제 일자리의 범위를 정해요.
+
+출처: [항공안전기술원 드론교통관리 사업소개](https://www.kiast.or.kr/kr/sub06_02_01.do) · [정책브리핑 정책위키 '드론산업'](https://m.korea.kr/special/policyCurationView.do?newsId=148867190) · [국가법령정보센터 '드론 활용의 촉진 및 기반조성에 관한 법률' 제정·개정](https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=013479&chrClsCd=010202&lsRvsGubun=all) · [국토교통부 보도자료(정책브리핑 게재)](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156393715)

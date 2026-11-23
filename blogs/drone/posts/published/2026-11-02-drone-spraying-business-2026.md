@@ -100,3 +100,5 @@ Q. 드론방제업체 등록이 취소되면 바로 다시 할 수 있나요?
 A. 찾기쉬운 생활법령정보(2026년 9월 15일 기준)에 따르면 사용사업 등록이 취소되면 2년 동안 다시 등록할 수 없어요.
 
 별표 1의3의 인력·장비 기준 원문은 [국가법령정보센터의 농약관리법 시행규칙 개정문](https://law.go.kr/LSW/lsRvsDocListP.do?lsId=006982&chrClsCd=010202&lsRvsGubun=all)에 파일로 붙어 있어요. 농관원 신고서 처리기간이 30일이니, 방제철 첫 작업 날짜에서 한 달 이상 앞서 그 파일을 열어 두는 일정이 필요해요.
+
+출처: [찾기쉬운 생활법령정보의 드론 사업등록 화면](https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=2) · [국가법령정보센터의 농약관리법 시행규칙 개정문](https://law.go.kr/LSW/lsRvsDocListP.do?lsId=006982&chrClsCd=010202&lsRvsGubun=all) · [국가법령정보센터 — 농약관리법 전체 제정·개정이유](https://www.law.go.kr/LSW/lsRvsRsnListP.do;jsessionid=aAVtFVxrfQnLj6ElWXs+WpCE.LSW16?chrClsCd=010102&lsRvsGubun=all&lsId=001514) · [국가법령정보센터 — 농약관리법 시행규칙 [별지 제7호의2서식] 항공방제업](https://www.law.go.kr/LSW/flDownload.do?flSeq=157528049&bylClsCd=110202)

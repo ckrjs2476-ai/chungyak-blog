@@ -106,3 +106,5 @@ Q. 일본에서는 미니드론도 등록해야 하나요?
 A. 일본 국토교통성 기준은 100g부터 규칙 대상이라, 한국 비사업용 신고 기준 2kg보다 낮아요.
 
 아이와 날리기 전에는 상자의 최대이륙중량이 250g을 넘는지, KC 마크가 있는지 두 가지를 먼저 보면 돼요. 그다음 날릴 곳이 공항 반경 9.3km 안인지는 [서울시 드론 비행 안내](https://news.seoul.go.kr/gov/?p=549810)가 알려 주는 드론원스톱 비행승인 메뉴에서 확인할 수 있어요. 금지 목록 원문은 [경찰청 정책브리핑](https://m.korea.kr/news/policyNewsView.do?newsId=148921462)에 있고, 2026년 11월 18일 확인한 내용이에요.
+
+출처: [서울시 드론 비행 안내](https://news.seoul.go.kr/gov/?p=549810) · [경찰청 정책브리핑](https://m.korea.kr/news/policyNewsView.do?newsId=148921462) · [국토교통부 고시 「무인비행장치 조종자의 자격 및 전문교육기관 지정기준」 ](https://law.go.kr/LSW/flDownload.do?flSeq=151852227) · [정책브리핑(korea.kr) 국가기술표준원 '물놀이 용품, 매의 눈으로 ](https://www.korea.kr/briefing/policyBriefingView.do?newsId=148817976)

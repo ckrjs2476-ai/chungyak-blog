@@ -98,3 +98,5 @@ Q. 드론정비사 일은 법에서 어떤 사업에 들어가나요?
 A. 초경량비행장치 정비·수리·개조는 항공사업법 제2조 제26호 다목 항공레저스포츠사업에 적혀 있어요. 제2조 39개 호 가운데 드론과 정비가 함께 나오는 곳은 이 다목뿐이에요.
 
 사업 이름을 고르는 기준이 '무엇을 넘기느냐'라면, 등록 문턱을 가르는 기준은 쓰는 기체 가운데 가장 무거운 한 대가 25kg을 넘느냐예요.
+
+출처: [국가법령정보센터 항공사업법 제2조](https://law.go.kr/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=010202&lsJoLnkSeq=1023755001) · [찾기쉬운 생활법령정보의 드론사용사업 범위 안내](https://www.easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=94&onhunqueSeq=6196) · [드론 사업등록 안내](https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=2) · [항공사업법 제48조(초경량비행장치사용사업의 등록)](https://law.go.kr/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=010202&lsJoLnkSeq=1026781675)

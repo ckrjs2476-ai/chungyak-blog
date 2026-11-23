@@ -115,3 +115,5 @@ value: "부산 남구 84㎡ 실거래 908건을 동별·월별·거래 많은 �
 남구 바로 옆 해운대구 공고를 반여동 시세와 견준 글은 [트리븐센텀 2단지 분양가와 해운대구 실거래 비교](https://daily-cheongyak.blogspot.com/2026/10/trivn-centum-2-bunyangga-2026-10.html)에 있고, 부산 민영 단지끼리 3.3㎡당 가격을 줄 세운 내용은 [부산 분양 아파트 10월 민영 4곳 평당가 비교](https://daily-cheongyak.blogspot.com/2026/10/busan-apartment-pyeong-price-2026-10.html)에 정리했어요. 더샵 트리센트 신청 자격과 특별공급 세부는 [청약홈 입주자모집공고 원문](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000563&pblancNo=2026000563)에서 확인해 주세요.
 
 > 이 글은 국토교통부 실거래가 공개 데이터를 바탕으로 정리했어요. 실거래는 11월 21일 갱신 자료이고, 분양가는 청약홈 입주자모집공고(더샵 트리센트 11월 13일, 두산위브더제니스 대연 7월 30일)에서 가져왔어요. 동별 원자료는 [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr)에서 내려받을 수 있어요.
+
+출처: [청약홈 입주자모집공고 원문](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000563&pblancNo=2026000563) · [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr)

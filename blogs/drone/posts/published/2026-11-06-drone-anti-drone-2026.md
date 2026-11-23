@@ -96,3 +96,5 @@ Q. 경주 APEC 드론감시는 하루 몇 시간 이뤄졌나요?
 A. 한국원자력연구원은 2025년 11월 경주 APEC 기간에 회담장·숙소·동선과 주요 항만을 24시간 감시했다고 밝혔어요.
 
 새만금 실증 결과가 나오면 [정책브리핑 보도자료 원문](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156735524&call_from=rsslink)에서 실증 장소와 기간부터 확인하는 게 빠르고, 내가 날릴 곳이 공항 관제권에 걸리는지는 [드론 비행금지구역 확인 방법 글](https://drone-note.blogspot.com/2026/11/drone-no-fly-zone-check-2026.html)의 순서대로 보면 돼요.
+
+출처: [정책브리핑의 우주청·경찰청 시연 기사](https://www.korea.kr/news/policyNewsView.do?newsId=148949560&pWise=main&pWiseMain=L2) · [정책브리핑 보도자료 원문](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156735524&call_from=rsslink) · [국토교통부 보도자료(정책브리핑), 2018.12.21.](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156310288) · [국토교통부 참고자료(정책브리핑), 2019.10.01.](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156353755)

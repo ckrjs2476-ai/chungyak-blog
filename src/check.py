@@ -59,7 +59,7 @@ FIXED_OK = ("바탕으로 정리했", "입주자모집공고 원문", "청약홈
 
 
 def _sentences(body: str) -> list[str]:
-    text = re.sub(r"^\s*[|#>-].*$", "", body, flags=re.M)      # 표·소제목·목록 제외
+    text = re.sub(r"^\s*([|#>-]|출처\s*[:：]).*$", "", body, flags=re.M)      # 표·소제목·목록·맨 끝 출처 줄 제외
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     return [x.strip() for x in re.split(r"(?<=[.!?요다])\s+", text) if len(x.strip()) >= 20]
 
@@ -95,7 +95,7 @@ MAX_SHARED_PHRASES = 5  # 공개 글 3편 이상에 이미 나온 5어절 표현
 
 
 def _phrases(text: str, n: int = 5) -> set[str]:
-    keep = [l for l in text.splitlines() if not l.lstrip().startswith(("|", "#", ">")) and not PHRASE_FIXED.search(l)]
+    keep = [l for l in text.splitlines() if not l.lstrip().startswith(("|", "#", ">", "출처:")) and not PHRASE_FIXED.search(l)]
     w = re.sub(r"[\d,.%]+", "N", strip_md("\n".join(keep))).split()
     return {" ".join(w[i:i + n]) for i in range(len(w) - n + 1)}
 

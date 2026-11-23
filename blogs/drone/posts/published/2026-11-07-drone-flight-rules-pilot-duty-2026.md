@@ -107,3 +107,5 @@ Q. 드론 비행금지구역 벌금은 얼마인가요?
 A. 비행금지구역을 승인 없이 날면 항공안전법 제161조 제2항 제1호의2가 적용돼 벌금 상한은 1천만 원, 징역 상한은 1년이에요. 비행제한공역은 같은 조 제4항 제1호로 벌금 상한이 500만 원이에요.
 
 별표가 그 뒤에 다시 바뀌었는지는 이번에 확인하지 못했어요. 조종자증명을 가진 분이라면 [국가법령정보센터 항공안전법 제129조](https://www.law.go.kr/LSW//lsLawLinkInfo.do?lsJoLnkSeq=1000593303&lsId=012524&chrClsCd=010202&print=print)에서 시행규칙으로 넘어가 별표 44의2의 개정일부터 확인하는 게 첫 순서예요. 2026년 11월 7일 기준 화면의 법률 번호는 제21822호예요.
+
+출처: [국가법령정보센터의 시행규칙 제310조 원문](https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1025929301&chrClsCd=010202&ancYnChk=) · [국가법령정보센터 항공안전법 제129조](https://www.law.go.kr/LSW//lsLawLinkInfo.do?lsJoLnkSeq=1000593303&lsId=012524&chrClsCd=010202&print=print) · [법제처 찾기쉬운 생활법령정보 100문100답 '조종자 준수사항](https://www.easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=94&onhunqueSeq=6203) · [항공안전법 제166조(과태료)](https://www.law.go.kr/LSW//lsLawLinkInfo.do?lsJoLnkSeq=1000593852&lsId=012524&chrClsCd=010202&print=print)

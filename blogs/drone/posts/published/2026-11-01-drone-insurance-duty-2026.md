@@ -99,3 +99,5 @@ Q. 드론기체보험은 기체마다 들어야 하나요?
 A. 한국교통안전공단 사용사업 등록 요건은 초경량비행장치별 가입과 사업자별 가입을 모두 인정해요. 대인은 1.5억 원 이상, 대물은 2천만 원 이상이 기준이에요.
 
 대물 기준은 두 기관 화면을 같이 놓고 읽어야 해요. 생활법령정보는 대물 의무를 제5조제5호 무인비행장치를 소유한 경우로 좁혀 적었고, 공단 등록 요건은 사용사업자에게 대물 2천만 원 이상을 요구해요. 드론으로 사업 등록을 준비한다면 보험 증권에 대인 1.5억 원 이상과 대물 2천만 원 이상이 둘 다 찍혀 있는지부터 확인해 보세요.
+
+출처: [국가법령정보센터의 항공사업법 제70조 조문](https://www.law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=900746498&chrClsCd=010202) · [법제처 찾기쉬운 생활법령정보 '드론 보험가입](https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=3) · [생활법령정보 100문100답 '드론을 소유하고만 있어도 보험에 가입해야 ](https://www.easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=94&onhunqueSeq=6197) · [자동차손해배상 보장법 시행령 제3조(책임보험금 등)](https://law.go.kr/LSW/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=&lsJoLnkSeq=1019296231)

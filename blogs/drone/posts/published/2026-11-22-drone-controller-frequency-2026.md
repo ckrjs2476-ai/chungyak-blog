@@ -97,3 +97,5 @@ Q. 미니드론 조종기 주파수가 40MHz면 어느 대역인가요?
 A. 고시 제4조 1호 무선조정용 칸의 40.656~40.704MHz 대역으로, 폭은 0.048MHz예요.
 
 해외에서 들여온 조종기라면 기체와 조종기를 각각 몇 대로 세는지가 이 글에서 남은 질문이에요. 국립전파연구원 적합성평가 면제 문의처 번호는 031-644-7533이에요.
+
+출처: [국가법령정보센터에 올라 있는 고시 원문](https://www.law.go.kr/LSW/flDownload.do?flSeq=161548805) · [국립전파연구원 적합성평가 제도 개요](https://www.rra.go.kr/ko/license/A_a_about.do) · [국립전파연구원 — 적합성평가 제도 FAQ(적합성평가 대상)](https://www.rra.go.kr/ko/notice/D_e_faq2_1.do?fa_type=a&fa_category=compt) · [국립전파연구원 — 적합성평가 면제 FAQ](https://www.rra.go.kr/ko/notice/D_e_faq2_1.do?fa_type=b&fa_category=compt)

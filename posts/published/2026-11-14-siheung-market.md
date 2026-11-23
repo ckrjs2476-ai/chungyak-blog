@@ -112,3 +112,5 @@ A-6블록이 들어서는 거모동은 기존 아파트 84㎡ 34건이 2억 5,75
 거모지구 민영 단지들의 평당가와 1순위·무순위 결과는 [시흥 분양 아파트 10곳 평당가와 청약 결과 비교](https://daily-cheongyak.blogspot.com/2026/11/siheung-apartment-bunyang-2025-09-2026.html)에 모아 두었고, 엘리프가 1순위 평균 0.13대 1, 2순위까지 231세대 미달로 끝난 과정은 [엘리프 시흥 더프라임 1순위 경쟁률 결과](https://daily-cheongyak.blogspot.com/2026/11/elif-siheung-prime-competition-2026-11.html)에 있어요. 신청 자격과 소득·자산 기준은 [청약홈 입주자모집공고 원문](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820015&pblancNo=2026820015)에서 확인해 주세요.
 
 > 이 글은 국토교통부 실거래가 공개 데이터를 바탕으로 정리했어요. 실거래는 11월 14일 갱신분, 거모 A-6블록 숫자는 11월 6일 청약홈 입주자모집공고에서 가져왔어요. 동별 거래는 [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr)에서 내려받을 수 있어요.
+
+출처: [청약홈 입주자모집공고 원문](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820015&pblancNo=2026820015) · [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr)

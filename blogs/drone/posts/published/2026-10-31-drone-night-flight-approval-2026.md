@@ -120,3 +120,5 @@ Q. 드론 야간비행 벌금도 있나요?
 A. 승인 없이 일몰 후 날린 경우는 벌금이 아닌 과태료로, 항공안전법 제166조 제3항 제6호에 따라 300만 원 이하예요.
 
 생활법령정보 화면에는 항공안전법이 2026년 11월 13일부터 바뀐 내용으로 시행된다는 안내도 붙어 있어요. 비행 날짜가 그 뒤라면 5단계 심사와 30일 기간이 바뀌었는지부터 국가법령정보센터의 제312조의2 현행 문구로 맞춰 보세요.
+
+출처: [국가법령정보센터에 올라온 별표 1 원문](https://www.law.go.kr/LSW/flDownload.do?flSeq=129523415&flNm=%5B%EB%B3%84%ED%91%9C+1%5D+%ED%8A%B9%EB%B3%84%EB%B9%84%ED%96%89+%EC%95%88%EC%A0%84%EA%B8%B0%EC%A4%80%28%EC%A0%9C4%EC%A1%B0+%EA%B4%80%EB%A0%A8%29&bylClsCd=200201) · [법제처 생활법령정보 특별비행승인 안내](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=2) · [항공안전법 시행규칙 제310조(초경량비행장치 조종자의 준수사항)](https://law.go.kr/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=010202&lsJoLnkSeq=1025929301) · [항공안전법 시행규칙 제312조의2(무인비행장치의 특별비행승인)](http://www.law.go.kr/lsLinkProc.do?lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99&lsId=60816&chrClsCd=010202&joNo=031202001&mode=10&gubun=admRul&datClsCd=010102)

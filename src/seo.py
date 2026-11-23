@@ -155,6 +155,7 @@ def _published(blog: str) -> list[dict]:
 
 EXP_RULES_FROM = "2026-11-08"
 CARD_FROM = "2026-11-18"  # 5개 블로그 요약 그림(brief_common 9-4)
+SOURCE_FROM = "2026-11-24"  # 글 맨 끝 출처 줄(src/sources.py)
 DRONE_GEO_FROM = "2026-11-18"  # 드론: AI 검색(ChatGPT·Gemini·Claude)·구글 AI 개요/AI 모드 기준을 막는 규칙으로(사용자 요청 11/18)
 LINK2_FROM = "2026-11-09"  # 새 글 내부 링크 2개 이상(공개 글 10편 이상 블로그)  # 직접 알아보기(캡처 + 1인칭) 필수 시작일
 CAPTURE_RE = re.compile(r"^!\[[^\]]+\]\(captures/[^)]+\)", re.M)
@@ -185,6 +186,12 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
         errs += experience_errors(body)
     if str(meta.get("_file", ""))[:10] >= CARD_FROM:
         errs += card_errors(body)
+    if str(meta.get("_file", ""))[:10] >= SOURCE_FROM:  # 맨 끝 '출처:' 줄, 공식 사이트만(2026-11-24)
+        import importlib.util as _iu
+        _sp = _iu.spec_from_file_location("post_sources", ROOT / "src" / "sources.py")
+        _src = _iu.module_from_spec(_sp)
+        _sp.loader.exec_module(_src)
+        errs += _src.source_errors(body)
     heads = _sections(body)
     paras = _paragraphs(body)
     # 1. SEO 소제목: 내용이 드러나는 문장형

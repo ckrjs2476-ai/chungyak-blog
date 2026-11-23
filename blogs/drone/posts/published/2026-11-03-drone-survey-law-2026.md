@@ -103,3 +103,5 @@ Q. 드론항공측량도 비행 전에 승인을 받아야 하나요?
 A. 서울시 2026년 4월 17일 안내 기준으로 서울 안에서는 3~5일 전에 드론원스톱에서 비행승인을 받아야 해요. 지역과 관계없이 고도 150m 이상이나 최대이륙중량 25kg 초과 비행도 승인 대상이에요.
 
 공공기관 발주 측량을 드론으로 맡을 계획이라면 발주 공고의 설계금액부터 확인해 보세요. 그 숫자가 별표 8에서 2명 줄을 맞출지 6명 줄을 맞출지를 정해요.
+
+출처: [국가법령정보센터의 공간정보관리법 제44조](https://www.law.go.kr/LSW//lsLawLinkInfo.do?lsJoLnkSeq=1000908079&lsId=011023&chrClsCd=010202&print=print) · [국가법령정보센터 — 같은 법 시행령 제34조(측량업의 종류)](https://law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=900397978&chrClsCd=010202) · [국가법령정보센터 — 시행령 [별표 7] 측량업의 종류별 업무 내용(제34](https://law.go.kr/flDownload.do?gubun=&flSeq=98524323) · [국가법령정보센터 — 시행령 [별표 8] 측량업의 등록기준(제36조제1항 ](https://www.law.go.kr/LSW/flDownload.do?flSeq=160125985)

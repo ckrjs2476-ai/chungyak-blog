@@ -97,3 +97,5 @@ Q. 드론 최신 뉴스에 나오는 관제권은 범위가 어디까지인가�
 A. 생활법령정보 안내에 따르면 관제권은 비행장 주변 반경 9.3km예요. 이 안에서 승인 없이 날려 비행장 운영에 지장을 주면 500만 원 이하 벌금이에요.
 
 비행 날짜와 장소가 정해졌다면 드론 원스톱 민원서비스의 비행금지구역 지도에서 그 지점이 금지구역인지부터 확인해 보세요. 금지구역이면 처벌 기준이 1년 이하 징역으로 바뀐 만큼 승인서를 받은 뒤에 날려야 해요.
+
+출처: [항공안전법 전체 제정·개정이유 화면](https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=012524&chrClsCd=010202&lsRvsGubun=all) · [항공안전법 제161조(초경량비행장치 불법 사용 등의 죄)](https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=285967&joNo=0161&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR) · [항공안전법 제166조(과태료)](https://www.law.go.kr/LSW//lsLawLinkInfo.do?lsJoLnkSeq=1000593852&lsId=012524&chrClsCd=010202&print=print) · [법제처 찾기쉬운 생활법령정보 '드론 비행승인 > 비행승인 신청](https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=1)

@@ -88,3 +88,5 @@ SimwonAmericaCorp.는 2,500,000주를 공모하는데 그중 1,000,000주가 구
 ![첫 화면 위쪽에 '최종문서가 아니므로 투자판단 시 유의' 빨간 줄이 먼저 떠 있어요](captures/ipo-00960234-dart-guju.webp)
 
 구주 주식 수와 매출인 관계는 DART 증권신고서 매출인 항목에서 가져왔고, 구주 비중과 규모 순위는 10월 20일 집계 27곳으로 계산했어요. 매출인이 상장 뒤 남은 주식을 언제부터 팔 수 있는지도 청약 전에 궁금해지는 대목이라, 투자 판단은 투자설명서 원문에서 그 부분까지 읽고 직접 하셔야 해요.
+
+출처: [영광와이케이엠씨 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261008000649) · [SimwonAmericaCorp. 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000149) · [제이앤티지 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016000426) · [에스에프씨 증권신고서](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019000368)

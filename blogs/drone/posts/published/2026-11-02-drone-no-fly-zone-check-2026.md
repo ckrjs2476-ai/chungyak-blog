@@ -100,3 +100,5 @@ Q. 드론 비행금지구역 허가를 학교 운동장 수업용으로 한 번�
 A. 시행규칙 제308조 제7항은 최대이륙중량 7kg 이하 드론이 학교 운동장에서 지표면 20m 안쪽으로 날 때 12개월 범위로 승인하도록 정해요.
 
 확인 순서는 2단계예요. 날릴 지점이 정해졌다면 Ready to fly 앱에서 그 지점을 찍고 승인 기관 연락처가 국방부인지 국토교통부인지 먼저 적어 두세요. 서울처럼 3~5일 전 신청을 안내하는 지역이라면 그 날짜에서 거꾸로 세어 드론 원스톱 신청일을 정하면 돼요.
+
+출처: [생활법령정보 '비행승인 신청' 화면](https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1814&ccfNo=3&cciNo=1&cnpClsNo=1) · [항공안전법 시행규칙 제308조](https://www.law.go.kr/LSW/lumLsLinkPop.do?lspttninfSeq=140100) · [생활법령정보 100문100답 '취미활동으로 드론을 비행할 때에도 비행승인](https://www.easylaw.go.kr/CSP/OnhunqueansInfoRetrieve.laf?onhunqnaAstSeq=94&onhunqueSeq=6200) · [항공안전법 시행규칙 별지 제122호서식(초경량비행장치 비행승인신청서)](https://law.go.kr/LSW/flDownload.do?flSeq=29420026)

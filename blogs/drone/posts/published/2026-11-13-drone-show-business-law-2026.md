@@ -83,3 +83,5 @@ value: "드론 쇼라는 말이 없는 항공사업법 시행규칙 제6조에�
 300대 공연이라면 신고 300건, 기체별 보험 300대분, 특별비행승인 처리기간 30일이 계약 일정의 기준 숫자예요. 특별비행승인은 새로운 기술 검토처럼 특별한 사정이 있으면 90일까지 늘 수 있어서, 공연일에서 30일과 90일을 각각 거꾸로 센 두 날짜를 함께 적어 두면 연장 통지가 와도 공연일과 겹치는지 바로 보여요.
 
 신고는 7일 안에 통지가 없으면 다음 날 수리된 것으로 보지만, 특별비행승인에는 그런 간주 규정이 이번에 연 조문에 없었어요. 그래서 공연일 역산은 신고 7일이 아니라 30일·90일이 기준이 되고, 근거는 [국가법령정보센터 항공안전법 시행규칙 제312조의2](https://www.law.go.kr/LSW/lsLinkProc.do?gubun=admRul&lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99&lsId=60816&mode=10&datClsCd=010102&joNo=031202001&chrClsCd=010202) 원문에 있어요.
+
+출처: [항공사업법 제78조](https://www.law.go.kr/LSW//lsLawLinkInfo.do?lsJoLnkSeq=900746985&lsId=012523&chrClsCd=010202&print=print) · [항공안전법 제122조](https://law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1000593645&chrClsCd=010202) · [항공안전법 제129조](https://www.law.go.kr/LSW//lsLawLinkInfo.do?lsJoLnkSeq=1000593303&lsId=012524&chrClsCd=010202&print=print) · [국가법령정보센터 항공안전법 시행규칙 제312조의2](https://www.law.go.kr/LSW/lsLinkProc.do?gubun=admRul&lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99&lsId=60816&mode=10&datClsCd=010102&joNo=031202001&chrClsCd=010202)

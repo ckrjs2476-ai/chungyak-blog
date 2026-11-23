@@ -85,3 +85,5 @@ Q. 드론 기체신고번호는 미국에서도 붙이나요?
 A. FAA는 날리기 전에 모든 등록 기체에 등록번호를 붙이라고 안내해요. 등록 유효기간은 3년이에요.
 
 미국에서 취미로 날릴 계획이라면 FAA 취미 비행 안내의 TRUST 시험 항목을 먼저 열어, 통과 증명을 비행 때 들고 다니는 조건까지 확인해 두세요.
+
+출처: [FAA 드론 등록 안내](https://www.faa.gov/uas/getting_started/register_drone) · [찾기쉬운 생활법령정보 드론 장치신고 안내](https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1) · [FAA 취미 비행 안내](https://www.faa.gov/uas/recreational_flyers) · [미국 연방규정 14 CFR 107.51 (코넬대 법률정보연구소 LII 원](https://www.law.cornell.edu/cfr/text/14/107.51)

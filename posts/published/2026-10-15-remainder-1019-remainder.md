@@ -105,3 +105,5 @@ value: "10월 19일 접수한 무순위 7곳의 신청 결과와 84㎡ 분양가
 신청 자격과 단지별 공고문은 [청약홈 무순위·잔여세대 공고](https://www.applyhome.co.kr)에 올라와 있습니다. 시티오씨엘 9단지 원문은 [청약홈 시티오씨엘 9단지 공고 상세](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259)에서 열 수 있어요.
 
 > 이 글은 청약홈 공고 데이터를 바탕으로 정리했고, 주변 시세는 국토교통부 실거래가로 계산했어요. 신청 전에는 반드시 입주자모집공고 원문을 확인해 주세요.
+
+출처: [청약홈 무순위·잔여세대 공고](https://www.applyhome.co.kr) · [청약홈 시티오씨엘 9단지 공고 상세](https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259)

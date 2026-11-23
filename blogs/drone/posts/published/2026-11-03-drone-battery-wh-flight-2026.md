@@ -96,3 +96,5 @@ Q. 미니 드론 배터리도 개수 제한이 있나요?
 A. 국토교통부 2026년 4월 8일 보도자료 기준 보조배터리는 1인당 최대 2개인데, 드론 배터리를 따로 다룬 문장은 없었어요. 7.4V 2,250mAh 같은 작은 배터리는 16.65Wh라 용량 경계와는 거리가 멀어요.
 
 배터리 기준과 별개로 드론 기체를 신고해야 하는지는 무게로 갈려요. 그 기준은 [최대이륙중량 2kg과 사업용 여부로 나눈 드론 기체신고 글](https://drone-note.blogspot.com/2026/10/drone-registration-2kg-2026.html)에서 확인할 수 있어요.
+
+출처: [정책브리핑에 실린 국토교통부 안내(2025년 3월 5일)](https://m.korea.kr/multi/mediaNewsView.do?newsId=148940158) · [2026년 4월 8일 발표](https://m.korea.kr/news/policyNewsView.do?newsId=148962298) · [정책브리핑 '3월부터 보조배터리 기내 선반 보관 금지…비닐백 담아 소지해](https://www.korea.kr/news/policyNewsView.do?newsId=148939574) · [정책브리핑 '[정책 바로보기] 국토부 "보조배터리 비닐봉투 보관, 국제기](https://www.korea.kr/news/policyNewsView.do?newsId=148942586)

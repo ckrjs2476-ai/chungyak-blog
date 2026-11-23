@@ -98,3 +98,5 @@ GTX운정중앙역 시티프라디움 3단지 60㎡형 12세대가 249.75대 1�
 10월 19~23일 접수 8곳을 묶은 [10월 3주 청약 경쟁률 순위](https://daily-cheongyak.blogspot.com/2026/10/weekly-competition-ranking-2026-10-3w.html)에서는 청주 가경 아이파크 7단지가 1위였고, 그 주에도 1순위에서 전 타입이 끝난 곳은 3곳뿐이었어요.
 
 > 숫자는 청약홈 공고·경쟁률 데이터를 바탕으로 정리했어요. 신청 전에는 반드시 입주자모집공고 원문을 확인해 주세요.
+
+출처: [APT 분양정보](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do)

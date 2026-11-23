@@ -89,7 +89,7 @@ def blocks(body: str) -> list[str]:
 
 def closing(body: str, meta: dict) -> set[str]:
     paras = [b.strip() for b in re.split(r"\n\s*\n", body.strip())
-             if b.strip() and not b.strip().startswith(("#", "|", ">", "<"))]
+             if b.strip() and not b.strip().startswith(("#", "|", ">", "<", "출처:", "출처 :"))]
     text = _norm(" ".join(paras[-2:]), meta)
     w = text.split()
     return {" ".join(w[i:i + 4]) for i in range(len(w) - 3)}

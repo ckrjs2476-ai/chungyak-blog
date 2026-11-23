@@ -99,3 +99,5 @@ Q. 드론택배로 보낸 성게알은 얼마나 되나요?
 A. 제주 가파도에서는 해녀가 채취한 성게알을 하루 최대 5kg, 선착순 10명에게 500g씩 상모리 거점으로 보냈어요.
 
 국토부 기사에는 배송지 전체 목록이 실려 있지 않아요. 사는 곳이 2024년 기사에 이름이 오른 공주·김천·포천·여수·성남·양주·창원·울주·통영·서산·남원·인천·부산·제주 중 하나라면, 해당 시·군 홈페이지에서 '드론배송'으로 검색해 올해 운영 장소와 주문 앱부터 찾아보세요. 드론 배송을 사업으로 하는 일이 법에서 어느 사업에 들어가는지는 [드론 관련 직업 3가지 사업 구분](https://drone-note.blogspot.com/2026/10/drone-jobs-business-law-2026.html)에서 이어서 볼 수 있어요.
+
+출처: [정책브리핑 '드론배송 166곳으로 확대' 기사](https://www.korea.kr/news/policyNewsView.do?newsId=148945252) · [12월 실적 기사](https://www.korea.kr/news/policyNewsView.do?newsId=148955779) · [정책브리핑 정책뉴스 'K-드론, 8월부터 본격 배송 시작…섬·공원에 생필](https://www.korea.kr/news/policyNewsView.do?newsId=148932092) · [정책브리핑 보도자료 '"K-드론배송 지역 주민 생활편의 높였다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156732598)

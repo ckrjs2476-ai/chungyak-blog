@@ -95,3 +95,5 @@ value: "국방부 촬영 확인·국토부 비행승인·개인정보 포털 공
 개인정보 포털 목록 762쪽 위로는 7,610건이 있고, 이 쪽의 촬영 시작일은 2025년 5월 말이에요. 2025년 5월 촬영분 뒤에 올라온 공지만 전체 16,756건의 약 45%라는 계산이 나와요.
 
 업무 촬영 날짜와 구역이 정해졌다면 [개인정보 포털 드론 촬영사실 공지 안내](https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=286)에서 신청 메뉴로 들어가기 전에, 촬영지역 조회 주소 칸에 같은 동 이름을 넣어 겹치는 공지가 있는지 볼 수 있어요. 이 글의 숫자는 2026년 11월 15일 기준이에요.
+
+출처: [개인정보 포털 드론 촬영사실 공지 안내](https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=286) · [개인정보 포털 '촬영지역 조회'(기업·공공 서비스 > 드론 촬영사실 공지](https://www.privacy.go.kr/front/filming/selectFilmingList.do) · [서울시 행정분야 누리집 '드론 촬영사실 공지 방법 안내' (디지털도시국 ](https://news.seoul.go.kr/gov/archives/554433?listPage=1) · [개인정보 보호법 시행령 (국가법령정보센터)](https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289537&efYd=20260911&ancYnChk=0)

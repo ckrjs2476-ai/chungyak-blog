@@ -98,3 +98,5 @@ Q. 드론종류 가운데 공원에서 날리는 쿼드콥터는 무엇인가요
 A. 대부분 무인멀티콥터에 들어가고, 자체중량 상한은 150kg이에요. 비사업용이면 최대이륙중량 2kg 이하일 때 기체신고를 하지 않아도 돼요.
 
 무인동력비행장치는 2kg·25kg·150kg 세 선으로, 무인비행선은 12kg·7m와 180kg·20m 두 선으로 의무가 나뉘어요. 기체를 들이기 전에 시행규칙 제305조 원문에서 내 기체 종류가 걸리는 목을 먼저 찾아 두면 인증 여부부터 정리돼요.
+
+출처: [국가법령정보센터의 시행규칙 제5조](https://www.law.go.kr/LSW/lumLsLinkPop.do?lspttninfSeq=139785&chrClsCd=010202) · [시행규칙 제정·개정이유 목록](https://www.law.go.kr/LSW/lsRvsRsnListP.do;jsessionid=1tQH9pVMVaBJ1-QsJa03kve2.LSW5?lsId=012848&chrClsCd=010102) · [항공안전법 시행령 제24조](https://www.law.go.kr/LSW/lsLinkProc.do?lsNm=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&mode=10&chrClsCd=010202&gubun=admRul&lsId=34532&datClsCd=010102&joNo=002400001) · [항공안전법 시행규칙 제305조(초경량비행장치 안전성인증 대상 등)](https://www.law.go.kr/LSW/lumLsLinkPop.do?lspttninfSeq=140093&chrClsCd=010202)
