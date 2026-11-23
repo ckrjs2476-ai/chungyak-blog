@@ -1,80 +1,5 @@
 [
  {
-  "name": "js-geoje-si-jeonse-complex-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "compare",
-   "title": "거제시 아파트 전세가율 106.2%, 단지로 나누면?",
-   "answer": "시 전체는 106.2%, 신고가 몰린 2023~2024년 준공 두 단지는 50%대",
-   "compare": {
-    "head": [
-     "구분",
-     "84㎡ 전세 중앙값",
-     "전세가율"
-    ],
-    "rows": [
-     [
-      "거제시 전체",
-      "1억 8,900만 원",
-      "106.2%"
-     ],
-     [
-      "더샵거제디클리브(2024년)",
-      "2억 1,000만 원",
-      "56.9%"
-     ],
-     [
-      "이편한세상거제유로스카이(2023년)",
-      "2억 6,250만 원",
-      "59.7%"
-     ],
-     [
-      "삼도로얄맨션(1994년)",
-      "5,300만 원",
-      "145.2%"
-     ]
-    ]
-   },
-   "source": "국토교통부 실거래가",
-   "date": "2026-11-15"
-  },
-  "size": [
-   760,
-   476
-  ],
-  "bytes": 35098,
-  "at": "2026-11-18 12:42"
- },
- {
-  "name": "js-48310-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14674,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-18 12:42"
- },
- {
-  "name": "js-47113-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "47113",
-   "highlight": "창포동"
-  },
-  "size": [
-   760,
-   556
-  ],
-  "bytes": 20442,
-  "at": "2026-11-18 12:53"
- },
- {
   "name": "js-pohang-buk-gu-jeonse-complex-2026-11-card",
   "ok": true,
   "card": {
@@ -5644,5 +5569,69 @@
   "bytes": 9084,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000049&pblancNo=2026000049",
   "at": "2026-11-23 09:53"
+ },
+ {
+  "name": "gw-11230-cheonggye-hanshin-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11230",
+   "code": "A13003005"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16558,
+  "at": "2026-11-23 11:28"
+ },
+ {
+  "name": "gw-dongdaemun-gu-apartment-management-fee-ranking-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "동대문구 아파트 관리비 1위와 56위는 얼마나 벌어졌나요?",
+   "answer": "1위 청계한신휴플러스 ㎡당 5,285원, 56위는 1,641원으로 3.22배였어요",
+   "points": [
+    {
+     "label": "1위 청계한신휴플러스 ㎡당 합계",
+     "value": "5,285원"
+    },
+    {
+     "label": "56위 휘경리오포레2단지 아파트 ㎡당 합계",
+     "value": "1,641원"
+    },
+    {
+     "label": "동대문구 ㎡당 합계 중앙값 (56곳)",
+     "value": "2,528원"
+    },
+    {
+     "label": "청계한신휴플러스 전기료 ㎡당",
+     "value": "3,128원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-22"
+  },
+  "size": [
+   760,
+   490
+  ],
+  "bytes": 35462,
+  "at": "2026-11-23 11:28"
+ },
+ {
+  "name": "gw-calc-dongdaemun-84-1123",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16926,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-23 11:28"
  }
 ]
