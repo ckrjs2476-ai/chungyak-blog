@@ -1,15 +1,1 @@
-[
- {"name": "js-dangsan-dong-yeongdeungpo-jeonse-2026-11-card",
-  "card": {"blog": "jeonse", "layout": "points",
-   "title": "당산동 아파트 전세, 영등포구 전체와 견주면 전세가율은?",
-   "answer": "당산동1가부터 5가까지 42.9~51.1%로 모두 영등포구 53.0% 아래입니다",
-   "points": [{"label": "영등포구 84㎡ 전세가율", "value": "53.0%"},
-              {"label": "당산동4가 (전세 132건)", "value": "46.9%"},
-              {"label": "당산동5가 (전세 91건)", "value": "44.2%"},
-              {"label": "순위표 180곳 중", "value": "161위"}],
-   "source": "국토교통부 실거래가", "date": "2026-11-10"}},
- {"name": "js-11560-dong", "chart": {"type": "jeonse_dong", "lawd": "11560", "highlight": "당산동4가"}},
- {"name": "js-11560-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "160000"]}, {"fill": ["#dep", "75000"]}, {"pick": ["#reg", "영등포"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "js-11560-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "77000"]}, {"fill": ["#dep", "72400"]}, {"pick": ["#reg", "영등포"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "js-11560-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "서울"], "wait": 2}, {"pick": ["#srhSggCd", "영등포"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
-]
+[]
