@@ -1,1 +1,110 @@
-[]
+[
+ {
+  "name": "js-incheon-jeonse-ratio-ranking-2026-11-card",
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "인천 아파트 전세, 9개 구 전세가율은 얼마나 갈리나요?",
+   "answer": "계양구 80.6%가 가장 높고, 보증금이 가장 높은 연수구는 58.6%로 가장 낮습니다",
+   "compare": {
+    "head": [
+     "84㎡ 기준",
+     "전세 중앙값",
+     "전세가율"
+    ],
+    "rows": [
+     [
+      "계양구",
+      "2억 9,000만 원",
+      "80.6%"
+     ],
+     [
+      "미추홀구",
+      "3억 985만 원",
+      "79.4%"
+     ],
+     [
+      "서해구",
+      "3억 6,000만 원",
+      "60.1%"
+     ],
+     [
+      "연수구",
+      "3억 8,000만 원",
+      "58.6%"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-13"
+  }
+ },
+ {
+  "name": "js-28-incheon-sido-chart",
+  "chart": {
+   "type": "jeonse_sido",
+   "lawd": "28245"
+  }
+ },
+ {
+  "name": "js-28245-calc-1",
+  "page": "blogs/jeonse/pages/calculator.md",
+  "width": 760,
+  "steps": [
+   {
+    "fill": [
+     "#sale",
+     "33400"
+    ]
+   },
+   {
+    "fill": [
+     "#dep",
+     "35000"
+    ]
+   },
+   {
+    "pick": [
+     "#reg",
+     "계양"
+    ]
+   }
+  ],
+  "crop": {
+   "from": "매매가(만 원)",
+   "to": "전세가율은 이렇게"
+  },
+  "pad": 16
+ },
+ {
+  "name": "js-28245-rt-form",
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "sleep": 3,
+  "pad": 20,
+  "steps": [
+   {
+    "click": "전월세",
+    "exact": true,
+    "wait": 1.5
+   },
+   {
+    "pick": [
+     "#srhSidoCd",
+     "인천"
+    ],
+    "wait": 2
+   },
+   {
+    "pick": [
+     "#srhSggCd",
+     "계양"
+    ],
+    "wait": 2
+   }
+  ],
+  "crop": {
+   "from": "연립/다세대"
+  },
+  "height": 560
+ }
+]
