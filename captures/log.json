@@ -1,90 +1,5 @@
 [
  {
-  "name": "gw-11260-jungnangsup-city-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "11260",
-   "code": "A10023952"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16058,
-  "at": "2026-11-19 11:27"
- },
- {
-  "name": "gw-jungnang-gu-apartment-management-fee-by-heat-2026-08-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "compare",
-   "title": "중랑구 관리비, 난방 방식 따라 얼마나 달랐을까?",
-   "answer": "개별난방 26곳 ㎡당 2,714원, 지역난방 18곳 2,392원",
-   "compare": {
-    "head": [
-     "구분",
-     "개별난방(26곳)",
-     "지역난방(18곳)"
-    ],
-    "rows": [
-     [
-      "㎡당 합계 중앙값",
-      "2,714원",
-      "2,392원"
-     ],
-     [
-      "개별사용료 중앙값",
-      "1,252원",
-      "1,065원"
-     ],
-     [
-      "㎡당 합계가 가장 높은 단지",
-      "3,871원",
-      "3,471원"
-     ]
-    ]
-   },
-   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
-   "date": "2026-10-21"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 30328,
-  "at": "2026-11-19 11:27"
- },
- {
-  "name": "gw-calc-jungnang-84-1119",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16914,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-19 11:27"
- },
- {
-  "name": "js-41450-dong-chart",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "41450",
-   "highlight": "덕풍동"
-  },
-  "size": [
-   760,
-   396
-  ],
-  "bytes": 13598,
-  "at": "2026-11-19 12:43"
- },
- {
   "name": "js-hanam-si-jeonse-deokpung-dong-2026-11-card",
   "ok": true,
   "card": {
@@ -5533,5 +5448,57 @@
   "bytes": 22720,
   "url": "https://www.moel.go.kr/local/seouldongbu/info/policydata/view.do?bbs_seq=20250700128",
   "at": "2026-11-25 08:51"
+ },
+ {
+  "name": "dr-safetycost-cta-probe-2026-11-25",
+  "ok": true,
+  "status": 200,
+  "title": "건설기술 진흥법 > 법령 > 본문 | 국가법령정보센터",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 47722,
+  "url": "https://www.law.go.kr/법령/건설기술진흥법/제62조의3",
+  "at": "2026-11-25 08:53"
+ },
+ {
+  "name": "dr-safetycost-kosha-probe-2026-11-25",
+  "ok": true,
+  "status": 200,
+  "title": "법제처 국가법령정보센터 > 한글주소",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 8950,
+  "url": "https://www.law.go.kr/행정규칙/산업재해예방시설자금융자금지원사업및보조금지급사업운영규정",
+  "at": "2026-11-25 08:53"
+ },
+ {
+  "name": "dr-safetycost-tax-probe-2026-11-25",
+  "ok": true,
+  "status": 200,
+  "title": "조세특례제한법 시행규칙 > 법령 > 본문 | 국가법령정보센터",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 53996,
+  "url": "https://www.law.go.kr/법령/조세특례제한법시행규칙/제12조",
+  "at": "2026-11-25 08:53"
+ },
+ {
+  "name": "dr-safetycost-ctadec-probe-2026-11-25",
+  "ok": true,
+  "status": 200,
+  "title": "건설기술 진흥법 시행령 > 법령 > 본문 | 국가법령정보센터",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 32374,
+  "url": "https://www.law.go.kr/법령/건설기술진흥법시행령",
+  "at": "2026-11-25 08:53"
  }
 ]
