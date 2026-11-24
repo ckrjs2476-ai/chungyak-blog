@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 09:47",
+ "updated": "2026-11-24 13:42",
  "stage": 1,
  "band": [
   30,
@@ -8,7 +8,7 @@
  "keywords": [
   {
    "keyword": "장기수선충당금계산",
-   "volume": 140,
+   "volume": 150,
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -44,7 +44,7 @@
   },
   {
    "keyword": "아파트장기수선충당금",
-   "volume": 1040,
+   "volume": 1100,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -56,7 +56,7 @@
   },
   {
    "keyword": "아파트관리비고지서",
-   "volume": 210,
+   "volume": 200,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -116,7 +116,7 @@
   },
   {
    "keyword": "장기수선계획",
-   "volume": 360,
+   "volume": 380,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -128,7 +128,7 @@
   },
   {
    "keyword": "관리비고지서",
-   "volume": 710,
+   "volume": 730,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -140,7 +140,7 @@
   },
   {
    "keyword": "아파트난방비",
-   "volume": 120,
+   "volume": 130,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -160,6 +160,18 @@
    "growth": 1.1,
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
    "score": 66.0,
+   "used": false
+  },
+  {
+   "keyword": "장기수선충당금적립및사용현황",
+   "volume": 15,
+   "comp": "중간",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "base_score": 51.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
+   "score": 56.1,
    "used": false
   },
   {
@@ -212,7 +224,7 @@
   },
   {
    "keyword": "나인원한남관리비",
-   "volume": 150,
+   "volume": 140,
    "comp": "중간",
    "entity": "나인원 한남",
    "entity_id": "A10025192",
@@ -260,7 +272,7 @@
   },
   {
    "keyword": "관리비확인",
-   "volume": 70,
+   "volume": 80,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -332,7 +344,7 @@
   },
   {
    "keyword": "한남더힐관리비",
-   "volume": 190,
+   "volume": 180,
    "comp": "높음",
    "entity": "한남더힐",
    "entity_id": "A14077902",
@@ -2184,30 +2196,6 @@
    "comp": "낮음",
    "entity": "자양우성7차",
    "entity_id": "A14319311",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "동대문구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "동대문구",
-   "entity_id": "region:11230",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "동대문구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "동대문구",
-   "entity_id": "region:11230",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -6691,18 +6679,6 @@
    "used": false
   },
   {
-   "keyword": "장기수선충당금적립및사용현황",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "base_score": 17.0,
-   "growth": 1.1,
-   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 18.7,
-   "used": false
-  },
-  {
    "keyword": "장기수선충당금항목",
    "volume": 10,
    "comp": "중간",
@@ -6776,7 +6752,7 @@
   },
   {
    "keyword": "관리비",
-   "volume": 1380,
+   "volume": 1390,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6800,7 +6776,7 @@
   },
   {
    "keyword": "아파트관리사무소",
-   "volume": 1090,
+   "volume": 1100,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -7148,6 +7124,18 @@
   },
   {
    "keyword": "아파트관리비혜택",
+   "volume": 20,
+   "comp": "중간",
+   "entity": "",
+   "entity_id": "",
+   "base_score": 12.8,
+   "growth": 1.0,
+   "why": "",
+   "score": 12.8,
+   "used": false
+  },
+  {
+   "keyword": "관리비부과프로그램",
    "volume": 15,
    "comp": "중간",
    "entity": "",
@@ -7184,7 +7172,7 @@
   },
   {
    "keyword": "관리사무소",
-   "volume": 3020,
+   "volume": 3090,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -7196,7 +7184,7 @@
   },
   {
    "keyword": "아파트관리비",
-   "volume": 2820,
+   "volume": 2880,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -7212,6 +7200,30 @@
    "comp": "낮음",
    "entity": "서울숲리버뷰자이",
    "entity_id": "A10026207",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
+  },
+  {
+   "keyword": "동대문구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동대문구",
+   "entity_id": "region:11230",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "동대문구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "동대문구",
+   "entity_id": "region:11230",
    "base_score": 20.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -7580,7 +7592,7 @@
   },
   {
    "keyword": "장기수선충당금",
-   "volume": 11660,
+   "volume": 11980,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -7588,18 +7600,6 @@
    "growth": 1.1,
    "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
    "score": 4.6,
-   "used": false
-  },
-  {
-   "keyword": "관리비부과프로그램",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 4.2,
-   "growth": 1.0,
-   "why": "",
-   "score": 4.2,
    "used": false
   },
   {
