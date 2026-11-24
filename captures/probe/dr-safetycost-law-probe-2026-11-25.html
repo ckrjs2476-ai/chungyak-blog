@@ -1,0 +1,2609 @@
+<!DOCTYPE html><html lang="ko"><head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">  
+  <script type="text/javascript">
+        /* 화면 디스플레이 설정 코드 전역변수 선언
+        * - 브라우저 JS는 서버 세션을 직접 읽을 수 없으므로 JSP에서 세션값을 렌더링해서 winodw 전역변수로 내려준다.
+        * - 이 코드는 common.js 보다 먼저 선언되어야 한다.
+        * */
+        window.APP_THEME_INFO = {
+            // 로그인 여부
+            isLogin : false,
+            // 사용자 화면 디스플레이 설정 코드 (300001:라이트모드, 300002:다크모드, 300003:시스템모드)
+            scrnStngCd : ''
+        };
+        var kakaoKey = '7d9effab87b9126df39695ca304bba41';
+    </script>        
+  <script type="text/javascript" src="/LSW/assets/js/jquery-3.7.1.min.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/jquery-ui.min.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/swiper.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/common.js?Time=1795564291389"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/CookieUtil.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/jquery-custom.js?Time=1795564291389"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/jquery/jquery-ui_2017.js"></script>  
+  <script type="text/javascript">
+    //링크 체크
+    var webRoot = '/LSW';
+    var isAsGubun = "IS";
+    var layerDiv = ".layerPop > .inner .cont .bodySideContent";
+
+    function isOutUrl(url){
+        if(!url) return false;
+        url = url.trim();
+        if(url.indexOf('/LSW') === 0) return false;
+        if(url.indexOf('blob')>-1) return false;
+        if(url.charAt(0) === '/') return false;
+        if(/^https?:\/\//i.test(url)) return false;
+        if(url.indexOf('www.') === 0) return false;
+        if(/^(javascript|#)/i.test(url)) return false;
+        return true;
+    }
+
+    function resolveUrl(url){
+        return isOutUrl(url) ? webRoot + '/' + url : url;
+    }
+
+    function checkP(url){
+        if(!url) return false;
+        return /Info|Proc/i.test(url);
+    }
+    
+    (function (){
+        let originalOpen = window.open;
+
+        //window.open
+        window.open = function(url,name,specs){
+            let resolved = resolveUrl(url);
+
+            if(checkP(resolved) && !specs){
+                specs ='width=1000px,height=800px';
+            }else if(checkP(resolved)){
+            }
+            if(url.includes('listShowYn=Y')){
+                resolved = resolved.replace('listShowYn=Y','listShowYn=N')
+            }
+            return originalOpen.call(window,resolved , name, specs);
+        };
+
+        let originalSubmit = HTMLFormElement.prototype.submit;
+
+        HTMLFormElement.prototype.submit = function(){
+
+            let action = this.getAttribute('action');
+            if(action && isOutUrl(action)){
+                this.setAttribute('action',resolveUrl(action))
+            }
+            return originalSubmit.call(this);
+        }
+
+        let originalXhrOpen = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function(method,url){
+            arguments[1] = resolveUrl(url);
+            return originalXhrOpen.apply(this,arguments);
+        }
+
+    })();
+
+    //ajax
+    $.ajaxPrefilter(function (options){
+        options.url = resolveUrl(options.url);
+    });
+
+    //a태그 herf
+    $(document).on('click','a[href]',function(e){
+        let href = $(this).attr('href');
+
+/*
+        //view가 infoP호출이면 가로챔
+        if(checkP(href)){
+            e.preventDefault();
+            window.open(setListShowYn(resolveUrl(href)),'_blank','width=1000px,height=800px');
+        }
+*/
+
+        if(isOutUrl(href)){
+            e.preventDefault();
+            let newHref = resolveUrl(href);
+            let target = $(this).attr('target');
+
+            if(target === '_blank'){
+                window.open(newHref,'_blank','width=1000px,height=800px');
+            }else{
+                window.location.href = newHref;
+            }
+        }
+    })
+
+    $(document).on('submit','form',function(e){
+       let $form = $(this);
+       let action  = $form.attr('action');
+
+       if(checkP(action) && $form.attr('target') ==='_blank'){
+           e.preventDefault();
+           let popupName = 'popup_'+Date.now();
+           window.open('',popupName,'width=1000px,height=800px');
+           $form.attr('action',resolveUrl(action));
+           $form.attr('target',popupName);
+
+           let $listShowYn = $('<input>', {type : 'hidden', name:'listShowYn',value:'N'});
+           $form.append($listShowYn);
+           $form[0].submit();
+           $listShowYn.remove();
+           return;
+       }
+
+       if(isOutUrl(action)){
+           $form.attr('action',resolveUrl(action));
+       }
+    })
+
+</script>
+  <link rel="shortcut icon" type="text/css" href="/LSW/assets/images/ico_favorites.ico">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/common.css?Time=1795564291389">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/swiper.css">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/layout.css">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/contents.css?Time=1795564291389">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/dark.css">
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/js/jquery/jquery.fancybox-2.1.5.css">
+  <style type="text/css">
+        form { display:contents }
+    </style>
+  <title>건설업 산업안전보건관리비 계상 및 사용기준 &gt; 행정규칙 | 국가법령정보센터</title>
+ </head>  
+ <body> 
+  <!-- loading --> 
+  <div class="loading" role="status" aria-label="로딩 중" style="display: none;"> 
+   <span aria-hidden="true"></span> 
+   <span aria-hidden="true"></span> 
+   <span aria-hidden="true"></span> 
+  </div> 
+  <!-- // loading --> 
+  <!-- 2026-09-23 --> 
+  <!-- skipNav --> 
+  <dl id="skipNav"> 
+   <dt>
+    바로가기 메뉴
+   </dt> 
+   <dd>
+    <a href="javascript:void(0)" onclick="fn_skipToViewCont()">본문 바로가기</a>
+   </dd> 
+   <dd>
+    <a href="javascript:void(0)" onclick="fn_skipToViewAside()">목록 바로가기</a>
+   </dd> 
+  </dl> 
+  <!-- //skipNav -->   
+  <input id="netPrivateYn" type="hidden" value="N">    
+  <script type="text/javascript" src="/LSW/assets/js/common/commPop.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/common-ex.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/xmlHttpUtil.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/admrul/admrul.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/admrul/admrulJo.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/admrul/admrulPopLayer.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/admrul/admrulOutPutJoNew.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/admrul/admrulLink.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/autocom.js"></script> 
+  <script defer="defer" type="text/javascript" src="/LSW/assets/js/common/lawNavigation.js"></script> 
+  <script type="text/javascript" src="/LSW/EDotXPressHtml/js/edotxpress-html.min.js"></script> 
+  <script type="text/javascript" src="/LSW/EDotXPressHtml/js/edotxpress-common.js"></script> 
+  <script type="text/javascript" src="/LSW/EDotXPressHtml/js/edotxpress-config-law.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/infoHistory.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common.js"></script> 
+  <script type="text/javascript" src="/LSW/assets/js/common/speechUtil.js"></script> 
+  <script type="text/javascript">
+		var csmJoNo = "";
+		var param = {admRulSeq:"2100000254546",admRulId:"22333", joTpYn:"Y", languageType:"KO", chrClsCd:"010201", preview:"", urlMode:""
+			, prmlNo:"2025-11", prmlYd:"20250212", efYd:"20250212", tabMenuIdx:"", query:""};
+
+		
+		false//
+		var admRulVO = new AdmRulValueObj();
+
+		$(document).ready(function(){
+			if(false){
+				searchList('','');
+			}
+
+
+			if(true){
+				setDetailSelectCookie('010102',el('admRulSeq').value);
+
+				if(param.urlMode == "admRulRvsInfoR"){
+					sideInfo('admRulRvsInfoR');
+				}else if(param.urlMode == "admRulOldAndNew"){ // 행정규칙 신구법 비교
+					sideInfoOan('admRulOldAndNew', param);
+					fn_layer('layer_compareNewOldNotice', this, 360);
+				} else{
+					if (param.preview === "Y") {
+						fUpdate("bodyContent","ileAdmRulLsInfoR.do",param,'lsBdy');
+					} else {
+						fUpdate("bodyContent","admRulLsInfoR.do",param,'lsBdy');
+					}
+				}
+			}
+			//모달창 open 여부 결정
+			 checkReferrer();
+
+			//전자점자 버튼 세팅
+			
+
+		});
+
+		/* 조단위 본문조회  */
+		function fJoView(docCls, chkId, datSeq, seq, joNo, dashNo, joBrNo){
+
+			let admRulInfoUrl =  "/admRulLsInfoP.do?admRulSeq=" + seq
+					+ "&subMenuId=" + ''
+					+ "&tabMenuIdx=" + ''
+					+ "&tabMenuId="  + ''
+					+ "&query=" + ''
+					+ "&pg="  + ''
+					+ "&urlMode=admRulScJoRltInfoR"
+					+ "&joNo=" + joNo
+					+ "&joBrNo=" + joBrNo
+					+ "&dashNo=" + dashNo
+					+ "&listShowYn=Y";
+
+			var openPop = $("#openPopYn").is(":checked") ? 'Y' : 'N';
+
+			if(openPop === "Y") {
+				window.open(webRoot + admRulInfoUrl, "_blank");
+			} else {
+				location.href = webRoot + admRulInfoUrl;
+			}
+		}
+
+		//모달창 open 여부 결정
+		function checkReferrer(){
+			try{
+				var referrer = window.parent.document.referrer;
+				var domain = "law.go.kr".toUpperCase();
+				var nwYn = 'Y';
+				var rrClsCd = '200403';
+				var apiGubun = '';
+				var existLsIdCnt = $('input[id=existLsIdCnt]').val();
+
+				if(apiGubun == 'api'){
+					referrer = window.location.href;
+				}
+				if( !referrer ){
+				} else {
+					var hostName = referrer.split('/')[2];
+					var viewCls = getViewClsFromUrl(referrer);
+					if( hostName.toUpperCase().indexOf(domain) > -1 && apiGubun != 'api'){
+					} else {
+						if( nwYn == "Y" ){
+						} else if ( rrClsCd == "200404" || rrClsCd == "200406" || rrClsCd == "200410" ) { //폐지여부체크
+						} else {
+							$("#infoP_tit").text('행정규칙');
+							if( !viewCls || viewCls == "admRulLsInfoP"  ){
+								viewCls = getViewClsFromUrl(location.href);
+								if( !viewCls || viewCls == "admRulLsInfoP"  ){
+									modal('admRulInfoPModal', '이 행정규칙은 현행이 아닙니다.', 'AmdRulCurMove' , '현행행정규칙이동', existLsIdCnt);
+								} else {
+								}
+							} else {
+							}
+						}
+					}
+				}
+			}catch(e){
+				console.log(e);
+			}
+		}
+
+		function getViewClsFromUrl(url){
+			var parser = document.createElement("a");
+			parser.href = url;
+			var search = parser.search.substring(1);
+			var viewCls = "";
+			if(search){
+				viewCls = getUrlParam(search, "viewCls");
+			}
+			return viewCls;
+		}
+
+		function getUrlParam(search, paramName){
+			var paramValue = "";
+			var params = search.split("&");
+			var searchParams = {};
+
+			for(var i=0; i < params.length; i++){
+				var searchParam =  params[i].split("=");
+				searchParams[searchParam[0]] = searchParam[1];
+			}
+			if( searchParams[paramName] ){
+				paramValue = searchParams[paramName];
+			}
+			return paramValue;
+		}
+
+		/* 본문 이외의 정보 조회 */
+		function sideInfo(url, openPop){
+			var seq      = "";
+			var efYd     = "";
+			var prmlYd   = "";
+			var prmlNo   = "";
+			var admRulId = "";
+
+			try{
+				seq      = el("admRulSeq").value;
+				efYd     = el("efYd").value;
+				prmlYd   = el("prmlYd").value;
+				prmlNo   = el("prmlNo").value;
+				admRulId = el("admRulId").value;
+
+			}catch(e){
+				seq      = "";
+				efYd     = "";
+				prmlYd   = "";
+				prmlNo   = "";
+				admRulId = "";
+
+				alert(admRulVO.msg);
+			}
+
+			if (openPop) {
+				fPopContent(url);
+				return "";
+			}
+
+			if(seq != ""){
+				admRulVO.bdyUpdValue.updateContentNm = url // 인쇄 저장시 출력 구분하기 위한
+
+				// '팝업창'에서 [신구법비교]버튼클릭 시 기존 생성xml 부재하면 조회되지않는 문제, 팝업내에서 버튼간 이동시 param 재설정 필요
+				admRulVO.admRulValue.admRulSeq = seq;
+				admRulVO.admRulValue.efYd      = efYd;
+				admRulVO.admRulValue.prmlYd    = prmlYd;
+				admRulVO.admRulValue.prmlNo    = prmlNo;
+				admRulVO.admRulValue.admRulId  = admRulId;
+
+				admRulVO.conValue.sideMode = true;
+				el("bodyContent").style.display = "none";
+				el("bodySideContent").style.display = "";
+				admRulVO.conValue.bdyMode = false;
+				admRulVO.updateValue.updateDiv = "bodySideContent";
+				admRulVO.updateValue.actionUrl = url + ".do";
+				admRulVO.updateValue.updateMode = "sideContent";
+
+				fUpdate(admRulVO.updateValue.updateDiv, admRulVO.updateValue.actionUrl, makeParam(admRulVO.admRulValue), admRulVO.updateValue.updateMode);
+
+			}
+		}
+
+		/* 법령 update   */
+		function fUpdate(divLayId,urlName,parameter,mode){
+
+			if(divLayId != 'admRulOutPutLayer'){
+				layoutLoadMask();
+			}
+			$.ajax({
+				url:		urlName
+				,timeout:	240000 // 240 seconds
+				,data:		parameter
+				,dataType:	"html"
+				,method:	"POST"
+				,success: function(responseText){
+
+					if(mode == "lsBdy"){		// 본문 이외의 컨텐츠
+						try{
+							el(divLayId).style.display = "";
+							el("bodySideContent").style.display = "none";
+							$(".viewerNodata").css("display", "none");
+						}catch(e){}
+					}else if(mode == "sideContent"){
+						try{
+							el("bodyContent").style.display = "none";
+							el(divLayId).style.display = "";
+
+							$("#bodyContentTOP").css('display', 'none');
+							/* 본문 외 화면 조회시 */
+							$("#viewAside").css('display', 'none');
+							$("#viewWrap").toggleClass('contOff', true);
+							$(".viewTop").css('display', 'none');
+							$("#bodySideContent").css('display', 'block');
+						}catch(e){}
+					}
+					$('#'+divLayId).html(responseText);
+
+					if (param.urlMode == "admRulScJoRltXmlInfoR" || param.urlMode == "admRulScJoRltInfoR") {
+						scrollToJo(``);
+					}
+
+					//IE 일때 음성지원 X IE가 아닐때는 버튼 보여주기
+					var isIE = navigator.userAgent.indexOf("Trident") > -1 || navigator.userAgent.indexOf("MSIE") > -1;
+					if(!isIE){
+						$("#admRulTtsBtn").show();
+					}
+
+					// 별표/서식 아이콘 바꾸기 2010 10 15
+					var bylBtns = document.getElementsByName("bylBtns");
+					for(var i=0;i<bylBtns.length;i++) { // bylBtns.length
+						bylBtns[i].src = "/LSW/images/button/btn_coop.gif";
+					}
+
+					// 24.05.23 시각장애인협회 웹접근성 검토의견 조치 - 범위설정,용지/폰트설정 상위탭 선택 정보 인식
+					if(divLayId == 'admRulOutPutLayer') {
+						el("maClsBtn").focus();
+					}
+
+					if(mode == "output"){
+						getJoOutPutList('outPutJoListDiv','99', '1',el('admRulSeq').value);
+						fn_layer('admRulOutPutDivWrite',this,'450');
+					}
+
+					if (mode == "tts") {
+						makeTtsLayer();
+						fn_layer("admRulTtsLayer", this, '400');
+					}
+
+					var rrClsCd = '200403';
+					// 행정규칙 신구법
+					if (urlName.indexOf("admRulOldAndNew") > -1) {
+						//-- 사이드 메뉴가 열려있으면 content네임을 신구법으로 변경해준다.
+						admRulVO.bdyUpdValue.updateContentNm = "admRulOldAndNew";
+
+						// 신조문의 글씨색을 파란색으로 변경해준다.
+						var agent = navigator.userAgent.toLowerCase();
+						if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
+							$('[style="padding: 0px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none;"] span[style="color: rgb(255, 0, 0);').css('color','rgb(0, 0, 205)');
+						}else {
+							$('[style="border-right:0;padding:0 0 0 0;"] span[style="color:#ff0000;"]').css('color','#0000cd');
+						}
+						$("#admRulOldAndNew").css("display", "");
+
+						// 행정규칙 신구법 말풍선 처리
+						/* 이미지 배치 협의 후 진행 예정
+                        var oldAndNewImg = document.getElementById("oldAndNewImg");
+                        if (oldAndNewImg) {
+                            oldAndNewImg.style.left = 240 + "px";
+                            oldAndNewImg.style.top = 65 + "px";
+                            oldAndNewImg.style.display = "block";
+
+                            setTimeout("oldAndNewImgHide()",6000);
+                        }*/
+						// 전자 점자 버튼 비활성화
+						$("#eDotViewr").css("display", "none");
+					} else if( param.joTpYn == 'Y' && !(rrClsCd == '200401' || rrClsCd == '200402' || rrClsCd == '200404' || rrClsCd == '200407' || rrClsCd == '2004010') ){
+						$('#admRulOldAndNew').css("display", "");
+					} else {
+						$("#admRulOldAndNew").css("display", "none");
+						imgDisplay();
+					}
+
+					layoutUnMask();
+
+					//#29961 일감 관련 스크립트 admrul.js 로 이동
+					admRulJoMoveContent();
+
+					// 상단 버튼 view 여부
+					isBtnView(urlName);
+
+				}
+				,error: function(e) {
+					layoutUnMask();
+				}
+				,complete(){
+					bdyHighlight('conScroll');
+				}
+			});
+		}
+
+		function chrChange(){
+			const theme = document.body.className;
+
+			admRulVO.admRulValue.admRulSeq = el('admRulSeq').value;
+			admRulVO.updateValue.updateDiv = "bodyContent";
+			admRulVO.updateValue.updateMode = "lsBdy";
+			//logger.def('admRulVO.admRulValue.chrClsCd : '+admRulVO.admRulValue.chrClsCd,1);
+			if(admRulVO.admRulValue.chrClsCd == "010202"){
+				admRulVO.admRulValue.chrClsCd = "010201";
+				admRulVO.admRulValue.langType = "Origin";
+			}else{
+				admRulVO.admRulValue.chrClsCd = "010202";
+				admRulVO.admRulValue.langType = "Ko";
+			}
+			var param = {admRulSeq:el('admRulSeq').value, joTpYn:"Y", languageType:admRulVO.admRulValue.langType, chrClsCd:admRulVO.admRulValue.chrClsCd};
+
+			if(admRulVO.conValue.bdyMode){
+				el('lsBdyChrCls').value = admRulVO.admRulValue.chrClsCd;
+				fUpdate("bodyContent","admRulLsInfoR.do",param);
+			}else{
+				fUpdate("bodySideContent","admRulRvsInfoR.do",param);
+			}
+
+			el('chrImg').alt = admRulVO.admRulValue.langType === "Origin" ? "한자" : "한글";
+			el('chrImg').src = theme === "dark"
+								// 다크모드
+								? (admRulVO.admRulValue.langType === "Origin" ? "/LSW/assets/images/dark/viewer/ico0103.svg" : "/LSW/assets/images/dark/viewer/ico0110.svg")
+								: (admRulVO.admRulValue.langType === "Origin" ? "/LSW/assets/images/viewer/ico0103.svg" : "/LSW/assets/images/viewer/ico0110.svg");
+		}
+
+		/* 신구법비교 말풍선 */
+		function imgDisplay(){
+			var img = document.getElementById("oldAndNewImg");
+			if(img){
+				img.style.display = "none";
+			}
+		}
+
+		/* 신구법비교 말풍선 숨김 처리 */
+		function oldAndNewImgHide(){
+			document.getElementById("oldAndNewImg").style.display = 'none';
+		}
+
+		/*'부가정보 버튼*/
+		function f_openSideContents(url){
+			sideInfo(url);
+		}
+
+		//조문스타일(법령형식일때)
+		function f_LsInfoPrint(mode,obj,xValue){
+			admRulVO.admRulValue.admRulSeq = el('admRulSeq').value;
+
+			var bdyContentNm = admRulVO.bdyUpdValue.updateContentNm;
+			if(admRulVO.admRulValue.admRulSeq != ""){
+
+				if(bdyContentNm == 'admRulRvsInfoR'){
+					obj.setAttribute("data-save-type","infoSaveLayer");
+					var contentNm = "제정·개정문";
+					if(mode =="1"){
+						openScrollPop("admRulSideInfoPrint.do?contentNm=" + encodeURIComponent(contentNm));
+					}else{
+						f_LsInfoSave(obj);
+					}
+				}else if(bdyContentNm.indexOf('admRulOldAndNew') > -1){
+					obj.setAttribute("data-save-type","admRulOANSaveLayer");
+					var contentNm = "신구법비교";
+					titleNm1 = $("#tmpWidth2").html();
+					titleNm2 = $("#tmpWidth3").html();
+
+					if(mode =="1"){
+						contentNm = "신구조문대비표";
+						openScrollPop("admRulSideInfoPrint.do?contentNm=" + encodeURIComponent(contentNm) + "&titleNm1=" + encodeURIComponent(titleNm1) + "&titleNm2=" + encodeURIComponent(titleNm2));
+					}else{
+						f_LsInfoSave(obj);
+					}
+					obj.setAttribute("data-save-type","infoSaveLayer");
+				}else{
+					el('outChrClsCd').value=admRulVO.admRulValue.chrClsCd;
+					if(bdyContentNm == 'admRulChgJoInfoR'){ // 변경조문일때
+						admRulVO.admRulValue.joChgYn = 'Y';
+					}
+
+					if(mode == 0){
+						$('#saveTit').text('저장');
+						$('#aBtnOutPutPrint').attr('id','aBtnOutPutSave').text('저장');
+					} else {
+						$('#saveTit').text('인쇄');
+						$('#aBtnOutPutSave').attr('id','aBtnOutPutPrint').text('인쇄');
+					}
+
+					fUpdate("admRulOutPutLayer","admRulOutPutLayer.do",makeParam(admRulVO.admRulValue) + "&mode=" + mode,'output');
+				}
+			}
+		}
+
+		//본문 저장
+		function f_LsInfoSave(obj){
+			if(admRulVO.bdyUpdValue.updateContentNm.indexOf('admRulOldAndNew') > -1){
+				// 행정규칙 신구법 저장
+				admRulOldAndNewSave( "admRulOldAndNewSave.do", obj, admRulVO.admRulValue);
+			}else if(admRulVO.conValue.sideMode){
+				var url = el('sideType').value;
+				var form = el('infoSaveForm');
+				form.action = url+".do";
+				appendInputEl(form, "hidden", "admRulSeq", el('admRulSeq').value);
+				appendInputEl(form, "hidden", "save", 'save');
+				// SaveWindow.showInfoSave(obj,0,0);
+				fn_layer('infoSaveLayer',obj,200);
+			}else{
+				alert("준비중입니다..");
+			}
+		}
+
+		/*'본문' 버튼클릭시 */
+		function f_openPopAdmRul(){
+			var vAdmRulSeq = $("#admRulSeqA").val();
+			bdyChange(true, 'P');
+			//왼쪽본문목록 자동으로 펼쳐지게
+			if($("#west-toggler").attr('title') == 'Open'){
+				$('#west-toggler').click();
+				//fSelectJoList('SpanJo','99',$("#nwYn").val(), $("#admRulSeq").val());
+				fSelectJoListTree('SpanJo','99',$("#nwYn").val(), $("#admRulSeq").val());
+			}
+			if(param.preview === "Y"){
+				fUpdate("bodySideContent","ileAdmRulLsInfoR.do",param,'sideContent');
+			}else{
+				fUpdate("bodySideContent","admRulLsInfoR.do",param,'sideContent');
+			}
+		}
+
+		/*'부가정보 버튼 - 제정·개정문,변경조문 클릭시 */
+		function f_openSideContentsPop(url){
+			if(el('openPopYn')!=null && el('openPopYn').checked){
+				fPopContent(url); // 팝업으로 띄우기
+			}else{
+				sideInfo(url); // 본문에 나타내기
+			}
+		}
+
+		function bookmark() {
+			var title = el("admNm").value;
+
+			var gourl = location.href;
+
+			lawBookmark(title, gourl);
+		}
+
+		function interestLaw(){
+			var pDivision = 'II';
+			var pApplicationId = 1;
+			var pListName = 'interest';
+			var pTitle    = el("admNm").value;
+			var pLsId     = '22333';
+			var pAncNo    = '2025-11';
+			var pLsiSeq   = el('admRulSeq').value;
+			var pEfYd     = '20250212';
+			var pKndClsCd = '010102';
+			var pGourl = "http://" + location.host + "/행정규칙/"+ Space_All(pTitle)+"/("+Space_All(pAncNo)+")";;;
+			var pFolderName = "행정규칙";
+
+			if(false){
+				interestLawSave(pDivision, pApplicationId, pListName, pTitle, pLsId, pAncNo, pLsiSeq, pEfYd, pKndClsCd, pGourl, pFolderName);
+			} else {
+				if(confirm("로그인이 필요한 서비스입니다.\n로그인 하시겠습니까?")){
+					document.location.href = "/LSW/login.do?menuId=6";
+				}
+			}
+		}
+
+		// 법령 본문비교 팝업
+		function lawComparePop(){
+			var lsNm = $("#lsNm").val();
+
+			var popUrl = "lawBodyCompareInfoP.do?lsNm="+lsNm+"&gubun=AdmRul";
+			var width = "1300px";
+			height = "800px";
+			window.open(popUrl,"_blank", "width="+ width +", height="+ height +", toolbar=no, resizable=no, scrollbars=no, location=no");
+		}
+
+		//목록검색
+		function searchList(pg, query2, cb, showImmYn, clearQuery) {
+			$("#frm_pg").val(pg);
+			$("#frm_query2").val(query2);
+
+			//검색 버튼으로 호출한 경우에만 query초기화
+			if (clearQuery === true){
+				$("#frm_query").val("");
+			}
+
+			//일치검색시 바로 본문띄우기 여부
+			$("#frm_showImmYn").val(showImmYn);
+
+			// layoutLoadMask();
+
+			hNavigating = false;
+
+			$.ajax({
+				url: false ? 'dtlSch.do': 'admRulSc.do',
+				type:'POST',
+				async:true,
+				data: $.param($("#infoFrm").serializeArray().filter(function(ele){ return ele.value !== ''})) ,
+				success : function(responseData) {
+					$("#admRulSearchResult").html(responseData);
+
+					//일치하는 검색결과가 없을때
+					setTimeout(function (){
+						if(!hNavigating && cb) cb();
+					},0);
+
+					// requestAnimationFrame(function(){
+					// 	requestAnimationFrame(function(){
+					// 		layoutUnMask();
+					// 	});
+					// });
+				}
+			})
+		}
+
+
+		// 목록에서 현재 조회중인 행정규칙의 조문을 클릭시 스크롤
+		function scrollToJoFromList(el,docType,joNo,dashNo,joBrNo){
+			$(".listBox ul li ul  .curr").removeClass("curr");
+			$(el).addClass("curr");
+			if(docType == '조문'){
+				let joId= 'J'+joNo.replace(/^0+/, '')+'-'+(dashNo.replace(/^0+/, '') ? dashNo.replace(/^0+/, '') :'0')+':'+(joBrNo.replace(/^0+/, '') ? joBrNo.replace(/^0+/, '') :'0');
+				scrollToJo(joId);
+				//부칙,별표,서식
+			}else{
+				scrollToJo('J'+joNo);
+			}
+		}
+
+	</script>   
+  <script type="text/javascript">
+//<![CDATA[
+	
+	// admrulLink.js 에서 이사옴 2010 10 26
+	
+	function lsJoLayView(linkParam, lsType) {
+
+		try {
+			
+			if (linkParam.mode == '2' || linkParam.mode == '100') {
+				
+				linkParam.lsiSeq = el('admRulSeq').value;
+				
+				if (linkParam.mode == '100') {
+					linkParam.lsiSeq = '';
+				}
+				
+				linkParam.lsClsCd = el('lsBdyChrCls').value;
+				fSlimUpdate("lsLinkLayer", "admRulLinkProc.do", makeParam(linkParam));
+// 				logger.def('admRulLinkProc.do 로 들어감', 1);
+			}else if(linkParam.mode == '4') {
+				fSlimUpdate("lsLinkLayer", "ordinLinkProc.do", makeParam(linkParam));
+			}
+			
+		} catch (e) {
+			logger.err("오류:조문링크 update중..." + e);
+		}
+
+		if (linkParam.mode == '2' || linkParam.mode == '4' || linkParam.mode == '100') {
+			linkParam.admRulNm = decodeURIComponent(linkParam.admRulNm);
+			var title = "<div class=\"towp2\" id=\"towp2Link\"";
+					if(linkParam.mode == '4') {
+						title += " style=\"margin-top: -30px;\"";
+					}
+			title	+= "><DIV class=	ltit2 id=\"ltit2Link\">조문정보 </DIV>"
+					+ "<DIV class=btn11 style=\"padding-left:70px;\"><A href=\"#AJAX\" onclick=\"javascript:fJoHstAll();return false;\" title=\"팝업으로 이동\"><IMG alt=전체보기 src=\"/LSW/images/button/btn_view1.gif\"></A>"
+					+ "&nbsp;<A href=\"#AJAX\" onclick=\"javascript:fJoLnkInfoPrint('"
+					+ makeParam(linkParam)
+					+ "','"
+					+ linkParam.mode
+					+ "');return false;\" title=\"팝업으로 이동\"><IMG alt=인쇄 src=\"/LSW/images/button/btn_print3.gif\"></A>"
+					+ "</DIV><div class=\"btn22\" style=\"float:right;\">"
+					+ "<A href=\"#AJAX\" onclick=\"javascript:LsLinkLayer.hiddenLsLinkLayer();return false;\"><IMG class=maJoHst alt=닫기 src=\"/LSW/images/button/btn_close8.gif\">"
+					+ "</A></DIV></div>";
+
+			/* LsLinkLayer.showLsLinkLayer(0, title); */
+			
+		} else {
+			/* 법령 조문 링크 클릭시 팝업창 실행 및 크기 조절 */
+			var url = "lsLinkProc.do?" + makeParam(linkParam);
+			
+			if($openPopWidth == null || $openPopWidth == "" && $openPopHeight == null || $openPopHeight == ""){
+				var popupX = (window.screen.width / 2) - (800 / 2);
+				var popupY = (window.screen.height / 2) - (270 / 2);
+				var win = window.open(url, '조문정보', 'scrollbars=yes,toolbar=no,resizable=yes,status=no,menubar=no,width=800px,height=600px,left=' + popupX + ',top=' + popupY);
+				return false;
+			}else{
+				var popupX = (window.screen.width / 2) - ($openPopWidth / 2);
+				var popupY = (window.screen.height / 2) - ($openPopHeight / 2);
+				var win = window.open(url, '조문정보', 'scrollbars=yes,toolbar=no,resizable=yes,status=no,menubar=no,width=800px,height=600px,left=' + popupX + ',top=' + popupY);
+				return false;
+			}
+		}
+	}
+
+	//]]>
+</script> 
+  <script type="text/javascript">
+//<![CDATA[
+	
+	function setHeadTitle(str) {
+		document.title = str + " | 국가법령정보센터";
+	}
+	
+	// 화면내 검색 글자 처리
+	function setTRangeSelectOn(){
+		TRange.execCommand("RemoveFormat");
+		TRange.execCommand("ForeColor", false, "#FFFFFF");
+		TRange.execCommand("BackColor", false, "#FF0000");
+	}
+
+	function setTRangeSelectOff(){
+		TRange.execCommand("RemoveFormat");
+		TRange.execCommand("ForeColor", false, "#FF0000");
+	} 
+
+	function setTRangeSelectOffUp(){
+		TRangeCopy.execCommand("RemoveFormat");
+		TRangeCopy.execCommand("ForeColor", false, "#a30200");
+	}
+
+	function setTRangeOn(){
+		TRange.execCommand("ForeColor", false, "#FF0000");
+	}
+	
+	// 화면내검색시 "|" 문자열를 활용해 찾은 검색어 글자 BackColor처리
+	function setTRangeOnAddColor(obj,setColorValue){
+		if(setColorValue == 0){
+			TRange.execCommand("BackColor", false, "#FF0000");
+		}else if(setColorValue == 1){
+			TRange.execCommand("BackColor", false, "#FF8C00");
+		}else if(setColorValue == 2){
+			TRange.execCommand("BackColor", false, "#FFD700");
+		}else if(setColorValue == 3){
+			TRange.execCommand("BackColor", false, "#33CC33");
+		}else if(setColorValue == 4){
+			TRange.execCommand("BackColor", false, "#33CCFF");
+		}
+	}
+
+    // 화면내검색시 "|" 다중 검색어 하이라이트 (IE 이외 브라우저용)
+    function bodyAddSearchHighlight(targetEl, keyword, setColorValue){
+        var color = getBodyAddSearchColor(setColorValue);
+        if (color == null || keyword == null || keyword == "") {
+            return; // 6번째 검색어부터는 IE와 동일하게 색상 처리 안 함
+        }
+
+        // targetEl 안의 글자 추출하여 textNodes에 set
+        var textNodes = [];
+        var treeWalker = document.createTreeWalker(targetEl, NodeFilter.SHOW_TEXT, null, false);
+        while (treeWalker.nextNode()) {
+            textNodes.push(treeWalker.currentNode);
+        }
+
+        //textNodes안에 입력한 검색어가 있는지 확인
+        for (var i=0; i<textNodes.length; i++) {
+            var textNode = textNodes[i];
+            var parentTag = textNode.parentNode.nodeName;
+
+            //스크립트는 제외
+            if (parentTag == "SCRIPT" || parentTag == "STYLE" || parentTag == "TEXTAREA") {
+                continue;
+            }
+
+            //keyword 기준으로 split처리
+            var text = textNode.nodeValue.split(keyword);
+            if (text.length == 1) {
+                continue;
+            }
+
+            var frag = document.createDocumentFragment();
+            for (var j = 0; j < text.length; j++) {
+                if (j > 0) {
+                    var span = document.createElement("span");
+                    span.className = "bdyAddSearchHl";
+                    span.style.backgroundColor = color;
+                    span.appendChild(document.createTextNode(keyword));
+                    frag.appendChild(span);
+                }
+                if (text[j] != "") {
+                    frag.appendChild(document.createTextNode((text[j])));
+                }
+            }
+
+            textNode.parentNode.replaceChild(frag, textNode);
+        }
+    }
+
+    // 화면내검색시 "|" 다중 검색어 하이라이트 제거 (IE 이외 브라우저용)
+    function bodyAddSearchClear(targetEl){
+        var hlList = targetEl.querySelectorAll("span.bdyAddSearchHl");
+        if (hlList.length == 0) {
+            return;
+        }
+        // 중첩 하이라이트 대비 뒤에서부터 제거
+        for (var i=hlList.length-1; i>=0; i--) {
+            var hl = hlList[i];
+            var parent = hl.parentNode;
+            if (parent == null) {
+                continue;
+            }
+            while (hl.firstChild) {
+                parent.insertBefore(hl.firstChild, hl);
+            }
+            parent.removeChild(hl);
+        }
+        // 분리된 텍스트 노드 병합 (재검색 시 단어가 쪼개져 못 찾는 현상 방지)
+        targetEl.normalize();
+    }
+
+    // IE 브라우저 에서만 사용되었던 기존함수인 setTRangeOnAddColor 를 대체
+    function getBodyAddSearchColor(setColorValue){
+        if (setColorValue == 0) {
+            return "#FF0000";
+        } else if (setColorValue == 1) {
+            return "#FF8C00";
+        } else if (setColorValue == 2) {
+            return "#FFD700";
+        } else if (setColorValue == 3) {
+            return "#33CC33";
+        } else if (setColorValue == 4) {
+            return "#33CCFF";
+        }
+
+        return null;
+    }
+
+    function initEDotXPress(name) {
+        $("#eDotViewr").css("display", "");
+        $("#eDotViewr").removeAttr("onclick");
+        $("#eDotViewr").attr("onclick", "openBrlViewer('"+name+"', null, brlConfArray);return false;");
+
+    }
+
+    function setLayerTitle(title) {
+        var $layerTitle = $("#layerPop > .inner > .tit");
+        if (title && $layerTitle) {
+            $layerTitle.text(title);
+        } else {
+            return false;
+        }
+    }
+//]]>
+</script> 
+  <input type="hidden" name="preview" id="preview" value=""> 
+  <input type="hidden" name="admRulSeq" id="admRulSeq" value="2100000254546"> 
+  <input type="hidden" name="admRulId" id="admRulId" value="22333"> 
+  <input type="hidden" name="prmlNo" id="prmlNo" value="2025-11"> 
+  <input type="hidden" name="prmlYd" id="prmlYd" value="20250212"> 
+  <input type="hidden" name="efYd" id="efYd" value="20250212"> 
+  <input type="hidden" name="admNm" id="admNm" value="건설업 산업안전보건관리비 계상 및 사용기준"> 
+  <input type="hidden" name="nwYn" id="nwYn" value="Y"> 
+  <input type="hidden" id="joTpYn" name="joTpYn"> 
+  <input type="hidden" id="outChrClsCd" name="outChrClsCd" value=""> 
+  <input type="hidden" id="existLsIdCnt" value="1"> 
+  <form id="infoFrm" name="infoFrm" method="get" action="admRulLsInfoP.do" onsubmit="removeEmptyParams(this);"> 
+   <input type="hidden" id="frm_query" name="query" value=""> 
+   <input type="hidden" id="frm_query2" name="query2" value=""> 
+   <input type="hidden" id="frm_bdyQuery" name="bdyQuery" value=""> 
+   <input type="hidden" id="frm_pg" name="pg" value=""> 
+   <input type="hidden" id="frm_tabMenuIdx" name="tabMenuIdx" value=""> 
+   <input type="hidden" id="frm_subMenuId" name="subMenuId" value=""> 
+   <input type="hidden" id="frm_admRulSeq" name="admRulSeq" value="2100000254546"> 
+   <input type="hidden" name="popYn" value="Y"> 
+   <input type="hidden" id="frm_listShowYn" name="listShowYn" value="N"> 
+   <input type="hidden" id="frm_showImmYn" name="showImmYn"> 
+   <!--조문 조회용 --> 
+   <input type="hidden" id="frm_urlMode" name="urlMode" value=""> 
+   <input type="hidden" id="frm_joNo" name="joNo" value=""> 
+   <input type="hidden" id="frm_dashNo" name="dashNo" value=""> 
+   <input type="hidden" id="frm_joBrNo" name="joBrNo" value=""> 
+   <!-- 부칙 조회용 --> 
+   <input type="hidden" id="frm_arSeq" name="arSeq" value=""> 
+   <!-- 목록 상세 조회용 --> 
+   <input class="setDefault" type="hidden" id="frm_outmax" name="outmax" value="15"> 
+   <input class="setDefault" type="hidden" id="frm_selSort" name="selSort" value=""> 
+   <input class="setDefault" type="hidden" id="frm_lsCls" name="lsCls" value=""> 
+   <input class="setDefault" type="hidden" id="frm_lsBasicDts" name="lsBasicDts" value=""> 
+   <input class="setDefault" type="hidden" id="frm_cptOfis" name="cptOfis" value=""> 
+   <input class="setDefault" type="hidden" id="frm_rrClsCd" name="rrClsCd" value=""> 
+   <input class="setDefault" type="hidden" id="frm_lsCoDbY" name="lsCoDbY" value=""> 
+   <input class="setDefault" type="hidden" id="frm_lsNwY" name="lsNwY" value=""> 
+   <input class="setDefault" type="hidden" id="frm_lsNwN" name="lsNwN" value=""> 
+  </form> 
+  <!-- viewWrap --> 
+  <div id="viewWrap" class=""> 
+   <!-- viewContainer --> 
+   <div id="viewContainer"> 
+    <!-- viewHeader --> 
+    <div class="viewHeader"> 
+     <button type="button" class="btnBack">이전 페이지</button> 
+     <h2 id="viewerTitle"></h2> 
+    </div> 
+    <!--/ viewHeader --> 
+    <!-- 2026-06-23 뷰어 레이아웃 변경 --> 
+    <!-- viewTop --> 
+    <div class="viewTop"> 
+     <!-- dropDown (태블릿 ~ 모바일) --> 
+     <div class="dropDown tView"> 
+      <button type="button" id="hstView" class="btnBotPop" onclick="f_showAdmHst(this);return false;" data-id="history1"> 건설업 산업안전보건관리비 계상 및 사용기준 [시행 2025. 2. 12.] [고용노동부고시 제2025-11호, 2025. 2. 12., 일부개정] </button> 
+      <div class="mPop" pop-title="연혁" data-id="history1" id="mPopHst"> 
+       <div class="inner"> 
+        <div class="admRulHstLayer"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <!--/ dropDown --> 
+     <!-- tabWrap --> 
+     <div class="tabWrap sub"> 
+      <!-- tabBtn --> 
+      <button type="button" class="tabSwiperBtn prev swiper-button-disabled swiper-button-lock" disabled="" tabindex="-1" aria-label="Previous slide" aria-disabled="true">이전</button><div class="tabBtn swiper swiper-initialized swiper-horizontal swiper-backface-hidden"> 
+       <div class="swiper-wrapper" id="swiper-wrapper-5dc4798b221511c2" aria-live="polite"> 
+        <a href="javascript:void(0)" onclick="sideInfo('admRulRvsInfoR', 'Y');return false;" class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 1">제정·개정이유</a> 
+        <a id="attFlListView" class="btn type8" href="javascript:void(0);" data-save-type="AttFlList" onclick="attFlListView(this,'');return false;">첨부파일</a> 
+        <a id="admRulStmdInfoP" class="btn type8" href="javascript:void(0);" onclick="admRulStmdPop();return false;">법령체계도</a> 
+        <a id="admRulOldAndNew" class="btn type8" style="" href="javascript:void(0);" title="신구법비교 새 창 열림" target="_blank" onclick="sideInfo('admRulOldAndNew','Y');return false;">신구법비교</a> 
+        <a id="fconDt" class="btn type8" href="javascript:void(0);" onclick="fconAdmRulListView(this);return false;">관련법령</a> 
+        <a id="lawCompare" class="btn type8" href="javascript:void(0);" onclick="lawComparePop();return false;">법령비교</a> 
+       </div> 
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div><button type="button" class="tabSwiperBtn next swiper-button-disabled swiper-button-lock" disabled="" tabindex="-1" aria-label="Next slide" aria-disabled="true">다음</button> 
+      <!--/ tabBtn --> 
+     </div> 
+     <!--/ tabWrap --> 
+     <!-- right --> 
+     <div class="right"> 
+      <span class="tNone">연혁</span> 
+      <!-- dropDown (PC) --> 
+      <div class="dropDown tNone"> 
+       <button type="button" id="hstView" class="btnBotPop" onclick="f_showAdmHst(this);return false;" data-id="history2"> 건설업 산업안전보건관리비 계상 및 사용기준 [시행 2025. 2. 12.] [고용노동부고시 제2025-11호, 2025. 2. 12., 일부개정] </button> 
+       <div class="mPop" pop-title="연혁" data-id="history2" id="mPopHst"> 
+        <div class="inner"> 
+         <div class="admRulHstLayer"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <!--/ dropDown --> 
+      <!-- 2026-06-29 mTopFix로 변경 (레이아웃 변경) --> 
+      <!--/ mTopFix --> 
+      <div class="mTopFix"> 
+       <!-- screenControls --> 
+       <div class="screenControls"> 
+        <button type="button" class="btnMinus">글자 축소</button> 
+        <span>100%</span> 
+        <button type="button" class="btnPlus">글자 확대</button> 
+       </div> 
+       <!--/ screenControls --> 
+      </div> 
+      <!--/ mTopFix --> 
+      <!-- // 2026-06-29 mTopFix로 변경 (레이아웃 변경) --> 
+     </div> 
+     <!--/ right --> 
+    </div> 
+    <!-- viewTop --> 
+    <!-- topArea --> 
+    <button type="button" class="btnBotPop case" data-id="select">선택</button> 
+    <div class="topArea mPop" pop-title="선택하세요" data-id="select"> 
+     <!-- 2026-06-23 뷰어 레이아웃 변경 --> 
+     <!-- inner --> 
+     <div class="inner"> 
+      <!-- searchArea (PC) --> 
+      <button type="button" class="btn btnSm btnSearch tNone" onclick="setBdyKeyVal(); fn_layer('bdySearchLayer',this,'450')"><span>화면내 검색</span></button> 
+      <!--/ searchArea --> 
+      <!-- btnArea --> 
+      <div class="btnArea"> 
+       <a id="btnEnlargeJo" class="btn btnSm btnWhite mNone" data-viewer-check="false" title="돋보기"><img alt="돋보기" src="/LSW/assets/images/viewer/ico0100.svg"><span class="blind">돋보기</span></a> 
+       <a class="btn btnSm btnWhite" id="btnCopyJo" title="복사" data-viewer-check="false"><img alt="" src="/LSW/assets/images/viewer/ico0109.svg"><span class="blind">복사</span></a> 
+       <a type="button" class="btn btnSm btnWhite" id="lsTtsBtn" onclick="bdyTtsLayer(0, this);return false;" title="음성지원"><img alt="음성지원" src="/LSW/assets/images/ico-voice.svg"><span class="blind">음성지원</span></a> 
+       <a type="button" class="btn btnSm btnWhite" id="eDotViewr" title="점자뷰어" onclick="openBrlViewer('건설업 산업안전보건관리비 계상 및 사용기준', null, brlConfArray);return false;"><img alt="점자뷰어" src="/LSW/assets/images/ico-braille.svg"><span class="blind">점자뷰어</span></a> 
+       <div class="share"> 
+        <a href="javascript:;void(0);" class="btn btnSm btnWhite" id="share" onclick="snsShareLayer(2); return false;" title="공유하기"> <img src="/LSW/assets/images/viewer/ico0106.svg" alt="공유하기"> <span class="blind">공유</span> </a> 
+        <div class="shareBox"> 
+         <script src="/LSW/assets/js/oneview/kakao.js"></script> 
+         <input type="hidden" class="snsAddress" value=""> 
+         <div class="inBox"> 
+          <ul> 
+           <li><a href="javascript:shareOnKakao();" title="카카오톡 새 창 열림"><img src="/LSW/assets/images/ico-sns01.svg" alt="카카오톡">카카오톡</a></li> 
+           <li><a title="페이스북 새 창 열림" href="javascript:shareOnFacebook();"><img src="/LSW/assets/images/ico-sns02.svg" alt="페이스북">페이스북</a></li> 
+           <li><a title="트위터 새 창 열림" href="javascript:shareOnTwitter();"><img src="/LSW/assets/images/ico-sns03.svg" alt="트위터">트위터</a></li> 
+           <li><a title="라인 새 창 열림" href="javascript:shareOnLine();"><img src="/LSW/assets/images/ico-sns04.svg" alt="라인">라인</a></li> 
+           <li><a href="javascript: shareUrl();"><img src="/LSW/assets/images/ico-sns05.svg" alt="주소링크">주소복사</a></li> 
+          </ul> 
+          <button type="button" class="btnSnsClose">닫기</button> 
+         </div> 
+        </div> 
+       </div> 
+       <!--// 2026-06-11 --> 
+       <a type="button" class="btn btnSm btnWhite" id="interestLaw" onclick="interestLaw();" title="관심법령추가"><img alt="관심법령추가" src="/LSW/assets/images/viewer/ico0107.svg"><span class="blind">관심법령</span></a> 
+       <a type="button" class="btn btnSm btnWhite" id="langType" onclick="chrChange(this);return false;" title="한자변환"><img alt="한자변환" id="chrImg" src="/LSW/assets/images/viewer/ico0103.svg"><span class="blind">한자변환</span></a> 
+       <a type="button" class="btn btnSm btnWhite" id="bdySaveBtn" onclick="f_LsInfoPrint(0, this ,0, '');return false;" data-save-type="infoSaveLayer" title="내려받기"><img alt="내려받기" src="/LSW/assets/images/viewer/ico0104.svg"><span class="blind">내려받기</span></a> 
+       <a type="button" class="btn btnSm btnWhite" id="bdyPrintBtn" onclick="f_LsInfoPrint(1, this ,20, '');return false;" title="프린트"><img alt="프린트" src="/LSW/assets/images/viewer/ico0105.svg"><span class="blind">프린트</span></a> 
+       <!-- // 2026-06-30 버튼 title 추가 --> 
+      </div> 
+      <!--/ btnArea --> 
+     </div> 
+     <!--/ inner --> 
+     <!-- // 2026-06-23 뷰어 레이아웃 변경 --> 
+    </div> 
+    <!--/ topArea --> 
+    <!-- // 2026-06-23 뷰어 레이아웃 변경 --> 
+    <!-- viewContents --> 
+    <div class="viewContents off" id="bodyContentTOP" data-brl-use="PH"> 
+     <!-- aside --> 
+     <div class="aside mPop" data-id="aside"> 
+      <div class="inner"> 
+       <!-- 2026-06-24 aside 타이틀 변경 --> 
+       <h3 data-brl-use="PH/H2">건설업 산업안전보건관리비 계상 및 사용기준</h3> 
+       <p class="subTit">[시행 2025. 2. 12.] [고용노동부고시 제2025-11호, 2025. 2. 12., 일부개정]</p> 
+       <!-- // 2026-06-24 aside 타이틀 변경 --> 
+       <div class="inBox"> 
+        <!-- 2026-07-08 AS-IS 형태로 수정 --> 
+        <a href="javascript:;" class="btn btnWhite2 btnXs inBoxTreeBtn btnJoTreeToggle" onclick="toggleJoTree('liBgcolorSpanJo');return false;">본문 전체 열기</a> 
+        <div class="list_bx_in"> 
+         <ul class="inner"> 
+          <li class="on"> <a href="javascript:void(0);" onclick="fSelectJoListTree('liBgcolorSpanJo','1','Y','2100000254546');return false;"> <span class="ico">본문목록열림</span>본문 </a> 
+           <div id="liBgcolorSpanJo" class="depth_bx" style="padding: 0;"><ul class="depth_bx type" style="display: block;"><li data-chap-type="jang" data-jo-no="0001"><a href="#AJAX" style="background: none; padding-left: 0px;"><span class="ico">하위메뉴열기</span>제1장 총 칙</a><ul class="depth_bx type"><li><a href="javascript:void(0);" onclick="scrollToJo(`J1-0:0`); return false;">제1조 목적</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J2-0:0`); return false;">제2조 정의</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J3-0:0`); return false;">제3조 적용범위</a></li></ul></li><li data-chap-type="jang" data-jo-no="0004"><a href="#AJAX" style="background: none; padding-left: 0px;"><span class="ico">하위메뉴열기</span>제2장 산업안전보건관리비의 계상 및 사용</a><ul class="depth_bx type"><li><a href="javascript:void(0);" onclick="scrollToJo(`J4-0:0`); return false;">제4조 계상의무 및 기준</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J5-0:0`); return false;">제5조 계상방법 및 계상시기 등</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J6-0:0`); return false;">제6조 수급인등의 의무</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J7-0:0`); return false;">제7조 사용기준</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J8-0:0`); return false;">제8조 사용금액의 감액ㆍ반환 등</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J9-0:0`); return false;">제9조 사용내역의 확인</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J10-0:0`); return false;">제10조 실행예산의 작성 및 집행 등</a></li></ul></li><li data-chap-type="jang" data-jo-no="0011"><a href="#AJAX" style="background: none; padding-left: 0px;"><span class="ico">하위메뉴열기</span>제3장 보 칙</a><ul class="depth_bx type"><li><a href="javascript:void(0);" onclick="scrollToJo(`J11-0:0`); return false;">제11조 기술지도 횟수 등</a></li><li><a href="javascript:void(0);" onclick="scrollToJo(`J12-0:0`); return false;">제12조 재검토기한</a></li></ul></li></ul></div> </li> 
+          <li> <a href="javascript:void(0);" onclick="fSelectJoListTree('liBgcolorSpanAr','2','Y','2100000254546');return false;"> <span class="ico">부칙목록열림</span>부칙 </a> 
+           <div id="liBgcolorSpanAr" class="depth_bx" style="padding: 0;"></div> </li> 
+          <li> <a href="javascript:void(0);" onclick="fSelectJoListTree('liBgcolorSpanBy','3','Y','2100000254546');return false;"> <span class="ico">별표/서식목록열림</span>별표/서식 </a> 
+           <div id="liBgcolorSpanBy" class="depth_bx" style="padding: 0;"></div> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!--/ aside --> 
+     <button type="button" class="btnToggleAside btnBotPop" data-id="aside">목록 닫기</button> 
+     <!-- cont --> 
+     <div class="cont"> 
+      <div id="contentBody" class="scr_ctrl contentBody" data-brl-use="PH"> 
+       <div id="sideCenter" class="cont_area sideCenter" style="width: 1635px; opacity: 1;"> 
+        <div class="viewerNodata" style="display: none;"> 
+         <div class="menuGuidePage"> 
+          <strong class="title" role="heading">행정규칙</strong> 
+          <b>이 곳에서는 대통령훈령, 국무총리훈령, 각 부·처·청·위원회의 훈령 및 예규, 고시를 찾아볼 수 있습니다.</b> 
+          <p>훈령·예규와 제명에 포함된 용어를 입력하거나, 발령번호 및 발령일자를 입력하십시오.</p> 
+          <div class="keywords"> 
+           <span># 훈령·예규</span> 
+           <span># 제명</span> 
+           <span># 용어</span> 
+           <span># 발령번호</span> 
+           <span># 발령일자</span> 
+          </div> 
+         </div> 
+        </div> 
+        <div id="bodyContent" data-brl-use="PH">
+
+ 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        fn_law();
+    });
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function(){
+        // 조 트리 1depth 호출
+        fSelectJoListTree('liBgcolorSpanJo', '999', "Y", '2100000254546');
+
+        fn_darkImage(document.body.classList.contains('dark'));
+    });
+
+    new MutationObserver(function(){
+        if (document.body.classList.contains('dark')) return;
+        $('iframe[src*="viewer/skin/"]').each(function (){
+            this.src = this.src.replace('viewer/skin/', 'viewer/skin_light/');
+        });
+    }).observe(document.body, {childList:true, subtree:true, attributes:true, attributeFilter:['src']});
+</script>  
+  <link rel="stylesheet" type="text/css" href="/LSW/assets/css/lsw/commonForAdmrul.css">
+ 
+ 
+  <input type="hidden" id="admRulSeq" name="admRulSeq" value="2100000254546"> 
+  <input type="hidden" id="lsiSeq" name="lsiSeq" value="2100000254546"> 
+  <input type="hidden" id="sideAdmRulSeq" value="2100000254546"> 
+  <input type="hidden" id="admRulId" name="admRulId" value="22333"> 
+  <input type="hidden" id="admNm" value="건설업 산업안전보건관리비 계상 및 사용기준"> 
+  <input type="hidden" id="addressNm" value="건설업 산업안전보건관리비 계상 및 사용기준"> 
+  <input type="hidden" id="prmlYd" name="prmlYd" value="20250212"> 
+  <input type="hidden" id="prmlNo" name="prmlNo" value="2025-11"> 
+  <input type="hidden" name="admRulJoTpYn" id="admRulJoTpYn" value="Y"> 
+  <input type="hidden" id="lsNm" value="건설업 산업안전보건관리비 계상 및 사용기준"> 
+  <input type="hidden" id="rrClsCd" value="200403"> 
+  <input type="hidden" id="admRulKndCd" value="B0003"> 
+  <input type="hidden" id="lsBdyChrCls" value="010201"> 
+  <input type="hidden" id="isExistAdmrulLnkFlCvtYn" value="N"> 
+  <div id="conTop" class="conTop"> 
+   <a id="top"></a> 
+   <!-- 조제목 영역 --> 
+   <h2>건설업 산업안전보건관리비 계상 및 사용기준</h2> 
+   <!-- 요약정보 영역 --> 
+   <div class="ct_sub"> 
+    <span> [시행 2025. 2. 12.] [고용노동부고시 제2025-11호, 2025. 2. 12., 일부개정] </span> 
+   </div> 
+  </div> 
+  <div id="conScroll" style="overflow-y:auto;" class="conScroll"> 
+   <!-- 소관부처 영역 --> 
+   <div class="cont_subtit"> 
+    <p> <span> 고용노동부(건설산재예방정책과), 044-202-8938 <br><br> </span> </p> 
+   </div> 
+   <!-- 조 표시 영역 --> 
+   <!-- 편장절관 --> 
+   <a name="JP1-0:0" id="JP1-0:0"></a> 
+   <div class="pgroup"> 
+    <p class="gtit" data-joidfull="0001000000" data-joseq="17223905" id="17223905"> 제1장 총 칙 </p> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J1-0:0" id="J1-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0001000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="1-0:0::0001000000:17223907"><span class="checkbox"></span> <span class="bl"> <label for="Y0001000000">제1조(목적)</label> </span> 이 고시는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「산업안전보건법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0072000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제72조</a>,<a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'EL', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX"> 같은 법 시행령</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'JO', '005900,006000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제59조 및 제60조</a>와<a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행규칙', 'EL', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX"> 같은 법 시행규칙</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행규칙', 'JO', '0089000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제89조</a>에 따라 건설업의 산업안전보건관리비 계상 및 사용기준을 정함을 목적으로 한다. <span class="sfon2"></span> 
+      <!-- 항 표시 end --> </p>
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J2-0:0" id="J2-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0002000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="2-0:0::0002000000:17223909"><span class="checkbox"></span> <span class="bl"> <label for="Y0002000000">제2조(정의)</label> </span> <span class="sfon2"></span> ① 이 고시에서 사용하는 용어의 뜻은 다음과 같다.&nbsp; <span class="sfon2"></span> 
+      <!-- 호 표시 start --> </p>
+     <p class="pty1_de2h">1. "건설업 산업안전보건관리비"(이하 "산업안전보건관리비"라 한다)란 산업재해 예방을 위하여 건설공사 현장에서 직접 사용되거나 해당 건설업체의 본점 또는 주사무소(이하 "본사"라 한다)에 설치된 안전전담부서에서 법령에 규정된 사항을 이행하는 데 소요되는 비용을 말한다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">2. "산업안전보건관리비 대상액"(이하 "대상액"이라 한다)이란 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('예정가격 작성기준', 'LN', '', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">「예정가격 작성기준」</a>(기획재정부 계약예규) 및 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('지방자치단체 입찰 및 계약집행기준', 'LN', '', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">「지방자치단체 입찰 및 계약집행기준」</a>(행정안전부 예규) 등 관련 규정에서 정하는 공사원가계산서 구성항목 중 직접재료비, 간접재료비와 직접노무비를 합한 금액(발주자가 재료를 제공할 경우에는 해당 재료비를 포함한다)을 말한다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">3. "건설공사발주자"(이하 "발주자"라 한다)란 법 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'JO', '0002000000', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">제2조제10호</a>에 따른 건설공사발주자를 말한다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">4. "건설공사도급인"이란 발주자에게 건설공사를 도급받은 사업주로서 건설공사의 시공을 주도하여 총괄ㆍ관리하는 자를 말한다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">5. "자기공사자"란 건설공사의 시공을 주도하여 총괄ㆍ관리하는 자(발주자로부터 건설공사를 최초로 도급받은 수급인은 제외한다)를 말한다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">6. "감리자"란 다음 각 목의 어느 하나에 해당하는 자를 말한다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">가. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설기술진흥법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「건설기술진흥법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설기술진흥법', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제5호</a>에 따른 감리 업무를 수행하는 자&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">나. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건축법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「건축법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건축법', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제1항제15호</a>의 공사감리자&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">다. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('문화재수리 등에 관한 법률', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「문화재수리 등에 관한 법률」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('문화재수리 등에 관한 법률', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제12호</a>의 문화재감리원&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">라. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('소방시설공사업법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「소방시설공사업법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('소방시설공사업법', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제3호</a>의 감리원&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">마. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('전력기술관리법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「전력기술관리법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('전력기술관리법', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제5호</a>의 감리원&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">바. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('정보통신공사업법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「정보통신공사업법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('정보통신공사업법', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제10호</a>의 감리원&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">사. 그 밖에 관계 법률에 따라 감리 또는 공사감리 업무와 유사한 업무를 수행하는 자&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ② 그 밖에 이 고시에서 사용하는 용어의 정의는 이 고시에 특별한 규정이 없으면<a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「산업안전보건법」</a>(이하 "법"이라 한다),<a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'EL', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX"> 같은 법 시행령</a>(이하 "영"이라 한다),<a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행규칙', 'EL', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX"> 같은 법 시행규칙</a>(이하 "규칙"이라 한다), 예산회계 및 건설관계법령에서 정하는 바에 따른다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <!-- 항 표시 end --> 
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J3-0:0" id="J3-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0003000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="3-0:0::0003000000:17223911"><span class="checkbox"></span> <span class="bl"> <label for="Y0003000000">제3조(적용범위)</label> </span> 이 고시는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제11호</a>의 건설공사 중 총공사금액 2천만 원 이상인 공사에 적용한다. 다만, 단가계약에 의하여 행하는 공사에 대하여는 총계약금액을 기준으로 적용한다. <span class="sfon2"></span> &nbsp; <span class="sfon2"></span> 
+      <!-- 호 표시 start --> </p>
+     <p class="pty1_de2h">1. 삭제&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">2. 삭제&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 end --> 
+     <!-- 항 표시 end --> 
+    </div> 
+   </div> 
+   <!-- 편장절관 --> 
+   <a name="JP4-0:0" id="JP4-0:0"></a> 
+   <div class="pgroup"> 
+    <p class="gtit" data-joidfull="0004000000" data-joseq="17223913" id="17223913"> 제2장 산업안전보건관리비의 계상 및 사용 </p> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J4-0:0" id="J4-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0004000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="4-0:0::0004000000:17223915"><span class="checkbox"></span> <span class="bl"> <label for="Y0004000000">제4조(계상의무 및 기준)</label> </span> <span class="sfon2"></span> ① 발주자가 도급계약 체결을 위한 원가계산에 의한 예정가격을 작성하거나, 자기공사자가 건설공사 사업 계획을 수립할 때에는 다음 각 호에 따라 산정한 금액 이상의 산업안전보건관리비를 계상하여야 한다. 다만, 발주자가 재료를 제공하거나 일부 물품이 완제품의 형태로 제작ㆍ납품되는 경우에는 해당 재료비 또는 완제품 가액을 대상액에 포함하여 산출한 산업안전보건관리비와 해당 재료비 또는 완제품 가액을 대상액에서 제외하고 산출한 산업안전보건관리비의 1.2배에 해당하는 값을 비교하여 그 중 작은 값 이상의 금액으로 계상한다.&nbsp; <span class="sfon2"></span> 
+      <!-- 호 표시 start --> </p>
+     <p class="pty1_de2h">1. 대상액이 5억 원 미만 또는 50억 원 이상인 경우: 대상액에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BE', '000100', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200201');" href="#AJAX">별표 1</a>에서 정한 비율을 곱한 금액&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">2. 대상액이 5억 원 이상 50억 원 미만인 경우: 대상액에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BE', '000100', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200201');" href="#AJAX">별표 1</a>에서 정한 비율을 곱한 금액에 기초액을 합한 금액&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">3. 대상액이 명확하지 않은 경우: <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'JO', '0004000000', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">제4조제1항</a>의 도급계약 또는 자체사업계획상 책정된 총공사금액의 10분의 7에 해당하는 금액을 대상액으로 하고 제1호 및 제2호에서 정한 기준에 따라 계상&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ② 발주자는 제1항에 따라 계상한 산업안전보건관리비를 입찰공고 등을 통해 입찰에 참가하려는 자에게 알려야 한다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ③ 발주자와 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0069000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제69조</a>에 따른 건설공사도급인 중 자기공사자를 제외하고 발주자로부터 해당 건설공사를 최초로 도급받은 수급인(이하 "도급인"이라 한다)은 공사계약을 체결할 경우 제1항에 따라 계상된 산업안전보건관리비를 공사도급계약서에 별도로 표시하여야 한다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ④ <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BE', '000100', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200201');" href="#AJAX">별표 1</a>의 공사의 종류는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BE', '000500', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200201');" href="#AJAX">별표 5</a>의 건설공사의 종류 예시표에 따른다. 다만, 하나의 사업장 내에 건설공사 종류가 둘 이상인 경우(분리발주한 경우를 제외한다)에는 공사금액이 가장 큰 공사종류를 적용한다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ⑤ 발주자 또는 자기공사자는 설계변경 등으로 대상액의 변동이 있는 경우 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BE', '000103', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200201');" href="#AJAX">별표 1의3</a>에 따라 지체 없이 산업안전보건관리비를 조정 계상하여야 한다. 다만, 설계변경으로 공사금액이 800억 원 이상으로 증액된 경우에는 증액된 대상액을 기준으로 제1항에 따라 재계상한다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <!-- 항 표시 end --> 
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J5-0:0" id="J5-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0005000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="5-0:0::0005000000:17223917"><span class="checkbox"></span> <span class="bl"> <label for="Y0005000000">제5조(계상방법 및 계상시기 등)</label> </span> &lt;삭제&gt; <span class="sfon2"></span> 
+      <!-- 항 표시 end --> </p>
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J6-0:0" id="J6-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0006000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="6-0:0::0006000000:17223919"><span class="checkbox"></span> <span class="bl"> <label for="Y0006000000">제6조(수급인등의 의무)</label> </span> &lt;삭제&gt; <span class="sfon2"></span> 
+      <!-- 항 표시 end --> </p>
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J7-0:0" id="J7-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0007000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="7-0:0::0007000000:17223921"><span class="checkbox"></span> <span class="bl"> <label for="Y0007000000">제7조(사용기준)</label> </span> <span class="sfon2"></span> ① 도급인과 자기공사자는 산업안전보건관리비를 산업재해예방 목적으로 다음 각 호의 기준에 따라 사용하여야 한다.&nbsp; <span class="sfon2"></span> 
+      <!-- 호 표시 start --> </p>
+     <p class="pty1_de2h">1. 안전관리자ㆍ보건관리자의 임금 등&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">가. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0017000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제17조제3항</a> 및 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0018000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제18조제3항</a>에 따라 안전관리 또는 보건관리 업무만을 전담하는 안전관리자 또는 보건관리자의 임금과 출장비 전액(지방고용노동관서에 선임 보고한 날부터 발생한 비용에 한정한다.)&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">나. 안전관리 또는 보건관리 업무를 전담하지 않는 안전관리자 또는 보건관리자의 임금과 출장비의 각각 2분의 1에 해당하는 비용 (지방고용노동관서에 선임 보고한 날부터 발생한 비용에 한정한다.)&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">다. 안전관리자를 선임한 건설공사 현장에서 산업재해 예방 업무만을 수행하는 작업지휘자, 유도자, 신호자 등의 임금 전액&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">라. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BE', '000102', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200201');" href="#AJAX">별표 1의2</a>에 해당하는 작업을 직접 지휘ㆍ감독하는 직ㆍ조ㆍ반장 등 관리감독자의 직위에 있는 자가 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">영 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'JO', '0015000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제15조제1항</a>에서 정하는 업무를 수행하는 경우에 지급하는 업무수당(임금의 10분의 1 이내)&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">2. 안전시설비 등&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">가. 산업재해 예방을 위한 안전난간, 추락방호망, 안전대 부착설비, 방호장치(기계ㆍ기구와 방호장치가 일체로 제작된 경우, 방호장치 부분의 가액에 한함) 등 안전시설의 구입ㆍ임대 및 설치 등을 위해 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">나. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업재해예방시설자금 융자금 지원사업 및 보조금 지급사업 운영규정', 'LN', '', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">「산업재해예방시설자금 융자금 지원사업 및 보조금 지급사업 운영규정」</a>(고용노동부고시) <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업재해예방시설자금 융자금 지원사업 및 보조금 지급사업 운영규정', 'JO', '0002000000', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">제2조제12호</a>에 따른 "스마트안전장비 지원사업" 및 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설기술진흥법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「건설기술진흥법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설기술진흥법', 'JO', '0062000003', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제62조의3</a>에 따른 스마트 안전장비 구입ㆍ임대 비용. 다만, <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설기술진흥법', 'JO', '0004000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제4조</a>에 따라 계상된 산업안전보건관리비 총액의 10분의 2를 초과할 수 없다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">다. 용접 작업 등 화재 위험작업 시 사용하는 소화기의 구입ㆍ임대비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">3. 보호구 등&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">가. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">영 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'JO', '007400,007700', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제74조제1항제3호 및 제77조제1항제3호</a>에 따른 보호구의 구입ㆍ수리ㆍ관리 등에 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">나. 근로자가 가목에 따른 보호구를 직접 구매ㆍ사용하여 합리적인 범위 내에서 보전하는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">다. 제1호가목부터 다목까지의 규정에 따른 안전관리자 등의 업무용 피복, 기기 등을 구입하기 위한 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">라. 제1호가목에 따른 안전관리자 및 보건관리자가 안전보건 점검 등을 목적으로 건설공사 현장에서 사용하는 차량의 유류비ㆍ수리비ㆍ보험료&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">4. 안전보건진단비 등&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">가. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0042000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제42조</a>에 따른 유해위험방지계획서의 작성 등에 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">나. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0047000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제47조</a>에 따른 안전보건진단에 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">다. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0125000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제125조</a>에 따른 작업환경 측정에 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">라. 그 밖에 산업재해예방을 위해 법에서 지정한 전문기관 등에서 실시하는 진단, 검사, 지도 등에 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">5. 안전보건교육비 등&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">가. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '002900,002900,003000,003100,003200', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제29조부터 제32조</a>까지의 규정에 따라 실시하는 의무교육이나 이에 준하여 실시하는 교육을 위해 건설공사 현장의 교육 장소 설치ㆍ운영 등에 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">나. 가목 이외 산업재해 예방이 주된 목적인 교육을 실시하기 위해 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">다. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('응급의료에 관한 법률', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「응급의료에 관한 법률」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('응급의료에 관한 법률', 'JO', '0014000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제14조제1항제5호</a>에 따른 안전보건교육 대상자 등에게 구조 및 응급처치에 관한 교육을 실시하기 위해 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">라. 안전보건관리책임자, 안전관리자, 보건관리자가 업무수행을 위해 필요한 정보를 취득하기 위한 목적으로 도서, 정기간행물을 구입하는 데 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">마. 건설공사 현장에서 안전기원제 등 산업재해 예방을 기원하는 행사를 개최하기 위해 소요되는 비용. 다만, 행사의 방법, 소요된 비용 등을 고려하여 사회통념에 적합한 행사에 한한다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">바. 건설공사 현장의 유해ㆍ위험요인을 제보하거나 개선방안을 제안한 근로자를 격려하기 위해 지급하는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">6. 근로자 건강장해예방비 등&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">가. 법ㆍ영ㆍ규칙에서 규정하거나 그에 준하여 필요로 하는 각종 근로자의 건강장해 예방에 필요한 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">나. 중대재해 목격으로 발생한 정신질환을 치료하기 위해 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">다. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('감염병의 예방 및 관리에 관한 법률', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「감염병의 예방 및 관리에 관한 법률」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('감염병의 예방 및 관리에 관한 법률', 'JO', '0002000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제2조제1호</a>에 따른 감염병의 확산 방지를 위한 마스크, 손소독제, 체온계 구입비용 및 감염병병원체 검사를 위해 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">라. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0128000002', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제128조의2</a> 등에 따른 휴게시설을 갖춘 경우 온도, 조명 설치ㆍ관리기준을 준수하기 위해 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">마. 건설공사 현장에서 근로자 심폐소생을 위해 사용되는 자동심장충격기(AED) 구입에 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de3">바. 온열ㆍ한랭질환으로부터 근로자 건강장해를 예방하기 위한 임시 휴게시설 설치ㆍ해체ㆍ임대 비용 및 냉ㆍ난방기기의 임대 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">7. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '007300,007400', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제73조 및 제74조</a>에 따른 건설재해예방전문지도기관의 지도에 대한 대가로 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'JO', '0002000000', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">제2조제1항제5호</a>의 자기공사자가 지급하는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">8. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('중대재해 처벌 등에 관한 법률 시행령', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「중대재해 처벌 등에 관한 법률 시행령」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('중대재해 처벌 등에 관한 법률 시행령', 'JO', '0004000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제4조제2호나목</a>에 해당하는 건설사업자가 아닌 자가 운영하는 사업에서 안전보건 업무를 총괄ㆍ관리하는 3명 이상으로 구성된 본사 전담조직에 소속된 근로자의 임금 및 업무수행 출장비 전액. 다만, <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('중대재해 처벌 등에 관한 법률 시행령', 'JO', '0004000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제4조</a>에 따라 계상된 산업안전보건관리비 총액의 20분의 1을 초과할 수 없다.&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">9. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0036000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제36조</a>에 따른 위험성평가 또는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('중대재해 처벌 등에 관한 법률 시행령', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「중대재해 처벌 등에 관한 법률 시행령」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('중대재해 처벌 등에 관한 법률 시행령', 'JO', '0004000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제4조제3호</a>에 따라 유해ㆍ위험요인 개선을 위해 필요하다고 판단하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0024000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제24조</a>의 산업안전보건위원회 또는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0075000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제75조</a>의 노사협의체에서 사용하기로 결정한 사항을 이행하기 위한 비용(산업안전보건위원회 또는 노사협의체가 없는 현장의 경우에는 근로자의 의견을 들어 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0064000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제64조</a>에 따른 안전 및 보건에 관한 협의체에서 결정한 사항을 이행하기 위한 비용을 말한다). 다만, <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0004000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제4조</a>에 따라 계상된 산업안전보건관리비 총액의 100분의 15를 초과할 수 없다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ② 제1항에도 불구하고 도급인 및 자기공사자는 다음 각 호의 어느 하나에 해당하는 경우에는 산업안전보건관리비를 사용할 수 없다. 다만, 제1항제2호나목 및 다목, 제1항제6호나목부터 마목, 제1항제9호의 경우에는 그러하지 아니하다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('(계약예규)예정가격작성기준', 'LN', '', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">「(계약예규)예정가격작성기준」</a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('(계약예규)예정가격작성기준', 'JO', '0019000000', '22333', 'true', '', '', 'Admrul', '', '', '', '', '');" href="#AJAX">제19조제3항</a> 중 각 호(단, 제14호는 제외한다)에 해당되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">2. 다른 법령에서 의무사항으로 규정한 사항을 이행하는 데 필요한 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">3. 근로자 재해예방 외의 목적이 있는 시설ㆍ장비나 물건 등을 사용하기 위해 소요되는 비용&nbsp; <span class="sfon2"></span> </p> 
+     <p class="pty1_de2h">4. 환경관리, 민원 또는 수방대비 등 다른 목적이 포함된 경우&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ③ 도급인 및 자기공사자는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BE', '000300', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200201');" href="#AJAX">별표 3</a>에서 정한 공사진척에 따른 산업안전보건관리비 사용기준을 준수하여야 한다. 다만, 건설공사발주자는 건설공사의 특성 등을 고려하여 사용기준을 달리 정할 수 있다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ④ &lt;삭 제&gt;&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ⑤ 도급인 및 자기공사자는 도급금액 또는 사업비에 계상된 산업안전보건관리비의 범위에서 그의 관계수급인에게 해당 사업의 위험도를 고려하여 적정하게 산업안전보건관리비를 지급하여 사용하게 할 수 있다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <!-- 항 표시 end --> 
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J8-0:0" id="J8-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0008000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="8-0:0::0008000000:17223923"><span class="checkbox"></span> <span class="bl"> <label for="Y0008000000">제8조(사용금액의 감액ㆍ반환 등)</label> </span> 발주자는 도급인이 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0072000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제72조제2항</a>에 위반하여 다른 목적으로 사용하거나 사용하지 않은 산업안전보건관리비에 대하여 이를 계약금액에서 감액조정하거나 반환을 요구할 수 있다. <span class="sfon2"></span> 
+      <!-- 항 표시 end --> </p>
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J9-0:0" id="J9-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0009000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="9-0:0::0009000000:17223925"><span class="checkbox"></span> <span class="bl"> <label for="Y0009000000">제9조(사용내역의 확인)</label> </span> <span class="sfon2"></span> ① 도급인은 산업안전보건관리비 사용내역에 대하여 공사 시작 후 6개월마다 1회 이상 발주자 또는 감리자의 확인을 받아야 한다. 다만, 6개월 이내에 공사가 종료되는 경우에는 종료 시 확인을 받아야 한다.&nbsp; <span class="sfon2"></span> 
+      <!-- 호 표시 start --> 
+      <!-- 호 표시 end --> </p>
+     <p class="pty1_de2_1"> ② 제1항에도 불구하고 발주자, 감리자 및 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('근로기준법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">「근로기준법」</a> <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('근로기준법', 'JO', '0101000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제101조</a>에 따른 관계 근로감독관은 산업안전보건관리비 사용내역을 수시 확인할 수 있으며, 도급인 또는 자기공사자는 이에 따라야 한다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ③ 발주자 또는 감리자는 제1항 및 제2항에 따른 산업안전보건관리비 사용내역 확인 시 기술지도 계약 체결, 기술지도 실시 및 개선 여부 등을 확인하여야 한다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <!-- 항 표시 end --> 
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J10-0:0" id="J10-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0010000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="10-0:0::0010000000:17223927"><span class="checkbox"></span> <span class="bl"> <label for="Y0010000000">제10조(실행예산의 작성 및 집행 등)</label> </span> <span class="sfon2"></span> ① 공사금액 4천만 원 이상의 도급인 및 자기공사자는 공사실행예산을 작성하는 경우에 해당 공사에 사용하여야 할 산업안전보건관리비의 실행예산을 계상된 산업안전보건관리비 총액 이상으로 별도 편성해야 하며, 이에 따라 산업안전보건관리비를 사용하고<a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('건설업 산업안전보건관리비 계상 및 사용기준', 'BF', '000100', '22333', 'true', '', '', 'Admrul', '', '', '', '', '200203');" href="#AJAX"> 별지 제1호서식</a>의 산업안전보건관리비 사용내역서를 작성하여 해당 공사현장에 갖추어 두어야 한다.&nbsp; <span class="sfon2"></span> 
+      <!-- 호 표시 start --> 
+      <!-- 호 표시 end --> </p>
+     <p class="pty1_de2_1"> ② 도급인 및 자기공사자는 제1항에 따른 산업안전보건관리비 실행예산을 작성하고 집행하는 경우에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">법 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법', 'JO', '0017000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제17조</a>와 <a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'LN', '', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">영 </a><a title="팝업으로 이동" class="link" onclick="javascript:fncLawPop('산업안전보건법 시행령', 'JO', '0016000000', '22333', 'true', '', '', 'Ls', '', '', '', '', '');" href="#AJAX">제16조</a>에 따라 선임된 해당 사업장의 안전관리자가 참여하도록 하여야 한다.&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <p class="pty1_de2_1"> ③ &lt;삭 제&gt;&nbsp; <span class="sfon2"></span> </p> 
+     <!-- 호 표시 start --> 
+     <!-- 호 표시 end --> 
+     <!-- 항 표시 end --> 
+    </div> 
+   </div> 
+   <!-- 편장절관 --> 
+   <a name="JP11-0:0" id="JP11-0:0"></a> 
+   <div class="pgroup"> 
+    <p class="gtit" data-joidfull="0011000000" data-joseq="17223929" id="17223929"> 제3장 보 칙 </p> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J11-0:0" id="J11-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0011000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="11-0:0::0011000000:17223931"><span class="checkbox"></span> <span class="bl"> <label for="Y0011000000">제11조(기술지도 횟수 등)</label> </span> &lt;삭제&gt; <span class="sfon2"></span> 
+      <!-- 항 표시 end --> </p>
+    </div> 
+   </div> 
+   <!-- 조문 --> 
+   <a name="J12-0:0" id="J12-0:0"></a> 
+   <div class="pgroup"> 
+    <ul class="lawico01"></ul> 
+    <div class="lawcon"> 
+     <p class="pty1_p4"> <input name="joNoList" id="Y0012000000" type="checkbox" onclick="getJoSelectLayer(this, '');" value="12-0:0::0012000000:17223933"><span class="checkbox"></span> <span class="bl"> <label for="Y0012000000">제12조(재검토기한)</label> </span> 고용노동부 장관은 이 고시에 대하여 2025년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다. <span class="sfon2"></span> 
+      <!-- 항 표시 end --> </p>
+    </div> 
+   </div> 
+   <!-- 조 표시 영역 --> 
+   <!-- 행정규칙 첨부파일 사이냅뷰어  --> 
+   <!-- 행정규칙 첨부파일 사이냅뷰어  --> 
+   <!-- 부칙 영역 --> 
+   <br> 
+   <div id="arDivArea"> 
+    <a name="arArea"></a> 
+    <a name="ar"></a> 
+    <a id="J2440181"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440181btn" style="vertical-align: middle;" alt="부칙&lt;제2007-4호,2007. 2. 21.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440181" style="vertical-align: middle;" alt="부칙&lt;제2007-4호,2007. 2. 21.&gt;체크박스" value="2440181"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440181', '&lt;제2007-4호,2007. 2. 21.&gt;');return false;" href="#AJAX"> <label for="chk2440181"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2007-4호,2007. 2. 21.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> 이 고시는 고시한 날부터 시행한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440183"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440183btn" style="vertical-align: middle;" alt="부칙&lt;제2008-67호,2008. 10. 22.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440183" style="vertical-align: middle;" alt="부칙&lt;제2008-67호,2008. 10. 22.&gt;체크박스" value="2440183"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440183', '&lt;제2008-67호,2008. 10. 22.&gt;');return false;" href="#AJAX"> <label for="chk2440183"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2008-67호,2008. 10. 22.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> ① (시행일) 이 고시는 고시한 날부터 시행한다. </p>
+     <p class="pty3_dep1">② (공사진척에 따른 안전관리비 사용기준에 관한 적용례) 제7조제3항 및 별표 3의 개정규정은 이 고시 시행일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440185"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440185btn" style="vertical-align: middle;" alt="부칙&lt;제2010-10호,2010. 8. 9.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440185" style="vertical-align: middle;" alt="부칙&lt;제2010-10호,2010. 8. 9.&gt;체크박스" value="2440185"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440185', '&lt;제2010-10호,2010. 8. 9.&gt;');return false;" href="#AJAX"> <label for="chk2440185"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2010-10호,2010. 8. 9.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> 이 고시는 공고한 날부터 시행한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440187"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440187btn" style="vertical-align: middle;" alt="부칙&lt;제2012-23호,2012. 2. 8.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440187" style="vertical-align: middle;" alt="부칙&lt;제2012-23호,2012. 2. 8.&gt;체크박스" value="2440187"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440187', '&lt;제2012-23호,2012. 2. 8.&gt;');return false;" href="#AJAX"> <label for="chk2440187"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2012-23호,2012. 2. 8.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> 고시는 발령한 날부터 시행한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440189"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440189btn" style="vertical-align: middle;" alt="부칙&lt;제2012-126호,2012. 11. 23.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440189" style="vertical-align: middle;" alt="부칙&lt;제2012-126호,2012. 11. 23.&gt;체크박스" value="2440189"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440189', '&lt;제2012-126호,2012. 11. 23.&gt;');return false;" href="#AJAX"> <label for="chk2440189"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2012-126호,2012. 11. 23.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> 이 고시는 발령한 날부터 시행한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440191"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440191btn" style="vertical-align: middle;" alt="부칙&lt;제2013-47호,2013. 10. 14.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440191" style="vertical-align: middle;" alt="부칙&lt;제2013-47호,2013. 10. 14.&gt;체크박스" value="2440191"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440191', '&lt;제2013-47호,2013. 10. 14.&gt;');return false;" href="#AJAX"> <label for="chk2440191"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2013-47호,2013. 10. 14.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> ① (시행일) 이 고시는 발령한 날부터 시행한다. 다만, 별표1의 개정규정은 2014년 1월 1일부터 시행한다.</p>
+     <p class="pty3_dep1">② (공사종류 및 규모별 안전관리비 계상기준표 적용례) 별표 1의 개정규정은 2014년 1월 1일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440193"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440193', '&lt;제2014-37호,2014. 10. 22.&gt;');return false;" href="#AJAX"> <img id="ar2440193btn" style="vertical-align: middle;" alt="부칙&lt;제2014-37호,2014. 10. 22.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440193" style="vertical-align: middle;" alt="부칙&lt;제2014-37호,2014. 10. 22.&gt;체크박스" value="2440193"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440193', '&lt;제2014-37호,2014. 10. 22.&gt;');return false;" href="#AJAX"> <label for="chk2440193"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2014-37호,2014. 10. 22.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조(시행일)</span> 이 고시는 발령한 날부터 시행한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제2조(적용례)</span> 제3조제1호의 개정규정은 이 고시 시행 후 새로이 계약을 체결하는 공사부터 적용한다. </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440195"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440195', '&lt;제2017-8호,2017. 2. 7.&gt;');return false;" href="#AJAX"> <img id="ar2440195btn" style="vertical-align: middle;" alt="부칙&lt;제2017-8호,2017. 2. 7.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440195" style="vertical-align: middle;" alt="부칙&lt;제2017-8호,2017. 2. 7.&gt;체크박스" value="2440195"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440195', '&lt;제2017-8호,2017. 2. 7.&gt;');return false;" href="#AJAX"> <label for="chk2440195"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2017-8호,2017. 2. 7.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조 (시행일)</span> 이 고시는 발령한 날부터 시행한다. 다만, 제3조, 별표 1의 개정규정은 2017년 5월 1일부터 시행한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제2조 (정보통신공사중 단가계약 공사에 대한 적용례)</span> 제3조제2호의 개정규정은 2017년 5월 1일 이후 새로이 계약을 체결하는 정보통신공사부터 적용한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제3조 (공사종류 및 규모별 안전관리비 계상기준표 적용례)</span> 별표 1의 개정규정은 2017년 5월 1일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440197"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440197', '&lt;제2018-72호,2018. 10. 5.&gt;');return false;" href="#AJAX"> <img id="ar2440197btn" style="vertical-align: middle;" alt="부칙&lt;제2018-72호,2018. 10. 5.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440197" style="vertical-align: middle;" alt="부칙&lt;제2018-72호,2018. 10. 5.&gt;체크박스" value="2440197"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440197', '&lt;제2018-72호,2018. 10. 5.&gt;');return false;" href="#AJAX"> <label for="chk2440197"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2018-72호,2018. 10. 5.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조 (시행일)</span> 이 고시는 발령한 날부터 시행한다. 다만, 제4조제3항, 제5조제1항, 제5조제4항, 별표 1-3의 개정규정은 2019년 1월 1일 시행한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제2조 (계상기준 및 계상시기 등의 적용례)</span> 제4조제3항, 제5조제1항, 제5조제4항, 별표 1-3의 개정규정은 2019년 1월 1일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제3조 (경과조치)</span> 2018년 12월 31일 이전까지 종전 고시(고용노동부고시 제2017-8호)에 의하여 입찰공고 등의 절차를 진행한 건설공사에 대해서는 당해 공사가 종료될 때까지는 종전 고시의 규정에 따른다. </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440199"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440199btn" style="vertical-align: middle;" alt="부칙&lt;제2018-94호,2018. 12. 31.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440199" style="vertical-align: middle;" alt="부칙&lt;제2018-94호,2018. 12. 31.&gt;체크박스" value="2440199"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440199', '&lt;제2018-94호,2018. 12. 31.&gt;');return false;" href="#AJAX"> <label for="chk2440199"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2018-94호,2018. 12. 31.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> 이 고시는 발령한 날부터 시행한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440201"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440201', '&lt;제2019-64호,2019. 12. 13.&gt;');return false;" href="#AJAX"> <img id="ar2440201btn" style="vertical-align: middle;" alt="부칙&lt;제2019-64호,2019. 12. 13.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440201" style="vertical-align: middle;" alt="부칙&lt;제2019-64호,2019. 12. 13.&gt;체크박스" value="2440201"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440201', '&lt;제2019-64호,2019. 12. 13.&gt;');return false;" href="#AJAX"> <label for="chk2440201"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2019-64호,2019. 12. 13.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조 (시행일)</span> 이 고시는 발령한 날부터 시행한다. 다만, 제3조의 개정규정은 2020년 7월 1일부터 시행한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제2조 (적용범위 확대의 적용례)</span> 제3조의 개정규정은 2020년 7월 1일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440203"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440203', '&lt;제2020-63호, 2020. 1. 23.&gt;');return false;" href="#AJAX"> <img id="ar2440203btn" style="vertical-align: middle;" alt="부칙&lt;제2020-63호, 2020. 1. 23.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440203" style="vertical-align: middle;" alt="부칙&lt;제2020-63호, 2020. 1. 23.&gt;체크박스" value="2440203"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440203', '&lt;제2020-63호, 2020. 1. 23.&gt;');return false;" href="#AJAX"> <label for="chk2440203"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2020-63호, 2020. 1. 23.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조(시행일)</span> 이 고시는 발령한 날부터 시행한다. </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440205"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440205', '&lt;제2022-43호, 2022. 6. 2.&gt;');return false;" href="#AJAX"> <img id="ar2440205btn" style="vertical-align: middle;" alt="부칙&lt;제2022-43호, 2022. 6. 2.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440205" style="vertical-align: middle;" alt="부칙&lt;제2022-43호, 2022. 6. 2.&gt;체크박스" value="2440205"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440205', '&lt;제2022-43호, 2022. 6. 2.&gt;');return false;" href="#AJAX"> <label for="chk2440205"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2022-43호, 2022. 6. 2.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조(시행일)</span> 이 고시는 발령한 날부터 시행한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제2조(건설재해예방전문지도기관의 기술지도에 관한 경과규정)</span> 2022년 8월 17일 이전까지 건설재해예방전문지도기관과 체결한 기술지도 계약에 관한 안전보건관리비의 사용기준은 제7조제1항제7호 및 제11조의 개정에도 불구하고 종전의 규정을 따른다. </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440207"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440207', '&lt;제2023-49호, 2023. 10. 5.&gt;');return false;" href="#AJAX"> <img id="ar2440207btn" style="vertical-align: middle;" alt="부칙&lt;제2023-49호, 2023. 10. 5.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440207" style="vertical-align: middle;" alt="부칙&lt;제2023-49호, 2023. 10. 5.&gt;체크박스" value="2440207"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440207', '&lt;제2023-49호, 2023. 10. 5.&gt;');return false;" href="#AJAX"> <label for="chk2440207"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2023-49호, 2023. 10. 5.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조 (시행일)</span> 이 고시는 2024년 1월 1일부터 시행한다. 다만, 별표 1, 별표 5의 개정규정은 2024년 7월 1일부터 시행한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제2조 (건설공사의 종류 및 규모별 산업안전보건관리비 계상기준표 적용례)</span> 별표 1, 별표 5의 개정규정은 2024년 7월 1일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440209"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <a class="nun" onclick="arView('ar2440209', '&lt;제2024-53호, 2024. 9. 19.&gt;');return false;" href="#AJAX"> <img id="ar2440209btn" style="vertical-align: middle;" alt="부칙&lt;제2024-53호, 2024. 9. 19.&gt;조문목록 접기" src="/LSW/assets/images/viewer/brn-fold.svg"> </a> <input type="checkbox" name="arInf" id="chk2440209" style="vertical-align: middle;" alt="부칙&lt;제2024-53호, 2024. 9. 19.&gt;체크박스" value="2440209"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440209', '&lt;제2024-53호, 2024. 9. 19.&gt;');return false;" href="#AJAX"> <label for="chk2440209"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2024-53호, 2024. 9. 19.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> </p> 
+     <!-- 부칙 조번호 --> 
+     <p class="pty3_dep1"> <span class="bl">제1조 (시행일)</span> 이 고시는 2025년 1월 1일부터 시행한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제2조 (단가계약 공사에 대한 적용례)</span> 제3조의 개정규정은 2025년 1월 1일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제3조 (공사종류 및 규모별 산업안전보건관리비 계상기준표 적용례)</span> 별표 1의 개정규정은 2025년 1월 1일 이후 새로이 계약을 체결하는 건설공사부터 적용한다. </p> 
+     <p class="pty3_dep1"> <span class="bl">제4조 (스마트안전장비 구입ㆍ임대 비용에 관한 적용례)</span> 제7조제1항제2호나목의 개정규정은 다음 각 호의 구분에 따른 날부터 적용한다.</p>
+     <p class="pty3_dep2">1. 스마트 안전장비 구입ㆍ임대 비용의 10분의 7에 해당하는 비용: 2025년 1월 1일</p>
+     <p class="pty3_dep2">2. 스마트 안전장비 구입ㆍ임대 비용: 2026년 1월 1일 </p> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+    <a name="ar"></a> 
+    <a id="J2440211"></a> 
+    <div class="pgroup"> 
+     <p class="pty3"> <img id="ar2440211btn" style="vertical-align: middle;" alt="부칙&lt;제2025-11호, 2025. 2. 12.&gt;조문목록 없음" src="/LSW/assets/images/viewer/ico-dot.svg"> <input type="checkbox" name="arInf" id="chk2440211" style="vertical-align: middle;" alt="부칙&lt;제2025-11호, 2025. 2. 12.&gt;체크박스" value="2440211"><span class="checkbox"></span> <a class="nun" onclick="arView('ar2440211', '&lt;제2025-11호, 2025. 2. 12.&gt;');return false;" href="#AJAX"> <label for="chk2440211"> <span class="bl">부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;칙</span> </label> <span class="sfon">&lt;제2025-11호, 2025. 2. 12.&gt;</span> </a> </p> 
+     <p class="pty3_dep1"> 이 고시는 2025년 2월 12일부터 시행한다. </p> 
+     <!-- 부칙 조번호 --> 
+     <!-- 부칙 조번호 --> 
+    </div> 
+   </div> 
+   <!-- 부칙 영역 끝 --> 
+   <!-- 별표 영역 --> 
+   <input type="hidden" id="bylLnkDpYn" value="0"> 
+   <br> 
+   <a name="byl"></a> 
+   <ul class="pconfile pb30 pcf_sec01" style="padding: 0px 0px 0px 23px;"> 
+    <li style="position: relative;"> <a id="J2986409"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000100"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986409');" href="#AJAX"> <img name="bylbtns" id="by2986409btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별표 1] 공사종류 및 규모별 산업안전보건관리비 계상기준표 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052615&amp;flNm=%5B%EB%B3%84%ED%91%9C+1%5D+%EA%B3%B5%EC%82%AC%EC%A2%85%EB%A5%98+%EB%B0%8F+%EA%B7%9C%EB%AA%A8%EB%B3%84+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EA%B3%84%EC%83%81%EA%B8%B0%EC%A4%80%ED%91%9C&amp;bylClsCd=200201"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052619&amp;flNm=%5B%EB%B3%84%ED%91%9C+1%5D+%EA%B3%B5%EC%82%AC%EC%A2%85%EB%A5%98+%EB%B0%8F+%EA%B7%9C%EB%AA%A8%EB%B3%84+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EA%B3%84%EC%83%81%EA%B8%B0%EC%A4%80%ED%91%9C&amp;bylClsCd=200201"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986409&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986409" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986409" name="149052619" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986411"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000102"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986411');" href="#AJAX"> <img name="bylbtns" id="by2986411btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별표 1의2] 관리감독자 안전보건업무 수행 시 수당지급 작업 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052621&amp;flNm=%5B%EB%B3%84%ED%91%9C+1%EC%9D%982%5D+%EA%B4%80%EB%A6%AC%EA%B0%90%EB%8F%85%EC%9E%90+%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EC%97%85%EB%AC%B4+%EC%88%98%ED%96%89+%EC%8B%9C+%EC%88%98%EB%8B%B9%EC%A7%80%EA%B8%89+%EC%9E%91%EC%97%85&amp;bylClsCd=200201"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052625&amp;flNm=%5B%EB%B3%84%ED%91%9C+1%EC%9D%982%5D+%EA%B4%80%EB%A6%AC%EA%B0%90%EB%8F%85%EC%9E%90+%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EC%97%85%EB%AC%B4+%EC%88%98%ED%96%89+%EC%8B%9C+%EC%88%98%EB%8B%B9%EC%A7%80%EA%B8%89+%EC%9E%91%EC%97%85&amp;bylClsCd=200201"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986411&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986411" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986411" name="149052625" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986413"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000103"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986413');" href="#AJAX"> <img name="bylbtns" id="by2986413btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별표 1의3] 설계변경 시 산업안전보건관리비 조정·계상 방법 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052627&amp;flNm=%5B%EB%B3%84%ED%91%9C+1%EC%9D%983%5D+%EC%84%A4%EA%B3%84%EB%B3%80%EA%B2%BD+%EC%8B%9C+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%A1%B0%EC%A0%95%C2%B7%EA%B3%84%EC%83%81+%EB%B0%A9%EB%B2%95&amp;bylClsCd=200201"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052631&amp;flNm=%5B%EB%B3%84%ED%91%9C+1%EC%9D%983%5D+%EC%84%A4%EA%B3%84%EB%B3%80%EA%B2%BD+%EC%8B%9C+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%A1%B0%EC%A0%95%C2%B7%EA%B3%84%EC%83%81+%EB%B0%A9%EB%B2%95&amp;bylClsCd=200201"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986413&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986413" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986413" name="149052631" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986415"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000200"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986415');" href="#AJAX"> <img name="bylbtns" id="by2986415btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별표 2] 삭제 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052633&amp;flNm=%5B%EB%B3%84%ED%91%9C+2%5D+%EC%82%AD%EC%A0%9C&amp;bylClsCd=200201"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052637&amp;flNm=%5B%EB%B3%84%ED%91%9C+2%5D+%EC%82%AD%EC%A0%9C&amp;bylClsCd=200201"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986415&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986415" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986415" name="149052637" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986417"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000300"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986417');" href="#AJAX"> <img name="bylbtns" id="by2986417btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별표 3] 공사진척에 따른 산업안전보건관리비 사용기준 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052639&amp;flNm=%5B%EB%B3%84%ED%91%9C+3%5D+%EA%B3%B5%EC%82%AC%EC%A7%84%EC%B2%99%EC%97%90+%EB%94%B0%EB%A5%B8+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%82%AC%EC%9A%A9%EA%B8%B0%EC%A4%80&amp;bylClsCd=200201"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052643&amp;flNm=%5B%EB%B3%84%ED%91%9C+3%5D+%EA%B3%B5%EC%82%AC%EC%A7%84%EC%B2%99%EC%97%90+%EB%94%B0%EB%A5%B8+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%82%AC%EC%9A%A9%EA%B8%B0%EC%A4%80&amp;bylClsCd=200201"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986417&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986417" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986417" name="149052643" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986419"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000400"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986419');" href="#AJAX"> <img name="bylbtns" id="by2986419btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별표 4] 삭제 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052645&amp;flNm=%5B%EB%B3%84%ED%91%9C+4%5D+%EC%82%AD%EC%A0%9C&amp;bylClsCd=200201"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052649&amp;flNm=%5B%EB%B3%84%ED%91%9C+4%5D+%EC%82%AD%EC%A0%9C&amp;bylClsCd=200201"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986419&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986419" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986419" name="149052649" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986421"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000500"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986421');" href="#AJAX"> <img name="bylbtns" id="by2986421btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별표 5] 건설공사의 종류 예시표 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052651&amp;flNm=%5B%EB%B3%84%ED%91%9C+5%5D+%EA%B1%B4%EC%84%A4%EA%B3%B5%EC%82%AC%EC%9D%98+%EC%A2%85%EB%A5%98+%EC%98%88%EC%8B%9C%ED%91%9C&amp;bylClsCd=200201"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052659&amp;flNm=%5B%EB%B3%84%ED%91%9C+5%5D+%EA%B1%B4%EC%84%A4%EA%B3%B5%EC%82%AC%EC%9D%98+%EC%A2%85%EB%A5%98+%EC%98%88%EC%8B%9C%ED%91%9C&amp;bylClsCd=200201"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986421&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986421" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986421" name="149052659" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986423"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000100"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986423');" href="#AJAX"> <img name="bylbtns" id="by2986423btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별지 1] 산업안전보건관리비 사용내역서 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052661&amp;flNm=%5B%EB%B3%84%EC%A7%80+1%5D+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%82%AC%EC%9A%A9%EB%82%B4%EC%97%AD%EC%84%9C&amp;bylClsCd=200203"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052683&amp;flNm=%5B%EB%B3%84%EC%A7%80+1%5D+%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC%EB%B9%84+%EC%82%AC%EC%9A%A9%EB%82%B4%EC%97%AD%EC%84%9C&amp;bylClsCd=200203"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986423&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986423" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986423" name="149052683" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+    <li style="position: relative;"> <a id="J2986425"></a> 
+     <ul class="lawico02" id="autoModBylIcon_000200"> 
+      <li></li> 
+     </ul> <a class="blu" onclick="bylInfoDiv('2986425');" href="#AJAX"> <img name="bylbtns" id="by2986425btn" alt="펼침" src="/LSW/assets/images/viewer/btn-more.svg"> [별지 2] 삭제 </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052685&amp;flNm=%5B%EB%B3%84%EC%A7%80+2%5D+%EC%82%AD%EC%A0%9C&amp;bylClsCd=200203"> <img alt="HWP파일 다운로드" src="/LSW/assets/images/viewer/ico-hwp.svg"> </a> 
+     <drag id="dragsearch" style="position: absolute;"></drag> <a href="flDownload.do?flSeq=149052689&amp;flNm=%5B%EB%B3%84%EC%A7%80+2%5D+%EC%82%AD%EC%A0%9C&amp;bylClsCd=200203"> <img alt="PDF파일 다운로드" src="/LSW/assets/images/viewer/ico-pdf.svg"> </a> <a href="javascript:;" onclick="window.open('admRulBylInfoPLinkR.do?bylSeq=2986425&amp;admRulSeq=2100000254546&amp;viewerPopYn=Y', '', 'width=1285, height=800')"> <img alt="행정규칙별표 한글주소" src="/LSW/assets/images/ico-view.svg" id="imgPos"> </a> 
+     <div class="d_cont_bx" id="byl2986425" style="display: none;"> 
+      <p style="line-height: 0; padding-top: 17px; margin-left: 0px;"></p> 
+     </div> 
+     <div class="d_cont_bx" id="svByl2986425" name="149052689" style="display: none; overflow: auto; width: 926px; height: 470px;"></div> </li> 
+   </ul> 
+   <!-- 별표 영역 끝 --> 
+  </div> 
+  <script type="text/javascript">
+    (function () {
+        initEDotXPress('\uAC74\uC124\uC5C5 \uC0B0\uC5C5\uC548\uC804\uBCF4\uAC74\uAD00\uB9AC\uBE44 \uACC4\uC0C1 \uBC0F \uC0AC\uC6A9\uAE30\uC900');
+    })();
+</script> 
+ 
+</div> 
+       </div> 
+      </div> 
+     <div class="pageTop"><button type="button" class="btnTop">상단으로 이동</button></div></div> 
+     <!--/ viewContents --> 
+    </div> 
+    <!-- 본문  영역  --> 
+    <div id="bodySideContent" style="display: none; opacity: 1;" data-brl-use="PH" class="bodySideContent"></div> 
+    <!-- 연혁법령 안내문구 --> 
+    <div id="bodyContentTOP" style="margin-left: 10px;" data-brl-use="PH"></div> 
+    <div class="ui-layout-south" style="display: none;"></div> 
+    <!--/ viewContainer --> 
+   </div> 
+   <!--/ viewWrap --> 
+   <!-- 법령체계도 layer --> 
+   <div class="vwrap5" id="div_lsSystem" style="left:10px;top:80px;display:none"> 
+   </div> 
+   <!-- 법령체계도 layer //--> 
+   <div id="admRulOutPutDivWrite" class="layerPop"> 
+    <div class="inner"> 
+     <strong class="tit" id="saveTit"></strong> 
+     <div id="admRulOutPutLayer" class="cont"></div> 
+     <div class="btnBottom right"> 
+      <button class="btn btnWhite btnSm" type="button" onclick="fn_layer_close(this)">취소</button> 
+      <button class="btn btnInBlue btnSm" type="button" id="aBtnOutPutSave" onclick="beforeSavePrint(); fn_layer_close(this); return false;">저장</button> 
+     </div> 
+     <a id="maClsBtn" href="javascript:void(0)" onclick="fn_layer_close(this)">닫기</a> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 관련정보(관련법령) 레이어 //--> 
+  <div id="fconLayer" class="layerPop"> 
+   <div class="inner"> 
+    <strong class="tit">관련법령 목록</strong> 
+    <!-- cont --> 
+    <div class="cont"> 
+     <!-- listTable --> 
+     <div class="listTable responsive"> 
+      <table> 
+       <caption>목록 항목으로 구성된 관련법령 리스트 표</caption> 
+       <colgroup> 
+        <col style="width: auto"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <th colspan="2" scope="col" class="is-bottom">목록</th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+       </tbody> 
+      </table> 
+     </div> 
+     <!--// listTable --> 
+    </div> 
+    <!-- // cont --> 
+    <div class="btnBottom right"> 
+     <button class="btn btnInBlue btnSm" type="button" onclick="fn_layer_close(this)">닫기</button> 
+    </div> 
+    <a href="javascript:void(0)" onclick="fn_layer_close(this)">닫기</a> 
+   </div> 
+  </div> 
+  <!-- 관련정보(관련법령) 레이어 //--> 
+  <!-- 첨부파일 레이어 //--> 
+  <div id="attFlListLayer" class="layerPop"> 
+   <div class="inner"> 
+    <strong class="tit">첨부 파일 다운로드</strong> 
+    <!-- cont --> 
+    <div class="cont"> 
+     <!-- listTable --> 
+     <div class="listTable responsive"> 
+      <table> 
+       <caption>목록 항목으로 구성된 첨부파일 다운로드 리스트 표</caption> 
+       <colgroup> 
+        <col style="width: auto"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <th scope="col" class="is-bottom">목록</th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td>첨부파일이 존재하지 않습니다.</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+    <!--// listTable --> 
+    <div class="btnBottom right"> 
+     <button class="btn btnInBlue btnSm" type="button" onclick="fn_layer_close(this)">닫기</button> 
+    </div> 
+    <a href="javascript:void(0)" onclick="fn_layer_close(this)">닫기</a> 
+   </div> 
+  </div> 
+  <!-- 첨부파일 레이어 //--> 
+  <!-- 음성지원 레이어 //--> 
+  <div id="admRulTtsLayer" class="layerPop"> 
+   <div class="inner"> 
+    <strong class="tit">음성지원</strong> 
+    <div class="cont"> 
+     <div style="display: block; opacity: 1;" data-brl-use="PH" class="bodySideContent"> 
+     </div> 
+    </div> 
+    <a href="javascript:void(0)" class="btnView" onclick="window.open('')">새창열기</a> 
+    <a href="javascript:void(0)" onclick="AdmRulPopLayer.closeAdmRulTtsLayer(this)">닫기</a> 
+   </div> 
+  </div> 
+  <!-- 음성지원 레이어 //--> 
+  <!-- 저장 레이어 //--> 
+  <!-- 인쇄 layer --> 
+  <!-- 화면내 검색 layer --> 
+  <script type="text/javaScript" language="javascript" defer="defer">
+<!--
+$(document).ready(function()
+{
+    // 화면내 검색 Layer의 별표본문내용 체크박스 Click Event
+    $("#bdySearchLayer").delegate("input:checkbox[id=selectSearchByl]", "click", function(e) {
+        isBylChkChg = true;
+    });
+});
+//-->
+</script> 
+  <div id="bdySearchLayer" class="layerPop on" style="display: none;"> 
+   <div class="inner" style="width: 450px;"> 
+    <strong class="tit">화면 내 검색</strong> 
+    <!-- cont --> 
+    <div class="cont" tabindex="0" style="max-height: 185.5px;"> 
+     <!-- lsBodySearch --> 
+     <div class="lsBodySearch"> 
+      <!-- listTop --> 
+      <div class="listTop"> 
+       <!-- left --> 
+       <div class="left"> 
+        <!-- checkboxWrap --> 
+        <div class="checkboxWrap"> 
+         <div class="checkbox"> 
+          <input type="radio" id="preBtn" name="srcBtn" class="radio" value="1"> 
+          <label for="preBtn">위로</label> 
+         </div> 
+         <div class="checkbox"> 
+          <input type="radio" id="nextBtn" name="srcBtn" class="radio" value="2" checked="checked"> 
+          <label for="nextBtn">아래로</label> 
+         </div> 
+        </div> 
+        <!-- // checkboxWrap --> 
+       </div> 
+       <!--// left --> 
+       <!-- right --> 
+       <!--// right --> 
+      </div> 
+      <!--// listTop --> 
+      <div class="formItem"> 
+       <!-- formItem --> 
+       <div class="withBtn"> 
+        <input type="text" title="검색어" placeholder="화면 내 검색어를 입력하세요" id="bdySearch" name="bdySearch" onkeypress="if(event.keyCode==13){enterBdySearch(event,document.getElementsByName('srcBtn'));return false;}"> 
+        <button type="button" class="btn" href="javascript:void(0);" onclick="window.bdySearch(document.getElementsByName('srcBtn'));return false;">검색</button> 
+       </div> 
+      </div> 
+      <!-- // formItem --> 
+      <!-- btnLabel --> 
+      <ul class="btnLabel noLink" id="bdyKeyVal"> 
+      </ul> 
+      <!--// btnLabel --> 
+     </div> 
+     <!-- // lsBodySearch --> 
+    </div> 
+    <!-- // cont --> 
+    <a class="clsBtn" href="javascript:void(0)" onclick="fn_layer_close(this)">닫기</a> 
+   </div> 
+  </div> 
+  <!-- 화면내 layer //--> 
+  <!-- 본문 검색 후 조문 출력 layer --> 
+  <div id="divSearchLayer" class="layerPop"> 
+   <div class="inner"> 
+    <strong class="tit">화면 내 검색결과</strong> 
+    <div class="cont"> 
+     <div class="listTable responsive" id="searchList"></div> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button class="btn btnInBlue btnSm clsBtn" type="button" onclick="fn_layer_close(this)">닫기</button> 
+    </div> 
+    <a href="javascript:void(0)" onclick="fn_layer_close(this)">닫기</a> 
+   </div> 
+  </div> 
+  <!-- 본문 검색 후 조문 출력 layer //--> 
+  <!-- Wide 목록저장 layer --> 
+  <div class="layerPop layerType" id="listSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="saveForm" name="saveForm" target="_self" action="#"> 
+      <input type="image" title="전송" style="display:none;" alt="전송"> 
+      <input type="hidden" name="save" value="save"> 
+      <input type="hidden" id="saveTabMenuId" name="tabMenuId"> 
+      <input type="hidden" id="saveQuery" name="query"> 
+      <input type="hidden" id="savePg" name="pg"> 
+      <input type="hidden" id="saveOutmax" name="outmax"> 
+      <input type="hidden" id="saveSelSort" name="selSort"> 
+      <input type="hidden" id="saveTabMenuIdx" name="tabMenuIdx"> 
+      <input type="hidden" id="saveSubMenuId" name="subMenuId"> 
+      <input type="hidden" id="lsAstMode2" name="lsAstMode" value="1">
+      <label for="lsAstMode2" class="blind">모드</label> 
+      <input type="hidden" id="saveWhole" name="saveTarget" value="whole">
+      <label for="saveWhole" class="blind">전체저장</label> 
+      <input type="hidden" id="saveSection" name="section"> 
+      <input type="hidden" id="saveCmt" name="cmt"> 
+      <input type="hidden" id="saveDeccType" name="deccType"> 
+      <div class="typeBox"> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveListXLS" name="saveExt" value="xls" checked="checked"> 
+         <label for="saveListXLS">XLS(엑셀)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveListTXT" name="saveExt" value="txt"> 
+         <label for="saveListTXT">TXT(텍스트)</label> 
+        </div> 
+       </div> 
+       <!-- // checkboxWrap --> 
+      </div> 
+      <div id="inputContainer" style="display:none;"></div> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this);">취소</button> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitListSave();return false;">저장</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Wide 목록저장 layer //--> 
+  <!-- 법령 조문 목록저장 layer --> 
+  <div class="layerPop layerType" id="joListSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="joSaveForm" name="joSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" style="display:none;" alt="전송"> 
+      <input type="hidden" name="save" value="save"> 
+      <input type="hidden" id="lsAstMode3" name="lsAstMode" value="1"> 
+      <input type="hidden" id="saveWhole2" name="saveTarget" value="whole"> 
+      <div class="typeBox"> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveJoListXLS" name="saveExt" value="xls" checked="checked"> 
+         <label for="saveJoListXLS">XLS(엑셀)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveJoListTXT" name="saveExt" value="txt"> 
+         <label for="saveJoListTXT">TXT(텍스트)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveHWPList" name="saveExt" value="hwp"> 
+         <label for="saveHWPList">한글(본문)</label> 
+        </div> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+    <!-- // checkboxWrap --> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this)">취소</button> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitJoListSave();return false;">저장</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 법령 조문 목록저장 layer //--> 
+  <!-- 법령 조문 본문 저장 layer --> 
+  <div class="layerPop layerType" id="joInfoSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="joInfoSaveForm" name="joInfoSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <div class="typeBox"> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" name="saveExt" id="joDocSelectIdHWP" value="hwp" checked=""> 
+         <label for="joDocSelectIdHWP">HWP(한글)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="saveExt" id="joDocSelectIdPDF" value="pdf"> 
+         <label for="joDocSelectIdPDF">PDF</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="saveExt" id="joDocSelectIdDOC" value="doc"> 
+         <label for="joDocSelectIdDOC">오피스(DOC)</label> 
+        </div> 
+       </div> 
+       <!-- // checkboxWrap --> 
+      </div> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this)">취소</button> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="joBeforeSavePrint();return false;">저장</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 법령 조문 본문 저장 layer //--> 
+  <div class="layerPop layerType" id="htmlSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="htmlsaveForm" name="htmlsaveForm" target="_self" action="#"> 
+      <fieldset> 
+       <legend>파일형식 선택</legend> 
+       <input type="image" title="전송" alt="전송" style="display:none;"> 
+       <input type="hidden" name="save" value="save"> 
+       <!-- id="save" --> 
+       <div class="contwrap" style="margin:1px 0;"> 
+        <div class="viewla"> 
+         <div class="ins"> 
+          <div class="inctn"> 
+           <ul> 
+            <li class="itit">파일형식</li> 
+            <li class="rdi"> <input type="radio" id="saveHtmlHTML" name="saveExt" class="radio" value="html" checked="checked"><label for="saveHtmlHTML">HTML</label> <input type="radio" id="saveHtmlXLSb" name="saveExt" class="radio" value="xls"><label for="saveHtmlXLSb">XLS(엑셀)</label> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </fieldset> 
+     </form> 
+    </div> 
+    <!-- button --> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this);">취소</button> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitHtmlContent();return false;">저장</button> 
+    </div> 
+    <!-- button //--> 
+   </div> 
+  </div> 
+  <!-- 목록저장 layer //--> 
+  <!-- 신구조문 저장 layer --> 
+  <div class="layerPop layerType" id="newSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="newSaveForm" name="newSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <div class="typeBox"> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" name="newSaveExt" id="newSaveHTML" value="html" checked=""> 
+         <label for="newSaveHTML">HTML</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="newSaveExt" id="newSaveHWP" value="hwp"> 
+         <label for="newSaveHWP">HWP(한글)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="newSaveExt" id="newSaveXLS" value="xls"> 
+         <label for="newSaveXLS">XLS(엑셀)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="newSaveExt" id="newSavePDF" value="pdf"> 
+         <label for="newSavePDF">PDF</label> 
+        </div> 
+       </div> 
+       <!-- // checkboxWrap --> 
+      </div> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this);">취소</button> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitNewContent();return false;">저장</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 신구조문저장 layer //--> 
+  <!-- 법령비교 저장 layer --> 
+  <div class="layerPop layerType" id="lawCompareSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="lawCompareSaveForm" name="lawCompareSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <div class="typeBox"> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" name="lawCmpSaveExt" id="lawCmpSaveHWP" class="lawCmpSaveExt" value="hwp" checked=""> 
+         <label for="lawCmpSaveHWP">HWP(한글)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="lawCmpSaveExt" id="lawCmpSavePDF" class="lawCmpSaveExt" value="pdf"> 
+         <label for="lawCmpSavePDF">PDF</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="lawCmpSaveExt" id="lawCmpSaveDOC" class="lawCmpSaveExt" value="doc"> 
+         <label for="lawCmpSaveDOC">오피스(DOC)</label> 
+        </div> 
+       </div> 
+       <!-- // checkboxWrap --> 
+      </div> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this);">취소</button> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitLawCompareContent();return false;">저장</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 법령비교저장 layer //--> 
+  <!-- 본문 저장 layer --> 
+  <div class="layerPop layerType" id="infoSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="infoSaveForm" name="infoSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" name="saveExt" id="saveHWP" value="hwp" checked=""> 
+        <label for="saveHWP">HWP(한글)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" name="saveExt" id="saveTXTb" value="txt"> 
+        <label for="saveTXTb">TXT(텍스트)</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this);">취소</button> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitContent();return false;">저장</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 본문 저장 layer //--> 
+  <!-- 전체 제개정이유 저장 layer --> 
+  <div class="layerPop layerType" id="lsRvsRsnInfoSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="lsRvsRsnInfoSaveForm" name="lsRvsRsnInfoSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <input type="hidden" name="lsRvsGubun" value=""> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveRvsRsnHWP" name="saveExt" value="hwp" checked="checked"> 
+        <label for="saveRvsRsnHWP">HWP(한글)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveRvsRsnTXTb" name="saveExt" value="txt"> 
+        <label for="saveRvsRsnTXTb">TXT(텍스트)</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitRvsRsnContent();">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideLsRvsRsnSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 전체 제개정이유 저장 layer --> 
+  <!-- 학칙공단 제개정문 저장 layer --> 
+  <div class="layerPop layerType" id="schlRvsRsnSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="schlPubRulSaveForm" name="schlPubRulSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <input type="hidden" id="seq" name="schlPubRulSeq" value=""> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveSchlHWP" name="saveExt" value="hwp" checked="checked"> 
+        <label for="saveSchlHWP">HWP(한글)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveSchlTXTb" name="saveExt" value="txt"> 
+        <label for="saveSchlTXTb">TXT(텍스트)</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitSchlPubRulContent();">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideSchlPubRulRvsRsnSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 학칙공단 제개정문 저장 layer //--> 
+  <!-- 영문 본문 저장 layer --> 
+  <div class="layerPop layerType" id="engInfoSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="engInfoSaveForm" name="engInfoSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" id="docSelectIdHWP" name="docSelectId" class="radio" value="hwp" checked="checked"> 
+        <label for="docSelectIdHWP">한글(HWP)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="docSelectIdPDF" name="docSelectId" class="radio" value="pdf"> 
+        <label for="docSelectIdPDF">PDF</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="docSelectIdDOC" name="docSelectId" class="radio" value="doc"> 
+        <label for="docSelectIdDOC">오피스(DOC)</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="engLsBeforeSavePrint();">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideEngInfoSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 영문 본문 저장 layer //--> 
+  <!-- 다국어 본문 저장 layer --> 
+  <div class="layerPop layerType" id="multiLingualActInfoSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="multiLingualActInfoSaveForm" name="multiLingualActInfoSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" id="multiLsHwp" name="docSelectId" class="radio" value="hwp" checked="checked"> 
+        <label for="multiLsHwp">한글(HWP)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="multiLsPdf" name="docSelectId" class="radio" value="pdf"> 
+        <label for="multiLsPdf">PDF</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="multiLsDoc" name="docSelectId" class="radio" value="doc"> 
+        <label for="multiLsDoc">오피스(DOC)</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="multiLingualActSavePrint();">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideMultiLingualActInfoSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 다국어 본문 저장 layer //--> 
+  <!-- 법령용어 저장 layer --> 
+  <div class="layerPop layerType" id="lsTrmInfoSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="lsTrmInfoSaveForm" name="lsTrmInfoSaveForm" target="_self" action="#" onsubmit="return lsTrmBeforeSavePrint()"> 
+      <fieldset> 
+       <legend>파일형식 선택</legend> 
+       <input type="image" title="전송" alt="전송" style="display:none;"> 
+       <input type="hidden" id="saveQuery" name="lsTrm">
+       <label for="saveQuery" style="display:none">법령용어명</label> 
+       <input type="hidden" name="save" value="save"> 
+       <!--  id="save" --> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" id="lsTrmDocSelectIdHWP" name="lsTrmDocSelectId" class="radio" value="hwp" checked="checked"> 
+         <label for="lsTrmDocSelectIdHWP">한글(HWP)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" id="lsTrmDocSelectIdPDF" name="lsTrmDocSelectId" class="radio" value="pdf"> 
+         <label for="lsTrmDocSelectIdPDF">PDF</label> 
+        </div> 
+       </div> 
+       <!-- // checkboxWrap --> 
+      </fieldset> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="lsTrmBeforeSavePrint();">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideInfoSaveNew();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 법령용어 저장 layer TXT(텍스트) 저장 추가 //--> 
+  <!-- 법령용어 저장 layer --> 
+  <div class="layerPop layerType" id="lsTrmInfoSaveLayer2"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="lsTrmInfoSaveForm2" name="lsTrmInfoSaveForm2" target="_self" action="#" onsubmit="return lsTrmBeforeSavePrint2()"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" id="saveQuery1" name="lsTrm">
+      <label for="saveQuery1" style="display:none">법령용어명</label> 
+      <input type="hidden" name="save" value="save"> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" id="lsTrmDocSelectIdHWP1" name="saveExt" class="radio" value="hwp" checked="checked"> 
+        <label for="lsTrmDocSelectIdHWP1">한글(HWP)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="lsTrmDocSelectIdTXT1" name="saveExt" class="radio" value="txt"> 
+        <label for="lsTrmDocSelectIdTXT1">TXT(텍스트)</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="lsTrmBeforeSavePrint2();">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideInfoSaveNew();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 법령용어 저장 layer layer TXT(텍스트) 저장 추가 //--> 
+  <!-- 3단비교  저장 layer --> 
+  <div class="layerPop layerType" id="thdCmpSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="thdCmpSaveForm" name="thdCmpSaveForm" target="_self" action="#"> 
+      <fieldset> 
+       <legend>파일형식 선택</legend> 
+       <input type="image" title="전송" alt="전송" style="display:none;"> 
+       <input type="hidden" name="save" value="save"> 
+       <!-- id="save" --> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveThdCmpHTML" name="saveExt" class="radio" value="html" checked="checked">
+         <label for="saveThdCmpHTML">HTML</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveThdCmpHWP" name="saveExt" class="radio" value="hwp">
+         <label for="saveThdCmpHWP">HWP(한글)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" id="saveThdCmpXLSb" name="saveExt" class="radio" value="xls">
+         <label for="saveThdCmpXLSb">XLS(엑셀)</label> 
+        </div> 
+       </div> 
+       <!-- // checkboxWrap --> 
+      </fieldset> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitListSaveThdCmpPrc();return false;">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideThdCmpSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- LUM 3단비교, 법령단위비교 저장 Layer --> 
+  <div class="layerPop layerType" id="thdCmpNewSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="thdCmpNewSaveForm" name="thdCmpNewSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <input type="hidden" name="chrClsCd" value="010202"> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveThdCmpNewHTML" name="saveExt" value="html" checked="checked"> 
+        <label for="saveThdCmpNewHTML">HTML</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveThdCmpNewHWP" name="saveExt" value="hwp"> 
+        <label for="saveThdCmpNewHWP">HWP(한글)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveThdCmpNewXLSb" name="saveExt" value="xls"> 
+        <label for="saveThdCmpNewXLSb">XLS(엑셀)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveThdCmpNewPDF" name="saveExt" value="pdf"> 
+        <label for="saveThdCmpNewPDF">PDF</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="saveThdCmpDOC" name="saveExt" value="doc"> 
+        <label for="saveThdCmpDOC">DOC</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitListSaveLumThdCmpPrc();return false;">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideThdCmpNewSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 3단비교 임시 저장 layer --> 
+  <div class="layerPop layerType" id="thdCmpTmpSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="thdCmpTmpSaveForm" name="thdCmpTmpSaveForm" target="_self" action="#"> 
+      <fieldset> 
+       <legend>파일형식 선택</legend> 
+       <input type="image" title="전송" alt="전송" style="display:none;"> 
+       <input type="hidden" name="save" value="save"> 
+       <!-- id="save" --> 
+       <div class="typeBox"> 
+        <!-- checkboxWrap --> 
+        <div class="checkboxWrap caseCol"> 
+         <div class="checkbox"> 
+          <input type="radio" name="saveExt" id="saveThdCmpTmpSaveHTML" checked="" value="html"> 
+          <label for="fileRadio01">HTML</label> 
+         </div> 
+         <div class="checkbox"> 
+          <input type="radio" name="saveExt" id="saveThdCmpTmpSaveXLSb" value="xls"> 
+          <label for="fileRadio02">XLS</label> 
+         </div> 
+         <div class="checkbox"> 
+          <input type="radio" name="saveExt" id="saveThdCmpTmpSaveHWP" value="hwp"> 
+          <label for="fileRadio03">HWP</label> 
+         </div> 
+        </div> 
+        <!-- // checkboxWrap --> 
+        <div class="buttons"> 
+         <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this);">취소</button> 
+         <button type="button" class="btn btnSm btnInBlue" onclick="submitListSaveThdCmpTmpPrc();return false;">저장</button> 
+        </div> 
+       </div> 
+      </fieldset> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitListSaveThdCmpTmpPrc();return false;">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this)">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 행정규칙 신구조문 저장 layer --> 
+  <div class="layerPop layerType" id="admRulOANSaveLayer" style="display:none"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="admRulOANSaveForm" name="admRulOANSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <div class="typeBox"> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" name="admRulOANSaveExt" id="admRulOANSaveHTML" checked="" value="html"> 
+         <label for="admRulOANSaveHTML">HTML</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="admRulOANSaveExt" id="admRulOANSaveHWP" value="hwp"> 
+         <label for="admRulOANSaveHWP">HWP(한글)</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="admRulOANSaveExt" id="admRulOANSaveXLS" value="xls"> 
+         <label for="admRulOANSaveXLS">XLS(엑셀)</label> 
+        </div> 
+       </div> 
+       <!-- // checkboxWrap --> 
+      </div> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitAdmRulOAN();return false;">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideAdmRulOANSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 행정규칙 신구조문저장 layer //--> 
+  <!-- 학칙규정 신구조문 저장 layer --> 
+  <div class="layerPop layerType" id="schlPubRulOANSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="schlPubRulOANSaveForm" name="schlPubRulOANSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <!-- checkboxWrap --> 
+      <div class="checkboxWrap caseCol"> 
+       <div class="checkbox"> 
+        <input type="radio" id="schlPubRulOANSaveHTML" name="schlPubRulOANSaveExt" value="html" checked=""> 
+        <label for="schlPubRulOANSaveHTML">HTML</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="schlPubRulOANSaveHWP" name="schlPubRulOANSaveExt" value="hwp"> 
+        <label for="schlPubRulOANSaveHWP">HWP(한글)</label> 
+       </div> 
+       <div class="checkbox"> 
+        <input type="radio" id="schlPubRulOANSaveXLS" name="schlPubRulOANSaveExt" value="xls"> 
+        <label for="schlPubRulOANSaveXLS">XLS(엑셀)</label> 
+       </div> 
+      </div> 
+      <!-- // checkboxWrap --> 
+     </form> 
+    </div> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitSchlPubRulOAN(); return false;">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="SaveWindow.hideSchlPubRulOANSave();">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 학칙규정 신구조문저장 layer //--> 
+  <!-- 일괄 저장 layer --> 
+  <div class="layerPop layerType" id="bulkSaveLayer"> 
+   <div class="inner"> 
+    <div class="cont"> 
+     <form id="bulkSaveForm" name="bulkSaveForm" target="_self" action="#"> 
+      <input type="image" title="전송" alt="전송" style="display:none;"> 
+      <input type="hidden" name="save" value="save"> 
+      <div class="typeBox"> 
+       <!-- checkboxWrap --> 
+       <div class="checkboxWrap caseCol"> 
+        <div class="checkbox"> 
+         <input type="radio" name="newBulkSaveExt" id="newBulkSaveHWP" checked="" value="hwp"> 
+         <label for="newBulkSaveHWP">HWP</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="newBulkSaveExt" id="newBulkSaveHWPX" value="hwpx"> 
+         <label for="newBulkSaveHWPX">HWPX</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="newBulkSaveExt" id="newBulkSavePDF" value="pdf"> 
+         <label for="newBulkSavePDF">PDF</label> 
+        </div> 
+        <div class="checkbox"> 
+         <input type="radio" name="newBulkSaveExt" id="newBulkSaveDOC" value="doc"> 
+         <label for="newBulkSaveDOC">DOC</label> 
+        </div> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+    <!-- // checkboxWrap --> 
+    <div class="btnBottom right"> 
+     <button type="button" class="btn btnSm btnInBlue" onclick="submitBulkSave();">저장</button> 
+     <button type="button" class="btn btnSm btnWhite clsBtn" onclick="fn_layer_close(this);">닫기</button> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- 저장 레이어 //--> 
+  <!-- 신구법비교 안내 팝업 --> 
+  <div id="layer_compareNewOldNotice" class="layerPop"> 
+   <div class="inner"> 
+    <strong class="tit">신구법비교</strong> 
+    <!-- cont --> 
+    <div class="cont"> 
+     <p>국가법령정보센터에서 제공하는 신구법 비교는 시스템으로 자동 생성한 것으로 참고용으로만 이용하시기 바라며, 정확한 개정내용의 확인은 제·개정이유(제·개정문) 또는 관보를 확인해 주세요.</p> 
+    </div> 
+    <!-- // cont --> 
+    <a href="javascript:void(0)" onclick="fn_layer_close(this)">닫기</a> 
+   </div> 
+  </div> 
+  <!-- // 신구법비교 안내 팝업 --> 
+  <!--안내 레이어--> 
+  <div id="layer_infoP" class="layerPop on" style="display: none;"> 
+   <div class="inner" style="width: 450px;"> 
+    <strong class="tit" id="infoP_tit"></strong> 
+    <!-- cont --> 
+    <div class="cont" tabindex="0" style="max-height: 100px;"> 
+     <!-- noResult --> 
+     <div class="noResult" style="max-height: 50px;"> 
+      <p id="infoP_msg"></p> 
+     </div> 
+     <!-- // noResult --> 
+    </div> 
+    <!-- // cont --> 
+    <div class="btnBottom right"> 
+     <button class="btn btnWhite btnSm" type="button" id="infoP_leftBtn"></button> 
+     <button class="btn btnInBlue btnSm" type="button" onclick="fn_layer_close(this)">닫기</button> 
+    </div> 
+    <a href="javascript:void(0)" onclick="fn_layer_close(this)">닫기</a> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+    function modal(id, msg, leftBtnType, leftBtnTitle, existLsIdCnt) {
+        fn_layer('layer_infoP',this,'450')
+        $("#infoP_msg").text(msg);
+        //현행법령이동
+        if( leftBtnType == "LsCurMove" ){
+            $('#infoP_leftBtn').html(leftBtnTitle);
+            document.querySelector('#infoP_leftBtn').addEventListener('click', function() {
+                // 해당 법령의 현행이 있다면
+                if (existLsIdCnt > 0){
+                    fLsCurMovePop(lsVO.lsValue.lsNm);
+                }else{
+                    alert("해당 법령은 현행인 법령이 존재하지 않습니다.");
+                }
+            });
+            //현행행정규칙이동
+        } else if( leftBtnType == "AmdRulCurMove" ){
+            $('#infoP_leftBtn').html(leftBtnTitle);
+            document.querySelector('#infoP_leftBtn').addEventListener('click', function() {
+                // 해당 법령의 현행이 있다면
+                if (existLsIdCnt > 0){
+                    lawInfPopById(param.admRulId,'0');
+                }else{
+                    alert("해당 행정규칙은 현행인 행정규칙이 존재하지 않습니다.");
+                }
+            });
+            //현행자치법규이동
+        }else if( leftBtnType == "OrdinCurMove" ){
+            $('#infoP_leftBtn').html(leftBtnTitle);
+            document.querySelector('#infoP_leftBtn').addEventListener('click', function() {
+                // 해당 법령의 현행이 있다면
+                if (existLsIdCnt > 0){
+                    fOrdinPopById(ordinVO.ordinValue.ordinId);
+                }else{
+                    alert("해당 자치법규는 현행인 자치법규가 존재하지 않습니다.");
+                }
+            });
+        }else{
+            $('#infoP_leftBtn').css("display", "none");
+        }
+    }
+
+</script>   
+  <script type="text/javascript" src="/LSW/assets/js/common/hrefRemove.js"></script>  
+ 
+<a href="javascript:;" onclick="" title="법령용어 새 창 열림" class="glossaryDrag">법령용어</a></body></html>
