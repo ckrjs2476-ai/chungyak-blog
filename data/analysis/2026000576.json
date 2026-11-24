@@ -91,6 +91,65 @@
   "노부모 부양": 27,
   "기관추천": 35
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.8861A",
+    "supply": 146,
+    "closed_at": "1순위 기타지역",
+    "rate": 27.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.958B",
+    "supply": 82,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   },
+   {
+    "ty": "84.87C",
+    "supply": 88,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 73
+   },
+   {
+    "ty": "99.9001A",
+    "supply": 179,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 88
+   },
+   {
+    "ty": "99.9015B",
+    "supply": 270,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 229
+   },
+   {
+    "ty": "104.8286",
+    "supply": 172,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 125
+   }
+  ],
+  "req_total": 415,
+  "rank1_req": 415,
+  "supply_total": 937,
+  "final_shortfall_total": 548,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 6,
+  "rank1_avg_rate": 0.44,
+  "best": {
+   "ty": "84.8861A",
+   "rate": 27.0,
+   "stage": "1순위 기타지역"
+  }
+ },
  "region_price": {
   "scope": "경기",
   "supply_kind": "민영",
@@ -117,5 +176,22 @@
   "peer_count": 38,
   "peer_avg_rate": 4.71,
   "peer_max_rate": 51.75
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 38,
+  "peers": [
+   "더샵 분당하이스트",
+   "수원역 아너스빌 타임원",
+   "호반써밋 풍무Ⅱ",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "북오산자이 드포레",
+   "고덕국제신도시 수자인하우스디",
+   "양주 회천지구 A-8BL 로제비앙 엘가",
+   "이천 휴먼빌 클래스원"
+  ],
+  "peer_avg_rate": 4.71,
+  "rank": 24,
+  "of": 39
  }
 }

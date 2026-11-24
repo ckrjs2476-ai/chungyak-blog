@@ -82,5 +82,66 @@
  "special_total": 0,
  "special_share_pct": 0,
  "price_84_min": 94100,
- "price_84_max": 102200
+ "price_84_max": 102200,
+ "competition": {
+  "types": [
+   {
+    "ty": "50.26A",
+    "supply": 92,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 69
+   },
+   {
+    "ty": "50.26B",
+    "supply": 28,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 15
+   },
+   {
+    "ty": "59.99B",
+    "supply": 230,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 165
+   },
+   {
+    "ty": "75.56A",
+    "supply": 96,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 86
+   },
+   {
+    "ty": "75.62B",
+    "supply": 47,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 42
+   },
+   {
+    "ty": "84.92A",
+    "supply": 16,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 10
+   },
+   {
+    "ty": "84.98B",
+    "supply": 41,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 33
+   }
+  ],
+  "req_total": 130,
+  "rank1_req": 0,
+  "supply_total": 550,
+  "final_shortfall_total": 420,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 7,
+  "rank1_avg_rate": 0.0
+ }
 }

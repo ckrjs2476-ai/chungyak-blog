@@ -61,6 +61,44 @@
   "노부모 부양": 3,
   "기관추천": 11
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.5981",
+    "supply": 26,
+    "closed_at": "1순위 해당지역",
+    "rate": 32.04,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "75.4145",
+    "supply": 9,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.4817",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 14.25,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1164,
+  "rank1_req": 1164,
+  "supply_total": 43,
+  "final_shortfall_total": 0,
+  "closed_types": 3,
+  "rank1_closed_types": 3,
+  "type_count": 3,
+  "rank1_avg_rate": 27.07,
+  "best": {
+   "ty": "59.5981",
+   "rate": 32.04,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "남구",
   "supply_kind": "민영",
@@ -103,14 +141,25 @@
   "peer_avg_rate": 10.57,
   "peer_max_rate": 18.29
  },
+ "region_competition": {
+  "scope": "남구",
+  "peer_count": 2,
+  "peers": [
+   "더샵 트리센트",
+   "두산위브더제니스 대연"
+  ],
+  "peer_avg_rate": 10.57,
+  "rank": 1,
+  "of": 3
+ },
  "market": {
   "region": "부산광역시 남구",
   "lawd": "26290",
   "months": 12,
-  "updated": "2026-11-24",
-  "n84": 912,
+  "updated": "2026-11-25",
+  "n84": 913,
   "median84": 52000,
-  "p25_84": 33200,
+  "p25_84": 33050,
   "p75_84": 73000,
   "new_n84": 141,
   "new_median84": 62800,

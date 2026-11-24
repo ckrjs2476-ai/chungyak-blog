@@ -81,6 +81,58 @@
   "노부모 부양": 39,
   "기관추천": 65
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.7279A",
+    "supply": 585,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 156
+   },
+   {
+    "ty": "84.995B",
+    "supply": 40,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 35
+   },
+   {
+    "ty": "98.9841A",
+    "supply": 263,
+    "closed_at": "1순위 기타지역",
+    "rate": 1.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "98.8582B",
+    "supply": 200,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 195
+   },
+   {
+    "ty": "110.78",
+    "supply": 236,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 121
+   }
+  ],
+  "req_total": 817,
+  "rank1_req": 817,
+  "supply_total": 1324,
+  "final_shortfall_total": 507,
+  "closed_types": 1,
+  "rank1_closed_types": 1,
+  "type_count": 5,
+  "rank1_avg_rate": 0.62,
+  "best": {
+   "ty": "98.9841A",
+   "rate": 1.0,
+   "stage": "1순위 기타지역"
+  }
+ },
  "region_price": {
   "scope": "경북",
   "supply_kind": "민영",
@@ -102,5 +154,17 @@
   "peer_count": 3,
   "peer_avg_rate": 3.71,
   "peer_max_rate": 8.72
+ },
+ "region_competition": {
+  "scope": "경북",
+  "peer_count": 3,
+  "peers": [
+   "펜타힐즈 더블유 1단지",
+   "형곡 센트럴 아테라",
+   "리첼 에듀포레 경산역"
+  ],
+  "peer_avg_rate": 3.71,
+  "rank": 3,
+  "of": 4
  }
 }

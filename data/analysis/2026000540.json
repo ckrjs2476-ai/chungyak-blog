@@ -61,6 +61,39 @@
   "노부모 부양": 14,
   "기관추천": 49
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "84.9946A",
+    "supply": 353,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 186
+   },
+   {
+    "ty": "84.9806B",
+    "supply": 85,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 63
+   },
+   {
+    "ty": "84.968C",
+    "supply": 36,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 24
+   }
+  ],
+  "req_total": 201,
+  "rank1_req": 201,
+  "supply_total": 474,
+  "final_shortfall_total": 273,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.42
+ },
  "region_price": {
   "scope": "충남",
   "supply_kind": "민영",
@@ -87,5 +120,22 @@
   "peer_count": 10,
   "peer_avg_rate": 0.64,
   "peer_max_rate": 3.22
+ },
+ "region_competition": {
+  "scope": "충남",
+  "peer_count": 10,
+  "peers": [
+   "백석시그니처자이 1단지",
+   "백석시그니처자이 2단지",
+   "아산 그랑시티필하우스",
+   "업성 푸르지오 레이크시티 2단지",
+   "아산테크노밸리 더원 7차 (Ab4BL)",
+   "천안 아이파크 시티 1단지(2회차)",
+   "천안 아이파크 시티 3단지",
+   "두정역 푸르지오 그랑피크"
+  ],
+  "peer_avg_rate": 0.64,
+  "rank": 4,
+  "of": 11
  }
 }

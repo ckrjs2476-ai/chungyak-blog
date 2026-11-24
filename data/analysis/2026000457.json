@@ -81,6 +81,58 @@
   "노부모 부양": 27,
   "기관추천": 82
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.71A",
+    "supply": 37,
+    "closed_at": "1순위 해당지역",
+    "rate": 117.82,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.99B",
+    "supply": 18,
+    "closed_at": "1순위 해당지역",
+    "rate": 107.6,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.99C",
+    "supply": 3,
+    "closed_at": "1순위 해당지역",
+    "rate": 84.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "74.98A",
+    "supply": 8,
+    "closed_at": "1순위 해당지역",
+    "rate": 203.0,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.95A",
+    "supply": 16,
+    "closed_at": "1순위 해당지역",
+    "rate": 157.2,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 10619,
+  "rank1_req": 10619,
+  "supply_total": 82,
+  "final_shortfall_total": 0,
+  "closed_types": 5,
+  "rank1_closed_types": 5,
+  "type_count": 5,
+  "rank1_avg_rate": 129.5,
+  "best": {
+   "ty": "74.98A",
+   "rate": 203.0,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "경기",
   "supply_kind": "국민",
@@ -107,6 +159,19 @@
   "peer_count": 4,
   "peer_avg_rate": 71.25,
   "peer_max_rate": 184.3
+ },
+ "region_competition": {
+  "scope": "경기",
+  "peer_count": 4,
+  "peers": [
+   "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택",
+   "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택",
+   "광교 자연앤 센트레빌(A17BL) 공공분양주택"
+  ],
+  "peer_avg_rate": 71.25,
+  "rank": 2,
+  "of": 5
  },
  "market": {
   "region": "경기도 부천시 오정구",

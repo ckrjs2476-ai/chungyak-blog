@@ -1,71 +1,109 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "weekly_competition": [
   {
-   "no": "2026000497",
-   "name": "중화역 라온프라이빗 센트로",
-   "region": "서울",
-   "rank1_avg_rate": 19.85,
-   "best": {
-    "ty": "45.021",
-    "rate": 65.5,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 0,
-   "rank1_closed_types": 9,
-   "type_count": 10
-  },
-  {
-   "no": "2026000434",
-   "name": "삼도이동 1지구 토지임대부 공공분양주택",
-   "region": "제주",
-   "rank1_avg_rate": 3.43,
-   "best": {
-    "ty": "49.5837A",
-    "rate": 4.5,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 0,
-   "rank1_closed_types": 2,
-   "type_count": 2
-  },
-  {
-   "no": "2026000435",
-   "name": "삼도이동 2지구 토지임대부 공공분양주택",
-   "region": "제주",
-   "rank1_avg_rate": 1.37,
-   "best": {
-    "ty": "59.9783A",
-    "rate": 1.62,
-    "stage": "1순위 해당지역"
-   },
-   "final_shortfall_total": 1,
-   "rank1_closed_types": 1,
-   "type_count": 2
-  },
-  {
-   "no": "2026000553",
-   "name": "의정부역 펠리스타워 양우내안애",
+   "no": "2026000457",
+   "name": "부천대장 하우스토리 디센트(부천대장지구 A2BL) 공공분양주택",
    "region": "경기",
-   "rank1_avg_rate": 0.88,
+   "rank1_avg_rate": 129.5,
    "best": {
-    "ty": "59.9777",
-    "rate": 12.0,
+    "ty": "74.98A",
+    "rate": 203.0,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 132,
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 5,
+   "type_count": 5
+  },
+  {
+   "no": "2026000563",
+   "name": "더샵 트리센트(조합원 자격상실 세대분)",
+   "region": "부산",
+   "rank1_avg_rate": 27.07,
+   "best": {
+    "ty": "59.5981",
+    "rate": 32.04,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 3,
+   "type_count": 3
+  },
+  {
+   "no": "2026000558",
+   "name": "화정1지구 아르엘",
+   "region": "울산",
+   "rank1_avg_rate": 1.88,
+   "best": {
+    "ty": "59.986A",
+    "rate": 8.69,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 31,
+   "rank1_closed_types": 5,
+   "type_count": 6
+  },
+  {
+   "no": "2026000566",
+   "name": "호반써밋 초량",
+   "region": "부산",
+   "rank1_avg_rate": 0.7,
+   "best": {
+    "ty": "59.9445A",
+    "rate": 1.27,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 73,
    "rank1_closed_types": 1,
    "type_count": 4
   },
   {
-   "no": "2026000557",
-   "name": "제일풍경채 광주 포에듀",
-   "region": "경기",
-   "rank1_avg_rate": 0.1,
+   "no": "2026000536",
+   "name": "구미 파크원 데시앙",
+   "region": "경북",
+   "rank1_avg_rate": 0.62,
+   "best": {
+    "ty": "98.9841A",
+    "rate": 1.0,
+    "stage": "1순위 기타지역"
+   },
+   "final_shortfall_total": 507,
+   "rank1_closed_types": 1,
+   "type_count": 5
+  },
+  {
+   "no": "2026000559",
+   "name": "두산위브 트레지움 익산",
+   "region": "전북",
+   "rank1_avg_rate": 0.46,
    "best": null,
-   "final_shortfall_total": 466,
+   "final_shortfall_total": 124,
    "rank1_closed_types": 0,
-   "type_count": 2
+   "type_count": 3
+  },
+  {
+   "no": "2026000576",
+   "name": "아르뮤제자이",
+   "region": "경기",
+   "rank1_avg_rate": 0.44,
+   "best": {
+    "ty": "84.8861A",
+    "rate": 27.0,
+    "stage": "1순위 기타지역"
+   },
+   "final_shortfall_total": 548,
+   "rank1_closed_types": 1,
+   "type_count": 6
+  },
+  {
+   "no": "2026000540",
+   "name": "엘리프 논산 디에디션",
+   "region": "충남",
+   "rank1_avg_rate": 0.42,
+   "best": null,
+   "final_shortfall_total": 273,
+   "rank1_closed_types": 0,
+   "type_count": 3
   }
  ],
  "weekly_remainder": [

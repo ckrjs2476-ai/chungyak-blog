@@ -61,6 +61,39 @@
   "노부모 부양": 7,
   "기관추천": 25
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "59.85A",
+    "supply": 21,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 5
+   },
+   {
+    "ty": "59.85B",
+    "supply": 64,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 43
+   },
+   {
+    "ty": "84.88",
+    "supply": 145,
+    "closed_at": null,
+    "rate": null,
+    "final_shortfall": 76
+   }
+  ],
+  "req_total": 106,
+  "rank1_req": 106,
+  "supply_total": 230,
+  "final_shortfall_total": 124,
+  "closed_types": 0,
+  "rank1_closed_types": 0,
+  "type_count": 3,
+  "rank1_avg_rate": 0.46
+ },
  "region_price": {
   "scope": "전북",
   "supply_kind": "민영",
@@ -82,6 +115,18 @@
   "peer_count": 3,
   "peer_avg_rate": 5.0,
   "peer_max_rate": 14.78
+ },
+ "region_competition": {
+  "scope": "전북",
+  "peer_count": 3,
+  "peers": [
+   "익산 펠리피아",
+   "아르티엠 라 테라스",
+   "삼천 하늘채 라비엘"
+  ],
+  "peer_avg_rate": 5.0,
+  "rank": 2,
+  "of": 4
  },
  "market": {
   "region": "전북특별자치도 익산시",
