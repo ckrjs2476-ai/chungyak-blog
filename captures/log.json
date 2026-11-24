@@ -1,60 +1,5 @@
 [
  {
-  "name": "js-hanam-si-jeonse-deokpung-dong-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "compare",
-   "title": "하남시 아파트 전세, 동마다 전세가율이 얼마나 다를까?",
-   "answer": "덕풍동 66.0%, 학암동 42.4%로 23.6%p 갈립니다",
-   "compare": {
-    "head": [
-     "구분",
-     "덕풍동",
-     "학암동"
-    ],
-    "rows": [
-     [
-      "84㎡ 전세가율",
-      "66.0%",
-      "42.4%"
-     ],
-     [
-      "84㎡ 전세 중앙값",
-      "5억 1,450만 원",
-      "7억 원"
-     ],
-     [
-      "84㎡ 매매 중앙값",
-      "7억 7,900만 원",
-      "16억 5,000만 원"
-     ]
-    ]
-   },
-   "source": "국토교통부 실거래가",
-   "date": "2026-11-12"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 27646,
-  "at": "2026-11-19 12:43"
- },
- {
-  "name": "js-41450-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14458,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-19 12:43"
- },
- {
   "name": "js-41450-rt",
   "ok": true,
   "status": 200,
@@ -5500,5 +5445,54 @@
   "bytes": 32374,
   "url": "https://www.law.go.kr/법령/건설기술진흥법시행령",
   "at": "2026-11-25 08:53"
+ },
+ {
+  "name": "dr-drone-safety-cost-construction-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "points",
+   "title": "드론 산업안전보건관리비로 살 수 있나요?",
+   "answer": "고시에 드론 이름은 없고, 스마트 안전장비로 인정될 때 총액의 20%까지예요",
+   "points": [
+    {
+     "label": "스마트 안전장비 한도",
+     "value": "총액의 10분의 2"
+    },
+    {
+     "label": "구입·임대비 반영",
+     "value": "2026년부터 전액"
+    },
+    {
+     "label": "위험성평가 결정 품목",
+     "value": "총액의 100분의 15"
+    },
+    {
+     "label": "적용 공사",
+     "value": "총공사금액 2천만 원 이상"
+    }
+   ],
+   "source": "고용노동부고시 제2025-11호 제3조·제7조",
+   "date": "2026-11-25"
+  },
+  "size": [
+   760,
+   516
+  ],
+  "bytes": 36490,
+  "at": "2026-11-25 08:57"
+ },
+ {
+  "name": "dr-drone-safety-cost-construction-2026-law",
+  "ok": true,
+  "status": 200,
+  "title": "건설업 산업안전보건관리비 계상 및 사용기준 > 행정규칙 | 국가법령정보센터",
+  "size": [
+   760,
+   159
+  ],
+  "bytes": 14418,
+  "url": "https://www.law.go.kr/행정규칙/건설업산업안전보건관리비계상및사용기준",
+  "at": "2026-11-25 08:57"
  }
 ]
