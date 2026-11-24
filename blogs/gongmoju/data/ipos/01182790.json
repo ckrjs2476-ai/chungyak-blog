@@ -1,0 +1,104 @@
+{
+ "corp_code": "01182790",
+ "corp_name": "범한메카텍",
+ "rcept_no": "20261124000540",
+ "rcept_dt": "20261124",
+ "report_nm": "증권신고서(지분증권)",
+ "corp_cls": "E",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000540",
+ "subscription": "2026년 12월 17일 ~ 2026년 12월 18일",
+ "payment_date": "2026년 12월 22일",
+ "notice_date": "2026년 12월 17일",
+ "allot_date": "2026년 12월 22일",
+ "stock_kind": "보통주",
+ "shares": 8700000,
+ "face_value": 1000,
+ "price": 22800,
+ "total": 198360000000,
+ "method": "일반공모",
+ "underwriters": [
+  {
+   "name": "NH투자증권",
+   "shares": 4045500,
+   "amount": 92237400000,
+   "fee": 1669273272,
+   "how": "총액인수"
+  },
+  {
+   "name": "유진증권",
+   "shares": 4045500,
+   "amount": 92237400000,
+   "fee": 1669272862,
+   "how": "총액인수"
+  },
+  {
+   "name": "BNK투자증권",
+   "shares": 609000,
+   "amount": 13885200000,
+   "fee": 249933600,
+   "how": "총액인수"
+  }
+ ],
+ "fund_uses": [
+  {
+   "use": "시설자금",
+   "amount": 108293814943,
+   "share_pct": 98.1,
+   "amount_eok": 1082.9
+  },
+  {
+   "use": "발행제비용",
+   "amount": 2146170257,
+   "share_pct": 1.9,
+   "amount_eok": 21.5
+  }
+ ],
+ "fund_total": 110439985200,
+ "sellers": [
+  {
+   "name": "범한산업 주식회사",
+   "relation": "최대주주",
+   "shares": 3900000
+  }
+ ],
+ "sell_shares": 3900000,
+ "company": {
+  "corp_name": "범한메카텍 주식회사",
+  "ceo_nm": "김성수",
+  "induty_code": "2512",
+  "est_dt": "20160602",
+  "hm_url": "www.bumhanmecatec.com/",
+  "adres": "경상남도 창원시 성산구 적현로 259 (신촌동, 범한메카텍(주))"
+ },
+ "raw_groups": [
+  "일반사항",
+  "증권의종류",
+  "인수인정보",
+  "자금의사용목적",
+  "매출인에관한사항",
+  "일반청약자환매청구권"
+ ],
+ "is_spac": false,
+ "price_confirmed": false,
+ "correction_requested": false,
+ "lead_underwriter": "NH투자증권",
+ "underwriting_fee_pct": 1.81,
+ "total_eok": 1983.6,
+ "fund_matches_total": false,
+ "fund_uses_unreliable": false,
+ "company_age_years": 10,
+ "total_rank": 1,
+ "total_rank_of": 20,
+ "total_vs_median_pct": 609.7,
+ "sell_share_pct": 44.8,
+ "top_fund_use": {
+  "use": "시설자금",
+  "amount": 108293814943,
+  "share_pct": 98.1,
+  "amount_eok": 1082.9
+ },
+ "compare_median_total": 27950000000,
+ "compare_count": 20,
+ "median_fee_pct": 4.0,
+ "compare_median_total_eok": 279.5
+}
