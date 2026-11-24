@@ -2,7 +2,7 @@
 
 > **읽을 규칙 (2026-10-30, 토큰 절약 — 가장 먼저 지킨다)**: rules/ 폴더는 `rules/brief_common.md` 하나만 읽는다. 이 파일이나 예약 작업 지시문이 rules/○○.md(adsense_approval, adsense_rejection_top, writing_rules, seo_guide, ranking_growth, keyword_rules, keyword_ladder, precheck, unique_value, reviewer, blog_portfolio, capture_guide)를 가리켜도 열지 않고 brief_common.md의 같은 내용을 따른다. 예외: 검수 메시지가 가리키는 내용을 요약으로 이해할 수 없을 때 그 절만, 캡처 레시피는 capture_guide.md 3장 표의 이 블로그 줄만.
 
-블로그: https://drone-note.blogspot.com/ · 하루 2편(오전·저녁) · 말투는 해요체.
+블로그: https://drone-note.blogspot.com/ · 하루 3편(오전 08:41·오후 14:13·저녁 19:47, 간격 5시간 이상, 사용자 결정 11/25) · 말투는 해요체.
 목표: 애드센스 승인, 구글 검색 상위, AI 검색(구글 AI 개요·ChatGPT·Perplexity) 인용. 2026-12-31까지 홍보 없이 정보글만.
 
 ## 0. 먼저 읽기
