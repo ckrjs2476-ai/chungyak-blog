@@ -142,3 +142,10 @@
 
 - 11-23 12:03 전세 gangneung-si-jeonse-complex-ratio-2026 첫 요청에서 '오류 발생(색인 생성 요청을 제출하는 중에 문제가 발생했습니다. 나중에 다시 시도해 주세요)' → 멈춤, 오늘 요청 0건
   - 다음 실행 11-24 12:23: 전세(gangneung-si-jeonse-complex-ratio-2026 먼저) → 청약 → 드론 → 관리비 → 공모주
+
+- 11-24 오전(12:24~12:33) 11건 요청, 12번째(관리비 dongtan-station-hanwha-dreamgreen)에서 할당량 초과
+  - 전세 3: gangneung-si-jeonse-complex-ratio-2026, incheon-jeonse-ratio-ranking-2026-11, anyang-dongan-gu-jeonse-flow-2026-11
+  - 청약 3: weekly-competition-ranking-2026-11-3w, yangju-apartment-pyeong-price-2025-10, goyang-apartment-bunyang-2025-09-2026-11
+  - 드론 3: drone-army-drone-soldier-2026, drone-fire-drone-emergency-2026, drone-controller-frequency-2026
+  - 관리비 2: bongdam-geudaega-3-management-fee-2026, dongdaemun-gu-apartment-management-fee
+  - 다음 실행 11-25 12:44: 관리비(dongtan-station-hanwha-dreamgreen 먼저) → 공모주 → 전세 → 청약 → 드론
