@@ -1,100 +1,100 @@
 {
  "lawd": "11380",
  "name": "서울특별시 은평구",
- "updated": "2026-11-10",
+ "updated": "2026-11-24",
  "months": 12,
- "jeonse_count": 4521,
- "wolse_count": 4312,
- "wolse_share_pct": 48.8,
- "renew_share_pct": 52.4,
- "jeonse_n84": 2200,
+ "jeonse_count": 4729,
+ "wolse_count": 4453,
+ "wolse_share_pct": 48.5,
+ "renew_share_pct": 51.7,
+ "jeonse_n84": 2318,
  "jeonse_median84": 50000,
- "sale_n84": 1195,
+ "sale_n84": 1231,
  "sale_median84": 92500,
  "ratio84": 54.1,
- "jeonse_recent3_median84": 46500,
+ "jeonse_recent3_median84": 46956,
  "jeonse_prev3_median84": 46000,
- "jeonse_change_pct": 1.1,
- "apts_with_both": 88,
+ "jeonse_change_pct": 2.1,
+ "apts_with_both": 91,
  "apts_ratio_80_plus": 0,
  "apts_ratio_70_plus": 9,
  "umd": {
   "갈현동": {
-   "jeonse_n": 8,
-   "jeonse_median84": 39375,
+   "jeonse_n": 9,
+   "jeonse_median84": 42000,
    "sale_n": 18,
    "sale_median84": 60100,
-   "ratio": 65.5
+   "ratio": 69.9
   },
   "구산동": {
-   "jeonse_n": 29,
+   "jeonse_n": 31,
    "jeonse_median84": 43000,
-   "sale_n": 71,
-   "sale_median84": 61000,
-   "ratio": 70.5
+   "sale_n": 73,
+   "sale_median84": 61500,
+   "ratio": 69.9
   },
   "녹번동": {
-   "jeonse_n": 145,
-   "jeonse_median84": 66150,
-   "sale_n": 133,
+   "jeonse_n": 151,
+   "jeonse_median84": 66800,
+   "sale_n": 137,
    "sale_median84": 118000,
-   "ratio": 56.1
+   "ratio": 56.6
   },
   "대조동": {
-   "jeonse_n": 7,
-   "jeonse_median84": 50400,
+   "jeonse_n": 8,
+   "jeonse_median84": 49200,
    "sale_n": 7,
    "sale_median84": 78000,
-   "ratio": 64.6
+   "ratio": 63.1
   },
   "불광동": {
-   "jeonse_n": 161,
-   "jeonse_median84": 54000,
-   "sale_n": 156,
-   "sale_median84": 99875,
-   "ratio": 54.1
+   "jeonse_n": 171,
+   "jeonse_median84": 54600,
+   "sale_n": 161,
+   "sale_median84": 99750,
+   "ratio": 54.7
   },
   "수색동": {
-   "jeonse_n": 173,
+   "jeonse_n": 179,
    "jeonse_median84": 70000,
    "sale_n": 113,
-   "sale_median84": 131000,
-   "ratio": 53.4
+   "sale_median84": 130500,
+   "ratio": 53.6
   },
   "신사동": {
-   "jeonse_n": 159,
+   "jeonse_n": 162,
    "jeonse_median84": 43000,
-   "sale_n": 144,
+   "sale_n": 149,
    "sale_median84": 60000,
    "ratio": 71.7
   },
   "역촌동": {
    "jeonse_n": 34,
    "jeonse_median84": 50000,
-   "sale_n": 36,
+   "sale_n": 37,
    "sale_median84": 72500,
    "ratio": 69.0
   },
   "응암동": {
-   "jeonse_n": 344,
+   "jeonse_n": 359,
    "jeonse_median84": 60000,
-   "sale_n": 286,
-   "sale_median84": 94500,
-   "ratio": 63.5
+   "sale_n": 293,
+   "sale_median84": 95000,
+   "ratio": 63.2
   },
   "증산동": {
-   "jeonse_n": 179,
+   "jeonse_n": 185,
    "jeonse_median84": 78750,
-   "sale_n": 49,
-   "sale_median84": 162500,
-   "ratio": 48.5
+   "sale_n": 52,
+   "sale_median84": 166500,
+   "ratio": 47.3
   },
   "진관동": {
-   "jeonse_n": 961,
-   "jeonse_median84": 36898,
-   "sale_n": 182,
-   "sale_median84": 92750,
-   "ratio": 39.8
+   "jeonse_n": 1029,
+   "jeonse_median84": 37878,
+   "sale_n": 191,
+   "sale_median84": 93000,
+   "ratio": 40.7
   }
  },
  "top_ratio_apts": [
@@ -109,6 +109,16 @@
    "ratio": 76.3
   },
   {
+   "umd": "갈현동",
+   "apt": "코오롱하늘채",
+   "built": 2003,
+   "jeonse_n": 3,
+   "jeonse_median84": 45000,
+   "sale_n": 5,
+   "sale_median84": 59500,
+   "ratio": 75.6
+  },
+  {
    "umd": "구산동",
    "apt": "동익파크1동(355-95)",
    "built": 1991,
@@ -119,6 +129,16 @@
    "ratio": 74.7
   },
   {
+   "umd": "응암동",
+   "apt": "우성",
+   "built": 1988,
+   "jeonse_n": 3,
+   "jeonse_median84": 42000,
+   "sale_n": 2,
+   "sale_median84": 57250,
+   "ratio": 73.4
+  },
+  {
    "umd": "신사동",
    "apt": "이랜드타운아파트",
    "built": 2004,
@@ -127,16 +147,6 @@
    "sale_n": 3,
    "sale_median84": 62800,
    "ratio": 73.2
-  },
-  {
-   "umd": "갈현동",
-   "apt": "코오롱하늘채",
-   "built": 2003,
-   "jeonse_n": 2,
-   "jeonse_median84": 43500,
-   "sale_n": 5,
-   "sale_median84": 59500,
-   "ratio": 73.1
   },
   {
    "umd": "구산동",
@@ -179,16 +189,6 @@
    "ratio": 70.2
   },
   {
-   "umd": "역촌동",
-   "apt": "리더스파크",
-   "built": 2006,
-   "jeonse_n": 5,
-   "jeonse_median84": 54000,
-   "sale_n": 3,
-   "sale_median84": 77000,
-   "ratio": 70.1
-  },
-  {
    "umd": "진관동",
    "apt": "구파발10단지어울림(1011~1019동)BL3-1",
    "built": 2010,
@@ -206,9 +206,9 @@
    "built": 2009,
    "jeonse_n": 19,
    "jeonse_median84": 29367,
-   "sale_n": 2,
-   "sale_median84": 102500,
-   "ratio": 28.7
+   "sale_n": 3,
+   "sale_median84": 104000,
+   "ratio": 28.2
   },
   {
    "umd": "진관동",
@@ -224,11 +224,11 @@
    "umd": "진관동",
    "apt": "마고정3단지센트레빌(310~322동)BL2-3",
    "built": 2009,
-   "jeonse_n": 44,
-   "jeonse_median84": 35957,
+   "jeonse_n": 51,
+   "jeonse_median84": 37507,
    "sale_n": 5,
    "sale_median84": 103000,
-   "ratio": 34.9
+   "ratio": 36.4
   },
   {
    "umd": "진관동",
@@ -244,11 +244,11 @@
    "umd": "불광동",
    "apt": "라이프미성",
    "built": 1988,
-   "jeonse_n": 40,
-   "jeonse_median84": 40500,
-   "sale_n": 36,
+   "jeonse_n": 43,
+   "jeonse_median84": 40000,
+   "sale_n": 37,
    "sale_median84": 98000,
-   "ratio": 41.3
+   "ratio": 40.8
   }
  ],
  "monthly": [
@@ -272,7 +272,7 @@
   },
   {
    "month": "2026-03",
-   "jeonse_count": 503,
+   "jeonse_count": 504,
    "n84": 211,
    "jeonse_median84": 51500
   },
@@ -290,38 +290,38 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 397,
+   "jeonse_count": 398,
    "n84": 187,
    "jeonse_median84": 51030
   },
   {
    "month": "2026-07",
-   "jeonse_count": 457,
-   "n84": 236,
+   "jeonse_count": 459,
+   "n84": 237,
    "jeonse_median84": 45000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 344,
+   "jeonse_count": 345,
    "n84": 149,
-   "jeonse_median84": 50400
+   "jeonse_median84": 51000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 384,
-   "n84": 237,
+   "jeonse_count": 391,
+   "n84": 242,
    "jeonse_median84": 21748
   },
   {
    "month": "2026-10",
-   "jeonse_count": 243,
-   "n84": 104,
-   "jeonse_median84": 63000
+   "jeonse_count": 258,
+   "n84": 108,
+   "jeonse_median84": 62700
   },
   {
    "month": "2026-11",
-   "jeonse_count": 93,
-   "n84": 67,
+   "jeonse_count": 274,
+   "n84": 175,
    "jeonse_median84": 46956
   }
  ],
@@ -335,8 +335,8 @@
  },
  "umd_ratio_low": {
   "name": "진관동",
-  "ratio": 39.8
+  "ratio": 40.7
  },
- "umd_spread_pp": 31.9,
+ "umd_spread_pp": 31.0,
  "gap84": 42500
 }

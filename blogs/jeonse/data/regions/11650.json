@@ -1,17 +1,17 @@
 {
  "lawd": "11650",
  "name": "서울특별시 서초구",
- "updated": "2026-11-10",
+ "updated": "2026-11-24",
  "months": 12,
- "jeonse_count": 6629,
- "wolse_count": 5901,
- "wolse_share_pct": 47.1,
- "renew_share_pct": 53.5,
- "jeonse_n84": 2064,
+ "jeonse_count": 6849,
+ "wolse_count": 6183,
+ "wolse_share_pct": 47.4,
+ "renew_share_pct": 53.2,
+ "jeonse_n84": 2135,
  "jeonse_median84": 100000,
- "sale_n84": 482,
- "sale_median84": 257750,
- "ratio84": 38.8,
+ "sale_n84": 502,
+ "sale_median84": 260500,
+ "ratio84": 38.4,
  "jeonse_recent3_median84": 95000,
  "jeonse_prev3_median84": 108000,
  "jeonse_change_pct": -12.0,
@@ -20,60 +20,60 @@
  "apts_ratio_70_plus": 0,
  "umd": {
   "내곡동": {
-   "jeonse_n": 89,
+   "jeonse_n": 90,
    "jeonse_median84": 73086,
-   "sale_n": 10,
-   "sale_median84": 186500,
-   "ratio": 39.2
+   "sale_n": 11,
+   "sale_median84": 188000,
+   "ratio": 38.9
   },
   "반포동": {
-   "jeonse_n": 495,
+   "jeonse_n": 514,
    "jeonse_median84": 160000,
-   "sale_n": 101,
-   "sale_median84": 495000,
-   "ratio": 32.3
+   "sale_n": 110,
+   "sale_median84": 490000,
+   "ratio": 32.7
   },
   "방배동": {
-   "jeonse_n": 272,
+   "jeonse_n": 284,
    "jeonse_median84": 95000,
-   "sale_n": 81,
+   "sale_n": 87,
    "sale_median84": 222500,
    "ratio": 42.7
   },
   "서초동": {
-   "jeonse_n": 402,
+   "jeonse_n": 420,
    "jeonse_median84": 115000,
-   "sale_n": 130,
-   "sale_median84": 223500,
-   "ratio": 51.5
+   "sale_n": 132,
+   "sale_median84": 222250,
+   "ratio": 51.7
   },
   "신원동": {
-   "jeonse_n": 56,
-   "jeonse_median84": 92200,
+   "jeonse_n": 59,
+   "jeonse_median84": 92000,
    "sale_n": 10,
    "sale_median84": 199500,
-   "ratio": 46.2
+   "ratio": 46.1
   },
   "양재동": {
-   "jeonse_n": 141,
+   "jeonse_n": 145,
    "jeonse_median84": 63000,
    "sale_n": 22,
    "sale_median84": 186000,
    "ratio": 33.9
   },
   "우면동": {
-   "jeonse_n": 222,
+   "jeonse_n": 224,
    "jeonse_median84": 73500,
    "sale_n": 35,
    "sale_median84": 190000,
    "ratio": 38.7
   },
   "잠원동": {
-   "jeonse_n": 387,
-   "jeonse_median84": 115500,
-   "sale_n": 93,
-   "sale_median84": 344000,
-   "ratio": 33.6
+   "jeonse_n": 399,
+   "jeonse_median84": 115000,
+   "sale_n": 95,
+   "sale_median84": 345000,
+   "ratio": 33.3
   }
  },
  "top_ratio_apts": [
@@ -101,21 +101,11 @@
    "umd": "방배동",
    "apt": "방배디오슈페리움Ⅰ",
    "built": 2006,
-   "jeonse_n": 4,
-   "jeonse_median84": 102500,
+   "jeonse_n": 5,
+   "jeonse_median84": 100000,
    "sale_n": 4,
    "sale_median84": 167250,
-   "ratio": 61.3
-  },
-  {
-   "umd": "방배동",
-   "apt": "한신휴플러스",
-   "built": 2006,
-   "jeonse_n": 9,
-   "jeonse_median84": 102900,
-   "sale_n": 3,
-   "sale_median84": 176000,
-   "ratio": 58.5
+   "ratio": 59.8
   },
   {
    "umd": "방배동",
@@ -126,6 +116,16 @@
    "sale_n": 2,
    "sale_median84": 156000,
    "ratio": 57.7
+  },
+  {
+   "umd": "방배동",
+   "apt": "한신휴플러스",
+   "built": 2006,
+   "jeonse_n": 10,
+   "jeonse_median84": 101450,
+   "sale_n": 3,
+   "sale_median84": 176000,
+   "ratio": 57.6
   },
   {
    "umd": "양재동",
@@ -151,11 +151,21 @@
    "umd": "내곡동",
    "apt": "서초포레스타2단지",
    "built": 2015,
-   "jeonse_n": 9,
-   "jeonse_median84": 95000,
+   "jeonse_n": 10,
+   "jeonse_median84": 93500,
    "sale_n": 4,
    "sale_median84": 178500,
-   "ratio": 53.2
+   "ratio": 52.4
+  },
+  {
+   "umd": "서초동",
+   "apt": "서초센트럴IPARK",
+   "built": 2020,
+   "jeonse_n": 43,
+   "jeonse_median84": 110000,
+   "sale_n": 11,
+   "sale_median84": 218000,
+   "ratio": 50.5
   },
   {
    "umd": "신원동",
@@ -166,16 +176,6 @@
    "sale_n": 5,
    "sale_median84": 200000,
    "ratio": 50.0
-  },
-  {
-   "umd": "서초동",
-   "apt": "서초한신",
-   "built": 2001,
-   "jeonse_n": 4,
-   "jeonse_median84": 99750,
-   "sale_n": 5,
-   "sale_median84": 200000,
-   "ratio": 49.9
   }
  ],
  "low_ratio_apts": [
@@ -183,11 +183,11 @@
    "umd": "반포동",
    "apt": "반포미도",
    "built": 1987,
-   "jeonse_n": 88,
+   "jeonse_n": 93,
    "jeonse_median84": 80000,
-   "sale_n": 3,
-   "sale_median84": 401500,
-   "ratio": 19.9
+   "sale_n": 4,
+   "sale_median84": 391750,
+   "ratio": 20.4
   },
   {
    "umd": "잠원동",
@@ -223,7 +223,7 @@
    "umd": "우면동",
    "apt": "서초네이처힐3단지",
    "built": 2013,
-   "jeonse_n": 41,
+   "jeonse_n": 42,
    "jeonse_median84": 53550,
    "sale_n": 5,
    "sale_median84": 198000,
@@ -275,47 +275,47 @@
   },
   {
    "month": "2026-07",
-   "jeonse_count": 621,
-   "n84": 177,
+   "jeonse_count": 623,
+   "n84": 178,
    "jeonse_median84": 108000
   },
   {
    "month": "2026-08",
-   "jeonse_count": 594,
-   "n84": 190,
+   "jeonse_count": 597,
+   "n84": 192,
    "jeonse_median84": 90000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 407,
-   "n84": 137,
-   "jeonse_median84": 100000
+   "jeonse_count": 417,
+   "n84": 143,
+   "jeonse_median84": 102900
   },
   {
    "month": "2026-10",
-   "jeonse_count": 618,
-   "n84": 198,
-   "jeonse_median84": 99250
+   "jeonse_count": 650,
+   "n84": 214,
+   "jeonse_median84": 100000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 71,
-   "n84": 26,
-   "jeonse_median84": 105000
+   "jeonse_count": 244,
+   "n84": 72,
+   "jeonse_median84": 100000
   }
  ],
  "rank": 177,
  "rank_of": 180,
  "avg_ratio84_all": 72.6,
- "ratio_vs_avg_pp": -33.8,
+ "ratio_vs_avg_pp": -34.2,
  "umd_ratio_high": {
   "name": "서초동",
-  "ratio": 51.5
+  "ratio": 51.7
  },
  "umd_ratio_low": {
   "name": "반포동",
-  "ratio": 32.3
+  "ratio": 32.7
  },
- "umd_spread_pp": 19.2,
- "gap84": 157750
+ "umd_spread_pp": 19.0,
+ "gap84": 160500
 }
