@@ -2,25 +2,25 @@
  "lawd": "26440",
  "name": "부산광역시 강서구",
  "months": 12,
- "updated": "2026-11-23",
- "trade_count": 1354,
+ "updated": "2026-11-24",
+ "trade_count": 1370,
  "cancel_count": 66,
- "n84": 553,
- "median84": 44000,
+ "n84": 558,
+ "median84": 43750,
  "p25_84": 33500,
  "p75_84": 54500,
- "median84_pyeong_excl": 1712,
+ "median84_pyeong_excl": 1711,
  "new_n84": 12,
  "new_median84": 57250,
  "new_build_years": 5,
  "umd84": {
+  "명지동": {
+   "n": 522,
+   "median": 44750
+  },
   "지사동": {
    "n": 10,
    "median": 22250
-  },
-  "명지동": {
-   "n": 517,
-   "median": 44800
   },
   "강동동": {
    "n": 12,
@@ -95,20 +95,20 @@
   {
    "month": "2026-10",
    "count": 124,
-   "n84": 55,
-   "median84": 43000
+   "n84": 56,
+   "median84": 42850
   },
   {
    "month": "2026-11",
-   "count": 45,
-   "n84": 18,
-   "median84": 46600
+   "count": 61,
+   "n84": 22,
+   "median84": 46100
   }
  ],
  "top_apts": [
   {
    "name": "명지동 명지협성휴포레",
-   "count": 111,
+   "count": 113,
    "median84": null,
    "built": 2016
   },
@@ -126,14 +126,14 @@
   },
   {
    "name": "명지동 부산명지중흥S-클래스프라디움",
-   "count": 75,
+   "count": 76,
    "median84": null,
    "built": 2016
   },
   {
    "name": "명지동 더샵명지퍼스트월드2단지",
-   "count": 67,
-   "median84": 58350,
+   "count": 68,
+   "median84": 58200,
    "built": 2020
   },
   {
@@ -143,15 +143,15 @@
    "built": 2015
   },
   {
-   "name": "지사동 지사금강펜테리움",
-   "count": 57,
-   "median84": null,
+   "name": "명지동 명지두산위브포세이돈",
+   "count": 58,
+   "median84": 32500,
    "built": 2013
   },
   {
-   "name": "명지동 명지두산위브포세이돈",
-   "count": 56,
-   "median84": 32500,
+   "name": "지사동 지사금강펜테리움",
+   "count": 58,
+   "median84": null,
    "built": 2013
   },
   {
@@ -162,7 +162,7 @@
   },
   {
    "name": "명지동 명지1차 금강펜테리움 센트럴파크",
-   "count": 51,
+   "count": 52,
    "median84": 41500,
    "built": 2015
   }
