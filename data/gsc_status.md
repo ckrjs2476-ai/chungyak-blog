@@ -149,3 +149,10 @@
   - 드론 3: drone-army-drone-soldier-2026, drone-fire-drone-emergency-2026, drone-controller-frequency-2026
   - 관리비 2: bongdam-geudaega-3-management-fee-2026, dongdaemun-gu-apartment-management-fee
   - 다음 실행 11-25 12:44: 관리비(dongtan-station-hanwha-dreamgreen 먼저) → 공모주 → 전세 → 청약 → 드론
+
+- 11-25 오전(12:45~12:54) 11건 요청, 12번째(청약 busan-namgu-apartment-silgeorae-2026-11)에서 할당량 초과
+  - 관리비 3: dongtan-station-hanwha-dreamgreen, gwangjin-gu-apartment-management-fee, dobong-gu-apartment-management-fee-by
+  - 공모주 3: bumhan-mecatec-ipo-2026-12, ipo-week-2026-11-23, ipo-underwriting-syndicate-2026-10
+  - 전세 3: daejeon-dong-gu-jeonse-gap-2026-11, gwangju-si-taejeon-dong-jeonse-2026-11, hanam-si-jeonse-deokpung-dong-2026-11
+  - 청약 2: gyeonghuigung-epit-bunyangga-2026-11, seongnam-apartment-bunyang-2025-10-2026
+  - 다음 실행 11-26 13:05: 청약(busan-namgu-apartment-silgeorae-2026-11 먼저) → 드론 → 관리비 → 공모주 → 전세
