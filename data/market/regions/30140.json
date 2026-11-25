@@ -2,29 +2,29 @@
  "lawd": "30140",
  "name": "대전광역시 중구",
  "months": 12,
- "updated": "2026-11-25",
- "trade_count": 1996,
+ "updated": "2026-11-26",
+ "trade_count": 2003,
  "cancel_count": 101,
- "n84": 790,
- "median84": 37725,
+ "n84": 794,
+ "median84": 37900,
  "p25_84": 27000,
  "p75_84": 46000,
- "median84_pyeong_excl": 1470,
- "new_n84": 192,
- "new_median84": 54250,
+ "median84_pyeong_excl": 1475,
+ "new_n84": 194,
+ "new_median84": 53750,
  "new_build_years": 5,
  "umd84": {
+  "선화동": {
+   "n": 90,
+   "median": 50100
+  },
   "대흥동": {
-   "n": 40,
+   "n": 41,
    "median": 45000
   },
   "문화동": {
    "n": 93,
    "median": 41000
-  },
-  "선화동": {
-   "n": 87,
-   "median": 50200
   },
   "산성동": {
    "n": 35,
@@ -128,9 +128,9 @@
   },
   {
    "month": "2026-11",
-   "count": 124,
-   "n84": 52,
-   "median84": 40600
+   "count": 131,
+   "n84": 56,
+   "median84": 41900
   }
  ],
  "top_apts": [
@@ -178,7 +178,7 @@
   },
   {
    "name": "태평동 태평",
-   "count": 52,
+   "count": 53,
    "median84": 29700,
    "built": 2000
   },

@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "weekly_competition": [
   {
    "no": "2026000457",
@@ -30,6 +30,20 @@
    "type_count": 3
   },
   {
+   "no": "2026000560",
+   "name": "해링턴 플레이스 문래",
+   "region": "서울",
+   "rank1_avg_rate": 10.75,
+   "best": {
+    "ty": "84.9409A",
+    "rate": 13.86,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 3,
+   "type_count": 3
+  },
+  {
    "no": "2026000558",
    "name": "화정1지구 아르엘",
    "region": "울산",
@@ -39,7 +53,7 @@
     "rate": 8.69,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 31,
+   "final_shortfall_total": 0,
    "rank1_closed_types": 5,
    "type_count": 6
   },
@@ -53,7 +67,7 @@
     "rate": 1.27,
     "stage": "1순위 해당지역"
    },
-   "final_shortfall_total": 73,
+   "final_shortfall_total": 50,
    "rank1_closed_types": 1,
    "type_count": 4
   },
@@ -67,7 +81,7 @@
     "rate": 1.0,
     "stage": "1순위 기타지역"
    },
-   "final_shortfall_total": 507,
+   "final_shortfall_total": 448,
    "rank1_closed_types": 1,
    "type_count": 5
   },
@@ -76,8 +90,12 @@
    "name": "두산위브 트레지움 익산",
    "region": "전북",
    "rank1_avg_rate": 0.46,
-   "best": null,
-   "final_shortfall_total": 124,
+   "best": {
+    "ty": "59.85A",
+    "rate": 1.4,
+    "stage": "2순위 해당지역"
+   },
+   "final_shortfall_total": 91,
    "rank1_closed_types": 0,
    "type_count": 3
   },
@@ -91,7 +109,7 @@
     "rate": 27.0,
     "stage": "1순위 기타지역"
    },
-   "final_shortfall_total": 548,
+   "final_shortfall_total": 502,
    "rank1_closed_types": 1,
    "type_count": 6
   },
@@ -101,7 +119,7 @@
    "region": "충남",
    "rank1_avg_rate": 0.42,
    "best": null,
-   "final_shortfall_total": 273,
+   "final_shortfall_total": 210,
    "rank1_closed_types": 0,
    "type_count": 3
   }
@@ -148,6 +166,36 @@
     {
      "ty": "84.9219C",
      "price": 62340,
+     "pyeong_price": null
+    }
+   ]
+  },
+  {
+   "no": "2026910294",
+   "name": "신분평 에피트 더웨이시티",
+   "region": "충북",
+   "households": 395,
+   "rcept_date": "2026-11-30",
+   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910294&pblancNo=2026910294",
+   "types": [
+    {
+     "ty": "59.996B",
+     "price": 39290,
+     "pyeong_price": null
+    },
+    {
+     "ty": "75.723A",
+     "price": 46090,
+     "pyeong_price": null
+    },
+    {
+     "ty": "84.9568A",
+     "price": 50090,
+     "pyeong_price": null
+    },
+    {
+     "ty": "112.8127",
+     "price": 65890,
      "pyeong_price": null
     }
    ]
@@ -2697,6 +2745,20 @@
    "max": {
     "score": 62,
     "ty": "84.9928E"
+   }
+  },
+  {
+   "no": "2026000553",
+   "name": "의정부역 펠리스타워 양우내안애",
+   "region": "경기",
+   "min": {
+    "score": 0,
+    "ty": "59.9777",
+    "reside": "기타지역"
+   },
+   "max": {
+    "score": 63,
+    "ty": "59.9777"
    }
   }
  ]

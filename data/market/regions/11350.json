@@ -2,24 +2,24 @@
  "lawd": "11350",
  "name": "서울특별시 노원구",
  "months": 12,
- "updated": "2026-11-25",
- "trade_count": 7462,
- "cancel_count": 167,
- "n84": 1482,
+ "updated": "2026-11-26",
+ "trade_count": 7489,
+ "cancel_count": 168,
+ "n84": 1485,
  "median84": 83000,
  "p25_84": 68000,
- "p75_84": 97850,
+ "p75_84": 97900,
  "median84_pyeong_excl": 3253,
  "new_n84": 71,
  "new_median84": 114700,
  "new_build_years": 5,
  "umd84": {
   "하계동": {
-   "n": 169,
+   "n": 170,
    "median": 90000
   },
   "상계동": {
-   "n": 429,
+   "n": 430,
    "median": 69000
   },
   "공릉동": {
@@ -27,8 +27,8 @@
    "median": 79400
   },
   "중계동": {
-   "n": 355,
-   "median": 86300
+   "n": 356,
+   "median": 86400
   },
   "월계동": {
    "n": 245,
@@ -98,29 +98,35 @@
   },
   {
    "month": "2026-10",
-   "count": 480,
-   "n84": 97,
-   "median84": 86800
+   "count": 487,
+   "n84": 98,
+   "median84": 86850
   },
   {
    "month": "2026-11",
-   "count": 153,
-   "n84": 34,
-   "median84": 89850
+   "count": 173,
+   "n84": 36,
+   "median84": 86750
   }
  ],
  "top_apts": [
   {
+   "name": "중계동 중계그린1단지",
+   "count": 178,
+   "median84": null,
+   "built": 1990
+  },
+  {
    "name": "상계동 상계주공9(고층)",
-   "count": 176,
+   "count": 177,
    "median84": null,
    "built": 1988
   },
   {
-   "name": "중계동 중계그린1단지",
-   "count": 175,
+   "name": "상계동 상계주공7(고층)",
+   "count": 174,
    "median84": null,
-   "built": 1990
+   "built": 1988
   },
   {
    "name": "상계동 상계주공6(고층)",
@@ -129,26 +135,20 @@
    "built": 1988
   },
   {
-   "name": "상계동 상계주공7(고층)",
-   "count": 171,
-   "median84": null,
-   "built": 1988
-  },
-  {
    "name": "상계동 상계주공14(고층)",
-   "count": 153,
+   "count": 154,
    "median84": null,
    "built": 1989
   },
   {
    "name": "중계동 중계무지개",
-   "count": 152,
+   "count": 153,
    "median84": null,
    "built": 1991
   },
   {
    "name": "상계동 보람아파트",
-   "count": 143,
+   "count": 145,
    "median84": null,
    "built": 1988
   },
