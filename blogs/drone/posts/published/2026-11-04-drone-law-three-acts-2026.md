@@ -15,7 +15,7 @@ value: "드론법 제정·개정 7건을 공포일·시행일·추가 조문으�
 
 국가법령정보센터에서 '드론법'의 제정·개정 이력을 열면 제정 포함 7건이 나와요. 이 가운데 기체신고 기준이나 비행승인 기준(고도 150m 이상, 25kg 초과)을 바꾼 개정은 없어요. 제20295호가 드론공원 안에서만 비행승인 면제·간소화 근거를 뒀고, 드론을 날리는 사람이 지킬 규칙은 대부분 항공안전법에 들어 있어요.
 
-드론법의 정식 이름은 「드론 활용의 촉진 및 기반조성에 관한 법률」이에요. 아래에서는 줄여서 드론 활용법이라고도 적었어요. 생활법령정보의 드론 법령 목록 3단계 중 2단계에는 이 법률이 빠져 있고, 일부개정 5건은 모두 공포 뒤 182~183일이 지나 시행됐어요.
+이 법의 정식 이름은 「드론 활용의 촉진 및 기반조성에 관한 법률」이에요. 아래에서는 줄여서 드론 활용법이라고도 적었어요. 생활법령정보의 드론 법령 목록 3단계 중 2단계에는 이 법률이 빠져 있고, 일부개정 5건은 모두 공포 뒤 182~183일이 지나 시행됐어요.
 
 ![기체신고는 항공안전법 제122조, 비행승인은 제127조, 사업용 보험은 항공사업법 제70조에 있어요](captures/dr-drone-law-three-acts-2026-card.webp)
 
@@ -115,4 +115,4 @@ A. 2024년 8월 14일 시행된 제20295호에 따라 드론공원 안에서는 
 Q. 한국 드론 법에서 비행승인 기준은 어느 조문에 있나요?  
 A. 비행승인은 항공안전법 제127조에 있어요. 고도 150m 이상이나 최대이륙중량 25kg 초과 비행이 승인 대상이에요.
 
-출처: [정책브리핑 정책위키 '드론산업'](https://m.korea.kr/special/policyCurationView.do?newsId=148867190) · [제정·개정문 목록](https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=013479&chrClsCd=010202&lsRvsGubun=all) · [국가법령정보센터 — 드론법 본문 화면](https://www.law.go.kr/lsInfoP.do?lsId=013479&ancYnChk=0) · [정책브리핑 '드론법 시행, 일상 속 드론 시대가 온다!](https://www.korea.kr/news/reporterView.do?newsId=148872104)
+출처: [정책브리핑 정책위키 '드론산업'](https://m.korea.kr/special/policyCurationView.do?newsId=148867190) · [제정·개정문 목록](https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=013479&chrClsCd=010202&lsRvsGubun=all) · [국가법령정보센터 — 드론 활용법 본문 화면](https://www.law.go.kr/lsInfoP.do?lsId=013479&ancYnChk=0) · [정책브리핑 '드론법 시행, 일상 속 드론 시대가 온다!](https://www.korea.kr/news/reporterView.do?newsId=148872104)
