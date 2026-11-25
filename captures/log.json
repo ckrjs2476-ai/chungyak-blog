@@ -1,17 +1,5 @@
 [
  {
-  "name": "dr-drone-facility-inspection-2026-kwater",
-  "ok": false,
-  "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935\nCall log:\n  - navigating to \"https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935\", waiting until \"networkidle\"\n",
-  "url": "https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935"
- },
- {
-  "name": "dr-drone-facility-inspection-2026-work24",
-  "ok": false,
-  "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%A0%90%EA%B2%80\nCall log:\n  - navigating to \"https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%A0%90%EA%B2%",
-  "url": "https://www.work24.go.kr/wk/a/b/1200/retriveDtlEmpSrchList.do?srcKeyword=%EB%93%9C%EB%A1%A0%20%EC%A0%90%EA%B2%80"
- },
- {
   "name": "dr-drone-facility-inspection-2026-calc-1",
   "ok": true,
   "status": null,
@@ -5478,5 +5466,65 @@
   "bytes": 7418,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-25 12:43"
+ },
+ {
+  "name": "gm-innovo-therapeutics-rank-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "gongmoju",
+   "layout": "compare",
+   "title": "이노보테라퓨틱스 공모가 20,000원, 규모 순위는 어떻게 움직였나요?",
+   "answer": "440억 원 그대로인데 7위에서 4위, 지금은 20곳 중 5위예요",
+   "compare": {
+    "head": [
+     "기준",
+     "순위",
+     "비교 대상"
+    ],
+    "rows": [
+     [
+      "11월 1일 글",
+      "7위",
+      "27곳"
+     ],
+     [
+      "11월 9일 기록",
+      "7위",
+      "같은 440억 원"
+     ],
+     [
+      "11월 19일 기록",
+      "4위",
+      "같은 440억 원"
+     ],
+     [
+      "11월 25일 집계",
+      "5위",
+      "20곳"
+     ]
+    ]
+   },
+   "source": "DART 증권신고서, 이 블로그 매일 기록",
+   "date": "2026-11-25"
+  },
+  "size": [
+   760,
+   517
+  ],
+  "bytes": 30422,
+  "at": "2026-11-25 17:51"
+ },
+ {
+  "name": "ipo-01783687-dart-1109",
+  "ok": true,
+  "status": 200,
+  "title": "이노보테라퓨틱스/증권신고서(지분증권)/2026.11.09",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 37216,
+  "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000160",
+  "at": "2026-11-25 17:51"
  }
 ]
