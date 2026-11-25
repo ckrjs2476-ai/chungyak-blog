@@ -1,41 +1,5 @@
 [
  {
-  "name": "gm-baropharm-ipo-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "gongmoju",
-   "layout": "points",
-   "title": "바로팜 공모 자금, 어디에 쓰나요?",
-   "answer": "자금 계획 300.7억 원 중 46.6%가 다른 회사 지분 취득",
-   "points": [
-    {
-     "label": "공모 총액",
-     "value": "291.9억 원 (28곳 중 15위)"
-    },
-    {
-     "label": "타법인취득자금",
-     "value": "140억 원 (46.6%)"
-    },
-    {
-     "label": "운영자금",
-     "value": "146.1억 원 (48.6%)"
-    },
-    {
-     "label": "수수료율",
-     "value": "4.63%"
-    }
-   ],
-   "source": "DART 증권신고서",
-   "date": "2026-10-24"
-  },
-  "size": [
-   760,
-   485
-  ],
-  "bytes": 28512,
-  "at": "2026-11-19 22:42"
- },
- {
   "name": "gm-nexi-ipo-2026-11-card",
   "ok": true,
   "card": {
@@ -5416,5 +5380,41 @@
   "bytes": 43586,
   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967169",
   "at": "2026-11-25 20:00"
+ },
+ {
+  "name": "dr-drone-military-drone-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "points",
+   "title": "군용드론은 몇 대나 들여오나요?",
+   "answer": "소모성 2만 대 이상, 국산 교육용 상용드론 6만여 대",
+   "points": [
+    {
+     "label": "근거리 정찰·소형 자폭(소모성)",
+     "value": "2만 대 이상"
+    },
+    {
+     "label": "국산 교육용 상용드론",
+     "value": "6만여 대"
+    },
+    {
+     "label": "장관 답변, 올해까지",
+     "value": "1만 1천여 대"
+    },
+    {
+     "label": "장관 답변, 2029년까지",
+     "value": "약 6만여 대"
+    }
+   ],
+   "source": "국방부 정책뉴스·장관 브리핑(2026.6.26)",
+   "date": "2026-11-25"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 28198,
+  "at": "2026-11-25 20:03"
  }
 ]
