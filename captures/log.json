@@ -1,94 +1,5 @@
 [
  {
-  "name": "js-seoul-eunpyeong-gu-jeonse-jingwan-dong-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "compare",
-   "title": "은평구 아파트 전세가율은 왜 54.1%로 낮습니까?",
-   "answer": "전세 신고 961건이 몰린 진관동 전세가율이 39.8%",
-   "compare": {
-    "head": [
-     "구분",
-     "84㎡ 전세 신고",
-     "전세가율"
-    ],
-    "rows": [
-     [
-      "은평구 전체",
-      "2,200건",
-      "54.1%"
-     ],
-     [
-      "진관동",
-      "961건",
-      "39.8%"
-     ],
-     [
-      "신사동",
-      "159건",
-      "71.7%"
-     ]
-    ]
-   },
-   "source": "국토교통부 실거래가",
-   "date": "2026-11-11"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 23596,
-  "at": "2026-11-19 22:42"
- },
- {
-  "name": "gm-ipo-secondary-sale-2026-10-card",
-  "ok": true,
-  "card": {
-   "blog": "gongmoju",
-   "layout": "compare",
-   "title": "공모주 구주매출, 몇 곳이 기존 주식을 함께 팔아요?",
-   "answer": "최근 공모 27곳 중 4곳, 나머지 23곳은 전부 새로 발행해요",
-   "compare": {
-    "head": [
-     "회사",
-     "구주 비중",
-     "규모 순위"
-    ],
-    "rows": [
-     [
-      "SimwonAmericaCorp.",
-      "40.0%",
-      "4위"
-     ],
-     [
-      "제이앤티지",
-      "23.3%",
-      "3위"
-     ],
-     [
-      "영광와이케이엠씨",
-      "21.7%",
-      "20위"
-     ],
-     [
-      "에스에프씨",
-      "13.6%",
-      "1위"
-     ]
-    ]
-   },
-   "source": "DART 증권신고서",
-   "date": "2026-10-20"
-  },
-  "size": [
-   760,
-   476
-  ],
-  "bytes": 25786,
-  "at": "2026-11-19 22:42"
- },
- {
   "name": "gm-baropharm-ipo-2026-11-card",
   "ok": true,
   "card": {
@@ -5456,5 +5367,54 @@
   "bytes": 7330,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-25 19:50"
+ },
+ {
+  "name": "dr-drone-military-drone-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "points",
+   "title": "군용드론은 몇 대나 들여오나요?",
+   "answer": "소모성 2만 대 이상, 교육용은 2029년까지 6만여 대",
+   "points": [
+    {
+     "label": "근거리 정찰·소형 자폭(소모성)",
+     "value": "2만 대 이상"
+    },
+    {
+     "label": "국산 교육용 상용드론",
+     "value": "6만여 대(2029년까지)"
+    },
+    {
+     "label": "올해까지 도입",
+     "value": "1만 1천여 대"
+    },
+    {
+     "label": "드론 전사 양성 목표",
+     "value": "50만"
+    }
+   ],
+   "source": "국방부 정책뉴스·장관 브리핑(2026.6.26)",
+   "date": "2026-11-25"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 28798,
+  "at": "2026-11-25 20:00"
+ },
+ {
+  "name": "dr-drone-military-drone-2026-korea",
+  "ok": true,
+  "status": 200,
+  "title": "한국형 장거리 자폭 드론 전력화 추진…50만 드론 전사 양성 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 43586,
+  "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967169",
+  "at": "2026-11-25 20:00"
  }
 ]
