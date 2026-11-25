@@ -1,121 +1,5 @@
 [
  {
-  "name": "js-51130-rank-history",
-  "ok": true,
-  "chart": {
-   "type": "history",
-   "blog": "jeonse",
-   "entity": "51130",
-   "metric": "rank",
-   "title": "원주시 84㎡ 전세가율 순위 기록",
-   "unit": "위"
-  },
-  "size": [
-   760,
-   380
-  ],
-  "bytes": 13200,
-  "at": "2026-11-19 20:21"
- },
- {
-  "name": "js-wonju-si-jeonse-ratio-4weeks-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "points",
-   "title": "원주시 전세가율은 4주 새 얼마나 움직였을까?",
-   "answer": "76.4%에서 80.0%로, 매매 중앙값은 그대로였습니다",
-   "points": [
-    {
-     "label": "84㎡ 전세가율",
-     "value": "76.4% → 80.0%"
-    },
-    {
-     "label": "84㎡ 전세 중앙값",
-     "value": "2억 1,000만 → 2억 2,000만 원"
-    },
-    {
-     "label": "84㎡ 매매 중앙값",
-     "value": "2억 7,500만 원 그대로"
-    },
-    {
-     "label": "전세가율 순위",
-     "value": "65위 → 53위"
-    }
-   ],
-   "source": "국토교통부 실거래가",
-   "date": "2026-11-19"
-  },
-  "size": [
-   760,
-   485
-  ],
-  "bytes": 32956,
-  "at": "2026-11-19 20:21"
- },
- {
-  "name": "dr-drone-facility-inspection-2026-card",
-  "ok": true,
-  "card": {
-   "blog": "drone",
-   "layout": "points",
-   "title": "드론 안전점검, 법정 주기는 그대로일까?",
-   "answer": "드론은 사각지대를 찍는 도구, 점검 횟수는 시설물안전법 주기를 따라요",
-   "points": [
-    {
-     "label": "A등급 정기안전점검",
-     "value": "반기 1회 이상"
-    },
-    {
-     "label": "D·E등급 정기안전점검",
-     "value": "1년 3회 이상"
-    },
-    {
-     "label": "A등급 정밀안전진단",
-     "value": "6년 1회 이상"
-    },
-    {
-     "label": "국유재산 점검 완료(9월)",
-     "value": "6,558건 중 84.1%"
-    }
-   ],
-   "source": "K-water 시설물 안전관리·재정경제부",
-   "date": "2026-11-19"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 32670,
-  "at": "2026-11-19 20:21"
- },
- {
-  "name": "js-51130-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 12922,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-19 20:21"
- },
- {
-  "name": "js-51130-calc-2",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   381
-  ],
-  "bytes": 12960,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-19 20:21"
- },
- {
   "name": "dr-drone-facility-inspection-2026-kwater",
   "ok": false,
   "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935\nCall log:\n  - navigating to \"https://www.kwater.or.kr/safety/sub02/facil01Page.do?s_mid=1935\", waiting until \"networkidle\"\n",
@@ -5493,5 +5377,106 @@
   "bytes": 16942,
   "url": "blogs/gwanribi/pages/calculator.md",
   "at": "2026-11-25 11:28"
+ },
+ {
+  "name": "js-26230-dong",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "26230",
+   "highlight": "전포동"
+  },
+  "size": [
+   760,
+   492
+  ],
+  "bytes": 16524,
+  "at": "2026-11-25 12:43"
+ },
+ {
+  "name": "js-busanjin-gu-jeonse-dong-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "부산진구 아파트 전세, 동마다 전세가율은 얼마나 다릅니까?",
+   "answer": "구 전체 72.4%인데 동별로는 범전동 54.0%에서 당감동 92.3%까지 갈립니다",
+   "compare": {
+    "head": [
+     "동",
+     "84㎡ 전세 중앙값",
+     "전세가율"
+    ],
+    "rows": [
+     [
+      "범전동",
+      "4억 4,000만 원",
+      "54.0%"
+     ],
+     [
+      "전포동",
+      "2억 7,195만 원",
+      "63.6%"
+     ],
+     [
+      "부암동",
+      "3억 1,000만 원",
+      "77.7%"
+     ],
+     [
+      "당감동",
+      "2억 8,150만 원",
+      "92.3%"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-13"
+  },
+  "size": [
+   760,
+   547
+  ],
+  "bytes": 32456,
+  "at": "2026-11-25 12:43"
+ },
+ {
+  "name": "js-26230-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 15248,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-25 12:43"
+ },
+ {
+  "name": "js-26230-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   381
+  ],
+  "bytes": 14952,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-25 12:43"
+ },
+ {
+  "name": "js-26230-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7418,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-25 12:43"
  }
 ]
