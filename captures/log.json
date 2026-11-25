@@ -1,54 +1,5 @@
 [
  {
-  "name": "js-41450-rt",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7218,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-19 12:43"
- },
- {
-  "name": "cy-remainder-cheongyak-2026-11-23-card",
-  "ok": true,
-  "card": {
-   "blog": "cheongyak",
-   "layout": "points",
-   "title": "연제갤러리자이 무순위 315세대, 본청약 땐 어땠나?",
-   "answer": "10월 1순위 평균 1.63대 1, 네 타입 모두 미달 없이 마감됐던 단지",
-   "points": [
-    {
-     "label": "10월 본청약 공급",
-     "value": "459세대"
-    },
-    {
-     "label": "11월 23일 무순위",
-     "value": "315세대"
-    },
-    {
-     "label": "84D 1순위 해당지역",
-     "value": "1.08대 1"
-    },
-    {
-     "label": "84A 최고가",
-     "value": "9억 1,560만 → 8억 8,940만 원"
-    }
-   ],
-   "source": "청약홈 모집공고·경쟁률",
-   "date": "2026-11-19"
-  },
-  "size": [
-   760,
-   485
-  ],
-  "bytes": 29874,
-  "at": "2026-11-19 18:39"
- },
- {
   "name": "cy-2026910295-remndr",
   "ok": true,
   "status": 200,
@@ -5494,5 +5445,54 @@
   "bytes": 14418,
   "url": "https://www.law.go.kr/행정규칙/건설업산업안전보건관리비계상및사용기준",
   "at": "2026-11-25 08:57"
+ },
+ {
+  "name": "cy-gyeonghuigung-epit-bunyangga-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "경희궁 에피트 분양가, 서울 민영 단지 가운데 어디쯤인가요?",
+   "answer": "3.3㎡당 평균 7,663만 원, 서울 민영 11곳 중 1위",
+   "points": [
+    {
+     "label": "84A 최고 분양가",
+     "value": "25억 7,484만 원"
+    },
+    {
+     "label": "비교 10곳 3.3㎡당 평균",
+     "value": "5,530만 원"
+    },
+    {
+     "label": "10곳 평균과 차이",
+     "value": "39% 높음"
+    },
+    {
+     "label": "특별공급 비중",
+     "value": "54%"
+    }
+   ],
+   "source": "청약홈 입주자모집공고",
+   "date": "2026-11-13"
+  },
+  "size": [
+   760,
+   490
+  ],
+  "bytes": 28060,
+  "at": "2026-11-25 09:52"
+ },
+ {
+  "name": "cy-2026000505-price-1125",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   238
+  ],
+  "bytes": 9174,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000505&pblancNo=2026000505",
+  "at": "2026-11-25 09:52"
  }
 ]
