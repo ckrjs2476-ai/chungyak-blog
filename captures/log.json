@@ -1,125 +1,5 @@
 [
  {
-  "name": "gm-nexi-ipo-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "gongmoju",
-   "layout": "compare",
-   "title": "넥스아이 공모 자금, 연구개발 비중은 얼마나 커요?",
-   "answer": "자금 계획 535억 원 중 86.9%가 연구개발자금",
-   "compare": {
-    "head": [
-     "회사",
-     "연구개발 비중",
-     "규모 순위"
-    ],
-    "rows": [
-     [
-      "넥스아이",
-      "86.9%",
-      "4위"
-     ],
-     [
-      "엔키화이트햇",
-      "16.9%",
-      "19위"
-     ],
-     [
-      "이에스티",
-      "15.3%",
-      "18위"
-     ]
-    ]
-   },
-   "source": "DART 증권신고서",
-   "date": "2026-10-22"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 21714,
-  "at": "2026-11-19 22:42"
- },
- {
-  "name": "gw-dongjak-gu-apartment-management-fee-ranking-2026-08-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "compare",
-   "title": "동작구 관리비 1위, 기준마다 다른 단지예요?",
-   "answer": "공용관리비는 사당경남아너스빌, ㎡당 합계는 래미안로이파크가 1위",
-   "compare": {
-    "head": [
-     "단지",
-     "㎡당 관리비",
-     "공용관리비 ㎡당"
-    ],
-    "rows": [
-     [
-      "래미안로이파크아파트",
-      "4,707원",
-      "1,232원 (24위)"
-     ],
-     [
-      "사당경남아너스빌",
-      "3,732원",
-      "1,869원 (1위)"
-     ],
-     [
-      "동작구 중앙값",
-      "2,730원",
-      "1,197원"
-     ]
-    ]
-   },
-   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
-   "date": "2026-10-17"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 28066,
-  "at": "2026-11-19 22:42"
- },
- {
-  "name": "gw-hannam-the-hill-management-fee-2026-08-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "points",
-   "title": "한남더힐 관리비, 용산구에서 얼마나 높아요?",
-   "answer": "㎡당 8,998원으로 용산구 29곳 중 1위였어요",
-   "points": [
-    {
-     "label": "세대 평균",
-     "value": "168만 9,147원"
-    },
-    {
-     "label": "공용관리비 ㎡당",
-     "value": "4,328원 (33곳 중 1위)"
-    },
-    {
-     "label": "경비비 ㎡당",
-     "value": "1,415원 (중앙값 424원)"
-    },
-    {
-     "label": "개별사용료 ㎡당",
-     "value": "4,406원 (33곳 중 2위)"
-    }
-   ],
-   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
-   "date": "2026-10-24"
-  },
-  "size": [
-   760,
-   485
-  ],
-  "bytes": 33434,
-  "at": "2026-11-19 22:42"
- },
- {
   "name": "gw-saetbyeol-hanyang-4-2-3-management-fee-2026-08-card",
   "ok": true,
   "card": {
@@ -5416,5 +5296,75 @@
   ],
   "bytes": 28198,
   "at": "2026-11-25 20:03"
+ },
+ {
+  "name": "gw-11350-wolgye-siyeong-gocheung-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11350",
+   "code": "A13984005"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 16238,
+  "at": "2026-11-25 21:19"
+ },
+ {
+  "name": "gw-wolgye-siyeong-gocheung-management-fee-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "compare",
+   "title": "월계시영고층 관리비는 노원구에서 어디쯤인가요?",
+   "answer": "합계 ㎡당 2,597원으로 105곳 중 51위, 두 칸이 반대로 움직였어요",
+   "compare": {
+    "head": [
+     "㎡당",
+     "월계시영고층",
+     "노원구 순위"
+    ],
+    "rows": [
+     [
+      "합계",
+      "2,597원",
+      "105곳 중 51위"
+     ],
+     [
+      "개별사용료",
+      "1,261원",
+      "123곳 중 27위"
+     ],
+     [
+      "장기수선충당금",
+      "152원",
+      "105곳 중 101위"
+     ]
+    ]
+   },
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-19"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 29330,
+  "at": "2026-11-25 21:19"
+ },
+ {
+  "name": "gw-calc-wolgye-84-1125",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16746,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-25 21:19"
  }
 ]
