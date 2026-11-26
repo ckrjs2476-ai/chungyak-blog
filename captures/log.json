@@ -1,120 +1,5 @@
 [
  {
-  "name": "js-gangnam-gu-gaepo-dong-jeonse-4weeks-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "compare",
-   "title": "강남구 전세가율이 내린 4주, 동별 숫자는?",
-   "answer": "구는 31.7%로 내려갔지만 개포동·도곡동은 올랐습니다",
-   "compare": {
-    "head": [
-     "84㎡ 전세가율",
-     "10월 18일",
-     "11월 13일"
-    ],
-    "rows": [
-     [
-      "강남구",
-      "32.4%",
-      "31.7%"
-     ],
-     [
-      "개포동",
-      "38.6%",
-      "39.0%"
-     ],
-     [
-      "도곡동",
-      "37.2%",
-      "38.5%"
-     ],
-     [
-      "청담동",
-      "38.8%",
-      "37.3%"
-     ]
-    ]
-   },
-   "source": "국토교통부 실거래가, 이 블로그 매일 기록",
-   "date": "2026-11-13"
-  },
-  "size": [
-   760,
-   476
-  ],
-  "bytes": 27042,
-  "at": "2026-11-20 19:49"
- },
- {
-  "name": "js-11680-rt",
-  "ok": false,
-  "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=\", waiting until \"networkidle\"\n",
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt="
- },
- {
-  "name": "js-11680-rt",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7336,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-20 19:51"
- },
- {
-  "name": "dr-drone-gps-kass-accuracy-2026-card",
-  "ok": true,
-  "card": {
-   "blog": "drone",
-   "layout": "points",
-   "title": "GPS 드론 위치, 얼마나 틀리나요?",
-   "answer": "보정 없는 GPS는 15~33m, KASS 보정 신호를 받으면 1~1.6m예요",
-   "points": [
-    {
-     "label": "GPS만 쓸 때 위치 오차",
-     "value": "15~33m"
-    },
-    {
-     "label": "KASS 보정 뒤 위치 오차",
-     "value": "1~1.6m"
-    },
-    {
-     "label": "KASS 정밀위치신호 첫 제공",
-     "value": "2022년 12월 15일"
-    },
-    {
-     "label": "KASS 지상 기준국",
-     "value": "전국 7곳"
-    }
-   ],
-   "source": "국토교통부(대한민국 정책브리핑)",
-   "date": "2026-11-20"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 29410,
-  "at": "2026-11-20 19:58"
- },
- {
-  "name": "dr-drone-gps-kass-accuracy-2026-kass",
-  "ok": true,
-  "status": 200,
-  "title": "‘GPS 위치 오차 1m이내로’…항공위성 1호기 발사 성공 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-  "size": [
-   760,
-   359
-  ],
-  "bytes": 30182,
-  "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148902824",
-  "at": "2026-11-20 19:58"
- },
- {
   "name": "gw-41595-sindongtan-forest-xi-chart",
   "ok": true,
   "chart": {
@@ -5611,5 +5496,101 @@
   ],
   "bytes": 31350,
   "at": "2026-11-26 11:28"
+ },
+ {
+  "name": "js-11290-dong",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11290",
+   "highlight": "정릉동"
+  },
+  "size": [
+   760,
+   492
+  ],
+  "bytes": 17026,
+  "at": "2026-11-26 12:46"
+ },
+ {
+  "name": "js-seongbuk-gu-jeonse-built-year-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "성북구 아파트 전세 61.7%, 단지마다 같습니까?",
+   "answer": "구 전체는 61.7%지만 새 단지 다섯 곳은 45.4~48.0%, 정릉동 여섯 곳은 67.6~72.1%입니다",
+   "compare": {
+    "head": [
+     "구분",
+     "길음·장위 새 단지 5곳",
+     "정릉동 단지 6곳"
+    ],
+    "rows": [
+     [
+      "준공",
+      "2019~2022년",
+      "1999~2006년"
+     ],
+     [
+      "단지 전세가율",
+      "45.4~48.0%",
+      "67.6~72.1%"
+     ],
+     [
+      "단지별 전세 신고",
+      "47~71건",
+      "3~12건"
+     ]
+    ]
+   },
+   "source": "국토교통부 실거래가",
+   "date": "2026-11-24"
+  },
+  "size": [
+   760,
+   460
+  ],
+  "bytes": 31980,
+  "at": "2026-11-26 12:46"
+ },
+ {
+  "name": "js-11290-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 15100,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-26 12:46"
+ },
+ {
+  "name": "js-11290-calc-2",
+  "ok": true,
+  "status": null,
+  "title": "blogs/jeonse/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 14978,
+  "url": "blogs/jeonse/pages/calculator.md",
+  "at": "2026-11-26 12:46"
+ },
+ {
+  "name": "js-11290-rt-form",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7308,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-26 12:46"
  }
 ]
