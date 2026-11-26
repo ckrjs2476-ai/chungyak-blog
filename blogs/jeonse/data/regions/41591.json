@@ -1,30 +1,30 @@
 {
  "lawd": "41591",
  "name": "경기도 화성시 만세구",
- "updated": "2026-11-12",
+ "updated": "2026-11-26",
  "months": 12,
- "jeonse_count": 3199,
- "wolse_count": 3143,
- "wolse_share_pct": 49.6,
- "renew_share_pct": 62.2,
- "jeonse_n84": 2329,
+ "jeonse_count": 3348,
+ "wolse_count": 3415,
+ "wolse_share_pct": 50.5,
+ "renew_share_pct": 62.1,
+ "jeonse_n84": 2426,
  "jeonse_median84": 21409,
- "sale_n84": 680,
+ "sale_n84": 703,
  "sale_median84": 39500,
  "ratio84": 54.2,
  "jeonse_recent3_median84": 21409,
  "jeonse_prev3_median84": 21666,
  "jeonse_change_pct": -1.2,
- "apts_with_both": 50,
+ "apts_with_both": 51,
  "apts_ratio_80_plus": 9,
- "apts_ratio_70_plus": 29,
+ "apts_ratio_70_plus": 30,
  "umd": {
   "남양읍 남양리": {
-   "jeonse_n": 133,
-   "jeonse_median84": 30000,
-   "sale_n": 157,
+   "jeonse_n": 137,
+   "jeonse_median84": 29500,
+   "sale_n": 163,
    "sale_median84": 39000,
-   "ratio": 76.9
+   "ratio": 75.6
   },
   "남양읍 무송리": {
    "jeonse_n": 7,
@@ -34,16 +34,16 @@
    "ratio": 87.5
   },
   "남양읍 신남리": {
-   "jeonse_n": 119,
+   "jeonse_n": 123,
    "jeonse_median84": 25000,
-   "sale_n": 61,
+   "sale_n": 64,
    "sale_median84": 38000,
    "ratio": 65.8
   },
   "새솔동": {
-   "jeonse_n": 351,
+   "jeonse_n": 366,
    "jeonse_median84": 35000,
-   "sale_n": 205,
+   "sale_n": 209,
    "sale_median84": 54000,
    "ratio": 64.8
   },
@@ -69,32 +69,32 @@
    "ratio": 78.6
   },
   "향남읍 상신리": {
-   "jeonse_n": 252,
+   "jeonse_n": 263,
    "jeonse_median84": 17170,
-   "sale_n": 6,
-   "sale_median84": 49400,
+   "sale_n": 7,
+   "sale_median84": 49300,
    "ratio": 34.8
   },
   "향남읍 장짐리": {
-   "jeonse_n": 13,
-   "jeonse_median84": 21200,
-   "sale_n": 17,
-   "sale_median84": 26500,
-   "ratio": 80.0
+   "jeonse_n": 14,
+   "jeonse_median84": 20600,
+   "sale_n": 18,
+   "sale_median84": 26400,
+   "ratio": 78.0
   },
   "향남읍 하길리": {
-   "jeonse_n": 1216,
+   "jeonse_n": 1267,
    "jeonse_median84": 19263,
-   "sale_n": 56,
-   "sale_median84": 37750,
-   "ratio": 51.0
+   "sale_n": 57,
+   "sale_median84": 37500,
+   "ratio": 51.4
   },
   "향남읍 행정리": {
-   "jeonse_n": 218,
+   "jeonse_n": 229,
    "jeonse_median84": 27000,
-   "sale_n": 111,
-   "sale_median84": 34500,
-   "ratio": 78.3
+   "sale_n": 118,
+   "sale_median84": 34400,
+   "ratio": 78.5
   }
  },
  "top_ratio_apts": [
@@ -104,9 +104,9 @@
    "built": 2008,
    "jeonse_n": 12,
    "jeonse_median84": 28500,
-   "sale_n": 12,
-   "sale_median84": 31100,
-   "ratio": 91.6
+   "sale_n": 15,
+   "sale_median84": 31000,
+   "ratio": 91.9
   },
   {
    "umd": "남양읍 무송리",
@@ -134,9 +134,19 @@
    "built": 2001,
    "jeonse_n": 3,
    "jeonse_median84": 20000,
-   "sale_n": 7,
+   "sale_n": 8,
    "sale_median84": 23000,
    "ratio": 87.0
+  },
+  {
+   "umd": "향남읍 행정리",
+   "apt": "화성향남시범복사꽃마을상록하늘채아파",
+   "built": 2009,
+   "jeonse_n": 35,
+   "jeonse_median84": 28000,
+   "sale_n": 18,
+   "sale_median84": 33250,
+   "ratio": 84.2
   },
   {
    "umd": "향남읍 장짐리",
@@ -162,20 +172,10 @@
    "umd": "향남읍 행정리",
    "apt": "향남시범살구꽃마을풍림아이원",
    "built": 2008,
-   "jeonse_n": 34,
+   "jeonse_n": 36,
    "jeonse_median84": 25000,
    "sale_n": 20,
    "sale_median84": 31000,
-   "ratio": 80.6
-  },
-  {
-   "umd": "향남읍 행정리",
-   "apt": "화성향남시범복사꽃마을상록하늘채아파",
-   "built": 2009,
-   "jeonse_n": 33,
-   "jeonse_median84": 27000,
-   "sale_n": 16,
-   "sale_median84": 33500,
    "ratio": 80.6
   },
   {
@@ -190,13 +190,13 @@
   },
   {
    "umd": "남양읍 남양리",
-   "apt": "남양뉴타운양우내안애1차",
-   "built": 2016,
-   "jeonse_n": 15,
-   "jeonse_median84": 30000,
-   "sale_n": 7,
-   "sale_median84": 38000,
-   "ratio": 78.9
+   "apt": "남양우림필유아파트",
+   "built": 2009,
+   "jeonse_n": 2,
+   "jeonse_median84": 26100,
+   "sale_n": 2,
+   "sale_median84": 32700,
+   "ratio": 79.8
   }
  ],
  "low_ratio_apts": [
@@ -204,7 +204,7 @@
    "umd": "향남읍 하길리",
    "apt": "서봉마을사랑으로부영6단지",
    "built": 2018,
-   "jeonse_n": 292,
+   "jeonse_n": 311,
    "jeonse_median84": 21666,
    "sale_n": 2,
    "sale_median84": 39400,
@@ -214,17 +214,17 @@
    "umd": "향남읍 하길리",
    "apt": "화성향남서봉마을사랑으로부영3단지",
    "built": 2015,
-   "jeonse_n": 108,
+   "jeonse_n": 111,
    "jeonse_median84": 19571,
-   "sale_n": 27,
-   "sale_median84": 35500,
-   "ratio": 55.1
+   "sale_n": 28,
+   "sale_median84": 35250,
+   "ratio": 55.5
   },
   {
    "umd": "향남읍 하길리",
    "apt": "화성향남서봉마을사랑으로부영7단지",
    "built": 2016,
-   "jeonse_n": 225,
+   "jeonse_n": 232,
    "jeonse_median84": 21409,
    "sale_n": 2,
    "sale_median84": 37100,
@@ -241,14 +241,14 @@
    "ratio": 59.0
   },
   {
-   "umd": "새솔동",
-   "apt": "세영리첼에듀파크",
-   "built": 2019,
-   "jeonse_n": 19,
-   "jeonse_median84": 30000,
-   "sale_n": 17,
-   "sale_median84": 50400,
-   "ratio": 59.5
+   "umd": "남양읍 신남리",
+   "apt": "화성시청역센트럴파크스타힐스1단지",
+   "built": 2023,
+   "jeonse_n": 10,
+   "jeonse_median84": 29050,
+   "sale_n": 2,
+   "sale_median84": 48750,
+   "ratio": 59.6
   }
  ],
  "monthly": [
@@ -302,8 +302,8 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 276,
-   "n84": 193,
+   "jeonse_count": 278,
+   "n84": 195,
    "jeonse_median84": 21409
   },
   {
@@ -314,15 +314,15 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 289,
-   "n84": 191,
+   "jeonse_count": 301,
+   "n84": 197,
    "jeonse_median84": 21409
   },
   {
    "month": "2026-11",
-   "jeonse_count": 87,
-   "n84": 60,
-   "jeonse_median84": 21721
+   "jeonse_count": 222,
+   "n84": 149,
+   "jeonse_median84": 22034
   }
  ],
  "rank": 159,
@@ -330,13 +330,13 @@
  "avg_ratio84_all": 72.6,
  "ratio_vs_avg_pp": -18.4,
  "umd_ratio_high": {
-  "name": "향남읍 장짐리",
-  "ratio": 80.0
+  "name": "향남읍 발안리",
+  "ratio": 78.6
  },
  "umd_ratio_low": {
   "name": "향남읍 하길리",
-  "ratio": 51.0
+  "ratio": 51.4
  },
- "umd_spread_pp": 29.0,
+ "umd_spread_pp": 27.2,
  "gap84": 18091
 }

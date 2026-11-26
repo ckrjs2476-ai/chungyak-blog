@@ -1,22 +1,22 @@
 {
  "lawd": "41830",
  "name": "경기도 양평군",
- "updated": "2026-11-12",
+ "updated": "2026-11-26",
  "months": 12,
- "jeonse_count": 544,
- "wolse_count": 368,
- "wolse_share_pct": 40.4,
- "renew_share_pct": 29.8,
- "jeonse_n84": 259,
+ "jeonse_count": 556,
+ "wolse_count": 380,
+ "wolse_share_pct": 40.6,
+ "renew_share_pct": 29.5,
+ "jeonse_n84": 267,
  "jeonse_median84": 30000,
- "sale_n84": 224,
+ "sale_n84": 226,
  "sale_median84": 43625,
  "ratio84": 68.8,
- "jeonse_recent3_median84": 31250,
+ "jeonse_recent3_median84": 30250,
  "jeonse_prev3_median84": 25000,
- "jeonse_change_pct": 25.0,
+ "jeonse_change_pct": 21.0,
  "apts_with_both": 21,
- "apts_ratio_80_plus": 4,
+ "apts_ratio_80_plus": 5,
  "apts_ratio_70_plus": 16,
  "umd": {
   "강상면 병산리": {
@@ -27,11 +27,11 @@
    "ratio": 79.8
   },
   "양서면 양수리": {
-   "jeonse_n": 16,
-   "jeonse_median84": 33500,
+   "jeonse_n": 17,
+   "jeonse_median84": 33000,
    "sale_n": 10,
    "sale_median84": 43250,
-   "ratio": 77.5
+   "ratio": 76.3
   },
   "양서면 용담리": {
    "jeonse_n": 3,
@@ -41,39 +41,39 @@
    "ratio": 64.2
   },
   "양평읍 공흥리": {
-   "jeonse_n": 24,
+   "jeonse_n": 25,
    "jeonse_median84": 30000,
    "sale_n": 25,
    "sale_median84": 45000,
    "ratio": 66.7
   },
   "양평읍 백안리": {
-   "jeonse_n": 14,
-   "jeonse_median84": 20235,
+   "jeonse_n": 15,
+   "jeonse_median84": 20470,
    "sale_n": 10,
    "sale_median84": 26000,
-   "ratio": 77.8
+   "ratio": 78.7
   },
   "양평읍 양근리": {
-   "jeonse_n": 117,
+   "jeonse_n": 120,
    "jeonse_median84": 35700,
-   "sale_n": 119,
+   "sale_n": 120,
    "sale_median84": 48500,
    "ratio": 73.6
   },
   "양평읍 창대리": {
-   "jeonse_n": 24,
+   "jeonse_n": 25,
    "jeonse_median84": 35000,
    "sale_n": 11,
    "sale_median84": 47000,
    "ratio": 74.5
   },
   "용문면 다문리": {
-   "jeonse_n": 43,
-   "jeonse_median84": 24000,
-   "sale_n": 32,
-   "sale_median84": 38750,
-   "ratio": 61.9
+   "jeonse_n": 44,
+   "jeonse_median84": 23500,
+   "sale_n": 33,
+   "sale_median84": 38000,
+   "ratio": 61.8
   }
  },
  "top_ratio_apts": [
@@ -118,6 +118,16 @@
    "ratio": 81.3
   },
   {
+   "umd": "용문면 다문리",
+   "apt": "심미",
+   "built": 2004,
+   "jeonse_n": 5,
+   "jeonse_median84": 17000,
+   "sale_n": 3,
+   "sale_median84": 21000,
+   "ratio": 81.0
+  },
+  {
    "umd": "강상면 병산리",
    "apt": "양평현대성우(2단지)",
    "built": 2010,
@@ -129,26 +139,6 @@
   },
   {
    "umd": "용문면 다문리",
-   "apt": "심미",
-   "built": 2004,
-   "jeonse_n": 5,
-   "jeonse_median84": 17000,
-   "sale_n": 2,
-   "sale_median84": 21550,
-   "ratio": 78.9
-  },
-  {
-   "umd": "용문면 다문리",
-   "apt": "밀레니엄",
-   "built": 2020,
-   "jeonse_n": 3,
-   "jeonse_median84": 22800,
-   "sale_n": 3,
-   "sale_median84": 29000,
-   "ratio": 78.6
-  },
-  {
-   "umd": "용문면 다문리",
    "apt": "용문그린",
    "built": 2004,
    "jeonse_n": 2,
@@ -156,6 +146,16 @@
    "sale_n": 3,
    "sale_median84": 18500,
    "ratio": 78.4
+  },
+  {
+   "umd": "용문면 다문리",
+   "apt": "밀레니엄",
+   "built": 2020,
+   "jeonse_n": 4,
+   "jeonse_median84": 22650,
+   "sale_n": 3,
+   "sale_median84": 29000,
+   "ratio": 78.1
   },
   {
    "umd": "양평읍 창대리",
@@ -213,7 +213,7 @@
    "umd": "양평읍 공흥리",
    "apt": "양평공흥3휴먼빌아틀리에",
    "built": 2025,
-   "jeonse_n": 24,
+   "jeonse_n": 25,
    "jeonse_median84": 30000,
    "sale_n": 25,
    "sale_median84": 45000,
@@ -223,7 +223,7 @@
    "umd": "양평읍 양근리",
    "apt": "센트럴파크써밋",
    "built": 2022,
-   "jeonse_n": 28,
+   "jeonse_n": 30,
    "jeonse_median84": 36225,
    "sale_n": 22,
    "sale_median84": 52250,
@@ -293,14 +293,14 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 23,
-   "n84": 9,
-   "jeonse_median84": 30000
+   "jeonse_count": 24,
+   "n84": 10,
+   "jeonse_median84": 28650
   },
   {
    "month": "2026-11",
-   "jeonse_count": 4,
-   "n84": 2,
+   "jeonse_count": 15,
+   "n84": 9,
    "jeonse_median84": 30000
   }
  ],
@@ -314,8 +314,8 @@
  },
  "umd_ratio_low": {
   "name": "용문면 다문리",
-  "ratio": 61.9
+  "ratio": 61.8
  },
- "umd_spread_pp": 17.9,
+ "umd_spread_pp": 18.0,
  "gap84": 13625
 }

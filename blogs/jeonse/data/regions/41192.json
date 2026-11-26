@@ -1,23 +1,23 @@
 {
  "lawd": "41192",
  "name": "경기도 부천시 원미구",
- "updated": "2026-11-12",
+ "updated": "2026-11-26",
  "months": 12,
- "jeonse_count": 3845,
- "wolse_count": 3026,
+ "jeonse_count": 3981,
+ "wolse_count": 3132,
  "wolse_share_pct": 44.0,
  "renew_share_pct": 40.7,
- "jeonse_n84": 943,
+ "jeonse_n84": 972,
  "jeonse_median84": 47000,
- "sale_n84": 1347,
+ "sale_n84": 1386,
  "sale_median84": 68000,
  "ratio84": 69.1,
- "jeonse_recent3_median84": 48750,
+ "jeonse_recent3_median84": 48500,
  "jeonse_prev3_median84": 46000,
- "jeonse_change_pct": 6.0,
- "apts_with_both": 64,
+ "jeonse_change_pct": 5.4,
+ "apts_with_both": 66,
  "apts_ratio_80_plus": 2,
- "apts_ratio_70_plus": 21,
+ "apts_ratio_70_plus": 23,
  "umd": {
   "도당동": {
    "jeonse_n": 3,
@@ -27,25 +27,25 @@
    "ratio": 67.6
   },
   "상동": {
-   "jeonse_n": 395,
+   "jeonse_n": 411,
    "jeonse_median84": 47250,
-   "sale_n": 522,
+   "sale_n": 534,
    "sale_median84": 70000,
    "ratio": 67.5
   },
   "약대동": {
    "jeonse_n": 67,
    "jeonse_median84": 49000,
-   "sale_n": 101,
-   "sale_median84": 70500,
-   "ratio": 69.5
+   "sale_n": 106,
+   "sale_median84": 70000,
+   "ratio": 70.0
   },
   "역곡동": {
-   "jeonse_n": 42,
+   "jeonse_n": 43,
    "jeonse_median84": 40000,
-   "sale_n": 86,
-   "sale_median84": 57150,
-   "ratio": 70.0
+   "sale_n": 89,
+   "sale_median84": 57000,
+   "ratio": 70.2
   },
   "원미동": {
    "jeonse_n": 21,
@@ -55,14 +55,14 @@
    "ratio": 72.2
   },
   "중동": {
-   "jeonse_n": 401,
+   "jeonse_n": 411,
    "jeonse_median84": 47000,
-   "sale_n": 594,
-   "sale_median84": 68350,
-   "ratio": 68.8
+   "sale_n": 613,
+   "sale_median84": 68500,
+   "ratio": 68.6
   },
   "춘의동": {
-   "jeonse_n": 13,
+   "jeonse_n": 14,
    "jeonse_median84": 35000,
    "sale_n": 9,
    "sale_median84": 47000,
@@ -91,24 +91,24 @@
    "ratio": 80.4
   },
   {
-   "umd": "중동",
-   "apt": "복사골(건영)",
-   "built": 1993,
-   "jeonse_n": 2,
-   "jeonse_median84": 40000,
-   "sale_n": 12,
-   "sale_median84": 51250,
-   "ratio": 78.0
-  },
-  {
    "umd": "상동",
    "apt": "상동스카이뷰자이",
    "built": 2018,
    "jeonse_n": 27,
    "jeonse_median84": 60000,
-   "sale_n": 29,
+   "sale_n": 31,
    "sale_median84": 77000,
    "ratio": 77.9
+  },
+  {
+   "umd": "중동",
+   "apt": "복사골(건영)",
+   "built": 1993,
+   "jeonse_n": 2,
+   "jeonse_median84": 40000,
+   "sale_n": 14,
+   "sale_median84": 51600,
+   "ratio": 77.5
   },
   {
    "umd": "중동",
@@ -116,8 +116,8 @@
    "built": 2006,
    "jeonse_n": 3,
    "jeonse_median84": 52000,
-   "sale_n": 6,
-   "sale_median84": 67950,
+   "sale_n": 7,
+   "sale_median84": 68000,
    "ratio": 76.5
   },
   {
@@ -131,12 +131,22 @@
    "ratio": 76.0
   },
   {
+   "umd": "상동",
+   "apt": "한아름마을(현대,라이프)",
+   "built": 1993,
+   "jeonse_n": 28,
+   "jeonse_median84": 39250,
+   "sale_n": 47,
+   "sale_median84": 52700,
+   "ratio": 74.5
+  },
+  {
    "umd": "중동",
    "apt": "연화마을(건영)",
    "built": 1994,
    "jeonse_n": 7,
    "jeonse_median84": 38000,
-   "sale_n": 18,
+   "sale_n": 19,
    "sale_median84": 51000,
    "ratio": 74.5
   },
@@ -149,16 +159,6 @@
    "sale_n": 3,
    "sale_median84": 54000,
    "ratio": 74.1
-  },
-  {
-   "umd": "상동",
-   "apt": "한아름마을(현대,라이프)",
-   "built": 1993,
-   "jeonse_n": 27,
-   "jeonse_median84": 39000,
-   "sale_n": 47,
-   "sale_median84": 52700,
-   "ratio": 74.0
   },
   {
    "umd": "원미동",
@@ -184,29 +184,29 @@
   },
   {
    "umd": "중동",
+   "apt": "미리내마을(롯데2)",
+   "built": 1993,
+   "jeonse_n": 7,
+   "jeonse_median84": 40000,
+   "sale_n": 12,
+   "sale_median84": 70450,
+   "ratio": 56.8
+  },
+  {
+   "umd": "중동",
    "apt": "포도마을(삼보)",
    "built": 1994,
-   "jeonse_n": 11,
+   "jeonse_n": 12,
    "jeonse_median84": 45000,
    "sale_n": 14,
    "sale_median84": 77850,
    "ratio": 57.8
   },
   {
-   "umd": "중동",
-   "apt": "미리내마을(롯데2)",
-   "built": 1993,
-   "jeonse_n": 7,
-   "jeonse_median84": 40000,
-   "sale_n": 11,
-   "sale_median84": 69200,
-   "ratio": 57.8
-  },
-  {
    "umd": "상동",
    "apt": "진달래마을(효성)",
    "built": 2002,
-   "jeonse_n": 21,
+   "jeonse_n": 23,
    "jeonse_median84": 51000,
    "sale_n": 28,
    "sale_median84": 87750,
@@ -274,27 +274,27 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 267,
-   "n84": 63,
+   "jeonse_count": 269,
+   "n84": 64,
    "jeonse_median84": 47000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 270,
-   "n84": 65,
-   "jeonse_median84": 49000
+   "jeonse_count": 275,
+   "n84": 66,
+   "jeonse_median84": 49175
   },
   {
    "month": "2026-10",
-   "jeonse_count": 294,
-   "n84": 73,
-   "jeonse_median84": 51500
+   "jeonse_count": 308,
+   "n84": 77,
+   "jeonse_median84": 52000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 69,
-   "n84": 21,
-   "jeonse_median84": 47000
+   "jeonse_count": 184,
+   "n84": 44,
+   "jeonse_median84": 45600
   }
  ],
  "rank": 98,

@@ -1,63 +1,63 @@
 {
  "lawd": "41630",
  "name": "경기도 양주시",
- "updated": "2026-11-12",
+ "updated": "2026-11-26",
  "months": 12,
- "jeonse_count": 2981,
- "wolse_count": 5476,
- "wolse_share_pct": 64.8,
- "renew_share_pct": 37.3,
- "jeonse_n84": 1387,
- "jeonse_median84": 24150,
- "sale_n84": 1333,
+ "jeonse_count": 3116,
+ "wolse_count": 5671,
+ "wolse_share_pct": 64.5,
+ "renew_share_pct": 37.1,
+ "jeonse_n84": 1453,
+ "jeonse_median84": 24500,
+ "sale_n84": 1379,
  "sale_median84": 33500,
- "ratio84": 72.1,
+ "ratio84": 73.1,
  "jeonse_recent3_median84": 26250,
  "jeonse_prev3_median84": 25000,
  "jeonse_change_pct": 5.0,
- "apts_with_both": 82,
+ "apts_with_both": 83,
  "apts_ratio_80_plus": 19,
- "apts_ratio_70_plus": 50,
+ "apts_ratio_70_plus": 51,
  "umd": {
   "고암동": {
    "jeonse_n": 36,
    "jeonse_median84": 17000,
-   "sale_n": 42,
-   "sale_median84": 22850,
-   "ratio": 74.4
+   "sale_n": 44,
+   "sale_median84": 22550,
+   "ratio": 75.4
   },
   "고읍동": {
-   "jeonse_n": 77,
+   "jeonse_n": 81,
    "jeonse_median84": 21000,
-   "sale_n": 36,
+   "sale_n": 38,
    "sale_median84": 32000,
    "ratio": 65.6
   },
   "광사동": {
-   "jeonse_n": 53,
+   "jeonse_n": 56,
    "jeonse_median84": 21000,
-   "sale_n": 63,
+   "sale_n": 65,
    "sale_median84": 29000,
    "ratio": 72.4
   },
   "덕계동": {
-   "jeonse_n": 220,
+   "jeonse_n": 225,
    "jeonse_median84": 23000,
-   "sale_n": 204,
+   "sale_n": 212,
    "sale_median84": 26600,
    "ratio": 86.5
   },
   "덕정동": {
-   "jeonse_n": 92,
+   "jeonse_n": 95,
    "jeonse_median84": 20000,
-   "sale_n": 62,
-   "sale_median84": 27850,
-   "ratio": 71.8
+   "sale_n": 63,
+   "sale_median84": 27700,
+   "ratio": 72.2
   },
   "백석읍 가업리": {
    "jeonse_n": 16,
    "jeonse_median84": 13000,
-   "sale_n": 21,
+   "sale_n": 23,
    "sale_median84": 16000,
    "ratio": 81.2
   },
@@ -69,7 +69,7 @@
    "ratio": 83.9
   },
   "백석읍 복지리": {
-   "jeonse_n": 16,
+   "jeonse_n": 19,
    "jeonse_median84": 15000,
    "sale_n": 24,
    "sale_median84": 17875,
@@ -85,30 +85,30 @@
   "산북동": {
    "jeonse_n": 13,
    "jeonse_median84": 12000,
-   "sale_n": 17,
-   "sale_median84": 17300,
-   "ratio": 69.4
+   "sale_n": 18,
+   "sale_median84": 17375,
+   "ratio": 69.1
   },
   "삼숭동": {
-   "jeonse_n": 163,
+   "jeonse_n": 174,
    "jeonse_median84": 20000,
-   "sale_n": 181,
-   "sale_median84": 22700,
-   "ratio": 88.1
+   "sale_n": 191,
+   "sale_median84": 22800,
+   "ratio": 87.7
   },
   "옥정동": {
-   "jeonse_n": 616,
+   "jeonse_n": 641,
    "jeonse_median84": 29400,
-   "sale_n": 598,
-   "sale_median84": 42500,
-   "ratio": 69.2
+   "sale_n": 615,
+   "sale_median84": 42700,
+   "ratio": 68.9
   },
   "장흥면 부곡리": {
-   "jeonse_n": 5,
-   "jeonse_median84": 16500,
+   "jeonse_n": 7,
+   "jeonse_median84": 18000,
    "sale_n": 18,
    "sale_median84": 23600,
-   "ratio": 69.9
+   "ratio": 76.3
   },
   "장흥면 일영리": {
    "jeonse_n": 19,
@@ -118,33 +118,33 @@
    "ratio": 76.9
   },
   "회정동": {
-   "jeonse_n": 40,
-   "jeonse_median84": 20000,
-   "sale_n": 37,
+   "jeonse_n": 49,
+   "jeonse_median84": 20500,
+   "sale_n": 38,
    "sale_median84": 22500,
-   "ratio": 88.9
+   "ratio": 91.1
   }
  },
  "top_ratio_apts": [
+  {
+   "umd": "백석읍 복지리",
+   "apt": "태영데시안",
+   "built": 1999,
+   "jeonse_n": 5,
+   "jeonse_median84": 15000,
+   "sale_n": 2,
+   "sale_median84": 16000,
+   "ratio": 93.8
+  },
   {
    "umd": "덕정동",
    "apt": "융보",
    "built": 1992,
    "jeonse_n": 5,
    "jeonse_median84": 13000,
-   "sale_n": 6,
-   "sale_median84": 14250,
-   "ratio": 91.2
-  },
-  {
-   "umd": "백석읍 복지리",
-   "apt": "태영데시안",
-   "built": 1999,
-   "jeonse_n": 4,
-   "jeonse_median84": 14500,
-   "sale_n": 2,
-   "sale_median84": 16000,
-   "ratio": 90.6
+   "sale_n": 7,
+   "sale_median84": 14000,
+   "ratio": 92.9
   },
   {
    "umd": "회정동",
@@ -160,7 +160,7 @@
    "umd": "백석읍 복지리",
    "apt": "동화은하수(초록마을)",
    "built": 1999,
-   "jeonse_n": 2,
+   "jeonse_n": 3,
    "jeonse_median84": 14000,
    "sale_n": 3,
    "sale_median84": 16000,
@@ -187,24 +187,14 @@
    "ratio": 86.8
   },
   {
-   "umd": "덕계동",
-   "apt": "덕계신도브래뉴",
-   "built": 2012,
-   "jeonse_n": 5,
-   "jeonse_median84": 19500,
-   "sale_n": 10,
-   "sale_median84": 22600,
-   "ratio": 86.3
-  },
-  {
    "umd": "회정동",
    "apt": "양주회정범양",
    "built": 2003,
    "jeonse_n": 16,
    "jeonse_median84": 19000,
-   "sale_n": 27,
-   "sale_median84": 22300,
-   "ratio": 85.2
+   "sale_n": 28,
+   "sale_median84": 22200,
+   "ratio": 85.6
   },
   {
    "umd": "삼숭동",
@@ -225,6 +215,16 @@
    "sale_n": 7,
    "sale_median84": 14900,
    "ratio": 83.9
+  },
+  {
+   "umd": "덕계동",
+   "apt": "신우",
+   "built": 1994,
+   "jeonse_n": 2,
+   "jeonse_median84": 16000,
+   "sale_n": 4,
+   "sale_median84": 19100,
+   "ratio": 83.8
   }
  ],
  "low_ratio_apts": [
@@ -244,19 +244,19 @@
    "built": 2023,
    "jeonse_n": 39,
    "jeonse_median84": 23100,
-   "sale_n": 21,
-   "sale_median84": 46000,
-   "ratio": 50.2
+   "sale_n": 22,
+   "sale_median84": 45500,
+   "ratio": 50.8
   },
   {
    "umd": "덕계동",
    "apt": "회천파밀리에더퍼스트",
    "built": 2024,
-   "jeonse_n": 49,
-   "jeonse_median84": 25000,
-   "sale_n": 18,
-   "sale_median84": 47050,
-   "ratio": 53.1
+   "jeonse_n": 50,
+   "jeonse_median84": 25100,
+   "sale_n": 19,
+   "sale_median84": 47100,
+   "ratio": 53.3
   },
   {
    "umd": "덕정동",
@@ -272,7 +272,7 @@
    "umd": "백석읍 홍죽리",
    "apt": "新양주모아엘가니케",
    "built": 2024,
-   "jeonse_n": 8,
+   "jeonse_n": 9,
    "jeonse_median84": 18000,
    "sale_n": 2,
    "sale_median84": 32300,
@@ -306,19 +306,19 @@
   },
   {
    "month": "2026-04",
-   "jeonse_count": 273,
+   "jeonse_count": 275,
    "n84": 128,
    "jeonse_median84": 25100
   },
   {
    "month": "2026-05",
-   "jeonse_count": 252,
+   "jeonse_count": 253,
    "n84": 124,
    "jeonse_median84": 25600
   },
   {
    "month": "2026-06",
-   "jeonse_count": 306,
+   "jeonse_count": 307,
    "n84": 145,
    "jeonse_median84": 25000
   },
@@ -330,41 +330,41 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 242,
+   "jeonse_count": 245,
    "n84": 111,
    "jeonse_median84": 26000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 229,
+   "jeonse_count": 230,
    "n84": 97,
    "jeonse_median84": 27000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 228,
-   "n84": 110,
-   "jeonse_median84": 27300
+   "jeonse_count": 250,
+   "n84": 118,
+   "jeonse_median84": 27500
   },
   {
    "month": "2026-11",
-   "jeonse_count": 42,
-   "n84": 19,
-   "jeonse_median84": 25000
+   "jeonse_count": 147,
+   "n84": 77,
+   "jeonse_median84": 26000
   }
  ],
- "rank": 89,
+ "rank": 81,
  "rank_of": 180,
  "avg_ratio84_all": 72.6,
- "ratio_vs_avg_pp": -0.5,
+ "ratio_vs_avg_pp": 0.5,
  "umd_ratio_high": {
   "name": "회정동",
-  "ratio": 88.9
+  "ratio": 91.1
  },
  "umd_ratio_low": {
   "name": "고읍동",
   "ratio": 65.6
  },
- "umd_spread_pp": 23.3,
- "gap84": 9350
+ "umd_spread_pp": 25.5,
+ "gap84": 9000
 }

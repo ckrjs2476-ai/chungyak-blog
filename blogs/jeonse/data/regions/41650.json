@@ -1,30 +1,30 @@
 {
  "lawd": "41650",
  "name": "경기도 포천시",
- "updated": "2026-11-12",
+ "updated": "2026-11-26",
  "months": 12,
- "jeonse_count": 521,
- "wolse_count": 646,
- "wolse_share_pct": 55.4,
- "renew_share_pct": 15.5,
- "jeonse_n84": 241,
- "jeonse_median84": 26000,
- "sale_n84": 200,
+ "jeonse_count": 542,
+ "wolse_count": 666,
+ "wolse_share_pct": 55.1,
+ "renew_share_pct": 16.6,
+ "jeonse_n84": 246,
+ "jeonse_median84": 25500,
+ "sale_n84": 206,
  "sale_median84": 23000,
- "ratio84": 113.0,
+ "ratio84": 110.9,
  "jeonse_recent3_median84": 20000,
  "jeonse_prev3_median84": 20000,
  "jeonse_change_pct": 0.0,
- "apts_with_both": 16,
- "apts_ratio_80_plus": 2,
- "apts_ratio_70_plus": 9,
+ "apts_with_both": 17,
+ "apts_ratio_80_plus": 3,
+ "apts_ratio_70_plus": 10,
  "umd": {
   "군내면 구읍리": {
-   "jeonse_n": 56,
-   "jeonse_median84": 22000,
-   "sale_n": 36,
-   "sale_median84": 38500,
-   "ratio": 57.1
+   "jeonse_n": 57,
+   "jeonse_median84": 23000,
+   "sale_n": 39,
+   "sale_median84": 38900,
+   "ratio": 59.1
   },
   "선단동": {
    "jeonse_n": 6,
@@ -34,18 +34,18 @@
    "ratio": 70.9
   },
   "소흘읍 송우리": {
-   "jeonse_n": 42,
+   "jeonse_n": 45,
    "jeonse_median84": 18900,
-   "sale_n": 92,
+   "sale_n": 94,
    "sale_median84": 24000,
    "ratio": 78.8
   },
   "신읍동": {
-   "jeonse_n": 15,
+   "jeonse_n": 16,
    "jeonse_median84": 11000,
-   "sale_n": 37,
-   "sale_median84": 17500,
-   "ratio": 62.9
+   "sale_n": 38,
+   "sale_median84": 17250,
+   "ratio": 63.8
   }
  },
  "top_ratio_apts": [
@@ -58,6 +58,16 @@
    "sale_n": 2,
    "sale_median84": 16075,
    "ratio": 98.0
+  },
+  {
+   "umd": "신읍동",
+   "apt": "극동1차스타클래스아파트2단지",
+   "built": 2005,
+   "jeonse_n": 2,
+   "jeonse_median84": 19000,
+   "sale_n": 4,
+   "sale_median84": 20650,
+   "ratio": 92.0
   },
   {
    "umd": "소흘읍 송우리",
@@ -75,7 +85,7 @@
    "built": 2005,
    "jeonse_n": 7,
    "jeonse_median84": 18000,
-   "sale_n": 20,
+   "sale_n": 22,
    "sale_median84": 23000,
    "ratio": 78.3
   },
@@ -83,7 +93,7 @@
    "umd": "소흘읍 송우리",
    "apt": "태봉마을",
    "built": 2005,
-   "jeonse_n": 14,
+   "jeonse_n": 16,
    "jeonse_median84": 19000,
    "sale_n": 28,
    "sale_median84": 25000,
@@ -138,16 +148,6 @@
    "sale_n": 20,
    "sale_median84": 18700,
    "ratio": 70.9
-  },
-  {
-   "umd": "군내면 구읍리",
-   "apt": "포천아이파크",
-   "built": 2017,
-   "jeonse_n": 2,
-   "jeonse_median84": 23050,
-   "sale_n": 3,
-   "sale_median84": 33200,
-   "ratio": 69.4
   }
  ],
  "low_ratio_apts": [
@@ -155,11 +155,11 @@
    "umd": "군내면 구읍리",
    "apt": "포천금호어울림센트럴",
    "built": 2023,
-   "jeonse_n": 48,
+   "jeonse_n": 49,
    "jeonse_median84": 21000,
-   "sale_n": 29,
-   "sale_median84": 39000,
-   "ratio": 53.8
+   "sale_n": 32,
+   "sale_median84": 39500,
+   "ratio": 53.2
   },
   {
    "umd": "소흘읍 송우리",
@@ -177,19 +177,9 @@
    "built": 1999,
    "jeonse_n": 3,
    "jeonse_median84": 11000,
-   "sale_n": 7,
-   "sale_median84": 16800,
-   "ratio": 65.5
-  },
-  {
-   "umd": "소흘읍 송우리",
-   "apt": "석향마을대방노블랜드",
-   "built": 2005,
-   "jeonse_n": 4,
-   "jeonse_median84": 18450,
-   "sale_n": 11,
-   "sale_median84": 27500,
-   "ratio": 67.1
+   "sale_n": 8,
+   "sale_median84": 16900,
+   "ratio": 65.1
   },
   {
    "umd": "군내면 구읍리",
@@ -200,6 +190,16 @@
    "sale_n": 4,
    "sale_median84": 34750,
    "ratio": 67.6
+  },
+  {
+   "umd": "소흘읍 송우리",
+   "apt": "석향마을대방노블랜드",
+   "built": 2005,
+   "jeonse_n": 5,
+   "jeonse_median84": 18900,
+   "sale_n": 11,
+   "sale_median84": 27500,
+   "ratio": 68.7
   }
  ],
  "monthly": [
@@ -259,35 +259,35 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 21,
-   "n84": 8,
-   "jeonse_median84": 19500
+   "jeonse_count": 23,
+   "n84": 9,
+   "jeonse_median84": 19000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 28,
-   "n84": 8,
+   "jeonse_count": 30,
+   "n84": 9,
    "jeonse_median84": 20000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 2,
-   "n84": 1,
-   "jeonse_median84": 24000
+   "jeonse_count": 19,
+   "n84": 4,
+   "jeonse_median84": 22000
   }
  ],
  "rank": 7,
  "rank_of": 180,
  "avg_ratio84_all": 72.6,
- "ratio_vs_avg_pp": 40.4,
+ "ratio_vs_avg_pp": 38.3,
  "umd_ratio_high": {
   "name": "소흘읍 송우리",
   "ratio": 78.8
  },
  "umd_ratio_low": {
   "name": "군내면 구읍리",
-  "ratio": 57.1
+  "ratio": 59.1
  },
- "umd_spread_pp": 21.7,
- "gap84": -3000
+ "umd_spread_pp": 19.7,
+ "gap84": -2500
 }

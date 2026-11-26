@@ -1,20 +1,20 @@
 {
  "lawd": "41820",
  "name": "경기도 가평군",
- "updated": "2026-11-12",
+ "updated": "2026-11-26",
  "months": 12,
- "jeonse_count": 230,
- "wolse_count": 183,
- "wolse_share_pct": 44.3,
- "renew_share_pct": 28.7,
- "jeonse_n84": 129,
+ "jeonse_count": 239,
+ "wolse_count": 198,
+ "wolse_share_pct": 45.3,
+ "renew_share_pct": 28.0,
+ "jeonse_n84": 132,
  "jeonse_median84": 22000,
  "sale_n84": 105,
  "sale_median84": 25000,
  "ratio84": 88.0,
- "jeonse_recent3_median84": 21500,
+ "jeonse_recent3_median84": 21000,
  "jeonse_prev3_median84": 23000,
- "jeonse_change_pct": -6.5,
+ "jeonse_change_pct": -8.7,
  "apts_with_both": 10,
  "apts_ratio_80_plus": 4,
  "apts_ratio_70_plus": 6,
@@ -27,7 +27,7 @@
    "ratio": 100.2
   },
   "가평읍 읍내리": {
-   "jeonse_n": 72,
+   "jeonse_n": 73,
    "jeonse_median84": 22000,
    "sale_n": 30,
    "sale_median84": 26350,
@@ -41,18 +41,18 @@
    "ratio": 76.9
   },
   "설악면 신천리": {
-   "jeonse_n": 23,
-   "jeonse_median84": 24000,
+   "jeonse_n": 24,
+   "jeonse_median84": 24500,
    "sale_n": 16,
    "sale_median84": 35140,
-   "ratio": 68.3
+   "ratio": 69.7
   },
   "청평면 청평리": {
-   "jeonse_n": 12,
-   "jeonse_median84": 18500,
+   "jeonse_n": 13,
+   "jeonse_median84": 18000,
    "sale_n": 33,
    "sale_median84": 22000,
-   "ratio": 84.1
+   "ratio": 81.8
   }
  },
  "top_ratio_apts": [
@@ -120,11 +120,11 @@
    "umd": "설악면 신천리",
    "apt": "디엘본가평설악아파트",
    "built": 2025,
-   "jeonse_n": 23,
-   "jeonse_median84": 24000,
+   "jeonse_n": 24,
+   "jeonse_median84": 24500,
    "sale_n": 16,
    "sale_median84": 35140,
-   "ratio": 68.3
+   "ratio": 69.7
   },
   {
    "umd": "가평읍 대곡리",
@@ -215,21 +215,21 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 16,
+   "jeonse_count": 17,
    "n84": 6,
    "jeonse_median84": 21500
   },
   {
    "month": "2026-10",
-   "jeonse_count": 6,
-   "n84": 0,
-   "jeonse_median84": null
+   "jeonse_count": 10,
+   "n84": 1,
+   "jeonse_median84": 14000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 1,
-   "n84": 1,
-   "jeonse_median84": 29000
+   "jeonse_count": 5,
+   "n84": 3,
+   "jeonse_median84": 26000
   }
  ],
  "rank": 29,
@@ -242,8 +242,8 @@
  },
  "umd_ratio_low": {
   "name": "설악면 신천리",
-  "ratio": 68.3
+  "ratio": 69.7
  },
- "umd_spread_pp": 31.9,
+ "umd_spread_pp": 30.5,
  "gap84": 3000
 }
