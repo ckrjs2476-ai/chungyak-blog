@@ -1,83 +1,5 @@
 [
  {
-  "name": "cy-sungui-station-norway-forest-the-sky-score-2026-10-card",
-  "ok": true,
-  "card": {
-   "blog": "cheongyak",
-   "layout": "compare",
-   "title": "숭의역 노르웨이숲 더 스카이, 싼 단지인가요?",
-   "answer": "인천 분양가로는 14곳 중 12위, 숭의동 시세보다는 115% 높았어요",
-   "compare": {
-    "head": [
-     "비교 기준",
-     "금액",
-     "84㎡ 최고가와 차이"
-    ],
-    "rows": [
-     [
-      "숭의동 84㎡ 중앙값",
-      "3억 4,000만 원",
-      "115% 높음"
-     ],
-     [
-      "미추홀구 84㎡ 중앙값",
-      "3억 8,500만 원",
-      "90% 높음"
-     ],
-     [
-      "미추홀구 신축 중앙값",
-      "5억 9,300만 원",
-      "24% 높음"
-     ]
-    ]
-   },
-   "source": "청약홈 입주자모집공고·당첨 발표, 국토교통부 실거래가",
-   "date": "2026-10-10"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 29548,
-  "at": "2026-11-20 22:41"
- },
- {
-  "name": "cy-hyangnam-station-grove-switzen-competition-2026-10-card",
-  "ok": true,
-  "card": {
-   "blog": "cheongyak",
-   "layout": "points",
-   "title": "향남역 그로브 스위첸 청약 경쟁률은?",
-   "answer": "1순위 평균 0.64대 1, 마감은 71㎡와 147P 두 타입뿐이었어요",
-   "points": [
-    {
-     "label": "84A 해당지역 신청",
-     "value": "210건"
-    },
-    {
-     "label": "84D 해당지역 신청",
-     "value": "5건"
-    },
-    {
-     "label": "71㎡ 해당지역 경쟁률",
-     "value": "4.05대 1"
-    },
-    {
-     "label": "3.3㎡당 평균 분양가",
-     "value": "1,668만 원"
-    }
-   ],
-   "source": "청약홈 경쟁률",
-   "date": "2026-10-14"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 23466,
-  "at": "2026-11-20 22:41"
- },
- {
   "name": "cy-hillstate-geoje-signature-bunyangga-2026-10-card",
   "ok": true,
   "card": {
@@ -5573,5 +5495,60 @@
   "bytes": 42690,
   "url": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1",
   "at": "2026-11-26 14:39"
+ },
+ {
+  "name": "cy-remainder-cheongyak-2026-11-30-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "11월 30일 무순위 청약, 어느 타입이 다시 나왔나?",
+   "answer": "앞 회차에서 마감된 타입만 나오고, 그때 미달 타입은 목록에 없어요",
+   "compare": {
+    "head": [
+     "단지",
+     "다시 나온 타입",
+     "목록에 없는 미달 타입"
+    ],
+    "rows": [
+     [
+      "신분평 에피트 더웨이시티",
+      "84A 254세대·112㎡ 76세대 등",
+      "59A·75B·84B"
+     ],
+     [
+      "더샵 분당하이스트(2차)",
+      "84A 18세대·84G 12세대 등",
+      "84B·84E·84D·84F"
+     ],
+     [
+      "이천 서희스타힐스 SKY",
+      "84A 2세대·84C 1세대",
+      "84B"
+     ]
+    ]
+   },
+   "source": "청약홈 무순위 공고·경쟁률",
+   "date": "2026-11-26"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 34700,
+  "at": "2026-11-26 19:14"
+ },
+ {
+  "name": "cy-2026910294-remndr",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   728
+  ],
+  "bytes": 26834,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910294&pblancNo=2026910294",
+  "at": "2026-11-26 19:14"
  }
 ]
