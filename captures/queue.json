@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "name": "js-seongbuk-gu-jeonse-built-year-2026-11-card",
+    "card": {
+      "blog": "jeonse",
+      "layout": "compare",
+      "title": "성북구 아파트 전세 61.7%, 단지마다 같습니까?",
+      "answer": "구 전체는 61.7%지만 새 단지 다섯 곳은 45.4~48.0%, 정릉동 여섯 곳은 67.6~72.1%입니다",
+      "compare": {
+        "head": ["구분", "길음·장위 새 단지 5곳", "정릉동 단지 6곳"],
+        "rows": [
+          ["준공", "2019~2022년", "1999~2006년"],
+          ["단지 전세가율", "45.4~48.0%", "67.6~72.1%"],
+          ["단지별 전세 신고", "47~71건", "3~12건"]
+        ]
+      },
+      "source": "국토교통부 실거래가",
+      "date": "2026-11-24"
+    }
+  },
+  {"name": "js-11290-dong", "chart": {"type": "jeonse_dong", "lawd": "11290", "highlight": "정릉동"}},
+  {"name": "js-11290-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "179500"]}, {"fill": ["#dep", "83000"]}, {"pick": ["#reg", "성북구"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+  {"name": "js-11290-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "72500"]}, {"fill": ["#dep", "49000"]}, {"pick": ["#reg", "성북구"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+  {"name": "js-11290-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "서울"], "wait": 2}, {"pick": ["#srhSggCd", "성북"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
+]
