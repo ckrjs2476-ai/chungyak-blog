@@ -1,15 +1,15 @@
 {
  "lawd": "41310",
  "name": "경기도 구리시",
- "updated": "2026-11-12",
+ "updated": "2026-11-26",
  "months": 12,
- "jeonse_count": 2981,
- "wolse_count": 1613,
- "wolse_share_pct": 35.1,
+ "jeonse_count": 3064,
+ "wolse_count": 1692,
+ "wolse_share_pct": 35.6,
  "renew_share_pct": 44.5,
- "jeonse_n84": 1131,
+ "jeonse_n84": 1154,
  "jeonse_median84": 48000,
- "sale_n84": 1222,
+ "sale_n84": 1241,
  "sale_median84": 74500,
  "ratio84": 64.4,
  "jeonse_recent3_median84": 50000,
@@ -20,39 +20,39 @@
  "apts_ratio_70_plus": 5,
  "umd": {
   "갈매동": {
-   "jeonse_n": 245,
+   "jeonse_n": 249,
    "jeonse_median84": 49875,
-   "sale_n": 251,
+   "sale_n": 257,
    "sale_median84": 76500,
    "ratio": 65.2
   },
   "교문동": {
-   "jeonse_n": 162,
+   "jeonse_n": 167,
    "jeonse_median84": 50000,
-   "sale_n": 152,
+   "sale_n": 154,
    "sale_median84": 84250,
    "ratio": 59.3
   },
   "수택동": {
-   "jeonse_n": 134,
-   "jeonse_median84": 53500,
+   "jeonse_n": 139,
+   "jeonse_median84": 54000,
    "sale_n": 139,
    "sale_median84": 77500,
-   "ratio": 69.0
+   "ratio": 69.7
   },
   "인창동": {
-   "jeonse_n": 488,
+   "jeonse_n": 497,
    "jeonse_median84": 45000,
-   "sale_n": 592,
+   "sale_n": 601,
    "sale_median84": 69700,
    "ratio": 64.6
   },
   "토평동": {
    "jeonse_n": 102,
    "jeonse_median84": 52250,
-   "sale_n": 88,
-   "sale_median84": 87800,
-   "ratio": 59.5
+   "sale_n": 90,
+   "sale_median84": 89250,
+   "ratio": 58.5
   }
  },
  "top_ratio_apts": [
@@ -92,7 +92,7 @@
    "built": 2002,
    "jeonse_n": 39,
    "jeonse_median84": 39000,
-   "sale_n": 39,
+   "sale_n": 41,
    "sale_median84": 55000,
    "ratio": 70.9
   },
@@ -100,7 +100,7 @@
    "umd": "인창동",
    "apt": "구리인창2차동문굿모닝힐",
    "built": 2007,
-   "jeonse_n": 11,
+   "jeonse_n": 12,
    "jeonse_median84": 45000,
    "sale_n": 16,
    "sale_median84": 64000,
@@ -118,6 +118,16 @@
   },
   {
    "umd": "인창동",
+   "apt": "인창풍림아이원",
+   "built": 2014,
+   "jeonse_n": 5,
+   "jeonse_median84": 47500,
+   "sale_n": 6,
+   "sale_median84": 68600,
+   "ratio": 69.2
+  },
+  {
+   "umd": "인창동",
    "apt": "더샵그린포레2단지",
    "built": 2015,
    "jeonse_n": 5,
@@ -130,7 +140,7 @@
    "umd": "인창동",
    "apt": "인창칸타빌더헤리티지",
    "built": 2023,
-   "jeonse_n": 5,
+   "jeonse_n": 6,
    "jeonse_median84": 60000,
    "sale_n": 13,
    "sale_median84": 87000,
@@ -145,16 +155,6 @@
    "sale_n": 14,
    "sale_median84": 80000,
    "ratio": 68.8
-  },
-  {
-   "umd": "인창동",
-   "apt": "원일아름",
-   "built": 1998,
-   "jeonse_n": 19,
-   "jeonse_median84": 43000,
-   "sale_n": 31,
-   "sale_median84": 63000,
-   "ratio": 68.3
   }
  ],
  "low_ratio_apts": [
@@ -162,11 +162,11 @@
    "umd": "교문동",
    "apt": "한성",
    "built": 1990,
-   "jeonse_n": 26,
-   "jeonse_median84": 36350,
-   "sale_n": 11,
-   "sale_median84": 80000,
-   "ratio": 45.4
+   "jeonse_n": 27,
+   "jeonse_median84": 36000,
+   "sale_n": 12,
+   "sale_median84": 80250,
+   "ratio": 44.9
   },
   {
    "umd": "교문동",
@@ -199,14 +199,14 @@
    "ratio": 52.1
   },
   {
-   "umd": "인창동",
-   "apt": "삼호",
-   "built": 1991,
-   "jeonse_n": 8,
-   "jeonse_median84": 35500,
-   "sale_n": 8,
-   "sale_median84": 67250,
-   "ratio": 52.8
+   "umd": "수택동",
+   "apt": "대림한숲",
+   "built": 1995,
+   "jeonse_n": 13,
+   "jeonse_median84": 50000,
+   "sale_n": 7,
+   "sale_median84": 96000,
+   "ratio": 52.1
   }
  ],
  "monthly": [
@@ -266,21 +266,21 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 160,
+   "jeonse_count": 163,
    "n84": 64,
    "jeonse_median84": 50000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 202,
-   "n84": 80,
+   "jeonse_count": 212,
+   "n84": 83,
    "jeonse_median84": 50000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 35,
-   "n84": 14,
-   "jeonse_median84": 50200
+   "jeonse_count": 105,
+   "n84": 34,
+   "jeonse_median84": 50650
   }
  ],
  "rank": 128,
@@ -289,12 +289,12 @@
  "ratio_vs_avg_pp": -8.2,
  "umd_ratio_high": {
   "name": "수택동",
-  "ratio": 69.0
+  "ratio": 69.7
  },
  "umd_ratio_low": {
-  "name": "교문동",
-  "ratio": 59.3
+  "name": "토평동",
+  "ratio": 58.5
  },
- "umd_spread_pp": 9.7,
+ "umd_spread_pp": 11.2,
  "gap84": 26500
 }

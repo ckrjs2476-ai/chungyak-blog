@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "count": 180,
  "avg_ratio84": 72.6,
  "regions": [
@@ -598,30 +598,30 @@
    "rank": 66
   },
   {
+   "lawd": "41287",
+   "name": "경기도 고양시 일산서구",
+   "ratio84": 76.2,
+   "jeonse_median84": 31000,
+   "sale_median84": 40700,
+   "jeonse_change_pct": 3.1,
+   "rank": 67
+  },
+  {
    "lawd": "51210",
    "name": "강원특별자치도 속초시",
    "ratio84": 76.1,
    "jeonse_median84": 27000,
    "sale_median84": 35500,
    "jeonse_change_pct": -5.4,
-   "rank": 67
-  },
-  {
-   "lawd": "41287",
-   "name": "경기도 고양시 일산서구",
-   "ratio84": 76.0,
-   "jeonse_median84": 31000,
-   "sale_median84": 40800,
-   "jeonse_change_pct": 1.6,
    "rank": 68
   },
   {
    "lawd": "41410",
    "name": "경기도 군포시",
-   "ratio84": 75.1,
+   "ratio84": 75.7,
    "jeonse_median84": 42000,
-   "sale_median84": 55900,
-   "jeonse_change_pct": 7.1,
+   "sale_median84": 55500,
+   "jeonse_change_pct": 4.8,
    "rank": 69
   },
   {
@@ -724,22 +724,13 @@
    "rank": 80
   },
   {
-   "lawd": "41285",
-   "name": "경기도 고양시 일산동구",
-   "ratio84": 72.8,
-   "jeonse_median84": 42000,
-   "sale_median84": 57700,
-   "jeonse_change_pct": 0.0,
-   "rank": 81
-  },
-  {
    "lawd": "51230",
    "name": "강원특별자치도 삼척시",
    "ratio84": 72.7,
    "jeonse_median84": 24000,
    "sale_median84": 33000,
    "jeonse_change_pct": 17.4,
-   "rank": 82
+   "rank": 81
   },
   {
    "lawd": "28200",
@@ -748,7 +739,7 @@
    "jeonse_median84": 32000,
    "sale_median84": 44000,
    "jeonse_change_pct": 5.4,
-   "rank": 83
+   "rank": 82
   },
   {
    "lawd": "41171",
@@ -757,6 +748,15 @@
    "jeonse_median84": 45000,
    "sale_median84": 62000,
    "jeonse_change_pct": 6.4,
+   "rank": 83
+  },
+  {
+   "lawd": "41370",
+   "name": "경기도 오산시",
+   "ratio84": 72.5,
+   "jeonse_median84": 29000,
+   "sale_median84": 40000,
+   "jeonse_change_pct": 4.3,
    "rank": 84
   },
   {
@@ -805,21 +805,21 @@
    "rank": 89
   },
   {
-   "lawd": "41370",
-   "name": "경기도 오산시",
-   "ratio84": 71.8,
-   "jeonse_median84": 29000,
-   "sale_median84": 40400,
-   "jeonse_change_pct": 4.3,
-   "rank": 90
-  },
-  {
    "lawd": "41570",
    "name": "경기도 김포시",
    "ratio84": 71.7,
    "jeonse_median84": 33000,
    "sale_median84": 46000,
    "jeonse_change_pct": 3.0,
+   "rank": 90
+  },
+  {
+   "lawd": "41285",
+   "name": "경기도 고양시 일산동구",
+   "ratio84": 71.7,
+   "jeonse_median84": 41600,
+   "sale_median84": 58000,
+   "jeonse_change_pct": -2.4,
    "rank": 91
   },
   {
@@ -904,22 +904,13 @@
    "rank": 100
   },
   {
-   "lawd": "41220",
-   "name": "경기도 평택시",
-   "ratio84": 68.5,
-   "jeonse_median84": 25000,
-   "sale_median84": 36500,
-   "jeonse_change_pct": 0.0,
-   "rank": 101
-  },
-  {
    "lawd": "26170",
    "name": "부산광역시 동구",
    "ratio84": 68.3,
    "jeonse_median84": 33600,
    "sale_median84": 49175,
    "jeonse_change_pct": 7.8,
-   "rank": 102
+   "rank": 101
   },
   {
    "lawd": "27200",
@@ -928,7 +919,7 @@
    "jeonse_median84": 28000,
    "sale_median84": 41000,
    "jeonse_change_pct": 2.1,
-   "rank": 103
+   "rank": 102
   },
   {
    "lawd": "50130",
@@ -937,7 +928,7 @@
    "jeonse_median84": 28000,
    "sale_median84": 41000,
    "jeonse_change_pct": 24.0,
-   "rank": 104
+   "rank": 103
   },
   {
    "lawd": "30170",
@@ -946,7 +937,7 @@
    "jeonse_median84": 30500,
    "sale_median84": 44725,
    "jeonse_change_pct": 6.7,
-   "rank": 105
+   "rank": 104
   },
   {
    "lawd": "26140",
@@ -955,7 +946,7 @@
    "jeonse_median84": 36000,
    "sale_median84": 53000,
    "jeonse_change_pct": -5.3,
-   "rank": 106
+   "rank": 105
   },
   {
    "lawd": "11320",
@@ -964,7 +955,7 @@
    "jeonse_median84": 42000,
    "sale_median84": 62000,
    "jeonse_change_pct": 0.6,
-   "rank": 107
+   "rank": 106
   },
   {
    "lawd": "48125",
@@ -973,6 +964,15 @@
    "jeonse_median84": 23000,
    "sale_median84": 34000,
    "jeonse_change_pct": 9.1,
+   "rank": 107
+  },
+  {
+   "lawd": "41220",
+   "name": "경기도 평택시",
+   "ratio84": 67.6,
+   "jeonse_median84": 25000,
+   "sale_median84": 37000,
+   "jeonse_change_pct": 0.0,
    "rank": 108
   },
   {
@@ -1021,12 +1021,12 @@
    "rank": 113
   },
   {
-   "lawd": "41463",
-   "name": "경기도 용인시 기흥구",
-   "ratio84": 66.3,
-   "jeonse_median84": 40000,
-   "sale_median84": 60300,
-   "jeonse_change_pct": 7.5,
+   "lawd": "41360",
+   "name": "경기도 남양주시",
+   "ratio84": 66.6,
+   "jeonse_median84": 34650,
+   "sale_median84": 52000,
+   "jeonse_change_pct": -18.3,
    "rank": 114
   },
   {
@@ -1048,30 +1048,30 @@
    "rank": 116
   },
   {
+   "lawd": "41463",
+   "name": "경기도 용인시 기흥구",
+   "ratio84": 66.1,
+   "jeonse_median84": 40000,
+   "sale_median84": 60500,
+   "jeonse_change_pct": 9.2,
+   "rank": 117
+  },
+  {
+   "lawd": "41281",
+   "name": "경기도 고양시 덕양구",
+   "ratio84": 66.1,
+   "jeonse_median84": 47250,
+   "sale_median84": 71500,
+   "jeonse_change_pct": 2.1,
+   "rank": 118
+  },
+  {
    "lawd": "11110",
    "name": "서울특별시 종로구",
    "ratio84": 66.1,
    "jeonse_median84": 80000,
    "sale_median84": 121000,
    "jeonse_change_pct": -9.6,
-   "rank": 117
-  },
-  {
-   "lawd": "41360",
-   "name": "경기도 남양주시",
-   "ratio84": 66.0,
-   "jeonse_median84": 34650,
-   "sale_median84": 52500,
-   "jeonse_change_pct": -18.3,
-   "rank": 118
-  },
-  {
-   "lawd": "41281",
-   "name": "경기도 고양시 덕양구",
-   "ratio84": 66.0,
-   "jeonse_median84": 47200,
-   "sale_median84": 71500,
-   "jeonse_change_pct": 2.1,
    "rank": 119
   },
   {
@@ -1120,22 +1120,13 @@
    "rank": 124
   },
   {
-   "lawd": "41273",
-   "name": "경기도 안산시 단원구",
-   "ratio84": 65.1,
-   "jeonse_median84": 35000,
-   "sale_median84": 53800,
-   "jeonse_change_pct": -1.8,
-   "rank": 125
-  },
-  {
    "lawd": "11260",
    "name": "서울특별시 중랑구",
    "ratio84": 65.0,
    "jeonse_median84": 49350,
    "sale_median84": 75950,
    "jeonse_change_pct": 0.0,
-   "rank": 126
+   "rank": 125
   },
   {
    "lawd": "41390",
@@ -1144,6 +1135,15 @@
    "jeonse_median84": 35000,
    "sale_median84": 54000,
    "jeonse_change_pct": 2.0,
+   "rank": 126
+  },
+  {
+   "lawd": "41273",
+   "name": "경기도 안산시 단원구",
+   "ratio84": 64.8,
+   "jeonse_median84": 35000,
+   "sale_median84": 54000,
+   "jeonse_change_pct": -2.8,
    "rank": 127
   },
   {
@@ -1156,21 +1156,21 @@
    "rank": 128
   },
   {
-   "lawd": "41430",
-   "name": "경기도 의왕시",
-   "ratio84": 64.1,
-   "jeonse_median84": 50000,
-   "sale_median84": 78000,
-   "jeonse_change_pct": 0.0,
-   "rank": 129
-  },
-  {
    "lawd": "26470",
    "name": "부산광역시 연제구",
    "ratio84": 63.9,
    "jeonse_median84": 38000,
    "sale_median84": 59500,
    "jeonse_change_pct": 0.0,
+   "rank": 129
+  },
+  {
+   "lawd": "41430",
+   "name": "경기도 의왕시",
+   "ratio84": 63.9,
+   "jeonse_median84": 50000,
+   "sale_median84": 78275,
+   "jeonse_change_pct": -0.4,
    "rank": 130
   },
   {
@@ -1179,7 +1179,7 @@
    "ratio84": 63.8,
    "jeonse_median84": 30000,
    "sale_median84": 47000,
-   "jeonse_change_pct": 18.6,
+   "jeonse_change_pct": 15.3,
    "rank": 131
   },
   {
@@ -1255,22 +1255,13 @@
    "rank": 139
   },
   {
-   "lawd": "41465",
-   "name": "경기도 용인시 수지구",
-   "ratio84": 60.2,
-   "jeonse_median84": 57750,
-   "sale_median84": 96000,
-   "jeonse_change_pct": 0.8,
-   "rank": 140
-  },
-  {
    "lawd": "11230",
    "name": "서울특별시 동대문구",
    "ratio84": 60.2,
    "jeonse_median84": 65000,
    "sale_median84": 108000,
    "jeonse_change_pct": 5.7,
-   "rank": 141
+   "rank": 140
   },
   {
    "lawd": "28275",
@@ -1279,7 +1270,7 @@
    "jeonse_median84": 36000,
    "sale_median84": 59900,
    "jeonse_change_pct": 2.8,
-   "rank": 142
+   "rank": 141
   },
   {
    "lawd": "26350",
@@ -1288,6 +1279,15 @@
    "jeonse_median84": 36000,
    "sale_median84": 60000,
    "jeonse_change_pct": 2.7,
+   "rank": 142
+  },
+  {
+   "lawd": "41465",
+   "name": "경기도 용인시 수지구",
+   "ratio84": 59.8,
+   "jeonse_median84": 58000,
+   "sale_median84": 97000,
+   "jeonse_change_pct": 0.6,
    "rank": 143
   },
   {
@@ -1356,8 +1356,8 @@
   {
    "lawd": "41450",
    "name": "경기도 하남시",
-   "ratio84": 56.4,
-   "jeonse_median84": 62000,
+   "ratio84": 56.7,
+   "jeonse_median84": 62343,
    "sale_median84": 110000,
    "jeonse_change_pct": 0.0,
    "rank": 151
@@ -1573,9 +1573,9 @@
    "lawd": "41290",
    "name": "경기도 과천시",
    "ratio84": 39.7,
-   "jeonse_median84": 94000,
-   "sale_median84": 236500,
-   "jeonse_change_pct": -1.6,
+   "jeonse_median84": 94500,
+   "sale_median84": 238250,
+   "jeonse_change_pct": 1.4,
    "rank": 175
   },
   {
