@@ -457,13 +457,18 @@ def faq_jsonld(body: str) -> str:
     return '<script type="application/ld+json">' + data.replace("</", "<\\/") + "</script>"
 
 
+# 글쓴이 표시(블로그별). 드론: 사용자 실제 이력(서울 드론자격증 교육원 7년 운영, 사용자 결정 11/26). 교육원 이름은 홍보 금지라 넣지 않는다.
+AUTHOR = {"drone": ("드론 정보노트 운영자", "서울에서 드론 자격증 교육원을 7년 운영")}
+
+
 def byline_block(file: str, published: str) -> str:
     """글쓴이·처음 올린 날·마지막으로 고친 날(원고 파일의 실제 마지막 수정일)·자료 출처. 날짜를 지어내지 않는다."""
     pages = json.loads(PAGES_JSON.read_text("utf-8")) if PAGES_JSON.exists() else {}
     about = (pages.get("about.md") or {}).get("url")
-    who = f'<a href="{about}" style="color:#1a56db;">데이터노트</a>' if about else "데이터노트"
+    name, bio = AUTHOR.get(BLOG, ("데이터노트", ""))
+    who = f'<a href="{about}" style="color:#1a56db;">{name}</a>' if about else name
     edited = _git_date(DONE / file) if file else ""
-    parts = [f"글쓴이 {who}"]
+    parts = [f"글쓴이 {who}" + (f"({bio})" if bio else "")]
     if published:
         parts.append(f"처음 올림 {published}")
     if edited and published and edited > published:
@@ -482,7 +487,8 @@ def article_jsonld(meta: dict, file: str, published: str, url: str = "") -> str:
     about = (pages.get("about.md") or {}).get("url")
     edited = _git_date(DONE / file) if file else ""
     d = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": str(meta["title"])[:110],
-         "inLanguage": "ko-KR", "author": {"@type": "Person", "name": "데이터노트", **({"url": about} if about else {})}}
+         "inLanguage": "ko-KR", "author": {"@type": "Person", "name": AUTHOR.get(BLOG, ("데이터노트", ""))[0],
+                    **({"description": AUTHOR[BLOG][1]} if BLOG in AUTHOR else {}), **({"url": about} if about else {})}}
     if meta.get("description"):
         d["description"] = str(meta["description"])
     if published:
