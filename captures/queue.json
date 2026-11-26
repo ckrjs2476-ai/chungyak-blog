@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "name": "dr-drone-rental-duty-2026-card",
+    "card": {
+      "blog": "drone",
+      "layout": "compare",
+      "title": "드론 임대, 같은 1.5kg 드론도 의무가 달라지나요?",
+      "answer": "돈 받고 빌려주면 2kg 이하도 신고·보험 대상",
+      "compare": {
+        "head": [
+          "같은 1.5kg 드론",
+          "장치신고",
+          "보험"
+        ],
+        "rows": [
+          [
+            "개인 취미 비행",
+            "제외(2kg 이하)",
+            "의무 없음"
+          ],
+          [
+            "유상 대여(대여업)",
+            "대상",
+            "의무"
+          ],
+          [
+            "빌려서 유상 촬영(사용사업)",
+            "대상",
+            "의무"
+          ]
+        ]
+      },
+      "source": "항공사업법 제2조·항공안전법 제122조·법제처 생활법령정보",
+      "date": "2026-11-26"
+    }
+  },
+  {
+    "name": "dr-drone-rental-duty-2026-easylaw",
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1",
+    "sleep": 4,
+    "height": 700
+  }
+]
