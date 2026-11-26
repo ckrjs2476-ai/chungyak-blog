@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 12:30",
+ "updated": "2026-11-26 11:45",
  "stage": 2,
  "band": [
   300,
@@ -32,7 +32,7 @@
   },
   {
    "keyword": "관리비고지서",
-   "volume": 760,
+   "volume": 750,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -67,8 +67,20 @@
    "used": true
   },
   {
+   "keyword": "아파트난방비",
+   "volume": 150,
+   "comp": "높음",
+   "entity": "주제 글(우리 단지 데이터로 예시)",
+   "entity_id": "topic",
+   "base_score": 42.0,
+   "growth": 1.1,
+   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
+   "score": 46.2,
+   "used": true
+  },
+  {
    "keyword": "장기수선충당금",
-   "volume": 12250,
+   "volume": 12380,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -92,7 +104,7 @@
   },
   {
    "keyword": "관리비항목",
-   "volume": 50,
+   "volume": 60,
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -104,7 +116,7 @@
   },
   {
    "keyword": "관리사무소",
-   "volume": 3130,
+   "volume": 3110,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -847,18 +859,6 @@
    "used": false
   },
   {
-   "keyword": "성동구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "성동구",
-   "entity_id": "region:11200",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "서울숲더샵관리비",
    "volume": 10,
    "comp": "낮음",
@@ -888,18 +888,6 @@
    "comp": "낮음",
    "entity": "서울숲힐스테이트",
    "entity_id": "A13378001",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "성동구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "성동구",
-   "entity_id": "region:11200",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -1992,6 +1980,18 @@
    "comp": "낮음",
    "entity": "용두 롯데 캐슬리치",
    "entity_id": "A10028080",
+   "base_score": 20.0,
+   "growth": 1.0,
+   "why": "",
+   "score": 20.0,
+   "used": false
+  },
+  {
+   "keyword": "청량리역롯데캐슬SKYL65관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "롯데",
+   "entity_id": "A40680104",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -4567,18 +4567,6 @@
    "used": false
   },
   {
-   "keyword": "월계시영고층관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "월계시영고층",
-   "entity_id": "A13984005",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "상계주공4단지관리비",
    "volume": 10,
    "comp": "낮음",
@@ -6452,7 +6440,7 @@
   },
   {
    "keyword": "장기수선충당금항목",
-   "volume": 10,
+   "volume": 15,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -6500,7 +6488,7 @@
   },
   {
    "keyword": "장기수선충당금인상",
-   "volume": 50,
+   "volume": 60,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -6584,7 +6572,7 @@
   },
   {
    "keyword": "아파트관리비",
-   "volume": 2920,
+   "volume": 2880,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6596,7 +6584,7 @@
   },
   {
    "keyword": "관리비",
-   "volume": 1400,
+   "volume": 1390,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6608,7 +6596,7 @@
   },
   {
    "keyword": "아파트관리사무소",
-   "volume": 1130,
+   "volume": 1120,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6835,18 +6823,6 @@
    "used": false
   },
   {
-   "keyword": "아파트난방비",
-   "volume": 140,
-   "comp": "높음",
-   "entity": "주제 글(우리 단지 데이터로 예시)",
-   "entity_id": "topic",
-   "base_score": 14.0,
-   "growth": 1.1,
-   "why": "주제 글: 여러 단지·지역 글을 묶는 허브",
-   "score": 15.4,
-   "used": true
-  },
-  {
    "keyword": "장기수선계획시스템",
    "volume": 10,
    "comp": "높음",
@@ -6940,6 +6916,30 @@
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 12.6,
+   "used": true
+  },
+  {
+   "keyword": "성동구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성동구",
+   "entity_id": "region:11200",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "성동구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "성동구",
+   "entity_id": "region:11200",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
    "used": true
   },
   {
@@ -7135,6 +7135,18 @@
    "used": true
   },
   {
+   "keyword": "월계시영고층관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "월계시영고층",
+   "entity_id": "A13984005",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
+  },
+  {
    "keyword": "두산관리비",
    "volume": 10,
    "comp": "낮음",
@@ -7220,7 +7232,7 @@
   },
   {
    "keyword": "나인원한남관리비",
-   "volume": 130,
+   "volume": 140,
    "comp": "중간",
    "entity": "나인원 한남",
    "entity_id": "A10025192",
@@ -7304,18 +7316,6 @@
   },
   {
    "keyword": "광장삼성12차관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "",
-   "entity_id": "",
-   "base_score": 5.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 5.0,
-   "used": false
-  },
-  {
-   "keyword": "청량리역롯데캐슬SKYL65관리비",
    "volume": 10,
    "comp": "낮음",
    "entity": "",
@@ -7436,7 +7436,7 @@
   },
   {
    "keyword": "관리비확인",
-   "volume": 80,
+   "volume": 70,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -7460,7 +7460,7 @@
   },
   {
    "keyword": "아파트관리비혜택",
-   "volume": 20,
+   "volume": 15,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -7520,7 +7520,7 @@
   },
   {
    "keyword": "아파트관리비명세서",
-   "volume": 30,
+   "volume": 40,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
