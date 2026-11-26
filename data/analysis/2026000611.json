@@ -1,0 +1,151 @@
+{
+ "no": "2026000611",
+ "name": "병점복합타운 주복1블록 공공분양",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-11-26",
+ "rank1_date": "2026-12-07",
+ "city": "화성시",
+ "supply_kind": "국민",
+ "winner_date": "2026-12-23",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000611&pblancNo=2026000611",
+ "households": 726,
+ "types": [
+  {
+   "ty": "61.98A",
+   "size": 61,
+   "price": 50089,
+   "area_m2": 85.8818,
+   "general": 10,
+   "special": 26,
+   "pyeong_price": 1928,
+   "special_share_pct": 72
+  },
+  {
+   "ty": "63.83A",
+   "size": 63,
+   "price": 51584,
+   "area_m2": 88.4452,
+   "general": 14,
+   "special": 40,
+   "pyeong_price": 1928,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "65.99A",
+   "size": 65,
+   "price": 53858,
+   "area_m2": 91.4382,
+   "general": 20,
+   "special": 58,
+   "pyeong_price": 1947,
+   "special_share_pct": 74
+  },
+  {
+   "ty": "66.97A",
+   "size": 66,
+   "price": 54657,
+   "area_m2": 92.7961,
+   "general": 9,
+   "special": 29,
+   "pyeong_price": 1947,
+   "special_share_pct": 76
+  },
+  {
+   "ty": "71.88A",
+   "size": 71,
+   "price": 58665,
+   "area_m2": 99.5996,
+   "general": 30,
+   "special": 89,
+   "pyeong_price": 1947,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "72.98A",
+   "size": 72,
+   "price": 59562,
+   "area_m2": 101.1238,
+   "general": 30,
+   "special": 90,
+   "pyeong_price": 1947,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "72.98B",
+   "size": 72,
+   "price": 59562,
+   "area_m2": 101.1238,
+   "general": 30,
+   "special": 90,
+   "pyeong_price": 1947,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "73.99A",
+   "size": 73,
+   "price": 60388,
+   "area_m2": 102.5233,
+   "general": 30,
+   "special": 89,
+   "pyeong_price": 1947,
+   "special_share_pct": 75
+  },
+  {
+   "ty": "84.81A",
+   "size": 84,
+   "price": 69218,
+   "area_m2": 117.5159,
+   "general": 10,
+   "special": 32,
+   "pyeong_price": 1947,
+   "special_share_pct": 76
+  }
+ ],
+ "general_total": 183,
+ "special_total": 543,
+ "special_share_pct": 75,
+ "pyeong_min": 1928,
+ "pyeong_max": 1947,
+ "pyeong_avg": 1945,
+ "price_84_min": 69218,
+ "price_84_max": 69218,
+ "special_kinds": {
+  "신혼부부": 72,
+  "생애최초": 109,
+  "신생아": 145,
+  "다자녀": 72,
+  "노부모 부양": 22,
+  "기관추천": 123
+ },
+ "region_price": {
+  "scope": "경기",
+  "supply_kind": "국민",
+  "days": 180,
+  "peer_count": 21,
+  "peers": [
+   "고양창릉지구 S-3블록 이익공유형 분양주택(본청약)",
+   "고양창릉 S-4블록 공공분양주택(본청약)",
+   "의정부우정 A2블록 공공분양주택(본청약)",
+   "양주회천지구 A-26블록 공공분양주택",
+   "힐스테이트 고덕엘리스트 A12BL 공공분양주택",
+   "힐스테이트 고덕엘리스트 A65BL 공공분양주택",
+   "부천대장 하우스토리 디센트(부천대장지구 A2BL) 공공분양주택",
+   "광교 자연앤 센트레빌(A17BL) 지분적립형 분양주택"
+  ],
+  "peer_avg_pyeong": 2018,
+  "diff": -73,
+  "diff_pct": -4,
+  "rank": 9,
+  "of": 22
+ },
+ "area_competition": {
+  "scope": "경기",
+  "peer_count": 5,
+  "peer_avg_rate": 82.9,
+  "peer_max_rate": 184.3
+ }
+}

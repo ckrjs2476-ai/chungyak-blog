@@ -1,0 +1,101 @@
+{
+ "no": "2026000568",
+ "name": "사천선인지구 S4블록(한림풀에버)",
+ "kind": "apt",
+ "region": "경남",
+ "notice_date": "2026-11-26",
+ "rank1_date": "2026-12-08",
+ "city": "사천시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-15",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000568&pblancNo=2026000568",
+ "households": 562,
+ "types": [
+  {
+   "ty": "84.77",
+   "size": 84,
+   "price": 46625,
+   "area_m2": 112.09,
+   "general": 112,
+   "special": 209,
+   "pyeong_price": 1375,
+   "special_share_pct": 65
+  },
+  {
+   "ty": "96.71",
+   "size": 96,
+   "price": 55056,
+   "area_m2": 127.27,
+   "general": 206,
+   "special": 31,
+   "pyeong_price": 1430,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "105.95",
+   "size": 105,
+   "price": 85746,
+   "area_m2": 141.73,
+   "general": 1,
+   "special": 0,
+   "pyeong_price": 2000,
+   "special_share_pct": 0
+  },
+  {
+   "ty": "137.86",
+   "size": 137,
+   "price": 115188,
+   "area_m2": 185.75,
+   "general": 3,
+   "special": 0,
+   "pyeong_price": 2050,
+   "special_share_pct": 0
+  }
+ ],
+ "general_total": 322,
+ "special_total": 240,
+ "special_share_pct": 43,
+ "pyeong_min": 1375,
+ "pyeong_max": 2050,
+ "pyeong_avg": 1403,
+ "price_84_min": 46625,
+ "price_84_max": 46625,
+ "special_kinds": {
+  "신혼부부": 48,
+  "생애최초": 55,
+  "신생아": 32,
+  "다자녀": 56,
+  "노부모 부양": 17,
+  "기관추천": 32
+ },
+ "region_price": {
+  "scope": "경남",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 12,
+  "peers": [
+   "힐스테이트 양산더스카이 1단지",
+   "힐스테이트 양산더스카이 2단지",
+   "거제 푸르지오 마린피스",
+   "신문 대상 웰라움 라시엘",
+   "김해 신문 센트럴 아이파크",
+   "트리븐 김해",
+   "함안가야 휴니온아르떼",
+   "창원 한신더휴 메가센텀"
+  ],
+  "peer_avg_pyeong": 1604,
+  "diff": -201,
+  "diff_pct": -13,
+  "rank": 12,
+  "of": 13
+ },
+ "area_competition": {
+  "scope": "경남",
+  "peer_count": 12,
+  "peer_avg_rate": 5.6,
+  "peer_max_rate": 34.95
+ }
+}

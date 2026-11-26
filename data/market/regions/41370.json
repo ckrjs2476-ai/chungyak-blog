@@ -2,18 +2,22 @@
  "lawd": "41370",
  "name": "경기도 오산시",
  "months": 12,
- "updated": "2026-11-26",
- "trade_count": 3503,
+ "updated": "2026-11-27",
+ "trade_count": 3511,
  "cancel_count": 127,
- "n84": 1392,
+ "n84": 1394,
  "median84": 40000,
  "p25_84": 32000,
  "p75_84": 48500,
- "median84_pyeong_excl": 1564,
+ "median84_pyeong_excl": 1562,
  "new_n84": 200,
  "new_median84": 50000,
  "new_build_years": 5,
  "umd84": {
+  "궐동": {
+   "n": 107,
+   "median": 32500
+  },
   "금암동": {
    "n": 144,
    "median": 37225
@@ -23,12 +27,8 @@
    "median": 40350
   },
   "수청동": {
-   "n": 86,
-   "median": 45875
-  },
-  "궐동": {
-   "n": 106,
-   "median": 32750
+   "n": 87,
+   "median": 45750
   },
   "양산동": {
    "n": 77,
@@ -160,15 +160,15 @@
   },
   {
    "month": "2026-11",
-   "count": 220,
-   "n84": 87,
-   "median84": 37900
+   "count": 228,
+   "n84": 89,
+   "median84": 37500
   }
  ],
  "top_apts": [
   {
    "name": "외삼미동 서동탄역더샵파크시티",
-   "count": 202,
+   "count": 203,
    "median84": 62000,
    "built": 2019
   },
