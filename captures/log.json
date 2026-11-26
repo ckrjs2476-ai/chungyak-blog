@@ -1,56 +1,5 @@
 [
  {
-  "name": "gw-41595-sindongtan-forest-xi-chart",
-  "ok": true,
-  "chart": {
-   "type": "gwanribi_complex",
-   "lawd": "41595",
-   "code": "A10023329"
-  },
-  "size": [
-   760,
-   420
-  ],
-  "bytes": 16030,
-  "at": "2026-11-20 21:16"
- },
- {
-  "name": "gw-sindongtan-forest-xi-management-fee-2026-09-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "points",
-   "title": "신동탄포레자이 관리비, 병점구에서 몇 위였나요?",
-   "answer": "㎡당 합계 3,391원, 53곳 중 3위였고 전기료 칸이 가장 크게 갈렸어요",
-   "points": [
-    {
-     "label": "㎡당 합계 (병점구 중앙값 2,525원)",
-     "value": "3,391원"
-    },
-    {
-     "label": "전기료 ㎡당 (중앙값 658원)",
-     "value": "1,538원"
-    },
-    {
-     "label": "공용관리비 ㎡당 (중앙값 1,049원)",
-     "value": "1,213원"
-    },
-    {
-     "label": "장기수선충당금 ㎡당 (중앙값 367원)",
-     "value": "100원"
-    }
-   ],
-   "source": "공동주택관리정보시스템(K-apt) 2026년 9월 부과분",
-   "date": "2026-11-20"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 31986,
-  "at": "2026-11-20 21:17"
- },
- {
   "name": "gw-sindongtan-forest-xi-management-fee-2026-09-card",
   "ok": true,
   "card": {
@@ -5592,5 +5541,60 @@
   "bytes": 7308,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-26 12:46"
+ },
+ {
+  "name": "dr-drone-rental-duty-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "드론 임대, 같은 1.5kg 드론도 의무가 달라지나요?",
+   "answer": "돈 받고 빌려주면 2kg 이하도 신고·보험 대상",
+   "compare": {
+    "head": [
+     "같은 1.5kg 드론",
+     "장치신고",
+     "보험"
+    ],
+    "rows": [
+     [
+      "개인 취미 비행",
+      "제외(2kg 이하)",
+      "의무 없음"
+     ],
+     [
+      "유상 대여(대여업)",
+      "대상",
+      "의무"
+     ],
+     [
+      "빌려서 유상 촬영(사용사업)",
+      "대상",
+      "의무"
+     ]
+    ]
+   },
+   "source": "항공사업법 제2조·항공안전법 제122조·법제처 생활법령정보",
+   "date": "2026-11-26"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 28422,
+  "at": "2026-11-26 14:37"
+ },
+ {
+  "name": "dr-drone-rental-duty-2026-easylaw",
+  "ok": true,
+  "status": 200,
+  "title": "생활법령 포털 | 찾기쉬운 생활법령",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 23524,
+  "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1814&ccfNo=2&cciNo=1&cnpClsNo=1",
+  "at": "2026-11-26 14:38"
  }
 ]
