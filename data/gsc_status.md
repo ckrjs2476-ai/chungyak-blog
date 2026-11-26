@@ -156,3 +156,10 @@
   - 전세 3: daejeon-dong-gu-jeonse-gap-2026-11, gwangju-si-taejeon-dong-jeonse-2026-11, hanam-si-jeonse-deokpung-dong-2026-11
   - 청약 2: gyeonghuigung-epit-bunyangga-2026-11, seongnam-apartment-bunyang-2025-10-2026
   - 다음 실행 11-26 13:05: 청약(busan-namgu-apartment-silgeorae-2026-11 먼저) → 드론 → 관리비 → 공모주 → 전세
+
+- 11-26 오후(13:06~13:14) 11건 요청, 12번째(공모주 ipo-company-age-2026-10)에서 할당량 초과
+  - 청약 3: busan-namgu-apartment-silgeorae-2026-11, the-sharp-tricent-cheongyak-result-2026, sosa-humanvill-bunyangga-2026-11
+  - 드론 3: drone-military-drone-2026, drone-safety-cost-construction-2026, drone-excellent-business-2026
+  - 관리비 3: seongdong-gu-apartment-management-fee, wolgye-siyeong-gocheung-management-fee, seoul-forest-riverview-xi-management
+  - 공모주 2: innovo-therapeutics-rank-2026-11, mbd-ipo-2026-11
+  - 다음 실행 11-27 13:26: 공모주(ipo-company-age-2026-10 먼저) → 전세 → 청약 → 드론 → 관리비
