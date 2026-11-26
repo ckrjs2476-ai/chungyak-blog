@@ -1,1 +1,7 @@
-[]
+[
+ {"name": "js-jayang-dong-gwangjin-jeonse-2026-11-card", "card": {"blog": "jeonse", "layout": "points", "title": "자양동 아파트 전세는 광진구에서 어디쯤입니까?", "answer": "84㎡ 보증금은 큰 세 동 중 가장 낮은 7억 3,500만 원인데 전세가율은 44.9%로 가장 높습니다", "points": [{"label": "자양동 84㎡ 전세 신고", "value": "354건"}, {"label": "자양동 전세가율", "value": "44.9%"}, {"label": "광진구 전세가율", "value": "42.2%"}, {"label": "광장동 전세가율", "value": "37.5%"}], "source": "국토교통부 실거래가", "date": "2026-11-24"}},
+ {"name": "js-11215-dong", "chart": {"type": "jeonse_dong", "lawd": "11215", "highlight": "자양동"}},
+ {"name": "js-11215-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "163750"]}, {"fill": ["#dep", "73500"]}, {"pick": ["#reg", "광진"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+ {"name": "js-11215-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "169000"]}, {"fill": ["#dep", "90000"]}, {"pick": ["#reg", "광진"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
+ {"name": "js-11215-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "서울"], "wait": 2}, {"pick": ["#srhSggCd", "광진"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
+]
