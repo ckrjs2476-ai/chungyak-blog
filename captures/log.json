@@ -1,83 +1,5 @@
 [
  {
-  "name": "gw-helio-city-management-fee-2026-08-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "compare",
-   "title": "헬리오시티 관리비, 어느 칸이 무거웠나요?",
-   "answer": "개별사용료가 ㎡당 1,870원으로 송파구 중앙값보다 43.5% 높았어요",
-   "compare": {
-    "head": [
-     "덩어리",
-     "헬리오시티 ㎡당",
-     "송파구 중앙값"
-    ],
-    "rows": [
-     [
-      "공용관리비",
-      "1,005원",
-      "1,195원"
-     ],
-     [
-      "개별사용료",
-      "1,870원",
-      "1,303원"
-     ],
-     [
-      "장기수선충당금",
-      "91원",
-      "200원"
-     ]
-    ]
-   },
-   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
-   "date": "2026-10-21"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 26568,
-  "at": "2026-11-20 22:41"
- },
- {
-  "name": "gw-yeongdeungpo-gu-apartment-management-fee-2026-08-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "points",
-   "title": "영등포구 아파트 관리비 평균은 얼마인가요?",
-   "answer": "68개 단지 ㎡당 중앙값은 2,628원, 세대 평균은 26만 2,710원 수준이에요",
-   "points": [
-    {
-     "label": "전기료 ㎡당 중앙값",
-     "value": "866원"
-    },
-    {
-     "label": "인건비 ㎡당 중앙값",
-     "value": "444원"
-    },
-    {
-     "label": "경비비 ㎡당 중앙값",
-     "value": "356원"
-    },
-    {
-     "label": "마포구 ㎡당 중앙값",
-     "value": "2,831원"
-    }
-   ],
-   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
-   "date": "2026-11-02"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 28002,
-  "at": "2026-11-20 22:41"
- },
- {
   "name": "gw-soman-sungwon-6-management-fee-2026-09-card",
   "ok": true,
   "card": {
@@ -5418,5 +5340,54 @@
   "bytes": 25634,
   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148921462",
   "at": "2026-11-26 20:26"
+ },
+ {
+  "name": "gw-mapo-raemian-prugio-management-fee-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "마포래미안푸르지오 장기수선충당금은 마포구에서 어디쯤인가요?",
+   "answer": "㎡당 137원으로 53곳 중 49위, 합계는 중앙값 위 24위였어요",
+   "points": [
+    {
+     "label": "장기수선충당금(㎡당)",
+     "value": "137원 · 53곳 중 49위"
+    },
+    {
+     "label": "마포구 중앙값",
+     "value": "275원"
+    },
+    {
+     "label": "세대당 적립 잔액",
+     "value": "35만 1,854원"
+    },
+    {
+     "label": "관리비 합계(㎡당)",
+     "value": "3,065원 · 24위"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-18"
+  },
+  "size": [
+   760,
+   490
+  ],
+  "bytes": 34468,
+  "at": "2026-11-26 21:18"
+ },
+ {
+  "name": "mapo-raemian-prugio-management-fee-2026-08-calc-1",
+  "ok": true,
+  "status": null,
+  "title": "blogs/gwanribi/pages/calculator.md",
+  "size": [
+   760,
+   354
+  ],
+  "bytes": 16580,
+  "url": "blogs/gwanribi/pages/calculator.md",
+  "at": "2026-11-26 21:18"
  }
 ]
