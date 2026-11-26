@@ -1,83 +1,5 @@
 [
  {
-  "name": "gm-optonics-ipo-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "gongmoju",
-   "layout": "points",
-   "title": "옵토닉스 공모주 수수료율은 높은 편인가요?",
-   "answer": "수수료율 5.15%, 28곳 중앙값 4.12%를 넘어요",
-   "points": [
-    {
-     "label": "신고서 기준 공모 총액",
-     "value": "220억 원"
-    },
-    {
-     "label": "공모 총액 순위",
-     "value": "28곳 중 19위"
-    },
-    {
-     "label": "한국투자증권이 받는 돈",
-     "value": "11.3억 원"
-    },
-    {
-     "label": "인수수수료율",
-     "value": "5.15%"
-    }
-   ],
-   "source": "DART 증권신고서",
-   "date": "2026-10-24"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 25368,
-  "at": "2026-11-20 22:41"
- },
- {
-  "name": "gm-genon-ipo-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "gongmoju",
-   "layout": "compare",
-   "title": "제논 공모 자금은 어디에 쓰나요?",
-   "answer": "시설자금이 155.9억 원으로 70.9%를 차지해요",
-   "compare": {
-    "head": [
-     "사용처",
-     "금액",
-     "비중"
-    ],
-    "rows": [
-     [
-      "시설자금",
-      "155.9억 원",
-      "70.9%"
-     ],
-     [
-      "운영자금",
-      "54.3억 원",
-      "24.7%"
-     ],
-     [
-      "발행제비용",
-      "9.6억 원",
-      "4.3%"
-     ]
-    ]
-   },
-   "source": "DART 증권신고서",
-   "date": "2026-10-27"
-  },
-  "size": [
-   760,
-   429
-  ],
-  "bytes": 19650,
-  "at": "2026-11-20 22:41"
- },
- {
   "name": "gw-helio-city-management-fee-2026-08-card",
   "ok": true,
   "card": {
@@ -5447,5 +5369,54 @@
   "bytes": 7308,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-26 19:47"
+ },
+ {
+  "name": "dr-drone-fishing-rules-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "points",
+   "title": "드론 낚시, 낚시용 드론에도 비행 규칙이 똑같이 걸리나요?",
+   "answer": "미끼 투하·밤낚시·공항 근처·멀리 보내기가 각각 다른 규칙에 닿아요",
+   "points": [
+    {
+     "label": "공항 주변 관제권",
+     "value": "반경 9.3km 비행금지"
+    },
+    {
+     "label": "밤낚시",
+     "value": "일몰 후~일출 전 비행금지"
+    },
+    {
+     "label": "높이",
+     "value": "150m 이상 비행금지"
+    },
+    {
+     "label": "준수사항 위반",
+     "value": "최대 300만 원 과태료"
+    }
+   ],
+   "source": "경찰청·서울시·국토교통부 안내",
+   "date": "2026-11-26"
+  },
+  "size": [
+   760,
+   526
+  ],
+  "bytes": 36090,
+  "at": "2026-11-26 20:25"
+ },
+ {
+  "name": "dr-drone-fishing-rules-2026-korea",
+  "ok": true,
+  "status": 200,
+  "title": "드론 조종도 불법이 될 수 있어요! - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+  "size": [
+   760,
+   622
+  ],
+  "bytes": 25634,
+  "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148921462",
+  "at": "2026-11-26 20:26"
  }
 ]
