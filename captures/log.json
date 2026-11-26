@@ -1,33 +1,5 @@
 [
  {
-  "name": "cy-2026000051-price-1120",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   403
-  ],
-  "bytes": 12444,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000051&pblancNo=2026000051",
-  "at": "2026-11-20 18:38"
- },
- {
-  "name": "js-11680-dong",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "11680",
-   "highlight": "개포동"
-  },
-  "size": [
-   760,
-   556
-  ],
-  "bytes": 18126,
-  "at": "2026-11-20 19:49"
- },
- {
   "name": "js-gangnam-gu-gaepo-dong-jeonse-4weeks-2026-11-card",
   "ok": true,
   "card": {
@@ -5588,5 +5560,56 @@
   "bytes": 18218,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000563&pblancNo=2026000563",
   "at": "2026-11-26 09:52"
+ },
+ {
+  "name": "gw-11200-oksu-samsung-chart",
+  "ok": true,
+  "chart": {
+   "type": "gwanribi_complex",
+   "lawd": "11200",
+   "code": "A13375902"
+  },
+  "size": [
+   760,
+   420
+  ],
+  "bytes": 14678,
+  "at": "2026-11-26 11:28"
+ },
+ {
+  "name": "gw-seongdong-gu-apartment-management-fee-central-heating-2026-08-card",
+  "ok": true,
+  "card": {
+   "blog": "gwanribi",
+   "layout": "points",
+   "title": "성동구 중앙난방 아파트 관리비는 어디서 달랐나요?",
+   "answer": "4곳 모두 수선비가 ㎡당 133~588원으로 성동구 중앙값 65원을 넘었어요",
+   "points": [
+    {
+     "label": "중앙난방 4곳 합계 중앙값",
+     "value": "2,861원"
+    },
+    {
+     "label": "개별난방 61곳 합계 중앙값",
+     "value": "2,638원"
+    },
+    {
+     "label": "마장세림 수선비",
+     "value": "588원"
+    },
+    {
+     "label": "성동구 수선비 중앙값",
+     "value": "65원"
+    }
+   ],
+   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
+   "date": "2026-10-23"
+  },
+  "size": [
+   760,
+   449
+  ],
+  "bytes": 31350,
+  "at": "2026-11-26 11:28"
  }
 ]
