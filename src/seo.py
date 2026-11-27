@@ -155,7 +155,8 @@ def _published(blog: str) -> list[dict]:
 
 EXP_RULES_FROM = "2026-11-08"
 CARD_FROM = "2026-11-18"  # 5개 블로그 요약 그림(brief_common 9-4)
-ALL_GEO_FROM = "2026-11-25"  # 청약·전세·공모주·관리비도 AI 검색·AEO·GEO 기준(사용자 요청 11/24)
+ALL_GEO_FROM = "2026-11-25"
+INTENT_FROM = "2026-11-28"  # 검색 의도 답이 첫 문단에(사용자 지적 11/28, src/intent.py)  # 청약·전세·공모주·관리비도 AI 검색·AEO·GEO 기준(사용자 요청 11/24)
 SOURCE_FROM = "2026-11-24"  # 글 맨 끝 출처 줄(src/sources.py)
 DRONE_GEO_FROM = "2026-11-18"  # 드론: AI 검색(ChatGPT·Gemini·Claude)·구글 AI 개요/AI 모드 기준을 막는 규칙으로(사용자 요청 11/18)
 LINK2_FROM = "2026-11-09"  # 새 글 내부 링크 2개 이상(공개 글 10편 이상 블로그)  # 직접 알아보기(캡처 + 1인칭) 필수 시작일
@@ -252,6 +253,11 @@ def new_post_errors(meta: dict, body: str, blog: str) -> list[str]:
         errs += drone_geo_errors(meta, body)
     elif blog != "drone" and str(meta.get("_file", ""))[:10] >= ALL_GEO_FROM:
         errs += geo_errors(meta, body, blog)
+    if str(meta.get("_file", ""))[:10] >= INTENT_FROM:
+        import importlib.util as _u
+        _sp = _u.spec_from_file_location("intent", Path(__file__).resolve().parent / "intent.py")
+        _m = _u.module_from_spec(_sp); _sp.loader.exec_module(_m)
+        errs += _m.intent_errors(meta, body, blog)
     return errs
 
 
