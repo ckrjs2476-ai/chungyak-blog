@@ -1,54 +1,5 @@
 [
  {
-  "name": "dr-drone-china-regulation-2026-card",
-  "ok": true,
-  "card": {
-   "blog": "drone",
-   "layout": "points",
-   "title": "중국 드론 규제, 한국과 무엇이 다른가요?",
-   "answer": "중국은 고도 120m부터 관제공역이고, 한국은 150m부터 승인을 받아요",
-   "points": [
-    {
-     "label": "중국 관제공역 시작 높이",
-     "value": "120m"
-    },
-    {
-     "label": "한국 비행승인 시작 높이",
-     "value": "150m"
-    },
-    {
-     "label": "중국 미형 기체 기준",
-     "value": "250g 미만"
-    },
-    {
-     "label": "중국 조례 시행일",
-     "value": "2024년 1월 1일"
-    }
-   ],
-   "source": "중국 무인조종항공기 비행관리 잠정조례, 찾기쉬운 생활법령정보",
-   "date": "2026-11-21"
-  },
-  "size": [
-   760,
-   449
-  ],
-  "bytes": 30566,
-  "at": "2026-11-21 19:57"
- },
- {
-  "name": "dr-drone-china-regulation-2026-govcn",
-  "ok": true,
-  "status": 200,
-  "title": "无人驾驶航空器飞行管理暂行条例_航天、航空_中国政府网",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 49858,
-  "url": "https://www.gov.cn/zhengce/content/202306/content_6888799.htm",
-  "at": "2026-11-21 19:58"
- },
- {
   "name": "dr-drone-china-regulation-2026-calc-1",
   "ok": true,
   "status": null,
@@ -5573,5 +5524,54 @@
   ],
   "bytes": 30432,
   "at": "2026-11-27 11:28"
+ },
+ {
+  "name": "dr-drone-battery-fire-charge-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "points",
+   "title": "드론 배터리 화재는 충전율 몇 %에서 났나요?",
+   "answer": "완충 배터리는 5개 중 4개가 열폭주·발화, 50%·30%는 발화 없었어요",
+   "points": [
+    {
+     "label": "완충",
+     "value": "5개 중 4개 열폭주·발화"
+    },
+    {
+     "label": "충전율 70%",
+     "value": "가스 배출, 원통형은 열폭주"
+    },
+    {
+     "label": "충전율 50%·30%",
+     "value": "열폭주·발화 없음"
+    },
+    {
+     "label": "다 쓴 셀 잔류전압",
+     "value": "3.94V 이상이면 열폭주"
+    }
+   ],
+   "source": "서울시 화재감정연구센터·소방청 국립소방연구원",
+   "date": "2026년 11월 발표"
+  },
+  "size": [
+   760,
+   485
+  ],
+  "bytes": 38778,
+  "at": "2026-11-27 14:25"
+ },
+ {
+  "name": "dr-drone-battery-fire-charge-2026-seoul",
+  "ok": true,
+  "status": 200,
+  "title": "리튬이온배터리 '충전율' 높을수록 화재 위험 커져…실험 결과 공개 | 서울시 - 내 손안에 서울",
+  "size": [
+   760,
+   900
+  ],
+  "bytes": 76814,
+  "url": "https://mediahub.seoul.go.kr/archives/2020073",
+  "at": "2026-11-27 14:25"
  }
 ]
