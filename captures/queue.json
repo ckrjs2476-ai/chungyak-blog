@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "name": "dr-drone-police-drone-law-2026-card",
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "경찰드론도 민간 드론처럼 비행승인을 받나요?",
+   "answer": "경찰용은 항공안전법 제131조의2 제1항으로 이 법 적용 밖이에요",
+   "compare": {
+    "head": ["누구의 드론", "비행승인", "근거"],
+    "rows": [
+     ["민간 취미·사업", "관제권·150m 이상은 승인", "제127조"],
+     ["소방·지자체 긴급 공공비행", "기관장이 미리 알리면 승인 간주", "제127조 제4항"],
+     ["경찰용·군용·세관용", "항공안전법 적용 안 함", "제131조의2 제1항"]
+    ]
+   },
+   "source": "국가법령정보센터 항공안전법",
+   "date": "2026-11-27"
+  }
+ },
+ {
+  "name": "dr-drone-police-drone-law-2026-budget",
+  "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148957317",
+  "sleep": 4,
+  "crop": {"from": "K산업 육성"},
+  "height": 700
+ }
+]
