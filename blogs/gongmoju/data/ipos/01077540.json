@@ -1,51 +1,51 @@
 {
  "corp_code": "01077540",
  "corp_name": "씨아이에스케미칼",
- "rcept_no": "20261111000341",
- "rcept_dt": "20261111",
+ "rcept_no": "20261127001324",
+ "rcept_dt": "20261127",
  "report_nm": "[기재정정]증권신고서(지분증권)",
  "corp_cls": "E",
- "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000341",
- "subscription": "2026년 12월 10일 ~ 2026년 12월 11일",
- "payment_date": "2026년 12월 15일",
- "notice_date": "2026년 12월 10일",
- "allot_date": "2026년 12월 15일",
+ "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001324",
+ "subscription": "2027년 01월 21일 ~ 2027년 01월 22일",
+ "payment_date": "2027년 01월 26일",
+ "notice_date": "2027년 01월 21일",
+ "allot_date": "2027년 01월 26일",
  "stock_kind": "보통주",
  "shares": 4000000,
  "face_value": 500,
- "price": 5400,
- "total": 21600000000,
+ "price": 5000,
+ "total": 20000000000,
  "method": "일반공모",
  "underwriters": [
   {
    "name": "케이비증권",
    "shares": 4000000,
-   "amount": 21600000000,
-   "fee": 1001160000,
+   "amount": 20000000000,
+   "fee": 927000000,
    "how": "총액인수"
   }
  ],
  "fund_uses": [
   {
    "use": "시설자금",
-   "amount": 20000000000,
-   "share_pct": 89.9,
-   "amount_eok": 200.0
+   "amount": 18000000000,
+   "share_pct": 87.4,
+   "amount_eok": 180.0
   },
   {
    "use": "운영자금",
-   "amount": 1136952000,
-   "share_pct": 5.1,
-   "amount_eok": 11.4
+   "amount": 1563112000,
+   "share_pct": 7.6,
+   "amount_eok": 15.6
   },
   {
    "use": "발행제비용",
-   "amount": 1111048000,
+   "amount": 1036888000,
    "share_pct": 5.0,
-   "amount_eok": 11.1
+   "amount_eok": 10.4
   }
  ],
- "fund_total": 22248000000,
+ "fund_total": 20600000000,
  "sellers": [],
  "sell_shares": null,
  "company": {
@@ -69,18 +69,18 @@
  "correction_requested": false,
  "lead_underwriter": "케이비증권",
  "underwriting_fee_pct": 4.63,
- "total_eok": 216.0,
+ "total_eok": 200.0,
  "fund_matches_total": true,
  "fund_uses_unreliable": false,
  "company_age_years": 14,
- "total_rank": 15,
+ "total_rank": 17,
  "total_rank_of": 20,
- "total_vs_median_pct": -22.7,
+ "total_vs_median_pct": -28.4,
  "top_fund_use": {
   "use": "시설자금",
-  "amount": 20000000000,
-  "share_pct": 89.9,
-  "amount_eok": 200.0
+  "amount": 18000000000,
+  "share_pct": 87.4,
+  "amount_eok": 180.0
  },
  "compare_median_total": 27950000000,
  "compare_count": 20,
