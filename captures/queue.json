@@ -1,12 +1,1 @@
-[
- {"name": "js-seoul-jungnang-gu-mukdong-jeonse-2026-11-card",
-  "card": {"blog": "jeonse", "layout": "points",
-   "title": "묵동 아파트 전세, 중랑구 동 가운데 어디쯤입니까?",
-   "answer": "84㎡ 중앙값 5억 5,000만 원, 동 전세가율 71.4%로 신내동 55.6%보다 높습니다",
-   "points": [{"label": "망우동", "value": "75.8%"}, {"label": "묵동", "value": "71.4% (5억 5,000만 원)"}, {"label": "면목동", "value": "70.0% (5억 5,000만 원)"}, {"label": "신내동", "value": "55.6% (4억 원)"}],
-   "source": "국토교통부 실거래가", "date": "2026-11-24"}},
- {"name": "js-11260-dong", "chart": {"type": "jeonse_dong", "lawd": "11260", "highlight": "묵동"}},
- {"name": "js-11260-calc-1", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "61100"]}, {"fill": ["#dep", "50000"]}, {"pick": ["#reg", "중랑"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "js-11260-calc-2", "page": "blogs/jeonse/pages/calculator.md", "width": 760, "steps": [{"fill": ["#sale", "88500"]}, {"fill": ["#dep", "32462"]}, {"pick": ["#reg", "중랑"]}], "crop": {"from": "매매가(만 원)", "to": "전세가율은 이렇게"}, "pad": 16},
- {"name": "js-11260-rt-form", "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=", "sleep": 3, "pad": 20, "steps": [{"click": "전월세", "exact": true, "wait": 1.5}, {"pick": ["#srhSidoCd", "서울"], "wait": 2}, {"pick": ["#srhSggCd", "중랑"], "wait": 2}], "crop": {"from": "연립/다세대"}, "height": 560}
-]
+[]
