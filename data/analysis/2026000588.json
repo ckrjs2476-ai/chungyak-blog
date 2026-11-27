@@ -1,0 +1,133 @@
+{
+ "no": "2026000588",
+ "name": "일광 THE S",
+ "kind": "apt",
+ "region": "부산",
+ "notice_date": "2026-11-27",
+ "rank1_date": "2026-12-08",
+ "city": "기장군",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-15",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000588&pblancNo=2026000588",
+ "households": 1968,
+ "types": [
+  {
+   "ty": "84.3558",
+   "size": 84,
+   "price": 97000,
+   "area_m2": 117.4013,
+   "general": 299,
+   "special": 357,
+   "pyeong_price": 2731,
+   "special_share_pct": 54
+  },
+  {
+   "ty": "103.2343",
+   "size": 103,
+   "price": 129500,
+   "area_m2": 143.1704,
+   "general": 557,
+   "special": 83,
+   "pyeong_price": 2990,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "111.8587",
+   "size": 111,
+   "price": 146800,
+   "area_m2": 154.9468,
+   "general": 557,
+   "special": 83,
+   "pyeong_price": 3132,
+   "special_share_pct": 13
+  },
+  {
+   "ty": "189.9735",
+   "size": 189,
+   "price": 320000,
+   "area_m2": 262.495,
+   "general": 15,
+   "special": 1,
+   "pyeong_price": 4030,
+   "special_share_pct": 6
+  },
+  {
+   "ty": "217.2962",
+   "size": 217,
+   "price": 410000,
+   "area_m2": 303.455,
+   "general": 15,
+   "special": 1,
+   "pyeong_price": 4466,
+   "special_share_pct": 6
+  }
+ ],
+ "general_total": 1443,
+ "special_total": 525,
+ "special_share_pct": 27,
+ "pyeong_min": 2731,
+ "pyeong_max": 4466,
+ "pyeong_avg": 2970,
+ "price_84_min": 97000,
+ "price_84_max": 97000,
+ "special_kinds": {
+  "신혼부부": 98,
+  "생애최초": 45,
+  "신생아": 65,
+  "다자녀": 195,
+  "노부모 부양": 57,
+  "기관추천": 65
+ },
+ "region_price": {
+  "scope": "부산",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 14,
+  "peers": [
+   "알티에로 광안",
+   "에코델타시티 중흥S-클래스 리버시티",
+   "부산 장안지구 B-2블록 중흥S-클래스(본청약)",
+   "더샵 트리센트",
+   "두산위브더제니스 대연",
+   "쌍용 더 플래티넘 센텀",
+   "에코델타시티 금강펜테리움 에코리버",
+   "연제갤러리자이"
+  ],
+  "peer_avg_pyeong": 2581,
+  "diff": 389,
+  "diff_pct": 15,
+  "rank": 3,
+  "of": 15
+ },
+ "area_competition": {
+  "scope": "부산",
+  "peer_count": 13,
+  "peer_avg_rate": 4.0,
+  "peer_max_rate": 27.07
+ },
+ "market": {
+  "region": "부산광역시 기장군",
+  "lawd": "26710",
+  "months": 12,
+  "updated": "2026-11-28",
+  "n84": 494,
+  "median84": 32200,
+  "p25_84": 27175,
+  "p75_84": 43925,
+  "new_n84": 2,
+  "new_median84": 75894,
+  "new_build_years": 5,
+  "umd": "일광읍",
+  "umd_n84": 141,
+  "umd_median84": 50600,
+  "diff_vs_median84": 64800,
+  "diff_pct_vs_median84": 201,
+  "diff_vs_new_median84": 21106,
+  "diff_pct_vs_new_median84": 28,
+  "diff_vs_umd_median84": 46400,
+  "diff_pct_vs_umd_median84": 92
+ }
+}

@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "weekly_competition": [
   {
    "no": "2026000457",
@@ -14,6 +14,20 @@
    "final_shortfall_total": 0,
    "rank1_closed_types": 5,
    "type_count": 5
+  },
+  {
+   "no": "2026000505",
+   "name": "경희궁 에피트",
+   "region": "서울",
+   "rank1_avg_rate": 27.89,
+   "best": {
+    "ty": "39.9342",
+    "rate": 90.2,
+    "stage": "1순위 해당지역"
+   },
+   "final_shortfall_total": 0,
+   "rank1_closed_types": 4,
+   "type_count": 4
   },
   {
    "no": "2026000563",
@@ -201,51 +215,6 @@
    ]
   },
   {
-   "no": "2026910300",
-   "name": "산곡역자이힐스테이트앤하늘채",
-   "region": "인천",
-   "households": 550,
-   "rcept_date": "2026-11-24",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910300&pblancNo=2026910300",
-   "types": [
-    {
-     "ty": "50.26A",
-     "price": 55600,
-     "pyeong_price": null
-    },
-    {
-     "ty": "50.26B",
-     "price": 56000,
-     "pyeong_price": null
-    },
-    {
-     "ty": "59.99B",
-     "price": 78000,
-     "pyeong_price": null
-    },
-    {
-     "ty": "75.56A",
-     "price": 91000,
-     "pyeong_price": null
-    },
-    {
-     "ty": "75.62B",
-     "price": 89400,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.92A",
-     "price": 94100,
-     "pyeong_price": null
-    },
-    {
-     "ty": "84.98B",
-     "price": 102200,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
    "no": "2026910301",
    "name": "이천 서희스타힐스 SKY (조합원 취소분)",
    "region": "경기",
@@ -381,21 +350,6 @@
     {
      "ty": "84.9413B",
      "price": 86700,
-     "pyeong_price": null
-    }
-   ]
-  },
-  {
-   "no": "2026910307",
-   "name": "인천 검단신도시 AB13블록 호반써밋Ⅲ",
-   "region": "인천",
-   "households": 1,
-   "rcept_date": "2026-11-24",
-   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910307&pblancNo=2026910307",
-   "types": [
-    {
-     "ty": "97.9655P",
-     "price": 64280,
      "pyeong_price": null
     }
    ]
@@ -1077,8 +1031,8 @@
   },
   "2026-11": {
    "경기": {
-    "count": 10,
-    "avg_pyeong": 2274,
+    "count": 11,
+    "avg_pyeong": 2226,
     "max_pyeong": 3019,
     "min_pyeong": 1736
    },
@@ -1089,9 +1043,9 @@
     "min_pyeong": 3813
    },
    "부산": {
-    "count": 3,
-    "avg_pyeong": 2473,
-    "max_pyeong": 2683,
+    "count": 4,
+    "avg_pyeong": 2597,
+    "max_pyeong": 2970,
     "min_pyeong": 2224
    },
    "충남": {
@@ -1101,10 +1055,10 @@
     "min_pyeong": 1570
    },
    "경북": {
-    "count": 2,
-    "avg_pyeong": 1691,
+    "count": 4,
+    "avg_pyeong": 1582,
     "max_pyeong": 1874,
-    "min_pyeong": 1508
+    "min_pyeong": 1316
    },
    "울산": {
     "count": 1,
@@ -1123,6 +1077,18 @@
     "avg_pyeong": 1403,
     "max_pyeong": 1403,
     "min_pyeong": 1403
+   },
+   "세종": {
+    "count": 4,
+    "avg_pyeong": 1958,
+    "max_pyeong": 1963,
+    "min_pyeong": 1953
+   },
+   "인천": {
+    "count": 1,
+    "avg_pyeong": 2651,
+    "max_pyeong": 2651,
+    "min_pyeong": 2651
    },
    "전남": {
     "count": 1,
@@ -1200,6 +1166,22 @@
     }
    },
    {
+    "no": "2026000588",
+    "name": "일광 THE S",
+    "region": "부산",
+    "households": 1968,
+    "pyeong_avg": 2970,
+    "price_84_min": 97000,
+    "special_kinds": {
+     "신혼부부": 98,
+     "생애최초": 45,
+     "신생아": 65,
+     "다자녀": 195,
+     "노부모 부양": 57,
+     "기관추천": 65
+    }
+   },
+   {
     "no": "2026000510",
     "name": "연산역 수자인 센트리오",
     "region": "부산",
@@ -1213,6 +1195,22 @@
      "다자녀": 33,
      "노부모 부양": 3,
      "기관추천": 7
+    }
+   },
+   {
+    "no": "2026000574",
+    "name": "송도 대광로제비앙 모아엘가",
+    "region": "인천",
+    "households": 592,
+    "pyeong_avg": 2651,
+    "price_84_min": 88200,
+    "special_kinds": {
+     "신혼부부": 91,
+     "생애최초": 44,
+     "신생아": 61,
+     "다자녀": 61,
+     "노부모 부양": 19,
+     "기관추천": 61
     }
    },
    {
@@ -1343,6 +1341,70 @@
     }
    },
    {
+    "no": "2026000570",
+    "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L6블록, 꽃나루마을 16단지)",
+    "region": "세종",
+    "households": 818,
+    "pyeong_avg": 1963,
+    "price_84_min": 65470,
+    "special_kinds": {
+     "신혼부부": 123,
+     "생애최초": 138,
+     "신생아": 81,
+     "다자녀": 82,
+     "노부모 부양": 25,
+     "기관추천": 73
+    }
+   },
+   {
+    "no": "2026000571",
+    "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L7블록, 꽃나루마을 24단지)",
+    "region": "세종",
+    "households": 648,
+    "pyeong_avg": 1963,
+    "price_84_min": 65660,
+    "special_kinds": {
+     "신혼부부": 97,
+     "생애최초": 110,
+     "신생아": 64,
+     "다자녀": 64,
+     "노부모 부양": 19,
+     "기관추천": 58
+    }
+   },
+   {
+    "no": "2026000573",
+    "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L11블록, 꽃나루마을 28단지)",
+    "region": "세종",
+    "households": 507,
+    "pyeong_avg": 1955,
+    "price_84_min": 63830,
+    "special_kinds": {
+     "신혼부부": 76,
+     "생애최초": 86,
+     "신생아": 50,
+     "다자녀": 51,
+     "노부모 부양": 14,
+     "기관추천": 45
+    }
+   },
+   {
+    "no": "2026000572",
+    "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L8블록, 꽃나루마을 26단지)",
+    "region": "세종",
+    "households": 218,
+    "pyeong_avg": 1953,
+    "price_84_min": 64400,
+    "special_kinds": {
+     "신혼부부": 32,
+     "생애최초": 37,
+     "신생아": 21,
+     "다자녀": 22,
+     "노부모 부양": 7,
+     "기관추천": 19
+    }
+   },
+   {
     "no": "2026000611",
     "name": "병점복합타운 주복1블록 공공분양",
     "region": "경기",
@@ -1400,6 +1462,22 @@
     "special_kinds": {}
    },
    {
+    "no": "2026000612",
+    "name": "용인반도체클러스터 동일하이빌 파크밸리 2단지(D1-2블록)",
+    "region": "경기",
+    "households": 661,
+    "pyeong_avg": 1749,
+    "price_84_min": 56800,
+    "special_kinds": {
+     "신혼부부": 101,
+     "생애최초": 114,
+     "신생아": 67,
+     "다자녀": 67,
+     "노부모 부양": 22,
+     "기관추천": 67
+    }
+   },
+   {
     "no": "2026820014",
     "name": "남양주왕숙 A-2블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
     "region": "경기",
@@ -1407,6 +1485,22 @@
     "pyeong_avg": 1736,
     "price_84_min": null,
     "special_kinds": {}
+   },
+   {
+    "no": "2026000589",
+    "name": "트리븐 가흥",
+    "region": "경북",
+    "households": 765,
+    "pyeong_avg": 1629,
+    "price_84_min": 49900,
+    "special_kinds": {
+     "신혼부부": 106,
+     "생애최초": 50,
+     "신생아": 70,
+     "다자녀": 76,
+     "노부모 부양": 23,
+     "기관추천": 70
+    }
    },
    {
     "no": "2026000558",
@@ -1501,6 +1595,22 @@
     }
    },
    {
+    "no": "2026000592",
+    "name": "경북도청 푸르지오 퍼스티온",
+    "region": "경북",
+    "households": 1165,
+    "pyeong_avg": 1316,
+    "price_84_min": 43610,
+    "special_kinds": {
+     "신혼부부": 175,
+     "생애최초": 198,
+     "신생아": 117,
+     "다자녀": 116,
+     "노부모 부양": 35,
+     "기관추천": 116
+    }
+   },
+   {
     "no": "2026000590",
     "name": "두산위브 시그니처 광양",
     "region": "전남",
@@ -1550,14 +1660,14 @@
    }
   ],
   "special_totals": {
-   "신혼부부": 1107,
-   "생애최초": 759,
-   "신생아": 999,
-   "다자녀": 1092,
-   "노부모 부양": 330,
-   "기관추천": 898
+   "신혼부부": 2006,
+   "생애최초": 1581,
+   "신생아": 1595,
+   "다자녀": 1826,
+   "노부모 부양": 551,
+   "기관추천": 1472
   },
-  "households_total": 10935
+  "households_total": 18277
  },
  "last_month": {
   "month": "2026-10",

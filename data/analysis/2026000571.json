@@ -1,0 +1,124 @@
+{
+ "no": "2026000571",
+ "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L7블록, 꽃나루마을 24단지)",
+ "kind": "apt",
+ "region": "세종",
+ "notice_date": "2026-11-27",
+ "rank1_date": "2026-12-08",
+ "city": "합강동",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-15",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000571&pblancNo=2026000571",
+ "households": 648,
+ "types": [
+  {
+   "ty": "84A",
+   "size": 84,
+   "price": 65670,
+   "area_m2": 109.7729,
+   "general": 142,
+   "special": 248,
+   "pyeong_price": 1978,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 65660,
+   "area_m2": 111.8274,
+   "general": 69,
+   "special": 118,
+   "pyeong_price": 1941,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84C",
+   "size": 84,
+   "price": 65660,
+   "area_m2": 110.4225,
+   "general": 9,
+   "special": 20,
+   "pyeong_price": 1966,
+   "special_share_pct": 69
+  },
+  {
+   "ty": "84D",
+   "size": 84,
+   "price": 65660,
+   "area_m2": 112.9502,
+   "general": 16,
+   "special": 26,
+   "pyeong_price": 1922,
+   "special_share_pct": 62
+  }
+ ],
+ "general_total": 236,
+ "special_total": 412,
+ "special_share_pct": 64,
+ "pyeong_min": 1922,
+ "pyeong_max": 1978,
+ "pyeong_avg": 1963,
+ "price_84_min": 65660,
+ "price_84_max": 65670,
+ "special_kinds": {
+  "신혼부부": 97,
+  "생애최초": 110,
+  "신생아": 64,
+  "다자녀": 64,
+  "노부모 부양": 19,
+  "기관추천": 58
+ },
+ "region_price": {
+  "scope": "합강동",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L6블록, 꽃나루마을 16단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L8블록, 꽃나루마을 26단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L11블록, 꽃나루마을 28단지)"
+  ],
+  "peer_avg_pyeong": 1957,
+  "diff": 6,
+  "diff_pct": 0,
+  "rank": 1,
+  "of": 4
+ },
+ "region_price_wide": {
+  "scope": "세종",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "세종 우미 린 센터파크(행정중심복합도시 5-2생활권 S1블록, 글미마을 9단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L6블록, 꽃나루마을 16단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L8블록, 꽃나루마을 26단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L11블록, 꽃나루마을 28단지)"
+  ],
+  "peer_avg_pyeong": 1914,
+  "diff": 49,
+  "diff_pct": 3,
+  "rank": 1,
+  "of": 5
+ },
+ "market": {
+  "region": "세종특별자치시",
+  "lawd": "36110",
+  "months": 12,
+  "updated": "2026-11-28",
+  "n84": 1533,
+  "median84": 60000,
+  "p25_84": 49850,
+  "p75_84": 70000,
+  "new_n84": 204,
+  "new_median84": 78100,
+  "new_build_years": 5,
+  "diff_vs_median84": 5670,
+  "diff_pct_vs_median84": 9,
+  "diff_vs_new_median84": -12430,
+  "diff_pct_vs_new_median84": -16
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "no": "2026000589",
+ "name": "트리븐 가흥",
+ "kind": "apt",
+ "region": "경북",
+ "notice_date": "2026-11-27",
+ "rank1_date": "2026-12-03",
+ "city": "영주시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-10",
+ "price_cap": false,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000589&pblancNo=2026000589",
+ "households": 765,
+ "types": [
+  {
+   "ty": "84.9772A",
+   "size": 84,
+   "price": 52700,
+   "area_m2": 109.1454,
+   "general": 136,
+   "special": 165,
+   "pyeong_price": 1596,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8065B",
+   "size": 84,
+   "price": 49900,
+   "area_m2": 108.3191,
+   "general": 51,
+   "special": 62,
+   "pyeong_price": 1523,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8909C",
+   "size": 84,
+   "price": 55600,
+   "area_m2": 109.342,
+   "general": 123,
+   "special": 148,
+   "pyeong_price": 1681,
+   "special_share_pct": 55
+  },
+  {
+   "ty": "84.8894D",
+   "size": 84,
+   "price": 55700,
+   "area_m2": 109.8892,
+   "general": 11,
+   "special": 12,
+   "pyeong_price": 1676,
+   "special_share_pct": 52
+  },
+  {
+   "ty": "113.9804",
+   "size": 113,
+   "price": 76100,
+   "area_m2": 144.4569,
+   "general": 49,
+   "special": 8,
+   "pyeong_price": 1741,
+   "special_share_pct": 14
+  }
+ ],
+ "general_total": 370,
+ "special_total": 395,
+ "special_share_pct": 52,
+ "pyeong_min": 1523,
+ "pyeong_max": 1741,
+ "pyeong_avg": 1629,
+ "price_84_min": 49900,
+ "price_84_max": 55700,
+ "special_kinds": {
+  "신혼부부": 106,
+  "생애최초": 50,
+  "신생아": 70,
+  "다자녀": 76,
+  "노부모 부양": 23,
+  "기관추천": 70
+ },
+ "region_price": {
+  "scope": "경북",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 5,
+  "peers": [
+   "펜타힐즈 더블유 1단지",
+   "형곡 센트럴 아테라",
+   "구미 파크원 데시앙",
+   "리첼 에듀포레 경산역",
+   "경북도청 푸르지오 퍼스티온"
+  ],
+  "peer_avg_pyeong": 1665,
+  "diff": -36,
+  "diff_pct": -2,
+  "rank": 3,
+  "of": 6
+ },
+ "area_competition": {
+  "scope": "경북",
+  "peer_count": 4,
+  "peer_avg_rate": 2.94,
+  "peer_max_rate": 8.72
+ }
+}

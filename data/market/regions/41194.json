@@ -2,41 +2,41 @@
  "lawd": "41194",
  "name": "경기도 부천시 소사구",
  "months": 12,
- "updated": "2026-11-27",
- "trade_count": 2461,
- "cancel_count": 98,
- "n84": 814,
- "median84": 59700,
- "p25_84": 53200,
- "p75_84": 71500,
- "median84_pyeong_excl": 2326,
- "new_n84": 95,
- "new_median84": 78500,
+ "updated": "2026-11-28",
+ "trade_count": 2099,
+ "cancel_count": 90,
+ "n84": 694,
+ "median84": 59800,
+ "p25_84": 53500,
+ "p75_84": 72000,
+ "median84_pyeong_excl": 2332,
+ "new_n84": 85,
+ "new_median84": 78400,
  "new_build_years": 5,
  "umd84": {
-  "송내동": {
-   "n": 152,
-   "median": 59995
+  "괴안동": {
+   "n": 62,
+   "median": 45300
   },
   "범박동": {
-   "n": 199,
-   "median": 57500
-  },
-  "소사본동": {
-   "n": 218,
-   "median": 55450
+   "n": 170,
+   "median": 57650
   },
   "옥길동": {
-   "n": 165,
-   "median": 68000
+   "n": 140,
+   "median": 67500
+  },
+  "소사본동": {
+   "n": 184,
+   "median": 55500
+  },
+  "송내동": {
+   "n": 129,
+   "median": 60000
   },
   "심곡본동": {
-   "n": 11,
+   "n": 9,
    "median": 35300
-  },
-  "괴안동": {
-   "n": 69,
-   "median": 43500
   }
  },
  "monthly": [
@@ -99,80 +99,68 @@
    "count": 167,
    "n84": 60,
    "median84": 58650
-  },
-  {
-   "month": "2026-10",
-   "count": 248,
-   "n84": 81,
-   "median84": 59000
-  },
-  {
-   "month": "2026-11",
-   "count": 114,
-   "n84": 39,
-   "median84": 59000
   }
  ],
  "top_apts": [
   {
    "name": "범박동 일루미스테이트",
-   "count": 258,
-   "median84": 78400,
+   "count": 225,
+   "median84": 78000,
    "built": 2024
   },
   {
    "name": "소사본동 주공",
-   "count": 106,
+   "count": 84,
    "median84": null,
    "built": 1995
   },
   {
    "name": "옥길동 옥길센트리뷰",
-   "count": 92,
-   "median84": 67800,
+   "count": 82,
+   "median84": 67500,
    "built": 2017
   },
   {
+   "name": "괴안동 이편한세상온수역",
+   "count": 73,
+   "median84": 95000,
+   "built": 2020
+  },
+  {
    "name": "옥길동 옥길데시앙",
-   "count": 86,
+   "count": 67,
    "median84": null,
    "built": 2016
   },
   {
-   "name": "괴안동 이편한세상온수역",
-   "count": 77,
-   "median84": 95125,
-   "built": 2020
-  },
-  {
    "name": "소사본동 부천소사역푸르지오",
-   "count": 69,
-   "median84": 77500,
+   "count": 62,
+   "median84": 77250,
    "built": 2012
   },
   {
-   "name": "범박동 부천범박힐스테이트1단지",
-   "count": 69,
-   "median84": 53000,
-   "built": 2004
-  },
-  {
    "name": "옥길동 옥길호반베르디움",
-   "count": 67,
+   "count": 61,
    "median84": 78500,
    "built": 2017
   },
   {
-   "name": "옥길동 옥길브리즈힐",
-   "count": 66,
-   "median84": 66500,
-   "built": 2016
+   "name": "소사본동 소사에스케이뷰",
+   "count": 57,
+   "median84": 56500,
+   "built": 2004
   },
   {
-   "name": "소사본동 소사에스케이뷰",
-   "count": 66,
-   "median84": 56900,
+   "name": "범박동 부천범박힐스테이트1단지",
+   "count": 56,
+   "median84": 52000,
    "built": 2004
+  },
+  {
+   "name": "송내동 래미안어반비스타",
+   "count": 54,
+   "median84": 85000,
+   "built": 2021
   }
  ]
 }

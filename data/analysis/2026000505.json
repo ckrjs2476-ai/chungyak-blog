@@ -71,6 +71,51 @@
   "노부모 부양": 4,
   "기관추천": 13
  },
+ "competition": {
+  "types": [
+   {
+    "ty": "39.9342",
+    "supply": 5,
+    "closed_at": "1순위 해당지역",
+    "rate": 90.2,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "59.9926",
+    "supply": 13,
+    "closed_at": "1순위 해당지역",
+    "rate": 67.23,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.9794A",
+    "supply": 25,
+    "closed_at": "1순위 해당지역",
+    "rate": 6.52,
+    "final_shortfall": 0
+   },
+   {
+    "ty": "84.994B",
+    "supply": 19,
+    "closed_at": "1순위 해당지역",
+    "rate": 5.74,
+    "final_shortfall": 0
+   }
+  ],
+  "req_total": 1729,
+  "rank1_req": 1729,
+  "supply_total": 62,
+  "final_shortfall_total": 0,
+  "closed_types": 4,
+  "rank1_closed_types": 4,
+  "type_count": 4,
+  "rank1_avg_rate": 27.89,
+  "best": {
+   "ty": "39.9342",
+   "rate": 90.2,
+   "stage": "1순위 해당지역"
+  }
+ },
  "region_price": {
   "scope": "서울",
   "supply_kind": "민영",
@@ -97,5 +142,22 @@
   "peer_count": 9,
   "peer_avg_rate": 47.32,
   "peer_max_rate": 114.79
+ },
+ "region_competition": {
+  "scope": "서울",
+  "peer_count": 10,
+  "peers": [
+   "동작 센트럴 동문 디 이스트",
+   "드파인 아르티아",
+   "장위 푸르지오 마크원",
+   "월계 중흥S-클래스 리비에르",
+   "충정로역자이르네",
+   "써밋 클라비온",
+   "쌍용 더 플래티넘 서대문",
+   "브라운스톤 월곡 센트럴"
+  ],
+  "peer_avg_rate": 43.67,
+  "rank": 7,
+  "of": 11
  }
 }

@@ -1,15 +1,35 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "jobs": [
+  {
+   "house_manage_no": "2026000505",
+   "type": "competition",
+   "name": "경희궁 에피트",
+   "address": "서울특별시 종로구 교남동 28번지 일원",
+   "priority": 114,
+   "search_volume": 45500,
+   "rank1_date": "2026-11-26",
+   "winner_date": "2026-12-04"
+  },
   {
    "house_manage_no": "2026000497",
    "type": "score",
    "name": "중화역 라온프라이빗 센트로",
    "address": "서울특별시 중랑구 중화동 303-9번지 일원",
    "priority": 114,
-   "search_volume": 7050,
+   "search_volume": 7650,
    "rank1_date": "2026-11-17",
    "winner_date": "2026-11-25"
+  },
+  {
+   "house_manage_no": "2026000592",
+   "type": "notice",
+   "name": "경북도청 푸르지오 퍼스티온",
+   "address": "경상북도 예천군 호명읍 경북도청신도시 2단계 B-10BL ",
+   "priority": 99,
+   "search_volume": 3510,
+   "rank1_date": "2026-12-08",
+   "winner_date": "2026-12-15"
   },
   {
    "house_manage_no": "2026000560",
@@ -32,24 +52,64 @@
    "winner_date": "2026-12-01"
   },
   {
+   "house_manage_no": "2026000612",
+   "type": "notice",
+   "name": "용인반도체클러스터 동일하이빌 파크밸리 2단지(D1-2블록)",
+   "address": "경기도 용인시 처인구 원삼면 용인 반도체 클러스터 일반산업단지 D1-2BL",
+   "priority": 93,
+   "search_volume": 250,
+   "rank1_date": "2026-12-09",
+   "winner_date": "2026-12-16"
+  },
+  {
    "house_manage_no": "2026000568",
    "type": "notice",
    "name": "사천선인지구 S4블록(한림풀에버)",
    "address": "경상남도 사천시 사천선인 공공주택지구 S-4BL",
-   "priority": 89,
+   "priority": 88,
    "search_volume": 2320,
    "rank1_date": "2026-12-08",
    "winner_date": "2026-12-15"
   },
   {
-   "house_manage_no": "2026000472",
-   "type": "score",
-   "name": "구리갈매역세권 B-1블록 신안인스빌 디센트",
-   "address": "경기도 구리시 구리갈매역세권 B-1블록",
-   "priority": 79,
-   "search_volume": 10,
-   "rank1_date": "2026-11-10",
-   "winner_date": "2026-11-17"
+   "house_manage_no": "2026000570",
+   "type": "notice",
+   "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L6블록, 꽃나루마을 16단지)",
+   "address": "세종특별자치시 합강동 171-3번지 일원 (행정중심복합도시 5-1생활권 L6BL)",
+   "priority": 83,
+   "search_volume": 5790,
+   "rank1_date": "2026-12-08",
+   "winner_date": "2026-12-15"
+  },
+  {
+   "house_manage_no": "2026000571",
+   "type": "notice",
+   "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L7블록, 꽃나루마을 24단지)",
+   "address": "세종특별자치시 합강동 산74-1번지 일원(행정중심복합도시 5-1생활권 L7BL)",
+   "priority": 82,
+   "search_volume": 5790,
+   "rank1_date": "2026-12-08",
+   "winner_date": "2026-12-15"
+  },
+  {
+   "house_manage_no": "2026000573",
+   "type": "notice",
+   "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L11블록, 꽃나루마을 28단지)",
+   "address": "세종특별자치시 합강동 40번지 일원(행정중심복합도시 5-1생활권 L11BL)",
+   "priority": 81,
+   "search_volume": 5790,
+   "rank1_date": "2026-12-08",
+   "winner_date": "2026-12-16"
+  },
+  {
+   "house_manage_no": "2026000572",
+   "type": "notice",
+   "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L8블록, 꽃나루마을 26단지)",
+   "address": "세종특별자치시 합강동 산74-1번지 일원(행정중심복합도시 5-1생활권 L8BL)",
+   "priority": 80,
+   "search_volume": 5790,
+   "rank1_date": "2026-12-08",
+   "winner_date": "2026-12-17"
   },
   {
    "house_manage_no": "2026000566",
@@ -66,7 +126,7 @@
    "type": "notice",
    "name": "고양 한신더휴 퍼스트원",
    "address": "경기도 고양시 덕양구 행신동 173-1번지 일원",
-   "priority": 75,
+   "priority": 74,
    "search_volume": 4990,
    "rank1_date": "2026-12-01",
    "winner_date": "2026-12-09"
@@ -76,7 +136,7 @@
    "type": "notice",
    "name": "병점복합타운 주복1블록 공공분양",
    "address": "경기도 화성시 병점구 병점동, 진안동 일원 병점복합타운 내 주복1블록",
-   "priority": 73,
+   "priority": 72,
    "search_volume": 60,
    "rank1_date": "2026-12-07",
    "winner_date": "2026-12-23"
@@ -87,7 +147,7 @@
    "name": "의정부역 펠리스타워 양우내안애",
    "address": "경기도 의정부시 의정부동 424번지 일원 ",
    "priority": 72,
-   "search_volume": 3180,
+   "search_volume": 3070,
    "rank1_date": "2026-11-17",
    "winner_date": "2026-11-24"
   },
@@ -102,14 +162,34 @@
    "winner_date": "2026-11-18"
   },
   {
+   "house_manage_no": "2026000589",
+   "type": "notice",
+   "name": "트리븐 가흥",
+   "address": "경상북도 영주시 가흥동 1059-10 일원",
+   "priority": 65,
+   "search_volume": 3050,
+   "rank1_date": "2026-12-03",
+   "winner_date": "2026-12-10"
+  },
+  {
    "house_manage_no": "2026000576",
    "type": "competition",
    "name": "아르뮤제자이",
    "address": "경기도 안산시 상록구 성포동 586번지 일원",
    "priority": 62,
-   "search_volume": 14820,
+   "search_volume": 15210,
    "rank1_date": "2026-11-24",
    "winner_date": "2026-12-01"
+  },
+  {
+   "house_manage_no": "2026000588",
+   "type": "notice",
+   "name": "일광 THE S",
+   "address": "부산광역시 기장군 일광읍 이천리 345-1번지 일원",
+   "priority": 62,
+   "search_volume": 580,
+   "rank1_date": "2026-12-08",
+   "winner_date": "2026-12-15"
   },
   {
    "house_manage_no": "2026000559",
@@ -117,9 +197,19 @@
    "name": "두산위브 트레지움 익산",
    "address": "전북특별자치도 익산시 동산동 1057번지 일원",
    "priority": 60,
-   "search_volume": 1730,
+   "search_volume": 1810,
    "rank1_date": "2026-11-24",
    "winner_date": "2026-12-01"
+  },
+  {
+   "house_manage_no": "2026000574",
+   "type": "notice",
+   "name": "송도 대광로제비앙 모아엘가",
+   "address": "인천광역시 연수구 송도동 544 (송도국제도시 11공구 RC2BL)",
+   "priority": 58,
+   "search_volume": 630,
+   "rank1_date": "2026-12-08",
+   "winner_date": "2026-12-15"
   },
   {
    "house_manage_no": "2026000536",
@@ -127,26 +217,16 @@
    "name": "구미 파크원 데시앙",
    "address": "경상북도 구미시 도량동 산40-4번지 일원",
    "priority": 58,
-   "search_volume": 12260,
+   "search_volume": 12690,
    "rank1_date": "2026-11-24",
    "winner_date": "2026-12-02"
-  },
-  {
-   "house_manage_no": "2026000523",
-   "type": "score",
-   "name": "형곡 센트럴 아테라",
-   "address": "경상북도 구미시 형곡동 141-11번지 외 3필지",
-   "priority": 58,
-   "search_volume": 3260,
-   "rank1_date": "2026-11-10",
-   "winner_date": "2026-11-17"
   },
   {
    "house_manage_no": "2026000510",
    "type": "notice",
    "name": "연산역 수자인 센트리오",
    "address": "부산광역시 연제구 연산동 580-4번지 일원",
-   "priority": 55,
+   "priority": 54,
    "search_volume": 2650,
    "rank1_date": "2026-12-01",
    "winner_date": "2026-12-08"
@@ -166,7 +246,7 @@
    "type": "notice",
    "name": "두산위브 시그니처 광양",
    "address": "전남광주통합특별시 광양시 중동 1294, 1294-1번지",
-   "priority": 49,
+   "priority": 48,
    "search_volume": 740,
    "rank1_date": "2026-12-01",
    "winner_date": "2026-12-08"
@@ -176,27 +256,17 @@
    "type": "notice",
    "name": "고창 데시앙 2블록(민영)",
    "address": "전북특별자치도 고창군 덕산지구 도시개발구역 내 공동주택 BL2",
-   "priority": 49,
+   "priority": 48,
    "search_volume": 15,
    "rank1_date": "2026-12-01",
    "winner_date": "2026-12-08"
-  },
-  {
-   "house_manage_no": "2026000539",
-   "type": "score",
-   "name": "남춘천 센트레빌",
-   "address": "강원특별자치도 춘천시 효자동 681-12 일원",
-   "priority": 35,
-   "search_volume": 9500,
-   "rank1_date": "2026-11-10",
-   "winner_date": "2026-11-17"
   },
   {
    "house_manage_no": "2026000597",
    "type": "notice",
    "name": "고창 데시앙 3블록(공공분양)",
    "address": "전북특별자치도 고창군 덕산지구 도시개발구역 내 공동주택 BL3",
-   "priority": 20,
+   "priority": 19,
    "search_volume": 15,
    "rank1_date": "2026-12-01",
    "winner_date": "2026-12-08"
@@ -206,7 +276,7 @@
    "type": "notice",
    "name": "고창 데시앙 2블록(공공분양)",
    "address": "전북특별자치도 고창군 덕산지구 도시개발구역 내 공동주택 BL2",
-   "priority": 18,
+   "priority": 17,
    "search_volume": 15,
    "rank1_date": "2026-12-01",
    "winner_date": "2026-12-08"

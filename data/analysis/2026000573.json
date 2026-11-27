@@ -1,0 +1,114 @@
+{
+ "no": "2026000573",
+ "name": "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L11블록, 꽃나루마을 28단지)",
+ "kind": "apt",
+ "region": "세종",
+ "notice_date": "2026-11-27",
+ "rank1_date": "2026-12-08",
+ "city": "합강동",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-16",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000573&pblancNo=2026000573",
+ "households": 507,
+ "types": [
+  {
+   "ty": "84.9442A",
+   "size": 84,
+   "price": 65790,
+   "area_m2": 110.1248,
+   "general": 114,
+   "special": 201,
+   "pyeong_price": 1975,
+   "special_share_pct": 64
+  },
+  {
+   "ty": "84B",
+   "size": 84,
+   "price": 65780,
+   "area_m2": 112.3642,
+   "general": 42,
+   "special": 71,
+   "pyeong_price": 1935,
+   "special_share_pct": 63
+  },
+  {
+   "ty": "84.9652C",
+   "size": 84,
+   "price": 63830,
+   "area_m2": 110.7527,
+   "general": 29,
+   "special": 50,
+   "pyeong_price": 1905,
+   "special_share_pct": 63
+  }
+ ],
+ "general_total": 185,
+ "special_total": 322,
+ "special_share_pct": 64,
+ "pyeong_min": 1905,
+ "pyeong_max": 1975,
+ "pyeong_avg": 1955,
+ "price_84_min": 63830,
+ "price_84_max": 65790,
+ "special_kinds": {
+  "신혼부부": 76,
+  "생애최초": 86,
+  "신생아": 50,
+  "다자녀": 51,
+  "노부모 부양": 14,
+  "기관추천": 45
+ },
+ "region_price": {
+  "scope": "합강동",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 3,
+  "peers": [
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L6블록, 꽃나루마을 16단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L7블록, 꽃나루마을 24단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L8블록, 꽃나루마을 26단지)"
+  ],
+  "peer_avg_pyeong": 1960,
+  "diff": -5,
+  "diff_pct": 0,
+  "rank": 3,
+  "of": 4
+ },
+ "region_price_wide": {
+  "scope": "세종",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 4,
+  "peers": [
+   "세종 우미 린 센터파크(행정중심복합도시 5-2생활권 S1블록, 글미마을 9단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L6블록, 꽃나루마을 16단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L7블록, 꽃나루마을 24단지)",
+   "세종스마트시티 엘 수자인(행정중심복합도시 5-1생활권 L8블록, 꽃나루마을 26단지)"
+  ],
+  "peer_avg_pyeong": 1916,
+  "diff": 39,
+  "diff_pct": 2,
+  "rank": 3,
+  "of": 5
+ },
+ "market": {
+  "region": "세종특별자치시",
+  "lawd": "36110",
+  "months": 12,
+  "updated": "2026-11-28",
+  "n84": 1533,
+  "median84": 60000,
+  "p25_84": 49850,
+  "p75_84": 70000,
+  "new_n84": 204,
+  "new_median84": 78100,
+  "new_build_years": 5,
+  "diff_vs_median84": 5790,
+  "diff_pct_vs_median84": 10,
+  "diff_vs_new_median84": -12310,
+  "diff_pct_vs_new_median84": -16
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "no": "2026000612",
+ "name": "용인반도체클러스터 동일하이빌 파크밸리 2단지(D1-2블록)",
+ "kind": "apt",
+ "region": "경기",
+ "notice_date": "2026-11-27",
+ "rank1_date": "2026-12-09",
+ "city": "용인시",
+ "supply_kind": "민영",
+ "winner_date": "2026-12-16",
+ "price_cap": true,
+ "rental": false,
+ "speculative_zone": false,
+ "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000612&pblancNo=2026000612",
+ "households": 661,
+ "types": [
+  {
+   "ty": "59.939A",
+   "size": 59,
+   "price": 44300,
+   "area_m2": 80.8197,
+   "general": 36,
+   "special": 214,
+   "pyeong_price": 1812,
+   "special_share_pct": 86
+  },
+  {
+   "ty": "59.8977B",
+   "size": 59,
+   "price": 43200,
+   "area_m2": 80.4519,
+   "general": 16,
+   "special": 103,
+   "pyeong_price": 1775,
+   "special_share_pct": 87
+  },
+  {
+   "ty": "71.8211B",
+   "size": 71,
+   "price": 49500,
+   "area_m2": 95.6642,
+   "general": 14,
+   "special": 102,
+   "pyeong_price": 1711,
+   "special_share_pct": 88
+  },
+  {
+   "ty": "84.7577A",
+   "size": 84,
+   "price": 56800,
+   "area_m2": 112.6368,
+   "general": 23,
+   "special": 153,
+   "pyeong_price": 1667,
+   "special_share_pct": 87
+  }
+ ],
+ "general_total": 89,
+ "special_total": 572,
+ "special_share_pct": 87,
+ "pyeong_min": 1667,
+ "pyeong_max": 1812,
+ "pyeong_avg": 1749,
+ "price_84_min": 56800,
+ "price_84_max": 56800,
+ "special_kinds": {
+  "신혼부부": 101,
+  "생애최초": 114,
+  "신생아": 67,
+  "다자녀": 67,
+  "노부모 부양": 22,
+  "기관추천": 67
+ },
+ "region_price": {
+  "scope": "용인시",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 2,
+  "peers": [
+   "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)",
+   "중앙하이츠 구성 플랫폼시티"
+  ],
+  "peer_avg_pyeong": 2130,
+  "diff": -381,
+  "diff_pct": -18,
+  "rank": 2,
+  "of": 3
+ },
+ "region_price_wide": {
+  "scope": "경기",
+  "supply_kind": "민영",
+  "days": 180,
+  "peer_count": 39,
+  "peers": [
+   "더샵 분당하이스트",
+   "평택 고덕 우미 린 프레스티지(Abc-36BL)",
+   "북오산자이 드포레",
+   "고덕국제신도시 수자인하우스디",
+   "양주 회천지구 A-8BL 로제비앙 엘가",
+   "이천 휴먼빌 클래스원",
+   "의왕역 SK VIEW",
+   "남양주 진접 서한이다음(S1BL)"
+  ],
+  "peer_avg_pyeong": 2546,
+  "diff": -797,
+  "diff_pct": -31,
+  "rank": 30,
+  "of": 40
+ },
+ "area_competition": {
+  "scope": "용인시",
+  "peer_count": 2,
+  "peer_avg_rate": 3.85,
+  "peer_max_rate": 5.56
+ },
+ "market": {
+  "region": "경기도 용인시 처인구",
+  "lawd": "41461",
+  "months": 12,
+  "updated": "2026-11-28",
+  "n84": 892,
+  "median84": 42000,
+  "p25_84": 31500,
+  "p75_84": 52375,
+  "new_n84": 108,
+  "new_median84": 61500,
+  "new_build_years": 5,
+  "umd": "원삼면",
+  "umd_n84": 3,
+  "umd_median84": 19000,
+  "diff_vs_median84": 14800,
+  "diff_pct_vs_median84": 35,
+  "diff_vs_new_median84": -4700,
+  "diff_pct_vs_new_median84": -8,
+  "diff_vs_umd_median84": 37800,
+  "diff_pct_vs_umd_median84": 199
+ }
+}
