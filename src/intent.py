@@ -1,7 +1,7 @@
 """검색 의도 검사 (사용자 지적 2026-11-28: 형식은 맞는데 검색한 사람이 원하는 답이 없던 문제).
 
 대표 키워드로 검색한 사람이 가장 먼저 알고 싶은 답이 첫 문단에 있어야 한다.
-- 공모주 '○○ 공모주/청약/공모가/수요예측': 청약일·공모가(또는 희망 공모가) 첫 문단, 수요예측·상장 일정은 첫 두 문단 안
+- 공모주 '○○ 공모주/청약/공모가/수요예측': 청약일·공모가 첫 문단, 배정 공고일·납입일·청약 증권사는 첫 두 문단 안(수요예측·상장일은 데이터가 생기면 추가)
 - 청약 '○○ 청약 일정': 접수 날짜 / '○○ 분양가': 금액 / '○○ 당첨 가점': 점수
 - 전세 '○○ 아파트 전세': 전세 금액(억·만 원)
 - 관리비 '○○ 관리비'(단지·지역): 세대당 한 달 금액
@@ -28,13 +28,13 @@ def intent_errors(meta: dict, body: str, blog: str) -> list[str]:
     p12 = " ".join(ps[:2])
     errs: list[str] = []
     tag = "[검색 의도]"
-    if blog == "gongmoju" and re.search(r"공모주|공모가|수요예측|청약", kw) and not GONGMOJU_TOPIC.search(kw):
+    if blog == "gongmoju" and str(meta.get("type")) == "ipo" and re.search(r"공모주|공모가|수요예측|청약", kw) and not GONGMOJU_TOPIC.search(kw):
         if not DATE.search(p1):
             errs.append(f"{tag} '{kw}' 검색자는 청약 일정을 먼저 찾습니다. 첫 문단에 청약일(○월 ○~○일)을 쓰세요.")
         if not re.search(r"공모가|희망", p1):
             errs.append(f"{tag} 첫 문단에 공모가(확정 전이면 희망 공모가 범위)를 쓰세요.")
-        if not re.search(r"수요예측|상장", p12):
-            errs.append(f"{tag} 첫 두 문단 안에 수요예측 일정·결과나 상장 예정일을 쓰세요.")
+        if not re.search(r"배정|환불|납입|주관|증권", p12):
+            errs.append(f"{tag} 첫 두 문단 안에 배정 공고일·납입일이나 청약할 증권사(주관사)를 쓰세요. 청약하려는 사람이 다음에 찾는 정보입니다.")
     elif blog == "cheongyak":
         if "일정" in kw and not DATE.search(p1):
             errs.append(f"{tag} '{kw}' 검색자는 접수 날짜를 찾습니다. 첫 문단에 특별공급·1순위·당첨자 발표 날짜를 쓰세요.")
