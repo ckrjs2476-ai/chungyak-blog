@@ -163,3 +163,13 @@
   - 관리비 3: seongdong-gu-apartment-management-fee, wolgye-siyeong-gocheung-management-fee, seoul-forest-riverview-xi-management
   - 공모주 2: innovo-therapeutics-rank-2026-11, mbd-ipo-2026-11
   - 다음 실행 11-27 13:26: 공모주(ipo-company-age-2026-10 먼저) → 전세 → 청약 → 드론 → 관리비
+
+- 11-27 오후(13:28~13:50) 12건 요청, 13번째(관리비 mapo-raemian-prugio-management-fee-2026)에서 할당량 초과
+  - 공모주 3: ipo-company-age-2026-10, interx-ipo-2026-12, dabeeo-ipo-2026-11
+  - 전세 3: gwangjin-gu-jayang-dong-jeonse-2026-11, seoul-nowon-gu-jeonse-monthly-2026-11, busanjin-gu-jeonse-dong-ratio-2026-11
+  - 청약 3: wangsuk-hanshin-thehue-centum-bunyangga, asan-apartment-bunyang-2025-09-2026-10, the-sharp-cheonan-lakeone-bunyangga
+  - 드론 3: drone-police-drone-law-2026, drone-fishing-rules-2026, drone-rental-duty-2026
+  - 관리비 1: jung-gu-apartment-management-fee-gap
+  - 방법 메모: 검사 결과가 늦게 뜨면 첫 '색인 생성 요청' 클릭이 무시됨 → 40초 안에 대화상자가 없으면 한 번 더 클릭. 할당량 초과 창은 role=dialog가 아닐 때가 있어 화면으로 확인.
+  - 남은 미요청: 공모주 12·전세 28·청약 43·드론 13·관리비 37 = 133
+  - 다음 실행 11-28 13:48: 관리비(mapo-raemian-prugio-management-fee-2026 먼저) → 공모주 → 전세 → 청약 → 드론
