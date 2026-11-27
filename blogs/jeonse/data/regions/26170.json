@@ -1,30 +1,30 @@
 {
  "lawd": "26170",
  "name": "부산광역시 동구",
- "updated": "2026-11-13",
+ "updated": "2026-11-27",
  "months": 12,
- "jeonse_count": 563,
- "wolse_count": 504,
- "wolse_share_pct": 47.2,
+ "jeonse_count": 581,
+ "wolse_count": 524,
+ "wolse_share_pct": 47.4,
  "renew_share_pct": 32.5,
- "jeonse_n84": 170,
+ "jeonse_n84": 174,
  "jeonse_median84": 33600,
- "sale_n84": 162,
- "sale_median84": 49175,
- "ratio84": 68.3,
- "jeonse_recent3_median84": 34500,
+ "sale_n84": 170,
+ "sale_median84": 49000,
+ "ratio84": 68.6,
+ "jeonse_recent3_median84": 34750,
  "jeonse_prev3_median84": 32000,
- "jeonse_change_pct": 7.8,
+ "jeonse_change_pct": 8.6,
  "apts_with_both": 14,
  "apts_ratio_80_plus": 3,
- "apts_ratio_70_plus": 8,
+ "apts_ratio_70_plus": 6,
  "umd": {
   "범일동": {
-   "jeonse_n": 51,
-   "jeonse_median84": 32500,
-   "sale_n": 49,
+   "jeonse_n": 53,
+   "jeonse_median84": 33000,
+   "sale_n": 51,
    "sale_median84": 50500,
-   "ratio": 64.4
+   "ratio": 65.3
   },
   "수정동": {
    "jeonse_n": 6,
@@ -41,9 +41,9 @@
    "ratio": 99.2
   },
   "초량동": {
-   "jeonse_n": 97,
+   "jeonse_n": 99,
    "jeonse_median84": 33600,
-   "sale_n": 72,
+   "sale_n": 78,
    "sale_median84": 55000,
    "ratio": 61.1
   }
@@ -75,9 +75,9 @@
    "built": 1997,
    "jeonse_n": 3,
    "jeonse_median84": 17000,
-   "sale_n": 3,
-   "sale_median84": 21000,
-   "ratio": 81.0
+   "sale_n": 4,
+   "sale_median84": 20500,
+   "ratio": 82.9
   },
   {
    "umd": "초량동",
@@ -85,9 +85,9 @@
    "built": 2011,
    "jeonse_n": 15,
    "jeonse_median84": 26000,
-   "sale_n": 3,
-   "sale_median84": 33700,
-   "ratio": 77.2
+   "sale_n": 4,
+   "sale_median84": 33850,
+   "ratio": 76.8
   },
   {
    "umd": "범일동",
@@ -111,33 +111,23 @@
   },
   {
    "umd": "초량동",
-   "apt": "범양레우스센트럴베이",
-   "built": 2020,
-   "jeonse_n": 38,
-   "jeonse_median84": 39500,
-   "sale_n": 19,
-   "sale_median84": 56000,
-   "ratio": 70.5
-  },
-  {
-   "umd": "초량동",
    "apt": "지원더뷰오션2차",
    "built": 2019,
    "jeonse_n": 12,
    "jeonse_median84": 30000,
-   "sale_n": 8,
-   "sale_median84": 42750,
-   "ratio": 70.2
+   "sale_n": 9,
+   "sale_median84": 43000,
+   "ratio": 69.8
   },
   {
    "umd": "초량동",
-   "apt": "지원더뷰오션1차",
-   "built": 2018,
-   "jeonse_n": 10,
-   "jeonse_median84": 29725,
-   "sale_n": 6,
-   "sale_median84": 44500,
-   "ratio": 66.8
+   "apt": "범양레우스센트럴베이",
+   "built": 2020,
+   "jeonse_n": 38,
+   "jeonse_median84": 39500,
+   "sale_n": 20,
+   "sale_median84": 56900,
+   "ratio": 69.4
   },
   {
    "umd": "좌천동",
@@ -148,38 +138,6 @@
    "sale_n": 8,
    "sale_median84": 51750,
    "ratio": 66.7
-  }
- ],
- "low_ratio_apts": [
-  {
-   "umd": "초량동",
-   "apt": "초량베스티움센트럴베이",
-   "built": 2021,
-   "jeonse_n": 3,
-   "jeonse_median84": 33600,
-   "sale_n": 4,
-   "sale_median84": 57000,
-   "ratio": 58.9
-  },
-  {
-   "umd": "범일동",
-   "apt": "두산위브더제니스하버시티",
-   "built": 2023,
-   "jeonse_n": 18,
-   "jeonse_median84": 40000,
-   "sale_n": 19,
-   "sale_median84": 65000,
-   "ratio": 61.5
-  },
-  {
-   "umd": "초량동",
-   "apt": "e편한세상부산항",
-   "built": 2019,
-   "jeonse_n": 16,
-   "jeonse_median84": 40000,
-   "sale_n": 22,
-   "sale_median84": 62350,
-   "ratio": 64.2
   },
   {
    "umd": "범일동",
@@ -190,16 +148,58 @@
    "sale_n": 11,
    "sale_median84": 50500,
    "ratio": 66.3
+  }
+ ],
+ "low_ratio_apts": [
+  {
+   "umd": "초량동",
+   "apt": "초량베스티움센트럴베이",
+   "built": 2021,
+   "jeonse_n": 4,
+   "jeonse_median84": 33600,
+   "sale_n": 4,
+   "sale_median84": 57000,
+   "ratio": 58.9
   },
   {
-   "umd": "좌천동",
-   "apt": "부산항일동미라주더오션(1지구)",
-   "built": 2021,
+   "umd": "범일동",
+   "apt": "두산위브더제니스하버시티",
+   "built": 2023,
+   "jeonse_n": 20,
+   "jeonse_median84": 40000,
+   "sale_n": 20,
+   "sale_median84": 65250,
+   "ratio": 61.3
+  },
+  {
+   "umd": "초량동",
+   "apt": "e편한세상부산항",
+   "built": 2019,
+   "jeonse_n": 16,
+   "jeonse_median84": 40000,
+   "sale_n": 23,
+   "sale_median84": 62300,
+   "ratio": 64.2
+  },
+  {
+   "umd": "초량동",
+   "apt": "지원더뷰오션1차",
+   "built": 2018,
    "jeonse_n": 11,
-   "jeonse_median84": 34500,
-   "sale_n": 8,
-   "sale_median84": 51750,
-   "ratio": 66.7
+   "jeonse_median84": 29000,
+   "sale_n": 7,
+   "sale_median84": 45000,
+   "ratio": 64.4
+  },
+  {
+   "umd": "범일동",
+   "apt": "오션브릿지",
+   "built": 2018,
+   "jeonse_n": 12,
+   "jeonse_median84": 33500,
+   "sale_n": 11,
+   "sale_median84": 50500,
+   "ratio": 66.3
   }
  ],
  "monthly": [
@@ -241,9 +241,9 @@
   },
   {
    "month": "2026-06",
-   "jeonse_count": 37,
-   "n84": 10,
-   "jeonse_median84": 29700
+   "jeonse_count": 38,
+   "n84": 11,
+   "jeonse_median84": 30000
   },
   {
    "month": "2026-07",
@@ -265,21 +265,21 @@
   },
   {
    "month": "2026-10",
-   "jeonse_count": 42,
+   "jeonse_count": 43,
    "n84": 19,
    "jeonse_median84": 37800
   },
   {
    "month": "2026-11",
-   "jeonse_count": 7,
-   "n84": 3,
-   "jeonse_median84": 37000
+   "jeonse_count": 23,
+   "n84": 6,
+   "jeonse_median84": 36500
   }
  ],
- "rank": 102,
+ "rank": 101,
  "rank_of": 180,
  "avg_ratio84_all": 72.6,
- "ratio_vs_avg_pp": -4.3,
+ "ratio_vs_avg_pp": -4.0,
  "umd_ratio_high": {
   "name": "좌천동",
   "ratio": 99.2
@@ -289,5 +289,5 @@
   "ratio": 61.1
  },
  "umd_spread_pp": 38.1,
- "gap84": 15575
+ "gap84": 15400
 }

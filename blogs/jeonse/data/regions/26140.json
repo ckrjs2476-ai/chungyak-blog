@@ -1,22 +1,22 @@
 {
  "lawd": "26140",
  "name": "부산광역시 서구",
- "updated": "2026-11-13",
+ "updated": "2026-11-27",
  "months": 12,
- "jeonse_count": 535,
- "wolse_count": 600,
- "wolse_share_pct": 52.9,
- "renew_share_pct": 23.9,
- "jeonse_n84": 212,
+ "jeonse_count": 548,
+ "wolse_count": 628,
+ "wolse_share_pct": 53.4,
+ "renew_share_pct": 24.1,
+ "jeonse_n84": 217,
  "jeonse_median84": 36000,
- "sale_n84": 338,
+ "sale_n84": 345,
  "sale_median84": 53000,
  "ratio84": 67.9,
  "jeonse_recent3_median84": 36000,
  "jeonse_prev3_median84": 38000,
  "jeonse_change_pct": -5.3,
  "apts_with_both": 21,
- "apts_ratio_80_plus": 5,
+ "apts_ratio_80_plus": 6,
  "apts_ratio_70_plus": 11,
  "umd": {
   "남부민동": {
@@ -27,18 +27,18 @@
    "ratio": 85.9
   },
   "동대신동1가": {
-   "jeonse_n": 6,
-   "jeonse_median84": 34800,
+   "jeonse_n": 7,
+   "jeonse_median84": 36000,
    "sale_n": 7,
    "sale_median84": 51000,
-   "ratio": 68.2
+   "ratio": 70.6
   },
   "동대신동3가": {
    "jeonse_n": 18,
    "jeonse_median84": 38000,
-   "sale_n": 11,
-   "sale_median84": 52000,
-   "ratio": 73.1
+   "sale_n": 12,
+   "sale_median84": 51750,
+   "ratio": 73.4
   },
   "부민동3가": {
    "jeonse_n": 3,
@@ -48,15 +48,15 @@
    "ratio": 91.7
   },
   "서대신동1가": {
-   "jeonse_n": 23,
-   "jeonse_median84": 37000,
-   "sale_n": 38,
-   "sale_median84": 59250,
-   "ratio": 62.4
+   "jeonse_n": 24,
+   "jeonse_median84": 37400,
+   "sale_n": 39,
+   "sale_median84": 59000,
+   "ratio": 63.4
   },
   "서대신동2가": {
-   "jeonse_n": 32,
-   "jeonse_median84": 38825,
+   "jeonse_n": 33,
+   "jeonse_median84": 38800,
    "sale_n": 52,
    "sale_median84": 59975,
    "ratio": 64.7
@@ -69,11 +69,11 @@
    "ratio": 79.4
   },
   "암남동": {
-   "jeonse_n": 89,
+   "jeonse_n": 91,
    "jeonse_median84": 35000,
-   "sale_n": 131,
-   "sale_median84": 55955,
-   "ratio": 62.6
+   "sale_n": 135,
+   "sale_median84": 55500,
+   "ratio": 63.1
   },
   "토성동1가": {
    "jeonse_n": 10,
@@ -116,6 +116,16 @@
   },
   {
    "umd": "암남동",
+   "apt": "송도정림비치타운",
+   "built": 1993,
+   "jeonse_n": 3,
+   "jeonse_median84": 13000,
+   "sale_n": 5,
+   "sale_median84": 16000,
+   "ratio": 81.2
+  },
+  {
+   "umd": "암남동",
    "apt": "고려빌라맨션",
    "built": 1985,
    "jeonse_n": 3,
@@ -133,16 +143,6 @@
    "sale_n": 6,
    "sale_median84": 49750,
    "ratio": 80.4
-  },
-  {
-   "umd": "암남동",
-   "apt": "송도정림비치타운",
-   "built": 1993,
-   "jeonse_n": 3,
-   "jeonse_median84": 13000,
-   "sale_n": 4,
-   "sale_median84": 16500,
-   "ratio": 78.8
   },
   {
    "umd": "부용동1가",
@@ -197,24 +197,24 @@
    "ratio": 61.3
   },
   {
-   "umd": "서대신동1가",
-   "apt": "대신푸르지오1차",
-   "built": 2018,
-   "jeonse_n": 22,
-   "jeonse_median84": 37400,
-   "sale_n": 33,
-   "sale_median84": 60500,
-   "ratio": 61.8
-  },
-  {
    "umd": "암남동",
    "apt": "e편한세상송도더퍼스트비치",
    "built": 2024,
    "jeonse_n": 24,
    "jeonse_median84": 38000,
-   "sale_n": 69,
+   "sale_n": 71,
    "sale_median84": 60990,
    "ratio": 62.3
+  },
+  {
+   "umd": "서대신동1가",
+   "apt": "대신푸르지오1차",
+   "built": 2018,
+   "jeonse_n": 23,
+   "jeonse_median84": 37800,
+   "sale_n": 33,
+   "sale_median84": 60500,
+   "ratio": 62.5
   },
   {
    "umd": "서대신동2가",
@@ -230,11 +230,11 @@
    "umd": "서대신동2가",
    "apt": "대신푸르지오2차",
    "built": 2021,
-   "jeonse_n": 21,
-   "jeonse_median84": 38800,
+   "jeonse_n": 22,
+   "jeonse_median84": 38400,
    "sale_n": 21,
    "sale_median84": 60000,
-   "ratio": 64.7
+   "ratio": 64.0
   }
  ],
  "monthly": [
@@ -294,21 +294,21 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 47,
-   "n84": 21,
-   "jeonse_median84": 36500
+   "jeonse_count": 48,
+   "n84": 22,
+   "jeonse_median84": 36250
   },
   {
    "month": "2026-10",
-   "jeonse_count": 50,
+   "jeonse_count": 51,
    "n84": 19,
    "jeonse_median84": 36000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 15,
-   "n84": 4,
-   "jeonse_median84": 31875
+   "jeonse_count": 26,
+   "n84": 8,
+   "jeonse_median84": 36750
   }
  ],
  "rank": 105,
@@ -320,9 +320,9 @@
   "ratio": 80.0
  },
  "umd_ratio_low": {
-  "name": "서대신동1가",
-  "ratio": 62.4
+  "name": "암남동",
+  "ratio": 63.1
  },
- "umd_spread_pp": 17.6,
+ "umd_spread_pp": 16.9,
  "gap84": 17000
 }

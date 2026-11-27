@@ -1,42 +1,42 @@
 {
  "lawd": "28155",
  "name": "인천광역시 영종구",
- "updated": "2026-11-13",
+ "updated": "2026-11-27",
  "months": 12,
- "jeonse_count": 2149,
- "wolse_count": 3207,
- "wolse_share_pct": 59.9,
+ "jeonse_count": 2224,
+ "wolse_count": 3278,
+ "wolse_share_pct": 59.6,
  "renew_share_pct": 36.4,
- "jeonse_n84": 1065,
+ "jeonse_n84": 1102,
  "jeonse_median84": 28000,
- "sale_n84": 512,
- "sale_median84": 42500,
- "ratio84": 65.9,
- "jeonse_recent3_median84": 28875,
+ "sale_n84": 536,
+ "sale_median84": 42400,
+ "ratio84": 66.0,
+ "jeonse_recent3_median84": 29000,
  "jeonse_prev3_median84": 28000,
- "jeonse_change_pct": 3.1,
- "apts_with_both": 22,
+ "jeonse_change_pct": 3.6,
+ "apts_with_both": 23,
  "apts_ratio_80_plus": 3,
  "apts_ratio_70_plus": 5,
  "umd": {
   "운남동": {
-   "jeonse_n": 248,
+   "jeonse_n": 256,
    "jeonse_median84": 29000,
-   "sale_n": 89,
+   "sale_n": 93,
    "sale_median84": 43000,
    "ratio": 67.4
   },
   "운서동": {
-   "jeonse_n": 270,
+   "jeonse_n": 278,
    "jeonse_median84": 29450,
-   "sale_n": 116,
-   "sale_median84": 41250,
-   "ratio": 71.4
+   "sale_n": 121,
+   "sale_median84": 41000,
+   "ratio": 71.8
   },
   "중산동": {
-   "jeonse_n": 547,
+   "jeonse_n": 568,
    "jeonse_median84": 26000,
-   "sale_n": 307,
+   "sale_n": 322,
    "sale_median84": 42000,
    "ratio": 61.9
   }
@@ -56,21 +56,21 @@
    "umd": "운서동",
    "apt": "금호베스트빌1단지",
    "built": 2002,
-   "jeonse_n": 32,
+   "jeonse_n": 33,
    "jeonse_median84": 26000,
-   "sale_n": 14,
-   "sale_median84": 29650,
-   "ratio": 87.7
+   "sale_n": 15,
+   "sale_median84": 30000,
+   "ratio": 86.7
   },
   {
    "umd": "운서동",
    "apt": "영종2차금호베스트빌",
    "built": 2003,
-   "jeonse_n": 18,
+   "jeonse_n": 20,
    "jeonse_median84": 26000,
-   "sale_n": 28,
-   "sale_median84": 30100,
-   "ratio": 86.4
+   "sale_n": 29,
+   "sale_median84": 30200,
+   "ratio": 86.1
   },
   {
    "umd": "운서동",
@@ -88,29 +88,39 @@
    "built": 2022,
    "jeonse_n": 73,
    "jeonse_median84": 33500,
-   "sale_n": 24,
-   "sale_median84": 47800,
-   "ratio": 70.1
+   "sale_n": 26,
+   "sale_median84": 47550,
+   "ratio": 70.5
   },
   {
    "umd": "중산동",
    "apt": "영종국제도시동원로얄듀크마리나포레",
    "built": 2022,
-   "jeonse_n": 13,
+   "jeonse_n": 16,
    "jeonse_median84": 30000,
    "sale_n": 14,
    "sale_median84": 42900,
    "ratio": 69.9
   },
   {
+   "umd": "중산동",
+   "apt": "영종하늘도시한신더휴2차",
+   "built": 2024,
+   "jeonse_n": 2,
+   "jeonse_median84": 29500,
+   "sale_n": 2,
+   "sale_median84": 42240,
+   "ratio": 69.8
+  },
+  {
    "umd": "운남동",
    "apt": "운서SKVIEWskycityⅡ",
    "built": 2022,
-   "jeonse_n": 35,
+   "jeonse_n": 36,
    "jeonse_median84": 30000,
-   "sale_n": 33,
-   "sale_median84": 43250,
-   "ratio": 69.4
+   "sale_n": 34,
+   "sale_median84": 43125,
+   "ratio": 69.6
   },
   {
    "umd": "중산동",
@@ -118,29 +128,19 @@
    "built": 2012,
    "jeonse_n": 52,
    "jeonse_median84": 23000,
-   "sale_n": 28,
-   "sale_median84": 33750,
-   "ratio": 68.1
+   "sale_n": 31,
+   "sale_median84": 33500,
+   "ratio": 68.7
   },
   {
    "umd": "운남동",
    "apt": "e편한세상영종하늘도시",
    "built": 2018,
-   "jeonse_n": 37,
+   "jeonse_n": 38,
    "jeonse_median84": 27000,
-   "sale_n": 11,
-   "sale_median84": 40200,
-   "ratio": 67.2
-  },
-  {
-   "umd": "중산동",
-   "apt": "호반써밋스카이센트럴",
-   "built": 2022,
-   "jeonse_n": 28,
-   "jeonse_median84": 30225,
-   "sale_n": 20,
-   "sale_median84": 45000,
-   "ratio": 67.2
+   "sale_n": 12,
+   "sale_median84": 40000,
+   "ratio": 67.5
   }
  ],
  "low_ratio_apts": [
@@ -148,17 +148,17 @@
    "umd": "중산동",
    "apt": "하늘도시우미린2단지",
    "built": 2012,
-   "jeonse_n": 136,
-   "jeonse_median84": 22000,
-   "sale_n": 52,
+   "jeonse_n": 140,
+   "jeonse_median84": 22275,
+   "sale_n": 55,
    "sale_median84": 36000,
-   "ratio": 61.1
+   "ratio": 61.9
   },
   {
    "umd": "운남동",
    "apt": "제일풍경채디오션",
    "built": 2025,
-   "jeonse_n": 42,
+   "jeonse_n": 43,
    "jeonse_median84": 30000,
    "sale_n": 10,
    "sale_median84": 48250,
@@ -168,11 +168,11 @@
    "umd": "중산동",
    "apt": "영종하늘도시KCC스위첸",
    "built": 2019,
-   "jeonse_n": 43,
+   "jeonse_n": 44,
    "jeonse_median84": 28000,
-   "sale_n": 31,
-   "sale_median84": 44500,
-   "ratio": 62.9
+   "sale_n": 33,
+   "sale_median84": 44200,
+   "ratio": 63.3
   },
   {
    "umd": "운남동",
@@ -188,9 +188,9 @@
    "umd": "중산동",
    "apt": "영종힐스테이트",
    "built": 2012,
-   "jeonse_n": 133,
+   "jeonse_n": 140,
    "jeonse_median84": 24000,
-   "sale_n": 50,
+   "sale_n": 52,
    "sale_median84": 37500,
    "ratio": 64.0
   }
@@ -246,41 +246,41 @@
   },
   {
    "month": "2026-08",
-   "jeonse_count": 189,
-   "n84": 79,
+   "jeonse_count": 190,
+   "n84": 80,
    "jeonse_median84": 29000
   },
   {
    "month": "2026-09",
-   "jeonse_count": 146,
-   "n84": 63,
+   "jeonse_count": 148,
+   "n84": 64,
    "jeonse_median84": 28500
   },
   {
    "month": "2026-10",
-   "jeonse_count": 180,
-   "n84": 86,
+   "jeonse_count": 184,
+   "n84": 88,
    "jeonse_median84": 28000
   },
   {
    "month": "2026-11",
-   "jeonse_count": 43,
-   "n84": 23,
+   "jeonse_count": 111,
+   "n84": 56,
    "jeonse_median84": 29000
   }
  ],
  "rank": 120,
  "rank_of": 180,
  "avg_ratio84_all": 72.6,
- "ratio_vs_avg_pp": -6.7,
+ "ratio_vs_avg_pp": -6.6,
  "umd_ratio_high": {
   "name": "운서동",
-  "ratio": 71.4
+  "ratio": 71.8
  },
  "umd_ratio_low": {
   "name": "중산동",
   "ratio": 61.9
  },
- "umd_spread_pp": 9.5,
- "gap84": 14500
+ "umd_spread_pp": 9.9,
+ "gap84": 14400
 }

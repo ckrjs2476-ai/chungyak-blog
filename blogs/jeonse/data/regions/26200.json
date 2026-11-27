@@ -1,17 +1,17 @@
 {
  "lawd": "26200",
  "name": "부산광역시 영도구",
- "updated": "2026-11-13",
+ "updated": "2026-11-27",
  "months": 12,
- "jeonse_count": 508,
- "wolse_count": 644,
- "wolse_share_pct": 55.9,
- "renew_share_pct": 18.1,
- "jeonse_n84": 159,
+ "jeonse_count": 529,
+ "wolse_count": 669,
+ "wolse_share_pct": 55.8,
+ "renew_share_pct": 18.3,
+ "jeonse_n84": 165,
  "jeonse_median84": 28000,
- "sale_n84": 185,
- "sale_median84": 28000,
- "ratio84": 100.0,
+ "sale_n84": 190,
+ "sale_median84": 28650,
+ "ratio84": 97.7,
  "jeonse_recent3_median84": 28000,
  "jeonse_prev3_median84": 28000,
  "jeonse_change_pct": 0.0,
@@ -20,11 +20,11 @@
  "apts_ratio_70_plus": 6,
  "umd": {
   "동삼동": {
-   "jeonse_n": 111,
+   "jeonse_n": 115,
    "jeonse_median84": 28500,
-   "sale_n": 84,
-   "sale_median84": 24150,
-   "ratio": 118.0
+   "sale_n": 87,
+   "sale_median84": 24300,
+   "ratio": 117.3
   },
   "봉래동2가": {
    "jeonse_n": 12,
@@ -34,18 +34,18 @@
    "ratio": 72.5
   },
   "봉래동4가": {
-   "jeonse_n": 18,
+   "jeonse_n": 19,
    "jeonse_median84": 37000,
-   "sale_n": 30,
-   "sale_median84": 47700,
-   "ratio": 77.6
+   "sale_n": 31,
+   "sale_median84": 47500,
+   "ratio": 77.9
   },
   "청학동": {
-   "jeonse_n": 11,
-   "jeonse_median84": 15000,
+   "jeonse_n": 12,
+   "jeonse_median84": 16500,
    "sale_n": 41,
    "sale_median84": 17000,
-   "ratio": 88.2
+   "ratio": 97.1
   }
  },
  "top_ratio_apts": [
@@ -73,7 +73,7 @@
    "umd": "청학동",
    "apt": "영도신도브래뉴",
    "built": 2009,
-   "jeonse_n": 4,
+   "jeonse_n": 5,
    "jeonse_median84": 25000,
    "sale_n": 9,
    "sale_median84": 30800,
@@ -83,11 +83,11 @@
    "umd": "봉래동4가",
    "apt": "영도센트럴에일린의뜰",
    "built": 2023,
-   "jeonse_n": 18,
+   "jeonse_n": 19,
    "jeonse_median84": 37000,
-   "sale_n": 29,
-   "sale_median84": 47900,
-   "ratio": 77.2
+   "sale_n": 30,
+   "sale_median84": 47700,
+   "ratio": 77.6
   },
   {
    "umd": "봉래동2가",
@@ -103,11 +103,11 @@
    "umd": "동삼동",
    "apt": "부산오션시티푸르지오",
    "built": 2022,
-   "jeonse_n": 79,
-   "jeonse_median84": 28300,
-   "sale_n": 22,
-   "sale_median84": 39725,
-   "ratio": 71.2
+   "jeonse_n": 80,
+   "jeonse_median84": 28150,
+   "sale_n": 24,
+   "sale_median84": 39250,
+   "ratio": 71.7
   },
   {
    "umd": "동삼동",
@@ -121,6 +121,16 @@
   },
   {
    "umd": "동삼동",
+   "apt": "오션라이프에일린의뜰2단지",
+   "built": 2024,
+   "jeonse_n": 14,
+   "jeonse_median84": 32500,
+   "sale_n": 4,
+   "sale_median84": 48400,
+   "ratio": 67.1
+  },
+  {
+   "umd": "동삼동",
    "apt": "오션라이프에일린의뜰1단지",
    "built": 2024,
    "jeonse_n": 8,
@@ -128,16 +138,6 @@
    "sale_n": 9,
    "sale_median84": 47750,
    "ratio": 67.0
-  },
-  {
-   "umd": "동삼동",
-   "apt": "오션라이프에일린의뜰2단지",
-   "built": 2024,
-   "jeonse_n": 12,
-   "jeonse_median84": 32000,
-   "sale_n": 4,
-   "sale_median84": 48400,
-   "ratio": 66.1
   },
   {
    "umd": "동삼동",
@@ -208,35 +208,35 @@
   },
   {
    "month": "2026-09",
-   "jeonse_count": 31,
-   "n84": 14,
+   "jeonse_count": 32,
+   "n84": 15,
    "jeonse_median84": 27000
   },
   {
    "month": "2026-10",
-   "jeonse_count": 40,
-   "n84": 16,
-   "jeonse_median84": 29250
+   "jeonse_count": 44,
+   "n84": 17,
+   "jeonse_median84": 29500
   },
   {
    "month": "2026-11",
-   "jeonse_count": 7,
-   "n84": 2,
-   "jeonse_median84": 27600
+   "jeonse_count": 23,
+   "n84": 6,
+   "jeonse_median84": 25450
   }
  ],
  "rank": 15,
  "rank_of": 180,
  "avg_ratio84_all": 72.6,
- "ratio_vs_avg_pp": 27.4,
+ "ratio_vs_avg_pp": 25.1,
  "umd_ratio_high": {
   "name": "동삼동",
-  "ratio": 118.0
+  "ratio": 117.3
  },
  "umd_ratio_low": {
   "name": "봉래동4가",
-  "ratio": 77.6
+  "ratio": 77.9
  },
- "umd_spread_pp": 40.4,
- "gap84": 0
+ "umd_spread_pp": 39.4,
+ "gap84": 650
 }
