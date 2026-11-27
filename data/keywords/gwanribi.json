@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 11:45",
+ "updated": "2026-11-27 11:46",
  "stage": 2,
  "band": [
   300,
@@ -20,7 +20,7 @@
   },
   {
    "keyword": "장기수선계획",
-   "volume": 400,
+   "volume": 410,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -44,7 +44,7 @@
   },
   {
    "keyword": "장기수선충당금계산",
-   "volume": 150,
+   "volume": 160,
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -56,7 +56,7 @@
   },
   {
    "keyword": "아파트관리비고지서",
-   "volume": 200,
+   "volume": 190,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -68,7 +68,7 @@
   },
   {
    "keyword": "아파트난방비",
-   "volume": 150,
+   "volume": 160,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -80,7 +80,7 @@
   },
   {
    "keyword": "장기수선충당금",
-   "volume": 12380,
+   "volume": 12400,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -104,7 +104,7 @@
   },
   {
    "keyword": "관리비항목",
-   "volume": 60,
+   "volume": 50,
    "comp": "낮음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -116,7 +116,7 @@
   },
   {
    "keyword": "관리사무소",
-   "volume": 3110,
+   "volume": 3090,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -259,18 +259,6 @@
    "used": false
   },
   {
-   "keyword": "중구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "중구",
-   "entity_id": "region:11140",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "창신쌍용1단지관리비",
    "volume": 10,
    "comp": "낮음",
@@ -324,18 +312,6 @@
    "comp": "낮음",
    "entity": "신당남산타운",
    "entity_id": "A10045302",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "중구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "중구",
-   "entity_id": "region:11140",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -5959,18 +5935,6 @@
    "used": false
   },
   {
-   "keyword": "마포래미안푸르지오관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "마포래미안푸르지오",
-   "entity_id": "A12175203",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "마포태영관리비",
    "volume": 10,
    "comp": "낮음",
@@ -6464,7 +6428,7 @@
   },
   {
    "keyword": "장기수선계획조정",
-   "volume": 70,
+   "volume": 60,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -6488,7 +6452,7 @@
   },
   {
    "keyword": "장기수선충당금인상",
-   "volume": 60,
+   "volume": 50,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -6500,7 +6464,7 @@
   },
   {
    "keyword": "난방비줄이는방법",
-   "volume": 30,
+   "volume": 40,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -6524,7 +6488,7 @@
   },
   {
    "keyword": "아파트장기수선계획",
-   "volume": 70,
+   "volume": 60,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -6584,7 +6548,7 @@
   },
   {
    "keyword": "관리비",
-   "volume": 1390,
+   "volume": 1370,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6596,7 +6560,7 @@
   },
   {
    "keyword": "아파트관리사무소",
-   "volume": 1120,
+   "volume": 1110,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6656,7 +6620,7 @@
   },
   {
    "keyword": "용산원효루미니관리비",
-   "volume": 10,
+   "volume": 15,
    "comp": "중간",
    "entity": "용산원효루미니",
    "entity_id": "A10023798",
@@ -6916,6 +6880,30 @@
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
    "score": 12.6,
+   "used": true
+  },
+  {
+   "keyword": "중구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중구",
+   "entity_id": "region:11140",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "중구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "중구",
+   "entity_id": "region:11140",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
    "used": true
   },
   {
@@ -7231,8 +7219,20 @@
    "used": true
   },
   {
+   "keyword": "마포래미안푸르지오관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "마포래미안푸르지오",
+   "entity_id": "A12175203",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
+  },
+  {
    "keyword": "나인원한남관리비",
-   "volume": 140,
+   "volume": 130,
    "comp": "중간",
    "entity": "나인원 한남",
    "entity_id": "A10025192",
@@ -7448,7 +7448,7 @@
   },
   {
    "keyword": "관리비프로그램",
-   "volume": 40,
+   "volume": 50,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -7484,7 +7484,7 @@
   },
   {
    "keyword": "관리비부과프로그램",
-   "volume": 15,
+   "volume": 10,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -7532,7 +7532,7 @@
   },
   {
    "keyword": "이문아이파크자이관리비",
-   "volume": 20,
+   "volume": 15,
    "comp": "높음",
    "entity": "이문아이파크자이",
    "entity_id": "A10020344",
