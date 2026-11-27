@@ -1,1 +1,14 @@
-[]
+[
+ {"name": "dr-drone-maintenance-repair-law-2026-card",
+  "card": {"blog": "drone", "layout": "compare",
+   "title": "드론 정비, 법에서는 어디에 걸리나요?",
+   "answer": "고쳐 주는 사업은 제26호 다목, 고친 뒤 인증은 25kg 초과 기체만",
+   "compare": {"head": ["오해", "법 조문", "실제 기준"],
+    "rows": [["수리점은 항공기정비업", "항공사업법 제2조 제17호", "초경량비행장치 이름 없음"],
+             ["정비는 사업 이름에 없다", "항공사업법 제2조 제26호 다목", "정비·수리·개조서비스"],
+             ["고치면 바로 비행", "안전성인증 수시인증", "25kg 초과 기체의 대개조 뒤"],
+             ["비행 전 점검은 권고", "시행규칙 제310조 제5항", "레저사업 조종자 의무"]]},
+   "source": "국가법령정보센터, 항공안전기술원", "date": "2026-11-27"}},
+ {"name": "dr-drone-maintenance-repair-law-2026-law", "url": "https://law.go.kr/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=010202&lsJoLnkSeq=1023755001", "sleep": 5},
+ {"name": "dr-drone-maintenance-repair-law-2026-law2", "url": "https://www.law.go.kr/법령/항공사업법", "sleep": 5}
+]
