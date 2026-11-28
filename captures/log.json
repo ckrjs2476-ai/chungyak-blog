@@ -1,56 +1,5 @@
 [
  {
-  "name": "js-41173-dong",
-  "ok": true,
-  "chart": {
-   "type": "jeonse_dong",
-   "lawd": "41173",
-   "highlight": "호계동"
-  },
-  "size": [
-   760,
-   320
-  ],
-  "bytes": 11206,
-  "at": "2026-11-22 19:47"
- },
- {
-  "name": "js-anyang-dongan-gu-jeonse-flow-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "points",
-   "title": "안양 동안구 아파트 전세, 석 달 새 얼마나 올랐을까?",
-   "answer": "84㎡ 최근 3개월 중앙값 5억 5,000만 원, 앞선 석 달보다 4.8% 올랐습니다",
-   "points": [
-    {
-     "label": "최근 3개월 전세 중앙값",
-     "value": "5억 5,000만 원"
-    },
-    {
-     "label": "10월 전세 중앙값",
-     "value": "5억 7,000만 원"
-    },
-    {
-     "label": "12개월 84㎡ 전세가율",
-     "value": "58.4%"
-    },
-    {
-     "label": "평촌동·호계동 전세가율",
-     "value": "48.7% · 64.4%"
-    }
-   ],
-   "source": "국토교통부 실거래가",
-   "date": "2026-11-10"
-  },
-  "size": [
-   760,
-   480
-  ],
-  "bytes": 33958,
-  "at": "2026-11-22 19:47"
- },
- {
   "name": "js-41173-calc-1",
   "ok": true,
   "status": null,
@@ -5582,5 +5531,60 @@
   "bytes": 7330,
   "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
   "at": "2026-11-28 19:50"
+ },
+ {
+  "name": "dr-drone-japan-drone-job-2026-card",
+  "ok": true,
+  "card": {
+   "blog": "drone",
+   "layout": "compare",
+   "title": "일본 드론 직업, 한국과 무엇이 다른가요?",
+   "answer": "일본 job tag는 연수입 470.1만 엔·구인배율 2.95, 한국은 법이 사업 업무 5개를 정해요",
+   "compare": {
+    "head": [
+     "항목",
+     "일본 job tag",
+     "한국 드론사용사업"
+    ],
+    "rows": [
+     [
+      "하는 일",
+      "6개(촬영·측량·점검·관찰·수색·농약 살포)",
+      "5개(시행규칙 제6조 제2항)"
+     ],
+     [
+      "돈 이야기",
+      "연수입 470.1만 엔(2025년 조사)",
+      "등록요건 3천만 원(25kg 이하만 쓰면 제외)"
+     ],
+     [
+      "구인",
+      "구인배율 2.95·구인 월급 24.1만 엔",
+      "등록처 한국교통안전공단"
+     ]
+    ]
+   },
+   "source": "일본 후생노동성 job tag · 법제처 생활법령정보",
+   "date": "2026-11-28"
+  },
+  "size": [
+   760,
+   512
+  ],
+  "bytes": 40360,
+  "at": "2026-11-28 20:29"
+ },
+ {
+  "name": "dr-drone-japan-drone-job-2026-jobtag",
+  "ok": true,
+  "status": 200,
+  "title": "ドローンパイロット - 職業詳細 | 職業情報提供サイト（job tag）",
+  "size": [
+   760,
+   484
+  ],
+  "bytes": 20146,
+  "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/511",
+  "at": "2026-11-28 20:29"
  }
 ]
