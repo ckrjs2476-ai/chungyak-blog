@@ -509,6 +509,9 @@ def byline_block(file: str, published: str) -> str:
         parts.append(f"마지막 수정 {edited}")
     if BLOG in SOURCE_TEXT:
         parts.append(f"자료 {SOURCE_TEXT[BLOG]}")
+    guide = (pages.get("guide.md") or {}).get("url")
+    if guide:  # 전체 글 목록(주제별) 페이지로 가는 내부 링크(2026-11-28)
+        parts.append(f'<a href="{guide}" style="color:#1a56db;">전체 글 목록</a>')
     return ('<p class="post-byline-box" style="margin:1.4em 0 0;padding:10px 12px;border-top:1px solid #e5e7eb;'
             'font-size:13px;color:#555555;line-height:1.7;">' + " · ".join(parts) + "</p>")
 
@@ -619,6 +622,30 @@ def update_results() -> int:
     return rerender(only=set(todo))
 
 
+POST_LIST = "<!-- POST_LIST -->"
+
+
+def _post_list_md() -> str:
+    """공개 글을 라벨(분류)별로 묶은 목록(최신순). 검색엔진이 /search/label 페이지를 robots.txt 때문에 못 읽어서,
+    고정 페이지 하나에 모든 글 링크를 모아 둔다(2026-11-28)."""
+    posts = [p for p in json.loads(PUBLISHED.read_text("utf-8")).get("posts", [])
+             if p.get("url") and p.get("status", "LIVE") == "LIVE"] if PUBLISHED.exists() else []
+    groups: dict[str, list] = {}
+    for p in sorted(posts, key=lambda x: str(x.get("published_at", "")), reverse=True):
+        groups.setdefault((p.get("labels") or ["기타"])[0], []).append(p)
+    out = []
+    for lab in sorted(groups, key=lambda k: -len(groups[k])):
+        out.append(f"## {lab} ({len(groups[lab])}편)\n")
+        for p in groups[lab]:
+            t = p.get("title", "")
+            f = DONE / str(p.get("file", ""))
+            if p.get("file") and f.exists():  # 원고의 최신 제목
+                t = split_post(f.read_text("utf-8"))[0].get("title") or t
+            out.append(f"- [{t}]({p['url']})")
+        out.append("")
+    return "\n".join(out)
+
+
 def publish_pages() -> int:
     """pages/*.md 가운데 머리말에 publish: true가 있는 것을 Blogger 고정 페이지로 올리거나 고친다."""
     token = access_token()
@@ -634,6 +661,8 @@ def publish_pages() -> int:
         meta, body = split_post(text)
         if meta.get("publish") is not True:
             continue
+        if POST_LIST in body:
+            body = body.replace(POST_LIST, _post_list_md())
         payload = {"title": meta["title"], "content": to_html(body)}
         slug = meta.get("slug")
         if f.name not in known and slug:
@@ -739,6 +768,12 @@ def main() -> int:
         shutil.move(str(f), DONE / f.name)
         summary.append(f"- {'임시저장' if draft else ('예약 발행 ' + post['_scheduled_at'][11:16] if post.get('_scheduled_at') else '발행')}: {meta['title']} {post.get('url', '')}")
 
+    if any(s.startswith("- 발행") or s.startswith("- 예약") for s in summary) and any(
+            POST_LIST in f.read_text("utf-8") for f in PAGES_DIR.glob("*.md")):
+        try:  # 새 글이 올라가면 전체 글 목록 페이지도 고친다
+            publish_pages()
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::글 목록 페이지 갱신 실패: {type(e).__name__}: {e}")
     queue = len(list(((ROOT / "data" / "queue") if _blog is None else (BASE / "data" / "queue")).glob("*.md")))
     if queue < 10:
         summary.append(f"- 경고: 예비 글이 {queue}편입니다 (10편 미만).")
