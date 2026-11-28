@@ -42,8 +42,8 @@ def build_card(meta: dict) -> str:
     if not q:
         return ""
     from html import escape
-    return (f'<div style="{BOX}"><p style="margin:0 0 6px;font-size:13px;color:#0f766e;font-weight:700;">한 줄 답</p>'
-            f'<p style="margin:0;font-size:16px;color:#134e4a;line-height:1.7;">{escape(q)}</p></div>')
+    # 2026-11-28: '한 줄 답' 꼬리표를 빼서 검색·공유 미리보기 설명이 답 문장으로 바로 시작하게 한다.
+    return (f'<div style="{BOX}"><p style="margin:0;font-size:16px;color:#134e4a;line-height:1.7;">{escape(q)}</p></div>')
 
 
 def recent_posts() -> list[dict]:

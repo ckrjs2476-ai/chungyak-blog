@@ -116,19 +116,53 @@ def style_html(html: str) -> str:
 FIG_RE = re.compile(r"^!\[([^\]]*)\]\((captures/[\w.\-]+\.(?:webp|png|jpg))\)\s*$", re.M)
 
 
+IMG_CDN = "https://cdn.jsdelivr.net/gh/ckrjs2476-ai/chungyak-blog@main/"  # 공개 저장소 그림을 주소로 연결(2026-11-28)
+
+
+def _img_size(path: Path) -> tuple[int, int]:
+    """webp/png/jpg 가로·세로(화면 밀림 방지용). 못 읽으면 (0, 0)."""
+    b = path.read_bytes()[:64 * 1024]
+    try:
+        if b[:4] == b"RIFF" and b[8:12] == b"WEBP":
+            k = b[12:16]
+            if k == b"VP8X":
+                return 1 + int.from_bytes(b[24:27], "little"), 1 + int.from_bytes(b[27:30], "little")
+            if k == b"VP8 ":
+                return int.from_bytes(b[26:28], "little") & 0x3FFF, int.from_bytes(b[28:30], "little") & 0x3FFF
+            if k == b"VP8L":
+                v = int.from_bytes(b[21:25], "little")
+                return (v & 0x3FFF) + 1, ((v >> 14) & 0x3FFF) + 1
+        if b[:8] == b"\x89PNG\r\n\x1a\n":
+            return int.from_bytes(b[16:20], "big"), int.from_bytes(b[20:24], "big")
+        if b[:2] == b"\xff\xd8":
+            i = 2
+            while i < len(b) - 9:
+                if b[i] != 0xFF:
+                    i += 1
+                    continue
+                mk, ln = b[i + 1], int.from_bytes(b[i + 2:i + 4], "big")
+                if 0xC0 <= mk <= 0xCF and mk not in (0xC4, 0xC8, 0xCC):
+                    return int.from_bytes(b[i + 7:i + 9], "big"), int.from_bytes(b[i + 5:i + 7], "big")
+                i += 2 + ln
+    except Exception:
+        pass
+    return 0, 0
+
+
 def _figure(m: "re.Match") -> str:
-    """원고의 캡처 줄 ![캡션](captures/파일.webp)을 글 안에 바로 넣는 그림으로 바꾼다.
-    Blogger API는 이미지 업로드가 없어 data URI로 넣는다(캡처는 760px webp 20~40KB)."""
-    import base64
-    cap, path = m.group(1).strip(), ROOT / m.group(2)
+    """원고의 캡처 줄 ![캡션](captures/파일.webp)을 그림으로 바꾼다.
+    2026-11-28: data URI(글 안에 그림을 글자로 통째로 넣기)는 페이지가 수백 KB가 되고, 구글 이미지 색인·대표 이미지(og:image)가
+    안 잡혀서 공개 저장소의 파일 주소(jsDelivr)로 바꿨다. 가로·세로를 넣어 화면 밀림(CLS)을 막는다."""
+    cap, rel = m.group(1).strip(), m.group(2)
+    path = ROOT / rel
     if not path.exists():
-        print(f"::warning::캡처 파일 없음: {m.group(2)}")
+        print(f"::warning::캡처 파일 없음: {rel}")
         return ""
-    mime = {"webp": "image/webp", "png": "image/png", "jpg": "image/jpeg"}[path.suffix[1:]]
-    data = base64.b64encode(path.read_bytes()).decode()
+    w, h = _img_size(path)
+    wh = f' width="{w}" height="{h}"' if w and h else ""
     alt = html_lib.escape(cap, quote=True)
     return ('\n\n<figure style="margin:1.4em 0;text-align:center;">'
-            f'<img src="data:{mime};base64,{data}" alt="{alt}" loading="lazy" '
+            f'<img src="{IMG_CDN}{rel}" alt="{alt}"{wh} loading="lazy" decoding="async" '
             'style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:6px;"/>'
             f'<figcaption style="margin-top:.5em;font-size:14px;color:#555555;">{html_lib.escape(cap)}</figcaption>'
             '</figure>\n\n')
