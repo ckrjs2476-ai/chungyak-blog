@@ -1,65 +1,5 @@
 [
  {
-  "name": "js-30110-rt",
-  "ok": true,
-  "status": 200,
-  "title": "국토교통부 실거래가공개시스템 자료제공",
-  "size": [
-   760,
-   387
-  ],
-  "bytes": 7286,
-  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
-  "at": "2026-11-22 12:45"
- },
- {
-  "name": "js-daejeon-dong-gu-jeonse-gap-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "jeonse",
-   "layout": "compare",
-   "title": "대전 동구 전세가율 87.5%, 금액으로는 얼마 차이일까?",
-   "answer": "84㎡ 전세 중앙값 2억 8,000만 원, 매매 중앙값 3억 2,000만 원과 4,000만 원 차이",
-   "compare": {
-    "head": [
-     "대전 구",
-     "84㎡ 전세가율",
-     "84㎡ 매매 중앙값"
-    ],
-    "rows": [
-     [
-      "동구",
-      "87.5%",
-      "3억 2,000만 원"
-     ],
-     [
-      "중구",
-      "76.7%",
-      "3억 7,800만 원"
-     ],
-     [
-      "서구",
-      "68.2%",
-      "4억 4,725만 원"
-     ],
-     [
-      "유성구",
-      "66.1%",
-      "4억 8,500만 원"
-     ]
-    ]
-   },
-   "source": "국토교통부 실거래가",
-   "date": "2026-11-14"
-  },
-  "size": [
-   760,
-   547
-  ],
-  "bytes": 32894,
-  "at": "2026-11-22 12:47"
- },
- {
   "name": "cy-goyang-apartment-bunyang-2025-09-2026-11-card",
   "ok": true,
   "card": {
@@ -5625,5 +5565,54 @@
   "bytes": 15162,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000612&pblancNo=2026000612",
   "at": "2026-11-28 18:40"
+ },
+ {
+  "name": "cy-gwangmyeong-cheongyak-2025-09-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "points",
+   "title": "광명 청약, 최근 1년 결과는 어땠나요?",
+   "answer": "철산역자이 37.96대 1, 힐스테이트 광명 11 36.66대 1, 시티프라디움은 1.68대 1이었어요",
+   "points": [
+    {
+     "label": "철산역자이 3.3㎡당",
+     "value": "4,332만 원"
+    },
+    {
+     "label": "힐스테이트 광명 11 3.3㎡당",
+     "value": "4,518만 원"
+    },
+    {
+     "label": "광명 시티프라디움 에듀하임 3.3㎡당",
+     "value": "3,606만 원"
+    },
+    {
+     "label": "시티프라디움 2순위 뒤 남은 세대",
+     "value": "75세대"
+    }
+   ],
+   "source": "청약홈 입주자모집공고·청약 경쟁률",
+   "date": "2026-11-28"
+  },
+  "size": [
+   760,
+   480
+  ],
+  "bytes": 32014,
+  "at": "2026-11-28 18:44"
+ },
+ {
+  "name": "cy-2026000453-price-1128",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   321
+  ],
+  "bytes": 10936,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000453&pblancNo=2026000453",
+  "at": "2026-11-28 18:44"
  }
 ]
