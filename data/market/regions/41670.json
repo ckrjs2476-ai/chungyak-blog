@@ -2,49 +2,49 @@
  "lawd": "41670",
  "name": "경기도 여주시",
  "months": 12,
- "updated": "2026-11-27",
- "trade_count": 735,
- "cancel_count": 49,
- "n84": 277,
- "median84": 29000,
+ "updated": "2026-11-28",
+ "trade_count": 638,
+ "cancel_count": 46,
+ "n84": 236,
+ "median84": 29400,
  "p25_84": 20500,
- "p75_84": 44800,
- "median84_pyeong_excl": 1136,
- "new_n84": 82,
- "new_median84": 46000,
+ "p75_84": 45000,
+ "median84_pyeong_excl": 1146,
+ "new_n84": 72,
+ "new_median84": 46500,
  "new_build_years": 5,
  "umd84": {
+  "현암동": {
+   "n": 52,
+   "median": 29650
+  },
   "교동": {
-   "n": 127,
-   "median": 43600
+   "n": 110,
+   "median": 44750
   },
   "연양동": {
-   "n": 21,
-   "median": 19000
-  },
-  "현암동": {
-   "n": 64,
-   "median": 29400
-  },
-  "천송동": {
-   "n": 17,
-   "median": 45500
+   "n": 16,
+   "median": 18800
   },
   "멱곡동": {
-   "n": 8,
+   "n": 6,
    "median": 18550
   },
-  "오학동": {
-   "n": 6,
-   "median": 26150
-  },
-  "홍문동": {
-   "n": 12,
-   "median": 18000
+  "천송동": {
+   "n": 15,
+   "median": 45500
   },
   "월송동": {
    "n": 16,
    "median": 19750
+  },
+  "홍문동": {
+   "n": 11,
+   "median": 20000
+  },
+  "오학동": {
+   "n": 5,
+   "median": 26000
   },
   "점봉동": {
    "n": 4,
@@ -111,80 +111,68 @@
    "count": 46,
    "n84": 17,
    "median84": 22600
-  },
-  {
-   "month": "2026-10",
-   "count": 59,
-   "n84": 29,
-   "median84": 26000
-  },
-  {
-   "month": "2026-11",
-   "count": 38,
-   "n84": 12,
-   "median84": 40800
   }
  ],
  "top_apts": [
   {
    "name": "점봉동 부영사랑으로",
-   "count": 58,
+   "count": 52,
    "median84": null,
    "built": 2000
   },
   {
    "name": "현암동 벽산",
-   "count": 44,
+   "count": 38,
    "median84": null,
    "built": 1997
   },
   {
-   "name": "교동 여주역금호어울림베르티스",
-   "count": 40,
-   "median84": 45000,
-   "built": 2022
-  },
-  {
    "name": "가남읍 신해리 현진에버빌-1",
-   "count": 37,
+   "count": 34,
    "median84": 17500,
    "built": 2000
   },
   {
+   "name": "교동 여주역금호어울림베르티스",
+   "count": 33,
+   "median84": 45000,
+   "built": 2022
+  },
+  {
    "name": "오학동 여주오드카운티",
-   "count": 35,
+   "count": 33,
    "median84": 26150,
    "built": 2014
   },
   {
    "name": "현암동 여주아이파크",
-   "count": 31,
-   "median84": 37000,
+   "count": 26,
+   "median84": 37250,
    "built": 2020
   },
   {
    "name": "교동 호반리젠시빌",
-   "count": 28,
-   "median84": 21700,
+   "count": 25,
+   "median84": 21400,
    "built": 2003
   },
   {
+   "name": "교동 예일세띠앙",
+   "count": 24,
+   "median84": 29500,
+   "built": 2006
+  },
+  {
    "name": "홍문동 홍문현대",
-   "count": 26,
+   "count": 22,
    "median84": 21750,
    "built": 1996
   },
   {
    "name": "홍문동 동원",
-   "count": 26,
+   "count": 22,
    "median84": null,
    "built": 2001
-  },
-  {
-   "name": "교동 예일세띠앙",
-   "count": 26,
-   "median84": 29500,
-   "built": 2006
   }
  ]
 }

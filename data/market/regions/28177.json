@@ -2,41 +2,41 @@
  "lawd": "28177",
  "name": "인천광역시 미추홀구",
  "months": 12,
- "updated": "2026-11-27",
- "trade_count": 2873,
- "cancel_count": 127,
- "n84": 797,
- "median84": 39300,
- "p25_84": 29300,
+ "updated": "2026-11-28",
+ "trade_count": 2475,
+ "cancel_count": 122,
+ "n84": 716,
+ "median84": 38500,
+ "p25_84": 29125,
  "p75_84": 55000,
- "median84_pyeong_excl": 1530,
- "new_n84": 130,
- "new_median84": 58500,
+ "median84_pyeong_excl": 1498,
+ "new_n84": 115,
+ "new_median84": 59500,
  "new_build_years": 5,
  "umd84": {
-  "주안동": {
-   "n": 168,
-   "median": 46400
+  "용현동": {
+   "n": 230,
+   "median": 33600
   },
   "학익동": {
-   "n": 154,
-   "median": 35975
+   "n": 138,
+   "median": 33600
   },
-  "용현동": {
-   "n": 262,
-   "median": 34750
+  "주안동": {
+   "n": 154,
+   "median": 45500
   },
   "숭의동": {
-   "n": 38,
+   "n": 36,
    "median": 42500
   },
   "도화동": {
-   "n": 103,
-   "median": 53000
+   "n": 92,
+   "median": 52950
   },
   "관교동": {
-   "n": 72,
-   "median": 36500
+   "n": 66,
+   "median": 36225
   }
  },
  "monthly": [
@@ -99,79 +99,67 @@
    "count": 198,
    "n84": 58,
    "median84": 39250
-  },
-  {
-   "month": "2026-10",
-   "count": 258,
-   "n84": 42,
-   "median84": 42700
-  },
-  {
-   "month": "2026-11",
-   "count": 140,
-   "n84": 39,
-   "median84": 52700
   }
  ],
  "top_apts": [
   {
    "name": "주안동 힐스테이트푸르지오주안",
-   "count": 179,
+   "count": 161,
    "median84": 66900,
    "built": 2023
   },
   {
    "name": "용현동 인천 SK Sky VIEW",
-   "count": 153,
+   "count": 130,
    "median84": 57250,
    "built": 2016
   },
   {
    "name": "주안동 주안파크자이더플래티넘",
-   "count": 122,
+   "count": 101,
    "median84": 58125,
    "built": 2023
   },
   {
    "name": "도화동 더샵인천스카이타워1단지",
-   "count": 79,
+   "count": 70,
    "median84": 55000,
    "built": 2020
   },
   {
    "name": "주안동 주안역센트레빌",
-   "count": 73,
+   "count": 64,
    "median84": 57200,
    "built": 2021
   },
   {
-   "name": "용현동 동아",
-   "count": 68,
-   "median84": null,
-   "built": 1989
-  },
-  {
    "name": "학익동 풍림아이원",
-   "count": 65,
-   "median84": 40000,
+   "count": 57,
+   "median84": 39800,
    "built": 2007
   },
   {
    "name": "주안동 월드스테이트(101~111,124~132)",
-   "count": 63,
+   "count": 55,
    "median84": 47000,
    "built": 2008
   },
   {
    "name": "학익동 동아풍림",
-   "count": 51,
-   "median84": 31825,
+   "count": 46,
+   "median84": 31500,
    "built": 1999
   },
   {
+   "name": "용현동 용현엘크루윈드포레",
+   "count": 41,
+   "median84": 44400,
+   "built": 2018
+  },
+  {
    "name": "숭의동 스타디움센트럴시티",
-   "count": 47,
-   "median84": 48500,
+   "count": 41,
+   "median84": 48250,
    "built": 2022
   }
  ]

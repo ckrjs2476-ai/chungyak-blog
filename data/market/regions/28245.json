@@ -2,65 +2,57 @@
  "lawd": "28245",
  "name": "인천광역시 계양구",
  "months": 12,
- "updated": "2026-11-27",
- "trade_count": 2675,
- "cancel_count": 121,
- "n84": 581,
+ "updated": "2026-11-28",
+ "trade_count": 2326,
+ "cancel_count": 112,
+ "n84": 507,
  "median84": 36000,
  "p25_84": 30000,
- "p75_84": 42725,
- "median84_pyeong_excl": 1402,
- "new_n84": 69,
+ "p75_84": 43000,
+ "median84_pyeong_excl": 1400,
+ "new_n84": 62,
  "new_median84": 64000,
  "new_build_years": 5,
  "umd84": {
-  "작전동": {
-   "n": 152,
-   "median": 33250
-  },
-  "동양동": {
-   "n": 20,
-   "median": 39950
-  },
   "용종동": {
-   "n": 75,
+   "n": 66,
    "median": 38700
   },
-  "귤현동": {
-   "n": 41,
-   "median": 46300
-  },
-  "박촌동": {
-   "n": 43,
-   "median": 41250
+  "작전동": {
+   "n": 138,
+   "median": 33100
   },
   "효성동": {
-   "n": 133,
+   "n": 115,
    "median": 29500
   },
   "서운동": {
-   "n": 21,
-   "median": 58500
+   "n": 18,
+   "median": 59900
+  },
+  "귤현동": {
+   "n": 36,
+   "median": 46400
   },
   "계산동": {
-   "n": 48,
-   "median": 35600
-  },
-  "이화동": {
-   "n": 18,
-   "median": 37250
+   "n": 42,
+   "median": 35200
   },
   "오류동": {
-   "n": 23,
+   "n": 21,
    "median": 29400
   },
-  "방축동": {
-   "n": 3,
-   "median": 57000
+  "박촌동": {
+   "n": 33,
+   "median": 40350
   },
-  "장기동": {
-   "n": 3,
-   "median": 30000
+  "이화동": {
+   "n": 17,
+   "median": 37200
+  },
+  "동양동": {
+   "n": 16,
+   "median": 39350
   }
  },
  "monthly": [
@@ -123,80 +115,68 @@
    "count": 218,
    "n84": 39,
    "median84": 37400
-  },
-  {
-   "month": "2026-10",
-   "count": 224,
-   "n84": 48,
-   "median84": 36500
-  },
-  {
-   "month": "2026-11",
-   "count": 125,
-   "n84": 26,
-   "median84": 38650
   }
  ],
  "top_apts": [
   {
    "name": "작전동 힐스테이트자이계양",
-   "count": 125,
+   "count": 115,
    "median84": 83000,
    "built": 2024
   },
   {
    "name": "병방동 학마을한진",
-   "count": 100,
+   "count": 91,
    "median84": null,
    "built": 1998
   },
   {
    "name": "효성동 e편한세상 계양 더프리미어",
-   "count": 96,
-   "median84": 62850,
+   "count": 83,
+   "median84": 62900,
    "built": 2021
   },
   {
    "name": "작전동 도두리마을대동",
-   "count": 79,
+   "count": 63,
    "median84": null,
    "built": 1997
   },
   {
    "name": "병방동 학마을서해",
-   "count": 72,
+   "count": 59,
    "median84": null,
    "built": 1997
   },
   {
-   "name": "서운동 계양효성해링턴플레이스",
-   "count": 59,
-   "median84": 59900,
-   "built": 2021
-  },
-  {
    "name": "작전동 까치마을태화",
-   "count": 58,
+   "count": 54,
    "median84": null,
    "built": 1997
   },
   {
    "name": "오류동 신동아",
-   "count": 57,
+   "count": 53,
    "median84": 29400,
    "built": 1997
   },
   {
    "name": "작전동 까치마을한진",
-   "count": 56,
+   "count": 51,
    "median84": null,
    "built": 1997
   },
   {
-   "name": "계산동 주공",
-   "count": 52,
+   "name": "서운동 계양효성해링턴플레이스",
+   "count": 51,
+   "median84": 60250,
+   "built": 2021
+  },
+  {
+   "name": "작전동 도두리마을동보",
+   "count": 45,
    "median84": null,
-   "built": 1990
+   "built": 1996
   }
  ]
 }
