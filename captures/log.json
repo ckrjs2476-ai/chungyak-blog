@@ -1,54 +1,5 @@
 [
  {
-  "name": "gw-dobong-gu-apartment-management-fee-by-size-2026-08-card",
-  "ok": true,
-  "card": {
-   "blog": "gwanribi",
-   "layout": "points",
-   "title": "도봉구 대단지 관리비, ㎡당 얼마였나요?",
-   "answer": "1,000세대 이상은 공용 1,008원으로 가장 낮고 합계 2,468원으로 가장 높았어요",
-   "points": [
-    {
-     "label": "1,000세대 이상 공용관리비 중앙값",
-     "value": "1,008원"
-    },
-    {
-     "label": "1,000세대 이상 ㎡당 합계 중앙값",
-     "value": "2,468원"
-    },
-    {
-     "label": "500~999세대 ㎡당 합계 중앙값",
-     "value": "2,409원"
-    },
-    {
-     "label": "창동주공4단지 공용관리비(50곳 중 1위)",
-     "value": "1,635원"
-    }
-   ],
-   "source": "공동주택관리정보시스템(K-apt) 2026년 8월 부과분",
-   "date": "2026-10-21"
-  },
-  "size": [
-   760,
-   480
-  ],
-  "bytes": 33980,
-  "at": "2026-11-22 11:27"
- },
- {
-  "name": "gw-calc-dobong-59-1122",
-  "ok": true,
-  "status": null,
-  "title": "blogs/gwanribi/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 16760,
-  "url": "blogs/gwanribi/pages/calculator.md",
-  "at": "2026-11-22 11:27"
- },
- {
   "name": "js-30110-dong",
   "ok": true,
   "chart": {
@@ -5601,5 +5552,62 @@
   ],
   "bytes": 33142,
   "at": "2026-11-28 11:28"
+ },
+ {
+  "name": "js-11560-dong-1128",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11560",
+   "highlight": "당산동4가"
+  },
+  "size": [
+   760,
+   748
+  ],
+  "bytes": 25376,
+  "at": "2026-11-28 12:43"
+ },
+ {
+  "name": "js-dangsan-dong-jeonse-1128-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "compare",
+   "title": "당산동 아파트 전세는 얼마입니까?",
+   "answer": "당산동4가 84㎡ 전세 중앙값은 7억 5,000만 원, 전세가율 46.9%입니다",
+   "compare": {
+    "head": [
+     "구분",
+     "당산동4가",
+     "지번 당산동"
+    ],
+    "rows": [
+     [
+      "84㎡ 전세 중앙값",
+      "7억 5,000만 원",
+      "7억 2,400만 원"
+     ],
+     [
+      "84㎡ 매매 중앙값",
+      "16억 원",
+      "7억 7,000만 원"
+     ],
+     [
+      "동 전세가율",
+      "46.9%",
+      "94.0%"
+     ]
+    ]
+   },
+   "source": "국토교통부 아파트 전월세·매매 실거래가",
+   "date": "2026-11-24"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 29068,
+  "at": "2026-11-28 12:43"
  }
 ]
