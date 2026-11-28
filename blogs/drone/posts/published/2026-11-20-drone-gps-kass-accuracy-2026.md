@@ -1,6 +1,6 @@
 ---
 type: basic
-title: "GPS 드론 위치 오차, 보정 전 15~33m가 KASS로 1~1.6m까지 줄어요"
+title: "GPS 드론 위치 오차 15~33m, KASS 보정하면 1~1.6m"
 slug: "drone-gps-kass-accuracy-2026"
 description: "GPS 드론의 위치 오차는 보정 전 15~33m, 한국형 항공위성서비스(KASS) 보정 뒤 1~1.6m예요. 국토교통부 세 자료의 오차 숫자를 한 표에 놓고 몇 배 줄었는지 나눠 보고, 측량용 상시관측소와 GPS 전파혼신까지 정리했어요."
 labels: [드론 기초]

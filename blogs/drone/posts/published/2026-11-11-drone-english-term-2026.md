@@ -1,6 +1,6 @@
 ---
 type: basic
-title: "드론 영어로, 법령 영문본에는 drone 말고도 이름이 세 개 더 있어요"
+title: "드론 영어로 뭐라고 할까: 법령 영문본 속 이름 4가지"
 slug: "drone-english-term-2026"
 description: "드론은 영어로 drone이지만 법령 영문본은 unmanned aerial vehicle, unmanned aircraft, ultra-light vehicle로도 불러요. 원문과 영문본 용어 7개와 번역 날짜 차이를 맞춰 봤어요."
 labels: [드론 기초]

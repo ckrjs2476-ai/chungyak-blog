@@ -1,6 +1,6 @@
 ---
 type: job
-title: "드론 관제, 국가 FIMS와 민간 USS 두 갈래로 나뉘어요"
+title: "드론 관제는 누가 할까: 국가 FIMS와 민간 USS 두 갈래"
 slug: "drone-traffic-control-utm-2026"
 description: "드론 관제는 공항 관제탑처럼 한 곳이 다 맡는 구조가 아니에요. 항공안전기술원 사업 자료로 국가 FIMS와 민간 USS의 역할, 참여 10곳의 맡은 일, 150m 이하 공역, 2026년 말까지 이어지는 개발 일정을 비교했어요."
 labels: [드론 직업]

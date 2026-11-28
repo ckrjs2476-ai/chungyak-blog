@@ -1,6 +1,6 @@
 ---
 type: basic
-title: "드론 배터리 용량, mAh에 전압을 곱하면 비행기 반입 구간이 보여요"
+title: "드론 배터리 용량 Wh 계산법과 비행기 반입 기준"
 slug: "drone-battery-wh-flight-2026"
 description: "드론 배터리 용량은 mAh보다 Wh로 봐야 비행기 반입 기준과 맞춰 볼 수 있어요. 국토교통부 계산식으로 전압별 100Wh·160Wh 경계 mAh를 표로 만들고, 2025년 3월과 2026년 4월에 바뀐 기준을 나란히 놓았어요."
 labels: [드론 기초]
