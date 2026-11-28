@@ -1,54 +1,5 @@
 [
  {
-  "name": "cy-seongnam-apartment-bunyang-2025-10-2026-09-card",
-  "ok": true,
-  "card": {
-   "blog": "cheongyak",
-   "layout": "points",
-   "title": "성남 분양 아파트, 비쌀수록 더 몰렸나요?",
-   "answer": "가장 비싼 분당하이스트가 1순위 9.09대 1로 가장 낮았어요",
-   "points": [
-    {
-     "label": "더샵 분당하이스트",
-     "value": "8,041만 원 · 9.09대 1"
-    },
-    {
-     "label": "더샵 분당티에르원",
-     "value": "7,156만 원 · 100.45대 1"
-    },
-    {
-     "label": "복정역 에피트",
-     "value": "3,650만 원 · 36.45대 1"
-    },
-    {
-     "label": "분당하이스트 무순위 58세대",
-     "value": "10세대 남음"
-    }
-   ],
-   "source": "청약홈 공고·경쟁률 (3.3㎡당 평균 분양가)",
-   "date": "2026-11-22"
-  },
-  "size": [
-   760,
-   521
-  ],
-  "bytes": 32324,
-  "at": "2026-11-22 09:52"
- },
- {
-  "name": "cy-2026000103-price-1122",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   486
-  ],
-  "bytes": 14824,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000103&pblancNo=2026000103",
-  "at": "2026-11-22 09:52"
- },
- {
   "name": "gw-11320-changdong-jugong4-chart",
   "ok": true,
   "chart": {
@@ -5569,5 +5520,65 @@
   ],
   "bytes": 38574,
   "at": "2026-11-27 23:42"
+ },
+ {
+  "name": "cy-gumi-parkone-desian-cheongyak-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "구미 파크원 데시앙 청약, 몇 세대가 남았나요?",
+   "answer": "1순위 평균 0.62대 1, 2순위까지 1,324세대 중 448세대가 남았어요",
+   "compare": {
+    "head": [
+     "타입",
+     "경쟁률 표 일반공급",
+     "2순위까지 남은 세대"
+    ],
+    "rows": [
+     [
+      "98A",
+      "263세대",
+      "0세대"
+     ],
+     [
+      "98B",
+      "200세대",
+      "192세대"
+     ],
+     [
+      "110㎡",
+      "236세대",
+      "112세대"
+     ],
+     [
+      "84A",
+      "585세대",
+      "110세대"
+     ]
+    ]
+   },
+   "source": "청약홈 경쟁률",
+   "date": "2026-11-28"
+  },
+  "size": [
+   760,
+   476
+  ],
+  "bytes": 27130,
+  "at": "2026-11-28 09:52"
+ },
+ {
+  "name": "cy-2026000536-price-1128",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   265
+  ],
+  "bytes": 9568,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000536&pblancNo=2026000536",
+  "at": "2026-11-28 09:52"
  }
 ]
