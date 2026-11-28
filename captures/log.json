@@ -1,101 +1,5 @@
 [
  {
-  "name": "cy-goyang-apartment-bunyang-2025-09-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "cheongyak",
-   "layout": "compare",
-   "title": "고양 분양 아파트, 3.3㎡당 얼마였나요?",
-   "answer": "공고 6건 중 퍼스트원 2,626만 원이 가장 높고 창릉 S-3 1,967만 원이 가장 낮아요",
-   "compare": {
-    "head": [
-     "단지",
-     "3.3㎡당 평균",
-     "경기 안 순위"
-    ],
-    "rows": [
-     [
-      "한신더휴 퍼스트원 (민영)",
-      "2,626만 원",
-      "38곳 중 10위"
-     ],
-     [
-      "창릉 S-4블록 (공공)",
-      "2,488만 원",
-      "11곳 중 2위"
-     ],
-     [
-      "창릉 우미 린 그레니티 (공공)",
-      "2,289만 원",
-      "16곳 중 4위"
-     ],
-     [
-      "창릉 S-3블록 (공공)",
-      "1,967만 원",
-      "11곳 중 8위"
-     ]
-    ]
-   },
-   "source": "청약홈 공고 (공고일 이전 6개월 경기 비교)",
-   "date": "2026-11-22"
-  },
-  "size": [
-   760,
-   507
-  ],
-  "bytes": 35320,
-  "at": "2026-11-22 18:40"
- },
- {
-  "name": "cy-2026000585-price-1122",
-  "ok": true,
-  "status": 200,
-  "title": "청약홈",
-  "size": [
-   760,
-   210
-  ],
-  "bytes": 8322,
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000585&pblancNo=2026000585",
-  "at": "2026-11-22 18:40"
- },
- {
-  "name": "cy-yeongdeungpo-apartment-bunyang-2026-03-2026-11-card",
-  "ok": true,
-  "card": {
-   "blog": "cheongyak",
-   "layout": "points",
-   "title": "영등포 아파트 분양, 어디에 가장 몰렸나요?",
-   "answer": "신길센트럴시티 취소분이 1순위 282.55대 1로 가장 높았어요",
-   "points": [
-    {
-     "label": "신길센트럴시티 취소분",
-     "value": "5,450만 원 · 282.55대 1"
-    },
-    {
-     "label": "더샵 프리엘라",
-     "value": "5,132만 원 · 89.24대 1"
-    },
-    {
-     "label": "써밋 클라비온",
-     "value": "7,393만 원 · 66.78대 1"
-    },
-    {
-     "label": "신길센트럴시티 3월",
-     "value": "5,501만 원 · 31.86대 1"
-    }
-   ],
-   "source": "청약홈 공고·경쟁률 (3.3㎡당 평균 분양가)",
-   "date": "2026-11-22"
-  },
-  "size": [
-   760,
-   521
-  ],
-  "bytes": 34444,
-  "at": "2026-11-22 18:44"
- },
- {
   "name": "js-41173-dong",
   "ok": true,
   "chart": {
@@ -5614,5 +5518,69 @@
   "bytes": 10936,
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000453&pblancNo=2026000453",
   "at": "2026-11-28 18:44"
+ },
+ {
+  "name": "js-11500-dong-1128",
+  "ok": true,
+  "chart": {
+   "type": "jeonse_dong",
+   "lawd": "11500",
+   "highlight": "염창동"
+  },
+  "size": [
+   760,
+   396
+  ],
+  "bytes": 14168,
+  "at": "2026-11-28 19:50"
+ },
+ {
+  "name": "js-yeomchang-dong-jeonse-1128-card",
+  "ok": true,
+  "card": {
+   "blog": "jeonse",
+   "layout": "points",
+   "title": "염창동 아파트 전세는 얼마입니까?",
+   "answer": "염창동 84㎡ 전세 중앙값은 6억 원, 전세가율은 55.0%입니다",
+   "points": [
+    {
+     "label": "염창동 전세(340건)",
+     "value": "6억 원 · 55.0%"
+    },
+    {
+     "label": "신월동 전세(400건)",
+     "value": "5억 8,000만 원 · 77.3%"
+    },
+    {
+     "label": "목동 전세(420건)",
+     "value": "7억 9,535만 원 · 55.2%"
+    },
+    {
+     "label": "강서구 전체",
+     "value": "55.2% · 145곳 중 123위"
+    }
+   ],
+   "source": "국토교통부 아파트 전월세·매매 실거래가",
+   "date": "2026-11-24"
+  },
+  "size": [
+   760,
+   521
+  ],
+  "bytes": 36144,
+  "at": "2026-11-28 19:50"
+ },
+ {
+  "name": "js-11500-rt-form-1128",
+  "ok": true,
+  "status": 200,
+  "title": "국토교통부 실거래가공개시스템 자료제공",
+  "size": [
+   760,
+   387
+  ],
+  "bytes": 7330,
+  "url": "https://rt.molit.go.kr/pt/xls/xls.do?mobileAt=",
+  "at": "2026-11-28 19:50"
  }
 ]
