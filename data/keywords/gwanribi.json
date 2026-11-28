@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 11:46",
+ "updated": "2026-11-28 11:37",
  "stage": 2,
  "band": [
   300,
@@ -8,7 +8,7 @@
  "keywords": [
   {
    "keyword": "아파트장기수선충당금",
-   "volume": 1120,
+   "volume": 1110,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -20,7 +20,7 @@
   },
   {
    "keyword": "장기수선계획",
-   "volume": 410,
+   "volume": 400,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -32,7 +32,7 @@
   },
   {
    "keyword": "관리비고지서",
-   "volume": 750,
+   "volume": 730,
    "comp": "높음",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -80,7 +80,7 @@
   },
   {
    "keyword": "장기수선충당금",
-   "volume": 12400,
+   "volume": 12300,
    "comp": "중간",
    "entity": "주제 글(우리 단지 데이터로 예시)",
    "entity_id": "topic",
@@ -116,7 +116,7 @@
   },
   {
    "keyword": "관리사무소",
-   "volume": 3090,
+   "volume": 3070,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -475,35 +475,11 @@
    "used": false
   },
   {
-   "keyword": "용산구관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "용산구",
-   "entity_id": "region:11170",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
    "keyword": "중림삼성래미안관리비",
    "volume": 10,
    "comp": "낮음",
    "entity": "중림삼성래미안",
    "entity_id": "A10085902",
-   "base_score": 20.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 20.0,
-   "used": false
-  },
-  {
-   "keyword": "용산구아파트관리비",
-   "volume": 10,
-   "comp": "낮음",
-   "entity": "용산구",
-   "entity_id": "region:11170",
    "base_score": 20.0,
    "growth": 1.0,
    "why": "",
@@ -6536,7 +6512,7 @@
   },
   {
    "keyword": "아파트관리비",
-   "volume": 2880,
+   "volume": 2840,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6548,7 +6524,7 @@
   },
   {
    "keyword": "관리비",
-   "volume": 1370,
+   "volume": 1360,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6560,7 +6536,7 @@
   },
   {
    "keyword": "아파트관리사무소",
-   "volume": 1110,
+   "volume": 1120,
    "comp": "높음",
    "entity": "",
    "entity_id": "",
@@ -6584,7 +6560,7 @@
   },
   {
    "keyword": "래미안첼리투스관리비",
-   "volume": 10,
+   "volume": 15,
    "comp": "중간",
    "entity": "래미안첼리투스",
    "entity_id": "A10027908",
@@ -6620,7 +6596,7 @@
   },
   {
    "keyword": "용산원효루미니관리비",
-   "volume": 15,
+   "volume": 20,
    "comp": "중간",
    "entity": "용산원효루미니",
    "entity_id": "A10023798",
@@ -6648,18 +6624,6 @@
    "comp": "중간",
    "entity": "광진코지웰",
    "entity_id": "A10021996",
-   "base_score": 17.0,
-   "growth": 1.0,
-   "why": "",
-   "score": 17.0,
-   "used": false
-  },
-  {
-   "keyword": "래미안크레시티관리비",
-   "volume": 10,
-   "comp": "중간",
-   "entity": "래미안크레시티",
-   "entity_id": "A13071302",
    "base_score": 17.0,
    "growth": 1.0,
    "why": "",
@@ -6900,6 +6864,30 @@
    "comp": "낮음",
    "entity": "중구",
    "entity_id": "region:11140",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": true
+  },
+  {
+   "keyword": "용산구관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "용산구",
+   "entity_id": "region:11170",
+   "base_score": 20.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 6.0,
+   "used": false
+  },
+  {
+   "keyword": "용산구아파트관리비",
+   "volume": 10,
+   "comp": "낮음",
+   "entity": "용산구",
+   "entity_id": "region:11170",
    "base_score": 20.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -7232,10 +7220,22 @@
   },
   {
    "keyword": "나인원한남관리비",
-   "volume": 130,
+   "volume": 120,
    "comp": "중간",
    "entity": "나인원 한남",
    "entity_id": "A10025192",
+   "base_score": 17.0,
+   "growth": 0.3,
+   "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
+   "score": 5.1,
+   "used": true
+  },
+  {
+   "keyword": "래미안크레시티관리비",
+   "volume": 10,
+   "comp": "중간",
+   "entity": "래미안크레시티",
+   "entity_id": "A13071302",
    "base_score": 17.0,
    "growth": 0.3,
    "why": "같은 대상·같은 의도 글이 이미 있음(서로 경쟁)",
@@ -7436,7 +7436,7 @@
   },
   {
    "keyword": "관리비확인",
-   "volume": 70,
+   "volume": 80,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
@@ -7472,7 +7472,7 @@
   },
   {
    "keyword": "관리비부과",
-   "volume": 50,
+   "volume": 60,
    "comp": "중간",
    "entity": "",
    "entity_id": "",
