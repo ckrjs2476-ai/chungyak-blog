@@ -1,31 +1,5 @@
 [
  {
-  "name": "js-30110-calc-1",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14628,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-22 12:45"
- },
- {
-  "name": "js-30110-calc-2",
-  "ok": true,
-  "status": null,
-  "title": "blogs/jeonse/pages/calculator.md",
-  "size": [
-   760,
-   354
-  ],
-  "bytes": 14638,
-  "url": "blogs/jeonse/pages/calculator.md",
-  "at": "2026-11-22 12:45"
- },
- {
   "name": "js-30110-rt",
   "ok": true,
   "status": 200,
@@ -5596,5 +5570,60 @@
   "bytes": 55396,
   "url": "https://law.go.kr/lsLinkCommonInfo.do?ancYnChk=&chrClsCd=010202&lsJoLnkSeq=1025929301",
   "at": "2026-11-28 14:26"
+ },
+ {
+  "name": "cy-yongin-dongil-highvill-parkvalley-2-bunyangga-2026-11-card",
+  "ok": true,
+  "card": {
+   "blog": "cheongyak",
+   "layout": "compare",
+   "title": "동일하이빌 파크밸리 2단지 분양가는 얼마인가요?",
+   "answer": "84A 최고가 5억 6,800만 원, 특별공급이 661세대 중 572세대예요",
+   "compare": {
+    "head": [
+     "구분",
+     "D1-1블록(8월 공고)",
+     "D1-2블록(11월 공고)"
+    ],
+    "rows": [
+     [
+      "84A 최고 분양가",
+      "5억 3,400만 원",
+      "5억 6,800만 원"
+     ],
+     [
+      "3.3㎡당 평균",
+      "1,644만 원",
+      "1,749만 원"
+     ],
+     [
+      "특별공급 비중",
+      "78%",
+      "87%"
+     ]
+    ]
+   },
+   "source": "청약홈 입주자모집공고",
+   "date": "2026-11-27"
+  },
+  "size": [
+   760,
+   429
+  ],
+  "bytes": 29328,
+  "at": "2026-11-28 18:39"
+ },
+ {
+  "name": "cy-2026000612-special-1128",
+  "ok": true,
+  "status": 200,
+  "title": "청약홈",
+  "size": [
+   760,
+   289
+  ],
+  "bytes": 15162,
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000612&pblancNo=2026000612",
+  "at": "2026-11-28 18:40"
  }
 ]
